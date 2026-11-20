@@ -1,0 +1,2207 @@
+course: IB/markov-chains
+sheet: 1
+baseline: 2025-26
+source_limits:
+- The queue reports that the 2026–27 URL serves the 2025–26 bytes/header; this URL
+  is not a separate edition. The 2022 directory was not archived.
+editions:
+  2025-26:
+    archive: raw/sheets/IB/markov-chains/2025-26/sheet-1.pdf
+    sha256: c25d26a61aba54abdcdf2e6b1d73d63a662455387d7120fbd9331fb97e8f8b81
+    page_count: 2
+    printed_term: Michaelmas 2025
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '2':
+        unit: IB/markov-chains/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+        image_review: Checked fair coin values 0/1, max index k<=n, both Markov and
+          transition-probability requests.
+      '3':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '5':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 747a676267195483162a7ff2ab01e6985e87608710fc3c0c083844475039c7df
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '6':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28cec9735dedf6f0c5ae376271ee9d096331a26b21f1a5d9c9ea24c0616836b0
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '7':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '8':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '9':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2025-26/question.tex
+        question_sha256: cc624e0738496fb2d1add8e2636ee86b2e5943746da06218c4dc678dc6196101
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '10':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 46abe2d92ef40cdefab057c07b1e11d7e701e95c369fb385205f17c61463e55d
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '11':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 1
+        - 2
+        text: variants/2025-26/question.tex
+        question_sha256: bf33a6b8369429477bff8ca6a63db9bc06db9bf1bda6b2bc42c23716fea1c7c0
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: e186ca553d0543749acfa3c9850c86ee0783ba9c3009f60275a4a53b1122f229
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '13':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 5a9d51cbe0aeb5a7e23d9075ec7463891bf361787320aceab2eeb139ceec95d5
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 0fa8dcc6a2289956e3213b0e2291b2f63faf9452c7899c368ed1d13a255ded31
+        2: 3f723844f6b534544e00bb0175f2e03d4da0c92df7172a512e90885b506136a2
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.dpmms.cam.ac.uk/study/IB/MarkovChains/2025-2026/example1.pdf
+    retrieved_at: '2026-11-20T12:45:24.139532+00:00'
+  2024-25:
+    archive: raw/sheets/IB/markov-chains/2024-25/sheet-1.pdf
+    sha256: f2e62712d1ff432b4fedd26829b6289977087c0ca3ce21369660d3ff9759fb4a
+    page_count: 2
+    printed_term: Michaelmas 2024
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '2':
+        unit: IB/markov-chains/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+        image_review: Checked fair coin values 0/1, max index k<=n, both Markov and
+          transition-probability requests.
+      '3':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '5':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 747a676267195483162a7ff2ab01e6985e87608710fc3c0c083844475039c7df
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '6':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28cec9735dedf6f0c5ae376271ee9d096331a26b21f1a5d9c9ea24c0616836b0
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '7':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '8':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '9':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2024-25/question.tex
+        question_sha256: cc624e0738496fb2d1add8e2636ee86b2e5943746da06218c4dc678dc6196101
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '10':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 46abe2d92ef40cdefab057c07b1e11d7e701e95c369fb385205f17c61463e55d
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '11':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 1
+        - 2
+        text: variants/2024-25/question.tex
+        question_sha256: bf33a6b8369429477bff8ca6a63db9bc06db9bf1bda6b2bc42c23716fea1c7c0
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: e186ca553d0543749acfa3c9850c86ee0783ba9c3009f60275a4a53b1122f229
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '13':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 5a9d51cbe0aeb5a7e23d9075ec7463891bf361787320aceab2eeb139ceec95d5
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 5164aaaae25ccf9ab674e2421a848f30c94193da105caca291ec4012238549da
+        2: f183734d525f2ca81d1364bad7f5cd1973c656c2adb0c589c8c2e003bf32903c
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.dpmms.cam.ac.uk/study/IB/MarkovChains/2024-2025/example1.pdf
+    retrieved_at: '2026-11-20T12:45:31.586494+00:00'
+  2023-24:
+    archive: raw/sheets/IB/markov-chains/2023-24/sheet-1.pdf
+    sha256: 410600ba7b87a538cc8344fd4f69f39c3d6319138757f161484f977e525648f3
+    page_count: 2
+    printed_term: Michaelmas 2023
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '2':
+        unit: IB/markov-chains/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+        image_review: Checked fair coin values 0/1, max index k<=n, both Markov and
+          transition-probability requests.
+      '3':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '5':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 747a676267195483162a7ff2ab01e6985e87608710fc3c0c083844475039c7df
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '6':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28cec9735dedf6f0c5ae376271ee9d096331a26b21f1a5d9c9ea24c0616836b0
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '7':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '8':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '9':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2023-24/question.tex
+        question_sha256: cc624e0738496fb2d1add8e2636ee86b2e5943746da06218c4dc678dc6196101
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '10':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 46abe2d92ef40cdefab057c07b1e11d7e701e95c369fb385205f17c61463e55d
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '11':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 1
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: bf33a6b8369429477bff8ca6a63db9bc06db9bf1bda6b2bc42c23716fea1c7c0
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: e186ca553d0543749acfa3c9850c86ee0783ba9c3009f60275a4a53b1122f229
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '13':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 5a9d51cbe0aeb5a7e23d9075ec7463891bf361787320aceab2eeb139ceec95d5
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 2d890897ac6fb7c107cd84bde9673935d72aa15007ebaf0df0bdc2024273ab51
+        2: 6bded56a2b8690d05027170abc454b5c53d5e7fd4379e192348b2da56eaa4b2e
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.dpmms.cam.ac.uk/study/IB/MarkovChains/2023-2024/example1.pdf
+    retrieved_at: '2026-11-20T12:45:38.676272+00:00'
+  2021-22:
+    archive: raw/sheets/IB/markov-chains/2021-22/sheet-1.pdf
+    sha256: 3badfd820b13f55e15f33a4537dad44ac4242d0189a549e028f0a805c9ff3320
+    page_count: 2
+    printed_term: Michaelmas 2021
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '2':
+        unit: IB/markov-chains/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+        image_review: Checked fair coin values 0/1, max index k<=n, both Markov and
+          transition-probability requests.
+      '3':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '5':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 747a676267195483162a7ff2ab01e6985e87608710fc3c0c083844475039c7df
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '6':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28cec9735dedf6f0c5ae376271ee9d096331a26b21f1a5d9c9ea24c0616836b0
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '7':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '8':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '9':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2021-22/question.tex
+        question_sha256: cc624e0738496fb2d1add8e2636ee86b2e5943746da06218c4dc678dc6196101
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '10':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 46abe2d92ef40cdefab057c07b1e11d7e701e95c369fb385205f17c61463e55d
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '11':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 1
+        - 2
+        text: variants/2021-22/question.tex
+        question_sha256: bf33a6b8369429477bff8ca6a63db9bc06db9bf1bda6b2bc42c23716fea1c7c0
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: e186ca553d0543749acfa3c9850c86ee0783ba9c3009f60275a4a53b1122f229
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '13':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 5a9d51cbe0aeb5a7e23d9075ec7463891bf361787320aceab2eeb139ceec95d5
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 94d69eee3b59cd6cdc752d5dbd553baecdd46c54eaa076153fb58fdfab311ec0
+        2: 535f4b944e38db9ce1f27336574daa458313f720739ed6fa307cc9ba76e7dc1f
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.dpmms.cam.ac.uk/study/IB/MarkovChains/2021-2022/example1.pdf
+    retrieved_at: '2026-11-20T12:45:45.945007+00:00'
+  2020-21:
+    archive: raw/sheets/IB/markov-chains/2020-21/sheet-1.pdf
+    sha256: aeb210a473d8a9fb36c8937f0d97abebf4d6281799c79fb67e71c599dd204cde
+    page_count: 2
+    printed_term: Michaelmas 2020
+    questions:
+      '2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '3':
+        unit: IB/markov-chains/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+        image_review: Checked fair coin values 0/1, max index k<=n, both Markov and
+          transition-probability requests.
+      '5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 747a676267195483162a7ff2ab01e6985e87608710fc3c0c083844475039c7df
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28cec9735dedf6f0c5ae376271ee9d096331a26b21f1a5d9c9ea24c0616836b0
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: cc624e0738496fb2d1add8e2636ee86b2e5943746da06218c4dc678dc6196101
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 46abe2d92ef40cdefab057c07b1e11d7e701e95c369fb385205f17c61463e55d
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: bf33a6b8369429477bff8ca6a63db9bc06db9bf1bda6b2bc42c23716fea1c7c0
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: c93536c534255ced26cdaa3a06b46d12c06d7df29e790d6b2077eca943a3185e
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 5d0cd7aaf35ea9028ea5874ff272c330a379a3ed39a2ab74e58784883d63a565
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 3e249cb31bf70f3f0a437a110e388107eb08463f0a9af4caf24a2cc201db4d27
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 44fd3bf185882c2384c4d6b8f5a60177f067075bb8a53f910e5864f15990d4af
+        2: f3a403cbbdb28bbbdf2bec19a9dd8c1fb3a55439377d3e588b32c1544cfa4392
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://cims.nyu.edu/~bauerschmidt/teaching/mc2020/example1.pdf
+    retrieved_at: '2026-11-20T12:45:54.115341+00:00'
+  2019-20:
+    archive: raw/sheets/IB/markov-chains/2019-20/sheet-1.pdf
+    sha256: eb7ccc9851f626593e7391d274b6913820ac521dd2840792439358e19fdbc9dc
+    page_count: 2
+    printed_term: Michaelmas 2019
+    questions:
+      '2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '3':
+        unit: IB/markov-chains/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+        image_review: Checked fair coin values 0/1, max index k<=n, both Markov and
+          transition-probability requests.
+      '5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 747a676267195483162a7ff2ab01e6985e87608710fc3c0c083844475039c7df
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28cec9735dedf6f0c5ae376271ee9d096331a26b21f1a5d9c9ea24c0616836b0
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: cc624e0738496fb2d1add8e2636ee86b2e5943746da06218c4dc678dc6196101
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 46abe2d92ef40cdefab057c07b1e11d7e701e95c369fb385205f17c61463e55d
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: bf33a6b8369429477bff8ca6a63db9bc06db9bf1bda6b2bc42c23716fea1c7c0
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: c93536c534255ced26cdaa3a06b46d12c06d7df29e790d6b2077eca943a3185e
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 5d0cd7aaf35ea9028ea5874ff272c330a379a3ed39a2ab74e58784883d63a565
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 3e249cb31bf70f3f0a437a110e388107eb08463f0a9af4caf24a2cc201db4d27
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: d3b68d4a3d98c352b677a1621f74cfdd83a75acefeba871e82458eff05def025
+        2: 4696646eb35ee4f1b6c976db1f103fe02979c1b03b6a8252074fe698d5447cb3
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.dpmms.cam.ac.uk/study/IB/MarkovChains/2019-2020/example1.pdf
+    retrieved_at: '2026-11-20T12:46:01.332368+00:00'
+  2018-19:
+    archive: raw/sheets/IB/markov-chains/2018-19/sheet-1.pdf
+    sha256: 46ceaf69b85724c47fccd89d0a6e952f2c5aba9c0260533c66fe15caefc9a902
+    page_count: 2
+    printed_term: IB — Michaelmas 2018
+    questions:
+      '1.2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 9e9c75d2b28db1a75f2d1b8e3b8b9f795958f079e170463878d931b5d30c265b
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '1.5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 9cda5c7749e2e8f21d1c97d94836fe0aa613ccc51478b3f7882099f26882d758
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '1.4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: f34798a61fbef2251d57e84141c89196f4c4e81896fca2cc00b2a43435271ae1
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '1.6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 2a1e010c6c516a2910a3ff3efab7a196e708b473e141565acad4491db4ce6588
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '1.7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 454e414bd32de66854d65c7723dea84fc669105a8afc4de497808f684996544d
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '1.8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '1.9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 8d55b2dec1e01e12f4789d8467c4688c57534e54b99a45691396569e675ef980
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '1.10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '1.11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '1.12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 99c3f259fa6889ce75b8b7e9a2015af5a3335e7063baaf04ce6501394b7688f6
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '1.13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: f4183967cac2c83ec8588da000cf2fd0997cebb9e0625ce9f82ef8403933f7f6
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1.14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 83be341e9d561147f10d2388e9ce0789edc92607bbba08c7189f0a68859b7897
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1.1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: a10093d69a98f3d4521b9faf8253d11eb8ffcb1de8ed409ff59cbaf717b053e1
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+      '1.3':
+        unit: IB/markov-chains/sheet-1/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+        image_review: Printed original page image checked. Rechecked “fair die”, first
+          n throws, X rather than an extra symbol M and p_ij(n), including the parentheses.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 5b023e61b80fbd4f057493e5dff97735702ff577d6b4c8051a725374aea3bd7f
+        2: 90b2e1c96b0548d416e45feac13026205a36a35215ea1b5838dfb63373692eda
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~grg1000/teaching/mc18-1.pdf
+    retrieved_at: '2026-11-20T12:46:10.982208+00:00'
+  2017-18:
+    archive: raw/sheets/IB/markov-chains/2017-18/sheet-1.pdf
+    sha256: f065e265ff4601da8239a4f2441a92e94cdf31bbaf76976a85e13634d4d3653a
+    page_count: 2
+    printed_term: IB — Michaelmas 2017
+    questions:
+      '1.2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: 9e9c75d2b28db1a75f2d1b8e3b8b9f795958f079e170463878d931b5d30c265b
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '1.5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: 9cda5c7749e2e8f21d1c97d94836fe0aa613ccc51478b3f7882099f26882d758
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '1.4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: f34798a61fbef2251d57e84141c89196f4c4e81896fca2cc00b2a43435271ae1
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '1.6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: 2a1e010c6c516a2910a3ff3efab7a196e708b473e141565acad4491db4ce6588
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '1.7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: 454e414bd32de66854d65c7723dea84fc669105a8afc4de497808f684996544d
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '1.8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '1.9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 8d55b2dec1e01e12f4789d8467c4688c57534e54b99a45691396569e675ef980
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '1.10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '1.11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '1.12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 99c3f259fa6889ce75b8b7e9a2015af5a3335e7063baaf04ce6501394b7688f6
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '1.13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: f4183967cac2c83ec8588da000cf2fd0997cebb9e0625ce9f82ef8403933f7f6
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1.14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 83be341e9d561147f10d2388e9ce0789edc92607bbba08c7189f0a68859b7897
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1.1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: a10093d69a98f3d4521b9faf8253d11eb8ffcb1de8ed409ff59cbaf717b053e1
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+      '1.3':
+        unit: IB/markov-chains/sheet-1/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+        image_review: Printed original page image checked. Rechecked “fair die”, first
+          n throws, X rather than an extra symbol M and p_ij(n), including the parentheses.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: e9657202759d066b4e24cae64d916fd12354a8125743a7195309297f2edaff90
+        2: 90b2e1c96b0548d416e45feac13026205a36a35215ea1b5838dfb63373692eda
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~grg1000/teaching/mc17-1.pdf
+    retrieved_at: '2026-11-20T12:46:18.851833+00:00'
+  2016-17:
+    archive: raw/sheets/IB/markov-chains/2016-17/sheet-1.pdf
+    sha256: 9ff386b4e736130b31c68e3f0196093dd38a3f2d03596dcb8ab334e7dd8f734d
+    page_count: 2
+    printed_term: IB — Michaelmas 2016
+    questions:
+      '1.2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: 9e9c75d2b28db1a75f2d1b8e3b8b9f795958f079e170463878d931b5d30c265b
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '1.5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: 9cda5c7749e2e8f21d1c97d94836fe0aa613ccc51478b3f7882099f26882d758
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '1.4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: f34798a61fbef2251d57e84141c89196f4c4e81896fca2cc00b2a43435271ae1
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '1.6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: 2a1e010c6c516a2910a3ff3efab7a196e708b473e141565acad4491db4ce6588
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '1.7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: 454e414bd32de66854d65c7723dea84fc669105a8afc4de497808f684996544d
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '1.8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '1.9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 8d55b2dec1e01e12f4789d8467c4688c57534e54b99a45691396569e675ef980
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '1.10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '1.11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '1.12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 99c3f259fa6889ce75b8b7e9a2015af5a3335e7063baaf04ce6501394b7688f6
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '1.13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: f4183967cac2c83ec8588da000cf2fd0997cebb9e0625ce9f82ef8403933f7f6
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1.14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 83be341e9d561147f10d2388e9ce0789edc92607bbba08c7189f0a68859b7897
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1.1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: a10093d69a98f3d4521b9faf8253d11eb8ffcb1de8ed409ff59cbaf717b053e1
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+      '1.3':
+        unit: IB/markov-chains/sheet-1/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+        image_review: Printed original page image checked. Rechecked “fair die”, first
+          n throws, X rather than an extra symbol M and p_ij(n), including the parentheses.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: e95e32798854fd7f585074f34a2b81e6776a74cd2e213c4b68d0f50b4ed9c6dd
+        2: 481f9341a885eb4eddf54547d6a9873883eb52bc0dc750199909eb4d31609cbe
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~grg1000/teaching/mc16-1.pdf
+    retrieved_at: '2026-11-20T12:46:26.321502+00:00'
+  2015-16:
+    archive: raw/sheets/IB/markov-chains/2015-16/sheet-1.pdf
+    sha256: f3c7f7f654e733a5d62912f23ebdde007fb030c51568987fe0886ad5a6f412a6
+    page_count: 2
+    printed_term: IB — Michaelmas 2015
+    questions:
+      '1.2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 9e9c75d2b28db1a75f2d1b8e3b8b9f795958f079e170463878d931b5d30c265b
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '1.5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 9cda5c7749e2e8f21d1c97d94836fe0aa613ccc51478b3f7882099f26882d758
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '1.4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 74da462395206e5f03166ced92d11087f9329192a51dbbc221f62c4a868bec43
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '1.6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 2a1e010c6c516a2910a3ff3efab7a196e708b473e141565acad4491db4ce6588
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '1.7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 454e414bd32de66854d65c7723dea84fc669105a8afc4de497808f684996544d
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '1.8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '1.9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 8d55b2dec1e01e12f4789d8467c4688c57534e54b99a45691396569e675ef980
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '1.10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '1.11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '1.12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 99c3f259fa6889ce75b8b7e9a2015af5a3335e7063baaf04ce6501394b7688f6
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '1.13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: cc34490b5cb73d4ab3f655bc128e949adededd703cd46b79ca608f6bb4407bd0
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1.14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: be4254fa6f955070d442068edf260847ce330608de18edf2c329f2b30f9784ae
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1.1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: a10093d69a98f3d4521b9faf8253d11eb8ffcb1de8ed409ff59cbaf717b053e1
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+      '1.3':
+        unit: IB/markov-chains/sheet-1/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+        image_review: Printed original page image checked. Rechecked “fair die”, first
+          n throws, X rather than an extra symbol M and p_ij(n), including the parentheses.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: b9c1ec907f79abdaab7e31319ab5388ac73a848d3bfe47bf41b150f767393e58
+        2: b0f81acce3c8fa70d02e93375059e8c40f83a5d789380f5ac3ce8b2f3ec71a3a
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~grg1000/teaching/mc15-1.pdf
+    retrieved_at: '2026-11-20T12:46:35.095143+00:00'
+  2014-15:
+    archive: raw/sheets/IB/markov-chains/2014-15/sheet-1.pdf
+    sha256: 4285e9b2b67b9e5a7494db71c7141c64133c8ba649a3aec108af478cdba57316
+    page_count: 2
+    printed_term: IB — Michaelmas 2014
+    questions:
+      '1.2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 9e9c75d2b28db1a75f2d1b8e3b8b9f795958f079e170463878d931b5d30c265b
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '1.5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 9cda5c7749e2e8f21d1c97d94836fe0aa613ccc51478b3f7882099f26882d758
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '1.4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 74da462395206e5f03166ced92d11087f9329192a51dbbc221f62c4a868bec43
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '1.6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 2a1e010c6c516a2910a3ff3efab7a196e708b473e141565acad4491db4ce6588
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '1.7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 454e414bd32de66854d65c7723dea84fc669105a8afc4de497808f684996544d
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '1.8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '1.9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: 8d55b2dec1e01e12f4789d8467c4688c57534e54b99a45691396569e675ef980
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '1.10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '1.11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '1.12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: 99c3f259fa6889ce75b8b7e9a2015af5a3335e7063baaf04ce6501394b7688f6
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '1.13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: cc34490b5cb73d4ab3f655bc128e949adededd703cd46b79ca608f6bb4407bd0
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1.14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: be4254fa6f955070d442068edf260847ce330608de18edf2c329f2b30f9784ae
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1.1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: a10093d69a98f3d4521b9faf8253d11eb8ffcb1de8ed409ff59cbaf717b053e1
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+      '1.3':
+        unit: IB/markov-chains/sheet-1/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+        image_review: Printed original page image checked. Rechecked “fair die”, first
+          n throws, X rather than an extra symbol M and p_ij(n), including the parentheses.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 8c3c1af0e96d911fefede3c62a7ed52795cb8ff204c891912ca54f0bfc4deee2
+        2: b0f81acce3c8fa70d02e93375059e8c40f83a5d789380f5ac3ce8b2f3ec71a3a
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~grg1000/teaching/mc14-1.pdf
+    retrieved_at: '2026-11-20T12:46:41.828471+00:00'
+  2013-14:
+    archive: raw/sheets/IB/markov-chains/2013-14/sheet-1.pdf
+    sha256: 3e4ea9811d4bafb4c5d0a136bd00a5b57090a4fb91bc6469f5fcae8b7c4ca12b
+    page_count: 2
+    printed_term: IB — Michaelmas 2013
+    questions:
+      '1.2':
+        unit: IB/markov-chains/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 9e9c75d2b28db1a75f2d1b8e3b8b9f795958f079e170463878d931b5d30c265b
+        image_review: Checked the complete premise, value-set condition or its absence,
+          and homogeneity question.
+      '1.5':
+        unit: IB/markov-chains/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 9cda5c7749e2e8f21d1c97d94836fe0aa613ccc51478b3f7882099f26882d758
+        image_review: Checked the increasing positive integer sequence, inhomogeneity
+          qualifier, n_r=2r and random-walk task; preserved matrix/probabilities wording.
+      '1.4':
+        unit: IB/markov-chains/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 74da462395206e5f03166ced92d11087f9329192a51dbbc221f62c4a868bec43
+        image_review: Checked Harder/asymmetry qualifiers year by year, the definition
+          of S and S_0, absolute value, maximum index limits and both transformed
+          chains.
+      '1.6':
+        unit: IB/markov-chains/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 2a1e010c6c516a2910a3ff3efab7a196e708b473e141565acad4491db4ce6588
+        image_review: Checked the integer state space, sequence notation, question
+          mark/full stop and the final Explain/Justify sentence.
+      '1.7':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 454e414bd32de66854d65c7723dea84fc669105a8afc4de497808f684996544d
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '1.8':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a63d9b0dbcbc8471aaa068f2477352df54ec0d3de63d9d1e52a8b8604a3ba1f9
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '1.9':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: 8d55b2dec1e01e12f4789d8467c4688c57534e54b99a45691396569e675ef980
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '1.10':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '1.11':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '1.12':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: 99c3f259fa6889ce75b8b7e9a2015af5a3335e7063baaf04ce6501394b7688f6
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '1.13':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: cc34490b5cb73d4ab3f655bc128e949adededd703cd46b79ca608f6bb4407bd0
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1.14':
+        unit: IB/markov-chains/sheet-1/q13
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: be4254fa6f955070d442068edf260847ce330608de18edf2c329f2b30f9784ae
+        image_review: Checked Optional, i.i.d. wording, probability/expectation typography
+          and delimiters, the presence/absence of the plus immediately before Y_n,
+          H_0, both increment laws and cubic.
+      '1.1':
+        unit: IB/markov-chains/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: a10093d69a98f3d4521b9faf8253d11eb8ffcb1de8ed409ff59cbaf717b053e1
+        image_review: Printed original page image checked. Rechecked X_m=i, n+m versus
+          m+k, starting state i and the absence of a claim about arbitrary subsequences.
+      '1.3':
+        unit: IB/markov-chains/sheet-1/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+        image_review: Printed original page image checked. Rechecked “fair die”, first
+          n throws, X rather than an extra symbol M and p_ij(n), including the parentheses.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 6755d793b4fbc2c7413ffbdcd2f73dbf376d275dec900bc69dec99cf6b8175ce
+        2: ae380bd439d611cc72c2e4ed6b3c795f245dcfed52cf5069af254dd39fd8dec0
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~grg1000/teaching/mc13-1.pdf
+    retrieved_at: '2026-11-20T12:46:48.736607+00:00'
+  2012-13:
+    archive: raw/sheets/IB/markov-chains/2012-13/sheet-1.pdf
+    sha256: 76b47082043233d801d58912b2861e914d53cb3ca662f90eb55f2971716a7252
+    page_count: 3
+    printed_term: Michaelmas Term 2012
+    questions:
+      '5':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: db35839bce8f6e6b1e7f20eaf8d2a0dd09752fb3611cc8c456ae38868d83d9ee
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '6':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: baf4e7b9ae6119bc0ad650c387fcdaf971183e19b9f724a8d2ffefc49cecd79b
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '7':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: 9076a9278caa3b17b26bc68ef7e3ac6312b6bc2f1114d0f7554f3449847507f6
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '8':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: afc439382954c96b48d15afba80edc307ae03a2c57dc36a522752e5890888e68
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '9':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2012-13/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '10':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 1d9548db4afbe77af68f88fc3f260f5c30de3644f3979ba249401bf2c6eead21
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2012-13/question.tex
+        question_sha256: 4ac1410b1be25c438b8a2cf2a9baf840841404be414fe6623d216fae3730c44a
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1':
+        unit: IB/markov-chains/sheet-1/qx03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 0a2fe9e3be4fcb7b3f36a8f733b0964a0488adecd1eacbc77b48fa3c838282d3
+        image_review: Printed original page image checked. Rechecked the union from
+          n=1 to infinity, Ω, the same p for all n, both implications via equivalence
+          (a)/(b) and the P typeface.
+      '2':
+        unit: IB/markov-chains/sheet-1/qx04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 80748d0315a4578219f728c2c2131aa990f65826a1839ef8d6aff6fb0b94cfa4
+        image_review: Printed original page image checked. Rechecked time index kn,
+          indexing from zero and the exponent k on the transition matrix.
+      '3':
+        unit: IB/markov-chains/sheet-1/qx05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f492cca9e9c778bd3779ece5a3f9fb8b9f932766d70641d07546e0d905774008
+        image_review: Printed original page image checked. Rechecked countability,
+          [0,1], domain/codomain, all indices of the recursion, “realized”, and both
+          final questions.
+      '4':
+        unit: IB/markov-chains/sheet-1/qx06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 951957bbc0bb0828ca99e2a65329cf41a23a03b40706ae4921449e6368a952d3
+        image_review: Printed original page image checked. Rechecked Z_0 versus the
+          sum starting at Z_1, all four candidate processes, the ordered pair, the
+          state-space and kernel requests, and k as the varying history value.
+      '11':
+        unit: IB/markov-chains/sheet-1/qx07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f8bcd00bbaf8209dbc395697881487a10b2c27f09251f6348cea824fb6803e71
+        image_review: Printed original page image checked. Reviewed all nine labels,
+          START and FINISH, ladders 2→7 and 3→5, and snakes 6→1 and 8→4. The figure
+          was cropped from the original, with its placement restored as printed.
+      '13':
+        unit: IB/markov-chains/sheet-1/qx08
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: bbdaf9b4475c166eec9c56d268de6f1e2d70a10fbe3d761de236a47c81e2f398
+        image_review: Printed original page image checked. At extra magnification,
+          checked the unmatched closing parenthesis in the numerator of (a), the order
+          pqp in (b), p<q, the £3 exception in (d), the Q10 preamble and the Dubins–Savage
+          historical paragraph in full.
+      '14':
+        unit: IB/markov-chains/sheet-1/qx09
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 678e99186fdbf5f65dccdee5bda784baffe46f1e15d5d8d7939bf518ae8ea09e
+        image_review: Printed original page image checked. Rechecked n_i≥1, transfer
+          from every other player, first bankruptcy, the complete denominator n_1+n_2+n_3−2
+          and the open-ended final question.
+      '15':
+        unit: IB/markov-chains/sheet-1/qx10
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: b86667202872ac87b84651eaa67d5d0e8af296ed1988370d642b788ffa745c05
+        image_review: Printed original page image checked. Rechecked the barred graph,
+          direction of the supplied implication, the starting vertex i, hexagons,
+          and the final diagram hint. All dark vertices and the complete dashed grid
+          are visible in the crop.
+      '16':
+        unit: IB/markov-chains/sheet-1/qx11
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 770deaa1fadbc3a7525fe7e68d5ab6ad94f9e745f0fa686951085e5f65db5067
+        image_review: Printed original page image checked. Rechecked the labels 1
+          through m, pedestrian counts indexed 1 through n, the order and exchange
+          rule, both subparts and the parenthetical final sentence.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: d01cd9f2d8b09123d4ce18c938985d8a6cc3a6d26dd588520a0f8b6af91f5571
+        2: 596968bdbed2cd7023170513976f15208f1826dc17063d9097bbbb8d62e21419
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://www.statslab.cam.ac.uk/~rrw1/markov/exmarkov1.pdf
+    retrieved_at: '2026-11-20T12:46:59.118325+00:00'
+  2011-12:
+    archive: raw/sheets/IB/markov-chains/2011-12/sheet-1.pdf
+    sha256: d39cb01f629f19ad015916b9c39f9cdc8399cd402489d41815af8d03f14fe191
+    page_count: 3
+    printed_term: Michaelmas Term 2011
+    questions:
+      '5':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: db35839bce8f6e6b1e7f20eaf8d2a0dd09752fb3611cc8c456ae38868d83d9ee
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '6':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: baf4e7b9ae6119bc0ad650c387fcdaf971183e19b9f724a8d2ffefc49cecd79b
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '7':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: 9076a9278caa3b17b26bc68ef7e3ac6312b6bc2f1114d0f7554f3449847507f6
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '8':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: afc439382954c96b48d15afba80edc307ae03a2c57dc36a522752e5890888e68
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '9':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2011-12/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '10':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 1d9548db4afbe77af68f88fc3f260f5c30de3644f3979ba249401bf2c6eead21
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 2
+        text: variants/2011-12/question.tex
+        question_sha256: 4ac1410b1be25c438b8a2cf2a9baf840841404be414fe6623d216fae3730c44a
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1':
+        unit: IB/markov-chains/sheet-1/qx03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 0a2fe9e3be4fcb7b3f36a8f733b0964a0488adecd1eacbc77b48fa3c838282d3
+        image_review: Printed original page image checked. Rechecked the union from
+          n=1 to infinity, Ω, the same p for all n, both implications via equivalence
+          (a)/(b) and the P typeface.
+      '2':
+        unit: IB/markov-chains/sheet-1/qx04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 80748d0315a4578219f728c2c2131aa990f65826a1839ef8d6aff6fb0b94cfa4
+        image_review: Printed original page image checked. Rechecked time index kn,
+          indexing from zero and the exponent k on the transition matrix.
+      '3':
+        unit: IB/markov-chains/sheet-1/qx05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f492cca9e9c778bd3779ece5a3f9fb8b9f932766d70641d07546e0d905774008
+        image_review: Printed original page image checked. Rechecked countability,
+          [0,1], domain/codomain, all indices of the recursion, “realized”, and both
+          final questions.
+      '4':
+        unit: IB/markov-chains/sheet-1/qx06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 951957bbc0bb0828ca99e2a65329cf41a23a03b40706ae4921449e6368a952d3
+        image_review: Printed original page image checked. Rechecked Z_0 versus the
+          sum starting at Z_1, all four candidate processes, the ordered pair, the
+          state-space and kernel requests, and k as the varying history value.
+      '11':
+        unit: IB/markov-chains/sheet-1/qx07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f8bcd00bbaf8209dbc395697881487a10b2c27f09251f6348cea824fb6803e71
+        image_review: Printed original page image checked. Reviewed all nine labels,
+          START and FINISH, ladders 2→7 and 3→5, and snakes 6→1 and 8→4. The figure
+          was cropped from the original, with its placement restored as printed.
+      '13':
+        unit: IB/markov-chains/sheet-1/qx08
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: bbdaf9b4475c166eec9c56d268de6f1e2d70a10fbe3d761de236a47c81e2f398
+        image_review: Printed original page image checked. At extra magnification,
+          checked the unmatched closing parenthesis in the numerator of (a), the order
+          pqp in (b), p<q, the £3 exception in (d), the Q10 preamble and the Dubins–Savage
+          historical paragraph in full.
+      '14':
+        unit: IB/markov-chains/sheet-1/qx09
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 678e99186fdbf5f65dccdee5bda784baffe46f1e15d5d8d7939bf518ae8ea09e
+        image_review: Printed original page image checked. Rechecked n_i≥1, transfer
+          from every other player, first bankruptcy, the complete denominator n_1+n_2+n_3−2
+          and the open-ended final question.
+      '15':
+        unit: IB/markov-chains/sheet-1/qx10
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: b86667202872ac87b84651eaa67d5d0e8af296ed1988370d642b788ffa745c05
+        image_review: Printed original page image checked. Rechecked the barred graph,
+          direction of the supplied implication, the starting vertex i, hexagons,
+          and the final diagram hint. All dark vertices and the complete dashed grid
+          are visible in the crop.
+      '16':
+        unit: IB/markov-chains/sheet-1/qx11
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 770deaa1fadbc3a7525fe7e68d5ab6ad94f9e745f0fa686951085e5f65db5067
+        image_review: Printed original page image checked. Rechecked the labels 1
+          through m, pedestrian counts indexed 1 through n, the order and exchange
+          rule, both subparts and the parenthetical final sentence.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 3b1f2ab1b0181bdb8939724f941fac4914ebb78295505347c84ebc8a432b1271
+        2: 596968bdbed2cd7023170513976f15208f1826dc17063d9097bbbb8d62e21419
+    page_image_scope:
+    - 1
+    - 2
+    source_url: https://web.archive.org/web/20120130183003id_/http://www.statslab.cam.ac.uk/~rrw1/markov/exmarkov1.pdf
+    retrieved_at: '2026-11-20T12:47:07.650313+00:00'
+  2010-11:
+    archive: raw/sheets/IB/markov-chains/2010-11/sheet-1.pdf
+    sha256: d50e8c81d6968ff915156097569ece09e84d0b9590e19c768609984109760a1d
+    page_count: 3
+    printed_term: Michaelmas Term 2010
+    questions:
+      '5':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2010-11/question.tex
+        question_sha256: e9e0231764cd9780480f50e3302dfcd71512ddd5bd11b356734b8551068aeabd
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '6':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: bab185db091c18f643c89e025e1383cdd62251ccd7e20050d8ef969eadb792fe
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '7':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: 01800928db85ff9781105cbfbd047a4c6bc7ee8a81775de0c93a6ef8887cbf78
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '8':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '9':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '10':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: 53934e333eba457a19c0b5ab8b54ed908c9d32cabae0ece177bd1a528059d79a
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 3
+        text: variants/2010-11/question.tex
+        question_sha256: 4ac1410b1be25c438b8a2cf2a9baf840841404be414fe6623d216fae3730c44a
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1':
+        unit: IB/markov-chains/sheet-1/qx03
+        pages:
+        - 1
+        text: variants/2010-11/question.tex
+        question_sha256: 08243633236a6acc21d18589859895fb46dd0e8e9dd1ea9f83ea4ef18eee8e11
+        image_review: Printed original page image checked. Rechecked the union from
+          n=1 to infinity, Ω, the same p for all n, both implications via equivalence
+          (a)/(b) and the P typeface.
+      '2':
+        unit: IB/markov-chains/sheet-1/qx04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 80748d0315a4578219f728c2c2131aa990f65826a1839ef8d6aff6fb0b94cfa4
+        image_review: Printed original page image checked. Rechecked time index kn,
+          indexing from zero and the exponent k on the transition matrix.
+      '3':
+        unit: IB/markov-chains/sheet-1/qx05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f492cca9e9c778bd3779ece5a3f9fb8b9f932766d70641d07546e0d905774008
+        image_review: Printed original page image checked. Rechecked countability,
+          [0,1], domain/codomain, all indices of the recursion, “realized”, and both
+          final questions.
+      '4':
+        unit: IB/markov-chains/sheet-1/qx06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 951957bbc0bb0828ca99e2a65329cf41a23a03b40706ae4921449e6368a952d3
+        image_review: Printed original page image checked. Rechecked Z_0 versus the
+          sum starting at Z_1, all four candidate processes, the ordered pair, the
+          state-space and kernel requests, and k as the varying history value.
+      '11':
+        unit: IB/markov-chains/sheet-1/qx07
+        pages:
+        - 3
+        text: variants/2010-11/question.tex
+        question_sha256: f55d03e91afce0897f3bbf447aa1f9f5bb0548d1e4e4304d805aea5a23e4c395
+        image_review: Printed original page image checked. Reviewed all nine labels,
+          START and FINISH, ladders 2→7 and 3→5, and snakes 6→1 and 8→4. The figure
+          was cropped from the original, with its placement restored as printed.
+      '13':
+        unit: IB/markov-chains/sheet-1/qx12
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: a7a7d5bfa4994af0f1605c47d505eff32c005faabbc5b9e4cc40ea7f8e4ca800
+        image_review: Printed original page image checked. Rechecked the literal “Example
+          8” and both state types, and traced same-edition Q8 to its printed five-by-five
+          matrix. Kept the separately numbered question intact.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: fb2befac51fbb68151a713a56e32ff1f0ce03473d51439d8ac89dae3d54694a0
+        2: 7b5fbbf2353aaa1695ec023477bc23d09ee600d42c2e0daf5d606fb8a83ab2f4
+        3: 7b696883aef24d185ef411772b737bd7a6bec506462dae3b896ab8c14a959485
+    page_image_scope:
+    - 1
+    - 2
+    - 3
+    source_url: https://www.statslab.cam.ac.uk/~frank/MARKOV/ex1.pdf
+    retrieved_at: '2026-11-20T12:47:17.378436+00:00'
+  2006-07:
+    archive: raw/sheets/IB/markov-chains/2006-07/sheet-1.pdf
+    sha256: 6a2bd376e8bc33aa16ba4453098cbd981671c912eed73b5a7ac9a508866063fc
+    page_count: 3
+    printed_term: Michaelmas Term 2006
+    questions:
+      '5':
+        unit: IB/markov-chains/sheet-1/q06
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: e9e0231764cd9780480f50e3302dfcd71512ddd5bd11b356734b8551068aeabd
+        image_review: Checked both flea paragraphs, equal-probability wording, to/of
+          wording, anti-clockwise spelling, complete complex exponential hint and
+          its final punctuation.
+      '6':
+        unit: IB/markov-chains/sheet-1/q07
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: bab185db091c18f643c89e025e1383cdd62251ccd7e20050d8ef969eadb792fe
+        image_review: Checked previous/preceding wording, n versus n+1, p versus p_66^(n+1),
+          target j versus 1, and presence/absence of the second die and hint.
+      '7':
+        unit: IB/markov-chains/sheet-1/q08
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 01800928db85ff9781105cbfbd047a4c6bc7ee8a81775de0c93a6ef8887cbf78
+        image_review: Checked all nine matrix entries, round/square delimiters, P
+          versus blackboard P, event brackets, case wording, all three parameter values
+          and the star on (c).
+      '8':
+        unit: IB/markov-chains/sheet-1/q09
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 7e6773a410250e1990dc0fdc0aed5c46bfe699300c9832c3072b8e2604bb440c
+        image_review: Checked all 25 matrix entries, delimiters and every question
+          after the matrix; 2011-13 additionally contains labelled recurrence/transience
+          part (b).
+      '9':
+        unit: IB/markov-chains/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: ca923cd2864f8077c8809ac049d87a8f5139dc3e03ea51e56b652303a8a315bb
+        image_review: Checked the complete finite-space theorem and example request,
+          including state-space hyphenation.
+      '10':
+        unit: IB/markov-chains/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 53934e333eba457a19c0b5ab8b54ed908c9d32cabae0ece177bd1a528059d79a
+        image_review: Checked all monetary values, pronouns, stake/stage/stakes/stages/probabilty
+          spellings, X notation and initial value, success probability and every expected-time
+          task; 2011-13 conditional-success subquestion and hint retained.
+      '12':
+        unit: IB/markov-chains/sheet-1/q12
+        pages:
+        - 3
+        text: variants/2006-07/question.tex
+        question_sha256: 4ac1410b1be25c438b8a2cf2a9baf840841404be414fe6623d216fae3730c44a
+        image_review: Checked Optional year by year, sequence notation, commas or
+          their absence in probability indices, all three formulas, index parentheses,
+          then or its absence, survival event and 6/pi^2.
+      '1':
+        unit: IB/markov-chains/sheet-1/qx03
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 08243633236a6acc21d18589859895fb46dd0e8e9dd1ea9f83ea4ef18eee8e11
+        image_review: Printed original page image checked. Rechecked the union from
+          n=1 to infinity, Ω, the same p for all n, both implications via equivalence
+          (a)/(b) and the P typeface.
+      '2':
+        unit: IB/markov-chains/sheet-1/qx04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 80748d0315a4578219f728c2c2131aa990f65826a1839ef8d6aff6fb0b94cfa4
+        image_review: Printed original page image checked. Rechecked time index kn,
+          indexing from zero and the exponent k on the transition matrix.
+      '3':
+        unit: IB/markov-chains/sheet-1/qx05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f492cca9e9c778bd3779ece5a3f9fb8b9f932766d70641d07546e0d905774008
+        image_review: Printed original page image checked. Rechecked countability,
+          [0,1], domain/codomain, all indices of the recursion, “realized”, and both
+          final questions.
+      '4':
+        unit: IB/markov-chains/sheet-1/qx06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 951957bbc0bb0828ca99e2a65329cf41a23a03b40706ae4921449e6368a952d3
+        image_review: Printed original page image checked. Rechecked Z_0 versus the
+          sum starting at Z_1, all four candidate processes, the ordered pair, the
+          state-space and kernel requests, and k as the varying history value.
+      '11':
+        unit: IB/markov-chains/sheet-1/qx07
+        pages:
+        - 3
+        text: variants/2006-07/question.tex
+        question_sha256: fef1c8f246f55c20afe5779116378a9cee38c5530b7e0cedd477c368cf944f4b
+        image_review: Printed original page image checked. Reviewed all nine labels,
+          START and FINISH, ladders 2→7 and 3→5, and snakes 6→1 and 8→4. The figure
+          was cropped from the original, with its placement restored as printed.
+      '13':
+        unit: IB/markov-chains/sheet-1/qx12
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: a7a7d5bfa4994af0f1605c47d505eff32c005faabbc5b9e4cc40ea7f8e4ca800
+        image_review: Printed original page image checked. Rechecked the literal “Example
+          8” and both state types, and traced same-edition Q8 to its printed five-by-five
+          matrix. Kept the separately numbered question intact.
+      '14':
+        unit: IB/markov-chains/sheet-1/qx13
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: c173428bd5f7dab0c9fff7d2b724d2fa14b9850cc9271fd55dc7c832f298f28d
+        image_review: Printed original page image checked. Rechecked F_0,F_1, the
+          order of both pair coordinates, first return to zero, both endpoint pairs
+          and the sign, radical and denominator in (3−√5)/2. The requested flow diagram
+          is for the student to draw.
+    validated_pdf_render:
+      renderer: pdftoppm
+      dpi: 165
+      page_png_sha256:
+        1: 9691f3bd2da551a6c7dc6e08a3abb9ed073cd48bafceb36685310edf442ff906
+        2: d4d19a607a5a379ce8f7dff31aff700e2a36630a3b498038c32dca4fae0c7b34
+        3: a62aef08da9590b7e870cbe8368abb2c198b249ef06cef3036480a02313f2f06
+    page_image_scope:
+    - 1
+    - 2
+    - 3
+    source_url: https://web.archive.org/web/20070331190819id_/http://www.statslab.cam.ac.uk:80/~frank/MARKOV/ex1.pdf
+    retrieved_at: '2026-11-20T12:47:25.076384+00:00'

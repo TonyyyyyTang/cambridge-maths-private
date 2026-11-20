@@ -1,0 +1,256 @@
+scope: IB/markov-chains/sheet-1 historical union; this audit covers the sheet, not
+  the course
+audit_date: '2026-11-20'
+auditor: Fresh independent solver who did not write the canonical solutions
+selection:
+  population: 26
+  sample_size: 6
+  sample_fraction: 6/26
+  seed: 20261125
+  algorithm: random.Random(20261125).sample(sorted([f"q{i:02d}" for i in range(1,14)]
+    + [f"qx{i:02d}" for i in range(1,14)]), 6)
+  ordered_sample:
+  - q01
+  - q11
+  - qx02
+  - qx05
+  - q08
+  - q02
+blindness:
+  procedure: Opened only the six questions before deriving the answers. Froze the
+    independent text read-only and hashed it before inspecting the solutions, evidence
+    or original pages.
+  frozen_rework_sha256: 4ddcb00c310c37329aa740942a767ceee643e544fd75a2f992dec9006beacaf1
+source_review: Confirmed the six canonical transcriptions against four full original
+  page images at 139 dpi. Also compared representative noncanonical versions across
+  the 2010, 2012, 2018 and 2025 printings. Inspected all nine sampled output pages
+  visually at 108 dpi. Private storage fetch completed before opening archived pages.
+substantive_solution_errors:
+  numerator: 0
+  denominator: 6
+minor_mathematical_or_transcription_errors:
+  numerator: 0
+  denominator: 6
+minor_presentation_findings:
+  numerator: 1
+  denominator: 6
+  question: q11
+  note: In the inspected sheet PDF the solution fits on page 14 and its open-issue
+    note and source URL fall alone on page 15. The mathematical displays and source
+    are fully readable. This is a pagination observation only.
+computer_evidence_followup:
+  units_initially_pending:
+  - q11
+  - qx02
+  - qx05
+  count_at_first_read: 3/6
+  count_outstanding: 0/6
+  resolution: All six scripts executed independently. The standard verification pass
+    subsequently populated the three pending records; the auditor checked the final
+    script and source hashes.
+mathematical_repairs_required: []
+official_comparison: Pending; independent audit leaves all six at ai-draft.
+units:
+- unit: q01
+  canonical_year: 2025-26
+  printed_question: '1'
+  archive: private/raw/sheets/IB/markov-chains/2025-26/sheet-1.pdf
+  archive_sha256: c25d26a61aba54abdcdf2e6b1d73d63a662455387d7120fbd9331fb97e8f8b81
+  canonical_pages:
+  - 1
+  inspected_built_pages:
+  - 1
+  - 2
+  question_sha256: b1b558f1b8060eeccab632bbf9fc9bc969058069b86531c3d3a1f68268f1829e
+  solution_sha256: 8b688843af59680bde996655014a258f54fe2bc0931b188887ff935ed7e7bfe7
+  checked_script_sha256: 10313dfb62b78969d46368b88f21371cf54044576e00d0ad72ca3eabe86e75c8
+  conclusion: The common-kernel criterion respects histories of probability zero.
+    A deterministic alternation confirms that common future marginal laws need not
+    be necessary. The 2018 countable-state variant is covered.
+- unit: q11
+  canonical_year: 2012-13
+  printed_question: '10'
+  archive: private/raw/sheets/IB/markov-chains/2012-13/sheet-1.pdf
+  archive_sha256: 76b47082043233d801d58912b2861e914d53cb3ca662f90eb55f2971716a7252
+  canonical_pages:
+  - 2
+  inspected_built_pages:
+  - 14
+  - 15
+  question_sha256: 1d9548db4afbe77af68f88fc3f260f5c30de3644f3979ba249401bf2c6eead21
+  solution_sha256: 80d1ba3945596edca73bd3301eafea92808ca84655d04ae3f2a857e034cb0635
+  checked_script_sha256: ca3cd2c1bc8a528ae855ddabae073708fc79662c193d003c0c6fdbbd7586e9bb
+  conclusion: The 2012 original Q10 has both duration tasks, including the conditional
+    duration and its hint. The 2025 Q11 runs across two source pages and asks only
+    for the unconditional duration. The absorbing cycle gives 1/5, 2 and 18/5. The
+    independent finite absorbing-matrix check confirms the conditional expectation.
+- unit: qx02
+  canonical_year: 2018-19
+  printed_question: '1.3'
+  archive: private/raw/sheets/IB/markov-chains/2018-19/sheet-1.pdf
+  archive_sha256: 46ceaf69b85724c47fccd89d0a6e952f2c5aba9c0260533c66fe15caefc9a902
+  canonical_pages:
+  - 1
+  inspected_built_pages:
+  - 19
+  question_sha256: 6ea6ce3cfdab865c4015e490d95ad5886d3bd5121b58c373fd6570751136671a
+  solution_sha256: cb5bd7977281cff1216d82c822eaa2d68511c67c96d9cec8470c8e1d10a18e8f
+  checked_script_sha256: a669d00d041ea95f2c93349a75f789289f8661132b5bb9cebd509407b95eda81
+  conclusion: Original 2018 Q1.3 asks for p_ij(n) for a maximum of fair die rolls.
+    The one- and multistep kernels, diagonal, n=0 and absorbing face 6 agree. Direct
+    enumeration covers 180 entries.
+- unit: qx05
+  canonical_year: 2012-13
+  printed_question: '3'
+  archive: private/raw/sheets/IB/markov-chains/2012-13/sheet-1.pdf
+  archive_sha256: 76b47082043233d801d58912b2861e914d53cb3ca662f90eb55f2971716a7252
+  canonical_pages:
+  - 1
+  inspected_built_pages:
+  - 22
+  question_sha256: f492cca9e9c778bd3779ece5a3f9fb8b9f932766d70641d07546e0d905774008
+  solution_sha256: 4b7c7c9c2b1c6ceffe66e82aa544295778895bd9958cdab9c4b93299892b292d
+  checked_script_sha256: 9bd99053dea16efaa9d5674c8a393f5407204639c3f65f15633c8e17eac3c248
+  conclusion: Original 2012 Q3 omits independence of the starting state from the uniforms.
+    Both the canonical example and the independent three-state counterexample violate
+    the Markov property for the printed hypotheses. The corrected construction covers
+    countable homogeneous chains in law, measurable sections, zero entries, the null
+    endpoint and simulation.
+- unit: q08
+  canonical_year: 2025-26
+  printed_question: '8'
+  archive: private/raw/sheets/IB/markov-chains/2025-26/sheet-1.pdf
+  archive_sha256: c25d26a61aba54abdcdf2e6b1d73d63a662455387d7120fbd9331fb97e8f8b81
+  canonical_pages:
+  - 1
+  inspected_built_pages:
+  - 10
+  - 11
+  question_sha256: af0fd78826fabe534042d684d90ecd8fc793b7fa61cb8751f237b756bce97d4b
+  solution_sha256: 598cb24c6ff4307c7065cb18a9753be484a88ca0f14a281dd70419da252d4579
+  checked_script_sha256: 58788b3fd38d783167c18fcec892969241436d0f02ecccd2f802b3b0e3d5cf96
+  conclusion: The matrix, case order and 2025 star agree. The affine two-step recurrence
+    independently yields every coefficient of the real, complex and repeated-root
+    answers. The exact checks include the first possible return and all 93 direct
+    matrix-power comparisons. The 2012 and 2010 cases have no star.
+- unit: q02
+  canonical_year: 2025-26
+  printed_question: '2'
+  archive: private/raw/sheets/IB/markov-chains/2025-26/sheet-1.pdf
+  archive_sha256: c25d26a61aba54abdcdf2e6b1d73d63a662455387d7120fbd9331fb97e8f8b81
+  canonical_pages:
+  - 1
+  inspected_built_pages:
+  - 3
+  question_sha256: 5ec969befb110c6e2fb180034edd3108b14114cf5acdccb6927ce54b352d2832
+  solution_sha256: bee4b3974646e02a369e266a5a0bd37dbcb34daa6335fefd0aa42fe852c6999c
+  checked_script_sha256: 1e312ea64de1b0259557e43ad76000e525802e753bc1b6a893b385a2a6608ab8
+  conclusion: The fair independent toss interpretation gives rows (1/2,1/2) and (0,1).
+    The marginal law uses n+1 tosses at time n. The source says fair tosses; the canonical
+    explanation also covers the ambiguity if one only assumes marginal fairness.
+frozen_rework_text: '# Independent rework, Markov Chains Sheet 1 historical union
+
+  Seed 20261125; Python random.Random(seed).sample(sorted(q01,...,q13,qx01,...,qx13),6)
+  gave q01, q11, qx02, qx05, q08, q02. Only the six question.tex fragments were opened
+  before writing this document. The random experiment uses fair independent tosses/throws.
+
+
+  ## q01
+
+  Let mu_t denote the law at time t. For every positive-probability history through
+  time t, mutual independence gives P(X_{t+1}=j | history)=mu_{t+1}(j), a function
+  of (in fact independent of) X_t. This is the Markov property. On a countable state
+  space the precise necessary and sufficient condition for a time-independent kernel
+  on feasible events is: whenever x has positive mass at both times s and t, mu_{s+1}=mu_{t+1}.
+  Indeed each occurrence of x forces its one transition row to be that law. Conversely
+  define the row from any such occurrence and fill unvisited rows arbitrarily. A common
+  law for all variables from time 1 onward suffices and is necessary if all inputs
+  have a common possible state (e.g. full support). If one fixes the canonical all-rows-equal
+  kernels at every time, they coincide exactly when the successive laws from time
+  1 onwards coincide. Different initial law allowed. Deterministic strictly increasing
+  states give an independent time-homogeneous chain even with differing marginals.
+  For arbitrary measurable spaces the conditional kernel criterion is existence of
+  K(x,.)=mu_{t+1} for mu_t-almost every x for each t, with equalities interpreted
+  in the usual kernel sense.
+
+
+  ## q11
+
+  Write T for absorption; the four transient states recur along 2,4,8,6,2. Each nonabsorbing
+  step is a unique coin outcome of probability 1/2. From 2 or 4 the alternative ends
+  at 0, and from 8 or 6 it ends at 10. Thus P(T>n)=2^{-n}, giving almost-sure absorption
+  and ET=sum_{n>=0}2^{-n}=2. For k>=0 the success probabilities at 4k+3 and 4k+4 are
+  16^{-k}/8 and 16^{-k}/16. These disjoint events give (1/8+1/16)/(1-1/16)=1/5. On
+  success the number of complete cycles before the final one has geometric failures
+  law (15/16)16^{-k}, hence mean 1/15. Within the final cycle success takes 3 or 4
+  throws with conditional probabilities 2/3 and 1/3. Therefore E(T|success)=4/15+(6+4)/3=18/5.
+  Endpoints are absorbing. All series converge by geometric bounds.
+
+
+  ## qx02
+
+  Given the old maximum i, the next maximum is max(i,D), where D is an independent
+  fair die. This proves homogeneous Markov. Over n>=1 further throws and for j>=i,
+  P(next maximum after n steps <=j | X_t=i)=(j/6)^n; for j<i it is zero. Thus p_ij(n)=0
+  for j<i, (i/6)^n on the diagonal, and (j/6)^n-((j-1)/6)^n for j>i. At n=0 the transition
+  is identity. At n=1 this gives 0, i/6, 1/6 respectively; row 6 is absorbing and
+  all row sums are 1 by telescoping. The first observed maximum is X_1, uniform on
+  the six faces.
+
+
+  ## qx05
+
+  The intended construction requires independence of the starting variable from the
+  entire innovation sequence, plus measurable sections G(i,.). Under these hypotheses
+  the innovation at t+1 is independent of the history (which is measurable with respect
+  to X_0 and innovations 1,...,t). Conditioning on X_t=i gives row P_ij=Leb{u : G(i,u)=j}.
+  Each row sums to one because its level sets partition the interval. Mere mutual
+  independence of the Y''s as printed does not guarantee this. Example: let Y''s be
+  independent uniforms, X_0=1{Y_2<=1/2}; for i=0,1 put G(i,u)=2, and G(2,u)=1{u<=1/2}.
+  Then X_1=2 always and X_2=X_0; conditional probability of X_2=1 given X_1 alone
+  equals 1/2, versus 1 given X_1=2,X_0=1. This is an actual failure of Markov. For
+  any countable homogeneous transition matrix, enumerate the states; subdivide [0,1)
+  in each row into consecutive half-open intervals of lengths P_ij; set G to the interval''s
+  state and define G(i,1) arbitrarily. Take independent initial state with the required
+  law and independent uniform draws. This realizes the entire chain law by multiplying
+  conditional probabilities. Simulate by drawing the initial state, and at each step
+  sample a fresh pseudouniform and return the first state whose row cumulative probability
+  strictly exceeds it. Homogeneity is implicit for fixed G and uniform iid innovations;
+  general time-dependent kernels require time-dependent G or store the clock in the
+  state. Endpoint 1 is null; zero rows entries correspond to empty intervals.
+
+
+  ## q08
+
+  Let a_n,b_n,c_n be the probabilities of the three states starting from 1. The row
+  updates give a_{n+1}=p c_n and c_{n+1}=b_n/3. Substitution gives 3a_{n+2}+a_{n+1}+p
+  a_n=p with a_0=1,a_1=0. A particular constant is L=p/(4+p); a_n-L solves the recurrence
+  with characteristic roots (-1 +/- sqrt(1-12p))/6. The two initials and recurrence
+  guarantee uniqueness.
+
+  (a) p=1/16. L=1/65, roots -1/12,-1/4, coefficients in that order 18/13 and -2/5.
+  Indeed their sum is 64/65 and their weighted sum is -1/65. So a_n=1/65+(18/13)(-1/12)^n-(2/5)(-1/4)^n.
+
+  (b) p=1/6. L=1/25 and roots (-1 +/- i)/6=(sqrt(2)/6)exp(+/- 3pi i/4). Thus a_n=1/25+(sqrt(2)/6)^n
+  [(24/25)cos(3pi n/4)+(18/25)sin(3pi n/4)]; coefficients are fixed by n=0,1.
+
+  (c) p=1/12. L=1/49 and root -1/6 is double, so a_n=1/49+(48/49-6n/7)(-1/6)^n. Again
+  n=0,1 directly check initial values.
+
+
+  ## q02
+
+  For binary M_n, M_{n+1}=max(M_n,X_{n+1}); the fresh toss is independent of the entire
+  history. Starting from 0 either value on the next step has probability 1/2. Starting
+  from 1 the maximum stays 1. Hence the kernel in order (0,1) has rows (1/2,1/2) and
+  (0,1). Since M_0=X_0 each start has probability 1/2; after k steps row 0 is (2^{-k},1-2^{-k}),
+  row 1 (0,1), also valid at k=0.
+
+  '
+main_followup:
+  finding: q11 source and issues occupied a separate final page.
+  repair: Condensed the equivalent cycle calculation. Rechecked success probability
+    1/5, mean 2 and conditional mean 18/5 against the second solution and the exact
+    matrix checks. The whole solution and source now fit on page 14 of the freshly
+    compiled canonical union.
+  original_audit_sha256: 73492cf4c17f5fa999de4de1939b65a69b24dd1fae920eb35df1a62e2d09cc49
