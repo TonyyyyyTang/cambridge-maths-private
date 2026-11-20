@@ -44,25 +44,10 @@ case "${1:-}" in
     echo "still evicted after 5 min:"; evicted; exit 2
     ;;
   verify)
-    [ -f "$MANIFEST" ] || { echo "no manifest.csv yet"; exit 0; }
-    bad=0
-    # manifest columns: url,local_path,sha256,fetched_at,source  (local_path relative to private/)
-    tail -n +2 "$MANIFEST" | while IFS=, read -r url path sha fetched source; do
-      f="$HERE/$path"
-      if [ ! -f "$f" ]; then echo "MISSING  $path"; bad=1; continue; fi
-      if [ -n "$(find "$f" -flags +dataless)" ]; then echo "EVICTED  $path (run fetch first)"; bad=1; continue; fi
-      actual=$(shasum -a 256 "$f" | cut -d' ' -f1)
-      [ "$actual" = "$sha" ] || { echo "MISMATCH $path"; bad=1; }
-    done
-    echo "verify done"
+    python3 "$HERE/verify_storage.py"
     ;;
   untracked)
-    [ -f "$MANIFEST" ] || { echo "no manifest.csv yet"; exit 0; }
-    for d in "${DIRS[@]}"; do
-      (cd "$HERE" && find "$d/" -type f ! -name '.DS_Store')
-    done | while IFS= read -r p; do
-      grep -qF ",$p," "$MANIFEST" || echo "UNTRACKED $p"
-    done
+    python3 "$HERE/verify_storage.py" untracked
     ;;
   *)
     sed -n '2,10p' "$0"; exit 1 ;;
