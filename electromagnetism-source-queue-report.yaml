@@ -1,0 +1,202 @@
+queue: catalog/electromagnetism-source-queue.yaml
+records:
+- url: https://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2025-26/sheet-1.pdf
+  status: archived
+  sha256: 5bd97ba1952757a1879b0f111f8510a681cbc856856c4ce5172361ffd41a0c78
+- url: https://web.archive.org/web/20050129074806id_/http://www.damtp.cam.ac.uk:80/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-1.pdf
+  status: archived
+  sha256: 71531bcae9abf1de536358533aff291de8d61a0006aed31ddde469e5c2731b1f
+- url: https://web.archive.org/web/20070221083646id_/http://www.damtp.cam.ac.uk:80/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-1-variant-B.pdf
+  status: archived
+  sha256: c7654599e0b62a7dbadd4a5186b08c9abe78176208a99a5216ef690c3d909741
+- url: https://web.archive.org/web/20160329010829id_/http://www.damtp.cam.ac.uk:80/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2015-16/sheet-1.pdf
+  status: archived
+  sha256: 5243b5593ff1a3cd63ab53c1cfd41800c6f6bbfaeaf7076f245a3ab674516fc5
+- url: https://web.archive.org/web/20181220172524id_/http://www.damtp.cam.ac.uk:80/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2017-18/sheet-1.pdf
+  status: archived
+  sha256: 8b50cf66d30785c581f04fac73bbb6521a355a88297dec4c3854d335ad12d2d6
+- url: https://web.archive.org/web/20200926202405id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2019-20/sheet-1.pdf
+  status: archived
+  sha256: ed0ed9e5aa61c0555395c5ec9d3344af410aaca130ecf34a4806000811e3e568
+- url: https://web.archive.org/web/20210422164030id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2021-copyright-2020/sheet-1.pdf
+  status: archived
+  sha256: c593346f7806a4726236adb9252d1d1e8aa644a8acad2afb6702ae53a921d3ae
+- url: https://web.archive.org/web/20221007100736id_/https://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2021-22/sheet-1.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20221007100736id_/https://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x104825e50>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20230922092028id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2022-23/sheet-1.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20230922092028id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x1048249b0>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20240802060917id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2024-copyright-2023/sheet-1.pdf
+  status: archived
+  sha256: 96ac6c3763c0d8de61ad55f1ae97c9901121cd012c43be212c53587d5859c404
+- url: https://www.damtp.cam.ac.uk/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2025-26/sheet-2.pdf
+  status: archived
+  sha256: f4cd9153a5dffbb0fafecccdc9cd7cd2c0e58fc1f446110537c66447da5109f8
+- url: https://web.archive.org/web/20050129000027id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-2.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20050129000027id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x104826630>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20070221083654id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-2-variant-B.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20070221083654id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x104825430>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20160329044610id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2015-16/sheet-2.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20160329044610id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x1048272f0>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20171031153905id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2016-17/sheet-2.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20171031153905id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x104825040>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20181220172529id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2017-18/sheet-2.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20181220172529id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x104825d30>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20210422141344id_/http://www.damtp.cam.ac.uk/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2021-copyright-2020/sheet-2.pdf
+  status: failed
+  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
+    with url: /web/20210422141344id_/http://www.damtp.cam.ac.uk/user/examples/B10b.pdf
+    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
+    0x1048245f0>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+- url: https://web.archive.org/web/20221007100935id_/https://www.damtp.cam.ac.uk/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2021-22/sheet-2.pdf
+  status: archived
+  sha256: cc0a68b0dd27798924a6092f4dbc4e9cc2ff831cfe27baa37e9eeb8e793b4a34
+- url: https://web.archive.org/web/20230321135214id_/http://www.damtp.cam.ac.uk/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2022-23/sheet-2.pdf
+  status: archived
+  sha256: a8b1cb1b9cdd6df593e5b04f84130038fd0154f9b69feb59d986f94f18c56b51
+- url: https://web.archive.org/web/20240803145634id_/http://www.damtp.cam.ac.uk/user/examples/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2024-copyright-2023/sheet-2.pdf
+  status: archived
+  sha256: bb33d19f3a64f9a3bfb149ba6a8617a446e6e7d55ec5a76be75df5f224b88e47
+- url: https://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2025-26/sheet-3.pdf
+  status: archived
+  sha256: 460379a0d6d82c95ed56eacb840dae47bcd1a3033f91be4bbb52046771da0512
+- url: https://web.archive.org/web/20050129073211id_/http://www.damtp.cam.ac.uk:80/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-3.pdf
+  status: archived
+  sha256: 25d6fd11049a71385b2595852ee8505cac57e7223e5c285025fb9434a96e0729
+- url: https://web.archive.org/web/20070221082626id_/http://www.damtp.cam.ac.uk:80/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-3-variant-B.pdf
+  status: archived
+  sha256: 93e19a0b9f789d9b67bbbeb63e213184e8825c2b7deace4f19390183f52ce9d7
+- url: https://web.archive.org/web/20150926214712id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2014-15/sheet-3.pdf
+  status: archived
+  sha256: f9ad5f6857dcdc920e4ea525ed88572a12e2ba3b4098ac80bef0b87476ba9e2e
+- url: https://web.archive.org/web/20160329001803id_/http://www.damtp.cam.ac.uk:80/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2015-16/sheet-3.pdf
+  status: archived
+  sha256: d3aeaffd81dc11e70b73a1cdb2ce37f181bd8cb39c9123820b72518ba06f82ca
+- url: https://web.archive.org/web/20181220172838id_/http://www.damtp.cam.ac.uk:80/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2017-18/sheet-3.pdf
+  status: archived
+  sha256: 46e7ff6f73d12b5426ac496c512307d64dee7f1c905572342d932afb8b75b701
+- url: https://web.archive.org/web/20190712143014id_/http://www.damtp.cam.ac.uk:80/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2018-19/sheet-3.pdf
+  status: archived
+  sha256: 4b0665ac3e47c80a0e056fb8eefdad70142cda32f794737de2c4e290163fae79
+- url: https://web.archive.org/web/20200926202352id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2019-20/sheet-3.pdf
+  status: archived
+  sha256: b3df99a5152a840203bd6e00854160d6479541e330f692d96a4f86f1e2b81f46
+- url: https://web.archive.org/web/20210422170544id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2021-copyright-2020/sheet-3.pdf
+  status: archived
+  sha256: 0eb70563431c23df0346cd98839f8c68ebc36fb188931343d5dcb418424a5617
+- url: https://web.archive.org/web/20221007100847id_/https://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2021-22/sheet-3.pdf
+  status: archived
+  sha256: b87cbea41aad9edcd88bf4a7ee28c32f9b18e012f80df307e6fc46a65dcc58dc
+- url: https://web.archive.org/web/20230321135308id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2022-23/sheet-3.pdf
+  status: archived
+  sha256: 0186438cfa128ef8f90afb5f3fef8c31a8e8e7ce5809a4315e7ddd6773a26e89
+- url: https://web.archive.org/web/20240805100926id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2024-copyright-2023/sheet-3.pdf
+  status: failed
+  error: '500 Server Error: INTERNAL SERVER ERROR for url: https://web.archive.org/web/20240805100926id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf'
+- url: https://web.archive.org/web/20250724093051id_/https://www.damtp.cam.ac.uk/user/examples/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2025-copyright-2023/sheet-3.pdf
+  status: archived
+  sha256: 0146ed95cb0594b57d783008fa108c35c4972f6e161c058cc41b4dcea7fa80ad
+- url: https://www.damtp.cam.ac.uk/user/ngb23/EM/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-header-2008-coursepage-2011/sheet-1.pdf
+  status: archived
+  sha256: 30b7ea75d8c66fba61efab00fe9b61c0114e81465447736b71d96f7ffaeb0313
+- url: https://www.damtp.cam.ac.uk/user/hsr1000/electromagnetism_examples1.pdf
+  local_path: raw/sheets/IB/electromagnetism/2019-20/sheet-1-variant-B.pdf
+  status: archived
+  sha256: 18e66b92cad5f02bacd6a2e1b22662471182050f17e4376da4e53b6455fde031
+- url: https://www.damtp.cam.ac.uk/user/tong/em/B10a.pdf
+  local_path: raw/sheets/IB/electromagnetism/2014-15/sheet-1.pdf
+  status: archived
+  sha256: 4059a215afb5d631199009f242a5d0dade046d25b7ef3c43ba5db0def66a4f37
+- url: https://www.damtp.cam.ac.uk/user/ngb23/EM/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-berloff-undated/sheet-2.pdf
+  status: archived
+  sha256: d28f4e6804890fa764ceb4396006f6a320001403c373a0fc8616b81e52ec14bb
+- url: https://www.damtp.cam.ac.uk/user/hsr1000/electromagnetism_examples2.pdf
+  local_path: raw/sheets/IB/electromagnetism/2019-20/sheet-2.pdf
+  status: archived
+  sha256: 7ad9bd16e33a449e42d47c4c630d41f4ea579340510cfbad26b471b92c360e57
+- url: https://www.damtp.cam.ac.uk/user/tong/em/B10b.pdf
+  local_path: raw/sheets/IB/electromagnetism/2014-15/sheet-2.pdf
+  status: archived
+  sha256: 446fdc7b338607a7af5e628bd31c513e07e37d4effb116f51432c46b5a0104ad
+- url: https://www.damtp.cam.ac.uk/user/ngb23/EM/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/unresolved-berloff-undated/sheet-3.pdf
+  status: archived
+  sha256: 9cd1d5c84ec7445f6386d42ed5c2cb9ab0f400e7866a6efd17dbb16f38d6ab5b
+- url: https://www.damtp.cam.ac.uk/user/hsr1000/electromagnetism_examples3.pdf
+  local_path: raw/sheets/IB/electromagnetism/2019-20/sheet-3-variant-B.pdf
+  status: archived
+  sha256: 959468778394bf61def4b4a14fe6a93058a1c3260941684857421a74d714bfcd
+- url: https://www.damtp.cam.ac.uk/user/tong/em/B10c.pdf
+  local_path: raw/sheets/IB/electromagnetism/2014-15/sheet-3-variant-B.pdf
+  status: archived
+  sha256: 939c1df1d956556fdd1c42ed2b7d9530a76d636cfcb73ad6601486d4ca563fbf
+- url: https://dec41.user.srcf.net/notes/IB_L/electromagnetism_eg.pdf
+  local_path: raw/sheets/IB/electromagnetism/2014-15/sheets-1-3-mirror.pdf
+  status: archived
+  sha256: 7040ee27b3f39aeb6a3a763598356d08dcf306edd4280e2ff5f280c2453084c3
+- url: https://www.damtp.cam.ac.uk/user/examples/B10vc.pdf
+  local_path: raw/sheets/IB/electromagnetism/2003-04/vector-calculus-revision.pdf
+  status: archived
+  sha256: 035ac5aaedc545695c0c8a60fc3fc822c696d2576977bf83c0a86d78f987160a

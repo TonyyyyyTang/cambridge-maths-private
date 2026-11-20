@@ -1,0 +1,14 @@
+queue: catalog/lecture-list-source-queue.yaml
+records:
+- url: https://www.maths.cam.ac.uk/undergrad/files/lecturelist/2024-25/Part_IA.pdf
+  local_path: raw/lecturelists/IA-2024-25.pdf
+  status: archived
+  sha256: 73b0ce244010699e3362800256663999e393e53e5f8aa45ab0ce4bfe1fe9e0ed
+- url: https://www.maths.cam.ac.uk/undergrad/files/lecturelist/current/PartIBWeb.pdf
+  local_path: raw/lecturelists/IB-2026-27-fetched-2026-11-20.pdf
+  status: archived
+  sha256: 590bf47f88320d62f55c4e3af48a7fc4f956713d75dfb14f34e8ba6569296ca8
+- url: https://www.maths.cam.ac.uk/undergrad/files/lecturelist/current/PartIIWeb.pdf
+  local_path: raw/lecturelists/II-2026-27-fetched-2026-11-20.pdf
+  status: archived
+  sha256: ea2e0c246f30ec998dec54dbcff9d0869f1f7d03ab0a8cff413a51480f63e5ce
