@@ -1,0 +1,14 @@
+queue: catalog/numerical-analysis-current-sheets.yaml
+records:
+- url: https://www.damtp.cam.ac.uk/user/examples/B13a.pdf
+  local_path: raw/sheets/IB/numerical-analysis/2023-24/sheet-1.pdf
+  status: archived
+  sha256: 2c2d8e27de4d185ae34dfccfae1579bcae0bda089ed6cececcfbad2d907d4045
+- url: https://www.damtp.cam.ac.uk/user/examples/B13b.pdf
+  local_path: raw/sheets/IB/numerical-analysis/unresolved-lent-2021-copyright-2025/sheet-2.pdf
+  status: archived
+  sha256: 7821c28f436274dfea855de5e4df0040e6fd4a68f5f1f2643e9efbb150288eb2
+- url: https://www.damtp.cam.ac.uk/user/examples/B13c.pdf
+  local_path: raw/sheets/IB/numerical-analysis/2023-24/sheet-3.pdf
+  status: archived
+  sha256: a90554efadcf200beae57f6a708e51e9d87f3b313d3973d4130d80fd59ded2ed

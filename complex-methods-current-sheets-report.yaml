@@ -1,0 +1,14 @@
+queue: catalog/complex-methods-current-sheets.yaml
+records:
+- url: https://www.damtp.cam.ac.uk/user/examples/B7a.pdf
+  local_path: raw/sheets/IB/complex-methods/2025-26/sheet-1.pdf
+  status: archived
+  sha256: da33dc1f28611368c4b972ad26ba6206d8605f0aaf1a05933841de92c5fb0dc4
+- url: https://www.damtp.cam.ac.uk/user/examples/B7b.pdf
+  local_path: raw/sheets/IB/complex-methods/2025-26/sheet-2.pdf
+  status: archived
+  sha256: 8289d1847e79d72fb86fe1ed43da3dc8c34a9aadc8d0b6563eb1e30c8ea9b883
+- url: https://www.damtp.cam.ac.uk/user/examples/B7c.pdf
+  local_path: raw/sheets/IB/complex-methods/2025-26/sheet-3.pdf
+  status: archived
+  sha256: 9b64fb3b16632a28c2644f92c354cd0f2012213fb13526af0e114ad1094674d9

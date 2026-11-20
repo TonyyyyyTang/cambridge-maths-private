@@ -1,0 +1,10 @@
+queue: catalog/variational-principles-current-sheets.yaml
+records:
+- url: https://www.damtp.cam.ac.uk/user/examples/B6a.pdf
+  local_path: raw/sheets/IB/variational-principles/2025-26/sheet-1.pdf
+  status: archived
+  sha256: 24ffbc959cde3a7d0c83743d6d4c385a408cd07cb0567eba820ca8e1a9b9597e
+- url: https://www.damtp.cam.ac.uk/user/examples/B6b.pdf
+  local_path: raw/sheets/IB/variational-principles/2025-26/sheet-2.pdf
+  status: archived
+  sha256: a663121a22655e9ded75ac4862b1b71100f397cc6bd31c8cf031cd7193306014
