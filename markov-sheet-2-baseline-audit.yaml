@@ -1,0 +1,193 @@
+scope: IB Markov Chains Sheet 2, Michaelmas 2025 baseline only
+auditor: fresh independent auditor who did not draft the solutions
+method: Random sample drawn from all sixteen baseline units. Inspected the original
+  pages and sampled fragments, then saved the complete blind derivations before reviewing
+  stored answers, evidence and scripts. Re-executed the four check.py files and visually
+  examined the corresponding compiled pages. No selected question has a Sheet 1 cross-reference.
+seed: 20261126
+population: 16
+selector: random.Random(20261126).sample(sorted(f'q{i:02}' for i in range(1,17)),4)
+sample_in_draw_order:
+- q16
+- q08
+- q01
+- q10
+sample_size: 4
+sample_fraction: 0.25
+sample_findings:
+  substantive_math_or_transcription_errors: 0
+  minor_math_errors: 0
+  minor_transcription_errors: 0
+  presentation_errors: 0
+  units_with_findings: 0
+source: private/raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+source_sha256: 363d6ec515baca9801a428d1c3a17cf125b6cf932aeb9d8ca7aa95617f9dd9f6
+reviewed_original_pages:
+- 1
+- 2
+original_render_dpi: 135
+compiled_pdf: build/IB-markov-chains-sheet-2/main.pdf
+compiled_pdf_snapshot_sha256: 4e2174783c69531006fe7d013ce51c989b2ac8b02dcc74e518e61b749c9bc823
+compiled_snapshot_pages: 17
+compiled_sample_render_dpi: 110
+frozen_blind_rework_sha256: 58cf7233b83c9772fc101e5d7d1f19a6cc61050071e56dd524db3f00dfa0772b
+frozen_blind_rework_markdown: '# Frozen blind rework of Michaelmas 2025 Markov Chains
+  Sheet 2
+
+
+  Population q01–q16, sample in draw order q16, q08, q01, q10. I read just the selected
+  question fragments and both original printed pages before recording these derivations.
+  None of the four questions cross-references Sheet 1. I did not consult stored answers,
+  checks, review notes or previous working.
+
+
+  ## q16 — cycle criterion (original p. 2)
+
+
+  Positive recurrence and irreducibility yield a unique invariant probability π with
+  π_i>0 at every state. If the chain is reversible in equilibrium, detailed balance
+  holds (apply reversal to the two-time distribution). On multiplying around a closed
+  path, the π factors on the two sides have the same positive product and cancel;
+  zero transition probabilities cause no problem. Conversely fix states i,j and m≥1.
+  Apply the cycle identity to a starting edge i→j followed by an arbitrary m-step
+  walk j→i. Sum over the intervening states; reversal bijects these walks with m-step
+  walks i→j. Nonnegative sums can be grouped without additional hypotheses. This gives
+  p_ij (P^m)_ji = p_ji (P^m)_ij. The convergence theorem for irreducible aperiodic
+  positive recurrent chains gives (P^m)_ji→π_i and (P^m)_ij→π_j, hence detailed balance.
+  For each finite path x0,…,xk multiply π_x0 by the product of its transition probabilities
+  and telescope detailed balance, obtaining the equilibrium probability of the reverse
+  path. This proves reversibility even when particular paths have probability zero.
+  The one-state chain and repeated states cause no exceptional case. Aperiodicity
+  was used only for the ordinary transition limits; Cesàro limits suffice without
+  it.
+
+
+  ## q08 — four-dimensional simple walk (original p. 1)
+
+
+  Start at the origin by translation. Its first three coordinates remain fixed on
+  each fourth-coordinate move (probability 1/4), and otherwise move uniformly among
+  six neighbours. At the successive times when one of these three coordinates changes
+  the embedded chain is the ordinary 3D simple symmetric walk (memoryless independent
+  increments). Each holding block has geometric(3/4) length including the first occupation,
+  finite almost surely. Countably many holding blocks are all finite almost surely.
+  Since the 3D walk is transient, the embedded chain visits the origin only finitely
+  often almost surely. The projected chain therefore has only finitely many origin
+  epochs and every four-dimensional origin epoch is among those. This proves origin
+  transience, and translation gives every state. Equivalently the projected Green
+  function is (4/3) times its 3D embedded Green function.
+
+
+  ## q01 — absorbing state (original p. 1)
+
+
+  For j≠s, accessibility gives a finite path of positive probability from j to s.
+  Choose one of minimal length, so there are no intermediate returns to j (or earlier
+  visits to s). Its event has positive probability. Once it happens, absorption prevents
+  every subsequent visit to j. Thus the chance of ever returning after time zero is
+  strictly less than one, precisely transience. The proof works for each j and relies
+  only on positive probability of some finite path; almost sure absorption is unnecessary.
+  With s the only state the assertion is vacuous.
+
+
+  ## q10 — Ehrenfest process (original p. 1)
+
+
+  Let Z_n count A''s molecules after n choices. Given the complete history, including
+  the labels of the present molecules, a uniformly chosen molecule comes from A with
+  probability k/N and from B with probability (N−k)/N when Z_n=k. These conditional
+  probabilities depend only on k, so conditioning on the count history still gives
+  the Markov property, with jumps k→k−1 or k→k+1 and all other probabilities zero.
+  At 0 and N the inward jump is forced. N≥1 is implicit in the choice of one molecule.
+  On the hypercube of N labelled molecules a uniform law on arrangements is preserved,
+  since flipping a fixed coordinate is a bijection and its equal-weight random mixture
+  preserves uniformity. Its push-forward is π_k=2^{-N} binom(N,k). Alternatively π_k(N−k)=π_{k+1}(k+1)
+  verifies detailed balance along every edge. All states communicate by consecutive
+  up/down jumps, hence uniqueness. This includes N=1 (alternation). Period two does
+  not prevent stationarity.
+
+  '
+units:
+  q16:
+    source_page: 2
+    compiled_snapshot_page: 17
+    question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+    solution_sha256: c8e82dd4c81e9d64fa3f73e9b6e7bafa997696366a1cbcfcd5ce6530595fb646
+    check_sha256: 9d3ea4b6df83221bbfa1a23ce453a7300be579ddbb7c9a7096e729a72640736c
+    transcription: All factors in both directions, both closing factors, quantifiers
+      and hypotheses match the original.
+    math_and_boundaries: Positive invariant masses, repeated vertices, zero edges,
+      countable nonnegative path sums and the hypotheses of pointwise convergence
+      were checked. Detailed balance proves reversibility of stationary finite-dimensional
+      laws.
+    check_stdout: 'PASS: exact cycle products and path-summed equations, with an irreducible
+      aperiodic nonreversible counterexample.'
+    check_exit_code: 0
+    pdf_visual: Complete unit fits one page; formulae, headings, footer and source
+      are legible and unobstructed.
+    needed_corrections: []
+  q08:
+    source_page: 1
+    compiled_snapshot_page: 8
+    question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+    solution_sha256: f5c913d5a342a85203ba51d059dc6e273860255aee222551887be72e97ce33f3
+    check_sha256: 3a96b084b4a117aabb4cfa5d56f10fb880aa6c8ae33a536eecea9c5346246b35
+    transcription: Both dimensions and the parenthetical method match the original.
+    math_and_boundaries: Directional holding and finite holding times are accounted
+      for. The skeleton transience theorem applies and four-dimensional origin times
+      are a subset of projected origin times.
+    check_stdout: 'PASS: projected four-dimensional walks agree with the exact holding-time
+      mixture through six steps.'
+    check_exit_code: 0
+    pdf_visual: Complete unit fits one page; formulae, headings, footer and source
+      are legible and unobstructed.
+    needed_corrections: []
+  q01:
+    source_page: 1
+    compiled_snapshot_page: 1
+    question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+    solution_sha256: 0132051ddfb1a389bfbad1e55d7d7bb39890dec4ef0fde15a100f0f5eaf66488
+    check_sha256: 83934d61474feb7ab6087f9539ac1005b356c3324e1960e283efbb7767af5c52
+    transcription: The absorbing state, direction of the accessibility relation and
+      conclusion match the original.
+    math_and_boundaries: The shortest path has no internal return to its starting
+      state. Its positive probability suffices in a countable state space without
+      almost-sure absorption.
+    check_stdout: 'PASS: 48 accessible state/chain combinations have positive escape
+      before first return.'
+    check_exit_code: 0
+    pdf_visual: Complete unit fits one page; formulae, headings, footer and source
+      are legible and unobstructed.
+    needed_corrections: []
+  q10:
+    source_page: 1
+    compiled_snapshot_page: 10
+    question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+    solution_sha256: 355e7216eff8e1e1d68f394f63e8604bc7d120fbcd103c64a91002d48a59c8b6
+    check_sha256: ca9650928eb16238dc0d95fc18d5ea7cc1bc4468362202e64e6ab64d0bb5cd0c
+    transcription: Each sentence, the molecule selection, both questions about the
+      count chain, and both names in the bracketed attribution match the original.
+    math_and_boundaries: The conditional count kernel is independent of history. At
+      0 and N transitions point inward. Binomial masses satisfy detailed balance,
+      normalise, and are unique by finite irreducibility. N=1 is covered.
+    check_stdout: 'PASS: binomial counts, transition rows and balance from all molecule
+      configurations through eight molecules.'
+    check_exit_code: 0
+    pdf_visual: Complete unit fits one page; formulae, headings, footer and source
+      are legible and unobstructed.
+    needed_corrections: []
+outside_sample:
+- unit: q14
+  kind: pagination
+  observation: The 17-page build places the q14 open issues and source alone on page
+    15. This observation is outside the drawn sample and excluded from its rates.
+    Reported separately to the main agent.
+  possible_repair: Compact the q14 exposition or its issue metadata while preserving
+    all cases so that the entire unit fits one page.
+  resolution:
+    action: Edited q14 for concision, retaining all endpoint and countable-space cases.
+      Compared against the frozen independent proof and reran check.py.
+    build_pages: 16
+    page_with_question_solution_and_source: 14
+    pdf_sha256: 59d2f256337ce3d1711f3c81e134b5fde49ff7c1f0c927adfb845dcfff17df1b
+    solution_sha256: bf247cd6f331522483d342ed7fdb5be9963d535fa8e9804a0b4758da81513cff
