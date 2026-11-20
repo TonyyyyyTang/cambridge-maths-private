@@ -30,18 +30,12 @@ records:
   sha256: c593346f7806a4726236adb9252d1d1e8aa644a8acad2afb6702ae53a921d3ae
 - url: https://web.archive.org/web/20221007100736id_/https://www.damtp.cam.ac.uk/user/examples/B10a.pdf
   local_path: raw/sheets/IB/electromagnetism/2021-22/sheet-1.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20221007100736id_/https://www.damtp.cam.ac.uk/user/examples/B10a.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x104825e50>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: 786c4a8e931983612ef7eadfae1ee62ffdac37197195ab3a9790cbaa5f3f0280
 - url: https://web.archive.org/web/20230922092028id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
   local_path: raw/sheets/IB/electromagnetism/2022-23/sheet-1.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20230922092028id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x1048249b0>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: 8cceff24d0ad775942797094478505179bc73963b92da0e622d1a73e4760b82f
 - url: https://web.archive.org/web/20240802060917id_/http://www.damtp.cam.ac.uk/user/examples/B10a.pdf
   local_path: raw/sheets/IB/electromagnetism/unresolved-header-2024-copyright-2023/sheet-1.pdf
   status: archived
@@ -52,46 +46,28 @@ records:
   sha256: f4cd9153a5dffbb0fafecccdc9cd7cd2c0e58fc1f446110537c66447da5109f8
 - url: https://web.archive.org/web/20050129000027id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-2.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20050129000027id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x104826630>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: af41259c9acb37736399854fa9581876bdbeb74e448ea32fdbe4f3d86b2a0c28
 - url: https://web.archive.org/web/20070221083654id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/2003-04/sheet-2-variant-B.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20070221083654id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x104825430>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: a90cf3ab77beed9f88b074d0f246bf5137acf7def6193262dcebe06e2f16b465
 - url: https://web.archive.org/web/20160329044610id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/2015-16/sheet-2.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20160329044610id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x1048272f0>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: faf183a3d0de1021e61779a60e6d09e9077755cd3de840128fab18b4200e1a9a
 - url: https://web.archive.org/web/20171031153905id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/2016-17/sheet-2.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20171031153905id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x104825040>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: 4f4f7fdb564ad88a8da2b3cc2c3543081c5938b8b626d09933decf995038936e
 - url: https://web.archive.org/web/20181220172529id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/2017-18/sheet-2.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20181220172529id_/http://www.damtp.cam.ac.uk:80/user/examples/B10b.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x104825d30>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: 168bea1d3adf4a9c81d1155dd8a63149b1512fbdc96b1bad059d4ebcea9b8c2f
 - url: https://web.archive.org/web/20210422141344id_/http://www.damtp.cam.ac.uk/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/unresolved-header-2021-copyright-2020/sheet-2.pdf
-  status: failed
-  error: 'HTTPSConnectionPool(host=''web.archive.org'', port=443): Max retries exceeded
-    with url: /web/20210422141344id_/http://www.damtp.cam.ac.uk/user/examples/B10b.pdf
-    (Caused by NewConnectionError(''<urllib3.connection.HTTPSConnection object at
-    0x1048245f0>: Failed to establish a new connection: [Errno 61] Connection refused''))'
+  status: archived
+  sha256: f5b15a7048c2ecab1c45f2b9281d46abbfa277aef695ea4f6284a21d4f5c5908
 - url: https://web.archive.org/web/20221007100935id_/https://www.damtp.cam.ac.uk/user/examples/B10b.pdf
   local_path: raw/sheets/IB/electromagnetism/2021-22/sheet-2.pdf
   status: archived
@@ -150,8 +126,8 @@ records:
   sha256: 0186438cfa128ef8f90afb5f3fef8c31a8e8e7ce5809a4315e7ddd6773a26e89
 - url: https://web.archive.org/web/20240805100926id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf
   local_path: raw/sheets/IB/electromagnetism/unresolved-header-2024-copyright-2023/sheet-3.pdf
-  status: failed
-  error: '500 Server Error: INTERNAL SERVER ERROR for url: https://web.archive.org/web/20240805100926id_/http://www.damtp.cam.ac.uk/user/examples/B10c.pdf'
+  status: archived
+  sha256: e33b2c71d469fb23705bc48129a2e1cf90dec8bbdfea9fb4c0dedb90268befdb
 - url: https://web.archive.org/web/20250724093051id_/https://www.damtp.cam.ac.uk/user/examples/B10c.pdf
   local_path: raw/sheets/IB/electromagnetism/unresolved-header-2025-copyright-2023/sheet-3.pdf
   status: archived
