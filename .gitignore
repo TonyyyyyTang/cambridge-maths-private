@@ -1,0 +1,13 @@
+# Large binaries (PDFs, scans) are stored in cloud storage, not git.
+# Only manifest.csv (url, path, sha256, fetched_at) is tracked.
+raw/**/*.pdf
+raw/**/*.png
+raw/**/*.jpg
+raw/**/*.jpeg
+raw/**/*.heic
+my-handwritten/**/*.pdf
+my-handwritten/**/*.png
+my-handwritten/**/*.jpg
+my-handwritten/**/*.jpeg
+my-handwritten/**/*.heic
+.DS_Store
