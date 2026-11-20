@@ -1,13 +1,5 @@
-# Large binaries (PDFs, scans) are stored in cloud storage, not git.
-# Only manifest.csv (url, path, sha256, fetched_at) is tracked.
-raw/**/*.pdf
-raw/**/*.png
-raw/**/*.jpg
-raw/**/*.jpeg
-raw/**/*.heic
-my-handwritten/**/*.pdf
-my-handwritten/**/*.png
-my-handwritten/**/*.jpg
-my-handwritten/**/*.jpeg
-my-handwritten/**/*.heic
+# raw/ and my-handwritten/ are symlinks into iCloud Drive (Cambridge-Maths-Raw).
+# Binaries never go in git; only manifest.csv (url, path, sha256) is tracked.
+/raw
+/my-handwritten
 .DS_Store
