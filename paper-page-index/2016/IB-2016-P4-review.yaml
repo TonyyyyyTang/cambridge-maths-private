@@ -1,0 +1,276 @@
+paper_id: IB/2016/P4
+id: IB/2016/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2016-06-03'
+printed_date: Friday, 3 June, 2016
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2016/P4.pdf
+archive: private/raw/tripos/IB/2016/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2016/paperib_4.pdf
+sha256: 959d10a91c9bbb4c47642da40fdf7a4db64baf4e7414ef7a1564390786a6463a
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2016/P4/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 0693f769aace39b87c70a93677eb8d54415ad2a41fd5bbc3e55708c90905e652
+  checks: Checked the four vectors, the italic negation and each basis and dimension request.
+- id: IB/2016/P4/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 2acb1a6caaa0479d2d8a697c6aa5996d402f3cd61828c4b6d431b783d6daf3ec
+  checks: Checked Eisenstein’s criterion, the exponents of the polynomial, the coefficient field and prime
+    assumption.
+- id: IB/2016/P4/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 4721eaed2a4bb0efb09516f70752c66039cb2de22eca5213f766e460338da179
+  checks: Checked the metric, three sine equations and each of the six sine indices.
+- id: IB/2016/P4/q4G
+  original_question: 4G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 4a8b5969475c1f4931bd873e12a0d4391130d5f05dd511f429e1ff49f143874b
+  checks: Checked the function, open quadrant and inclusive modulus bound.
+- id: IB/2016/P4/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 98fd6f5cf8be45ac4639b1353b90c07e1585ab8f8de1f87842ac5e473b2bf240
+  checks: Checked domain and period, reciprocal-square sums, starting indices and the alternating sign.
+- id: IB/2016/P4/q6B
+  original_question: 6B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: e52aad91c54db7f8c629aacaf8d62c289235f303f58a5e095f6f7dd66a86fe1b
+  checks: Checked all hatted operators and commutator orders, both coefficients and signs of the stated eigenvalues.
+  printed_ambiguity: The state in (d) is generally unnormalised. Its expectation value requires division by
+    its squared norm, which is positive and does not change the requested zero.
+- id: IB/2016/P4/q7D
+  original_question: 7D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 3142099c16b0a05498703e2006132fa31d757f1217e0d624e886c2f9466403e0
+  checks: Checked both vacuum equations, wave amplitude and phase, field orientation and Poynting vector.
+  printed_ambiguity: The given electric field fixes the travelling-wave magnetic field up to an additional
+    static field; part (b) uses the wave component.
+- id: IB/2016/P4/q8D
+  original_question: 8D
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 33498215594ab0ca58863dae9819bebca44178bd207c88b932b173ddfb6c9bf7
+  checks: Checked the two stages, half-step factors, explicit update, and both stability requests.
+- id: IB/2016/P4/q9H
+  original_question: 9H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 6dc06b747874eed5bd55c654d5520ce2990e85b92b5ae42a33618b0355a0a18f
+  checks: Checked initial ball locations, the reversible equilibrium and the first positive return time.
+- id: IB/2016/P4/q10F
+  original_question: 10F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 628f5d781e330e5f07a13aeb5384d14d8fc03e4287f8b3e87807699bc762753b
+  checks: Checked the annihilator symbol and map dimensions, all map directions and the ordering of both adjoint
+    products.
+- id: IB/2016/P4/q11E
+  original_question: 11E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 369cdca4e28a6d08cf40668c3494035a4ad0228e981b53340c7eb530ef097db9
+  checks: Checked the annihilator set, qualification on maximality and the inclusions and quotient in the chain.
+- id: IB/2016/P4/q12G
+  original_question: 12G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 1bb627a7e4297fae971c31ca19029bc7cd156014dbcb572c59f643511e8bb7cd
+  checks: Checked both finite-dimensional spaces, sequence indices, the norm and the values assigned to the
+    linear map.
+- id: IB/2016/P4/q13E
+  original_question: 13E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 79fbcb8cb655a69c10930cbd97fc222946bd771be1f3e0daa9d58321a4c297f1
+  checks: Checked the Hausdorff counterexample, open ball radius, torus quotient and irrational-line conclusion.
+- id: IB/2016/P4/q14A
+  original_question: 14A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 81a7f7cbed1a4c2de3878725882595147c2af0f6e0150f4e2014a4567eadd669
+  checks: Checked all initial and boundary conditions, both sinh arguments and all three transform and plot
+    requests. The second occurrence of tranverse in (c) is printed that way.
+- id: IB/2016/P4/q15F
+  original_question: 15F
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 1843cf1a9631a0dfa1c5d85466086320c8589a1e04a7665c96dbd065141104bf
+  checks: Checked the surface parametrisation, curvature formula, trigonometric generating curve, endpoints
+    and square-root hint.
+- id: IB/2016/P4/q16C
+  original_question: 16C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 1975c53d6c9dd18ae1434c745c212e62d8b759d2b08848baa443571c91202b04
+  checks: Checked both squared cost terms, coefficient conditions, start and end conditions and all three numbered
+    choices.
+  printed_ambiguity: For strategy (1), and likewise in (b), the terminal velocity is free. The natural terminal
+    condition and the prescribed zero initial acceleration can prevent the energy infimum from being attained
+    by a smooth admissible trajectory when the travel distance is positive.
+- id: IB/2016/P4/q17B
+  original_question: 17B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 9d9cab29dad2e9a984f6330643a1d0c4d365e794d4179fccc190d668e328424a
+  checks: Checked the sign in Green’s identity, the logarithmic fundamental solution, normal directions and
+    both factors in the final integral.
+- id: IB/2016/P4/q18C
+  original_question: 18C
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: d65d2508f083d2a1276895aeeb9dd205e532bb11346b4649cc0c388d82c9952e
+  checks: Checked the curl identity, rotating-frame assumptions, differentiated field equation and plane-wave
+    exponents and signs.
+- id: IB/2016/P4/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: e25f16708496bedf45beba887307057a39d1a8d8cc3f1d00f4975fa78eed83b4
+  checks: Checked the centring condition, common normal variance, three independence statements, test size
+    and power-function form.
+  printed_ambiguity: A nondegenerate residual variance estimate and the usual likelihood-ratio test require
+    positive residual degrees of freedom, so n must exceed two.
+- id: IB/2016/P4/q20H
+  original_question: 20H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: ed58d5de1656a1596456e0b17f526a08730445bf87962f68516d7f4d15b80bc7
+  checks: Checked the rational-capacity termination claim, row and column sum indices and the extreme-point
+    conclusion.

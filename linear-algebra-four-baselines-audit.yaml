@@ -1,0 +1,900 @@
+scope: Linear Algebra 2025-26, four located baseline sheets only; whole-course review remains pending.
+  No official comparison.
+seed: 20261205
+sampling: Single Python random.Random(20261205) stream; in sorted sheet order sample ceil(size/5)
+  from each lexicographically sorted question-ID list, without replacement.
+population_by_sheet:
+  sheet-1:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  sheet-2:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  sheet-3:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  - q13
+  - q14
+  - q15
+  - q16
+  sheet-4:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+selected_by_sheet:
+  sheet-1:
+  - q01
+  - q07
+  - q10
+  sheet-2:
+  - q01
+  - q12
+  - q07
+  sheet-3:
+  - q15
+  - q16
+  - q10
+  - q03
+  sheet-4:
+  - q02
+  - q09
+  - q11
+provenance: Fresh independent auditor took only clean question statements and source locators before
+  freezing all thirteen derivations. No existing solution, transcription note or metadata was inspected
+  prior to the freeze. Then both existing derivations were compared and all checks rerun.
+blind_manifest_serialization: UTF-8 json.dumps(sorted filename to hex digest mapping, indent=2) plus
+  one LF. Each blind rework hash covers its UTF-8 text including its final LF.
+blind_manifest_sha256: 1ff9f68aec118e091e927ebcca65fa517cc3509ceb0905c66f76bcbe77d385e5
+blind_manifest:
+  sheet-1-q01.txt: c9e5db048560120e994db83811e7da823cb4f35a464fa1a4622f6545737113d6
+  sheet-1-q07.txt: c14291d7483004108d38302c6ef62c38adbfa0c6abb6e721b4bc60b4a00c4414
+  sheet-1-q10.txt: 044c001cbb297b42baffc3d9fc1324997bcb34541465388c04e2d0f4e4205cb8
+  sheet-2-q01.txt: f9799403846171ab84d74f65422e1f764a1a47b494dcba5bc5361e7c61e7fbd0
+  sheet-2-q07.txt: 18ae4d22bd58cb387217b0080b25a334165315df16e27615dea3e2da79c00c5b
+  sheet-2-q12.txt: 63893171dde538f4bd7064973df43689aea48e712d7f95d7076d89ddc9513b9e
+  sheet-3-q03.txt: 7bd08784c44327c28c2508a5b39c0882f7bccc8a1eda73b38b81d93c707c38b8
+  sheet-3-q10.txt: 097e7366618c2604cdf343c7403c81fa6342eda53ae8672ca4bed2d2ad27c0f9
+  sheet-3-q15.txt: b1ac8e42e82f0541d7a8ae383e2260335852b2d68a2d02ff7838af2c3bab915a
+  sheet-3-q16.txt: 2fd4fd809c92df5c0968cef1bbf30ef381ebe0d71c44bc3adbb042efa42c34bc
+  sheet-4-q02.txt: 1e1a2d7075d6b1336af259afa33aa8a5c6a378bc44b610dead0db58ab9204331
+  sheet-4-q09.txt: 3f935d21317db468e194e3b0a18cdd0b600468947e7e5cea8dd30b3bf33006d6
+  sheet-4-q11.txt: 9217f1bb42ef00a358160618e2f6dc2c8106540f7285d89cd43beeb705ba9848
+method: Original PDF pages rendered at 1750 pixels and inspected against each question fragment.
+  Each sampled unit and dated HTML statement and answer were compared after excluding surrounding
+  navigation, resolving source and edition links. All dated and union TeX included the literal source
+  fragments. Poppler rasterisation of both PDF builds covered 28 sampled pages, with text extraction
+  as a secondary check. Temporary Chrome profile used KaTeX 0.16.11 from a local bundle and blocked
+  all other HTTPS requests. MathML and successful KaTeX output were counted inside the actual unit
+  article and dated section with the solution expanded. Browser counts cover DOM rendering; external
+  styles/fonts were not tested.
+by_sheet:
+  sheet-1:
+    population: 12
+    sample: 3
+    math_errors: 0
+    transcription_errors: 0
+    delivery_errors: 0
+    checks_passed: 3
+  sheet-2:
+    population: 12
+    sample: 3
+    math_errors: 0
+    transcription_errors: 0
+    delivery_errors: 0
+    checks_passed: 3
+  sheet-3:
+    population: 16
+    sample: 4
+    math_errors: 0
+    transcription_errors: 0
+    delivery_errors: 0
+    checks_passed: 4
+  sheet-4:
+    population: 12
+    sample: 3
+    math_errors: 0
+    transcription_errors: 0
+    delivery_errors: 0
+    checks_passed: 3
+total:
+  population: 52
+  sampled_questions: 13
+  share: 0.25
+  math_errors: 0
+  transcription_errors: 0
+  delivery_errors: 0
+  checks_passed: 13
+  html_question_instances: 13
+  html_dated_instances: 13
+  pdf_union_sampled_pages: 14
+  pdf_dated_sampled_pages: 14
+  source_question_positions: 13
+  distinct_original_pages_inspected: 8
+  rendered_formulas_unit_html: 391
+  rendered_formulas_dated_html: 391
+  formula_errors: 0
+units:
+  sheet-1/q01:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-1.pdf
+      pages:
+      - 1
+      original_question: '1'
+    source_pdf_sha256: d73621b2c7252700231904f578a0c910e12ced43120e20b5484713d99e92325f
+    question_sha256: 99405e815244a479c3282362bf6f6f6461a530893f72264090b4453a72110896
+    primary_solution_sha256: 97ecb91722d223ab130fe8ad0468d3e5b278a9b6dfd6a27ff0eb10dcb1447fe1
+    second_solution_sha256: 01202ef13988ac8db9470928cb2cf21907d22812e36bd746b36ed9e8285341b5
+    blind_rework: |
+      (a) Successively recover e_n, e_{n-1},...,e_1 by subtraction. The n vectors span in dimension n. (b) The coefficient of e_j in a dependence is c_j+c_{j-1} (cyclic indices), so signs alternate and c_1=(-1)^n c_1. Precisely odd n gives independence over R. For n=1 the sole vector is 2e_1. (c) Vector j equals e_j+(-1)^j e_{n+1-j}. If n even the paired indices have opposite parity; each two-by-two block has determinant 1-(-1)^{n+1}=2. If n odd and >=3, the first and last vectors are negatives, and if n=1 the only vector vanishes. Thus precisely even n.
+    comparison: Three parity and spanning cases agree, including the one-dimensional exceptions.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: 'PASS: exact coordinate determinants for the three printed lists in dimensions 1–16,
+        including both parities and n=1.'
+      stderr: ''
+      sha256: 3ed81b714e1acdece1d8048705487d42c2222595b46ff1bc0631b4dbf70a7efc
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: aa2c05e8000795bfbd0899829eec8c245f8e0a391d50662c08dbb9b8b531f288
+      dated_html_sha256: e37362516b031cad3de6a9df8ea9e1a14ff04531cd440200adb2d2002967ea44
+      pdf:
+        union:
+          pages:
+          - 1
+          sha256: 74a72e62ea91d0e848c669004c993f990b521837d445e94d20f1fb93fe19c559
+          text_size: 1562
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 1
+          sha256: face25e80a8e3469cbcab092ad0e052a4b53f58547d2e5b2d9f54cd95a56133f
+          text_size: 1553
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 33
+        rendered: 33
+        errors: 0
+        mathml: 33
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-1.pdf#page=1
+        edition: 2025-26 · Q1
+      dated:
+        math: 33
+        rendered: 33
+        errors: 0
+        mathml: 33
+        heading: Question 1
+        version: 0.16.11
+  sheet-1/q07:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-1.pdf
+      pages:
+      - 2
+      original_question: '7'
+    source_pdf_sha256: d73621b2c7252700231904f578a0c910e12ced43120e20b5484713d99e92325f
+    question_sha256: c9763a32ffb06eef5934fe5268434ca33167f3deada254681be3306a6e052f38
+    primary_solution_sha256: 44dafe8232fbf13534203e4e778c91e392b209d113abdcd89b3ddbe4702c949d
+    second_solution_sha256: d991b65051d6486077537d4d4afedd1ea4e58551c33bf56de760ed5d2fdb0e65
+    blind_rework: |
+      Write v_1,v_2,v_3 for the given ordered basis and N=A-2I. Nv_1=v_2, Nv_2=v_3, Nv_3=0. Hence the requested matrix has diagonal 2, first subdiagonal 1, all other entries 0. Standard domain basis and the columns (2,0,0),(1,2,0),(0,1,2) for the range give identity; range columns are independent by triangular determinant 8.
+    comparison: Identical subdiagonal matrix and ordered range images; each has the prescribed domain
+      and range.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: 'PASS: conjugation gives the printed-order lower triangular matrix; symbolic coordinate
+        action and identity representation in the second pair of bases agree.'
+      stderr: ''
+      sha256: 86fafea631d691fa667c9449e8af1b5bd3c18ac52d7f17cb764b826917126f51
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 7898c7f16bae81601b33d1cff04dbed5700d5bd9ea977be1e206ce235938095d
+      dated_html_sha256: e37362516b031cad3de6a9df8ea9e1a14ff04531cd440200adb2d2002967ea44
+      pdf:
+        union:
+          pages:
+          - 8
+          sha256: 74a72e62ea91d0e848c669004c993f990b521837d445e94d20f1fb93fe19c559
+          text_size: 1257
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 8
+          sha256: face25e80a8e3469cbcab092ad0e052a4b53f58547d2e5b2d9f54cd95a56133f
+          text_size: 1248
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 13
+        rendered: 13
+        errors: 0
+        mathml: 13
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-1.pdf#page=2
+        edition: 2025-26 · Q7
+      dated:
+        math: 13
+        rendered: 13
+        errors: 0
+        mathml: 13
+        heading: Question 7
+        version: 0.16.11
+  sheet-1/q10:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-1.pdf
+      pages:
+      - 2
+      original_question: '10'
+    source_pdf_sha256: d73621b2c7252700231904f578a0c910e12ced43120e20b5484713d99e92325f
+    question_sha256: 9d7bfeb8ea4ecb2e15b0cc90bd9e5c16457bf6ce0d2f77cd325372793c77e9f5
+    primary_solution_sha256: 27be3ab3c726a0a17aa02d3204c5c0fd77a214a10d69391945df6562199025bf
+    second_solution_sha256: 0c8beef0058e36c5afc8dc8c8b7ea2cb5c2fd836613dd47fc74816ba39a65eb7
+    blind_rework: |
+      Zero satisfies the condition; scalar combinations also carry Y into Z as Z is linear. If y=dim Y,z=dim Z,v=dim V,w=dim W, choose a basis of Y extended to V; images of the y original vectors are independent choices of elements of Z, and the v-y new images are arbitrary in W. Evaluation on this basis identifies R linearly with Z^y times W^{v-y}, dimension yz+(v-y)w. Includes zero-dimensional cases.
+    comparison: The adapted-basis block count agrees, including the zero-dimensional cases.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: 'PASS: all 64 maps F_2^3 → F_2^2 counted for each of 80 pairs of subspaces. Each space
+        has exactly 2^(kl+(n-k)m) admissible maps.'
+      stderr: ''
+      sha256: 822d4b801b58ee6ce2b5df48da5766e36c8e29346fae155fb275f53aadcb7640
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: f80a7bc45550e1dc5bb472996689db09995f0583e971b463b045b0ad8c15d9a9
+      dated_html_sha256: e37362516b031cad3de6a9df8ea9e1a14ff04531cd440200adb2d2002967ea44
+      pdf:
+        union:
+          pages:
+          - 11
+          sha256: 74a72e62ea91d0e848c669004c993f990b521837d445e94d20f1fb93fe19c559
+          text_size: 1175
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 11
+          sha256: face25e80a8e3469cbcab092ad0e052a4b53f58547d2e5b2d9f54cd95a56133f
+          text_size: 1167
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 38
+        rendered: 38
+        errors: 0
+        mathml: 38
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-1.pdf#page=2
+        edition: 2025-26 · Q10
+      dated:
+        math: 38
+        rendered: 38
+        errors: 0
+        mathml: 38
+        heading: Question 10
+        version: 0.16.11
+  sheet-2/q01:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf
+      pages:
+      - 1
+      original_question: '1'
+    source_pdf_sha256: df6c7f4fe3fb41c81f8578bc473f25f9ff1517d9981081cc75a3824d97c1ff8f
+    question_sha256: 0d6416dd3cdf64ad8836c4416b7455d35d7b18fa93697d76940964576399ff23
+    primary_solution_sha256: 7a68efa5f2d1873566e2fe5784cde26d69162d0494b4f7c22ccf60f5de6e11d0
+    second_solution_sha256: a1dc71aa07cad06414bde5b01052cc555418933cfeb4ce8f2b2c18f36ede1c50
+    blind_rework: |
+      On [A|I], R3<-R3+R2, R3<-R3/3, R1<-R1+R3, swap R2,R3. Left side I, so A is invertible as product of invertible row maps. Reading the right side gives inverse with rows (1,1/3,1/3),(0,1/3,1/3),(0,1,0).
+    comparison: Operation orders differ by a swap, giving the identical inverse.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Verified row reduction and both inverse products exactly.
+      stderr: ''
+      sha256: 6ad91318b385ffa63a7886e57a532a7d5d008852e5902ec91becef5250490181
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 6ad7bc3dfcaaafff2b902adbd7dc4c3e5d5286dc2723b1ea7d35acffc1cfbb05
+      dated_html_sha256: c6401b5298add7a1cc2820c87b950b345fe31b0a78871a058880f7a00bff80cd
+      pdf:
+        union:
+          pages:
+          - 1
+          sha256: 5542408a9d4aa1d6020a25948d31161760762c43b80bbe2a7a0aaaa59cf43425
+          text_size: 889
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 1
+          sha256: e8fb35185c426c79da45cbe8113ed0ef935d12bbd3dd1b8fde043cb7dc8fe8e0
+          text_size: 880
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 17
+        rendered: 17
+        errors: 0
+        mathml: 17
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf#page=1
+        edition: 2025-26 · Q1
+      dated:
+        math: 17
+        rendered: 17
+        errors: 0
+        mathml: 17
+        heading: Question 1
+        version: 0.16.11
+  sheet-2/q12:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf
+      pages:
+      - 2
+      original_question: '12'
+    source_pdf_sha256: df6c7f4fe3fb41c81f8578bc473f25f9ff1517d9981081cc75a3824d97c1ff8f
+    question_sha256: 3c237f7144bd219f4f44843019c2a3c2c588cd44c31426a7a8e1133a0f2ec906
+    primary_solution_sha256: c4ef8a2b139a234838b34a1be699ceeea09d5a425b4cb47c46ebf8aa86c451e5
+    second_solution_sha256: 6d49af6eca93463d9c2f1a6dace434d001df5e2521fd906e576c0f7d28175d96
+    blind_rework: |
+      A linear combination vanishes on every common zero. Conversely form F:V->K^n, x |-> (f_i(x)). If ker F is contained in ker g, define h(Fx)=g(x); differences in ker F ensure this is well-defined and it is linear. Extend h from im F to K^n by extending a basis and assigning 0 to extra basis vectors. Then g=hF=sum h(e_i) f_i. This argument uses only finiteness of the given list, hence works in infinite-dimensional V as well, including zero functionals.
+    comparison: Factorisation through a finite-dimensional image proves the claim in arbitrary dimension.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Verified the equivalence for 585 ordered families, including empty and dependent families.
+      stderr: ''
+      sha256: dc71ea65e1a0e8dbc028f11c26b8514824141db34e1e1cf2a0da7680267aab32
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: f4c567be364de4e3407581df8150bf989101a87de952741982aa20bff4ba0a6b
+      dated_html_sha256: c6401b5298add7a1cc2820c87b950b345fe31b0a78871a058880f7a00bff80cd
+      pdf:
+        union:
+          pages:
+          - 12
+          sha256: 5542408a9d4aa1d6020a25948d31161760762c43b80bbe2a7a0aaaa59cf43425
+          text_size: 1145
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 12
+          sha256: e8fb35185c426c79da45cbe8113ed0ef935d12bbd3dd1b8fde043cb7dc8fe8e0
+          text_size: 1137
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 29
+        rendered: 29
+        errors: 0
+        mathml: 29
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf#page=2
+        edition: 2025-26 · Q12
+      dated:
+        math: 29
+        rendered: 29
+        errors: 0
+        mathml: 29
+        heading: Question 12
+        version: 0.16.11
+  sheet-2/q07:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf
+      pages:
+      - 1
+      original_question: '7'
+    source_pdf_sha256: df6c7f4fe3fb41c81f8578bc473f25f9ff1517d9981081cc75a3824d97c1ff8f
+    question_sha256: 8bcb7b7d4e0d00e174c73d900f064ec306ffb29ee09c4a01c6aad222bc64fdd9
+    primary_solution_sha256: 79c762b1bafdbbcae32a08e87523a6c17e067e0dde92fd0401b7e0cca4d8d76b
+    second_solution_sha256: c01c1cf9d1b2c0d0e53d328155ae066e62495f547c2128c613160d50bf690aa4
+    blind_rework: |
+      If X has new vectors as columns in the original x basis, the new dual basis is given by the rows of X^{-1} in xi coordinates, since the row-column pairing must be the identity. (a) xi_2,xi_1,xi_4,xi_3. (b) xi_1,xi_2/2,2xi_3,xi_4. (c) X=I+L with L the first subdiagonal shift; invert by I-L+L^2-L^3. Rows give xi_1, xi_2-xi_1, xi_3-xi_2+xi_1, xi_4-xi_3+xi_2-xi_1. (d) X=I-U+U^2-U^3, U=L^T; inverse I+U, so xi_1+xi_2,xi_2+xi_3,xi_3+xi_4,xi_4.
+    comparison: All sixteen ordered functionals agree, including row orientation of the dual transformation.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Verified all 64 Kronecker-delta pairings.
+      stderr: ''
+      sha256: d804323c67a33ae1434e33b24fa440347c57c869ccb3b7bbcdd06f6d888d4c4d
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 4189bcc8d0843c1216dc558d6629b0388b7491f4aa797f516716a0aa620b4256
+      dated_html_sha256: c6401b5298add7a1cc2820c87b950b345fe31b0a78871a058880f7a00bff80cd
+      pdf:
+        union:
+          pages:
+          - 7
+          sha256: 5542408a9d4aa1d6020a25948d31161760762c43b80bbe2a7a0aaaa59cf43425
+          text_size: 1215
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 7
+          sha256: e8fb35185c426c79da45cbe8113ed0ef935d12bbd3dd1b8fde043cb7dc8fe8e0
+          text_size: 1206
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 31
+        rendered: 31
+        errors: 0
+        mathml: 31
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf#page=1
+        edition: 2025-26 · Q7
+      dated:
+        math: 31
+        rendered: 31
+        errors: 0
+        mathml: 31
+        heading: Question 7
+        version: 0.16.11
+  sheet-3/q15:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf
+      pages:
+      - 2
+      original_question: Bonus 2
+    source_pdf_sha256: 0af0699c6da4facf91a61afd69d5998386ed14518c6d1576c00953b3ca95630c
+    question_sha256: 1ea0d4c730d08c5d3e97410a57176eee080fd488445a479fa71914fd1c9a1632
+    primary_solution_sha256: dd50b7441627603221810f5481ee1062a53d9da0a00453419f808eab4b0c01cc
+    second_solution_sha256: fb301303801613ce4fef17f089c97dbdf2ff8400c6219c9d4d4daa81a1b784ca
+    blind_rework: |
+      A^4=A^2 iff m divides t^2(t-1)(t+1), and A^2 !=A iff m does not divide t(t-1). Precisely m=t^a(t-1)^b(t+1)^c, a=0,1,2; b,c=0,1; a=2 or c=1, i.e. eight choices. Realize each using one block of size equal to each positive exponent, then add singleton blocks at an already present eigenvalue to reach five dimensions; total degree <=4. Nondiagonalisable iff a=2. Write J as r copies of J2(0), s copies of [0], p copies of [+1], u copies of [-1], unordered, where r=1,2 and s+p+u=5-2r, s,p,u>=0. Consequently char poly is t^{2r+s}(t-1)^p(t+1)^u; equivalently all triples of nonnegative multiplicities summing to 5 with zero multiplicity >=2. These are exhaustive by Jordan form; all obey A^2 !=A on J2. There are 10+3 Jordan forms, 10 distinct characteristic polynomials.
+    comparison: Eight minimal polynomials and all ten characteristic polynomials and thirteen non-diagonalisable
+      forms match after regrouping. The source numbers this Bonus 2.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Exhaustive size-five Jordan partitions verify the minimal polynomials, ten characteristic
+        polynomials and thirteen non-diagonal forms.
+      stderr: ''
+      sha256: 1c574911c6e91c0e1266b3ccc446ae51870caa6a291aaad0b2b7ff439021eb5f
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 8299f104d937b8e716843e8147542119bccd8215769c4820588f476a4fb0b3e5
+      dated_html_sha256: f5aaa4df7a5c5256ab14d435131dbfcc2b78fb82f44eb982211af83804b581cb
+      pdf:
+        union:
+          pages:
+          - 15
+          sha256: d72f049a7af401f1929f0a6f17ade92becf56356ac84512184a14ad95251dd7f
+          text_size: 1581
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 15
+          sha256: 492ca3d321ec120056c123d94d252de5ab33c0842a9fb1e19fd48bedae1bc329
+          text_size: 1572
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 31
+        rendered: 31
+        errors: 0
+        mathml: 31
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf#page=2
+        edition: 2025-26 · Q2 · Bonus/Optional Questions
+      dated:
+        math: 31
+        rendered: 31
+        errors: 0
+        mathml: 31
+        heading: Question 2
+        version: 0.16.11
+  sheet-3/q16:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf
+      pages:
+      - 2
+      original_question: Bonus 3
+    source_pdf_sha256: 0af0699c6da4facf91a61afd69d5998386ed14518c6d1576c00953b3ca95630c
+    question_sha256: 41dbe448f33cab77b9634d2d6f406a3d4f35c16965bcfff08458c1115f9474af
+    primary_solution_sha256: 2de47b4f08ee2fe26420ec2179835cc10d3d9dc3cd2a39a225d8941d58fdc27f
+    second_solution_sha256: 857e034ed8a3f43cfb9058444baab3b316df54ee7db3795e93155fb72867b7d5
+    blind_rework: |
+      Take V=C^infinity(R,R) and alpha=d/dx. For each real lambda the nowhere-zero e^{lambda x} belongs to V, has derivative lambda times itself (including lambda=0). Differentiation is an endomorphism on this V.
+    comparison: The submitted finite-support multiplication operator is a valid different construction
+      from the auditor’s differentiation example. Both exhibit an eigenvector for every real eigenvalue.
+      The source numbers this Bonus 3.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Coordinate eigenvectors verified at negative, zero, fractional and positive coordinates.
+      stderr: ''
+      sha256: a0326399d32ecd323b83dd03fa78b566505dcc36950b322847a7c55a050d2f8d
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 02ecf6a48bfb67f1c324f7303cc4a39b381550c6b341d233b358f2f0a7810ace
+      dated_html_sha256: f5aaa4df7a5c5256ab14d435131dbfcc2b78fb82f44eb982211af83804b581cb
+      pdf:
+        union:
+          pages:
+          - 16
+          sha256: d72f049a7af401f1929f0a6f17ade92becf56356ac84512184a14ad95251dd7f
+          text_size: 635
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 16
+          sha256: 492ca3d321ec120056c123d94d252de5ab33c0842a9fb1e19fd48bedae1bc329
+          text_size: 626
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 12
+        rendered: 12
+        errors: 0
+        mathml: 12
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf#page=2
+        edition: 2025-26 · Q3 · Bonus/Optional Questions
+      dated:
+        math: 12
+        rendered: 12
+        errors: 0
+        mathml: 12
+        heading: Question 3
+        version: 0.16.11
+  sheet-3/q10:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf
+      pages:
+      - 1
+      original_question: '10'
+    source_pdf_sha256: 0af0699c6da4facf91a61afd69d5998386ed14518c6d1576c00953b3ca95630c
+    question_sha256: d3aa064e864804dc101bf7a0ecb79f4d54e489e2c6d6cf075d9ebb4b9ea8d513
+    primary_solution_sha256: e61fdee8922a7538b45c7e1a06dc13ea471caaa23a88d5889435948301d242b2
+    second_solution_sha256: 2ca85b4685fa0051c81468e31c7519d21b0431df565dab71bf8063eb0f116255
+    blind_rework: |
+      Choose y with alpha^{n-1}y nonzero. In a nontrivial dependence of the stated vectors let r be the smallest exponent with nonzero coefficient. Apply alpha^{n-1-r}; all later terms die and the first gives a contradiction. Hence these n vectors form a basis. Shift one step down the columns, with last image zero; alpha^k has ones on the kth subdiagonal and zeros elsewhere (zero when k>=n). Write beta(y)=sum_{j=0}^{n-1}a_j alpha^j y. Commutation makes beta and p(alpha), p=sum a_j t^j, agree on every alpha^i y, hence agree everywhere. In this basis the (r,c) entry is a_{r-c} if r>=c and 0 otherwise. Argument includes n=1.
+    comparison: The least-index argument gives the required ordered cyclic basis and every power
+      and commuting matrix.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Cyclic bases, each subdiagonal power and commuting lower triangular matrices checked.
+      stderr: ''
+      sha256: 0e9105d4e9538db9b357b9ee3bcd42567dcde62e247dd26edb68e7aef2eb7a77
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 5dc035a620cae58cb4e5e03ecaa2fe3b070171c9202ba3059c8a254f19434c11
+      dated_html_sha256: f5aaa4df7a5c5256ab14d435131dbfcc2b78fb82f44eb982211af83804b581cb
+      pdf:
+        union:
+          pages:
+          - 10
+          sha256: d72f049a7af401f1929f0a6f17ade92becf56356ac84512184a14ad95251dd7f
+          text_size: 1443
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 10
+          sha256: 492ca3d321ec120056c123d94d252de5ab33c0842a9fb1e19fd48bedae1bc329
+          text_size: 1435
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 46
+        rendered: 46
+        errors: 0
+        mathml: 46
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf#page=1
+        edition: 2025-26 · Q10
+      dated:
+        math: 46
+        rendered: 46
+        errors: 0
+        mathml: 46
+        heading: Question 10
+        version: 0.16.11
+  sheet-3/q03:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf
+      pages:
+      - 1
+      original_question: '3'
+    source_pdf_sha256: 0af0699c6da4facf91a61afd69d5998386ed14518c6d1576c00953b3ca95630c
+    question_sha256: d612fe5dfe5f94f114477c915329879cbbf95203ac50105997c073eeed62c59b
+    primary_solution_sha256: 76bcdc2ef384957b02b95ad335e1fc5cda1d7233c3c2cf571d2dc0858df20167
+    second_solution_sha256: 7a2978d68eb3cd12105fd6af2d99a62df3c907efdbb2b182307f689a16ec690c
+    blind_rework: |
+      If monic m is the complex minimal polynomial, conjugating m(A)=0 gives the monic annihilator m-bar since A is real. Minimality forces m-bar-m=0: otherwise a lower-degree nonzero annihilator could be made monic. Thus all coefficients are real.
+    comparison: All use the lower-degree difference of the conjugated monic annihilator and the original.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Verified conjugation of a polynomial at a real matrix and non-real spectral/repeated-root
+        examples.
+      stderr: ''
+      sha256: fb93884afb98940e16b19e585a497d0b1217ab2dc48bcb9626833cae5aa85fcd
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 152f0aec8cbc76c5a20888abf7c9f3d90cbfb663aa06eb165af563b354f1ca69
+      dated_html_sha256: f5aaa4df7a5c5256ab14d435131dbfcc2b78fb82f44eb982211af83804b581cb
+      pdf:
+        union:
+          pages:
+          - 3
+          sha256: d72f049a7af401f1929f0a6f17ade92becf56356ac84512184a14ad95251dd7f
+          text_size: 783
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 3
+          sha256: 492ca3d321ec120056c123d94d252de5ab33c0842a9fb1e19fd48bedae1bc329
+          text_size: 774
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 9
+        rendered: 9
+        errors: 0
+        mathml: 9
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf#page=1
+        edition: 2025-26 · Q3
+      dated:
+        math: 9
+        rendered: 9
+        errors: 0
+        mathml: 9
+        heading: Question 3
+        version: 0.16.11
+  sheet-4/q02:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf
+      pages:
+      - 1
+      original_question: '2'
+    source_pdf_sha256: 550194903c7475cc8c25648af6b558d516cb7529c5a720bf84113a7d7845463e
+    question_sha256: 0a96cbe4b6057263478aefe6bef4405ec87f77cfe714428046ae5cf19cdef86d
+    primary_solution_sha256: a7e90d162fe13b8322e02c29a6a8a955ec0cc4175e6d91b9ebb6ea31fb2a426f
+    second_solution_sha256: 9b4c8171e188d433f51fb5b13bb77a4052a54b5f5366cfe830d828741d716e0c
+    blind_rework: |
+      First is (x-z)^2+(y-z)^2-z^2, inertia (2,1), rank 3 signature +1. Taking x=u+w,y=v+w,z=w gives P rows (1,0,1),(0,1,1),(0,0,1), hence diag(1,1,-1), det P=1. Second is (x-2y)^2-2(y+z)^2; those two forms are independent, so inertia (1,1), rank 2 signature 0. Third is 4(x+y)^2-4(x-y)^2-z^2, inertia (1,2), rank 3 signature -1. Fourth matrix is all-ones minus identity, hence eigenvalue 2 along (1,1,1) and -1 on the two-dimensional zero-sum subspace. Rank 3 signature -1.
+    comparison: All four inertias and congruence matrices agree, counting zero squares for the degenerate
+      second form.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Verified all four explicit congruence diagonalisations from the printed forms.
+      stderr: ''
+      sha256: b64dc1a79d7df67943ea463f39ede5c73be15fe85b6dddad02cd84277df9d356
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 12a2eaed6698d0f5ec76a236b27a95f5a592d4b4358d589b7c3c043f51b65662
+      dated_html_sha256: a55e69f55afdacd62bb925e138f766ffc98035d4ba42901db35bafff725a52c7
+      pdf:
+        union:
+          pages:
+          - 2
+          sha256: aede06ac22c5c23eb81277a907b7d7efd6ce19a1501c2cd463f2d1f3ac73f97f
+          text_size: 1297
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 2
+          sha256: 2551d824f0f793417566bbbcbec618a57b5a1f02f95874f3303236a7820ef9d9
+          text_size: 1288
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 33
+        rendered: 33
+        errors: 0
+        mathml: 33
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf#page=1
+        edition: 2025-26 · Q2
+      dated:
+        math: 33
+        rendered: 33
+        errors: 0
+        mathml: 33
+        heading: Question 2
+        version: 0.16.11
+  sheet-4/q09:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf
+      pages:
+      - 1
+      - 2
+      original_question: '9'
+    source_pdf_sha256: 550194903c7475cc8c25648af6b558d516cb7529c5a720bf84113a7d7845463e
+    question_sha256: 8f49c8bc317c2b71b6a2659a5b59ccfbf231d4c5edac6b107edb813281ace296
+    primary_solution_sha256: dac0c3865c6374cb825b63257bcdb553efcf6d938a8adc79ee1368d57209dd33
+    second_solution_sha256: 563931a436044518f0c534d760d690071c344248180baa3ef4c39b59a2641b61
+    blind_rework: |
+      The real integral is symmetric bilinear, and a nonzero polynomial is nonzero on a subinterval by continuity and finitely many roots, so its square has positive integral. alpha(f)=((1-t^2)f')' has degree <=deg f. Integration by parts gives (g,alpha f)=-int(1-t^2)g'f', symmetric, boundary terms zero. A degree k leading term a t^k is sent to -k(k+1)a t^k plus lower terms, also valid as a coefficient formula for k=0. Thus a degree k eigenvector has lambda_k=-k(k+1). On P_{k-1} the triangular matrix of alpha-lambda_k I has nonzero diagonal lambda_j-lambda_k for j<k; unique lower-degree correction to t^k makes an eigenvector (for k=0 use 1). The kth derivative s_k of (1-t^2)^k has degree k and leading coefficient c_k=(-1)^k(2k)!/k!. For a polynomial h of degree <k integrate (h,s_k) by parts k times, boundary terms vanish as derivatives of orders <k of (1-t^2)^k vanish at both endpoints, and h^{(k)}=0. This proves pairwise orthogonality; distinct degrees with nonzero leading terms form a basis, and P_{k-1} orthogonal complement inside P_k is its line Rs_k. Self-adjointness and preservation of P_{k-1} and P_k imply preservation of that line, hence s_k eigen; k=0 directly. Gram-Schmidt without normalisation yields the unique monic orthogonal polynomial s_k/c_k; with unit norm it is sign(c_k)s_k/||s_k|| since the monic residual has positive leading term.
+    comparison: Both source pages and both compiled pages checked. Orthogonality, leading coefficients,
+      four requested steps and normalisation signs agree.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Verified Rodrigues polynomials, Gram-Schmidt, integrals and eigenvalues through degree
+        6.
+      stderr: ''
+      sha256: 5ead0c5c6a4537b5e6772ea2d580e527329ced84dc6b592f43c533f37e60c7c3
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 8c2aaa3d56917c12204f041aa1cb19c97ca83eb7a403194870fc952677920d42
+      dated_html_sha256: a55e69f55afdacd62bb925e138f766ffc98035d4ba42901db35bafff725a52c7
+      pdf:
+        union:
+          pages:
+          - 9
+          - 10
+          sha256: aede06ac22c5c23eb81277a907b7d7efd6ce19a1501c2cd463f2d1f3ac73f97f
+          text_size: 2882
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 9
+          - 10
+          sha256: 2551d824f0f793417566bbbcbec618a57b5a1f02f95874f3303236a7820ef9d9
+          text_size: 2873
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 82
+        rendered: 82
+        errors: 0
+        mathml: 82
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf#page=1
+        edition: 2025-26 · Q9
+      dated:
+        math: 82
+        rendered: 82
+        errors: 0
+        mathml: 82
+        heading: Question 9
+        version: 0.16.11
+  sheet-4/q11:
+    source:
+      archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf
+      pages:
+      - 2
+      original_question: '11'
+    source_pdf_sha256: 550194903c7475cc8c25648af6b558d516cb7529c5a720bf84113a7d7845463e
+    question_sha256: b7f2fdbc015369c5d28ad4654776e1d256ed5e53bacb5822b52d1b31b35eea4c
+    primary_solution_sha256: 4df20cd915b6a9de954dfb2092f25474173a50aca869123d000eccca8153db7b
+    second_solution_sha256: 8cd3fa2a638546ee5a2d5f11a2d35d8d825afcb5d4e89beb0fe4e776300ab4cb
+    blind_rework: |
+      By real spectral theorem orthogonally diagonalise S. Each real eigenvalue lambda satisfies lambda^k=1; since |lambda|^k=1, lambda=+1 or -1 (only +1 if k odd). Squaring the diagonal gives the identity, hence S^2=I.
+    comparison: Real spectral argument applies for odd and even positive k; every eigenvalue squares
+      to one.
+    initial_findings: []
+    check:
+      code: 0
+      stdout: Isolated all real factors of t^k-1 for k up to 24 and tested a nondiagonal reflection.
+      stderr: ''
+      sha256: 2dad6c4ee635680534f34a5d97e1ccabe77b39ee7e5e61362e6cd2cb2ebe9412
+    delivery:
+      unit_question_matches_dated: true
+      unit_answer_matches_dated: true
+      unit_html_sha256: 6323da3ca9e931c8f5b88511b4ed2c5dd337741a64d6a295956fd7d59aace533
+      dated_html_sha256: a55e69f55afdacd62bb925e138f766ffc98035d4ba42901db35bafff725a52c7
+      pdf:
+        union:
+          pages:
+          - 12
+          sha256: aede06ac22c5c23eb81277a907b7d7efd6ce19a1501c2cd463f2d1f3ac73f97f
+          text_size: 577
+          contains_solution_literal: true
+          contains_question_literal: true
+        dated:
+          pages:
+          - 12
+          sha256: 2551d824f0f793417566bbbcbec618a57b5a1f02f95874f3303236a7820ef9d9
+          text_size: 569
+          contains_solution_literal: true
+          contains_question_literal: true
+    browser:
+      unit:
+        math: 17
+        rendered: 17
+        errors: 0
+        mathml: 17
+        heading: Question
+        version: 0.16.11
+        source: ../../../../../../../private/raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf#page=2
+        edition: 2025-26 · Q11
+      dated:
+        math: 17
+        rendered: 17
+        errors: 0
+        mathml: 17
+        heading: Question 11
+        version: 0.16.11

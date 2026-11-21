@@ -1,0 +1,95 @@
+archive: raw/sheets/IB/linear-algebra/2025-26/sheet-4.pdf
+sha256: 550194903c7475cc8c25648af6b558d516cb7529c5a720bf84113a7d7845463e
+printed_term: Michaelmas 2025
+contact: hb470@cam.ac.uk
+resolution_dpi: 160
+original_page_renders:
+  1: 8ce2a9c1175af31d31659324e8f8516c7cc982f96b6b6faa9bb23fed72b320a6
+  2: 760a79992c7e3dc216381da0f38de3924b161e6ec0939781ff4a06906ee35754
+questions:
+  '1':
+    unit: IB/linear-algebra/sheet-4/q01
+    question_sha256: 77160cbb2041cbf64129a6c5571a0709dbe5a6a79f14a6a02b99f78909f0fb0b
+    pages:
+    - 1
+    image_review: Checked the four symmetric matrices and the three fields, including
+      the parenthetical rational question.
+  '2':
+    unit: IB/linear-algebra/sheet-4/q02
+    question_sha256: 0a96cbe4b6057263478aefe6bef4405ec87f77cfe714428046ae5cf19cdef86d
+    pages:
+    - 1
+    image_review: Checked every coefficient of the four forms, the (say) qualifier
+      and diagonal signs plus or minus one.
+  '3':
+    unit: IB/linear-algebra/sheet-4/q03
+    question_sha256: 47e5c70a145e0544ee9d7e239f1ef9901835128ddafe300901f9d556b5bbcf8d
+    pages:
+    - 1
+    image_review: Distinguished the transposed product in the first part from the
+      square in the second and checked both half exponents.
+  '4':
+    unit: IB/linear-algebra/sheet-4/q04
+    question_sha256: 6c0500c56cd5b111a29f16674a7f79d50232ab75bd8eb333acc444d1d89a498c
+    pages:
+    - 1
+    image_review: Checked the printed sign convention of the standard alternating
+      block and the final maximum dimension question.
+  '5':
+    unit: IB/linear-algebra/sheet-4/q05
+    question_sha256: fc446fff9c85ad0701d95df8f231e0ba47bbdcdf16725a4490b74012b76c6af7
+    pages:
+    - 1
+    image_review: Verified all four terms of the Hermitian form, the positive power
+      of zeta in the summand and both occurrences in the argument.
+  '6':
+    unit: IB/linear-algebra/sheet-4/q06
+    question_sha256: 63b35e9921212bb92583012adfd42a49442c5cf14e9b98e866acb785bcc3d016
+    pages:
+    - 1
+    image_review: Checked the leading factor of two, the italic request and the prescribed
+      standard input basis for Gram-Schmidt.
+  '7':
+    unit: IB/linear-algebra/sheet-4/q07
+    question_sha256: 9eda6830d971ff46a1533dd61efd42a5e1d2e150ed6c4c88cf01ff5424b8b471
+    pages:
+    - 1
+    image_review: Verified the positive self-adjoint definition, bold vector x, the
+      order of the adjoint product, and beta followed by gamma.
+  '8':
+    unit: IB/linear-algebra/sheet-4/q08
+    question_sha256: 1118f1c3aba26fcebd277c25d59d47e3c3bf8c2d930c58757de58c637c846137
+    pages:
+    - 1
+    image_review: Checked both commuting products, the bold vector, and perpendicular
+      invariant complement.
+  '9':
+    unit: IB/linear-algebra/sheet-4/q09
+    question_sha256: 8f49c8bc317c2b71b6a2659a5b59ccfbf231d4c5edac6b107edb813281ace296
+    pages:
+    - 1
+    - 2
+    image_review: Read the integral on page 1 and all of the continuation on page
+      2. Checked the unscaled Rodrigues derivative, its sign, limits and all four
+      subparts.
+  '10':
+    unit: IB/linear-algebra/sheet-4/q10
+    question_sha256: 0edf4a0a5fff58ffbc2adbd34898b45faabc6fbd70d8cc136427c53f33648a13
+    pages:
+    - 2
+    image_review: Checked zero sum, unit sum of squares and the cyclic closing term,
+      including the absence of a printed lower bound on n.
+  '11':
+    unit: IB/linear-algebra/sheet-4/q11
+    question_sha256: b7f2fdbc015369c5d28ad4654776e1d256ed5e53bacb5822b52d1b31b35eea4c
+    pages:
+    - 2
+    image_review: Confirmed symmetry over the reals, the condition k at least one
+      and the identity of size n.
+  '12':
+    unit: IB/linear-algebra/sheet-4/q12
+    question_sha256: 9b7909494e7abdd645bd1f0bfe415e1a0451c8566826588d3d6db93477791855
+    pages:
+    - 2
+    image_review: Checked the entrywise uniform bound with a comma in the subscript,
+      k strictly positive and the exponent n/2 on the factor n.

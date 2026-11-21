@@ -1,0 +1,274 @@
+paper_id: IB/2016/P1
+id: IB/2016/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2016-05-31'
+printed_date: Tuesday, 31 May, 2016
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2016/P1.pdf
+archive: private/raw/tripos/IB/2016/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2016/paperib_1.pdf
+sha256: c56dacaf977abbc628a7bb13ba26fe0e3602c7778e5ef857748e67e69422a282
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2016/P1/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c7acaaccdb11ace7ade2b38c55469d83ee4ab8910c3d2f90e2b43f66980de39e
+  checks: All nine matrix entries and both polynomial multiplicities were checked.
+- id: IB/2016/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 027b0d865a30ad849c0afd41b385a4810dd83ec2dda64088dc11731d6e9649fd
+  checks: Both singularity locations and all three functions, including the powers in the denominators, were
+    verified.
+- id: IB/2016/P1/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: ec4711e4cc26532bbb02df70414263dd39f6be9ba809962008a6d0d9c0ea48bd
+  checks: The image of a, Euclidean radius range and hyperbolic radius in the final subpart were checked.
+- id: IB/2016/P1/q4C
+  original_question: 4C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 6f0cf0fdfdccb07871c862a3c68457a9329171126acdfe6566c92ce367ea909d
+  checks: The coefficient of the first square, the mixed term and the negative parameter case were checked.
+- id: IB/2016/P1/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: a2de218c8211c13a2d661ea7db0ecaad1ce50b80846c70251f40fdce5a9aca96
+  checks: The three components, sign of the first component and exclusion of the z axis were checked.
+  printed_ambiguity: The circulation depends on the oriented winding number of the closed curve.
+- id: IB/2016/P1/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 98238569ccdf4295b9ef3940c1a7ba8ee4ddb7c0ea350ac39b75b39e01fa9903
+  checks: Interval endpoints, positive weight and coefficients of the stated recurrence were checked.
+- id: IB/2016/P1/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 0b48cdb19f9bb9dd382f0ff6d4360aa7df81c59d22da796250f4be46e2d9ea3a
+  checks: The exponential rate and support, simple hypotheses and composite inequalities were verified.
+- id: IB/2016/P1/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: d06e13980d042834b95d095fb76c17a8dfd58887b18af70e5be93277a45a1ce9
+  checks: Every payoff entry and the maximising row player and minimising column player were verified.
+- id: IB/2016/P1/q9F
+  original_question: 9F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: ba36239f03d07c92ebb09f90bb5a39ee4bcd29afcf83b9f70c2ed1327aa6dd2c
+  checks: The trace normalization and commutator subspace statements were checked.
+- id: IB/2016/P1/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 6049c95b8de826c3195d4e3efe7d678b1ea099d35b66da1c5187c2a52b1c0fc4
+  checks: The finite union of primes, real polynomial quotient and exclusion of all real point ideals were
+    checked.
+- id: IB/2016/P1/q11G
+  original_question: 11G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 72114c7f7a4d5accf6af7712c7d0e54ac8fe5bd5545bcccc1e7316ac461cc544
+  checks: All five subsequence statements, the asymmetric lower bound and the two contraction factors were
+    verified.
+  printed_ambiguity: Part (c) refers to every closed subset. The fixed-point property normally quantifies over
+    nonempty closed subsets.
+- id: IB/2016/P1/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 4dc1b554610d0e3bf334240a9b5e5477e77537f6936a27cffe6ea1e214a32924
+  checks: The strong triangle inequality, sequence exponent and open-ball radius condition were verified.
+- id: IB/2016/P1/q13A
+  original_question: 13A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 43f4d2aa8cc13aced3e4e0d3c8d9e9b8e932d339f07420639a5ae9706b47da69
+  checks: The three maps, parabolic region, both slit endpoints and inclusion of the axis in part (c) were
+    checked.
+- id: IB/2016/P1/q14A
+  original_question: 14A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 0035fa47c8ff48de500dc9d0d5aa88d9af2d891a87d0a29f3037eec837c7c933
+  checks: Both boundary pairs, the sign in the Sturm–Liouville problem and exponential substitution were verified.
+- id: IB/2016/P1/q15B
+  original_question: 15B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 71c13ea5ea9a24d0036e67b89e1c0373bb428d6d8b64e964dbcf560e379159cc
+  checks: The cubic sine, normalization, observation time, potential step and strict binding thresholds were
+    checked.
+  printed_ambiguity: The upper bound is printed strictly. Check normalisability of the threshold state and
+    whether equality still permits precisely one bound state.
+- id: IB/2016/P1/q16D
+  original_question: 16D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 2089e12c9cae8fa531f3c0c6d9b9b3b2b8927d0cb2a29ed4c3136de58e18df4d
+  checks: All six prompts, the conductor's half-space, opposite image charge and locations were verified.
+- id: IB/2016/P1/q17C
+  original_question: 17C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 6a9ff656a5c6ce33c2bedebaa15a2d6e21042c44b5c3e21a60403315659c056a
+  checks: The sign of the vorticity cross product, the irrotational and steady cases and rotating frame were
+    checked.
+- id: IB/2016/P1/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: ee8df826200290b405f7e11d2d3f7ab715d52ebb5ae6e696657b9f9710532339
+  checks: All moment conditions, summation ranges, the parameter in the two-step formula and requested order
+    were checked.
+- id: IB/2016/P1/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: dd56e6b504f504367fd8e17d1451b9033104f851f682cdaad5e47bfa8bcc5823
+  checks: The support, positive parameter and order statistics in the two-dimensional statistic were matched.
+- id: IB/2016/P1/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 2092368b687032dce262d99b0d64be0cc8faa73fc7e21ccab5544876c7eacf91
+  checks: The lower indices, printed central-binomial limit, return time and generating function domain were
+    checked.
+  printed_ambiguity: The printed limit in the hint is the square root of pi; the central-binomial asymptotic
+    gives its reciprocal.

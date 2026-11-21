@@ -1,0 +1,122 @@
+archive: raw/sheets/IB/linear-algebra/2025-26/sheet-3.pdf
+sha256: 0af0699c6da4facf91a61afd69d5998386ed14518c6d1576c00953b3ca95630c
+printed_term: Michaelmas 2025
+contact: hb470@cam.ac.uk
+resolution_dpi: 160
+original_page_renders:
+  1: 7e51b1cffbe1aaad308da7ea97d7f42fe9829c9dcc754ce00c5b786e5514777b
+  2: e62866dff28905731dd43fffcd558a0f56dd2ce81176832bb8033c941ed795e0
+questions:
+  '1':
+    unit: IB/linear-algebra/sheet-3/q01
+    question_sha256: c92d48e534c3cd4aa020b25df0b0ff8e6500dc1093c1d52ec170f0dac062a41a
+    pages:
+    - 1
+    image_review: Read all 27 matrix entries and the simultaneous-diagonalisation
+      requirement for the second and third matrices.
+  '2':
+    unit: IB/linear-algebra/sheet-3/q02
+    question_sha256: 8472c408289d1737a4d40d29ad8ea4581287ef4f7ca30047ad71406243444244
+    pages:
+    - 1
+    image_review: Checked real field, lambda on the diagonal and ones at every other
+      position; both eigenvalues and determinant requested.
+  '3':
+    unit: IB/linear-algebra/sheet-3/q03
+    question_sha256: d612fe5dfe5f94f114477c915329879cbbf95203ac50105997c073eeed62c59b
+    pages:
+    - 1
+    image_review: Preserved the wording “minimum polynomial” and the distinction between
+      real entries and complex coefficients.
+  '4':
+    unit: IB/linear-algebra/sheet-3/q04
+    question_sha256: 8c39bbf0f58bdc9914f4fde5d8bfacb23981efe144528fd02460333c6a346f4d
+    pages:
+    - 1
+    image_review: The printed question refers to the theorem stated in lectures without
+      restating its hypotheses.
+  '5':
+    unit: IB/linear-algebra/sheet-3/q05
+    question_sha256: 8f10c86bbb99d8736e22cbfce7cc5b26d512a379cbb433b7430ae13e02ad4e9c
+    pages:
+    - 1
+    image_review: Checked both eigenvalue implications, both kernels, and absence
+      of a finite-dimensional assumption.
+  '6':
+    unit: IB/linear-algebra/sheet-3/q06
+    question_sha256: 6cfb6fc175a0b0edabd4d9930cb952be240f50230f330a82b5586ffc3e35e389
+    pages:
+    - 1
+    image_review: Checked the negative upper right entry and the printed exponent
+      1000.
+  '7':
+    unit: IB/linear-algebra/sheet-3/q07
+    question_sha256: 8a7c1ef7e4828bbe6d271c890b61b4f3c9cee6c3f3126d98df9b31682735dbbd
+    pages:
+    - 1
+    image_review: Read four 3-by-3 arrays including the negative first row of the
+      last; the uniqueness shortcut is explicitly excluded.
+  '8':
+    unit: IB/linear-algebra/sheet-3/q08
+    question_sha256: 6b037ea35ca526e5f10821c43490f72a9a5e8aef9330406a9e10b358fe3a6366
+    pages:
+    - 1
+    image_review: Verified size three in the recalled statement and size four in the
+      counterexample.
+  '9':
+    unit: IB/linear-algebra/sheet-3/q09
+    question_sha256: 4fee1e07aa0d41bf74c5565a30c931b246cd44454cc572c68f1cb576ece894a7
+    pages:
+    - 1
+    image_review: Checked positive integer k, the calligraphic matrix-space symbol,
+      and the italic separate-case hint.
+  '10':
+    unit: IB/linear-algebra/sheet-3/q10
+    question_sha256: d3aa064e864804dc101bf7a0ecb79f4d54e489e2c6d6cf075d9ebb4b9ea8d513
+    pages:
+    - 1
+    image_review: Checked the ordered cyclic basis, nonzero penultimate power, powers
+      and final commuting-endomorphism question.
+  '11':
+    unit: IB/linear-algebra/sheet-3/q11
+    question_sha256: 48d9832fd6da5214e0d208dbee96a763df43a8fc9050ee01366c890814525e3f
+    pages:
+    - 2
+    image_review: Confirmed three subparts, characteristic and minimal polynomials,
+      nonzero lambda and the transpose.
+  '12':
+    unit: IB/linear-algebra/sheet-3/q12
+    question_sha256: a93b02bdf4eb6984643143996c4c16b45ece9e39683107f0d2d79b7e79569270
+    pages:
+    - 2
+    image_review: Checked the real and complex fields, scalar pencil and similarity
+      directions.
+  '13':
+    unit: IB/linear-algebra/sheet-3/q13
+    question_sha256: 94ef2b6a6388355dcf066e575b40da8bae8ea5de7e8600d99cbe8ab37dcd2295
+    pages:
+    - 2
+    image_review: Verified the orientation of all displayed cyclic shifts and the
+      positive-sign exponential and product endpoints.
+  Bonus 1:
+    unit: IB/linear-algebra/sheet-3/q14
+    question_sha256: a0b9cbd6c9c131bf3177830beb3f4b072da9d403573588f71cc3f2f7eda3c9ad
+    pages:
+    - 2
+    image_review: The page starts a Bonus/Optional Questions section with its own
+      numbering. Checked the finite-field-neutral hypotheses, product order and characteristic
+      polynomial.
+  Bonus 2:
+    unit: IB/linear-algebra/sheet-3/q15
+    question_sha256: 1ea0d4c730d08c5d3e97410a57176eee080fd488445a479fa71914fd1c9a1632
+    pages:
+    - 2
+    image_review: Bonus number 2 prints A to the fourth equals A squared, unequal
+      to A. The final italic parenthesis asks for the whole list.
+  Bonus 3:
+    unit: IB/linear-algebra/sheet-3/q16
+    question_sha256: 41dbe448f33cab77b9634d2d6f406a3d4f35c16965bcfff08458c1115f9474af
+    pages:
+    - 2
+    image_review: Bonus number 3 uses the real field, the space of linear maps and
+      the quantifier every real number.

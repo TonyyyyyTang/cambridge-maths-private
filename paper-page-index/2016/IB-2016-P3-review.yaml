@@ -1,0 +1,286 @@
+paper_id: IB/2016/P3
+id: IB/2016/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2016-06-02'
+printed_date: Thursday, 2 June, 2016
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2016/P3.pdf
+archive: private/raw/tripos/IB/2016/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2016/paperib_3.pdf
+sha256: 8d966349867a25c6b582645d89dea80ded837f0aa905b4f0c548a47bd3762538
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2016/P3/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 12897032f2d0d598d340257925cc013faca001eb44e434e7282d08bd43545c1b
+  checks: Checked the permutation representation, both subgroup conclusions and the specified kernel.
+- id: IB/2016/P3/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 9d2ef2d69f74fbf764c72b2594a673aa5ee2f0ba26983add68b0c1f8dec76241
+  checks: Checked each of the four domains and formulas, including the partial sum with squared denominator.
+- id: IB/2016/P3/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 33dc759a9216be859b13291f01b107272f5f19b7a66d64a33418334fdaf13c53
+  checks: The printed limit-point condition only requires the neighbourhood to intersect A. Checked both closure
+    statements.
+- id: IB/2016/P3/q4A
+  original_question: 4A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: c5b64c0faf1020f60f193690797a703e661d5a9de49e9e31a5916dbf52ffe697
+  checks: Checked the minus signs in the transform and numerator, the strict x condition and permitted results.
+- id: IB/2016/P3/q5F
+  original_question: 5F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 8a32759d1622a3bb78a518469c8b3906b8ceced72692b5924a279222e23e5578
+  checks: Checked both parts, the two polygon types and valence three at every vertex.
+- id: IB/2016/P3/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 6220d19810b2f5efeb245702a6a2160be696ddc7e14fb60f6b09b7c9cb0ae971
+  checks: Checked each cylindrical coordinate, both inequalities and the bracketed definition of pitch.
+  printed_ambiguity: The angular coordinates are periodic. The shortest helix uses an angular difference of
+    least absolute value, with two choices at diametrically opposite angles.
+- id: IB/2016/P3/q7A
+  original_question: 7A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 10a187d34f2786f7cf0f50fbe792764e125dc5f019351490532a82d22f53c6e9
+  checks: Checked the delta forcing, derivative at 1, homogeneous mixed conditions and exponential forcing.
+- id: IB/2016/P3/q8B
+  original_question: 8B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: bf3eeef71366a6a6a23f83460ae18ae32848f81b8072668e22d3ceca841f4ce7
+  checks: Checked the continuity equation, signs of the plane-wave phases and constraints on the constants.
+- id: IB/2016/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: bf61a6f3ac187195038aab328a5877ad81a2e552588b1e4ecb246b321c56f416
+  checks: Checked the distinct time lower bounds in the sum and nonreturn event, and the infinity convention.
+- id: IB/2016/P3/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 48115d61a8721ad856db076978babd8347d4b68e9d41825758f18e8f514b0c4b
+  checks: Checked the adjoint and normality premise, both operator products, the basis and polynomial conditions.
+- id: IB/2016/P3/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: f23d6a20770a1a0fbca423c56b28e7f9a995ec797f4537ff942b97eacb302eda
+  checks: Checked the ideal generators, fifth-power relation, ring targets and negative radicands.
+- id: IB/2016/P3/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: e26acc37b196868fb7e36d1d30db3aebb04a40fcaa0ed7d6da3a75bab2c84298
+  checks: Checked the Lipschitz and convergence assertions, compactness premise, dense-extension statement
+    and printed definition.
+- id: IB/2016/P3/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 0b27b0505c6e000bc76e99d51a575e292b755dbd75c14c9b3fe319b2594513da
+  checks: Checked the triangle and winding-number requests, infinitely many positive integers and the exponential
+    conclusion.
+- id: IB/2016/P3/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 7968a438d2fa2c1e4c6916b69e31660d59cbd559460e1b6e361204cb93b8a9b1
+  checks: Checked both cross-ratio orders, the four labelled points in the diagram, sign claims and Ptolemy's
+    identity.
+  figures:
+  - inscribed-quadrilateral
+- id: IB/2016/P3/q15B
+  original_question: 15B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: f13f2d97bba671112bb854f0efd159ba5bc4e40632698c6d2ce4fb079725be0e
+  checks: Checked the Gaussian transform and its hint, the wording of Property P, all data and the two PDEs.
+- id: IB/2016/P3/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 5da6a00c25ad375135c7b4b16a7d8641a1fbad45117ed979ae2db2825655ca5f
+  checks: Checked the radial equation, lambda and energy definitions, exponential ansatz, energy denominator
+    and Bohr question.
+  printed_ambiguity: A square-integrable singular radial solution can behave like 1/r at the origin. The quantisation
+    argument requires the Coulomb Hamiltonian's physical boundary condition there.
+- id: IB/2016/P3/q17D
+  original_question: 17D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 380323e47fea45634a8085e79d047cfa66839335ca49761425dd976ce78a2171
+  checks: Checked the positive circuit order, battery polarity and all labels in the original diagram, field
+    orientation, initial data and five parts.
+  figures:
+  - moving-bar-circuit
+- id: IB/2016/P3/q18C
+  original_question: 18C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: e55a3b79cb2d3f173bfb61476aad9b6fa1eda2258b4fed7b6e41f5c2a0ddaf84
+  checks: Checked layer order, densities, impermeable surface signs, perturbation phase and small-amplitude
+    condition.
+- id: IB/2016/P3/q19D
+  original_question: 19D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 71ac5683a8248839aa1b3af4718853470074e3cb72b662a999385b71d8ca160c
+  checks: Checked the three interpolation nodes, the requests at 5 and 1, both norms of the second derivative
+    and cubic test.
+- id: IB/2016/P3/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 9750dfd7a9598dd3865408c6f9aa2f6eedf17016e542c4536376700745de3109
+  checks: Checked the sample assumptions, confidence level, normal tail, Gamma rate parametrisation and predictive
+    event.
+- id: IB/2016/P3/q21H
+  original_question: 21H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: d77a4d59c589c18e5e1a2a20080aff5a25f070797b38ab2098cdf0233d404598
+  checks: Checked the objective and triangular sum constraints, exponent signs and constants in both optimal
+    sequences.

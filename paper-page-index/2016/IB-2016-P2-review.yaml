@@ -1,0 +1,266 @@
+paper_id: IB/2016/P2
+id: IB/2016/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2016-06-01'
+printed_date: Wednesday, 1 June, 2016
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2016/P2.pdf
+archive: private/raw/tripos/IB/2016/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2016/paperib_2_0.pdf
+sha256: f70291d6b7fe385026ae1fc6be57f6869a59e24e260b9420499bbbf06fd19359
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2016/P2/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: a4c242db0bbb9bbc4a0cc51b0f4ed94cf9a8ee70659bd67bf138f274b2eed817
+  checks: The six coefficients of the original quadratic form and the requested diagonal form were checked.
+- id: IB/2016/P2/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 940b87b2ec29869a9f005eadeea640e4f1411b2de53fd86e5146517897158316
+  checks: The field and ring codomains, both injectivity requirements and the final counterexample were checked.
+- id: IB/2016/P2/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 8fd1a5f8ac1d07899ff1e58f2589a5b5d0729c9d8cdc91bfb39314cc705fcb1a
+  checks: All domain dimensions, the coordinatewise sum, and the two different fractional powers were matched.
+- id: IB/2016/P2/q4E
+  original_question: 4E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 99f6bbea706b72bbeb926c62ebe1507eb2309c8ba743177d3ae26965cedb6f62
+  checks: The usual topologies, direction of the surjection and compactness hypotheses were checked.
+- id: IB/2016/P2/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 55ba681b0d0313356c5181b4353bd895a591a5c70db70414de88908678573c61
+  checks: Both closed quadrant bounds, the minus sign and the boundary data were checked.
+- id: IB/2016/P2/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 01a2c18f5a669ae5c6e1bfefa62a49a6c0c4b421638b03c04a26e254b3ee0ecc
+  checks: All three radial intervals and the same and opposite shell-current directions were checked.
+- id: IB/2016/P2/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: e9e002539ec76e4932710fa963b08cd4f94a491844a75d28c92edbf38d50584e
+  checks: The moving plate, pressure-gradient sign and the zero shear on the bottom plate were checked.
+- id: IB/2016/P2/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 18320ebd6f364ba24bfe8c68e723aad18c7717e6e5ed986e3ddd6e211a7676a7
+  checks: The six outcome counts, test size, six degrees of freedom and all six supplied percentile values
+    were checked directly.
+- id: IB/2016/P2/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 743e0f02bec916d48c17884d6d67cb46461b7e467de2ebff5e28ba6f7d6f9cf8
+  checks: Objective, all constraint coefficients, right sides and nonnegativity were checked.
+- id: IB/2016/P2/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e77d4f2ebb0f1c11ab1e3175bee5623cb1e370dfb4e341d193bcea5ec66abafb
+  checks: Left versus right multiplication, transposition, conjugation and both determinant exponents were
+    checked.
+- id: IB/2016/P2/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 77ac6ef7a754ceb53e26f4b940814c62eae45a3ac97d78acf13a7e634047919e
+  checks: The order 351, finite field of order 31, matrix size and Sylow prime were checked.
+- id: IB/2016/P2/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: b1981d7a4ea381eade376288defc6e15a3c08c1aa17ed8ec39150f9402423558
+  checks: The operator norm supremum, composition dimensions, strict norm bound and derivative orders were
+    verified.
+- id: IB/2016/P2/q13A
+  original_question: 13A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: ea41b1d77d5f935099f4357c25a60c1d24d9d00a5486686ee251b492fb88b05c
+  checks: The four contour vertices, anticlockwise orientation, integrand and alternating sum were checked.
+- id: IB/2016/P2/q14F
+  original_question: 14F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: d861cf55dd97b79cbbbaa6ff7032623e8fd3c303ed45aa12c63cc7335bbbad3b
+  checks: The nonacute angle, side labels, cosine law, off-line point condition and diameter definition were
+    checked.
+- id: IB/2016/P2/q15C
+  original_question: 15C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 6fa0ef138825844cb9050dc3f1974d46d2396046d0bfac9ee45cc0581026914f
+  checks: The powers of first and second derivatives, energy sign and eight endpoint conditions were matched.
+- id: IB/2016/P2/q16A
+  original_question: 16A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 84258aef2938fc7eec42e71646e2893aab91cdcf55009f66a2b04c588117ef2a
+  checks: Free ends, initial velocity, displacement, odd harmonic coefficients and final sketch interval were
+    checked.
+- id: IB/2016/P2/q17B
+  original_question: 17B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 42070e07ae8380cce0f2d93aab5c8e91c2ae439863296ab2079fc334d61db3d0
+  checks: Operator order in both products, energy shift sign, adjoint integral and final quantisation were
+    checked.
+  printed_ambiguity: In part (b) the lowered state can be zero, notably for the ground state. The printed eigenfunction
+    assertion must be qualified when solving.
+- id: IB/2016/P2/q18D
+  original_question: 18D
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 66fb4ff39803252b3cf49a65c2d2ac608fca49a3db6eb9050019a570df492ef0
+  checks: Every boost matrix entry, component signs, speed and theta endpoint case were checked.
+- id: IB/2016/P2/q19D
+  original_question: 19D
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: f5ccfc2ba0a6b0877bbc18005eab845fdf5369049ec344c625f43526631cf779
+  checks: Givens indices, dimensions, fractional entries and the requested Euclidean residual were checked.
+- id: IB/2016/P2/q20H
+  original_question: 20H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 7347e9274edcfed1173998b19ab228ac69f37e5e02f5f24328c6c6a0e6d048c9
+  checks: The open/closed communicating class distinction, all sixteen probabilities and time ranges were checked.
