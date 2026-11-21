@@ -1,0 +1,574 @@
+scope: IB methods example sheet 4 in the reviewed 2025–26 and 2026–27 editions. Other
+  years and the whole course remain outside this sample.
+selection:
+  seed: 20261219
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  - q13
+  sample:
+  - q10
+  - q06
+  - q13
+  scope: 2025-26 and 2026-27, all distinct wordings within each sampled family
+sampling: One seeded sample without replacement of ceil(20% of the union of the two
+  editions). Every appearance of each selected family was independently source-checked.
+blind_input: Exact statements and supplied original figures, original file, page and
+  printed locators only. Fresh auditor did not write the stored solutions.
+frozen_manifest_sha256: 7bbe06c7b2393e5718141d23e63664b9dbc17a5e096353b800968a0064774938
+reworks:
+  1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb:
+    unit: q10
+    comparison: The auditor obtains the same two translated steps, plateau and optional
+      symmetric front convention, and verifies the initial delta velocity by differentiating
+      the travelling terms.
+    canonical_or_snapshot_solution: courses/IB/methods/sheets/sheet-4/q10/solution.tex
+    source_hashes:
+      question.tex: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+      solution.tex: 99e890d15df376da05a949c89d1ecd2fc231cde0eef552693bc33f315f5ec524
+    check_sha256: b345597e63680c0df9f75f71ddf39eb2f5e4e59cf5713e944aebac9d534144f2
+    check_output: Distributional initial data and both propagating fronts verified.
+  6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4:
+    unit: q06
+    comparison: Completing the Gaussian square gives exactly the t+s kernel, including
+      its normalisation.
+    canonical_or_snapshot_solution: courses/IB/methods/sheets/sheet-4/q06/solution.tex
+    source_hashes:
+      question.tex: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+      solution.tex: 665a1b09dad6dd9acea4b739f8dfcf17d473bf8d9a65e28ebda95b6eb35a3db5
+    check_sha256: fef87f7b3103fb8f992cee51957c49e3125e434e6c0b8d215b69e3b7ed6382cd
+    check_output: Direct 1D and 3D convolutions reproduce the sum-time heat kernel.
+  02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39:
+    unit: q13
+    comparison: The shrinking-boundary flux and boundary-motion contributions give
+      nonpositive energy derivative. Vanishing time derivative along a fixed spatial
+      point then fixes the displacement, including the cone vertex.
+    canonical_or_snapshot_solution: courses/IB/methods/sheets/sheet-4/q13/solution.tex
+    source_hashes:
+      question.tex: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+      solution.tex: 52906d59c488bb8b867d75d5427a884ba402c093a8011fe0df005e1dcd1c8058
+      plot.py: 2bdc14877e58475cfcc06a62de2bac2a5a1e548c29c3f7b15e3877096ee2f785
+      figures/backwards-lightcone.png: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+    check_sha256: 3dbc5eb2f24127dc055d3ff345025610cb4ff5d5022b58dfbb18df3bb3b1c178
+    check_output: Moving-ball energy derivative agrees with the nonpositive boundary
+      flux.
+appearances:
+  2025-26/q10:
+    source:
+      printed_locator: '10'
+      original: private/raw/sheets/IB/methods/2025-26/sheet-4.pdf
+      original_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+      physical_pages:
+      - 2
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '2': 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+      question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared both sentences, the negative and positive time conditions,
+        time of impact, sign of the delta argument and its velocity coefficient.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+    independent_rework_sha256: 6a7c60382779f59858895ee1e814dfcb890fc0575da62e8c65bb7b0240b9bb44
+    independent_rework: 'Take transverse displacement from the undisturbed equilibrium
+      position and let $c>0$ be the wave speed. Immediately after the impulse the
+      data are $u(x,0)=0$ and $u_t(x,0+)=V\delta(x-x_0)$. For smooth initial velocities
+      $g$, d''Alembert''s formula gives $u(x,t)=\frac1{2c}\int_{x-ct}^{x+ct}g(y)\,dy$.
+      Applying this formula to a smooth unit-mass approximation to the point impulse
+      and taking the distributional limit gives
+
+      \[
+
+      u(x,t)=\frac{V}{2c}\big[H(x-x_0+ct)-H(x-x_0-ct)\big],\qquad t>0.
+
+      \]
+
+      Thus the displacement is $V/(2c)$ when $|x-x_0|<ct$ and zero when $|x-x_0|>ct$.
+      Values assigned on the two jump lines do not affect the distribution. A symmetric
+      approximation assigns $V/(4c)$ on each line. Each translated step solves the
+      homogeneous wave equation distributionally. The difference is zero at $t=0$
+      and its right time derivative there is $V(\delta_{x_0}+\delta_{x_0})/2=V\delta_{x_0}$,
+      verifying the normalization.
+
+      '
+  2026-27/q10:
+    source:
+      printed_locator: '10'
+      original: private/raw/sheets/IB/methods/2026-27/sheet-4.pdf
+      original_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+      physical_pages:
+      - 2
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '2': a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+      question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared both sentences, the negative and positive time conditions,
+        time of impact, sign of the delta argument and its velocity coefficient.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+    independent_rework_sha256: 6a7c60382779f59858895ee1e814dfcb890fc0575da62e8c65bb7b0240b9bb44
+    independent_rework: 'Take transverse displacement from the undisturbed equilibrium
+      position and let $c>0$ be the wave speed. Immediately after the impulse the
+      data are $u(x,0)=0$ and $u_t(x,0+)=V\delta(x-x_0)$. For smooth initial velocities
+      $g$, d''Alembert''s formula gives $u(x,t)=\frac1{2c}\int_{x-ct}^{x+ct}g(y)\,dy$.
+      Applying this formula to a smooth unit-mass approximation to the point impulse
+      and taking the distributional limit gives
+
+      \[
+
+      u(x,t)=\frac{V}{2c}\big[H(x-x_0+ct)-H(x-x_0-ct)\big],\qquad t>0.
+
+      \]
+
+      Thus the displacement is $V/(2c)$ when $|x-x_0|<ct$ and zero when $|x-x_0|>ct$.
+      Values assigned on the two jump lines do not affect the distribution. A symmetric
+      approximation assigns $V/(4c)$ on each line. Each translated step solves the
+      homogeneous wave equation distributionally. The difference is zero at $t=0$
+      and its right time derivative there is $V(\delta_{x_0}+\delta_{x_0})/2=V\delta_{x_0}$,
+      verifying the normalization.
+
+      '
+  2025-26/q06:
+    source:
+      printed_locator: '6'
+      original: private/raw/sheets/IB/methods/2025-26/sheet-4.pdf
+      original_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+      question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared the complete single sentence and displayed-in-line convolution.
+        The capitalised Heat Kernel, hyphenated semi-group, order of kernel factors,
+        subscripts and bold spatial argument agree.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+    independent_rework_sha256: 3fc6d10b3d07ea9086bf84c3ecefba1ad64f20bffe6de0172e8ee3ef7f859725
+    independent_rework: 'Let the diffusivity be $\kappa>0$. For $r>0$ the heat kernel
+      on $\mathbb R^n$ is
+
+      \[
+
+      K_r(z)=(4\pi\kappa r)^{-n/2}\exp(-|z|^2/(4\kappa r)).
+
+      \]
+
+      Use positive $s,t$. In the defining integral $\int K_t(x-y)K_s(y)\,dy$ both
+      factors are integrable Gaussians. Complete the square using
+
+      \[
+
+      \frac{|x-y|^2}{t}+\frac{|y|^2}{s}
+
+      =\frac{t+s}{st}\left|y-\frac{s}{s+t}x\right|^2+\frac{|x|^2}{s+t}.
+
+      \]
+
+      Integration over all $y$ of the shifted Gaussian gives $(4\pi\kappa st/(s+t))^{n/2}$.
+      After multiplication by the two kernel prefactors, the convolution is
+
+      \[
+
+      (4\pi\kappa(s+t))^{-n/2}\exp(-|x|^2/(4\kappa(s+t)))=K_{s+t}(x).
+
+      \]
+
+      If time zero is included as a measure-valued kernel, $K_0$ is the unit point
+      mass and convolution by it is the identity.
+
+      '
+  2026-27/q06:
+    source:
+      printed_locator: '6'
+      original: private/raw/sheets/IB/methods/2026-27/sheet-4.pdf
+      original_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+      question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared the complete single sentence and displayed-in-line convolution.
+        The capitalised Heat Kernel, hyphenated semi-group, order of kernel factors,
+        subscripts and bold spatial argument agree.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+    independent_rework_sha256: 3fc6d10b3d07ea9086bf84c3ecefba1ad64f20bffe6de0172e8ee3ef7f859725
+    independent_rework: 'Let the diffusivity be $\kappa>0$. For $r>0$ the heat kernel
+      on $\mathbb R^n$ is
+
+      \[
+
+      K_r(z)=(4\pi\kappa r)^{-n/2}\exp(-|z|^2/(4\kappa r)).
+
+      \]
+
+      Use positive $s,t$. In the defining integral $\int K_t(x-y)K_s(y)\,dy$ both
+      factors are integrable Gaussians. Complete the square using
+
+      \[
+
+      \frac{|x-y|^2}{t}+\frac{|y|^2}{s}
+
+      =\frac{t+s}{st}\left|y-\frac{s}{s+t}x\right|^2+\frac{|x|^2}{s+t}.
+
+      \]
+
+      Integration over all $y$ of the shifted Gaussian gives $(4\pi\kappa st/(s+t))^{n/2}$.
+      After multiplication by the two kernel prefactors, the convolution is
+
+      \[
+
+      (4\pi\kappa(s+t))^{-n/2}\exp(-|x|^2/(4\kappa(s+t)))=K_{s+t}(x).
+
+      \]
+
+      If time zero is included as a measure-valued kernel, $K_0$ is the unit point
+      mass and convolution by it is the identity.
+
+      '
+  2025-26/q13:
+    source:
+      printed_locator: '13'
+      original: private/raw/sheets/IB/methods/2025-26/sheet-4.pdf
+      original_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+      physical_pages:
+      - 2
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '2': 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+      question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared both paragraphs around the diagram, including the PDE, base
+        data, both closed-ball inequalities, the moving-ball energy, time and space
+        inequalities of the cone, and the final uniqueness request. Compared Figure
+        1, its number, full caption and final punctuation. The cone apex and its coordinates,
+        the base centre, shaded base and time cross-section, arrow labels B_0 and
+        B_t, vertical time arrow and ambient-space label all agree with the printed
+        figure.
+      figure_sha256:
+        figures/backwards-lightcone.png: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+      discrepancies: []
+    text_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+    independent_rework_sha256: 5293aff79d04dbbc1317df8ae080afd5730ea37f62cf58e355e1773042cda4df
+    independent_rework: 'Assume a classical solution smooth up to the initial slice
+      and $c>0$. Write $e=(u_t^2+c^2|\nabla u|^2)/2$. The wave equation gives $\partial_t
+      e=c^2\operatorname{div}(u_t\nabla u)$. For $0<t<t_0$, the outward normal speed
+      of the sphere bounding $B_t$ is $-c$. Differentiating the moving integral and
+      using the divergence theorem, with $\nu$ the outward unit normal and $\nabla_T$
+      the tangential gradient, gives
+
+      \[
+
+      E''(t)=\int_{\partial B_t}(c^2u_t\partial_\nu u-ce)\,dS
+
+      =-\frac c2\int_{\partial B_t}\big[(u_t-c\partial_\nu u)^2+c^2|\nabla_Tu|^2\big]\,dS\le0.
+
+      \]
+
+      On the base, $u_t=0$ and $\nabla u=0$ in the interior because $u(\cdot,0)$ is
+      identically zero there. Hence $E(0)=0$. Since $E$ is nonnegative, it vanishes
+      at every time before the vertex. Its continuous nonnegative integrand therefore
+      vanishes throughout each open ball and extends to the boundary by continuity.
+      For $x\in B_t$, the fixed point $x$ also lies in every $B_s$, $0\le s\le t$.
+      Integrating $u_t(x,s)=0$ from time zero gives $u(x,t)=0$. Continuity along $x=x_0$
+      also gives zero at the vertex. If $t_0=0$ the assertion is initial data.
+
+
+      Apply this argument to the difference of two classical solutions whose data
+      coincide on $B_0$. They agree throughout the cone and in particular at its vertex.
+      If the data coincide everywhere, the vertex is arbitrary and uniqueness holds
+      throughout space-time.
+
+      '
+  2026-27/q13:
+    source:
+      printed_locator: '13'
+      original: private/raw/sheets/IB/methods/2026-27/sheet-4.pdf
+      original_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+      physical_pages:
+      - 2
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '2': a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+      question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared both paragraphs around the diagram, including the PDE, base
+        data, both closed-ball inequalities, the moving-ball energy, time and space
+        inequalities of the cone, and the final uniqueness request. Compared Figure
+        1, its number, full caption and final punctuation. The cone apex and its coordinates,
+        the base centre, shaded base and time cross-section, arrow labels B_0 and
+        B_t, vertical time arrow and ambient-space label all agree with the printed
+        figure.
+      figure_sha256:
+        figures/backwards-lightcone.png: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+      discrepancies: []
+    text_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+    independent_rework_sha256: 5293aff79d04dbbc1317df8ae080afd5730ea37f62cf58e355e1773042cda4df
+    independent_rework: 'Assume a classical solution smooth up to the initial slice
+      and $c>0$. Write $e=(u_t^2+c^2|\nabla u|^2)/2$. The wave equation gives $\partial_t
+      e=c^2\operatorname{div}(u_t\nabla u)$. For $0<t<t_0$, the outward normal speed
+      of the sphere bounding $B_t$ is $-c$. Differentiating the moving integral and
+      using the divergence theorem, with $\nu$ the outward unit normal and $\nabla_T$
+      the tangential gradient, gives
+
+      \[
+
+      E''(t)=\int_{\partial B_t}(c^2u_t\partial_\nu u-ce)\,dS
+
+      =-\frac c2\int_{\partial B_t}\big[(u_t-c\partial_\nu u)^2+c^2|\nabla_Tu|^2\big]\,dS\le0.
+
+      \]
+
+      On the base, $u_t=0$ and $\nabla u=0$ in the interior because $u(\cdot,0)$ is
+      identically zero there. Hence $E(0)=0$. Since $E$ is nonnegative, it vanishes
+      at every time before the vertex. Its continuous nonnegative integrand therefore
+      vanishes throughout each open ball and extends to the boundary by continuity.
+      For $x\in B_t$, the fixed point $x$ also lies in every $B_s$, $0\le s\le t$.
+      Integrating $u_t(x,s)=0$ from time zero gives $u(x,t)=0$. Continuity along $x=x_0$
+      also gives zero at the vertex. If $t_0=0$ the assertion is initial data.
+
+
+      Apply this argument to the difference of two classical solutions whose data
+      coincide on $B_0$. They agree throughout the cone and in particular at its vertex.
+      If the data coincide everywhere, the vertex is arbitrary and uniqueness holds
+      throughout space-time.
+
+      '
+delivery:
+  methods4-canonical-q10:
+    topic: methods4
+    year: canonical
+    unit: q10
+    html: site/private/questions/IB/methods/sheet-4/q10/index.html
+    html_sha256: 26418f17fb66762d88224e68c12d2a221328479a349e496656bd7cbcebba6835
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: db3a24143149f649c51a13532aecc0d8950a66ed075f5d8cf2942d632f54e3bc
+    pages:
+    - 10
+    rasters:
+      methods4-canonical-q10-p10.png: 208d9ae4e9b5498f82e390ca54d6ddbb982a34c8af0c63d082ae373d9ab641ab
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images: []
+    capture_sha256: 11126b015b018e39af1a171960d7d9139c1037536b2d3aeee27a5bdc966854fe
+  methods4-canonical-q06:
+    topic: methods4
+    year: canonical
+    unit: q06
+    html: site/private/questions/IB/methods/sheet-4/q06/index.html
+    html_sha256: 400e524cfb231ab1b500cd2841b8c498c47553094fcb83f357d58f6b703fd322
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: db3a24143149f649c51a13532aecc0d8950a66ed075f5d8cf2942d632f54e3bc
+    pages:
+    - 6
+    rasters:
+      methods4-canonical-q06-p6.png: 87496d22a02f6057c7f60a584fb68d38e476e9f8db7d2898928f3cb586e77afb
+    browser:
+      total: 9
+      rendered: 9
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images: []
+    capture_sha256: 1d8b6e9d522443a2b69ae0949c8b81ab822f5ca0b463c454e29bfe0c3803cad1
+  methods4-canonical-q13:
+    topic: methods4
+    year: canonical
+    unit: q13
+    html: site/private/questions/IB/methods/sheet-4/q13/index.html
+    html_sha256: 2261d53c5fd617cb42fae7cced008643122abd3200a89555ed87cb99376657ea
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: db3a24143149f649c51a13532aecc0d8950a66ed075f5d8cf2942d632f54e3bc
+    pages:
+    - 13
+    - 14
+    rasters:
+      methods4-canonical-q13-p13.png: aa12021c1b42230aacc1389d9140a2964a0949eb29d50257039d9b07a1e94a11
+      methods4-canonical-q13-p14.png: 45ac89b02e744c1b32bf350c0cfc3ba0fa38727283f3683e8b4351fcf18c8d20
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images:
+      - - 984
+        - 618
+    capture_sha256: 422902a5851443ab930b83fdce9b2f1e0697f45b2e437246221df0fc8a2f7f43
+  methods4-2025-26-q10:
+    topic: methods4
+    year: 2025-26
+    unit: q10
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: 1050e20aa450cd399ace4506427a4b2da7b40c9a2120ac3508e2c96023a86e31
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: 1766f8941d3ff1a48259e929e4c26668c479e64caa33ba756afaf7449f8e2e76
+    pages:
+    - 10
+    rasters:
+      methods4-2025-26-q10-p10.png: c57ed21ae796b7e25188ea691fcccc348644705abca07b7032aadcf0e3029e6c
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 5dbab9cd32b751789c16f37c85bc8f7d22753407d9e69c2865c7816121b5a2fa
+  methods4-2025-26-q06:
+    topic: methods4
+    year: 2025-26
+    unit: q06
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: 1050e20aa450cd399ace4506427a4b2da7b40c9a2120ac3508e2c96023a86e31
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: 1766f8941d3ff1a48259e929e4c26668c479e64caa33ba756afaf7449f8e2e76
+    pages:
+    - 6
+    rasters:
+      methods4-2025-26-q06-p6.png: 768b533fe6f3f793df8fbd3d611960eb0bf3dd7be3f0aa99e93d694a3bacb37c
+    browser:
+      total: 9
+      rendered: 9
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 544faa66f90b98a7b4e47497742044bf72ccd24a98d78a34e215e0e54e470eab
+  methods4-2025-26-q13:
+    topic: methods4
+    year: 2025-26
+    unit: q13
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: 1050e20aa450cd399ace4506427a4b2da7b40c9a2120ac3508e2c96023a86e31
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: 1766f8941d3ff1a48259e929e4c26668c479e64caa33ba756afaf7449f8e2e76
+    pages:
+    - 13
+    - 14
+    rasters:
+      methods4-2025-26-q13-p13.png: 8930448bbf3a56ab15f5f28319cc7f2267983ba52391e8a7822200e85a0dced6
+      methods4-2025-26-q13-p14.png: 45ac89b02e744c1b32bf350c0cfc3ba0fa38727283f3683e8b4351fcf18c8d20
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images:
+      - - 984
+        - 618
+    capture_sha256: 4eca058bceacaf62c1e3c9fb0b4b91638e60375f4b4d30a6d2467969e838b5a8
+  methods4-2026-27-q10:
+    topic: methods4
+    year: 2026-27
+    unit: q10
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: f807644ce2adea14e8c26af43fde1ce4a49269a1ce2551342186afee76c0b4b1
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 7b21e362eb24e1bca5878a54e2199a4f8d267bc6f8fe2c4261cfa010d705c0f4
+    pages:
+    - 10
+    rasters:
+      methods4-2026-27-q10-p10.png: 7924ad4a9e26c6ff45dda38cf163b0824d5a2dc76463e269be04d7658c4ad828
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 5dbab9cd32b751789c16f37c85bc8f7d22753407d9e69c2865c7816121b5a2fa
+  methods4-2026-27-q06:
+    topic: methods4
+    year: 2026-27
+    unit: q06
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: f807644ce2adea14e8c26af43fde1ce4a49269a1ce2551342186afee76c0b4b1
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 7b21e362eb24e1bca5878a54e2199a4f8d267bc6f8fe2c4261cfa010d705c0f4
+    pages:
+    - 6
+    rasters:
+      methods4-2026-27-q06-p6.png: ba1cdbd625f3146cb6138c90a03b836802bbe630037116c3f09b992ebdb9cae1
+    browser:
+      total: 9
+      rendered: 9
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 544faa66f90b98a7b4e47497742044bf72ccd24a98d78a34e215e0e54e470eab
+  methods4-2026-27-q13:
+    topic: methods4
+    year: 2026-27
+    unit: q13
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: f807644ce2adea14e8c26af43fde1ce4a49269a1ce2551342186afee76c0b4b1
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 7b21e362eb24e1bca5878a54e2199a4f8d267bc6f8fe2c4261cfa010d705c0f4
+    pages:
+    - 13
+    - 14
+    rasters:
+      methods4-2026-27-q13-p13.png: cfa1af906bfd0763dba9e7691ac67e2d6a1a23ec9ef4008be38e09b504bddc71
+      methods4-2026-27-q13-p14.png: 8664c2acdf7b3b0a890a614edce7377e4ed5bc6e2b905ac64b297b70e50f9f8f
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images:
+      - - 984
+        - 618
+    capture_sha256: a9239790a55af13532db02a2ea9d8145781fcc2025a342cfabaea176bb95bb21
+observed:
+  mathematical_errors: 0
+  transcription_errors: 0
+  canonical_units_sampled: 3
+  canonical_population: 13
+  distinct_statements_sampled: 3
+  printed_occurrences_sampled: 6
+  executable_checks: 3
+  compiled_pages_inspected: 12
+  browser_views_inspected: 9
+  formula_instances_rendered: 204

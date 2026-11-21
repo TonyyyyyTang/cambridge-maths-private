@@ -1,0 +1,794 @@
+scope: Michaelmas 2025 and 2026. Other historical originals remain to be compared.
+source_verification_manifest_sha256: e354847dda1cea0a04f7d7aeacc1aff162ec1dd7938389cb9ced757d32e87a3c
+source_receipt:
+  sheet: IB/methods/sheet-4
+  base_version: 2025-26
+  dated_originals: 2
+  physical_sheet_pages: 4
+  positions: 26
+  distinct_question_fragments: 14
+  canonical_families_in_reviewed_editions: 13
+  reviewer: Codex Methods 4 source reviewer, 2026-11-21
+  scope: Michaelmas 2025 baseline and Michaelmas 2026 edition. Historical originals
+    outside these two editions are outside this receipt.
+  manifest_evidence: manifest-evidence.yaml
+  page_render_recipe: Poppler pdftoppm 26.05.0 -r 150 -png. Pages are 1275 x 1650
+    RGB pixels. Coordinates in image comparisons are top-left-origin.
+  printed_title:
+  - Mathematical Tripos Part IB
+  - Methods, Example Sheet 4
+  lecturer: Prof. A.C.L. Ashton
+  front_matter:
+    page: 1
+    text: Comments and corrections to acla2@damtp.cam.ac.uk. Sheet with commentary
+      available to supervisors.
+    typography: Italic surrounding wording; the e-mail address is monospaced.
+  marks_printed: false
+  sections:
+  - starting_original_question: 1
+    ending_original_question: 11
+    heading: null
+  - starting_original_question: 12
+    ending_original_question: 13
+    heading: Additional problems
+    restarts_numbering: false
+    wording_tex: \emph{These questions should \textbf{not} be attempted at the expense
+      of earlier ones.}
+  printed_cross_references:
+  - from: q05
+    text: (†)
+    occurrences_after_definition: 2
+    to: q05
+    target: initial value problem for the heat equation
+    page: 1
+  - from: q08
+    text: (‡)
+    part: (a)
+    to: q07
+    target: boundary integral representation in Q7
+    page: 1
+  - from: q11
+    text: the previous question
+    to: q10
+    target: infinite-string comparison
+    page: 2
+  edition_differences:
+  - page: 1
+    location: running header
+    2025-26: Michaelmas 2025
+    2026-27: Michaelmas 2026
+  - page: 2
+    location: q09
+    2025-26: '|x| ≤ 1'
+    2026-27: '|x| < 1'
+  editions:
+    2025-26:
+      term: Michaelmas 2025
+      source: private/raw/sheets/IB/methods/2025-26/sheet-4.pdf
+      sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+      url: https://web.archive.org/web/20251124192832id_/http://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+      page_count: 2
+      question_count: 13
+      pages:
+        1:
+          image: evidence/2025-26-page-1.png
+          sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        2:
+          image: evidence/2025-26-page-2.png
+          sha256: 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+      questions:
+      - id: q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages: &id001
+        - 1
+        marks: null
+        statement: editions/2025-26/q01/question.tex
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked both PDEs, the two axes carrying the initial
+          data, y cubed, the x+2y exponent and the semicolon after (i).
+        printed_subparts:
+        - (i)
+        - (ii)
+      - id: q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages: &id002
+        - 1
+        marks: null
+        statement: editions/2025-26/q02/question.tex
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked u_xx+x u_yy, the (a), (b), (c) type order and
+          the hyperbolic region restriction on (ii).
+        printed_subparts:
+        - (i)
+        - (ii)
+      - id: q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages: &id003
+        - 1
+        marks: null
+        statement: editions/2025-26/q03/question.tex
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked coefficient 1/2 multiplying u_y, the eta-then-xi
+          subscript, signs inside and outside each square root, and the arbitrary
+          functions f,g.
+      - id: q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages: &id004
+        - 1
+        marks: null
+        statement: editions/2025-26/q04/question.tex
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked the positive imaginary exponential, bold vector
+          arguments, n-dimensional unbounded integrals, all (2π)^n factors and both
+          conjugation bars over the whole function value.
+      - id: q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages: &id005
+        - 1
+        marks: null
+        statement: editions/2025-26/q05/question.tex
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked the two-line system marked (†), nonzero forcing
+          F, open time interval, order of both data, unsquared left-side estimate,
+          squared norm definition, “etc.” and both later references to (†).
+      - id: q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages: &id006
+        - 1
+        marks: null
+        statement: editions/2025-26/q06/question.tex
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked the printed “Heat Kernel” capitals, “semi-group”
+          hyphen, t+s index and convolution order.
+      - id: q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages: &id007
+        - 1
+        marks: null
+        statement: editions/2025-26/q07/question.tex
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked domain inclusion, positive delta on the right,
+          boundary condition in x, outward-derivative variable printed in bold as
+          n, differential dS(x), and label (‡) following the final period.
+      - id: q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 1
+        pages: &id008
+        - 1
+        marks: null
+        statement: editions/2025-26/q08/question.tex
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        source_page_render_sha256: 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        visual_verification: Checked each condition, decay as |x|+|y| tends to infinity,
+          the (‡) reference, y/π factor, unbounded integral, and both conditions in
+          (b).
+        printed_subparts:
+        - (a)
+        - (b)
+      - id: q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages: &id009
+        - 2
+        marks: null
+        statement: editions/2025-26/q09/question.tex
+        question_sha256: c3d78db8e7a2cf2f6370955714517950dd1e0f46eb2e41c55ad57f0ebbc106ff
+        source_page_render_sha256: 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        visual_verification: Compared the ball inequality on the original page and
+          the entire italic two-sentence external-charge hint. This edition uses ≤
+          in the definition of the ball.
+      - id: q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages: &id010
+        - 2
+        marks: null
+        statement: editions/2025-26/q10/question.tex
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        source_page_render_sha256: 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        visual_verification: Checked the full-line string is at rest for t<0 and that
+          the delta velocity is Vδ(x−x₀). No assumption on the sign of x₀ is printed.
+      - id: q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages: &id011
+        - 2
+        marks: null
+        statement: editions/2025-26/q11/question.tex
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        source_page_render_sha256: 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        visual_verification: Checked “fixed for all time at zero at x=0”, t<0 and
+          t>0, V constant and x₀>0, and the final comparison to the previous question.
+      - id: q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages: &id012
+        - 2
+        marks: null
+        statement: editions/2025-26/q12/question.tex
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        source_page_render_sha256: 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        visual_verification: Checked every strictly positive coordinate in the stated
+          n-dimensional region, the ellipsis and the additional-problems rubric immediately
+          above this exercise.
+        section: Additional problems
+      - id: q13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages: &id013
+        - 2
+        marks: null
+        statement: editions/2025-26/q13/question.tex
+        question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+        source_page_render_sha256: 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        visual_verification: Checked both zero initial values, closed balls with radii
+          ct₀ and c(t₀−t), squared derivative and gradient in E(t), closed cone inequalities,
+          italicised phrases, Figure 1 and its caption and the separate final uniqueness
+          question.
+        section: Additional problems
+        figure:
+          name: backwards-lightcone
+          source_page: 2
+          printed_figure_number: '1'
+          caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+          printed_labels_tex:
+          - $(\mathbf{x}_0,t_0)$
+          - $t$
+          - $B_t$
+          - $B_0$
+          - $\mathbf{x}_0$
+          - $\mathbf{R}^n$
+          crop_pdf_points_from_top_left:
+          - 142
+          - 344
+          - 470
+          - 550
+          dpi: 216
+          width: 984
+          height: 618
+          sha256: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+          plot_sha256: 2bdc14877e58475cfcc06a62de2bac2a5a1e548c29c3f7b15e3877096ee2f785
+          visual_verification: Both slices, both leader arrows, axis, vertex and plane
+            labels match the original page. The printed caption appears as transcribed
+            TeX immediately below the diagram.
+    2026-27:
+      term: Michaelmas 2026
+      source: private/raw/sheets/IB/methods/2026-27/sheet-4.pdf
+      sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+      url: https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+      page_count: 2
+      question_count: 13
+      pages:
+        1:
+          image: evidence/2026-27-page-1.png
+          sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        2:
+          image: evidence/2026-27-page-2.png
+          sha256: a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+      questions:
+      - id: q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages: &id014
+        - 1
+        marks: null
+        statement: editions/2026-27/q01/question.tex
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked both PDEs, the two axes carrying the initial
+          data, y cubed, the x+2y exponent and the semicolon after (i).
+        printed_subparts:
+        - (i)
+        - (ii)
+      - id: q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages: &id015
+        - 1
+        marks: null
+        statement: editions/2026-27/q02/question.tex
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked u_xx+x u_yy, the (a), (b), (c) type order and
+          the hyperbolic region restriction on (ii).
+        printed_subparts:
+        - (i)
+        - (ii)
+      - id: q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages: &id016
+        - 1
+        marks: null
+        statement: editions/2026-27/q03/question.tex
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked coefficient 1/2 multiplying u_y, the eta-then-xi
+          subscript, signs inside and outside each square root, and the arbitrary
+          functions f,g.
+      - id: q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages: &id017
+        - 1
+        marks: null
+        statement: editions/2026-27/q04/question.tex
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked the positive imaginary exponential, bold vector
+          arguments, n-dimensional unbounded integrals, all (2π)^n factors and both
+          conjugation bars over the whole function value.
+      - id: q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages: &id018
+        - 1
+        marks: null
+        statement: editions/2026-27/q05/question.tex
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked the two-line system marked (†), nonzero forcing
+          F, open time interval, order of both data, unsquared left-side estimate,
+          squared norm definition, “etc.” and both later references to (†).
+      - id: q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages: &id019
+        - 1
+        marks: null
+        statement: editions/2026-27/q06/question.tex
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked the printed “Heat Kernel” capitals, “semi-group”
+          hyphen, t+s index and convolution order.
+      - id: q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages: &id020
+        - 1
+        marks: null
+        statement: editions/2026-27/q07/question.tex
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked domain inclusion, positive delta on the right,
+          boundary condition in x, outward-derivative variable printed in bold as
+          n, differential dS(x), and label (‡) following the final period.
+      - id: q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 1
+        pages: &id021
+        - 1
+        marks: null
+        statement: editions/2026-27/q08/question.tex
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        source_page_render_sha256: c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        visual_verification: Checked each condition, decay as |x|+|y| tends to infinity,
+          the (‡) reference, y/π factor, unbounded integral, and both conditions in
+          (b).
+        printed_subparts:
+        - (a)
+        - (b)
+      - id: q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages: &id022
+        - 2
+        marks: null
+        statement: editions/2026-27/q09/question.tex
+        question_sha256: a03b7cee18babce1fdfe5e81fcb8eb62c76c315c4dcf940b348f8d91dc2de53b
+        source_page_render_sha256: a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        visual_verification: Compared the ball inequality on the original page and
+          the entire italic two-sentence external-charge hint. This edition uses <
+          in the definition of the ball.
+      - id: q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages: &id023
+        - 2
+        marks: null
+        statement: editions/2026-27/q10/question.tex
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        source_page_render_sha256: a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        visual_verification: Checked the full-line string is at rest for t<0 and that
+          the delta velocity is Vδ(x−x₀). No assumption on the sign of x₀ is printed.
+      - id: q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages: &id024
+        - 2
+        marks: null
+        statement: editions/2026-27/q11/question.tex
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        source_page_render_sha256: a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        visual_verification: Checked “fixed for all time at zero at x=0”, t<0 and
+          t>0, V constant and x₀>0, and the final comparison to the previous question.
+      - id: q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages: &id025
+        - 2
+        marks: null
+        statement: editions/2026-27/q12/question.tex
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        source_page_render_sha256: a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        visual_verification: Checked every strictly positive coordinate in the stated
+          n-dimensional region, the ellipsis and the additional-problems rubric immediately
+          above this exercise.
+        section: Additional problems
+      - id: q13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages: &id026
+        - 2
+        marks: null
+        statement: editions/2026-27/q13/question.tex
+        question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+        source_page_render_sha256: a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        visual_verification: Checked both zero initial values, closed balls with radii
+          ct₀ and c(t₀−t), squared derivative and gradient in E(t), closed cone inequalities,
+          italicised phrases, Figure 1 and its caption and the separate final uniqueness
+          question.
+        section: Additional problems
+        figure:
+          name: backwards-lightcone
+          source_page: 2
+          printed_figure_number: '1'
+          caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+          printed_labels_tex:
+          - $(\mathbf{x}_0,t_0)$
+          - $t$
+          - $B_t$
+          - $B_0$
+          - $\mathbf{x}_0$
+          - $\mathbf{R}^n$
+          crop_pdf_points_from_top_left:
+          - 142
+          - 344
+          - 470
+          - 550
+          dpi: 216
+          width: 984
+          height: 618
+          sha256: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+          plot_sha256: 8c91d9ea8e9b03f36db34948101af6ef63cc1f69329c26d0278235a78f6f6553
+          visual_verification: Both slices, both leader arrows, axis, vertex and plane
+            labels match the original page. The printed caption appears as transcribed
+            TeX immediately below the diagram.
+  pixel_comparison:
+    1:
+      differing_pixel_bounding_box_exclusive:
+      - 1160
+      - 111
+      - 1169
+      - 126
+      differing_pixels: 93
+      meaning: Last digit of printed year
+    2:
+      differing_pixel_bounding_box_exclusive:
+      - 971
+      - 111
+      - 984
+      - 128
+      differing_pixels: 112
+      meaning: Q9 unit-ball inequality
+  validation:
+    editions:
+      2025-26:
+        restricted_latex_fragments: 13
+        compiled_pdf_pages: 13
+        overfull_boxes: []
+        source_png_reproduced_identically: true
+      2026-27:
+        restricted_latex_fragments: 13
+        compiled_pdf_pages: 13
+        overfull_boxes: []
+        source_png_reproduced_identically: true
+    katex: 57 distinct formulas on KaTeX 0.16.11, 0 failures
+    total_distinct_fragment_hashes: 14
+editions:
+  2025-26:
+    archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+    sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+    questions:
+      '1':
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        original_question: '1'
+        printed_label: '1.'
+        pages: *id001
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: 22960310daf847fef0a668bbd9a9e4ca319d4eb14b53382edd7d505a7cf3c915
+      '2':
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        original_question: '2'
+        printed_label: '2.'
+        pages: *id002
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: 543be72f882d96242b4733491f0ceb05f88b05063dc990dbdba426cfe22789c3
+      '3':
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        original_question: '3'
+        printed_label: '3.'
+        pages: *id003
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: 5627cd6b6cf0d507533c5bd643f82dc21ab939d40f82aff85cb8ee6c779c3e74
+      '4':
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        original_question: '4'
+        printed_label: '4.'
+        pages: *id004
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: d17ae489a33c527afad8c584613bd7bb31cacefdb2657d3a13b12a8323cd29de
+      '5':
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        original_question: '5'
+        printed_label: '5.'
+        pages: *id005
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+      '6':
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        original_question: '6'
+        printed_label: '6.'
+        pages: *id006
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: 665a1b09dad6dd9acea4b739f8dfcf17d473bf8d9a65e28ebda95b6eb35a3db5
+      '7':
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        original_question: '7'
+        printed_label: '7.'
+        pages: *id007
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+      '8':
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        original_question: '8'
+        printed_label: '8.'
+        pages: *id008
+        page_render_sha256:
+        - 7e09643902697b47b384f3e07a6ce46461711641dec853c4f631af6ce87635fc
+        verified_solution: solution.tex
+        verified_solution_sha256: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+      '9':
+        question_sha256: c3d78db8e7a2cf2f6370955714517950dd1e0f46eb2e41c55ad57f0ebbc106ff
+        original_question: '9'
+        printed_label: '9.'
+        pages: *id009
+        page_render_sha256:
+        - 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        verified_solution: solution.tex
+        verified_solution_sha256: 0240c5c180437e140d8b685c85bb35d70d02d5fde68d287cd974fb8325726cf9
+      '10':
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        original_question: '10'
+        printed_label: '10.'
+        pages: *id010
+        page_render_sha256:
+        - 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        verified_solution: solution.tex
+        verified_solution_sha256: 99e890d15df376da05a949c89d1ecd2fc231cde0eef552693bc33f315f5ec524
+      '11':
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        original_question: '11'
+        printed_label: '11.'
+        pages: *id011
+        page_render_sha256:
+        - 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        verified_solution: solution.tex
+        verified_solution_sha256: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+      '12':
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        original_question: '12'
+        printed_label: '12.'
+        pages: *id012
+        page_render_sha256:
+        - 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        verified_solution: solution.tex
+        verified_solution_sha256: f27e322b79eabf8784e489083616e6a076130ff01476cb5c387dd2056159dba2
+      '13':
+        question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+        original_question: '13'
+        printed_label: '13.'
+        pages: *id013
+        page_render_sha256:
+        - 087d6ce61dd1301625f0359ea081d74c4e29556d4393182f7d8652b71f82973b
+        verified_solution: solution.tex
+        verified_solution_sha256: 52906d59c488bb8b867d75d5427a884ba402c093a8011fe0df005e1dcd1c8058
+  2026-27:
+    archive: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+    sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+    questions:
+      '1':
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        original_question: '1'
+        printed_label: '1.'
+        pages: *id014
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: 22960310daf847fef0a668bbd9a9e4ca319d4eb14b53382edd7d505a7cf3c915
+      '2':
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        original_question: '2'
+        printed_label: '2.'
+        pages: *id015
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: 543be72f882d96242b4733491f0ceb05f88b05063dc990dbdba426cfe22789c3
+      '3':
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        original_question: '3'
+        printed_label: '3.'
+        pages: *id016
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: 5627cd6b6cf0d507533c5bd643f82dc21ab939d40f82aff85cb8ee6c779c3e74
+      '4':
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        original_question: '4'
+        printed_label: '4.'
+        pages: *id017
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: d17ae489a33c527afad8c584613bd7bb31cacefdb2657d3a13b12a8323cd29de
+      '5':
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        original_question: '5'
+        printed_label: '5.'
+        pages: *id018
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+      '6':
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        original_question: '6'
+        printed_label: '6.'
+        pages: *id019
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: 665a1b09dad6dd9acea4b739f8dfcf17d473bf8d9a65e28ebda95b6eb35a3db5
+      '7':
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        original_question: '7'
+        printed_label: '7.'
+        pages: *id020
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+      '8':
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        original_question: '8'
+        printed_label: '8.'
+        pages: *id021
+        page_render_sha256:
+        - c92c471f7cb61facf77d9b7b9b206ecdcf382ac2cd9e695681111cbf3432031a
+        verified_solution: solution.tex
+        verified_solution_sha256: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+      '9':
+        question_sha256: a03b7cee18babce1fdfe5e81fcb8eb62c76c315c4dcf940b348f8d91dc2de53b
+        original_question: '9'
+        printed_label: '9.'
+        pages: *id022
+        page_render_sha256:
+        - a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        verified_solution: history/2026-11-21-exact-2026-27/solution.tex
+        verified_solution_sha256: abb89698e0c38a645e4a17cb2281daf000fe077b4b90d0395ed7295bd4eb53bc
+      '10':
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        original_question: '10'
+        printed_label: '10.'
+        pages: *id023
+        page_render_sha256:
+        - a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        verified_solution: solution.tex
+        verified_solution_sha256: 99e890d15df376da05a949c89d1ecd2fc231cde0eef552693bc33f315f5ec524
+      '11':
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        original_question: '11'
+        printed_label: '11.'
+        pages: *id024
+        page_render_sha256:
+        - a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        verified_solution: solution.tex
+        verified_solution_sha256: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+      '12':
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        original_question: '12'
+        printed_label: '12.'
+        pages: *id025
+        page_render_sha256:
+        - a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        verified_solution: solution.tex
+        verified_solution_sha256: f27e322b79eabf8784e489083616e6a076130ff01476cb5c387dd2056159dba2
+      '13':
+        question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+        original_question: '13'
+        printed_label: '13.'
+        pages: *id026
+        page_render_sha256:
+        - a6c40394386557033024071c718d78cdbd6382630684ac98dd9eacfd4a64ef70
+        verified_solution: solution.tex
+        verified_solution_sha256: 52906d59c488bb8b867d75d5427a884ba402c093a8011fe0df005e1dcd1c8058
+archive_manifest_evidence:
+  source_manifest: private/manifest.csv
+  verified_originals:
+  - url: https://web.archive.org/web/20251124192832id_/http://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+    sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+    fetched_at: '2026-11-20T12:44:39.852452+00:00'
+    source: public-example-sheet
+    verified_archive_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+    printed_term: Michaelmas 2025
+    pdf_pages: 2
+    pdf_creation_date: '2025-10-09 10:14:08+01:00'
+  - url: https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+    sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+    fetched_at: '2026-11-20T15:08:00.202158+00:00'
+    source: public-example-sheet
+    verified_archive_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+    printed_term: Michaelmas 2026
+    pdf_pages: 2
+    pdf_creation_date: '2026-10-14 06:31:26+01:00'
+solution_manifests:
+  first: 1902eb1983b50cf2107c918ee3f93d94ca20d1970e7e8fc1f80ba00a73eb08c6
+  second: 0bbd32f9471ffa2ff106106df62187cf7abf32e07d164c3404bb4e7b1d1a4bd4

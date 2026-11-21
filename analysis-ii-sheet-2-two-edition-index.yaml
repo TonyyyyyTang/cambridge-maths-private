@@ -1,0 +1,974 @@
+scope: Michaelmas 2025 and 2026. Other historical originals remain to be compared.
+source_verification_manifest_sha256: 2aecf1ddb81c6b1490ea2ba5d79d3c61b57fc4b9c2e32fb48a83df95b7d90dcc
+source_receipt:
+  course: IB/analysis-ii
+  sheet: 2
+  base_version: 2025-26
+  coverage: These two archived public editions only. Historical editions outside these
+    years are not assessed here.
+  canonical_id_rule: Baseline q01–q16 follow printed numbers. q17 is the verified
+    seventeenth baseline position, an unnumbered starred Supplement. qx01 is the otherwise
+    unrepresented unnumbered 2026 supplement. Original numbers for both supplements
+    are null.
+  comparison:
+    number_of_printed_positions: 32
+    distinct_canonical_exercises: 18
+    distinct_exact_wordings: 21
+    same_statements_renumbered: Baseline Q11, Q14–Q16 appear as 2026 Q10, Q12–Q14
+      respectively. Baseline Q13 reappears as 2026 Q11 with a corrected spelling.
+    omitted_from_2026:
+    - q10
+    - q12
+    - q17
+    only_in_2026:
+    - qx01
+    different_wordings_in_both_editions:
+    - q01
+    - q03
+    - q13
+  versions:
+    2025-26:
+      printed_title: ANALYSIS II—EXAMPLES 2
+      printed_term: Michaelmas 2025
+      printed_day: null
+      source: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      url: https://www.dpmms.cam.ac.uk/study/IB/AnalysisII/2025-2026/2025sheet2.pdf
+      sha256: fe72ec8e3a36dcabc2f9b9a645a0b34e834a27cf505ee5cb920b71b3407cf877
+      fetched_at: '2026-11-20T14:02:24.544474+00:00'
+      provenance: public-dpmms-analysis-and-topology-materials
+      physical_pages: 3
+      printed_page_numbers: []
+      page_renders:
+      - physical_page: 1
+        png: images/2025-26/page-1.png
+        sha256: e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+      - physical_page: 2
+        png: images/2025-26/page-2.png
+        sha256: a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+      - physical_page: 3
+        png: images/2025-26/page-3.png
+        sha256: 929e13b02f1b1afed9ab73364862ca1a36ed196ff898b9e3df2fd09a321bb46b
+      before_first_question:
+      - physical_page: 1
+        text: ANALYSIS II—EXAMPLES 2
+        role: heading
+      - physical_page: 1
+        text: Michaelmas 2025
+        role: term
+      - physical_page: 1
+        text: 'Please email comments, corrections to: n.wickramasekera@dpmms.cam.ac.uk'
+        role: contact
+      marks_printed: false
+      external_printed_references: []
+      positions:
+      - ordinal: 1
+        id: q01
+        printed_number: '1'
+        printed_label: '1.'
+        page: 1
+        pages: &id001
+        - 1
+        statement: editions/2025-26/q01/question.tex
+        statement_sha256: 314e1aafa9b63c3775ab91014db46a4bd3b0b627be9098d5d84e43a0dbc21257
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        - (d)
+        starred: []
+        printed_references: []
+        source_notes:
+        - The polynomial part says “for each n” and prints [0, 1/n].
+      - ordinal: 2
+        id: q02
+        printed_number: '2'
+        printed_label: '2.'
+        page: 1
+        pages: &id002
+        - 1
+        statement: editions/2025-26/q02/question.tex
+        statement_sha256: 90858de02fdbab04409a11613c468f1a50e0986cbd2bdfc8bea533fc43e2cef5
+        printed_parts:
+        - (a)
+        - (b)
+        starred: []
+        printed_references: []
+        source_notes:
+        - The word “space” immediately precedes (1, 3) without visible intervening
+          space.
+      - ordinal: 3
+        id: q03
+        printed_number: '3'
+        printed_label: '3.'
+        page: 1
+        pages: &id003
+        - 1
+        statement: editions/2025-26/q03/question.tex
+        statement_sha256: 170ce56440b014cd95843a96930ce244d5c6df1b2061fe1bca628a2b27a2cb8c
+        printed_parts:
+        - (i)
+        - (ii)
+        - (iii)
+        - (iv)
+        starred: []
+        printed_references: []
+        source_notes:
+        - The integer distance in (ii) is 2^n with positive exponent, whereas the
+          function distance in (iii) is 2^(−n).
+      - ordinal: 4
+        id: q04
+        printed_number: '4'
+        printed_label: '4.'
+        page: 1
+        pages: &id004
+        - 1
+        statement: editions/2025-26/q04/question.tex
+        statement_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+        printed_parts:
+        - (a)
+        - (b)
+        starred: []
+        printed_references:
+        - in: (b)
+          text: your answers in (a)
+          target: q04(a)
+        source_notes: []
+      - ordinal: 5
+        id: q05
+        printed_number: '5'
+        printed_label: '5.'
+        page: 1
+        pages: &id005
+        - 1
+        statement: editions/2025-26/q05/question.tex
+        statement_sha256: f4b7d6afee8d4970aa6d0bafa47626acb3883766f40ed486e6d9eaed652057b5
+        printed_parts:
+        - (i)
+        - (ii)
+        - (iii)
+        - (iv)
+        - (v)
+        - (vi)
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 6
+        id: q06
+        printed_number: '6'
+        printed_label: '6.'
+        page: 1
+        pages: &id006
+        - 1
+        statement: editions/2025-26/q06/question.tex
+        statement_sha256: cf87854a4b09875a78875f3eb363d4acb8170172387e869d628b640812ab398e
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        starred:
+        - 'Second question in (c): “What modification …”'
+        printed_references: []
+        source_notes:
+        - Only the second question in (c) bears a star. The symbol for the real Riemann-integrable
+          vector space is calligraphic R.
+      - ordinal: 7
+        id: q07
+        printed_number: '7'
+        printed_label: '7.'
+        page: 1
+        pages: &id007
+        - 1
+        statement: editions/2025-26/q07/question.tex
+        statement_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 8
+        id: q08
+        printed_number: '8'
+        printed_label: '8.'
+        page: 2
+        pages: &id008
+        - 2
+        statement: editions/2025-26/q08/question.tex
+        statement_sha256: 4576a2c124e91bf35b652b46b38489689586baffeecbfceebfd4318374d59aa4
+        printed_parts:
+        - (a)
+        - (b)
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 9
+        id: q09
+        printed_number: '9'
+        printed_label: '9.'
+        page: 2
+        pages: &id009
+        - 2
+        statement: editions/2025-26/q09/question.tex
+        statement_sha256: abbf32af57e907e1079fc0c2356698fc3d911f69caccc5cc83ace9a39a403293
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 10
+        id: q10
+        printed_number: '10'
+        printed_label: '10.'
+        page: 2
+        pages: &id010
+        - 2
+        statement: editions/2025-26/q10/question.tex
+        statement_sha256: d975e396938bf076e8a214695a665b5b31c361db532b6bd5b8d03be4ce1b9ae2
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 11
+        id: q11
+        printed_number: '11'
+        printed_label: '11.'
+        page: 2
+        pages: &id011
+        - 2
+        statement: editions/2025-26/q11/question.tex
+        statement_sha256: 8d30570c86d023c4af13899462ac17ac3cfac1817c0423c2031ec456044e7057
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 12
+        id: q12
+        printed_number: '12'
+        printed_label: '12.'
+        page: 2
+        pages: &id012
+        - 2
+        statement: editions/2025-26/q12/question.tex
+        statement_sha256: 3a70c4173c8b2184e77c419d2362cca7728d05805f60747263d0e5f817dbc4e5
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 13
+        id: q13
+        printed_number: '13'
+        printed_label: '13.'
+        page: 2
+        pages: &id013
+        - 2
+        statement: editions/2025-26/q13/question.tex
+        statement_sha256: 1eec9d49857ff5551f05bc9b3dcdbda749a5ca3b1af017296a13dafbcce999b7
+        printed_parts:
+        - (a)
+        - (b)
+        starred:
+        - (b)
+        printed_references: []
+        source_notes:
+        - The norm’s adjective is spelled “Eucildean” in (a).
+      - ordinal: 14
+        id: q14
+        printed_number: '14'
+        printed_label: '14.'
+        page: 2
+        pages: &id014
+        - 2
+        statement: editions/2025-26/q14/question.tex
+        statement_sha256: b03d61c0eecd5e8333266f3312448bdd9eb6aa14e0d48d3be101f312dd1d4f15
+        printed_parts:
+        - (i)
+        - (ii)
+        - (iii)
+        - (iv)
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 15
+        id: q15
+        printed_number: '15'
+        printed_label: 15⋆.
+        page: 2
+        pages: &id015
+        - 2
+        statement: editions/2025-26/q15/question.tex
+        statement_sha256: 9039aae925a5ba2fac8acc981dd90907f0770d8f680c251616bd27455ccbf94b
+        printed_parts: []
+        starred:
+        - Whole question
+        printed_references: []
+        source_notes:
+        - The first series is printed with j=1 in its lower limit and x_n in its summand.
+          The second series uses n for both.
+      - ordinal: 16
+        id: q16
+        printed_number: '16'
+        printed_label: '16.'
+        page: 2
+        pages: &id016
+        - 2
+        statement: editions/2025-26/q16/question.tex
+        statement_sha256: 2bb83ab7298708ea3e7447a60600ba9ab5233409e005d5c40823f85055dcb5fc
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        starred:
+        - (c)
+        printed_references: []
+        source_notes:
+        - The hint says “for every finite-dimensional subspace” and does not explicitly
+          restrict it to a proper subspace.
+      - ordinal: 17
+        id: q17
+        printed_number: null
+        printed_label: '⋆ Supplement: Weierstrass approximation theorem.'
+        page: 3
+        pages: &id017
+        - 3
+        statement: editions/2025-26/q17/question.tex
+        statement_sha256: 6b28bdad08c02be570cdec641762a5a224f92dc9cad7f7787bda07c700762357
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        - (d)
+        - (e)
+        - (f)
+        starred:
+        - Whole supplement
+        printed_references:
+        - in: (f)
+          text: Use (e) and the results of (b)
+          targets:
+          - q17(e)
+          - q17(b)
+        source_notes:
+        - Unnumbered optional exercise with a leading star and parts (a)–(f). The
+          lower limits in (e) print braces around k∈K and k∉K. The two denominators
+          in (e) and (f) are n²δ² and nδ² respectively.
+      verification:
+        visual: All three physical pages were inspected at 150 dpi and compared with
+          the final transcription. The source has no printed page numerals.
+        comparison: Each staged question was compiled with the repository preamble
+          and compared to the corresponding source text layer, including text, mathematical
+          glyphs, and punctuation. Original position numbers were matched separately.
+          Unicode ligatures, equivalent extracted glyph encodings, whitespace and
+          line-break hyphenation were normalised.
+        matched_expected_positions: 17
+        residual_text_differences: 0
+        restricted_fragment_validation: passed
+        pdf_overfull_boxes: 0
+    2026-27:
+      printed_title: ANALYSIS II—EXAMPLES 2
+      printed_term: Michaelmas 2026
+      printed_day: null
+      source: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
+      url: https://www.dpmms.cam.ac.uk/study/IB/AnalysisII/2026-2027/2026sheet2.pdf
+      sha256: 8c4641ef10b20957b76e24a666994b7aa4e9c68bd0961d0b1482eeaa3d16ae3e
+      fetched_at: '2026-11-20T14:02:42.304092+00:00'
+      provenance: public-dpmms-analysis-and-topology-materials
+      physical_pages: 3
+      printed_page_numbers: []
+      page_renders:
+      - physical_page: 1
+        png: images/2026-27/page-1.png
+        sha256: 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+      - physical_page: 2
+        png: images/2026-27/page-2.png
+        sha256: 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+      - physical_page: 3
+        png: images/2026-27/page-3.png
+        sha256: 4e8824bb40045db902b31fb2392bb5976428d87299717cf556a6afe41ac67bc9
+      before_first_question:
+      - physical_page: 1
+        text: ANALYSIS II—EXAMPLES 2
+        role: heading
+      - physical_page: 1
+        text: Michaelmas 2026
+        role: term
+      - physical_page: 1
+        text: 'Please email comments, corrections to: n.wickramasekera@dpmms.cam.ac.uk'
+        role: contact
+      marks_printed: false
+      external_printed_references: []
+      positions:
+      - ordinal: 1
+        id: q01
+        printed_number: '1'
+        printed_label: '1.'
+        page: 1
+        pages: &id018
+        - 1
+        statement: editions/2026-27/q01/question.tex
+        statement_sha256: a14e8dc8f734a859668ef43ba88c76bbf633d3611f4caccedca98f897f00f10b
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        starred: []
+        printed_references: []
+        source_notes:
+        - The polynomial part says “for each n” and prints [0, 1/n].
+        - Baseline (c) is absent; baseline (d) is relabelled (c).
+      - ordinal: 2
+        id: q02
+        printed_number: '2'
+        printed_label: '2.'
+        page: 1
+        pages: &id019
+        - 1
+        statement: editions/2026-27/q02/question.tex
+        statement_sha256: 90858de02fdbab04409a11613c468f1a50e0986cbd2bdfc8bea533fc43e2cef5
+        printed_parts:
+        - (a)
+        - (b)
+        starred: []
+        printed_references: []
+        source_notes:
+        - The word “space” immediately precedes (1, 3) without visible intervening
+          space.
+      - ordinal: 3
+        id: q03
+        printed_number: '3'
+        printed_label: '3.'
+        page: 1
+        pages: &id020
+        - 1
+        statement: editions/2026-27/q03/question.tex
+        statement_sha256: 10cfe1104486ae708f0ed58090067899a029683476837a37eb7d83f965158d93
+        printed_parts:
+        - (i)
+        - (ii)
+        - (iii)
+        starred: []
+        printed_references: []
+        source_notes:
+        - The baseline integer case (ii) is absent; former (iii) and (iv) are relabelled
+          (ii) and (iii).
+      - ordinal: 4
+        id: q04
+        printed_number: '4'
+        printed_label: '4.'
+        page: 1
+        pages: &id021
+        - 1
+        statement: editions/2026-27/q04/question.tex
+        statement_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+        printed_parts:
+        - (a)
+        - (b)
+        starred: []
+        printed_references:
+        - in: (b)
+          text: your answers in (a)
+          target: q04(a)
+        source_notes: []
+      - ordinal: 5
+        id: q05
+        printed_number: '5'
+        printed_label: '5.'
+        page: 1
+        pages: &id022
+        - 1
+        statement: editions/2026-27/q05/question.tex
+        statement_sha256: f4b7d6afee8d4970aa6d0bafa47626acb3883766f40ed486e6d9eaed652057b5
+        printed_parts:
+        - (i)
+        - (ii)
+        - (iii)
+        - (iv)
+        - (v)
+        - (vi)
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 6
+        id: q06
+        printed_number: '6'
+        printed_label: '6.'
+        page: 1
+        pages: &id023
+        - 1
+        statement: editions/2026-27/q06/question.tex
+        statement_sha256: cf87854a4b09875a78875f3eb363d4acb8170172387e869d628b640812ab398e
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        starred:
+        - 'Second question in (c): “What modification …”'
+        printed_references: []
+        source_notes:
+        - Only the second question in (c) bears a star. The symbol for the real Riemann-integrable
+          vector space is calligraphic R.
+      - ordinal: 7
+        id: q07
+        printed_number: '7'
+        printed_label: '7.'
+        page: 1
+        pages: &id024
+        - 1
+        statement: editions/2026-27/q07/question.tex
+        statement_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 8
+        id: q08
+        printed_number: '8'
+        printed_label: '8.'
+        page: 2
+        pages: &id025
+        - 2
+        statement: editions/2026-27/q08/question.tex
+        statement_sha256: 4576a2c124e91bf35b652b46b38489689586baffeecbfceebfd4318374d59aa4
+        printed_parts:
+        - (a)
+        - (b)
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 9
+        id: q09
+        printed_number: '9'
+        printed_label: '9.'
+        page: 2
+        pages: &id026
+        - 2
+        statement: editions/2026-27/q09/question.tex
+        statement_sha256: abbf32af57e907e1079fc0c2356698fc3d911f69caccc5cc83ace9a39a403293
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 10
+        id: q11
+        printed_number: '10'
+        printed_label: '10.'
+        page: 2
+        pages: &id027
+        - 2
+        statement: editions/2026-27/q11/question.tex
+        statement_sha256: 8d30570c86d023c4af13899462ac17ac3cfac1817c0423c2031ec456044e7057
+        printed_parts: []
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 11
+        id: q13
+        printed_number: '11'
+        printed_label: '11.'
+        page: 2
+        pages: &id028
+        - 2
+        statement: editions/2026-27/q13/question.tex
+        statement_sha256: 77c03c7425e9d24e16315485bd3986ad3e1261445547b756af8c848781bb56db
+        printed_parts:
+        - (a)
+        - (b)
+        starred:
+        - (b)
+        printed_references: []
+        source_notes:
+        - The norm’s adjective is spelled “Euclidean” in (a).
+      - ordinal: 12
+        id: q14
+        printed_number: '12'
+        printed_label: '12.'
+        page: 2
+        pages: &id029
+        - 2
+        statement: editions/2026-27/q14/question.tex
+        statement_sha256: b03d61c0eecd5e8333266f3312448bdd9eb6aa14e0d48d3be101f312dd1d4f15
+        printed_parts:
+        - (i)
+        - (ii)
+        - (iii)
+        - (iv)
+        starred: []
+        printed_references: []
+        source_notes: []
+      - ordinal: 13
+        id: q15
+        printed_number: '13'
+        printed_label: 13⋆.
+        page: 2
+        pages: &id030
+        - 2
+        statement: editions/2026-27/q15/question.tex
+        statement_sha256: 9039aae925a5ba2fac8acc981dd90907f0770d8f680c251616bd27455ccbf94b
+        printed_parts: []
+        starred:
+        - Whole question
+        printed_references: []
+        source_notes:
+        - The first series is printed with j=1 in its lower limit and x_n in its summand.
+          The second series uses n for both.
+      - ordinal: 14
+        id: q16
+        printed_number: '14'
+        printed_label: '14.'
+        page: 2
+        pages: &id031
+        - 2
+        statement: editions/2026-27/q16/question.tex
+        statement_sha256: 2bb83ab7298708ea3e7447a60600ba9ab5233409e005d5c40823f85055dcb5fc
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        starred:
+        - (c)
+        printed_references: []
+        source_notes:
+        - The hint says “for every finite-dimensional subspace” and does not explicitly
+          restrict it to a proper subspace.
+      - ordinal: 15
+        id: qx01
+        printed_number: null
+        printed_label: 'Supplement: A proof of Lebesgue’s theorem on the Riemann integral.'
+        page: 2
+        pages: &id032
+        - 2
+        - 3
+        statement: editions/2026-27/qx01/question.tex
+        statement_sha256: 02b517d9e3ac86600cca20ae519b39bf4b30042f5569d0ac94b6d75ec3b45b65
+        printed_parts:
+        - (a)
+        - (b)
+        - (c)
+        - (d)
+        starred: []
+        printed_references:
+        - in: (d)
+          text: Conclude using (c)
+          target: qx01(c)
+        - in: introductory paragraph and (d)
+          text:
+          - as in lectures
+          - the theorem we proved in lecture
+          target: null
+        source_notes:
+        - Unnumbered optional exercise without a printed star. Heading, introduction
+          and (a) are on physical page 2. Parts (b)–(d) are on physical page 3.
+        - The final sum in (c) prints j alone under the summation sign and ∞ above
+          it. In (d) the partition reads a₁ < a₂ … < aₙ without another < between
+          a₂ and the ellipsis.
+        - The last inclusion in (d) prints the union and intersection without additional
+          parentheses; its final inequality has a strict <.
+      verification:
+        visual: All three physical pages were inspected at 150 dpi and compared with
+          the final transcription. The source has no printed page numerals.
+        comparison: Each staged question was compiled with the repository preamble
+          and compared to the corresponding source text layer, including text, mathematical
+          glyphs, and punctuation. Original position numbers were matched separately.
+          Unicode ligatures, equivalent extracted glyph encodings, whitespace and
+          line-break hyphenation were normalised.
+        matched_expected_positions: 15
+        residual_text_differences: 0
+        restricted_fragment_validation: passed
+        pdf_overfull_boxes: 0
+editions:
+  2025-26:
+    archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+    sha256: fe72ec8e3a36dcabc2f9b9a645a0b34e834a27cf505ee5cb920b71b3407cf877
+    questions:
+      '1':
+        question_sha256: 314e1aafa9b63c3775ab91014db46a4bd3b0b627be9098d5d84e43a0dbc21257
+        original_question: '1'
+        printed_label: '1.'
+        pages: *id001
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: 18004613c26f92b25a3dcce0c47d123a9aea12ea8871ac7618efd6e9fe38133e
+      '2':
+        question_sha256: 90858de02fdbab04409a11613c468f1a50e0986cbd2bdfc8bea533fc43e2cef5
+        original_question: '2'
+        printed_label: '2.'
+        pages: *id002
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: f20f8b45973b5f7adb51dc1ef82105bb8d78f0c916a63e6d34443b06c9da58cd
+      '3':
+        question_sha256: 170ce56440b014cd95843a96930ce244d5c6df1b2061fe1bca628a2b27a2cb8c
+        original_question: '3'
+        printed_label: '3.'
+        pages: *id003
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: ae50cb795f6bfdf1aa56f237ad2b8be24a6c6796a2f4544398217f873983654a
+      '4':
+        question_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+        original_question: '4'
+        printed_label: '4.'
+        pages: *id004
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: d900a7d827f541b431905617086acd4cb9f77647d7ef05fd873059608b642dc7
+      '5':
+        question_sha256: f4b7d6afee8d4970aa6d0bafa47626acb3883766f40ed486e6d9eaed652057b5
+        original_question: '5'
+        printed_label: '5.'
+        pages: *id005
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: 630c2a567bb4e06c05249f30c2e92a5779e0fbfcdf66ef6afe15c0126be2f4da
+      '6':
+        question_sha256: cf87854a4b09875a78875f3eb363d4acb8170172387e869d628b640812ab398e
+        original_question: '6'
+        printed_label: '6.'
+        pages: *id006
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: 7516523c567e9d706fd5caf8a6c1595a77f328c987baf5a68a68c1903c0952d9
+      '7':
+        question_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+        original_question: '7'
+        printed_label: '7.'
+        pages: *id007
+        page_render_sha256:
+        - e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+        verified_solution: solution.tex
+        verified_solution_sha256: e57a8e47d01f1732626754d4e45ee12063a548df2f12223d6d1eb83590597983
+      '8':
+        question_sha256: 4576a2c124e91bf35b652b46b38489689586baffeecbfceebfd4318374d59aa4
+        original_question: '8'
+        printed_label: '8.'
+        pages: *id008
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: 0ed4bf624f1170e6d7039ccbe583648ed93fdd8dccaad53dbb01ca81c5cda8d0
+      '9':
+        question_sha256: abbf32af57e907e1079fc0c2356698fc3d911f69caccc5cc83ace9a39a403293
+        original_question: '9'
+        printed_label: '9.'
+        pages: *id009
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: ed8bba1e2055abdd147b67e16e193f6aa4b161e965cac74f5ce9ce247f56527a
+      '10':
+        question_sha256: d975e396938bf076e8a214695a665b5b31c361db532b6bd5b8d03be4ce1b9ae2
+        original_question: '10'
+        printed_label: '10.'
+        pages: *id010
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: 619967f234031e32607fa87f70e26ca866ae59399822ba026076f004990df3db
+      '11':
+        question_sha256: 8d30570c86d023c4af13899462ac17ac3cfac1817c0423c2031ec456044e7057
+        original_question: '11'
+        printed_label: '11.'
+        pages: *id011
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: a949b54ab1e8ad047e4627ed5b68ba4b0c0fb268001e0fcbfee918b736a61e96
+      '12':
+        question_sha256: 3a70c4173c8b2184e77c419d2362cca7728d05805f60747263d0e5f817dbc4e5
+        original_question: '12'
+        printed_label: '12.'
+        pages: *id012
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: 4200c0939e06fb67d725522d28a04973446a1c6d3818abb9f9af30055d0e7699
+      '13':
+        question_sha256: 1eec9d49857ff5551f05bc9b3dcdbda749a5ca3b1af017296a13dafbcce999b7
+        original_question: '13'
+        printed_label: '13.'
+        pages: *id013
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: 7e24505abf68a76b6627b05a7c5c44d0e13ec917e423b21c1d2f5d4e615d57ba
+      '14':
+        question_sha256: b03d61c0eecd5e8333266f3312448bdd9eb6aa14e0d48d3be101f312dd1d4f15
+        original_question: '14'
+        printed_label: '14.'
+        pages: *id014
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: 3efdabba8b1a5e14d2ed8d35e4c0af3be26f5c2e62f5eaab9476093f8d460d79
+      '15':
+        question_sha256: 9039aae925a5ba2fac8acc981dd90907f0770d8f680c251616bd27455ccbf94b
+        original_question: '15'
+        printed_label: 15⋆.
+        pages: *id015
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: f2229844dbb11a9dabb03b3d8eac6c84837378b5082bfcc211d62088567cc715
+      '16':
+        question_sha256: 2bb83ab7298708ea3e7447a60600ba9ab5233409e005d5c40823f85055dcb5fc
+        original_question: '16'
+        printed_label: '16.'
+        pages: *id016
+        page_render_sha256:
+        - a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+        verified_solution: solution.tex
+        verified_solution_sha256: c4f993c74e4f91445b46aa4c55826ecbb181ee80d1793576d7df46dee39c2d54
+      Supplement:
+        question_sha256: 6b28bdad08c02be570cdec641762a5a224f92dc9cad7f7787bda07c700762357
+        original_question: Supplement
+        printed_label: '⋆ Supplement: Weierstrass approximation theorem.'
+        pages: *id017
+        page_render_sha256:
+        - 929e13b02f1b1afed9ab73364862ca1a36ed196ff898b9e3df2fd09a321bb46b
+        verified_solution: solution.tex
+        verified_solution_sha256: f07b3c8c96595c8d4a45f5297dac6afec10ede1a38c5dd9fa55eacf9a20902d2
+  2026-27:
+    archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
+    sha256: 8c4641ef10b20957b76e24a666994b7aa4e9c68bd0961d0b1482eeaa3d16ae3e
+    questions:
+      '1':
+        question_sha256: a14e8dc8f734a859668ef43ba88c76bbf633d3611f4caccedca98f897f00f10b
+        original_question: '1'
+        printed_label: '1.'
+        pages: *id018
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: history/2026-11-21-exact-2026-27/solution.tex
+        verified_solution_sha256: 9750c36e088d5b00d537a832a7f46b6bff970aec146b2cdce07c82fdeae8ae16
+      '2':
+        question_sha256: 90858de02fdbab04409a11613c468f1a50e0986cbd2bdfc8bea533fc43e2cef5
+        original_question: '2'
+        printed_label: '2.'
+        pages: *id019
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: solution.tex
+        verified_solution_sha256: f20f8b45973b5f7adb51dc1ef82105bb8d78f0c916a63e6d34443b06c9da58cd
+      '3':
+        question_sha256: 10cfe1104486ae708f0ed58090067899a029683476837a37eb7d83f965158d93
+        original_question: '3'
+        printed_label: '3.'
+        pages: *id020
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: history/2026-11-21-exact-2026-27/solution.tex
+        verified_solution_sha256: 0d86f24f9a853e9b2328adb88074576f25b4a5104e90654ddcde03b5b149b270
+      '4':
+        question_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+        original_question: '4'
+        printed_label: '4.'
+        pages: *id021
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: solution.tex
+        verified_solution_sha256: d900a7d827f541b431905617086acd4cb9f77647d7ef05fd873059608b642dc7
+      '5':
+        question_sha256: f4b7d6afee8d4970aa6d0bafa47626acb3883766f40ed486e6d9eaed652057b5
+        original_question: '5'
+        printed_label: '5.'
+        pages: *id022
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: solution.tex
+        verified_solution_sha256: 630c2a567bb4e06c05249f30c2e92a5779e0fbfcdf66ef6afe15c0126be2f4da
+      '6':
+        question_sha256: cf87854a4b09875a78875f3eb363d4acb8170172387e869d628b640812ab398e
+        original_question: '6'
+        printed_label: '6.'
+        pages: *id023
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: solution.tex
+        verified_solution_sha256: 7516523c567e9d706fd5caf8a6c1595a77f328c987baf5a68a68c1903c0952d9
+      '7':
+        question_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+        original_question: '7'
+        printed_label: '7.'
+        pages: *id024
+        page_render_sha256:
+        - 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+        verified_solution: solution.tex
+        verified_solution_sha256: e57a8e47d01f1732626754d4e45ee12063a548df2f12223d6d1eb83590597983
+      '8':
+        question_sha256: 4576a2c124e91bf35b652b46b38489689586baffeecbfceebfd4318374d59aa4
+        original_question: '8'
+        printed_label: '8.'
+        pages: *id025
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: solution.tex
+        verified_solution_sha256: 0ed4bf624f1170e6d7039ccbe583648ed93fdd8dccaad53dbb01ca81c5cda8d0
+      '9':
+        question_sha256: abbf32af57e907e1079fc0c2356698fc3d911f69caccc5cc83ace9a39a403293
+        original_question: '9'
+        printed_label: '9.'
+        pages: *id026
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: solution.tex
+        verified_solution_sha256: ed8bba1e2055abdd147b67e16e193f6aa4b161e965cac74f5ce9ce247f56527a
+      '10':
+        question_sha256: 8d30570c86d023c4af13899462ac17ac3cfac1817c0423c2031ec456044e7057
+        original_question: '10'
+        printed_label: '10.'
+        pages: *id027
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: solution.tex
+        verified_solution_sha256: a949b54ab1e8ad047e4627ed5b68ba4b0c0fb268001e0fcbfee918b736a61e96
+      '11':
+        question_sha256: 77c03c7425e9d24e16315485bd3986ad3e1261445547b756af8c848781bb56db
+        original_question: '11'
+        printed_label: '11.'
+        pages: *id028
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: history/2026-11-21-exact-2026-27/solution.tex
+        verified_solution_sha256: 7e24505abf68a76b6627b05a7c5c44d0e13ec917e423b21c1d2f5d4e615d57ba
+      '12':
+        question_sha256: b03d61c0eecd5e8333266f3312448bdd9eb6aa14e0d48d3be101f312dd1d4f15
+        original_question: '12'
+        printed_label: '12.'
+        pages: *id029
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: solution.tex
+        verified_solution_sha256: 3efdabba8b1a5e14d2ed8d35e4c0af3be26f5c2e62f5eaab9476093f8d460d79
+      '13':
+        question_sha256: 9039aae925a5ba2fac8acc981dd90907f0770d8f680c251616bd27455ccbf94b
+        original_question: '13'
+        printed_label: 13⋆.
+        pages: *id030
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: solution.tex
+        verified_solution_sha256: f2229844dbb11a9dabb03b3d8eac6c84837378b5082bfcc211d62088567cc715
+      '14':
+        question_sha256: 2bb83ab7298708ea3e7447a60600ba9ab5233409e005d5c40823f85055dcb5fc
+        original_question: '14'
+        printed_label: '14.'
+        pages: *id031
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        verified_solution: solution.tex
+        verified_solution_sha256: c4f993c74e4f91445b46aa4c55826ecbb181ee80d1793576d7df46dee39c2d54
+      Supplement:
+        question_sha256: 02b517d9e3ac86600cca20ae519b39bf4b30042f5569d0ac94b6d75ec3b45b65
+        original_question: Supplement
+        printed_label: 'Supplement: A proof of Lebesgue’s theorem on the Riemann integral.'
+        pages: *id032
+        page_render_sha256:
+        - 19a97acc1197857069864ca91ad7ad6dc11b55b00fce61039c66455ab87e8245
+        - 4e8824bb40045db902b31fb2392bb5976428d87299717cf556a6afe41ac67bc9
+        verified_solution: solution.tex
+        verified_solution_sha256: 3e563d7fee3ee5e1e29701ec956a20c1c778bd0573b961b4846ac7a73a1ab2a0
+solution_manifests:
+  first: 8b33c2125e1a8a415af0ec37f8330bd44488ec794414a65085f2b60c4b362fdd
+  second: c26895f847a99b7472d7b01528340154c557668448e53eb79bb75454844e8898

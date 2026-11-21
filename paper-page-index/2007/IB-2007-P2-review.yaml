@@ -1,0 +1,360 @@
+paper_id: IB/2007/P2
+id: IB/2007/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2007-06-06'
+printed_date: Wednesday 6 June 2007
+time: 1.30 to 4.30
+source: private/raw/tripos/IB/2007/P2.pdf
+archive: private/raw/tripos/IB/2007/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2007/PaperIB_2.pdf
+sha256: e4eaa72d9891dc94e32fe2887ee1fe2cc40e108b4b1c19120620a8e3be5ccf4f
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2007/P2/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: b0deeb9af19494ee40dd5d4e4ead7054c5b3d792a63336871846678a2fbe28ec
+  checks: Verified the two endomorphisms, field, dimension and three distinct eigenvalues.
+  source_page_render_sha256: efc9c0c75985deccc8d9bf70f18bfe2b4bbc3725f90edd0a6b3ce6ef116338bb
+- id: IB/2007/P2/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 92da812dc0752d8d72ac757803c2ec199e32b191720642950ab4211abd487747
+  checks: Checked the definition and example requested on the page.
+  source_page_render_sha256: efc9c0c75985deccc8d9bf70f18bfe2b4bbc3725f90edd0a6b3ce6ef116338bb
+- id: IB/2007/P2/q3H
+  original_question: 3H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 12b593ca940f6310f8551c13b818e6aaf5071e46096f43758cac55ee963909b7
+  checks: Verified the reciprocal power, maximal divisibility condition and the exponent in the sequence.
+  source_page_render_sha256: efc9c0c75985deccc8d9bf70f18bfe2b4bbc3725f90edd0a6b3ce6ef116338bb
+- id: IB/2007/P2/q4A
+  original_question: 4A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 808e789cb2c2ba0cdd43d851d60973535a43859a2890e3415667908f94d29272
+  checks: Verified domains and directions of images and preimages, the duplicate closing brace in (ii), and
+    the two metric spaces.
+  printed_ambiguity: An extra closing brace appears at the end of the printed preimage set in (ii), and is
+    retained.
+  source_page_render_sha256: efc9c0c75985deccc8d9bf70f18bfe2b4bbc3725f90edd0a6b3ce6ef116338bb
+- id: IB/2007/P2/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: bccb65214a4226eb8b48353b1970f1514d4fc4c5dd28b353e1b5d8289bc4f769
+  checks: Checked the mixed boundary conditions, sine-series lower limit and the argument of the cosine forcing.
+  source_page_render_sha256: 209dfe694ae57fe70e263b7ddee1fb2f286abe2bc30e62018e900e26d76ab09d
+- id: IB/2007/P2/q6E
+  original_question: 6E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: cc7e0b19262595775aa8b372be46841a6ce724bdc003a7fdddf6fe96afa87d33
+  checks: Checked wire dimensions, steady-current hypothesis, dissipation request and final curved-wire question.
+  printed_ambiguity: Uniform current density in a finite straight cylinder also requires appropriate end contacts
+    and lateral boundary conditions. The total current and uniform conductivity alone do not specify the end
+    potentials.
+  source_page_render_sha256: 209dfe694ae57fe70e263b7ddee1fb2f286abe2bc30e62018e900e26d76ab09d
+- id: IB/2007/P2/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: fc601d1fc5d3e7ff31d4943dbb5a1cfed98716827c44976907067977eff5d4fd
+  checks: Checked all three frames, the printed spelling “cooordinates”, velocity labels and Newtonian limit.
+  source_page_render_sha256: 209dfe694ae57fe70e263b7ddee1fb2f286abe2bc30e62018e900e26d76ab09d
+- id: IB/2007/P2/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 7029e902d350f9ff18990f39d2863bd515a6866bc687df99ffddf0a0cfb9dac7
+  checks: Verified the gravity sign, the Bernoulli integral, real part, exponential signs and Doppler-shifted
+    dispersion relation.
+  source_page_render_sha256: ec71ac59ad7618f56e2b72d7439917e5b4455d908536ea6a9fdd6be374928db8
+- id: IB/2007/P2/q9C
+  original_question: 9C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 0093e93f6d769eaeeda1fdfd00f3572f5a958c31cd17226f13adbfcd72535c6f
+  checks: Reviewed all nine payoff entries, row and column conventions, and both strategy requests.
+  source_page_render_sha256: ec71ac59ad7618f56e2b72d7439917e5b4455d908536ea6a9fdd6be374928db8
+- id: IB/2007/P2/q10G
+  original_question: 10G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 6e35d33c17a7dcbee3723a867aeeaa6a928c12be40f5e7792da16744c8d59035
+  checks: Verified the conjugation covers the entire second factor, integration limits and extension to finitely
+    many variables.
+  source_page_render_sha256: 78c1eeca333f4671dccc1cfa189e9a220f6862c49a427420dbf73dd80e65b983
+- id: IB/2007/P2/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 69a6cd3425e97d8084bd3de4db8ee6744b3966f106f6e2c7a0ede517faf4af8b
+  checks: Compared the examples requested and exact naming of Hilbert’s theorem.
+  source_page_render_sha256: 78c1eeca333f4671dccc1cfa189e9a220f6862c49a427420dbf73dd80e65b983
+- id: IB/2007/P2/q12A
+  original_question: 12A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: a05bf0076910571b31bf3f086a4f424e4beb1849fb8cc337b011d4de4fcf0035
+  checks: Verified the spherical radius range and every ordered index of the cross-ratio, including its preservation
+    allowance.
+  source_page_render_sha256: 78c1eeca333f4671dccc1cfa189e9a220f6862c49a427420dbf73dd80e65b983
+- id: IB/2007/P2/q13H
+  original_question: 13H
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: cd5886a9243f88c16593f8c11a274b7a91ee7e3d0a41749287640c6690946bf7
+  checks: Compared the continuous and integrable limit hypotheses and conclusions of all three paragraphs.
+  source_page_render_sha256: 0d684b4f70d2ade58b9de0fdc5157f6f5c82a34d3876c279903b420916f0a972
+- id: IB/2007/P2/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: bdc24eba55b395cf9da3cba532b6829e56168b4e9ae26b395f99a0059b633e1b
+  checks: Checked both horizontal-coordinate bounds, the positive vertical coordinate and target domain.
+  source_page_render_sha256: 0d684b4f70d2ade58b9de0fdc5157f6f5c82a34d3876c279903b420916f0a972
+- id: IB/2007/P2/q15D
+  original_question: 15D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 97b06cd1813418a3fc81718372c28f19aaa47035bce456a85e4a5b6f32b48dab
+  checks: Checked all signs in the operator, starred solvability condition, weighted normalization and both
+    orders of the perturbation.
+  source_page_render_sha256: 3e73ab17dcc99042cbc5fafb685d4cb6bbb5d008c6927959b2fc101c029ac4e2
+- id: IB/2007/P2/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 1a896962a20712de1b3115202f0d203cf5498bc07e34a2d1df043a322b53568c
+  checks: Verified operator and component notation, index order in both commutators, gradient and both signs
+    of the eigenvalues.
+  printed_ambiguity: The eigenfunction assertions refer to nonzero component functions. A constant radial function
+    has zero gradient.
+  source_page_render_sha256: 6a9b99088a32cfe9a75e71b2295254f16ba74b949a32bfe5590257f12b13a1dd
+- id: IB/2007/P2/q17E
+  original_question: 17E
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 7b4c02236e239b92d4328ad7b470b2c3ae366d679a4ac885b0e004e151878780
+  checks: Verified energy density, sign of the work term, wave polarization, wave phase and time average notation.
+  source_page_render_sha256: 6a9b99088a32cfe9a75e71b2295254f16ba74b949a32bfe5590257f12b13a1dd
+- id: IB/2007/P2/q18F
+  original_question: 18F
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: a509ad517610998bf62b7596892695ff526442da4364a98ee74ce3a85711233f
+  checks: Compared positivity, the spectral radius, iteration sign and arbitrary initial vector.
+  source_page_render_sha256: 6a9b99088a32cfe9a75e71b2295254f16ba74b949a32bfe5590257f12b13a1dd
+- id: IB/2007/P2/q19C
+  original_question: 19C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 744953b3508c9446b3a559da66d93bad9410541b7c3c05e1fc2db8ca57ac458f
+  checks: Checked density, gamma normalization, parameter range, simple hypotheses and the final composite
+    alternative.
+  source_page_render_sha256: c63288a1b4dedd275670214f3ebf25bb6b1ab2fc3459989d8438443ae3de260e
+- id: IB/2007/P2/q20C
+  original_question: 20C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: f0ebec4aa1ca5c270eb8cb0ef0f44f9fd300b60a793ea06510d0aaa05168e453
+  checks: Verified powers and domains in the transition matrix and the parameter relation used for recurrence
+    classification.
+  source_page_render_sha256: c63288a1b4dedd275670214f3ebf25bb6b1ab2fc3459989d8438443ae3de260e
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 06568bfa9af06b1de8eb5692d4334895cf8225d6ac1dcf8df6d90284322f5289
+separate_corrections: []
+correction_check: Manifest checked for 2007 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: b2dc5a157dbc90268fbbe2f7a341df1b5800e6e88f518dcf9e086a3fa66ab481
+- page: 2
+  contents: questions
+  questions:
+  - 1G
+  - 2G
+  - 3H
+  - 4A
+  source_page_render_sha256: efc9c0c75985deccc8d9bf70f18bfe2b4bbc3725f90edd0a6b3ce6ef116338bb
+- page: 3
+  contents: questions
+  questions:
+  - 5D
+  - 6E
+  - 7B
+  source_page_render_sha256: 209dfe694ae57fe70e263b7ddee1fb2f286abe2bc30e62018e900e26d76ab09d
+- page: 4
+  contents: questions
+  questions:
+  - 8D
+  - 9C
+  source_page_render_sha256: ec71ac59ad7618f56e2b72d7439917e5b4455d908536ea6a9fdd6be374928db8
+- page: 5
+  contents: questions
+  questions:
+  - 10G
+  - 11G
+  - 12A
+  source_page_render_sha256: 78c1eeca333f4671dccc1cfa189e9a220f6862c49a427420dbf73dd80e65b983
+- page: 6
+  contents: questions
+  questions:
+  - 13H
+  - 14F
+  source_page_render_sha256: 0d684b4f70d2ade58b9de0fdc5157f6f5c82a34d3876c279903b420916f0a972
+- page: 7
+  contents: questions
+  questions:
+  - 15D
+  source_page_render_sha256: 3e73ab17dcc99042cbc5fafb685d4cb6bbb5d008c6927959b2fc101c029ac4e2
+- page: 8
+  contents: questions
+  questions:
+  - 16B
+  - 17E
+  - 18F
+  source_page_render_sha256: 6a9b99088a32cfe9a75e71b2295254f16ba74b949a32bfe5590257f12b13a1dd
+- page: 9
+  contents: questions
+  questions:
+  - 19C
+  - 20C
+  source_page_render_sha256: c63288a1b4dedd275670214f3ebf25bb6b1ab2fc3459989d8438443ae3de260e

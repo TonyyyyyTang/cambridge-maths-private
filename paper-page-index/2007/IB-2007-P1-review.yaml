@@ -1,0 +1,337 @@
+paper_id: IB/2007/P1
+id: IB/2007/P1
+main_count: 19
+unit_count: 19
+main_question_count: 19
+question_units: 19
+source_page_count: 8
+page_count: 8
+section_units:
+  I: 8
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2007-06-05'
+printed_date: Tuesday 5 June 2007
+time: 9 to 12
+source: private/raw/tripos/IB/2007/P1.pdf
+archive: private/raw/tripos/IB/2007/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2007/PaperIB_1.pdf
+sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2007/P1/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c2dd1d164c5ebe062cee6dd0a5fb96e5c6c9992eb6d743478bc0bc38f5706aa2
+  checks: Checked the basis indexing, cyclic action, transpose and cube-root condition.
+  source_page_render_sha256: ee6b66c9865020c0e916ab0bd95f8b437ed222a94d22aaba844af041034de15e
+- id: IB/2007/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b0caddb5efa6749badbc58d9ac147d6b5cebc1e46e8d68565f6849d272d189f2
+  checks: Checked the spherical theorem, convexity and the order of the three Euler terms.
+  source_page_render_sha256: ee6b66c9865020c0e916ab0bd95f8b437ed222a94d22aaba844af041034de15e
+- id: IB/2007/P1/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 98db4f6eb24a08bc458b192320e167e6e50672e6f6d4e6554f11668ca2bcdbd6
+  checks: Checked numerator and denominator, expansion centre and strict disc boundary.
+  source_page_render_sha256: ee6b66c9865020c0e916ab0bd95f8b437ed222a94d22aaba844af041034de15e
+- id: IB/2007/P1/q4B
+  original_question: 4B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: ec394b9f91017c276012efdb278812cdf78a6b1637ae89dfe9cbaa777aa591b4
+  checks: Verified lower index a, velocity norm, Lorentz exponent and zero-rest-mass four momentum.
+  source_page_render_sha256: ee6b66c9865020c0e916ab0bd95f8b437ed222a94d22aaba844af041034de15e
+- id: IB/2007/P1/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 440275d8aafc4781001bd709c876de5e022b487e7ac4d10e2ccd156d28f4c10e
+  checks: Verified velocity signs, positivity assumptions and both parameter relations in (iii)–(iv).
+  source_page_render_sha256: b4b25afaf0913a3914f175286714628e014866bb05f048f1d5d8088128527e4b
+- id: IB/2007/P1/q6F
+  original_question: 6F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 234d5d60206a91c76369ba3b5cebf7b5604bbfe2f8a536f83b71d9caca145978
+  checks: Verified all four matrix rows, right-hand side and the exclusion of normal equations.
+  source_page_render_sha256: b4b25afaf0913a3914f175286714628e014866bb05f048f1d5d8088128527e4b
+- id: IB/2007/P1/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f480bae10421da8e0deef89bc73975342e5f88ef2468d24f63247c6aafa34863
+  checks: Checked unknown mean and variance, the two-sided alternative and request for implementation.
+  source_page_render_sha256: b4b25afaf0913a3914f175286714628e014866bb05f048f1d5d8088128527e4b
+- id: IB/2007/P1/q8C
+  original_question: 8C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 7db93bf7afeb851fd5d718b7c06b1f393efa9118ee8a7c96318cbcfe1e9d6cd0
+  checks: Verified the complete one-sentence theorem request.
+  source_page_render_sha256: b4b25afaf0913a3914f175286714628e014866bb05f048f1d5d8088128527e4b
+- id: IB/2007/P1/q9G
+  original_question: 9G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1459f873dd112a49515d8fee803d21095af52023c02790884390f61adabedb41
+  checks: Verified orthogonal diagonalization allowance, even dimension, non-singularity and dimension of the
+    vanishing subspace.
+  source_page_render_sha256: 060e200bc6056d0dc8bef4556bfc1e6adf7b409ffaad628df2bc4e9fbcc30dac
+- id: IB/2007/P1/q10G
+  original_question: 10G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 343b0c59fe3a8bcf4c1b060f2d345b76d69ac33a5f7a2103e84ae0cabcdab49a
+  checks: Compared all three parts, including the finite subgroup and its infinite analogue.
+  source_page_render_sha256: 060e200bc6056d0dc8bef4556bfc1e6adf7b409ffaad628df2bc4e9fbcc30dac
+- id: IB/2007/P1/q11H
+  original_question: 11H
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 8d3fc80fb6fbb18c6f6916fef2753fc94ba60571a6cdd99405f5cdd14116e76e
+  checks: Checked all three Euclidean dimensions, derivative evaluation and the partial derivative subscripts.
+  source_page_render_sha256: 060e200bc6056d0dc8bef4556bfc1e6adf7b409ffaad628df2bc4e9fbcc30dac
+- id: IB/2007/P1/q12A
+  original_question: 12A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: de82ec6399b452ae0e67017348e44e0684f8c05593e00c26a5058e28f688a2a8
+  checks: Verified product topology, the diagonal and the domains and codomains of both continuous maps.
+  source_page_render_sha256: 6e91ccb7b63b807f676dd622ec1bb0f7602a335c0e72c9bcafe700f343a886d4
+- id: IB/2007/P1/q13F
+  original_question: 13F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 8971cad1d399f0807bc0f508af07daf7483f5c1c8ef449cd56881c626a2669a2
+  checks: Checked the sector angle, both Fresnel integrals and the constants and interval in the hint.
+  source_page_render_sha256: 6e91ccb7b63b807f676dd622ec1bb0f7602a335c0e72c9bcafe700f343a886d4
+- id: IB/2007/P1/q14D
+  original_question: 14D
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: cd4da45b4aebb9b82055a394b062dbbbdeb6243344354b91e55fe74ee5cb9fa7
+  checks: Verified both transform examples, endpoint convention at b and integral identity for x greater than
+    b.
+  source_page_render_sha256: 6e91ccb7b63b807f676dd622ec1bb0f7602a335c0e72c9bcafe700f343a886d4
+- id: IB/2007/P1/q15B
+  original_question: 15B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: ad4a09ef3266e418aa01c15daeec1abb0a2295bb7754d3f17026c1d51c09310d
+  checks: Checked potential branches at a, both positive constants, bound-state request and spherical Laplacian
+    hint.
+  source_page_render_sha256: 61f479b770b7a4f771966d41343ebdf4788c2c2ea170bf18d3058c2ca060b569
+- id: IB/2007/P1/q16E
+  original_question: 16E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: e1ed6ccdefea23041c67858f58fe0a5937b7caad8da86b2cf2269feeb5d5298d
+  checks: Compared component indices, signs, primed coordinates and constants in the potential and dipole moment.
+  source_page_render_sha256: 61f479b770b7a4f771966d41343ebdf4788c2c2ea170bf18d3058c2ca060b569
+- id: IB/2007/P1/q17D
+  original_question: 17D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: eb15eee14b9bc402be2382acb215c38eca29d334928f65cfb5fc7b3bac6e5397
+  checks: Checked control-volume hypotheses, both small-height conditions and the final square root and angle
+    factor.
+  source_page_render_sha256: ff9fb555f5d2b6b8c513f0c80b10a96d4a476e5642157eddd48365cf87861871
+- id: IB/2007/P1/q18C
+  original_question: 18C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 5f6c9a75ff7cf3439db23b85cbe6c63806991328db335e82b642ec131cec6b21
+  checks: Verified Bernoulli probabilities, open parameter interval, all three estimators and the printed wording
+    of the factorial hint.
+  printed_ambiguity: The stated open interval for the Bernoulli parameter excludes the maximum for all-zero
+    and all-one samples. The usual plug-in estimator extends to the closure.
+  source_page_render_sha256: 0a02b4a7dd9eb308a6a44621f429fd8fe185fa8ae88a4fe014e87927703a06f8
+- id: IB/2007/P1/q19C
+  original_question: 19C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 9a7a42c663d999b901da42b2274b2cb0d46c511cda4df92805ae88fa57d1f11a
+  checks: Checked both absorbing boundaries, the positive-probability hypothesis and conditioning of the hitting-time
+    request.
+  source_page_render_sha256: 0a02b4a7dd9eb308a6a44621f429fd8fe185fa8ae88a4fe014e87927703a06f8
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: c16f26b5d1a4b26220863b4fe3b1640517ce918a6dc0ea94309843424a225b64
+separate_corrections: []
+correction_check: Manifest checked for 2007 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 2c626bd60731241765b9f6589e7df3dfe6dc3313ace2d4a110ab407c086a080b
+- page: 2
+  contents: questions
+  questions:
+  - 1G
+  - 2A
+  - 3F
+  - 4B
+  source_page_render_sha256: ee6b66c9865020c0e916ab0bd95f8b437ed222a94d22aaba844af041034de15e
+- page: 3
+  contents: questions
+  questions:
+  - 5D
+  - 6F
+  - 7C
+  - 8C
+  source_page_render_sha256: b4b25afaf0913a3914f175286714628e014866bb05f048f1d5d8088128527e4b
+- page: 4
+  contents: questions
+  questions:
+  - 9G
+  - 10G
+  - 11H
+  source_page_render_sha256: 060e200bc6056d0dc8bef4556bfc1e6adf7b409ffaad628df2bc4e9fbcc30dac
+- page: 5
+  contents: questions
+  questions:
+  - 12A
+  - 13F
+  - 14D
+  source_page_render_sha256: 6e91ccb7b63b807f676dd622ec1bb0f7602a335c0e72c9bcafe700f343a886d4
+- page: 6
+  contents: questions
+  questions:
+  - 15B
+  - 16E
+  source_page_render_sha256: 61f479b770b7a4f771966d41343ebdf4788c2c2ea170bf18d3058c2ca060b569
+- page: 7
+  contents: questions
+  questions:
+  - 17D
+  source_page_render_sha256: ff9fb555f5d2b6b8c513f0c80b10a96d4a476e5642157eddd48365cf87861871
+- page: 8
+  contents: questions
+  questions:
+  - 18C
+  - 19C
+  source_page_render_sha256: 0a02b4a7dd9eb308a6a44621f429fd8fe185fa8ae88a4fe014e87927703a06f8

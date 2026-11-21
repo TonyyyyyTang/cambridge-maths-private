@@ -1,0 +1,621 @@
+scope: IB analysis-ii example sheet 2 in the reviewed 2025–26 and 2026–27 editions.
+  Other years and the whole course remain outside this sample.
+selection:
+  seed: 20261220
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  - q13
+  - q14
+  - q15
+  - q16
+  - q17
+  - qx01
+  sample:
+  - q03
+  - q04
+  - q10
+  - q07
+  scope: 2025-26 and 2026-27, all distinct wordings within each sampled family
+sampling: One seeded sample without replacement of ceil(20% of the union of the two
+  editions). Every appearance of each selected family was independently source-checked.
+blind_input: Exact statements and supplied original figures, original file, page and
+  printed locators only. Fresh auditor did not write the stored solutions.
+frozen_manifest_sha256: 7bbe06c7b2393e5718141d23e63664b9dbc17a5e096353b800968a0064774938
+reworks:
+  170ce56440b014cd95843a96930ce244d5c6df1b2061fe1bca628a2b27a2cb8c:
+    unit: q03
+    comparison: Both establish the one-dimensional exception for the minimum coordinate
+      distance, the first-disagreement cylinder metric and the radial-line metric.
+      For the 2025 statement both supply a concrete triangle violation for the positive
+      two-adic power.
+    canonical_or_snapshot_solution: courses/IB/analysis-ii/sheets/sheet-2/q03/solution.tex
+    source_hashes:
+      question.tex: 170ce56440b014cd95843a96930ce244d5c6df1b2061fe1bca628a2b27a2cb8c
+      solution.tex: ae50cb795f6bfdf1aa56f237ad2b8be24a6c6796a2f4544398217f873983654a
+    check_sha256: 72eb29e2797471939cb0b28b73e9ca7befa9dc260a9f01fb47298a2ecbcf2a2f
+    check_output: Coordinate, dyadic, prefix and radial metric checks passed.
+  10cfe1104486ae708f0ed58090067899a029683476837a37eb7d83f965158d93:
+    unit: q03
+    comparison: Both establish the one-dimensional exception for the minimum coordinate
+      distance, the first-disagreement cylinder metric and the radial-line metric.
+      For the 2025 statement both supply a concrete triangle violation for the positive
+      two-adic power.
+    canonical_or_snapshot_solution: courses/IB/analysis-ii/sheets/sheet-2/q03/history/2026-11-21-exact-2026-27/solution.tex
+    source_hashes:
+      question.tex: 10cfe1104486ae708f0ed58090067899a029683476837a37eb7d83f965158d93
+      solution.tex: 0d86f24f9a853e9b2328adb88074576f25b4a5104e90654ddcde03b5b149b270
+    check_sha256: 1b7a660762f45f72e77008cb946ec26510b384c0bf455ac97840a3378c76a42f
+    check_output: Coordinate, prefix and radial metric checks passed.
+  cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37:
+    unit: q04
+    comparison: The auditor also bounds the supremum by integrating from the nearer
+      endpoint, obtaining a sharper 3/2 instead of 2 in one norm comparison. The equivalence
+      classes agree; the shrinking bump excludes gamma from the derivative norm class.
+    canonical_or_snapshot_solution: courses/IB/analysis-ii/sheets/sheet-2/q04/solution.tex
+    source_hashes:
+      question.tex: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+      solution.tex: d900a7d827f541b431905617086acd4cb9f77647d7ef05fd873059608b642dc7
+    check_sha256: 9871f7151f0b1e76b3973dc7c4d3ae2a109b00981306cdc743a7cc8502110eaa
+    check_output: Endpoint matching, bump derivative growth and norm comparisons passed.
+  d975e396938bf076e8a214695a665b5b31c361db532b6bd5b8d03be4ce1b9ae2:
+    unit: q10
+    comparison: The independently diagonalised coordinates have a bounded limit, whereas
+      the separated unit vectors cannot have any supremum-norm Cauchy subsequence.
+    canonical_or_snapshot_solution: courses/IB/analysis-ii/sheets/sheet-2/q10/solution.tex
+    source_hashes:
+      question.tex: d975e396938bf076e8a214695a665b5b31c361db532b6bd5b8d03be4ce1b9ae2
+      solution.tex: 619967f234031e32607fa87f70e26ca866ae59399822ba026076f004990df3db
+    check_sha256: 420feac773907910a080010571d1471bb7b7eb1a4d9ffdcfd633f1e8ae1823fe
+    check_output: Nested diagonal indices and the unit-vector separation test passed.
+  0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c:
+    unit: q07
+    comparison: The auditor finds both kernels closed in the supremum norm but only
+      the integral kernel closed in integral norm. The triangular notch gives exactly
+      1/n distance to the constant one.
+    canonical_or_snapshot_solution: courses/IB/analysis-ii/sheets/sheet-2/q07/solution.tex
+    source_hashes:
+      question.tex: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+      solution.tex: e57a8e47d01f1732626754d4e45ee12063a548df2f12223d6d1eb83590597983
+    check_sha256: 4d5255433b80313d696c879697bd3cbc53b3e9d6bdfef83473e19927b8e03e0a
+    check_output: Triangular deficit, endpoint case and signed integral tests passed.
+appearances:
+  2025-26/q03:
+    source:
+      printed_locator: '3'
+      original: private/raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      original_sha256: fe72ec8e3a36dcabc2f9b9a645a0b34e834a27cf505ee5cb920b71b3407cf877
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+      question_sha256: 170ce56440b014cd95843a96930ce244d5c6df1b2061fe1bca628a2b27a2cb8c
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared the opening instructions and all four printed subparts. Checked
+        the minimum of coordinate differences, the positive exponent in the integer
+        distance and the odd factor, the negative exponent/least index in the function
+        metric, and both line-dependent formulas on the complex plane.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 170ce56440b014cd95843a96930ce244d5c6df1b2061fe1bca628a2b27a2cb8c
+    independent_rework_sha256: 1669c933ff68f235533c591dac842a21042229e83cae7a0f709cfd5030c95b2d
+    independent_rework: '(i) For the coordinate minimum, if $n\ge2$, the origin and
+      $(1,0,\ldots,0)$ have distance zero despite being distinct. For $n=1$ the usual
+      real absolute-value metric results and the ball is $(x-\varepsilon,x+\varepsilon)$.
+
+
+      (ii) For the function on $\mathbb Z$, take $0,1,4$. The printed positive exponent
+      gives $d(0,4)=4$ while $d(0,1)=d(1,4)=1$, so the triangle inequality fails.
+
+
+      (iii) For functions on $\mathbb N$ symmetry and positivity with equality only
+      on the diagonal follow directly from the first differing index. If $f,h$ first
+      disagree at $k$, then at least one of $(f,g),(g,h)$ disagrees by index $k$.
+      Therefore $d(f,h)\le\max(d(f,g),d(g,h))$, also covering coincidences. The ball
+      consists exactly of functions agreeing with $f$ at every index $k\in\mathbb
+      N$ with $2^{-k}\ge\varepsilon$. Equality at a threshold requires agreement there
+      because the ball is open.
+
+
+      (iv) For the complex-plane distance, symmetry and definiteness follow from the
+      two formulas. Always $d(z,w)\ge|z-w|$. For collinear endpoints this bound on
+      the two intermediate legs implies the triangle inequality by the Euclidean inequality.
+      If the endpoints lie on distinct lines and an intermediate point lies at the
+      origin, equality holds. If it is nonzero and on the line of $z$, the sum of
+      the legs is $|z-v|+|v|+|w|\ge |z|+|w|$. The line of $w$ works symmetrically.
+      If it lies on neither line, the sum is $|z|+2|v|+|w|$. This proves the metric
+      property. At zero the ball is the ordinary open disc of radius $\varepsilon$.
+      For $z\ne0$ and $0<\varepsilon\le |z|$ it is the open interval of length $2\varepsilon$
+      centred at $z$ along the real line through $0$ and $z$, since every point on
+      another line has distance at least $|z|$.
+
+      '
+  2026-27/q03:
+    source:
+      printed_locator: '3'
+      original: private/raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
+      original_sha256: 8c4641ef10b20957b76e24a666994b7aa4e9c68bd0961d0b1482eeaa3d16ae3e
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+      question_sha256: 10cfe1104486ae708f0ed58090067899a029683476837a37eb7d83f965158d93
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared the opening instructions and all three printed subparts, including
+        the coordinate-minimum formula, first differing index and negative exponent,
+        and the two line-dependent formulas on the complex plane.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 10cfe1104486ae708f0ed58090067899a029683476837a37eb7d83f965158d93
+    independent_rework_sha256: 9e46fb74b4a81381b713d0dd56b510cea4c7f2936c2731be6556d094b4a4694d
+    independent_rework: '(i) For the coordinate minimum, if $n\ge2$, the origin and
+      $(1,0,\ldots,0)$ have distance zero despite being distinct. For $n=1$ the usual
+      real absolute-value metric results and the ball is $(x-\varepsilon,x+\varepsilon)$.
+
+
+      (ii) For functions on $\mathbb N$ symmetry and positivity with equality only
+      on the diagonal follow directly from the first differing index. If $f,h$ first
+      disagree at $k$, then at least one of $(f,g),(g,h)$ disagrees by index $k$.
+      Therefore $d(f,h)\le\max(d(f,g),d(g,h))$, also covering coincidences. The ball
+      consists exactly of functions agreeing with $f$ at every index $k\in\mathbb
+      N$ with $2^{-k}\ge\varepsilon$. Equality at a threshold requires agreement there
+      because the ball is open.
+
+
+      (iii) For the complex-plane distance, symmetry and definiteness follow from
+      the two formulas. Always $d(z,w)\ge|z-w|$. For collinear endpoints this bound
+      on the two intermediate legs implies the triangle inequality by the Euclidean
+      inequality. If the endpoints lie on distinct lines and an intermediate point
+      lies at the origin, equality holds. If it is nonzero and on the line of $z$,
+      the sum of the legs is $|z-v|+|v|+|w|\ge |z|+|w|$. The line of $w$ works symmetrically.
+      If it lies on neither line, the sum is $|z|+2|v|+|w|$. This proves the metric
+      property. At zero the ball is the ordinary open disc of radius $\varepsilon$.
+      For $z\ne0$ and $0<\varepsilon\le |z|$ it is the open interval of length $2\varepsilon$
+      centred at $z$ along the real line through $0$ and $z$, since every point on
+      another line has distance at least $|z|$.
+
+      '
+  2025-26/q04:
+    source:
+      printed_locator: '4'
+      original: private/raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      original_sha256: fe72ec8e3a36dcabc2f9b9a645a0b34e834a27cf505ee5cb920b71b3407cf877
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+      question_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared (a) and (b), all four formulas including the separate and joint
+        suprema and derivative signs, both spaces, the endpoint neighborhood condition,
+        and both questions on norm properties and equivalence.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+    independent_rework_sha256: 2f360d9fd6b68d5d700631e23e4e1a5eb9c455ed30124219d132e64495fbc33f
+    independent_rework: '(a) Write $M=\sup|f|$ and $D=\sup|f''|$, which are finite
+      on the compact interval. Both are homogeneous and subadditive, as is $\sup_x(|f(x)|+|f''(x)|)$
+      by pointwise inequalities followed by taking a supremum. Each of $\alpha,\beta,\gamma$
+      dominates $M$ and hence separates points. The function $\delta$ vanishes on
+      the nonzero constant $1$ and is only a seminorm on the full space. Since $\max(M,D)\le\beta\le
+      M+D=\alpha\le 2\beta$, $\alpha$ and $\beta$ are Lipschitz equivalent. For $f_n(x)=x^n$,
+      $M=1$ and $D=n$, which excludes any bound $\beta\le C\gamma$ and likewise $\alpha\le
+      C\gamma$. Thus $\gamma$ is equivalent to neither.
+
+
+      (b) The zero function qualifies. Any linear combination of two qualifying functions
+      vanishes on the intersections of their respective endpoint neighborhoods, so
+      the defining condition is preserved. If $\delta(f)=0$, then $f$ is constant
+      and $f(0)=0$ forces $f=0$. Thus all four are norms here. From either endpoint,
+      $|f(x)|\le\min(x,1-x)D$, so $M\le D/2$. Consequently $\delta\le\beta\le\alpha\le(3/2)\delta$.
+      For a separating sequence take $\phi(y)=(1-y^2)^2$ for $|y|\le1$ and zero outside.
+      Its derivative vanishes at the joining points, so $\phi$ is $C^1$. For integers
+      $n>2$, $f_n(x)=\phi(n(x-1/2))$ vanishes near both endpoints and has $M=1$, $D=n\|\phi''\|_\infty$
+      with $\|\phi''\|_\infty>0$. Thus $\gamma$ is not Lipschitz equivalent to any
+      of the other three.
+
+      '
+  2026-27/q04:
+    source:
+      printed_locator: '4'
+      original: private/raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
+      original_sha256: 8c4641ef10b20957b76e24a666994b7aa4e9c68bd0961d0b1482eeaa3d16ae3e
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+      question_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared (a) and (b), all four formulas including the separate and joint
+        suprema and derivative signs, both spaces, the endpoint neighborhood condition,
+        and both questions on norm properties and equivalence.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: cd51173d08318b84de5d4dc2e9dea7f545e44494610b0d759894770d43ebaa37
+    independent_rework_sha256: 2f360d9fd6b68d5d700631e23e4e1a5eb9c455ed30124219d132e64495fbc33f
+    independent_rework: '(a) Write $M=\sup|f|$ and $D=\sup|f''|$, which are finite
+      on the compact interval. Both are homogeneous and subadditive, as is $\sup_x(|f(x)|+|f''(x)|)$
+      by pointwise inequalities followed by taking a supremum. Each of $\alpha,\beta,\gamma$
+      dominates $M$ and hence separates points. The function $\delta$ vanishes on
+      the nonzero constant $1$ and is only a seminorm on the full space. Since $\max(M,D)\le\beta\le
+      M+D=\alpha\le 2\beta$, $\alpha$ and $\beta$ are Lipschitz equivalent. For $f_n(x)=x^n$,
+      $M=1$ and $D=n$, which excludes any bound $\beta\le C\gamma$ and likewise $\alpha\le
+      C\gamma$. Thus $\gamma$ is equivalent to neither.
+
+
+      (b) The zero function qualifies. Any linear combination of two qualifying functions
+      vanishes on the intersections of their respective endpoint neighborhoods, so
+      the defining condition is preserved. If $\delta(f)=0$, then $f$ is constant
+      and $f(0)=0$ forces $f=0$. Thus all four are norms here. From either endpoint,
+      $|f(x)|\le\min(x,1-x)D$, so $M\le D/2$. Consequently $\delta\le\beta\le\alpha\le(3/2)\delta$.
+      For a separating sequence take $\phi(y)=(1-y^2)^2$ for $|y|\le1$ and zero outside.
+      Its derivative vanishes at the joining points, so $\phi$ is $C^1$. For integers
+      $n>2$, $f_n(x)=\phi(n(x-1/2))$ vanishes near both endpoints and has $M=1$, $D=n\|\phi''\|_\infty$
+      with $\|\phi''\|_\infty>0$. Thus $\gamma$ is not Lipschitz equivalent to any
+      of the other three.
+
+      '
+  2025-26/q10:
+    source:
+      printed_locator: '10'
+      original: private/raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      original_sha256: fe72ec8e3a36dcabc2f9b9a645a0b34e834a27cf505ee5cb920b71b3407cf877
+      physical_pages:
+      - 2
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '2': a353034dc9712bae595e24e025d6078606ed9848b4f0dd92545aa6700e9cf669
+      question_sha256: d975e396938bf076e8a214695a665b5b31c361db532b6bd5b8d03be4ce1b9ae2
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared the full exercise, including sequence and subsequence index
+        ranges, nested coordinate superscripts and subscripts, the real coordinate
+        limits and the last question about convergent subsequences.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: d975e396938bf076e8a214695a665b5b31c361db532b6bd5b8d03be4ce1b9ae2
+    independent_rework_sha256: 9b392bf7547535f467fe29b266cba97627033e56691c0d7dfb742e9597e47738
+    independent_rework: 'Choose $M$ with $\|x^{(n)}\|_\infty\le M$ for all $n$. From
+      all indices choose an infinite increasing subsequence $S_1$ along which the
+      first coordinate converges by Bolzano–Weierstrass in $[-M,M]$. Recursively extract
+      $S_i$ from $S_{i-1}$ so that the $i$th coordinate converges along $S_i$. Earlier
+      coordinate convergences persist. Let $n_j$ be the $j$th member of $S_j$. Since
+      $S_{j+1}\subset S_j$, its $(j+1)$st member is larger than the $j$th member of
+      $S_j$. For fixed $i$, all $n_j$ with $j\ge i$ lie in $S_i$, which proves convergence
+      in that coordinate. Every coordinate of the resulting limit is bounded by $M$,
+      so the limit defines an element of $\ell_\infty$.
+
+
+      Norm convergence would require the coordinate errors to tend to zero uniformly
+      in the coordinate. For the standard unit vectors $e_n$, every coordinate tends
+      to zero and each vector has norm one. Distinct $e_n,e_m$ have distance one,
+      so no subsequence is even Cauchy in the supremum norm.
+
+      '
+  2025-26/q07:
+    source:
+      printed_locator: '7'
+      original: private/raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      original_sha256: fe72ec8e3a36dcabc2f9b9a645a0b34e834a27cf505ee5cb920b71b3407cf877
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': e1f12cf595ed3fb526325b94324c1f6eb060ba2e9b795653fb63c3d2dcdd5cce
+      question_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared all three sentences and their questions. The evaluation point
+        1/2, both kernel conditions, continuous-function space, infinity norm, integral
+        bounds and absolute value in the integral norm all agree.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+    independent_rework_sha256: b8d82c9b4fecafd6704d14b0fbb2b521540f64148d5d117683004972ba7c6e5e
+    independent_rework: 'On $C([0,1])$ let $L(f)=f(1/2)$ and $I(f)=\int_0^1 f$. The
+      two sets are the kernels. Under the uniform norm, $|L(f)-L(g)|\le\|f-g\|_\infty$
+      and $|I(f)-I(g)|\le\|f-g\|_\infty$, so both kernels are closed as inverse images
+      of the closed singleton $\{0\}$.
+
+
+      Under the integral norm, $|I(f)-I(g)|\le\int_0^1|f-g|$ still proves closedness
+      for the integral kernel. For $n\ge2$ put $f_n(x)=\min(1,n|x-1/2|)$. Each is
+      continuous and zero at $1/2$, but $\|f_n-1\|_1$ is the area of a triangle with
+      height $1$ and base $2/n$, hence $1/n$. The constant-one limit is outside the
+      evaluation kernel. Therefore that kernel is not closed for the integral norm.
+
+      '
+  2026-27/q07:
+    source:
+      printed_locator: '7'
+      original: private/raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
+      original_sha256: 8c4641ef10b20957b76e24a666994b7aa4e9c68bd0961d0b1482eeaa3d16ae3e
+      physical_pages:
+      - 1
+      rasterizer: pdftoppm 26.05.0, 150 dpi RGB PNG, single full physical page
+      raster_sha256:
+        '1': 9da7a37f2d077f7184ef7c3b4a54350c363812a8fe268f6bfffeb4be6de7ff00
+      question_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+      comparison: Independent visual word-for-word comparison against the original
+        page raster
+      review: Compared all three sentences and their questions. The evaluation point
+        1/2, both kernel conditions, continuous-function space, infinity norm, integral
+        bounds and absolute value in the integral norm all agree.
+      figure_sha256: {}
+      discrepancies: []
+    text_sha256: 0b07178410d4a281b9850af48cfe60cf2620f38dcf6b787d80ea64003f37195c
+    independent_rework_sha256: b8d82c9b4fecafd6704d14b0fbb2b521540f64148d5d117683004972ba7c6e5e
+    independent_rework: 'On $C([0,1])$ let $L(f)=f(1/2)$ and $I(f)=\int_0^1 f$. The
+      two sets are the kernels. Under the uniform norm, $|L(f)-L(g)|\le\|f-g\|_\infty$
+      and $|I(f)-I(g)|\le\|f-g\|_\infty$, so both kernels are closed as inverse images
+      of the closed singleton $\{0\}$.
+
+
+      Under the integral norm, $|I(f)-I(g)|\le\int_0^1|f-g|$ still proves closedness
+      for the integral kernel. For $n\ge2$ put $f_n(x)=\min(1,n|x-1/2|)$. Each is
+      continuous and zero at $1/2$, but $\|f_n-1\|_1$ is the area of a triangle with
+      height $1$ and base $2/n$, hence $1/n$. The constant-one limit is outside the
+      evaluation kernel. Therefore that kernel is not closed for the integral norm.
+
+      '
+delivery:
+  analysis2s2-canonical-q03:
+    topic: analysis2s2
+    year: canonical
+    unit: q03
+    html: site/private/questions/IB/analysis-ii/sheet-2/q03/index.html
+    html_sha256: cc04080c99d3636eefa30ae5c9f117fcf599eb72c72d88ae82333a627c324768
+    pdf: build/IB-analysis-ii-sheet-2/main.pdf
+    pdf_sha256: 0708098e28c3c43d7cdfa9eed68c21cebd557c0b995ac2a30733211695f5c89a
+    pages:
+    - 4
+    rasters:
+      analysis2s2-canonical-q03-p4.png: f0e7ef8c2ccdc0750f1d609003ce1b0eb909ed20ffa91e29e45f350f7d95b6b6
+    browser:
+      total: 66
+      rendered: 66
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images: []
+    capture_sha256: 608450a2622782685abbc3e801f06e492237f4b66166dfe4faaa548235787d4f
+  analysis2s2-canonical-q04:
+    topic: analysis2s2
+    year: canonical
+    unit: q04
+    html: site/private/questions/IB/analysis-ii/sheet-2/q04/index.html
+    html_sha256: 2b526eca7e99af94d28fa0d1756d5b5bef90d01a4d8375903c889e99bc6101ab
+    pdf: build/IB-analysis-ii-sheet-2/main.pdf
+    pdf_sha256: 0708098e28c3c43d7cdfa9eed68c21cebd557c0b995ac2a30733211695f5c89a
+    pages:
+    - 5
+    rasters:
+      analysis2s2-canonical-q04-p5.png: b2c79eeeac7af63763ba0d0e502fa209c6782d7eb96786f69d8c5e331851450b
+    browser:
+      total: 51
+      rendered: 51
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images: []
+    capture_sha256: 4f44037f750ffeb9e03317747e43f1763efa5668c16e622a016b1a429969b73b
+  analysis2s2-canonical-q10:
+    topic: analysis2s2
+    year: canonical
+    unit: q10
+    html: site/private/questions/IB/analysis-ii/sheet-2/q10/index.html
+    html_sha256: 0c32dcfc6345844234423f2388e26ca8295fc90ae35f520bf5b696ea3804b063
+    pdf: build/IB-analysis-ii-sheet-2/main.pdf
+    pdf_sha256: 0708098e28c3c43d7cdfa9eed68c21cebd557c0b995ac2a30733211695f5c89a
+    pages:
+    - 11
+    rasters:
+      analysis2s2-canonical-q10-p11.png: acc2c19aa9fde35ac71e0a47f34840bce2b68cf81e04d689c5ac2b58600748b5
+    browser:
+      total: 35
+      rendered: 35
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images: []
+    capture_sha256: 3c925af180526bd7263977e235ac1ef10830f7676abeb6fe186d78a3de99c89e
+  analysis2s2-canonical-q07:
+    topic: analysis2s2
+    year: canonical
+    unit: q07
+    html: site/private/questions/IB/analysis-ii/sheet-2/q07/index.html
+    html_sha256: dd6b5e8b436679fed7f28aded4d5b164ef664c9bd54d7698be9bc0ae497ee78d
+    pdf: build/IB-analysis-ii-sheet-2/main.pdf
+    pdf_sha256: 0708098e28c3c43d7cdfa9eed68c21cebd557c0b995ac2a30733211695f5c89a
+    pages:
+    - 8
+    rasters:
+      analysis2s2-canonical-q07-p8.png: 0c3f988b7a99e07285228c0e8de25c54903e9cee661b8a837e9d0ec1a1a0ce76
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      images: []
+    capture_sha256: 3fcab7bc78ea911cc62393aaacc05b2504fd028a2153af7d07b5f31a557d8daf
+  analysis2s2-2025-26-q03:
+    topic: analysis2s2
+    year: 2025-26
+    unit: q03
+    html: site/private/collections/IB/analysis-ii/sheet-2/2025-26.html
+    html_sha256: db961ca2cbe5e16db01eeab2a5d9d7551dce49ef8ae31a7805f0704613d21bb7
+    pdf: build/IB-analysis-ii-sheet-2-2025-26/main.pdf
+    pdf_sha256: ce45f543ece3ca6d970dd471e1a71d1ad7f9932dfa78b2622e6c931d4eb7ac08
+    pages:
+    - 4
+    rasters:
+      analysis2s2-2025-26-q03-p4.png: 247c3aeadc4835e811b1148ff73f2dda1c4eba986cecb875153ab4fa1ed6dbe5
+    browser:
+      total: 66
+      rendered: 66
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 9df19a06cc6f2ac3a1c723109ff2dea32cae521b9d68c87696245bb1ea883eef
+  analysis2s2-2025-26-q04:
+    topic: analysis2s2
+    year: 2025-26
+    unit: q04
+    html: site/private/collections/IB/analysis-ii/sheet-2/2025-26.html
+    html_sha256: db961ca2cbe5e16db01eeab2a5d9d7551dce49ef8ae31a7805f0704613d21bb7
+    pdf: build/IB-analysis-ii-sheet-2-2025-26/main.pdf
+    pdf_sha256: ce45f543ece3ca6d970dd471e1a71d1ad7f9932dfa78b2622e6c931d4eb7ac08
+    pages:
+    - 5
+    rasters:
+      analysis2s2-2025-26-q04-p5.png: 6546b30b82c6940a2b3fb5b75f530c14dfe9863a133c224902dc0911b664b088
+    browser:
+      total: 51
+      rendered: 51
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: b9ecc801805cc21f25159602ac6a0afa5fe91a6b958ba1116841257dd4fe2a17
+  analysis2s2-2025-26-q10:
+    topic: analysis2s2
+    year: 2025-26
+    unit: q10
+    html: site/private/collections/IB/analysis-ii/sheet-2/2025-26.html
+    html_sha256: db961ca2cbe5e16db01eeab2a5d9d7551dce49ef8ae31a7805f0704613d21bb7
+    pdf: build/IB-analysis-ii-sheet-2-2025-26/main.pdf
+    pdf_sha256: ce45f543ece3ca6d970dd471e1a71d1ad7f9932dfa78b2622e6c931d4eb7ac08
+    pages:
+    - 11
+    rasters:
+      analysis2s2-2025-26-q10-p11.png: 58dfcbb3ef3b40d4b9e3c0f69b09cae5dcc5a56c30ccdfca2487cf3f9228af80
+    browser:
+      total: 35
+      rendered: 35
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 29882a132bf91804f3a4cc57d09c9ac1de4f276aeb108642ab43876630f271c4
+  analysis2s2-2025-26-q07:
+    topic: analysis2s2
+    year: 2025-26
+    unit: q07
+    html: site/private/collections/IB/analysis-ii/sheet-2/2025-26.html
+    html_sha256: db961ca2cbe5e16db01eeab2a5d9d7551dce49ef8ae31a7805f0704613d21bb7
+    pdf: build/IB-analysis-ii-sheet-2-2025-26/main.pdf
+    pdf_sha256: ce45f543ece3ca6d970dd471e1a71d1ad7f9932dfa78b2622e6c931d4eb7ac08
+    pages:
+    - 8
+    rasters:
+      analysis2s2-2025-26-q07-p8.png: 6abf17578dc4e639ff98b33239c40ffd4fb4d7d490f14bf0a9271cdbada0c95f
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: d7cef2e5dcad2d84165bb39fde6a57a8181bb0077cd2053861839f544babee26
+  analysis2s2-2026-27-q03:
+    topic: analysis2s2
+    year: 2026-27
+    unit: q03
+    html: site/private/collections/IB/analysis-ii/sheet-2/2026-27.html
+    html_sha256: ab7fe3f31c4547b88f43677b4122f210b6c9da819f0e49aaf06b681f72de789a
+    pdf: build/IB-analysis-ii-sheet-2-2026-27/main.pdf
+    pdf_sha256: 5c7875564ce7f309213d25610c6b926193a78bfeef39d34d0d9706d39f8297b3
+    pages:
+    - 3
+    rasters:
+      analysis2s2-2026-27-q03-p3.png: 5729495173bf1689799a944ade11c36d3bd08f1dd793803adedb47d860a428cd
+    browser:
+      total: 51
+      rendered: 51
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 898f702d1e29c206ab65e84364a9ca49bbb786c5ea7d5aed45e21fdaf688b61a
+  analysis2s2-2026-27-q04:
+    topic: analysis2s2
+    year: 2026-27
+    unit: q04
+    html: site/private/collections/IB/analysis-ii/sheet-2/2026-27.html
+    html_sha256: ab7fe3f31c4547b88f43677b4122f210b6c9da819f0e49aaf06b681f72de789a
+    pdf: build/IB-analysis-ii-sheet-2-2026-27/main.pdf
+    pdf_sha256: 5c7875564ce7f309213d25610c6b926193a78bfeef39d34d0d9706d39f8297b3
+    pages:
+    - 4
+    rasters:
+      analysis2s2-2026-27-q04-p4.png: 9285a276530c97f02afe9387e7134ed117a652799a7aad090f4d8e38d13c53f0
+    browser:
+      total: 51
+      rendered: 51
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 5f059d5140a2db3b5665ddf327f9a824f5933cd1629824fd526bec2b69509b74
+  analysis2s2-2026-27-q07:
+    topic: analysis2s2
+    year: 2026-27
+    unit: q07
+    html: site/private/collections/IB/analysis-ii/sheet-2/2026-27.html
+    html_sha256: ab7fe3f31c4547b88f43677b4122f210b6c9da819f0e49aaf06b681f72de789a
+    pdf: build/IB-analysis-ii-sheet-2-2026-27/main.pdf
+    pdf_sha256: 5c7875564ce7f309213d25610c6b926193a78bfeef39d34d0d9706d39f8297b3
+    pages:
+    - 7
+    rasters:
+      analysis2s2-2026-27-q07-p7.png: 6555c91bd1e9522a0e90264bbfdfdc1b19e86a2a07b59ba2d87fe63e7c046783
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      images: []
+    capture_sha256: 028a55a06f9b2b2cdddaff729483d6255b7299b76e61e15c1aa771561b264ab8
+observed:
+  mathematical_errors: 0
+  transcription_errors: 0
+  canonical_units_sampled: 4
+  canonical_population: 18
+  distinct_statements_sampled: 5
+  printed_occurrences_sampled: 7
+  executable_checks: 5
+  compiled_pages_inspected: 11
+  browser_views_inspected: 11
+  formula_instances_rendered: 451
