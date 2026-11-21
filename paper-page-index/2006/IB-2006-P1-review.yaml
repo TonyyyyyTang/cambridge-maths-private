@@ -1,0 +1,335 @@
+paper_id: IB/2006/P1
+id: IB/2006/P1
+main_count: 19
+unit_count: 19
+main_question_count: 19
+question_units: 19
+source_page_count: 7
+page_count: 7
+section_units:
+  I: 8
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2006-06-06'
+printed_date: Tuesday 6th June, 2006
+time: 9 to 12
+source: private/raw/tripos/IB/2006/P1.pdf
+archive: private/raw/tripos/IB/2006/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2006/PaperIB_1.pdf
+sha256: 9bfefa5a656d91418b5afb677341a027dd70d1991beb0866f706e5068e60172c
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2006/P1/q1H
+  original_question: 1H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 39b25a01d09474c3ff4c4c718d30d37d6f9589facaeaf0713677cc1738daf62d
+  checks: Checked real versus complex scalars, strict bound on n and the repeated polynomial factor.
+  source_page_render_sha256: d508f9c5b92dfc1ecd8c1199839bff6508851077f986e4ca6a6abb0e0de250bb
+- id: IB/2006/P1/q2H
+  original_question: 2H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 46736b902760babacca424a6b37e8988e239b8ca738b24b989a10c106318ab5a
+  checks: Checked all four boundaries of the upper-half-plane region and the two separate area requests.
+  source_page_render_sha256: d508f9c5b92dfc1ecd8c1199839bff6508851077f986e4ca6a6abb0e0de250bb
+- id: IB/2006/P1/q3D
+  original_question: 3D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 337f6bf2b0e1ca43028c94dea5c2f22f1fb2d37159c6d43cfba4dfab10644757
+  checks: Checked the two second partial derivatives, modulus squares and the factor four.
+  source_page_render_sha256: d508f9c5b92dfc1ecd8c1199839bff6508851077f986e4ca6a6abb0e0de250bb
+- id: IB/2006/P1/q4B
+  original_question: 4B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: bb149300dfecf5515aff8249015d92bbfbbd1bc295d710379281bb19d317c843
+  checks: Checked the laboratory frame, identical stationary ball and the two primed quantities.
+  source_page_render_sha256: d508f9c5b92dfc1ecd8c1199839bff6508851077f986e4ca6a6abb0e0de250bb
+- id: IB/2006/P1/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 9968619edfc3f4c9902b3ce1e346ba312bbb008415964413e24ff24171f4df1f
+  checks: Checked vector typography, material derivative and nonzero uniform initial vorticity.
+  printed_ambiguity: The printed vorticity equation assumes incompressible homogeneous flow and a conservative
+    body force (or equivalent vanishing source terms). Only inviscidity is explicit.
+  source_page_render_sha256: 2bf28c344a6e38a381fbd000f8d199dec242ebf65312ee476c7603b4d908a6f9
+- id: IB/2006/P1/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 6f7cea28e144aed79a489271d8af0c8ac3c124cfdf976e8d50c5eb079337638d
+  checks: Checked the nine matrix entries in row order and the printed column-pivoting convention in both subparts.
+  source_page_render_sha256: 2bf28c344a6e38a381fbd000f8d199dec242ebf65312ee476c7603b4d908a6f9
+- id: IB/2006/P1/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: ff3e233d50cca73fec4cde940d72a2252f86e7bee8956f5ea12082e42d91a757
+  checks: Checked the estimators' subscripts, unit sampling variance, prior precision and quadratic loss.
+  source_page_render_sha256: 2bf28c344a6e38a381fbd000f8d199dec242ebf65312ee476c7603b4d908a6f9
+- id: IB/2006/P1/q8C
+  original_question: 8C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 3987948c14181f3daf36050c035d6e05cee1c01312c03e1f549ab96db08798ed
+  checks: Checked the open interval for p and the absolute power inside the constrained sum.
+  source_page_render_sha256: 2bf28c344a6e38a381fbd000f8d199dec242ebf65312ee476c7603b4d908a6f9
+- id: IB/2006/P1/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 946612ccbc773012dc5627594e76b3c7e972cafa1df6448c0a6fcb82595b6c6d
+  checks: Checked the composition order, direction of both inequalities and simultaneous equality.
+  source_page_render_sha256: 6f7078c53bd38058a594fc6aeb864499c6810e7aa78099a1f5a2b0d6d8923257
+- id: IB/2006/P1/q10E
+  original_question: 10E
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 88028d5e84aaa43a05f18df5b010631931f8b928462260049ce3bc49ccff5799
+  checks: Checked the four indices and the permitted subgroup fact concerning A4.
+  source_page_render_sha256: 6f7078c53bd38058a594fc6aeb864499c6810e7aa78099a1f5a2b0d6d8923257
+- id: IB/2006/P1/q11F
+  original_question: 11F
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 1b050b5041b4168fa6f109cb4aea8d66f6ed17f028cd53eca90d0efd54a79c40
+  checks: Compared all four decay exponents, both lower summation bounds and both signs in the derivative.
+  source_page_render_sha256: 6f7078c53bd38058a594fc6aeb864499c6810e7aa78099a1f5a2b0d6d8923257
+- id: IB/2006/P1/q12F
+  original_question: 12F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: a6c3828bf2247a1c431c88004241636595dc5f9351aca17d218fc74ca6b4a989
+  checks: Checked both topology questions, the full angular range and the ambient plane.
+  source_page_render_sha256: e9940b2a9b95951b16e0fdca5d4aac057922fc53e656260986db4f2fbaaef3b4
+- id: IB/2006/P1/q13D
+  original_question: 13D
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 6715a077052e6012a30fdc3c5159125a2499572d034915e780002d6e1d5ee0ff
+  checks: Checked contour height, two real infinite limits and the strict parameter interval.
+  source_page_render_sha256: e9940b2a9b95951b16e0fdca5d4aac057922fc53e656260986db4f2fbaaef3b4
+- id: IB/2006/P1/q14A
+  original_question: 14A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Methods
+  course: IA/vector-calculus
+  also_courses:
+  - IB/methods
+  question_sha256: d54cd14bc52500d7f08fb881fd53e6f399db33101bc9d1373d0c40a69700f6f3
+  checks: Checked repeated tensor indices, the planar mass density, perpendicular eigenvalue and final disc.
+    The current IA Vector Calculus schedule names tensor contraction, principal axes and inertia on physical
+    page 13.
+  source_page_render_sha256: e9940b2a9b95951b16e0fdca5d4aac057922fc53e656260986db4f2fbaaef3b4
+- id: IB/2006/P1/q15B
+  original_question: 15B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 74b4f61ccdb6c26a5cc5c0bc35048a3a342d274ffe39646f9dd264bba8da0b6a
+  checks: Checked the ordering of both potentials, exterior support condition, incoming wave and reflection
+    comparison.
+  source_page_render_sha256: 8f96178ebccd66b3397ae4b64071a1cf112173c1ecc924c70dcb0cfdee42d1d1
+- id: IB/2006/P1/q16G
+  original_question: 16G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: afbf5d736cb3b8de86ae327f9ba31c31492dadb940bac0e3ef36876f7e507d2e
+  checks: Checked the ordering of shell radii, all three signed charges and electric-field energy.
+  source_page_render_sha256: 8f96178ebccd66b3397ae4b64071a1cf112173c1ecc924c70dcb0cfdee42d1d1
+- id: IB/2006/P1/q17A
+  original_question: 17A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: c7ed334bd34c2365c59e378fbacc13fdb4e13a392a7734fbb2204a78041ca507
+  checks: Checked the source and image positions and equal strengths, the pressure plane, and force direction
+    request.
+  printed_ambiguity: For the infinite plane, the finite hydrodynamic force is calculated using pressure relative
+    to its far-field value. The pressure reference is not specified.
+  source_page_render_sha256: 8f96178ebccd66b3397ae4b64071a1cf112173c1ecc924c70dcb0cfdee42d1d1
+- id: IB/2006/P1/q18C
+  original_question: 18C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: ede2381b18ebfacd468123543a4354dbe2a91feb0101bc5f54f7535637ea6449
+  checks: Checked both cases of the density, parameter constraints, estimator variance and the full exponential
+    hint.
+  source_page_render_sha256: 1a5c6d78fcd90c65f90533f9d4b8469eda795b8c170d8e6f78f86b161da633b4
+- id: IB/2006/P1/q19C
+  original_question: 19C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: bb1adfb503b528e1141a92e62c773179534dfd71da3a62657bbcad3fdaac59d1
+  checks: Checked the chain's time index, stopping-time property and infinite sum beginning at zero.
+  source_page_render_sha256: 1a5c6d78fcd90c65f90533f9d4b8469eda795b8c170d8e6f78f86b161da633b4
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: fb7422242af6e3317c763aaac39b537a97e55c4aca96e23e49eb0a5037802391
+separate_corrections: []
+correction_check: Manifest checked for 2006 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 175dd558eb6114e8897adf15a9d6d3991548fdabab4c5c6ae82b76f071ce72d4
+- page: 2
+  contents: questions
+  questions:
+  - 1H
+  - 2H
+  - 3D
+  - 4B
+  source_page_render_sha256: d508f9c5b92dfc1ecd8c1199839bff6508851077f986e4ca6a6abb0e0de250bb
+- page: 3
+  contents: questions
+  questions:
+  - 5A
+  - 6D
+  - 7C
+  - 8C
+  source_page_render_sha256: 2bf28c344a6e38a381fbd000f8d199dec242ebf65312ee476c7603b4d908a6f9
+- page: 4
+  contents: questions
+  questions:
+  - 9H
+  - 10E
+  - 11F
+  source_page_render_sha256: 6f7078c53bd38058a594fc6aeb864499c6810e7aa78099a1f5a2b0d6d8923257
+- page: 5
+  contents: questions
+  questions:
+  - 12F
+  - 13D
+  - 14A
+  source_page_render_sha256: e9940b2a9b95951b16e0fdca5d4aac057922fc53e656260986db4f2fbaaef3b4
+- page: 6
+  contents: questions
+  questions:
+  - 15B
+  - 16G
+  - 17A
+  source_page_render_sha256: 8f96178ebccd66b3397ae4b64071a1cf112173c1ecc924c70dcb0cfdee42d1d1
+- page: 7
+  contents: questions
+  questions:
+  - 18C
+  - 19C
+  source_page_render_sha256: 1a5c6d78fcd90c65f90533f9d4b8469eda795b8c170d8e6f78f86b161da633b4

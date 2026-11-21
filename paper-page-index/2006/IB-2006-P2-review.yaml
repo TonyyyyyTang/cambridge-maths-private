@@ -1,0 +1,362 @@
+paper_id: IB/2006/P2
+id: IB/2006/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2006-06-07'
+printed_date: Wednesday 7th June, 2006
+time: 1.30 to 4.30
+source: private/raw/tripos/IB/2006/P2.pdf
+archive: private/raw/tripos/IB/2006/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2006/PaperIB_2.pdf
+sha256: 6dae2490f2051ff1b0de3b887b0017915aed0cb3ebbabca7b1a12535a7752caa
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2006/P2/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: aa0e1bdb90ca5c2e4dd0d88dc906067d573e8e4617163235c2634fbf8a985da6
+  checks: Checked both summation limits, index placement, and square outside the first sum.
+  source_page_render_sha256: 09903721abf6b0e4efa23db3f3ea56bea1677b40b570ace90028ed855dddd588
+- id: IB/2006/P2/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 090eccbcf79886c405f3b091d7550f2963d612e288e12e75f31bfe5d8cd9609c
+  checks: Checked all three subparts, the ground ring, generator indices and both relations.
+  source_page_render_sha256: 09903721abf6b0e4efa23db3f3ea56bea1677b40b570ace90028ed855dddd588
+- id: IB/2006/P2/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 6f7a48b1e90a825a31eade53f993c8f097ab6661eac3495eadec5fc893a65778
+  checks: Checked the distinction between the closed and open intervals, denominator parentheses and the negative
+    exponent.
+  source_page_render_sha256: 09903721abf6b0e4efa23db3f3ea56bea1677b40b570ace90028ed855dddd588
+- id: IB/2006/P2/q4F
+  original_question: 4F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 16aa1f67fe9ec07423c0cff94f6df9757ef3dd190ebf58b56325523b2ae41431
+  checks: Checked the three ambient dimensions and each equation defining the subspaces.
+  source_page_render_sha256: 00b30458331bbbe5e8d85fd270fc3b35165ed46be7c4e0869af88e97b6437911
+- id: IB/2006/P2/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: 104903e66d7c72aa82847c9ca33aaf8c5ffcb7019e65f0cafc97c43c6734403c
+  checks: Checked that both ends of the circular cylinder are explicitly included; the current Variational
+    Principles schedule includes constrained extrema by Lagrange multipliers (physical page 20).
+  source_page_render_sha256: 00b30458331bbbe5e8d85fd270fc3b35165ed46be7c4e0869af88e97b6437911
+- id: IB/2006/P2/q6G
+  original_question: 6G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: a92d7f3fd6d22fc083fb216ab21687e2244d28bdf0ac4cb54b330efbbb888b5d
+  checks: Checked the negative conductivity term, initially uniform interior density and separate exterior-field
+    request.
+  printed_ambiguity: The electrostatic exterior field at later times uses the initial surface charge or initial
+    total charge per unit length. The statement specifies initial bulk charge density but does not explicitly
+    mention surface charge.
+  source_page_render_sha256: 00b30458331bbbe5e8d85fd270fc3b35165ed46be7c4e0869af88e97b6437911
+- id: IB/2006/P2/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: ad5327e99f878d82fb0121aa484988eb3e7cd124556504e4587ba28337630b5b
+  checks: Checked every observer, relative speed and the x-direction in all three comparisons.
+  source_page_render_sha256: 00b30458331bbbe5e8d85fd270fc3b35165ed46be7c4e0869af88e97b6437911
+- id: IB/2006/P2/q8A
+  original_question: 8A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 3a999da26fa9430d3b2fe939d0fb1188b349e2b79cebefad45d862c561171d3a
+  checks: Checked the material derivative, decay sign, open channel and the inlet temperature.
+  source_page_render_sha256: 6df1a86231d10086e8505bf8d105e8bf53e867499a455020f6a5a6bae754d4a9
+- id: IB/2006/P2/q9C
+  original_question: 9C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 2adc2f57aef98507df6c5ac1707523d60bd898d2a2dda54ba17cde41c91ff450
+  checks: Checked grid extent, indices in both absolute differences, adjacency criterion and endpoint order.
+  source_page_render_sha256: 6df1a86231d10086e8505bf8d105e8bf53e867499a455020f6a5a6bae754d4a9
+- id: IB/2006/P2/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1e114568e02086ffafebeaad704ec61e00d508f9eaed53a13113f43b4fec1000
+  checks: Checked the order of derivatives, evaluation at zero, dual basis and both matrix requests.
+  printed_ambiguity: The basis must contain the evaluation functional e_0. The statement writes k in N without
+    defining whether N includes zero.
+  source_page_render_sha256: ae44a8813db095eae61d1bf47a81111357a4c63c5c19de256f2d75b190b5a405
+- id: IB/2006/P2/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 6bfd3739914a4eb4adbc4081099f0efa2e69d6085f56e4096cf118fb569b2c4c
+  checks: Checked the p-coprime factor, the prime power subgroup order and distinctness of p and q.
+  source_page_render_sha256: ae44a8813db095eae61d1bf47a81111357a4c63c5c19de256f2d75b190b5a405
+- id: IB/2006/P2/q12H
+  original_question: 12H
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 369530572b7b57a9582820c9f49e19dcbc0894c3b2c27bf542325261950138c4
+  checks: Checked coefficients of the second fundamental form, both surface derivatives and all vector-valued
+    quantities.
+  source_page_render_sha256: ae44a8813db095eae61d1bf47a81111357a4c63c5c19de256f2d75b190b5a405
+- id: IB/2006/P2/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: fbdec347bc134e07441cda7cb0eb47dae1e98d6231939934e3c4929e379a552c
+  checks: Checked the factorization domain, nonzero partial derivative, ordered components, and both neighbourhoods.
+  source_page_render_sha256: 0df26a24af327f6c233c42cd5ade4e0ecffb613efcef6028d424f9518e1ba90d
+- id: IB/2006/P2/q14D
+  original_question: 14D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 017e8629bca5f5ba7ac5e7c16f844e0883662515664771796f94c19e9488d660
+  checks: Checked the two circle centres and radii, unit disc target and intermediate strip hint.
+  source_page_render_sha256: 0df26a24af327f6c233c42cd5ade4e0ecffb613efcef6028d424f9518e1ba90d
+- id: IB/2006/P2/q15G
+  original_question: 15G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 21290c13be807baf8817d1cef038b07ee9e2e91e200ec0527a97f1452b19047c
+  checks: Checked the leading coefficients, two boundary conditions, jump equation, positive xi and both branches
+    of G.
+  source_page_render_sha256: 0853ea528947f6a27d41ef27f7a13fb0c38785bb27f6666f85893b4aeb51e251
+- id: IB/2006/P2/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 696b96ca9bf19b9f00a4ebf8e251df50c8d385ac7f34480d632c6b71797f7a4f
+  checks: Checked the square root ending before the divisor h-bar, Coulomb coupling and complete energy denominator.
+  source_page_render_sha256: 1a73a3690b3d42137b34154aa59ff2204baa37b153e22543e0666a7b43079b8d
+- id: IB/2006/P2/q17G
+  original_question: 17G
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: de341256741311847e9926aa17bb9f26cbafcefcfb479eb5e2db8a3faab46068
+  checks: Checked cross-product order, primed source variables, cylindrical support and the supplied definite
+    integral.
+  source_page_render_sha256: 1a73a3690b3d42137b34154aa59ff2204baa37b153e22543e0666a7b43079b8d
+- id: IB/2006/P2/q18D
+  original_question: 18D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: a8712f90218df369720875042dcb40e2ac49071db2afca853f3fdcafffa4b219
+  checks: Checked the n-plus-one nodes, polynomial degree, both n superscripts and the uniform approximation
+    bound.
+  source_page_render_sha256: 22167829c63739a286f3f9cdf89fec910bb2315c66c0b667e8abbce1a21c4cf4
+- id: IB/2006/P2/q19C
+  original_question: 19C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 9c4760dda334c2facba353fe760352560e3849aa20a5db0e4313d19d23638f65
+  checks: Checked both hypotheses, the test size, sample size and the printed normal percentile.
+  source_page_render_sha256: 22167829c63739a286f3f9cdf89fec910bb2315c66c0b667e8abbce1a21c4cf4
+- id: IB/2006/P2/q20C
+  original_question: 20C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 00682fc87a2b672e892e2dc12640a665969bc928f32528d72e1dd0eeae650b5c
+  checks: Checked all six transition probabilities, their ranges and each of the three initial conditions.
+  source_page_render_sha256: 1242ede634487085b58f561d84d841409be97b9c061aec6bad9aae3e70f401e9
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 0c0002f0488c03c4bee9686cab24e369b46217d2f4d70ba5c32f9473269eea2d
+separate_corrections: []
+correction_check: Manifest checked for 2006 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: ff2042842f4a00a1b5eb175dc37bbed0ac03ca64a45590dfbfe9cafc5159f3c7
+- page: 2
+  contents: questions
+  questions:
+  - 1E
+  - 2E
+  - 3F
+  source_page_render_sha256: 09903721abf6b0e4efa23db3f3ea56bea1677b40b570ace90028ed855dddd588
+- page: 3
+  contents: questions
+  questions:
+  - 4F
+  - 5A
+  - 6G
+  - 7B
+  source_page_render_sha256: 00b30458331bbbe5e8d85fd270fc3b35165ed46be7c4e0869af88e97b6437911
+- page: 4
+  contents: questions
+  questions:
+  - 8A
+  - 9C
+  source_page_render_sha256: 6df1a86231d10086e8505bf8d105e8bf53e867499a455020f6a5a6bae754d4a9
+- page: 5
+  contents: questions
+  questions:
+  - 10E
+  - 11E
+  - 12H
+  source_page_render_sha256: ae44a8813db095eae61d1bf47a81111357a4c63c5c19de256f2d75b190b5a405
+- page: 6
+  contents: questions
+  questions:
+  - 13F
+  - 14D
+  source_page_render_sha256: 0df26a24af327f6c233c42cd5ade4e0ecffb613efcef6028d424f9518e1ba90d
+- page: 7
+  contents: questions
+  questions:
+  - 15G
+  source_page_render_sha256: 0853ea528947f6a27d41ef27f7a13fb0c38785bb27f6666f85893b4aeb51e251
+- page: 8
+  contents: questions
+  questions:
+  - 16B
+  - 17G
+  source_page_render_sha256: 1a73a3690b3d42137b34154aa59ff2204baa37b153e22543e0666a7b43079b8d
+- page: 9
+  contents: questions
+  questions:
+  - 18D
+  - 19C
+  source_page_render_sha256: 22167829c63739a286f3f9cdf89fec910bb2315c66c0b667e8abbce1a21c4cf4
+- page: 10
+  contents: questions
+  questions:
+  - 20C
+  source_page_render_sha256: 1242ede634487085b58f561d84d841409be97b9c061aec6bad9aae3e70f401e9

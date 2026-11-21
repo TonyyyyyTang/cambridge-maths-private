@@ -1,0 +1,375 @@
+paper_id: IB/2006/P4
+id: IB/2006/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2006-06-09'
+printed_date: Friday 9th June, 2006
+time: 1.30 to 4.30
+source: private/raw/tripos/IB/2006/P4.pdf
+archive: private/raw/tripos/IB/2006/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2006/PaperIB_4.pdf
+sha256: 09adc26a49e6b0fa1671b8a7637f9eb4e90cc33f60c95a8af5010c67585458e1
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2006/P4/q1H
+  original_question: 1H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 808c3ea4eac9324558113e248d2c48c01e76be1af548fb009844afbe8cd3645d
+  checks: Checked finite basis definition, both properties and the equality of cardinalities.
+  source_page_render_sha256: ae6b20e6662eda83a8a04d1c9f46f30a0cead1d7e94baa55cdecdf56fd4aba1e
+- id: IB/2006/P4/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 6f759d7c1e7652f5473c6e7f8c841ce8504311db984862fbd91546a86a81800c
+  checks: Checked both generators of the ideal, exponent and all three questions or instructions.
+  source_page_render_sha256: ae6b20e6662eda83a8a04d1c9f46f30a0cead1d7e94baa55cdecdf56fd4aba1e
+- id: IB/2006/P4/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 66026d85d2c3d2a91d75a99bc7752d6d2c093a0dd269b0b8e4e44f827f3cff11
+  checks: Checked convergence to zero, the maximum index set, and both displayed coordinate sequences.
+  source_page_render_sha256: ae6b20e6662eda83a8a04d1c9f46f30a0cead1d7e94baa55cdecdf56fd4aba1e
+- id: IB/2006/P4/q4H
+  original_question: 4H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 0812bdb1895adf5a2b02590c49dbbae30d63249e8147b034439df0a306152ca2
+  checks: Checked both conjugation bars in the conclusion, the punctured plane and exclusion of an essential
+    singularity.
+  source_page_render_sha256: ae6b20e6662eda83a8a04d1c9f46f30a0cead1d7e94baa55cdecdf56fd4aba1e
+- id: IB/2006/P4/q5G
+  original_question: 5G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 286deb48a2b9f044372a6f7708e7effa3e1657ed25e56089e88754a31f372b59
+  checks: Checked the two radial intervals, sin-squared derivative jump, and the supplied Legendre polynomial.
+  printed_ambiguity: The radial derivative is said to be discontinuous by a given increment. Its orientation
+    is not specified; state the choice of outer minus inner or its opposite.
+  source_page_render_sha256: 24d8013d2c884cc56538f1abcf135bd609155c2e91e71742adb68b3be2f02151
+- id: IB/2006/P4/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 44fd1a19fb5eacace9c9c21f93206cf25a7cf88b494d0d49299821f1758cc984
+  checks: Checked probability current and continuity equation, the real potential condition and both expectation-value
+    subscripts.
+  source_page_render_sha256: 24d8013d2c884cc56538f1abcf135bd609155c2e91e71742adb68b3be2f02151
+- id: IB/2006/P4/q7G
+  original_question: 7G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: df6e5bd9aecd83592f6c9749bcd9222c4329255b637a7e3d0c8b6d4598608922
+  checks: Checked the flux sign, closed-circuit integral, cross-product order and side-surface hint.
+  source_page_render_sha256: 24d8013d2c884cc56538f1abcf135bd609155c2e91e71742adb68b3be2f02151
+- id: IB/2006/P4/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 55092ed8d727cf5bd6d91f95bb151459f4e5b2995c37b5dc3c4467ac2a982d4d
+  checks: Checked both original table crops including row labels, ruling and punctuation. The upper abscissae
+    are -1,0,1,3 with values -7,-3,-3,9; the lower adds (2,-7).
+  figures:
+  - cubic-data
+  - quartic-data
+  source_page_render_sha256: 3f0c42debc0233c428692d3e20aac20f98edfb7c72df692bef477e2c0a07d66e
+  figure_png_sha256:
+    cubic-data: 646329b5eb1d26e81ba0927cb1bf9f7117caa08f9ab232929b7c1c22325b1b16
+    quartic-data: cdb8cc68f8b48ca65d360bf050f728bc0a3baa17d4da5f125fee0b57e7952bb3
+  plot_sha256: 21d78e558846880e95d7961eb858b56a647a76cce2a39c2f045f08188236dd77
+- id: IB/2006/P4/q9C
+  original_question: 9C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 57c5cdc7f465a046a6578f347088367cb55bb25ac5215c16a2b34d05b4ceb26a
+  checks: Checked all six scores, including the zero score, the initial value and the multiple-of-four condition.
+  source_page_render_sha256: 3f0c42debc0233c428692d3e20aac20f98edfb7c72df692bef477e2c0a07d66e
+- id: IB/2006/P4/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: a38c03290c7de1ff481b8fc82255a4775a3b08f16e034fcf6ecde0149e87098c
+  checks: Checked real inner-product space, mutual orthogonality, invariance and final dimension three.
+  source_page_render_sha256: 089946ecb6e4bf4c6262128079c074784b15ff2469418e9e428f0c718101713b
+- id: IB/2006/P4/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: a86e3fc27995ddfb0382c0b1cd45bd365147684a8d689b8904430a4e19d65468
+  checks: Checked the row-index convention, determinant, multiplication order in the hint and final characteristic
+    equation.
+  source_page_render_sha256: 089946ecb6e4bf4c6262128079c074784b15ff2469418e9e428f0c718101713b
+- id: IB/2006/P4/q12H
+  original_question: 12H
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 1d5ae3d04455ca29332448357b1cdd60ceb7185df6bd2b4a51535f0d5925b5c0
+  checks: Checked the foot of the perpendicular, both distance infima, radius inequalities and the supplied
+    lower bound.
+  source_page_render_sha256: 2c098b4127dc0a3140cd0780910f200ff234856c0083c5ee0daa201651da60b9
+- id: IB/2006/P4/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 87b5f7270cec801546085219de6151ee22c0ad754adc681b17886e9c410b8240
+  checks: Checked the positivity of the initial guess, the closed left endpoint and the one-additional-digit
+    request.
+  source_page_render_sha256: 2c098b4127dc0a3140cd0780910f200ff234856c0083c5ee0daa201651da60b9
+- id: IB/2006/P4/q14F
+  original_question: 14F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses:
+  - IB/analysis-ii
+  question_sha256: 90a4afb6adb8929f53ce0b97abe840fe45c2a1b81cdd0347103f9923202c54b7
+  checks: Checked the closed-set wording, domain of the infimum and both equal-distance conditions for the
+    midpoint.
+  printed_ambiguity: Part (b) requires the closed set F to be nonempty for the minimum to be attained. The
+    original says only that F is closed.
+  source_page_render_sha256: aebda6e755ab12475cbf8023afcc4222fc142b553b6ff19114355ff42644f4f7
+- id: IB/2006/P4/q15D
+  original_question: 15D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: be941166ba0ea346589fb8f38da8e471f1df4012146aac1f5edaba022ddc5a51
+  checks: Checked convolution order, the Fourier sign and absence of normalization factor, support of the box
+    function and fourth power.
+  source_page_render_sha256: aebda6e755ab12475cbf8023afcc4222fc142b553b6ff19114355ff42644f4f7
+- id: IB/2006/P4/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: 1abc7604641d508bc0bfb9c2a59c9376e0304bcf9c141902a480f625f807649b
+  checks: Checked the fixed and free endpoint conditions, the Beltrami constant, perturbation and bead endpoints.
+    Current Variational Principles covers these on physical page 20 of the schedules.
+  printed_ambiguity: The source calls F a functional; in the stated integral it is the integrand, a function
+    of y and y-prime.
+  source_page_render_sha256: 14780e5a05263007fa9a558faf7965aed71a36a9c4dfca9ca92d436bea58ae42
+- id: IB/2006/P4/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: 605c4c891f32de0ad0227769642cee40be4edac77ae8fe6b0b2e283ca4117ccf
+  checks: Checked both proper lengths, the fraction multiplying c and both spacetime events, frames and coordinate
+    pairs.
+  source_page_render_sha256: edec3bdbbd60b940b19fb6cb03641050c8e2c894bd8fd3f261033ead20bc7349
+- id: IB/2006/P4/q18A
+  original_question: 18A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: b388be1db61e875f0455eadace9d83787bbfb62e845ac8e9a6663a2c4b2eb05c
+  checks: Checked the square tank, equilibrium depth, irrotationality, free-surface pressure and positive temporal
+    phase.
+  source_page_render_sha256: edec3bdbbd60b940b19fb6cb03641050c8e2c894bd8fd3f261033ead20bc7349
+- id: IB/2006/P4/q19C
+  original_question: 19C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: af63b99f7e6a58731141e9e3a31e28be82ba65569347df6a5d4c1576fb6a081f
+  checks: Checked the group sample sizes, pooled variance assumption, null and one-sided alternative, and test
+    size.
+  source_page_render_sha256: bc081f44182d84c385c028c1a24dbae2c19747daab5e2934245a7f43a554eaf7
+- id: IB/2006/P4/q20C
+  original_question: 20C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: cf2c9c5ffb83b71a1280783ac020af84d8af2d63a0709fce42d4b2766b02ea54
+  checks: Checked all objective coefficients, three linear inequalities and non-negativity of all variables.
+  source_page_render_sha256: bc081f44182d84c385c028c1a24dbae2c19747daab5e2934245a7f43a554eaf7
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 9bc1565951110034def61fe65d1ef99f8388712b42efeade0a34f059e9ed9304
+separate_corrections: []
+correction_check: Manifest checked for 2006 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 60a003473ac6ad12a58d570cbdca8c3f7144250ebf86809240a4729490718053
+- page: 2
+  contents: questions
+  questions:
+  - 1H
+  - 2E
+  - 3F
+  - 4H
+  source_page_render_sha256: ae6b20e6662eda83a8a04d1c9f46f30a0cead1d7e94baa55cdecdf56fd4aba1e
+- page: 3
+  contents: questions
+  questions:
+  - 5G
+  - 6B
+  - 7G
+  source_page_render_sha256: 24d8013d2c884cc56538f1abcf135bd609155c2e91e71742adb68b3be2f02151
+- page: 4
+  contents: questions
+  questions:
+  - 8D
+  - 9C
+  source_page_render_sha256: 3f0c42debc0233c428692d3e20aac20f98edfb7c72df692bef477e2c0a07d66e
+- page: 5
+  contents: questions
+  questions:
+  - 10E
+  - 11E
+  source_page_render_sha256: 089946ecb6e4bf4c6262128079c074784b15ff2469418e9e428f0c718101713b
+- page: 6
+  contents: questions
+  questions:
+  - 12H
+  - 13F
+  source_page_render_sha256: 2c098b4127dc0a3140cd0780910f200ff234856c0083c5ee0daa201651da60b9
+- page: 7
+  contents: questions
+  questions:
+  - 14F
+  - 15D
+  source_page_render_sha256: aebda6e755ab12475cbf8023afcc4222fc142b553b6ff19114355ff42644f4f7
+- page: 8
+  contents: questions
+  questions:
+  - 16B
+  source_page_render_sha256: 14780e5a05263007fa9a558faf7965aed71a36a9c4dfca9ca92d436bea58ae42
+- page: 9
+  contents: questions
+  questions:
+  - 17B
+  - 18A
+  source_page_render_sha256: edec3bdbbd60b940b19fb6cb03641050c8e2c894bd8fd3f261033ead20bc7349
+- page: 10
+  contents: questions
+  questions:
+  - 19C
+  - 20C
+  source_page_render_sha256: bc081f44182d84c385c028c1a24dbae2c19747daab5e2934245a7f43a554eaf7
