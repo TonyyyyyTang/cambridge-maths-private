@@ -1,0 +1,3137 @@
+scope: Methods sheet 4 across all located dated originals; whole-course audit pending.
+sample:
+  method: random.Random(seed).sample(sorted(canonical_families_by_id), ceil(0.2*population))
+  seed: 20261223
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  - q13
+  - qx01
+  - qx02
+  - qx03
+  - qx04
+  - qx05
+  - qx06
+  - qx07
+  - qx08
+  - qx09
+  - qx10
+  - qx11
+  - qx12
+  - qx13
+  - qx14
+  - qx15
+  - qx16
+  - qx17
+  - qx18
+  - qx19
+  - qx20
+  - qx21
+  - qx22
+  - qx23
+  - qx24
+  - qx25
+  - qx26
+  - qx27
+  - qx28
+  - qx29
+  - qx30
+  - qx31
+  - qx32
+  - qx33
+  selected:
+  - qx30
+  - qx23
+  - qx20
+  - qx33
+  - q05
+  - qx32
+  - q07
+  - qx27
+  - q08
+  - q11
+fresh_input: Exact question fragments, supplied referenced questions, and original
+  file, question and page locators only.
+frozen_independent_manifest_sha256: 336689bdcf4668de5d58e032b2b02f2c75d2796b52ba4eacbb9ef6f35a6821a7
+source_review:
+- statement: qx30-c90df73d4578
+  archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  pages:
+  - 8
+  question: '9'
+  archive_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  page_image_sha256:
+    '8': bbf7e278abb712a07b266aca8b0260716b5a48653eaa7a1d4bd44a0f40d19ad9
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The boundary-source heading, half-line domains, minus sign in θₜ−Dθₓₓ,
+    h and Θ data, V=θ−h(t), and images instruction agree.
+  mismatch: null
+- statement: qx30-c90df73d4578
+  archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+  page_image_sha256:
+    '1': 0fc9de01ab93eeab6f582ae83957658d7795547d768e65e7aa5a8cdb49cb42aa
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The boundary-source heading, half-line domains, minus sign in θₜ−Dθₓₓ,
+    h and Θ data, V=θ−h(t), and images instruction agree.
+  mismatch: null
+- statement: qx30-c90df73d4578
+  archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+  page_image_sha256:
+    '1': 26160c0cacae300319b11b792ad3d11dcebef7972eed7fac047af95a2d9ea6dd
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The boundary-source heading, half-line domains, minus sign in θₜ−Dθₓₓ,
+    h and Θ data, V=θ−h(t), and images instruction agree.
+  mismatch: null
+- statement: qx30-c90df73d4578
+  archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+  page_image_sha256:
+    '1': 18544690d934f91a4dda4b38d76aebdd28447f75db84e3fa42766ad02df891a2
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The boundary-source heading, half-line domains, minus sign in θₜ−Dθₓₓ,
+    h and Θ data, V=θ−h(t), and images instruction agree.
+  mismatch: null
+- statement: qx30-c90df73d4578
+  archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+  page_image_sha256:
+    '1': 3b8c88d95ec1cb8c67392016a64e56992a1b55f42782723111a27bf0f37b1855
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The boundary-source heading, half-line domains, minus sign in θₜ−Dθₓₓ,
+    h and Θ data, V=θ−h(t), and images instruction agree.
+  mismatch: null
+- statement: qx30-eb49d9241261
+  archive: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+  pages:
+  - 2
+  question: '8'
+  archive_sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+  page_image_sha256:
+    '2': 9655c760e601913f57fd1822546acf5fa88dd7526d024c3ebe62adaeb00e6b92
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The opening set ℝ² with ≥ subscript and accompanying non-negative explanation,
+    ∂ₜθ−D∂ₓ²θ, both data, lift and images instruction agree.
+  mismatch: null
+- statement: qx23-758ffe0ce916
+  archive: raw/sheets/IB/methods/2006-07/sheet-4.pdf
+  pages:
+  - 2
+  question: '9'
+  archive_sha256: ee7c4b19a4b461e6016ed1d1405982eb4bd575f59ee671b54bd66f89f2914d10
+  page_image_sha256:
+    '2': fa632c8e79492c6666cedfc2e3f0c81b08e39e380b0b6e552fe166aabc3f5bd5
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The two energy integrals include ε/2, the vector E and ∇ψ norms and dV.
+    The closing sentence really prints “J is takes an extremal value”, as transcribed.
+  mismatch: null
+- statement: qx23-758ffe0ce916
+  archive: raw/sheets/IB/methods/2007-08/sheet-4.pdf
+  pages:
+  - 2
+  question: '9'
+  archive_sha256: 5b4f3e774722843ee3b01223d4ad5e8042d4c8c484d2d4d51923189956bc314b
+  page_image_sha256:
+    '2': 3eddcbd7e133728c673111c29c27f97f5f662327c19f433dc7f1504b6e09d827
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The two energy integrals include ε/2, the vector E and ∇ψ norms and dV.
+    The closing sentence really prints “J is takes an extremal value”, as transcribed.
+  mismatch: null
+- statement: qx20-290f2578d21d
+  archive: raw/sheets/IB/methods/2006-07/sheet-4.pdf
+  pages:
+  - 1
+  question: '6'
+  archive_sha256: ee7c4b19a4b461e6016ed1d1405982eb4bd575f59ee671b54bd66f89f2914d10
+  page_image_sha256:
+    '1': 4a63f4b38a459d8608b0400e9cf05ab1ff0d3358f1e9fd66a5611b41e7206e8f
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The ray speed denominator has exponent 1/2, the strip and k inequalities
+    are strict, the entry and exit use opposite x₀ signs, and the turning-height equation
+    and final y₀<h qualification agree.
+  mismatch: null
+- statement: qx20-290f2578d21d
+  archive: raw/sheets/IB/methods/2007-08/sheet-4.pdf
+  pages:
+  - 1
+  question: '6'
+  archive_sha256: 5b4f3e774722843ee3b01223d4ad5e8042d4c8c484d2d4d51923189956bc314b
+  page_image_sha256:
+    '1': 52ed50f84421cfca538b713ba3edd46bad7efd1e67f90573174f00ad3b69f59a
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The ray speed denominator has exponent 1/2, the strip and k inequalities
+    are strict, the entry and exit use opposite x₀ signs, and the turning-height equation
+    and final y₀<h qualification agree.
+  mismatch: null
+- statement: qx33-b13a97b93020
+  archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+  pages:
+  - 2
+  question: '12'
+  archive_sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+  page_image_sha256:
+    '2': 167d11ee57340366938e5c2551190438e90f2d80a5ee80e205f4892817917b41
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The cylindrical Laplacian includes the angular term; the first integral
+    is described as “also a solution”. The equality-on-axis argument, f(λ)=1, transform
+    and bold “Laplace transform” agree.
+  mismatch: null
+- statement: qx33-e017ef961454
+  archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+  pages:
+  - 2
+  question: '12'
+  archive_sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+  page_image_sha256:
+    '2': a49c2a90dfd590ab2c8782a59042e6c0593bc3068848b51475fc6490ec3541f0
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The explicit harmonicity qualifier z>0 and z<0, the assumption ∫J₀(z)
+    dz=1 with limits 0 and ∞, the plane value 1/R, the plausibility-only instruction,
+    and final transform agree.
+  mismatch: null
+- statement: qx33-e017ef961454
+  archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+  pages:
+  - 2
+  question: '12'
+  archive_sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+  page_image_sha256:
+    '2': 33ed969d721e3dfaa1234a066d425cfc7e9edef387b2b8efd0e1d620a624e712
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The explicit harmonicity qualifier z>0 and z<0, the assumption ∫J₀(z)
+    dz=1 with limits 0 and ∞, the plane value 1/R, the plausibility-only instruction,
+    and final transform agree.
+  mismatch: null
+- statement: qx33-e017ef961454
+  archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+  pages:
+  - 2
+  question: '12'
+  archive_sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+  page_image_sha256:
+    '2': cc53664fa6a4a3fb31da86dc3267c546066cb4510f206e0be78907c2046d8ba6
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The explicit harmonicity qualifier z>0 and z<0, the assumption ∫J₀(z)
+    dz=1 with limits 0 and ∞, the plane value 1/R, the plausibility-only instruction,
+    and final transform agree.
+  mismatch: null
+- statement: q05-02464f808e97
+  archive: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+  page_image_sha256:
+    '1': 5d85b328eaf2d09bfa8cb06f85768b8a39047c32e195a3cd1b166b9149229969
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Both rows of (†), the common forcing, the difference of solutions, the
+    squared integral norm, C>0 and the final well-posedness request agree.
+  mismatch: null
+- statement: q05-02464f808e97
+  archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+  page_image_sha256:
+    '1': 3e87c4bbbf9f195ae7368552c523bd7b20038d06bbb3d9de2558290e88ce9ac1
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Both rows of (†), the common forcing, the difference of solutions, the
+    squared integral norm, C>0 and the final well-posedness request agree.
+  mismatch: null
+- statement: q05-02464f808e97
+  archive: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+  pages:
+  - 1
+  question: '5'
+  archive_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+  page_image_sha256:
+    '1': 2b4f585aee12526f9427b1e451e4ae41a80eb602c23baa22728e5d9e6d7e394f
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Both rows of (†), the common forcing, the difference of solutions, the
+    squared integral norm, C>0 and the final well-posedness request agree.
+  mismatch: null
+- statement: qx32-be45c255879e
+  archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+  pages:
+  - 2
+  question: '10'
+  archive_sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+  page_image_sha256:
+    '2': 167d11ee57340366938e5c2551190438e90f2d80a5ee80e205f4892817917b41
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The printed equation puts “h(x,y) bounded and continuous,” in the display.
+    The z₀/(2π) double integral and closing “[Changing variables to … may be helpful.]”
+    agree.
+  mismatch: null
+- statement: qx32-3de47efcdc98
+  archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+  pages:
+  - 2
+  question: '10'
+  archive_sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+  page_image_sha256:
+    '2': a49c2a90dfd590ab2c8782a59042e6c0593bc3068848b51475fc6490ec3541f0
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The displayed lateral limit is x²+y²→∞; boundedness and continuity of
+    h appear in the following sentence. The factor z₀/(2π), both integrals, exponent
+    −3/2 and the “Hint: It may be helpful…” sentence agree.'
+  mismatch: null
+- statement: qx32-3de47efcdc98
+  archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+  pages:
+  - 2
+  question: '10'
+  archive_sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+  page_image_sha256:
+    '2': 33ed969d721e3dfaa1234a066d425cfc7e9edef387b2b8efd0e1d620a624e712
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The displayed lateral limit is x²+y²→∞; boundedness and continuity of
+    h appear in the following sentence. The factor z₀/(2π), both integrals, exponent
+    −3/2 and the “Hint: It may be helpful…” sentence agree.'
+  mismatch: null
+- statement: qx32-3de47efcdc98
+  archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+  pages:
+  - 2
+  question: '10'
+  archive_sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+  page_image_sha256:
+    '2': cc53664fa6a4a3fb31da86dc3267c546066cb4510f206e0be78907c2046d8ba6
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The displayed lateral limit is x²+y²→∞; boundedness and continuity of
+    h appear in the following sentence. The factor z₀/(2π), both integrals, exponent
+    −3/2 and the “Hint: It may be helpful…” sentence agree.'
+  mismatch: null
+- statement: q07-d254c1c51b61
+  archive: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+  pages:
+  - 1
+  question: '7'
+  archive_sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+  page_image_sha256:
+    '1': 5d85b328eaf2d09bfa8cb06f85768b8a39047c32e195a3cd1b166b9149229969
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The sign ΔG=+δ, source and boundary variable x, pole y, zero Dirichlet
+    condition, positive normal-derivative integral and its (‡) marker agree.
+  mismatch: null
+- statement: q07-d254c1c51b61
+  archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+  pages:
+  - 1
+  question: '7'
+  archive_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+  page_image_sha256:
+    '1': 3e87c4bbbf9f195ae7368552c523bd7b20038d06bbb3d9de2558290e88ce9ac1
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The sign ΔG=+δ, source and boundary variable x, pole y, zero Dirichlet
+    condition, positive normal-derivative integral and its (‡) marker agree.
+  mismatch: null
+- statement: q07-d254c1c51b61
+  archive: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+  pages:
+  - 1
+  question: '7'
+  archive_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+  page_image_sha256:
+    '1': 2b4f585aee12526f9427b1e451e4ae41a80eb602c23baa22728e5d9e6d7e394f
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The sign ΔG=+δ, source and boundary variable x, pole y, zero Dirichlet
+    condition, positive normal-derivative integral and its (‡) marker agree.
+  mismatch: null
+- statement: qx27-7b3c27b658c5
+  archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  pages:
+  - 7
+  question: '2'
+  archive_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  page_image_sha256:
+    '7': 79638516dfd4a5339be611ff19b97f3b3c540f1c32f7b6da0cd5940bf22a665a
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The “Well-posedness.” title, bold “backward”, derivative order uₓₓ+uₜ,
+    interval, data and complete bracketed scaling hint agree.
+  mismatch: null
+- statement: qx27-2ea7fe5c02da
+  archive: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+  pages:
+  - 1
+  question: '2'
+  archive_sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+  page_image_sha256:
+    '1': 1d6830dae968893c3314a06f0f7e0fb10180a52ffe8981205448497fe77ff095
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The italic adjective “backward”, derivative order ∂ₜu+∂ₓ²u, endpoint conditions,
+    initial function and bracketed eigenfunction-scaling hint agree.
+  mismatch: null
+- statement: qx27-f83ebd33560b
+  archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+  pages:
+  - 1
+  question: '2'
+  archive_sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+  page_image_sha256:
+    '1': 0fc9de01ab93eeab6f582ae83957658d7795547d768e65e7aa5a8cdb49cb42aa
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The title, bold adjective, three data conditions, sine series n=1 to infinity
+    with positive exponential, coefficient integral and instability request agree.
+  mismatch: null
+- statement: qx27-f83ebd33560b
+  archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+  pages:
+  - 1
+  question: '2'
+  archive_sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+  page_image_sha256:
+    '1': 26160c0cacae300319b11b792ad3d11dcebef7972eed7fac047af95a2d9ea6dd
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The title, bold adjective, three data conditions, sine series n=1 to infinity
+    with positive exponential, coefficient integral and instability request agree.
+  mismatch: null
+- statement: qx27-f83ebd33560b
+  archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+  pages:
+  - 1
+  question: '2'
+  archive_sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+  page_image_sha256:
+    '1': 18544690d934f91a4dda4b38d76aebdd28447f75db84e3fa42766ad02df891a2
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The title, bold adjective, three data conditions, sine series n=1 to infinity
+    with positive exponential, coefficient integral and instability request agree.
+  mismatch: null
+- statement: qx27-f83ebd33560b
+  archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+  pages:
+  - 1
+  question: '2'
+  archive_sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+  page_image_sha256:
+    '1': 3b8c88d95ec1cb8c67392016a64e56992a1b55f42782723111a27bf0f37b1855
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The title, bold adjective, three data conditions, sine series n=1 to infinity
+    with positive exponential, coefficient integral and instability request agree.
+  mismatch: null
+- statement: q08-907c0326cf9a
+  archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  pages:
+  - 7
+  - 8
+  question: '6'
+  archive_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  page_image_sha256:
+    '7': 79638516dfd4a5339be611ff19b97f3b3c540f1c32f7b6da0cd5940bf22a665a
+    '8': bbf7e278abb712a07b266aca8b0260716b5a48653eaa7a1d4bd44a0f40d19ad9
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Original physical page 7 contains the heading, data and i)–ii) with the
+    Poisson integral. Page 8 begins iii)–iv), including the two edge traces. The packet
+    joins these with their original words and notation.
+  mismatch: null
+- statement: q08-b3c38502e854
+  archive: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+  pages:
+  - 2
+  question: '6'
+  archive_sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+  page_image_sha256:
+    '2': 9655c760e601913f57fd1822546acf5fa88dd7526d024c3ebe62adaeb00e6b92
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The domain uses y≥0, the opening field is φ, the integral uses ψ, and
+    the step uses ψ₀. The (a)–(d) labels, closed form and two edge traces agree.
+  mismatch: null
+- statement: q08-3ff72931b3b7
+  archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+  pages:
+  - 1
+  question: '4'
+  archive_sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+  page_image_sha256:
+    '1': 0fc9de01ab93eeab6f582ae83957658d7795547d768e65e7aa5a8cdb49cb42aa
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The italic heading, “(another!)”, y≥0, ψ notation, i) through v), the
+    edge sketches and the final constant-data request agree.
+  mismatch: null
+- statement: q08-4c961b79e82f
+  archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+  pages:
+  - 1
+  question: '4'
+  archive_sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+  page_image_sha256:
+    '1': 26160c0cacae300319b11b792ad3d11dcebef7972eed7fac047af95a2d9ea6dd
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The four parenthesized roman labels, “(another!)”, all integration limits,
+    and the (a)/(b) sketch requests within (iv) agree. There is no part (v).
+  mismatch: null
+- statement: q08-4c961b79e82f
+  archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+  pages:
+  - 1
+  question: '4'
+  archive_sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+  page_image_sha256:
+    '1': 18544690d934f91a4dda4b38d76aebdd28447f75db84e3fa42766ad02df891a2
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The four parenthesized roman labels, “(another!)”, all integration limits,
+    and the (a)/(b) sketch requests within (iv) agree. There is no part (v).
+  mismatch: null
+- statement: q08-4c961b79e82f
+  archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+  pages:
+  - 1
+  question: '4'
+  archive_sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+  page_image_sha256:
+    '1': 3b8c88d95ec1cb8c67392016a64e56992a1b55f42782723111a27bf0f37b1855
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The four parenthesized roman labels, “(another!)”, all integration limits,
+    and the (a)/(b) sketch requests within (iv) agree. There is no part (v).
+  mismatch: null
+- statement: q08-e0e73c30adf2
+  archive: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+  pages:
+  - 1
+  question: '8'
+  archive_sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+  page_image_sha256:
+    '1': 5d85b328eaf2d09bfa8cb06f85768b8a39047c32e195a3cd1b166b9149229969
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Open half-plane y>0, the three-row data including “rapidly as |x|+|y|→∞”,
+    (a) with (‡) and an integral without explicit limits, and the transform in (b)
+    agree. The supplied (‡) reference matches the preceding Q7.
+  mismatch: null
+- statement: q08-e0e73c30adf2
+  archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+  pages:
+  - 1
+  question: '8'
+  archive_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+  page_image_sha256:
+    '1': 3e87c4bbbf9f195ae7368552c523bd7b20038d06bbb3d9de2558290e88ce9ac1
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Open half-plane y>0, the three-row data including “rapidly as |x|+|y|→∞”,
+    (a) with (‡) and an integral without explicit limits, and the transform in (b)
+    agree. The supplied (‡) reference matches the preceding Q7.
+  mismatch: null
+- statement: q08-e0e73c30adf2
+  archive: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+  pages:
+  - 1
+  question: '8'
+  archive_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+  page_image_sha256:
+    '1': 2b4f585aee12526f9427b1e451e4ae41a80eb602c23baa22728e5d9e6d7e394f
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: Open half-plane y>0, the three-row data including “rapidly as |x|+|y|→∞”,
+    (a) with (‡) and an integral without explicit limits, and the transform in (b)
+    agree. The supplied (‡) reference matches the preceding Q7.
+  mismatch: null
+- statement: q11-3f5f1fcd4d51
+  archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  pages:
+  - 8
+  question: '8'
+  archive_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  page_image_sha256:
+    '8': bbf7e278abb712a07b266aca8b0260716b5a48653eaa7a1d4bd44a0f40d19ad9
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The heading begins “Wave equation: Method of images.” The fixed endpoint,
+    temporal inequalities, impulse and previous-question comparison agree. The supplied
+    reference matches the preceding Q7 on this page.'
+  mismatch: null
+- statement: q11-ce862acc8aa3
+  archive: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+  pages:
+  - 2
+  question: '7'
+  archive_sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+  page_image_sha256:
+    '2': 9655c760e601913f57fd1822546acf5fa88dd7526d024c3ebe62adaeb00e6b92
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The initial rest-for-all-t<0 and tension, V δ(x−x₀), x₀>0, (a) “free to
+    osillate” including the printed spelling, (b) pinning at x=0 and final comparison
+    all agree.
+  mismatch: null
+- statement: q11-d54a7a50f09d
+  archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+  pages:
+  - 2
+  question: '7'
+  archive_sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+  page_image_sha256:
+    '2': 167d11ee57340366938e5c2551190438e90f2d80a5ee80e205f4892817917b41
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The title includes “Forced wave equation: Method of images.” The fixed
+    endpoint, zero prior motion, impulse with V a constant, and previous-question
+    comparison agree. The supplied reference matches the preceding Q6.'
+  mismatch: null
+- statement: q11-d54a7a50f09d
+  archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+  pages:
+  - 2
+  question: '7'
+  archive_sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+  page_image_sha256:
+    '2': a49c2a90dfd590ab2c8782a59042e6c0593bc3068848b51475fc6490ec3541f0
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The title includes “Forced wave equation: Method of images.” The fixed
+    endpoint, zero prior motion, impulse with V a constant, and previous-question
+    comparison agree. The supplied reference matches the preceding Q6.'
+  mismatch: null
+- statement: q11-d54a7a50f09d
+  archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+  pages:
+  - 2
+  question: '7'
+  archive_sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+  page_image_sha256:
+    '2': 33ed969d721e3dfaa1234a066d425cfc7e9edef387b2b8efd0e1d620a624e712
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The title includes “Forced wave equation: Method of images.” The fixed
+    endpoint, zero prior motion, impulse with V a constant, and previous-question
+    comparison agree. The supplied reference matches the preceding Q6.'
+  mismatch: null
+- statement: q11-d54a7a50f09d
+  archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+  pages:
+  - 2
+  question: '7'
+  archive_sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+  page_image_sha256:
+    '2': cc53664fa6a4a3fb31da86dc3267c546066cb4510f206e0be78907c2046d8ba6
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: 'The title includes “Forced wave equation: Method of images.” The fixed
+    endpoint, zero prior motion, impulse with V a constant, and previous-question
+    comparison agree. The supplied reference matches the preceding Q6.'
+  mismatch: null
+- statement: q11-7bf880d87b8a
+  archive: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+  pages:
+  - 2
+  question: '11'
+  archive_sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+  page_image_sha256:
+    '2': 46bf389380cd9ba031b692c7428bb93263f8fa6b5ce7f627fdce32453e413087
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The statement has no title, explicitly gives x₀>0, uses “an initial velocity
+    of” and “V is constant”, and refers back to Q10. The supplied Q10 wording agrees
+    with the preceding question.
+  mismatch: null
+- statement: q11-7bf880d87b8a
+  archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+  pages:
+  - 2
+  question: '11'
+  archive_sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+  page_image_sha256:
+    '2': f23e2b4c720c4c81c5e6c78551c7a6fd57d168e1baac92109c261074cf1d68dd
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The statement has no title, explicitly gives x₀>0, uses “an initial velocity
+    of” and “V is constant”, and refers back to Q10. The supplied Q10 wording agrees
+    with the preceding question.
+  mismatch: null
+- statement: q11-7bf880d87b8a
+  archive: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+  pages:
+  - 2
+  question: '11'
+  archive_sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+  page_image_sha256:
+    '2': 9210800ecc2a508d40e1bdcd096a851b18559b0102e3b899df091e6c5177d8c8
+  render: pdftoppm -png -r 138, original PDF physical pages (one-based)
+  comparison: Manually read question on the rendered page(s) side by side with the
+    supplied statement, including symbols, punctuation, hypotheses, individual labels
+    and any cross-page continuation. No question-specific marks are printed.
+  evidence: The statement has no title, explicitly gives x₀>0, uses “an initial velocity
+    of” and “V is constant”, and refers back to Q10. The supplied Q10 wording agrees
+    with the preceding question.
+  mismatch: null
+comparison:
+  qx30-c90df73d4578:
+    comparison: The reflected half-line heat kernel and the boundary forcing convolution
+      agree, with matching initial corner values for classical continuity. The signs
+      and diffusion constant in the boundary kernel agree.
+    fresh_derivation: '# Independent derivation
+
+
+      Assume $D>0$ and use the standard bounded or suitably growth-controlled solution
+      class on the half-line. For smooth data with $h(0)=\Theta(0)$, the lift $V=\theta-h(t)$
+      satisfies $V(0,t)=0$, $V(x,0)=\Theta(x)-h(0)$, and $V_t-DV_{xx}=f(x,t)-h''(t)$.
+      Odd reflection of its initial data and its forcing across $x=0$ preserves the
+      homogeneous boundary. Splitting the resulting whole-line heat integrals at zero
+      gives the Dirichlet kernel
+
+      \[
+
+      K(x,\xi,s)=g_s(x-\xi)-g_s(x+\xi),\qquad
+
+      g_s(r)=(4\pi Ds)^{-1/2}e^{-r^2/(4Ds)},\quad s>0.
+
+      \]
+
+      Propagation of the initial datum and Duhamel''s principle therefore give
+
+      \[
+
+      \theta(x,t)=h(t)+\int_0^\infty K(x,\xi,t)[\Theta(\xi)-h(0)]\,d\xi
+
+      +\int_0^t\!\int_0^\infty K(x,\xi,t-s)[f(\xi,s)-h''(s)]\,d\xi\,ds.
+
+      \]
+
+
+      An equivalent formula removes $h''$. The $\xi$-integral of $K$ equals $A(x,t)=\operatorname{erf}(x/(2\sqrt{Dt}))$.
+      At $x>0$ it has $A(x,0+)=1$ and
+
+      \[
+
+      -\partial_t A(x,t)=B(x,t)=\frac{x}{2\sqrt{\pi D}\,t^{3/2}}e^{-x^2/(4Dt)} .
+
+      \]
+
+      Integrate the $h''$ term by parts. After cancellation the solution is
+
+      \[
+
+      \int_0^\infty K(x,\xi,t)\Theta(\xi)\,d\xi+
+
+      \int_0^t\!\int_0^\infty K(x,\xi,t-s)f(\xi,s)\,d\xi\,ds+
+
+      \int_0^t B(x,t-s)h(s)\,ds .
+
+      \]
+
+      The first formula has trace $h(t)$ since $K(0,\xi,t)=0$; it has initial trace
+      $\Theta$ by the Gaussian approximate identity. In the second formula the boundary
+      term must be evaluated by $x\downarrow0$, not by pointwise substitution into
+      $B$: its mass on $(0,t)$ is $\operatorname{erfc}(x/(2\sqrt{Dt}))\to1$ and its
+      mass away from zero tends to zero. For continuous $h$ this gives $h(t)$. Odd
+      heat evolution and Duhamel verify the interior PDE, and standard uniqueness
+      in the chosen growth class yields the general solution there. If the data disagree
+      at the corner, these separate open-edge traces still make sense, but continuity
+      at the corner cannot hold.
+
+      '
+    fresh_sha256: b565a6a2d6c2356e559d6b96d4e53a8de010505e05cfe61fe26198e0998ea4bc
+    primary_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
+    check_sha256: 7c085b8ed171ead1c61978c208c1b2f2e82c9fde4268007d4dbb6223cc25141b
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+      solution.tex: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
+  qx30-eb49d9241261:
+    comparison: The reflected half-line heat kernel and the boundary forcing convolution
+      agree, with matching initial corner values for classical continuity. The signs
+      and diffusion constant in the boundary kernel agree.
+    fresh_derivation: '# Independent derivation
+
+
+      Assume $D>0$ and use the standard bounded or suitably growth-controlled solution
+      class on the half-line. For smooth data with $h(0)=\Theta(0)$, the lift $V=\theta-h(t)$
+      satisfies $V(0,t)=0$, $V(x,0)=\Theta(x)-h(0)$, and $V_t-DV_{xx}=f(x,t)-h''(t)$.
+      Odd reflection of its initial data and its forcing across $x=0$ preserves the
+      homogeneous boundary. Splitting the resulting whole-line heat integrals at zero
+      gives the Dirichlet kernel
+
+      \[
+
+      K(x,\xi,s)=g_s(x-\xi)-g_s(x+\xi),\qquad
+
+      g_s(r)=(4\pi Ds)^{-1/2}e^{-r^2/(4Ds)},\quad s>0.
+
+      \]
+
+      Propagation of the initial datum and Duhamel''s principle therefore give
+
+      \[
+
+      \theta(x,t)=h(t)+\int_0^\infty K(x,\xi,t)[\Theta(\xi)-h(0)]\,d\xi
+
+      +\int_0^t\!\int_0^\infty K(x,\xi,t-s)[f(\xi,s)-h''(s)]\,d\xi\,ds.
+
+      \]
+
+
+      An equivalent formula removes $h''$. The $\xi$-integral of $K$ equals $A(x,t)=\operatorname{erf}(x/(2\sqrt{Dt}))$.
+      At $x>0$ it has $A(x,0+)=1$ and
+
+      \[
+
+      -\partial_t A(x,t)=B(x,t)=\frac{x}{2\sqrt{\pi D}\,t^{3/2}}e^{-x^2/(4Dt)} .
+
+      \]
+
+      Integrate the $h''$ term by parts. After cancellation the solution is
+
+      \[
+
+      \int_0^\infty K(x,\xi,t)\Theta(\xi)\,d\xi+
+
+      \int_0^t\!\int_0^\infty K(x,\xi,t-s)f(\xi,s)\,d\xi\,ds+
+
+      \int_0^t B(x,t-s)h(s)\,ds .
+
+      \]
+
+      The first formula has trace $h(t)$ since $K(0,\xi,t)=0$; it has initial trace
+      $\Theta$ by the Gaussian approximate identity. In the second formula the boundary
+      term must be evaluated by $x\downarrow0$, not by pointwise substitution into
+      $B$: its mass on $(0,t)$ is $\operatorname{erfc}(x/(2\sqrt{Dt}))\to1$ and its
+      mass away from zero tends to zero. For continuous $h$ this gives $h(t)$. Odd
+      heat evolution and Duhamel verify the interior PDE, and standard uniqueness
+      in the chosen growth class yields the general solution there. If the data disagree
+      at the corner, these separate open-edge traces still make sense, but continuity
+      at the corner cannot hold.
+
+      '
+    fresh_sha256: b565a6a2d6c2356e559d6b96d4e53a8de010505e05cfe61fe26198e0998ea4bc
+    primary_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
+    check_sha256: 7c085b8ed171ead1c61978c208c1b2f2e82c9fde4268007d4dbb6223cc25141b
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: eb49d9241261bf5b8b5d71620269d0109266a8915cbdde35042b3a5e8bbde735
+      solution.tex: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
+  qx23-758ffe0ce916:
+    comparison: Integration by parts gives div(epsilon grad psi)=0 with a constant
+      positive permittivity needed for ordinary Laplace. Both distinguish the boundary
+      restriction and positive energy variation.
+    fresh_derivation: "# Independent derivation\n\nMake any smooth compactly supported\
+      \ variation $\\psi_s=\\psi+s\\eta$ in $V$. Such variations also respect a fixed\
+      \ Dirichlet boundary potential. The coefficient of $s$ in the energy is\n\\\
+      [\n\\delta J=\\int_V\\epsilon\\nabla\\psi\\cdot\\nabla\\eta\\,dV\n        =-\\\
+      int_V \\eta\\,\\nabla\\cdot(\\epsilon\\nabla\\psi)\\,dV .\n\\]\nVanishing for\
+      \ all $\\eta$ forces $\\nabla\\cdot(\\epsilon\\nabla\\psi)=0$ weakly, and classically\
+      \ for sufficiently smooth $\\epsilon,\\psi$. In a homogeneous medium with constant\
+      \ $\\epsilon>0$, this is $\\Delta\\psi=0$. For fixed boundary trace the positive\
+      \ quadratic remainder $\\frac12s^2\\int_V\\epsilon|\\nabla\\eta|^2dV$ also proves\
+      \ minimization. A free boundary would require the additional natural condition\
+      \ $\\epsilon\\partial_n\\psi=0$ there.\n\nThe conclusion about Laplace's equation\
+      \ requires spatially uniform permittivity (or a special potential for which\
+      \ $\\nabla\\epsilon\\cdot\\nabla\\psi=0$). For example on $0<x<1$ take $\\epsilon=1+x$,\
+      \ $\\psi=\\log(1+x)$, independent of other coordinates; then $\\epsilon\\psi_x=1$\
+      \ but $\\psi_{xx}=-(1+x)^{-2}$. This extremal for its fixed trace is not harmonic.\n"
+    fresh_sha256: 49ed2fba6892af4e59e48e19b96053b3925b418edc61bc28e11f82f26b17caf6
+    primary_sha256: 7f3672808defbceabf61caac5a5a713683aee2f072df47799ca23e7ef4164b54
+    check_sha256: db7c6067e867b31ff7741d1b495d1a5d911c78701abe3f327ccdf5a49eae0582
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: 758ffe0ce91632ee35e14f0272ca66380c5c9fe1ad793df9484f05c74929d74b
+      solution.tex: 7f3672808defbceabf61caac5a5a713683aee2f072df47799ca23e7ef4164b54
+  qx20-290f2578d21d:
+    comparison: The conserved horizontal optical momentum gives the parabola condition
+      and the same square relation for the vertex. Both identify a vertical normal-incidence
+      ray when horizontal momentum vanishes.
+    fresh_derivation: '# Independent derivation
+
+
+      Take a nonvertical ray in the $x,y$ plane with $x$ increasing along the chosen
+      orientation. Fermat stationarity extremizes travel time. Up to the fixed factor
+      $1/c_0$ its integrand is $L=\sqrt{1-ky}\sqrt{1+y''^2}$, positive throughout
+      the layer since $kh<1$. Its Beltrami integral is
+
+      \[
+
+      L-y''L_{y''}=\frac{\sqrt{1-ky}}{\sqrt{1+y''^2}}=\sqrt A>0 .
+
+      \]
+
+      The Euler–Lagrange equation, including a point where $y''=0$, is $y''''=-k(1+y''^2)/[2(1-ky)]=-k/(2A)$.
+      Integration gives a downward parabola
+
+      \[
+
+      y(x)=y_v-\frac{k}{4A}(x-x_v)^2,\qquad A=1-ky_v
+
+      \]
+
+      (the last identity follows by substitution into the first integral, even if
+      the graph only includes a subarc). Rays with zero horizontal slowness have constant
+      $x$ and are the exceptional vertical straight rays, which do not join the two
+      distinct specified points. In three dimensions horizontal momentum conservation
+      confines each nonvertical ray to a vertical plane.
+
+
+      For zeros of $y$ at $\pm x_0$, the axis of symmetry is their midpoint $x_v=0$,
+      and $y_v=y_0$ is the maximum. Substituting $x=x_0$ gives $4(1-ky_0)y_0=kx_0^2$,
+      equivalently $(kx_0)^2=4ky_0(1-ky_0)$. The assumed interior turn requires $0<y_0<h$;
+      the equation in particular requires $kx_0\le1$.
+
+      '
+    fresh_sha256: f59051d094a56f42c269a8b2a1eb48269419e2bd4ff24fc331cc2db8eaaa13d0
+    primary_sha256: d8e58e15116915f4c7e5db0490dd4577fa12d6327441b132ed96daba0b8a2f93
+    check_sha256: e5b4de9b7dad6dc9a8bf0f683e2a0f34bd63482fe56f9b3fb98d5f0d1143b8da
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+      solution.tex: d8e58e15116915f4c7e5db0490dd4577fa12d6327441b132ed96daba0b8a2f93
+  qx33-b13a97b93020:
+    comparison: Axis regularity selects J0, decay selects the vertical exponential,
+      and unit weight gives 1/r. The older assertion for arbitrary weights across
+      the equatorial plane fails; both the stored answer and auditor provide a decaying-weight
+      counterexample.
+    fresh_derivation: '# Independent derivation
+
+
+      For $r=(R^2+z^2)^{1/2}>0$, $g(r)=1/r$ satisfies $g''''+2g''/r=0$, is axisymmetric
+      and vanishes at infinity. For an axisymmetric product $A(R)B(z)$ the separated
+      equations in either open half-space are
+
+      \[
+
+      A''''+R^{-1}A''+\lambda^2A=0,\qquad B''''-\lambda^2B=0 .
+
+      \]
+
+      The regular radial branch is $J_0(\lambda R)$; the growing exponential is discarded
+      at the corresponding end in $z$, yielding $e^{-\lambda|z|}$. Superposition gives
+
+      \[
+
+      I_f(R,z)=\int_0^\infty f(\lambda)e^{-\lambda|z|}J_0(\lambda R)\,d\lambda
+
+      \]
+
+      harmonic on $z>0$ and on $z<0$ if differentiation is justified, for instance
+      if $\int_0^\infty(1+\lambda^2)|f(\lambda)|e^{-b\lambda}d\lambda<\infty$ for
+      each $b>0$. The axis is regular since the regular modes extend smoothly there.
+      Literally arbitrary $f$ can make the integral diverge.
+
+
+      Requiring equality on $R=0$ and using $J_0(0)=1$ gives $\int_0^\infty f(\lambda)e^{-s\lambda}d\lambda=1/s$
+      for $s>0$. The constant weight one does this; equality off the axis still needs
+      justification and follows below.
+
+
+      For a direct proof of the transform, set $s=|z|>0$ and use $J_0(t)=\pi^{-1}\int_0^\pi\cos(t\cos\theta)\,d\theta$
+      (equivalently compare the even Taylor coefficients). Absolute integrability
+      before interchanging the two integrals follows from $e^{-s\lambda}$. Thus
+
+      \[
+
+      I_1=\frac1\pi\int_0^\pi\frac{s}{s^2+R^2\cos^2\theta}\,d\theta
+
+      =\frac{2s}{\pi}\int_0^\infty \frac{dt}{s^2(1+t^2)+R^2}
+
+      =\frac1{\sqrt{s^2+R^2}},
+
+      \]
+
+      where $t=\tan\theta$ on the half interval. This proves the identity throughout
+      both half-spaces and gives the required decay. On $s=0$, $R>0$, ordinary conditional
+      convergence follows, for example, from $J_0(v)=\sqrt{2/(\pi v)}\cos(v-\pi/4)+O(v^{-3/2})$
+      and Dirichlet''s test. Abel''s theorem identifies the improper integral with
+      the limit of its exponentially damped integral, namely $1/R$. The origin is
+      excluded.
+
+
+      Global harmonicity of the arbitrary-weight expression at $z=0$, $R>0$, as suggested
+      by this wording, is false. Indeed choose $f=e^{-a\lambda}$, $a>0$. The proved
+      transform gives $I_f=[R^2+(a+|z|)^2]^{-1/2}$, which decays at infinity yet has
+      normal derivative jump $-2a/(R^2+a^2)^{3/2}$ at the plane. The special weight
+      one gives $1/r$ and has no jump away from the origin.
+
+      '
+    fresh_sha256: 126c63d62c65641ca45e25f7d80e4312c5fd07d8e40e270eb37e4921fdc9d820
+    primary_sha256: 601b2d5e304df88cf161c825a0e67ac6895a3bee5fcc46208ae5b9bced396357
+    check_sha256: cb170a30fb8a6bed9b1e4f45bca9dffdd4ad2c65268462cc01cb78cf2a92f2ae
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: b13a97b930207e9c18a9c5b5e0398cbef06df2a3987460544077e580f4db9971
+      solution.tex: 601b2d5e304df88cf161c825a0e67ac6895a3bee5fcc46208ae5b9bced396357
+  qx33-e017ef961454:
+    comparison: Axis regularity selects J0, decay selects the vertical exponential,
+      and unit weight gives 1/r. The older assertion for arbitrary weights across
+      the equatorial plane fails; both the stored answer and auditor provide a decaying-weight
+      counterexample.
+    fresh_derivation: '# Independent derivation
+
+
+      For $r=(R^2+z^2)^{1/2}>0$, $g(r)=1/r$ satisfies $g''''+2g''/r=0$, is axisymmetric
+      and vanishes at infinity. For an axisymmetric product $A(R)B(z)$ the separated
+      equations in either open half-space are
+
+      \[
+
+      A''''+R^{-1}A''+\lambda^2A=0,\qquad B''''-\lambda^2B=0 .
+
+      \]
+
+      The regular radial branch is $J_0(\lambda R)$; the growing exponential is discarded
+      at the corresponding end in $z$, yielding $e^{-\lambda|z|}$. Superposition gives
+
+      \[
+
+      I_f(R,z)=\int_0^\infty f(\lambda)e^{-\lambda|z|}J_0(\lambda R)\,d\lambda
+
+      \]
+
+      harmonic on $z>0$ and on $z<0$ if differentiation is justified, for instance
+      if $\int_0^\infty(1+\lambda^2)|f(\lambda)|e^{-b\lambda}d\lambda<\infty$ for
+      each $b>0$. The axis is regular since the regular modes extend smoothly there.
+      Literally arbitrary $f$ can make the integral diverge.
+
+
+      Choose $f=1$. The assumed integral of $J_0$ gives $I_1(R,0)=R^{-1}\int_0^\infty
+      J_0(v)dv=1/R$ when $R>0$. On the positive and negative $z$ axes, $J_0(0)=1$
+      gives $I_1(0,z)=1/|z|$. These data agree with $1/r$, both functions are axisymmetric
+      and even in $z$, and scaling gives homogeneity of degree $-1$. These features
+      motivate the identification. One must account for the singular boundary point
+      at the origin before invoking a uniqueness theorem; pointwise equality of boundary
+      traces away from it on its own is insufficient.
+
+
+      For a direct proof of the transform, set $s=|z|>0$ and use $J_0(t)=\pi^{-1}\int_0^\pi\cos(t\cos\theta)\,d\theta$
+      (equivalently compare the even Taylor coefficients). Absolute integrability
+      before interchanging the two integrals follows from $e^{-s\lambda}$. Thus
+
+      \[
+
+      I_1=\frac1\pi\int_0^\pi\frac{s}{s^2+R^2\cos^2\theta}\,d\theta
+
+      =\frac{2s}{\pi}\int_0^\infty \frac{dt}{s^2(1+t^2)+R^2}
+
+      =\frac1{\sqrt{s^2+R^2}},
+
+      \]
+
+      where $t=\tan\theta$ on the half interval. This proves the identity throughout
+      both half-spaces and gives the required decay. On $s=0$, $R>0$, ordinary conditional
+      convergence follows, for example, from $J_0(v)=\sqrt{2/(\pi v)}\cos(v-\pi/4)+O(v^{-3/2})$
+      and Dirichlet''s test. Abel''s theorem identifies the improper integral with
+      the limit of its exponentially damped integral, namely $1/R$. The origin is
+      excluded.
+
+      '
+    fresh_sha256: 31719c274110ceb0af57f2aa2c148fd236e28655d66cc75ad2a783ce5d087da7
+    primary_sha256: 6b83cf18428b1ab8b57a44f81a7c3b54ceb1f556e802c8cabd47465181bdd9e2
+    check_sha256: eabbfe23daad168a816d0e7a582e35689a3493b8c7168d30a5299c90748e6575
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: e017ef9614546f31e13ec7c2602245fad6d0c83c68d7eebbc4a6b009253b6c0e
+      solution.tex: 6b83cf18428b1ab8b57a44f81a7c3b54ceb1f556e802c8cabd47465181bdd9e2
+  q05-02464f808e97:
+    comparison: The positive diffusivity Fourier multiplier contracts the initial-data
+      L² norm. The stored argument and auditor also specify a class of forcing for
+      existence by Duhamel and boundedness of the time integral.
+    fresh_derivation: '# Independent derivation
+
+
+      Let $\kappa>0$, $g=f_1-f_2$ and $w=u_1-u_2$. The fixed forcing cancels. With
+      the Fourier convention $\widehat g(k)=\int e^{-ik\cdot x}g(x)\,dx$, the transformed
+      initial-value problem is
+
+      \[
+
+      \partial_t\widehat w=-\kappa |k|^2\widehat w,\qquad
+
+      \widehat w(k,t)=e^{-\kappa |k|^2t}\widehat g(k).
+
+      \]
+
+      Parseval gives $\|w(t)\|_2^2=(2\pi)^{-n}\int e^{-2\kappa|k|^2t}|\widehat g(k)|^2\,dk\le\|g\|_2^2$.
+      Thus $C=1$ works for every $t\ge0$. It is optimal at $t=0$ and even at fixed
+      $t>0$, by taking a unit-norm transform supported on $|k|<\epsilon$ and letting
+      $\epsilon$ tend to zero.
+
+
+      Write $S(t)$ for this Fourier multiplier. For $f\in L^2$ and, for example, $F\in
+      L^1_{\rm loc}([0,\infty);L^2)$, variation of constants gives the mild solution
+
+      \[
+
+      u(t)=S(t)f+\int_0^t S(t-s)F(s)\,ds .
+
+      \]
+
+      The integral exists by the contraction bound. Dominated convergence gives strong
+      continuity of $S(t)$; the time integral tends to zero at $t=0$ and is continuous
+      by the same bound and dominated convergence. This proves existence with the
+      specified initial trace. The difference estimate gives uniqueness and continuous
+      dependence in $C([0,T];L^2)$ for fixed forcing. Changing the forcing adds at
+      most $\int_0^T\|F_1(s)-F_2(s)\|_2\,ds$. Stronger smoothness assumptions give
+      classical solutions. The statement implicitly needs a forward diffusivity and
+      an admissible source.
+
+      '
+    fresh_sha256: 78bec7764bf1983f467ec104c5c2480f33ead3b759007f7e809ec4a54d873f36
+    primary_sha256: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+    check_sha256: 50137a74c365b2b59e04d245a6bc279d9b733fba2fe4b4a6191807d8f6f30e80
+    check_result: Forced mode verified; Gaussian data approach the sharp contraction
+      constant.
+    exit_code: 0
+    source_hashes:
+      question.tex: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+      solution.tex: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+  qx32-be45c255879e:
+    comparison: The normalized half-space kernel has the required boundary trace.
+      Constant data disprove lateral decay under the original hypotheses. Data vanishing
+      at infinity give the asserted result.
+    fresh_derivation: "# Independent derivation\n\nWrite $X=(x_0,y_0)$, $z=z_0>0$.\
+      \ Put $(x,y)=X+zs(\\cos\\alpha,\\sin\\alpha)$ in the printed formula. The area\
+      \ element is $z^2s\\,ds\\,d\\alpha$. Thus\n\\[\nu(X,z)=\\frac1{2\\pi}\\int_0^{2\\\
+      pi}\\!\\int_0^\\infty\n h(X+zs(\\cos\\alpha,\\sin\\alpha))\\frac{s\\,ds\\,d\\\
+      alpha}{(1+s^2)^{3/2}} .\n\\]\nThe weight has mass one because $\\int_0^\\infty\
+      \ s(1+s^2)^{-3/2}ds=1$. For fixed $X$ continuity and dominated convergence,\
+      \ with bound $\\|h\\|_\\infty$ times the integrable weight, give $u(X,z)\\to\
+      \ h(X)$ as $z\\downarrow0$. The same argument permits $X\\to X_*$ simultaneously.\n\
+      \nThe lateral boundary condition does **not** follow from boundedness and continuity.\
+      \ Taking $h\\equiv1$ yields $u\\equiv1$ for all $X,z$, so the requested decay\
+      \ is false. A sufficient additional assumption is $h(X)\\to0$ as $|X|\\to\\\
+      infty$. For fixed $z>0$ the integrand then tends to zero for each $s,\\alpha$\
+      \ as $|X|\\to\\infty$, and the same dominating function proves the decay. If\
+      \ uniformity over all $z>0$ is desired, approximate $h\\in C_0$ uniformly by\
+      \ data supported in a disk of radius $M$. The omitted part contributes at most\
+      \ its supremum norm. On the disk with $|X|>2M$, the kernel $z/(2\\pi(|X-Y|^2+z^2)^{3/2})$\
+      \ is bounded by $1/(2\\pi |X-Y|^2)\\le 2/(\\pi |X|^2)$ uniformly in $z$, so\
+      \ the compact part tends uniformly to zero.\n"
+    fresh_sha256: e4e6737f1ce295acb7ea6653d42f5efd04d3bf5d10cce3490a68ec290c97d077
+    primary_sha256: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
+    check_sha256: 2609070ba5ffba3760791108f07b941d092aec8a4c3e12075682addfb368b508
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: be45c255879e4bf672d63d9de8d7c1a9883b5700429fce94b69475e5c0381a9b
+      solution.tex: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
+  qx32-3de47efcdc98:
+    comparison: The normalized half-space kernel has the required boundary trace.
+      Constant data disprove lateral decay under the original hypotheses. Data vanishing
+      at infinity give the asserted result.
+    fresh_derivation: "# Independent derivation\n\nWrite $X=(x_0,y_0)$, $z=z_0>0$.\
+      \ Put $(x,y)=X+zs(\\cos\\alpha,\\sin\\alpha)$ in the printed formula. The area\
+      \ element is $z^2s\\,ds\\,d\\alpha$. Thus\n\\[\nu(X,z)=\\frac1{2\\pi}\\int_0^{2\\\
+      pi}\\!\\int_0^\\infty\n h(X+zs(\\cos\\alpha,\\sin\\alpha))\\frac{s\\,ds\\,d\\\
+      alpha}{(1+s^2)^{3/2}} .\n\\]\nThe weight has mass one because $\\int_0^\\infty\
+      \ s(1+s^2)^{-3/2}ds=1$. For fixed $X$ continuity and dominated convergence,\
+      \ with bound $\\|h\\|_\\infty$ times the integrable weight, give $u(X,z)\\to\
+      \ h(X)$ as $z\\downarrow0$. The same argument permits $X\\to X_*$ simultaneously.\n\
+      \nThe lateral boundary condition does **not** follow from boundedness and continuity.\
+      \ Taking $h\\equiv1$ yields $u\\equiv1$ for all $X,z$, so the requested decay\
+      \ is false. A sufficient additional assumption is $h(X)\\to0$ as $|X|\\to\\\
+      infty$. For fixed $z>0$ the integrand then tends to zero for each $s,\\alpha$\
+      \ as $|X|\\to\\infty$, and the same dominating function proves the decay. If\
+      \ uniformity over all $z>0$ is desired, approximate $h\\in C_0$ uniformly by\
+      \ data supported in a disk of radius $M$. The omitted part contributes at most\
+      \ its supremum norm. On the disk with $|X|>2M$, the kernel $z/(2\\pi(|X-Y|^2+z^2)^{3/2})$\
+      \ is bounded by $1/(2\\pi |X-Y|^2)\\le 2/(\\pi |X|^2)$ uniformly in $z$, so\
+      \ the compact part tends uniformly to zero.\n"
+    fresh_sha256: e4e6737f1ce295acb7ea6653d42f5efd04d3bf5d10cce3490a68ec290c97d077
+    primary_sha256: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
+    check_sha256: 2609070ba5ffba3760791108f07b941d092aec8a4c3e12075682addfb368b508
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: 3de47efcdc98d00db9d7812035bfccdf34896b881c30b53aa695137c38c2d940
+      solution.tex: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
+  q07-d254c1c51b61:
+    comparison: Both fix the outward normal and unit positive source convention. Both
+      explicitly require the truncating boundary term to vanish on unbounded domains
+      and give a zero-trace half-space counterexample without that condition.
+    fresh_derivation: '# Independent derivation
+
+
+      Write $n$ for the outward unit normal. With sufficient regularity of the boundary,
+      data and traces, Green''s second identity gives
+
+      \[
+
+      \int_\Omega (u\Delta_x\mathcal G-\mathcal G\Delta u)\,dx
+
+      =\int_{\partial\Omega}(u\,\partial_n\mathcal G-\mathcal G\,\partial_nu)\,dS.
+
+      \]
+
+      The left side is $u(y)$ by the normalization $\Delta_x\mathcal G=\delta_y$.
+      On the right $u=f$ and $\mathcal G=0$. Thus the result has a positive sign for
+      the stipulated convention.
+
+
+      For a classical justification, excise a ball of radius $\epsilon$ about $y$.
+      The volume term is zero on the punctured domain. The normal to its inner boundary
+      points toward $y$, and the fundamental solution has unit flux in the opposite
+      direction. Hence the inner contribution of $u\partial_n\mathcal G$ tends to
+      $-u(y)$; replacing $u(x)$ by $u(y)$ incurs $O(\epsilon)$ for smooth $u$. The
+      term $\mathcal G\partial_nu$ there tends to zero, with size $O(\epsilon)$ for
+      $n\ge3$ and $O(\epsilon|\log\epsilon|)$ for $n=2$. In one dimension the same
+      unit jump in the first derivative gives the formula directly. Moving the inner
+      contribution to the other side gives the stated identity.
+
+
+      For an unbounded domain there is also a boundary integral over a large truncating
+      sphere. One must assume it tends to zero (or impose a solution class ensuring
+      that). On the upper half-plane $u(x,y)=y$ is harmonic with zero boundary data
+      and a nonzero interior value. The unqualified assertion for an arbitrary unbounded
+      domain thus fails.
+
+      '
+    fresh_sha256: e2fb3b04b29d839552bd1efdb024f92e1de00708deeebcd1954ede5710e27931
+    primary_sha256: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+    check_sha256: ef9e5014e112492799d730d889e9b061505699e39f9c96103f76153cea214246
+    check_result: Disk harmonic modes reproduce their interior values; puncture flux
+      has sign -1.
+    exit_code: 0
+    source_hashes:
+      question.tex: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+      solution.tex: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+  qx27-7b3c27b658c5:
+    comparison: The sine coefficients grow as exp(n²t). Smooth compatible high-frequency
+      data establish failure of continuous dependence, and formal series can fail
+      to represent a solution.
+    fresh_derivation: '# Independent derivation
+
+
+      For $u=XT$, separation gives $T''/T=-X''''/X=\lambda$ and $X(0)=X(\pi)=0$. Integration
+      by parts gives $\lambda\int X^2=\int (X'')^2>0$ for a nonzero real eigenfunction.
+      Hence $X$ is a multiple of $\sin(nx)$, with $\sqrt{\lambda}=n$ a positive integer.
+      Then $T=e^{n^2t}$ up to a constant. Orthogonality on $(0,\pi)$ fixes the coefficients,
+      so the candidate solution is
+
+      \[
+
+      u(x,t)=\sum_{n\ge1}b_n e^{n^2t}\sin(nx),\qquad
+
+      b_n=\frac2\pi\int_0^\pi U(x)\sin(nx)\,dx .
+
+      \]
+
+      This formula is exact for finite sine sums and wherever the series has the required
+      convergence. For an $L^2$ solution at positive time the coefficients must be
+      square summable even after multiplication by $e^{n^2t}$.
+
+
+      Fix $t_*>0$. The smooth compatible initial data $U_N=e^{-N^2t_*/2}\sin(Nx)$
+      approach zero in the uniform norm and $L^2$ norm (indeed in every fixed finite
+      derivative norm). Their exact solutions at $t_*$ have amplitude $e^{N^2t_*/2}$
+      and $L^2$ norm $\sqrt{\pi/2}\,e^{N^2t_*/2}$. The zero solution corresponds to
+      zero data, so arbitrarily small data perturbations give unbounded changes. Continuous
+      dependence fails. Even existence for arbitrary smooth data can fail: coefficients
+      $b_n=e^{-n}$ give smooth, compatible data but no square-summable solution coefficients
+      at any positive time.
+
+      '
+    fresh_sha256: 7db58eb9aa8b1abdfe1ebbd224e8c880a4b49d248764fca1671b26590b7c7a4c
+    primary_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
+    check_sha256: ff1714ff1a82980eab1376989f5060b5c847f4882fd6a3ab07efef42d02d41fe
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: 7b3c27b658c5bcb61d30b1c9bef9eef5a1f4c6b37a208ac73f031eed6bde7c11
+      solution.tex: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
+  qx27-2ea7fe5c02da:
+    comparison: The sine coefficients grow as exp(n²t). Smooth compatible high-frequency
+      data establish failure of continuous dependence, and formal series can fail
+      to represent a solution.
+    fresh_derivation: '# Independent derivation
+
+
+      For $u=XT$, separation gives $T''/T=-X''''/X=\lambda$ and $X(0)=X(\pi)=0$. Integration
+      by parts gives $\lambda\int X^2=\int (X'')^2>0$ for a nonzero real eigenfunction.
+      Hence $X$ is a multiple of $\sin(nx)$, with $\sqrt{\lambda}=n$ a positive integer.
+      Then $T=e^{n^2t}$ up to a constant. Orthogonality on $(0,\pi)$ fixes the coefficients,
+      so the candidate solution is
+
+      \[
+
+      u(x,t)=\sum_{n\ge1}b_n e^{n^2t}\sin(nx),\qquad
+
+      b_n=\frac2\pi\int_0^\pi U(x)\sin(nx)\,dx .
+
+      \]
+
+      This formula is exact for finite sine sums and wherever the series has the required
+      convergence. For an $L^2$ solution at positive time the coefficients must be
+      square summable even after multiplication by $e^{n^2t}$.
+
+
+      Fix $t_*>0$. The smooth compatible initial data $U_N=e^{-N^2t_*/2}\sin(Nx)$
+      approach zero in the uniform norm and $L^2$ norm (indeed in every fixed finite
+      derivative norm). Their exact solutions at $t_*$ have amplitude $e^{N^2t_*/2}$
+      and $L^2$ norm $\sqrt{\pi/2}\,e^{N^2t_*/2}$. The zero solution corresponds to
+      zero data, so arbitrarily small data perturbations give unbounded changes. Continuous
+      dependence fails. Even existence for arbitrary smooth data can fail: coefficients
+      $b_n=e^{-n}$ give smooth, compatible data but no square-summable solution coefficients
+      at any positive time.
+
+      '
+    fresh_sha256: 7db58eb9aa8b1abdfe1ebbd224e8c880a4b49d248764fca1671b26590b7c7a4c
+    primary_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
+    check_sha256: ff1714ff1a82980eab1376989f5060b5c847f4882fd6a3ab07efef42d02d41fe
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: 2ea7fe5c02da00dc38449bd8789ac97ed3f5cf3b7299911eb9bfa319ecdba73a
+      solution.tex: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
+  qx27-f83ebd33560b:
+    comparison: The sine coefficients grow as exp(n²t). Smooth compatible high-frequency
+      data establish failure of continuous dependence, and formal series can fail
+      to represent a solution.
+    fresh_derivation: '# Independent derivation
+
+
+      For $u=XT$, separation gives $T''/T=-X''''/X=\lambda$ and $X(0)=X(\pi)=0$. Integration
+      by parts gives $\lambda\int X^2=\int (X'')^2>0$ for a nonzero real eigenfunction.
+      Hence $X$ is a multiple of $\sin(nx)$, with $\sqrt{\lambda}=n$ a positive integer.
+      Then $T=e^{n^2t}$ up to a constant. Orthogonality on $(0,\pi)$ fixes the coefficients,
+      so the candidate solution is
+
+      \[
+
+      u(x,t)=\sum_{n\ge1}b_n e^{n^2t}\sin(nx),\qquad
+
+      b_n=\frac2\pi\int_0^\pi U(x)\sin(nx)\,dx .
+
+      \]
+
+      This formula is exact for finite sine sums and wherever the series has the required
+      convergence. For an $L^2$ solution at positive time the coefficients must be
+      square summable even after multiplication by $e^{n^2t}$.
+
+
+      Fix $t_*>0$. The smooth compatible initial data $U_N=e^{-N^2t_*/2}\sin(Nx)$
+      approach zero in the uniform norm and $L^2$ norm (indeed in every fixed finite
+      derivative norm). Their exact solutions at $t_*$ have amplitude $e^{N^2t_*/2}$
+      and $L^2$ norm $\sqrt{\pi/2}\,e^{N^2t_*/2}$. The zero solution corresponds to
+      zero data, so arbitrarily small data perturbations give unbounded changes. Continuous
+      dependence fails. Even existence for arbitrary smooth data can fail: coefficients
+      $b_n=e^{-n}$ give smooth, compatible data but no square-summable solution coefficients
+      at any positive time.
+
+      '
+    fresh_sha256: 7db58eb9aa8b1abdfe1ebbd224e8c880a4b49d248764fca1671b26590b7c7a4c
+    primary_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
+    check_sha256: ff1714ff1a82980eab1376989f5060b5c847f4882fd6a3ab07efef42d02d41fe
+    check_result: ''
+    exit_code: 0
+    source_hashes:
+      question.tex: f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+      solution.tex: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
+  q08-907c0326cf9a:
+    comparison: The image potential and Fourier multiplier both give the normalized
+      Poisson kernel. The four older statements distinguish pointwise vertical decay
+      from bounded uniqueness, including a nonzero constant trace in the more extensive
+      2018 printing. In the newer printing the stored answer gives the nonzero-mean
+      1/y tail, which the auditor also derives.
+    fresh_derivation: "# Independent derivation\n\nWrite $u=\\psi$ for the harmonic\
+      \ field.\n\n\nWrite the interior observation point as $(x,y)$, the source variable\
+      \ as $(\\xi,\\eta)$, and take $\\Delta G=+\\delta$. Reflect the pole across\
+      \ the boundary. Since $\\Delta\\log|X|=2\\pi\\delta_0$, the opposite-sign image\
+      \ gives\n\\[\nG(\\xi,\\eta;x,y)=\\frac1{4\\pi}\\log\n \\frac{(\\xi-x)^2+(\\\
+      eta-y)^2}{(\\xi-x)^2+(\\eta+y)^2}.\n\\]\nIt vanishes at $\\eta=0$ and the reflected\
+      \ pole is outside the half-plane. On the boundary, $\\partial_n=-\\partial_\\\
+      eta$. Differentiation gives $\\partial_nG=y/\\{\\pi[(\\xi-x)^2+y^2]\\}$. Green's\
+      \ identity, with the outer semicircle contribution tending to zero, therefore\
+      \ gives $u=P_y*f$, where\n\\[\nP_y(s)=\\frac{y}{\\pi(s^2+y^2)},\\qquad\nu(x,y)=\\\
+      int_{\\mathbb R}P_y(x-\\xi)f(\\xi)\\,d\\xi .\n\\]\nFor the convention $-\\Delta\
+      \ G=\\delta$, reverse the sign of $G$ and use $-\\partial_nG$ in the representation.\
+      \ The kernel has integral one by an arctangent evaluation. Its mass outside\
+      \ $|s|<d$ tends to zero for any $d>0$, so convolution recovers bounded boundary\
+      \ values at continuity points.\n\nIndependently transform using $\\widehat u(k,y)=\\\
+      int e^{-ikx}u(x,y)\\,dx$. The harmonic equation is $\\widehat u_{yy}-k^2\\widehat\
+      \ u=0$. In the usual admissible decaying or bounded-transform class, the growing\
+      \ mode vanishes for $k\\ne0$, and the boundary trace gives $\\widehat u=\\widehat\
+      \ f(k)e^{-|k|y}$. The inverse factor is\n\\[\n\\frac1{2\\pi}\\int_{\\mathbb\
+      \ R} e^{iks-|k|y}\\,dk\n=\\frac1\\pi\\Re\\int_0^\\infty e^{-(y-is)k}\\,dk=P_y(s).\n\
+      \\]\nThis yields the same convolution. At $k=0$ the transformed ODE allows an\
+      \ affine function of $y$; the continuous multiplier has value one there. For\
+      \ integrable transforms a single frequency does not alter Fourier inversion.\
+      \ A constant spatial mode, if present as an atom, must be handled separately.\n\
+      \nFor $a>0$ and the prescribed step, integrate over $[-a,a]$. With principal\
+      \ arctangents,\n\\[\nu(x,y)=\\frac{\\psi_0}{\\pi}\\left(\\arctan\\frac{a-x}{y}+\n\
+      \                                 \\arctan\\frac{a+x}{y}\\right).\n\\]\nFor\
+      \ $\\psi_0>0$ each horizontal profile is even, has a maximum at zero of $2\\\
+      psi_0\\arctan(a/y)/\\pi$, and decreases on $x>0$: there the derivative is proportional\
+      \ to $y/[(x+a)^2+y^2]-y/[(x-a)^2+y^2]<0$. Small $y$ smooths the two step edges;\
+      \ large $y$ gives a broad low hump, asymptotic to $2a\\psi_0y/[\\pi(x^2+y^2)]$\
+      \ when $x/y$ stays bounded. Along both edges\n\\[\nu(\\pm a,y)=\\frac{\\psi_0}{\\\
+      pi}\\arctan(2a/y),\n\\]\nwhich decreases from $\\psi_0/2$ to zero. The open\
+      \ half-plane trace at either jump is the midpoint; the prescribed value at the\
+      \ single point does not affect the integral. The signs of all profiles reverse\
+      \ for $\\psi_0<0$.\n\nHorizontal sketches of $u/\\psi_0$ at $y/a=0.12$ (1),\
+      \ $0.6$ (2) and $2$ (3), with shared pixels marked *.\n\n    1.00 |        \
+      \                                           \n    0.91 |                   \
+      \ 11111111111                    \n    0.82 |                  11          \
+      \ 11                  \n    0.73 |                                         \
+      \          \n    0.64 |                     222222222                     \n\
+      \    0.55 |                 1 22         22 1                 \n    0.45 | \
+      \                22             22                 \n    0.36 |            \
+      \    2                 2                \n    0.27 |              2**33333333333333333**2\
+      \              \n    0.18 |      3333****31                   13****3333   \
+      \   \n    0.09 |3*****2222  111                     111  2222*****3\n    0.00\
+      \ |*11111111111                           11111111111*\n         +---------------------------------------------------\n\
+      \          -3                       0                        3   x/a\n\nThe\
+      \ common edge profile $u(\\pm a,y)/\\psi_0$.\n\n    0.50 |oo               \
+      \                                  \n    0.45 |  oo                        \
+      \                       \n    0.41 |    ooo                                \
+      \            \n    0.36 |       ooo                                        \
+      \ \n    0.32 |          ooo                                      \n    0.27\
+      \ |             oooo                                  \n    0.23 |         \
+      \        oooooo                            \n    0.18 |                    \
+      \   oooooooo                    \n    0.14 |                               oooooooooooooo\
+      \      \n    0.09 |                                             oooooo\n   \
+      \ 0.05 |                                                   \n    0.00 |    \
+      \                                               \n         +---------------------------------------------------\n\
+      \           0                       3                        6   y/a\n\nA vertical\
+      \ decay condition read only pointwise in $x$ supplies no lateral growth bound.\
+      \ For example $\\Im e^{(x+iy)^2}=e^{x^2-y^2}\\sin(2xy)$ is a nonzero harmonic\
+      \ function that vanishes on the boundary and tends to zero on every fixed vertical\
+      \ line. Boundedness, a suitable growth restriction, or an admissible Fourier/Green\
+      \ representation is needed for the asserted uniqueness. For $f\\in L^1$, the\
+      \ displayed Poisson extension obeys $|u|\\le\\|f\\|_1/(\\pi y)$.\n"
+    fresh_sha256: 3f3d4c06fc6fdfb039d5c5062d61578007efa6a84abb5f2979d46444ca5011a2
+    primary_sha256: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
+    check_sha256: bfc3a74c3517b7bee9d3e72e7631256a52acf2f2112263ebdf4f2c938c2ac390
+    check_result: Image derivative, Poisson kernel and interval profiles checked.
+    exit_code: 0
+    source_hashes:
+      question.tex: 907c0326cf9a1cc3dadb4128f5bc40bfc23bd9913956f5b64a2b4b901216eb12
+      solution.tex: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
+      plot.py: b83a6db999273a65e3dd78068cc029f7d2ed6083f99e9593f4b14d7006e7cb45
+      figures/poisson-interval-profiles.png: 035c6780e3ad1254d0b2aa00f93ef73802907905b21e49d5ee09573f1c65e964
+  q08-b3c38502e854:
+    comparison: The image potential and Fourier multiplier both give the normalized
+      Poisson kernel. The four older statements distinguish pointwise vertical decay
+      from bounded uniqueness, including a nonzero constant trace in the more extensive
+      2018 printing. In the newer printing the stored answer gives the nonzero-mean
+      1/y tail, which the auditor also derives.
+    fresh_derivation: "# Independent derivation\n\nThe printed symbols $\\phi$ and\
+      \ $\\psi$ denote the same harmonic field in the equations below, written as\
+      \ $u$.\n\n\nWrite the interior observation point as $(x,y)$, the source variable\
+      \ as $(\\xi,\\eta)$, and take $\\Delta G=+\\delta$. Reflect the pole across\
+      \ the boundary. Since $\\Delta\\log|X|=2\\pi\\delta_0$, the opposite-sign image\
+      \ gives\n\\[\nG(\\xi,\\eta;x,y)=\\frac1{4\\pi}\\log\n \\frac{(\\xi-x)^2+(\\\
+      eta-y)^2}{(\\xi-x)^2+(\\eta+y)^2}.\n\\]\nIt vanishes at $\\eta=0$ and the reflected\
+      \ pole is outside the half-plane. On the boundary, $\\partial_n=-\\partial_\\\
+      eta$. Differentiation gives $\\partial_nG=y/\\{\\pi[(\\xi-x)^2+y^2]\\}$. Green's\
+      \ identity, with the outer semicircle contribution tending to zero, therefore\
+      \ gives $u=P_y*f$, where\n\\[\nP_y(s)=\\frac{y}{\\pi(s^2+y^2)},\\qquad\nu(x,y)=\\\
+      int_{\\mathbb R}P_y(x-\\xi)f(\\xi)\\,d\\xi .\n\\]\nFor the convention $-\\Delta\
+      \ G=\\delta$, reverse the sign of $G$ and use $-\\partial_nG$ in the representation.\
+      \ The kernel has integral one by an arctangent evaluation. Its mass outside\
+      \ $|s|<d$ tends to zero for any $d>0$, so convolution recovers bounded boundary\
+      \ values at continuity points.\n\nIndependently transform using $\\widehat u(k,y)=\\\
+      int e^{-ikx}u(x,y)\\,dx$. The harmonic equation is $\\widehat u_{yy}-k^2\\widehat\
+      \ u=0$. In the usual admissible decaying or bounded-transform class, the growing\
+      \ mode vanishes for $k\\ne0$, and the boundary trace gives $\\widehat u=\\widehat\
+      \ f(k)e^{-|k|y}$. The inverse factor is\n\\[\n\\frac1{2\\pi}\\int_{\\mathbb\
+      \ R} e^{iks-|k|y}\\,dk\n=\\frac1\\pi\\Re\\int_0^\\infty e^{-(y-is)k}\\,dk=P_y(s).\n\
+      \\]\nThis yields the same convolution. At $k=0$ the transformed ODE allows an\
+      \ affine function of $y$; the continuous multiplier has value one there. For\
+      \ integrable transforms a single frequency does not alter Fourier inversion.\
+      \ A constant spatial mode, if present as an atom, must be handled separately.\n\
+      \nFor $a>0$ and the prescribed step, integrate over $[-a,a]$. With principal\
+      \ arctangents,\n\\[\nu(x,y)=\\frac{\\psi_0}{\\pi}\\left(\\arctan\\frac{a-x}{y}+\n\
+      \                                 \\arctan\\frac{a+x}{y}\\right).\n\\]\nFor\
+      \ $\\psi_0>0$ each horizontal profile is even, has a maximum at zero of $2\\\
+      psi_0\\arctan(a/y)/\\pi$, and decreases on $x>0$: there the derivative is proportional\
+      \ to $y/[(x+a)^2+y^2]-y/[(x-a)^2+y^2]<0$. Small $y$ smooths the two step edges;\
+      \ large $y$ gives a broad low hump, asymptotic to $2a\\psi_0y/[\\pi(x^2+y^2)]$\
+      \ when $x/y$ stays bounded. Along both edges\n\\[\nu(\\pm a,y)=\\frac{\\psi_0}{\\\
+      pi}\\arctan(2a/y),\n\\]\nwhich decreases from $\\psi_0/2$ to zero. The open\
+      \ half-plane trace at either jump is the midpoint; the prescribed value at the\
+      \ single point does not affect the integral. The signs of all profiles reverse\
+      \ for $\\psi_0<0$.\n\nHorizontal sketches of $u/\\psi_0$ at $y/a=0.12$ (1),\
+      \ $0.6$ (2) and $2$ (3), with shared pixels marked *.\n\n    1.00 |        \
+      \                                           \n    0.91 |                   \
+      \ 11111111111                    \n    0.82 |                  11          \
+      \ 11                  \n    0.73 |                                         \
+      \          \n    0.64 |                     222222222                     \n\
+      \    0.55 |                 1 22         22 1                 \n    0.45 | \
+      \                22             22                 \n    0.36 |            \
+      \    2                 2                \n    0.27 |              2**33333333333333333**2\
+      \              \n    0.18 |      3333****31                   13****3333   \
+      \   \n    0.09 |3*****2222  111                     111  2222*****3\n    0.00\
+      \ |*11111111111                           11111111111*\n         +---------------------------------------------------\n\
+      \          -3                       0                        3   x/a\n\nThe\
+      \ common edge profile $u(\\pm a,y)/\\psi_0$.\n\n    0.50 |oo               \
+      \                                  \n    0.45 |  oo                        \
+      \                       \n    0.41 |    ooo                                \
+      \            \n    0.36 |       ooo                                        \
+      \ \n    0.32 |          ooo                                      \n    0.27\
+      \ |             oooo                                  \n    0.23 |         \
+      \        oooooo                            \n    0.18 |                    \
+      \   oooooooo                    \n    0.14 |                               oooooooooooooo\
+      \      \n    0.09 |                                             oooooo\n   \
+      \ 0.05 |                                                   \n    0.00 |    \
+      \                                               \n         +---------------------------------------------------\n\
+      \           0                       3                        6   y/a\n\nA vertical\
+      \ decay condition read only pointwise in $x$ supplies no lateral growth bound.\
+      \ For example $\\Im e^{(x+iy)^2}=e^{x^2-y^2}\\sin(2xy)$ is a nonzero harmonic\
+      \ function that vanishes on the boundary and tends to zero on every fixed vertical\
+      \ line. Boundedness, a suitable growth restriction, or an admissible Fourier/Green\
+      \ representation is needed for the asserted uniqueness. For $f\\in L^1$, the\
+      \ displayed Poisson extension obeys $|u|\\le\\|f\\|_1/(\\pi y)$.\n"
+    fresh_sha256: 50856934aa4d53df81a44f42719a0a9c41a4faf36eec5fab8e991420fe765f20
+    primary_sha256: 3889137d787a2431720a175d7c1b03fc7638bd551ad6336d9856fb66b952927c
+    check_sha256: bfc3a74c3517b7bee9d3e72e7631256a52acf2f2112263ebdf4f2c938c2ac390
+    check_result: Image derivative, Poisson kernel and interval profiles checked.
+    exit_code: 0
+    source_hashes:
+      question.tex: b3c38502e8545d606d584cfb8313cf5a26002169c44286d0e79c37250ac8031b
+      solution.tex: 3889137d787a2431720a175d7c1b03fc7638bd551ad6336d9856fb66b952927c
+      plot.py: b83a6db999273a65e3dd78068cc029f7d2ed6083f99e9593f4b14d7006e7cb45
+      figures/poisson-interval-profiles.png: 035c6780e3ad1254d0b2aa00f93ef73802907905b21e49d5ee09573f1c65e964
+  q08-3ff72931b3b7:
+    comparison: The image potential and Fourier multiplier both give the normalized
+      Poisson kernel. The four older statements distinguish pointwise vertical decay
+      from bounded uniqueness, including a nonzero constant trace in the more extensive
+      2018 printing. In the newer printing the stored answer gives the nonzero-mean
+      1/y tail, which the auditor also derives.
+    fresh_derivation: "# Independent derivation\n\nWrite $u=\\psi$ for the harmonic\
+      \ field.\n\n\nWrite the interior observation point as $(x,y)$, the source variable\
+      \ as $(\\xi,\\eta)$, and take $\\Delta G=+\\delta$. Reflect the pole across\
+      \ the boundary. Since $\\Delta\\log|X|=2\\pi\\delta_0$, the opposite-sign image\
+      \ gives\n\\[\nG(\\xi,\\eta;x,y)=\\frac1{4\\pi}\\log\n \\frac{(\\xi-x)^2+(\\\
+      eta-y)^2}{(\\xi-x)^2+(\\eta+y)^2}.\n\\]\nIt vanishes at $\\eta=0$ and the reflected\
+      \ pole is outside the half-plane. On the boundary, $\\partial_n=-\\partial_\\\
+      eta$. Differentiation gives $\\partial_nG=y/\\{\\pi[(\\xi-x)^2+y^2]\\}$. Green's\
+      \ identity, with the outer semicircle contribution tending to zero, therefore\
+      \ gives $u=P_y*f$, where\n\\[\nP_y(s)=\\frac{y}{\\pi(s^2+y^2)},\\qquad\nu(x,y)=\\\
+      int_{\\mathbb R}P_y(x-\\xi)f(\\xi)\\,d\\xi .\n\\]\nFor the convention $-\\Delta\
+      \ G=\\delta$, reverse the sign of $G$ and use $-\\partial_nG$ in the representation.\
+      \ The kernel has integral one by an arctangent evaluation. Its mass outside\
+      \ $|s|<d$ tends to zero for any $d>0$, so convolution recovers bounded boundary\
+      \ values at continuity points.\n\nIndependently transform using $\\widehat u(k,y)=\\\
+      int e^{-ikx}u(x,y)\\,dx$. The harmonic equation is $\\widehat u_{yy}-k^2\\widehat\
+      \ u=0$. In the usual admissible decaying or bounded-transform class, the growing\
+      \ mode vanishes for $k\\ne0$, and the boundary trace gives $\\widehat u=\\widehat\
+      \ f(k)e^{-|k|y}$. The inverse factor is\n\\[\n\\frac1{2\\pi}\\int_{\\mathbb\
+      \ R} e^{iks-|k|y}\\,dk\n=\\frac1\\pi\\Re\\int_0^\\infty e^{-(y-is)k}\\,dk=P_y(s).\n\
+      \\]\nThis yields the same convolution. At $k=0$ the transformed ODE allows an\
+      \ affine function of $y$; the continuous multiplier has value one there. For\
+      \ integrable transforms a single frequency does not alter Fourier inversion.\
+      \ A constant spatial mode, if present as an atom, must be handled separately.\n\
+      \nFor $a>0$ and the prescribed step, integrate over $[-a,a]$. With principal\
+      \ arctangents,\n\\[\nu(x,y)=\\frac{\\psi_0}{\\pi}\\left(\\arctan\\frac{a-x}{y}+\n\
+      \                                 \\arctan\\frac{a+x}{y}\\right).\n\\]\nFor\
+      \ $\\psi_0>0$ each horizontal profile is even, has a maximum at zero of $2\\\
+      psi_0\\arctan(a/y)/\\pi$, and decreases on $x>0$: there the derivative is proportional\
+      \ to $y/[(x+a)^2+y^2]-y/[(x-a)^2+y^2]<0$. Small $y$ smooths the two step edges;\
+      \ large $y$ gives a broad low hump, asymptotic to $2a\\psi_0y/[\\pi(x^2+y^2)]$\
+      \ when $x/y$ stays bounded. Along both edges\n\\[\nu(\\pm a,y)=\\frac{\\psi_0}{\\\
+      pi}\\arctan(2a/y),\n\\]\nwhich decreases from $\\psi_0/2$ to zero. The open\
+      \ half-plane trace at either jump is the midpoint; the prescribed value at the\
+      \ single point does not affect the integral. The signs of all profiles reverse\
+      \ for $\\psi_0<0$.\n\nHorizontal sketches of $u/\\psi_0$ at $y/a=0.12$ (1),\
+      \ $0.6$ (2) and $2$ (3), with shared pixels marked *.\n\n    1.00 |        \
+      \                                           \n    0.91 |                   \
+      \ 11111111111                    \n    0.82 |                  11          \
+      \ 11                  \n    0.73 |                                         \
+      \          \n    0.64 |                     222222222                     \n\
+      \    0.55 |                 1 22         22 1                 \n    0.45 | \
+      \                22             22                 \n    0.36 |            \
+      \    2                 2                \n    0.27 |              2**33333333333333333**2\
+      \              \n    0.18 |      3333****31                   13****3333   \
+      \   \n    0.09 |3*****2222  111                     111  2222*****3\n    0.00\
+      \ |*11111111111                           11111111111*\n         +---------------------------------------------------\n\
+      \          -3                       0                        3   x/a\n\nThe\
+      \ common edge profile $u(\\pm a,y)/\\psi_0$.\n\n    0.50 |oo               \
+      \                                  \n    0.45 |  oo                        \
+      \                       \n    0.41 |    ooo                                \
+      \            \n    0.36 |       ooo                                        \
+      \ \n    0.32 |          ooo                                      \n    0.27\
+      \ |             oooo                                  \n    0.23 |         \
+      \        oooooo                            \n    0.18 |                    \
+      \   oooooooo                    \n    0.14 |                               oooooooooooooo\
+      \      \n    0.09 |                                             oooooo\n   \
+      \ 0.05 |                                                   \n    0.00 |    \
+      \                                               \n         +---------------------------------------------------\n\
+      \           0                       3                        6   y/a\n\nA vertical\
+      \ decay condition read only pointwise in $x$ supplies no lateral growth bound.\
+      \ For example $\\Im e^{(x+iy)^2}=e^{x^2-y^2}\\sin(2xy)$ is a nonzero harmonic\
+      \ function that vanishes on the boundary and tends to zero on every fixed vertical\
+      \ line. Boundedness, a suitable growth restriction, or an admissible Fourier/Green\
+      \ representation is needed for the asserted uniqueness. For $f\\in L^1$, the\
+      \ displayed Poisson extension obeys $|u|\\le\\|f\\|_1/(\\pi y)$.\n\nFor (v)\
+      \ the unit kernel mass gives the constant extension $\\psi_0$ at all heights.\
+      \ In the bounded harmonic class this is the unique solution with that trace\
+      \ (odd reflection of the difference is bounded entire harmonic and hence constant\
+      \ zero). It satisfies the stated decay only for $\\psi_0=0$.\n\nIf the only\
+      \ condition at infinity is pointwise vertical decay with no restriction as $|x|$\
+      \ grows, a different phenomenon occurs. Put $z=x+iy$ and $A(z)=\\int_0^z e^{w^2}\\\
+      ,dw$. The harmonic function $\\psi_0[1-2\\Im A(z)/\\sqrt\\pi]$ has constant\
+      \ boundary trace because $A$ is real on the real axis. Along the path $0\\to\
+      \ iy\\to x+iy$, the first segment tends to $i\\sqrt\\pi/2$ and the second is\
+      \ bounded in modulus by $|x|e^{x^2-y^2}$ for fixed $x$. This solution decays\
+      \ pointwise vertically and grows laterally. Adding multiples of the previous\
+      \ zero-trace example gives nonuniqueness in this unrestricted class.\n"
+    fresh_sha256: c34d28ae3d41ec3c2faf790dfb36ca3ec01af510173a5dab7b9732b3afb32d99
+    primary_sha256: 74c3d363082b06588b73c9a0908df4d5714a67aa3c96f572c50fcef6674ee1f2
+    check_sha256: 3c77bc08ca758c33786dc11aa65981670b91aeeca81a09c929d366147ae3508c
+    check_result: Image derivative, Poisson kernel and interval profiles checked.
+    exit_code: 0
+    source_hashes:
+      question.tex: 3ff72931b3b71afc34ea2c044c5c4072f69fa1c8c034b2d5af6733b4afdd0576
+      solution.tex: 74c3d363082b06588b73c9a0908df4d5714a67aa3c96f572c50fcef6674ee1f2
+      plot.py: b83a6db999273a65e3dd78068cc029f7d2ed6083f99e9593f4b14d7006e7cb45
+      figures/poisson-interval-profiles.png: 035c6780e3ad1254d0b2aa00f93ef73802907905b21e49d5ee09573f1c65e964
+  q08-4c961b79e82f:
+    comparison: The image potential and Fourier multiplier both give the normalized
+      Poisson kernel. The four older statements distinguish pointwise vertical decay
+      from bounded uniqueness, including a nonzero constant trace in the more extensive
+      2018 printing. In the newer printing the stored answer gives the nonzero-mean
+      1/y tail, which the auditor also derives.
+    fresh_derivation: "# Independent derivation\n\nWrite $u=\\psi$ for the harmonic\
+      \ field.\n\n\nWrite the interior observation point as $(x,y)$, the source variable\
+      \ as $(\\xi,\\eta)$, and take $\\Delta G=+\\delta$. Reflect the pole across\
+      \ the boundary. Since $\\Delta\\log|X|=2\\pi\\delta_0$, the opposite-sign image\
+      \ gives\n\\[\nG(\\xi,\\eta;x,y)=\\frac1{4\\pi}\\log\n \\frac{(\\xi-x)^2+(\\\
+      eta-y)^2}{(\\xi-x)^2+(\\eta+y)^2}.\n\\]\nIt vanishes at $\\eta=0$ and the reflected\
+      \ pole is outside the half-plane. On the boundary, $\\partial_n=-\\partial_\\\
+      eta$. Differentiation gives $\\partial_nG=y/\\{\\pi[(\\xi-x)^2+y^2]\\}$. Green's\
+      \ identity, with the outer semicircle contribution tending to zero, therefore\
+      \ gives $u=P_y*f$, where\n\\[\nP_y(s)=\\frac{y}{\\pi(s^2+y^2)},\\qquad\nu(x,y)=\\\
+      int_{\\mathbb R}P_y(x-\\xi)f(\\xi)\\,d\\xi .\n\\]\nFor the convention $-\\Delta\
+      \ G=\\delta$, reverse the sign of $G$ and use $-\\partial_nG$ in the representation.\
+      \ The kernel has integral one by an arctangent evaluation. Its mass outside\
+      \ $|s|<d$ tends to zero for any $d>0$, so convolution recovers bounded boundary\
+      \ values at continuity points.\n\nIndependently transform using $\\widehat u(k,y)=\\\
+      int e^{-ikx}u(x,y)\\,dx$. The harmonic equation is $\\widehat u_{yy}-k^2\\widehat\
+      \ u=0$. In the usual admissible decaying or bounded-transform class, the growing\
+      \ mode vanishes for $k\\ne0$, and the boundary trace gives $\\widehat u=\\widehat\
+      \ f(k)e^{-|k|y}$. The inverse factor is\n\\[\n\\frac1{2\\pi}\\int_{\\mathbb\
+      \ R} e^{iks-|k|y}\\,dk\n=\\frac1\\pi\\Re\\int_0^\\infty e^{-(y-is)k}\\,dk=P_y(s).\n\
+      \\]\nThis yields the same convolution. At $k=0$ the transformed ODE allows an\
+      \ affine function of $y$; the continuous multiplier has value one there. For\
+      \ integrable transforms a single frequency does not alter Fourier inversion.\
+      \ A constant spatial mode, if present as an atom, must be handled separately.\n\
+      \nFor $a>0$ and the prescribed step, integrate over $[-a,a]$. With principal\
+      \ arctangents,\n\\[\nu(x,y)=\\frac{\\psi_0}{\\pi}\\left(\\arctan\\frac{a-x}{y}+\n\
+      \                                 \\arctan\\frac{a+x}{y}\\right).\n\\]\nFor\
+      \ $\\psi_0>0$ each horizontal profile is even, has a maximum at zero of $2\\\
+      psi_0\\arctan(a/y)/\\pi$, and decreases on $x>0$: there the derivative is proportional\
+      \ to $y/[(x+a)^2+y^2]-y/[(x-a)^2+y^2]<0$. Small $y$ smooths the two step edges;\
+      \ large $y$ gives a broad low hump, asymptotic to $2a\\psi_0y/[\\pi(x^2+y^2)]$\
+      \ when $x/y$ stays bounded. Along both edges\n\\[\nu(\\pm a,y)=\\frac{\\psi_0}{\\\
+      pi}\\arctan(2a/y),\n\\]\nwhich decreases from $\\psi_0/2$ to zero. The open\
+      \ half-plane trace at either jump is the midpoint; the prescribed value at the\
+      \ single point does not affect the integral. The signs of all profiles reverse\
+      \ for $\\psi_0<0$.\n\nHorizontal sketches of $u/\\psi_0$ at $y/a=0.12$ (1),\
+      \ $0.6$ (2) and $2$ (3), with shared pixels marked *.\n\n    1.00 |        \
+      \                                           \n    0.91 |                   \
+      \ 11111111111                    \n    0.82 |                  11          \
+      \ 11                  \n    0.73 |                                         \
+      \          \n    0.64 |                     222222222                     \n\
+      \    0.55 |                 1 22         22 1                 \n    0.45 | \
+      \                22             22                 \n    0.36 |            \
+      \    2                 2                \n    0.27 |              2**33333333333333333**2\
+      \              \n    0.18 |      3333****31                   13****3333   \
+      \   \n    0.09 |3*****2222  111                     111  2222*****3\n    0.00\
+      \ |*11111111111                           11111111111*\n         +---------------------------------------------------\n\
+      \          -3                       0                        3   x/a\n\nThe\
+      \ common edge profile $u(\\pm a,y)/\\psi_0$.\n\n    0.50 |oo               \
+      \                                  \n    0.45 |  oo                        \
+      \                       \n    0.41 |    ooo                                \
+      \            \n    0.36 |       ooo                                        \
+      \ \n    0.32 |          ooo                                      \n    0.27\
+      \ |             oooo                                  \n    0.23 |         \
+      \        oooooo                            \n    0.18 |                    \
+      \   oooooooo                    \n    0.14 |                               oooooooooooooo\
+      \      \n    0.09 |                                             oooooo\n   \
+      \ 0.05 |                                                   \n    0.00 |    \
+      \                                               \n         +---------------------------------------------------\n\
+      \           0                       3                        6   y/a\n\nA vertical\
+      \ decay condition read only pointwise in $x$ supplies no lateral growth bound.\
+      \ For example $\\Im e^{(x+iy)^2}=e^{x^2-y^2}\\sin(2xy)$ is a nonzero harmonic\
+      \ function that vanishes on the boundary and tends to zero on every fixed vertical\
+      \ line. Boundedness, a suitable growth restriction, or an admissible Fourier/Green\
+      \ representation is needed for the asserted uniqueness. For $f\\in L^1$, the\
+      \ displayed Poisson extension obeys $|u|\\le\\|f\\|_1/(\\pi y)$.\n"
+    fresh_sha256: 3f3d4c06fc6fdfb039d5c5062d61578007efa6a84abb5f2979d46444ca5011a2
+    primary_sha256: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
+    check_sha256: bfc3a74c3517b7bee9d3e72e7631256a52acf2f2112263ebdf4f2c938c2ac390
+    check_result: Image derivative, Poisson kernel and interval profiles checked.
+    exit_code: 0
+    source_hashes:
+      question.tex: 4c961b79e82fa653d9d252385f17b559bd6576c890593a6e345bdc31337ec857
+      solution.tex: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
+      plot.py: b83a6db999273a65e3dd78068cc029f7d2ed6083f99e9593f4b14d7006e7cb45
+      figures/poisson-interval-profiles.png: 035c6780e3ad1254d0b2aa00f93ef73802907905b21e49d5ee09573f1c65e964
+  q08-e0e73c30adf2:
+    comparison: The image potential and Fourier multiplier both give the normalized
+      Poisson kernel. The four older statements distinguish pointwise vertical decay
+      from bounded uniqueness, including a nonzero constant trace in the more extensive
+      2018 printing. In the newer printing the stored answer gives the nonzero-mean
+      1/y tail, which the auditor also derives.
+    fresh_derivation: "# Independent derivation\n\nWrite the interior observation\
+      \ point as $(x,y)$, the source variable as $(\\xi,\\eta)$, and take $\\Delta\
+      \ G=+\\delta$. Reflect the pole across the boundary. Since $\\Delta\\log|X|=2\\\
+      pi\\delta_0$, the opposite-sign image gives\n\\[\nG(\\xi,\\eta;x,y)=\\frac1{4\\\
+      pi}\\log\n \\frac{(\\xi-x)^2+(\\eta-y)^2}{(\\xi-x)^2+(\\eta+y)^2}.\n\\]\nIt\
+      \ vanishes at $\\eta=0$ and the reflected pole is outside the half-plane. On\
+      \ the boundary, $\\partial_n=-\\partial_\\eta$. Differentiation gives $\\partial_nG=y/\\\
+      {\\pi[(\\xi-x)^2+y^2]\\}$. Green's identity, with the outer semicircle contribution\
+      \ tending to zero, therefore gives $u=P_y*f$, where\n\\[\nP_y(s)=\\frac{y}{\\\
+      pi(s^2+y^2)},\\qquad\nu(x,y)=\\int_{\\mathbb R}P_y(x-\\xi)f(\\xi)\\,d\\xi .\n\
+      \\]\nFor the convention $-\\Delta G=\\delta$, reverse the sign of $G$ and use\
+      \ $-\\partial_nG$ in the representation. The kernel has integral one by an arctangent\
+      \ evaluation. Its mass outside $|s|<d$ tends to zero for any $d>0$, so convolution\
+      \ recovers bounded boundary values at continuity points.\n\nIndependently transform\
+      \ using $\\widehat u(k,y)=\\int e^{-ikx}u(x,y)\\,dx$. The harmonic equation\
+      \ is $\\widehat u_{yy}-k^2\\widehat u=0$. In the usual admissible decaying or\
+      \ bounded-transform class, the growing mode vanishes for $k\\ne0$, and the boundary\
+      \ trace gives $\\widehat u=\\widehat f(k)e^{-|k|y}$. The inverse factor is\n\
+      \\[\n\\frac1{2\\pi}\\int_{\\mathbb R} e^{iks-|k|y}\\,dk\n=\\frac1\\pi\\Re\\\
+      int_0^\\infty e^{-(y-is)k}\\,dk=P_y(s).\n\\]\nThis yields the same convolution.\
+      \ At $k=0$ the transformed ODE allows an affine function of $y$; the continuous\
+      \ multiplier has value one there. For integrable transforms a single frequency\
+      \ does not alter Fourier inversion. A constant spatial mode, if present as an\
+      \ atom, must be handled separately.\n\nHere Green's representation is precisely\
+      \ the supplied $(\\ddagger)$; the stated decay and appropriate regularity allow\
+      \ the large semicircle to be discarded. The formula is necessary whenever a\
+      \ solution in the specified class exists. If “rapidly” means faster than every\
+      \ power, generic smooth compactly supported boundary data do not qualify: for\
+      \ integrable $f$, $y u(0,y)\\to\\pi^{-1}\\int f$ by dominated convergence. Nonzero\
+      \ mean already prevents such decay.\n"
+    fresh_sha256: 9e5b58a50b89fde81f0b87070bbb59e0c4bebbca5d42e347f1a2f56fb86cafe8
+    primary_sha256: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+    check_sha256: 0f5a3b90fbac397ba341c3c58fd4e49443b95e0f70cb770cd8b970114afef6a8
+    check_result: Image normal derivative, Poisson kernel PDE, inversion and boundary
+      mass verified.
+    exit_code: 0
+    source_hashes:
+      question.tex: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+      solution.tex: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+  q11-3f5f1fcd4d51:
+    comparison: An impulse initially gives a V/(2c) plateau. The reflected negative
+      impulse cancels it on the half-line after the reflected front arrives. Both
+      distinguish the unrestricted whole-line displacement.
+    fresh_derivation: "# Independent derivation\n\nMeasure transverse displacement\
+      \ $u$ relative to the equilibrium string. For constant tension $T$ and linear\
+      \ density $\\mu$, set $c=\\sqrt{T/\\mu}>0$. For $t>0$, $u_{tt}=c^2u_{xx}$, with\
+      \ zero initial displacement and velocity $g$. Integrating the two characteristic\
+      \ waves, or d'Alembert's formula for mollified $g$ followed by a distributional\
+      \ limit, gives\n\\[\nu_{\\mathbb R}(x,t)=\\frac1{2c}\\int_{x-ct}^{x+ct}g(s)\\\
+      ,ds\n                  =\\frac{V}{2c}H(ct-|x-x_0|).\n\\]\nThus on the full string\
+      \ the displacement at a fixed location stays $V/(2c)$ after the direct front\
+      \ passes. The initial velocity follows distributionally since, for a smooth\
+      \ test function $p$, $\\int_{x_0-ct}^{x_0+ct}p(x)\\,dx/(2ct)\\to p(x_0)$. The\
+      \ choice $H(0)=1/2$ corresponds to symmetric mollification; values on wavefronts\
+      \ do not affect the weak solution.\n\nOn $x>0$, with $x_0>0$ and the endpoint\
+      \ fixed, make the initial data odd. The whole-line velocity becomes $V[\\delta(s-x_0)-\\\
+      delta(s+x_0)]$. Its odd solution restricts to\n\\[\nu_+(x,t)=\\frac V{2c}[H(ct-|x-x_0|)-H(ct-x-x_0)],\\\
+      qquad x\\ge0.\n\\]\nAt the support of the physical impulse this has the required\
+      \ velocity, and the two terms coincide at $x=0$ for every $t$. The solution\
+      \ agrees with the free string until the reflected wave arrives at the given\
+      \ observer at $t=(x+x_0)/c$. Between direct and reflected arrivals it equals\
+      \ $V/(2c)$ and afterward it is zero. Reflection at the fixed end reverses the\
+      \ displacement. The first encounter with the endpoint occurs at $t=x_0/c$. Equivalently\
+      \ the nonzero interval is $|x_0-ct|<x<x_0+ct$ (excluding the fronts).\n"
+    fresh_sha256: 66720102492039ad972da7353755687b49f238340c0c9de7439ecb3629da6746
+    primary_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
+    check_sha256: a579c5b168a0b9461589b4439ddb2a82452e3cdb205af8d7b0ede93851e0cb1a
+    check_result: Wave equation and distributional initial-data checks passed.
+    exit_code: 0
+    source_hashes:
+      question.tex: 3f5f1fcd4d511faf8196a1acb8e2e956173612fe92facc05256d024e02ad9e4a
+      solution.tex: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
+  q11-ce862acc8aa3:
+    comparison: An impulse initially gives a V/(2c) plateau. The reflected negative
+      impulse cancels it on the half-line after the reflected front arrives. Both
+      distinguish the unrestricted whole-line displacement.
+    fresh_derivation: "# Independent derivation\n\nMeasure transverse displacement\
+      \ $u$ relative to the equilibrium string. For constant tension $T$ and linear\
+      \ density $\\mu$, set $c=\\sqrt{T/\\mu}>0$. For $t>0$, $u_{tt}=c^2u_{xx}$, with\
+      \ zero initial displacement and velocity $g$. Integrating the two characteristic\
+      \ waves, or d'Alembert's formula for mollified $g$ followed by a distributional\
+      \ limit, gives\n\\[\nu_{\\mathbb R}(x,t)=\\frac1{2c}\\int_{x-ct}^{x+ct}g(s)\\\
+      ,ds\n                  =\\frac{V}{2c}H(ct-|x-x_0|).\n\\]\nThus on the full string\
+      \ the displacement at a fixed location stays $V/(2c)$ after the direct front\
+      \ passes. The initial velocity follows distributionally since, for a smooth\
+      \ test function $p$, $\\int_{x_0-ct}^{x_0+ct}p(x)\\,dx/(2ct)\\to p(x_0)$. The\
+      \ choice $H(0)=1/2$ corresponds to symmetric mollification; values on wavefronts\
+      \ do not affect the weak solution.\n\nOn $x>0$, with $x_0>0$ and the endpoint\
+      \ fixed, make the initial data odd. The whole-line velocity becomes $V[\\delta(s-x_0)-\\\
+      delta(s+x_0)]$. Its odd solution restricts to\n\\[\nu_+(x,t)=\\frac V{2c}[H(ct-|x-x_0|)-H(ct-x-x_0)],\\\
+      qquad x\\ge0.\n\\]\nAt the support of the physical impulse this has the required\
+      \ velocity, and the two terms coincide at $x=0$ for every $t$. The solution\
+      \ agrees with the free string until the reflected wave arrives at the given\
+      \ observer at $t=(x+x_0)/c$. Between direct and reflected arrivals it equals\
+      \ $V/(2c)$ and afterward it is zero. Reflection at the fixed end reverses the\
+      \ displacement. The first encounter with the endpoint occurs at $t=x_0/c$. Equivalently\
+      \ the nonzero interval is $|x_0-ct|<x<x_0+ct$ (excluding the fronts).\n\nIf\
+      \ the pinned string extends to negative $x$, its left half has homogeneous initial\
+      \ and endpoint data and stays at rest. This gives the displacement on the entire\
+      \ pinned string.\n"
+    fresh_sha256: 65db97d5646f4679f0720b5700e81f48d4ce4f62e0581ce1f07ae7a7b6fcd114
+    primary_sha256: f928875ee3431f1ad14fe200dc76dba69ec4417808d8b79a59938100f5c95b58
+    check_sha256: a579c5b168a0b9461589b4439ddb2a82452e3cdb205af8d7b0ede93851e0cb1a
+    check_result: Wave equation and distributional initial-data checks passed.
+    exit_code: 0
+    source_hashes:
+      question.tex: ce862acc8aa38ac34daa02c6b50a03f52a84a5b124702a2363aaf9c67994ae97
+      solution.tex: f928875ee3431f1ad14fe200dc76dba69ec4417808d8b79a59938100f5c95b58
+  q11-d54a7a50f09d:
+    comparison: An impulse initially gives a V/(2c) plateau. The reflected negative
+      impulse cancels it on the half-line after the reflected front arrives. Both
+      distinguish the unrestricted whole-line displacement.
+    fresh_derivation: "# Independent derivation\n\nMeasure transverse displacement\
+      \ $u$ relative to the equilibrium string. For constant tension $T$ and linear\
+      \ density $\\mu$, set $c=\\sqrt{T/\\mu}>0$. For $t>0$, $u_{tt}=c^2u_{xx}$, with\
+      \ zero initial displacement and velocity $g$. Integrating the two characteristic\
+      \ waves, or d'Alembert's formula for mollified $g$ followed by a distributional\
+      \ limit, gives\n\\[\nu_{\\mathbb R}(x,t)=\\frac1{2c}\\int_{x-ct}^{x+ct}g(s)\\\
+      ,ds\n                  =\\frac{V}{2c}H(ct-|x-x_0|).\n\\]\nThus on the full string\
+      \ the displacement at a fixed location stays $V/(2c)$ after the direct front\
+      \ passes. The initial velocity follows distributionally since, for a smooth\
+      \ test function $p$, $\\int_{x_0-ct}^{x_0+ct}p(x)\\,dx/(2ct)\\to p(x_0)$. The\
+      \ choice $H(0)=1/2$ corresponds to symmetric mollification; values on wavefronts\
+      \ do not affect the weak solution.\n\nOn $x>0$, with $x_0>0$ and the endpoint\
+      \ fixed, make the initial data odd. The whole-line velocity becomes $V[\\delta(s-x_0)-\\\
+      delta(s+x_0)]$. Its odd solution restricts to\n\\[\nu_+(x,t)=\\frac V{2c}[H(ct-|x-x_0|)-H(ct-x-x_0)],\\\
+      qquad x\\ge0.\n\\]\nAt the support of the physical impulse this has the required\
+      \ velocity, and the two terms coincide at $x=0$ for every $t$. The solution\
+      \ agrees with the free string until the reflected wave arrives at the given\
+      \ observer at $t=(x+x_0)/c$. Between direct and reflected arrivals it equals\
+      \ $V/(2c)$ and afterward it is zero. Reflection at the fixed end reverses the\
+      \ displacement. The first encounter with the endpoint occurs at $t=x_0/c$. Equivalently\
+      \ the nonzero interval is $|x_0-ct|<x<x_0+ct$ (excluding the fronts).\n"
+    fresh_sha256: 66720102492039ad972da7353755687b49f238340c0c9de7439ecb3629da6746
+    primary_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
+    check_sha256: a579c5b168a0b9461589b4439ddb2a82452e3cdb205af8d7b0ede93851e0cb1a
+    check_result: Wave equation and distributional initial-data checks passed.
+    exit_code: 0
+    source_hashes:
+      question.tex: d54a7a50f09dc2f65c170394c8a3b4736f6c23a7f007cb93cd3867ff43e2e8af
+      solution.tex: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
+  q11-7bf880d87b8a:
+    comparison: An impulse initially gives a V/(2c) plateau. The reflected negative
+      impulse cancels it on the half-line after the reflected front arrives. Both
+      distinguish the unrestricted whole-line displacement.
+    fresh_derivation: "# Independent derivation\n\nMeasure transverse displacement\
+      \ $u$ relative to the equilibrium string. For constant tension $T$ and linear\
+      \ density $\\mu$, set $c=\\sqrt{T/\\mu}>0$. For $t>0$, $u_{tt}=c^2u_{xx}$, with\
+      \ zero initial displacement and velocity $g$. Integrating the two characteristic\
+      \ waves, or d'Alembert's formula for mollified $g$ followed by a distributional\
+      \ limit, gives\n\\[\nu_{\\mathbb R}(x,t)=\\frac1{2c}\\int_{x-ct}^{x+ct}g(s)\\\
+      ,ds\n                  =\\frac{V}{2c}H(ct-|x-x_0|).\n\\]\nThus on the full string\
+      \ the displacement at a fixed location stays $V/(2c)$ after the direct front\
+      \ passes. The initial velocity follows distributionally since, for a smooth\
+      \ test function $p$, $\\int_{x_0-ct}^{x_0+ct}p(x)\\,dx/(2ct)\\to p(x_0)$. The\
+      \ choice $H(0)=1/2$ corresponds to symmetric mollification; values on wavefronts\
+      \ do not affect the weak solution.\n\nOn $x>0$, with $x_0>0$ and the endpoint\
+      \ fixed, make the initial data odd. The whole-line velocity becomes $V[\\delta(s-x_0)-\\\
+      delta(s+x_0)]$. Its odd solution restricts to\n\\[\nu_+(x,t)=\\frac V{2c}[H(ct-|x-x_0|)-H(ct-x-x_0)],\\\
+      qquad x\\ge0.\n\\]\nAt the support of the physical impulse this has the required\
+      \ velocity, and the two terms coincide at $x=0$ for every $t$. The solution\
+      \ agrees with the free string until the reflected wave arrives at the given\
+      \ observer at $t=(x+x_0)/c$. Between direct and reflected arrivals it equals\
+      \ $V/(2c)$ and afterward it is zero. Reflection at the fixed end reverses the\
+      \ displacement. The first encounter with the endpoint occurs at $t=x_0/c$. Equivalently\
+      \ the nonzero interval is $|x_0-ct|<x<x_0+ct$ (excluding the fronts).\n"
+    fresh_sha256: 66720102492039ad972da7353755687b49f238340c0c9de7439ecb3629da6746
+    primary_sha256: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+    check_sha256: 23695e9816d94f59cd8ca2144ebf8d9dabbf4553f2606c9ae9d548edf82c407e
+    check_result: Boundary cancellation, reflected arrival time and weak initial impulse
+      verified.
+    exit_code: 0
+    source_hashes:
+      question.tex: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+      solution.tex: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+delivery:
+  canonical-qx30:
+    year: canonical
+    unit: qx30
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 47
+    rasters:
+      canonical-qx30-p47.png: 46f358e6bd77d02f4765de7a76057e7be8385c4055fdc97f8ae358537f666654
+    html: site/private/questions/IB/methods/sheet-4/qx30/index.html
+    html_sha256: e2d934be8efae30d264c57c7a39f4a439c0b3252ce3516c1e9c3749bdef7f78d
+    browser:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 7b0d4aa55a454b7ff368fb3f4425489b0729bb57226a995f9b54e871d4293721
+  2015-16-qx30:
+    year: 2015-16
+    unit: qx30
+    pdf: build/IB-methods-sheet-4-2015-16/main.pdf
+    pdf_sha256: b16924814366001c273fd56deb46eeb690823a967844c43c781442b709560579
+    pages:
+    - 10
+    rasters:
+      2015-16-qx30-p10.png: cce3bf00604dff440c7f4285c122bab26c133ef72685705e451456188c2ee6a9
+    html: site/private/collections/IB/methods/sheet-4/2015-16.html
+    html_sha256: 1398d56a36b1c0c6ef902362ea8d5d452c54695dcb42c7b78ddae3e912118fdd
+    browser:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 6d290f9e28b3024d6c3281c05033511e8d6b9af8dcfed0c7b511f6ba5ac8d112
+  2016-17-qx30:
+    year: 2016-17
+    unit: qx30
+    pdf: build/IB-methods-sheet-4-2016-17/main.pdf
+    pdf_sha256: 53950c2ba38bcdd4d31df70c00a894baa1d154134c3806c48b61734b4f23927a
+    pages:
+    - 9
+    rasters:
+      2016-17-qx30-p9.png: e25ccf8ce0151479a502f6b547addc7b7b471bdb13fc1a055007d19d6f474970
+    html: site/private/collections/IB/methods/sheet-4/2016-17.html
+    html_sha256: 2a735b9d84923b79561f8f737ab112c59dee0f8518a448e20bb2ebfd9e720491
+    browser:
+      total: 31
+      rendered: 31
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 17388d85c02cf782bae6e54b13ece50fb52e63279040828e073565efbcb975df
+  2018-19-qx30:
+    year: 2018-19
+    unit: qx30
+    pdf: build/IB-methods-sheet-4-2018-19/main.pdf
+    pdf_sha256: e3b54854bfb5b1045f3d7490808e7aa245cbb9a61e99c6c52689da7b4a515e95
+    pages:
+    - 7
+    rasters:
+      2018-19-qx30-p7.png: 35cd672136c8651985181569c97d0f655522116c3dda6b7f1762876c2448b20f
+    html: site/private/collections/IB/methods/sheet-4/2018-19.html
+    html_sha256: 77a03cc9aeb502fc146c0c10fb337267c339c82df6d1b31e5cc0d83fb03c24f6
+    browser:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 8eea262bd5309da5ea4d3300a39701c413e3ef4b512ab24f8fec7c7ba8c47f40
+  2020-21-qx30:
+    year: 2020-21
+    unit: qx30
+    pdf: build/IB-methods-sheet-4-2020-21/main.pdf
+    pdf_sha256: e8558f6781b91471a5cc406f8be10997b2f848be46e831462572354d6c4f0db7
+    pages:
+    - 6
+    rasters:
+      2020-21-qx30-p6.png: 1352d2df74d1ad2a3bbb51221409eb4fcb01195f87f0aa585ea192073d84289c
+    html: site/private/collections/IB/methods/sheet-4/2020-21.html
+    html_sha256: f9014fd049385c697c6f9d136296ec1a3f5dafdfbd4e88511d733718bd85f033
+    browser:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: b0c04b94ab1f3f2227ea1dfbf1c6160f93ca08c9c502931d48a749a54dda186b
+  2021-22-qx30:
+    year: 2021-22
+    unit: qx30
+    pdf: build/IB-methods-sheet-4-2021-22/main.pdf
+    pdf_sha256: 837905e4afafb9a6c7b0d09642289c7ec10c564b0ebd0abb9e7e118206bd05fd
+    pages:
+    - 6
+    rasters:
+      2021-22-qx30-p6.png: fa56e44bb51c3ba5c65ecc745e9b1f6f24890f14e2e4031398b78e86b9d0a763
+    html: site/private/collections/IB/methods/sheet-4/2021-22.html
+    html_sha256: 3886942676823b36176194e12fea90182e53a5d527de9b9792aae68e548d1755
+    browser:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: f2eb3f83322c7e1d98063bf29fca783e57070c87d583c02e22005d0cacf588c1
+  2022-23-qx30:
+    year: 2022-23
+    unit: qx30
+    pdf: build/IB-methods-sheet-4-2022-23/main.pdf
+    pdf_sha256: 6614a01ff3e604c95e56c70e014f0e1320fa7db4d7e0fb146e2e3467142bf5bf
+    pages:
+    - 6
+    rasters:
+      2022-23-qx30-p6.png: 5562923c3efbf211d0a71f86645b69e70827b56093c3f2517011182bfd0f9fd5
+    html: site/private/collections/IB/methods/sheet-4/2022-23.html
+    html_sha256: 3bf4d306f5b9866808ca662ef93c1d929f5f87c3440ccdfe191401962e1593b7
+    browser:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: f2eb3f83322c7e1d98063bf29fca783e57070c87d583c02e22005d0cacf588c1
+  canonical-qx23:
+    year: canonical
+    unit: qx23
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 40
+    rasters:
+      canonical-qx23-p40.png: d07a098417b6172bc3d474c110ad941148209d1ddc6dda19202001917ac04c8d
+    html: site/private/questions/IB/methods/sheet-4/qx23/index.html
+    html_sha256: 942fdda4dcfad6a29e09f86fade163312f1a32f2cc4b2f39f0999d261e4b6585
+    browser:
+      total: 17
+      rendered: 17
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 04fcd224f81e532b1952e68d5922f9b925cd78b5dc7c9a805ac14ec32a212533
+  2006-07-qx23:
+    year: 2006-07
+    unit: qx23
+    pdf: build/IB-methods-sheet-4-2006-07/main.pdf
+    pdf_sha256: 48d46c1707a0cc4892dacd3fa54f520cfa136c23a6d3e48997e592fbff28cc48
+    pages:
+    - 10
+    rasters:
+      2006-07-qx23-p10.png: 1ce556d282613ecca42eb69f4c2805ee9c31d0b590b9dc929de21d6a43df0f01
+    html: site/private/collections/IB/methods/sheet-4/2006-07.html
+    html_sha256: 7ee59f4cd01bcb51c0c45a4a09cb44b82a2a1d0bf0093d9773ebb25417eed5bf
+    browser:
+      total: 17
+      rendered: 17
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 9b21f3c40f27f750f6b3d548faea28215a6e8f684d72de8935a769b5fe1a5aea
+  2007-08-qx23:
+    year: 2007-08
+    unit: qx23
+    pdf: build/IB-methods-sheet-4-2007-08/main.pdf
+    pdf_sha256: b98768f06a5065ef7b9eec8ad12084c36420193721b87d7c9265403b0f548305
+    pages:
+    - 10
+    rasters:
+      2007-08-qx23-p10.png: 03fb1b41e9ec5e379732cceb2941374ef7f7e0629f8022db7c82a4aaf355f677
+    html: site/private/collections/IB/methods/sheet-4/2007-08.html
+    html_sha256: 3ddb0496d5bea50a9933b1ed7722c6e985529f89417a17725ca59d9224ef3f56
+    browser:
+      total: 17
+      rendered: 17
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 9b21f3c40f27f750f6b3d548faea28215a6e8f684d72de8935a769b5fe1a5aea
+  canonical-qx20:
+    year: canonical
+    unit: qx20
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 37
+    rasters:
+      canonical-qx20-p37.png: 7c123def8ea7ca8f85c3ac854985f955eba09dab8c82144b6cf97fe834865d0d
+    html: site/private/questions/IB/methods/sheet-4/qx20/index.html
+    html_sha256: e469b2220890b930ec429645c0f46f9c2339e4e190aaf3c84347a5b10484e59f
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: bcab3d8eb92c16406ce07c10452beccd51e580aeb0d304adbf0897635c331a2f
+  2006-07-qx20:
+    year: 2006-07
+    unit: qx20
+    pdf: build/IB-methods-sheet-4-2006-07/main.pdf
+    pdf_sha256: 48d46c1707a0cc4892dacd3fa54f520cfa136c23a6d3e48997e592fbff28cc48
+    pages:
+    - 7
+    rasters:
+      2006-07-qx20-p7.png: f6becb765b708719b41f410124dafe5a7045b88fe52c350e3e346c90bd5e2920
+    html: site/private/collections/IB/methods/sheet-4/2006-07.html
+    html_sha256: 7ee59f4cd01bcb51c0c45a4a09cb44b82a2a1d0bf0093d9773ebb25417eed5bf
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: ed87994af81d6b047c1e4ebeb8b23b8677a3b13fdc444c8ca6bc98894d019442
+  2007-08-qx20:
+    year: 2007-08
+    unit: qx20
+    pdf: build/IB-methods-sheet-4-2007-08/main.pdf
+    pdf_sha256: b98768f06a5065ef7b9eec8ad12084c36420193721b87d7c9265403b0f548305
+    pages:
+    - 7
+    rasters:
+      2007-08-qx20-p7.png: 43555a8af8f2e043cbb9d35d0afe94dbfee182fbc0afce9344d0a8e174523945
+    html: site/private/collections/IB/methods/sheet-4/2007-08.html
+    html_sha256: 3ddb0496d5bea50a9933b1ed7722c6e985529f89417a17725ca59d9224ef3f56
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: ed87994af81d6b047c1e4ebeb8b23b8677a3b13fdc444c8ca6bc98894d019442
+  canonical-qx33:
+    year: canonical
+    unit: qx33
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 50
+    rasters:
+      canonical-qx33-p50.png: 49b2db43bbe47d5095cbf99f96e608a334257b5a39fecbb44710e8d87d37d392
+    html: site/private/questions/IB/methods/sheet-4/qx33/index.html
+    html_sha256: ca046ff79dc5563a7023a7788113c567e8078752376eac8e72dc14cae1537842
+    browser:
+      total: 40
+      rendered: 40
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 1a9e7a66ce03d05f8a271b4af78add0e05a64439dc6a8002779672264d95d940
+  2018-19-qx33:
+    year: 2018-19
+    unit: qx33
+    pdf: build/IB-methods-sheet-4-2018-19/main.pdf
+    pdf_sha256: e3b54854bfb5b1045f3d7490808e7aa245cbb9a61e99c6c52689da7b4a515e95
+    pages:
+    - 14
+    - 15
+    rasters:
+      2018-19-qx33-p14.png: 33089d26ab408af9579d7b6784a248ded5fd0e9b44fda7f9323512e9c21b7dc3
+      2018-19-qx33-p15.png: 4aaa6313b0d0ca69b6927a25948fa47fc25ec863b419f232698ea097e4349e54
+    html: site/private/collections/IB/methods/sheet-4/2018-19.html
+    html_sha256: 77a03cc9aeb502fc146c0c10fb337267c339c82df6d1b31e5cc0d83fb03c24f6
+    browser:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 903b4a42cbec70162d1e3c952e1bb17797d99a6f50a2b409698f34d5f0a68eae
+  2020-21-qx33:
+    year: 2020-21
+    unit: qx33
+    pdf: build/IB-methods-sheet-4-2020-21/main.pdf
+    pdf_sha256: e8558f6781b91471a5cc406f8be10997b2f848be46e831462572354d6c4f0db7
+    pages:
+    - 13
+    rasters:
+      2020-21-qx33-p13.png: 383d96c9395dffa641d2a5407c3bf3329a9407338d61102ce7abe451f4b51cbb
+    html: site/private/collections/IB/methods/sheet-4/2020-21.html
+    html_sha256: f9014fd049385c697c6f9d136296ec1a3f5dafdfbd4e88511d733718bd85f033
+    browser:
+      total: 40
+      rendered: 40
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 66668c8451683e140e41b1e129e75bd5af85531df369ece75dce77e0ed8a3654
+  2021-22-qx33:
+    year: 2021-22
+    unit: qx33
+    pdf: build/IB-methods-sheet-4-2021-22/main.pdf
+    pdf_sha256: 837905e4afafb9a6c7b0d09642289c7ec10c564b0ebd0abb9e7e118206bd05fd
+    pages:
+    - 13
+    rasters:
+      2021-22-qx33-p13.png: c9ccaa39e9bf480f14f9e750da7c26e685b526fcbef52e9becf382779e6663c9
+    html: site/private/collections/IB/methods/sheet-4/2021-22.html
+    html_sha256: 3886942676823b36176194e12fea90182e53a5d527de9b9792aae68e548d1755
+    browser:
+      total: 40
+      rendered: 40
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 66668c8451683e140e41b1e129e75bd5af85531df369ece75dce77e0ed8a3654
+  2022-23-qx33:
+    year: 2022-23
+    unit: qx33
+    pdf: build/IB-methods-sheet-4-2022-23/main.pdf
+    pdf_sha256: 6614a01ff3e604c95e56c70e014f0e1320fa7db4d7e0fb146e2e3467142bf5bf
+    pages:
+    - 13
+    rasters:
+      2022-23-qx33-p13.png: 01e86ebd942833fe85129c1b20a337ae3bb795688f034241b29911a0d820c7dd
+    html: site/private/collections/IB/methods/sheet-4/2022-23.html
+    html_sha256: 3bf4d306f5b9866808ca662ef93c1d929f5f87c3440ccdfe191401962e1593b7
+    browser:
+      total: 40
+      rendered: 40
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 66668c8451683e140e41b1e129e75bd5af85531df369ece75dce77e0ed8a3654
+  canonical-q05:
+    year: canonical
+    unit: q05
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 5
+    rasters:
+      canonical-q05-p5.png: 8f8a34c19505c7d5f22ccfa3258367a28c0f169c04b4728700688f8b35216986
+    html: site/private/questions/IB/methods/sheet-4/q05/index.html
+    html_sha256: b9644d84efd3c40ac08e839ac5c1d9707c32152e772b6e2bb95a00731db890f9
+    browser:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 97a687861712036a2d97e3ab72a5bf768801be99f4531dd217cabd7404494c72
+  2023-24-q05:
+    year: 2023-24
+    unit: q05
+    pdf: build/IB-methods-sheet-4-2023-24/main.pdf
+    pdf_sha256: b2a408e87d907417045f70aff3c11c5c629f9491e302bb7124a4f5debf2f795c
+    pages:
+    - 5
+    rasters:
+      2023-24-q05-p5.png: 9f37afd1c2595be27d332a958298f68dd3b4ccdab3c100e67d78c43ead351c07
+    html: site/private/collections/IB/methods/sheet-4/2023-24.html
+    html_sha256: 92970ba8393868cfef9146341c5d868bfb0303e267a0059e26cebcefa247c7ce
+    browser:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 95775e796a51600f40749b9133ff6aeaffdfca6b8f5ab87fd95eeff34f1ffdfc
+  2025-26-q05:
+    year: 2025-26
+    unit: q05
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: caae296d6619522403042ff8ac62f3d0979ce5856160ccbd61b9f256ef5599d6
+    pages:
+    - 5
+    rasters:
+      2025-26-q05-p5.png: 167ce67afc08105aa597148de2489e59553a13a54dafd7ee4f8773712ce98bef
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: eac5d1857ba9451c552b3bdb5dc84cfbc140e2acd2ed6d82f7836852963868d6
+    browser:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 8437a0b2f6ec4446b2b5b7bdda0dee90aa2a8489e8135b90ff0d46a4e887c1cd
+  2026-27-q05:
+    year: 2026-27
+    unit: q05
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 0f7db07c06fc243865a54d912dda0a80ff8942c2413b39d8b7a264d1b8ec9c53
+    pages:
+    - 5
+    rasters:
+      2026-27-q05-p5.png: a448bd4dc1dad17d1e2c54de23c2a5d6e5d3304ecaae18b6cea1840a1488e3c5
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: 217c0c2da0f91d7c839090d52ee7ea22c2dc04c1cd044d9846dabf41b779c88a
+    browser:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 95775e796a51600f40749b9133ff6aeaffdfca6b8f5ab87fd95eeff34f1ffdfc
+  canonical-qx32:
+    year: canonical
+    unit: qx32
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 49
+    rasters:
+      canonical-qx32-p49.png: f547c6f5af4ddc95446d926ecdf4f298216ea8f3eb2d64186fbe2a7fd9f7eb7f
+    html: site/private/questions/IB/methods/sheet-4/qx32/index.html
+    html_sha256: 48dc70be691a655e217052d1dcc29d0b1855554e7cc5e186d80a56af8cc397a0
+    browser:
+      total: 24
+      rendered: 24
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 4ac49547220f5b0097d9846ff9c2a97f93b29c33d1f845df304cd14741558018
+  2018-19-qx32:
+    year: 2018-19
+    unit: qx32
+    pdf: build/IB-methods-sheet-4-2018-19/main.pdf
+    pdf_sha256: e3b54854bfb5b1045f3d7490808e7aa245cbb9a61e99c6c52689da7b4a515e95
+    pages:
+    - 12
+    rasters:
+      2018-19-qx32-p12.png: 56697fe367b8e83ed8b0234f6a5504d0ef4e5102bd90b6d8d16778897f2c8b11
+    html: site/private/collections/IB/methods/sheet-4/2018-19.html
+    html_sha256: 77a03cc9aeb502fc146c0c10fb337267c339c82df6d1b31e5cc0d83fb03c24f6
+    browser:
+      total: 24
+      rendered: 24
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: e30b32252e9b773e3fc413dc5b18bfee6751f8ab7f2b75ca9ff8fce306803c89
+  2020-21-qx32:
+    year: 2020-21
+    unit: qx32
+    pdf: build/IB-methods-sheet-4-2020-21/main.pdf
+    pdf_sha256: e8558f6781b91471a5cc406f8be10997b2f848be46e831462572354d6c4f0db7
+    pages:
+    - 11
+    rasters:
+      2020-21-qx32-p11.png: f107d6244479dd7e60af2b9c3e9d261319872e9fd926f7d87b6afeaaa20330fe
+    html: site/private/collections/IB/methods/sheet-4/2020-21.html
+    html_sha256: f9014fd049385c697c6f9d136296ec1a3f5dafdfbd4e88511d733718bd85f033
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: bf576e8fec7468ea320630deb1ee1fa2ae1843b4b5b7ac08173599f94e049bac
+  2021-22-qx32:
+    year: 2021-22
+    unit: qx32
+    pdf: build/IB-methods-sheet-4-2021-22/main.pdf
+    pdf_sha256: 837905e4afafb9a6c7b0d09642289c7ec10c564b0ebd0abb9e7e118206bd05fd
+    pages:
+    - 11
+    rasters:
+      2021-22-qx32-p11.png: 2227ab83b3be9a229667539f7b4d32c77abe2e7c9858e43320748dd0a0acf0c4
+    html: site/private/collections/IB/methods/sheet-4/2021-22.html
+    html_sha256: 3886942676823b36176194e12fea90182e53a5d527de9b9792aae68e548d1755
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: bf576e8fec7468ea320630deb1ee1fa2ae1843b4b5b7ac08173599f94e049bac
+  2022-23-qx32:
+    year: 2022-23
+    unit: qx32
+    pdf: build/IB-methods-sheet-4-2022-23/main.pdf
+    pdf_sha256: 6614a01ff3e604c95e56c70e014f0e1320fa7db4d7e0fb146e2e3467142bf5bf
+    pages:
+    - 11
+    rasters:
+      2022-23-qx32-p11.png: 3520ba1762cb8205b05b3a5e7bf566be90431f041fd6c42fb878a814d2640e7b
+    html: site/private/collections/IB/methods/sheet-4/2022-23.html
+    html_sha256: 3bf4d306f5b9866808ca662ef93c1d929f5f87c3440ccdfe191401962e1593b7
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: bf576e8fec7468ea320630deb1ee1fa2ae1843b4b5b7ac08173599f94e049bac
+  canonical-q07:
+    year: canonical
+    unit: q07
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 7
+    rasters:
+      canonical-q07-p7.png: 6fca0602bd62162e120182af830c2a4497c366198d7266baca92c93c05730041
+    html: site/private/questions/IB/methods/sheet-4/q07/index.html
+    html_sha256: 2567837fcdcf715dc9a1b54c415651623237e2f971be22073042d61f755eaa4d
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: bf02ebcce1bab4765dfd2b2fdef10aa8b042a3cdca082cd2dccb28b1f3e0f2ea
+  2023-24-q07:
+    year: 2023-24
+    unit: q07
+    pdf: build/IB-methods-sheet-4-2023-24/main.pdf
+    pdf_sha256: b2a408e87d907417045f70aff3c11c5c629f9491e302bb7124a4f5debf2f795c
+    pages:
+    - 7
+    rasters:
+      2023-24-q07-p7.png: a357f2b53a15dc4cfbb7e419cb73a40ed7c935ac07b46c15dab3dcd835a38ba9
+    html: site/private/collections/IB/methods/sheet-4/2023-24.html
+    html_sha256: 92970ba8393868cfef9146341c5d868bfb0303e267a0059e26cebcefa247c7ce
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 2d0b8c228fd3d5b743ed3c30a2ba675e9bf6613115d2651528cb5665534bb29f
+  2025-26-q07:
+    year: 2025-26
+    unit: q07
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: caae296d6619522403042ff8ac62f3d0979ce5856160ccbd61b9f256ef5599d6
+    pages:
+    - 7
+    rasters:
+      2025-26-q07-p7.png: a9599199bfdbe927c9ee9a41d426944c2f3713e1ef766cd45bd8076ca2d537e4
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: eac5d1857ba9451c552b3bdb5dc84cfbc140e2acd2ed6d82f7836852963868d6
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 2d0b8c228fd3d5b743ed3c30a2ba675e9bf6613115d2651528cb5665534bb29f
+  2026-27-q07:
+    year: 2026-27
+    unit: q07
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 0f7db07c06fc243865a54d912dda0a80ff8942c2413b39d8b7a264d1b8ec9c53
+    pages:
+    - 7
+    rasters:
+      2026-27-q07-p7.png: 6399637818b53a87ba3e87a52a62ad22e144386b91b2a4db2391986bf64e0bae
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: 217c0c2da0f91d7c839090d52ee7ea22c2dc04c1cd044d9846dabf41b779c88a
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 2d0b8c228fd3d5b743ed3c30a2ba675e9bf6613115d2651528cb5665534bb29f
+  canonical-qx27:
+    year: canonical
+    unit: qx27
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 44
+    rasters:
+      canonical-qx27-p44.png: bf1ca8c5e97f7d093cfec859a6a0a2a1fc0ad5c426216f76e6a846a46fb818b9
+    html: site/private/questions/IB/methods/sheet-4/qx27/index.html
+    html_sha256: 37977207bbcadb93032b9f7c2b690f5afc097d1874a29debda18f35e9a7f5950
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 96d045ef09350af7d0718c65077ef217cc770fa7d409b25b03a29be78c647f4e
+  2015-16-qx27:
+    year: 2015-16
+    unit: qx27
+    pdf: build/IB-methods-sheet-4-2015-16/main.pdf
+    pdf_sha256: b16924814366001c273fd56deb46eeb690823a967844c43c781442b709560579
+    pages:
+    - 2
+    rasters:
+      2015-16-qx27-p2.png: 6e2fc3d3937ee1ea96b2d7cfc3b2a36f53222904ea19866cb7ef5e221793214d
+    html: site/private/collections/IB/methods/sheet-4/2015-16.html
+    html_sha256: 1398d56a36b1c0c6ef902362ea8d5d452c54695dcb42c7b78ddae3e912118fdd
+    browser:
+      total: 24
+      rendered: 24
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 2b2183aabd05162373ded00e1329e6f544ccebe3ce2f8803a44e4db2f9954370
+  2016-17-qx27:
+    year: 2016-17
+    unit: qx27
+    pdf: build/IB-methods-sheet-4-2016-17/main.pdf
+    pdf_sha256: 53950c2ba38bcdd4d31df70c00a894baa1d154134c3806c48b61734b4f23927a
+    pages:
+    - 2
+    rasters:
+      2016-17-qx27-p2.png: 96e02a7579270b7d00719a839046e3710dbf3a32b61645386c29d360f744d9d0
+    html: site/private/collections/IB/methods/sheet-4/2016-17.html
+    html_sha256: 2a735b9d84923b79561f8f737ab112c59dee0f8518a448e20bb2ebfd9e720491
+    browser:
+      total: 24
+      rendered: 24
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 3edb38e9de4964180e84113b1c09c08543a6189660d1312b8618c9b7d8c986dd
+  2018-19-qx27:
+    year: 2018-19
+    unit: qx27
+    pdf: build/IB-methods-sheet-4-2018-19/main.pdf
+    pdf_sha256: e3b54854bfb5b1045f3d7490808e7aa245cbb9a61e99c6c52689da7b4a515e95
+    pages:
+    - 2
+    rasters:
+      2018-19-qx27-p2.png: 60df0a2bc87d28e61d7f6ecacebdc99a8e5049fca381e4275c9b0560797556d7
+    html: site/private/collections/IB/methods/sheet-4/2018-19.html
+    html_sha256: 77a03cc9aeb502fc146c0c10fb337267c339c82df6d1b31e5cc0d83fb03c24f6
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: edc4edddd0cf8df37999cb5f012ac7521f48b6b3e1b970985268eced6384c3e5
+  2020-21-qx27:
+    year: 2020-21
+    unit: qx27
+    pdf: build/IB-methods-sheet-4-2020-21/main.pdf
+    pdf_sha256: e8558f6781b91471a5cc406f8be10997b2f848be46e831462572354d6c4f0db7
+    pages:
+    - 2
+    rasters:
+      2020-21-qx27-p2.png: 4b2f7fe1290b1bb429429abce2a0b0b6008082b0bfcb3f4dad357cdf0c0762bc
+    html: site/private/collections/IB/methods/sheet-4/2020-21.html
+    html_sha256: f9014fd049385c697c6f9d136296ec1a3f5dafdfbd4e88511d733718bd85f033
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: edc4edddd0cf8df37999cb5f012ac7521f48b6b3e1b970985268eced6384c3e5
+  2021-22-qx27:
+    year: 2021-22
+    unit: qx27
+    pdf: build/IB-methods-sheet-4-2021-22/main.pdf
+    pdf_sha256: 837905e4afafb9a6c7b0d09642289c7ec10c564b0ebd0abb9e7e118206bd05fd
+    pages:
+    - 2
+    rasters:
+      2021-22-qx27-p2.png: 895cc5bb1acbcfc3b9a665657004e2fcba45a560d4bc4cc6da534c3f8141d575
+    html: site/private/collections/IB/methods/sheet-4/2021-22.html
+    html_sha256: 3886942676823b36176194e12fea90182e53a5d527de9b9792aae68e548d1755
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: edc4edddd0cf8df37999cb5f012ac7521f48b6b3e1b970985268eced6384c3e5
+  2022-23-qx27:
+    year: 2022-23
+    unit: qx27
+    pdf: build/IB-methods-sheet-4-2022-23/main.pdf
+    pdf_sha256: 6614a01ff3e604c95e56c70e014f0e1320fa7db4d7e0fb146e2e3467142bf5bf
+    pages:
+    - 2
+    rasters:
+      2022-23-qx27-p2.png: f40772832d2b9e89bd0156c612eb8c74a6e9ec27692574f87c0addf3491ca698
+    html: site/private/collections/IB/methods/sheet-4/2022-23.html
+    html_sha256: 3bf4d306f5b9866808ca662ef93c1d929f5f87c3440ccdfe191401962e1593b7
+    browser:
+      total: 25
+      rendered: 25
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: edc4edddd0cf8df37999cb5f012ac7521f48b6b3e1b970985268eced6384c3e5
+  canonical-q08:
+    year: canonical
+    unit: q08
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 8
+    - 9
+    - 10
+    rasters:
+      canonical-q08-p8.png: e673578dc77f683dfa44f77b28ed5335f530aa8a30d74becd754bfcefb9395e6
+      canonical-q08-p9.png: d237b40c276477c8a652740e5d3beb8b12f81ea19b5d28d4d58b3778d63b9336
+      canonical-q08-p10.png: a5f4e8fc3d67daba231c962d9cee69dd4122151c64d513756086001f79c68ca2
+    html: site/private/questions/IB/methods/sheet-4/q08/index.html
+    html_sha256: e454a84417913bcf514501535f7de6c7ab9c225effee36887510905766da160a
+    browser:
+      total: 62
+      rendered: 62
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 1a49b66594dbc37c0b8dd6098fa178b47b4af8ea50e8fd0ca95de1e7667ff15b
+  2015-16-q08:
+    year: 2015-16
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2015-16/main.pdf
+    pdf_sha256: b16924814366001c273fd56deb46eeb690823a967844c43c781442b709560579
+    pages:
+    - 6
+    - 7
+    rasters:
+      2015-16-q08-p6.png: 8af03e3fb54644bd44f3546f7b1c4a80ecd694c2bbb6018ebde74b5d51c5c964
+      2015-16-q08-p7.png: f29f6bc28d4e01b8e749d7cf0d6b61e364e3fccc8672f8c4fe8f196532fb1182
+    html: site/private/collections/IB/methods/sheet-4/2015-16.html
+    html_sha256: 1398d56a36b1c0c6ef902362ea8d5d452c54695dcb42c7b78ddae3e912118fdd
+    browser:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: c7e21b47308b9e92fe096e56886b573647fe4c2bf4dfa55cc14858738885443c
+  2016-17-q08:
+    year: 2016-17
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2016-17/main.pdf
+    pdf_sha256: 53950c2ba38bcdd4d31df70c00a894baa1d154134c3806c48b61734b4f23927a
+    pages:
+    - 6
+    - 7
+    rasters:
+      2016-17-q08-p6.png: 662141129aa7090122d51a276eae3d5f39e682a463f15eec25c94a18f9df106b
+      2016-17-q08-p7.png: 362249122e5e88348e73719c00be78cc0b944d92fae14296452d5859a2e04982
+    html: site/private/collections/IB/methods/sheet-4/2016-17.html
+    html_sha256: 2a735b9d84923b79561f8f737ab112c59dee0f8518a448e20bb2ebfd9e720491
+    browser:
+      total: 50
+      rendered: 50
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 6d6e4284e4facaeef90acad76e834886682a22416ed3cbb73852334661e209e1
+  2018-19-q08:
+    year: 2018-19
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2018-19/main.pdf
+    pdf_sha256: e3b54854bfb5b1045f3d7490808e7aa245cbb9a61e99c6c52689da7b4a515e95
+    pages:
+    - 4
+    - 5
+    - 6
+    rasters:
+      2018-19-q08-p4.png: 6293a795eea53995999fbd215c8abaeeaf40ee6209d849064aedcd005235cf22
+      2018-19-q08-p5.png: 9862946f2bbe0f32df13efe191bfdd514544fe970c4240a9f31a9541e177b89f
+      2018-19-q08-p6.png: d0a728d1d1aa8740d8b83163f5ce1cd4ce6e14619c283f2002cd4ef4b9e29faf
+    html: site/private/collections/IB/methods/sheet-4/2018-19.html
+    html_sha256: 77a03cc9aeb502fc146c0c10fb337267c339c82df6d1b31e5cc0d83fb03c24f6
+    browser:
+      total: 62
+      rendered: 62
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 9bb8d8fb382f2c0b00dfc6067090d0d17199456429acae1079b76f746fa08e77
+  2020-21-q08:
+    year: 2020-21
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2020-21/main.pdf
+    pdf_sha256: e8558f6781b91471a5cc406f8be10997b2f848be46e831462572354d6c4f0db7
+    pages:
+    - 4
+    - 5
+    rasters:
+      2020-21-q08-p4.png: b8bea2d7d4bcbbfc5826fc4781c46537100cf7309185e316b02ed85891b4011a
+      2020-21-q08-p5.png: c06cdc6f4be952fcf59e838005663846359293b870b6e85dffdc07647fd6bc76
+    html: site/private/collections/IB/methods/sheet-4/2020-21.html
+    html_sha256: f9014fd049385c697c6f9d136296ec1a3f5dafdfbd4e88511d733718bd85f033
+    browser:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: a3a3c36fb0dfafb4ce358b1066b76ce28eecbaa561da5648ca1ed8941f886c4a
+  2021-22-q08:
+    year: 2021-22
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2021-22/main.pdf
+    pdf_sha256: 837905e4afafb9a6c7b0d09642289c7ec10c564b0ebd0abb9e7e118206bd05fd
+    pages:
+    - 4
+    - 5
+    rasters:
+      2021-22-q08-p4.png: b7b656bb862d76934685bacb007d88b27ad97130513ca01650ca414876731722
+      2021-22-q08-p5.png: 0eb26df8c6c403091682d91642300c1e21ce4245fff3a2170daff812a928a8af
+    html: site/private/collections/IB/methods/sheet-4/2021-22.html
+    html_sha256: 3886942676823b36176194e12fea90182e53a5d527de9b9792aae68e548d1755
+    browser:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: a3a3c36fb0dfafb4ce358b1066b76ce28eecbaa561da5648ca1ed8941f886c4a
+  2022-23-q08:
+    year: 2022-23
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2022-23/main.pdf
+    pdf_sha256: 6614a01ff3e604c95e56c70e014f0e1320fa7db4d7e0fb146e2e3467142bf5bf
+    pages:
+    - 4
+    - 5
+    rasters:
+      2022-23-q08-p4.png: 219e01bc1a419ff7f71173e5f7a9f847e044765f62959285f3704155cd419973
+      2022-23-q08-p5.png: 37bf251616b26c89c76660ba1b6b75627cceca4a8a4f732a9b7e61843f85e884
+    html: site/private/collections/IB/methods/sheet-4/2022-23.html
+    html_sha256: 3bf4d306f5b9866808ca662ef93c1d929f5f87c3440ccdfe191401962e1593b7
+    browser:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: a3a3c36fb0dfafb4ce358b1066b76ce28eecbaa561da5648ca1ed8941f886c4a
+  2023-24-q08:
+    year: 2023-24
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2023-24/main.pdf
+    pdf_sha256: b2a408e87d907417045f70aff3c11c5c629f9491e302bb7124a4f5debf2f795c
+    pages:
+    - 8
+    rasters:
+      2023-24-q08-p8.png: 0aa5a4fc989b29e7b419f119226832906fd6913454a57a942329ff667703beac
+    html: site/private/collections/IB/methods/sheet-4/2023-24.html
+    html_sha256: 92970ba8393868cfef9146341c5d868bfb0303e267a0059e26cebcefa247c7ce
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 3f6b9c5866f6c3a7b66cb998d6a271965e35773c53a67984422362dbe7341f9b
+  2025-26-q08:
+    year: 2025-26
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: caae296d6619522403042ff8ac62f3d0979ce5856160ccbd61b9f256ef5599d6
+    pages:
+    - 8
+    rasters:
+      2025-26-q08-p8.png: 83976fe29454aa38db2f4ed5fa58f605ff884a2e8efcd531d243f961f303f893
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: eac5d1857ba9451c552b3bdb5dc84cfbc140e2acd2ed6d82f7836852963868d6
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 3f6b9c5866f6c3a7b66cb998d6a271965e35773c53a67984422362dbe7341f9b
+  2026-27-q08:
+    year: 2026-27
+    unit: q08
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 0f7db07c06fc243865a54d912dda0a80ff8942c2413b39d8b7a264d1b8ec9c53
+    pages:
+    - 8
+    rasters:
+      2026-27-q08-p8.png: c96a13d1d2814c62f78c2981f1f8c2910799f16c29de4e55513d83eb3dbc4741
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: 217c0c2da0f91d7c839090d52ee7ea22c2dc04c1cd044d9846dabf41b779c88a
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 3f6b9c5866f6c3a7b66cb998d6a271965e35773c53a67984422362dbe7341f9b
+  canonical-q11:
+    year: canonical
+    unit: q11
+    pdf: build/IB-methods-sheet-4/main.pdf
+    pdf_sha256: 95202b21e8acf19e799f73f56e595168b20e525b1fb82cfad9af2d9dfb660754
+    pages:
+    - 13
+    rasters:
+      canonical-q11-p13.png: fee9a5723184004deb91ff105a66933f2bd23161a142e82765bef573751a1006
+    html: site/private/questions/IB/methods/sheet-4/q11/index.html
+    html_sha256: ef7074402a0f3e101b392a295c9c2b25a0095534846158212fc16f8b27b298db
+    browser:
+      total: 31
+      rendered: 31
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 2ad76e1e115c931ca9367619ead9391d2f04ad334d2bc81df7c818b2ac96685b
+  2015-16-q11:
+    year: 2015-16
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2015-16/main.pdf
+    pdf_sha256: b16924814366001c273fd56deb46eeb690823a967844c43c781442b709560579
+    pages:
+    - 9
+    rasters:
+      2015-16-q11-p9.png: 0edf88acd5de18a3d567f66f43524af518239d40c1931334d3709fe19d8e94ee
+    html: site/private/collections/IB/methods/sheet-4/2015-16.html
+    html_sha256: 1398d56a36b1c0c6ef902362ea8d5d452c54695dcb42c7b78ddae3e912118fdd
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: a518a6c7bd194a33962dedc0285e5cd67fd2f7f47231a8ca5d47f8cd1a64afcc
+  2016-17-q11:
+    year: 2016-17
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2016-17/main.pdf
+    pdf_sha256: 53950c2ba38bcdd4d31df70c00a894baa1d154134c3806c48b61734b4f23927a
+    pages:
+    - 8
+    rasters:
+      2016-17-q11-p8.png: ad2dd00fa87f404598b21976da2fe4c004e37f0d58ed00c98b801b340a15906b
+    html: site/private/collections/IB/methods/sheet-4/2016-17.html
+    html_sha256: 2a735b9d84923b79561f8f737ab112c59dee0f8518a448e20bb2ebfd9e720491
+    browser:
+      total: 31
+      rendered: 31
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 62d18909db7bf0306426f3b1708c5f1dfee687dfc3f7d8b8e2162efc04de1464
+  2018-19-q11:
+    year: 2018-19
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2018-19/main.pdf
+    pdf_sha256: e3b54854bfb5b1045f3d7490808e7aa245cbb9a61e99c6c52689da7b4a515e95
+    pages:
+    - 9
+    rasters:
+      2018-19-q11-p9.png: e5bec51066696dc975510ca9da1d8dba9afef48a65cfb9a9f2c85388a4f8529b
+    html: site/private/collections/IB/methods/sheet-4/2018-19.html
+    html_sha256: 77a03cc9aeb502fc146c0c10fb337267c339c82df6d1b31e5cc0d83fb03c24f6
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 2afc9abcf061c37e6b0c7c88bab4b30a84d60f3cc9d13c7eec839d9915913a26
+  2020-21-q11:
+    year: 2020-21
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2020-21/main.pdf
+    pdf_sha256: e8558f6781b91471a5cc406f8be10997b2f848be46e831462572354d6c4f0db7
+    pages:
+    - 8
+    rasters:
+      2020-21-q11-p8.png: c167257a6e74b36123b8f7168589dab34a49c01e28b892b7d4b98f357b92f90a
+    html: site/private/collections/IB/methods/sheet-4/2020-21.html
+    html_sha256: f9014fd049385c697c6f9d136296ec1a3f5dafdfbd4e88511d733718bd85f033
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 802e21d99a72c08fb742e556cb601630414431b4fdfa3c86cac5239ffd05cf8b
+  2021-22-q11:
+    year: 2021-22
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2021-22/main.pdf
+    pdf_sha256: 837905e4afafb9a6c7b0d09642289c7ec10c564b0ebd0abb9e7e118206bd05fd
+    pages:
+    - 8
+    rasters:
+      2021-22-q11-p8.png: 0337da90a380ee71161cd2254234cc8ca5b2561c790da5ed26c26609a7bb85b9
+    html: site/private/collections/IB/methods/sheet-4/2021-22.html
+    html_sha256: 3886942676823b36176194e12fea90182e53a5d527de9b9792aae68e548d1755
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 802e21d99a72c08fb742e556cb601630414431b4fdfa3c86cac5239ffd05cf8b
+  2022-23-q11:
+    year: 2022-23
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2022-23/main.pdf
+    pdf_sha256: 6614a01ff3e604c95e56c70e014f0e1320fa7db4d7e0fb146e2e3467142bf5bf
+    pages:
+    - 8
+    rasters:
+      2022-23-q11-p8.png: 09cf0f683d63322f883b768208bfa692a7c8b6575d6a22d92e1c94464f035036
+    html: site/private/collections/IB/methods/sheet-4/2022-23.html
+    html_sha256: 3bf4d306f5b9866808ca662ef93c1d929f5f87c3440ccdfe191401962e1593b7
+    browser:
+      total: 29
+      rendered: 29
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 802e21d99a72c08fb742e556cb601630414431b4fdfa3c86cac5239ffd05cf8b
+  2023-24-q11:
+    year: 2023-24
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2023-24/main.pdf
+    pdf_sha256: b2a408e87d907417045f70aff3c11c5c629f9491e302bb7124a4f5debf2f795c
+    pages:
+    - 11
+    rasters:
+      2023-24-q11-p11.png: 207b586ab96a95908eb3a771c23630b7324ff6085bb22df9a2876c70b8449807
+    html: site/private/collections/IB/methods/sheet-4/2023-24.html
+    html_sha256: 92970ba8393868cfef9146341c5d868bfb0303e267a0059e26cebcefa247c7ce
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 689e0ca07a4dd91238911989b086e4f07f5d8097c4a6059ac20306b317a52e5b
+  2025-26-q11:
+    year: 2025-26
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2025-26/main.pdf
+    pdf_sha256: caae296d6619522403042ff8ac62f3d0979ce5856160ccbd61b9f256ef5599d6
+    pages:
+    - 11
+    rasters:
+      2025-26-q11-p11.png: b9fa4eb20a2eb5edae3b64871f581ef9063082adfed02eaf22ef792ebf92ecc2
+    html: site/private/collections/IB/methods/sheet-4/2025-26.html
+    html_sha256: eac5d1857ba9451c552b3bdb5dc84cfbc140e2acd2ed6d82f7836852963868d6
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 689e0ca07a4dd91238911989b086e4f07f5d8097c4a6059ac20306b317a52e5b
+  2026-27-q11:
+    year: 2026-27
+    unit: q11
+    pdf: build/IB-methods-sheet-4-2026-27/main.pdf
+    pdf_sha256: 0f7db07c06fc243865a54d912dda0a80ff8942c2413b39d8b7a264d1b8ec9c53
+    pages:
+    - 11
+    rasters:
+      2026-27-q11-p11.png: 2168209c0539c01e6f39302c7590fb397af162c56a2f237787d4acf70ea8217b
+    html: site/private/collections/IB/methods/sheet-4/2026-27.html
+    html_sha256: 217c0c2da0f91d7c839090d52ee7ea22c2dc04c1cd044d9846dabf41b779c88a
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 689e0ca07a4dd91238911989b086e4f07f5d8097c4a6059ac20306b317a52e5b
+observed:
+  canonical_population: 46
+  canonical_units_sampled: 10
+  distinct_statements_sampled: 22
+  printed_occurrences_sampled: 48
+  source_pages: 22
+  archive_originals: 11
+  mathematical_errors: 0
+  transcription_errors: 0
+  executable_checks: 22
+  compiled_pages_inspected: 68
+  browser_views_inspected: 58
+  formula_instances_rendered: 1768
+  layout_observation: All sampled content and diagrams were visible. The long 2018
+    half-plane solution and its canonical version continue onto a third page. The
+    source and qualification for the older Bessel exercise begin on the following
+    page.

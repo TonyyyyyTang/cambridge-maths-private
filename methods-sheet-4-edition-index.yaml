@@ -1322,6 +1322,8 @@ editions:
         source_review: Kronecker delta indices, isotropy and the 2000 direct and quotient-theorem
           proof requests checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3d711fbee5fed42624c5c77cbfa760e7063a7e4284551fbb5f3db88f94a036a1
       '2':
         unit: IB/methods/sheet-4/qx02
         original_question: '2'
@@ -1335,6 +1337,8 @@ editions:
         source_review: Both sets of three matrices and the printed direction-cosines
           matrix and product answer checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: eec5f5e47f8e632bfe3bc7e66c663f04fce8cb234bb46db64b9faa0ef2176f30
       '3':
         unit: IB/methods/sheet-4/qx03
         original_question: '3'
@@ -1348,6 +1352,8 @@ editions:
         source_review: All nine coefficients, both proposed directions and greatest
           conductivity 4 checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d0acdfba250ad8407862eca50b3ce38b6513ca1fe0f0ddf06d82f708bde8d006
       '4':
         unit: IB/methods/sheet-4/qx04
         original_question: '4'
@@ -1360,6 +1366,8 @@ editions:
         - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
         source_review: All inertia entries, axis (1,1,2), and printed 11/3 checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 71259897e34768ea50a21f95645dbaedf97b148c90082c0c6db806a57f6ce287
       '5':
         unit: IB/methods/sheet-4/qx05
         original_question: '5'
@@ -1373,6 +1381,8 @@ editions:
         source_review: Transposition, both rotation-prime placements and the two plus-or-minus
           signs checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2b3841e55b5095af2687bb60fed17e9f82a8522cccf1e0930b47cf45b21158c8
       '6':
         unit: IB/methods/sheet-4/qx06
         original_question: '6'
@@ -1386,6 +1396,8 @@ editions:
         source_review: Nonzero condition, summed denominator, both projection tests
           and the negative contraction checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d1af92aa5629ea0755effa669a1a8a7dc28f770ceb5b46c2178109628c526b60
       '7':
         unit: IB/methods/sheet-4/qx07
         original_question: '7'
@@ -1400,6 +1412,8 @@ editions:
           and ranks 2 and 4 checked.
         printed_title_star: true
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 91b8e3741dd3b02f8256dcc05a062828ce35280120e0e090eb48868edc19c4cf
       '8':
         unit: IB/methods/sheet-4/qx08
         original_question: '8'
@@ -1413,6 +1427,8 @@ editions:
         source_review: The array has 3 cubed elements; the second target interchanges
           k and m in the second summand.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fe166c3383d882dfc88c9c43bd5cc59b1758875f0f48367cc25201f5c699adb0
       '9':
         unit: IB/methods/sheet-4/qx09
         original_question: '9'
@@ -1426,6 +1442,8 @@ editions:
         source_review: The powers −4 and −5, Gaussian r squared, positive gamma and
           two- versus three-coordinate factors checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 60746c43bb0be47b4a13cce0485726efc3ac3f65417e4933eb794dace25e6910
       '10':
         unit: IB/methods/sheet-4/qx10
         original_question: '10'
@@ -1439,6 +1457,8 @@ editions:
         source_review: The three contractions, two eigenvalue subparts and each coefficient
           and sign in the cubic were checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: efbb43bf6cd0ec11ee773e18c55c9b8c1a0d599cf924e9e8d1f4e06b5a9d7bd9
       '11':
         unit: IB/methods/sheet-4/qx11
         original_question: '11'
@@ -1452,6 +1472,8 @@ editions:
         source_review: Parallel-axis identity, origin GP, height a√3 and general inertia
           quadric; 2000 prints X_m squared, later X_m X_m.
         text: variants/2000-01/question.tex
+        verified_solution: history/2026-11-21-exact-c5f34a820601/solution.tex
+        verified_solution_sha256: 6eb7030b3fb04d850dbbead27b96ee21e8df7d9285cfcdb205511c731d0d09a9
       '12':
         unit: IB/methods/sheet-4/qx12
         original_question: '12'
@@ -1466,6 +1488,8 @@ editions:
           trace checked. The early edition prints H_m squared; the later editions
           H_m H_m.
         text: variants/2000-01/question.tex
+        verified_solution: history/2026-11-21-exact-1c441d6561e5/solution.tex
+        verified_solution_sha256: 7a2aa17e312128a291134b70dbf71e852297c47a0d84536b70e3dcd42f29ee3a
       '13':
         unit: IB/methods/sheet-4/qx13
         original_question: '13'
@@ -1481,6 +1505,8 @@ editions:
           Later editions put the final field vector inside the brackets.
         printed_title_star: true
         text: variants/2000-01/question.tex
+        verified_solution: history/2026-11-21-exact-24227fbc92f9/solution.tex
+        verified_solution_sha256: f9abcab30f0d41e46deccdcf2925edc9a006beba211dba73163e2c4e3d0ef0d3
       '14':
         unit: IB/methods/sheet-4/qx14
         original_question: '14'
@@ -1494,6 +1520,8 @@ editions:
         source_review: All cyclic velocity entries, evaluation point, alternating-tensor
           indices, axes and eigenvalue request were checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d37601bc1447d6e6b322af5e0e0c364ba3bea4f94b17335f425434300f6a78c4
   2003-04:
     archive: raw/sheets/IB/methods/2003-04/sheet-4.pdf
     sha256: f71c6c39840eb8f88b3902331cf9b6aaf034fd4a54b0d88899fab3c2f2956284
@@ -1539,6 +1567,8 @@ editions:
         source_review: Kronecker delta indices, isotropy and the 2000 direct and quotient-theorem
           proof requests checked.
         text: variants/2003-04/question.tex
+        verified_solution: history/2026-11-21-exact-8e4d469e5e70/solution.tex
+        verified_solution_sha256: cc428adf00a82548f70fbb03549b92b8db927d0d507d877b6ca920ff06ff3c84
       '2':
         unit: IB/methods/sheet-4/qx02
         original_question: '2'
@@ -1552,6 +1582,8 @@ editions:
         source_review: Both sets of three matrices and the printed direction-cosines
           matrix and product answer checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: eec5f5e47f8e632bfe3bc7e66c663f04fce8cb234bb46db64b9faa0ef2176f30
       '3':
         unit: IB/methods/sheet-4/qx03
         original_question: '3'
@@ -1565,6 +1597,8 @@ editions:
         source_review: All nine coefficients, both proposed directions and greatest
           conductivity 4 checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d0acdfba250ad8407862eca50b3ce38b6513ca1fe0f0ddf06d82f708bde8d006
       '4':
         unit: IB/methods/sheet-4/qx04
         original_question: '4'
@@ -1577,6 +1611,8 @@ editions:
         - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
         source_review: All inertia entries, axis (1,1,2), and printed 11/3 checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 71259897e34768ea50a21f95645dbaedf97b148c90082c0c6db806a57f6ce287
       '5':
         unit: IB/methods/sheet-4/qx05
         original_question: '5'
@@ -1590,6 +1626,8 @@ editions:
         source_review: Transposition, both rotation-prime placements and the two plus-or-minus
           signs checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2b3841e55b5095af2687bb60fed17e9f82a8522cccf1e0930b47cf45b21158c8
       '6':
         unit: IB/methods/sheet-4/qx06
         original_question: '6'
@@ -1603,6 +1641,8 @@ editions:
         source_review: Nonzero condition, summed denominator, both projection tests
           and the negative contraction checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d1af92aa5629ea0755effa669a1a8a7dc28f770ceb5b46c2178109628c526b60
       '7':
         unit: IB/methods/sheet-4/qx07
         original_question: '7'
@@ -1617,6 +1657,8 @@ editions:
           and ranks 2 and 4 checked.
         printed_title_star: true
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 91b8e3741dd3b02f8256dcc05a062828ce35280120e0e090eb48868edc19c4cf
       '8':
         unit: IB/methods/sheet-4/qx08
         original_question: '8'
@@ -1630,6 +1672,8 @@ editions:
         source_review: The array has 3 cubed elements; the second target interchanges
           k and m in the second summand.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fe166c3383d882dfc88c9c43bd5cc59b1758875f0f48367cc25201f5c699adb0
       '9':
         unit: IB/methods/sheet-4/qx09
         original_question: '9'
@@ -1643,6 +1687,8 @@ editions:
         source_review: The powers −4 and −5, Gaussian r squared, positive gamma and
           two- versus three-coordinate factors checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 60746c43bb0be47b4a13cce0485726efc3ac3f65417e4933eb794dace25e6910
       '10':
         unit: IB/methods/sheet-4/qx10
         original_question: '10'
@@ -1656,6 +1702,8 @@ editions:
         source_review: The three contractions, two eigenvalue subparts and each coefficient
           and sign in the cubic were checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: efbb43bf6cd0ec11ee773e18c55c9b8c1a0d599cf924e9e8d1f4e06b5a9d7bd9
       '11':
         unit: IB/methods/sheet-4/qx11
         original_question: '11'
@@ -1669,6 +1717,8 @@ editions:
         source_review: Parallel-axis identity, origin GP, height a√3 and general inertia
           quadric; 2000 prints X_m squared, later X_m X_m.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6eb7030b3fb04d850dbbead27b96ee21e8df7d9285cfcdb205511c731d0d09a9
       '12':
         unit: IB/methods/sheet-4/qx12
         original_question: '12'
@@ -1683,6 +1733,8 @@ editions:
           trace checked. The early edition prints H_m squared; the later editions
           H_m H_m.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 7a2aa17e312128a291134b70dbf71e852297c47a0d84536b70e3dcd42f29ee3a
       '13':
         unit: IB/methods/sheet-4/qx13
         original_question: '13'
@@ -1698,6 +1750,8 @@ editions:
           Later editions put the final field vector inside the brackets.
         printed_title_star: true
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: ecc44e165010f4abc7880917f5421fab03dc499ca0bedd8748ca6ca0ec9df810
       '14':
         unit: IB/methods/sheet-4/qx14
         original_question: '14'
@@ -1711,6 +1765,8 @@ editions:
         source_review: All cyclic velocity entries, evaluation point, alternating-tensor
           indices, axes and eigenvalue request were checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d37601bc1447d6e6b322af5e0e0c364ba3bea4f94b17335f425434300f6a78c4
   2004-05:
     archive: raw/sheets/IB/methods/2004-05/sheet-4.pdf
     sha256: b7674c06c5021ddb6d7b2047423e3ece68c2d0af54e5ce564daceb018ac48854
@@ -1756,6 +1812,8 @@ editions:
         source_review: Kronecker delta indices, isotropy and the 2000 direct and quotient-theorem
           proof requests checked.
         text: variants/2004-05/question.tex
+        verified_solution: history/2026-11-21-exact-8e4d469e5e70/solution.tex
+        verified_solution_sha256: cc428adf00a82548f70fbb03549b92b8db927d0d507d877b6ca920ff06ff3c84
       '2':
         unit: IB/methods/sheet-4/qx02
         original_question: '2'
@@ -1769,6 +1827,8 @@ editions:
         source_review: Both sets of three matrices and the printed direction-cosines
           matrix and product answer checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: eec5f5e47f8e632bfe3bc7e66c663f04fce8cb234bb46db64b9faa0ef2176f30
       '3':
         unit: IB/methods/sheet-4/qx03
         original_question: '3'
@@ -1782,6 +1842,8 @@ editions:
         source_review: All nine coefficients, both proposed directions and greatest
           conductivity 4 checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d0acdfba250ad8407862eca50b3ce38b6513ca1fe0f0ddf06d82f708bde8d006
       '4':
         unit: IB/methods/sheet-4/qx04
         original_question: '4'
@@ -1794,6 +1856,8 @@ editions:
         - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
         source_review: All inertia entries, axis (1,1,2), and printed 11/3 checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 71259897e34768ea50a21f95645dbaedf97b148c90082c0c6db806a57f6ce287
       '5':
         unit: IB/methods/sheet-4/qx05
         original_question: '5'
@@ -1807,6 +1871,8 @@ editions:
         source_review: Transposition, both rotation-prime placements and the two plus-or-minus
           signs checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2b3841e55b5095af2687bb60fed17e9f82a8522cccf1e0930b47cf45b21158c8
       '6':
         unit: IB/methods/sheet-4/qx06
         original_question: '6'
@@ -1820,6 +1886,8 @@ editions:
         source_review: Nonzero condition, summed denominator, both projection tests
           and the negative contraction checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d1af92aa5629ea0755effa669a1a8a7dc28f770ceb5b46c2178109628c526b60
       '7':
         unit: IB/methods/sheet-4/qx07
         original_question: '7'
@@ -1834,6 +1902,8 @@ editions:
           and ranks 2 and 4 checked.
         printed_title_star: true
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 91b8e3741dd3b02f8256dcc05a062828ce35280120e0e090eb48868edc19c4cf
       '8':
         unit: IB/methods/sheet-4/qx08
         original_question: '8'
@@ -1847,6 +1917,8 @@ editions:
         source_review: The array has 3 cubed elements; the second target interchanges
           k and m in the second summand.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fe166c3383d882dfc88c9c43bd5cc59b1758875f0f48367cc25201f5c699adb0
       '9':
         unit: IB/methods/sheet-4/qx09
         original_question: '9'
@@ -1860,6 +1932,8 @@ editions:
         source_review: The powers −4 and −5, Gaussian r squared, positive gamma and
           two- versus three-coordinate factors checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 60746c43bb0be47b4a13cce0485726efc3ac3f65417e4933eb794dace25e6910
       '10':
         unit: IB/methods/sheet-4/qx10
         original_question: '10'
@@ -1873,6 +1947,8 @@ editions:
         source_review: The three contractions, two eigenvalue subparts and each coefficient
           and sign in the cubic were checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: efbb43bf6cd0ec11ee773e18c55c9b8c1a0d599cf924e9e8d1f4e06b5a9d7bd9
       '11':
         unit: IB/methods/sheet-4/qx11
         original_question: '11'
@@ -1886,6 +1962,8 @@ editions:
         source_review: Parallel-axis identity, origin GP, height a√3 and general inertia
           quadric; 2000 prints X_m squared, later X_m X_m.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6eb7030b3fb04d850dbbead27b96ee21e8df7d9285cfcdb205511c731d0d09a9
       '12':
         unit: IB/methods/sheet-4/qx12
         original_question: '12'
@@ -1900,6 +1978,8 @@ editions:
           trace checked. The early edition prints H_m squared; the later editions
           H_m H_m.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 7a2aa17e312128a291134b70dbf71e852297c47a0d84536b70e3dcd42f29ee3a
       '13':
         unit: IB/methods/sheet-4/qx13
         original_question: '13'
@@ -1915,6 +1995,8 @@ editions:
           Later editions put the final field vector inside the brackets.
         printed_title_star: true
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: ecc44e165010f4abc7880917f5421fab03dc499ca0bedd8748ca6ca0ec9df810
       '14':
         unit: IB/methods/sheet-4/qx14
         original_question: '14'
@@ -1928,6 +2010,8 @@ editions:
         source_review: All cyclic velocity entries, evaluation point, alternating-tensor
           indices, axes and eigenvalue request were checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d37601bc1447d6e6b322af5e0e0c364ba3bea4f94b17335f425434300f6a78c4
   2006-07:
     archive: raw/sheets/IB/methods/2006-07/sheet-4.pdf
     sha256: ee7c4b19a4b461e6016ed1d1405982eb4bd575f59ee671b54bd66f89f2914d10
@@ -1977,6 +2061,8 @@ editions:
         source_review: Retains the two-axis extrema, constant-height contours, initial
           point, both route requests and the italic word “without”.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2d8d4e48d345d00aed17b22b5811bf83084050aa39967d31fe4e958937128525
       '2':
         unit: IB/methods/sheet-4/qx16
         original_question: '2'
@@ -1990,6 +2076,8 @@ editions:
         source_review: Checked the three quartics, three mixed terms, claimed minimum
           and saddle count, and the inverse tangent of square root two.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 1421d5ad8d55adeaaa1bf293df329c9f75cfde012fa097954ce46e60dc9d8be2
       '3':
         unit: IB/methods/sheet-4/qx17
         original_question: '3'
@@ -2003,6 +2091,8 @@ editions:
         source_review: Radical includes printed square brackets. Both perimeter tasks
           and right-angle restriction retained.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 688157a2d51a31d7aadad9cd7a07b0263db7febbda2d8439dd2c1cd941c5f533
       '4':
         unit: IB/methods/sheet-4/qx18
         original_question: '4'
@@ -2017,6 +2107,8 @@ editions:
           equal levels, half-power travel time and the bracketed vertical-tunnel comment
           retained.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3d8ada3b493aafb1d8ded68a5dafc4fbf9d234f79447347576b2d3a8a7a75f94
       '5':
         unit: IB/methods/sheet-4/qx19
         original_question: '5'
@@ -2030,6 +2122,8 @@ editions:
         source_review: Straight fence length a, flexible fencing length ell, strict
           lower and upper bounds and spelling “maximized” checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 57d93aeadb185e1076db2603883283c709f5c2f9de8e0594a134be99648a6e61
       '6':
         unit: IB/methods/sheet-4/qx20
         original_question: '6'
@@ -2044,6 +2138,8 @@ editions:
           bound on k, entrance and exit signs, turning-height equation and height
           bound.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d8e58e15116915f4c7e5db0490dd4577fa12d6327441b132ed96daba0b8a2f93
       '7':
         unit: IB/methods/sheet-4/qx21
         original_question: '7'
@@ -2060,6 +2156,8 @@ editions:
           integrals, first integral including its partial derivative, and positive
           uniqueness request.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2c03a016962e4cde743841b17db1fdf06331b3a1adb86cd14c15559fa56aece3
       '8':
         unit: IB/methods/sheet-4/qx22
         original_question: '8'
@@ -2073,6 +2171,8 @@ editions:
         source_review: Second time derivative in the integrand, four endpoint values
           including both negative slopes, and t to the fourth power checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 30fb8aa698b51e22d91dfa032131b7280f18c843f26b61ffb49ff05cd245128d
       '9':
         unit: IB/methods/sheet-4/qx23
         original_question: '9'
@@ -2086,6 +2186,8 @@ editions:
         source_review: Both expressions for the electrostatic energy, the permittivity,
           and the printed phrase “that J is takes an extremal value” checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 7f3672808defbceabf61caac5a5a713683aee2f072df47799ca23e7ef4164b54
       '10':
         unit: IB/methods/sheet-4/qx24
         original_question: '10'
@@ -2099,6 +2201,8 @@ editions:
         source_review: Checked the density per unit length, opposite signs, tension
           and mass density and Hamilton’s Principle request.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3a0446437b5b1f12c445b2371614ffcff2668abf7d9a1b4974f49e954e68fbba
       '11':
         unit: IB/methods/sheet-4/qx25
         original_question: '11'
@@ -2112,6 +2216,8 @@ editions:
         source_review: The title has no star here; checked the relativistic qualification,
           inverse Lorentz factor, vector product and both field definitions.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 773292864525bdf0232ad5eb4e1e5421b1b042d4133c586a3ad635a3aa4b8a81
       '12':
         unit: IB/methods/sheet-4/qx26
         original_question: '12'
@@ -2126,6 +2232,8 @@ editions:
           Lower and upper bounds and the final qualification about extremal values
           are retained.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 1747b9c438055d6e2ded8591faee3507ad962618997afea9033fe12c70789ffc
   2007-08:
     archive: raw/sheets/IB/methods/2007-08/sheet-4.pdf
     sha256: 5b4f3e774722843ee3b01223d4ad5e8042d4c8c484d2d4d51923189956bc314b
@@ -2175,6 +2283,8 @@ editions:
         source_review: Retains the two-axis extrema, constant-height contours, initial
           point, both route requests and the italic word “without”.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2d8d4e48d345d00aed17b22b5811bf83084050aa39967d31fe4e958937128525
       '2':
         unit: IB/methods/sheet-4/qx16
         original_question: '2'
@@ -2188,6 +2298,8 @@ editions:
         source_review: Checked the three quartics, three mixed terms, claimed minimum
           and saddle count, and the inverse tangent of square root two.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 1421d5ad8d55adeaaa1bf293df329c9f75cfde012fa097954ce46e60dc9d8be2
       '3':
         unit: IB/methods/sheet-4/qx17
         original_question: '3'
@@ -2201,6 +2313,8 @@ editions:
         source_review: Radical includes printed square brackets. Both perimeter tasks
           and right-angle restriction retained.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 688157a2d51a31d7aadad9cd7a07b0263db7febbda2d8439dd2c1cd941c5f533
       '4':
         unit: IB/methods/sheet-4/qx18
         original_question: '4'
@@ -2215,6 +2329,8 @@ editions:
           equal levels, half-power travel time and the bracketed vertical-tunnel comment
           retained.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3d8ada3b493aafb1d8ded68a5dafc4fbf9d234f79447347576b2d3a8a7a75f94
       '5':
         unit: IB/methods/sheet-4/qx19
         original_question: '5'
@@ -2228,6 +2344,8 @@ editions:
         source_review: Straight fence length a, flexible fencing length ell, strict
           lower and upper bounds and spelling “maximized” checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 57d93aeadb185e1076db2603883283c709f5c2f9de8e0594a134be99648a6e61
       '6':
         unit: IB/methods/sheet-4/qx20
         original_question: '6'
@@ -2242,6 +2360,8 @@ editions:
           bound on k, entrance and exit signs, turning-height equation and height
           bound.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d8e58e15116915f4c7e5db0490dd4577fa12d6327441b132ed96daba0b8a2f93
       '7':
         unit: IB/methods/sheet-4/qx21
         original_question: '7'
@@ -2258,6 +2378,8 @@ editions:
           integrals, first integral including its partial derivative, and positive
           uniqueness request.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2c03a016962e4cde743841b17db1fdf06331b3a1adb86cd14c15559fa56aece3
       '8':
         unit: IB/methods/sheet-4/qx22
         original_question: '8'
@@ -2271,6 +2393,8 @@ editions:
         source_review: Second time derivative in the integrand, four endpoint values
           including both negative slopes, and t to the fourth power checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 30fb8aa698b51e22d91dfa032131b7280f18c843f26b61ffb49ff05cd245128d
       '9':
         unit: IB/methods/sheet-4/qx23
         original_question: '9'
@@ -2284,6 +2408,8 @@ editions:
         source_review: Both expressions for the electrostatic energy, the permittivity,
           and the printed phrase “that J is takes an extremal value” checked.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 7f3672808defbceabf61caac5a5a713683aee2f072df47799ca23e7ef4164b54
       '10':
         unit: IB/methods/sheet-4/qx24
         original_question: '10'
@@ -2297,6 +2423,8 @@ editions:
         source_review: Checked the density per unit length, opposite signs, tension
           and mass density and Hamilton’s Principle request.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3a0446437b5b1f12c445b2371614ffcff2668abf7d9a1b4974f49e954e68fbba
       '11':
         unit: IB/methods/sheet-4/qx25
         original_question: '11'
@@ -2310,6 +2438,8 @@ editions:
         source_review: The title has no star here; checked the relativistic qualification,
           inverse Lorentz factor, vector product and both field definitions.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 773292864525bdf0232ad5eb4e1e5421b1b042d4133c586a3ad635a3aa4b8a81
       '12':
         unit: IB/methods/sheet-4/qx26
         original_question: '12'
@@ -2324,6 +2454,8 @@ editions:
           Lower and upper bounds and the final qualification about extremal values
           are retained.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 1747b9c438055d6e2ded8591faee3507ad962618997afea9033fe12c70789ffc
   2015-16:
     archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
     sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
@@ -2377,6 +2509,8 @@ editions:
           uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
           versions print y.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fc7d7fa187502ce1e52f87434a6a311e1bce7e5056eb11075934c7ff3f9b0347
       '2':
         unit: IB/methods/sheet-4/qx27
         original_question: '2'
@@ -2390,6 +2524,8 @@ editions:
         source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
           supply the Fourier series and ask to derive it as a separate step.
         text: variants/2015-16/question.tex
+        verified_solution: history/2026-11-21-exact-7b3c27b658c5/solution.tex
+        verified_solution_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
       '3':
         unit: IB/methods/sheet-4/q02
         original_question: '3'
@@ -2408,6 +2544,8 @@ editions:
           i): IB/methods/sheet-4/q02
           ii): IB/methods/sheet-4/q03
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: b871d36a9e7f79d6fe3f42a30d98ed02aaca0140bd62b06a99187282f60c80a4
       '4':
         unit: IB/methods/sheet-4/qx28
         original_question: '4'
@@ -2421,6 +2559,8 @@ editions:
         source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
           function” on an arbitrary domain; they print no boundary condition.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 4f07b3f0a2dffde6cc0022ed8f8bb36e377735236aadebc88b1a5991406a5cfa
       '5':
         unit: IB/methods/sheet-4/qx29
         original_question: '5'
@@ -2434,6 +2574,8 @@ editions:
         source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
           statements. 2016 alone prints ∂Ω, with normal vector and gradients.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c78f10eb55af45b9d7a99bfa7cfa3c9a724cc0331a306318dd71415d8a734918
       '6':
         unit: IB/methods/sheet-4/q08
         original_question: '6'
@@ -2451,6 +2593,8 @@ editions:
           a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
           formula and ψ₀ in the data.
         text: variants/2015-16/question.tex
+        verified_solution: history/2026-11-21-exact-907c0326cf9a/solution.tex
+        verified_solution_sha256: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
       '7':
         unit: IB/methods/sheet-4/q10
         original_question: '7'
@@ -2465,6 +2609,8 @@ editions:
           of”, “a constant”. 2016 combines both strings under a single number and
           says x₀ > 0.
         text: variants/2015-16/question.tex
+        verified_solution: history/2026-11-21-exact-dd275b6e28b7/solution.tex
+        verified_solution_sha256: a2d14b980545910f34629112bbb55b9e0724bcf582c457abdfc6476fafaeb466
       '8':
         unit: IB/methods/sheet-4/q11
         original_question: '8'
@@ -2479,6 +2625,8 @@ editions:
           separate-string editions. No positivity condition printed for x₀ in those
           historical versions.
         text: variants/2015-16/question.tex
+        verified_solution: history/2026-11-21-exact-3f5f1fcd4d51/solution.tex
+        verified_solution_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
       '9':
         unit: IB/methods/sheet-4/qx30
         original_question: '9'
@@ -2492,6 +2640,8 @@ editions:
         source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
           quadrant and states the set in words.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
       '10':
         unit: IB/methods/sheet-4/q09
         original_question: '10'
@@ -2507,6 +2657,8 @@ editions:
           of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
         printed_title_star: true
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: b82eed1a6f786e82750a20ecd80c1d6e4bca544b29694de16668fa5b3bf06621
       '11':
         unit: IB/methods/sheet-4/qx31
         original_question: '11'
@@ -2521,6 +2673,8 @@ editions:
           in the Green kernel equation, forcing cos x and request for all zeros in
           time.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 675901fc71db808e5c07494be0f3ba921c450d7d849899d430985bdcbf9699fb
   2016-17:
     archive: raw/sheets/IB/methods/2016-17/sheet-4.pdf
     sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
@@ -2573,6 +2727,8 @@ editions:
           uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
           versions print y.
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-11275d998156/solution.tex
+        verified_solution_sha256: db3dc9eb7161d775546bb3cb2a41da6af1ca1c8e5ec4a2b464e24a4b5234ff53
       '2':
         unit: IB/methods/sheet-4/qx27
         original_question: '2'
@@ -2586,6 +2742,8 @@ editions:
         source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
           supply the Fourier series and ask to derive it as a separate step.
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-2ea7fe5c02da/solution.tex
+        verified_solution_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
       '3':
         unit: IB/methods/sheet-4/q02
         original_question: '3'
@@ -2604,6 +2762,8 @@ editions:
           (a): IB/methods/sheet-4/q02
           (b): IB/methods/sheet-4/q03
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-ace4d9ceba43/solution.tex
+        verified_solution_sha256: b871d36a9e7f79d6fe3f42a30d98ed02aaca0140bd62b06a99187282f60c80a4
       '4':
         unit: IB/methods/sheet-4/qx28
         original_question: '4'
@@ -2617,6 +2777,8 @@ editions:
         source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
           function” on an arbitrary domain; they print no boundary condition.
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-32a5ce2e75e2/solution.tex
+        verified_solution_sha256: ae5768dfbbf98a9dbd7dda7cb301e0b6d32e683cee5294ada585fd79760ab951
       '5':
         unit: IB/methods/sheet-4/qx29
         original_question: '5'
@@ -2630,6 +2792,8 @@ editions:
         source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
           statements. 2016 alone prints ∂Ω, with normal vector and gradients.
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-2c20d6659e49/solution.tex
+        verified_solution_sha256: c78f10eb55af45b9d7a99bfa7cfa3c9a724cc0331a306318dd71415d8a734918
       '6':
         unit: IB/methods/sheet-4/q08
         original_question: '6'
@@ -2645,6 +2809,8 @@ editions:
           a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
           formula and ψ₀ in the data.
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-b3c38502e854/solution.tex
+        verified_solution_sha256: 3889137d787a2431720a175d7c1b03fc7638bd551ad6336d9856fb66b952927c
       '7':
         unit: IB/methods/sheet-4/q11
         original_question: '7'
@@ -2662,6 +2828,8 @@ editions:
           (a): IB/methods/sheet-4/q10
           (b) and final comparison: IB/methods/sheet-4/q11
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f928875ee3431f1ad14fe200dc76dba69ec4417808d8b79a59938100f5c95b58
       '8':
         unit: IB/methods/sheet-4/qx30
         original_question: '8'
@@ -2675,6 +2843,8 @@ editions:
         source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
           quadrant and states the set in words.
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-eb49d9241261/solution.tex
+        verified_solution_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
       '9':
         unit: IB/methods/sheet-4/q09
         original_question: '9'
@@ -2690,6 +2860,8 @@ editions:
           of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
         printed_title_star: true
         text: variants/2016-17/question.tex
+        verified_solution: history/2026-11-21-exact-9d4d00a2f95d/solution.tex
+        verified_solution_sha256: b82eed1a6f786e82750a20ecd80c1d6e4bca544b29694de16668fa5b3bf06621
   2018-19:
     archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
     sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
@@ -2748,6 +2920,8 @@ editions:
           uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
           versions print y.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fc7d7fa187502ce1e52f87434a6a311e1bce7e5056eb11075934c7ff3f9b0347
       '2':
         unit: IB/methods/sheet-4/qx27
         original_question: '2'
@@ -2761,6 +2935,8 @@ editions:
         source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
           supply the Fourier series and ask to derive it as a separate step.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
       '3':
         unit: IB/methods/sheet-4/q02
         original_question: '3'
@@ -2779,6 +2955,8 @@ editions:
           i): IB/methods/sheet-4/q02
           ii): IB/methods/sheet-4/q03
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: b871d36a9e7f79d6fe3f42a30d98ed02aaca0140bd62b06a99187282f60c80a4
       '4':
         unit: IB/methods/sheet-4/q08
         original_question: '4'
@@ -2794,6 +2972,8 @@ editions:
           a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
           formula and ψ₀ in the data.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 74c3d363082b06588b73c9a0908df4d5714a67aa3c96f572c50fcef6674ee1f2
       '5':
         unit: IB/methods/sheet-4/qx30
         original_question: '5'
@@ -2807,6 +2987,8 @@ editions:
         source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
           quadrant and states the set in words.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
       '6':
         unit: IB/methods/sheet-4/q10
         original_question: '6'
@@ -2821,6 +3003,8 @@ editions:
           of”, “a constant”. 2016 combines both strings under a single number and
           says x₀ > 0.
         text: variants/2018-19/question.tex
+        verified_solution: history/2026-11-21-exact-d87e0f4c7704/solution.tex
+        verified_solution_sha256: a2d14b980545910f34629112bbb55b9e0724bcf582c457abdfc6476fafaeb466
       '7':
         unit: IB/methods/sheet-4/q11
         original_question: '7'
@@ -2835,6 +3019,8 @@ editions:
           separate-string editions. No positivity condition printed for x₀ in those
           historical versions.
         text: variants/2018-19/question.tex
+        verified_solution: history/2026-11-21-exact-d54a7a50f09d/solution.tex
+        verified_solution_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
       '8':
         unit: IB/methods/sheet-4/q09
         original_question: '8'
@@ -2850,6 +3036,8 @@ editions:
           of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
         printed_title_star: true
         text: variants/2018-19/question.tex
+        verified_solution: history/2026-11-21-exact-64edd3f2715d/solution.tex
+        verified_solution_sha256: b82eed1a6f786e82750a20ecd80c1d6e4bca544b29694de16668fa5b3bf06621
       '9':
         unit: IB/methods/sheet-4/qx29
         original_question: '9'
@@ -2863,6 +3051,8 @@ editions:
         source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
           statements. 2016 alone prints ∂Ω, with normal vector and gradients.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c78f10eb55af45b9d7a99bfa7cfa3c9a724cc0331a306318dd71415d8a734918
       '10':
         unit: IB/methods/sheet-4/qx32
         original_question: '10'
@@ -2877,6 +3067,8 @@ editions:
           alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
           in prose.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
       '11':
         unit: IB/methods/sheet-4/qx28
         original_question: '11'
@@ -2890,6 +3082,8 @@ editions:
         source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
           function” on an arbitrary domain; they print no boundary condition.
         text: variants/2018-19/question.tex
+        verified_solution: history/2026-11-21-exact-1470c4b113ca/solution.tex
+        verified_solution_sha256: cca63d83bd49cc78aa68f863ee99009e6385f0f313ff7e3cf643007e6e822ab2
       '12':
         unit: IB/methods/sheet-4/qx33
         original_question: '12'
@@ -2904,6 +3098,8 @@ editions:
           plane, gives the Bessel integral, and explicitly requests a plausibility
           argument.
         text: variants/2018-19/question.tex
+        verified_solution: history/2026-11-21-exact-b13a97b93020/solution.tex
+        verified_solution_sha256: 601b2d5e304df88cf161c825a0e67ac6895a3bee5fcc46208ae5b9bced396357
   2020-21:
     archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
     sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
@@ -2961,6 +3157,8 @@ editions:
           uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
           versions print y.
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-89028d900566/solution.tex
+        verified_solution_sha256: fc7d7fa187502ce1e52f87434a6a311e1bce7e5056eb11075934c7ff3f9b0347
       '2':
         unit: IB/methods/sheet-4/qx27
         original_question: '2'
@@ -2974,6 +3172,8 @@ editions:
         source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
           supply the Fourier series and ask to derive it as a separate step.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
       '3':
         unit: IB/methods/sheet-4/q02
         original_question: '3'
@@ -2992,6 +3192,8 @@ editions:
           (i): IB/methods/sheet-4/q02
           (ii): IB/methods/sheet-4/q03
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-95231bbbe21c/solution.tex
+        verified_solution_sha256: b871d36a9e7f79d6fe3f42a30d98ed02aaca0140bd62b06a99187282f60c80a4
       '4':
         unit: IB/methods/sheet-4/q08
         original_question: '4'
@@ -3007,6 +3209,8 @@ editions:
           a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
           formula and ψ₀ in the data.
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-4c961b79e82f/solution.tex
+        verified_solution_sha256: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
       '5':
         unit: IB/methods/sheet-4/qx30
         original_question: '5'
@@ -3020,6 +3224,8 @@ editions:
         source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
           quadrant and states the set in words.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
       '6':
         unit: IB/methods/sheet-4/q10
         original_question: '6'
@@ -3034,6 +3240,8 @@ editions:
           of”, “a constant”. 2016 combines both strings under a single number and
           says x₀ > 0.
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-d87e0f4c7704/solution.tex
+        verified_solution_sha256: a2d14b980545910f34629112bbb55b9e0724bcf582c457abdfc6476fafaeb466
       '7':
         unit: IB/methods/sheet-4/q11
         original_question: '7'
@@ -3048,6 +3256,8 @@ editions:
           separate-string editions. No positivity condition printed for x₀ in those
           historical versions.
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-d54a7a50f09d/solution.tex
+        verified_solution_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
       '8':
         unit: IB/methods/sheet-4/q09
         original_question: '8'
@@ -3063,6 +3273,8 @@ editions:
           of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
         printed_title_star: true
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-52815625aa4c/solution.tex
+        verified_solution_sha256: b82eed1a6f786e82750a20ecd80c1d6e4bca544b29694de16668fa5b3bf06621
       '9':
         unit: IB/methods/sheet-4/qx29
         original_question: '9'
@@ -3076,6 +3288,8 @@ editions:
         source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
           statements. 2016 alone prints ∂Ω, with normal vector and gradients.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c78f10eb55af45b9d7a99bfa7cfa3c9a724cc0331a306318dd71415d8a734918
       '10':
         unit: IB/methods/sheet-4/qx32
         original_question: '10'
@@ -3090,6 +3304,8 @@ editions:
           alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
           in prose.
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-3de47efcdc98/solution.tex
+        verified_solution_sha256: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
       '11':
         unit: IB/methods/sheet-4/qx28
         original_question: '11'
@@ -3103,6 +3319,8 @@ editions:
         source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
           function” on an arbitrary domain; they print no boundary condition.
         text: variants/2020-21/question.tex
+        verified_solution: history/2026-11-21-exact-1470c4b113ca/solution.tex
+        verified_solution_sha256: cca63d83bd49cc78aa68f863ee99009e6385f0f313ff7e3cf643007e6e822ab2
       '12':
         unit: IB/methods/sheet-4/qx33
         original_question: '12'
@@ -3117,6 +3335,8 @@ editions:
           plane, gives the Bessel integral, and explicitly requests a plausibility
           argument.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6b83cf18428b1ab8b57a44f81a7c3b54ceb1f556e802c8cabd47465181bdd9e2
   2021-22:
     archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
     sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
@@ -3174,6 +3394,8 @@ editions:
           uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
           versions print y.
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-89028d900566/solution.tex
+        verified_solution_sha256: fc7d7fa187502ce1e52f87434a6a311e1bce7e5056eb11075934c7ff3f9b0347
       '2':
         unit: IB/methods/sheet-4/qx27
         original_question: '2'
@@ -3187,6 +3409,8 @@ editions:
         source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
           supply the Fourier series and ask to derive it as a separate step.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
       '3':
         unit: IB/methods/sheet-4/q02
         original_question: '3'
@@ -3205,6 +3429,8 @@ editions:
           (i): IB/methods/sheet-4/q02
           (ii): IB/methods/sheet-4/q03
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-95231bbbe21c/solution.tex
+        verified_solution_sha256: b871d36a9e7f79d6fe3f42a30d98ed02aaca0140bd62b06a99187282f60c80a4
       '4':
         unit: IB/methods/sheet-4/q08
         original_question: '4'
@@ -3220,6 +3446,8 @@ editions:
           a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
           formula and ψ₀ in the data.
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-4c961b79e82f/solution.tex
+        verified_solution_sha256: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
       '5':
         unit: IB/methods/sheet-4/qx30
         original_question: '5'
@@ -3233,6 +3461,8 @@ editions:
         source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
           quadrant and states the set in words.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
       '6':
         unit: IB/methods/sheet-4/q10
         original_question: '6'
@@ -3247,6 +3477,8 @@ editions:
           of”, “a constant”. 2016 combines both strings under a single number and
           says x₀ > 0.
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-d87e0f4c7704/solution.tex
+        verified_solution_sha256: a2d14b980545910f34629112bbb55b9e0724bcf582c457abdfc6476fafaeb466
       '7':
         unit: IB/methods/sheet-4/q11
         original_question: '7'
@@ -3261,6 +3493,8 @@ editions:
           separate-string editions. No positivity condition printed for x₀ in those
           historical versions.
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-d54a7a50f09d/solution.tex
+        verified_solution_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
       '8':
         unit: IB/methods/sheet-4/q09
         original_question: '8'
@@ -3276,6 +3510,8 @@ editions:
           of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
         printed_title_star: true
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-52815625aa4c/solution.tex
+        verified_solution_sha256: b82eed1a6f786e82750a20ecd80c1d6e4bca544b29694de16668fa5b3bf06621
       '9':
         unit: IB/methods/sheet-4/qx29
         original_question: '9'
@@ -3289,6 +3525,8 @@ editions:
         source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
           statements. 2016 alone prints ∂Ω, with normal vector and gradients.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c78f10eb55af45b9d7a99bfa7cfa3c9a724cc0331a306318dd71415d8a734918
       '10':
         unit: IB/methods/sheet-4/qx32
         original_question: '10'
@@ -3303,6 +3541,8 @@ editions:
           alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
           in prose.
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-3de47efcdc98/solution.tex
+        verified_solution_sha256: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
       '11':
         unit: IB/methods/sheet-4/qx28
         original_question: '11'
@@ -3316,6 +3556,8 @@ editions:
         source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
           function” on an arbitrary domain; they print no boundary condition.
         text: variants/2021-22/question.tex
+        verified_solution: history/2026-11-21-exact-1470c4b113ca/solution.tex
+        verified_solution_sha256: cca63d83bd49cc78aa68f863ee99009e6385f0f313ff7e3cf643007e6e822ab2
       '12':
         unit: IB/methods/sheet-4/qx33
         original_question: '12'
@@ -3330,6 +3572,8 @@ editions:
           plane, gives the Bessel integral, and explicitly requests a plausibility
           argument.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6b83cf18428b1ab8b57a44f81a7c3b54ceb1f556e802c8cabd47465181bdd9e2
   2022-23:
     archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
     sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
@@ -3387,6 +3631,8 @@ editions:
           uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
           versions print y.
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-89028d900566/solution.tex
+        verified_solution_sha256: fc7d7fa187502ce1e52f87434a6a311e1bce7e5056eb11075934c7ff3f9b0347
       '2':
         unit: IB/methods/sheet-4/qx27
         original_question: '2'
@@ -3400,6 +3646,8 @@ editions:
         source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
           supply the Fourier series and ask to derive it as a separate step.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: a5336b0c4781a4b63d2fbcb4ed405d6b27b559e81aeb70cebae2f79936f0c7a8
       '3':
         unit: IB/methods/sheet-4/q02
         original_question: '3'
@@ -3418,6 +3666,8 @@ editions:
           (i): IB/methods/sheet-4/q02
           (ii): IB/methods/sheet-4/q03
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-95231bbbe21c/solution.tex
+        verified_solution_sha256: b871d36a9e7f79d6fe3f42a30d98ed02aaca0140bd62b06a99187282f60c80a4
       '4':
         unit: IB/methods/sheet-4/q08
         original_question: '4'
@@ -3433,6 +3683,8 @@ editions:
           a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
           formula and ψ₀ in the data.
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-4c961b79e82f/solution.tex
+        verified_solution_sha256: f3e0d9bb0dccc5fcb9667cd1db929e57468c8b51b4442836e905d0b4af865d71
       '5':
         unit: IB/methods/sheet-4/qx30
         original_question: '5'
@@ -3446,6 +3698,8 @@ editions:
         source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
           quadrant and states the set in words.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 92a1726fd7426b23fabee8e46d8db50a4c9f1bdbfa30461189fcde6b21cd9af1
       '6':
         unit: IB/methods/sheet-4/q10
         original_question: '6'
@@ -3460,6 +3714,8 @@ editions:
           of”, “a constant”. 2016 combines both strings under a single number and
           says x₀ > 0.
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-d87e0f4c7704/solution.tex
+        verified_solution_sha256: a2d14b980545910f34629112bbb55b9e0724bcf582c457abdfc6476fafaeb466
       '7':
         unit: IB/methods/sheet-4/q11
         original_question: '7'
@@ -3474,6 +3730,8 @@ editions:
           separate-string editions. No positivity condition printed for x₀ in those
           historical versions.
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-d54a7a50f09d/solution.tex
+        verified_solution_sha256: e5761c6240d7de5865f8b0ebd0d9e281cd342887a948d7f2cb328c97183dcab0
       '8':
         unit: IB/methods/sheet-4/q09
         original_question: '8'
@@ -3489,6 +3747,8 @@ editions:
           of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
         printed_title_star: true
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-52815625aa4c/solution.tex
+        verified_solution_sha256: b82eed1a6f786e82750a20ecd80c1d6e4bca544b29694de16668fa5b3bf06621
       '9':
         unit: IB/methods/sheet-4/qx29
         original_question: '9'
@@ -3502,6 +3762,8 @@ editions:
         source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
           statements. 2016 alone prints ∂Ω, with normal vector and gradients.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c78f10eb55af45b9d7a99bfa7cfa3c9a724cc0331a306318dd71415d8a734918
       '10':
         unit: IB/methods/sheet-4/qx32
         original_question: '10'
@@ -3516,6 +3778,8 @@ editions:
           alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
           in prose.
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-3de47efcdc98/solution.tex
+        verified_solution_sha256: 0b58b6c3b2b770044ddf24b8512cfe9b5239fdf8162ac6d8584a963db9f13e1d
       '11':
         unit: IB/methods/sheet-4/qx28
         original_question: '11'
@@ -3529,6 +3793,8 @@ editions:
         source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
           function” on an arbitrary domain; they print no boundary condition.
         text: variants/2022-23/question.tex
+        verified_solution: history/2026-11-21-exact-1470c4b113ca/solution.tex
+        verified_solution_sha256: cca63d83bd49cc78aa68f863ee99009e6385f0f313ff7e3cf643007e6e822ab2
       '12':
         unit: IB/methods/sheet-4/qx33
         original_question: '12'
@@ -3543,6 +3809,8 @@ editions:
           plane, gives the Bessel integral, and explicitly requests a plausibility
           argument.
         text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6b83cf18428b1ab8b57a44f81a7c3b54ceb1f556e802c8cabd47465181bdd9e2
   2023-24:
     archive: raw/sheets/IB/methods/2023-24/sheet-4.pdf
     sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
@@ -3722,6 +3990,8 @@ editions:
         source_review: Printed dimension n (not 3), closed ball inequality, full italic
           external-charge hint verified on p. 2.
         text: variants/2023-24/question.tex
+        verified_solution: history/2026-11-21-exact-8bf35ea15e90/solution.tex
+        verified_solution_sha256: 87e0c21637aaf36bd39a34a504b201c5dc39f5620aa1b885bd21248d300b499d
       '10':
         unit: IB/methods/sheet-4/q10
         original_question: '10'
@@ -3796,6 +4066,8 @@ editions:
           review: Compared both shaded sections, their arrows, apex, base point, axis,
             ambient space and caption against the archived page.
         text: variants/2023-24/question.tex
+        verified_solution: history/2026-11-21-exact-fe631d5c08e9/solution.tex
+        verified_solution_sha256: 9e6e9ec8413ca79ede94647ee7a440c244246d22c7397a3afa23220023e0fc06
   2025-26:
     archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
     sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
