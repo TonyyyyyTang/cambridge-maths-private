@@ -1,0 +1,436 @@
+paper_id: IB/2003/P3
+id: IB/2003/P3
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 10
+  II: 10
+alternatives: []
+instructions: You should attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2003-06-05'
+printed_date: Thursday 5 June 2003
+time: 9 to 12
+source: private/raw/tripos/IB/2003/P3.pdf
+archive: private/raw/tripos/IB/2003/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2003/PaperIB_3.pdf
+sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- You should attempt at most four questions from Section I and at most six questions from Section II.
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the code letter affixed to each
+  question, including in the same bundle questions from Sections I and II with the same code letter.
+- Attach a completed blue cover sheet to each bundle; write the code letter in the box marked ‘SECTION’ on
+  the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2003/P3/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: bb706e09871dd38ae6d121c5e52c1cef777a34d66b551007a9069b25231b9c31
+  checks: Integral norm, endpoints and sequence of monomials.
+  source_page_render_sha256: 574bbf76125dbc2024f81e0513cc6a6f69306e3118fdf202bce08ca08599adfc
+- id: IB/2003/P3/q2D
+  original_question: 2D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: 2d8350416cb64d87e48a461bf0c2ab3991062bdb84803b6975c10ae87e12a6f8
+  checks: Full cone angle, derivative in polar angle and squared cosecant.
+  printed_ambiguity: A global shortest geodesic needs the relevant branch on the developed cone. The graph
+    notation can exclude a generator or an apex endpoint.
+  source_page_render_sha256: 574bbf76125dbc2024f81e0513cc6a6f69306e3118fdf202bce08ca08599adfc
+  course_mapping_note: Current Variational Principles covers Euler-Lagrange equations for extremal paths (physical
+    schedule p. 20). The original heading is Methods.
+- id: IB/2003/P3/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 18036d99e26eb4000befc61c9a0286184884594edeb1b59f2ea6d771ba1f921f
+  checks: The two entire-function hypotheses use different inequalities.
+  source_page_render_sha256: 574bbf76125dbc2024f81e0513cc6a6f69306e3118fdf202bce08ca08599adfc
+  course_mapping_note: Current Complex Analysis covers the analytic-function theorems used here (physical schedule
+    p. 19).
+- id: IB/2003/P3/q4F
+  original_question: 4F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 737fc1f93080d79aaab2b721073bfa625ab3bd072aa57df6e8e7690d42ac8bbd
+  checks: Isometry fixes origin, planes through origin, necessity example with justification.
+  source_page_render_sha256: 574bbf76125dbc2024f81e0513cc6a6f69306e3118fdf202bce08ca08599adfc
+- id: IB/2003/P3/q5H
+  original_question: 5H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 44390a6914b77fac6f25e4b059ecbb17e0c5493c5db2993a4242d61c303b264a
+  checks: Original four-by-three signed payoff table; player A alone requested.
+  figures:
+  - game-payoffs
+  source_page_render_sha256: 89bf5af39e61595233d960e30cae1364314175cefbd4423c33a1bfb313ccb761
+  figure_png_sha256:
+    game-payoffs: a9bfdbf66133ba659b6cd1b9f4f18c23709d53d7d64511d0b2d0a6d000294ae8
+  plot_sha256: 153db371452535aa089632fa4e432b2e53bdb2950475ae9fd5710409f6ce1b0f
+  course_mapping_note: The historical heading Optimization corresponds to current Optimisation.
+- id: IB/2003/P3/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 8ec12008d1fa6cf68dff850e82dc2dc9660404459ba2e1e52e263341c50c9023
+  checks: Product omits k=i; both numerator and derivative in the residue coefficient.
+  source_page_render_sha256: 89bf5af39e61595233d960e30cae1364314175cefbd4423c33a1bfb313ccb761
+- id: IB/2003/P3/q7G
+  original_question: 7G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1f5e443192338b8a1d90e7a5996e37a6514bb13c3f060929bbbc8473d1468161
+  checks: Commutant, identity iota, distinct real eigenvalues, real endomorphism square.
+  source_page_render_sha256: 89bf5af39e61595233d960e30cae1364314175cefbd4423c33a1bfb313ccb761
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
+    duality or bilinear forms (physical schedule p. 17).
+- id: IB/2003/P3/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: ffa76a3db13374648f1a40d5e2ec90ef0e597626f9535eb8ff16d25e14e2bef2
+  checks: Cross-product order, flux integrand, factor one half and limiting radius.
+  source_page_render_sha256: 9a0bee3e667b5751c6aeee00c55afd35d1e64223d09b6d364237ba1941892c2d
+- id: IB/2003/P3/q9G
+  original_question: 9G
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quadratic Mathematics
+  course: II/number-theory
+  also_courses: []
+  question_sha256: db07566ec925ebde8b582dbb2108b122c1b712073682d7884e3f87b684ab1c03
+  checks: Integer coefficients, discriminant, odd-prime condition and specific form.
+  source_page_render_sha256: 9a0bee3e667b5751c6aeee00c55afd35d1e64223d09b6d364237ba1941892c2d
+  course_mapping_note: Current Number Theory explicitly includes quadratic residues, Legendre symbols, Euler’s
+    criterion, binary quadratic forms, discriminants and representation of primes (physical schedule p. 28).
+- id: IB/2003/P3/q10A
+  original_question: 10A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: d62052d96a55cf1f95525d6c143afd197f40e4e07f18797fab448c13919c637e
+  checks: Outgoing wavelength is primed; no initial electron rest condition is printed.
+  printed_ambiguity: The displayed Compton shift assumes an initially stationary free electron; this condition
+    is implicit in the original.
+  source_page_render_sha256: 9a0bee3e667b5751c6aeee00c55afd35d1e64223d09b6d364237ba1941892c2d
+  course_mapping_note: Current Dynamics and Relativity schedules Lorentz transformations, relativistic energy
+    and momentum and particle dynamics (physical schedule p. 13).
+- id: IB/2003/P3/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 71241fd19c395e744a7f1acf683d5ec37750313d5140fe9d492a3be0427172f2
+  checks: Uniform metric, completeness, continuity of the fixed-point map and both bracketed hints.
+  printed_ambiguity: The fixed-point assertion requires the metric space to be nonempty.
+  source_page_render_sha256: fdd0e410c847335506d8e2a33863c13052552d52d69437538868ac7bb604b0a4
+- id: IB/2003/P3/q12D
+  original_question: 12D
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: ea6400e11953c3d877bc68a6b7c80874e14e2fc13b0ca9b594886950a630603c
+  checks: Printed mode denominator outside the sum and literal slash in the sine, checked directly against
+    the page image.
+  printed_ambiguity: The original places the mode-dependent denominator outside the sum, prints a slash after
+    the last sine, and omits the inverse string length required by the printed delta normalization. The damping
+    thresholds are mode-dependent. No separate correction was indexed.
+  source_page_render_sha256: fdd0e410c847335506d8e2a33863c13052552d52d69437538868ac7bb604b0a4
+- id: IB/2003/P3/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: d485a9d7dc75254f7c22c7f4c9bcbef8f47e35dd5a1e8123f028cb839a017a84
+  checks: All five parts, accumulation point inside the domain and example on the punctured plane.
+  source_page_render_sha256: ad7eef90fd94f82a091b85ad6d1c19e7b3b7980caf814fd45e7b914c7927bb80
+  course_mapping_note: Current Complex Analysis covers the analytic-function theorems used here (physical schedule
+    p. 19).
+- id: IB/2003/P3/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 83491d470a40526d9fc1ec181b132a17c2beb3475564d45e491a98d121f96be4
+  checks: Spherical polygon angles, tessellation assumption, the (2,3,5) construction.
+  source_page_render_sha256: ad7eef90fd94f82a091b85ad6d1c19e7b3b7980caf814fd45e7b914c7927bb80
+- id: IB/2003/P3/q15H
+  original_question: 15H
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 60f858253b2a29cc5e5c0bdccd97776432c4749699f265f7a987d6a33bd5d8ba
+  checks: North-west initialization and all transportation costs, supplies and demands.
+  figures:
+  - transportation-table
+  source_page_render_sha256: ad7eef90fd94f82a091b85ad6d1c19e7b3b7980caf814fd45e7b914c7927bb80
+  figure_png_sha256:
+    transportation-table: 3a829349de20e75228441c7b35ea56f93757c5517f915082536209fbbae3220f
+  plot_sha256: 0f785973c3ac5317b6edf4fbb30cbeda59457eddf97cea4280733932e56b0c99
+  course_mapping_note: The historical heading Optimization corresponds to current Optimisation.
+- id: IB/2003/P3/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 7e3018eb7d6c82f055725652123eddd6bb481a2539985621d1f9b6449e262026
+  checks: Rodrigues formula, orthogonality weight, recurrence and derivative hint.
+  source_page_render_sha256: 139673255fe1411867a4a5d5c2f91952bb36623b5d0f93184c15ea819e8f4b94
+- id: IB/2003/P3/q17G
+  original_question: 17G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: cad7a4591c428ada76f3dd71ee01912124579f2baea60d1a60c9236147b8c368
+  checks: Column permutation, transpose, both adjugate identities, real and complex similarity.
+  source_page_render_sha256: 139673255fe1411867a4a5d5c2f91952bb36623b5d0f93184c15ea819e8f4b94
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
+    duality or bilinear forms (physical schedule p. 17).
+- id: IB/2003/P3/q18C
+  original_question: 18C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 2df18edf4b5f7d9fef329ccd3ab57cecf69d4965443b8f126b769c6f0dd82454
+  checks: Pressure excess, daggered equation, suggested multiplier and sine time formula.
+  printed_ambiguity: The displayed depletion time assumes that the balloon starts at rest. Only its initial
+    radius is stated.
+  source_page_render_sha256: c2f82bc0cd7c3d5c7c8c5bca6f3c4665d029e0ff0c86e3b75934661df524b8bb
+- id: IB/2003/P3/q19G
+  original_question: 19G
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quadratic Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 5ffa4562472e9d8d4de17ec19b4e2eecb6edf5abf9e24aea0853010b69d85790
+  checks: Idempotence and normality, composition order, changing the inner product.
+  source_page_render_sha256: c2f82bc0cd7c3d5c7c8c5bca6f3c4665d029e0ff0c86e3b75934661df524b8bb
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
+    duality or bilinear forms (physical schedule p. 17).
+- id: IB/2003/P3/q20A
+  original_question: 20A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 7263ad8158843e67e8d24dfeebcee72a2677d0de09c6076392ae7aee13d73147
+  checks: Radial differential operator, both zero-angular-momentum states and emitted frequency.
+  source_page_render_sha256: 692e31fbf3575170821dd1414646ae46b710eaf3e91aa878008b1e80fac91df3
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 5ad9b1969028e59ee00833c04ce258871f2a57716c32a92d4c298bf21b742e41
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 171
+  katex_failures: 0
+  compiled_proof_pages: 20
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2003 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: ce00a541ab1821f80c606cadb5f87a4fc88e1ae8954ad8c18c66c72122ad750f
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1F
+  - 2D
+  - 3E
+  - 4F
+  source_page_render_sha256: 574bbf76125dbc2024f81e0513cc6a6f69306e3118fdf202bce08ca08599adfc
+  printed_page: 2
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 5H
+  - 6B
+  - 7G
+  source_page_render_sha256: 89bf5af39e61595233d960e30cae1364314175cefbd4423c33a1bfb313ccb761
+  printed_page: 3
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 8C
+  - 9G
+  - 10A
+  source_page_render_sha256: 9a0bee3e667b5751c6aeee00c55afd35d1e64223d09b6d364237ba1941892c2d
+  printed_page: 4
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 11F
+  - 12D
+  source_page_render_sha256: fdd0e410c847335506d8e2a33863c13052552d52d69437538868ac7bb604b0a4
+  printed_page: 5
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 13E
+  - 14F
+  - 15H
+  source_page_render_sha256: ad7eef90fd94f82a091b85ad6d1c19e7b3b7980caf814fd45e7b914c7927bb80
+  printed_page: 6
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 16B
+  - 17G
+  source_page_render_sha256: 139673255fe1411867a4a5d5c2f91952bb36623b5d0f93184c15ea819e8f4b94
+  printed_page: 7
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 18C
+  - 19G
+  source_page_render_sha256: c2f82bc0cd7c3d5c7c8c5bca6f3c4665d029e0ff0c86e3b75934661df524b8bb
+  printed_page: 8
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 9
+  contents: questions
+  questions:
+  - 20A
+  source_page_render_sha256: 692e31fbf3575170821dd1414646ae46b710eaf3e91aa878008b1e80fac91df3
+  printed_page: 9
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+provenance:
+  source_class: public-faculty-tripos
+  archived_at_utc: '2026-11-20T12:26:35.430335+00:00'
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: physical PDF pages
