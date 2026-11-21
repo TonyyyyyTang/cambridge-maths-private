@@ -1,0 +1,273 @@
+paper_id: IB/2017/P4
+id: IB/2017/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2017-06-09'
+printed_date: Friday, 9 June, 2017
+time: 1:30pm to 4:30 pm
+source: private/raw/tripos/IB/2017/P4.pdf
+archive: private/raw/tripos/IB/2017/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2017/paperib_4_1.pdf
+sha256: bd45580a3cd62eceb6e004b9bfe02cd968196dbb02b9302db815447e7ac63bc0
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2017/P4/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: cbd828dfa496dbe26824e932323893073578984e789dd27d7b6c1d68eda3da71
+  checks: Real finite-dimensional hypotheses, the orthogonal direct sum and the three evaluation points were
+    checked.
+- id: IB/2017/P4/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ee841339600608e43e00afb4748acbee86c3b594e4c4b182a590ec5b949d4446
+  checks: Group order, strict centre bound and the nonabelian condition were checked.
+- id: IB/2017/P4/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 0ec32695a4de75d81fdfcfaa237758f9784b8187073b49752c0157173bc97fdf
+  checks: The three dimensions, negatively sloped line and functional dependence on the sum were matched.
+- id: IB/2017/P4/q4F
+  original_question: 4F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 84e05ef34c9b4ba3f32a1911e2d669f5b3d1c72559c40542c3e23616ab073c2b
+  checks: The triangular boundary integral, star-domain hypothesis and its removal were verified.
+- id: IB/2017/P4/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 83e631b058cecc88b26c6885c595db8eeea2e0863f26c050dd0c8a53d53bbc1f
+  checks: The Sturm–Liouville equation, recurrence coefficients, interval and Rodrigues derivative order were
+    checked.
+- id: IB/2017/P4/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: c208cb00ca431de8a428098ccda10281ca6c013f40f89a68d9c126a774f089b0
+  checks: The phase sign, direction of incidence, two open ranges and positive step height were checked.
+- id: IB/2017/P4/q7C
+  original_question: 7C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 567226adfcdb38f6e5f92ccb644352a121cbd3a70295d86b640e1566f52fe734
+  checks: The far-field expression, scalar product, numerator sign and fifth-power denominator were compared.
+- id: IB/2017/P4/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: eed43d8b0b3d0e4d02a98f44be8cd9d5b01f24ec0c6082f5cd7f764a73b7e924
+  checks: All sixteen matrix entries, unit diagonal condition and lambda equals thirty case were checked.
+- id: IB/2017/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 0024928c665674ef98b37007f864ee284b2bef78a9587803b0b06e51ee76b823
+  checks: The dimension of the lattice and the unrestricted combinatorial-inequality permission were matched.
+- id: IB/2017/P4/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 6077eebdab784c9b1e1ffcb3b204190c5b60d795063f9f556b585ef05532143b
+  checks: The dual and double dual, restriction on assumed dimensions and finite/infinite separating-space
+    questions were checked.
+- id: IB/2017/P4/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 4179aceb5a637d9947bae49366003abf52a57105ec1dfb1a25641874b0dfe795
+  checks: The proof requirement for the rational canonical form, Euclidean domain and PID submodule hypotheses
+    were checked.
+- id: IB/2017/P4/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: ed69eec35ca79acba68ddd16ff2f60154767354f489fc170aa29d02a2aa27f5d
+  checks: The dimensions, continuity of partial derivatives and exponents in the piecewise function were checked.
+- id: IB/2017/P4/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 189d4231dded2a75188d03de85e81130fcd86d2840ffe3782880cd55788d4430
+  checks: Closed-set and fibre hypotheses, the cover indices and the complement in the hint were checked.
+- id: IB/2017/P4/q14A
+  original_question: 14A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 0c234d8709ce10cc4be51fbc9406f4a8c89a78a2fe034e2714fac6c510669d34
+  checks: The sine map, all four boundary statements, the interval of integration and final sine argument were
+    checked.
+- id: IB/2017/P4/q15G
+  original_question: 15G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 10b40e7e61fe004fe6d4825163a849d398ce4b9a11872ecbc57738478b3f771a
+  checks: The equality case for arc length, two parallelism definitions and existence and uniqueness cases
+    for horocycle orthogonals were checked.
+  printed_ambiguity: In the common-perpendicular characterisation consider whether the two lines are assumed
+    distinct.
+- id: IB/2017/P4/q16D
+  original_question: 16D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 3696f452a9fd4f8e7a1208643e0e29c973b26490b11aeaa4f58db697096a367e
+  checks: The mixed derivative in the second variation, ring spacing, cosh profile, interval and strict inequality
+    were checked.
+  printed_ambiguity: The strict second-variation test is printed for all endpoint-vanishing functions, though
+    the zero variation gives equality.
+- id: IB/2017/P4/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: cd7ed277d8f764f3e86757677928fc15c826c29cf7e88b3cfa33a92eec4b6bc9
+  checks: The homogeneous and forced initial conditions, Green identity, insulated axis, angular sector and
+    maximum time were checked.
+- id: IB/2017/P4/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 9ee50e9c0c89aa5647cb13b44da33b0036e6488a0eddbb6332a21c7a6c3ff94d
+  checks: The vector vorticity and Coriolis terms, forcing sign and positive time phase of the wave were checked.
+- id: IB/2017/P4/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 629d604f6e4a553571ef5a61a1ebc7106ca63a4c84c5e062a5f310b742afcc3b
+  checks: The density, indicator support, closed parameter range and simple versus composite alternatives were
+    checked.
+- id: IB/2017/P4/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 9789f1e12e7ff8aca8f52af23806811660c16c594e1aad076f15a9f8bfe89a12
+  checks: All twelve directed arcs, capacity labels, source, sink and additive perturbation were checked on
+    the printed network.
+  figures:
+  - capacity-network

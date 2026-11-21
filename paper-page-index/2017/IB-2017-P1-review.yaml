@@ -1,0 +1,268 @@
+paper_id: IB/2017/P1
+id: IB/2017/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2017-06-06'
+printed_date: Tuesday, 6 June, 2017
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2017/P1.pdf
+archive: private/raw/tripos/IB/2017/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2017/paperib_1_0.pdf
+sha256: 2e29a507308b15cb407a7515615b8444b1a4a5e848a033bdf93176ebdd3cb92d
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2017/P1/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: f43cacd8de993275ccf5bc69e1c6fc88a7003d8ee61db39d4cb38389271bfda5
+  checks: The three conditions and both linear combinations in the final question were checked.
+- id: IB/2017/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 6aa995190a18dd1ecd4d138d9d28006c107f383c95a579617a20b7a9009541ca
+  checks: The real part, denominator and domain requirement were checked.
+- id: IB/2017/P1/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 91608e87a4d15a73641c0a16a144a9981f97a167f66ab68a8390a8eb3962cbe3
+  checks: The area formula and both strict bounds on the prescribed area were matched.
+- id: IB/2017/P1/q4D
+  original_question: 4D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 1975aecb5d954eb66d8a937a0f9a635d29b6162e65098ef6f15bed0e286b9cee
+  checks: All five Lagrangian arguments, both squared derivatives and the boundary prescriptions were verified.
+- id: IB/2017/P1/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: b9998b10de057fd09c5e170788036d49e8acc07c6d62cfcc05a48f584f365510
+  checks: Both velocity vectors and the option to sketch either one were checked.
+- id: IB/2017/P1/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: f2e5d4dd5f9aea60e503e20745f84864873b4476f4a6667a2f44fdda19fd16ad
+  checks: The node ordering, differentiability class, factorial and range of xi were matched.
+  printed_ambiguity: The source calls the interpolant a polynomial of degree n even when the degree may be
+    lower.
+- id: IB/2017/P1/q7H
+  original_question: 7H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: c501156ca5e0a5c766d4a47f7f08367cd588b0e0a3c6a5fc1bcfffaac118e094
+  checks: The indicated observation, event, sufficient sum and conditional expectation were checked.
+- id: IB/2017/P1/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 6e6f3820982a9d8a30a36e637824234e933b750174563df80a221c8d0308edaf
+  checks: Objective, coefficient rows, signs and perturbation interval were verified.
+- id: IB/2017/P1/q9F
+  original_question: 9F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 4b013b8c044e6f75c19247fb048d3c2291be847f438679271df204efcabdaee1
+  checks: Both composition orders and the two conversely directed direct-sum statements were checked.
+- id: IB/2017/P1/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 76b64dd729848bd4a9efea13df05161f9c6d202c364946b387dc9f35047e3d2c
+  checks: The order, factorial quotient and required absence of a normal Sylow 2-subgroup were matched.
+- id: IB/2017/P1/q11G
+  original_question: 11G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a4925bfe23278e761afb52f3e802b5dd8a9153312e9d20de1855742eed60b1e8
+  checks: The metric-domain definitions and all three uniform-continuity claims were checked.
+- id: IB/2017/P1/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 235608a07a80dd13b45bab53f4d19f18ca878a03e06aa79ebb099dba4f02b93d
+  checks: Both complements, countability and the path-connected condition were matched.
+- id: IB/2017/P1/q13A
+  original_question: 13A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 290d23b4845a538910eea0a64df2417034cb16bf348b10ecb0a1e18f5e6d68b9
+  checks: The contour orientations, decay restrictions, pole locations and opposite signs of H and J were matched.
+- id: IB/2017/P1/q14B
+  original_question: 14B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: d19f98601dc07da12bde54e58f698bfc54cad851bf61f228b9232c7751a6b78c
+  checks: The absolute values, excluded frequencies, initial data and d'Alembert integral limits were checked.
+  printed_ambiguity: The stated exclusion of the two frequencies +1 and -1 allows zero. Consider the zero-frequency
+    boundary problem separately.
+- id: IB/2017/P1/q15B
+  original_question: 15B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 06cd3182bcf8b633527788bd33d023a487011e3a2b97480befa9c377676271c3
+  checks: The attractive delta pair, even and odd thresholds and both monotonic functions in the hint were
+    checked.
+- id: IB/2017/P1/q16C
+  original_question: 16C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 1525488de92bad850dc6d2856794ae83e680a2ceb65117c377e63b9f1790c85e
+  checks: The incident and reflected complex amplitudes, scalar products, vacuum half-space and all reflected
+    signs were checked.
+- id: IB/2017/P1/q17D
+  original_question: 17D
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 4944d7259490936e9428c3783f4e48848877fde4e233da41f44a6156f1c0ae71
+  checks: The upslope stress and the separate zero-flux and zero-shear requests were checked.
+- id: IB/2017/P1/q18C
+  original_question: 18C
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 114b598083bb1937a0a46508c0d4c2c3f84be40ff84e619b31b0b2c1e8e8906e
+  checks: The three stage equations, coefficient labels and negative test point were verified.
+- id: IB/2017/P1/q19H
+  original_question: 19H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 8a1086d86f833738a09b36a6e120246fd807b68193c04627a282206b51667c90
+  checks: The support begins at one in both laws; both parity values and the target of the unbiased estimator
+    were matched.
+- id: IB/2017/P1/q20H
+  original_question: 20H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: ee2c2ef892f807b5e1823c2cbda673f0248bff8d22fff586709f9e4e55588691
+  checks: Both descending ranges, stopping at one, the first-time definition and harmonic-sum limits were checked.
+  printed_ambiguity: The starting fortune is not explicitly bounded below by two; check the first-day convention
+    for an initially absorbing state.

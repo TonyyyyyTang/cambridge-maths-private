@@ -1,0 +1,627 @@
+scope: 2025 IB examination slice for the ten attended course strata. Covers 50 distinct questions including
+  a Topology-primary question cross-listed to Analysis II. Sample results do not constitute course-wide audit
+  rates.
+audit_stage: initial, before any repairs
+method:
+  auditor: Independent fresh reviewer who did not write the canonical answers. No assistant solvers used.
+  sampling: One Python random.Random(20261203) advanced through sorted course IDs, drawing sample(sorted(ids),ceil(len(ids)/5))
+    in each stratum; draw order is reproduced below.
+  seed: 20261203
+  population:
+    IB/analysis-ii:
+    - IB/2025/P1/q10G
+    - IB/2025/P2/q2G
+    - IB/2025/P4/q10G
+    - IB/2025/P4/q2G
+    IB/complex-methods:
+    - IB/2025/P1/q12.2A
+    - IB/2025/P1/q3.2A
+    - IB/2025/P2/q12.2A
+    - IB/2025/P3/q3A
+    - IB/2025/P4/q12A
+    IB/electromagnetism:
+    - IB/2025/P1/q15B
+    - IB/2025/P2/q16B
+    - IB/2025/P2/q4B
+    - IB/2025/P3/q15B
+    - IB/2025/P4/q5B
+    IB/fluid-dynamics:
+    - IB/2025/P1/q16D
+    - IB/2025/P2/q5D
+    - IB/2025/P3/q16D
+    - IB/2025/P3/q7D
+    - IB/2025/P4/q16D
+    IB/linear-algebra:
+    - IB/2025/P1/q1F
+    - IB/2025/P1/q8F
+    - IB/2025/P2/q8F
+    - IB/2025/P3/q9F
+    - IB/2025/P4/q1F
+    - IB/2025/P4/q8F
+    IB/markov-chains:
+    - IB/2025/P1/q19H
+    - IB/2025/P2/q18H
+    - IB/2025/P3/q8H
+    - IB/2025/P4/q7H
+    IB/methods:
+    - IB/2025/P1/q13B
+    - IB/2025/P2/q14B
+    - IB/2025/P2/q3B
+    - IB/2025/P3/q14D
+    - IB/2025/P3/q5D
+    - IB/2025/P4/q14D
+    IB/numerical-analysis:
+    - IB/2025/P1/q17A
+    - IB/2025/P1/q5A
+    - IB/2025/P2/q17A
+    - IB/2025/P3/q17B
+    - IB/2025/P4/q6A
+    IB/quantum-mechanics:
+    - IB/2025/P1/q14C
+    - IB/2025/P2/q15C
+    - IB/2025/P3/q6C
+    - IB/2025/P4/q15C
+    - IB/2025/P4/q4C
+    IB/statistics:
+    - IB/2025/P1/q18H
+    - IB/2025/P1/q6H
+    - IB/2025/P2/q6H
+    - IB/2025/P3/q18H
+    - IB/2025/P4/q17H
+  sample:
+    IB/analysis-ii:
+    - IB/2025/P2/q2G
+    IB/complex-methods:
+    - IB/2025/P1/q12.2A
+    IB/electromagnetism:
+    - IB/2025/P2/q16B
+    IB/fluid-dynamics:
+    - IB/2025/P3/q16D
+    IB/linear-algebra:
+    - IB/2025/P2/q8F
+    - IB/2025/P4/q8F
+    IB/markov-chains:
+    - IB/2025/P1/q19H
+    IB/methods:
+    - IB/2025/P3/q5D
+    - IB/2025/P2/q3B
+    IB/numerical-analysis:
+    - IB/2025/P1/q5A
+    IB/quantum-mechanics:
+    - IB/2025/P1/q14C
+    IB/statistics:
+    - IB/2025/P4/q17H
+  population_size: 50
+  sample_size: 12
+  packet_locators_sha256: b53e1cc5efdb02a725ce9dab3763ec795f4a43ba9079c3705607dff05d150315
+  blind_input: Only 12 sampled question fragments, original random-walk diagram, supplied population and paper
+    locators. The archived originals were fetched before raw access; P1 page 4 confirmed the literal minus
+    sign before the blind rework was frozen. Canonical solutions, metadata, checks, notes and delivery outputs
+    first opened after freeze.
+  frozen_rework_sha256: a2bfaa399ce8bc1c1382a3ead2337daca910253d7e104e1a957e6a68b4b89700
+  frozen_rework_utf8: |
+    Independent derivations. Seed 20261203, one Python Random instance advanced through sorted course keys; sample(sorted(population), ceil(N/5)) per course. Output IDs exactly match supplied 12 locators in order. Only supplied questions and graph, source locators, and original paper (notably P1 p4) available to solver before freeze.
+
+    P2 q2G. (i) Pointwise sign(x), with value zero at zero. A uniform limit of continuous functions is continuous, so convergence on R fails. (ii) Sine has derivative bounded by one, so the supremum discrepancy from sin x is at most 1/n. (iii) Limit L=e^x/cosh(ax); error is (exp(1/n)-1)L. For |a|>=1 and x>=0 we have L<=2 exp((1-|a|)x)<=2; for x<=0, L<=1. For |a|<1, cosh(ax)<=exp(|a|x) for x>=0, giving L>=exp((1-|a|)x) -> infinity. Thus uniform exactly for |a|>=1. (iv) For each x the mean value theorem gives f_n(x)=4h'(c), |c-x|<1/n, hence the supremum error from 4h'(x) tends to zero by uniform continuity.
+
+    P1 q12.2A. (a) d=f'(z0) is nonzero by strict hypothesis. For distinct z,w, integrate f' along w+t(z-w) in the convex disc. This gives (f(z)-f(w))/(d(z-w)) as the average of f'/d whose real part is strictly positive (all values lie in open disc centre 1 radius 1). Thus images differ. (b) Harmonic means C^2 with u_xx+u_yy=0. The plane is simply connected, so -u_y dx+u_x dy is closed and exact and supplies harmonic conjugate v. For u>=0, exp(-u-iv) is bounded and entire, hence constant by Liouville, so its modulus exp(-u) and u are constant. For the logarithmic bound use F=exp(u+iv), entire and zero-free. On radius R>=1, |F|<=e^b R^a. Cauchy estimates on Taylor coefficients at zero show coefficients of integer degree k>a vanish (take R->infty). A zero-free complex polynomial is constant, so u=log|F| is constant. No use of log 0 is needed.
+
+    P2 q16B. Curls are 2b1 e_z and b2(-x,-y,2z); each has vanishing divergence and curl, as required in static source-free space with zero E. Put A=pi r^2 and K=2b2 A. Upward fluxes 2b1 A and Kz. Take clockwise seen from above as positive current. The uniform field has zero net force (integral dl=0); for B2 the vertical part likewise cancels around the circle, and the inward radial field -b2 r e_r and clockwise dl give dF_z=-I b2 r^2 dtheta with theta here a positive traversed angle. Thus F_z=-KI. Clockwise induced emf is time derivative of upward external flux; neglecting inductance at R>0 yields I1=0 and I2=K zdot/R. Hence m zddot=-mg in case 1, z=z0-gt^2/2. Case 2 m zddot=-mg-(K^2/R)zdot. For K nonzero put tau=mR/K^2; v=-g tau(1-e^(-t/tau)), z=z0-g tau[t-tau(1-e^(-t/tau))]. As t->infty linear fall; I^2R=K^2 v^2/R=-mgv at terminal speed. K=0 restores free fall. In an ideal superconducting loop the total flux is conserved; a finite self-inductance L matters. With initial current zero, clockwise I=K(z-z0)/L. Case 1 still free fall. Case 2 m zddot=-mg-K^2(z-z0)/L, undamped oscillations about z0-mgL/K^2, no Joule dissipation, zero-gradient exception as above.
+
+    P3 q16D. Initially zero vorticity stays zero in inviscid constant-density fluid under conservative body forces by Kelvin circulation; a simply connected wedge has u=grad(phi), divergence-free gives Laplace. Impermeability at the instantaneous sides gives u_theta(r,+alpha)=-Omega r and u_theta(r,-alpha)=+Omega r, i.e. f'(+/-alpha)= -/+Omega; tangential fluid motion free. Substitution gives f''+4f=0. Symmetric solution f=Omega cos(2theta)/(2 sin(2alpha)), regular at hinge (sin(2alpha) nonzero). Generally B sin2theta homogeneous allowed if cos2alpha=0; initial rest and reflection symmetry exclude this asymmetric flow. If sin(2alpha)=0, the prescribed opposite angular velocities cannot be fitted by this ansatz unless Omega=0. Put c=Omega/sin2alpha. u_r=c r cos2theta, u_theta=-c r sin2theta. With u_r=psi_theta/r, u_theta=-psi_r one gets psi=c r^2 sin(2theta)/2=cxy. Sketch: x positive along bisector; u=(cx,-cy), separatrices the x and y axes where present; in the upper/lower wedge draw the hyperbolas y=h/x and y=-h/x, cropped at moving plates, arrows right towards the horizontal bisector for c>0. Outflux per unit depth integral R u_r dtheta = cR^2 sin2alpha = Omega R^2, consistent with shrinking sector area.
+
+    P2 q8F. J_m(alpha)=alpha I+N, with N ones immediately above diagonal and zeros elsewhere. Since N^2=0 for m=2, expansion of p(alpha+X) mod X^2 gives p(alpha)I+p'(alpha)N. Jordan normal form is a block diagonal matrix of these blocks similar to A, unique up to order. For any fixed lambda, blocks with different eigenvalue are invertible after subtraction; for eigenvalue lambda each block of size m contributes 1 to nullity and min(2,m) to square-nullity. Nesting of kernels gives equality precisely without blocks of size >1 at lambda. Thus the all-lambda condition is exactly diagonalizability. Reversing a block's coordinate order transposes it: take block-diagonal reversal matrix S=S^T=S^-1 to obtain J^T=SJS. If A=PJP^-1 then A^T=P^-T J^T P^T, similar to J. Finally C=PSP^T and D=P^-T S J P^-1. C invertible symmetric; SJ symmetric since J^T S=SJ, and CD=A. No complex conjugation is involved.
+
+    P4 q8F. With the usual convention of representing a quadratic form by its symmetric matrix, polarization gives b(x,y)=(Q(x+y)-Q(x)-Q(y))/2. Existence follows from the definition as diagonal of a bilinear form by symmetrization, and uniqueness by expansion. PSD means b(x,x)>=0 for all x, PD means >0 for every nonzero x. Finite-dimensional real symmetric forms admit a basis with diagonal entries 1 (p), -1 (q), and 0 (r), by real symmetric diagonalization and rescaling. Sylvester's law says the three counts are intrinsic: a positive definite subspace intersects the span of the negative and zero axes trivially, hence has dimension <=p, attained by the positive coordinate span. Apply to -b for q, then r=dim-p-q. Polarization on E yields E subset E-perp; nondegeneracy identifies V with its dual, so dim E-perp=dim annihilator(E)=2n-k; hence k<=n. l^2 has matrix ll^T and rank one and signature +1 if l nonzero, both zero if l=0. The coefficientwise product with ss^T is tt^T for t_i=l_i s_i, likewise rank and signature one if t nonzero, zero otherwise (including disjoint supports). Every PSD form is a sum of squares of real linear forms by diagonalization; coefficientwise product distributes and each pair gives another square, hence PSD. Without the symmetric-representative convention, the question's operation on forms is ambiguous: skew coefficients change representations (e.g. two copies of a real two-by-two nonzero skew matrix represent zero, but entrywise square gives a nonzero indefinite quadratic form).
+
+    P1 q19H. Reversibility with stationary law pi means pi_i p_ij=pi_j p_ji; multiplying these relations along any finite path shows reversal symmetry in equilibrium. For an undirected finite connected graph with edges, pi_i=d_i/(2|E|) yields the condition directly. The given A-B, B-C, B-D, C-D, C-E, D-E, E-F make 7 edges and deg A=1, so mean strictly positive return time =1/pi_A=14 by the finite irreducible recurrence formula, valid also for periodic chains. Let h denote the chance of hitting A before F with absorbing endpoints, h_A=1,h_F=0, and symmetry h_C=h_D=c. Write h_B=b,h_E=e. 3b=1+2c,3c=b+c+e,3e=2c gives c=1/2,b=2/3,e=1/3. From A first step B, so success 2/3. For g_i=E_i[T 1_success], T time to either endpoint, g endpoints zero and g_i=h_i+sum p_ij g_j by first-step conditioning. Then g_B=2/3+2g_C/3,g_E=1/3+2g_C/3,2g_C=3/2+g_B+g_E, hence g_C=15/4,g_B=19/6. Add the initial step: 1+g_B/h_B=23/4.
+
+    P3 q5D. For integrable f,g, integral of |f(u)g(x-u)| over (u,x) equals product of norms, allowing interchange in transform of h=f*g. Substitute t=x-u to factor as fhat ghat. When the latter is integrable apply inversion at continuity points of h (or use suitable smooth rapidly decaying input), giving the specified 1/(2pi). For interval indicator fhat=2sin k/k (limit 2 at zero), square is integrable. h(x)=(2-|x|)_+, continuous; at zero h(0)=2=(1/(2pi))4 times requested integral. Result pi.
+
+    P2 q3B. Roots r1,r2 of alpha r^2+beta r+gamma. For t<tau set G=0. For s=t-tau>=0, distinct roots give (exp(r1 s)-exp(r2 s))/(alpha(r1-r2)), repeated root r gives s exp(rs)/alpha. G continuous at tau, derivative jumps by 1/alpha and homogeneous elsewhere. The causal convolution from a to t satisfies both initial conditions and equation. For a=0 use G=sin(omega s)/omega, interpreted as s when omega=0, convolving against sin(lambda tau). With omega nonzero and lambda^2!=omega^2 obtain [sin(lambda t)-(lambda/omega)sin(omega t)]/(omega^2-lambda^2) by integrating/particular solution adjusted for zero data. At lambda=+/-omega apply the limit: sign(lambda/omega)[sin(omega t)-omega t cos(omega t)]/(2 omega^2). For omega=0,lambda!=0 result t/lambda-sin(lambda t)/lambda^2; lambda=0 response identically zero.
+
+    P1 q5A. Dahlquist: consistency and zero stability iff convergence for regular linear multistep approximations to suitably Lipschitz well-posed IVPs and convergent starting values. Standard root criterion all roots of rho at most one in modulus and unit-modulus roots simple, with no common-factor cancellation of parasitic modes for arbitrary starting perturbations. rho=(s-1)(s^2+(2alpha-2)s+1); sigma=alpha(s^2-s) as the original examination page explicitly prints a difference on the RHS. Necessary first-order condition rho'(1)=sigma(1) becomes 2alpha=0. Actually test y=t, f=1: residual 2alpha h, directly contradicting given order assertion unless alpha=0. At alpha=0 rho=(s-1)^3, violates zero stability; even exact starting data for y=t^3 produce a global quadratic extrapolant failing at fixed T. Hence no convergent parameter as written and no convergence order. The separate root condition alone holds for 0<alpha<2 (conjugate unit roots separated from 1); outside the closed interval one root has modulus >1 and at 2 a repeated -1 occurs. Using the supplied order premise formally would yield 0<alpha<2, implied at least order two, but it cannot describe the displayed recurrence. For the plausible RHS sum, not asserted as an erratum, residual on t^3 at t_n=0 would be [27+7(2alpha-3)-15alpha]h^3=(6-alpha)h^3 so convergence exactly order two on that interval.
+
+    P1 q14C. Put c=m/hbar^2 and q^2=c/a-kappa^2. Energy of a nonzero normalizable eigenfunction is strictly greater than -1/(2a) by integrating kinetic energy plus potential and using that zero derivative would give a constant; decaying exterior also requires E<0. Even interior solution proportional to cos(qx); exterior even decaying proportional to cos(qa) exp(-kappa(|x|-a)). Continuity of derivative imposes q tan(qa)=kappa, with cos(qa) nonzero because zero value and slope outside would force triviality. Define t=qa and s=sqrt(ca). On (0,min(s,pi/2)) the equation is t tan t=sqrt(s^2-t^2); left strictly increases from zero, right decreases from s, and the endpoint crossed (finite positive LHS if s<pi/2, otherwise diverges). Thus an even bound state for every a>0. For s<pi/2 no other interval possible and coefficients determined up to scale; an odd state would need -q cot(qa)=kappa, impossible for 0<t<pi/2 if one asks for uniqueness across both parities. As a->0, t<=s->0 and kappa=(c-a kappa^2)tan(t)/t. Hence kappa bounded and tends to c. E0=-m/(2 hbar^2). V_a tends to -delta in distributions (normalized shrinking interval). psi0=sqrt(c)exp(-c|x|) has norm one, derivative jump -2c psi0(0), cancelling the delta potential in the equation; off zero it has energy E0.
+
+    P4 q17H. Assume 0<alpha<1. Twice the log unrestricted-to-null likelihood ratio equals the difference of minimized sums of squares. In (a) free MLEs Xbar,Ybar improve the null fits by S=m Xbar^2+n Ybar^2. Independent standardized means are standard Gaussian under the joint null, so reject S>F_2^-1(1-alpha). In (b) common-mean MLE (m Xbar+n Ybar)/(m+n), gain D^2=(Xbar-Ybar)^2/(1/m+1/n), by expansion. Reject |D|>Phi^-1(1-alpha/2), D standard normal under equality for any common mean. In (c) define U=(m Xbar+n Ybar)/sqrt(m+n); then S=D^2+U^2, and (D,U) is an orthogonal transform of standardized sample means with joint density strictly positive on the plane for every true mean. Write a=F_2^-1(1-alpha), b=F_1^-1(1-alpha). Have a>b strictly since at each finite t>0 adding an independent squared standard normal strictly reduces the CDF of a squared standard normal. Therefore choose sqrt(b)<D<sqrt(a) and U near zero in an open rectangle small enough to lie inside the disk; it has positive probability for all true means.
+  comparison: All original question pages visually compared with each sampled canonical fragment. Canonical
+    proofs and both figure sources were read. Checks run independently. Pre-repair copies of four complete
+    collection PDFs, 12 question pages and their local assets were captured. All 17 relevant compiled PDF pages
+    examined as rasters. Headless Chrome loaded all 12 actual copied pages at 1220 by 940 with the generated
+    app.js and KaTeX. DOM counts and full-page screenshots inspected.
+observed_before_repair:
+  sample_questions: 12
+  substantive_failures: 0
+  observed_rate: 0/12
+  source_transcription_errors: 0/12
+  canonical_solution_errors: 0/12
+  computer_check_failures: 0/12
+  pdf_question_solution_failures: 0/12
+  private_html_question_solution_failures: 0/12
+  diagram_discrepancies: 0/2 figures across 2 questions
+  pdf_pages_examined: 17
+  html_math_rendered: 498
+  html_math_total: 498
+  browser_parse_errors: 0
+  check_exit_nonzero: 0
+  escalate: false
+  known_source_anomalies:
+  - P1 q5A contains a printed inconsistency, already preserved and explained correctly by the canonical answer.
+  coverage_limits: The Topology-primary P1 q10G is in the Analysis II population, but was not selected. Neither
+    unsampled units nor other years and sheets are certified. There was no official solution comparison.
+stratum_rates:
+  IB/analysis-ii:
+    population: 4
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/complex-methods:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/electromagnetism:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/fluid-dynamics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/linear-algebra:
+    population: 6
+    sampled: 2
+    observed_substantive_errors: 0
+  IB/markov-chains:
+    population: 4
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/methods:
+    population: 6
+    sampled: 2
+    observed_substantive_errors: 0
+  IB/numerical-analysis:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/quantum-mechanics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+  IB/statistics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+question_evidence:
+  IB/2025/P1/q5A:
+    comparison: Original P1 p4 really prints subtraction on the right. Its claimed order contradicts rho-prime(1)=2alpha
+      versus sigma(1)=0; the only consistent candidate violates zero stability. The canonical answer correctly
+      states the literal result and labels addition as hypothetical. This is an existing source anomaly, not
+      an audit error.
+    source_pdf: private/raw/tripos/IB/2025/P1.pdf
+    source_sha256: bd7b98f1e961b99ea58684196e2ec89b33801cb3f54ff084d37d0707aa9cbaee
+    source_page: 4
+    compiled_pdf: build/IB-2025-P1/main.pdf
+    compiled_sha256: 8b968f5ea171a54ecc750965844a77165d6c8f5fe23c639c76cf62af7b30e7cf
+    compiled_pages:
+    - 6
+    html: site/private/questions/IB/2025/P1/q5A/index.html
+    html_sha256: b823d59b5c4ea2bcd1dcdea0de2d59af3c10457c665cf1f34cf6189a1c387620
+    math_nodes: 32
+    diagrams: {}
+    question_sha256: dbb1bad686ba2e34ac4aeb2600f208a58614cc1a68a4512d12e637d4659556a4
+    solution_sha256: 2fa7f12dbb2a2eba4ffea030d34cefeae6749c88ab2738927a0979c5f30ff74b
+    check_sha256: d281eb6942777e65a4af0aeb0d066a98fcb091383f237b16641066f0504a4a6d
+    check_exit: 0
+    check_stdout: Printed first-order consistency failure, endpoint multiplicities and alternate-sign order
+      checked exactly.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P1/q5A · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: 0f93a03e7f478f5035917867cf5290ed55f5331628840deec4ff3be9bc495ba6
+    compiled_page_image_sha256:
+      6: 86cc9003c8514ee81501f1ce8d3e46039fdc81c257239d35dd59dba72423880b
+  IB/2025/P1/q12.2A:
+    comparison: Both option numbers, common rubric, derivative inequality, non-negativity, and logarithmic
+      upper bound agree. Segment estimate, global conjugate and polynomial growth arguments agree.
+    source_pdf: private/raw/tripos/IB/2025/P1.pdf
+    source_sha256: bd7b98f1e961b99ea58684196e2ec89b33801cb3f54ff084d37d0707aa9cbaee
+    source_page: 7
+    compiled_pdf: build/IB-2025-P1/main.pdf
+    compiled_sha256: 8b968f5ea171a54ecc750965844a77165d6c8f5fe23c639c76cf62af7b30e7cf
+    compiled_pages:
+    - 14
+    html: site/private/questions/IB/2025/P1/q12.2A/index.html
+    html_sha256: dc0a648a1a3d9a6deccd98e1b8d7b85515133641284708fbe5be1859cb3cb896
+    math_nodes: 44
+    diagrams: {}
+    question_sha256: 5dc239a124d763a694f27f68945329443c1d09e09025ccf6d37ce4e6baa2e0e1
+    solution_sha256: 8aad5dc7330fa63e8c9089ae51e84560f4fd324f167a6d11c59cfa2da35f970d
+    check_sha256: 291f3baf2654e67267e232cf505b5c59898aba616196f6a83bfcb4a4725ba474
+    check_exit: 0
+    check_stdout: Segment difference-quotient bound and strict decay of Cauchy coefficients tested; global
+      conclusions follow from the analytic proofs.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P1/q12.2A · Cambridge Maths
+      math: 44
+      rendered: 44
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: 353eae8c7ac45098113b100cb755eef88d62e30005f74cbca5f16fe9dc6fc130
+    compiled_page_image_sha256:
+      14: eb7ad4e25a88ce6299d637759c9f757c601d69cedd82ea3d42c03a012bebeebd
+  IB/2025/P1/q14C:
+    comparison: Matching condition, admissible energy range, existence and small-width uniqueness agree. Delta
+      limit energy -m/(2 hbar^2), normalized wavefunction and distributional jump agree.
+    source_pdf: private/raw/tripos/IB/2025/P1.pdf
+    source_sha256: bd7b98f1e961b99ea58684196e2ec89b33801cb3f54ff084d37d0707aa9cbaee
+    source_page: 9
+    compiled_pdf: build/IB-2025-P1/main.pdf
+    compiled_sha256: 8b968f5ea171a54ecc750965844a77165d6c8f5fe23c639c76cf62af7b30e7cf
+    compiled_pages:
+    - 17
+    - 18
+    html: site/private/questions/IB/2025/P1/q14C/index.html
+    html_sha256: 03e791d02cdea25ea5b0a65509e555f72709487b3a6e3a541a72ac03a580635c
+    math_nodes: 44
+    diagrams: {}
+    question_sha256: 0d90174b6dc0167ad3faa059832d4e00204101bcb313e8b079469057af541a0d
+    solution_sha256: acec49f9f46f04aeb143f5a2fbf739c987af426f075d04584c5e9f510e2b79b9
+    check_sha256: 01ee20b0f07d220114849e58b20d46940fd6eb8a833ceb7c97520c1573b5ba75
+    check_exit: 0
+    check_stdout: Finite-well matching and the delta-limit energy and normalization checked in m=hbar=1 units.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P1/q14C · Cambridge Maths
+      math: 44
+      rendered: 44
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: b60e6bca646eb6a50ebcbe63582be685533e536a72275524d3ae20582e724b13
+    compiled_page_image_sha256:
+      17: 8bd68ae837c903efa3511d809c171e7a9f1e73a42c3978ccdc09339d7ed4bfad
+      18: 42d25dc3dd0fd6a6f72390350fe612003adf38ceb0501c2abfa71c05c9af1a98
+  IB/2025/P1/q19H:
+    comparison: Original drawing contains all seven edges including CD, AB and EF. Both delivered figures preserve
+      vertices and edges. First return mean 14, success 2/3 and conditional first return mean 23/4 agree.
+    source_pdf: private/raw/tripos/IB/2025/P1.pdf
+    source_sha256: bd7b98f1e961b99ea58684196e2ec89b33801cb3f54ff084d37d0707aa9cbaee
+    source_page: 11
+    compiled_pdf: build/IB-2025-P1/main.pdf
+    compiled_sha256: 8b968f5ea171a54ecc750965844a77165d6c8f5fe23c639c76cf62af7b30e7cf
+    compiled_pages:
+    - 25
+    - 26
+    html: site/private/questions/IB/2025/P1/q19H/index.html
+    html_sha256: 1d9a96dac24c137566b29c210070fae74a1560464c9be5618c7bb088ec138b7d
+    math_nodes: 37
+    diagrams:
+      site/private/figures/tripos/IB/2025/P1/q19H/original-random-walk-graph.png: 5a8ddf673c6d58aaa55761eb7a1dbe93e0a69d32f86a39729131c60d8e4fe8cc
+    question_sha256: e15d8d77241a5d166f8cf3d63ea2f0a2055ddaabb2973bca5d90d936f048a8b0
+    solution_sha256: 52ada197a39b470e0b3fcfe619af2724abd3e6534965107c6563879ad20286cf
+    check_sha256: 9cfb97d1701cb6ba2f4a53e50be25af3504e5c899badb469f92bbe7d48f0483a
+    check_exit: 0
+    check_stdout: All seven graph edges, reversible flows, Kac return mean and conditional first moment checked
+      exactly.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P1/q19H · Cambridge Maths
+      math: 37
+      rendered: 37
+      parse_errors: 0
+      diagrams:
+      - alt: Original random walk graph
+        width: 551
+        height: 291
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: fc9bd4472042cd9e9ccf175aa29cc8f612edb58c03128147ca3c1003a68ee2d8
+    compiled_page_image_sha256:
+      25: dbd5ff1b90772eee8a2890c8d323eef1b3a9dd9cdcbea7249b2c6d2d1021e392
+      26: e11ccefe8ace60fd1bc4e91ef7c5a47b87b1fb2b95e6c03de489ae8282721dec
+  IB/2025/P2/q2G:
+    comparison: Four functions and the literal 2n multiplier agree with the image. Uniformity cases and 4h-prime
+      limit agree.
+    source_pdf: private/raw/tripos/IB/2025/P2.pdf
+    source_sha256: 2604647c333a38c141488da935e883eb51b206fd88be3e3c8bf42d6d1186b293
+    source_page: 2
+    compiled_pdf: build/IB-2025-P2/main.pdf
+    compiled_sha256: 4047400a496f6601167a62a842b1f1bf43c9570ff33bda0040dc4c83df78c0be
+    compiled_pages:
+    - 2
+    html: site/private/questions/IB/2025/P2/q2G/index.html
+    html_sha256: a9801a9cf8369bac0527f04944d8600033ac4bba4f43e5c3bb6103dee0b158c9
+    math_nodes: 43
+    diagrams: {}
+    question_sha256: 7f8623c41eb5747c82072e942442b3e9732421979f436dacd0b11df648875bff
+    solution_sha256: 00014f33f867e62cc5b8036e93350037db3c846e6d14d64e98999b327337a1c6
+    check_sha256: 058bd8d33d84c68bc417fc463fd8c2ebcb1c56a624054c49e1dfd05a9e3af6b6
+    check_exit: 0
+    check_stdout: Moving-point obstruction, boundedness thresholds and central difference factor four verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P2/q2G · Cambridge Maths
+      math: 43
+      rendered: 43
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: 781cb8cc97ff820cbe8221a8c5291a879d386a2f7e28555ab95f6dae369674bc
+    compiled_page_image_sha256:
+      2: 389c2733dca5841031a1dc65d6090647b7661492af8bc9801717540538dfac96
+  IB/2025/P2/q3B:
+    comparison: Jump of 1/alpha, distinct and repeated roots, both signs of resonance and zero natural frequency
+      agree.
+    source_pdf: private/raw/tripos/IB/2025/P2.pdf
+    source_sha256: 2604647c333a38c141488da935e883eb51b206fd88be3e3c8bf42d6d1186b293
+    source_page: 2
+    compiled_pdf: build/IB-2025-P2/main.pdf
+    compiled_sha256: 4047400a496f6601167a62a842b1f1bf43c9570ff33bda0040dc4c83df78c0be
+    compiled_pages:
+    - 3
+    html: site/private/questions/IB/2025/P2/q3B/index.html
+    html_sha256: 28c3bcb91b696963c72dbc1433671a2399556f00a4539db9eb9a42ec5463a9f6
+    math_nodes: 26
+    diagrams: {}
+    question_sha256: 6f3c1e37dff89df1a87d1a7b8fa885f8ccb825342ef9c88f3b2e33daefd75e2e
+    solution_sha256: 77b535e6a3a86f8cd80345d810ce6df3964df36e02a1fc6cae19168590bd5554
+    check_sha256: bdc6a0367300dd9c7037ab83dca3a64baa03c377681c5b1aee784eb356800cce
+    check_exit: 0
+    check_stdout: Forced oscillator, both signed resonances, zero natural frequency and initial velocities
+      verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P2/q3B · Cambridge Maths
+      math: 26
+      rendered: 26
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: 32bc969ce1eba616ae11c4a4f5798a6d575623d291a55452948217af3a2906b3
+    compiled_page_image_sha256:
+      3: a14f4b03af6124f0fe7e637799c60bbd88137c511f816040c35c43c576dfcdbf
+  IB/2025/P2/q8F:
+    comparison: Jordan block orientation, polynomial and kernel-square conditions match. The reversal matrices
+      and symmetric factorization agree including singular A.
+    source_pdf: private/raw/tripos/IB/2025/P2.pdf
+    source_sha256: 2604647c333a38c141488da935e883eb51b206fd88be3e3c8bf42d6d1186b293
+    source_page: 5
+    compiled_pdf: build/IB-2025-P2/main.pdf
+    compiled_sha256: 4047400a496f6601167a62a842b1f1bf43c9570ff33bda0040dc4c83df78c0be
+    compiled_pages:
+    - 8
+    html: site/private/questions/IB/2025/P2/q8F/index.html
+    html_sha256: 4712e2dfd38c9d4dd50f710cdf0e3f4b0cb1a08e2b169e1697140ad8c68bd7d2
+    math_nodes: 51
+    diagrams: {}
+    question_sha256: 85b275afb7fe4a1fc0baa4750c1e0e478bcc6863f553f3ca5e4e13d20815abf5
+    solution_sha256: b783bb688c9e6255fc73e4d590b382f28248351f0f993c032810917838784f48
+    check_sha256: 345e93124ec7e9bf5bd04d6152bf1d4b9350a230a2ec2a85cc2f78ca5bc167db
+    check_exit: 0
+    check_stdout: Jordan polynomial, kernel growth, block reversal and symmetric factorization checked exactly.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P2/q8F · Cambridge Maths
+      math: 51
+      rendered: 51
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: 926576228b3754d379c40fe850fcb8749625ec911fe767fe29a911f9b0bd9233
+    compiled_page_image_sha256:
+      8: ac5f39c3a3b39cdb71f701a4d485efd7b8638367a6e4b7393a8b1b8fcf5b7f72
+  IB/2025/P2/q16B:
+    comparison: Signed fields, loop orientation, resistance, initial conditions and superconducting limit agree.
+      The resistance model and conserved-flux model use consistent current conventions.
+    source_pdf: private/raw/tripos/IB/2025/P2.pdf
+    source_sha256: 2604647c333a38c141488da935e883eb51b206fd88be3e3c8bf42d6d1186b293
+    source_page: 11
+    compiled_pdf: build/IB-2025-P2/main.pdf
+    compiled_sha256: 4047400a496f6601167a62a842b1f1bf43c9570ff33bda0040dc4c83df78c0be
+    compiled_pages:
+    - 20
+    - 21
+    html: site/private/questions/IB/2025/P2/q16B/index.html
+    html_sha256: 421697f5adf51f5c2e12312455ea85d29e43b9b0e30f366d5481ab24bf579c03
+    math_nodes: 50
+    diagrams: {}
+    question_sha256: 12538e1d8ed42fb35bab0ff3e0e3c06bcdb982228253629dc7cd1433dfdb8008
+    solution_sha256: 6a8b1cf21c6b7eb60427e3c21497da36a27f4cb5b05000d0c33b6a7fa6d2c7fa
+    check_sha256: bc4d43a8d62d9cdcd82c3f3e8cf5a55090a01299ccef1bc4dbdae4ab23400a1a
+    check_exit: 0
+    check_stdout: Field curl, falling-loop trajectory, terminal power and lossless equilibrium verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P2/q16B · Cambridge Maths
+      math: 50
+      rendered: 50
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: a69efdb14a80c9386926968621bdffb9265a59136ed40fe749378f6b1e02ce07
+    compiled_page_image_sha256:
+      20: cda00bb0fd4af2ad61395bb87ec174512892b64b2ec1acf4a95a302cc8938700
+      21: 2b09a1b250694b0d807fb923e106b72d04095b316a54e94b94d665f0cb5f3ba9
+  IB/2025/P3/q5D:
+    comparison: Forward transform has negative exponent, inverse has positive exponent and 1/(2pi); the characteristic
+      interval and sinc-squared integral pi agree.
+    source_pdf: private/raw/tripos/IB/2025/P3.pdf
+    source_sha256: 63b851c1693022b140272b370fa7847a6411d2491a2e2235f4f1aebec06f1731
+    source_page: 3
+    compiled_pdf: build/IB-2025-P3/main.pdf
+    compiled_sha256: ff8ca85e4420482d8e56f7dd60572f5be606a520165cf1b789a729beed5f38d9
+    compiled_pages:
+    - 5
+    html: site/private/questions/IB/2025/P3/q5D/index.html
+    html_sha256: 9e3d0deffa2985ffb367a64be3ecdc8cbb951fb30cf37220c0307b8c66eefda4
+    math_nodes: 20
+    diagrams: {}
+    question_sha256: 5d831cb8fd0625196db2dd1e845c100bef05d3afbdfecba0676851cecd4fe0be
+    solution_sha256: a42c4be698c6181a81d197c35890f3d6231dcb8045709118a2ed76eaab1be93a
+    check_sha256: c3c450b86916a5586d6e1272b4149f507d46d867becff4813462d02ae85e339c
+    check_exit: 0
+    check_stdout: Box transform and finite-interval sinc-squared integral with rigorous tail bound checked.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P3/q5D · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: 594756da669f5e70933c552d9b9beda783b1dcf915580ecf726f6cd40e59493a
+    compiled_page_image_sha256:
+      5: cba029a6b45a42c8a6c83c54dc83ea5c366c0cf291f01e8dd0a2a38136792c3a
+  IB/2025/P3/q16D:
+    comparison: Wall normal velocities, wedge symmetry exception, harmonic potential, streamfunction and flux
+      agree. Curves in both outputs have xy constant and point outwards towards the bisector.
+    source_pdf: private/raw/tripos/IB/2025/P3.pdf
+    source_sha256: 63b851c1693022b140272b370fa7847a6411d2491a2e2235f4f1aebec06f1731
+    source_page: 8
+    compiled_pdf: build/IB-2025-P3/main.pdf
+    compiled_sha256: ff8ca85e4420482d8e56f7dd60572f5be606a520165cf1b789a729beed5f38d9
+    compiled_pages:
+    - 19
+    - 20
+    html: site/private/questions/IB/2025/P3/q16D/index.html
+    html_sha256: c902e3cb589d6cd01a83a878b0ab6fbf020fe0f8f8e031208c8eb3ea4d1463a7
+    math_nodes: 35
+    diagrams:
+      site/private/figures/tripos/IB/2025/P3/q16D/closing-wedge.png: e346e1d4729621abc46fa86048340f08bde3fdfa15aca904a95d314f1fc46b21
+    question_sha256: 5374574b9eb8989a25834d96fdaf94f153e7410c3f5670ccb359fa55887923a4
+    solution_sha256: 1ecb1041d3bfb071594c57b15daad77f5f09902a2104f0ec9bf362cda6220c9d
+    check_sha256: 0795bd9cfdc6695ff9f23d307cdfb7853555735324697fb4ddc6b0fe723eea6c
+    check_exit: 0
+    check_stdout: Wedge potential, streamfunction, plate speed and radial flux verified exactly.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P3/q16D · Cambridge Maths
+      math: 35
+      rendered: 35
+      parse_errors: 0
+      diagrams:
+      - alt: Instantaneous streamlines between the two closing plates.
+        width: 945
+        height: 570
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: b372e69b94c61ecaf52051232a616d552c2d39c97dfdc848b6ea9887127dc712
+    compiled_page_image_sha256:
+      19: 9d3410d154f75a0af925abc14c52cec66d81a55383417a201e59823c08b9891a
+      20: bd6dfac423df00194752a13a221dca9c75bb45c746bd611ab69c28e5b017a50d
+  IB/2025/P4/q8F:
+    comparison: The Hadamard product is interpreted with symmetric representatives, as explicitly stated in
+      the solution. Zero and disjoint supports and the totally isotropic dimension bound are included.
+    source_pdf: private/raw/tripos/IB/2025/P4.pdf
+    source_sha256: 71a32addd29e4fa1dc1bdedefa1da95eea1c97de22bbad03049df76b77150c49
+    source_page: 4
+    compiled_pdf: build/IB-2025-P4/main.pdf
+    compiled_sha256: f0120998c610931155e39ed76f3957a8050bfe91b48edb24b312dd9469453357
+    compiled_pages:
+    - 8
+    - 9
+    html: site/private/questions/IB/2025/P4/q8F/index.html
+    html_sha256: 8b2893a7d0b842865fc2cafb9119b68752f314779ae1edc0bb4abcba58ecfabf
+    math_nodes: 68
+    diagrams: {}
+    question_sha256: ccd520db1c45c4f63d0f5d17d97b13842381ae2d05f365ae62f310a61b893b08
+    solution_sha256: 17556576bfe1e7301067f388718a61107e47e3ef66014bcf8c197d7c7b9b6f9f
+    check_sha256: 6e423ab38e5ca1c28efc81868a0e978c1771aaa0949ff8b0e2cca7d4205ff5c9
+    check_exit: 0
+    check_stdout: Schur product Gram factors, disjoint support exception and a maximal isotropic example checked
+      exactly.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P4/q8F · Cambridge Maths
+      math: 68
+      rendered: 68
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: ae9ea72dce952d187bcf75189a9e962447992a0f8059e12e7b841952cbf136df
+    compiled_page_image_sha256:
+      8: 0d131e3909ede8130f79c9889130cd841bbb330324881608cb009faefe4f4eed
+      9: ec9ada89abd3a8402c7727187ced2456f51c33b33fec90f5048352141952acb7
+  IB/2025/P4/q17H:
+    comparison: Both GLRT thresholds and rejection regions agree, including strict chi-square quantile ordering
+      and the positive-density open rectangle.
+    source_pdf: private/raw/tripos/IB/2025/P4.pdf
+    source_sha256: 71a32addd29e4fa1dc1bdedefa1da95eea1c97de22bbad03049df76b77150c49
+    source_page: 11
+    compiled_pdf: build/IB-2025-P4/main.pdf
+    compiled_sha256: f0120998c610931155e39ed76f3957a8050bfe91b48edb24b312dd9469453357
+    compiled_pages:
+    - 19
+    html: site/private/questions/IB/2025/P4/q17H/index.html
+    html_sha256: 39356d056f3bd4c760527dccb7244c993950cdbb4ee8a10df904ce68e95a5820
+    math_nodes: 48
+    diagrams: {}
+    question_sha256: b806f17154bdd084c548894cefe2b2ba80e2d96aa4a4f4d0c45410c1adf7aa1e
+    solution_sha256: 00dbddc0ae8881454ab4cdbcd5aa544e4d119ebc8e0226a684247f03d1a7c9b7
+    check_sha256: 8d318e10145f9c7231341367232e7ad1e9ff972e249b7131f4d45294c959cf95
+    check_exit: 0
+    check_stdout: Orthogonal contrast decomposition, quantile ordering and rejection-set overlap verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    browser:
+      title: IB/2025/P4/q17H · Cambridge Maths
+      math: 48
+      rendered: 48
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      scrolling: []
+      overflows: []
+    browser_screenshot_sha256: bee1c49b10623e12e1a1ba0e5ad0e22b5c2ddb2463b271ddbfed79abe42ba965
+    compiled_page_image_sha256:
+      19: 52560b1f9f542dbac6766de1b45df4f874a58dbeba3fa5f31bf1c8927edf163a

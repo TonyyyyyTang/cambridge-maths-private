@@ -1,0 +1,263 @@
+paper_id: IB/2018/P4
+id: IB/2018/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2018-06-08'
+printed_date: Friday, 8 June, 2018
+time: 1:30pm to 4:30 pm
+source: private/raw/tripos/IB/2018/P4.pdf
+archive: private/raw/tripos/IB/2018/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2018/paperib_4_2018.pdf
+sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2018/P4/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 60829abe0c0c7155b6027f8b5b5659a4c07549086788c784c0b250500ba59127
+  checks: Checked all five quadratic terms and both questions about positive definiteness.
+- id: IB/2018/P4/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 555ead7c2b77cc97226c4206b4f3546392c0087891aace4afa141d9009ecd944
+  checks: Checked the dihedral group subscript, direction of conjugation and non-abelian qualifier.
+- id: IB/2018/P4/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: f91408e53e73b58f3a52b71682110a9cf4bcec430fda1ae123a976e129cc35a3
+  checks: Checked the discontinuity set, the punctured domain for y and both strict distance inequalities.
+- id: IB/2018/P4/q4F
+  original_question: 4F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 35a97f3728308ca9ff400e7012a7c2f051df4da73855e3621236750a5b127c6e
+  checks: Checked the closed disc, boundary contour, derivative and inequality involving the real and imaginary
+    parts.
+- id: IB/2018/P4/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 5cd019ba93d24ef7a4863e19d4410edb6d8b88f7b08856a9e987fb82bf21c7c9
+  checks: Checked the four boundary conditions and the frequency and amplitude of the nonzero datum.
+- id: IB/2018/P4/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 92c448e2dbb0b79adede0024a204ca758dd5c3df7ef5c737f398016fffb8e89a
+  checks: Checked the two opposite plane-wave exponents, common time factor, and energy formula.
+- id: IB/2018/P4/q7C
+  original_question: 7C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: a198b88795bf26cab8f9dbb6e21e3bf28efa249fdadf8b98d76cee06ec12c3f1
+  checks: Checked the vector current law and the exponential decay request.
+- id: IB/2018/P4/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: e84aa48b2ad8bce3fe82d0728eafbce85f84392f4ff93aaf108bbf73f1b3edb1
+  checks: Checked every matrix and vector entry, the singular parameter value and both substitution directions.
+- id: IB/2018/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: a575429a2cb4a7c30afded09dd8ada7761d2868f8dc1839084dade2c841e01c2
+  checks: Checked both definition requests and the random-walk transition probabilities with the degree of
+    the starting vertex.
+- id: IB/2018/P4/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 13c75bfda05fd0b8aeafa297140f8df48cefa2de184e13e4d5b82d1f58720b14
+  checks: Checked the inner product order, strict positivity, endpoint inequalities and the interval for the
+    sum.
+- id: IB/2018/P4/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: b46e3bc6d6cc29b8b4e7a2a3e540b187d1caa30f9faf374e82feb141c398da41
+  checks: Checked the Euclidean domain, ground field and all nine entries of the matrix.
+- id: IB/2018/P4/q12F
+  original_question: 12F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 1f70b5e6222a3d51914aa665019d9f031192db561b770efa9a056464fbf3c5d6
+  checks: Checked the half-open interval, subspace and contraction hypotheses, and the order of the final quantifiers.
+- id: IB/2018/P4/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 7908ba9b5b2dff54a1354a1a7e472cb2dccad8ed838f2a84003a8ea23b4fbf75
+  checks: Checked the first seven elements of X, the direction of divisibility and both restricted maps.
+- id: IB/2018/P4/q14A
+  original_question: 14A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 3b6dc0652a73ffb8ba6a381a416e457348a9a05c35be976f2592e827652b5a9b
+  checks: Checked the square roots, both supplied integrals, and the signs and limits in the particular solution.
+- id: IB/2018/P4/q15G
+  original_question: 15G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 29e990bb68809129a1679dca6bfe350fcdd459f26503083821437a11f509b88b
+  checks: Checked the coordinate order, the domain, Q and the numerator and denominator of the curvature.
+- id: IB/2018/P4/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: a4771dd6c6a86de99335f504faac3851a77f49e79f1d4e958e7b7bb87449c762
+  checks: Checked the order and sign of J, both action integrals, the quartic coefficients and the ratio.
+- id: IB/2018/P4/q17C
+  original_question: 17C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: e785d51613e87189de373520f0e71a39e120cb3273a51b133138dbb0b8d49018
+  checks: Checked both normal derivatives, all signs in Green's representation, the boundary datum and the
+    inversion hint.
+- id: IB/2018/P4/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 73f770592231c707ad6bb454ccccea96d878fc55e215a55a240d469475fef349
+  checks: Checked the domain and surface direction, both trigonometric frequencies, and the depth attenuation
+    factor.
+- id: IB/2018/P4/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 2378b7e39e0470377624b2f3fc92e7108ea70af4c2750acea1437b633d97a0a2
+  checks: Checked both priors and loss functions, the estimate's numerator and denominator, and the inequality
+    threshold.
+- id: IB/2018/P4/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: bbeca9902b74c426e3b720b8ae4e811202a17cfe914edaad333c3aa250460932
+  checks: Checked source and sink labels, the integrality question, and the exact maximal and minimum terminology.

@@ -1,0 +1,93 @@
+archive: raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf
+sha256: df6c7f4fe3fb41c81f8578bc473f25f9ff1517d9981081cc75a3824d97c1ff8f
+printed_term: Michaelmas 2025
+contact: hb470@cam.ac.uk
+resolution_dpi: 160
+original_page_renders:
+  1: 5b4125c27813ec94d0978d6ad01e9e93d2fbd5508b4dd402bef30cdf722b22c6
+  2: 34959afa5a913322458396caed410b8c55e2a01751311d3a013d036330a52072
+questions:
+  '1':
+    unit: IB/linear-algebra/sheet-2/q01
+    question_sha256: 0d6416dd3cdf64ad8836c4416b7455d35d7b18fa93697d76940964576399ff23
+    pages:
+    - 1
+    image_review: Checked the three rows (1,-1,0), (0,0,1), (0,3,-1) and the requirement
+      for elementary row operations.
+  '2':
+    unit: IB/linear-algebra/sheet-2/q02
+    question_sha256: bc8fc3b4665a07673ccfebce1c02ebd20d69593f72d3373169f6d40c3b2555f9
+    pages:
+    - 1
+    image_review: The printed text says “there is are bases”. The two identity matrices
+      have upper/lower bases C/B and B/D, in that order.
+  '3':
+    unit: IB/linear-algebra/sheet-2/q03
+    question_sha256: 10f7350c804255cd2049be310ea45872f38030801ae7fc6d00f1f707ff73f2c8
+    pages:
+    - 1
+    image_review: Checked the proposed inner dimension r in both rectangular factors,
+      the transpose order, and the repeated column-rank qualifier.
+  '4':
+    unit: IB/linear-algebra/sheet-2/q04
+    question_sha256: 6ec03830badd46dbc9e14a461ca99558dd2edf2204dc0fba42b26d365251c0ae
+    pages:
+    - 1
+    image_review: Checked C and D, including the upper negative B and lower AB, and
+      the restriction to elementary column operations.
+  '5':
+    unit: IB/linear-algebra/sheet-2/q05
+    question_sha256: a12342c9015e42b446715de3e1b425fa498e8d54de91d57ea0c1922793d53b70
+    pages:
+    - 1
+    image_review: Checked the real finite-dimensional hypothesis, trace zero, independence
+      of v and its image, zero diagonal, and the order of the commutator.
+  '6':
+    unit: IB/linear-algebra/sheet-2/q06
+    question_sha256: ca20b3e9873697c67b3e632f1fee88d381687d8eb79461094b05f960f34a8e31
+    pages:
+    - 1
+    image_review: Checked n at least two, field unspecified, all three adjugate formulas
+      and exponents, every rank case, and the lambda-in-field hint.
+  '7':
+    unit: IB/linear-algebra/sheet-2/q07
+    question_sha256: 8bcb7b7d4e0d00e174c73d900f064ec306ffb29ee09c4a01c6aad222bc64fdd9
+    pages:
+    - 1
+    image_review: Checked all four ordered lists of four vectors, the half multiplying
+      x3 and the alternating signs in the last list.
+  '8':
+    unit: IB/linear-algebra/sheet-2/q08
+    question_sha256: 1fb1833e2d57b3daa21ce248e7d070e00252a84560119b0deed137f6409a0c02
+    pages:
+    - 1
+    image_review: Checked rectangular index order n-by-m versus m-by-n, the order
+      AB in the trace, and which space is dual.
+  '9':
+    unit: IB/linear-algebra/sheet-2/q09
+    question_sha256: 3414dbee56b10f6c6278d893bad37825b84e72297667bc56f4fe20d82ba14159
+    pages:
+    - 2
+    image_review: Checked the normalization f(I)=n over the reals, finite nonzero
+      dimension in (b) and smooth functions on the whole real line in (c).
+  '10':
+    unit: IB/linear-algebra/sheet-2/q10
+    question_sha256: 422074f6831239185148762829aa96586f0ba442e2250717863799e2c341b2fb
+    pages:
+    - 2
+    image_review: Checked the Vandermonde powers and the distinction between arbitrary
+      nodes a_j in (a) and evaluations e_0 through e_n in (b)–(c).
+  '11':
+    unit: IB/linear-algebra/sheet-2/q11
+    question_sha256: 5792ff6809e0c3db26d668dde18b1e37b1d980a8435d339968ce4f17b989f9a5
+    pages:
+    - 2
+    image_review: Checked product sequence space, derivative D, substitution S, composition
+      orders DS and SD, and both order-reversing dual identities.
+  '12':
+    unit: IB/linear-algebra/sheet-2/q12
+    question_sha256: 3c237f7144bd219f4f44843019c2a3c2c588cd44c31426a7a8e1133a0f2ec906
+    pages:
+    - 2
+    image_review: Checked the finite list of forms, the inclusion of the intersection
+      in the kernel of g and the infinite-dimensional follow-up.

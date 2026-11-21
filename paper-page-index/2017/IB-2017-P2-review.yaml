@@ -1,0 +1,268 @@
+paper_id: IB/2017/P2
+id: IB/2017/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2017-06-07'
+printed_date: Wednesday, 7 June, 2017
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2017/P2.pdf
+archive: private/raw/tripos/IB/2017/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2017/paperib_2_2.pdf
+sha256: af4a560016d48ac8be48cfedbf6413afde551ce99629f3d555d62cc48812b06c
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2017/P2/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 6f2d1555ae0219f7de518bbcd7d67db7cc34eae1a168af7f33db8107c86b40d7
+  checks: The rank, both dimensions and the request for two contrasting examples were checked.
+- id: IB/2017/P2/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: fb16a7d11cfac8632ee6af7e6a8c938b1e31352f4f393bfcb0d762ae47b38a80
+  checks: Both definitions, two named results and the relation between ring and subring were checked.
+- id: IB/2017/P2/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 1bf962c4a48734a5fb2955dde6b15d544fefcb96b0cfdbfa1ebb9fbfd203742b
+  checks: Domains, the index lower bound and the quantifier over bounded intervals were checked.
+- id: IB/2017/P2/q4E
+  original_question: 4E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: f11e987586c99d38ea47c6b08f43190fb2c4806522ff7a3da0ab63e92ffd482a
+  checks: Both metrics and the distinction between inverse and direct images of open sets were verified.
+- id: IB/2017/P2/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 138513be2d1714f551d495cdbe16fffd74c017a8f7f4347c92cfc4ff2c778fb6
+  checks: The open Fourier interval, normalization and alternating signs and constants were checked.
+- id: IB/2017/P2/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 2a24fb35d6cb06964f554339d7b405a663d8e657a0e4edcf28875d0c81d0155a
+  checks: Signs of the shell charges, three radial regions and the capacitance formula were verified.
+- id: IB/2017/P2/q7D
+  original_question: 7D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 84095f5357575d2a126ffbccf51ae59ca98dec991373ce365b156017b3c831f1
+  checks: The cone half angle and orientation, hole size and all powers and constants in the draining time
+    were checked.
+- id: IB/2017/P2/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: cffb77aba2808ceae36c5e57c2eef1d4f8867503580c881505372c258f6783e4
+  checks: Coverage levels, known normal variance and both uniform observations were checked.
+- id: IB/2017/P2/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: f6d77e3e38338b238fe9888e56ed5510f0c9cf24f3b8749a84f61609ed1d9916
+  checks: Equality constraint, feasible set and the requested sufficiency and weak duality results were checked.
+- id: IB/2017/P2/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1644a67d8c0f08969e32dce3bc6289690496639e72975608dea8d3b3ef4c688c
+  checks: Both rank inequalities, equality cases and dimensions and exponent ranges in the nilpotent example
+    were checked.
+- id: IB/2017/P2/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 795ca0b448d57f7860c746abf104d7f00d21bc8874e815e2fd5f1bd2be99a1c2
+  checks: The nilpotency set, multiplicative subset and all containment and disjointness conditions were verified.
+- id: IB/2017/P2/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: ed4f17c8275416516c93ec10f7d8f370385b66c887d8ac1b028c047d5ffabe36
+  checks: The line-segment and convexity conditions, both special balls and the strict inequality defining
+    C were checked.
+- id: IB/2017/P2/q13A
+  original_question: 13A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: d32385d95b653a809c2e4a8670fb784a15f13cb4d5a959f282749e5c8b4e6647
+  checks: The contour and both real integrals, including the square-root convention, were checked.
+- id: IB/2017/P2/q14G
+  original_question: 14G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b61e6ff2dd399139e085c749586442dee182847cbb10efa7985390130f575f8b
+  checks: The reflection offset, pointwise fixing, orthogonal group and bounds on reflection counts were matched.
+- id: IB/2017/P2/q15D
+  original_question: 15D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 092af6f116dc1721aa36787a6eef174db9731a371fdf2219525f8abd4ea006f4
+  checks: Powers in kinetic and potential energy and the effective potential, sign of radial force and cyclic
+    momentum were checked.
+  printed_ambiguity: The potential coefficient is only called a constant. Check the sign of k and the angular
+    momentum required for the stated stable circular orbit.
+- id: IB/2017/P2/q16A
+  original_question: 16A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: ca2cb33c09409d09bf219979d6ba8c1a5232585cab2a11a77ee5b11eeb8d11cc
+  checks: The cylindrical operator, boundedness, half-cylinder domain and every term of the lateral boundary
+    data were checked.
+  printed_ambiguity: The paper prescribes no boundary value on the end disc at z = 0, so boundedness and the
+    lateral data alone do not give uniqueness.
+- id: IB/2017/P2/q17B
+  original_question: 17B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 944206cf174972fc81f7584bd51ba85e25c046d36a8308aa9d0c2ed8730dd757
+  checks: The oscillator rescaling, energy indices, switched field sign, overlap probability and Gaussian identity
+    were checked.
+- id: IB/2017/P2/q18C
+  original_question: 18C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: fa111937ac6578362c995cc142f64f98538a30660798d32f9faf5172751b69e5
+  checks: The tensor index positions, all six boost equations and both moving charge species were verified.
+- id: IB/2017/P2/q19C
+  original_question: 19C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 16fc72337935215d683622d8caf7e9e75446333a7ac2a378e2be95eaa603fd46
+  checks: All twelve matrix entries, right-hand side and transposition in the residual norm were checked.
+- id: IB/2017/P2/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: e38f9750cc9d59c110d178ebd0c0732ed1c7b1be352e383e9f81e1246768317d
+  checks: The gcd-one hypothesis, both lower bounds in the infimum and the return-time expectation were verified.

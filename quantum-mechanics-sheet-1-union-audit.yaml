@@ -1,0 +1,589 @@
+scope: IB Quantum Mechanics example sheet 1 union only
+seed: 20261202
+sampling: random.Random(20261202).sample(sorted(population), 4)
+population:
+- q01
+- q02
+- q03
+- q04
+- q05
+- q06
+- q07
+- q08
+- q09
+- q10
+- q11
+- qx01
+- qx02
+- qx03
+- qx04
+- qx05
+- qx06
+- qx07
+population_size: 18
+sample:
+- q06
+- q10
+- q01
+- qx01
+sample_size: 4
+distinct_statements: 8
+dated_positions: 24
+additional_original_positions: 4
+blind_rework:
+  sha256: 0806df455b36a66af28aae60a35645d1d9ddfff2d1bc4b57f67c05ebfe6d1f79
+  derivation: 'Independent rework. Input limited to the eight exact fragments and source locator manifest. Python
+    3 random.Random(20261202).sample(sorted(population),4) independently returned q06,q10,q01,qx01 from 18 IDs.
+
+
+    q06 (e2e8f173ca6b). Treat the listed energy vectors as a complete orthonormal energy basis, as usual (in particular
+    the two energies in the time question are distinct). In their first two coordinates the exchange has equations
+    (b,a)=lambda(a,b). Thus lambda=+1 and -1 on normalized (chi1 +/- chi2)/sqrt2, respectively; on the closed
+    span of the remaining coordinates the eigenvalue is zero. The Hamiltonian mean in either is (E1+E2)/2 because
+    H is diagonal. The +1 eigenspace is one dimensional so measurement prepares the plus vector up to phase. Relative
+    phase accumulates at the energy splitting; the return amplitude is (exp(-i E1 t/hbar)+exp(-i E2 t/hbar))/2.
+    The squared modulus is (1+cos[(E2-E1)t/hbar])/2=cos^2[(E2-E1)t/(2 hbar)]. It is zero at the specified positive
+    T, returns to unity at 2T and at t=0; a zero gap gives unit return at all times.
+
+
+    q10 (7a5d52b3bae6, cc37d30d8c5e). Capital Psi or lower-case psi, V or U equal to zero. On a regular time interval
+    with differentiable nonvanishing gamma, choose a continuous square root; for C nonzero, psi_xx/psi=x^2/gamma^2-1/gamma,
+    psi_t/psi=(gamma''/2)(x^2/gamma^2-1/gamma). Substitution gives i hbar gamma''=-hbar^2/m, necessary by evaluating
+    at x=0 and sufficient identically. C=0 solves trivially but cannot represent a normalized state. gamma=alpha+i
+    hbar t/m. Set D=alpha^2+(hbar t/m)^2; Re(1/gamma)=alpha/D. Density is |C|^2/sqrt(D) times exp(-alpha x^2/D),
+    with total norm squared |C|^2 sqrt(pi/alpha). Choose C=(alpha/pi)^(1/4) times arbitrary unit phase. The normalized
+    density is centered, of variance D/(2 alpha); its peak decreases and width increases for positive t, and its
+    integral stays one. It tends to zero pointwise. q10 (9aa5b5c06950): same substitution and evolution, but supplied
+    positive prefactor already has the normalizing value. For finite fixed a<=b, integrate that density: P=(erf(b
+    sqrt(alpha/D))-erf(a sqrt(alpha/D)))/2. Alternatively 0<=P<=(b-a)sqrt(alpha/(pi D))->0 as t increases. This
+    conclusion would not hold for the whole line.
+
+
+    q01 (6a9f18f26966): one photon transfers energy hc/lambda, so K_max=hc/lambda-W. Subtract two data and get
+    hc=1.6 eV/(1/(3e-7m)-1/(5e-7m))=1.2e-6 eV m. Therefore h approximately 4.0e-15 eV s = 6.4e-34 J s. W=4.0-2.1=1.9
+    eV from first datum; also 2.4-0.5=1.9 eV, corresponding to about 3.0e-19 J. q01 (fc6416766c36) requests hbar
+    by name/symbol; h from the same two observations is 6.4e-34 J s, so hbar=h/(2 pi) approximately 1.02e-34 J
+    s (6.37e-16 eV s); E0=W=1.9 eV.
+
+
+    qx01 (75a30ce6da33, f8408fa04d32): denote the printed chi or psi vectors by u and v. Inner product linear
+    in its second slot. Norm squared of alpha u + beta v is |alpha|^2+|beta|^2+2 Re(conj(alpha) beta <u,v>); orthogonality
+    gives the iff. For w=u-gamma v, <v,w>=<v,u>-gamma since v has unit norm, hence gamma=<v,u> uniquely, with
+    |gamma|<=1 by Cauchy-Schwarz. In the orthogonal decomposition u=w+gamma v, Pythagoras gives ||w||^2=1-|gamma|^2.
+    For |gamma|<1 divide w by its positive norm; at equality w=0, so the restriction is necessary. This projection
+    order matters for complex vectors.
+
+    '
+  isolation: Original question-only packet; all eight derivations frozen before reading solutions, histories,
+    scripts or site/PDF builds.
+findings:
+  before_repair: true
+  substantive_errors: 0
+  affected_sampled_ids: 0
+  observed_error_rate: 0/4 sampled union IDs (0%); 0/24 dated positions, 0/8 distinct exact statements
+  transcription_errors: 0
+  presentation_or_routing_errors: 0
+  repairs_required: false
+  additional_sources: Two source positions each from the duplicate 2015-16 mirror and unresolved printed-2006/copyright-2007
+    PDF. No new dated positions inferred.
+  figures: No diagram requested, referenced or embedded in any sampled question or solution.
+  method: Rendered/cropped every exact original position, grouping only pixel-identical crops, and visually compared
+    words, symbols, subscripts, punctuation, bounds, spelling and page continuations. Compared each solution to
+    the previously frozen derivations. Checked exact question and solution inclusion in the matching edition TeX
+    and served private HTML section, plus compiled PDF pages and distinguishing mathematical content; inspected
+    all eight scripts and reran them. No official answers used.
+statements:
+  fc6416766c36:
+    id: q01
+    question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/q01/history/verified-2004-05-fc6416766c36/solution.tex
+    solution_sha256: 28d3b8d579e99e8d047d9c80d3a4cbb96f81eff5c8cdb0a06e00257e20c18e2b
+    computer_script_sha256: 9734bde46639d10282ffedb15905996d1947e86735e21444abbbc9bf89188471
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    figures: []
+  75a30ce6da33:
+    id: qx01
+    question_sha256: 75a30ce6da33ff1bad6a20d605d8b980e8016c6c50e64b822420283830c33f21
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/qx01/solution.tex
+    solution_sha256: 7ed2abc9365fafc94fbbb4eb9ee92afc83cc1aa8b24fe39fcc7fac1be0bf6cb9
+    computer_script_sha256: c444f1f50f183b04600c38f4c5f91bfbe06a6fb28ba8f34a46c28fc1d3e951d0
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: 86af068940acad3039257c9ea7ff24b04bb6d1da78d5b0ca1ec0653035d4f43b
+    figures: []
+  f8408fa04d32:
+    id: qx01
+    question_sha256: f8408fa04d32d3d2da4ca5594f23e79e861486eebdfde080b5ad9f372521e64c
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/qx01/history/verified-2006-07-f8408fa04d32/solution.tex
+    solution_sha256: 379b742bbb72da0ff23edbd387795661cc0186d05a78b675ec041af0e510242a
+    computer_script_sha256: 80e5feb7145d9a0d06b41c2f4694254a50d7b26b8d1dcd579ad67dff46f2ef8e
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    figures: []
+  6a9f18f26966:
+    id: q01
+    question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/q01/solution.tex
+    solution_sha256: 64804b530ddfae896137e3852ef19f7182dfa4d5a08d415959ca90cb3326370e
+    computer_script_sha256: 900be7d863f9bbc7c748c51390fc1c361314848cf1eacf0ab2db43d5d7a5bd8e
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: 1b5a7b3f33de7287dd0681b0ecd4fae6175ceb481a22bd8c0358c9d9d16650c0
+    figures: []
+  9aa5b5c06950:
+    id: q10
+    question_sha256: 9aa5b5c06950da24cc2f391588478fb2afd36897fcf2a5f6679a610a462ffb2f
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/q10/history/verified-2015-16-9aa5b5c06950/solution.tex
+    solution_sha256: 3f9f6084e7d0b8d0672d827e8cff4dbbe8c47a945aa0e9f8071cbebea9e878c9
+    computer_script_sha256: 45a549949f77497bd81f57a70fdf73b6d9a99f09d3a81999c4a5613975efa688
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    figures: []
+  7a5d52b3bae6:
+    id: q10
+    question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/q10/history/verified-2018-19-7a5d52b3bae6/solution.tex
+    solution_sha256: d30421d080e5ac1326dbf86b3edc85dd81dd947fa2eb2dc742264c251ec7a9d0
+    computer_script_sha256: 45a549949f77497bd81f57a70fdf73b6d9a99f09d3a81999c4a5613975efa688
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    figures: []
+  e2e8f173ca6b:
+    id: q06
+    question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/q06/solution.tex
+    solution_sha256: 203f052fb6b47bec771d50fa57bb4737fa7e0adc7ac29d5a9c2447e5b465a378
+    computer_script_sha256: 08d9e372172a20bf53571d1106ffff254b331fa19207ce10044fc030e016897f
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: 8a20f136df22d052e42c9bbb62045669787f3b948d208b3ae222d9eb85498a46
+    figures: []
+  cc37d30d8c5e:
+    id: q10
+    question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+    solution: courses/IB/quantum-mechanics/sheets/sheet-1/q10/solution.tex
+    solution_sha256: 4a7705fecf3405efeacf799b7d7286d62bfe8da7923fdc3f71e1b46f0862cf5b
+    computer_script_sha256: a66b675ff16e2f23d4b2e21a8a47540481a5c28a799a13b77d2d7b049047705b
+    computer_check: passed (fresh process); inspected algebra or numerical assertions
+    computer_output_sha256: e2606efdfce48ebab4314c703badd25e43f7c3fee2433fcd648a9edcba4ef006
+    figures: []
+editions:
+  2004-05:
+    pdf: build/IB-quantum-mechanics-sheet-1-2004-05/main.pdf
+    pdf_sha256: b3d1fd8a42171048e76c4360ef81cd0e6577002c6d491f7fc9b7a2eefd09dbfb
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2004-05.html
+    html_sha256: 3c0683d3cf62c7c46a6baa131dbb6a66a98aa014f6f090f35527aad8847d3f04
+  2006-07:
+    pdf: build/IB-quantum-mechanics-sheet-1-2006-07/main.pdf
+    pdf_sha256: 96cd807bc433231ec53a9dd0ec5d1dc94f84a5f16091f7dfab12078d5ad965ab
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2006-07.html
+    html_sha256: 9a6793523ec915cbe318698080f952578d7d6acbc6fefebacd45b14f1bb0d073
+  2015-16:
+    pdf: build/IB-quantum-mechanics-sheet-1-2015-16/main.pdf
+    pdf_sha256: 42062c4049bf7753179543149ca0efd3514757b69c7df590d81d8fa20ac33911
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2015-16.html
+    html_sha256: a2d3d62b670a6febf0d3868a892d7b68dff20fe7d5cfd219f942d78258bfa584
+  2018-19:
+    pdf: build/IB-quantum-mechanics-sheet-1-2018-19/main.pdf
+    pdf_sha256: 8825e411a9ccfd02503c0c0b81d9a6e6f321e1bfe7dc1164a3a9ec88fae9664a
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2018-19.html
+    html_sha256: ff6cf2ec58bc3146eca35f648db57adf5941e91e1082769fbaa68a1f031b0600
+  2019-20:
+    pdf: build/IB-quantum-mechanics-sheet-1-2019-20/main.pdf
+    pdf_sha256: a03051c2ddae4054944273ec99b7d96b5a8ef44b77c8b701ec694b5fab8761f0
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2019-20.html
+    html_sha256: 0f9a1f58e9606c991a66bf66022b1bd37654217ba7e854b831122cbcd4bb2824
+  2020-21:
+    pdf: build/IB-quantum-mechanics-sheet-1-2020-21/main.pdf
+    pdf_sha256: 4f770a3138a590d23d4152cb415d6be475be2085a8aed7bc9695b35fdb53989a
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2020-21.html
+    html_sha256: 86d30cff941123443e60f00af3e211f53dfeaf4a874ecbf020a2ad44f4199403
+  2022-23:
+    pdf: build/IB-quantum-mechanics-sheet-1-2022-23/main.pdf
+    pdf_sha256: 525c6c0e4d10bebd7b0eb7266b2485afbb700ef19cb996660e811b46b1e85972
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2022-23.html
+    html_sha256: a9fc1662593c717953c26614715933f9512305cd2250ef6ee6116a62cb480125
+  2023-24:
+    pdf: build/IB-quantum-mechanics-sheet-1-2023-24/main.pdf
+    pdf_sha256: 7238fb18c57d3c82c7021a645978080e5d7d64b9c077fa2b8467f40093f949ff
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2023-24.html
+    html_sha256: f9d921f1ea181fcb1423f9122c25323c99e3a6b63f504af682d26c54910df669
+  2025-26:
+    pdf: build/IB-quantum-mechanics-sheet-1-2025-26/main.pdf
+    pdf_sha256: 5b749ea3c8d0e659b0e9bd071b6cf126a0a88d262cf4b1e2b69729f03a36fbce
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2025-26.html
+    html_sha256: deb79b264586a88dd6c8ac10bd33847d8df8bcec88fea05797db7578b4e3bae4
+  2026-27:
+    pdf: build/IB-quantum-mechanics-sheet-1-2026-27/main.pdf
+    pdf_sha256: 17d3aed0da352e75f065dbfd94e78c806f7e2b102dd64386874ee22c8f1a0ad5
+    html: site/private/collections/IB/quantum-mechanics/sheet-1/2026-27.html
+    html_sha256: aff970bbb415ed91149852e2cb921afdfb1cd407d11dea130b11c2a168fa25cd
+positions:
+- edition: 2004-05
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2004-05/sheet-1.pdf
+  original_sha256: 38f07d0da5bf999229ac488bd45df5112005c16276f2ac791e6f6a0eff29c3c2
+  original_pages:
+  - 1
+  source_crop_sha256: 3904f5830387eea6af00fef5e92f16742c5340a3b0c94ad0c700044da624f16b
+  question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+  edition_pdf_pages:
+  - 1
+  extracted_question_and_answer_sha256: 8f0218c575830363f63ea777e525a9ce61eaec539246c212719e1f0e658120d5
+  html_section_sha256: c4233b4a50eb1baa0b0c791de5640256cdfe44d51f897eb0df93a6222af27501
+- edition: 2004-05
+  id: qx01
+  number: '5'
+  original: private/raw/sheets/IB/quantum-mechanics/2004-05/sheet-1.pdf
+  original_sha256: 38f07d0da5bf999229ac488bd45df5112005c16276f2ac791e6f6a0eff29c3c2
+  original_pages:
+  - 1
+  source_crop_sha256: 2b3117195ce746f7e163e41be1bac0b3fe5e87641adace0072a9088849cebb67
+  question_sha256: 75a30ce6da33ff1bad6a20d605d8b980e8016c6c50e64b822420283830c33f21
+  edition_pdf_pages:
+  - 5
+  extracted_question_and_answer_sha256: fc6032df5e9e80cc5663e5f41e2a44e02ff378630fa01cd6e04d4a726c6d2007
+  html_section_sha256: b913cd569b1466abca635f1947d0a42c6866735b8eeb0351ce228ca8f9b2392f
+- edition: 2006-07
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2006-07/sheet-1.pdf
+  original_sha256: 719177a9b8e1db20112bf54384a8b86793d8a68176c376736e5dc37889bee79f
+  original_pages:
+  - 1
+  source_crop_sha256: 1bf53cdb622c573b42c73ddafe3a02e652f9f434dd3d90474fac76218ca78595
+  question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+  edition_pdf_pages:
+  - 1
+  extracted_question_and_answer_sha256: 8f0218c575830363f63ea777e525a9ce61eaec539246c212719e1f0e658120d5
+  html_section_sha256: c4233b4a50eb1baa0b0c791de5640256cdfe44d51f897eb0df93a6222af27501
+- edition: 2006-07
+  id: qx01
+  number: '5'
+  original: private/raw/sheets/IB/quantum-mechanics/2006-07/sheet-1.pdf
+  original_sha256: 719177a9b8e1db20112bf54384a8b86793d8a68176c376736e5dc37889bee79f
+  original_pages:
+  - 1
+  source_crop_sha256: 161d87c0ba1a18e783e668ba5adac46f073b2abba1dfc1ee2cac1ff1a8cb029c
+  question_sha256: f8408fa04d32d3d2da4ca5594f23e79e861486eebdfde080b5ad9f372521e64c
+  edition_pdf_pages:
+  - 5
+  extracted_question_and_answer_sha256: f93ec5c7da6eaa1c66f5c3bad15490b5684144af5b53ac850bcb41215ee4ac58
+  html_section_sha256: 8b19d78fcddc5b729ec5ef01068780bfa714330c612e8a401b348b1514a7a5c2
+- edition: 2015-16
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2015-16/sheet-1.pdf
+  original_sha256: 63a650aa88959aa63a5e9f923be00b788d5e266cbee3b79a363a5b68dee5906a
+  original_pages:
+  - 1
+  source_crop_sha256: 752ece0c1eb2ff3c16369d41ff4cad3675834b90b8051d8beada35efbbb716fd
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2015-16
+  id: q10
+  number: '7'
+  original: private/raw/sheets/IB/quantum-mechanics/2015-16/sheet-1.pdf
+  original_sha256: 63a650aa88959aa63a5e9f923be00b788d5e266cbee3b79a363a5b68dee5906a
+  original_pages:
+  - 2
+  source_crop_sha256: cee90a5618e0ba868d8133cdfabb14ca22e6dd833815daf84e7ecc5551b9b508
+  question_sha256: 9aa5b5c06950da24cc2f391588478fb2afd36897fcf2a5f6679a610a462ffb2f
+  edition_pdf_pages:
+  - 9
+  extracted_question_and_answer_sha256: 6240b9e6edf3bcafb60ee58f956c27be126213aa6b90eab3070e7b1e36e27e73
+  html_section_sha256: 2ef6622a8034c2f3376a72550f061b10511042418f61c2c30c52dc122555be71
+- edition: 2018-19
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2018-19/sheet-1.pdf
+  original_sha256: 797c0d4e510c73d3dab9809295fc227d8066fa289748852bd2716d7835dda659
+  original_pages:
+  - 1
+  source_crop_sha256: 752ece0c1eb2ff3c16369d41ff4cad3675834b90b8051d8beada35efbbb716fd
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2018-19
+  id: q10
+  number: '7'
+  original: private/raw/sheets/IB/quantum-mechanics/2018-19/sheet-1.pdf
+  original_sha256: 797c0d4e510c73d3dab9809295fc227d8066fa289748852bd2716d7835dda659
+  original_pages:
+  - 2
+  source_crop_sha256: 0948a31726199e3e3133a6e43d7aaa6863306ecb469df3f0d188573247bcc622
+  question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+  edition_pdf_pages:
+  - 9
+  extracted_question_and_answer_sha256: d8c6d26b84eb98ca38d0fec451ee32315c8778c2f2998470f386373891927394
+  html_section_sha256: 795343b809498ddf5163589682915e2c2802702cbcd8dedfdd38167c1d416b71
+- edition: 2019-20
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2019-20/sheet-1.pdf
+  original_sha256: fd64195c04c5d1ca118335b994ae05f97227259496f717e12a4c9b748fc25ea5
+  original_pages:
+  - 1
+  source_crop_sha256: 4c18dc29995003ac955a6886a6bc13881092ef00c7cbd7563428eec2397b92f5
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2019-20
+  id: q10
+  number: '7'
+  original: private/raw/sheets/IB/quantum-mechanics/2019-20/sheet-1.pdf
+  original_sha256: fd64195c04c5d1ca118335b994ae05f97227259496f717e12a4c9b748fc25ea5
+  original_pages:
+  - 2
+  source_crop_sha256: fbab7872dcc0cf2d5248ce8c00f6e269189571bf73b43550cc1301432812936d
+  question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+  edition_pdf_pages:
+  - 9
+  extracted_question_and_answer_sha256: d8c6d26b84eb98ca38d0fec451ee32315c8778c2f2998470f386373891927394
+  html_section_sha256: 795343b809498ddf5163589682915e2c2802702cbcd8dedfdd38167c1d416b71
+- edition: 2020-21
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2020-21/sheet-1.pdf
+  original_sha256: 99f312ea1daeffa362f76232ee526d9f6eb50b1ec0eb89d05d8c310d74ab6611
+  original_pages:
+  - 1
+  source_crop_sha256: 9eb363a8cb56c5fd78cde8a980304094d557f81ea36eab5437ed32819049dcf4
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2020-21
+  id: q10
+  number: '7'
+  original: private/raw/sheets/IB/quantum-mechanics/2020-21/sheet-1.pdf
+  original_sha256: 99f312ea1daeffa362f76232ee526d9f6eb50b1ec0eb89d05d8c310d74ab6611
+  original_pages:
+  - 2
+  source_crop_sha256: a4a2129c2c578b6d71763b943a42f528042c014be915a2a3b7456ba636f3db38
+  question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+  edition_pdf_pages:
+  - 9
+  extracted_question_and_answer_sha256: d8c6d26b84eb98ca38d0fec451ee32315c8778c2f2998470f386373891927394
+  html_section_sha256: 795343b809498ddf5163589682915e2c2802702cbcd8dedfdd38167c1d416b71
+- edition: 2022-23
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2022-23/sheet-1.pdf
+  original_sha256: 5b11cac956dd94154554cc14b115251c57bb16934f196cb90e3fe0aaa4183d52
+  original_pages:
+  - 1
+  source_crop_sha256: 9eb363a8cb56c5fd78cde8a980304094d557f81ea36eab5437ed32819049dcf4
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2022-23
+  id: q06
+  number: '6'
+  original: private/raw/sheets/IB/quantum-mechanics/2022-23/sheet-1.pdf
+  original_sha256: 5b11cac956dd94154554cc14b115251c57bb16934f196cb90e3fe0aaa4183d52
+  original_pages:
+  - 1
+  - 2
+  source_crop_sha256: 924272d64cc16421ae2080d0e01818079bd7a03234bc79613be4eac7f4baa050
+  question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+  edition_pdf_pages:
+  - 9
+  - 10
+  extracted_question_and_answer_sha256: d791b2482710b2d210254e7f565cfed7fbca0ee3b975635456d740ec39688576
+  html_section_sha256: 1e98bc551211dde2736b8756ec43766176dfd89e2f6c02902b3027df6e295f5c
+- edition: 2022-23
+  id: q10
+  number: '10'
+  original: private/raw/sheets/IB/quantum-mechanics/2022-23/sheet-1.pdf
+  original_sha256: 5b11cac956dd94154554cc14b115251c57bb16934f196cb90e3fe0aaa4183d52
+  original_pages:
+  - 2
+  source_crop_sha256: 0401cbcb54c4df8a2f249567aa8ccd87fd0ad6360e1cc58d87d4e48dfe143027
+  question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+  edition_pdf_pages:
+  - 17
+  - 18
+  extracted_question_and_answer_sha256: b4b5a3fddbf505e67369a9d9dc6dd2ba65c55339302e39e795732e79e9fefd2b
+  html_section_sha256: e52884392dced990e0eea737cc549b974f2fc457faed8081f322ffce12e40513
+- edition: 2023-24
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2023-24/sheet-1.pdf
+  original_sha256: 507a6f7c9007c02d8cdf8ed20d965e570c08b9d331430782efe83101852bd237
+  original_pages:
+  - 1
+  source_crop_sha256: e55d51d595211e40b734c98fb0d734e8bc2a1307b238ebda47fd7034004cc18c
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2023-24
+  id: q06
+  number: '6'
+  original: private/raw/sheets/IB/quantum-mechanics/2023-24/sheet-1.pdf
+  original_sha256: 507a6f7c9007c02d8cdf8ed20d965e570c08b9d331430782efe83101852bd237
+  original_pages:
+  - 1
+  - 2
+  source_crop_sha256: dbab13794dcfbe7064c520f9a7305dec9ef2a71c2c6f82aebf6be2a7b603b230
+  question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+  edition_pdf_pages:
+  - 9
+  - 10
+  extracted_question_and_answer_sha256: d791b2482710b2d210254e7f565cfed7fbca0ee3b975635456d740ec39688576
+  html_section_sha256: 1e98bc551211dde2736b8756ec43766176dfd89e2f6c02902b3027df6e295f5c
+- edition: 2023-24
+  id: q10
+  number: '10'
+  original: private/raw/sheets/IB/quantum-mechanics/2023-24/sheet-1.pdf
+  original_sha256: 507a6f7c9007c02d8cdf8ed20d965e570c08b9d331430782efe83101852bd237
+  original_pages:
+  - 2
+  source_crop_sha256: 9924d1deaddca01998db478cdb74c5280ab06650196d11b7d021cf80736e0234
+  question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+  edition_pdf_pages:
+  - 17
+  - 18
+  extracted_question_and_answer_sha256: b4b5a3fddbf505e67369a9d9dc6dd2ba65c55339302e39e795732e79e9fefd2b
+  html_section_sha256: e52884392dced990e0eea737cc549b974f2fc457faed8081f322ffce12e40513
+- edition: 2025-26
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-1.pdf
+  original_sha256: 0c5b7f8035b1ba3ec116c699db1971c9ba33448db912cb2ead419cda7ff9b5ad
+  original_pages:
+  - 1
+  source_crop_sha256: 9eb363a8cb56c5fd78cde8a980304094d557f81ea36eab5437ed32819049dcf4
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2025-26
+  id: q06
+  number: '6'
+  original: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-1.pdf
+  original_sha256: 0c5b7f8035b1ba3ec116c699db1971c9ba33448db912cb2ead419cda7ff9b5ad
+  original_pages:
+  - 1
+  source_crop_sha256: 0d9f57c01fc9a3586ab82a1e9e16db766a3fef10a6f76abc9c303ee6e8f43363
+  question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+  edition_pdf_pages:
+  - 10
+  - 11
+  extracted_question_and_answer_sha256: 42ebfcb13ce4153dd0f99239512c14ed8a7eb4554875822044362b04fc950ae7
+  html_section_sha256: 1e98bc551211dde2736b8756ec43766176dfd89e2f6c02902b3027df6e295f5c
+- edition: 2025-26
+  id: q10
+  number: '10'
+  original: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-1.pdf
+  original_sha256: 0c5b7f8035b1ba3ec116c699db1971c9ba33448db912cb2ead419cda7ff9b5ad
+  original_pages:
+  - 2
+  source_crop_sha256: 8b1b99d53dc2099b45561651cb9b9e148f45b3eb85ee82d4417ee52189b91268
+  question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+  edition_pdf_pages:
+  - 18
+  - 19
+  extracted_question_and_answer_sha256: becd16af218159fe1d36b04d8c2fc1644de27da38aeedcf1197ebc3f6a0d3b4a
+  html_section_sha256: e52884392dced990e0eea737cc549b974f2fc457faed8081f322ffce12e40513
+- edition: 2026-27
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2026-27/sheet-1.pdf
+  original_sha256: 12a2ac1edd80bd31952a3b7f78f83787c2ab4ac68ed80fdf7609807acb313f86
+  original_pages:
+  - 1
+  source_crop_sha256: 9eb363a8cb56c5fd78cde8a980304094d557f81ea36eab5437ed32819049dcf4
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  edition_pdf_pages:
+  - 1
+  - 2
+  extracted_question_and_answer_sha256: 51d4a868a1ab09bdebbb948e8d54338174601950ed28b1f36b5ec708fc8cf33d
+  html_section_sha256: c933e23f87c78b29c7462706c05b9783fd935ecce57236ccf3bce177e6650a2e
+- edition: 2026-27
+  id: q06
+  number: '6'
+  original: private/raw/sheets/IB/quantum-mechanics/2026-27/sheet-1.pdf
+  original_sha256: 12a2ac1edd80bd31952a3b7f78f83787c2ab4ac68ed80fdf7609807acb313f86
+  original_pages:
+  - 1
+  source_crop_sha256: 0d9f57c01fc9a3586ab82a1e9e16db766a3fef10a6f76abc9c303ee6e8f43363
+  question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+  edition_pdf_pages:
+  - 10
+  - 11
+  extracted_question_and_answer_sha256: 42ebfcb13ce4153dd0f99239512c14ed8a7eb4554875822044362b04fc950ae7
+  html_section_sha256: 1e98bc551211dde2736b8756ec43766176dfd89e2f6c02902b3027df6e295f5c
+- edition: 2026-27
+  id: q10
+  number: '10'
+  original: private/raw/sheets/IB/quantum-mechanics/2026-27/sheet-1.pdf
+  original_sha256: 12a2ac1edd80bd31952a3b7f78f83787c2ab4ac68ed80fdf7609807acb313f86
+  original_pages:
+  - 2
+  source_crop_sha256: 8b1b99d53dc2099b45561651cb9b9e148f45b3eb85ee82d4417ee52189b91268
+  question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+  edition_pdf_pages:
+  - 18
+  - 19
+  extracted_question_and_answer_sha256: becd16af218159fe1d36b04d8c2fc1644de27da38aeedcf1197ebc3f6a0d3b4a
+  html_section_sha256: e52884392dced990e0eea737cc549b974f2fc457faed8081f322ffce12e40513
+- edition: 2015-16-mirror
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/2015-16/sheets-1-3-mirror.pdf
+  original_sha256: 4f1c3659a50e9b7f704a6082683ddd3b21a95b342b5c652fe0de425817b1c252
+  original_pages:
+  - 1
+  source_crop_sha256: 752ece0c1eb2ff3c16369d41ff4cad3675834b90b8051d8beada35efbbb716fd
+  question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+  role: Additional source position only; corroborates corresponding dated edition.
+- edition: 2015-16-mirror
+  id: q10
+  number: '7'
+  original: private/raw/sheets/IB/quantum-mechanics/2015-16/sheets-1-3-mirror.pdf
+  original_sha256: 4f1c3659a50e9b7f704a6082683ddd3b21a95b342b5c652fe0de425817b1c252
+  original_pages:
+  - 2
+  source_crop_sha256: cee90a5618e0ba868d8133cdfabb14ca22e6dd833815daf84e7ecc5551b9b508
+  question_sha256: 9aa5b5c06950da24cc2f391588478fb2afd36897fcf2a5f6679a610a462ffb2f
+  role: Additional source position only; corroborates corresponding dated edition.
+- edition: unresolved-header-2006-copyright-2007
+  id: q01
+  number: '1'
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2006-copyright-2007/sheet-1.pdf
+  original_sha256: 968ac742d787b10db30794942ec5ec626f227413e2d6b063d747dbcd1f191b7a
+  original_pages:
+  - 1
+  source_crop_sha256: 1bf53cdb622c573b42c73ddafe3a02e652f9f434dd3d90474fac76218ca78595
+  question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+  role: Additional source position only; corroborates corresponding dated edition.
+- edition: unresolved-header-2006-copyright-2007
+  id: qx01
+  number: '5'
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2006-copyright-2007/sheet-1.pdf
+  original_sha256: 968ac742d787b10db30794942ec5ec626f227413e2d6b063d747dbcd1f191b7a
+  original_pages:
+  - 1
+  source_crop_sha256: 161d87c0ba1a18e783e668ba5adac46f073b2abba1dfc1ee2cac1ff1a8cb029c
+  question_sha256: f8408fa04d32d3d2da4ca5594f23e79e861486eebdfde080b5ad9f372521e64c
+  role: Additional source position only; corroborates corresponding dated edition.

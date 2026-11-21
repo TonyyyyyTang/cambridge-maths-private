@@ -1,0 +1,258 @@
+paper_id: IB/2018/P2
+id: IB/2018/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2018-06-06'
+printed_date: Wednesday, 6 June, 2018
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2018/P2.pdf
+archive: private/raw/tripos/IB/2018/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2018/paperib_2_2018.pdf
+sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2018/P2/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 3455f1ed54c783b998081eec648e9c536d21bec568c2a0255abb0ef5c2dc346a
+  checks: Checked all coefficients of both spanning vectors and the annihilator and dual basis superscripts.
+- id: IB/2018/P2/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 95670deab7d2ee59a79a5bd8cde1c2e394e7da1064a9e9a162952a9ff67ff9e3
+  checks: Checked both exponents in the equivalence relation and all terms in the ring operations.
+- id: IB/2018/P2/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: c3030023e336004c9b3b51e0a97cdc6ab3f51732849a76256006d7337a4d2aed
+  checks: Checked the interval, script S, the two supremum bounds and the orthogonality condition.
+- id: IB/2018/P2/q4E
+  original_question: 4E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 05efdde1594e77516b6d0997a233e8463460249813caa870246d2176df4d1b94
+  checks: Checked the printed historical heading and the powers and limits in both metrics.
+- id: IB/2018/P2/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: b8a392f03a01cedb6089ddd45f7b27476c8281d76498dcb4c196393c18328247
+  checks: Checked signs, the mixed derivative coefficient, and the order of dx and dy.
+- id: IB/2018/P2/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: de70921336fde9c655ca8c821f4b26da6448c42bc9c996d4684a1eec264f1c51
+  checks: Checked the order of the cross product, the cube in the denominator, and the unprimed volume element.
+- id: IB/2018/P2/q7D
+  original_question: 7D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: b3f926437c5bf8896068e0bd0f6ce295152f84a36f67b459b1f7a17aec1ed1e7
+  checks: Checked vector notation, surface conditions and the small height difference.
+- id: IB/2018/P2/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f4ba581d1dd1a8348d1d7b1390ada45d3906eb4f54b339dbf5afca259114c3a6
+  checks: Checked the common support, both numerical densities and size 0.05.
+- id: IB/2018/P2/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 72f8363e6dbc0dd0b06c98b1c1e48c37b2eb9d986348873d285a67f5382af0d7
+  checks: Checked domains, infimum constraint and finiteness for all b.
+- id: IB/2018/P2/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 71f71947676850eb9596f3cb7140d1ef649626400849cdf422f010047c9b2857
+  checks: Checked block matrices, dimensions, the inverse on Q and the commutator order.
+- id: IB/2018/P2/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 320914f120e0fa2d5e4233d7405da870cf2b8c31b980a610cc26d7610cf4e956
+  checks: Checked the constants in the polynomial ring, primes and all three nested subparts.
+- id: IB/2018/P2/q12F
+  original_question: 12F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 662420a7b0e8ab426879a9da7d682c2829bc0595562b47395a29871b0798d32f
+  checks: Checked all Lipschitz domains and constants, polynomial degree and both intervals in part (c).
+- id: IB/2018/P2/q13A
+  original_question: 13A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: f27467d2bfc13844dc2762767358d909e24b7226d61e5d101474bdb63ef9d7fb
+  checks: Checked summands, radius and boundary of the contour, and all four requested parts.
+- id: IB/2018/P2/q14G
+  original_question: 14G
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 486312c0a745063e0a89cf5e7994eededcc948b358ff2bcd8ebb39e2570f5069
+  checks: Checked trace inequalities, the two displacements and the point/line requirement.
+- id: IB/2018/P2/q15B
+  original_question: 15B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 04eac4075d4ffce213c66f7bfd8cfe820b78816e3c78a58ef90cbeac8204b586
+  checks: Checked the functional argument order, both endpoint conditions and the stationary function.
+- id: IB/2018/P2/q16A
+  original_question: 16A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 16aea891bf54686c1e996e1e6c8d96d1e8a6082e27a1c765a90906f6f4ea271e
+  checks: Checked the order of the two cases, both closed intervals, and the Fourier series coefficients.
+- id: IB/2018/P2/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 2dea85457d8a7c9127134685327ae9c32f69ad25583d83b64201c862ed79ab08
+  checks: Checked the radial equation, the lower indices of Y, the energy and the exponent in the trial function.
+- id: IB/2018/P2/q18C
+  original_question: 18C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 756bf10e1cf3f02109ea7d1273f397791bf7b29947f0ef1c73a1a8358490f087
+  checks: Checked vector orientation and which field components are requested in both frames.
+- id: IB/2018/P2/q19D
+  original_question: 19D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: ef8f02fe27f00d90942b177d642968e37b0a17a5ddc298fc40ab8a3828ce143d
+  checks: Checked the general printed inner product, each recurrence index and the Legendre integration limits.
+- id: IB/2018/P2/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 99dd72ef959e76b1104c844e8c24d265d3838acbb7a9c1cadf061639c182c8f7
+  checks: Checked the number of vertices and the final coordinates of all three hitting targets.

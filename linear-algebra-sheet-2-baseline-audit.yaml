@@ -1,0 +1,145 @@
+scope: IB Linear Algebra, Michaelmas 2025, Example Sheet 2, 2025-26 baseline. Fresh auditor authored
+  neither stored solution.
+population: 12
+sample_size: 3
+coverage_percent: 25
+seed: 20261204
+selection: sorted(random.Random(20261204).sample(range(1,13),3))
+sample:
+- 1
+- 8
+- 12
+source:
+  archive: private/raw/sheets/IB/linear-algebra/2025-26/sheet-2.pdf
+  sha256: df6c7f4fe3fb41c81f8578bc473f25f9ff1517d9981081cc75a3824d97c1ff8f
+  url: https://www.dpmms.cam.ac.uk/study/IB/LinearAlgebra/2025-2026/Example%20Sheet%202.pdf
+disclosure: Only exact question text, locators and original source page images were consulted before
+  freezing independent derivations. First and second solutions and checks were opened after the freeze.
+frozen_manifest_sha256: 77520896449a38b39c0c380c24d4bb2074d561c5960ebbc85df67f19680604ab
+aggregate:
+  math_errors: 0
+  transcription_errors: 0
+  delivery_errors: 0
+  substantive_errors: 0
+  observed_substantive_error_rate: 0/3
+  fixes_required: []
+delivery_artifact_sha256:
+  build/IB-linear-algebra-sheet-2/main.pdf: 5542408a9d4aa1d6020a25948d31161760762c43b80bbe2a7a0aaaa59cf43425
+  build/IB-linear-algebra-sheet-2-2025-26/main.pdf: e8fb35185c426c79da45cbe8113ed0ef935d12bbd3dd1b8fde043cb7dc8fe8e0
+  site/private/collections/IB/linear-algebra/sheet-2/index.html: 4db70ca72d8017cba83103059e5dffdf90a03c6d6f0cff1317a45e7b52ed402a
+  site/private/collections/IB/linear-algebra/sheet-2/2025-26.html: c6401b5298add7a1cc2820c87b950b345fe31b0a78871a058880f7a00bff80cd
+questions:
+- id: IB/linear-algebra/sheet-2/q01
+  source_page: 1
+  source_printed_question: 1
+  derivation_sha256: 7e4181c86fb02914b4fbcac91e92eb0d40a3d2c07211e0307314d475e069bf44
+  independent_rework: Begin with (A|I). Exchange rows 2 and 3, then replace row 2 by row 2 plus row
+    3. On the left the rows are now (1,-1,0), (0,3,0), (0,0,1). The right rows are e1, e3+e2, e2.
+    Divide row 2 by 3 (over the reals) and add the resulting row to row 1. The left is the identity.
+    The elementary transformations are each invertible, so their product is A^{-1}. Its rows are
+    (1,1/3,1/3), (0,1/3,1/3), (0,1,0). Multiplication on a vector (x,y,z) gives (x+(y+z)/3,(y+z)/3,y),
+    and applying A recovers (x,y,z).
+  transcription: p1 q1 agrees in all text, punctuation and nine signed matrix entries, with the printed
+    label supplied by locator.
+  source_page_image_sha256: 5b4125c27813ec94d0978d6ad01e9e93d2fbd5508b4dd402bef30cdf722b22c6
+  comparison: All three proofs apply invertible elementary row operations to (A,I) and obtain the
+    same inverse, with rows (1,1/3,1/3), (0,1/3,1/3), (0,1,0).
+  source_unit_sha256:
+    question.tex: 0d6416dd3cdf64ad8836c4416b7455d35d7b18fa93697d76940964576399ff23
+    solution.tex: 7a68efa5f2d1873566e2fe5784cde26d69162d0494b4f7c22ccf60f5de6e11d0
+    independent-solution.md: a1dc71aa07cad06414bde5b01052cc555418933cfeb4ce8f2b2c18f36ede1c50
+    check.py: 6ad91318b385ffa63a7886e57a532a7d5d008852e5902ec91becef5250490181
+    comparison.md: c4829ec0f5714fcca9e87256565cbba4aa6750d112b6105abb4bbd2e0c04a22f
+  execution: Verified row reduction and both inverse products exactly.
+  delivery:
+    private_html: site/private/questions/IB/linear-algebra/sheet-2/q01/index.html
+    private_html_sha256: 6ad7bc3dfcaaafff2b902adbd7dc4c3e5d5286dc2723b1ea7d35acffc1cfbb05
+    edition_html: Question and solution fragments exactly match the current rendered sources on the
+      edition page and individual unit page. Collection index links to this unit.
+    pdf_pages:
+      collection: 1
+      edition: 1
+    visual_inspection: Both complete PDF page renders inspected side by side. The question, proof,
+      expressions, notes and source are legible, correctly labelled and complete. The extracted bodies
+      are identical.
+    rendered_page_sha256:
+      collection: b3dab0826dd66007665971a4c8f38d498543ced1827073270702d9be3510b549
+      edition: d5e0131c0c504c785ee6e621b25adf11870e0abf281c413970f77f2289866b54
+  findings: []
+- id: IB/linear-algebra/sheet-2/q08
+  source_page: 1
+  source_printed_question: 8
+  derivation_sha256: 6c33c2c8e1db77270b7b270561448bf1d8241aec86a8a48bc532f80b68972d4f
+  independent_rework: Expand tr(AB) as sum_{i=1}^n sum_{j=1}^m A_{ij}B_{ji}. Distributivity shows
+    linearity in B for each A and in A for each B. Thus Phi(A)=tau_A is a linear map into the prescribed
+    dual. For any linear functional ell on the m-by-n matrices define the n-by-m matrix L(ell)_{ij}=ell(E_{ji}).
+    Substituting E_{ji} into the trace gives A_{ij}, so L(Phi(A))=A. Expanding B in the canonical
+    matrix units and applying linearity yields Phi(L(ell))(B)=ell(B), proving the opposite composition.
+    The argument works in every characteristic, and empty index sets give the zero-space isomorphism.
+  transcription: p1 q8 matches all wording, rectangular dimensions, indexed functional, parentheses,
+    field and terminal dual.
+  source_page_image_sha256: 5b4125c27813ec94d0978d6ad01e9e93d2fbd5508b4dd402bef30cdf722b22c6
+  comparison: In all three derivations a_{ij} is the trace pairing against E_{ji}. Matrix-unit evaluations
+    supply a unique representative of any linear form over every field.
+  source_unit_sha256:
+    question.tex: 1fb1833e2d57b3daa21ce248e7d070e00252a84560119b0deed137f6409a0c02
+    solution.tex: f64353be6cdc4c2fc130c2a252663020cdcdb0827d2ce379d0a6a6eefd04201b
+    independent-solution.md: 9c23e40394d5ac81913ec4ca239bd7057e7c475c9cc77f043fd0c4836e193a5c
+    check.py: 958b09efb9af8fd0078547fee588394f55b9a7216eb831967dd07f077eb39bf2
+    comparison.md: 0b62e8356d6cbb47d638de7122a8e9b43b9d376b01e06689ed60b2a7e12f6e7d
+  execution: Verified symbolic bilinearity and the full six-dimensional rectangular pairing.
+  delivery:
+    private_html: site/private/questions/IB/linear-algebra/sheet-2/q08/index.html
+    private_html_sha256: f2d6f226dcf804e29de79c133b85799473950c191f2903a96dd2c7dd29a0508a
+    edition_html: Question and solution fragments exactly match the current rendered sources on the
+      edition page and individual unit page. Collection index links to this unit.
+    pdf_pages:
+      collection: 8
+      edition: 8
+    visual_inspection: Both complete PDF page renders inspected side by side. The question, proof,
+      expressions, notes and source are legible, correctly labelled and complete. The extracted bodies
+      are identical.
+    rendered_page_sha256:
+      collection: ca927bf6e335f8f35e1f7b0df1d21071f0e4535b9fc3b8e6a82f468f7e4e5392
+      edition: 98c6abf51adedf5e4f76ea9bb43a47dddff8249031f09bff540d510432789458
+  findings: []
+- id: IB/linear-algebra/sheet-2/q12
+  source_page: 2
+  source_printed_question: 12
+  derivation_sha256: 284fc717cbbee29871ae87ab9aa6a1ff970214c8d6f5b8b8fecbab657a775e72
+  independent_rework: If g=sum c_i f_i, its value vanishes wherever every f_i vanishes. Conversely
+    let T:V -> F^n send x to (f_1(x),...,f_n(x)). For u=T(x) in U=im(T), set L(u)=g(x). If T(x)=T(y),
+    then x-y is in the common kernel and hence in ker(g), so L is well-defined. It is linear by linearity
+    of T and g. Extend a basis of U to one of F^n, extending L by zero on the added vectors. This
+    extension H on F^n has H(z)=sum H(e_i)z_i. Therefore g(x)=H(Tx)=sum H(e_i) f_i(x). No restriction
+    on the dimension of V was used, since only F^n required finite basis extension. Equality of the
+    kernels is allowed; 'subset' in the question denotes inclusion. This also covers all f_i=0, zero
+    V or g, and the vacuous finite list.
+  transcription: p2 q12 matches all wording, indices, field-dual notation, kernel inclusion, and
+    infinite-dimensional follow-up.
+  source_page_image_sha256: 34959afa5a913322458396caed410b8c55e2a01751311d3a013d036330a52072
+  comparison: All three proofs factor g through the image of the joint evaluation map and extend
+    a functional in the finite-dimensional codomain. Infinite-dimensional V and the empty family
+    are included.
+  source_unit_sha256:
+    question.tex: 3c237f7144bd219f4f44843019c2a3c2c588cd44c31426a7a8e1133a0f2ec906
+    solution.tex: c4ef8a2b139a234838b34a1be699ceeea09d5a425b4cb47c46ebf8aa86c451e5
+    independent-solution.md: 6d49af6eca93463d9c2f1a6dace434d001df5e2521fd906e576c0f7d28175d96
+    check.py: dc71ea65e1a0e8dbc028f11c26b8514824141db34e1e1cf2a0da7680267aab32
+    comparison.md: fec918a261344d244360bf4b1dab6df380cbfa361c089007ceeea974b4042e4e
+  execution: Verified the equivalence for 585 ordered families, including empty and dependent families.
+  delivery:
+    private_html: site/private/questions/IB/linear-algebra/sheet-2/q12/index.html
+    private_html_sha256: f4c567be364de4e3407581df8150bf989101a87de952741982aa20bff4ba0a6b
+    edition_html: Question and solution fragments exactly match the current rendered sources on the
+      edition page and individual unit page. Collection index links to this unit.
+    pdf_pages:
+      collection: 12
+      edition: 12
+    visual_inspection: Both complete PDF page renders inspected side by side. The question, proof,
+      expressions, notes and source are legible, correctly labelled and complete. The extracted bodies
+      are identical.
+    rendered_page_sha256:
+      collection: af5b8bdca2add6a5da9e9c3444994b27e72694ea43e2de0308872d3ae2549555
+      edition: f8f4d18859242f2e370fc7a2cecd7973e51ca7f6e4f6c19fef27e00ec56a7cbb
+  findings: []

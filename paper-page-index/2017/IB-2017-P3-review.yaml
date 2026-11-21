@@ -1,0 +1,281 @@
+paper_id: IB/2017/P3
+id: IB/2017/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2017-06-08'
+printed_date: Thursday, 8 June, 2017
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2017/P3.pdf
+archive: private/raw/tripos/IB/2017/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2017/paperib_3_1.pdf
+sha256: a8a77c6cfb0ee8afbea9d39ed60bd51c5741ca94b11d2f37dd70f9b1eb4185b8
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2017/P3/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: f6842034d3ae6c2af3627a913a633bdce2b490a08abc776422be93f633fea812
+  checks: The maps from the free modules, onto and non-isomorphism conditions were checked.
+- id: IB/2017/P3/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 1d3f71d4d749a7096448072d301e73566d2491f3d77aac08f91f964c05fe73b2
+  checks: All three spaces, the singleton adjoined to the graph and the final noncomplete metric request were
+    matched.
+- id: IB/2017/P3/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: e8d28b3582533f7ab59b4d30147f26dde9423b2d0e36fb60f8217edd3ec991d5
+  checks: Both projections and the closed-diagonal characterization were checked.
+- id: IB/2017/P3/q4A
+  original_question: 4A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 6e63df6648b215567f73da77282c6e673da2d74e60aecc769ee96906d95fbd33
+  checks: Equation signs, initial derivative and every coefficient of the proposed solution were checked.
+- id: IB/2017/P3/q5G
+  original_question: 5G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 8dd3e00c94dfe70f0e775a7f5eeed93423573427b83894f0223c35b45b23aeec
+  checks: The sign of the stereographic denominator, group names and allowed generation theorem were checked.
+- id: IB/2017/P3/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: e16aae2f0ee4f1d0c8ebea2ebd19bd883535bbbb6609803b1718df6f7a5c8458
+  checks: The crisp boundary, two cost rates and the cylinder and hemisphere geometry were checked.
+- id: IB/2017/P3/q7A
+  original_question: 7A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 6b60a8b55de049841266e8ef03deb2c96e67f5164c79606fe4589f8048f43b07
+  checks: Both Gaussian exponents, the middle derivative and the boundary variable were checked.
+- id: IB/2017/P3/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: d088cea307eedb4634743cbd5614c7f6abc0c45afdab510a4f89d90b9c3f727f
+  checks: The two halves, initial normalization and strict energy threshold were checked.
+- id: IB/2017/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 7969bd17fbc7db0732c9aa0ab8593ecf278c8cfa77a0e6c62c3987a4198f93d8
+  checks: Finite connected graph and the initial distribution for reversibility were matched.
+- id: IB/2017/P3/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e8081e0f1fbab50a34d5e33c234683cf5b7710edf762b53e6de2a95ae454109d
+  checks: The real field, rank and signature, and the indefinite polynomial with a missing third variable were
+    checked.
+- id: IB/2017/P3/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: a7a635bc6b549f0fe1ba9f7105fba6e70de81d2c435d3978e1a884c820a68512
+  checks: The positive-degree monic polynomial and the nonzero prime ideal in the Gaussian subring were matched.
+- id: IB/2017/P3/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 127e79385b455ba8332999a4b458a17c8049dc3ed26334a20a23f441d56fa28f
+  checks: The iterate condition, nonempty complete space and exact function on the closed half-line were matched.
+- id: IB/2017/P3/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 4b8cc0096b8a8b62fbacffc277a72dfd044682bdbbfd5c0037e95912bd440c98
+  checks: Taylor indices, the circle supremum, Cauchy estimate and equality question for fixed n and r were
+    checked.
+- id: IB/2017/P3/q14G
+  original_question: 14G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 8e67f46d93189ef76367e77ccd08b608b0b2b88bb88522aa4e2c500d2c88788a
+  checks: The printed surface name and parametrisation, and the derivative positions in the scalar triple product,
+    were checked.
+  printed_ambiguity: The printed surface name is hyperboloid, although the parametrisation describes a hyperbolic
+    paraboloid.
+- id: IB/2017/P3/q15A
+  original_question: 15A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 5cc2c747921a9ef6426cb5f21743f19cd4a274a236f818f688d7dd2949845cee
+  checks: The third-order operator, Green function initial values, forcing and separate nonhomogeneous conditions
+    were checked.
+- id: IB/2017/P3/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 53d56a5a8e61143ff22e28634332a783f6b7692f6b0f5ca3c4559e6d7b67f88d
+  checks: Operator hats, the two uncertainty observables, coefficients of the wavefunction and final measurement
+    were checked.
+- id: IB/2017/P3/q17C
+  original_question: 17C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: b13d7c61665e031fb02eb4b0a8cd1f35bbd1b918d1266d4c20f9e9bd546e354b
+  checks: The signs and different magnitudes, enclosed charge, image location and force requested were matched.
+- id: IB/2017/P3/q18D
+  original_question: 18D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 57cac82de22ebae5e2c54ee40c902b1e66276d234e2e9de3001ebff1c4f66f43
+  checks: Both plate positions, independence of radial velocity from z, initial angular velocity and thickness
+    were checked.
+  printed_ambiguity: Axisymmetry and mass conservation do not fix an azimuthal swirl component in the first
+    flow-field request.
+- id: IB/2017/P3/q19C
+  original_question: 19C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 5b05eff81f58970c98b5cad03322105b246e9fc84cdb2ebb6b6c9606417e02a3
+  checks: Integration weight, the node-exclusion product, both exactness degrees and the Peano-kernel instruction
+    were checked.
+- id: IB/2017/P3/q20H
+  original_question: 20H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 7e148a0c9b92b0cc4a497a90a2886c1cd36c60e7c86334a7b788a376132d5e4e
+  checks: The two variance assumptions, full-rank design, comparison of variances and joint distribution request
+    were matched.
+- id: IB/2017/P3/q21H
+  original_question: 21H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 6b6007d04ce0d341d12f6ea153370f636bfa9bb1eb127da28bb8342c5e35afac
+  checks: Antisymmetry, the two opposite payment rules, tie case and n-specific requests were verified.

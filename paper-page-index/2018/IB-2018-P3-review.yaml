@@ -1,0 +1,275 @@
+paper_id: IB/2018/P3
+id: IB/2018/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2018-06-07'
+printed_date: Thursday, 7 June, 2018
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2018/P3.pdf
+archive: private/raw/tripos/IB/2018/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2018/paperib_3_2018.pdf
+sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2018/P3/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: a74f4a1f15850befd7492c3ec5b4aa6f1210cfb66b014cfece6aa7bf545f082c
+  checks: Checked the two occurrences of 9, the sign inside the square root and the two requests.
+- id: IB/2018/P3/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: ab5958aebb16c472988bd8d319457bc271812adc61b863f5249d70fae313dff7
+  checks: Checked the componentwise integral, the norms bearing subscript 2, the equality for every norm, and
+    the hint.
+- id: IB/2018/P3/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 30e34bc42af21a6b5804e4a822d8f3dcb8c44cf003cdbf87f8d9528878fa225b
+  checks: Checked the original course heading, the containment direction and the partition statement.
+- id: IB/2018/P3/q4A
+  original_question: 4A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 13cf87138b64806e524cfa60f61cee012c90933921cc328e6ed5cae9ed102406
+  checks: Checked the branch-cut endpoints, phase factor, absolute values and the subscripted zero limits.
+- id: IB/2018/P3/q5G
+  original_question: 5G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: e0403a266e635bbcc126187c1871f618b49368593aa84e73defbad037996c3f7
+  checks: Checked all three angles, the compared sides, and conjugation on the second point in the distance
+    formula.
+- id: IB/2018/P3/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: b115bb3855c89c3993045fa398ebc060b619124e06c0c6c0a4e14f6358c2b0dd
+  checks: Checked polar-coordinate derivatives, the two conserved quantities and both powers of sine.
+- id: IB/2018/P3/q7A
+  original_question: 7A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: a6d3b944c4e32368b9327f995ee44bee1c732d69247f1fcf19515551034799ae
+  checks: Checked signs in both differential operators, forcing terms and endpoint conditions.
+- id: IB/2018/P3/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 8abcdbe5b8a9ba291ba2680e58782c58d3de16c9f0359edcc5f2bbd61c774161
+  checks: Checked the hats, brackets and derivatives in both expectation statements.
+- id: IB/2018/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 58aa456323bc719ec3685150be282db663cf4244fa335a5c8e379abfc1d91764
+  checks: Checked the three transitions, the order of the five states and the open probability interval.
+- id: IB/2018/P3/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 35c75566eff1b0e93a58b8594a94a08f099172b64980a8b077dbcf7aab8bf2ef
+  checks: Checked all matrix entries and signs, power 1000 and the requested entry.
+- id: IB/2018/P3/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: eb2c7941bf7b87b637f77a0431e3fc3dcafe2cfcc5487acb0f939b14c1c57a53
+  checks: Checked the two named results, coefficients of the cubic and the ground field.
+- id: IB/2018/P3/q12F
+  original_question: 12F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a16ce15057f685eec22b4ef423c7c298a52298830482e4eaae2b7ff98394c084
+  checks: Checked the two translated sequences, the powers, the quantifier order and the limiting inequalities.
+- id: IB/2018/P3/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 625ebf5018db654c13fe025d088424246757cdf610e09bd9587ac152cceafb4d
+  checks: Checked the open unit disk, excluded ray, radius one half and the alternative zero-free hypothesis.
+- id: IB/2018/P3/q14G
+  original_question: 14G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 8b7e731c00f8340f40bd83640262b005c494c54f15a2364d01c1e6b3d41bb245
+  checks: Checked both parameter curves and the variable in each partial derivative.
+- id: IB/2018/P3/q15A
+  original_question: 15A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: c48350ee25fe890a1cf05d1f1ec7d21128210ede62853c0e5ab48b73e32147af
+  checks: Checked all six subparts, the Gaussian and cosine limits, and both integral values in the hint.
+- id: IB/2018/P3/q16B
+  original_question: 16B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 254c2dff9cb3c38a17c02a698df0b924c248c32fb296ba4feeb9766b336e5ffc
+  checks: Checked all expectation brackets, powers, commutator order and the lower energy bound.
+- id: IB/2018/P3/q17C
+  original_question: 17C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: d877c0719806ecda5d82986d4f1a862ae83710a74b659475272755107c611181
+  checks: Checked each energy and flux integral, normal orientation and the exponential charge decay.
+- id: IB/2018/P3/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 5ac9a6bff4cdeac9938e894aea2c62e4c24dd4746bdc680180335f95ebb7c8bf
+  checks: Checked the pressure difference, the powers in the bubble equation and all factors in the collapse
+    time.
+- id: IB/2018/P3/q19D
+  original_question: 19D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 0433db39e570486f5ce6534e94e2f1c50280ab5fef6cef18438fb5f6a1c6b869
+  checks: Checked the dagger equation and reference, the positive part in the kernel, and the midpoint test
+    polynomial.
+- id: IB/2018/P3/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 84d4bf08acb55bfb944df685b1ff9a206a9426d628f7496d9e8d86a838498ec6
+  checks: Checked treatment/recovery row and column orientation, all four factors of the denominator and the
+    numerical example.
+  figures:
+  - recovery-table
+- id: IB/2018/P3/q21H
+  original_question: 21H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: be7306c936dbbdfd8e2f05fb20cb1a7336997977890f010c5914727c2cd16553
+  checks: Checked both allocations and sales fractions, the order of subtraction, and the two strategy questions.
