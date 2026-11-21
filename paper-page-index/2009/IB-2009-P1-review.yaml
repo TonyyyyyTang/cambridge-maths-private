@@ -1,0 +1,282 @@
+paper_id: IB/2009/P1
+id: IB/2009/P1
+main_count: 19
+unit_count: 19
+main_question_count: 19
+question_units: 19
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 8
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2009-06-02'
+printed_date: Tuesday, 2 June, 2009
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2009/P1.pdf
+archive: private/raw/tripos/IB/2009/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2009/PaperIB_1.pdf
+sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2009/P1/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 656fac64690d19a8ce44ebbfbc07c3ff933952efc3eba553c4e7364641408884
+  checks: Both direct sums and the non-zero endomorphism condition checked.
+  source_page_render_sha256: e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+- id: IB/2009/P1/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b0f11a3fbec4c8ab0f1761cdabfcb53bb4af41daef221dde4bdc69e82ae8a251
+  checks: The disk uses radius rho, the final circle radius 2.
+  source_page_render_sha256: e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+- id: IB/2009/P1/q3D
+  original_question: 3D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 322988ac83ba6588dc30483d447cd12e9153f60c006242584ed8303d5fb5809e
+  checks: The exponent is negative and the trigonometric factor is cosine.
+  source_page_render_sha256: e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+- id: IB/2009/P1/q4C
+  original_question: 4C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: 34b94da681ce77eb990ba35d424e91e833284d1e8fc843b4336fc0205719ef82
+  checks: The four-vector components carry lower indices; the remnant momentum is bold.
+  source_page_render_sha256: 9abe1e9ad6e852b4ee7da2f3fb691895a36676753404719abbc46d51a66b9522
+- id: IB/2009/P1/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: aa12514459519ec89b01ae47c600bade43bf63362bff7e83e5f8515efc8100fb
+  checks: The curl, sign of the diffusion term and bracketed component identities were checked individually.
+  source_page_render_sha256: 9abe1e9ad6e852b4ee7da2f3fb691895a36676753404719abbc46d51a66b9522
+- id: IB/2009/P1/q6C
+  original_question: 6C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 153830b820b9e95c69f4c63db864e71083e9b705f4b2be2823ecade3dc79632f
+  checks: All nine matrix entries and the sign of the Jacobi iteration matrix were checked.
+  source_page_render_sha256: 15b395ef77e3ba40c6043a8417397c864c17128267a42518b22b9fc18d2c2745
+- id: IB/2009/P1/q7H
+  original_question: 7H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 3d2a5188e5c12604c5440f97cf47ca30a52461012c1f2eb93efb33b9f3fa3093
+  checks: Model dimensions, normal variance and the unbiasedness request checked.
+  source_page_render_sha256: c93953f18fbabe3cb710fa2dfb8f419783a285140d4fa8cd9bbada449ba78558
+- id: IB/2009/P1/q8H
+  original_question: 8H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 0956e264b8e599680d5d6b2c5f403b03c1bfea0143a29e385712cd22e29df53e
+  checks: Maximand and the three constraint directions checked.
+  source_page_render_sha256: c93953f18fbabe3cb710fa2dfb8f419783a285140d4fa8cd9bbada449ba78558
+- id: IB/2009/P1/q9G
+  original_question: 9G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 07998d8579ef82028a77a712f9b71cbfb17d1c0ee3b620f7dd10ef5df2795b6c
+  checks: Both index sets begin at zero; the derivative is evaluated at zero.
+  source_page_render_sha256: 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+- id: IB/2009/P1/q10F
+  original_question: 10F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 0f7d7774bffdd4c44a0f343f85730b7ca8d5809b33fd870bb49ed942b8135ff7
+  checks: The ring, additive index two and bracketed proof allowance checked.
+  source_page_render_sha256: 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+- id: IB/2009/P1/q11E
+  original_question: 11E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: b06cc9b200c180eccc6a2bc039d7995137e7540b42b324e7c67c3c7e1465064f
+  checks: The last paragraph literally gives denominator 2 to the minus n.
+  printed_ambiguity: The final paragraph prints denominator 2 to the power minus n. Compare the intended dyadic
+    scale when solving.
+  source_page_render_sha256: 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+- id: IB/2009/P1/q12F
+  original_question: 12F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses:
+  - IB/analysis-ii
+  question_sha256: 6b817771927c815e62b1e47f2500cf6b6d97d90e50d4a907d6d573f21cbb3df0
+  checks: The compactness assumption belongs to Y, and the final example is real to real.
+  source_page_render_sha256: 8b726476475534b99d3fa6df6df06cacc8e44846b5bda879391e42a43d68662d
+- id: IB/2009/P1/q13D
+  original_question: 13D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 7d0766ad791f02725b0b733bb2cb6db9abd3e864ae21121e5d2dc43577764f3f
+  checks: Line of inversion, branch exponent, both time regimes and gamma integral checked.
+  source_page_render_sha256: 8b726476475534b99d3fa6df6df06cacc8e44846b5bda879391e42a43d68662d
+- id: IB/2009/P1/q14B
+  original_question: 14B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Mathematical Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: d9be5676695be3773d458989c72506d295bccada06528b9e080ed1fa4959b296
+  checks: The mixed degree-three basis and both quadrature weights checked against the image.
+  source_page_render_sha256: 1091fe23ae47cf2eec2d9ded99a39ec2439291fcca15903d7d7dd949864c7170
+- id: IB/2009/P1/q15B
+  original_question: 15B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 44ba5e6262a363a928cc99235079aa1b500abeb4bf14b1e7ed6bb0a4a1e91dc2
+  checks: Parity appears in superscripts. The two sine signs, derivative jump and high-energy limit were checked.
+  source_page_render_sha256: ef9c138810ebc9fbf3ec38aa6a89c4fd8037599e46079f630880e9317aa9a37d
+- id: IB/2009/P1/q16A
+  original_question: 16A
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 1a525ea664471a33cccdef656330c075a50b9a765a282bf535f79d76c31b3711
+  checks: Image charge, both coordinates and the release condition checked.
+  source_page_render_sha256: 3d58e6f4ba9c39ebdb0927feec35d30768178c5aaabab2430b755691d7aa3009
+- id: IB/2009/P1/q17D
+  original_question: 17D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: db72e8921a54f217b5f114bddcb1ce72b655d226008f4ed1626fee857dc22438
+  checks: Three cases, the squared velocity in F and the fractional power in the critical height checked.
+  source_page_render_sha256: 3d58e6f4ba9c39ebdb0927feec35d30768178c5aaabab2430b755691d7aa3009
+- id: IB/2009/P1/q18H
+  original_question: 18H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: d61779e62db60b1e6225b5105a1b060644abcc17d18b3c69aa41be2056231b9f
+  checks: Point alternative, final composite null and power monotonicity checked.
+  source_page_render_sha256: 3dc837735355c7212e50cd7096928b9fdb80d71ea36b0d83222537e36c5c1069
+- id: IB/2009/P1/q19H
+  original_question: 19H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 90bded8192b2868fc4f8f3eacd8ae4a36a69b13c416c72bbcb0363c929d35811
+  checks: The nine-node diagram includes the labelled outer node 0 and central node 1. Both movement rules
+    checked.
+  figures:
+  - gerbil-maze
+  source_page_render_sha256: 56d5b531b08f9800f5e94f5cc314324c3e7c66d3527c5a9da764da9713b86f92
+  figure_png_sha256:
+    gerbil-maze: 39b2b80a18d09119accfaccf8684cad5362f3d36ce68f32331f9b685e685a27c
+  plot_sha256: 022aafba60c42a385782973eeb5d6f3cbfe6258377bd5ea07d9fb66a4d56d494
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 4bd2826700dfc02cf0873c7786cadf3ae00f29042d506809e63532f54d24b17f

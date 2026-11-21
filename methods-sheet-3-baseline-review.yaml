@@ -1,0 +1,194 @@
+sheet_id: IB/methods/sheet-3
+edition: 2025-26
+term: Michaelmas 2025
+lecturer: Prof. A.C.L. Ashton
+archive: private/raw/sheets/IB/methods/2025-26/sheet-3.pdf
+url: https://web.archive.org/web/20251125092819id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+page_count: 2
+question_count: 12
+printed_labels:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+diagrams: []
+reviewer: Codex source-transcription reviewer, 2026-11-21
+verification_method: Compared the complete text, formulas, numbered identities, exercise references, conditions
+  and punctuation with both archived pages rendered at 160 dpi.
+before_question:
+  q11:
+    heading: Additional problems
+    restarts_numbering: false
+    wording_tex: \emph{These questions should \textbf{not} be attempted at the expense of earlier ones.}
+questions:
+- id: q01
+  question_id: IB/methods/sheet-3/q01
+  original_question: '1'
+  printed_label: '1.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: 3a78dc6d6eca11c5c5a089491c7f25feae464b1c84980b2ff0815796f1bece69
+  checks: Checked all sequence conditions, the limits of integration, the shift sign and both minus signs in (ii)
+    and (iii), and the unintegrated difference quotient at the end.
+  source_page_render_sha256: aca573d1d9fdefaa2a74b9ff7787a5a8cd585868a6948dc92a3ac54babadfd5f
+  printed_subparts:
+  - (i)
+  - (ii)
+  - (iii)
+- id: q02
+  question_id: IB/methods/sheet-3/q02
+  original_question: '2'
+  printed_label: '2.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+  checks: Preserved the printed wording “be a monotone increasing”, the absolute values in both denominators, and
+    the identities for general simple zeros, scaling and the quadratic argument.
+  source_page_render_sha256: aca573d1d9fdefaa2a74b9ff7787a5a8cd585868a6948dc92a3ac54babadfd5f
+- id: q03
+  question_id: IB/methods/sheet-3/q03
+  original_question: '3'
+  printed_label: '3.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+  checks: Checked the printed wording “to boundary value problem”, the minus sign before twice the first derivative,
+    plus sign before y, open interval and two zero endpoint data.
+  source_page_render_sha256: aca573d1d9fdefaa2a74b9ff7787a5a8cd585868a6948dc92a3ac54babadfd5f
+- id: q04
+  question_id: IB/methods/sheet-3/q04
+  original_question: '4'
+  printed_label: '4.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+  checks: Checked the sign of the operator, both Green function boundary values, each hyperbolic sine, variable
+    and integration limit, the limiting question, imaginary exceptional parameter and the italic hint.
+  source_page_render_sha256: aca573d1d9fdefaa2a74b9ff7787a5a8cd585868a6948dc92a3ac54babadfd5f
+- id: q05
+  question_id: IB/methods/sheet-3/q05
+  original_question: '5'
+  printed_label: '5.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: fb8c7aea11895e171e4cd68ed73d810ba7ea7fd673377ddbb8f414e3d22924af
+  checks: Retained y(0) and dotted y(0) as printed under the theta differential equation; verified the coefficients,
+    signs, inequalities, integral kernel and Fourier-transform request.
+  source_page_render_sha256: aca573d1d9fdefaa2a74b9ff7787a5a8cd585868a6948dc92a3ac54babadfd5f
+- id: q06
+  question_id: IB/methods/sheet-3/q06
+  original_question: '6'
+  printed_label: '6.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+  checks: Checked open and closed inequalities defining the cutoff, and the order and arguments of all four functions.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+  printed_subparts:
+  - (i)
+  - (ii)
+  - (iii)
+  - (iv)
+- id: q07
+  question_id: IB/methods/sheet-3/q07
+  original_question: '7'
+  printed_label: '7.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 500cf72b597d7198a76ac9d5bed258fe84c56d1a98b9464213145fc48c208923
+  checks: Checked the four unrestricted Fourier transforms in order and the exact words referring to question 6.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+  printed_subparts:
+  - (i)
+  - (ii)
+  - (iii)
+  - (iv)
+  printed_references:
+  - text: the previous question
+    target: q06
+    same_sheet: true
+- id: q08
+  question_id: IB/methods/sheet-3/q08
+  original_question: '8'
+  printed_label: '8.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+  checks: Checked the capital X with subscript n, sequence endpoints, reciprocal N squared, sum bounds, squared
+    sine of pi k over N, and limiting one-third.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+- id: q09
+  question_id: IB/methods/sheet-3/q09
+  original_question: '9'
+  printed_label: '9.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 1d27b9426f5a5ba8455e1f6e2c2c1b0c437decbc948367b0e5d89088a68202b4
+  checks: Checked the strict interior and inclusive exterior inequalities, derivative request, integration range
+    and equal integrals, including the second factor t squared and final pi squared over eight.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+- id: q10
+  question_id: IB/methods/sheet-3/q10
+  original_question: '10'
+  printed_label: '10.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 9c4be558ca10d5cd88de7a34a74e5f42ff8fceee5ccf00927d2a446820458dcc
+  checks: Checked both one-half terms, square-root prefactors, two negative exponents, alpha beta equal to two pi
+    and all constants of the deduced Gaussian sum.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+- id: q11
+  question_id: IB/methods/sheet-3/q11
+  original_question: '11'
+  printed_label: '11.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 1a2f06ad7b67f773a05aac54c21b24c0a0910449a019af5bc2d02f3bad63d375
+  checks: Checked which delta is differentiated, both integrals over the real line, the order of variables, right-hand
+    minus sign and both requested methods, including the printed link to question 2.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+  printed_subparts:
+  - (a)
+  - (b)
+  printed_references:
+  - text: question 2
+    target: q02
+    same_sheet: true
+- id: q12
+  question_id: IB/methods/sheet-3/q12
+  original_question: '12'
+  printed_label: '12.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+  checks: Checked the n-th derivative, all homogeneous initial data through order n minus one and the printed final
+    phrase “for a n-times continuously differentiable functions”.
+  source_page_render_sha256: 9e9b48dfddbacde075d37c1f3e9e2fc9d769dcb47a2af4f0f7ba7ad011282f88
+verification:
+  restricted_fragments: 12
+  compiled_question_pages: 12
+  compiled_page_images_compared: 12
+  distinct_pinned_katex_expressions: 57
+  katex_failures: 0
+signed_off_by: Codex source-transcription reviewer, 2026-11-21

@@ -1,0 +1,334 @@
+scope: IB Methods sheet 3, Michaelmas 2025 baseline only. Whole-course and historical
+  editions are outside this sample.
+method:
+  seed: 20261215
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  sample:
+  - q06
+  - q02
+  - q08
+  sampling: Python random.Random(seed).sample(sorted(population), ceil(0.2 * 12)).
+  blind_input: Only exact question text and original file, physical page and question
+    locators. The auditor inspected the original rendered pages after fetching the
+    archive and froze every rework before comparison.
+  manifest_sha256: d66105a8381b35feff9d0a226f93d3ea2fa6849cf0f1c4a09843baa42aeb4552
+  manifest_text: '6465f8bad992cc52a031b5da129af3d55e9830b6224a024abd7f26f6753c8c9e  q02.md
+
+    ac3c84c3429a8378cfaba06ca41d2e0887c5a417f53d9dff78a09f2dedaf8c7b  q06.md
+
+    e2b3f703c6b9ae4f09b9484a5fd78f23cad77feb45bc84d1d9db4721f308dd81  q08.md
+
+    '
+observed:
+  population: 12
+  sample: 3
+  substantive_errors: 0
+  transcription_errors: 0
+  executable_check_failures: 0
+  observed_error_rate: 0/3
+  pdf_pages_visually_checked: 6
+  browser_captures_visually_checked: 6
+  rendered_math_instances: 156
+  browser_parse_errors: 0
+frozen_blind_rework:
+  q02:
+    sha256: 6465f8bad992cc52a031b5da129af3d55e9830b6224a024abd7f26f6753c8c9e
+    text: '# Methods example sheet 3, question 2 — blind audit
+
+
+      ## Printed statement
+
+
+      I compared the supplied statement (SHA256 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b)
+      with the rendered physical page 1, printed question 2, of the Michaelmas 2025
+      Methods sheet 3. Original PDF SHA256 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181.
+      Both displays, the derivative condition, interval, absolute values and all prose
+      match. The unusual phrase “be a monotone increasing” is printed. No marks or
+      extra subparts appear. No transcription correction.
+
+
+      ## Independent derivation
+
+
+      Let $f$ be a smooth test function and let $d=\phi''(c)\ne0$. Take a bounded
+      continuous nonnegative approximate identity $\rho_\varepsilon(u)=\varepsilon^{-1}\rho(u/\varepsilon)$
+      with $\rho$ supported in $[-1,1]$ and $\int\rho=1$. Near $c$, differentiability
+      gives $|\phi(x)|\ge |d||x-c|/2$. For a monotone function with a simple interior
+      zero, its values on either side of a fixed neighborhood stay separated from
+      zero, since the function already has opposite strict signs at the two edges.
+      For small $\varepsilon$ the integrand $f(x)\rho_\varepsilon(\phi(x))$ therefore
+      vanishes outside $|x-c|\le2\varepsilon/|d|$.
+
+
+      Putting $x=c+\varepsilon v$ leaves an integral of $f(c+\varepsilon v)\rho(\phi(c+\varepsilon
+      v)/\varepsilon)$ on the fixed interval $|v|\le2/|d|$. Boundedness there gives
+      dominated convergence and $\phi(c+\varepsilon v)/\varepsilon\to dv$. The limit
+      is $f(c)\int\rho(dv)\,dv=f(c)/|d|$, where the argument $dv$ inside $\rho$ denotes
+      the product of $d$ and $v$. This covers either sign of $d$.
+
+
+      For a continuous general $\phi$ differentiable at all its zeros with nonzero
+      derivative, localize to disjoint neighborhoods of the zeros in the support of
+      the test. There are finitely many on a compact support inside the interval,
+      since an accumulation point would be a zero by continuity and would fail to
+      be isolated. The function is bounded away from zero on the compact remainder.
+      Adding the limits gives $\delta(\phi(x))=\sum_{r:\phi(r)=0}\delta(x-r)/|\phi''(r)|$
+      as a distribution on the open interval. The compact-support argument gives a
+      locally finite sum on an unbounded interval too. An endpoint zero requires separately
+      specifying the convention for integration against a boundary delta.
+
+
+      With $\phi(t)=at$, $a\ne0$, the sole mass has weight $1/|a|$. With fixed $y\ne0$
+      and $\phi(x)=x^2-y^2$, the masses at $x=y,-y$ each have weight $1/(2|y|)$. At
+      $y=0$ the root is double and the displayed rule is undefined. A positive regularization
+      near $x=0$ then has integrated mass of order $\varepsilon^{-1/2}$, confirming
+      the failure.
+
+
+      ## Numerical cross-check
+
+
+      On $[-1.5,1.5]$ use $f(x)=1+x^2$, $\phi(x)=x^2-1$ and $\rho(t)=3(1-t^2)/4$ on
+      $[-1,1]$, zero outside. The two roots predict total mass 2. Midpoint quadrature
+      with 50,000 equal panels gave 2.00032047, 2.00008123, 2.00001436 at $\varepsilon=0.08,0.04,0.02$.
+      All work used only the supplied statement and the original pages.
+
+      '
+  q06:
+    sha256: ac3c84c3429a8378cfaba06ca41d2e0887c5a417f53d9dff78a09f2dedaf8c7b
+    text: '# Methods example sheet 3, question 6 — blind audit
+
+
+      ## Printed statement
+
+
+      The supplied statement (SHA256 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5)
+      matches the rendered physical page 2, printed question 6, of the Michaelmas
+      2025 sheet 3. Original PDF SHA256 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181.
+      I compared the strict and weak inequalities, all four ordered labels, functions,
+      exponent, words and punctuation. No marks or extra subparts appear. No transcription
+      correction.
+
+
+      ## Independent derivation
+
+
+      Adopt $\widehat f(k)=\int_{\mathbb R}f(x)e^{-ikx}\,dx$ and $c>0$. Evaluate the
+      integral of the bare window by its exponential antiderivative, obtaining
+
+      $$H(u)=\int_{-c}^c e^{-iux}\,dx=2\sin(cu)/u\quad (u\ne0), \qquad H(0)=2c.$$
+
+      The value at zero follows directly from the integral and by continuity. Multiplication
+      by $e^{iax}$ changes $k$ to $k-a$. Euler''s exponential expressions for sine
+      and cosine combine the two shifts with their respective signs. The four answers,
+      in order, are
+
+      $$H(k),\qquad H(k-a),\qquad \frac{H(k-a)-H(k+a)}{2i},\qquad \frac{H(k-a)+H(k+a)}2.$$
+
+
+      These formulas with $H(0)=2c$ include $k=0$ and both $k=\pm a$. In particular
+      the sine transform vanishes at $k=0$ while the cosine transform there equals
+      $H(a)$. With $a=0$, parts (ii) and (iv) reduce to (i), and (iii) is zero. For
+      real $a$ the sine transform is odd and purely imaginary, and the cosine transform
+      even and real. Endpoint values at $x=\pm c$ have zero contribution to Lebesgue
+      integration. If $c=0$ all integrals vanish, and if $c<0$ the printed support
+      condition forces the zero function everywhere.
+
+
+      ## Numerical cross-check
+
+
+      Direct 50,000-panel midpoint quadrature at $c=1.4$, $a=0.8$, $k=-0.8,0,0.8,1.12$
+      for all four functions gave maximum absolute discrepancy $3.28\times10^{-10}$
+      from the four formulas. All work used only the supplied statement and the original
+      pages.
+
+      '
+  q08:
+    sha256: e2b3f703c6b9ae4f09b9484a5fd78f23cad77feb45bc84d1d9db4721f308dd81
+    text: '# Methods example sheet 3, question 8 — blind audit
+
+
+      ## Printed statement
+
+
+      I compared the supplied statement (SHA256 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85)
+      with the rendered physical page 2, printed question 8, of the Michaelmas 2025
+      sheet 3. Original PDF SHA256 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181.
+      All words, sequence indices, endpoints, the denominator, the external $1/N^2$
+      and the limit agree. No marks or further subparts appear. No transcription correction.
+
+
+      ## Independent derivation
+
+
+      Take a positive integer $N$ and the unnormalized forward DFT $F_k=\sum_{n=0}^{N-1}n\exp(-2\pi
+      i n k/N)$, $0\le k<N$. Then $F_0=N(N-1)/2$. For $k\ne0$, put $z=\exp(-2\pi i
+      k/N)$. Subtract $zF_k$ from $F_k$: the internal coefficients telescope and $z^N=1$,
+      so
+
+      $$(1-z)F_k=\sum_{n=1}^{N-1}z^n-(N-1)=-N.$$
+
+      Here $\sum_{n=0}^{N-1}z^n=0$ as $z\ne1$. Thus $F_k=-N/(1-z)$ and $|F_k|^2=N^2/[4\sin^2(\pi
+      k/N)]$.
+
+
+      The finite orthogonality identity $\sum_{k=0}^{N-1}\exp(-2\pi i k(n-m)/N)=N\mathbf1_{n=m}$
+      on these indices gives $\sum_k|F_k|^2=N\sum_n n^2$. Removing the zero-mode square
+      gives
+
+      $$\frac{N^2}{4}\sum_{k=1}^{N-1}\frac{1}{\sin^2(\pi k/N)}
+
+      =\frac{N^2(N-1)(2N-1)}{6}-\frac{N^2(N-1)^2}{4}
+
+      =\frac{N^2(N^2-1)}{12}.$$
+
+      The unscaled sum is $(N^2-1)/3$. Dividing by $N^2$ gives $(1-N^{-2})/3\to1/3$.
+      The empty sum at $N=1$ satisfies the finite formula. The excluded $k=0$ term
+      has been handled separately throughout.
+
+
+      ## Numerical cross-check
+
+
+      For $N=2,3,4,7,12,23$, direct summation over the DFT and the reciprocal squared
+      sines gave maximum absolute discrepancies $1.24\times10^{-12}$ for the complex
+      transform and $3.98\times10^{-13}$ for the finite identity. All work used only
+      the supplied statement and the original pages.
+
+      '
+unit_evidence:
+  q06:
+    question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+    source_pages:
+    - 2
+    original_pdf_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    comparison: The independent transforms agree in sign and normalization for all
+      four windows, also at both shifted zero frequencies. The independent quadrature
+      tests regular and resonant frequencies.
+    source_hashes:
+      question.tex: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+      solution.tex: f928b6c06154d1fc8898927f147c504aaff7f4bca925442c1c8930985feae8ca
+    script_sha256: 27f258547f4fadaa8f255b46927857017e25e5548cb15be271ce5d4836521b29
+    exit: 0
+    stdout: Four window transforms agree with direct quadrature at regular and shifted
+      zeros.
+  q02:
+    question_sha256: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+    source_pages:
+    - 1
+    original_pdf_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    comparison: The independent audit also obtains the inverse absolute Jacobian from
+      a localized mollifier under differentiability at the simple zero. All weights
+      and endpoint and double-root qualifications agree.
+    source_hashes:
+      question.tex: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+      solution.tex: 8ba1711e041a6575acf49d91ee2e64ac282c18280eefec08df59eb60068c4f14
+    script_sha256: 9d28f281e1998944fb807851f7bbd30522a9ad6be9790a66c0373cb746a9af1f
+    exit: 0
+    stdout: Three change-of-variable identities checked with a narrow Gaussian delta.
+  q08:
+    question_sha256: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+    source_pages:
+    - 2
+    original_pdf_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    comparison: The blind proof telescopes the finite transform directly, recovering
+      the same nonzero and constant modes. Parseval gives the same finite cosecant
+      sum and normalized limit, including the empty sum at N=1.
+    source_hashes:
+      question.tex: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+      solution.tex: da42ce18210be5627ee4162c4fd346bb3192358b649bf4eeb361e77266001c84
+    script_sha256: f7e3b9728c8037caa599e709c837a92a3ac657c63ed22ce5eb86c8e7b2968d84
+    exit: 0
+    stdout: Complex DFT phases, zero coefficient and exact finite sums verified.
+rendering:
+  canonical-q06:
+    pdf_path: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: 805c128fbc14cd8ce28f04eb150e143551355c463e96eb767f5d3f4cbd64751a
+    pages:
+    - 7
+    page_render_sha256:
+    - 1ebefd26a046b2e8dbc9d795303ff12f0f3c49408c77dc74ab3d6fd9beae3422
+    html: site/private/questions/IB/methods/sheet-3/q06/index.html
+    html_sha256: 2b57044153a3f042977104b81b62c729f95f45a991474eece32c74d121d11339
+    screenshot_sha256: 6e55e843e8a9d646609c1dc92cc4bf6d94da6b3463b15234252c9265dd126d42
+    rendered_math: 15
+    viewport: 1220
+    errors: 0
+  dated-q06:
+    pdf_path: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: 7041d3212927a1248418ef8da1b56234edb97a046b46e3b25bc22c735591ea3e
+    pages:
+    - 7
+    page_render_sha256:
+    - 0cedeeb274245b4fe2a0b3d04da7ffa8a1897d51bd869d271c22fa1451545e4b
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 10635b2154450fdbbd1ad38f7e0946f92523f2beebeb799b69821c1286608e5c
+    screenshot_sha256: 70dcf9daa522e97c891898b641c8d11ec798a4028ebb964fbd34632f17498da5
+    rendered_math: 15
+    viewport: 1220
+    errors: 0
+  canonical-q02:
+    pdf_path: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: 805c128fbc14cd8ce28f04eb150e143551355c463e96eb767f5d3f4cbd64751a
+    pages:
+    - 3
+    page_render_sha256:
+    - aa93b4025d24676b63d1752af2cd72fb4b361df1522327f4d86a4dc878ecaf78
+    html: site/private/questions/IB/methods/sheet-3/q02/index.html
+    html_sha256: df8f7e00b13a137e2b1d3689ae9314df0a6099ea3e08e53673d4f6ba4a48e6f9
+    screenshot_sha256: e10ea323c780aecd058bf3f0314bae8e3122043b008879033764f56c62ad8b04
+    rendered_math: 45
+    viewport: 1220
+    errors: 0
+  dated-q02:
+    pdf_path: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: 7041d3212927a1248418ef8da1b56234edb97a046b46e3b25bc22c735591ea3e
+    pages:
+    - 3
+    page_render_sha256:
+    - 4bba75a55ddf319808823c5f55b632827eef30b6919a34ee0c9ff56dfda202d7
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 10635b2154450fdbbd1ad38f7e0946f92523f2beebeb799b69821c1286608e5c
+    screenshot_sha256: e654c31bf9fd264342fe10a7bbfb3838bea4313ead0e6df368b5bc72863e3247
+    rendered_math: 45
+    viewport: 1220
+    errors: 0
+  canonical-q08:
+    pdf_path: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: 805c128fbc14cd8ce28f04eb150e143551355c463e96eb767f5d3f4cbd64751a
+    pages:
+    - 9
+    page_render_sha256:
+    - e1355eead88679076a0691272e342f736327e7c88235e536c4ecdefd8a32ca56
+    html: site/private/questions/IB/methods/sheet-3/q08/index.html
+    html_sha256: 8958d29cfc07106cd5bc667d3dd8832c815ae17e7276628ca5f7372334df0583
+    screenshot_sha256: f80a184a3e4c87d4a271a3d4eadbb30d5421908fe6ce2d677b04221fd93f4701
+    rendered_math: 18
+    viewport: 1220
+    errors: 0
+  dated-q08:
+    pdf_path: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: 7041d3212927a1248418ef8da1b56234edb97a046b46e3b25bc22c735591ea3e
+    pages:
+    - 9
+    page_render_sha256:
+    - 6e130fdfdd9848f3b7b594a083cadac72491d2bb9201e487925d91b2e0e3b202
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 10635b2154450fdbbd1ad38f7e0946f92523f2beebeb799b69821c1286608e5c
+    screenshot_sha256: cdd73c5b8f21ec3f55de7dea4a290a3eb28f8648342eaafbdf5cd0988d222209
+    rendered_math: 18
+    viewport: 1220
+    errors: 0

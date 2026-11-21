@@ -1,0 +1,297 @@
+paper_id: IB/2009/P2
+id: IB/2009/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2009-06-03'
+printed_date: Wednesday, 3 June, 2009
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2009/P2.pdf
+archive: private/raw/tripos/IB/2009/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2009/PaperIB_2.pdf
+sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2009/P2/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 83b79e0e873d65a4d86e438123f20a49893f0e05de3db06636bce04ac7e0d39f
+  checks: Two-variable total degree, both second derivatives and the four trace cases checked.
+  source_page_render_sha256: 249afadab86a4b541294cfaf8543ca2fe5723b9e41742dd8e7539ae5cc5b82b2
+- id: IB/2009/P2/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: d979c09b4f673777e1062722d4f733023e218ce4834ec40d07f6d791a8a90771
+  checks: Group and subgroup orders checked.
+  source_page_render_sha256: 249afadab86a4b541294cfaf8543ca2fe5723b9e41742dd8e7539ae5cc5b82b2
+- id: IB/2009/P2/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: cf357f71c842cc8e7afbe761a258f8583e6af6f4dd6b8409d001154bc152dbf1
+  checks: The suggested contraction is the second iterate.
+  source_page_render_sha256: 249afadab86a4b541294cfaf8543ca2fe5723b9e41742dd8e7539ae5cc5b82b2
+- id: IB/2009/P2/q4F
+  original_question: 4F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: f406f404a44610fb5d50ffd0eff139246d2d7143a4784adda8bafcba29e48ce4
+  checks: Uncountability of X and countability of the complement verified.
+  source_page_render_sha256: 249afadab86a4b541294cfaf8543ca2fe5723b9e41742dd8e7539ae5cc5b82b2
+- id: IB/2009/P2/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Mathematical Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 59ad3ef076b2ea69b01cdb8a154d8e13fa677902a7d68840547781a9b9a41c7c
+  checks: Checked half-range sine versus cosine, the factor eight and the alternating sum.
+  source_page_render_sha256: 89d82d8341da3cb03a1de4d82d9251a89eea363a2663718d73df1b7c6ce181fe
+- id: IB/2009/P2/q6A
+  original_question: 6A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 5d8c1d03052c09f8e96c405c7a5c9cbeeb3543e970e32d1eaaf78ca64c757935
+  checks: The force requested is on the top half due to its bottom half.
+  source_page_render_sha256: 89d82d8341da3cb03a1de4d82d9251a89eea363a2663718d73df1b7c6ce181fe
+- id: IB/2009/P2/q7C
+  original_question: 7C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: c50602ec81f9bc2c6f0a86857027ddf4452b42453663c95ecaaf0f9ceecbd2e5
+  checks: Signs of both exponential identities and all frame primes verified.
+  source_page_render_sha256: e4be3d90664fd89b3d1332fb3d36217f662432ec99037ac3b000017dd7548540
+- id: IB/2009/P2/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: b4cff347bcbbeccc474ddbde910177416ffbaf863320dec0a43eac5d3188cea9
+  checks: Nozzle area ordering and the squared area-ratio factor checked.
+  source_page_render_sha256: e4be3d90664fd89b3d1332fb3d36217f662432ec99037ac3b000017dd7548540
+- id: IB/2009/P2/q9H
+  original_question: 9H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: f99dcbe94ac56a3cc5b2608d514eb53ca276ab07262eaca786b9d5c29c66eb8a
+  checks: All four treatment capacities, the three towns, two-way arrowheads and sea outlets appear in the
+    crop.
+  figures:
+  - sewage-network
+  source_page_render_sha256: 370a377e48989a4914aa6a4dc2a75c8d56b5df7fdaba1b9b700b581421cb5a99
+  figure_png_sha256:
+    sewage-network: c64d73c287b25501958464d01fc8822d0dafd8d14c14c27952a00c6ac300cb65
+  plot_sha256: f884bbadaf566955e406727abbec61a1e46f265eb1c88eb9b7eb57f4a3ae8e77
+- id: IB/2009/P2/q10G
+  original_question: 10G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 11e3fb6091e11211fe158698ec37ad9a3b340b1544dc963c5f17841434eac508
+  checks: Positive exponent, zero determinant, both zero products and both idempotents checked.
+  source_page_render_sha256: baa70cfcebc50c05a2d96f515994944ab6744d260ff5d6d6c28e8609a8e403e4
+- id: IB/2009/P2/q11F
+  original_question: 11F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 30fdd3ee21baf33345667918fdda6aca72d208c18decc2b707105e3a509bb73e
+  checks: The exponent three, the matrix entries and quotient group checked.
+  source_page_render_sha256: baa70cfcebc50c05a2d96f515994944ab6744d260ff5d6d6c28e8609a8e403e4
+- id: IB/2009/P2/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 9574e3f4ac15c89e154c5480dfaa6f1ae7c651cfb94359f3063db353779e3b89
+  checks: Both occurrences of the conjugate on q and both counterexample requests checked.
+  source_page_render_sha256: baa70cfcebc50c05a2d96f515994944ab6744d260ff5d6d6c28e8609a8e403e4
+- id: IB/2009/P2/q13E
+  original_question: 13E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: e6c48dfd45184dfcccf43e62eb7851b5e006558c5caa96ab6849cb22aca19b99
+  checks: The last sentence prints V to the two-point set without an f before V.
+  printed_ambiguity: The final sentence omits the function name before its domain. The original wording is
+    retained.
+  source_page_render_sha256: f593d02d412878c40438b7fc800c6caed8d7039acbd10af6e120b747a47625e8
+- id: IB/2009/P2/q14D
+  original_question: 14D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 655c827d7cb735a1f0169eaf82e7c6967bae282a489f1fde42128f2fb16fd170
+  checks: Both conformal maps and the positive real parameter checked.
+  source_page_render_sha256: f593d02d412878c40438b7fc800c6caed8d7039acbd10af6e120b747a47625e8
+- id: IB/2009/P2/q15B
+  original_question: 15B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Mathematical Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 03fbe2137633a750fd937c9560b938f2ad4548f6721048dc822c7e0af68f5beb
+  checks: Fixed ends, hammer interval and final length ratios checked.
+  source_page_render_sha256: 650181b7428198e66dadac53f86e2a3628be78f674739dba2ce5b7f7c07605fb
+- id: IB/2009/P2/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 8bae7075f40575f73956479227951abccddabf038e6479a6da0e1da861f351d4
+  checks: The well is negative, 3E equals V subscript zero, and the exponent on the transmission bracket is
+    minus one.
+  source_page_render_sha256: 650181b7428198e66dadac53f86e2a3628be78f674739dba2ce5b7f7c07605fb
+- id: IB/2009/P2/q17A
+  original_question: 17A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 2e06ca68d7e4238c79478d2d986cc57f5bb3ce2535d560bca4367e61eb0dc125
+  checks: The printed wave ansatz is purely z-directed, and the derivative combination for B subscript x is
+    retained.
+  printed_ambiguity: The printed vector B ansatz is purely longitudinal, while the next request uses transverse
+    components. Check compatibility when solving.
+  source_page_render_sha256: 33d56e6afe793057bb5959fe0c14e5b0622c94290e1d74d08b64e076cf0803fd
+- id: IB/2009/P2/q18C
+  original_question: 18C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: bc6c8647b4fb7a9b5960de541e36a8834c20bca8b0699e6d8208813ae4a05625
+  checks: Rotation order, target row and all nine matrix entries checked.
+  source_page_render_sha256: 6ab5be8e1815e942b0c499c5bc366f1dd55bf7c767853a0ee3c941fb7363a151
+- id: IB/2009/P2/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 29e45af5f2666e31ab2d5b47c03d0bc2a15cdcaa7606bb66a004e003e10d0e0c
+  checks: Both transpose placements in the stacked vector, zero cross-products and the sample variance divisor
+    checked.
+  source_page_render_sha256: dcc41638933dc726ea675a524e09260559e9ac177ff6c97eaa1a40adb3378c53
+- id: IB/2009/P2/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 258ebb365804e62d11b7eb06699baf87c3edfa05a97e9658bf2b8080ea49b589
+  checks: The original writes a tilde on P and the infimum includes time zero. Both recurrence directions checked.
+  source_page_render_sha256: dcc41638933dc726ea675a524e09260559e9ac177ff6c97eaa1a40adb3378c53
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 72e95abd581c9bc3e4c2375be0517c0da93a310d45eff31cd034f6f1231bdbd8
