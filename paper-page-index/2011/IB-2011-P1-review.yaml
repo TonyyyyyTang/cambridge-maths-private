@@ -1,0 +1,289 @@
+paper_id: IB/2011/P1
+id: IB/2011/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2011-06-07'
+printed_date: Tuesday, 7 June, 2011
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2011/P1.pdf
+archive: private/raw/tripos/IB/2011/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2011/PaperIB_1.pdf
+sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2011/P1/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1b26d47a707314b2726f38b3c956e6c103eefac3d920bd28c064971ee074be06
+  checks: Checked the three map conditions and the real polynomial space in capital X.
+  source_page_render_sha256: 514c06de028b2406fd7f79a9453cad3a61b9da6d1c1a3aa32fe753d7e60c8080
+- id: IB/2011/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 4ac6be0a7c09679b31642b083d5581d7351e32025e28be226ae175eca963709c
+  checks: Checked the absolute values in the modulus hypothesis and the open unit disc.
+  source_page_render_sha256: 514c06de028b2406fd7f79a9453cad3a61b9da6d1c1a3aa32fe753d7e60c8080
+- id: IB/2011/P1/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 65e8249ff89d1cba68f052281517c31f2a9e2b91966fe471cc995170b63a29bd
+  checks: Checked the half-plane definition, hyperbolic metric and both non-strict region bounds.
+  source_page_render_sha256: 514c06de028b2406fd7f79a9453cad3a61b9da6d1c1a3aa32fe753d7e60c8080
+- id: IB/2011/P1/q4D
+  original_question: 4D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 6ba740a4b8b564a9b37beebdb7ba9c0aed4bd77e2e5a1b4555c54e9d642f18fe
+  checks: Checked both functionals, stationary candidates, interval endpoints and boundary values.
+  source_page_render_sha256: 2d65a7053aa15157eecdcd3e56aa7a3e8d363e678927c01588e3d307bd1d8a25
+- id: IB/2011/P1/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 0529355306d3db36d854a041dcfd5c8b2edb67b06089ad54dbf6bc778a8b294c
+  checks: Checked the vessel dimensions, exponential depth dependence and inclusive range for squared gamma.
+  source_page_render_sha256: 2d65a7053aa15157eecdcd3e56aa7a3e8d363e678927c01588e3d307bd1d8a25
+- id: IB/2011/P1/q6B
+  original_question: 6B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: c68e52cbd0854f553da0ce9dfe0a86f701fd9a124fbb74fca3cfd2d4620b7e39
+  checks: Checked the weight, interval, monic recurrence and parity statement.
+  source_page_render_sha256: 30f941c6a8a28a7bc3401bfb78fdebaafcfee5eb59927ce4253182b542536e59
+- id: IB/2011/P1/q7H
+  original_question: 7H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 55ef7759cd4b2b14342f5b9f4a4b5c8ea420002957ef1eb6ca419f399116accd
+  checks: Checked the prior, point estimate and gamma-function normalization, exponents, support and mean.
+  source_page_render_sha256: 30f941c6a8a28a7bc3401bfb78fdebaafcfee5eb59927ce4253182b542536e59
+- id: IB/2011/P1/q8H
+  original_question: 8H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 007232c0309e78a5e9475f57efdc089b0ceac3d7ac7fcb247a10795f5a1085a6
+  checks: Checked the dimensions, transpose placement, all constraints and objective coefficients.
+  source_page_render_sha256: 2cb2fc784438ee83b126ccad19ff421a44d7a2ca67e1ed2d58784de799523703
+- id: IB/2011/P1/q9G
+  original_question: 9G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: dfce57e15f3bf85702ac71e76e3a0d836f2dfea64ea05bdd2a95b1708dbbf3cd
+  checks: Checked injective and surjective assertions, domain of each independent subset and direction of the
+    dual map.
+  source_page_render_sha256: cb28d14370dcbd7acdf37b2dd97671b1e4f1092d4be3d973108f5740fa8129cc
+- id: IB/2011/P1/q10F
+  original_question: 10F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: e73ee32ba4239860c5bf9ce7cbd164ec420e9d342e7bd6cba982cad096e9f05a
+  checks: Checked the order of the group, divisibility assumption and the distinct-primes conclusion.
+  source_page_render_sha256: cb28d14370dcbd7acdf37b2dd97671b1e4f1092d4be3d973108f5740fa8129cc
+- id: IB/2011/P1/q11E
+  original_question: 11E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a96f58e7573e75820c8393fcd48a4ce314a00ed8822ce0c1614ca80b60a7d28d
+  checks: Checked the uniform-derivative hypotheses, domains and the distinct starting indices of the two series.
+  source_page_render_sha256: cb28d14370dcbd7acdf37b2dd97671b1e4f1092d4be3d973108f5740fa8129cc
+- id: IB/2011/P1/q12G
+  original_question: 12G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 4e0e927feeb07cd52598b1c986f11f9d2b5057e2ff20dc827eaad18ab312ac60
+  checks: Checked the metric, diameter definition, covering index and strict inequality.
+  source_page_render_sha256: b66bf15e74241f91d53ccbd5858e94a82ffb0c21edf9ecb4a08c7c08d0f13756
+- id: IB/2011/P1/q13A
+  original_question: 13A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 4b2ad67783188d07940e5eefd756e47148db2c4d9cba49f61df1a25efe4f6364
+  checks: Checked both principal-argument conventions, closed annulus, three requested terms and contour radius.
+  source_page_render_sha256: b66bf15e74241f91d53ccbd5858e94a82ffb0c21edf9ecb4a08c7c08d0f13756
+- id: IB/2011/P1/q14A
+  original_question: 14A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4b86719d760d877c11a49751acab518f7bed642639f15aac4884806c7a0ca345
+  checks: Checked both Fourier coefficient factors, the half-open intervals and the starts and powers of both
+    sums.
+  source_page_render_sha256: 9b6809dcc9b6bafb69b9aacf7bbf5e3cec684361e6454c0a4b3217a06fc99ed3
+- id: IB/2011/P1/q15C
+  original_question: 15C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: a6c0bcf77e8e66750aa942daa892dcc7c067077654376373d83128e4288f3003
+  checks: Checked the two periodicity conditions, the placement of the conjugation and the energy and extremum
+    questions.
+  source_page_render_sha256: 9b6809dcc9b6bafb69b9aacf7bbf5e3cec684361e6454c0a4b3217a06fc99ed3
+- id: IB/2011/P1/q16D
+  original_question: 16D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 9a0774589a71b055be532d2ca4a80d2db9bbae457c8e55de8470ef3c000b40ba
+  checks: Checked the wire coordinates, opposite signs, fixed dipole product and both sketch requests.
+  source_page_render_sha256: b9d8f56938da383e7985184beabd6b0ee74994b04f32207c34f25ea3ee7b5967
+- id: IB/2011/P1/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 72efd1323dcd4ee17a6df968afe08fc5b1d1a15dbd42588f60ec983199e3c579
+  checks: Checked the radial inequalities, far-field pressure, maximum and boundary pressure condition.
+  source_page_render_sha256: b9d8f56938da383e7985184beabd6b0ee74994b04f32207c34f25ea3ee7b5967
+- id: IB/2011/P1/q18B
+  original_question: 18B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 7e197393ecd6f50fab486a383de8b1cf74e8fdde0775c82eb09d71663e96df91
+  checks: Checked all three integration ranges and kernels, the derivative orders and coefficients of the fourth-degree
+    bound.
+  source_page_render_sha256: b9d8f56938da383e7985184beabd6b0ee74994b04f32207c34f25ea3ee7b5967
+- id: IB/2011/P1/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 069f2ce925558840044b798a7e85db02eae3f08edae4fbfa60d9e843692ed1b4
+  checks: Checked the mass function, strict parameter range, zero-event indicator and Poisson parameter.
+  source_page_render_sha256: f694ba1dd8d6a6ee41efa46e414b95205fc80bebe82687d83ced38d4ad222c94
+- id: IB/2011/P1/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 3fbeafd1118dc0d91bf926e7e5b40e0de54b9a1076d12a18b1dfa0e5ca248a03
+  checks: Checked the adjacency transition law, weighted inner product and detailed-balance equivalence.
+  source_page_render_sha256: 20e200c1da65914d2aa6b32b5e74cd67f9f9000047fa019beddd19dde5da4ac4
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: e2658137d350222525b98088a56b0ed453e8126d470bb8187ebbdd90045b0c28

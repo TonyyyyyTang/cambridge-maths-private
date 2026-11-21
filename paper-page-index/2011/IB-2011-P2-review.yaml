@@ -1,0 +1,301 @@
+paper_id: IB/2011/P2
+id: IB/2011/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2011-06-08'
+printed_date: Wednesday, 8 June, 2011
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2011/P2-full.pdf
+archive: private/raw/tripos/IB/2011/P2-full.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2011/PaperIB_2.pdf
+sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2011/P2/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c7a0ba759fe36e730d7c409e6f6853f80039144564ce5062c96adcabb4a545f2
+  checks: Checked the orthogonal decomposition, map direction and determinant request.
+  source_page_render_sha256: 53e2360d00f8c8796259942067acdf2738e7e555cfdec4ae6e7267bdb78b900d
+- id: IB/2011/P2/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: cb52ef2e604961b9429475bd38c1349754eff3af3146526ee044a6e8df0b22b1
+  checks: Checked all quaternion signs and the subscript on the symmetry group.
+  source_page_render_sha256: 53e2360d00f8c8796259942067acdf2738e7e555cfdec4ae6e7267bdb78b900d
+- id: IB/2011/P2/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a0f14915ed1e102849745de2b64989e61a4c152d52187583fe2f62d3d96a9dd4
+  checks: Checked both absolute-value arguments and the range of the parameter.
+  source_page_render_sha256: 53e2360d00f8c8796259942067acdf2738e7e555cfdec4ae6e7267bdb78b900d
+- id: IB/2011/P2/q4G
+  original_question: 4G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: b84c19b26e5769f1628fedfe83b8c416d2887d9baad9a498e987d45d551893a4
+  checks: Checked weighted and Euclidean metrics, coordinate primes and the axis subspace condition.
+  source_page_render_sha256: 53e2360d00f8c8796259942067acdf2738e7e555cfdec4ae6e7267bdb78b900d
+- id: IB/2011/P2/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4910118fec42a03c7f3f4ae3652cfd7677cd19d845bf40ac883f76d1d77ee295
+  checks: Checked the signs, Legendre parameter, closed interval and Sturm-Liouville request.
+  source_page_render_sha256: 4d54bd9d3de4821665a281a38ed7f57a122a86d0275172a99e62b963ba0b095e
+- id: IB/2011/P2/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: ee7b4181b9d80f86dfde4a66ddb985a6d8c42d8c77e7107628d97e4636cfcd24
+  checks: Checked four Maxwell equations and the discarded term, gauge and scalar potential in the magnetic
+    limit.
+  source_page_render_sha256: 4d54bd9d3de4821665a281a38ed7f57a122a86d0275172a99e62b963ba0b095e
+- id: IB/2011/P2/q7D
+  original_question: 7D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: bdad92804ebd3e484ff3e0ade17248d471044b1dab8fd2e3bc231812719eb0cd
+  checks: Checked the pressure subtraction, minus sign, generalised divergence identity and upward unit vector.
+  source_page_render_sha256: 90d4397ae62dbe7fe908b4cdc2656751c8108e760212278ebe8c09d1383231d4
+- id: IB/2011/P2/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f8341773121923fde24752f9882fa0ea84f70a326d3701776bbb528e2f3437ff
+  checks: Checked the simple hypotheses, five definitions and the required proof.
+  source_page_render_sha256: 90d4397ae62dbe7fe908b4cdc2656751c8108e760212278ebe8c09d1383231d4
+- id: IB/2011/P2/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: e5fb187f6b25860e34162ff189243a7142dab701eca321c6eab8026a5dc34d34
+  checks: Checked source and sink numbering, directed capacity indices and all four definitions.
+  source_page_render_sha256: 90d4397ae62dbe7fe908b4cdc2656751c8108e760212278ebe8c09d1383231d4
+- id: IB/2011/P2/q10G
+  original_question: 10G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e04fb34b897a31ce9a71d854fd763281372814f83d4adc65e2ce141b64f10410
+  checks: Checked trigonometric span, complex conjugation of the second factor and the sign of the second derivative.
+  source_page_render_sha256: bfed063a46b423261a3efd94fb8a2b87d7d0ff4895cfff2a83f555b7a2476807
+- id: IB/2011/P2/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: cf51ba5b6294795e7541922a763722e83def76b9b373ee8d16ed93d705870dbb
+  checks: Checked the Gaussian-integer ring and the exact primality example.
+  source_page_render_sha256: bfed063a46b423261a3efd94fb8a2b87d7d0ff4895cfff2a83f555b7a2476807
+- id: IB/2011/P2/q12E
+  original_question: 12E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 3ec2258ac84dc9e6cb91dea65645ed1222f999ac1f1674855deee20cdd527c56
+  checks: Checked finite-dimensional equivalence, the permitted result, the closed interval and the requested
+    completeness assertion.
+  source_page_render_sha256: bfed063a46b423261a3efd94fb8a2b87d7d0ff4895cfff2a83f555b7a2476807
+- id: IB/2011/P2/q13A
+  original_question: 13A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 7bbb8767040ba4f4ff973be19c207a13b34707833ab727fae03088bd56b66409
+  checks: Checked the square vertices, contour integrand, both doubly infinite sums and the symmetry hint.
+  source_page_render_sha256: bdfbd7aa2a5f6bbf4429c06691ee205fea3724bd001c8e25612fbda0a634af22
+- id: IB/2011/P2/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 2cf578c2c41e4c5050236bc0abd6fc621a42e45b8d010b1ac6214071ac2d4cc3
+  checks: Checked the projection target and the projective special unitary group.
+  source_page_render_sha256: bdfbd7aa2a5f6bbf4429c06691ee205fea3724bd001c8e25612fbda0a634af22
+- id: IB/2011/P2/q15D
+  original_question: 15D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 48ce70a4d430134ab0cedc92695ba5a6da875487b2e13faca6d095d0804d74f6
+  checks: Checked both functionals, the test function and the printed coefficient in (v) against the full paper
+    and separate Faculty correction.
+  printed_ambiguity: The Faculty correction sheet for part (v) multiplies the displayed test-function value
+    by pi cubed. The full-paper coefficient is retained in question.tex.
+  source_page_render_sha256: 20e16ddc6a39b2068179ae76138a016837642c54a0a4296912167a9a6fa79bb7
+- id: IB/2011/P2/q16A
+  original_question: 16A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 50ad0756cd8a3f0a52dc78cd4e81bbea20e3139be962902d7c3054e76238ab6d
+  checks: Checked coefficients, forcing function and both homogeneous initial data.
+  source_page_render_sha256: 20e16ddc6a39b2068179ae76138a016837642c54a0a4296912167a9a6fa79bb7
+- id: IB/2011/P2/q17C
+  original_question: 17C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 62d69952f66890a31ebd27e53349e0f5729a0159af261ac571d6acbe620127bf
+  checks: Checked antisymmetric symbol indices, Hermiticity request, momentum squares and equality condition.
+  source_page_render_sha256: 20e16ddc6a39b2068179ae76138a016837642c54a0a4296912167a9a6fa79bb7
+- id: IB/2011/P2/q18C
+  original_question: 18C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: fb9015c891b20a1c9b9f1b52f71fbdbeafba726f93670825149c5f13fad1a0b5
+  checks: Checked arbitrary cross-section, current per length and the shape, size and observation point of
+    the wire loop.
+  source_page_render_sha256: e62b484901132f1a3fe9c2c53c0e4ff008587708d6c4a1d27972f7a640dc232c
+- id: IB/2011/P2/q19B
+  original_question: 19B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 589337316c61a60884da5c4cf02431dd6fc78e0a7058a5fd7483b096f816a7fd
+  checks: Checked all sixteen matrix entries, right-hand column and Givens rotations request.
+  source_page_render_sha256: e62b484901132f1a3fe9c2c53c0e4ff008587708d6c4a1d27972f7a640dc232c
+- id: IB/2011/P2/q20H
+  original_question: 20H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: b5ea0d22ac55a1721a1139678daeef1bd9c5eb66ad5607771eed7eb995ce1173
+  checks: Checked hitting time, empty product convention, flea transition rule, indices of the recursion, product
+    and mean.
+  source_page_render_sha256: 854118283f9229378179dad66cc12ee970d411d0f1cef65eafa8026098ffe8fb
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: e77522278e002b9b04febd4ff7b0eb5872ed7086743e98f8c7ddfead8bd3c050
+corrections:
+- question: q15D
+  url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2011/Paper2_15_corrected.pdf
+  archive: private/raw/tripos/IB/2011/P2.pdf
+  sha256: ce0c0198352692343c384687dd633e291f9a54273e49141efaad3b015b693522
+  page: 1
+  page_count: 1
+  source_page_render_sha256: f4ed442daec6608c3ea270218e1f41169dd37e82a5a8227965f89a30dd9c291d
+  original: $-\frac{8}{15}(2\pi^2-5)$
+  replacement: $-\frac{8\pi^3}{15}(2\pi^2-5)$

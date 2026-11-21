@@ -1,0 +1,305 @@
+paper_id: IB/2011/P3
+id: IB/2011/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2011-06-09'
+printed_date: Thursday, 9 June, 2011
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2011/P3.pdf
+archive: private/raw/tripos/IB/2011/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2011/PaperIB_3.pdf
+sha256: cf36aed82e894934c7ae49da762ea9433f5826b77d06c163a08ac286dd1afdbe
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2011/P3/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 3d1383c5697bebc0f451cffdb5a0a59e0bbce7f83dd67fe9ee60ed97e57f1ad7
+  checks: Checked the field inclusion and which vector-space dimension is finite.
+  source_page_render_sha256: 71cd1e678229caa623dd6ec51877c542abcfcaf55f6f63018297670c2409fcf4
+- id: IB/2011/P3/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 866ea257dc3c6a61e2b4b1a45a3b76079e1eb5daadaee37d575771d7ea901afa
+  checks: Checked the directions of both Cauchy-sequence statements and the continuity assumption in the converse.
+  source_page_render_sha256: 71cd1e678229caa623dd6ec51877c542abcfcaf55f6f63018297670c2409fcf4
+- id: IB/2011/P3/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: eb79cfff90c7599ca3ea5314838c292fe5bfe30d15038acec5fb9e2f76daa47e
+  checks: Checked the Hausdorff target, equalizer notation and restriction to the dense subset.
+  source_page_render_sha256: 71cd1e678229caa623dd6ec51877c542abcfcaf55f6f63018297670c2409fcf4
+- id: IB/2011/P3/q4D
+  original_question: 4D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 005b17f602748ea2cff539de35c83201dc828bc6444b1a94a14edf8b3926182e
+  checks: Checked both circular arcs, their excluded points, orientation of their images and signed boundary
+    values.
+  printed_ambiguity: The strip problem specifies no boundedness or growth condition. A particular harmonic
+    solution suffices; uniqueness would need further hypotheses.
+  source_page_render_sha256: ecf20db5ceda15c8097deef8f4fb0de4f622a8b724f3ae2d018ea24c73616d73
+- id: IB/2011/P3/q5F
+  original_question: 5F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 120819cd571cd09f74d747f04ac59511ccbb9e9f276dce6ff9d81f41fda01aea
+  checks: Checked spelling of reflexions, order of composition and open ranges of both angles.
+  source_page_render_sha256: ecf20db5ceda15c8097deef8f4fb0de4f622a8b724f3ae2d018ea24c73616d73
+- id: IB/2011/P3/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: b1a61cff0cba8537abed521f164d738082e245f1da19cc37de98017891775f74
+  checks: Checked both quadratic forms, the interchange and the printed count of four stationary points.
+  source_page_render_sha256: ecf20db5ceda15c8097deef8f4fb0de4f622a8b724f3ae2d018ea24c73616d73
+- id: IB/2011/P3/q7A
+  original_question: 7A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 63f9347c9d33ee68ceb460a2eb81ba49e00859f39887cd608c844a3dd4bc9704
+  checks: Checked Fourier signs, convolution normalization, limits and squared denominator.
+  source_page_render_sha256: 13b326f2a6461c60d04347b12c8c8bfca765ec0c164ab8a118b6ea9fb2d6ebfa
+- id: IB/2011/P3/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 2207f1f687cf6b7c59492e6eb83c7f0c36bcd19a71ae58792f473d3ab3151f42
+  checks: Checked incidence direction, delta potential sign and positivity assumption.
+  source_page_render_sha256: 13b326f2a6461c60d04347b12c8c8bfca765ec0c164ab8a118b6ea9fb2d6ebfa
+- id: IB/2011/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: c24c515e798337618eec51fc977f6deca1f33cdff666aa4e47d90058f67d7728
+  checks: Checked the stopping-time request and both conditional probabilities in the kth-power identity.
+  printed_ambiguity: The event in (ii) does not say whether the visit at time zero counts. Specify the positive
+    return times when using the displayed identity.
+  source_page_render_sha256: 13b326f2a6461c60d04347b12c8c8bfca765ec0c164ab8a118b6ea9fb2d6ebfa
+- id: IB/2011/P3/q10G
+  original_question: 10G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 120ac5d21eef5bebc58094232872117a0abde287d5cff24562ea83104b423550
+  checks: Checked the order of every entry in both cyclic matrices, the polynomial and eigenvalue notation.
+  source_page_render_sha256: 8854e5dae6646570c06241817744104d31226547edba6f1ef135a7495afc2ad3
+- id: IB/2011/P3/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 169c66bcefc92e022bad9ca3af0f50934f1960be7f695ba241a430642399d69f
+  checks: Checked the integer matrix, signs in both module relations and the Smith-form request.
+  source_page_render_sha256: 8854e5dae6646570c06241817744104d31226547edba6f1ef135a7495afc2ad3
+- id: IB/2011/P3/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 250c32cf99674265b64bd434deb05eb40604c0e50fa934b09ff1c3b7d404b95b
+  checks: Checked derivative domains, the order of the three matrix terms and the two local neighbourhoods.
+  source_page_render_sha256: 93b0dd5a06733e861cb6fc6121b2e5b91a1b6a89305ec32d7c661ad8b7c2d1b5
+- id: IB/2011/P3/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: ac0e7a11fd323f9f17d8c2ad108a25c160863d34ae51634fe4a7fbd1af4de326
+  checks: Checked the rectangle orientation conditions, half-plane definitions, nested conjugation and overlapping
+    real-axis cases.
+  source_page_render_sha256: 93b0dd5a06733e861cb6fc6121b2e5b91a1b6a89305ec32d7c661ad8b7c2d1b5
+- id: IB/2011/P3/q14F
+  original_question: 14F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 12507f51ebb0a44a7108334f70ba865128aa2cea05aa8613ffe3703ffcbab938
+  checks: Checked curve coordinates, axis, unit-speed assumption and sign of the curvature.
+  source_page_render_sha256: 5ca8060f1583b4b7f04d0e5697ab2c1d269bdb55c2f28cf61bf7d5e3d0cc7573
+- id: IB/2011/P3/q15A
+  original_question: 15A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 87dc7a662b5b6d5282dad4074735f82eba13252cc2ff42fa74958ba45f9ff1f1
+  checks: Checked resistance per length, damping coefficient, initial sine mode and location of the sketch.
+  source_page_render_sha256: 5ca8060f1583b4b7f04d0e5697ab2c1d269bdb55c2f28cf61bf7d5e3d0cc7573
+- id: IB/2011/P3/q16C
+  original_question: 16C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 7dbb3dd91aa393d1bd303e672a69b703bc6b19799027a1aabf189b6730432c36
+  checks: Checked radial-equation terms, quantised energies, exponent and total degeneracy request.
+  source_page_render_sha256: 5ca8060f1583b4b7f04d0e5697ab2c1d269bdb55c2f28cf61bf7d5e3d0cc7573
+- id: IB/2011/P3/q17C
+  original_question: 17C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 20e40b46acc6e7485c23a0f0062098b538b73ef28ab0eae3fb59ae4f38f65fdb
+  checks: Checked both field-energy coefficients, sign of the outward flux and all wire assumptions.
+  source_page_render_sha256: 1b6ddf5be37da262a98d30428d010c2f05d0c667f2c590cc7ef2b50f765adc78
+- id: IB/2011/P3/q18D
+  original_question: 18D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: a68d437dbcf80d0e9308287aec4e3b8bdd9eaeddf7662db1d0c8cd1855b6631e
+  checks: Checked exterior and interior radii, upstream limit, dimensionless definitions and critical-value
+    questions.
+  source_page_render_sha256: 1b6ddf5be37da262a98d30428d010c2f05d0c667f2c590cc7ef2b50f765adc78
+- id: IB/2011/P3/q19B
+  original_question: 19B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 8e9be43a9741f7fcf6c998e78b27f91d82ac8b9313a9c0971b4e46ef93c68f69
+  checks: Checked the weighted quadrature, polynomial degrees, four listed polynomials and both sets of nodes
+    and weights.
+  source_page_render_sha256: ee2b0b1297b509ff37ef45e432c8c26c876e9fce1f0cdd1b9c36484c9ab15d6a
+- id: IB/2011/P3/q20H
+  original_question: 20H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 0318f26f6a5c14ad9ce5b760e13b3e3863112fd3d54f6273a41568caf7364af3
+  checks: Checked dimensions, normal-error variance, residual quadratic form and projection matrix, including
+    all hats and tildes.
+  source_page_render_sha256: ee2b0b1297b509ff37ef45e432c8c26c876e9fce1f0cdd1b9c36484c9ab15d6a
+- id: IB/2011/P3/q21H
+  original_question: 21H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 74389457a8abf760668e1c5e5f6993ae95d5bd2c0c7b062a82587afad0ab293e
+  checks: Checked matrix dimensions, the componentwise inequality and the separate support conditions in parts
+    (iv) and (v).
+  source_page_render_sha256: a621551e0f78d14f1deeb46fb0f90128a68b8414860a54fa8b145e539c788689
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: c429f9219928a7af4ccaf761755084f42abcaa42312c2aab8692be5cee13f80c

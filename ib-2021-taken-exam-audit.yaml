@@ -1,0 +1,731 @@
+scope: 2021 IB public exam questions in the ten taken-course strata; exam slice only.
+auditor: nov21_ib21_taken_exam_audit
+seed: 20261211
+sampling_method: Python random.Random(seed), iterate course keys sorted lexicographically, sample ceil(N/5) without
+  replacement from each listed population in its recorded order. Regenerated all 12 IDs.
+population_size: 49
+sample_size: 12
+strata:
+  IB/analysis-ii:
+    population_size: 3
+    population_ids:
+    - IB/2021/P2/q10F
+    - IB/2021/P2/q2F
+    - IB/2021/P4/q10F
+    sample_ids:
+    - IB/2021/P2/q2F
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/complex-methods:
+    population_size: 5
+    population_ids:
+    - IB/2021/P1/q12G
+    - IB/2021/P1/q3B
+    - IB/2021/P2/q12B
+    - IB/2021/P3/q3B
+    - IB/2021/P4/q12B
+    sample_ids:
+    - IB/2021/P1/q3B
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/electromagnetism:
+    population_size: 5
+    population_ids:
+    - IB/2021/P1/q15D
+    - IB/2021/P2/q16D
+    - IB/2021/P2/q4D
+    - IB/2021/P3/q15D
+    - IB/2021/P4/q5D
+    sample_ids:
+    - IB/2021/P1/q15D
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/fluid-dynamics:
+    population_size: 5
+    population_ids:
+    - IB/2021/P1/q16A
+    - IB/2021/P2/q5A
+    - IB/2021/P3/q16A
+    - IB/2021/P3/q7A
+    - IB/2021/P4/q16A
+    sample_ids:
+    - IB/2021/P3/q16A
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/linear-algebra:
+    population_size: 6
+    population_ids:
+    - IB/2021/P1/q1E
+    - IB/2021/P1/q8E
+    - IB/2021/P2/q8E
+    - IB/2021/P3/q9E
+    - IB/2021/P4/q1E
+    - IB/2021/P4/q8E
+    sample_ids:
+    - IB/2021/P2/q8E
+    - IB/2021/P3/q9E
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/markov-chains:
+    population_size: 4
+    population_ids:
+    - IB/2021/P1/q19H
+    - IB/2021/P2/q18H
+    - IB/2021/P3/q8H
+    - IB/2021/P4/q7H
+    sample_ids:
+    - IB/2021/P4/q7H
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/methods:
+    population_size: 6
+    population_ids:
+    - IB/2021/P1/q13C
+    - IB/2021/P2/q14A
+    - IB/2021/P2/q3C
+    - IB/2021/P3/q14A
+    - IB/2021/P3/q5A
+    - IB/2021/P4/q14C
+    sample_ids:
+    - IB/2021/P2/q14A
+    - IB/2021/P4/q14C
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/numerical-analysis:
+    population_size: 5
+    population_ids:
+    - IB/2021/P1/q17B
+    - IB/2021/P1/q5B
+    - IB/2021/P2/q17B
+    - IB/2021/P3/q17B
+    - IB/2021/P4/q6B
+    sample_ids:
+    - IB/2021/P3/q17B
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/quantum-mechanics:
+    population_size: 5
+    population_ids:
+    - IB/2021/P1/q14C
+    - IB/2021/P2/q15C
+    - IB/2021/P3/q6C
+    - IB/2021/P4/q15C
+    - IB/2021/P4/q4C
+    sample_ids:
+    - IB/2021/P4/q4C
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/statistics:
+    population_size: 5
+    population_ids:
+    - IB/2021/P1/q18H
+    - IB/2021/P1/q6H
+    - IB/2021/P2/q6H
+    - IB/2021/P3/q18H
+    - IB/2021/P4/q17H
+    sample_ids:
+    - IB/2021/P1/q6H
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+blind_protocol: Read only the question packet, question locators and original printed pages before stage-1 freeze.
+  Wrote independent answers and transcription comparisons before receiving access to canonical work. Re-verified
+  all frozen hashes during stage 2.
+stage_one_sha256sums_sha256: b30812843520db68144f7776785ded643e1152e2448a7db70b17ddb3b1d75fbe
+stage_one_sha256sums: |
+  d386bbebb2b13e9dccad8a30fb4cb87ec4c5b201700c3b9985cf10102713f390  P1-q15D.md
+  cb0673502e30d876c9f174f662e17792a36efcf359c3383c8de8300807259146  P1-q3B.md
+  b4b72d91a7032e70f5fbdd808c2eaff4611f57478e665b80fd9905d6e5377cde  P1-q6H.md
+  a5b48b9f2ea1995543f86635932a2198b8973373eb406ce4131378889c2355a9  P2-q14A.md
+  eec01dbf8a846b7c24ed4b2a5a0f0a1e8dc66fe3b0bf986b0fe3f88296ea1642  P2-q2F.md
+  5d044476892732591d545395024bf62ba6395e41584286a89ce685f40b204aa0  P2-q8E.md
+  220abbf8a311a8dedc44519d9127a3a44385391158fcd9b1fc7982376738fc24  P3-q16A.md
+  5495b45a1699b021b6f4ee325863f7ea4a6d6b62f7e551730689865d3b2a49af  P3-q17B.md
+  e932fea44d2f2c6334901b0b65d2a915b7961bca3129a0f454b3ad1f23fc21f9  P3-q9E.md
+  555cec63c9d6ca0f63de81ddc70c9d6f426cdf35247d6605c777d498de07c62f  P4-q14C.md
+  68daaa92fc68cf7d7c2c49236fd4f51948a0fe059afdfebb53f9eb4f30b2085d  P4-q4C.md
+  1e90b42b7ffbe1a6a91f61eafbd1dec99e0efab32a41c298a2cc5d48426add18  P4-q7H.md
+  67000a1d6d2fb3341a8f5ae537b982dc54e29ebad2c011bec398632a72a8429f  transcription.md
+transcription_review: |
+  # Blind source-page comparison
+
+  After fetching the archive, I rendered each located original page at 130 dpi with Poppler. I visually read the entire numbered question on the rendered page against its supplied question.tex, including all prose, displays, indices, subparts, hints and endpoint conditions. The 12 questions occupy 11 distinct pages. None has printed absolute marks or an embedded figure. I found no transcription error in the question statements. Section, course and question headings are printed page metadata.
+
+  | Original | Printed page | Printed number | Image comparison | Transcription SHA256 |
+  |---|---:|---|---|---|
+  | P1.pdf | 9 | 15D | Vector differentials, Poisson sign, delta dimension, indices, both radii, f(q) and range agree. | fb2da7c95022951d2fd6ca80efbd27767ec081c9fb1738f3b03e3b795d0af1ce |
+  | P1.pdf | 2 | 3B | Both radius restrictions, orientation, integrand and dz match. | 8bd2fe0f7c144ef1a9e5026538d2e237a0f58170743fe66972ae8beb46305680 |
+  | P1.pdf | 3 | 6H | Bernoulli assumptions, strict variance comparison, sufficient statistic and each subpart match. | ec1c22a51475a471f5cfe0fb1257cd78c0270620286ecac0bb0ed72d271a70f8 |
+  | P2.pdf | 9 | 14A | Fourier conventions, transformed functions, four subparts, both piecewise traces and all limits agree. | fd3fedbb3b3e6794d3b47482f97af29653808839d967a4099f2e92af5c34270c |
+  | P2.pdf | 2 | 2F | Kernel domain, d₁, integral bounds and both continuity questions agree. | 35409b187e120d2e2c29d57c197d23ed4ecf4c48f8b33fc5610a2836a12da0f8 |
+  | P2.pdf | 5 | 8E | All nine entries, powers, distinctness conditions and all three subparts agree. | c4086ddb25bcfd238beab5c1b36fb0bf950396b7ad5beb2f13e50d184533156a |
+  | P3.pdf | 10 | 16A | Opposite wall speeds, cos and sin coefficients (including the order of every ± subscript), denominator and small-∆ limit agree. | 3b98022cf06a0926b9db1469018443c05be8405b6dbd52f01970f7994262c4ba |
+  | P3.pdf | 11 | 17B | Rodrigues exponents and sign, norms, recurrence index and gamma hint agree. | 45cb4a9968c5dab91676eb66869dbdf49b44cc68d3e60ee76649a6fd6e097e10 |
+  | P3.pdf | 5 | 9E | All thirty vector coordinates, signed inclusion, quotient and three determinant requests agree. | 22e1ad0bc6b48eaa748d7ee2b1527e65d50ff6f8ece1ea7488a3ee4ff4dfe17f |
+  | P4.pdf | 7 | 14C | Equation label, exponents, closed interval, t≥0 sketch instruction and Erf definition agree. | 5059d82c074b1756090d4a779e51e2aefaf221bf4fd0fc7cb4b45a3712c9f481 |
+  | P4.pdf | 3 | 4C | Full-line integral, wavefunction prefactor and exponent, f(t), real constants and final instruction agree. | 477537dcbb0e03f9d290fb224fc68f83985cb5837ca10f45f6a029d8f5ce6915 |
+  | P4.pdf | 3 | 7H | Recurrence, independent walks, simultaneous-at-zero qualifier and two-sided factorial bounds agree. | fa503d38fd07034beedcdb3babd1361170bbb4f167e7812976a80cf7098b1911 |
+observed_transcription_errors: 0
+substantive_errors_before_repair: 0
+substantive_errors_after_repair: 0
+observed_substantive_error_rate: 0/12 before and after; no repairs required.
+units:
+  IB/2021/P2/q2F:
+    original_pdf: private/raw/tripos/IB/2021/P2.pdf
+    source_pages:
+    - 2
+    original_number: 2F
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: eec01dbf8a846b7c24ed4b2a5a0f0a1e8dc66fe3b0bf986b0fe3f88296ea1642
+    independent_rework: |
+      # IB/2021/P2/q2F — independent rework
+
+      The continuous K on its compact square is bounded, say |K|≤M, and uniformly continuous. For x′→x the bound |Tf(x′)−Tf(x)|≤‖f‖₁ sup_y|K(x′,y)−K(x,y)| tends to zero (also at endpoints). Thus T maps the stated space into itself. For h=f−g, |Th(x)|≤M‖h‖₁≤M‖h‖∞, so taking a supremum proves Lipschitz continuity in the uniform metric. Integrating the first bound over the unit interval gives ‖Th‖₁≤M‖h‖₁, proving continuity for d₁ as well.
+    comparison: Both proofs distinguish continuity of each image from continuity of the map. Compactness supplies
+      uniform continuity of the kernel and its uniform bound. The unit interval gives both Lipschitz estimates,
+      including the d₁-to-d₁ estimate.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Exact nonconstant kernel verifies both bounds; a constant positive kernel attains the integral-norm
+        bound.
+      question_sha256: 35409b187e120d2e2c29d57c197d23ed4ecf4c48f8b33fc5610a2836a12da0f8
+      solution_sha256: 006bd47be19ee872eb9e8071a0a1fbcdc878c47da0f12bd8a4183b35824bec2d
+      check_sha256: 5fc396443422a5ad30763cb84439e5884e68e64536d2463d1374212794c80b44
+  IB/2021/P1/q3B:
+    original_pdf: private/raw/tripos/IB/2021/P1.pdf
+    source_pages:
+    - 2
+    original_number: 3B
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: cb0673502e30d876c9f174f662e17792a36efcf359c3383c8de8300807259146
+    independent_rework: |
+      # IB/2021/P1/q3B — independent rework
+
+      At 0 the double-pole residue is the derivative at zero of (z²+exp z)/(z−2), namely (−2−1)/4=−3/4. At 2 the simple-pole residue is (4+exp 2)/4. The positively oriented circle encloses 0 for every allowed radius, and encloses 2 precisely when x>2. The residue theorem therefore gives −3πi/2 for 0<x<2 and πi(1+exp 2)/2 for x>2. The excluded circle would pass through a pole.
+    comparison: The derivative giving the double-pole residue is −3/4, and the residue at two is (4+e²)/4. Both
+      contour cases, orientation, excluded radius and numerical contour integrations agree.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Positive circle quadrature agrees with both residue sums to 30 decimal places.
+      question_sha256: 8bd2fe0f7c144ef1a9e5026538d2e237a0f58170743fe66972ae8beb46305680
+      solution_sha256: 2ae1b155102e156d4935e7084f1368a5cbb13bcf6ef4026dd310171d5fe5ba19
+      check_sha256: 91c64c41ed448e7e3b3a5a53f02be1731457a5b16108206d199d17e88340f027
+  IB/2021/P1/q15D:
+    original_pdf: private/raw/tripos/IB/2021/P1.pdf
+    source_pages:
+    - 9
+    original_number: 15D
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: d386bbebb2b13e9dccad8a30fb4cb87ec4c5b201700c3b9985cf10102713f390
+    independent_rework: |
+      # IB/2021/P1/q15D — independent rework
+
+      With the boundary orientation induced by an orientable spanning surface, Stokes gives Φ=∫B·n dS=∮A·dx since B=curl A. A smooth single-valued gauge increment grad χ integrates to χ(end)−χ(start)=0. Static Ampère and the identity curl curl A=grad div A−∆A yield −∆A=μ₀J in Coulomb gauge. In free space select the solution decaying at infinity. The fundamental solution of −∆ is 1/(4π|x|), giving A(x)=μ₀I/(4π)∮_C dx′/|x−x′| off the wire by integrating the stated delta source.
+
+      Insert this field from loop j in the line integral on loop i and divide by Iⱼ. For the separated loops, the symmetric kernel (dx₁·dx₂)/|x₁−x₂| has no singularity, and interchanging the integrals gives L₁₂=L₂₁ equal to μ₀/(4π) times that double integral. With both positive orientations viewed from above, circle azimuths φ and ψ yield numerator ab cos(φ−ψ) dφ dψ, distance √(S−2ab cos(φ−ψ)), S=a²+b²+c². Periodicity reduces the double angular integral to 2π times the single difference-angle integral. Thus L=μ₀ab/(2√S)∫ cos θ/√(1−q cos θ) dθ=(μ₀√S/4)f(q) over 0≤θ≤2π. Since S−2ab=(a−b)²+c²>0 for different loops, 0<q<1. Reversing the reference orientation of one loop changes the signed result.
+    comparison: The signed orientation, gauge cancellation, Coulomb-gauge equation, free-space boundary condition
+      and line source agree. Swapping the two disjoint wires proves reciprocity. Common-rotation integration gives
+      the 2π factor and the stated prefactor. Strict q<1 survives the allowed coplanar unequal radii. Read the canonical
+      solution only after its ai-draft status was installed.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Full two-angle Neumann quadrature confirms the one-angle reduction for separated, equal-radius and
+        coplanar cases.
+      question_sha256: fb2da7c95022951d2fd6ca80efbd27767ec081c9fb1738f3b03e3b795d0af1ce
+      solution_sha256: 456c3ee26341da18853c48033224696dda24e3e7b378fef24478cab34c06b4f8
+      check_sha256: 743fe4a39298627aac5b29630eedcd4d99dbbdcef1a869fa6983ff3c548b598b
+  IB/2021/P3/q16A:
+    original_pdf: private/raw/tripos/IB/2021/P3.pdf
+    source_pages:
+    - 10
+    original_number: 16A
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 220abbf8a311a8dedc44519d9127a3a44385391158fcd9b1fc7982376738fc24
+    independent_rework: |
+      # IB/2021/P3/q16A — independent rework
+
+      The advective derivative vanishes for this parallel flow and pressure is constant; Navier–Stokes reduces to u_t=νu_yy. Put Y=y/L₀ and z=(1+i)∆, so f_YY=z²f with no-slip f(±1)=±1. The cosh term vanishes on adding the two wall equations (cosh z≠0 as Re z>0), leaving f=sinh(zY)/sinh z.
+
+      Multiply by the conjugate denominator. Twice its squared modulus is H=cosh(2∆)−cos(2∆)>0. Twice the numerator product is cosh(zY+conj z)−cosh(zY−conj z), via the hyperbolic product identity. Here the two arguments are ∆₊−i∆₋ and −∆₋+i∆₊. Thus Re f=[cosh ∆₊ cos ∆₋−cosh ∆₋ cos ∆₊]/H and −Im f=[sinh ∆₊ sin ∆₋−sinh ∆₋ sin ∆₊]/H. Re(f exp(iωt)) combines these with cos ωt and sin ωt respectively, exactly giving (b). Wall values and the zero at the midpoint follow directly.
+
+      Uniformly for |Y|≤1, f=Y[1+z²(Y²−1)/6+O(∆⁴)], so u/U₀=Y cos ωt+O(∆²). Diffusion across the layer is fast compared with the oscillation time (ωL₀²/ν=2∆²≪1); the leading velocity adjusts to the instantaneous linear Couette profile. This is an additive approximation valid even at phases where cos ωt=0.
+    comparison: No-slip and odd wall forcing give the same unique complex amplitude. The product-to-sum expressions
+      differ in the sign of the second entire complex argument only, by evenness of cosh. The sine coefficient and
+      both wall values agree. The uniform low-frequency absolute approximation remains valid at phases of vanishing
+      leading profile.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Real and imaginary oscillatory coefficients, wall values and low-frequency profile checked.
+      question_sha256: 3b98022cf06a0926b9db1469018443c05be8405b6dbd52f01970f7994262c4ba
+      solution_sha256: 5cb2c318ab24f16d0aade97b5dd1a895867cb416e326be189970708996707410
+      check_sha256: cd8ad309c5c82f2f712cba95fdd43a6e661d6fb7f993272e6173ff2b4459c83e
+  IB/2021/P2/q8E:
+    original_pdf: private/raw/tripos/IB/2021/P2.pdf
+    source_pages:
+    - 5
+    original_number: 8E
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 5d044476892732591d545395024bf62ba6395e41584286a89ce685f40b204aa0
+    independent_rework: |
+      # IB/2021/P2/q8E — independent rework
+
+      Let N=A−I. It equals the outer product (−3,3,−1)ᵀ(1,2,3), whose inner contraction is zero. Therefore N²=0 but N≠0. The only eigenvalue is 1, the monic characteristic polynomial is (t−1)³, and the minimal polynomial is (t−1)². The largest Jordan block has size 2, leaving a 1×1 block. The Jordan form is J₂(1)⊕[1].
+
+      For 0≠v∈W_{α,n} pick the least r≥1 with (f−αI)ʳv=0. Then (f−αI)ʳ⁻¹v is a nonzero α-eigenvector. For a relation between the ordinary eigenvectors, applying ∏_{j≠i}(f−αⱼI) leaves the i-th term multiplied by the nonzero scalar ∏_{j≠i}(αᵢ−αⱼ). Each coefficient must vanish. In the generalized case apply ∏_{j≠i}(f−αⱼI)ⁿ. The operators commute and kill every other term. On W_{αᵢ,n}, each factor f−αⱼI is invertible since it equals (αᵢ−αⱼ)I+Nᵢ with Nᵢⁿ=0 there (a finite geometric series gives the inverse). Hence the remaining coefficient vanishes as well. Empty products give the result for a single vector.
+    comparison: Rank-one factorisation with zero contraction proves a nonzero square-zero shift, yielding the same
+      characteristic and minimal polynomials and Jordan partition. The least annihilating power and the isolating
+      polynomials correctly establish the ordinary and generalized independence claims.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Characteristic/minimal polynomial, nilpotent index and separation of generalized eigenspaces checked.
+      question_sha256: c4086ddb25bcfd238beab5c1b36fb0bf950396b7ad5beb2f13e50d184533156a
+      solution_sha256: 8d87080867f64198b68deed429399d1a2bb2d963d684e4db7a57e0deca71e598
+      check_sha256: bd5498c86d10a091edd3d4f9a26f76847bc6a93095bd95f9c72146c4e34ef260
+  IB/2021/P3/q9E:
+    original_pdf: private/raw/tripos/IB/2021/P3.pdf
+    source_pages:
+    - 5
+    original_number: 9E
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: e932fea44d2f2c6334901b0b65d2a915b7961bca3129a0f454b3ad1f23fc21f9
+    independent_rework: |
+      # IB/2021/P3/q9E — independent rework
+
+      Rank–nullity for a linear map with finite-dimensional domain states dim domain=dim ker+dim im. The external direct sum is the space of pairs with componentwise operations and i(u)=(u,0), j(w)=(0,w). Addition maps it onto U+W with kernel {(x,−x): x∈U∩W}=Im l. The induced isomorphism identifies the quotient with U+W.
+
+      Using the printed columns u₁,u₂,u₃,w₁,w₂,w₃ in that order, row reduction gives nonzero rows (1,0,0,5/3,0,−1), (0,1,0,0,0,0), (0,0,1,−2/3,0,−1), (0,0,0,0,1,0). This establishes dim U=3, dim W=3 (columns 4 and 6 independent in pivot rows 1 and 3), and dim(U+W)=4. The dimension formula gives 2; indeed w₁ and w₃ span the intersection.
+
+      Expand the determinant multilinearly in the columns. Every tʳ term takes r columns from B and therefore vanishes when r>k by dependence among these columns. The coefficient of tⁿ is det B, nonzero for k=n. In dimension two choose A=0, B=diag(1,0), yielding determinant identically zero with k=1.
+    comparison: The addition map identifies the quotient with U+W and its kernel agrees with the signed inclusion.
+      Independently obtained the same exact row-reduced matrix and ranks 3,3,4, giving intersection dimension 2.
+      Multilinearity establishes the sharp invertible case; the singular rank-one zero-polynomial example works.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Six-column reduction, intersection dimension and determinant degree bounds verified exactly.
+      question_sha256: 22e1ad0bc6b48eaa748d7ee2b1527e65d50ff6f8ece1ea7488a3ee4ff4dfe17f
+      solution_sha256: 693277904225bb50812461f93bfa397f4a6522598aac3b90ccca285a45fce5b4
+      check_sha256: 830cdb6d0c2ccb650a23c85795bb725c574b2b546a697fd18fc2fcb7a2b09c7f
+  IB/2021/P4/q7H:
+    original_pdf: private/raw/tripos/IB/2021/P4.pdf
+    source_pages:
+    - 3
+    original_number: 7H
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 1e90b42b7ffbe1a6a91f61eafbd1dec99e0efab32a41c298a2cc5d48426add18
+    independent_rework: |
+      # IB/2021/P4/q7H — independent rework
+
+      Started from 0, the walk returns at time 2n with probability aₙ=binomial(2n,n)/4ⁿ; odd times are impossible. The supplied factorial bounds put aₙ between positive constants times n⁻¹ᐟ². Thus the expected number of visits to 0, including time zero, diverges. If the probability r of a positive-time return were less than one, the strong Markov property at returns would give geometric visit count with mean 1/(1−r). Hence r=1, and all states are recurrent by translation.
+
+      For three independent walks from zero the simultaneous-return probability at 2n is aₙ³=O(n⁻³ᐟ²), summable. The first Borel–Cantelli lemma makes the probability of infinitely many simultaneous visits zero, without any independence in time. This remains true for arbitrary fixed initial positions: incompatible parities preclude simultaneous hits; if a first joint hit occurs the strong Markov property reduces all subsequent visits to the case just treated.
+    comparison: The geometric-return argument correctly translates divergence of the one-dimensional Green sum into
+      recurrence; divergence of expectations alone would not suffice. Cubing the point probabilities gives summability
+      and first Borel–Cantelli. The canonical uniform binomial bound and the rework’s first-joint-hit argument both
+      extend to arbitrary fixed starts.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Central-binomial recurrences and uniform point-mass bounds verified; independent triple counts match
+        through ten steps.
+      question_sha256: fa503d38fd07034beedcdb3babd1361170bbb4f167e7812976a80cf7098b1911
+      solution_sha256: 8e16ec098d487d89e0b62a44d66deb707b7ba8d62e6f3235414b774ec90b3d50
+      check_sha256: ba8c603b08b4befdb962995605c308769dd3e8ccf51c8505b6db246163d36545
+  IB/2021/P2/q14A:
+    original_pdf: private/raw/tripos/IB/2021/P2.pdf
+    source_pages:
+    - 9
+    original_number: 14A
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: a5b48b9f2ea1995543f86635932a2198b8973373eb406ce4131378889c2355a9
+    independent_rework: |
+      # IB/2021/P2/q14A — independent rework
+
+      Oddness reduces the transform to −2i∫₀¹sin(kx) dx=−2i(1−cos k)/k, with limiting value 0 at k=0. The inverse transform of exp(−λ|k|) is π⁻¹ Re∫₀∞exp[−(λ−ix)k] dk=λ/[π(λ²+x²)], justified by λ>0.
+
+      Extend the bottom data oddly across x=0 to f. In the upper half-plane the transformed equation is û_yy−k²û=0, whose decaying mode has multiplier exp(−|k|y); the zero mode here has zero data. Inversion gives convolution with P_y(s)=y/[π(s²+y²)]. Integrating separately on the two intervals gives u=∫₀¹(P_y(x−v)−P_y(x+v))dv. The difference is (4xy/π)v/{[(x−v)²+y²][(x+v)²+y²]}, as claimed for y>0. Odd symmetry gives u(0,y)=0. Compact support and the kernel bounds give decay along each unbounded direction. P_y is a unit-mass approximate identity, yielding the boundary trace at continuity points. At the jump x=1 the vertical limit is 1/2, although one may assign the printed value 0 on the boundary itself. At (0,0) the two traces differ and there is no continuous extension.
+
+      By linearity and symmetry w=u(x,y)+u(y,x) in the interior. This sum gives both required traces on the open edges away from jumps and decays as stipulated. The assigned values at the isolated jumps and at the corner do not affect the interior; w approaches 1 at the corner, while its prescribed point value there is 0.
+    comparison: 'All Fourier constants, the zero frequency, convolution signs and superposition agree. Canonical
+      treats the bounded Poisson extension and the bottom jump at x=1 correctly. At the origin the separate boundary
+      assignment does not force continuity: u has direction-dependent limits and w tends to 1 although the assigned
+      w(0,0) is zero. The canonical statement about open smooth segments accommodates this. No repair required.'
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Quarter-plane integral, harmonicity, and half-height trace at the discontinuity verified.
+      question_sha256: fd3fedbb3b3e6794d3b47482f97af29653808839d967a4099f2e92af5c34270c
+      solution_sha256: 793c4e45d3ea44334dfc0a15f49998843ce6aaaf5ad32179434f424682a5c16d
+      check_sha256: 893f75f35e2392f79bfdbd48c0cf2eda9f8118322ecf552397a890bfb6ce162b
+  IB/2021/P4/q14C:
+    original_pdf: private/raw/tripos/IB/2021/P4.pdf
+    source_pages:
+    - 7
+    original_number: 14C
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 555cec63c9d6ca0f63de81ddc70c9d6f426cdf35247d6605c777d498de07c62f
+    independent_rework: |
+      # IB/2021/P4/q14C — independent rework
+
+      For t>0 and D>0 put h=t⁻¹ᐟ² exp(−x²/(4Dt)). Then h_t=h[−1/(2t)+x²/(4Dt²)]=Dh_xx. Its mass by x=2√(Dt)s is 2√(πD). Dividing gives the unit-mass kernel G_t. Against any bounded continuous test function the same substitution yields π⁻¹ᐟ²∫exp(−s²)φ(2√(Dt)s)ds→φ(0) by dominated convergence, proving the delta trace.
+
+      By superposition, convolution of the top hat with G_t is ∫₋₁¹G_t(x−v)dv=[Erf((x+1)/(2√(Dt)))−Erf((x−1)/(2√(Dt)))]/2. It is even and mass 2 for t>0. At t=0 draw a flat height-one segment on [−1,1] with closed top endpoints and height zero outside, open at the lower endpoints. At small positive time round each edge over width of order √(Dt); at x=±1 the limit as t decreases to zero is 1/2. For all positive times there is a smooth symmetric maximum at x=0 of height Erf(1/(2√(Dt))) decreasing with time, strict decrease for x>0 since θₓ=G_t(x+1)−G_t(x−1)<0, positive tails tending to zero. At large time it spreads and flattens, approximately 2G_t on the diffusive spatial scale; the area remains constant. These properties determine the requested sketches.
+    comparison: 'Gaussian mass, delta trace and the two-error-function convolution agree; smoothing preserves area
+      two and the t↓0 limit is 1/2 at the endpoints. Inspected the actual PNG: a dashed initial box and three symmetric
+      curves for Dt=0.02, 0.2, 1 show decreasing central heights and broadening tails. The vertical jump connectors
+      are a conventional sketch; the prose explicitly specifies the initial endpoints.'
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Heat-kernel evolution, finite-interval convolution and conserved area verified at three times.
+      question_sha256: 5059d82c074b1756090d4a779e51e2aefaf221bf4fd0fc7cb4b45a3712c9f481
+      solution_sha256: f25ddfaa59107232c2c25ab17300b51e8cd8dfe557a30d47fcd2708aade62d46
+      check_sha256: 16f98a4bf7ccab8910420171d6902fd0faa568dcc96bb26872018f4bcac80ee0
+    solution_figure:
+      file: figures/diffusing-box.png
+      sha256: eb0eeba41720a08ccbdf9bcbdfa0fa4795efa43070b3e388020aebdc772bf7ef
+      plot_py_sha256: 76d9278e2fc681353b7bbd0bdeb0376a56e1a63a8a8c39c8dca19341ce94bd1d
+      visually_inspected: true
+  IB/2021/P3/q17B:
+    original_pdf: private/raw/tripos/IB/2021/P3.pdf
+    source_pages:
+    - 11
+    original_number: 17B
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 5495b45a1699b021b6f4ee325863f7ea4a6d6b62f7e551730689865d3b2a49af
+    independent_rework: |
+      # IB/2021/P3/q17B — independent rework
+
+      Distribute j derivatives onto the power and n−j onto the exponential. The product rule yields pₙ=Σ_{j=0}ⁿ (−1)ʲ binomial(n,j)(n+1/2)_{falling j} xⁿ⁻ʲ, first for x>0 and then by polynomial extension at 0. Its high terms are xⁿ−n(n+1/2)xⁿ⁻¹. In particular p₀=1, p₁=x−3/2, p₂=x²−5x+15/4.
+
+      With F=x^{n+1/2}exp(−x), the scalar product with polynomial h is (−1)ⁿ∫hF⁽ⁿ⁾=∫h⁽ⁿ⁾F. All integrations by parts are valid: derivatives F⁽ʲ⁾ for 0≤j<n vanish as O(x^{n+1/2−j}) at zero and decay exponentially times a power at infinity even with polynomial factors. For h=pₘ, m<n, the result is zero; symmetry covers m>n. At m=n it is n!Γ(n+3/2) by monicity.
+
+      Compare the subleading coefficients of the recurrence to obtain αₙ=(n+1)(n+3/2)−n(n+1/2)=2n+3/2. Taking the product with pₙ₋₁ gives βₙ‖pₙ₋₁‖²=⟨pₙ,xpₙ₋₁⟩=‖pₙ‖² since xpₙ₋₁−pₙ has lower degree and is spanned by earlier monic polynomials. The norm ratio and the Gamma recurrence give βₙ=n(n+1/2), valid also for n=1.
+    comparison: The Leibniz expansion gives the same first three polynomials and subleading coefficient. Boundary
+      terms vanish after every integration by parts, including at the singular-looking origin by polynomial extension.
+      The squared norm, and αₙ=2n+3/2, βₙ=n(n+1/2), follow with the correct indices.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Rodrigues polynomials through degree six, 28 exact inner products and five three-term recurrences
+        verified.
+      question_sha256: 45cb4a9968c5dab91676eb66869dbdf49b44cc68d3e60ee76649a6fd6e097e10
+      solution_sha256: cf27eed44747e6a6a7ebb30f1744602245554444561386b249832fcb35c2f16e
+      check_sha256: 33c41e4366a912c0772c4d3ee2c38bff12cce3ee9a23ffb0a3f4c5a7ae117940
+  IB/2021/P4/q4C:
+    original_pdf: private/raw/tripos/IB/2021/P4.pdf
+    source_pages:
+    - 3
+    original_number: 4C
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 68daaa92fc68cf7d7c2c49236fd4f51948a0fe059afdfebb53f9eb4f30b2085d
+    independent_rework: |
+      # IB/2021/P4/q4C — independent rework
+
+      For real U the Schrödinger equation and its conjugate imply ∂ₜ|Ψ|²+∂ₓj=0 with j=(ℏ/2mi)(Ψ*Ψₓ−ΨΨₓ*). This follows by the product rule, as the potential terms cancel. For a sufficiently regular state with equal limiting currents, for example Ψ and Ψₓ decaying at both ends, integration yields zero rate of change of the norm. Thus the Born-rule density stays normalized and total probability is conserved.
+
+      Write b=ℏt/m and Q=α²+b²>0. Then |f|=Q⁻¹ᐟ² and Re f=α/Q, yielding |Ψ|²=C²Q⁻¹ᐟ² exp(−αx²/Q). The Gaussian integral is C²√(π/α) at every time. This is independent of the branch of the square root of f and is finite since α>0.
+    comparison: Schrödinger continuity, reality of the potential and equal limiting currents are correctly stated.
+      The density modulus, positivity of Re f and Gaussian integral give C²√(π/α) for all real times, independent
+      of square-root phase.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Gaussian norm and density verified directly for positive, negative and zero times at three widths.
+      question_sha256: 477537dcbb0e03f9d290fb224fc68f83985cb5837ca10f45f6a029d8f5ce6915
+      solution_sha256: 11ec91e848591b58441375a2ad4149f90be0ea039894f507b8a7e0c012558077
+      check_sha256: 6412cfc936e3c53c166f14a2811b75c9390f2646b0ee75a5553ddedf9011e5a0
+  IB/2021/P1/q6H:
+    original_pdf: private/raw/tripos/IB/2021/P1.pdf
+    source_pages:
+    - 3
+    original_number: 6H
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: b4b72d91a7032e70f5fbdd808c2eaff4611f57478e665b80fd9905d6e5377cde
+    independent_rework: |
+      # IB/2021/P1/q6H — independent rework
+
+      Sufficiency means that the conditional law of the entire sample given T has a version independent of p. Take T=ΣXᵢ. Each binary vector with sum s has probability pˢ(1−p)ⁿ⁻ˢ, so conditional on T=s the vector is uniform on the binomial(n,s) such vectors.
+
+      If S is a square-integrable estimator and T sufficient, R=E[S|T] is a statistic since the conditional law used to compute it is parameter independent. The tower law preserves its expectation and hence unbiasedness if S is unbiased. Orthogonality E[(S−R)(R−ES)]=0 follows by conditioning on T. Thus Var S=Var R+E[(S−R)²], so the improvement is strict unless S=R almost surely. More generally conditional Jensen gives no higher expected convex loss whenever the expectations exist.
+
+      For S=X₁X₂, ES=p². The conditional probability that positions 1,2 are both successes is s(s−1)/(n(n−1)) including s=0,1. On T=2, of positive probability for interior p, it equals 1/binomial(n,2) strictly between 0 and 1 for n≥3. Conditional Bernoulli variance is strictly positive on this event. Thus R has smaller variance for every permitted p.
+    comparison: Sufficiency follows from the uniform conditional sample, Rao–Blackwell preserves expectation by
+      conditioning and reduces variance by the law of total variance. Exact strictness comes from T=2, which has
+      positive probability and nondegenerate conditional law for n≥3 and 0<p<1. Both solutions obtain the same unbiased
+      estimator.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: All binary outcomes through n=7 confirm the conditional estimator, unbiasedness and strict variance
+        reduction.
+      question_sha256: ec1c22a51475a471f5cfe0fb1257cd78c0270620286ecac0bb0ed72d271a70f8
+      solution_sha256: 1cb8e5e07fc400f72bd99d748e3fb4b4ecacb95b2a73eacce39538aa8b34cdc7
+      check_sha256: 3905a0ad0e4975ac07824b17a97cd01903aa747b3eee0192f047dc9bde247c68
+rendering:
+  status: verified
+  compiled_pdf_pages_visually_inspected: 18
+  chrome_full_page_screenshots_visually_inspected: 12
+  viewport_px: 1220
+  math_nodes: 412
+  math_nodes_rendered: 412
+  parse_errors: 0
+  overflows_at_tested_width: 0
+  solution_diagrams_inspected_in_each_output: 1
+  notes:
+  - All sampled question and solution text, subscripts, matrices, cases, special functions and integrals appeared
+    legible in the inspected page spans. The diffusion sketch with all four traces, axes, legend and caption appears
+    on PDF p.18 and in the private browser page.
+  - Minor reflow in both renderings places the closing square bracket after the P4/q14C error-function hint on its
+    own line. P3/q17B PDF p.22 contains only open issues and source. The mathematics remains intact.
+  evidence_json_sha256: 82a47998fc4ea96cc8ee76788c25cbc161dd5d1491dace4a733ad452d001cdd2
+  browser_json_sha256: 65fe056e73b70f86a75f424913e2391ba868362db9f5a7c92a0139265420b463
+  units:
+    IB/2021/P1/q3B:
+      source_pdf: private/raw/tripos/IB/2021/P1.pdf
+      source_sha256: 4cb9de0949515ac85e2cd031fec08bc0eb4df9d816034dcf05ddfba795075b86
+      source_page: 2
+      compiled_pdf: build/IB-2021-P1/main.pdf
+      compiled_sha256: 0f6eea38f863c883eb363cd72c521de6ea848ebe8e292565faaeae6f8185fa2c
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2021/P1/q3B/index.html
+      html_sha256: 8567d85e44592e83a425e9ff3ea8520b165ca058b3100ebca2dc6798ae670d49
+      diagrams: {}
+      rendered_math_nodes: 12
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P1_q3B-build-3.png: 766102b24c145a8cd2fde2eefd522f59d532ab52e10b0cbc33b88722dc8c5d87
+        IB_2021_P1_q3B-html.png: a471f2dd7616506da18bcd5fe7830c425908286d5454e3f1797d139ba6301042
+        IB_2021_P1_q3B-orig.png: d6f561c3e674651d5186ade3397908d88b4130af52c89e173a6b58ca191f5bb6
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P1/q6H:
+      source_pdf: private/raw/tripos/IB/2021/P1.pdf
+      source_sha256: 4cb9de0949515ac85e2cd031fec08bc0eb4df9d816034dcf05ddfba795075b86
+      source_page: 3
+      compiled_pdf: build/IB-2021-P1/main.pdf
+      compiled_sha256: 0f6eea38f863c883eb363cd72c521de6ea848ebe8e292565faaeae6f8185fa2c
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2021/P1/q6H/index.html
+      html_sha256: d5e2f119fb50814edfab933e6b8c074bab4c04e1ee8d1a4e73be3c46aefcf07c
+      diagrams: {}
+      rendered_math_nodes: 37
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P1_q6H-build-6.png: fc689d1f7a6869a992c92d3dcdd04368a379d55f52f737a854e5e698854ab9ab
+        IB_2021_P1_q6H-html.png: 116d40785daf1768a21bfc47487d06cc0e7c5c0c0a82b59006b67e2f5dd88ad9
+        IB_2021_P1_q6H-orig.png: a2714ee1af11738d1e9f230e3950f9709c6f605c942fcac08d956a881979bbaa
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P1/q15D:
+      source_pdf: private/raw/tripos/IB/2021/P1.pdf
+      source_sha256: 4cb9de0949515ac85e2cd031fec08bc0eb4df9d816034dcf05ddfba795075b86
+      source_page: 9
+      compiled_pdf: build/IB-2021-P1/main.pdf
+      compiled_sha256: 0f6eea38f863c883eb363cd72c521de6ea848ebe8e292565faaeae6f8185fa2c
+      compiled_pages:
+      - 18
+      - 19
+      html: site/private/questions/IB/2021/P1/q15D/index.html
+      html_sha256: 225d71ace1d21346154252d0b33804cb7576de5a15f83bfbe960d0759d34b2a7
+      diagrams: {}
+      rendered_math_nodes: 47
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P1_q15D-build-18.png: fcb4afa33a00c087f58aae417f30064c26f61d767dca8f785eca317e4ba012ff
+        IB_2021_P1_q15D-build-19.png: 4bb550639120c8b56fbda5836239c5e35acf804efecec13804388456cdd8e474
+        IB_2021_P1_q15D-html.png: bac2c15764edeb80189997c749f26ab22620f49bf8e7c39032841d58829587f2
+        IB_2021_P1_q15D-orig.png: 6dee302b93a0f78cc7b5497dbd539ea13769cd1c4b4aa67ca83784c550dd6896
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P2/q2F:
+      source_pdf: private/raw/tripos/IB/2021/P2.pdf
+      source_sha256: 90f250b22fb4c76f41944bbe2730ca34fc8f5082cf2213b7e32878d6f7774775
+      source_page: 2
+      compiled_pdf: build/IB-2021-P2/main.pdf
+      compiled_sha256: 81c2f64c1dfa5db3799229a5f619d9010fb5242ed7b7c9b5aed53c1eed6aaad2
+      compiled_pages:
+      - 2
+      html: site/private/questions/IB/2021/P2/q2F/index.html
+      html_sha256: fa3c118146b7569ae88600cbf25ae13f32040d3af0de6a010be7e9a33408bd0e
+      diagrams: {}
+      rendered_math_nodes: 24
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P2_q2F-build-2.png: a2c27a3c8d93fd3cb83df22684c0bae5a26f2b7cb01f7cb5e14f636dd7d2cc5f
+        IB_2021_P2_q2F-html.png: f4df0e46475b100b295e1c0a61b729956ed3f07830c128de00ea38ff501909d9
+        IB_2021_P2_q2F-orig.png: 36ef90427c65fb61e6fc59bbf023aeb1fb07c0c687cd53a5ec2d072dbd1af105
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P2/q8E:
+      source_pdf: private/raw/tripos/IB/2021/P2.pdf
+      source_sha256: 90f250b22fb4c76f41944bbe2730ca34fc8f5082cf2213b7e32878d6f7774775
+      source_page: 5
+      compiled_pdf: build/IB-2021-P2/main.pdf
+      compiled_sha256: 81c2f64c1dfa5db3799229a5f619d9010fb5242ed7b7c9b5aed53c1eed6aaad2
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2021/P2/q8E/index.html
+      html_sha256: 69700cfa8d98c5aafc9aea54ef38dab3e2200e292a661e281859cc3356b0071e
+      diagrams: {}
+      rendered_math_nodes: 52
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P2_q8E-build-8.png: 7ea36cf7219aba9d8ec2256262df0e751e60f2bd3448c7b9d4a6dbba5480ab47
+        IB_2021_P2_q8E-html.png: 9b8a20d790d6369cf1d10dfb7471d9ae344ae3a28ab42a084bc0833d37294f2c
+        IB_2021_P2_q8E-orig.png: a9b8a2bcd24f535e19ae1b2509f3a380379384212474be0a5d3d7f02c15c5c5e
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P2/q14A:
+      source_pdf: private/raw/tripos/IB/2021/P2.pdf
+      source_sha256: 90f250b22fb4c76f41944bbe2730ca34fc8f5082cf2213b7e32878d6f7774775
+      source_page: 9
+      compiled_pdf: build/IB-2021-P2/main.pdf
+      compiled_sha256: 81c2f64c1dfa5db3799229a5f619d9010fb5242ed7b7c9b5aed53c1eed6aaad2
+      compiled_pages:
+      - 15
+      - 16
+      html: site/private/questions/IB/2021/P2/q14A/index.html
+      html_sha256: 1663de51fb58e73cb573e901191d66569a57fe9477f63406ba9b4d0cebc36fac
+      diagrams: {}
+      rendered_math_nodes: 34
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P2_q14A-build-15.png: 76dd6956e99f5e6ac6a89c77d06a7054ccabb8138131fcd2cb35f9c04df26d21
+        IB_2021_P2_q14A-build-16.png: f525eeb8c69f445fe700fedec2afe9aa765fd76eb98aecfe310071641eb16102
+        IB_2021_P2_q14A-html.png: b30f67ff918531ca230f8f94030d0e19768c33055dcc5c167fcbf710c1047582
+        IB_2021_P2_q14A-orig.png: cffc6d5dcdfebd18166b35f5d55d16725049bb4dce90f1de59a8550d365e5021
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P3/q9E:
+      source_pdf: private/raw/tripos/IB/2021/P3.pdf
+      source_sha256: e102b094967c1cd19079415d337aabb79a0e2af83d7bc4fcef55115a79eab431
+      source_page: 5
+      compiled_pdf: build/IB-2021-P3/main.pdf
+      compiled_sha256: bf841e1094b67d7fcdb87e84813dc940ac1089c78e734357b967088824850820
+      compiled_pages:
+      - 9
+      - 10
+      html: site/private/questions/IB/2021/P3/q9E/index.html
+      html_sha256: 15aa00b90f5099e8eb1349400edd95ac8ab3a5715b1f04fb85ca49690d430226
+      diagrams: {}
+      rendered_math_nodes: 59
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P3_q9E-build-9.png: 378b22f4b59a4532cf72ada5e843bd8abd8b3e541fbe2b89d6de2f0e5022267e
+        IB_2021_P3_q9E-build-10.png: 4ba00ada31e367d8413b07803257eade62461e21f63597953b1d0e68883661a1
+        IB_2021_P3_q9E-html.png: b90b185fced0209eeddf69f48ed861884c57f35cf6d2a820832b219cd9564557
+        IB_2021_P3_q9E-orig.png: fbbda9c499fa49cdaa10e1047a8a1d85cee20a5e9df785592d22a50643542b44
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P3/q16A:
+      source_pdf: private/raw/tripos/IB/2021/P3.pdf
+      source_sha256: e102b094967c1cd19079415d337aabb79a0e2af83d7bc4fcef55115a79eab431
+      source_page: 10
+      compiled_pdf: build/IB-2021-P3/main.pdf
+      compiled_sha256: bf841e1094b67d7fcdb87e84813dc940ac1089c78e734357b967088824850820
+      compiled_pages:
+      - 19
+      - 20
+      html: site/private/questions/IB/2021/P3/q16A/index.html
+      html_sha256: d08cc23b95bf0a0ebaebb8e0ca8312128f772ae697a64ab669b2764b11642a4a
+      diagrams: {}
+      rendered_math_nodes: 32
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P3_q16A-build-19.png: bbeb17dd12d3308dcb9261f8e5a516055108de3d395085fe2bb6498c71bfe0e0
+        IB_2021_P3_q16A-build-20.png: 1df778b61ee3cc8e5f07100d56a93ea2841f4b5ef7126935edf3c61f89f1926c
+        IB_2021_P3_q16A-html.png: 2236252f83bb6d7210e1e3726e1e9189e578b2d600533985c6dc5a3092d3e35c
+        IB_2021_P3_q16A-orig.png: b85183bdaf681be8fdaa2ee132d1628b297c9326ea74524997b88e5e01ddd36b
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P3/q17B:
+      source_pdf: private/raw/tripos/IB/2021/P3.pdf
+      source_sha256: e102b094967c1cd19079415d337aabb79a0e2af83d7bc4fcef55115a79eab431
+      source_page: 11
+      compiled_pdf: build/IB-2021-P3/main.pdf
+      compiled_sha256: bf841e1094b67d7fcdb87e84813dc940ac1089c78e734357b967088824850820
+      compiled_pages:
+      - 21
+      - 22
+      html: site/private/questions/IB/2021/P3/q17B/index.html
+      html_sha256: 9d848aac10d12b65082db26a062ba2ec535e278b9aa5ddc9696b6b485994a307
+      diagrams: {}
+      rendered_math_nodes: 44
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P3_q17B-build-21.png: c8c9ad362aa261b44758761920fa30e8b8b1797f3d8f5c6672475ba9f1c1fc0e
+        IB_2021_P3_q17B-build-22.png: a1c57f03b4586b7795c93825df699951873f9a988fba2ae980a2c5432d765505
+        IB_2021_P3_q17B-html.png: 859d71acfc1745ba94c4601b4b702805abc0385af094a6dc441904bf88c54df2
+        IB_2021_P3_q17B-orig.png: 2db0ba0113bc100da64dd527687f839917ba2c8970a05ba43d39d02e9c166b7c
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P4/q4C:
+      source_pdf: private/raw/tripos/IB/2021/P4.pdf
+      source_sha256: 835dedafaa3fa5fcfda283396f6a7d9a3f41cd532ef7b06e637d63ee9cfde3fc
+      source_page: 3
+      compiled_pdf: build/IB-2021-P4/main.pdf
+      compiled_sha256: f934bb391c827a547a63dcaa3ffc184a0029ba38cf5171dbfdee757340633efd
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2021/P4/q4C/index.html
+      html_sha256: b9c8e918ba00ba1ca38b258a26cef95abd9aaa12c90844ca5d7a8f5cec8b336e
+      diagrams: {}
+      rendered_math_nodes: 22
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P4_q4C-build-5.png: e555768dc459aca435de667e61d699ae013d016df3e532d77e348c700493b27c
+        IB_2021_P4_q4C-html.png: 4203278a53220c2a8c14a58614c8907cb7a1098dce94bc98b4a92b20fa3843b6
+        IB_2021_P4_q4C-orig.png: 0aebb15eedb176d088a5deb1281fe950b5a519801dd4adc4baeabefac3cf4106
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P4/q7H:
+      source_pdf: private/raw/tripos/IB/2021/P4.pdf
+      source_sha256: 835dedafaa3fa5fcfda283396f6a7d9a3f41cd532ef7b06e637d63ee9cfde3fc
+      source_page: 3
+      compiled_pdf: build/IB-2021-P4/main.pdf
+      compiled_sha256: f934bb391c827a547a63dcaa3ffc184a0029ba38cf5171dbfdee757340633efd
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2021/P4/q7H/index.html
+      html_sha256: e7cfca0dbafa557f9ebb13b801802a3772c0b58390096c66b46f19057796c377
+      diagrams: {}
+      rendered_math_nodes: 22
+      browser_diagrams: []
+      rendered_artifact_sha256:
+        IB_2021_P4_q7H-build-8.png: 29f1f6473425b3a293bc295291a87212dcb6b6dedb0387a7a6ca99c00952c0dc
+        IB_2021_P4_q7H-html.png: 57778e0be09661d3e85b364f9bca96a046c741f662c110d0fc87ea911121e343
+        IB_2021_P4_q7H-orig.png: 0aebb15eedb176d088a5deb1281fe950b5a519801dd4adc4baeabefac3cf4106
+      auditor_pdf_pages_and_web_screenshot_inspected: true
+    IB/2021/P4/q14C:
+      source_pdf: private/raw/tripos/IB/2021/P4.pdf
+      source_sha256: 835dedafaa3fa5fcfda283396f6a7d9a3f41cd532ef7b06e637d63ee9cfde3fc
+      source_page: 7
+      compiled_pdf: build/IB-2021-P4/main.pdf
+      compiled_sha256: f934bb391c827a547a63dcaa3ffc184a0029ba38cf5171dbfdee757340633efd
+      compiled_pages:
+      - 17
+      - 18
+      html: site/private/questions/IB/2021/P4/q14C/index.html
+      html_sha256: 7d7006814f6c357a988109c64438b1beb4c7dc4f000114f11a007da0b83ab458
+      diagrams:
+        site/private/figures/tripos/IB/2021/P4/q14C/diffusing-box.png: eb0eeba41720a08ccbdf9bcbdfa0fa4795efa43070b3e388020aebdc772bf7ef
+      rendered_math_nodes: 27
+      browser_diagrams:
+      - alt: Initial profile and three later temperature profiles for the diffusion equation.
+        width: 942
+        height: 500
+      rendered_artifact_sha256:
+        IB_2021_P4_q14C-build-17.png: 72b36572f02fc0eabb1610367a4eb5f88e519065636c4e5a435e9624d60a120d
+        IB_2021_P4_q14C-build-18.png: 22a9ced02b87e5cc90be637b1a4a9e8b928984c33047019e8d24cb045f56d1e7
+        IB_2021_P4_q14C-html.png: d860d6b2357b45f4fea20eaf52353a470ba99e6588f99b41e607dd16fb3f9b56
+        IB_2021_P4_q14C-orig.png: 666c50796114c2d2406856a841d2a086106e7d5536ca7b8068345287ed916829
+      auditor_pdf_pages_and_web_screenshot_inspected: true

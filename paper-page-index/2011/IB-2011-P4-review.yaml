@@ -1,0 +1,293 @@
+paper_id: IB/2011/P4
+id: IB/2011/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2011-06-10'
+printed_date: Friday, 10 June, 2011
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2011/P4.pdf
+archive: private/raw/tripos/IB/2011/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2011/PaperIB_4.pdf
+sha256: 161ce3c024a19b74f0e75c20fe7276575c3dfd8d3d3ddd641cc567aeb22f8463
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2011/P4/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1652dac79ee44b88109121c33083ab7f4e1aadfbdf3e24412bd1570af62374d1
+  checks: Checked which spaces are finite-dimensional, the upper-triangular inequality and all four dimensions.
+  source_page_render_sha256: 906edae707ace3425b696c21156618cebfb3d812a77622b35e6c92350ce95a72
+- id: IB/2011/P4/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ae08fe4d5477f4fafe7da3d3670408575ca2c9451ccb0c14d036ce948a4a3049
+  checks: Checked all indices, inclusions and equalities in the descending-chain condition.
+  source_page_render_sha256: 906edae707ace3425b696c21156618cebfb3d812a77622b35e6c92350ce95a72
+- id: IB/2011/P4/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 728fc95b4e854bcdedca38e8f29deebd03279c9a1272eee16783bbb022df3423
+  checks: Checked that the sup distance is on bounded functions and the continuous-function subspace is closed.
+  source_page_render_sha256: 906edae707ace3425b696c21156618cebfb3d812a77622b35e6c92350ce95a72
+- id: IB/2011/P4/q4E
+  original_question: 4E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: dfbde5aace1d2c116028f4faab9da0ed77cf80b560481863f0a6b4bc5a93a53a
+  checks: Checked the open-set hypothesis and the exact permission to use Cauchy’s integral formula.
+  source_page_render_sha256: 906edae707ace3425b696c21156618cebfb3d812a77622b35e6c92350ce95a72
+- id: IB/2011/P4/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: fe21bab0fb6c01fc152506920bbd2669d122ffeeeb4e95a4d42b31fddaec0c97
+  checks: Checked the swapped characteristic coefficients, fourth-power datum and uniqueness question.
+  source_page_render_sha256: eeb093543ffe2b08c4d7d927f5905832ab2662b2fad77f4494547d91601c5f82
+- id: IB/2011/P4/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 4ef0a2f4abf67cd0990c15acc96aafbc7476032da85b2918affe6fd80998e1e4
+  checks: Checked oscillator anisotropy, prefactors, three levels and the given one-dimensional spectrum.
+  source_page_render_sha256: eeb093543ffe2b08c4d7d927f5905832ab2662b2fad77f4494547d91601c5f82
+- id: IB/2011/P4/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 87283547f8a61a4acd31b605ec2f1e2969a8ba8d98b7b01097b02e9b5c6e8b1e
+  checks: Checked phase, field components, polarization and the vector-potential gauge assumption.
+  source_page_render_sha256: eeb093543ffe2b08c4d7d927f5905832ab2662b2fad77f4494547d91601c5f82
+- id: IB/2011/P4/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 62d7032dbbed1edd1df1f76a2e9e4de1f0627b798a9d141abb0f70c9f81a5a02
+  checks: Checked both sums, powers and indices in the order conditions, characteristic polynomial and full
+    two-step formula.
+  source_page_render_sha256: 6f18a5acc828174d999b6d76ab24db227e4274b118f83704ab38d99036dd6d1d
+- id: IB/2011/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 87b762ee49073534419fe4ffbd37cdb6bb654afa0b373429143bb029e601aba7
+  checks: Checked the transition direction, indices in the inequality and state subscripts in the divisibility
+    result.
+  source_page_render_sha256: 6f18a5acc828174d999b6d76ab24db227e4274b118f83704ab38d99036dd6d1d
+- id: IB/2011/P4/q10G
+  original_question: 10G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 917723a956c86f38c2ff6f118beac60fc7254bab348a060154b388dd1cadcd2f
+  checks: Checked the order of composed linear maps, strict scalar bound and the exponent n minus one.
+  source_page_render_sha256: 45337fc9b913dcc24af2348a385fc48c9d19592bd08082e34833c7f6ed13b0da
+- id: IB/2011/P4/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 95b85fc57072c9213fc12529da72e81c8aba70ab3837b33f23258c702edfc350
+  checks: Checked the named theorem and Noetherian question.
+  source_page_render_sha256: 45337fc9b913dcc24af2348a385fc48c9d19592bd08082e34833c7f6ed13b0da
+- id: IB/2011/P4/q12E
+  original_question: 12E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 639bfae6bf5756cc95cd9cbfb4030a77f30ff7dcc7270c96ac687b0e783794de
+  checks: Checked the iterate convention, contraction power and integral bounds in the example.
+  source_page_render_sha256: 45337fc9b913dcc24af2348a385fc48c9d19592bd08082e34833c7f6ed13b0da
+- id: IB/2011/P4/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 79d8548dee9af9fdbd3839e7819684aab40eec8d8d9f5a4e8d9b6b0d5cdd1d9c
+  checks: Checked which factor is projected away and the compactness requirement in the last part.
+  source_page_render_sha256: db519038adc7fca78ff9394387a21a0bcad78fb71f1e7a1b006ed28372bfebdb
+- id: IB/2011/P4/q14D
+  original_question: 14D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: a2a9e4b9f052336fbd743f5d75fff76d1effa7fdfbc8b9d79a3bd36369b79691
+  checks: Checked the convolution sign, kernel power, forcing and condition on the real part of s.
+  source_page_render_sha256: db519038adc7fca78ff9394387a21a0bcad78fb71f1e7a1b006ed28372bfebdb
+- id: IB/2011/P4/q15F
+  original_question: 15F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 837ea3d6005f9a34c79786819db4b8b8a6b70236cefbbdc19b001659abfd4655
+  checks: Checked the radius qualification, centre and right-angle conclusion.
+  source_page_render_sha256: db519038adc7fca78ff9394387a21a0bcad78fb71f1e7a1b006ed28372bfebdb
+- id: IB/2011/P4/q16D
+  original_question: 16D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: a8cae95288b35f46759a7205360c1d05588be5b9707c284af4fa95ba705fd543
+  checks: Checked the four integrand arguments, all three boundary conditions and the printed stationary function.
+  source_page_render_sha256: db519038adc7fca78ff9394387a21a0bcad78fb71f1e7a1b006ed28372bfebdb
+- id: IB/2011/P4/q17A
+  original_question: 17A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: d365293186011eebc001b774dfa7aed3d41686f316defd0737e8bd3d666a6c1e
+  checks: Checked signs and order of the Green identity, normal derivative, half-plane integral and reflected-source
+    hint.
+  source_page_render_sha256: 79eacc7c01ff83c32e3e0ed7f6e7ab6a1b8385ea8d139ee868c3248f2fa4b73a
+- id: IB/2011/P4/q18D
+  original_question: 18D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 15da145e513290989af558d96f99edb33ed71daf008f244a099f0aa6d1a093de
+  checks: Checked both unbounded limits of the sum, circulation terms and radial and azimuthal acceleration
+    components.
+  source_page_render_sha256: c089ef611c1f4204ad24985a6cf8ca6b6559a8e0d4bb3abb51f40b7d17098709
+- id: IB/2011/P4/q19H
+  original_question: 19H
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 36e36cab6219f5574fc2f58d4719ef631ee57dd81a61ff70251f9178206ac01c
+  checks: Checked both normal samples, size, variance hypotheses, sums of squares and gamma-to-beta identity.
+  source_page_render_sha256: c089ef611c1f4204ad24985a6cf8ca6b6559a8e0d4bb3abb51f40b7d17098709
+- id: IB/2011/P4/q20H
+  original_question: 20H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 06503cc271d8df5e9b684b515edb2b148b4fda9c2ab9af3539c4e813a0a7447c
+  checks: Checked each cost and row and column total, the direction of the B-to-a shipment, and the two changed
+    quantities.
+  figures:
+  - transport-costs
+  source_page_render_sha256: 217651fe9c523e116146132ba063991d69eb587c462813c70d0e263b33c78494
+  figure_png_sha256:
+    transport-costs: 4df8777e0f098a881d6cdfa7c20c21ceb8e2c38ce68f07b056fe0a9646cb06f9
+  plot_sha256: 3df02ed77d8df52ed6a0d950b114b53b16b38ebde773ee1cb3b4f6b5a60cbe33
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: b76d0aa70badcc28f8d45b02c352aa25f5ff3c5c5b2b2eec43c144c0a8733432

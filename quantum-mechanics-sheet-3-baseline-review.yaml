@@ -1,0 +1,166 @@
+sheet_id: IB/quantum-mechanics/sheet-3
+edition: 2025-26
+term: Michaelmas Term 2025
+lecturer: Prof. Maria Ubiali
+archive: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-3.pdf
+url: https://web.archive.org/web/20260519003516id_/https://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+sha256: 7dc60e3cccde6319643cdf2d5772ae75042d52f16c29de279ddf9eed396de9e4
+page_count: 3
+question_count: 11
+printed_labels:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+diagrams: []
+reviewer: Codex source-transcription reviewer, 2026-11-21
+verification_method: Compared the complete wording, symbols, references and subpart labels with the archived pages
+  rendered at 145 dpi.
+questions:
+- id: q01
+  question_id: IB/quantum-mechanics/sheet-3/q01
+  original_question: '1'
+  printed_label: '1.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: e7874ebce716d8f490363b35cfab58860e3de9398bf94389167157a19bddb8b4
+  checks: Checked the printed change from the chi expectation to psi, the ordered product of position and momentum,
+    and both coefficients involving n+2.
+  source_page_render_sha256: 7f73179b5c15198500e9ce2caa71717e7156f3ea66a248e716a5ebcdca526973
+- id: q02
+  question_id: IB/quantum-mechanics/sheet-3/q02
+  original_question: '2'
+  printed_label: '2.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: f38e5ba23c5f971f20607998ffdf72bd526ddd8b58acffe627a6aaefd1fdb6a4
+  checks: Checked the order Q,H of the commutator, psi subscripts, the three-dimensional vector operators and both
+    requested comparisons.
+  source_page_render_sha256: 7f73179b5c15198500e9ce2caa71717e7156f3ea66a248e716a5ebcdca526973
+- id: q03
+  question_id: IB/quantum-mechanics/sheet-3/q03
+  original_question: '3'
+  printed_label: '3.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+  checks: Checked the factor i in the first commutator bound, its absence in the final modulus, the norm square
+    and the two constants.
+  source_page_render_sha256: 7f73179b5c15198500e9ce2caa71717e7156f3ea66a248e716a5ebcdca526973
+- id: q04
+  question_id: IB/quantum-mechanics/sheet-3/q04
+  original_question: '4'
+  printed_label: '4.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: ec58209291b1c2f910e82ae42b0a6797095e3209c4ffa857eaf6c17547bda7a1
+  checks: Checked the three open coordinate intervals, squared dimensions and indices, allowed integers and cubic-box
+    degeneracy question.
+  source_page_render_sha256: 7f73179b5c15198500e9ce2caa71717e7156f3ea66a248e716a5ebcdca526973
+- id: q05
+  question_id: IB/quantum-mechanics/sheet-3/q05
+  original_question: '5'
+  printed_label: '5.'
+  page: 1
+  pages:
+  - 1
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  checks: Checked all three oscillator coordinates, zero-point energy, non-negative indices, the ground state and
+    N = 2 request.
+  source_page_render_sha256: 7f73179b5c15198500e9ce2caa71717e7156f3ea66a248e716a5ebcdca526973
+- id: q06
+  question_id: IB/quantum-mechanics/sheet-3/q06
+  original_question: '6'
+  printed_label: '6.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+  checks: Checked both labelled parts, the printed article “a energy”, the radial momentum square and the Coulomb
+    signs and constants, followed by the normalization and distance requests.
+  source_page_render_sha256: f0cb55750d87e070b74c1b47d4a47b842fb1b32a95a2e74f4d2fb4463e70cd2f
+  printed_subparts:
+  - (a)
+  - (b)
+- id: q07
+  question_id: IB/quantum-mechanics/sheet-3/q07
+  original_question: '7'
+  printed_label: '7.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 40c90c67b30a79a5ec237733a39bd9b06ffbd500300de05be503a6454e5e2969
+  checks: Checked the distinction between L squared and L3 squared, the Cartesian derivative hint, three component
+    wavefunctions and the factor 2 in the eigenvalue.
+  source_page_render_sha256: f0cb55750d87e070b74c1b47d4a47b842fb1b32a95a2e74f4d2fb4463e70cd2f
+- id: q08
+  question_id: IB/quantum-mechanics/sheet-3/q08
+  original_question: '8'
+  printed_label: '8.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: aa31557b58c81e91f40ed02d0f6e5d20dbd41b19e6a47154ae8a8e9c8487a457
+  checks: Checked labels (a), (b) and (c)* including “If time permits”, the radial transformation, exponential sign,
+    scale and the request for all allowed angular momenta.
+  source_page_render_sha256: f0cb55750d87e070b74c1b47d4a47b842fb1b32a95a2e74f4d2fb4463e70cd2f
+  printed_subparts:
+  - (a)
+  - (b)
+  - (c)*
+  optional_subpart: (c)* If time permits
+- id: q09
+  question_id: IB/quantum-mechanics/sheet-3/q09
+  original_question: '9'
+  printed_label: '9.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+  checks: Checked cyclic commutation and both commutator orders, the unhatted A in the prose, both equal squared
+    expectations and their consistency check.
+  source_page_render_sha256: f0cb55750d87e070b74c1b47d4a47b842fb1b32a95a2e74f4d2fb4463e70cd2f
+- id: q10
+  question_id: IB/quantum-mechanics/sheet-3/q10
+  original_question: '10'
+  printed_label: '10.'
+  page: 2
+  pages:
+  - 2
+  question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+  checks: Checked all twelve matrix entries and signs, the commutator and sum of squares, and the two stated eigenvalues
+    with a positive s.
+  source_page_render_sha256: f0cb55750d87e070b74c1b47d4a47b842fb1b32a95a2e74f4d2fb4463e70cd2f
+- id: q11
+  question_id: IB/quantum-mechanics/sheet-3/q11
+  original_question: '11'
+  printed_label: '11.'
+  page: 3
+  pages:
+  - 3
+  question_sha256: 9d26b35de0edeeb16335e4e2c81304fd226dfe659b114d716355fe1c1c007ee1
+  checks: Checked sudden-change continuity, the hydrogenic normalization, the exact Example 6 reference and the
+    increase from Z to Z+1.
+  source_page_render_sha256: b4352d2ecb6b6578749118f9775f197f47ef79ee60aa99564a91f20861d0b8f1
+  printed_references:
+  - text: Example 6
+    target: q06
+    same_sheet: true
+verification:
+  restricted_fragments: 11
+  compiled_question_pages: 11
+  compiled_page_images_compared: 11
+  distinct_pinned_katex_expressions: 100
+  katex_failures: 0
+signed_off_by: Codex source-transcription reviewer, 2026-11-21
