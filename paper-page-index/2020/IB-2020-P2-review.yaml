@@ -1,0 +1,267 @@
+paper_id: IB/2020/P2
+id: IB/2020/P2
+main_count: 19
+unit_count: 19
+main_question_count: 19
+question_units: 19
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 7
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2020-06-10'
+printed_date: Wednesday, 10 June, 2020
+time: 3 hours
+source: private/raw/tripos/IB/2020/P2.pdf
+archive: private/raw/tripos/IB/2020/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2020/paperib_2_2020.pdf
+sha256: 4266d674e1ca4832314642f47b03cfb1cbecad0767d388883629f6ee3b2f2ee2
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully
+- Candidates are required to comply with the Code of Conduct for Part IB Online Examinations. This is a closed-book
+  examination.
+- You must begin each answer on a separate sheet.
+- Answers must be handwritten (unless you have an approved adjustment).
+- You should ensure that your answers are legible; otherwise you place yourself at a significant disadvantage.
+  You are advised to write on one side of the paper only.
+- Candidates have THREE HOURS to complete the examination
+- The examination paper is divided into two sections.
+- 'At the end of the examination:'
+- Separate your answers to each question. Make sure that the question number, e.g. 7D, and your Blind Grade
+  ID, e.g. 1234A, are written clearly on the first page of each answer.
+- Scan each answer into a separate PDF file.
+- Name each PDF file by the relevant question number, for example 7D.pdf for question number 7D.
+- Complete the PDF cover sheet to show all the questions you have attempted.
+- Sign the PDF declaration that you have complied with the Code of Conduct.
+- Upload the PDF for each answer, together with your PDF declaration and coversheet, to Moodle and submit.
+- If these administrative tasks take you more than 45 minutes then email your Tutor explaining why.
+questions:
+- id: IB/2020/P2/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: dae28d17fea9070eb38bcf505c20bb1abaa83643e37d5959f0f6927aa48fb54b
+  checks: Checked prime cardinality, normality, non-trivial action, stabiliser and direction of the bijection.
+- id: IB/2020/P2/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis and Topology
+  course: IB/topology
+  also_courses: []
+  question_sha256: 41b82844fcafa6815b0e322dacce646f3967034f24fdac4202e7655977b24e14
+  checks: Checked both complements, the product topology and the arbitrary two-variable polynomial.
+- id: IB/2020/P2/q3D
+  original_question: 3D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 1dcca1441275535ae3cb54f28a0d68e95fe5d99ca6f3d99cbffd60b7a44d950c
+  checks: Checked that x is linear in the constraint, the powers of a and b, and the restriction in the second
+    part.
+- id: IB/2020/P2/q4B
+  original_question: 4B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 1c14fb5ee7ceb4a0ebf0516b7ad9826ba2fecdfd45d4ea754c2e1d822947a0e7
+  checks: Checked the piecewise supports, endpoints and the constants A and B.
+- id: IB/2020/P2/q5D
+  original_question: 5D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 32c2f98588b1110e3234edfee980b0f19005a684f71e7b01150088689dabab70
+  checks: Checked both radii and charge labels, all-space requirement and total field energy.
+- id: IB/2020/P2/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 32d30177f2faf8a95a19a1fa82787b7ecdb477c528e64a0d30ae3c994a237aa3
+  checks: Checked both flow-driving conditions, equal mid-way velocities, heating rate and direction of the
+    requested ratio.
+- id: IB/2020/P2/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 44a00c68a2b26ae45e885d4d720b549447e9c62d9b3289c26bffeede7fc16f71
+  checks: Verified the two transition rows, both endpoints of the parameter interval, and the two initial states.
+- id: IB/2020/P2/q8F
+  original_question: 8F
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: f1b8f543616b36504d82f4d62dc0a070dc9d12ec6c73baf729306d851632005c
+  checks: Checked the unrestricted field and each of the four statements, including the product order in the
+    third and fourth.
+- id: IB/2020/P2/q9G
+  original_question: 9G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 17c9576be5dbf3012550cbf0d7eb7e8bd3b9014b6df43fc2f4197a7beafad1d4
+  checks: Checked the monic generator, every coefficient of the quartic, and both quotient rings.
+- id: IB/2020/P2/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis and Topology
+  course: IB/topology
+  also_courses: []
+  question_sha256: 1c9d61c8c75a824f7316357ac63f229cb7c703d3a66a512e2ff2078f5a060fe5
+  checks: Verified the direction of the identity map, the two polynomial spaces, both compactness questions
+    and the displayed matrix.
+- id: IB/2020/P2/q11F
+  original_question: 11F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: f9a0ed7c2a9503e8ca19a8e2ebee7fa7e36ebb6a6ffe609b49b4c121c5c49064
+  checks: Checked the hyperbolic metric, all three side labels, positive separation and the permitted Möbius
+    fact.
+- id: IB/2020/P2/q12B
+  original_question: 12B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 4214735e1b3fd3a30367f3b59f5bc147ab4f722c1a5734e81d77daac1175c282
+  checks: Checked centres and radii for all three annuli, the singularity at infinity and the final trigonometric
+    integral.
+- id: IB/2020/P2/q13A
+  original_question: 13A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 6d3620ef084a48fa9d4dc66f7da7631e72d3ec2671f1cb0db350158283d188cb
+  checks: Checked the signs of both cross-products, normalisation, limiting parameters, initial velocity conditions
+    and the modal coefficient.
+- id: IB/2020/P2/q14A
+  original_question: 14A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: f07f5850c07a7c81be4cabc348614acee9c555706b4cec0494f2e7f9353060ce
+  checks: Verified all three scattering waves, both infinities, the sign and denominator of the potential,
+    and the substitution for the bound state.
+- id: IB/2020/P2/q15D
+  original_question: 15D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 7e3bbb3fe593a79c6cb98a1f7fffc0dda8e429916f5d9a8ee065e9b94423e4ba
+  checks: Checked both one-sided limits and cross-product order, radial current, half-angle formula and hint.
+- id: IB/2020/P2/q16C
+  original_question: 16C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: d7f358448be936a8da0dec8847a64a91906e2ccc8f85d45e413b9785cf34be9e
+  checks: Verified all five numbered equations and their domains, the derivative-zero radial condition, and
+    the cylindrical Laplacian.
+- id: IB/2020/P2/q17C
+  original_question: 17C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 941e498081d27f00e9fc44feaedd75891b82871d5254102db27e24ac3b4b1c73
+  checks: Checked all three time levels, signs and bold vectors in the formula, and the explicit-method wording
+    of part (b).
+- id: IB/2020/P2/q18H
+  original_question: 18H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: e36f52c9da0b20ca738974dce540c68814e40b9cf22a8b92efb1d173aa5be5f7
+  checks: Checked the superscript-zero parameter, errors, final-column exclusion, projections and inequality
+    directions.
+- id: IB/2020/P2/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: e703c3ff8b22a89ca2825dd598adbbf24aeef2eb37e5851e0342ad7b18aefc4c
+  checks: Verified the square root includes 1+z, the sole inequality restrictions on x and z, and the bounds
+    on both constants.

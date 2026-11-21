@@ -1,0 +1,198 @@
+course: IB/quantum-mechanics
+sheet: 1
+baseline: 2025-26
+editions:
+  2025-26:
+    archive: raw/sheets/IB/quantum-mechanics/2025-26/sheet-1.pdf
+    url: https://web.archive.org/web/20260519001136id_/https://www.damtp.cam.ac.uk/user/examples/B9a.pdf
+    sha256: 0c5b7f8035b1ba3ec116c699db1971c9ba33448db912cb2ead419cda7ff9b5ad
+    page_count: 2
+    printed_term: Michaelmas 2025
+    copyright_year: 2025
+    lecturer: Prof. Maria Ubiali
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c5182fdc84f8596e184ddc9882f3b45f6033d6fd75cd015c6ad697d6a947c5c9
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28378a0e907a63215cc5b5ffd3d29f50765aa0bee4df0363f54b117fc785741d
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 15b179090c6567d36f18a87f826f320dcc3c533ffbbb64da45d86bd007008865
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 377a435f4f872cd85b8d9b7bd2f3771ed19c6458a094bf0c4cfc10d49217d3ca
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: b068d3ca54dbdf618372170ac9d81d1d44be34a1e7a4097237afdf79c63324d8
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 40efd286e231c6fbb0d5e0e97725f6e9ce9b05ad8d74cd4863baa10b92d7945a
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+  2026-27:
+    archive: raw/sheets/IB/quantum-mechanics/2026-27/sheet-1.pdf
+    url: https://www.damtp.cam.ac.uk/user/examples/B9a.pdf
+    sha256: 12a2ac1edd80bd31952a3b7f78f83787c2ab4ac68ed80fdf7609807acb313f86
+    page_count: 2
+    printed_term: Michaelmas 2026
+    copyright_year: 2025
+    lecturer: Prof. Maria Ubiali
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c5182fdc84f8596e184ddc9882f3b45f6033d6fd75cd015c6ad697d6a947c5c9
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28378a0e907a63215cc5b5ffd3d29f50765aa0bee4df0363f54b117fc785741d
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 15b179090c6567d36f18a87f826f320dcc3c533ffbbb64da45d86bd007008865
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 377a435f4f872cd85b8d9b7bd2f3771ed19c6458a094bf0c4cfc10d49217d3ca
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: b068d3ca54dbdf618372170ac9d81d1d44be34a1e7a4097237afdf79c63324d8
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 40efd286e231c6fbb0d5e0e97725f6e9ce9b05ad8d74cd4863baa10b92d7945a
+        image_review: Compared the original printed page with the baseline TeX; identical
+          question bodies in the 2025 and 2026 page renders.

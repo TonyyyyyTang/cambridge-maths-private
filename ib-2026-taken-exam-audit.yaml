@@ -1,0 +1,704 @@
+scope: 2026 IB Tripos exam questions for ten confirmed-taken courses. Does not extend to complete courses, example
+  sheets, other exam years or other IB courses.
+audit_stage: initial before repairs
+method:
+  auditor: Fresh reviewer who did not write the canonical solutions.
+  blind_input: Only thirteen question.tex fragments, the printed circuit diagram and original source locators. Full
+    proofs were written and hashed in one UTF-8 file before the originals, canonical answers, review notes, check
+    results or rendered outputs were opened.
+  sampling: One random.Random(20261201) instance; iterate alphabetically sorted course IDs, draw sample(sorted(full_ids),
+    ceil(len(full_ids)/5)) independently within each stratum with successive RNG state.
+  population:
+    IB/analysis-ii:
+    - IB/2026/P1/q10G
+    - IB/2026/P2/q10F
+    - IB/2026/P2/q2F
+    - IB/2026/P3/q11F
+    - IB/2026/P4/q10F
+    - IB/2026/P4/q2F
+    IB/complex-methods:
+    - IB/2026/P1/q11.2C
+    - IB/2026/P1/q3.2C
+    - IB/2026/P2/q12.2C
+    - IB/2026/P3/q3C
+    - IB/2026/P4/q12C
+    IB/electromagnetism:
+    - IB/2026/P1/q14D
+    - IB/2026/P2/q16D
+    - IB/2026/P2/q4D
+    - IB/2026/P3/q15D
+    - IB/2026/P4/q5D
+    IB/fluid-dynamics:
+    - IB/2026/P1/q15A
+    - IB/2026/P2/q5A
+    - IB/2026/P3/q16A
+    - IB/2026/P3/q7A
+    - IB/2026/P4/q16A
+    IB/linear-algebra:
+    - IB/2026/P1/q1G
+    - IB/2026/P1/q8E
+    - IB/2026/P2/q8E
+    - IB/2026/P3/q9G
+    - IB/2026/P4/q1E
+    - IB/2026/P4/q8G
+    IB/markov-chains:
+    - IB/2026/P1/q18H
+    - IB/2026/P2/q18H
+    - IB/2026/P3/q8H
+    - IB/2026/P4/q7H
+    IB/methods:
+    - IB/2026/P1/q12D
+    - IB/2026/P2/q14D
+    - IB/2026/P2/q3D
+    - IB/2026/P3/q14A
+    - IB/2026/P3/q5A
+    - IB/2026/P4/q14A
+    IB/numerical-analysis:
+    - IB/2026/P1/q16C
+    - IB/2026/P1/q5C
+    - IB/2026/P2/q17C
+    - IB/2026/P3/q17C
+    - IB/2026/P4/q6C
+    IB/quantum-mechanics:
+    - IB/2026/P1/q13B
+    - IB/2026/P2/q15B
+    - IB/2026/P3/q6B
+    - IB/2026/P4/q15B
+    - IB/2026/P4/q4B
+    IB/statistics:
+    - IB/2026/P1/q17H
+    - IB/2026/P1/q6H
+    - IB/2026/P2/q6H
+    - IB/2026/P3/q18H
+    - IB/2026/P4/q17H
+  selected_in_draw_order:
+    IB/analysis-ii:
+    - IB/2026/P2/q10F
+    - IB/2026/P4/q2F
+    IB/complex-methods:
+    - IB/2026/P1/q3.2C
+    IB/electromagnetism:
+    - IB/2026/P2/q16D
+    IB/fluid-dynamics:
+    - IB/2026/P2/q5A
+    IB/linear-algebra:
+    - IB/2026/P1/q8E
+    - IB/2026/P1/q1G
+    IB/markov-chains:
+    - IB/2026/P1/q18H
+    IB/methods:
+    - IB/2026/P2/q14D
+    - IB/2026/P4/q14A
+    IB/numerical-analysis:
+    - IB/2026/P2/q17C
+    IB/quantum-mechanics:
+    - IB/2026/P1/q13B
+    IB/statistics:
+    - IB/2026/P3/q18H
+  sample_size: 13
+  population_size: 52
+  coverage: 0.25
+  originals_fetched: true
+  official_answer_comparison: false
+  outputs_inspected: 22 sampled compiled pages across four paper PDFs; thirteen actual private question pages rendered
+    in headless Chrome at 1220 CSS px and visually inspected; 708/708 math nodes rendered with KaTeX and all three
+    figures loaded.
+initial_rates:
+  definition: Numerator counts affected sampled questions once per category; denominators are 13 in each category.
+    Shared renderer defects recur across questions.
+  mathematical:
+    affected: 0
+    total: 13
+    rate: 0
+  transcription:
+    affected: 1
+    total: 13
+    rate: 0.07692307692307693
+  presentation:
+    affected: 12
+    total: 13
+    rate: 0.9230769230769231
+  substantive_mathematical_or_transcription:
+    affected: 0
+    total: 13
+    rate: 0
+  check_failures:
+    affected: 0
+    total: 13
+    rate: 0
+initial_issue_descriptions:
+  circuit-glyph: Part (a) and part (b) show a calligraphic C, confirmed in the original page image and by its CMSY10
+    math glyph; initial question.tex uses ordinary $C$ in both positions. Mathematical interpretation and answer
+    unchanged.
+  double-list-markers: The browser adds automatic integer markers to the explicit printed subpart labels, e.g. 1.
+    (a). Nested subparts are also duplicated. Ordinary unlabeled ordered lists should keep their markers.
+  hint-bracket: The closing bracket of the quantum-mechanics hint renders alone beneath its displayed identity in
+    both the compiled paper and the HTML page; in the original it closes on the identity line.
+blind_exact_utf8_sha256: 2e4db148b925e5f6fe2defabfb7497a8027d21f41253d42b2028cf0d92b3361c
+blind_exact_utf8: |
+  IB/2026/P1/q1G
+  Symmetry, real bilinearity and nonnegativity follow from pointwise multiplication and linearity of integration. If the continuous polynomial has nonzero value anywhere in [0,1], its square is bounded below by a positive constant on a subinterval of positive length, including for a nonzero endpoint value. Thus zero norm gives the zero polynomial by the polynomial identity theorem. The constant 1 has norm one. Subtract its projection from t to get t-1/2, whose squared norm is 1/3-1/2+1/4=1/12. The resulting spanning orthonormal pair is 1, sqrt(12)(t-1/2).
+
+  IB/2026/P1/q3.2C
+  sin z is entire, residue zero. Its first-order zero, with derivative 1, gives 1/sin z a simple pole with residue 1, and z/sin z a removable singularity with extension 1 and residue 0. Substitution in the sine power series gives infinitely many negative odd powers of z in sin(1/z), including coefficient 1 of z^-1: essential, residue 1. Multiplication by z leaves infinitely many negative even powers, so essential, residue 0. The reciprocal has poles at 1/(k pi) for all nonzero integers k (simple zeros of the denominator there), accumulating at zero; the singularity at zero is non-isolated, with no residue.
+
+  IB/2026/P1/q8E
+  Similarity is change of basis. The Jordan matrix consists of blocks with constant eigenvalue on the diagonal, ones on the superdiagonal, zeros elsewhere, unique up to block permutation counting multiplicity. D decreases total degree so D^5=0 and the sole eigenvalue is zero. Under coordinates u=z-w, v=w, D=d/dv at fixed u, hence its kernel is polynomials in u, necessarily of degree at most two by setting w=0. Conversely 1,u,u² lie in the kernel; there are three blocks. D^4(z²w²)=24, giving a block of length five. The symmetric subspace has such a chain and the antisymmetric invariant subspace has total dimension three (one basis difference per unordered unequal pair of exponents); z²w-zw² has successive derivatives z²-w², 2(z-w), 0, a full chain there. The symmetric and antisymmetric spaces split V over C; the third block has length one. Polynomials of an upper triangular Jordan conjugate are upper triangular with diagonal g(lambda_i), showing the asserted multiplicities. A cyclically shifts the standard basis, so B=aI+bA+cA²+dA³; A has characteristic polynomial t^4-1 (cyclic basis or determinant). The eigenvalues of B are a+b+c+d, a-b+c-d, a-c+i(b-d), a-c-i(b-d), with coincidences counted.
+
+  IB/2026/P1/q13B
+  The standard Schrödinger kinetic energy p²/(2m) is the nonrelativistic expansion for positive rest mass; a massless particle has E=c|p| with no such limit. Dirichlet walls require zero values at ±a and zero outside. Positivity of the Dirichlet energy and exclusion of a nonzero constant give E>0. Solving inside gives the sine at k_n=n pi/(2a), E_n=hbar² pi² n²/(8ma²). Integrating in s=x+a from 0 to 2a, the product-to-sum formula integrates to zero for differing integers; the squared sine integrates to a. Thus choose A=1/sqrt(a), up to phase. Prepared state is normalized since its squared sine integrates to a/2 on [0,a]. Its continuous joined halves have a derivative jump at zero; use the quadratic form (hbar²/2m) integral |psi'|², finite since psi lies in H0^1. The derivative on (0,a) is sqrt(2/a)(2pi/a)cos(2pi x/a), zero on (-a,0). Mean energy is 2 hbar² pi²/(ma²), i.e. 16 E_1. Write c_n=sqrt(2) integral_0^1 sin(2pi y)sin(n pi(y+1)/2) dy. Even n=2k give orthogonality of integer sines, only c_4=1/sqrt(2) survives. For odd n the second sine equals sin(n pi/2)cos(n pi y/2); integrating the two sum-frequency sines gives c_n=8 sqrt(2) sin(n pi/2)/[pi(16-n²)]. Consequently 16=8+(128/pi²) sum_odd n²/(n²-16)², and B=16.
+
+  IB/2026/P1/q18H
+  T is {0,1,...,infty}-valued with {T<=n} measurable in the history through n. On {T finite}, conditionally on the stopped history the future is the chain restarted at X_T. For first growl, wait means from bark and whine solve b=1+w/2, w=1+2b/3, giving b=9/4. For the first completed growl-whine pair the current last sound tracks its prefix. b=1+(g+w)/2, g=1+2b/3, w=1+2b/3+g/3, hence b=39/4. Finite means in both cases follow from a uniformly positive probability of completing within three moves, iterated in blocks. Augment with level N_b-N_w counting produced sounds after the initial dog bark. Stop on reaching m. Up moves have size one and always end at bark. For one-level ascent conditional on previous sound, the restart equations are beta=1+gamma/2+(omega+beta)/2, gamma=1+(omega+beta)/3, omega=1+gamma/3. A down step requires two ascents, ending the first at bark. The finite candidate is beta=10, gamma=21/4, omega=11/4. To justify finiteness beforehand put F(k,i)=10(m-k-1)+s_i, s=(10,21/4,11/4), for k<m, and 0 at the barrier. The same algebra gives F=1+PF before stopping; it is nonnegative, so optional stopping at bounded T wedge n yields E(T wedge n)<=F at the start. Taking n to infinity gives finite mean and validates first-step and strong-Markov equations for each one-level ascent. Starting at (0,bark) gives 10m outputs (with the dog's initiating sound excluded).
+
+  IB/2026/P2/q10F
+  If f is C¹ on an open subset of R^n and Df(x0) invertible, there are open neighborhoods U of x0 and V of f(x0) such that f:U->V is bijective with C¹ inverse and D(f^-1)(y)=Df(f^-1(y))^-1. All zeros are interior by the boundary assumption, and the theorem gives isolating balls by local injectivity. The zero set is closed in the compact closure and hence compact; a cover by isolating balls has a finite subcover. Choose disjoint closed balls centred at the finitely many zeros, lying in the interior. Shrink them by continuity to ensure ||A_k^-1(Df-A_k)||<=1/4 there, A_k=Df(x_k). The complement of open balls in the closure is compact and has strictly positive minimum of ||f|| if nonempty. Choose delta below that minimum, below 1/(4||A_k^-1||), and below r_k/(4||A_k^-1||) for all k. Uniform closeness in the interior extends to the closure by continuity. No zero of g lies on the complement. The map T(x)=x-A_k^-1 g(x) on each closed ball has derivative norm <=1/2, hence Lipschitz constant <=1/2 by the segment formula, and centre displacement <r_k/4. Therefore it maps the closed ball strictly inside and has a unique fixed point by contraction. At that point A_k^-1 Dg differs from I in norm by at most 1/2, giving an invertible straight-line path from I and positive determinant; signs agree. Sum signs for equality. If no zeros use compactness and small uniform perturbation directly (empty domain vacuous). The supplied lemma's smallness bound over the whole ball is unnecessary and cannot just be inferred from small centre displacement.
+
+  IB/2026/P2/q14D
+  Separate T''+c²lambda T=0, Theta''+m²Theta=0 by dividing by R Theta T, using 2pi periodicity (m integer, m=0 constant); radial equation becomes -(rR')'+m²R/r=lambda rR. The regular Dirichlet spatial forms have positive eigenvalues by integration of the radial energy (zero energy would force a constant vanishing at r=1). z=sqrt(lambda)r gives z²R''+zR'+(z²-m²)R=0. Frobenius gives (p²-m²)a0=0; choose p=|m| for a regular leading term, logarithmic alternative at zero order is excluded. With negative-index coefficients zero, [(p+k)²-m²]a_k=-a_(k-2) for k>=1; all odd terms vanish. Write coefficient of z^(m+2l) in J_m as (-1)^l/[2^(m+2l) l!(m+l)!]. On z^m J_m differentiating pulls down 2(m+l), giving term-for-term z^m J_(m-1) for m>=1. On z^-m J_m the constant drops out and differentiation gives factor 2l; shift l by one to get -z^-m J_(m+1). At m=0 the first formula uses J_-1=-J_1 and the second gives J'_0=-J_1. Pure radial solution is sum over j=j_0n of J0(jr) (A_n cos(cjt)+B_n sin(cjt)). Project in L²(r dr) and divide by N=J1(j)^2/2: A=<phi,J0>/N and B=<psi,J0>/(cjN). For the data B=0 and A=(2/J1(j)^2) sum_{l>=0} (-j²/4)^l/[(l!)²(2l+2)(2l+3)], by integrating r^(2l+1)(1-r); uniform convergence of the entire power series on the integration interval justifies this explicit value.
+
+  IB/2026/P2/q16D
+  For a moving closed loop with material velocity v, emf=int_C (E+v cross B).dl=-d/dt integral_S B.n dS, with boundary orientation by the right-hand rule. Adopt +z normal and positive current along +y on the bar. Flux is LxB; I=-(L/R)(x B'+B x'), and force is I L B in +x. Neglect self field and friction, giving m x''=-(L²/R)(B B'x+B²x'); for B=B0/(1+t) this gives the printed ODE with alpha=L²B0²/(mR). At alpha=1, setting u=1+t and x=u w gives u w''+(2+1/u)w'=0, hence w'=C u^-2 exp(1/u) and x=u(A+B exp(1/u)). At u=1 initial rest gives A=0, initial displacement B=x0/e. Thus x=x0 u exp(1/u-1), velocity=x0 exp(1/u-1)(1-1/u) increases from zero to x0/e as x''=x0 exp(1/u-1)/u³>0 for x0>0. Total mechanical work is m x0²/(2e²) by energy change. Flux B0 L x0 exp(1/u-1) decreases for B0,x0>0; the counterclockwise induced current viewed from +z (toward +y on the bar) reinforces the field. Area increases as the bar accelerates outward, counteracting flux loss.
+
+  IB/2026/P2/q17C
+  Odd moments vanish by symmetry, zeroth and second moments agree (2 and 2/3) and fourth gives 2/5-2/9=8/45. Thus L(p)=8c4/45 and degree of precision n=3, even though individual odd higher degrees integrate exactly. For a continuous linear functional on C[a,b] annihilating P_(r-1), Taylor's integral remainder gives L(f)=int_a^b f^(r)(t)K(t) dt, K=L_x[(x-t)_+^(r-1)]/(r-1)!, for f in C^r (integral interchange is valid for this functional). Here K(t)=[(1-t)^4/4-(-s-t)_+³-(s-t)_+³]/6 on [-1,1]. Nonnegativity yields |L|<=||f''''|| int K, and taking x^4/24 gives int K=(8/45)/24=1/135. N=135. Quartic derivative is constant, giving equality for every quartic including either sign of its leading coefficient.
+
+  IB/2026/P2/q5A
+  Use u=psi_y, v=-psi_x. Integration gives psi=(alpha+t)y²/2-x+h(t). At fixed t the curves x=C+(alpha+t)y²/2 point upward (v=1); symmetric about y=0 and open to the right when alpha+t>0. At t=0 coefficient alpha/2, at t=1 (alpha+1)/2: the latter reaches larger x at equal |y|. If alpha=0 initially vertical lines. For alpha>0 and t/alpha small the horizontal component is alpha y up to relative error t/alpha (both zero at y=0); streamlines to leading order x=C+alpha y²/2. No positive small-relative-time regime for alpha=0.
+
+  IB/2026/P3/q18H
+  For simple densities f,g, reject when g>k f, accept when g<k f, randomizing on equality as necessary for E_f phi=alpha. For a competitor eta of level <=alpha the integral of (phi-eta)(g-kf) is nonnegative pointwise; adding k int (phi-eta) f>=0 proves most powerful, with equivalent choices possible on ties. For the normal model the likelihood ratio to zero is exp(mu sum x_i-n mu²/2), increasing in sum for every mu>0. Reject sqrt(n) Xbar>Phi^-1(1-alpha). Null size equals alpha at mu=0 and is no bigger for mu<0 by stochastic shift. Every composite-level competitor satisfies the simple-null bound and the same NP comparison proves UMP. For a mixture null, any test controlling both f_i automatically controls their mixture by linearity; a mixture-MP test feasible for both is optimal for the composite null. For the open two-tail null, power of the central interval at mu equals q(mu)=Phi(z-mu)-Phi(-z-mu), even and decreasing strictly for mu>0 since q'=phi(z+mu)-phi(z-mu)<0. The size is the supremum q(mu0)=alpha, approached by exterior parameters. Existence and uniqueness of z follow from strict continuous increase from 0 to 1. For any bounded randomized competitor eta, mu->E_mu eta is continuous, for example by L¹-continuity of translates of the Gaussian or dominated convergence on a bounded parameter neighborhood. Thus size control extends to both endpoints. For their equal mixture f*, g0/f*=exp(mu0²/2)/cosh(mu0 x) decreases in |x|, so NP gives the central interval as MP against zero under f*. It is feasible for the entire null and dominates every competitor.
+
+  IB/2026/P4/q14A
+  Parameterize an initial C¹ curve (xi(s),eta(s)) with assigned u0(s); require det[(xi',eta'),(a,b)] nonzero there. Under local smoothness, integrate x'=a,y'=b,U'=c(x,y,U) from the curve. The inverse function theorem recovers U as a local graph solving the PDE; these ODEs follow by the chain rule. If a=H_y,b=-H_x, this gives the Hamiltonian pair and dH/dt=H_x H_y-H_y H_x=0. For (2xy,x²-y²) divergence=2y-2y=0. Integrate H_y=2xy giving H=xy²+g(x); then g'=-x² so H=xy²-x³/3. In polar coordinates this is -(r³/3)cos(3theta). Nonzero levels are the curves r=(-3h/cos(3theta))^(1/3) in the three sectors with compatible sign, each asymptotic to its bounding rays; alternating positive and negative sectors, symmetry by rotation through 2pi/3. The zero set consists of x=0 and y=±x/sqrt(3); each ray is an individual characteristic, the origin is a stationary point. Away from the origin the gradient never vanishes so components of level curves are the characteristics. u equals an arbitrary differentiable function F(H) locally there. Globally branches on disconnected level components can use different F; their values and derivatives must yield a C¹ solution where they meet, including continuity through the origin. Along the positive y-axis trajectories point downward, and orientations elsewhere can be read from the original field, e.g. at y=0 upwards.
+
+  IB/2026/P4/q2F
+  Let rho_x=|x-x0|. For unequal points rho_x+rho_y>0 since only x0 has zero radius. Symmetry and diagonal zero are immediate. If x,y,z distinct, the route x-z-y adds 2rho_z to d(x,y), while repeated endpoints give equality or a zero left side. Thus a metric, including singleton case. Path-connected means any ordered pair is joined by a continuous [0,1]-path in the subset (usual topology). Concatenate at t=1/2 the segments from x to x0 to y with linear parameterizations; star-shapedness keeps both in Omega. Along each of these segments the fundamental theorem of calculus bounds vector increments by segment length times the sup of ||Df|| there. For x!=y the two segment lengths sum to d(x,y); for x=y the estimate is immediate. If Df vanishes on Omega each segment has zero integral, hence f is constant even if its derivative is nonzero elsewhere.
+per_question:
+  IB/2026/P1/q13B:
+    course: IB/quantum-mechanics
+    printed_number: 13B
+    original:
+      file: private/raw/tripos/IB/2026/P1.pdf
+      page: 10
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 0683735f3e08b69a6c100a5ceca39fac12dd064c87373762125d4a0256f2563c
+    solution_sha256: f3f1612dfb5a1f6f83c16b864553019a6fef63d2ff900cc3d41fe014b9f2352b
+    solution_comparison: Dirichlet form at the derivative jump, exceptional even mode 4, odd overlaps, E=16 E1 and
+      B=16.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    - hint-bracket
+    source_notes: The derivative discontinuity in the supplied state calls for the kinetic-energy quadratic form,
+      as both proofs recognize.
+    check:
+      path: tripos/IB/2026/P1/q13B/check.py
+      sha256: 3b8d1e09b799c77a39d1889d0ef5c77266195763a909485d4e3d2529a3b3add0
+      exit_code: 0
+      stdout: 'PASS: norm, quadratic-form energy, twelve exact overlaps including n=4, independent series acceleration.'
+    compiled:
+      file: build/IB-2026-P1/main.pdf
+      sha256: 666bd0c7b57c05aba4b8f0ac9c4b95ed46803b13e877e6f84a0b43d0f917a269
+      pages:
+      - 20
+      - 21
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P1/q13B/index.html
+      sha256: f57d323d9106c4187ba988ac8177529dd922724b3665d3548458c9335446ccbc
+      rendered_katex_nodes: 52
+      math_nodes: 52
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 4
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P1/q18H:
+    course: IB/markov-chains
+    printed_number: 18H
+    original:
+      file: private/raw/tripos/IB/2026/P1.pdf
+      page: 15
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 1a72d88a179141679457ac3e28b76fb599e8f1f1678987e3783ae847b9e2eda7
+    solution_sha256: 695b16ccbadbd2b23bde4423c0410dc4d0dc03a9307ab266fd0dbb335a705b17
+    solution_comparison: Expected waits 9/4, 39/4 and 10m; nonnegative hitting-time certificate proves finiteness.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: The initiating dog bark is X0. The question counts chatbot outputs; the two possible reported
+      transcript lengths differ by one according to whether the dog is included.
+    check:
+      path: tripos/IB/2026/P1/q18H/check.py
+      sha256: 97e77a5cf3767046da175590cfe5b144ce61fb8be0bb6b425f17a25c839cb0e0
+      exit_code: 0
+      stdout: 'PASS: ordinary and pair hitting linear systems, all three distance recurrences for arbitrary threshold,
+        absorbing boundary and stationary drift.'
+    compiled:
+      file: build/IB-2026-P1/main.pdf
+      sha256: 666bd0c7b57c05aba4b8f0ac9c4b95ed46803b13e877e6f84a0b43d0f917a269
+      pages:
+      - 29
+      - 30
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P1/q18H/index.html
+      sha256: afd84a0c8383590e24df548559bdb933a9d50837cbd10071e605ef3f77781922
+      rendered_katex_nodes: 57
+      math_nodes: 57
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 5
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P1/q1G:
+    course: IB/linear-algebra
+    printed_number: 1G
+    original:
+      file: private/raw/tripos/IB/2026/P1.pdf
+      page: 2
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 1acea79d65dfed11c0a77f34c2c5379611586e8ea5121c361f9b9e19b7961980
+    solution_sha256: 5127b693d179420395207809a633c70fb43b903267cbad1e331975f4bbea1bec
+    solution_comparison: Positivity and orthogonalization, including squared residual norm 1/12.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P1/q1G/check.py
+      sha256: 1d4089f3fc0b67c5409816ab22a36db284062999d2a6e08cbd54c4928ff30f94
+      exit_code: 0
+      stdout: 'PASS: exact polynomial moment matrix, three positive principal minors and orthonormal Gram matrix.'
+    compiled:
+      file: build/IB-2026-P1/main.pdf
+      sha256: 666bd0c7b57c05aba4b8f0ac9c4b95ed46803b13e877e6f84a0b43d0f917a269
+      pages:
+      - 1
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P1/q1G/index.html
+      sha256: 473d3eabaaf05e8535c557b56b0203d019bd77b78081297bfb028e0d90eb8a0a
+      rendered_katex_nodes: 22
+      math_nodes: 22
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 2
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P1/q3.2C:
+    course: IB/complex-methods
+    printed_number: 3.2C
+    original:
+      file: private/raw/tripos/IB/2026/P1.pdf
+      page: 3
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 908543a16338c64c59bdc47aad93f52bc9b9eca76a3aafd327dd76ccb840b464
+    solution_sha256: 3da5f76a5cdd19091efcd4cfb455a72e3424c622fbccae95cb8bf56aacda1852
+    solution_comparison: All six classifications and residues, including the nonisolated reciprocal-sine case.
+    initial_transcription_issues: []
+    initial_presentation_issues: []
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P1/q3.2C/check.py
+      sha256: aec748b43569cbfcf6d4896cfb9097fe8d30a1193fa12f89faaeed12983f0c65
+      exit_code: 0
+      stdout: Local meromorphic series, principal-part coefficients and accumulating simple poles checked.
+    compiled:
+      file: build/IB-2026-P1/main.pdf
+      sha256: 666bd0c7b57c05aba4b8f0ac9c4b95ed46803b13e877e6f84a0b43d0f917a269
+      pages:
+      - 4
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P1/q3.2C/index.html
+      sha256: 0f85cdcf750ac451915c46149a9010bbb713d337298b66c3f358b9a7f9afc85c
+      rendered_katex_nodes: 14
+      math_nodes: 14
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 0
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P1/q8E:
+    course: IB/linear-algebra
+    printed_number: 8E
+    original:
+      file: private/raw/tripos/IB/2026/P1.pdf
+      page: 6
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 25a30d41ef0b82b934538508f98b81cf459f6de865cc379f9ac10202ae3b7668
+    solution_sha256: 8acd35d22fd5e342a10fa649941c4ade49c20ba18182dfb02419d76939f6af24
+    solution_comparison: Kernel dimension three, Jordan sizes 5, 3, 1, and four polynomial images of fourth roots
+      of unity.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P1/q8E/check.py
+      sha256: e35c309c82024fc8187e5d1a007e0c662344fee51daced73d9d153d4d5b2a1ec
+      exit_code: 0
+      stdout: 'PASS: exact nullities for D^0 to D^5, kernel and chains, symbolic circulant and four Fourier eigenpairs.'
+    compiled:
+      file: build/IB-2026-P1/main.pdf
+      sha256: 666bd0c7b57c05aba4b8f0ac9c4b95ed46803b13e877e6f84a0b43d0f917a269
+      pages:
+      - 10
+      - 11
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P1/q8E/index.html
+      sha256: ce4d6ec449c7cb9abd1820ed5e2a402ccea766a54c71f14ffbbbdcf2a1a4b741
+      rendered_katex_nodes: 73
+      math_nodes: 73
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 7
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P2/q10F:
+    course: IB/analysis-ii
+    printed_number: 10F
+    original:
+      file: private/raw/tripos/IB/2026/P2.pdf
+      page: 7
+      sha256: df110b028d6e57545266b8e5da21a339eda18617fe4ab718c9a74d708abd4ac3
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 8634f43ad7f8525be6314bcbec8f1b87b38066fe0caadb5d6a9c464877e80779
+    solution_sha256: 49ef27236b68d7212fa480a71aa50dcbe93c044177aa4c1385eb91104bc87d0c
+    solution_comparison: Compactness, shrinkage to disjoint balls and contraction at each centre preserve signs
+      and handle empty zero sets.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: The supplied sufficient condition controls the supremum over the entire ball, which cannot generally
+      be deduced here from closeness. For f(x)=x, A=1 at the zero, the supremum |f| on a radius-r ball equals r.
+      The direct contraction using the centre value proves the actual claim. Original wording is preserved.
+    check:
+      path: tripos/IB/2026/P2/q10F/check.py
+      sha256: 062af30bb37da5a6d2c589f1ca32bafcddf641041432f3214dfa81fdf579ce87
+      exit_code: 0
+      stdout: A signed, two-zero perturbation and a degenerate counterexample checked exactly.
+    compiled:
+      file: build/IB-2026-P2/main.pdf
+      sha256: 3a85d2d331c21444e75582a2d66c914350d67c212b15a988501f87fb346c3807
+      pages:
+      - 13
+      - 14
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P2/q10F/index.html
+      sha256: 04577f48ec8ef4014aed191d3bc889fc9a47bc1c2551f0b507148833d3b0114e
+      rendered_katex_nodes: 92
+      math_nodes: 92
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 3
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P2/q14D:
+    course: IB/methods
+    printed_number: 14D
+    original:
+      file: private/raw/tripos/IB/2026/P2.pdf
+      page: 11
+      sha256: df110b028d6e57545266b8e5da21a339eda18617fe4ab718c9a74d708abd4ac3
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: e5a856244a21eed43d312384c647864fecbc62faa8f5fc64d3f02b2f82280723
+    solution_sha256: a3fa09729991b2c4290e3c9833877d392b9640cadf7d80d44c8e7f0e1104573c
+    solution_comparison: Frobenius recurrence, both derivative identities, zero velocity coefficients and termwise
+      integrated Bessel series.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: The printed conical initial displacement lacks a classical Cartesian gradient at the centre; the
+      expansion has its natural finite-energy interpretation.
+    check:
+      path: tripos/IB/2026/P2/q14D/check.py
+      sha256: b09a5965b4376588ec5f5fa4e04efd215a4480fa0a50562f310e1e90da5c5c5d
+      exit_code: 0
+      stdout: 'PASS: Bessel ODE and both derivative identities, regular recurrence, first six radial norms and projections
+        via series and two independent integrals.'
+    compiled:
+      file: build/IB-2026-P2/main.pdf
+      sha256: 3a85d2d331c21444e75582a2d66c914350d67c212b15a988501f87fb346c3807
+      pages:
+      - 21
+      - 22
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P2/q14D/index.html
+      sha256: acf90a80fae7a565905977f8888219f0e1ff8fc08d8f545faa0d18c220445c68
+      rendered_katex_nodes: 86
+      math_nodes: 86
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 4
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P2/q16D:
+    course: IB/electromagnetism
+    printed_number: 16D
+    original:
+      file: private/raw/tripos/IB/2026/P2.pdf
+      page: 13
+      sha256: df110b028d6e57545266b8e5da21a339eda18617fe4ab718c9a74d708abd4ac3
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 652186c7d8dfda645bd1b82ff247e37f8debe078a026bc3652ee4ac94fb3ce2d
+    solution_sha256: bb2435de0246700a0b1ad4c2685ad314c8e42ad12bc22515ec26679fa0fc86da
+    solution_comparison: Positive current on the illustrated moving bar, L²B0²/(mR), speed x0/e and work mx0²/(2e²).
+    initial_transcription_issues:
+    - circuit-glyph
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P2/q16D/check.py
+      sha256: 94fe79229a8af7dc702869b03888a48846fa3d78769d7fd14ce7f7428e4f9287
+      exit_code: 0
+      stdout: ODE, initial data, Lorentz force, limiting velocity, and integrated mechanical work verified.
+    compiled:
+      file: build/IB-2026-P2/main.pdf
+      sha256: 3a85d2d331c21444e75582a2d66c914350d67c212b15a988501f87fb346c3807
+      pages:
+      - 25
+      - 26
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P2/q16D/index.html
+      sha256: 96bbee348db43fda710be551879a15ba2dac5aa3138bb66aceabb5acddfd4c90
+      rendered_katex_nodes: 60
+      math_nodes: 60
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 5
+      figure_dimensions_px:
+      - - 584
+        - 295
+    figures:
+      site/private/figures/tripos/IB/2026/P2/q16D/source-sliding-bar.png:
+        sha256: b7a720df609fd43d82472fc6a0bd563af7355aee6f0af89aeac4bc97c50517ec
+        inspection: Circuit rails, bar, field, length, current and position arrows correspond to the source.
+  IB/2026/P2/q17C:
+    course: IB/numerical-analysis
+    printed_number: 17C
+    original:
+      file: private/raw/tripos/IB/2026/P2.pdf
+      page: 14
+      sha256: df110b028d6e57545266b8e5da21a339eda18617fe4ab718c9a74d708abd4ac3
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 3c574af715d0105a965320e0452ae2cdd96d1a0043deab8e28f9b2ebd70878e4
+    solution_sha256: 5d372585fb9a0b3023fb8009f3f6759119162598e49a66e4b509ebcda0e3861a
+    solution_comparison: Exact to degree three, L(p)=8c4/45, truncated-power kernel and sharp bound with N=135.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P2/q17C/check.py
+      sha256: f39bde189498921b06d5d925bee28a71e7e8b225eeaa8f7b311538b188b492b6
+      exit_code: 0
+      stdout: Six polynomial moments, the piecewise kernel and higher polynomial remainder identities checked.
+    compiled:
+      file: build/IB-2026-P2/main.pdf
+      sha256: 3a85d2d331c21444e75582a2d66c914350d67c212b15a988501f87fb346c3807
+      pages:
+      - 27
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P2/q17C/index.html
+      sha256: e5d471823c9a054387aae5297f31bb354ca43f9e58545c981fee4205254dd8e0
+      rendered_katex_nodes: 32
+      math_nodes: 32
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 3
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P2/q5A:
+    course: IB/fluid-dynamics
+    printed_number: 5A
+    original:
+      file: private/raw/tripos/IB/2026/P2.pdf
+      page: 4
+      sha256: df110b028d6e57545266b8e5da21a339eda18617fe4ab718c9a74d708abd4ac3
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 7c24b2c42a4bae912767b7c0082e18da36e9f414b3cbebbf1e9659577348c244
+    solution_sha256: d6f606d7e7b2d5ed551d4f057c40351018b529db843e7a0362ff0106c0d30570
+    solution_comparison: Time-indexed upward right-opening parabolas, initial vertical family at alpha zero and
+      t/alpha approximation.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P2/q5A/check.py
+      sha256: 1ca4a7e1a48632f25221daadb532512eba2199fe3bf1a21812958ab3fbb23589
+      exit_code: 0
+      stdout: 'PASS: incompressible streamfunction convention, exact streamline level sets, degenerate time-zero
+        lines and small-time correction.'
+    compiled:
+      file: build/IB-2026-P2/main.pdf
+      sha256: 3a85d2d331c21444e75582a2d66c914350d67c212b15a988501f87fb346c3807
+      pages:
+      - 6
+      - 7
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P2/q5A/index.html
+      sha256: 448d96bc6f0ed3bd2b22fd825a6bc6c7afcf86c6839f718ecbc9091dd6084255
+      rendered_katex_nodes: 30
+      math_nodes: 30
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 3
+      figure_dimensions_px:
+      - - 1224
+        - 918
+    figures:
+      site/private/figures/tripos/IB/2026/P2/q5A/streamlines.png:
+        sha256: 52e2f18dbac17199ee5b195988bb2dabafb06aaa6915fdd06195297110552669
+        inspection: The four panels show both times and the zero-parameter limiting vertical lines, with arrows
+          toward increasing y.
+  IB/2026/P3/q18H:
+    course: IB/statistics
+    printed_number: 18H
+    original:
+      file: private/raw/tripos/IB/2026/P3.pdf
+      page: 14
+      sha256: 0f887d2855fbf8ea25d585f6f7e45a984a2673362c6e1666003811621207f2a5
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 274eb8fd4213083da93b8d8a33dff6230b0ef7379557012d6e38c109ed2e21d3
+    solution_sha256: 70e2bf7aa3c066b65255ab7f748e2198188db844096785e22fe1f79e19a84154
+    solution_comparison: Simple-null most powerful normal test, composite size, least-favorable symmetric mixture
+      and continuity at excluded null endpoints.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P3/q18H/check.py
+      sha256: 858da36fb7762aa98d322e537b0818465bde802d6b6800b01580ce2ba146b617
+      exit_code: 0
+      stdout: 'PASS: normal power ordering and excluded-boundary size for twelve central-interval tests, including
+        likelihood-ratio ties by symmetry.'
+    compiled:
+      file: build/IB-2026-P3/main.pdf
+      sha256: d58424c08626cfa1f7d10cf9f44b613fe063da7c956888f6d3beec42f2353f7b
+      pages:
+      - 23
+      - 24
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P3/q18H/index.html
+      sha256: 61feb0b9b18319a9b1fdef9051686bdcbeb132380375e8390eaeac1b9552df9e
+      rendered_katex_nodes: 95
+      math_nodes: 95
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 6
+      figure_dimensions_px: []
+    figures: {}
+  IB/2026/P4/q14A:
+    course: IB/methods
+    printed_number: 14A
+    original:
+      file: private/raw/tripos/IB/2026/P4.pdf
+      page: 10
+      sha256: ccfdbcbc8fa800ea0281c560e83d7a9ddf704ef496dc062419f89e3da5bc7d84
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 4dace0bbf59ea18b44e0937e2a85bc3405605aa2aec7663401f87aa6241b9e69
+    solution_sha256: ab606370f67c4a95ecd3923ff2f5eaff3107d0a0f34b24dc907e3544aa4c44ad
+    solution_comparison: H=xy²−x³/3, three branches on nonzero levels, six zero-level ray trajectories and one equilibrium;
+      local and global qualifications.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: Original punctuation ends the zero-divergence display with a full stop before lowercase “so that”;
+      the punctuation is transcribed faithfully.
+    check:
+      path: tripos/IB/2026/P4/q14A/check.py
+      sha256: 2beb4a0eb719ae3d7ba586a4b0435a5cdf01ca802ea0cbef471903b41da5fd88
+      exit_code: 0
+      stdout: 'PASS: Hamiltonian identity, divergence, polar invariant, all separatrices tangent, unique equilibrium
+        and arbitrary local solution. Sketch asset present.'
+    compiled:
+      file: build/IB-2026-P4/main.pdf
+      sha256: f6b990188f602ec109ef941fd57417bccb5feeacbec53ea18898db124a8f65eb
+      pages:
+      - 17
+      - 18
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P4/q14A/index.html
+      sha256: 604000900da8cb3c4eca28aed63496073559c5f2a922d3c07b9e5c7bb56c41ef
+      rendered_katex_nodes: 41
+      math_nodes: 41
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 9
+      figure_dimensions_px:
+      - - 709
+        - 761
+    figures:
+      site/private/figures/tripos/IB/2026/P4/q14A/characteristics.png:
+        sha256: d30930ae58bc6c42f82ee2b9183f2d0dbb011ecf303eb53313546665a9814d2e
+        inspection: Three-sector branches, all six separatrix rays, origin, arrows and contour sign legend agree
+          with the first integral.
+  IB/2026/P4/q2F:
+    course: IB/analysis-ii
+    printed_number: 2F
+    original:
+      file: private/raw/tripos/IB/2026/P4.pdf
+      page: 2
+      sha256: ccfdbcbc8fa800ea0281c560e83d7a9ddf704ef496dc062419f89e3da5bc7d84
+      review: Original page raster at 144 dpi compared directly with the complete question and subparts.
+    question_sha256: 3778172bf14d11261023c52809b3ae2c91bed6f5d5dd2c79aee0be9a2e4ed5ea
+    solution_sha256: ffda948d13e78e2e1f8b727ad4f4ec4b2c933becfedc023212c1002414dd6327
+    solution_comparison: Metric axioms including coincident endpoints, concatenated radial path and local derivative
+      argument.
+    initial_transcription_issues: []
+    initial_presentation_issues:
+    - double-list-markers
+    source_notes: null
+    check:
+      path: tripos/IB/2026/P4/q2F/check.py
+      sha256: e10ecb2949e918184401849b3694ed9cb491f56095491125cc2ccfd358b9718d
+      exit_code: 0
+      stdout: Metric axioms and sharp operator-norm bound for a linear map checked on a finite set.
+    compiled:
+      file: build/IB-2026-P4/main.pdf
+      sha256: f6b990188f602ec109ef941fd57417bccb5feeacbec53ea18898db124a8f65eb
+      pages:
+      - 2
+      visual_review: Inspected all sampled question and solution pages, including continuation pages.
+    html:
+      file: site/private/questions/IB/2026/P4/q2F/index.html
+      sha256: e2a9998e0207c04c32044a86f98f0fc95f34a44b81c521da3d9f8318ae7941b3
+      rendered_katex_nodes: 54
+      math_nodes: 54
+      parse_errors: 0
+      viewport_px: 1220
+      document_width_px: 1220
+      explicit_list_labels: 3
+      figure_dimensions_px: []
+    figures: {}

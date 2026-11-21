@@ -1,0 +1,1146 @@
+scope: IB Methods Sheet 1 union across 17 located dated editions. This is a sheet-level audit.
+method: Follow-up on the original random sample, using the same auditor and frozen independent derivations. Reviewed
+  all previously missing historical answer fragments and scripts against the frozen work; checked identical previously
+  reviewed answers by hash. Verified the complete answer body against generated TeX inside the correct section and
+  private HTML, extracted actual PDF text per printed question, located repair-specific mathematical passages in
+  the PDF, and inspected the images embedded in the HTML and PDF by pixel comparison to the reviewed original plots.
+seed: 20261130
+sample_in_draw_order:
+- q09
+- qx26
+- q04
+- qx10
+- qx11
+- qx08
+- q06
+- q11
+population: 40
+sample_size: 8
+before_repair_report_sha256: 16071ae8aeb3b63ab5d6feda3998188b6931e09a7035bbe4af7fc88e535fd1e8
+frozen_blind_rework_sha256: efc448db947648802e4e6b579402c7708ec2af9d0d2322e9519ce0c24119ff60
+result:
+  substantive_math_errors: 0
+  minor_math_errors: 0
+  substantive_transcription_errors: 0
+  minor_transcription_errors: 0
+  missing_worked_answers_after_repair:
+    units: 0/8
+    distinct_exact_texts: 0/21
+    positions: 0/58
+  previously_missing_now_verified:
+    units: 3/3
+    distinct_exact_texts: 10/10
+    positions: 33/33
+  script_paths_passed: 21/21 (eight canonical and thirteen version-specific; repeated appearances do not count as
+    independent tests).
+  edition_builds_verified: 17
+math_comparison:
+  q04: Three repaired exact historical texts. Correct complex and paired real coefficients (negative sine factor),
+    symmetric jump average cosh(pi) and summation by evaluating at a seam. Existing 2015-16 and modern answers still
+    match their respective prompts.
+  qx08: The real finite-power interpretation gives the finite partial sum identity by orthogonality and its limit
+    by L2 convergence. Correct odd Fourier coefficients, two passband harmonics and transmitted fraction 80/(9π²).
+  q11: Six repaired texts. Coefficients, integral with removable singularities, simple stationary points, finite-height
+    correction, 1.08949 limit, persistent overshoot and corresponding undershoot all agree. In 2001-02 the answer
+    explains the counterexample m=N; in 2014-15 it corrects the enumerating index to m and explicitly defines a
+    consistent x,N notation. These and the 2015-16 version distinguish the exact finite height from the strictly
+    smaller limiting height. Historical sharp-jump plots show open endpoints while the actual N=8 sum crosses 1/2.
+    Modern half-open assignments remain explicit in the modern plot; 2015-16 and 2016-17 historical plots distinguish
+    unspecified endpoint values from Fourier midpoints.
+  untouched: Hashes of the other 11 exact-text answers and all 58 question texts match the prior audit. Verified
+    inclusion under the expected printed numbers; re-executed their scripts including canonical q09, qx26, qx10,
+    qx11, q06.
+editions:
+  2001-02:
+    pdf_path: build/IB-methods-sheet-1-2001-02/main.pdf
+    pdf_sha256: 1a5d945333abf59f77c3835907113929525aeec63fece53d172d2bf58755cc70
+    compiled_tex_sha256: 96636f7bc990cbe0cef067c2869070e4bcb8733efc2d3019b4dcab1586ebbf5d
+    private_html_path: site/private/collections/IB/methods/sheet-1/2001-02.html
+    private_html_sha256: b7526e62819821f789340bb20792eeff5a7e7cbdf9be4891b2d22631d5658cd8
+  2002-03:
+    pdf_path: build/IB-methods-sheet-1-2002-03/main.pdf
+    pdf_sha256: c87677e4207bb107110b16ff8ab4efe75135b129ae2d5152c1ad2fc770bc61b3
+    compiled_tex_sha256: 99eff5378c5e28e20dd7846fbdac79e6793b797c3a71ffe7de7ac9d6be1792a1
+    private_html_path: site/private/collections/IB/methods/sheet-1/2002-03.html
+    private_html_sha256: a8e9b03b12dd0b9a3f51bf4e270a347b21a7e7b5a626418fc6b52db8e0caeed4
+  2003-04:
+    pdf_path: build/IB-methods-sheet-1-2003-04/main.pdf
+    pdf_sha256: 8de206478b6c1f1046dcd13d9cb1e7d5af88ec8bef016a0fca4bcd6eefb01c2a
+    compiled_tex_sha256: 7605b39cc95557593484be826e211da139f869a883573757b71447f5a195a9c4
+    private_html_path: site/private/collections/IB/methods/sheet-1/2003-04.html
+    private_html_sha256: 75b3a83ff2a48440cda0e0eb56dc3ecf0a9cd50cac469437267bdcfc9525b4a2
+  2004-05:
+    pdf_path: build/IB-methods-sheet-1-2004-05/main.pdf
+    pdf_sha256: ab1ea3408d1d44f620d79d702e58a34a545c8755671cdd15b753b9c458c32d70
+    compiled_tex_sha256: 2c8c9741652d87709f15c9ca766eed5e10cb7680591642acc23ed18e0c7cb631
+    private_html_path: site/private/collections/IB/methods/sheet-1/2004-05.html
+    private_html_sha256: 8774f0cfe993b6ee937555aff9081d4fae44936dde194fc8129d9a1cdea71a50
+  2006-07:
+    pdf_path: build/IB-methods-sheet-1-2006-07/main.pdf
+    pdf_sha256: 85151ae508377b7287f7c02b914517d99e2f818be650a64452a96516b0f3dc10
+    compiled_tex_sha256: e2f61e69bc2158862905c97f88e09c3896ac226c5cfef770ce86886a78227615
+    private_html_path: site/private/collections/IB/methods/sheet-1/2006-07.html
+    private_html_sha256: 58e0716c8deded9de858cf8abe5dcf129a0a3e1bab327770b6d16ee22bcd1af3
+  2007-08:
+    pdf_path: build/IB-methods-sheet-1-2007-08/main.pdf
+    pdf_sha256: 15edd87bf91304793bf848f87002f175b55ff1aa3a3fa03f9349fc106d1c9fc9
+    compiled_tex_sha256: 33b4e7744a16b251f2d472d04fb8a0a879d20848b87cb2ebeab14fc4f49cec5b
+    private_html_path: site/private/collections/IB/methods/sheet-1/2007-08.html
+    private_html_sha256: 5a34616de133fd8badd42cf60bd736dc95bdac695b5a5456e76277b1c9b530fd
+  2011-12:
+    pdf_path: build/IB-methods-sheet-1-2011-12/main.pdf
+    pdf_sha256: 7bcba528f7f63e4aa4d9bae475f255c0e09a37914b37876a27fda047e53a24a4
+    compiled_tex_sha256: a666be1e5fa21e6bcdc611286472a1cab5b9dde3f7f44a207a5faa57981686f7
+    private_html_path: site/private/collections/IB/methods/sheet-1/2011-12.html
+    private_html_sha256: 04f48241184e4621ac522137082522911acc65f17628f9427729ed857fda3567
+  2014-15:
+    pdf_path: build/IB-methods-sheet-1-2014-15/main.pdf
+    pdf_sha256: a84739cae2a560ff8873a06a121c6dff6d33416b2bb6b981bc85dfda24eb2e2a
+    compiled_tex_sha256: f519e8dc7dbf2b69bd0ce75e027de34f38558214970c371c9ada1464630e8eb9
+    private_html_path: site/private/collections/IB/methods/sheet-1/2014-15.html
+    private_html_sha256: 29144d57c49f86696f85e55bb0cbaaff68ca54b7527109b50608881652ec9e65
+  2015-16:
+    pdf_path: build/IB-methods-sheet-1-2015-16/main.pdf
+    pdf_sha256: 2e5c07a2d487ee9bee5c7a7be4d959b8d87c7f84eeaf761d1030ac2a1234a360
+    compiled_tex_sha256: b34b5a524d2fec52e2ae3840af0a966118bd8b8b8334df3a96030ec29bbadda2
+    private_html_path: site/private/collections/IB/methods/sheet-1/2015-16.html
+    private_html_sha256: f369fbe5583fc8e2b8021704e5af69892b57665a7395df2c409f02770a10a129
+  2016-17:
+    pdf_path: build/IB-methods-sheet-1-2016-17/main.pdf
+    pdf_sha256: 723004585f00d55e503540365885d20e98cb4623150bcdb23584cf21dc18cf62
+    compiled_tex_sha256: 037a4e9ae278801cb657992cbf1a33b1d4a3545b1523ccd5fad3eb0faf870351
+    private_html_path: site/private/collections/IB/methods/sheet-1/2016-17.html
+    private_html_sha256: 5591e6575e0a1bb17db30c2c6aacb9e05e6816dfea41ba5f20b2b96c1d8196e7
+  2018-19:
+    pdf_path: build/IB-methods-sheet-1-2018-19/main.pdf
+    pdf_sha256: 78d76b982465659cb44a16d16aeddaed634cd82e9d23ca33b87ca29725649692
+    compiled_tex_sha256: 50332abf959ad414b73cba89f0f224c64c198a1dbbd038ac123161158c895821
+    private_html_path: site/private/collections/IB/methods/sheet-1/2018-19.html
+    private_html_sha256: 7fcbadc30f6a5f7f1632062c84518ca9545f04a55cb75f2fc6789c95007fd952
+  2020-21:
+    pdf_path: build/IB-methods-sheet-1-2020-21/main.pdf
+    pdf_sha256: d9fab8ef05cc233ffad802c18e582502f7d6e530306d29b4700ac4991b09859c
+    compiled_tex_sha256: 784e182f285580fc381974fbfbe28df01892bdd4872d1e7cac90968beea338cc
+    private_html_path: site/private/collections/IB/methods/sheet-1/2020-21.html
+    private_html_sha256: 247e5f7219881fe3f68a4c9960fb814ecd405ea8af041f25e400cd233ee68b77
+  2022-23:
+    pdf_path: build/IB-methods-sheet-1-2022-23/main.pdf
+    pdf_sha256: fea48304a783d32a2d17f5ddbce43dd88c50c862e6e18de023eb89ac0e4152a7
+    compiled_tex_sha256: e844cf1f7177f4a44fb1e04ebf923ff16c365ab46848438d6e96a44d6dc3d00f
+    private_html_path: site/private/collections/IB/methods/sheet-1/2022-23.html
+    private_html_sha256: 0fdf5c952f4602d5f8c28a93b83f5337ffe0e1dad56a69ab077a4df2340db417
+  2023-24:
+    pdf_path: build/IB-methods-sheet-1-2023-24/main.pdf
+    pdf_sha256: ccc4b49a1e987d1afc4f2a5c3426b8ed62ec4f9c6b9e313dff3efc51ae28b34d
+    compiled_tex_sha256: fd91eae0778b3719a797f92173da97634e7e412ace722d00e849998f4409e87d
+    private_html_path: site/private/collections/IB/methods/sheet-1/2023-24.html
+    private_html_sha256: a38d894c15012e33d08d30bca2c6219a6ff4777decffa9627712733a6a57c7ea
+  2024-25:
+    pdf_path: build/IB-methods-sheet-1-2024-25/main.pdf
+    pdf_sha256: 95610a8463e990a6982756d7d96d29a5a94f18540e08301ad5ea09f56f0ddfb4
+    compiled_tex_sha256: 0998506c4fe15ee7a9b9bd462d8b5c7f8d6f49cb25c51a2b576bcb036ba24cd8
+    private_html_path: site/private/collections/IB/methods/sheet-1/2024-25.html
+    private_html_sha256: a4443ead4b1c0a7337f197bd43a6dd324e6e3a340fc257797b4d5e2b6598abdb
+  2025-26:
+    pdf_path: build/IB-methods-sheet-1-2025-26/main.pdf
+    pdf_sha256: 67ee28a114806912013dd3613a2c4dae5523cfa172bd173a38be2c21612b834d
+    compiled_tex_sha256: 4d3aeb4ca242c0457abfda082163b8e2e3cf94a5bfa99d3886a5b82acda095b9
+    private_html_path: site/private/collections/IB/methods/sheet-1/2025-26.html
+    private_html_sha256: 243e4501d75493e144cc3bfee22b5c29d218c7cfd06e318e83fd4ab97bb9eb74
+  2026-27:
+    pdf_path: build/IB-methods-sheet-1-2026-27/main.pdf
+    pdf_sha256: fae79a119d3fe4ef0abdac43de9f6e2f1d3835192b3ad5ce13808800df3c3582
+    compiled_tex_sha256: 297225ecd481f0a80c916f007e76d4c06e359aaf9c9f47d4875d40adf4bf06b6
+    private_html_path: site/private/collections/IB/methods/sheet-1/2026-27.html
+    private_html_sha256: b4e86979c4d3af1dae72d4e576a62ac05aeb6331f3ca881818ae7d0a3018be57
+exact_texts:
+- unit: q04
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  answer: courses/IB/methods/sheets/sheet-1/q04/history/verified-2001-02-65ec3e65a969/solution.tex
+  answer_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  repaired: true
+  years:
+  - 2001-02
+  - 2002-03
+  - 2003-04
+  - 2004-05
+  - 2006-07
+  - 2007-08
+  - 2011-12
+- unit: qx10
+  question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+  answer: courses/IB/methods/sheets/sheet-1/qx10/solution.tex
+  answer_sha256: d4bbe5d56cb0cc33c9dc23d5f45cefab163499dc12d573990c9ccb212b9a5ec7
+  repaired: false
+  years:
+  - 2001-02
+  - 2002-03
+- unit: qx11
+  question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+  answer: courses/IB/methods/sheets/sheet-1/qx11/solution.tex
+  answer_sha256: f209c2f9899977f5f94f94b2e72c42d11f985eedeead6a11884e3fb780b97bb5
+  repaired: false
+  years:
+  - 2001-02
+  - 2002-03
+- unit: qx08
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  answer: courses/IB/methods/sheets/sheet-1/qx08/history/verified-2001-02-83e355a09b1c/solution.tex
+  answer_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  repaired: true
+  years:
+  - 2001-02
+  - 2002-03
+  - 2003-04
+  - 2004-05
+  - 2006-07
+  - 2007-08
+  - 2011-12
+  - 2014-15
+  - 2018-19
+  - 2020-21
+  - 2022-23
+- unit: q11
+  question_sha256: 842b6de80f1835f9fbbaa789db25c259d095c7a06725ea16e919bc03d3151198
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2001-02-842b6de80f18/solution.tex
+  answer_sha256: be0cb3f43c93f8151dfed042b517113cffd7883f96675d914e7063ea80ed6c37
+  repaired: true
+  years:
+  - 2001-02
+- unit: q11
+  question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/solution.tex
+  answer_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  repaired: true
+  years:
+  - 2002-03
+  - 2003-04
+  - 2004-05
+  - 2006-07
+  - 2007-08
+- unit: qx26
+  question_sha256: 9bb7b96a71c47970aad2ee48868f19c0070f85a02b2fdb944b800505624ad5c2
+  answer: courses/IB/methods/sheets/sheet-1/qx26/solution.tex
+  answer_sha256: 285e3d95c9e756624ed57d1c80f0093460acd3c591432263bd8054c59e474975
+  repaired: false
+  years:
+  - 2007-08
+- unit: q11
+  question_sha256: ef43541a451715d0984ba26194b1e867783e63abd8d36cda19dbb2eff69fb35f
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2011-12-ef43541a4517/solution.tex
+  answer_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  repaired: true
+  years:
+  - 2011-12
+- unit: q04
+  question_sha256: 5695678c9971ee4a4245b8aceeb375a52f48e338e2417158864923537be30874
+  answer: courses/IB/methods/sheets/sheet-1/q04/history/verified-2014-15-5695678c9971/solution.tex
+  answer_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  repaired: true
+  years:
+  - 2014-15
+- unit: q11
+  question_sha256: a6ffbed4931d914d5f711cc29ed3ff3e04e0e8f4690012e48f43a49a85982586
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2014-15-a6ffbed4931d/solution.tex
+  answer_sha256: 260121873466f547ff44644069a9a25dd6b5659c81fff5e0b1ab38cfc0f1e7f5
+  repaired: true
+  years:
+  - 2014-15
+- unit: q04
+  question_sha256: 5982222b7e4eb86439047b5d600e75984e8db7d974cc245f29c7e2ca450d5094
+  answer: courses/IB/methods/sheets/sheet-1/q04/history/verified-2015-16/solution.tex
+  answer_sha256: 06350262abfe1e53a25d12d1d445d9fa4d131ee1ee8649e0f48072d17962bf95
+  repaired: false
+  years:
+  - 2015-16
+- unit: qx08
+  question_sha256: a2e2444602bf987c0c15ed7a98386cb341a9e8afb92875035e55c1d3914be649
+  answer: courses/IB/methods/sheets/sheet-1/qx08/solution.tex
+  answer_sha256: d3e0f481f0cc05676e74d543fd8bd9c7472e25faf2b048016b3b51782b1d6039
+  repaired: false
+  years:
+  - 2015-16
+- unit: q11
+  question_sha256: ce5b95e6024b846837cf175428826a542a94b947a5bf5bcf52b2703d5580dc5d
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2015-16/solution.tex
+  answer_sha256: 68555bb2d3d5e621b6bc98fabf624925f37ad71f0c53a798f53a7fab826511d9
+  repaired: false
+  years:
+  - 2015-16
+- unit: q11
+  question_sha256: 387f6fd2b1fa4b56ce8c33364ccc5c5b745209bd840b4cf41dcbeaf781fe664c
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2016-17/solution.tex
+  answer_sha256: 9cb0410bee6a65ec8432a4b5c9a9d7c1031cbbd9073bc002b749cf82b16d1ba6
+  repaired: false
+  years:
+  - 2016-17
+- unit: q04
+  question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  answer: courses/IB/methods/sheets/sheet-1/q04/history/verified-2018-19-01ea0e8db9be/solution.tex
+  answer_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  repaired: true
+  years:
+  - 2018-19
+  - 2020-21
+  - 2022-23
+- unit: q11
+  question_sha256: 8f4432d0728ea2a754103b68bec8d0a1f411a3caa694b067a3e28e14d53e9fca
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2018-19-8f4432d0728e/solution.tex
+  answer_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  repaired: true
+  years:
+  - 2018-19
+- unit: q11
+  question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+  answer: courses/IB/methods/sheets/sheet-1/q11/history/verified-2020-21-ba57e01d8127/solution.tex
+  answer_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  repaired: true
+  years:
+  - 2020-21
+  - 2022-23
+- unit: q09
+  question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+  answer: courses/IB/methods/sheets/sheet-1/q09/solution.tex
+  answer_sha256: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+  repaired: false
+  years:
+  - 2023-24
+  - 2024-25
+  - 2025-26
+  - 2026-27
+- unit: q04
+  question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+  answer: courses/IB/methods/sheets/sheet-1/q04/solution.tex
+  answer_sha256: a8fdfbb4c2349b5de3f776326034d88c52af8cf57b80c963c266396ac4cd41ab
+  repaired: false
+  years:
+  - 2023-24
+  - 2024-25
+  - 2025-26
+  - 2026-27
+- unit: q06
+  question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+  answer: courses/IB/methods/sheets/sheet-1/q06/solution.tex
+  answer_sha256: 21b80f07f872edababc7ea0186078f2c82ad22c75a851a665bfae74e0b1bd2ca
+  repaired: false
+  years:
+  - 2023-24
+  - 2024-25
+  - 2025-26
+  - 2026-27
+- unit: q11
+  question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+  answer: courses/IB/methods/sheets/sheet-1/q11/solution.tex
+  answer_sha256: d9e71c912a8b8a1bd8f519f90daa4728c3fcdaa9015c8ed80f4e446d1ad972f3
+  repaired: false
+  years:
+  - 2023-24
+  - 2024-25
+  - 2025-26
+  - 2026-27
+positions:
+- unit: q04
+  year: 2001-02
+  source_page: 1
+  printed_question: '2'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 3
+  compiled_pdf_last_page: 3
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx10
+  year: 2001-02
+  source_page: 1
+  printed_question: '1'
+  repaired: false
+  question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+  solution_sha256: d4bbe5d56cb0cc33c9dc23d5f45cefab163499dc12d573990c9ccb212b9a5ec7
+  compiled_pdf_first_page: 1
+  compiled_pdf_last_page: 2
+  html_solution_label: Solution · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/qx10/figures/quartic-and-extensions.png
+    png_sha256: 4687ef30f96921760bee1f589c1bcc4901d380e3126230aa35df77e6c5213f91
+    confirmed_pdf_pages:
+    - 2
+- unit: qx11
+  year: 2001-02
+  source_page: 1
+  printed_question: '3'
+  repaired: false
+  question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+  solution_sha256: f209c2f9899977f5f94f94b2e72c42d11f985eedeead6a11884e3fb780b97bb5
+  compiled_pdf_first_page: 4
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2001-02
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2001-02
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 842b6de80f1835f9fbbaa789db25c259d095c7a06725ea16e919bc03d3151198
+  solution_sha256: be0cb3f43c93f8151dfed042b517113cffd7883f96675d914e7063ea80ed6c37
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2001-02-842b6de80f18/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2002-03
+  source_page: 1
+  printed_question: '2'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 3
+  compiled_pdf_last_page: 3
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx10
+  year: 2002-03
+  source_page: 1
+  printed_question: '1'
+  repaired: false
+  question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+  solution_sha256: d4bbe5d56cb0cc33c9dc23d5f45cefab163499dc12d573990c9ccb212b9a5ec7
+  compiled_pdf_first_page: 1
+  compiled_pdf_last_page: 2
+  html_solution_label: Solution · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/qx10/figures/quartic-and-extensions.png
+    png_sha256: 4687ef30f96921760bee1f589c1bcc4901d380e3126230aa35df77e6c5213f91
+    confirmed_pdf_pages:
+    - 2
+- unit: qx11
+  year: 2002-03
+  source_page: 1
+  printed_question: '3'
+  repaired: false
+  question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+  solution_sha256: f209c2f9899977f5f94f94b2e72c42d11f985eedeead6a11884e3fb780b97bb5
+  compiled_pdf_first_page: 4
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2002-03
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2002-03
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2003-04
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2003-04
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2003-04
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2004-05
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2004-05
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2004-05
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2006-07
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2006-07
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2006-07
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: qx26
+  year: 2007-08
+  source_page: 2
+  printed_question: '9'
+  repaired: false
+  question_sha256: 9bb7b96a71c47970aad2ee48868f19c0070f85a02b2fdb944b800505624ad5c2
+  solution_sha256: 285e3d95c9e756624ed57d1c80f0093460acd3c591432263bd8054c59e474975
+  compiled_pdf_first_page: 13
+  compiled_pdf_last_page: 13
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q04
+  year: 2007-08
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2007-08
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2007-08
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2011-12
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2011-12
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2011-12
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: ef43541a451715d0984ba26194b1e867783e63abd8d36cda19dbb2eff69fb35f
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2011-12-ef43541a4517/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2014-15
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 5695678c9971ee4a4245b8aceeb375a52f48e338e2417158864923537be30874
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2014-15
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2014-15
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: a6ffbed4931d914d5f711cc29ed3ff3e04e0e8f4690012e48f43a49a85982586
+  solution_sha256: 260121873466f547ff44644069a9a25dd6b5659c81fff5e0b1ab38cfc0f1e7f5
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2014-15-a6ffbed4931d/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2015-16
+  source_page: 1
+  printed_question: '3'
+  repaired: false
+  question_sha256: 5982222b7e4eb86439047b5d600e75984e8db7d974cc245f29c7e2ca450d5094
+  solution_sha256: 06350262abfe1e53a25d12d1d445d9fa4d131ee1ee8649e0f48072d17962bf95
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2015-16
+  source_page: 1
+  printed_question: '4'
+  repaired: false
+  question_sha256: a2e2444602bf987c0c15ed7a98386cb341a9e8afb92875035e55c1d3914be649
+  solution_sha256: d3e0f481f0cc05676e74d543fd8bd9c7472e25faf2b048016b3b51782b1d6039
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 7
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2015-16
+  source_page: 1
+  printed_question: '5'
+  repaired: false
+  question_sha256: ce5b95e6024b846837cf175428826a542a94b947a5bf5bcf52b2703d5580dc5d
+  solution_sha256: 68555bb2d3d5e621b6bc98fabf624925f37ad71f0c53a798f53a7fab826511d9
+  compiled_pdf_first_page: 8
+  compiled_pdf_last_page: 9
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2015-16/figures/square-wave.png
+    png_sha256: 0cc74222652ca27ceb07c1ef0c1b10df763b5b6104807fec39a4eddb7366a254
+    confirmed_pdf_pages:
+    - 9
+- unit: q11
+  year: 2016-17
+  source_page: 2
+  printed_question: '5'
+  repaired: false
+  question_sha256: 387f6fd2b1fa4b56ce8c33364ccc5c5b745209bd840b4cf41dcbeaf781fe664c
+  solution_sha256: 9cb0410bee6a65ec8432a4b5c9a9d7c1031cbbd9073bc002b749cf82b16d1ba6
+  compiled_pdf_first_page: 9
+  compiled_pdf_last_page: 10
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2016-17/figures/square-wave.png
+    png_sha256: 5deb3e47d533d0d1747f4a5b5cf120a944c58adb469900b9d4154cc2317ce29d
+    confirmed_pdf_pages:
+    - 10
+- unit: q04
+  year: 2018-19
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2018-19
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2018-19
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: 8f4432d0728ea2a754103b68bec8d0a1f411a3caa694b067a3e28e14d53e9fca
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2018-19-8f4432d0728e/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2020-21
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2020-21
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2020-21
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2020-21-ba57e01d8127/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q04
+  year: 2022-23
+  source_page: 1
+  printed_question: '3'
+  repaired: true
+  question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+  compiled_pdf_first_page: 5
+  compiled_pdf_last_page: 5
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: qx08
+  year: 2022-23
+  source_page: 1
+  printed_question: '4'
+  repaired: true
+  question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  solution_sha256: 5957195af2fa7fa612558a6de89e91121b881342a559dfe46cbd4f08c486d8fd
+  compiled_pdf_first_page: 6
+  compiled_pdf_last_page: 6
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2022-23
+  source_page: 1
+  printed_question: '5'
+  repaired: true
+  question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+  solution_sha256: cd077044e5eb403b98147c7b6218e38e06c6426cbf55307e9d9c3c862223d6c0
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 8
+  html_solution_label: Solution for this version · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/history/verified-2020-21-ba57e01d8127/figures/square-wave.png
+    png_sha256: 1d7b11d9c09f5645f1d0db0e98d6854cb70440d92bcb11de89f9087ae531aa03
+    confirmed_pdf_pages:
+    - 8
+- unit: q09
+  year: 2023-24
+  source_page: 2
+  printed_question: '9'
+  repaired: false
+  question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+  solution_sha256: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+  compiled_pdf_first_page: 13
+  compiled_pdf_last_page: 14
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q04
+  year: 2023-24
+  source_page: 1
+  printed_question: '4'
+  repaired: false
+  question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+  solution_sha256: a8fdfbb4c2349b5de3f776326034d88c52af8cf57b80c963c266396ac4cd41ab
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 7
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q06
+  year: 2023-24
+  source_page: 1
+  printed_question: '6'
+  repaired: false
+  question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+  solution_sha256: 21b80f07f872edababc7ea0186078f2c82ad22c75a851a665bfae74e0b1bd2ca
+  compiled_pdf_first_page: 9
+  compiled_pdf_last_page: 9
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2023-24
+  source_page: 2
+  printed_question: '11'
+  repaired: false
+  question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+  solution_sha256: d9e71c912a8b8a1bd8f519f90daa4728c3fcdaa9015c8ed80f4e446d1ad972f3
+  compiled_pdf_first_page: 17
+  compiled_pdf_last_page: 19
+  html_solution_label: Solution · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/figures/square-wave-gibbs.png
+    png_sha256: 2a01f73810bc039a1f6a598b4b12b5de2e2d5dc4f9fb7ce78f50d7194baa8aec
+    confirmed_pdf_pages:
+    - 19
+- unit: q09
+  year: 2024-25
+  source_page: 2
+  printed_question: '9'
+  repaired: false
+  question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+  solution_sha256: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+  compiled_pdf_first_page: 13
+  compiled_pdf_last_page: 14
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q04
+  year: 2024-25
+  source_page: 1
+  printed_question: '4'
+  repaired: false
+  question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+  solution_sha256: a8fdfbb4c2349b5de3f776326034d88c52af8cf57b80c963c266396ac4cd41ab
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 7
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q06
+  year: 2024-25
+  source_page: 1
+  printed_question: '6'
+  repaired: false
+  question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+  solution_sha256: 21b80f07f872edababc7ea0186078f2c82ad22c75a851a665bfae74e0b1bd2ca
+  compiled_pdf_first_page: 9
+  compiled_pdf_last_page: 9
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2024-25
+  source_page: 2
+  printed_question: '11'
+  repaired: false
+  question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+  solution_sha256: d9e71c912a8b8a1bd8f519f90daa4728c3fcdaa9015c8ed80f4e446d1ad972f3
+  compiled_pdf_first_page: 17
+  compiled_pdf_last_page: 19
+  html_solution_label: Solution · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/figures/square-wave-gibbs.png
+    png_sha256: 2a01f73810bc039a1f6a598b4b12b5de2e2d5dc4f9fb7ce78f50d7194baa8aec
+    confirmed_pdf_pages:
+    - 19
+- unit: q09
+  year: 2025-26
+  source_page: 2
+  printed_question: '9'
+  repaired: false
+  question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+  solution_sha256: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+  compiled_pdf_first_page: 14
+  compiled_pdf_last_page: 15
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q04
+  year: 2025-26
+  source_page: 1
+  printed_question: '4'
+  repaired: false
+  question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+  solution_sha256: a8fdfbb4c2349b5de3f776326034d88c52af8cf57b80c963c266396ac4cd41ab
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 7
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q06
+  year: 2025-26
+  source_page: 1
+  printed_question: '6'
+  repaired: false
+  question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+  solution_sha256: 21b80f07f872edababc7ea0186078f2c82ad22c75a851a665bfae74e0b1bd2ca
+  compiled_pdf_first_page: 10
+  compiled_pdf_last_page: 10
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2025-26
+  source_page: 2
+  printed_question: '11'
+  repaired: false
+  question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+  solution_sha256: d9e71c912a8b8a1bd8f519f90daa4728c3fcdaa9015c8ed80f4e446d1ad972f3
+  compiled_pdf_first_page: 18
+  compiled_pdf_last_page: 20
+  html_solution_label: Solution · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/figures/square-wave-gibbs.png
+    png_sha256: 2a01f73810bc039a1f6a598b4b12b5de2e2d5dc4f9fb7ce78f50d7194baa8aec
+    confirmed_pdf_pages:
+    - 20
+- unit: q09
+  year: 2026-27
+  source_page: 2
+  printed_question: '9'
+  repaired: false
+  question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+  solution_sha256: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+  compiled_pdf_first_page: 14
+  compiled_pdf_last_page: 15
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q04
+  year: 2026-27
+  source_page: 1
+  printed_question: '4'
+  repaired: false
+  question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+  solution_sha256: a8fdfbb4c2349b5de3f776326034d88c52af8cf57b80c963c266396ac4cd41ab
+  compiled_pdf_first_page: 7
+  compiled_pdf_last_page: 7
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q06
+  year: 2026-27
+  source_page: 1
+  printed_question: '6'
+  repaired: false
+  question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+  solution_sha256: 21b80f07f872edababc7ea0186078f2c82ad22c75a851a665bfae74e0b1bd2ca
+  compiled_pdf_first_page: 10
+  compiled_pdf_last_page: 10
+  html_solution_label: Solution · ai-draft
+  figure_matches: []
+- unit: q11
+  year: 2026-27
+  source_page: 2
+  printed_question: '11'
+  repaired: false
+  question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+  solution_sha256: d9e71c912a8b8a1bd8f519f90daa4728c3fcdaa9015c8ed80f4e446d1ad972f3
+  compiled_pdf_first_page: 18
+  compiled_pdf_last_page: 20
+  html_solution_label: Solution · ai-draft
+  figure_matches:
+  - source_file: courses/IB/methods/sheets/sheet-1/q11/figures/square-wave-gibbs.png
+    png_sha256: 2a01f73810bc039a1f6a598b4b12b5de2e2d5dc4f9fb7ce78f50d7194baa8aec
+    confirmed_pdf_pages:
+    - 20
+executed_checks:
+- path: courses/IB/methods/sheets/sheet-1/q04/check.py
+  sha256: 0d1957a11f431e384465b9201081e134e7009537d25f093b9950f27234459966
+  returncode: 0
+  output: 'PASS: 9 exact Fourier coefficients, Parseval normalization, conjugate pairing; sum=1.07667404746858,
+    N=10000 residual=9.999499983e-05 within [9.999000067e-05, 9.999999967e-05].'
+- path: courses/IB/methods/sheets/sheet-1/q04/history/verified-2001-02-65ec3e65a969/check.py
+  sha256: 03630495c7076b6989786a568c04aef8b4b16ee4a5412e55432db6437e58c823
+  returncode: 0
+  output: Transform quadrature and rational series summation agree.
+- path: courses/IB/methods/sheets/sheet-1/q04/history/verified-2014-15-5695678c9971/check.py
+  sha256: 03630495c7076b6989786a568c04aef8b4b16ee4a5412e55432db6437e58c823
+  returncode: 0
+  output: Transform quadrature and rational series summation agree.
+- path: courses/IB/methods/sheets/sheet-1/q04/history/verified-2015-16/check.py
+  sha256: 47b8ebcca9cd28119731104e3bd5758a72bff79ef5a427f4e15c92a5d26f3983
+  returncode: 0
+  output: Complex projections and midpoint series agree with tail bounds.
+- path: courses/IB/methods/sheets/sheet-1/q04/history/verified-2018-19-01ea0e8db9be/check.py
+  sha256: 03630495c7076b6989786a568c04aef8b4b16ee4a5412e55432db6437e58c823
+  returncode: 0
+  output: Transform quadrature and rational series summation agree.
+- path: courses/IB/methods/sheets/sheet-1/q06/check.py
+  sha256: 339b84656959cb12df2535c0321248eb7b8ab2ebe412655029815e2c267f5b2a
+  returncode: 0
+  output: 'PASS: symbolic eigen-equation and boundary conditions for every positive integer n, zero mode, 25 exact
+    orthogonality integrals, and general-n double-integration coefficient check.'
+- path: courses/IB/methods/sheets/sheet-1/q09/check.py
+  sha256: 1a37da46f10c800acdd8ef954f3dfe7da84121e358f5d8fdfa8eee5bb26e841e
+  returncode: 0
+  output: 'PASS: n=1..8 Rodrigues polynomials, endpoints, Legendre ODE/library comparison, exact norms, 36 lower
+    moments, beta-integral formula and integration-by-parts endpoint factors.'
+- path: courses/IB/methods/sheets/sheet-1/q11/check.py
+  sha256: 2490da0a3d6e2213528a27a3b64b09fc5bcbaa200c52a33dd9a810946cc7788c
+  returncode: 0
+  output: 'PASS: 9 exact Fourier modes, 12 integral identities, 31 stationary points, reflected Gibbs integral,
+    5 O(N^-2) maximum bounds; rational lower bound 2647/2450 > 1.08; Gibbs limit 1.089489872236084.'
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2001-02-842b6de80f18/check.py
+  sha256: c739e12735918afa38d87026eefceb79964951bcb1f95d3bc078f88aa69ad547
+  returncode: 0
+  output: Checked peak locations, exact integral and convergence from above.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2002-03-935f0690dc7d/check.py
+  sha256: c739e12735918afa38d87026eefceb79964951bcb1f95d3bc078f88aa69ad547
+  returncode: 0
+  output: Checked peak locations, exact integral and convergence from above.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2011-12-ef43541a4517/check.py
+  sha256: c739e12735918afa38d87026eefceb79964951bcb1f95d3bc078f88aa69ad547
+  returncode: 0
+  output: Checked peak locations, exact integral and convergence from above.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2014-15-a6ffbed4931d/check.py
+  sha256: c739e12735918afa38d87026eefceb79964951bcb1f95d3bc078f88aa69ad547
+  returncode: 0
+  output: Checked peak locations, exact integral and convergence from above.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2015-16/check.py
+  sha256: 676be843e7bff343e20d5f3daa5dd13e8a095890659c1d5a20ec3595038c57c7
+  returncode: 0
+  output: Square-wave coefficients, removable points, extrema and Gibbs limit agree.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2016-17/check.py
+  sha256: 676be843e7bff343e20d5f3daa5dd13e8a095890659c1d5a20ec3595038c57c7
+  returncode: 0
+  output: Square-wave coefficients, removable points, extrema and Gibbs limit agree.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2018-19-8f4432d0728e/check.py
+  sha256: c739e12735918afa38d87026eefceb79964951bcb1f95d3bc078f88aa69ad547
+  returncode: 0
+  output: Checked peak locations, exact integral and convergence from above.
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2020-21-ba57e01d8127/check.py
+  sha256: c739e12735918afa38d87026eefceb79964951bcb1f95d3bc078f88aa69ad547
+  returncode: 0
+  output: Checked peak locations, exact integral and convergence from above.
+- path: courses/IB/methods/sheets/sheet-1/qx08/check.py
+  sha256: 0d21a8bd74faeb307f83858928f3c45cedef565a3596f1c54c99c996097a0aff
+  returncode: 0
+  output: 'PASS: finite Parseval identity, square-wave harmonics, and transmitted power for three periods.
+
+    Transmitted fraction: 0.9006327434874469'
+- path: courses/IB/methods/sheets/sheet-1/qx08/history/verified-2001-02-83e355a09b1c/check.py
+  sha256: 4a5ba756528c2d3244739c97a799a8c8588dfcfc01302b97dd66b1e91db93278
+  returncode: 0
+  output: Verified square-wave projections and transmitted mean square.
+- path: courses/IB/methods/sheets/sheet-1/qx10/check.py
+  sha256: c449e63cdb0bee014d1a445687150c84c6978fb7323b351058d88f6dff6ade84
+  returncode: 0
+  output: Checked full- and half-range coefficients and differentiated cosine sums.
+- path: courses/IB/methods/sheets/sheet-1/qx11/check.py
+  sha256: 068ea2722f218910f3831026b256d634d95a50e31ae32165bfe0acfac042cbee
+  returncode: 0
+  output: Checked cusp coefficients and the jump example from printed question 2.
+- path: courses/IB/methods/sheets/sheet-1/qx26/check.py
+  sha256: 67afd8e2e9d45a03fbce3700b5f08082c7255fc79e7de245a189a11be952cd49
+  returncode: 0
+  output: Checked Parseval for complex shifted data with positive, negative and zero shift differences.

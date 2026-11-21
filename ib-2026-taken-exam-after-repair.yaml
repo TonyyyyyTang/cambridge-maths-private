@@ -1,0 +1,234 @@
+scope: 2026 IB Tripos exam questions for ten confirmed-taken courses. Does not extend to complete courses, example
+  sheets, other exam years or other IB courses.
+audit_stage: repair verification
+initial_report_sha256: d450b1532cdbafd2cff1757402d62a31b003d3c7ca827acf4734171007019818
+frozen_blind_proofs_sha256: 2e4db148b925e5f6fe2defabfb7497a8027d21f41253d42b2028cf0d92b3361c
+initial_rates:
+  definition: Numerator counts affected sampled questions once per category; denominators are 13 in each category.
+    Shared renderer defects recur across questions.
+  mathematical:
+    affected: 0
+    total: 13
+    rate: 0
+  transcription:
+    affected: 1
+    total: 13
+    rate: 0.07692307692307693
+  presentation:
+    affected: 12
+    total: 13
+    rate: 0.9230769230769231
+  substantive_mathematical_or_transcription:
+    affected: 0
+    total: 13
+    rate: 0
+  check_failures:
+    affected: 0
+    total: 13
+    rate: 0
+residual_rates:
+  mathematical:
+    affected: 0
+    total: 13
+    rate: 0
+  transcription:
+    affected: 0
+    total: 13
+    rate: 0
+  presentation:
+    affected: 0
+    total: 13
+    rate: 0
+repair_verification: The 13 actual generated HTML files were opened in an isolated Chrome browser at 1220 CSS pixels.
+  All 54 explicitly lettered or numbered subparts suppress the duplicate browser marker and the six ordinary ordered-list
+  entries in the Complex Methods answer retain decimal numbering. All 708 math nodes rendered, all three figures
+  loaded and no page overflowed. The corrected original glyphs and closing hint bracket were compared to the archived
+  page images in both compiled paper PDFs and the browser. The two changed unit checks were re-executed; all 13
+  canonical solution hashes were compared with the initial report.
+units:
+  IB/2026/P1/q1G:
+    html_sha256: b5a6c8dde9c0285309c86c9e67564a46ff92d94b5b83e2568568734f126203b9
+    compiled_pdf_sha256: 9ecf82b009aa6cf3dc736c6d98afd62fca76c18bfb837624ebd87baddbdced53
+    question_sha256: 1acea79d65dfed11c0a77f34c2c5379611586e8ea5121c361f9b9e19b7961980
+    solution_sha256: 5127b693d179420395207809a633c70fb43b903267cbad1e331975f4bbea1bec
+    sampled_explicit_labels: 2
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 22
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P1/q3.2C:
+    html_sha256: 0f85cdcf750ac451915c46149a9010bbb713d337298b66c3f358b9a7f9afc85c
+    compiled_pdf_sha256: 9ecf82b009aa6cf3dc736c6d98afd62fca76c18bfb837624ebd87baddbdced53
+    question_sha256: 908543a16338c64c59bdc47aad93f52bc9b9eca76a3aafd327dd76ccb840b464
+    solution_sha256: 3da5f76a5cdd19091efcd4cfb455a72e3424c622fbccae95cb8bf56aacda1852
+    sampled_explicit_labels: 0
+    explicit_marker_types: []
+    ordinary_items: 6
+    ordinary_marker_types:
+    - decimal
+    math_rendered: 14
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P1/q8E:
+    html_sha256: 5597b4c8932a4df94827e70cf337089118356782296adf86d1fa686b0c7084e1
+    compiled_pdf_sha256: 9ecf82b009aa6cf3dc736c6d98afd62fca76c18bfb837624ebd87baddbdced53
+    question_sha256: 25a30d41ef0b82b934538508f98b81cf459f6de865cc379f9ac10202ae3b7668
+    solution_sha256: 8acd35d22fd5e342a10fa649941c4ade49c20ba18182dfb02419d76939f6af24
+    sampled_explicit_labels: 7
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 73
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P1/q13B:
+    html_sha256: 8ec9129a4004f6b44a247eb66132ee7d18fb851c543462e0298002614e8ec8c1
+    compiled_pdf_sha256: 9ecf82b009aa6cf3dc736c6d98afd62fca76c18bfb837624ebd87baddbdced53
+    question_sha256: bcfd6a5d06fad6f0bbb302caf38905a2acbbe34d515d676f70728548af52c12f
+    solution_sha256: f3f1612dfb5a1f6f83c16b864553019a6fef63d2ff900cc3d41fe014b9f2352b
+    sampled_explicit_labels: 4
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 52
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+    check_exit: 0
+    check_stdout: 'PASS: norm, quadratic-form energy, twelve exact overlaps including n=4, independent series acceleration.'
+  IB/2026/P1/q18H:
+    html_sha256: 5e8775a3d5b061d757a50bd0fbbb975cfe4edb1cdc7dbc03ee824d3328522a9e
+    compiled_pdf_sha256: 9ecf82b009aa6cf3dc736c6d98afd62fca76c18bfb837624ebd87baddbdced53
+    question_sha256: 1a72d88a179141679457ac3e28b76fb599e8f1f1678987e3783ae847b9e2eda7
+    solution_sha256: 695b16ccbadbd2b23bde4423c0410dc4d0dc03a9307ab266fd0dbb335a705b17
+    sampled_explicit_labels: 5
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 57
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P2/q5A:
+    html_sha256: 0e3b60850e7764c73f29d1ddd00c7a7bda58b71e9c4c9e3dd17c73a8fb7e17f2
+    compiled_pdf_sha256: b3d5ae8b2d0d16b269a06ac502b95cd3294da80b733634532d5920e90026fdef
+    question_sha256: 7c24b2c42a4bae912767b7c0082e18da36e9f414b3cbebbf1e9659577348c244
+    solution_sha256: d6f606d7e7b2d5ed551d4f057c40351018b529db843e7a0362ff0106c0d30570
+    sampled_explicit_labels: 3
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 30
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P2/q10F:
+    html_sha256: a39e216d3398e7f3220a1625f1398e1ae2cc9b40d144a2383ddf0971ddd6d08d
+    compiled_pdf_sha256: b3d5ae8b2d0d16b269a06ac502b95cd3294da80b733634532d5920e90026fdef
+    question_sha256: 8634f43ad7f8525be6314bcbec8f1b87b38066fe0caadb5d6a9c464877e80779
+    solution_sha256: 49ef27236b68d7212fa480a71aa50dcbe93c044177aa4c1385eb91104bc87d0c
+    sampled_explicit_labels: 3
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 92
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P2/q14D:
+    html_sha256: f0a19f29dac36ae152378ec13363e708615b4d3293138b4ee5422f2deaa103e1
+    compiled_pdf_sha256: b3d5ae8b2d0d16b269a06ac502b95cd3294da80b733634532d5920e90026fdef
+    question_sha256: e5a856244a21eed43d312384c647864fecbc62faa8f5fc64d3f02b2f82280723
+    solution_sha256: a3fa09729991b2c4290e3c9833877d392b9640cadf7d80d44c8e7f0e1104573c
+    sampled_explicit_labels: 4
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 86
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P2/q16D:
+    html_sha256: a22f020ae8ec19a2adca0e3625814fbc4f236a66a130c4f4081e90301dc474a6
+    compiled_pdf_sha256: b3d5ae8b2d0d16b269a06ac502b95cd3294da80b733634532d5920e90026fdef
+    question_sha256: 796ad137b4c4c0a6bb508afe2439fd5445dcf86563e96c1ec4ee297e6589de5c
+    solution_sha256: bb2435de0246700a0b1ad4c2685ad314c8e42ad12bc22515ec26679fa0fc86da
+    sampled_explicit_labels: 5
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 60
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+    check_exit: 0
+    check_stdout: ODE, initial data, Lorentz force, limiting velocity, and integrated mechanical work verified.
+  IB/2026/P2/q17C:
+    html_sha256: 35263c8c4afa6254397f8f61dece397b4bd966f4e921efd8b79cff63edeab7f4
+    compiled_pdf_sha256: b3d5ae8b2d0d16b269a06ac502b95cd3294da80b733634532d5920e90026fdef
+    question_sha256: 3c574af715d0105a965320e0452ae2cdd96d1a0043deab8e28f9b2ebd70878e4
+    solution_sha256: 5d372585fb9a0b3023fb8009f3f6759119162598e49a66e4b509ebcda0e3861a
+    sampled_explicit_labels: 3
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 32
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P3/q18H:
+    html_sha256: a42584b438b808c8a1cec8282180ec6a2fe26bc3601f2aa7ca2feea56d45f1c2
+    compiled_pdf_sha256: d58424c08626cfa1f7d10cf9f44b613fe063da7c956888f6d3beec42f2353f7b
+    question_sha256: 274eb8fd4213083da93b8d8a33dff6230b0ef7379557012d6e38c109ed2e21d3
+    solution_sha256: 70e2bf7aa3c066b65255ab7f748e2198188db844096785e22fe1f79e19a84154
+    sampled_explicit_labels: 6
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 95
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P4/q2F:
+    html_sha256: 417a4085ee034b1ea20f01be9a31e43ab0305e2c43e75a98de6d035e3e55e753
+    compiled_pdf_sha256: f6b990188f602ec109ef941fd57417bccb5feeacbec53ea18898db124a8f65eb
+    question_sha256: 3778172bf14d11261023c52809b3ae2c91bed6f5d5dd2c79aee0be9a2e4ed5ea
+    solution_sha256: ffda948d13e78e2e1f8b727ad4f4ec4b2c933becfedc023212c1002414dd6327
+    sampled_explicit_labels: 3
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 54
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false
+  IB/2026/P4/q14A:
+    html_sha256: 230b799e36dbcf7fda9fb7772af7be045dd66d1588977f91f68ccce3ce7bb479
+    compiled_pdf_sha256: f6b990188f602ec109ef941fd57417bccb5feeacbec53ea18898db124a8f65eb
+    question_sha256: 4dace0bbf59ea18b44e0937e2a85bc3405605aa2aec7663401f87aa6241b9e69
+    solution_sha256: ab606370f67c4a95ecd3923ff2f5eaff3107d0a0f34b24dc907e3544aa4c44ad
+    sampled_explicit_labels: 9
+    explicit_marker_types:
+    - none
+    ordinary_items: 0
+    ordinary_marker_types: []
+    math_rendered: 41
+    parse_errors: 0
+    images_loaded: true
+    document_overflow: false

@@ -1,0 +1,275 @@
+paper_id: IB/2020/P1
+id: IB/2020/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 7
+  II: 13
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2020-06-08'
+printed_date: Monday, 8 June, 2020
+time: 3 hours
+source: private/raw/tripos/IB/2020/P1.pdf
+archive: private/raw/tripos/IB/2020/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2020/paperib_1_2020.pdf
+sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully
+- Candidates are required to comply with the Code of Conduct for Part IB Online Examinations. This is a closed-book
+  examination.
+- You must begin each answer on a separate sheet.
+- Answers must be handwritten (unless you have an approved adjustment).
+- You should ensure that your answers are legible; otherwise you place yourself at a significant disadvantage.
+  You are advised to write on one side of the paper only.
+- Candidates have THREE HOURS to complete the examination
+- The examination paper is divided into two sections.
+- 'At the end of the examination:'
+- Separate your answers to each question. Make sure that the question number, e.g. 7D, and your Blind Grade
+  ID, e.g. 1234A, are written clearly on the first page of each answer.
+- Scan each answer into a separate PDF file.
+- Name each PDF file by the relevant question number, for example 7D.pdf for question number 7D.
+- Complete the PDF cover sheet to show all the questions you have attempted.
+- Sign the PDF declaration that you have complied with the Code of Conduct.
+- Upload the PDF for each answer, together with your PDF declaration and coversheet, to Moodle and submit.
+- If these administrative tasks take you more than 45 minutes then email your Tutor explaining why.
+questions:
+- id: IB/2020/P1/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: a1993c04891653562145d241e5d98b8fe2c35f78c2cacf2936bd88ebac225b0d
+  checks: Both matrices, including all nine signs and entries of each, were checked.
+- id: IB/2020/P1/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 752fd89e221a9abfff131f51b47081c4de4b52f09c61ccbf0d7e7f6bf9992a21
+  checks: Checked the parametrisation, cross-section and inverse-image integral.
+- id: IB/2020/P1/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: f5eb5ee5decda1a4dbf744c46807b05148034f54ef92726fa1d5a012125add7f
+  checks: Checked the exponential centre, radius, open lower half plane and joint course heading.
+- id: IB/2020/P1/q4A
+  original_question: 4A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 6c7fa1c82735267f4cac4980f0371033ccc6e3cd5ee0dbf15f5a990ec5c54282
+  checks: Checked the hermitian hypotheses, subscripted expectations and two inequalities.
+- id: IB/2020/P1/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: df65eba48d355bcce0ffcc5085fef7e3c3acaa67554bdf582a858d897e4b9fa1
+  checks: Verified all four matrix rows, specified diagonal entries, and right-hand vector.
+- id: IB/2020/P1/q6H
+  original_question: 6H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 22704ca70e905c960ca1f568c6c089adc9f7c0d5d3d5ea484401668b39e84134
+  checks: Verified unit observation variance, prior variance and the condition on theta.
+- id: IB/2020/P1/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 0e2e30f4642957b35cfe711b00624d8150dd4d5f06d039a3ad9ad55929824a48
+  checks: Checked signs and magnitudes of both constraints and both perturbations.
+- id: IB/2020/P1/q8F
+  original_question: 8F
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 43c02fbb83712e57e8ca5471b4aecf24f339d075f6509a92bced63d367177a66
+  checks: Verified both fields, the extremal bound, and the permission about adjugates.
+- id: IB/2020/P1/q9G
+  original_question: 9G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 9207689252e3700fd96321fde55d009e33a3de5151013a171d3618da6184b492
+  checks: Checked transposed coefficient indices in the kernel generators, the matrix and the characteristic-polynomial
+    hint.
+- id: IB/2020/P1/q10E
+  original_question: 10E
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Analysis and Topology
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: d2788ab5deef2c2c8323b6395c552b4e38296cad87becfab49a4f7f5ff29a1f8
+  checks: Checked the cubic, restricted identity, ball centre and scope of the requested inverse theorem proof.
+- id: IB/2020/P1/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: e052b8862e46794bab75e4fbc9062003271fe182e75dec5b6aff156c6bccd703
+  checks: Verified the level 5, the axis of revolution and the final curvature question.
+- id: IB/2020/P1/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 03eb3bc8c04a5aad0718d17271e4383ed82b3652d798aa99f87e6020bd69e3ad
+  checks: Checked both cuts, the square-root normalisation, Laurent variable, and final radius.
+- id: IB/2020/P1/q13D
+  original_question: 13D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 394ac1323e424a8909f6495f55bcceddd806502711caf5a6d061855d670dde85
+  checks: Checked the two different speed powers, radial denominators, certainty caveat and terminal equation.
+- id: IB/2020/P1/q14B
+  original_question: 14B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: f82b0d31823f439bcc679f693620398448428e3a654a5d0bc6cbed73b5cc83e5
+  checks: Verified the first source depends on x alone times g(y), both strip conditions, and the shifted point
+    source.
+- id: IB/2020/P1/q15A
+  original_question: 15A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: c7d0d037c2cc215e09a58e447a3ab659e47c3e131b42be3d1e1f600a81b83647
+  checks: Checked time dependence, both normalised sine eigenfunctions and the bound on the position expectation.
+- id: IB/2020/P1/q16D
+  original_question: 16D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: dd1935f304e29a835a51c93f1fc769bbd662cd0f69074d93703ac8abd52f78c0
+  checks: Checked the negative displacement, both printed prefactors (including 1/(8 pi epsilon_0)), and all
+    nine arrows and angles in the crop.
+  figures:
+  - chessboard-dipoles
+- id: IB/2020/P1/q17C
+  original_question: 17C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: b7ee251d5f48ebfe352528d1a9f4ff88ba0d55e1122c421503009860ef15e25b
+  checks: Checked wedge angles, the sign assumption on angular velocity, streamline label and both polar-coordinate
+    identities.
+- id: IB/2020/P1/q18C
+  original_question: 18C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 427ebbade5198b2a9c5fc63ae0c0dad2c206485e713efae74270d2beaee2e38f
+  checks: Verified the Lagrange product exclusion, quadrature bounds, equation numbers and degree-seven condition.
+- id: IB/2020/P1/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 2a4afa076a7da11d92f66592c4ae00a6798cff1429dcdf1744c919a51052e66c
+  checks: Checked four subparts, both mean squared errors, the limit tail, the interval length and the closing
+    hint.
+- id: IB/2020/P1/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 835aeafc18268295a169b7735fcc37b5843bcaf8f90764ae146a1c40faae3396
+  checks: Verified the two gap regimes, both directional probabilities, target gap, exact catch time and almost-sure
+    finiteness permission.
