@@ -1,0 +1,802 @@
+scope: 2024 IB examination slice for ten taken course strata. Includes 50 questions. Results apply to the 12 sampled
+  questions only. No official comparison or course-wide rate.
+audit_stage: Initial independent review. No repairs were required.
+method:
+  auditor: Fresh independent reviewer who did not contribute canonical answers. All independent reworks completed
+    before canonical, checks, metadata or output access. No assistant solvers used.
+  sampling: One Python random.Random(20261206) advanced through sorted course IDs, sampling ceil(N/5) from the sorted
+    IDs independently within each stratum. Exact draw reproduced during review.
+  seed: 20261206
+  population:
+    IB/analysis-ii:
+    - IB/2024/P1/q10F
+    - IB/2024/P2/q2F
+    - IB/2024/P3/q11F
+    - IB/2024/P4/q10F
+    IB/complex-methods:
+    - IB/2024/P1/q12F
+    - IB/2024/P1/q3B
+    - IB/2024/P2/q12B
+    - IB/2024/P3/q3B
+    - IB/2024/P4/q12B
+    IB/electromagnetism:
+    - IB/2024/P1/q15C
+    - IB/2024/P2/q16C
+    - IB/2024/P2/q4C
+    - IB/2024/P3/q15C
+    - IB/2024/P4/q5C
+    IB/fluid-dynamics:
+    - IB/2024/P1/q16D
+    - IB/2024/P2/q5D
+    - IB/2024/P3/q16D
+    - IB/2024/P3/q7D
+    - IB/2024/P4/q16D
+    IB/linear-algebra:
+    - IB/2024/P1/q1G
+    - IB/2024/P1/q8G
+    - IB/2024/P2/q8G
+    - IB/2024/P3/q9G
+    - IB/2024/P4/q1G
+    - IB/2024/P4/q8G
+    IB/markov-chains:
+    - IB/2024/P1/q19H
+    - IB/2024/P2/q18H
+    - IB/2024/P3/q8H
+    - IB/2024/P4/q7H
+    IB/methods:
+    - IB/2024/P1/q13B
+    - IB/2024/P2/q14B
+    - IB/2024/P2/q3B
+    - IB/2024/P3/q14B
+    - IB/2024/P3/q5B
+    - IB/2024/P4/q14B
+    IB/numerical-analysis:
+    - IB/2024/P1/q17A
+    - IB/2024/P1/q5A
+    - IB/2024/P2/q17D
+    - IB/2024/P3/q17A
+    - IB/2024/P4/q6D
+    IB/quantum-mechanics:
+    - IB/2024/P1/q14A
+    - IB/2024/P2/q15A
+    - IB/2024/P3/q6A
+    - IB/2024/P4/q15A
+    - IB/2024/P4/q4A
+    IB/statistics:
+    - IB/2024/P1/q18H
+    - IB/2024/P1/q6H
+    - IB/2024/P2/q6H
+    - IB/2024/P3/q18H
+    - IB/2024/P4/q17H
+  sample:
+    IB/analysis-ii:
+    - IB/2024/P1/q10F
+    IB/complex-methods:
+    - IB/2024/P2/q12B
+    IB/electromagnetism:
+    - IB/2024/P2/q4C
+    IB/fluid-dynamics:
+    - IB/2024/P4/q16D
+    IB/linear-algebra:
+    - IB/2024/P2/q8G
+    - IB/2024/P3/q9G
+    IB/markov-chains:
+    - IB/2024/P2/q18H
+    IB/methods:
+    - IB/2024/P1/q13B
+    - IB/2024/P3/q14B
+    IB/numerical-analysis:
+    - IB/2024/P2/q17D
+    IB/quantum-mechanics:
+    - IB/2024/P1/q14A
+    IB/statistics:
+    - IB/2024/P3/q18H
+  population_size: 50
+  sample_size: 12
+  packet_locators_sha256: 77cda767b2d3f2d96430cd7cea573c2ce9b96686291622d67c854a280b0dc3f4
+  blind_input: Only sampled exact question fragments, original paper/page/number locators and source page renders.
+    Original downloads fetched before inspection. All twelve compared visually against the eleven distinct source
+    pages.
+  frozen_rework_sha256: 4a61f898ad9aa637b7ab2d585ab334f96a0acb57bf1cf8f98003dc00f3564314
+  frozen_rework_manifest_utf8: |
+    b8a001c39a9117b342ba3244b90c9a06d1ee2c57dd41d8aa3604c7e592d60b26  P1-q10F.md
+    bf069c088ff4bb9d2ae0e8badff51687806c012243cd58afa68cfd22a721af69  P1-q13B.md
+    319d244a7f53adbf11bc01e95b90c53bf17d12951e7b49867879f13beb7c58eb  P1-q14A.md
+    dae9678128b2fc84f5099b37d195ee1072679e527f7229802298daaab34d8660  P2-q12B.md
+    6e451cfd05a4d9a89ac689dfe9657c1d09b089cc218dab6d0f0660e9e9fb3a57  P2-q17D.md
+    28b8c87efe37d3e46703d7e8089624913eceb0c0355962d3dd9801c00916e693  P2-q18H.md
+    36f923b9d93b4f585c5e050ebe47298e5f91595e4d89f7cfe51862b7385038cc  P2-q4C.md
+    85944e1a35571e334b23aaed2169b380fefb2a370f0183d7ff61e28bb3a00ee7  P2-q8G.md
+    d0a02cd0348765d3b8a0fe9bb4ad4dcb5bc733aedb6f9f883260467dffa1861e  P3-q14B.md
+    6fc027ff983f96e6528a62edeb759de1686709dbdd12c401023513a2a54860aa  P3-q18H.md
+    6cfe986383267f9bdae87f2081286c9e36f30df1cf968cd3fb7df2def1d37cae  P3-q9G.md
+    fde2a4cbe063ca671d2779b3f5f4dc956e8857783f7058302bef7e610752ef1b  P4-q16D.md
+  delivery: Inspected source images, all 20 sampled compiled page images, and all 12 Chrome screenshots at a 1220px
+    browser viewport. Independently executed every sample check with the project Python environment. Rebuilt the
+    sole figure in isolation and verified byte identity with both unit and HTML copies.
+observed_before_repair:
+  sample_questions: 12
+  substantive_failures: 0
+  observed_rate: 0/12
+  source_transcription_errors: 0/12
+  canonical_solution_errors: 0/12
+  computer_check_failures: 0/12
+  pdf_question_solution_failures: 0/12
+  private_html_question_solution_failures: 0/12
+  diagram_discrepancies: 0/1 figure (P4 q16D)
+  pdf_pages_examined: 20
+  html_math_rendered: 650
+  html_math_total: 650
+  browser_parse_errors: 0
+  check_exit_nonzero: 0
+  escalate: false
+observed_after_repair:
+  repairs: 0
+  retest: No repair-triggered retest. Initial observed rates remain current.
+stratum_rates:
+  IB/analysis-ii:
+    population: 4
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/complex-methods:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/electromagnetism:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/fluid-dynamics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/linear-algebra:
+    population: 6
+    sampled: 2
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/markov-chains:
+    population: 4
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/methods:
+    population: 6
+    sampled: 2
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/numerical-analysis:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/quantum-mechanics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+  IB/statistics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors: 0
+    observed_transcription_errors: 0
+    observed_delivery_errors: 0
+question_evidence:
+  IB/2024/P1/q10F:
+    source_pdf: private/raw/tripos/IB/2024/P1.pdf
+    source_sha256: 3457fa33f93b43d660b8871bae3ab22956ae72ee28ff95d8a40ed79cbe795b8f
+    source_page: 6
+    compiled_pdf: build/IB-2024-P1/main.pdf
+    compiled_sha256: ba8142d2b5bede8de7b81212e9747ae4e658f09b65af22393437cff35efe2381
+    compiled_pages:
+    - 13
+    html: site/private/questions/IB/2024/P1/q10F/index.html
+    html_sha256: b1c5d5eb311783c16659a995281ec31f635338743301d9d6898d19e37a11736b
+    math_nodes: 73
+    diagrams: {}
+    question_sha256: e723f9f13347779681975baacf1cdca67e4847730410f4c79fb0e3d64773a2f6
+    solution_sha256: 2b096b7a1951a8854ebf4991c702f510dc9eda86a8943d0f6754e4e1115a091c
+    check_sha256: b6af199f13b766c98ed70d78a5e4779b6bc858631148abdab02ddefd0ddf63ef
+    check_exit: 0
+    check_stdout: Checked 3375 finite-set triangles, separation, nonsymmetric directed coverage and the singleton
+      isometry.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: Completeness by closedness, counterexample to directed equivalence, the Hausdorff metric including
+      nonattained radii, nonclosed sets and singleton closedness all agree.
+    source_image_sha256: e75c6424e3cc57ecfd88b992c59cdf03461a78a37dd85c6e01bc605363edb174
+    compiled_page_image_sha256:
+      13: d2825113a810ce1ab8ce0d7db23d914b66af7f6c417e503c0c04fd2491d2a87c
+    browser:
+      title: IB/2024/P1/q10F · Cambridge Maths
+      math: 73
+      rendered: 73
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: bc2c7ad6c9d83e2eb44cb7584c2e0dc1781f70c5c9f3b2704b710c94ec7368d2
+    blind_rework_file: P1-q10F.md
+    blind_rework_sha256: b8a001c39a9117b342ba3244b90c9a06d1ee2c57dd41d8aa3604c7e592d60b26
+    blind_rework_utf8: |
+      # IB 2024 P1 10F, original page 6
+
+      (a) Completeness means that each Cauchy sequence converges to a point of the space. A sequence is Cauchy if for every positive ε there is N such that all terms of indices at least N are within ε of one another. A Cauchy sequence in Y is Cauchy for the same metric in X, hence converges in X. Closedness puts its limit in Y, and the subspace metric gives the same convergence.
+
+      (b) Take A={0,2}, B={0} in the real line and r=1. The point of B is in its ball about 0 in A, but 2 is outside the only ball about a point of B.
+
+      The allowed radii have the property that every larger radius is allowed. Consequently every radius strictly larger than their infimum is allowed, irrespective of whether the infimum itself is allowed. Nonnegativity and symmetry follow from the definition, and radius zero works for A=B. If the distance is zero, then for each a in A and each positive integer k there is a point of B within 1/k of a. Thus a belongs to B by closedness. Exchanging the sets gives equality. In the absence of closedness, (0,1) and [0,1] are distinct with distance zero, since each endpoint is approximable within any positive radius.
+
+      For A,B,C and ε>0 put r=d_H(A,B)+ε and s=d_H(B,C)+ε. For any a in A choose b in B with d(a,b)≤r, then c in C with d(b,c)≤s. This gives A⊆E_{r+s}(C). The reverse inclusion into the corresponding expansion follows by choosing from C, B, A in turn. Thus d_H(A,C)≤r+s and letting ε decrease to zero proves the triangle inequality.
+
+      For singletons the admissible radii are precisely those at least d(x,y), proving isometry. Suppose {x_n} converges in the Hausdorff metric to A. For a,b in A, both are within r_n=d_H({x_n},A)+1/n of x_n. Hence d(a,b)≤2r_n→0. Since A is nonempty, it is a singleton. This proves sequential closedness, equivalent to closedness in a metric space (a point in the closure can be approximated to within 1/n). The image is therefore complete when H(X) is complete by (a), and the isometry onto the image carries Cauchy sequences and their limits both ways.
+  IB/2024/P1/q13B:
+    source_pdf: private/raw/tripos/IB/2024/P1.pdf
+    source_sha256: 3457fa33f93b43d660b8871bae3ab22956ae72ee28ff95d8a40ed79cbe795b8f
+    source_page: 7
+    compiled_pdf: build/IB-2024-P1/main.pdf
+    compiled_sha256: ba8142d2b5bede8de7b81212e9747ae4e658f09b65af22393437cff35efe2381
+    compiled_pages:
+    - 16
+    - 17
+    html: site/private/questions/IB/2024/P1/q13B/index.html
+    html_sha256: 89815169d37017caa6b1a1cdd144d49156f42751725b36e470273325a242cd3c
+    math_nodes: 50
+    diagrams: {}
+    question_sha256: e545da11d8d8c57d4fb68e9a6b7517e2253408a4f97e85b57f1c505e27244301
+    solution_sha256: 9735135236ea940e84663d55857c65467ffff6d4fe4ae77b0c4ac89b1090e6b6
+    check_sha256: 3488842b321b642ebce75f1e7bf0a526f9677e848a54b233df9b5bc543ea544a
+    check_exit: 0
+    check_stdout: Neumann data, unit jumps, symmetry, Green quadrature and forced ODE verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: The right-minus-left derivative jump gives 1/W. Symmetry for zero first-derivative coefficient,
+      negative hyperbolic kernel and the forced solution with two Neumann endpoints agree.
+    source_image_sha256: 7d28754ef19d02483fa33cf51403b78df44ede1fd2f4962a8300c0b37a737913
+    compiled_page_image_sha256:
+      16: 1228d5e3ab66e76c25aa1579010ae984034adcc8e0d9f255e530a02c4e211fcf
+      17: b38299bba3631ba3fe54f818b9667fef94df03e5c78b49dc11d3fe299e210ce0
+    browser:
+      title: IB/2024/P1/q13B · Cambridge Maths
+      math: 50
+      rendered: 50
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: ebd4e63a1182038fb40a0db06d25a5daea337ec94e93b2cc7fb67245336c63f1
+    blind_rework_file: P1-q13B.md
+    blind_rework_sha256: bf069c088ff4bb9d2ae0e8badff51687806c012243cd58afa68cfd22a721af69
+    blind_rework_utf8: |
+      # IB 2024 P1 13B, original page 7
+
+      The two pieces match at ξ. A continuous piecewise smooth G has a delta coefficient [G'] at that point in G'', and no delta in its lower derivatives. The boundary derivatives vanish by the stated conditions. Thus c(ξ)W(ξ)=1 with W=y₁y₂'−y₁'y₂. Substituting the homogeneous equation gives W'=−αW, so W(ξ)=W(x₀)exp(−∫_{x₀}^ξ α). It cannot vanish for an independent pair since equal proportional initial data would give dependent solutions by uniqueness. Hence c=1/W. For α=0, W is constant and the remaining product y₁(min{x,ξ})y₂(max{x,ξ}) is symmetric.
+
+      For β=−1 select y₁=cosh x, y₂=cosh(1−x), obtaining W=−sinh 1. The kernel is −cosh(min{x,ξ})cosh(1−max{x,ξ})/sinh 1. Applying it to the forcing yields
+
+      y(x)=−[cosh(1−x)∫₀ˣ ξ cosh ξ dξ + cosh x ∫ₓ¹ ξ cosh(1−ξ) dξ]/sinh 1.
+
+      Integration by parts gives x sinh x−cosh x+1 for the first integral and x sinh(1−x)+cosh(1−x)−1 for the second. Consequently
+
+      y(x)=−x+[cosh x−cosh(1−x)]/sinh 1.
+
+      Differentiation gives zero at both ends for y' and yields y''−y=x. The homogeneous Neumann kernel is trivial, since its general solution A cosh x+B sinh x gives B=A=0 successively.
+  IB/2024/P1/q14A:
+    source_pdf: private/raw/tripos/IB/2024/P1.pdf
+    source_sha256: 3457fa33f93b43d660b8871bae3ab22956ae72ee28ff95d8a40ed79cbe795b8f
+    source_page: 8
+    compiled_pdf: build/IB-2024-P1/main.pdf
+    compiled_sha256: ba8142d2b5bede8de7b81212e9747ae4e658f09b65af22393437cff35efe2381
+    compiled_pages:
+    - 18
+    - 19
+    html: site/private/questions/IB/2024/P1/q14A/index.html
+    html_sha256: d3007aa8f683cb0c057b4bd5caec31ed53e73ffa721a5638bc6eabb503714a77
+    math_nodes: 45
+    diagrams: {}
+    question_sha256: fd049290070fe55bdcb0f78107820c647f5d42fb2cb5310b8d3929cdbedf9f2a
+    solution_sha256: 907a3e8036c4a5b53a1899b7bc3545179fdb98eb47e6e72bda318f4882ce0185
+    check_sha256: 4494164a0611931603a60540a55a124cb6d9c82d5f051933bef56f36d7e8ce16
+    check_exit: 0
+    check_stdout: Verified radial operator, radial moment and angular eigenvalue in the prepared state.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: Reduced-mass treatment, radial Coulomb energy, l=2, mean 21a/2 and zero probability for angular
+      magnitude hbar agree. The original hint does begin its orbital sequence at l=1.
+    source_image_sha256: 181a22f2204e0b21112f5522857234ffad4b55868bc3eabf45272f0b3cf28bd7
+    compiled_page_image_sha256:
+      18: 9c8183651fea1ae33e18e0fbccd5dec5caa178edea65e5e9d29ffbb895cb9cd7
+      19: 7d8831635f8b7505ebfcb2494703686a8ac33913345452655f4442c66f86e683
+    browser:
+      title: IB/2024/P1/q14A · Cambridge Maths
+      math: 45
+      rendered: 45
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 150faff692f2b92e0cc12412ef6b4164308dbe8159370a0e1c4486202c79c778
+    blind_rework_file: P1-q14A.md
+    blind_rework_sha256: 319d244a7f53adbf11bc01e95b90c53bf17d12951e7b49867879f13beb7c58eb
+    blind_rework_utf8: |
+      # IB 2024 P1 14A, original page 8
+
+      (i) The Coulomb interaction is −κ/r, κ=e²/(4πε₀), in either atom. The heavy stationary source approximation gives precisely the same electron Hamiltonian and angular wavefunctions as hydrogen. For finite masses the separation coordinate has reduced mass μ=mₑm_μ/(mₑ+m_μ), since separating the two kinetic energies gives the centre-of-mass term and relative term p²/(2μ). Thus the Coulomb length and energies have the reduced-mass correction relative to hydrogen, which uses the proton's mass in its own reduced mass. The given approximation uses μ≈mₑ.
+
+      (ii) Substituting an angular eigenstate into the relative Schrödinger equation gives
+
+      −ℏ² [R''+2R'/r−l(l+1)R/r²]/(2μ)−κR/r=ER.
+
+      For R=C rˡ exp(−kr), the bracket divided by R equals k²−2k(l+1)/r. Therefore k=μκ/[ℏ²(l+1)], a=ℏ²/(μκ) and E=−ℏ²k²/(2μ)=−κ/[2a(l+1)²]. The positive k ensures decay and rˡ is regular at the origin.
+
+      (iii) The energy fixes (l+1)²=9, hence l=2 for this specified radial family. The angular probability integrates to 1 and the radial measure includes r². The density is proportional to r⁶exp(−2r/(3a)). With b=2/(3a), the mean separation is (7!/b⁸)/(6!/b⁷)=21a/2. This is independent of the magnetic quantum number, including superpositions within this l-subspace.
+
+      (iv) The magnitude of orbital angular momentum has the sharp value √(l(l+1))ℏ=√6ℏ. The probability of ℏ is zero. A measurement of the component L₃ is a different observable. The hint on the source page begins its list of l at 1, even though the physical spectrum includes 0. This does not affect l=2.
+  IB/2024/P2/q4C:
+    source_pdf: private/raw/tripos/IB/2024/P2.pdf
+    source_sha256: de99c023777d9279d0b72da26ba12f37191ef8d323cff20d8beeb8ef923bcd2a
+    source_page: 3
+    compiled_pdf: build/IB-2024-P2/main.pdf
+    compiled_sha256: d327bb938d62ccedfad52320e54ffd15e3eedddb02cc99a8d4667a95d12d43ca
+    compiled_pages:
+    - 4
+    html: site/private/questions/IB/2024/P2/q4C/index.html
+    html_sha256: 27b4e2f3d56b0703a6e559dee576410c25277a5e9a65ccbc4818ee609edc7721
+    math_nodes: 32
+    diagrams: {}
+    question_sha256: 61b3373b9b4045c02bff2f0a00c98960e11bb9d68ab17464bb03910046632977
+    solution_sha256: 10471ed153a4e13da64aa5a2a13631b45294a1194b2b8fab550e9e3203d0c812
+    check_sha256: 10afb78caf5be5b547087383a17d721634ab6e029d3cde39b088b999daabfddb
+    check_exit: 0
+    check_stdout: ''
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: Neutral current, gauge freedom and the curl eigenfield for nonzero lambda agree. Different particular
+      fields at lambda=0 each satisfy the equations and differ by a curl-free divergence-free field.
+    source_image_sha256: e882ea4d159aab2f1162baf374f4c0b4a22cba54570c1687de2e64d9b796fa5e
+    compiled_page_image_sha256:
+      4: 6f8cd52f00769251ef04663627caa061c09fe79eabaa360f383b0622e4dbfc4c
+    browser:
+      title: IB/2024/P2/q4C · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 8a27a0649b04c85031575012c4dbc1574774c4f291bdc5b1744ad36ee251333b
+    blind_rework_file: P2-q4C.md
+    blind_rework_sha256: 36f923b9d93b4f585c5e050ebe47298e5f91595e4d89f7cfe51862b7385038cc
+    blind_rework_utf8: |
+      # IB 2024 P2 4C, original page 3
+
+      Opposite charge densities can cancel while their signed charge fluxes add. For example, a stationary ionic background neutralises moving electrons and contributes no current itself. In full space a solenoidal field has a vector potential B=curl A (locally always, globally on a contractible domain), making div B=0 automatic. This follows also by the usual closed-form potential construction. The replacement A→A+grad χ preserves B since curl grad χ=0.
+
+      The time-independent continuity equation is div J=0, which follows since Jₓ,Jᵧ depend only on z and J_z=0. An explicit curl gives (−∂zJᵧ,∂zJₓ,0)=λJ. Thus for λ≠0 one may choose
+
+      B=μ₀J/λ,    A=μ₀J/λ².
+
+      These satisfy curl A=B, curl B=μ₀J and div B=0. The magnetic field is specified up to a curl-free, divergence-free added field in the absence of boundary data. The potential of the chosen B has gradient freedom.
+
+      The question only says λ is constant. For λ=0 the current equals J₀ eᵧ. One valid choice is B=μ₀J₀ z eₓ and A=−μ₀J₀ z²eᵧ/2. Their curls give the desired fields directly, with vanishing div B.
+  IB/2024/P2/q8G:
+    source_pdf: private/raw/tripos/IB/2024/P2.pdf
+    source_sha256: de99c023777d9279d0b72da26ba12f37191ef8d323cff20d8beeb8ef923bcd2a
+    source_page: 5
+    compiled_pdf: build/IB-2024-P2/main.pdf
+    compiled_sha256: d327bb938d62ccedfad52320e54ffd15e3eedddb02cc99a8d4667a95d12d43ca
+    compiled_pages:
+    - 8
+    - 9
+    html: site/private/questions/IB/2024/P2/q8G/index.html
+    html_sha256: de0162e92ba3d28cd0684a9fc922a3323ef5a451c516b3994990c22dc40fac2a
+    math_nodes: 105
+    diagrams: {}
+    question_sha256: 6e51d0729216d467a160565eba537ce274c3f54d5da67c35fbbcbfedebfcf85c
+    solution_sha256: f5a9a1a5bce37380e6b4934389c3a11d8ff4329053050be213df80adbefa863b
+    check_sha256: 9c37075a757c2374c2924dadbbafa6ac06c86adc2cf89e7c6e8d5aba61a41215
+    check_exit: 0
+    check_stdout: ''
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: The complex-root argument, triangular flag bound, minimal polynomial uniqueness, exclusion of eigenvalue
+      -1 and commuting differences obstruction agree, including negative periods and n=0.
+    source_image_sha256: 1a2dd67eee8b655ed3f222fe6935aa680d268ff072379e0142d8b85c86cdf834
+    compiled_page_image_sha256:
+      8: 50b7b45b2c4dda57cbedbf4520c46bbbe62f9be10be20347d5e528ec09813f6c
+      9: 12b036e6c72107248407e8d40cca26ccd1a34747e55b11324f7c6fbe71e74a24
+    browser:
+      title: IB/2024/P2/q8G · Cambridge Maths
+      math: 105
+      rendered: 105
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: c3ff94608dbce3a34dd45fda0cf36ea7bda3105207c0d2e2f1fdeb0d6535d118
+    blind_rework_file: P2-q8G.md
+    blind_rework_sha256: 85944e1a35571e334b23aaed2169b380fefb2a370f0183d7ff61e28bb3a00ee7
+    blind_rework_utf8: |
+      # IB 2024 P2 8G, original page 5
+
+      (a) The characteristic polynomial is p(t)=det(tI−A), a monic polynomial of degree n. A complex polynomial of positive degree has a zero. One short proof uses |p(z)|→∞ at infinity, so continuity on a large closed disk gives a global minimum at z₀. If p(z₀)≠0, write p(z₀+h)/p(z₀)=1+c hᵏ+O(|h|^{k+1}) with c≠0, k≥1. Choose the argument of h so c hᵏ is negative real. For small |h|>0 the modulus is then strictly less than 1, a contradiction.
+
+      A root gives a nonzero eigenvector by singularity of λI−A. Its line is invariant. The induced operator on the quotient by that line has dimension n−1, so by induction it has a basis with upper-triangular matrix. Lifting that basis after the eigenvector produces a basis of the original space with upper-triangular matrix, since each lifted basis vector maps to a combination of itself and earlier basis elements, modulo the invariant first line. The dimension-one case starts the induction.
+
+      Write λ₁,…,λₙ for the diagonal entries in this triangular basis, and Fⱼ for the first j basis vectors' span. Then (A−λⱼI)Fⱼ⊆F_{j−1}. Applying these factors for j=n down to j=1 kills Fₙ=V, proving that the monic degree-n polynomial ∏ⱼ(t−λⱼ) annihilates A. Among all monic annihilating polynomials choose one of smallest degree, the minimal polynomial. Distinct smallest-degree monic annihilators would have a nonzero difference of smaller degree still annihilating A, which could be rescaled to monic. This proves existence, uniqueness and degree at most n.
+
+      (b) The eigen-equation is f(x+r)=c f(x), c=1+λ. If c=0, all translates vanish and hence f=0. For each real c≠0, prescribe any function g on [0,|r|). The representation x=u+kr with u in this interval and k integral is unique, and f(u+kr)=cᵏg(u) defines all solutions. Taking g to be point indicators at infinitely many distinct representatives gives infinitely many linearly independent eigenfunctions. Thus every real value except −1 is an eigenvalue. Direct expansion gives DᵣDₛf(x)=f(x+r+s)−f(x+r)−f(x+s)+f(x), symmetric in r,s.
+
+      Suppose P is degree n with leading coefficient a≠0 and P=∑ fⱼ with each fⱼ of period rⱼ≠0. The commuting product of all n differences kills every fⱼ hence kills their sum. But the binomial theorem shows Dᵣ reduces the positive degree k of any polynomial by one with new leading coefficient k r times the old one. Thus the product on P equals the nonzero constant n! a ∏rⱼ. For n=0 the sum of zero functions is zero and cannot equal a nonzero constant.
+  IB/2024/P2/q12B:
+    source_pdf: private/raw/tripos/IB/2024/P2.pdf
+    source_sha256: de99c023777d9279d0b72da26ba12f37191ef8d323cff20d8beeb8ef923bcd2a
+    source_page: 7
+    compiled_pdf: build/IB-2024-P2/main.pdf
+    compiled_sha256: d327bb938d62ccedfad52320e54ffd15e3eedddb02cc99a8d4667a95d12d43ca
+    compiled_pages:
+    - 13
+    html: site/private/questions/IB/2024/P2/q12B/index.html
+    html_sha256: 0935e5321703435c525f8cb4781b00cc2557a4ad794f0c5f19b40d95b2954055
+    math_nodes: 18
+    diagrams: {}
+    question_sha256: 724bddbb9821d6c19ca0ea60759fcaf5cb3924eb7a4e792cb3efd12004a7d62b
+    solution_sha256: 1afc5ca8272b0cdd6a76b0ef778db6122932f63cc965c90b0513bef1d71faf12
+    check_sha256: 1906a627025ed5a28508cbfff802ac8ecf9b0125b6296f90eec062b4c75ecc93
+    check_exit: 0
+    check_stdout: Fourth Mellin derivative and independent logarithmic-coordinate quadrature agree.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: The branch phases on the two real segments, arc bounds, dominated fourth differentiation, and 5
+      pi^5/32 agree.
+    source_image_sha256: 7c3720c607ec3ed54e9cc14d2376d17113257191fc5f520619e8534e96dfedb8
+    compiled_page_image_sha256:
+      13: 876af67ccd645fa8499b64b9f06810b798c59e6b7bc64d17b1e2961ae885b645
+    browser:
+      title: IB/2024/P2/q12B · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: eb7c3f5d8d3d11a2dfe6f11f8b57256c768bd525750b9fb3d115a0277822b538
+    blind_rework_file: P2-q12B.md
+    blind_rework_sha256: dae9678128b2fc84f5099b37d195ee1072679e527f7229802298daaab34d8660
+    blind_rework_utf8: |
+      # IB 2024 P2 12B, original page 7
+
+      Put F(s)=∫₀^∞ xˢ/(1+x²) dx for −1<s<1. Use zˢ/(1+z²) with 0<arg z<π on the upper semicircle of radius R with a small notch of radius ε at 0. The two semicircular integrals tend to zero like O(R^{s−1}) and O(ε^{s+1}). The positive real axis contributes F(s), the negative axis e^{iπs}F(s) after reversing x↦−x. The pole inside is i with residue e^{iπs/2}/(2i). The residue theorem gives
+
+      (1+e^{iπs})F(s)=πe^{iπs/2}, so F(s)=(π/2)sec(πs/2).
+
+      For |s|≤1/2, the four derivatives under the integral are justified by domination on (0,1) and (1,∞) by constant multiples of (1+|log x|⁴)x^{-1/2} and (1+|log x|⁴)x^{-3/2}, respectively. Inverting the cosine power series gives sec t=1+t²/2+5t⁴/24+O(t⁶). Consequently the requested F⁽⁴⁾(0) is 5π⁵/32. Its second derivative reproduces the supplied π³/8 as a check.
+  IB/2024/P2/q17D:
+    source_pdf: private/raw/tripos/IB/2024/P2.pdf
+    source_sha256: de99c023777d9279d0b72da26ba12f37191ef8d323cff20d8beeb8ef923bcd2a
+    source_page: 11
+    compiled_pdf: build/IB-2024-P2/main.pdf
+    compiled_sha256: d327bb938d62ccedfad52320e54ffd15e3eedddb02cc99a8d4667a95d12d43ca
+    compiled_pages:
+    - 21
+    - 22
+    html: site/private/questions/IB/2024/P2/q17D/index.html
+    html_sha256: a85156ac9760b8d3944b45f4d737bd0db45fabb9dfe8273a3fc7657665511f4f
+    math_nodes: 55
+    diagrams: {}
+    question_sha256: 393860b261b5cf9482f57ce9a02471dacda3ad67f63061081921425bdfd320db
+    solution_sha256: 28fca0ce9b221dc5d5e09aab45ed3bac39a737a995312ea7d21f11c5aaae1377
+    check_sha256: 639c8083fd4af742e081418346fef12d1260c4927f7d27e5dc5256165d67e373
+    check_exit: 0
+    check_stdout: ''
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: Both Euler domains and boundary conventions, the modes -1/-100, 1/50 maximum forward step, signed
+      half-difference local estimate and stable adaptive implicit step agree.
+    source_image_sha256: 682e82ec5e7a2d1baa198bbc72ed704e8758eab62185642cf3d700233d55dddc
+    compiled_page_image_sha256:
+      21: 47672c483b830596f4e7a3ea9fa4fef5faac6a84f017ca8729b1113bd70013b8
+      22: 0faf929332f2538bccc351e8a5e0412c9f94fc4ce017a1e25e5ce5024f011587
+    browser:
+      title: IB/2024/P2/q17D · Cambridge Maths
+      math: 55
+      rendered: 55
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: c385c4c8650d53f37316e1562ae82c4747e474fb56810c4be61fe62dc44211ca
+    blind_rework_file: P2-q17D.md
+    blind_rework_sha256: 6e451cfd05a4d9a89ac689dfe9657c1d09b089cc218dab6d0f0660e9e9fb3a57
+    blind_rework_utf8: |
+      # IB 2024 P2 17D, original page 11
+
+      (a) Apply the method with step h to y'=λy, writing z=hλ. The domain of bounded linear stability consists of z for which every numerical solution remains bounded as the step count grows. For a one-step amplification factor R(z) this is |R(z)|≤1. Under the strict decay convention use |R(z)|<1. A-stability requires coverage of the whole open left half-plane. Forward Euler gives R=1+z, the closed disk |1+z|≤1, missing e.g. −3. Backward Euler gives R=1/(1−z), hence the exterior |1−z|≥1, which includes the left half-plane. The strict variants omit the boundary circles.
+
+      (b) A stiff problem has rapidly damped modes that restrict stable explicit step sizes far more than the accuracy needed to follow slower dynamics, especially once the fast transient has decayed. The matrix has trace −101 and determinant 100, and therefore distinct eigenvalues −100 and −1. Each mode propagates independently in an eigenbasis. The fast mode requires |1−100h|≤1, while the slow mode requires |1−h|≤1, so 0<h≤1/50 suffices for bounded forward Euler steps (strict inequality for decay). At h=1/50 the fast factor is −1. Backward Euler's factors 1/(1+h) and 1/(1+100h) have magnitude below one for every h>0.
+
+      (c) Start both methods at the same current vector v. Let F=(I+hM)v and B=(I−hM)⁻¹v, solving the implicit linear system. Writing u=e^{hM}v, for small h we obtain u−F=(h²/2)M²v+O(h³), and u−B=−(h²/2)M²v+O(h³), by expanding the exponential and inverse. Hence u−B≈(F−B)/2, and u−F≈(B−F)/2. Their common estimated local error norm is η=‖F−B‖/2.
+
+      Use backward Euler's B for the accepted state to retain A-stability on decaying modes. Use the forward value as an estimator only. Reject a trial and recompute both from v at smaller h if η exceeds a local error budget δ. Otherwise advance with B. Since η scales like h², propose h_new=s h (δ/η)^{1/2} with a safety factor 0<s<1 and bounded growth/shrinkage, allowing bounded growth at η=0. Relative and absolute tolerances may be included by scaling components in the norm. Adjust the final step to land at the endpoint. The estimate is asymptotic and controls local error. For a specified total error over [0,T], in a contractive norm one can allocate a local budget proportional to h/T, with a per-unit-step controller; for general systems global accumulation also depends on propagation/amplification.
+  IB/2024/P2/q18H:
+    source_pdf: private/raw/tripos/IB/2024/P2.pdf
+    source_sha256: de99c023777d9279d0b72da26ba12f37191ef8d323cff20d8beeb8ef923bcd2a
+    source_page: 11
+    compiled_pdf: build/IB-2024-P2/main.pdf
+    compiled_sha256: d327bb938d62ccedfad52320e54ffd15e3eedddb02cc99a8d4667a95d12d43ca
+    compiled_pages:
+    - 23
+    html: site/private/questions/IB/2024/P2/q18H/index.html
+    html_sha256: 8212b29dfb019a5267f47215b1ff9e872e8cc39596619611825915722a6b0bb7
+    math_nodes: 23
+    diagrams: {}
+    question_sha256: 27df815f1dac14c6e21824dc79e4117a4478fa5cd5ef726dfc2473cdce0fd394
+    solution_sha256: ca14f3a6d4c6807f79a992a0b365bb1ffee07cdca59c6a7b64ec5b8a72a8efc2
+    check_sha256: 00c568746897bcb5d69e42cfc14adda13e2ba4c006e833a0d89da659fb1fbb2d
+    check_exit: 0
+    check_stdout: Exact finite-interval exit probabilities verified at all interior states for 29 upper boundaries.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: The independent bounded harmonic argument and the canonical finite-interval differences give the
+      same finite-boundary probability and limiting 1/(m+1), including m=0.
+    source_image_sha256: 682e82ec5e7a2d1baa198bbc72ed704e8758eab62185642cf3d700233d55dddc
+    compiled_page_image_sha256:
+      23: 495453f9c95e4d0b7af60ab214f51be3809508c9516dc677b4604aea035cdd5e
+    browser:
+      title: IB/2024/P2/q18H · Cambridge Maths
+      math: 23
+      rendered: 23
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 46b909420f176d5f14771ae91e119bc40a8ae0682d0ca5b60ae60aa960afd1cd
+    blind_rework_file: P2-q18H.md
+    blind_rework_sha256: 28b8c87efe37d3e46703d7e8089624913eceb0c0355962d3dd9801c00916e693
+    blind_rework_utf8: |
+      # IB 2024 P2 18H, original page 11
+
+      The red count always exceeds the green count by two. Until absorption the green count k jumps to k+1 with probability (k+2)/(2k+2) and to k−1 with probability k/(2k+2). The function s(k)=1/(k+1) is harmonic on k≥1, since the weighted values at k+1,k−1 sum to 2/(2k+2).
+
+      Stop at the first hit of 0 or N, N>m. Exit from the finite set of interior states is almost sure, since from anywhere a string of at most N downward moves reaches 0 with probability bounded below by a positive number depending only on N. The probability of no exit after consecutive blocks of N steps therefore tends to zero. The bounded stopped harmonic process has constant expectation, by iteration and dominated convergence. With π_N the chance to hit 0 first,
+
+      s(m)=π_N s(0)+(1−π_N)s(N),
+
+      so π_N=[1/(m+1)−1/(N+1)]/[1−1/(N+1)]. The events of hitting 0 before N increase with N and exhaust finite-time absorption, since a path reaching 0 in finite time has finite maximum before that time. Letting N→∞ gives termination probability 1/(m+1), including immediate termination when m=0.
+  IB/2024/P3/q9G:
+    source_pdf: private/raw/tripos/IB/2024/P3.pdf
+    source_sha256: 5205c8a2aa144f1bdf77ecb99d3fafa922977ef5a1aff6f994851851ebf035f8
+    source_page: 5
+    compiled_pdf: build/IB-2024-P3/main.pdf
+    compiled_sha256: 2601f625d32c08c960bbff8245c610afa68c0078f3a513f27b5ce4c9e4682336
+    compiled_pages:
+    - 10
+    - 11
+    html: site/private/questions/IB/2024/P3/q9G/index.html
+    html_sha256: 850d6284b36cc742fdd40ad3ad81106f77dd81f240847caceedae1ab5e5f1fd7
+    math_nodes: 99
+    diagrams: {}
+    question_sha256: b8f47f5c9395488f7234d9d09bb3250333c7bbb194fd8404d06990e8835fb708
+    solution_sha256: afd8d6cb4e54ca5e6fcca085628f6acee2b3e53a60c303591ba188192424ec74
+    check_sha256: 50db2d3bfb67c2ba3d103aee9602b0e367cac36c045187750925a00f4b69eeef
+    check_exit: 0
+    check_stdout: ''
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: The first-slot linear convention, two polarisation substitutions, real counterexample and real symmetric
+      converse, and normal orthogonal-complement induction agree.
+    source_image_sha256: f361442386ea6ad795127652df28b42ea3ca2ebfe10f01dc854aaed50cb16710
+    compiled_page_image_sha256:
+      10: e21394e05e2afcddc4e2b05aa8a0bbbf34c3d1dba633b0d0aec807e3a7e889a0
+      11: 6a1a0db0fd0cf596fe00b828cc75f55b261597fc3c255ad7d6dcb558e2f02807
+    browser:
+      title: IB/2024/P3/q9G · Cambridge Maths
+      math: 99
+      rendered: 99
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: c58c755117698ae4fe6d4f8f6aff7efc468f9f79131c7d281233171db8355033
+    blind_rework_file: P3-q9G.md
+    blind_rework_sha256: 6cfe986383267f9bdae87f2081286c9e36f30df1cf968cd3fb7df2def1d37cae
+    blind_rework_utf8: |
+      # IB 2024 P3 9G, original page 5
+
+      Use the inner product convention linear in the first variable. In any orthonormal basis e₁,…,eₙ define β(y)=∑ⱼ overline(θ(eⱼ,y))eⱼ. For x=∑xⱼeⱼ this gives ⟨x,β(y)⟩=∑xⱼθ(eⱼ,y)=θ(x,y). The conjugated coefficients are linear in y. Any two representatives differ by a vector orthogonal to every x, hence to itself, proving uniqueness. Apply this construction to θ(x,y)=⟨αx,y⟩ to obtain the unique linear adjoint.
+
+      (a) The condition αU⊆U is equivalent to ⟨αu,w⟩=0 for every u in U and w in U⊥, since (U⊥)⊥=U in finite dimension. Replacing the inner product by ⟨u,α*w⟩ gives exactly α*(U⊥)⊆U⊥.
+
+      (b) Write b(x,y)=⟨αx,y⟩. Expanding b(x+y,x+y)=0 gives b(x,y)+b(y,x)=0. Expanding b(x+iy,x+iy)=0 gives −i b(x,y)+i b(y,x)=0. Thus b(x,y)=0 for every pair and taking y=αx implies α=0. In the real Euclidean plane the nonzero rotation (x,y)↦(−y,x) is orthogonal to the input for every input, a counterexample.
+
+      (c) The self-adjoint difference D=α*α−αα* satisfies ⟨Dx,x⟩=‖αx‖²−‖α*x‖². Thus the forward implication is immediate and the converse follows from (b) over the complex numbers. Over the reals it still holds: the symmetric bilinear form ⟨Dx,y⟩ has zero diagonal and evaluation on x+y gives twice ⟨Dx,y⟩=0.
+
+      (d) On a nonzero complex space choose an eigenvector v of unit length, αv=λv (the characteristic polynomial has a root). α−λI is normal since it and its adjoint have commutator equal to that of α and α*. By (c), ‖(α*−overline(λ)I)v‖=‖(α−λI)v‖=0. Thus the line spanned by v is invariant under both α and α*. By (a), its perpendicular complement is invariant under both. The restrictions to this complement are adjoints of each other, and commute, so the restriction of α is normal there. Induction on dimension, adjoining v to an orthonormal eigenbasis on the complement, proves the claim. The zero-dimensional case uses the empty basis.
+  IB/2024/P3/q14B:
+    source_pdf: private/raw/tripos/IB/2024/P3.pdf
+    source_sha256: 5205c8a2aa144f1bdf77ecb99d3fafa922977ef5a1aff6f994851851ebf035f8
+    source_page: 9
+    compiled_pdf: build/IB-2024-P3/main.pdf
+    compiled_sha256: 2601f625d32c08c960bbff8245c610afa68c0078f3a513f27b5ce4c9e4682336
+    compiled_pages:
+    - 18
+    - 19
+    html: site/private/questions/IB/2024/P3/q14B/index.html
+    html_sha256: daf93310e3e5841d2452da8056d4ac93d296eefff5c5f3befc51d68471ab48be
+    math_nodes: 39
+    diagrams: {}
+    question_sha256: 0bba96946d53b362d806715dd4e9eab088bba9e350d92281d2d366a3f090bcac
+    solution_sha256: 5bd1bd014d0e809056fe7803e8ab03957f99251e6c5a725262f64bcc556363db
+    check_sha256: 7cc3f111241556ef2e78ffccd08c94b35b3c077f07602491f6e9051feec6f583
+    check_exit: 0
+    check_stdout: Tent coefficients, modal ODEs, Parseval energy and energy dissipation verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: Modal frequency, initial derivative, sine coefficients, finite-energy Parseval factor and loss identity
+      agree. Both distinguish strictly decreasing over intervals from zero velocity at isolated times.
+    source_image_sha256: 373c76251f0cba49c31cb2380cc897f011298765086b470f7b1797851161eaf2
+    compiled_page_image_sha256:
+      18: 63c7252745faa188fdc5a111d4b950515b8be5da96f3b94c69d523974fd1074d
+      19: e6a9fa29421d24fb5c7fb94c5ca63f9ee7c7305a26f817e88fb5b4b2ae99b2e6
+    browser:
+      title: IB/2024/P3/q14B · Cambridge Maths
+      math: 39
+      rendered: 39
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 9e026dcf83b8a2549982ecb98fdba9173279f04c8ca449ed966287d52fd24ec5
+    blind_rework_file: P3-q14B.md
+    blind_rework_sha256: d0a02cd0348765d3b8a0fe9bb4ad4dcb5bc733aedb6f9f883260467dffa1861e
+    blind_rework_utf8: |
+      # IB 2024 P3 14B, original page 9
+
+      Set y=T(t)X(x). Separation gives X''=−k²X and T''+T'+k²T=0. The fixed endpoints exclude nonpositive k² (integrating −X''X gives ∫|X'|²); the nontrivial modes are X=sin(kx), k=nπ, n≥1. Define ωₙ=√(k²−1/4). The characteristic time roots are −1/2±iωₙ, so the solution is ∑aₙUₙ(t)sin(nπx) with
+
+      Uₙ(t)=exp(−t/2)[cos(ωₙt)+sin(ωₙt)/(2ωₙ)].
+
+      This choice gives Uₙ(0)=1 and Uₙ'(0)=0 as required. For the tent f, orthogonality gives aₙ=2∫₀¹ f(x)sin(kx) dx. Integration by parts gives (2/k)∫ f'(x)cos(kx)dx; f' is +1 on the left and −1 on the right. Thus aₙ=4sin(nπ/2)/(nπ)², including vanishing even coefficients.
+
+      Using Uₙ'=−e^{−t/2}(k²/ωₙ)sin(ωₙt), Parseval on the orthogonal sine and cosine bases gives
+
+      E(t)=(e^{−t}/4)∑ₙ aₙ²[(k⁴/ωₙ²)sin²(ωₙt)+k²(cos(ωₙt)+sin(ωₙt)/(2ωₙ))²].
+
+      Here ∑k²aₙ²<∞ is the finite initial energy condition (for real displacements). For each partial sum the derivative of its energy is ½∑aₙ²Uₙ'(Uₙ''+k²Uₙ)=−½∑aₙ²(Uₙ')²≤0. Passing the inequality between any two times to the limit proves that the full energy decreases. Each nonzero modal sine has isolated zeros in its velocity, so its energy strictly falls over every interval of positive length, although the instantaneous derivative can vanish, notably at t=0.
+  IB/2024/P3/q18H:
+    source_pdf: private/raw/tripos/IB/2024/P3.pdf
+    source_sha256: 5205c8a2aa144f1bdf77ecb99d3fafa922977ef5a1aff6f994851851ebf035f8
+    source_page: 12
+    compiled_pdf: build/IB-2024-P3/main.pdf
+    compiled_sha256: 2601f625d32c08c960bbff8245c610afa68c0078f3a513f27b5ce4c9e4682336
+    compiled_pages:
+    - 24
+    - 25
+    html: site/private/questions/IB/2024/P3/q18H/index.html
+    html_sha256: 397f5813cda19e83336d9c436571cec39e841f98d53e1c259a4cdc165b469042
+    math_nodes: 61
+    diagrams: {}
+    question_sha256: b409c40d9f334ff3feeb590826100eb363d68049f00005ca098539833476b87e
+    solution_sha256: 895b1a2b42ba5df5d2d5f2c0e76e113deaae0eecd2e4e271c652fe38f3271f97
+    check_sha256: b382100c7cebd927b8c105abb8fc2107c1b86d9d6dee20128e412db3d451b46d
+    check_exit: 0
+    check_stdout: Verified Gaussian convolution, posterior mixture and near-zero and tail order using log probabilities.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: The null statistic, normal mixture, posterior odds, zero-point comparison and slower posterior decay
+      in both tails agree. The source normal-tail radical covers 2 pi with the additional x outside.
+    source_image_sha256: 7d6c7aa2c98a2f9c89f80506ada116e6878fa7bedf9ac5c9916a3df747e250f6
+    compiled_page_image_sha256:
+      24: a43e5e4a96bde083601dc2988e0af2e44735e733c629ddc1002ce6801a4c204c
+      25: 02f7926c3f938d604e9b4f9474fcad1eca1e990760defb1a9c90cdb9836c5051
+    browser:
+      title: IB/2024/P3/q18H · Cambridge Maths
+      math: 61
+      rendered: 61
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: e1fa796fb237d89773fd4ffb45fb4d3fbf5c4f636d97523bc9e9994856293df7
+    blind_rework_file: P3-q18H.md
+    blind_rework_sha256: 6fc027ff983f96e6528a62edeb759de1686709dbdd12c401023513a2a54860aa
+    blind_rework_utf8: |
+      # IB 2024 P3 18H, original page 12
+
+      (a) Under the null Z=√n X̄ is standard normal. The equal-tailed level-α test rejects at |Z|≥Φ⁻¹(1−α/2), with rejection probability exactly α by continuity. At observed x the least rejection level is p(x)=2[1−Φ(√n |x|)].
+
+      (b) Given μ, X̄=μ+ε with ε∼N(0,1/n) independent of the prior draw. Thus its conditional density is √(n/(2π))exp[−n(x−μ)²/2]. Write φ_v(x)=(2πv)^{-1/2}exp[−x²/(2v)]. Under the spike its density is φ_{1/n}; under the slab it is φ_{τ²+1/n}, since independent normal variances add. The marginal is m(x)=[φ_{1/n}(x)+φ_{τ²+1/n}(x)]/2.
+
+      (c) For the intended nondegenerate slab τ²>0, its mass at zero is zero, so Bayes' rule gives q(x)=φ_{1/n}(x)/(2m(x)). With K=1+nτ² and z=√n |x|, this is [1+K^{-1/2}exp((1−1/K)z²/2)]⁻¹. If the slab were degenerate at zero then μ=0 almost surely.
+
+      (d) Here K=101. At x=0, p(0)=1 and q(0)=√101/(1+√101)<1, so continuity gives p>q in a neighbourhood. For z→∞ the given tail estimate yields p∼2e^{-z²/2}/(√(2π)z), and q∼√101 exp[−(100/101)z²/2]. Hence q/p∼(√(202π)/2)z exp(z²/202)→∞. The posterior probability is larger for sufficiently large |x|.
+  IB/2024/P4/q16D:
+    source_pdf: private/raw/tripos/IB/2024/P4.pdf
+    source_sha256: 002565030f799739e122a9cfafb58ccea529f0dc3d94d65db75c1190a86b926a
+    source_page: 11
+    compiled_pdf: build/IB-2024-P4/main.pdf
+    compiled_sha256: 7069aa6cb40533a4344381a2343e7a7dc8621d82f4897be9645990fcb311d3b8
+    compiled_pages:
+    - 24
+    - 25
+    html: site/private/questions/IB/2024/P4/q16D/index.html
+    html_sha256: 922e2e62f86ef631a37b48c7b713f7955ad84d08b7ba560938ee5ea8db19840e
+    math_nodes: 50
+    diagrams:
+      site/private/figures/tripos/IB/2024/P4/q16D/adjusted-current.png: 6b6436e1a6da59455c7e0b454ccf11d0d1ae1231b26bdc981447487c68632f81
+    question_sha256: 66d2388a13adbd27638ab0f0490536ac8fa27146f08ca04db2464f8c31e6b9cd
+    solution_sha256: 2b86f4dfc6008eb3e3f0f5bbb55c77b858ca30c2b124104d881aa14e2e882cd2
+    check_sha256: 8367f16d4c973839bb0a17466dc0aa55e8b5c26b564d1916f29ff2fbe88cd657
+    check_exit: 0
+    check_stdout: Steady forced and unforced equations, edge matching and vanishing centreline shear flow verified.
+    check_stderr: ''
+    metadata_source_hashes_verified: true
+    comparison: Conserved vorticity, forced height equation, Rossby length, matched interior/exterior solutions,
+      signs and both velocity maxima agree. In the illustrated a/L=1 case arrows point straight north left of zero
+      and south right of zero for positive rotation and elevation, have edge peaks at +/-1, and decay away on the
+      outer flanks. The same three rows show y-independence. The nonrotating local limit is zero.
+    source_image_sha256: db8c3cc0bd7e82e859e3751e7ff434adf798066c2f971d38408391d47744d2fa
+    compiled_page_image_sha256:
+      24: a153a35e7b4e4fb7eb49c08e5e1fc2e45bf4ab5ef4e485f9da8fb890db977ae1
+      25: cefde7628c7c61e6df1e85466f4436c3b69afe3f78a4bfa2c79e9a4fa0595205
+    browser:
+      title: IB/2024/P4/q16D · Cambridge Maths
+      math: 50
+      rendered: 50
+      parse_errors: 0
+      diagrams:
+      - alt: Oppositely directed currents along the two edges of the initial strip for positive rotation and elevation.
+        width: 1020
+        height: 425
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 9d6c44a210131eb085ef1deb380d322b183c26487c07a7427e1b3fa19840d854
+    blind_rework_file: P4-q16D.md
+    blind_rework_sha256: fde2a4cbe063ca671d2779b3f5f4dc956e8857783f7058302bef7e610752ef1b
+    blind_rework_utf8: |
+      # IB 2024 P4 16D, original page 11
+
+      Write ζ=vₓ−uᵧ and D=uₓ+vᵧ. The vertical curl of momentum gives ζ_t+fD=0 while continuity gives η_t=−h₀D. Thus ∂t(ζ−fη/h₀)=0, precisely the vertical component of the asserted vector identity; the other two components vanish. Initial rest at height perturbation η₀ implies ζ=f(η−η₀)/h₀ everywhere. Divergence of momentum gives D_t−fζ=−g∇²η. Eliminating D and ζ produces η_tt−gh₀∇²η+f²η=f²η₀.
+
+      Use translation invariance in y, unbounded x, and decay at infinity. For f≠0 let L=√(gh₀)/|f|. The steady solution solves η−L²η''=η₀. It is even by symmetry and uniqueness (a homogeneous difference decaying at both infinities must vanish). The forcing step is bounded, hence η and η' are continuous even at ±a; jumps would introduce singular sources. The interior form ε+C cosh(x/L) and exterior form B exp[−(|x|−a)/L] match in value and derivative at a. This gives C=−ε exp(−a/L), B=ε exp(−a/L)sinh(a/L). Thus
+
+      |x|≤a: η∞=ε[1−exp(−a/L)cosh(x/L)].
+
+      |x|≥a: η∞=ε sinh(a/L) exp(−|x|/L).
+
+      Steady momentum gives u=0 and v=(g/f)η∞'. Thus for fε>0 the jets run in the +y direction left of the centre and −y to the right, strongest at ±a. They vanish at the centre and decay away at large |x|. Reverse the arrows for fε<0. The interior derivative is −(ε/L)e^{-a/L}sinh(x/L); the exterior derivative is −sgn(x)(ε/L)sinh(a/L)e^{−|x|/L}.
+
+      Plan view, with arrow counts indicating the relative speed:
+
+          y ↑              ↑↑↑             ↓↓↓
+                           ↑↑↑             ↓↓↓
+                    ↑       ↑       ·       ↓       ↓
+          x →   −∞         −a       0       a          +∞
+
+      An equivalent sketch plots v(x) odd, peaking at −a and reaching its negative minimum at +a (for fε>0). With f=0 the top-hat splits into two outward pulses of speed √(gh₀), by the d'Alembert formula and zero initial η_t. The local steady state behind them is η∞=0 and u=v=0 on the unbounded line, as follows by integrating the travelling-wave momentum equation.
+    independently_regenerated_figure_sha256: 6b6436e1a6da59455c7e0b454ccf11d0d1ae1231b26bdc981447487c68632f81

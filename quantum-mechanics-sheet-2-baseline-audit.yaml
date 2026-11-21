@@ -1,0 +1,191 @@
+scope: IB Quantum Mechanics Sheet 2, verified 2025–26 baseline only. Numerical denominators count distinct sampled
+  questions; each question was also inspected in both output variants. Historical editions and course completion
+  lie outside this sample.
+audit_stage: Initial independent review; no repairs required.
+method:
+  auditor: Fresh independent reviewer, not author of either canonical solution.
+  seed: 20261207
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  sample:
+  - q03
+  - q02
+  sampling: Python random.Random(20261207).sample(sorted(population), 2) reproduced q03 then q02.
+  blind_input: Exact question fragments and original file/page/printed-number locators. Original sheet was fetched
+    before visual comparison. No earlier sheet solutions, issue lists, provenance comments, checks or output were
+    provided prior to freezing.
+  frozen_rework_sha256: cb1d14df10af1ebde6059f3957dd7187c04412f6f9b5084667d17aaff7d86f1c
+  frozen_rework_manifest_utf8: |
+    869c0b3a9a34afe7c1f341408f476058d9f683f040c38508adfb161b2f53f4b2  q02.md
+    5982f2569e3de79ce0ef86cf005d1645865ce3cce92e10f4ae14ce6ffd0c203d  q03.md
+  delivery: Re-read both canonical source solutions, independently ran the two check scripts, visually inspected
+    four compiled pages and four headless Chrome screenshots. Opened both disclosure panels in the dated collection
+    and inspected their complete visible solutions.
+observed_before_repair:
+  sampled: 2
+  population: 10
+  observed_rate: 0/2
+  substantive_errors: 0/2
+  source_transcription_errors: 0/2
+  computer_check_failures: 0/2
+  canonical_pdf_failures: 0/2
+  dated_pdf_failures: 0/2
+  canonical_html_failures: 0/2
+  dated_html_failures: 0/2
+  pdf_question_renderings_visually_inspected: 4
+  html_question_renderings_visually_inspected: 4
+  html_math_rendered: 98
+  html_math_total: 98
+  browser_parse_errors: 0
+  escalate: false
+observed_after_repair:
+  repairs: 0
+  retest: No repairs or post-repair retest.
+question_evidence:
+  q03:
+    source:
+      archive: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+      page: 1
+      original_question: '3'
+    original_sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+    original_page_render_sha256: ed5149766c17322b947c8e94d0c8d30c2beba4346f7aff4618d40d8ff8a6698a
+    locator_sha256: 867fd607da0ad1ccb91ad9b1b8457b03503d96eda93ddb0bdc6c80a79aba3db7
+    question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+    solution_sha256: 3cf6b32cf6fad8201ad103de5d086d419db72468a2d69648ffee24c3dcf56852
+    check_sha256: 7aec08d6e306fa9f0b76a785f8463f823f12ec75bc8227b5e4026c6890628770
+    check:
+      exit: 0
+      stdout: Odd matching condition has the required sign below and at threshold; a negative-energy root appears
+        above threshold.
+      stderr: ''
+    metadata_source_hashes_verified: true
+    blind_rework_sha256: 5982f2569e3de79ce0ef86cf005d1645865ce3cce92e10f4ae14ce6ffd0c203d
+    blind_rework_utf8: |
+      # Quantum Mechanics, Sheet 2, printed question 3, original page 1
+
+      Normalisability forces E<0, since neither oscillatory nor affine free-wave solutions outside can be square-integrable unless identically zero; uniqueness from zero value and derivative at the edge then forces the zero solution. Also E>−U: the expectation of H+U is the sum of (ℏ²/2m)∫|χ'|² and U∫_{|x|≥a}|χ|², strictly positive for any nonzero normalised state. Thus k=√(2m(E+U))/ℏ and κ=√(−2mE)/ℏ are both positive.
+
+      Odd parity makes χ(0)=0, so on 0<x<a the function is A sin(kx). On x>a it is B e^{−κ(x−a)}. A finite step allows no jumps in either the function or derivative, hence A sin(ka)=B and A k cos(ka)=−κB. A=0 would give only the zero state. Also sin(ka)=0 would give B=0 and force k cos(ka)=0, impossible. Dividing therefore yields k cot(ka)=−κ<0. Under the proposed bound we have 0<ka<a√(2mU)/ℏ<π/2. Cotangent is positive in this interval, so no odd bound state exists. At the threshold a²U=π²ℏ²/(8m) a negative-energy odd solution is also impossible because the first bound on ka is strict; the limiting zero-energy nondecaying tail is not normalisable.
+    comparison: Both derivations give -U<E<0, k cot(ka)=-kappa and 0<ka<pi/2, excluding every odd bound state. Both
+      handle the zero-sine case and threshold equality; the strict upper bound on ka follows from E<0 even at equality.
+    layouts:
+      canonical:
+        compiled_pdf: build/IB-quantum-mechanics-sheet-2/main.pdf
+        compiled_sha256: ee1a004ea3c5cfb63abc9924282f346d01393d2cc170b4affb12242ee6fe7717
+        compiled_page: 3
+        compiled_page_render_sha256: cfb79e8337e80d22c814ba582d50ebd023854308c064c2104b5208d2f1468a2b
+        html: site/private/questions/IB/quantum-mechanics/sheet-2/q03/index.html
+        html_anchor: null
+        html_sha256: cf390fc2a0f07b127b2969e2bd93b49cf6a8ae485d015dfb17f8477dc6dd6af6
+        browser:
+          path: site/private/questions/IB/quantum-mechanics/sheet-2/q03/index.html
+          total: 20
+          rendered: 20
+          parse_errors: 0
+          document_width: 1220
+          viewport: 1220
+          selectors:
+          - Question
+          - Solution
+          - Open issues
+          diagram_count: 0
+          expanded: null
+        browser_screenshot_sha256: db0025d73c279b41b8844d83a6f55fb572f802f6212ef9d2b9aee25fb2b8f21b
+      dated:
+        compiled_pdf: build/IB-quantum-mechanics-sheet-2-2025-26/main.pdf
+        compiled_sha256: 19ecc36e1308678891cde35d6baa36ee1f73b8da8252e8846b08d784c8115822
+        compiled_page: 3
+        compiled_page_render_sha256: 9eaa4f6115496027f3ec670a2b2f75e27d38833e5cfb3706f343e18ec3e8e800
+        html: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+        html_anchor: q03
+        html_sha256: 5fe498a3cb443866156a35277f9375f6e89ebe5e05f3d9efe8195be56f948444
+        browser:
+          path: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+          total: 20
+          rendered: 20
+          parse_errors: 0
+          document_width: 1220
+          viewport: 1220
+          selectors:
+          - Question 3
+          diagram_count: 0
+          expanded: true
+        browser_screenshot_sha256: 8c7fcb260a7bafd6aa8583513e8d5712a31cc859f12e791013ee3f7170b2b5ea
+  q02:
+    source:
+      archive: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+      page: 1
+      original_question: '2'
+    original_sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+    original_page_render_sha256: ed5149766c17322b947c8e94d0c8d30c2beba4346f7aff4618d40d8ff8a6698a
+    locator_sha256: 1821392ab4174a08c5c34a734afbab038228664560e9c6e586162e9f8248bf30
+    question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+    solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+    check_sha256: 66ed0f2179882b1d1bff67b2418f3cd0e85871069e02becec5f9478080beb8d1
+    check:
+      exit: 0
+      stdout: Both free-tail equations, interface conditions, energy and whole-line normalisation verified.
+      stderr: ''
+    metadata_source_hashes_verified: true
+    blind_rework_sha256: 869c0b3a9a34afe7c1f341408f476058d9f683f040c38508adfb161b2f53f4b2
+    blind_rework_utf8: |
+      # Quantum Mechanics, Sheet 2, printed question 2, original page 1
+
+      For the attractive point interaction the stationary equation is −(ℏ²/2m)χ''−Uδ(x)χ(0)=Eχ. Continuity of χ follows because a jump would supply a delta derivative in χ'', for which the equation has no matching term. Integrating between ±ε gives −ℏ²[χ'(ε)−χ'(−ε)]/(2m)−Uχ(0)=E∫_{−ε}^{ε}χ dx. Local boundedness makes the right-hand side tend to zero, so χ'(0+)−χ'(0−)=−(2mU/ℏ²)χ(0).
+
+      For E<0 put κ=√(−2mE)/ℏ. Square integrability on each half-line selects A e^{κx} on the left and B e^{−κx} on the right. Continuity gives A=B=C. The jump is −2κC and a nonzero eigenstate has C≠0, forcing κ=mU/ℏ². Thus E=−mU²/(2ℏ²). Since ∫ e^{−2κ|x|} dx=1/κ, the normalised state is √κ e^{−κ|x|} up to a global phase. These matching conditions fixed all choices except this phase. At E=0 a free solution on either exterior half-line is affine, and for E>0 it is oscillatory; square integrability forces both such exterior pieces to vanish. Thus no additional bound eigenstates occur.
+    comparison: Continuity excludes a delta-prime term, the derivative jump fixes kappa=mU/hbar^2, the normalised
+      state is sqrt(kappa) exp(-kappa |x|) up to phase, its energy is -m U^2/(2 hbar^2), and no nonnegative-energy
+      tail is square-integrable. The canonical answer agrees in each case.
+    layouts:
+      canonical:
+        compiled_pdf: build/IB-quantum-mechanics-sheet-2/main.pdf
+        compiled_sha256: ee1a004ea3c5cfb63abc9924282f346d01393d2cc170b4affb12242ee6fe7717
+        compiled_page: 2
+        compiled_page_render_sha256: 59bdc2ab49a87ee308932850b7b3808f73b8a9dfd280edd7c51d91bd16fcc060
+        html: site/private/questions/IB/quantum-mechanics/sheet-2/q02/index.html
+        html_anchor: null
+        html_sha256: cc0be6aed64ff2263c7f862cce1e9b45bec85864bf16a52a9e477a116175323f
+        browser:
+          path: site/private/questions/IB/quantum-mechanics/sheet-2/q02/index.html
+          total: 29
+          rendered: 29
+          parse_errors: 0
+          document_width: 1220
+          viewport: 1220
+          selectors:
+          - Question
+          - Solution
+          - Open issues
+          diagram_count: 0
+          expanded: null
+        browser_screenshot_sha256: 55f4b32afb8c0f4216b849b816d4b15bfddcce70f9d3a3474175da15a143963b
+      dated:
+        compiled_pdf: build/IB-quantum-mechanics-sheet-2-2025-26/main.pdf
+        compiled_sha256: 19ecc36e1308678891cde35d6baa36ee1f73b8da8252e8846b08d784c8115822
+        compiled_page: 2
+        compiled_page_render_sha256: e66f2438d483b374c361be7480dc2e86f4cafb64fba4c522c0609efaf1cf59c1
+        html: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+        html_anchor: q02
+        html_sha256: 5fe498a3cb443866156a35277f9375f6e89ebe5e05f3d9efe8195be56f948444
+        browser:
+          path: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+          total: 29
+          rendered: 29
+          parse_errors: 0
+          document_width: 1220
+          viewport: 1220
+          selectors:
+          - Question 2
+          diagram_count: 0
+          expanded: true
+        browser_screenshot_sha256: a7d48a0fd7677f5f7fd6d76a8a8f19497579fabdbfa00c5092739c958ec9a579

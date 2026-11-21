@@ -1,0 +1,272 @@
+paper_id: IB/2015/P2
+id: IB/2015/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2015-06-03'
+printed_date: Wednesday, 3 June, 2015
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2015/P2.pdf
+archive: private/raw/tripos/IB/2015/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2015/PaperIB_2.pdf
+sha256: 03c7a5230d816dfcef4cfbc48bc85784a1c92523eeb6ed75b0526427c24148a3
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2015/P2/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: f9598e217458c86672cfae6e53dbc40fe1fb5d373075315efa3077865c5c84bd
+  checks: Checked all three quadratic forms, their coefficients and the two invariants requested.
+- id: IB/2015/P2/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: e1331d149e5ea46e95173bbb80f4e7f7435ac3baf1e5a09aa251185806166fe3
+  checks: Checked the specified group order and the number and properties of examples requested.
+- id: IB/2015/P2/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 8153aca115a228457d378af50ce291310dfc9adc7ad96e26af25ff7dc453bae9
+  checks: Checked the three map coordinates, factor signs and the local inverse condition.
+- id: IB/2015/P2/q4E
+  original_question: 4E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: dc8b55c6f281a868edd688a056493ce35f2b8c81a8dac625fecba6d3da520d27
+  checks: Checked the placement of both closure bars, the closed-image assumption and the requested example.
+- id: IB/2015/P2/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 9667175c3c17e45c920a98ff6a350d97cfcfa1b2a88df7f565740a3f247a0bb7
+  checks: Checked the half-open intervals, periodic extension and the integer limit of the coefficients.
+- id: IB/2015/P2/q6A
+  original_question: 6A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 238fdad73ac0a5288cd13d9c798cea33e6ef0f21f809af5c987a24df58319fb6
+  checks: Checked the field orientation, initial conditions, and the order of the two requested limits.
+- id: IB/2015/P2/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: a29db01308f7772cafa061dcd87a5c4196d2abd818db79b58ebe986868b5f7e2
+  checks: Checked the velocity signs, streamline location and the definition of the complex potential.
+- id: IB/2015/P2/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 762575afd704141434262f36a80565281d0589582c036641720225bf3a0a5b75
+  checks: Checked the two distributions, prior parameter, posterior loss integral and both losses at observation
+    zero.
+- id: IB/2015/P2/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 445ab4a39dd9eea87fe71fa1cf20bde534e4ad9dcb6a1477ba9400c2a32716fa
+  checks: Checked all four constraints, the objective and strict positivity of both coefficients.
+- id: IB/2015/P2/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 2822ba7b9f3d40b6484f510ea01c7a384d9682fff1fbefd7effa379068c56adf
+  checks: Checked all four implications, inverse and transpose placement, eigenvalue exclusion and determinant
+    conditions.
+- id: IB/2015/P2/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 219d16438fdde7409043ee74149fea11f573b5b79fc01af6bdc9178f72639c6b
+  checks: Checked all coefficients of the four-coordinate map and the denominator condition defining R.
+- id: IB/2015/P2/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 7c9534e15359304984f08d8c1d35f6363e4e84113e84b935995387eb2ef893bd
+  checks: Checked epsilon-delta and sequential statements, distance formula, finite-dimensional attainment
+    and both final questions.
+- id: IB/2015/P2/q13B
+  original_question: 13B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 21713f1e31374a6a63145285ef683c9cb4695cc171a9b2c2e1ac62c35f322645
+  checks: Checked the order of the pole, half-plane specified, and squared numerator and denominator of the
+    integral.
+- id: IB/2015/P2/q14F
+  original_question: 14F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 1b9de07814c1d6e0cf4124857c2a0da779c2568226cc5c9e1a52fb1df5483dc4
+  checks: Checked the line-union-point and two quadric sets, domain and parametrisation, and all three geometric
+    quantities.
+- id: IB/2015/P2/q15A
+  original_question: 15A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: c41162948d4694f1eac4457d866f3a667490df14df7f84c81661b355cf886d2c
+  checks: Checked cylinder dimensions, volume formula, ratio of length to radius, hemisphere request and final
+    exemption.
+- id: IB/2015/P2/q16C
+  original_question: 16C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: c20830e4ccb7ffcddc040813eaa45316bed828b1af03bb867643f1f0415b4b5b
+  checks: Checked the spherical Laplacian, all Legendre and radial exponents, the three axes and phi in the
+    figure, and the power series hint.
+  figures:
+  - charged-ring
+- id: IB/2015/P2/q17D
+  original_question: 17D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 3771718bf68d111942a5cd51bec89a0a878110b0a631f505b4b8199afdb43fdb
+  checks: Checked the labelled Hamiltonian, oscillator scale, parity conditions, frequency change and both
+    Gaussian integrals.
+- id: IB/2015/P2/q18A
+  original_question: 18A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: d100c74ec41aba97f8fc3ff9242d0b3b71ab92497f3179ef1d52cee2575a08c8
+  checks: Checked all unit-vector components, clockwise current, initial velocity, halving time and the final
+    printed list of parameters.
+  printed_ambiguity: The final list of variables for the limiting position omits mass m, although the stopping
+    distance depends on it.
+- id: IB/2015/P2/q19D
+  original_question: 19D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 3783525fd2fa14c174331d2f9e3d30cf0989a3b7383c2cc37f9c0ab104977526
+  checks: Checked the order of the explicit and implicit weights, full theta interval and both stability questions.
+- id: IB/2015/P2/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 26af2f1c805a90d9e700301514880d026ee4e715da7eba4c4cb42cc251bde2a4
+  checks: Checked the detailed-balance identity, current-location convention, weather independence and all
+    three subparts.

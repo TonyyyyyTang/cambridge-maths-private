@@ -1,0 +1,287 @@
+paper_id: IB/2015/P3
+id: IB/2015/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2015-06-04'
+printed_date: Thursday, 4 June, 2015
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2015/P3.pdf
+archive: private/raw/tripos/IB/2015/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2015/PaperIB_3.pdf
+sha256: 88b7b88e0cecc21bb2ad2f6021393a7533609fde98abfaa9519b90d462359f24
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2015/P3/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 49fef3cb2be08ea1d515331d4c1cc5a38187e8144965e53141933de91b676bd9
+  checks: Checked the commutativity assumption, equivalence proof and non-Noetherian example.
+- id: IB/2015/P3/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 750563ef7d9b2456e5fcd4c0cc34c0fa24293208a3ff4f954c02edcd8a64e4f4
+  checks: Checked the uniform continuity and finite-limit hypotheses, domain and permissible theorem.
+- id: IB/2015/P3/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: c5f91bd37543094b4716980048941c613c424b60ce41b6a6869f8000c76a4c18
+  checks: Checked the direction of implication, connected interval assumption and exemption from justification
+    for the converse example.
+- id: IB/2015/P3/q4B
+  original_question: 4B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 7005c6794bc9e823f80c5f936dd31075377651b765cd7a552f651873b6115134
+  checks: Checked the transform of the derivative and powers in the integrand on the whole line.
+- id: IB/2015/P3/q5F
+  original_question: 5F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 83dce368d5df9eff9ee8b50f8652c3effd12a91e9e7c55be717da94ac712c11d
+  checks: Checked the correspondence of vertices, angles and opposite edges and the assignments of the reflection.
+- id: IB/2015/P3/q6A
+  original_question: 6A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 6bf60c347684e2069630ab223a6d5fe33eaae7383540b20723e0e16ab6fb887f
+  checks: Checked the two dimensions used for convexity and the transform, and the final function and domain
+    request.
+- id: IB/2015/P3/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 243ec982128b83a32928e7ae9cecd53d8d9f6193a4b599a88f67f9b0c3394495
+  checks: Checked absolute derivative and scale factors, the conditions on zeros and the printed limit without
+    a plus sign.
+  printed_ambiguity: The printed limit s tending to zero is two-sided. The positive-side family tends to the
+    delta distribution and the negative-side family to its negative.
+- id: IB/2015/P3/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: d5f1d1ebf19ce719d259f799a55a50ab8eeadbd1a276c87e48cd5f52c7051862
+  checks: Checked signs and coefficients of both superpositions, assignment of eigenvalues, initial state and
+    time restrictions.
+- id: IB/2015/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 7539050d7872f494222f95a43f27c9277bf35e02308493d979c58e83f66025a1
+  checks: Checked all sixteen transition entries, initial state, first-exit event and final two quantities.
+- id: IB/2015/P3/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1859f15a3aafc7e8a4cabf114c1d0ab5a350e382f941ef76c824e0486837483f
+  checks: Checked all index ranges, the subspace relation, four claims and the final complex two-dimensional
+    question.
+- id: IB/2015/P3/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 4168ad3850ce699e74b03ca21d43de02cf09232a56a1fce0d97520fbcbe7decb
+  checks: Checked both group orders, element count, prime ordering and divisibility exclusion.
+- id: IB/2015/P3/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a6fa571ade0e7d2fa1eb9c822604c183830626ee087df9d3de9b66fd11a8ac9c
+  checks: Checked dimensions, composition order, partial derivative indices and the final dependence on the
+    sum.
+- id: IB/2015/P3/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: ca7ff71856d42095223058cc681ad249677eb28df3f7dfa4bf9bb376e6ed24f3
+  checks: Checked the open-set and injectivity hypotheses, contour, numerator and denominator and inverse restriction.
+- id: IB/2015/P3/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: d5d2dde0a03a4d8b2b4f9d3d15797cb1e58527485f1fa2c369ff502894d5aca7
+  checks: Checked the unqualified fixed-point count, angle restriction, conjugated antipodal relation and attraction
+    condition.
+  printed_ambiguity: Part (i) needs to exclude the identity transformation, which fixes every point of the
+    Riemann sphere.
+- id: IB/2015/P3/q15C
+  original_question: 15C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 3ed8d9395a81836bbb48246bc3bf348e2d72f8597bc4a15613daa94e9a505dd6
+  checks: Checked both equation markers, all Green function signs and variables, primed normal derivatives
+    and half-space boundary data.
+- id: IB/2015/P3/q16D
+  original_question: 16D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 110ab0f2baeb53a4b7053e2caf6e8a74efaf1b837e22c157054f469d68228417
+  checks: Checked all hatted operators, commutator signs, the raising combination and the Cartesian polynomial
+    and radial hint.
+  printed_ambiguity: The raising operator can annihilate the state when l = 0. The zero vector is not an eigenstate.
+- id: IB/2015/P3/q17A
+  original_question: 17A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 5b778069335e023d6a8ee186a4b2a092bdbe11a7bd4bda094160e4068bcbbb70
+  checks: Checked the radial density, both shell radii inequalities and the quantities held in the shell limit.
+- id: IB/2015/P3/q18B
+  original_question: 18B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 2fd139691517f57b356819320a8e11dedd40cdff067a2d7a213b78ae5734a6ae
+  checks: Checked the forcing phase and smallness hypothesis, domain, free-surface boundary, and printed resonance
+    condition.
+  printed_ambiguity: For general real k as printed, decay in depth involves the absolute value of k. The stated
+    resonance condition presumes positive k.
+- id: IB/2015/P3/q19D
+  original_question: 19D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 22a69bb123902ea79fe9376248dd39495c408c403e13c628927f050b4e9ca9ad
+  checks: Checked the dimensions, Euclidean norm, all twelve coefficients, right side and residual norm request.
+- id: IB/2015/P3/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f168e8561f149fee69b4185efeb36bb625b93a8f126eb22ac6d24ce058959773
+  checks: Checked the exponential hypotheses, probabilities paired by die face, log-ratio sign and final statistic
+    value.
+- id: IB/2015/P3/q21H
+  original_question: 21H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 68efab7635947c0657b2dd2c835f24d369f36c5114c5bcfac52bb5389a77fa47
+  checks: Checked the primal inequalities, all entries of the cost, right side and constraint matrix, and all
+    perturbation indices.

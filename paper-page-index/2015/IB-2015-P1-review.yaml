@@ -1,0 +1,279 @@
+paper_id: IB/2015/P1
+id: IB/2015/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2015-06-02'
+printed_date: Tuesday, 2 June, 2015
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2015/P1.pdf
+archive: private/raw/tripos/IB/2015/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2015/PaperIB_1.pdf
+sha256: 5cb3fa84cca206da214133ca904f5c99ffebb5cc6ccd765bf72eca7b626230de
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2015/P1/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 281d9908f4b1adcd1c6118a53062da5b57fee033cb4e725f998d3a22aaef907a
+  checks: Checked both rank comparisons, the restriction, signs of both dimension terms and the examples requested.
+- id: IB/2015/P1/q2B
+  original_question: 2B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 64374d6ed9ab87ab2e7996073fd6c8079aa27e00eef5bf47edf055739919cd50
+  checks: Checked the nonempty-domain and nonvanishing assumptions and the phase of the constant factor.
+- id: IB/2015/P1/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: f003620d6eb53cbeb7520b5441accff092c644adb43e61aa9f2568a3656de6b5
+  checks: Checked both lines, points and isometry images, and the three distinct printed angle positions.
+- id: IB/2015/P1/q4A
+  original_question: 4A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 143c18e72ea88d669e695382b2fd7cc1ae26d4b056cff699f38f43b16dcef13a
+  checks: Checked the negative gravity direction, endpoints at equal height, initial rest and parametric option.
+- id: IB/2015/P1/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: ee804009d69170d844e0efd23f0c89be4fe9200872185f4970988b9fc36ed488
+  checks: Checked the potential sign and powers, direction of translation, reference axis and upper bound on
+    the fraction.
+  printed_ambiguity: The displayed dipole potential has a positive sign. The interpretation of the force needs
+    a consistent velocity-potential sign convention and surface normal.
+- id: IB/2015/P1/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: a7e09cebb0e9e382b2ba8ffc2d268bff2504e182940c674a7d837216e27ba860
+  checks: Checked all sixteen matrix entries, all four entries of b, the positive-definiteness request and
+    lambda = 18.
+- id: IB/2015/P1/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 7dafebcf2c2bb436bdc112a0d4609d53116c9efa0d32d8d7b59d540b5a183d31
+  checks: Checked both simple hypotheses, normal variance, size bound, power request and allowed-results instruction.
+- id: IB/2015/P1/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 8547212674194c5de33256e0fcb3b7f1db197d6cdd10f40ff5ea42f8905b0752
+  checks: Checked the cut partition, all twelve arrows and capacities and the source and sink names in the
+    original diagram.
+  figures:
+  - directed-network
+- id: IB/2015/P1/q9E
+  original_question: 9E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 797b13126cf5e278f406eafca70ce2a0d32c9df9c4dae3bc62398717e10427cd
+  checks: Checked all four matrix rows, invertibility qualifier, Jordan and minimal polynomial requests and
+    the basis-change identity.
+- id: IB/2015/P1/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 2dd6a9d4ebc9b97941ac407ba4c964d98556f0ddc1dcde03851d65bd4f93d690
+  checks: Checked the order, prime-power factorisation, upper bound on the number of possibilities and non-simplicity.
+- id: IB/2015/P1/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: cb86522b057cfb7e69cd858f72731eafcd04d54819d68c851d8cae369f4c3f3f
+  checks: Checked both exponential expressions, endpoint conditions, pointwise and uniform claims and final
+    proof instruction.
+- id: IB/2015/P1/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: b2a453e97fe8912332bdbef3ef056d76025e81e787c499f5e10593af25c892fd
+  checks: Checked open balls and radii, order of the inclusions and countable basis assertion.
+- id: IB/2015/P1/q13B
+  original_question: 13B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: d0d383a69a71f94acc4ca4537ba3df8a0abf1b752c48c8d52b44e5bd795d80b2
+  checks: Checked determinant and modulus restrictions, conjugation in the denominator and the displaced annulus.
+- id: IB/2015/P1/q14C
+  original_question: 14C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 210c9f90d0bebb3956e995a94fe354b4f60902be43bb6ad2a291d9388127dce5
+  checks: Checked all four subparts, the signs of both operators, weighted kernel and dependent variable, and
+    the homogeneous endpoint conditions.
+- id: IB/2015/P1/q15D
+  original_question: 15D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 59f51a22f8eb54f66a4445e416c283a6ab1ec7d5f47862c6c7e3f0bc6d08428d
+  checks: Checked the current equation, incoming and outgoing phases, attractive point potential and step conditions,
+    including the printed jump limit.
+  printed_ambiguity: The jump limit is printed as epsilon tending to zero. For the derivative jump the limit
+    is from positive epsilon.
+- id: IB/2015/P1/q16A
+  original_question: 16A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 406720b129c95fecb115e5a37cfe6694893d96a02b6282869d09b4d9d1c8977c
+  checks: Checked all seven parts, signs in the plane-wave convention, incident field, particle position, velocity
+    and evaluation times.
+- id: IB/2015/P1/q17B
+  original_question: 17B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: abb56758583298cdd304b84f2eac7f510a0736636adb9e9aa8633c0f5bc7c97d
+  checks: Checked both layer viscosities, wall velocity and locations, all five requests and the comparison
+    with constant viscosity.
+- id: IB/2015/P1/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: d020565d2ffcb0a5b1d2efbd5bf4a6d8b54de4d6ba3d7ac0fc8625505c247b77
+  checks: Checked integration limits, three quadrature nodes, exact degree, coefficient 4/9 and third derivative
+    in the bound.
+- id: IB/2015/P1/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 1b1affce292b95108a47b7cc158fc908b54a7d6eebe89242108fe89dc1d745ef
+  checks: Checked the mass functions, parameters and estimator accents, conditional expectation order and the
+    binomial hint.
+- id: IB/2015/P1/q20H
+  original_question: 20H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 4d8fa4ef396444fd365bfed6cfb3493d69c3e56fe821d23fa68bd1b74bd75394
+  checks: Checked labels and adjacency in the six-vertex graph, the initial vertex, target order and no-intermediate-visit
+    condition.
+  figures:
+  - random-walk-graph

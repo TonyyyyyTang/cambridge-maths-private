@@ -1,0 +1,275 @@
+paper_id: IB/2014/P4
+id: IB/2014/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2014-06-06'
+printed_date: Friday, 6 June, 2014
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2014/P4.pdf
+archive: private/raw/tripos/IB/2014/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2014/PaperIB_4.pdf
+sha256: 4b085f0951b248984580eee76f9275ebf018cc2d8af775a991a8d20ed0f0a675
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2014/P4/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: b8520960d02d280f24dda1ec25ca82b7bbfe89c379da0d90c821e77e9a3364d0
+  checks: Checked the degree bound, both integration limits and the orthonormality request.
+- id: IB/2014/P4/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 782f498febdd3265aafc4a140e2328e55fbbd0ad41409b3dc06fbc509fb265a4
+  checks: Checked all coefficients in the three defining relations and the requested exact element order.
+- id: IB/2014/P4/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: ffcc9d859536e9cfce80994d5ba1e4ab3540d8a309f24c2f286b8b723117f7ef
+  checks: Checked the function space, uniform norm, upper integration limit and distinction between A and its
+    square.
+- id: IB/2014/P4/q4G
+  original_question: 4G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 313c38124f21a8626a1558fac550386e3f977991fc79591d59141f6f05aef8e9
+  checks: Checked the derivative order, circle location and precise polynomial growth condition.
+- id: IB/2014/P4/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4966bd1665d95f8a2ad22a73674a35b7e131628e5440ce8d7deab3d74a28d0d2
+  checks: Checked the signed delta term, both intervals, the dagger label, the power-law hint and matching
+    conditions.
+- id: IB/2014/P4/q6A
+  original_question: 6A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: ac83b9f97d56e5ce88e43039b8cf1941433186bd0a5f60338ec3e3b49b0ec7ae
+  checks: Checked both uncertainty squares, positive mass, the energy inequality and the factor one half in
+    the final bound.
+- id: IB/2014/P4/q7A
+  original_question: 7A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 28bd014247119c1e7b537f3e274bbad227ee6a31f3e761c14843d80bab553bfe
+  checks: Checked the turns per unit length, initial field, battery electromotance and the requested variables
+    for the current.
+- id: IB/2014/P4/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 256ebf31f3087b8e66aeb3135e7d5c14713a6cdd368ef5c767628e71e0283825
+  checks: Checked the strictly interior nodes, positivity, degree obstruction and both given sine-weighted
+    moments.
+- id: IB/2014/P4/q9H
+  original_question: 9H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 5c2d32241c138e2809ec5e1713f92059552665b74ce0f4ee2a1e124394365a83
+  checks: Checked the even-time subsequence, initial law, zero transitions and both distinct conditioning histories.
+  printed_ambiguity: The printed transition hypotheses alone do not ensure that either conditioning history
+    in part (b) has positive probability. A conclusion from different conditional probabilities must check
+    both histories can occur.
+- id: IB/2014/P4/q10G
+  original_question: 10G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1f373c0faab8506f90ab927041b51928974c5d97b4e4c5794b7ec0e677c36b4a
+  checks: Checked the dual basis, proof restrictions, both annihilator statements and the infinite-dimensional
+    coefficient functionals.
+- id: IB/2014/P4/q11E
+  original_question: 11E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ff5bb4d92556b20f485f00619ee2012acbefe5edd9a7d08f864a26e59eed6d59
+  checks: Checked all four ring classes, the implication direction, permitted fact and the ideal quotient condition.
+- id: IB/2014/P4/q12F
+  original_question: 12F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: c73d19137de4fdee4aae86718b27343abc3d1fd1afe6b3d1a36da796a24d1285
+  checks: Checked differentiability at a point versus on the open set and both branches in the final function.
+- id: IB/2014/P4/q13E
+  original_question: 13E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 89cd5234915f3fe8e6e34742563376ef6b5ce2784de1fff72a284df30c6aec01
+  checks: Checked the inclusion sequence and the specific hypotheses removed in each of the three examples.
+- id: IB/2014/P4/q14B
+  original_question: 14B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 5a5e5043e0588e8792fd5d5fc596a3568f455cf2c101eb9fe881ef61030ec5b1
+  checks: Checked the two positive-parameter conditions, string PDE, all boundary and initial conditions and
+    permitted transform theorem.
+- id: IB/2014/P4/q15F
+  original_question: 15F
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 6b93068d5d145aaeebbe11177bf7f43043ef84f55e600e290254e60baabc4ac8
+  checks: Checked the open parameter interval, positive half of the cone, equation coefficient and geodesic
+    uniqueness question.
+- id: IB/2014/P4/q16C
+  original_question: 16C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: fb7014262240c7352fb4bf5385c34e0f994a24db7fe0656b8e85e6bf052debc4
+  checks: Checked both wire positions, radius ratio, hyperbolic functions and all factors and derivatives in
+    the second variation.
+- id: IB/2014/P4/q17D
+  original_question: 17D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 48477080ccc00f73a221a19c690ffd8eb8a04557f27a6a4c34ccda439df3ec0e
+  checks: Checked general and special intervals, complex versus real alpha, both summation ranges and the evaluation
+    at 5/2.
+- id: IB/2014/P4/q18B
+  original_question: 18B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 37be6b4e2221db24b54c9884ee74d12ba57f8ad946c972fa284b47fed9d2c7b6
+  checks: Checked all three momentum equations, the vorticity sign, linearisation, dispersion equation and
+    four phase values.
+- id: IB/2014/P4/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 8a0b22c8602f570ce86913774c41ca57edc7a035d4b3dec6e7754c9981d1eef0
+  checks: Checked the full-rank condition, both centred regressors, order of responses, slope difference and
+    95% interval.
+- id: IB/2014/P4/q20H
+  original_question: 20H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 5fc7dd631800d61432cbf774cd2cf4f6f539ec5da9e270dfe374ca5fb7bf1469
+  checks: Checked the roundabout numbering, storm capacity of twenty, the zero-flow starting requirement and
+    all ten directed road capacities against the printed diagram.
+  figures:
+  - roundabout-network

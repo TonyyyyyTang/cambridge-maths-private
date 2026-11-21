@@ -1,0 +1,270 @@
+paper_id: IB/2014/P1
+id: IB/2014/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 13
+page_count: 13
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2014-05-30'
+printed_date: Friday, 30 May, 2014
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2014/P1.pdf
+archive: private/raw/tripos/IB/2014/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2014/PaperIB_1.pdf
+sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2014/P1/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: b02cbed214172f1972428d7a64318438efd594c1b49588ea5c9fe46e98a4903d
+  checks: Checked all successive sums in the three- and four-dimensional basis questions.
+- id: IB/2014/P1/q2B
+  original_question: 2B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 7fd9804ee3eada7745877a8bbd45677dcc4f32bb3e53e1c619e2883f74ab9d2d
+  checks: Checked the conformality hypothesis, open quadrants and both strict modulus inequalities.
+- id: IB/2014/P1/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 7db21154b461027b1a6b98fc76f15c455c65b63513856427d1b586ad7e687101
+  checks: Checked all three coordinates, the two open parameter intervals and the ordering of the constants.
+- id: IB/2014/P1/q4C
+  original_question: 4C
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 9a98574d30f3c7828da19436eb15eeca64bd676ce967b1406c3d5d8a3471c70f
+  checks: Checked the shift signs, transpose and reciprocal scaling, and the positive eigenvalue condition.
+  printed_ambiguity: The scaling rule displayed for the Legendre transform requires positive lambda under the
+    usual supremum convention. The paper does not state this restriction.
+- id: IB/2014/P1/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 449d53d8d951877239729aed20fd139d402898b9e4263ea4887b36060544d56c
+  checks: Checked both wall conditions, the negative pressure term and the no-net-flux condition.
+- id: IB/2014/P1/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: ff89835cf8fdad7f503a233d482d2288ccb0da14330d926a287a3d78d3a914a8
+  checks: Checked the ranges of all sums, order condition and all three-step coefficients.
+- id: IB/2014/P1/q7H
+  original_question: 7H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 28134341198919745aa62149bfba607858c1fcb424fa926759c8bb1d4911f111
+  checks: Checked finite second moments, the specified mean and variance and the strict mean-square-error comparison.
+- id: IB/2014/P1/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: c265d52120af4ee489cc741eee74c97303f5b17af840170c07a0a57e9a142cc4
+  checks: Checked the coefficients of all three squared coordinates and the equality constraint.
+- id: IB/2014/P1/q9G
+  original_question: 9G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: f8f4e8aa9af2130323bcabafc04932259e9541879af4f489fd8b5d3fd45e1cf0
+  checks: Checked the definition of acts, both Krylov span bounds, induction and the permitted determinant
+    results.
+- id: IB/2014/P1/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 123227cd93070c614d5bfaba008d791aba4f4d5e13210d4c72569de3a5deb212
+  checks: Checked the distinct-prime hypothesis, group order and order of factors in the normaliser identity.
+- id: IB/2014/P1/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 00435433167e8639626a0841e5f2fea7d1cfa3d6ea1b789baeb08e0215c495c0
+  checks: Checked closed sets in both norms, the half-point constraint, integral norm and the permitted theorem.
+- id: IB/2014/P1/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 1c682393c9067e21647cd78ce3f734a2110f45f38a9f17b40431f81b379a643f
+  checks: Checked the two compact subsets, ambient Hausdorff condition and precise cocountable topology definition.
+- id: IB/2014/P1/q13B
+  original_question: 13B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: adaa684589c5ee1325a1ffc2fc3a502e424cc0405e4f690d40478601e9408e1f
+  checks: Checked both integrals, the positive parameter ordering and the half-angle substitution.
+- id: IB/2014/P1/q14D
+  original_question: 14D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 5813f36203293de88a3e978a1e4f35897bc20163c8f964d1b5d8c81394c7bf50
+  checks: Checked both differential equations, the three requested polynomials and the two radial boundary
+    conditions.
+- id: IB/2014/P1/q15A
+  original_question: 15A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: c4682061b559b9533489d72b039f1f428780bbea23c2cfa69a0014932171479c
+  checks: Checked all well boundaries, the probability threshold, the finite sum and the unbracketed infinite
+    sum as printed.
+- id: IB/2014/P1/q16A
+  original_question: 16A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 04d1f0f42926c940cc7852cc63a596ea3052671401790f8619e955a1238d1da0
+  checks: Checked both charge positions and signs, the earthed half-space, and the release and gravity conditions.
+- id: IB/2014/P1/q17B
+  original_question: 17B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: eb234654d15ea16c910793aa72de79e07e3ec091ff38796f133cf295870d7ff1
+  checks: Checked cross-product order, streamfunction convention, inner and outer speeds, logarithmic factor
+    and the three curl components.
+  printed_ambiguity: The specified speed at the inner edge gives its magnitude. The printed sign of vorticity
+    selects the positive azimuthal velocity orientation.
+- id: IB/2014/P1/q18C
+  original_question: 18C
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: c24d7068bc361c28cf7d72386633ac51f7ad6101af3e139a3a044680803b695b
+  checks: Checked all twelve matrix entries and all four right-hand side entries, including the location of
+    lambda.
+- id: IB/2014/P1/q19H
+  original_question: 19H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: bb3c94cfacc8a07af8ab41cf3b04eab988b1dc22cf1eb805e093ab6d9ef50675
+  checks: Checked the strict critical region, all Poisson parameters, group sizes and four tabulated distribution
+    values.
+- id: IB/2014/P1/q20H
+  original_question: 20H
+  page: 13
+  pages:
+  - 13
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 5ed1ca3a5f659a6f476b60b074062e081b09bb67e6b5719e74aaebd08e7cb4f0
+  checks: Checked both transition rules, the return-time convention, and the conditioning in the final limiting
+    probability.

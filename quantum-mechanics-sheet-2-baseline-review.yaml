@@ -1,0 +1,86 @@
+archive: raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+printed_term: Michaelmas Term 2025
+lecturer: Prof. Maria Ubiali
+contact: M.Ubiali@damtp.cam.ac.uk
+original_page_rendering: pdftoppm -scale-to 1650 -png; each page 1166 by 1650 pixels.
+original_page_renders:
+  1: b931b1b6a045ef537adb8c7f3513289bb59e59a58c453962e14439c3bff3a218
+  2: d3faedab2ff37e218a761e61870fb6ec5583a7b340e6b500e787480e669259e9
+questions:
+  '1':
+    unit: IB/quantum-mechanics/sheet-2/q01
+    question_sha256: 50cf4f84325bc148b83f2d7c8f3414b2a218f9fec3933487ccca8691aea5c738
+    pages:
+    - 1
+    image_review: Checked the two included box endpoints, n starting at 1, the normalised
+      eigenstates and both expectation and squared uncertainty, including 6 divided
+      by pi squared n squared.
+  '2':
+    unit: IB/quantum-mechanics/sheet-2/q02
+    question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+    pages:
+    - 1
+    image_review: Checked the minus sign of the delta potential, positive constants,
+      one-sided derivative limits, coefficient 2mU over hbar squared, and the unique
+      normalisable negative-energy state.
+  '3':
+    unit: IB/quantum-mechanics/sheet-2/q03
+    question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+    pages:
+    - 1
+    image_review: Checked the strict well interval, odd parity, strict inequality
+      and exact threshold (pi hbar) squared over 8m.
+  '4':
+    unit: IB/quantum-mechanics/sheet-2/q04
+    question_sha256: 78dd173a66a5e7404739e76f5b2e9cb4a8605672c69b358956b5303d882f9405
+    pages:
+    - 1
+    image_review: Checked both sketches, the minus sign and squared hyperbolic secant,
+      scaled energy, adjoint signs, conjugation, integral limits and the if-and-only-if
+      condition at energy minus one.
+  '5':
+    unit: IB/quantum-mechanics/sheet-2/q05
+    question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+    pages:
+    - 1
+    image_review: Checked all four expectation/uncertainty terms, the capitalisation
+      of Uncertainty Relation, and the one-half factor in the lower bound.
+  '6':
+    unit: IB/quantum-mechanics/sheet-2/q06
+    question_sha256: 657f376eaf1fe649051583f069e8622ddc14d77ea221ca7260d97ef4737b076f
+    pages:
+    - 2
+    image_review: Checked polynomial parity, the italic restriction to orthogonality,
+      all phases and signs in the two-time comparison, and the nonnegative integers
+      p and q.
+  '7':
+    unit: IB/quantum-mechanics/sheet-2/q07
+    question_sha256: 413fa23c3653ac7cdd4140be36744c21e07015103b5dace8ce6c46f392753444
+    pages:
+    - 2
+    image_review: Checked every labelled part, the reference to printed Example 1,
+      reality of C, strictly positive measurement time, odd and even probabilities
+      and both final explanatory questions.
+  '8':
+    unit: IB/quantum-mechanics/sheet-2/q08
+    question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+    pages:
+    - 2
+    image_review: Checked the real-space current question, the two scattering asymptotes
+      (one incoming and two outgoing waves), all signs and the probability sum.
+  '9':
+    unit: IB/quantum-mechanics/sheet-2/q09
+    question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+    pages:
+    - 2
+    image_review: Checked the width and height, special relation U=2E, the kinetic
+      energy expression and the italic instruction to work through the algebra.
+  '10':
+    unit: IB/quantum-mechanics/sheet-2/q10
+    question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+    pages:
+    - 2
+    image_review: Checked both amplitude subscripts, the reminder from printed Example
+      2, the signs and sides of the derivative jump, real positive kappa, complex
+      continuation and rescaling before taking the bound-state limit.

@@ -1,0 +1,282 @@
+paper_id: IB/2015/P4
+id: IB/2015/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2015-06-05'
+printed_date: Friday, 5 June, 2015
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2015/P4-full.pdf
+archive: private/raw/tripos/IB/2015/P4-full.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2015/PaperIB_4.pdf
+sha256: 1eff6310313dd6af25b967cc3859f7e6311bfc0287a57848e1bc09a224275837
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2015/P4/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 360f8d407e5e0ca08d9c33857ea04e4b3086a34cc00a0170c6a512834d1f806d
+  checks: Checked the dual basis notation and all six entries in the two proposed bases.
+- id: IB/2015/P4/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 701a9844a4368818dd44e43a91ce6e392436d650bfc142cfe90d664b2debc50d
+  checks: Checked the subset symbols, the proper-ideal condition and the quotient in each sentence.
+- id: IB/2015/P4/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 8c0c194cd2aa7325706f68747678843eb489a34be1e40c07518f7e06bee26282
+  checks: Checked both end-points, all four candidate norms, the supremum placement and the absolute value
+    outside the integral.
+- id: IB/2015/P4/q4G
+  original_question: 4G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 5f1bfa44524095786af0ea678d4b7d855c50fb3570680ad81a6ca3aacbe32687
+  checks: Checked the domain assumptions and the quantifier over all closed curves.
+- id: IB/2015/P4/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 75f269ffb193d7b7ce76e32c41c63e4fbafb958722686f4487e83b4a4010ff36
+  checks: Checked the Fourier convention, support endpoints, and the large-frequency limit.
+- id: IB/2015/P4/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: bd2b82c1b4fbfbe7e40f2a8e06d482b1eaba1665133fc1d2723737465078f40e
+  checks: Checked the radial equation, all coefficients of the two radial functions, the starred references
+    and the emission question.
+- id: IB/2015/P4/q7A
+  original_question: 7A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: ada083183f7f31f67370ca8d42f18c5fd942b4a385f11afeb2d32af72804ea14
+  checks: Checked vector order in the cross product, the cube in the denominator and the gauge assumption.
+- id: IB/2015/P4/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: d53d03b4d215c391d21c7dd4dbf57b0152908d0b9a9d6e256fd0cc274a40dc61
+  checks: Checked the polynomial space, Newton sum and product ranges and the exemption for the explicit divided
+    difference.
+  printed_ambiguity: Interpolants in the printed polynomial space can have degree strictly less than n, although
+    the question says degree n.
+- id: IB/2015/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 0f960384e4920624baec112f234e3f04257699c76a1f574e856df86b31bdacd8
+  checks: Checked the Bernoulli probabilities, time indexing and three possible coefficients.
+- id: IB/2015/P4/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: cdbe9ad191b40f0989512df3eddccc4824ceb93c09354f0db10b602734cba6b6
+  checks: Checked the twenty coordinates, both occurrences of the kernel vector and the distinct and/or conditions.
+- id: IB/2015/P4/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 6b626088bf67f089a6fcc38c605c7cddaee26f55870706063ad6b55fa6d6f6d9
+  checks: Checked the fields with coefficients modulo 7 and 2, the cubics and the multiplicative group convention.
+- id: IB/2015/P4/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 59398afd1c0f9f50062fcae3736d8592e6e2279cae8c79c219ac7a9bbc2e8b4e
+  checks: Checked the coordinatewise versus norm convergence questions, the restricted norm and the two multiplier
+    hypotheses.
+- id: IB/2015/P4/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 5c1609f52031bac71105e14a95c2db97d0075e100acce2e574b849730ff3c274
+  checks: Checked the order of compactness definitions, surjectivity conclusion and iterated-map hint.
+- id: IB/2015/P4/q14B
+  original_question: 14B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 2fe8b26ba993bad57b0f31a7a923e4f4224e8074de50b6bf5a68b9f914f46e30
+  checks: Checked both support endpoints, the self-convolution and the shifted positive-part notation.
+- id: IB/2015/P4/q15F
+  original_question: 15F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 34d2131b4692159de828fff839bfa4447307271a55e4373c9f3e7562ed867af7
+  checks: Checked the order of all coordinates, both geodesic equations, and the cosine in Clairault’s relation.
+- id: IB/2015/P4/q16A
+  original_question: 16A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: c1ff8f1f12663a47cd64208bb73caf54745b69ac27447e026caf100b69a6b391
+  checks: Checked both endpoint conditions, powers of x, derivative orders and the factor four.
+- id: IB/2015/P4/q17C
+  original_question: 17C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 59e92e1c338b9fd5822b6f751019e2ff7de377d17a85d0d3a4cb44aee51541c7
+  checks: Checked both PDEs, the Gaussian initial value, axis assignments and both time inequalities against
+    the full paper, then checked the separately issued replacement sentence on the Faculty correction.
+  printed_ambiguity: The Faculty issued a separate correction to part (ii). Non-monotonicity of the derivative
+    alone does not imply an extremum of the characteristic map. Its sign change determines the onset. See the
+    recorded variant and its original source.
+- id: IB/2015/P4/q18B
+  original_question: 18B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 780527f3b066a90f08c6248cbe8235a417fc34604d563c6627afd22b9f77931d
+  checks: Checked the jet area, radius and angle inequalities, the sheet-width formula and index contractions
+    in the momentum equation.
+  printed_ambiguity: The printed width uses alpha as the angle between sheet and axis, while the wording calls
+    it the vertex angle. State the angle convention used in the solution.
+- id: IB/2015/P4/q19H
+  original_question: 19H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 1d73f6da6a83db971f823428c397958c8461e4613ec0377a79589374b71e2712
+  checks: Checked both likelihood equations, the three design values, the two confidence intervals and the
+    block-independence assumption.
+- id: IB/2015/P4/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 993ba204d17e80f1aa28321b8585aedf219e62b80d50e870e6e014aa48406677
+  checks: Checked all daily waste totals, nine transport costs, three reported assignments and the minimum-cost
+    requests.
+corrections:
+- question: q17C
+  url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2015/paper4_17_corrected_1.pdf
+  archive: private/raw/tripos/IB/2015/P4.pdf
+  sha256: 879ea73b0da449de0df22dfe269f126375f5c2cdc36f3e639e71a11ac2535df8
+  page_count: 1
+  page: 1
+  replacement_sentence: By showing that $\partial\tilde x/\partial\tilde x_0$ becomes a non-monotonic function
+    of $\tilde x_0$ (at fixed $t$) at times $t>\sqrt{e/2}$, or otherwise, show that $\tilde x(\tilde x_0)$
+    has a local minimum or maximum.

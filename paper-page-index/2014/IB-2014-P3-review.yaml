@@ -1,0 +1,281 @@
+paper_id: IB/2014/P3
+id: IB/2014/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2014-06-05'
+printed_date: Thursday, 5 June, 2014
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2014/P3.pdf
+archive: private/raw/tripos/IB/2014/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2014/PaperIB_3.pdf
+sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2014/P3/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 52f925108ebb019bf09d3d2053a916fbd3c50fa414ee3be856f18be27f21e65d
+  checks: Checked the exact named theorem and both requested actions.
+- id: IB/2014/P3/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: c693937f9c936f4d40b255606951b0b7646d9e7e94a2dd4ce73aa0c509877cfd
+  checks: Checked the segment parametrisation, operator-norm bound and open-ball assumption, including the
+    stray printed comma after b.
+- id: IB/2014/P3/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 9165780905fb9709d1054dc1a247f631751bd91d510e83ee677ae1ea5a400a92
+  checks: Checked positive scaling, the minimum with one and the square of the metric.
+- id: IB/2014/P3/q4B
+  original_question: 4B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 27db9962bcc995213979a2b25e50ba32bffeac67bd7398602d216d30ba9e6653
+  checks: Checked the four cubic monomials, real coefficients and real-part requirement.
+- id: IB/2014/P3/q5F
+  original_question: 5F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b2921f89ae900c41dd0a1a4be6d85be3128dbc38d477c74a94662396c8e3f325
+  checks: Checked the affine isometry, determinant hypotheses and distinction between dimensions two and three.
+- id: IB/2014/P3/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 34930f11974d403107e9946630ff049743e16f434b138445abadb5f658b7b8bd
+  checks: Checked the objective and the three coefficients in the ellipsoid constraint.
+- id: IB/2014/P3/q7D
+  original_question: 7D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: b6cdbcb4712e3eb34639b314d9d2c2a179e1b63882e74f75076c53a23f8e5025
+  checks: Checked the signs of both transport coefficients, the cosine of y squared and the nonnegative initial
+    half-axis.
+- id: IB/2014/P3/q8A
+  original_question: 8A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 848813a42b29007107340d35721bf53a7682b632081c059b5cbe2030c0f2ea6b
+  checks: Checked the square-root prefactor, Gaussian exponent, initial condition and given integral.
+- id: IB/2014/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 1c9e1e5cc396323b1e06b876f1a1cf544e846f4e5bc11b34610ce8a6e652be85
+  checks: Checked the communication and recurrence criteria and the sixteen transition probabilities row by
+    row.
+- id: IB/2014/P3/q10G
+  original_question: 10G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 4dc15d4559126f8daa6e2ffd77f6d3505753ffe27d2e9f7204d824c62229c4b6
+  checks: Checked nonsingularity, both definiteness requirements, the diagonalisation restriction and the four
+    terms of the form.
+- id: IB/2014/P3/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 0145ea45ff703ac6ce1639bee0124488050c383234a74bfa5ee3c9feb78bc6c2
+  checks: Checked the finite generating set, unique expression, both map symbols in the extension property
+    and the last two assertions.
+- id: IB/2014/P3/q12F
+  original_question: 12F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: f00410aa8bbdbeb13a053f3806356440deb7a0304d98110e2347f084e900844f
+  checks: Checked pointwise versus uniform convergence, the shift by 1/n and the closed subinterval restriction.
+- id: IB/2014/P3/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: b78b65a2b38fe5b72172545d8c070c0bd51b77d812ebcfd2849ccddee7eab1e4
+  checks: Checked the star-domain and winding-number hypotheses, both contour integrands, and smallest modulus
+    of polynomial roots.
+- id: IB/2014/P3/q14F
+  original_question: 14F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: cf9424916033246ece33220ca1bc2b32a7513b248aac406b7e18fd97900f120e
+  checks: Checked the incidence inequality, face and vertex counts, and the minimum of four small faces.
+- id: IB/2014/P3/q15D
+  original_question: 15D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 917a5e8046cb54688f302a9a4f327e320447084fbcf53f96eea8b00bbbff00b6
+  checks: Checked the two Dirichlet conditions, jump-condition requests, the 5/4 coefficient and exponential
+    forcing.
+- id: IB/2014/P3/q16A
+  original_question: 16A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 001adc9856c9f8be408b1708aae8f7b637a7764d28ac912ce6e0ee1ae7c42971
+  checks: Checked oscillator coefficients, commutator order in Ehrenfest’s theorem, angular momentum signs
+    and both wavefunctions.
+- id: IB/2014/P3/q17A
+  original_question: 17A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: f3d44b85bac308294c0fa0fd4f4ad3ff3bbc7cc0386e50c2b5244cd117a4ba87
+  checks: Checked charges and positions, the double limit, potential exponents, initial velocity and the square
+    root defining kappa.
+- id: IB/2014/P3/q18B
+  original_question: 18B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 40cd9949b1543b7f59b5023461f8a3ced0e30b63122d4ca38a038bca1f51c80e
+  checks: Checked every radius and pressure subscript, the time and radius derivatives, state-law exponent
+    and final radius.
+- id: IB/2014/P3/q19C
+  original_question: 19C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 3cd14b040e7fa46f8da92df04caab85d0ecc3b962873c79a78af8327a0959b3b
+  checks: Checked both stage definitions and their coefficients, the update, and the two stability questions.
+- id: IB/2014/P3/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 27e8df0e9a1e8c881869bf46ec41cd729c462168fbd8cc6187a12f5cd6d5d8f2
+  checks: Checked the binomial law, two opposing priors, comparison of posterior means, and beta/gamma definitions.
+  printed_ambiguity: The parameter space is the open interval (0,1). For boundary data with all observations
+    zero or all equal to k, the likelihood supremum is attained only in its closure.
+- id: IB/2014/P3/q21H
+  original_question: 21H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 94228d3bef6a184525d85a0b7852318de316c81acd316f2124705051b043dcf4
+  checks: Checked the three objective coefficients, opposing constraint inequalities, nonnegativity and the
+    dual request.
