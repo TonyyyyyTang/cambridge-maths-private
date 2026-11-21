@@ -1,0 +1,359 @@
+paper_id: IB/2008/P2
+id: IB/2008/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2008-06-04'
+printed_date: Wednesday 4 June 2008
+time: 1.30 to 4.30
+source: private/raw/tripos/IB/2008/P2.pdf
+archive: private/raw/tripos/IB/2008/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2008/PaperIB_2.pdf
+sha256: 7a01479c9f88e21b7bf05e7a4005213a099098a448227a429d142530b9ecad8c
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2008/P2/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 51823ad48f94b6f6ccee082042a24537ba8d30a94576bfd12d3c06560982c954
+  checks: Both composition orders and the equivalence of surjectivity and injectivity were checked.
+  source_page_render_sha256: c1c038a03200ee026e4bb0ad02bb34e1096792be0ab28e24db4466a49cf9c6ee
+- id: IB/2008/P2/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ab44548ebfaf1c722cf03ceeb2c2eea5263b960cd486332617378ed0f96267b7
+  checks: The opening prints “What does it means”. The polynomials in the second paragraph are over Z.
+  source_page_render_sha256: c1c038a03200ee026e4bb0ad02bb34e1096792be0ab28e24db4466a49cf9c6ee
+- id: IB/2008/P2/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 4adca1eca29ea86141d6bec7e4141b4c876dcae1b201e9a7707176f4c8511dfc
+  checks: The point sequence and function sequence share the index n in the final limit.
+  source_page_render_sha256: c1c038a03200ee026e4bb0ad02bb34e1096792be0ab28e24db4466a49cf9c6ee
+- id: IB/2008/P2/q4F
+  original_question: 4F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 5611693354eef684a21baced5306757a9365fcbec65d52c76b8e230a1f7ced46
+  checks: The only identified distinct points of the interval are its endpoints.
+  source_page_render_sha256: c1c038a03200ee026e4bb0ad02bb34e1096792be0ab28e24db4466a49cf9c6ee
+- id: IB/2008/P2/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: 472460c15dec34a1c408b4bc74668d126dcffd04717365049adcd838dab96914
+  checks: The constraint is zero and the area includes both cylinder ends.
+  source_page_render_sha256: 29699fe16877e30090aa1ab340d08951bdf4b022c55d420a379ff16c253ce22e
+- id: IB/2008/P2/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 03f06120689d1bfa0e8fa6aa130a5d88d838cc1ca9045f84944ecadff0d6e583
+  checks: The dipole potential is inverse-square and the vector field is inverse-cube.
+  source_page_render_sha256: 29699fe16877e30090aa1ab340d08951bdf4b022c55d420a379ff16c253ce22e
+- id: IB/2008/P2/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: 72d78ff160c1368570c34604b940cacd3580bc7dbf3940cc7f547b7d6f23fed8
+  checks: The final state includes a photon, with strict inequality M greater than m.
+  printed_ambiguity: With positive outgoing photon energy the displayed threshold is an infimum; equality would
+    require a zero-energy final photon.
+  source_page_render_sha256: 29699fe16877e30090aa1ab340d08951bdf4b022c55d420a379ff16c253ce22e
+- id: IB/2008/P2/q8B
+  original_question: 8B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: fa0493bbb85328d7d522c5b27ffb4845210f55db15b2d705c8a9ee3f43780a3b
+  checks: The scalar streamfunction Laplacian carries a minus sign.
+  source_page_render_sha256: 29699fe16877e30090aa1ab340d08951bdf4b022c55d420a379ff16c253ce22e
+- id: IB/2008/P2/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 190cac99f3083f392bea20331e837d56c67b78c1cccc4d2f62ddd174aa3c952e
+  checks: All fifteen matrix entries, five shop demands and three supplies of 15 checked.
+  source_page_render_sha256: 7b4e3f9144dfca6c778512a05019564c16bcf84756a0db8e3d65f3dceaf3f55f
+- id: IB/2008/P2/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 62689ba1b1719f1d43cc7bc652166cab32465b96c39bbf3159c72b00b44b2084
+  checks: Characteristic polynomial uses M minus lambda I and both triple products are retained.
+  source_page_render_sha256: 3f128ebad4f0b7a15a5299ccdf88ec702389fab0657f334657eae7c186027113
+- id: IB/2008/P2/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 61484ec9819ce5f381ef1edcdbc3e419fb2c0d95ff16f9f9496eeb085579531b
+  checks: The coefficient restriction has j strictly positive and both index axes.
+  source_page_render_sha256: 3f128ebad4f0b7a15a5299ccdf88ec702389fab0657f334657eae7c186027113
+- id: IB/2008/P2/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: bc3426e9e940266add3812075c284e5d951ce757b54eea4a0af59059f9888df5
+  checks: The last paragraph asks at most seven pairs and at least three examples.
+  source_page_render_sha256: 3f128ebad4f0b7a15a5299ccdf88ec702389fab0657f334657eae7c186027113
+- id: IB/2008/P2/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: e3fc24e0b8dfa6656c24915433f3e961fe66ba8f5b463ed8ec52688d3615d483
+  checks: Summation starts at zero; E excludes the integers and the bounded set uses a strict inequality.
+  source_page_render_sha256: b2376f08876cf141baa75eaf6d0cec0a059f832d205a1988aec380d5a3fa4173
+- id: IB/2008/P2/q14C
+  original_question: 14C
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 8f6e93bf19d301e132bb93772a54fb561ecb88c023af129f42f4ba50872c3715
+  checks: The three concentric ranges and the requested coefficient indices were checked.
+  source_page_render_sha256: b2376f08876cf141baa75eaf6d0cec0a059f832d205a1988aec380d5a3fa4173
+- id: IB/2008/P2/q15D
+  original_question: 15D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4755fb69015b3cb16088528ac83959bd0d2187fc5fb9c02f29946adb286c1af6
+  checks: Legendre recurrence, polar-coordinate substitution, both boundary data and normalisation checked.
+  source_page_render_sha256: 0313927e4c22d6fb9e3ce01d0fa9fb92961364a5d60934b889ce013a00ca1f58
+- id: IB/2008/P2/q16A
+  original_question: 16A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 48be8a95c11b3ff4c3d8c642a51b0e5bda7fef81a84fe1f6ef02de4c3ff11f00
+  checks: The state norm has a positive i lambda B term. The final bound is half hbar omega.
+  source_page_render_sha256: fbfecbc3eda823ea1a9eaf1799d5bf7df53ab82f266408906c5c98a3f196167b
+- id: IB/2008/P2/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: aee62561faa6fa2b5c608387c3aae3bed80a204b4790f9fd30ab5acd0f9d6e38
+  checks: All four requests including the diagram in (i), force direction and negative exponent checked.
+  source_page_render_sha256: 601cff1cf714323bb5b16f25a44bc6b38fa1fc93bc65ba0b23a7c0a6f530df34
+- id: IB/2008/P2/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 251310920bd65dd3864c1fafbc3024c1df275d690ecbfec095fd99c4966162ee
+  checks: Matrix shape m by n with n less than m, plus all entries of A and b checked.
+  source_page_render_sha256: aed1612374446fdd9d6b0275e6c4ec66db2f15ab15813496d20978fb9a223e9f
+- id: IB/2008/P2/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 15ce49d6b3a8e83ae0a8f6a2cb28722b3662c48323275b53f9ea42568716af3f
+  checks: The support includes zero, the parameters are strictly positive, and both estimator denominators
+    were checked.
+  printed_ambiguity: The sample can have a zero coordinate mean, placing the proposed estimator on the excluded
+    boundary of the strictly positive parameter domain.
+  source_page_render_sha256: aed1612374446fdd9d6b0275e6c4ec66db2f15ab15813496d20978fb9a223e9f
+- id: IB/2008/P2/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 6c3eab68dd1ab70295feb46e27e849683e8b16d8f505c6c2db962775b2fafbc7
+  checks: The recurrence and positive-recurrence conditions use different numerator indices.
+  source_page_render_sha256: ac0cfcf4d176ef7ec211ea78f80c13086f94a426befcd7e22e076389c70494bf
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: a84997b192862b9652690d7e64752ec141e12c8f9d9bae36847fdc5dfe5f5cb2
+separate_corrections: []
+correction_check: Manifest checked for 2008 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 61789fabca4b028bfeb328fbed3362ead14b3fbc3e1918f0c8f98db09779fe55
+- page: 2
+  contents: questions
+  questions:
+  - 1E
+  - 2G
+  - 3F
+  - 4F
+  source_page_render_sha256: c1c038a03200ee026e4bb0ad02bb34e1096792be0ab28e24db4466a49cf9c6ee
+- page: 3
+  contents: questions
+  questions:
+  - 5D
+  - 6B
+  - 7C
+  - 8B
+  source_page_render_sha256: 29699fe16877e30090aa1ab340d08951bdf4b022c55d420a379ff16c253ce22e
+- page: 4
+  contents: questions
+  questions:
+  - 9H
+  source_page_render_sha256: 7b4e3f9144dfca6c778512a05019564c16bcf84756a0db8e3d65f3dceaf3f55f
+- page: 5
+  contents: questions
+  questions:
+  - 10E
+  - 11G
+  - 12G
+  source_page_render_sha256: 3f128ebad4f0b7a15a5299ccdf88ec702389fab0657f334657eae7c186027113
+- page: 6
+  contents: questions
+  questions:
+  - 13F
+  - 14C
+  source_page_render_sha256: b2376f08876cf141baa75eaf6d0cec0a059f832d205a1988aec380d5a3fa4173
+- page: 7
+  contents: questions
+  questions:
+  - 15D
+  source_page_render_sha256: 0313927e4c22d6fb9e3ce01d0fa9fb92961364a5d60934b889ce013a00ca1f58
+- page: 8
+  contents: questions
+  questions:
+  - 16A
+  source_page_render_sha256: fbfecbc3eda823ea1a9eaf1799d5bf7df53ab82f266408906c5c98a3f196167b
+- page: 9
+  contents: questions
+  questions:
+  - 17B
+  source_page_render_sha256: 601cff1cf714323bb5b16f25a44bc6b38fa1fc93bc65ba0b23a7c0a6f530df34
+- page: 10
+  contents: questions
+  questions:
+  - 18D
+  - 19H
+  source_page_render_sha256: aed1612374446fdd9d6b0275e6c4ec66db2f15ab15813496d20978fb9a223e9f
+- page: 11
+  contents: questions
+  questions:
+  - 20H
+  source_page_render_sha256: ac0cfcf4d176ef7ec211ea78f80c13086f94a426befcd7e22e076389c70494bf

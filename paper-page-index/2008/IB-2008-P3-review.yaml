@@ -1,0 +1,368 @@
+paper_id: IB/2008/P3
+id: IB/2008/P3
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2008-06-05'
+printed_date: Thursday 5 June 2008
+time: 9.00 to 12.00
+source: private/raw/tripos/IB/2008/P3.pdf
+archive: private/raw/tripos/IB/2008/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2008/PaperIB_3.pdf
+sha256: bdf21c0326e71d56f3f3bb3bd6bc1288fd3f3cc2beacfacfe7938698acab21da
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2008/P3/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: fb4054333f5a667aaea796101308794848133096e534bef5ba19546cc5f3218e
+  checks: Checked all four integer relations, signs and the requested order.
+  source_page_render_sha256: 260df4760a779c9b9314158f8469aac16ea20a3a34026e82e38bc418c7cda2b1
+- id: IB/2008/P3/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 304ba859e4a343dc9f55644d8e02c0e14cea879e95ed024c50e2ad117f251f15
+  checks: Checked every coordinate, the unit normal signs and the fourth power in the curvature.
+  source_page_render_sha256: 260df4760a779c9b9314158f8469aac16ea20a3a34026e82e38bc418c7cda2b1
+- id: IB/2008/P3/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: b6b03f000168b839cdf2979beb095aab15b4daf3ee2216d9f130ebc58d90836b
+  checks: Compared the directional parametrization and both branches, especially the numerator and the origin.
+  source_page_render_sha256: 260df4760a779c9b9314158f8469aac16ea20a3a34026e82e38bc418c7cda2b1
+- id: IB/2008/P3/q4F
+  original_question: 4F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 462fa29facafa727468c6614c7e1e087d4732c717387a4c75151191709dba4e8
+  checks: Verified both subsets of the closed square, including which coordinate must be rational in (b).
+  source_page_render_sha256: 89036c60e7e4577f2575e695c298a2132ae08fa454eaadbccaaafa98aa087079
+- id: IB/2008/P3/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 84636c72260e8cf96b1065320d97c86ae9d0006e9888c246638f7ad1539177c1
+  checks: Verified the real non-zero parameter, both transforms and the Gaussian integral hint.
+  source_page_render_sha256: 89036c60e7e4577f2575e695c298a2132ae08fa454eaadbccaaafa98aa087079
+- id: IB/2008/P3/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: e9144de4ac4d19807c27b8ce0be075553aed5b515c82d1e35458456b6a3d2a18
+  checks: Verified the operator, both zero limits, delta-function sign and absolute values in the kernel.
+  printed_ambiguity: The displayed kernel requires nonzero real k, and the convolution requires appropriate
+    decay or integrability of S. Neither condition is explicit in the question.
+  source_page_render_sha256: 89036c60e7e4577f2575e695c298a2132ae08fa454eaadbccaaafa98aa087079
+- id: IB/2008/P3/q7A
+  original_question: 7A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 573c6d304e3bcdb6e0eef73d9aa7fb6998b9e3725a7e0726f811dda1ebac1c22
+  checks: Checked the hat on the vector operator, commutator indices, and both signs of the ladder operators.
+  printed_ambiguity: The ladder images can vanish, for instance for a rotationally invariant state. Only nonzero
+    images are eigenvectors.
+  source_page_render_sha256: 99e07a280e4966c46ac551da1ff9cf453e0c3c3b5854c234a15c12128f8d9f5b
+- id: IB/2008/P3/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: eab47124bbebed264a85d21d7f098b06bd3fc7c0c473e36d04a74559a9f8d2d2
+  checks: Verified both 95% statements, the fixed width and upper-tail normal probability.
+  source_page_render_sha256: 99e07a280e4966c46ac551da1ff9cf453e0c3c3b5854c234a15c12128f8d9f5b
+- id: IB/2008/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 7c9dac4bb4213b655f62ff7297b40a6d8b9aa74ac61fd7e8839b2191308f25a3
+  checks: Verified the recurrence definition request and the symmetric simple random walk on the integers.
+  source_page_render_sha256: 99e07a280e4966c46ac551da1ff9cf453e0c3c3b5854c234a15c12128f8d9f5b
+- id: IB/2008/P3/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 645dbe129900a28e587b230b7e62b054337225dac39a2ac9cfac58e6bdc1d7ed
+  checks: Verified both fields, the three allowed coefficients, mixed terms of the real form, and the exponential
+    bound.
+  source_page_render_sha256: c1448f57b17eae1c217fb8c4ff101a406de8a93478310f02755b6cb8ad0aca87
+- id: IB/2008/P3/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 2e5c1597fffc9fed9d759024087d9804697045d18625f5b4c366b205667fa13e
+  checks: Checked both quadratic integer rings, the radical signs and the specified Euclidean norm.
+  source_page_render_sha256: c1448f57b17eae1c217fb8c4ff101a406de8a93478310f02755b6cb8ad0aca87
+- id: IB/2008/P3/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 938a9a4feb2006f9122b15a646f41f1d2bc69921cde8ac875c4623ac52ac0479
+  checks: Checked all four subparts, conjugated denominator, group parameters, and both inverse hyperbolic
+    tan arguments.
+  source_page_render_sha256: 6d64dd2742b5118ffc9dd14400e3787d00da65496d8a98d1f6d273619f5ef9a6
+- id: IB/2008/P3/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 78867ed5efd41a8824460a5dc5e21a0750c66c9816e4e8e37dc96b6718d240eb
+  checks: Checked the local partial derivative hypotheses, both determinant derivatives, matrix norm and bilinear
+    domain.
+  source_page_render_sha256: 6d64dd2742b5118ffc9dd14400e3787d00da65496d8a98d1f6d273619f5ef9a6
+- id: IB/2008/P3/q14E
+  original_question: 14E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 83527faee6328290981a3d631c58b01a6b27898994db01a4951a595a637d8cb0
+  checks: Checked all exponents, annulus bounds, convergence hypotheses and the starting index of the zero
+    sequences.
+  printed_ambiguity: Compact convergence guarantees the requested zeros for all sufficiently large n. A finite
+    initial nonzero constant polynomial may have no zero, although the printed sequence starts at n = 1.
+  source_page_render_sha256: ae045ccf124a28be4f27695616e570ec3a75fd2c0a2af27717f92a4087180810
+- id: IB/2008/P3/q15D
+  original_question: 15D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: c23f90678c7fee19324b64561243ad9f34b165ae42827ec4f0402a3a22b3fe73
+  checks: Verified eigenvalue ordering as printed, weighted orthogonality, both integrals in the quotient and
+    the final energy inequality.
+  source_page_render_sha256: 7901a5f3ff67030edb98632fae59603880090829900853ac2ccf2afb6aabca16
+- id: IB/2008/P3/q16A
+  original_question: 16A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 0c505239afe3d4e8c353d734f515f40450ead2eb08ca2b340a09e91b755d2875
+  checks: Checked all three regions, inclusive endpoints, barrier inequalities and both configurations of energy
+    above and below the right-hand potential.
+  source_page_render_sha256: 6223db18651babd92472e2ac05ef882437dd587d20b11ce28daf578cbd66656d
+- id: IB/2008/P3/q17B
+  original_question: 17B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 6d5f64279d28a522e88d96795bb2b696c265f18cd56a797210dedc97fedb321c
+  checks: Checked the four Maxwell equations, polarization directions, all cross products and the printed surface
+    and volume integrals in (1).
+  source_page_render_sha256: 37d440540fbc26d61a30a67701f1e995a7627ece007f6ed286f9a38a7739f322
+- id: IB/2008/P3/q18B
+  original_question: 18B
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: a8b4d91558284bfde19e442a31af2300ded7258d727fb1a7832d9fee73359461
+  checks: Verified rotation conventions, angular momentum per unit length, the duplicate “the” in (iii), and
+    the sign in the angular acceleration.
+  source_page_render_sha256: c17f3bd35bea974b09d30dabbcdd7b73ff1d428cc30a9842220e77ad3f51e84c
+- id: IB/2008/P3/q19D
+  original_question: 19D
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 65e586d5d6c0ffbe8464ec1403305bec6f9e817bfff648c6cff001f5f2243bb1
+  checks: Verified derivative orders, factorial, the integral remainder and the signs and nodes of the difference
+    functional.
+  source_page_render_sha256: c17f3bd35bea974b09d30dabbcdd7b73ff1d428cc30a9842220e77ad3f51e84c
+- id: IB/2008/P3/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 1fad6a7909a90cdaadd87efbc648da849bb8fad9d72dd7261b84c96796badedf
+  checks: Verified the objective signs and coefficients, the absolute bound on the third variable and opposite
+    inequality directions.
+  source_page_render_sha256: c17f3bd35bea974b09d30dabbcdd7b73ff1d428cc30a9842220e77ad3f51e84c
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 3b09afe2284dc3bb9483a7ba1376faf5c4977266b3d3e82d158b4b753598635c
+separate_corrections: []
+correction_check: Manifest checked for 2008 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 79cb8277a76091a88487680d5ccb034e64e79c822ef377b513e3c9e78045d885
+- page: 2
+  contents: questions
+  questions:
+  - 1G
+  - 2G
+  - 3F
+  source_page_render_sha256: 260df4760a779c9b9314158f8469aac16ea20a3a34026e82e38bc418c7cda2b1
+- page: 3
+  contents: questions
+  questions:
+  - 4F
+  - 5C
+  - 6D
+  source_page_render_sha256: 89036c60e7e4577f2575e695c298a2132ae08fa454eaadbccaaafa98aa087079
+- page: 4
+  contents: questions
+  questions:
+  - 7A
+  - 8H
+  - 9H
+  source_page_render_sha256: 99e07a280e4966c46ac551da1ff9cf453e0c3c3b5854c234a15c12128f8d9f5b
+- page: 5
+  contents: questions
+  questions:
+  - 10E
+  - 11G
+  source_page_render_sha256: c1448f57b17eae1c217fb8c4ff101a406de8a93478310f02755b6cb8ad0aca87
+- page: 6
+  contents: questions
+  questions:
+  - 12G
+  - 13F
+  source_page_render_sha256: 6d64dd2742b5118ffc9dd14400e3787d00da65496d8a98d1f6d273619f5ef9a6
+- page: 7
+  contents: questions
+  questions:
+  - 14E
+  source_page_render_sha256: ae045ccf124a28be4f27695616e570ec3a75fd2c0a2af27717f92a4087180810
+- page: 8
+  contents: questions
+  questions:
+  - 15D
+  source_page_render_sha256: 7901a5f3ff67030edb98632fae59603880090829900853ac2ccf2afb6aabca16
+- page: 9
+  contents: questions
+  questions:
+  - 16A
+  source_page_render_sha256: 6223db18651babd92472e2ac05ef882437dd587d20b11ce28daf578cbd66656d
+- page: 10
+  contents: questions
+  questions:
+  - 17B
+  source_page_render_sha256: 37d440540fbc26d61a30a67701f1e995a7627ece007f6ed286f9a38a7739f322
+- page: 11
+  contents: questions
+  questions:
+  - 18B
+  - 19D
+  - 20H
+  source_page_render_sha256: c17f3bd35bea974b09d30dabbcdd7b73ff1d428cc30a9842220e77ad3f51e84c

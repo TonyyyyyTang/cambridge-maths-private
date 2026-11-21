@@ -1,0 +1,3927 @@
+sheet: IB/methods/sheet-3
+base_version: 2025-26
+dated_originals: 14
+physical_sheet_pages: 29
+positions: 164
+distinct_question_fragments: 65
+canonical_families: 42
+historical_only_families: 30
+uncertain_editions: []
+ancillary_originals: []
+diagrams: []
+repeated_numbers_within_edition: []
+reviewer: Codex source-only Methods sheet 3 historical review, 2026-11-21
+renderer: pypdfium2 page.render(scale=2.25).to_pil().convert("RGB"), saved as PNG.
+  All page numbers are physical archive page numbers.
+manifest_search:
+  checked_methods_originals: 58
+  review: First-page headings were matched for every individual original, with a visual
+    fallback for the five old PDFs with unusable encodings. The one bundled source
+    contains all four sheets on alternating pages. Compared both Methods archive queue
+    reports.
+  records:
+  - path: raw/sheets/IB/methods/2000-01/sheet-4.pdf
+    sha256: 57c8a58ed53c26b6a48908d1d7aa03b980c748f54a321f0f47eea0dbbd8cf4c4
+    pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+    sha256: 0e362b586c47f4d89914e803cf0c3a0a61106852863628709f303e5b7c94d388
+    pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2001-02/sheet-2.pdf
+    sha256: 9834b412a499defa08467800c78aebe5018e010b5e0e5a729ab0e1a954463e9f
+    pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2001-02/sheet-3.pdf
+    sha256: 44df449692970850fea00741843370ee12332e7d873a02f21e73ed153960987c
+    pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+    sha256: 6acfa46427ada11e63d26f440a2183e1dc1e185a630866f3a8e3719fa6f7a28f
+    pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+    sha256: c5c4c64cb1ff68dcafbdfaab0d0af655c8db4ed9821d35c4a0b12fce04c879b9
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2003-04/sheet-2.pdf
+    sha256: 902fe38a0e9390bfbeea3173d22dd0ae1724fef89b701ffd7fc5722dac787880
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2003-04/sheet-3.pdf
+    sha256: f169622309906afeb9267da245752dad29616e55c2ab8bbe358f935b2ae5c14f
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2003-04/sheet-4.pdf
+    sha256: f71c6c39840eb8f88b3902331cf9b6aaf034fd4a54b0d88899fab3c2f2956284
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+    sha256: 1af3ac91e85bc5c45109aa29389907e00df798658b6dab647db731e84a416dfe
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2004-05/sheet-2.pdf
+    sha256: 3f496c52d2e8db25c1f3b76c1324a24d0bddf7f472b086200648db0dcb5e2056
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2004-05/sheet-3.pdf
+    sha256: e1a34de0f690760e1d0c2ed34978f18370b3983afc1441c4ad3c6c61bc489fa8
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2004-05/sheet-4.pdf
+    sha256: b7674c06c5021ddb6d7b2047423e3ece68c2d0af54e5ce564daceb018ac48854
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+    sha256: e76840677fb69c9e4cf493707dc811cf6baf3294f345c1c2a019b65c6a932abe
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2006-07/sheet-2.pdf
+    sha256: 1fa0c106f90d93bfa489560eaf4bca5c00206b4aa2e55849e3ec3f988a38101c
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2006-07/sheet-3.ps
+    sha256: 8b2601f826864905d1bc2193739fffd5fa623fef1b3b3c914983ff0bb601c5c0
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2006-07/sheet-4.pdf
+    sha256: ee7c4b19a4b461e6016ed1d1405982eb4bd575f59ee671b54bd66f89f2914d10
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+    sha256: ee8c96c49d16e705a3bbdf07df3626c08d6a366f9f07ab0bb32e67945637e838
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2007-08/sheet-2.pdf
+    sha256: c8a9384338065350f392d67dbb926991ed852a5322780899458e31cf488bcea6
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2007-08/sheet-3.pdf
+    sha256: ddd7227c69286c099efbae7e117fee04b4f89cc912082fd79ff30fb22f30dcba
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2007-08/sheet-4.pdf
+    sha256: 5b4f3e774722843ee3b01223d4ad5e8042d4c8c484d2d4d51923189956bc314b
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+    sha256: 2a973c74f647fa6048b176e40a17ad3d3711d8d399db45b33f4baf9b8bfea82d
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2014-15/sheet-1.ps
+    sha256: d063f629152f43b1ca9935b65132bf91d0057f71b8ae1e51f9c1e8365df63e47
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2014-15/sheet-2.pdf
+    sha256: dad6588eec97b3239ae7b666417952ed24d0c7dfc753a2d6bff7035e4c2840dd
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    pages: 8
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+    - - 3
+      - METHODS — EXAMPLES II
+    - - 5
+      - METHODS — EXAMPLES III
+    - - 7
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2016-17/sheet-1.pdf
+    sha256: 72c844e977d8c374f44a25835ff18dfe32a9aef534dab5ba045fdde4cff60674
+    pages: 3
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 1
+  - path: raw/sheets/IB/methods/2016-17/sheet-2.pdf
+    sha256: 736dd7375c8f3aa65ab1a9976b040b8e4cfc3cf9ef6322ed03b57f92e689be35
+    pages: 3
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 2
+  - path: raw/sheets/IB/methods/2016-17/sheet-3.pdf
+    sha256: 859dd927cad5444ffe62e7bda99260fdea7493dfe25bdadbbe04754b063226c0
+    pages: 3
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 3
+  - path: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+    sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 4
+  - path: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+    sha256: 299b69853f2d92a53a1c11bf2943310a4f1963813303959fe3aafa4ee700e62b
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2018-19/sheet-2.pdf
+    sha256: cd78241aabfbdef2a46355a766e1ceb7361d0eb6db87a67b574781263699a427
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2018-19/sheet-3.pdf
+    sha256: 4f0feaece317a6196833f470f5d0593134a9c96d942d3d87703dde1d3e533c62
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+    sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2019-20/sheet-2.pdf
+    sha256: 083b6637938675dd24712e59111b8a883084292ad032815279e5251bbaabfa97
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+    sha256: 5a48b1e9e906a51ab6ad625fd162a931d3ed72d8b8796579acfe04af5c114ece
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2020-21/sheet-2.pdf
+    sha256: cf0d75d82ea64a67479d4e468bb5e493d8dad35a05dff6639ab379de774b693e
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2020-21/sheet-3.pdf
+    sha256: 0d3407ba86c4e2d99b3e7ed7b24991c8c83fb763e978f08cacdc1ac95ab56a0b
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+    sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2021-22/sheet-2.pdf
+    sha256: 6b6d36d4be197f06cccb2235d22bc99e845672c6bee7ed665571212d5e146c43
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2021-22/sheet-3.pdf
+    sha256: e6907e9797118986dd5be4e30e7c1b38ce2ecad3ff821ec7d41a8532a50077a6
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+    sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+    sha256: b7247fac15a6d46a68d6483a348b08417ec303b336261e3f967b8b112b14ab79
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - path: raw/sheets/IB/methods/2022-23/sheet-2.pdf
+    sha256: 288abbbd36effc29668f10e8e37355ef4b3a3bd834f618d08b0aa2a65f3aae9b
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - path: raw/sheets/IB/methods/2022-23/sheet-3.pdf
+    sha256: 9d4b22eca0ffbc957b5a3a0eeec9d7fe122d47e51ee672fa0a89d98ba13fd7d2
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - path: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+    sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - path: raw/sheets/IB/methods/2023-24/sheet-2.pdf
+    sha256: 1664de731f5fd777768181324ef17654635a2083bcad473ed2340fa824946fa6
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 2
+  - path: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 3
+  - path: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+    sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 4
+  - path: raw/sheets/IB/methods/2024-25/sheet-1.pdf
+    sha256: ceeac51d71dd54ef1c3549b0b35cb2c57eed0258a7526e86c7249997656c5f3b
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  - path: raw/sheets/IB/methods/2025-26/sheet-1.pdf
+    sha256: b8b1e1cb2a2251f5c5b1861eca9ce50f84933dbc31f358abae72d6b4be2ea2e0
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  - path: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 3
+  - path: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+    sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 4
+  - path: raw/sheets/IB/methods/2026-27/sheet-1.pdf
+    sha256: 0d8da1fd689c9f7c01cbd78175f956113bb669057e63069fd3dee8de93bcfda8
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  - path: raw/sheets/IB/methods/2026-27/sheet-2.pdf
+    sha256: 54b8174be2271ee3807c9b81568d2e056293546181122c6c6d3bbd27b0feafea
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 2
+  - path: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 3
+  - path: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+    sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 4
+  - path: raw/sheets/IB/methods/unresolved-2024-2025/sheet-2.pdf
+    sha256: f9696f805bf253b86f15b7ac40fdc1c59fd7f43888c63d5279f7262b582c4ed2
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 2
+  - path: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+    sha256: dd8d1e89bbaf423e790c328088efbdc6451630311f8c180e0e9d04eaca7cc893
+    pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+schedule_comparison: 2025–26 schedules, physical page 18 (printed 17). Laplace, waves,
+  Legendre, diffusion, transforms and Green functions are in Methods. Extrema and
+  variational tasks are placed in Variational Principles; qx13 combines Sturm–Liouville
+  with those techniques. The DFT is explicitly scheduled, while the radix-two operation
+  count is an extension.
+canonical_families_by_id:
+  q01:
+    preferred_edition: 2025-26
+    question_sha256: 3a78dc6d6eca11c5c5a089491c7f25feae464b1c84980b2ff0815796f1bece69
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+  q02:
+    preferred_edition: 2025-26
+    question_sha256: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    possible_duplicate_of: IB/methods/sheet-1/qx16
+  q03:
+    preferred_edition: 2025-26
+    question_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  q04:
+    preferred_edition: 2025-26
+    question_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 4
+  q05:
+    preferred_edition: 2015-16
+    question_sha256: 5f7473254cd960aeb95d9ad09fa7c8451417ef2cecd5778ba70b19a7d73b584a
+    canonical_selection_reason: Includes the entire Green-function and Fourier-transform
+      task and explicitly requires the transfer function. The classroom example is
+      phrased as an ammeter.
+    schedule_relevance: in-schedule
+    exact_statement_count: 4
+  q06:
+    preferred_edition: 2025-26
+    question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    possible_duplicate_of: IB/methods/sheet-1/qx24
+  q07:
+    preferred_edition: 2025-26
+    question_sha256: 500cf72b597d7198a76ac9d5bed258fe84c56d1a98b9464213145fc48c208923
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  q08:
+    preferred_edition: 2025-26
+    question_sha256: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  q09:
+    preferred_edition: 2025-26
+    question_sha256: 1d27b9426f5a5ba8455e1f6e2c2c1b0c437decbc948367b0e5d89088a68202b4
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 4
+    possible_duplicate_of: IB/methods/sheet-1/qx22
+  q10:
+    preferred_edition: 2025-26
+    question_sha256: 9c4be558ca10d5cd88de7a34a74e5f42ff8fceee5ccf00927d2a446820458dcc
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  q11:
+    preferred_edition: 2025-26
+    question_sha256: 1a2f06ad7b67f773a05aac54c21b24c0a0910449a019af5bc2d02f3bad63d375
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 3
+    possible_duplicate_of: IB/methods/sheet-1/qx17
+  q12:
+    preferred_edition: 2025-26
+    question_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+    canonical_selection_reason: Verified baseline wording; all different prompts retained
+      with their own exact references.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx01:
+    preferred_edition: 2007-08
+    question_sha256: d46f41556b158224a334beaafcd5b1dd8c675f244d3ed78d48d1a484f57d2d87
+    canonical_selection_reason: Adds polynomial boundary data and the infinite-height
+      limit; the identical 2006 PostScript also contains both extensions.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+  qx02:
+    preferred_edition: 2001-02
+    question_sha256: a7d1638274cc77e74626151c59e44c6e816cdbf21d6ed371f27bd33f1510b84c
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+  qx03:
+    preferred_edition: 2001-02
+    question_sha256: 54560e654fffe9bcdbdddc1566a0c05bda2bcdd58c91e9351793ef2de1b164c7
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx04:
+    preferred_edition: 2001-02
+    question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx05:
+    preferred_edition: 2001-02
+    question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx06:
+    preferred_edition: 2001-02
+    question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx07:
+    preferred_edition: 2001-02
+    question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx08:
+    preferred_edition: 2001-02
+    question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx09:
+    preferred_edition: 2001-02
+    question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx10:
+    preferred_edition: 2001-02
+    question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx11:
+    preferred_edition: 2001-02
+    question_sha256: 7a45647327e44618057a29acec5ff1fff2b5ff3bdeecf8db73ce42078b3108a1
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx12:
+    preferred_edition: 2001-02
+    question_sha256: e58040f87ddf053c2b68b99e2be9dc0dd4b644f81db4ba5b544f625e448be348
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+  qx13:
+    preferred_edition: 2001-02
+    question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: partly
+    exact_statement_count: 1
+    possible_duplicate_of: IB/methods/sheet-1/q12
+  qx14:
+    preferred_edition: 2006-07
+    question_sha256: 62aac5eb4dbddf70b6e34190eef77737e34db1fbba5cb51317a096c5ca157782
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx15:
+    preferred_edition: 2006-07
+    question_sha256: 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    possible_duplicate_of: IB/methods/sheet-1/q09
+  qx16:
+    preferred_edition: 2006-07
+    question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    possible_duplicate_of: IB/methods/sheet-1/qx12
+  qx17:
+    preferred_edition: 2006-07
+    question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    possible_duplicate_of: IB/methods/sheet-1/qx13
+  qx18:
+    preferred_edition: 2006-07
+    question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    possible_duplicate_of: IB/methods/sheet-1/qx14
+  qx19:
+    preferred_edition: 2006-07
+    question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    possible_duplicate_of: IB/methods/sheet-1/qx15
+  qx20:
+    preferred_edition: 2006-07
+    question_sha256: 59f81da2fa45564b1ee336640b868176bbc203c67b9fb4fd3498068fa14d0d70
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx21:
+    preferred_edition: 2016-17
+    question_sha256: bac0a76a41a0bd7bc8bae9a27d72c877ed1a36634479d2dfda52911fa760a0bf
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx22:
+    preferred_edition: 2016-17
+    question_sha256: 624711a7239473ee968d7b9d004b152552b3ceeb14340345dddf15be9582b2c6
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx23:
+    preferred_edition: 2015-16
+    question_sha256: 62febfcec83d3009cca6f7cbbffbf84410d21d98e5c398a157e4dce83c8c606b
+    canonical_selection_reason: Names the operator exercise and gives both boundedness
+      conditions, two forcing branches and piecewise solution.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+  qx24:
+    preferred_edition: 2016-17
+    question_sha256: 29bcf9dc87d60aa09f3f3799f2c960570427f0909ec2f9e032a4670592169781
+    canonical_selection_reason: Allows general constants mu and n; explicitly asks
+      for both sketches and integration.
+    schedule_relevance: in-schedule
+    exact_statement_count: 3
+    possible_duplicate_of: IB/methods/sheet-1/qx19
+  qx25:
+    preferred_edition: 2016-17
+    question_sha256: 12d830d98581abd2970a68be85b7a1d7238ac311603faf6ab654b23e987030bc
+    canonical_selection_reason: Explicitly asks for the value at the discontinuity
+      and a full explanation.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    possible_duplicate_of: IB/methods/sheet-1/qx25
+  qx26:
+    preferred_edition: 2015-16
+    question_sha256: 314871c08f1697402d541446b0947a87305830f7079875d8aa7febee0cd2f3f6
+    canonical_selection_reason: Parameter alpha is arbitrary, followed by the strip
+      problem for alpha=1. Later specializations explicitly cite the 2004 paper.
+    schedule_relevance: in-schedule
+    exact_statement_count: 3
+    possible_duplicate_of: IB/methods/sheet-1/qx27
+  qx27:
+    preferred_edition: 2018-19
+    question_sha256: 1dc8549397475ed8ed25754663a32f2bec77758d2d54750cd10df787c7e63d79
+    canonical_selection_reason: Adds explicit verification of the integral against
+      the equation and initial conditions. The 2015 printing separately requests the
+      solution for exp(-t).
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+  qx28:
+    preferred_edition: 2018-19
+    question_sha256: bbab761904651ae170ac47c51aa47425ce0aa88cd410576f356ae6190b5c2adb
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx29:
+    preferred_edition: 2015-16
+    question_sha256: 12a2efdeef6716162613d33ad419592fb7b4d1e764e63926c85e66e2848997c8
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+  qx30:
+    preferred_edition: 2015-16
+    question_sha256: 7dbbccaa40d66405fc16825fe8380acd5dd69ec0a5f8f1eab288a0b9a7443ef0
+    canonical_selection_reason: Earliest located appearance; no broader verified text
+      selected.
+    schedule_relevance: partly
+    exact_statement_count: 1
+editions:
+  2001-02:
+    archive: raw/sheets/IB/methods/2001-02/sheet-3.pdf
+    sha256: 44df449692970850fea00741843370ee12332e7d873a02f21e73ed153960987c
+    url: https://web.archive.org/web/20011117171414id_/http://www.damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    fetched_at: '2026-11-20T15:09:54.555692+00:00'
+    printed_term: Michaelmas term 2001
+    lecturer: Dr E.P.S. Shellard
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2001-02/p1.png
+        sha256: 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+      2:
+        path: 2001-02/p2.png
+        sha256: 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      qx01:
+        heading: Laplace’s equation
+        restarts_numbering: false
+      qx04:
+        heading: Extrema and Lagrange multipliers
+        restarts_numbering: false
+      qx07:
+        heading: Calculus of variations and the Euler-Lagrange equations
+        restarts_numbering: false
+    references: {}
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: cda649405ed9f20a6cc0aa046b6e53ec77d72d7367a35db7c2068ace416b2371
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Double infinite sum with both odd indices, all six faces and
+          the squared separation constant were checked. The 2006 and 2007 pages add
+          the nonconstant face datum and the c-to-infinity limit.
+        text: variants/2001-02/question.tex
+        verified_solution: history/verified-2001-02-cda649405ed9/solution.tex
+        verified_solution_sha256: 27b32a92a505487dad62e559eb3d2ae65b306b809f41b520cf8ac33c969c79ae
+      '2':
+        unit: IB/methods/sheet-3/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: a7d1638274cc77e74626151c59e44c6e816cdbf21d6ed371f27bd33f1510b84c
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Checked the two half-open boundary arcs, odd Fourier modes,
+          complex substitution and bracketed geometric interpretation. The earlier
+          sheets print r ≤ 1 and the later sheets r < 1.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: da69e3a416ed0804c6448bab97731937eaa4fea46132ad014665d9f9442fef45
+      '3':
+        unit: IB/methods/sheet-3/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 54560e654fffe9bcdbdddc1566a0c05bda2bcdd58c91e9351793ef2de1b164c7
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Both conducting hemispheres, the opposite signs, first derivative
+          indices, integration bounds and normalization in the hint were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 995139772c432129b62da5ab033ac9d16166ba10182529aa2e195f135f30bedc
+      '4':
+        unit: IB/methods/sheet-3/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Retains the two-axis extrema, constant-height contours, initial
+          point, both route requests and the italic word “without”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: feb2a004e3d9edf6e41fdfddcf9ab57eaf5b87bf9e4ea65cf0750e099b81f505
+      '5':
+        unit: IB/methods/sheet-3/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Checked the three quartics, three mixed terms, claimed minimum
+          and saddle count, and the inverse tangent of square root two.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 97aef5a6645454380c49c372ffa8355c6480b1bce0838bf3ff8045567fa7587e
+      '6':
+        unit: IB/methods/sheet-3/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Radical includes printed square brackets. Both perimeter tasks
+          and right-angle restriction retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6dffd0bb4d5ae9a98cffabdd7046aecc6882133d57f4c03f652f6dbc2fe491b5
+      '7':
+        unit: IB/methods/sheet-3/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+        page_render_sha256:
+        - 216f79084802b473c86e9f1496b392e18ed4148c550492c63a8788a4b526f727
+        source_review: Waterloo and Paddington, release from rest, uniform gravity,
+          equal levels, half-power travel time and the bracketed vertical-tunnel comment
+          retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f46ca369ba065c2fbb00bfa0a372b5a9d9697dc494d306a9decfafedaafa84c7
+      '8':
+        unit: IB/methods/sheet-3/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+        page_render_sha256:
+        - 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+        source_review: Straight fence length a, flexible fencing length ell, strict
+          lower and upper bounds and spelling “maximized” checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2e649f4f71f788bc4f49323de086d9deb5969ff6ecc50826c036d06bd39074af
+      '9':
+        unit: IB/methods/sheet-3/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+        page_render_sha256:
+        - 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+        source_review: The square root is in the denominator of c(y). Retains upper
+          bound on k, entrance and exit signs, turning-height equation and height
+          bound.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 229de7e68fa5e57750aee1b4e477ce46371daf7c1b8819b9cedfff47676cf02c
+      '10':
+        unit: IB/methods/sheet-3/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+        page_render_sha256:
+        - 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+        source_review: Checked fixed endpoints and cable length, both bounds of both
+          integrals, first integral including its partial derivative, and positive
+          uniqueness request.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 093fdae3656d34dc64e8a1f4e501249c16ab1a3ed9585541ffe508efaa4867e2
+      '11':
+        unit: IB/methods/sheet-3/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7a45647327e44618057a29acec5ff1fff2b5ff3bdeecf8db73ce42078b3108a1
+        page_render_sha256:
+        - 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+        source_review: Second time derivative in the integrand, four endpoint values
+          including both negative slopes, and t to the fourth power checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 9e46bc2c983e757010d275a8c04af8bdc74f0d768c56f1fc3fab657134fa65aa
+      '12':
+        unit: IB/methods/sheet-3/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e58040f87ddf053c2b68b99e2be9dc0dd4b644f81db4ba5b544f625e448be348
+        page_render_sha256:
+        - 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+        source_review: Retained the printed title star, relativistic qualification,
+          inverse Lorentz factor, vector product and both field definitions.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 72ce0d72868193b4948a3d410a7b24294fdf8b00f81ce1385990cf4f1de79685
+      '13':
+        unit: IB/methods/sheet-3/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+        page_render_sha256:
+        - 6a247a35df64070cfc9d821539cfb6e282f8e180de589fc175a4aca5d89faf3c
+        source_review: The print says w(x) ≥ 0 and “Minimise” for both (ii) and (iii).
+          Lower and upper bounds and the final qualification about extremal values
+          are retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: eaad0c36ef8504b8134e1955e75bef2112a1d61c58659ce83322502eb2362b7b
+    printed_course_code: Course C10—No. B8
+    printed_margin_notice: Copyright © 2001 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2003-04:
+    archive: raw/sheets/IB/methods/2003-04/sheet-3.pdf
+    sha256: f169622309906afeb9267da245752dad29616e55c2ab8bbe358f935b2ae5c14f
+    url: https://web.archive.org/web/20040716182711id_/http://damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    fetched_at: '2026-11-20T15:10:10.918989+00:00'
+    printed_term: Michaelmas term 2003
+    lecturer: Dr N. Peake
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2003-04/p1.png
+        sha256: 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+      2:
+        path: 2003-04/p2.png
+        sha256: 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      qx01:
+        heading: Laplace’s equation
+        restarts_numbering: false
+      qx04:
+        heading: Extrema and Lagrange multipliers
+        restarts_numbering: false
+      qx07:
+        heading: Calculus of variations and the Euler-Lagrange equations
+        restarts_numbering: false
+    references: {}
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: cda649405ed9f20a6cc0aa046b6e53ec77d72d7367a35db7c2068ace416b2371
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Double infinite sum with both odd indices, all six faces and
+          the squared separation constant were checked. The 2006 and 2007 pages add
+          the nonconstant face datum and the c-to-infinity limit.
+        text: variants/2003-04/question.tex
+        verified_solution: history/verified-2001-02-cda649405ed9/solution.tex
+        verified_solution_sha256: 27b32a92a505487dad62e559eb3d2ae65b306b809f41b520cf8ac33c969c79ae
+      '2':
+        unit: IB/methods/sheet-3/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: a7d1638274cc77e74626151c59e44c6e816cdbf21d6ed371f27bd33f1510b84c
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Checked the two half-open boundary arcs, odd Fourier modes,
+          complex substitution and bracketed geometric interpretation. The earlier
+          sheets print r ≤ 1 and the later sheets r < 1.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: da69e3a416ed0804c6448bab97731937eaa4fea46132ad014665d9f9442fef45
+      '3':
+        unit: IB/methods/sheet-3/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 54560e654fffe9bcdbdddc1566a0c05bda2bcdd58c91e9351793ef2de1b164c7
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Both conducting hemispheres, the opposite signs, first derivative
+          indices, integration bounds and normalization in the hint were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 995139772c432129b62da5ab033ac9d16166ba10182529aa2e195f135f30bedc
+      '4':
+        unit: IB/methods/sheet-3/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Retains the two-axis extrema, constant-height contours, initial
+          point, both route requests and the italic word “without”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: feb2a004e3d9edf6e41fdfddcf9ab57eaf5b87bf9e4ea65cf0750e099b81f505
+      '5':
+        unit: IB/methods/sheet-3/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Checked the three quartics, three mixed terms, claimed minimum
+          and saddle count, and the inverse tangent of square root two.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 97aef5a6645454380c49c372ffa8355c6480b1bce0838bf3ff8045567fa7587e
+      '6':
+        unit: IB/methods/sheet-3/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Radical includes printed square brackets. Both perimeter tasks
+          and right-angle restriction retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6dffd0bb4d5ae9a98cffabdd7046aecc6882133d57f4c03f652f6dbc2fe491b5
+      '7':
+        unit: IB/methods/sheet-3/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+        page_render_sha256:
+        - 1cab2cb2cdd67a56edcd124237758bae16fde277f7b3ec4dbdbed3e3d19207f3
+        source_review: Waterloo and Paddington, release from rest, uniform gravity,
+          equal levels, half-power travel time and the bracketed vertical-tunnel comment
+          retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f46ca369ba065c2fbb00bfa0a372b5a9d9697dc494d306a9decfafedaafa84c7
+      '8':
+        unit: IB/methods/sheet-3/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+        page_render_sha256:
+        - 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+        source_review: Straight fence length a, flexible fencing length ell, strict
+          lower and upper bounds and spelling “maximized” checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2e649f4f71f788bc4f49323de086d9deb5969ff6ecc50826c036d06bd39074af
+      '9':
+        unit: IB/methods/sheet-3/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+        page_render_sha256:
+        - 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+        source_review: The square root is in the denominator of c(y). Retains upper
+          bound on k, entrance and exit signs, turning-height equation and height
+          bound.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 229de7e68fa5e57750aee1b4e477ce46371daf7c1b8819b9cedfff47676cf02c
+      '10':
+        unit: IB/methods/sheet-3/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+        page_render_sha256:
+        - 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+        source_review: Checked fixed endpoints and cable length, both bounds of both
+          integrals, first integral including its partial derivative, and positive
+          uniqueness request.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 093fdae3656d34dc64e8a1f4e501249c16ab1a3ed9585541ffe508efaa4867e2
+      '11':
+        unit: IB/methods/sheet-3/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7a45647327e44618057a29acec5ff1fff2b5ff3bdeecf8db73ce42078b3108a1
+        page_render_sha256:
+        - 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+        source_review: Second time derivative in the integrand, four endpoint values
+          including both negative slopes, and t to the fourth power checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 9e46bc2c983e757010d275a8c04af8bdc74f0d768c56f1fc3fab657134fa65aa
+      '12':
+        unit: IB/methods/sheet-3/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e58040f87ddf053c2b68b99e2be9dc0dd4b644f81db4ba5b544f625e448be348
+        page_render_sha256:
+        - 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+        source_review: Retained the printed title star, relativistic qualification,
+          inverse Lorentz factor, vector product and both field definitions.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 72ce0d72868193b4948a3d410a7b24294fdf8b00f81ce1385990cf4f1de79685
+      '13':
+        unit: IB/methods/sheet-3/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+        page_render_sha256:
+        - 66fcd6fa2282244a023caeaa6e7aec907ad497f80137a8a7df2bde056547ca4c
+        source_review: The print says w(x) ≥ 0 and “Minimise” for both (ii) and (iii).
+          Lower and upper bounds and the final qualification about extremal values
+          are retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: eaad0c36ef8504b8134e1955e75bef2112a1d61c58659ce83322502eb2362b7b
+    printed_course_code: Course C10—No. B8
+    printed_margin_notice: Copyright © 2003 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2004-05:
+    archive: raw/sheets/IB/methods/2004-05/sheet-3.pdf
+    sha256: e1a34de0f690760e1d0c2ed34978f18370b3983afc1441c4ad3c6c61bc489fa8
+    url: https://web.archive.org/web/20050129000031id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:08:06.397657+00:00'
+    printed_term: Michaelmas term 2004
+    lecturer: Professor N. Peake
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2004-05/p1.png
+        sha256: 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+      2:
+        path: 2004-05/p2.png
+        sha256: b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      qx01:
+        heading: Laplace’s equation
+        restarts_numbering: false
+      qx04:
+        heading: Extrema and Lagrange multipliers
+        restarts_numbering: false
+      qx07:
+        heading: Calculus of variations and the Euler-Lagrange equations
+        restarts_numbering: false
+    references: {}
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: cda649405ed9f20a6cc0aa046b6e53ec77d72d7367a35db7c2068ace416b2371
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Double infinite sum with both odd indices, all six faces and
+          the squared separation constant were checked. The 2006 and 2007 pages add
+          the nonconstant face datum and the c-to-infinity limit.
+        text: variants/2004-05/question.tex
+        verified_solution: history/verified-2001-02-cda649405ed9/solution.tex
+        verified_solution_sha256: 27b32a92a505487dad62e559eb3d2ae65b306b809f41b520cf8ac33c969c79ae
+      '2':
+        unit: IB/methods/sheet-3/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: a7d1638274cc77e74626151c59e44c6e816cdbf21d6ed371f27bd33f1510b84c
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Checked the two half-open boundary arcs, odd Fourier modes,
+          complex substitution and bracketed geometric interpretation. The earlier
+          sheets print r ≤ 1 and the later sheets r < 1.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: da69e3a416ed0804c6448bab97731937eaa4fea46132ad014665d9f9442fef45
+      '3':
+        unit: IB/methods/sheet-3/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 54560e654fffe9bcdbdddc1566a0c05bda2bcdd58c91e9351793ef2de1b164c7
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Both conducting hemispheres, the opposite signs, first derivative
+          indices, integration bounds and normalization in the hint were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 995139772c432129b62da5ab033ac9d16166ba10182529aa2e195f135f30bedc
+      '4':
+        unit: IB/methods/sheet-3/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Retains the two-axis extrema, constant-height contours, initial
+          point, both route requests and the italic word “without”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: feb2a004e3d9edf6e41fdfddcf9ab57eaf5b87bf9e4ea65cf0750e099b81f505
+      '5':
+        unit: IB/methods/sheet-3/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Checked the three quartics, three mixed terms, claimed minimum
+          and saddle count, and the inverse tangent of square root two.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 97aef5a6645454380c49c372ffa8355c6480b1bce0838bf3ff8045567fa7587e
+      '6':
+        unit: IB/methods/sheet-3/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Radical includes printed square brackets. Both perimeter tasks
+          and right-angle restriction retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6dffd0bb4d5ae9a98cffabdd7046aecc6882133d57f4c03f652f6dbc2fe491b5
+      '7':
+        unit: IB/methods/sheet-3/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+        page_render_sha256:
+        - 6bbef03ef9f5f4e7051198d8eb1cd013a558a2f7937215300ec339a819be01d8
+        source_review: Waterloo and Paddington, release from rest, uniform gravity,
+          equal levels, half-power travel time and the bracketed vertical-tunnel comment
+          retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f46ca369ba065c2fbb00bfa0a372b5a9d9697dc494d306a9decfafedaafa84c7
+      '8':
+        unit: IB/methods/sheet-3/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+        page_render_sha256:
+        - b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+        source_review: Straight fence length a, flexible fencing length ell, strict
+          lower and upper bounds and spelling “maximized” checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2e649f4f71f788bc4f49323de086d9deb5969ff6ecc50826c036d06bd39074af
+      '9':
+        unit: IB/methods/sheet-3/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+        page_render_sha256:
+        - b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+        source_review: The square root is in the denominator of c(y). Retains upper
+          bound on k, entrance and exit signs, turning-height equation and height
+          bound.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 229de7e68fa5e57750aee1b4e477ce46371daf7c1b8819b9cedfff47676cf02c
+      '10':
+        unit: IB/methods/sheet-3/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+        page_render_sha256:
+        - b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+        source_review: Checked fixed endpoints and cable length, both bounds of both
+          integrals, first integral including its partial derivative, and positive
+          uniqueness request.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 093fdae3656d34dc64e8a1f4e501249c16ab1a3ed9585541ffe508efaa4867e2
+      '11':
+        unit: IB/methods/sheet-3/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7a45647327e44618057a29acec5ff1fff2b5ff3bdeecf8db73ce42078b3108a1
+        page_render_sha256:
+        - b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+        source_review: Second time derivative in the integrand, four endpoint values
+          including both negative slopes, and t to the fourth power checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 9e46bc2c983e757010d275a8c04af8bdc74f0d768c56f1fc3fab657134fa65aa
+      '12':
+        unit: IB/methods/sheet-3/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e58040f87ddf053c2b68b99e2be9dc0dd4b644f81db4ba5b544f625e448be348
+        page_render_sha256:
+        - b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+        source_review: Retained the printed title star, relativistic qualification,
+          inverse Lorentz factor, vector product and both field definitions.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 72ce0d72868193b4948a3d410a7b24294fdf8b00f81ce1385990cf4f1de79685
+      '13':
+        unit: IB/methods/sheet-3/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+        page_render_sha256:
+        - b371bec24462f3be45ab7127630b670e1650ac6699ae8e9c8b135acfff0d3d4e
+        source_review: The print says w(x) ≥ 0 and “Minimise” for both (ii) and (iii).
+          Lower and upper bounds and the final qualification about extremal values
+          are retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: eaad0c36ef8504b8134e1955e75bef2112a1d61c58659ce83322502eb2362b7b
+    printed_course_code: Course C10—No. B8
+    printed_margin_notice: Copyright © 2004 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2006-07:
+    archive: raw/sheets/IB/methods/2006-07/sheet-3.ps
+    sha256: 8b2601f826864905d1bc2193739fffd5fa623fef1b3b3c914983ff0bb601c5c0
+    url: https://web.archive.org/web/20070107074104id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.ps
+    fetched_at: '2026-11-20T15:08:21.282564+00:00'
+    printed_term: Michaelmas term 2006
+    lecturer: Dr C. P. Caulfield
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2006-07/p1.png
+        sha256: f560d77763245b530915bcd4bc37d4b3f9e0ea8df4be9303ac32bf4792de12f9
+      2:
+        path: 2006-07/p2.png
+        sha256: a8a0b0d557c04ace3665bda6f1f5bbd5c683289f7ff1ad27b2fe711ab93b9c13
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      qx01:
+        heading: Laplace’s equation
+        restarts_numbering: false
+      qx14:
+        heading: Legendre polynomials
+        restarts_numbering: false
+      qx16:
+        heading: The one-dimensional wave equation
+        restarts_numbering: false
+      qx20:
+        heading: The heat equation
+        restarts_numbering: false
+    references:
+      qx19:
+      - printed: the wave equation (*) given above
+        target: IB/methods/sheet-3/qx18
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d46f41556b158224a334beaafcd5b1dd8c675f244d3ed78d48d1a484f57d2d87
+        page_render_sha256:
+        - f560d77763245b530915bcd4bc37d4b3f9e0ea8df4be9303ac32bf4792de12f9
+        source_review: Double infinite sum with both odd indices, all six faces and
+          the squared separation constant were checked. The 2006 and 2007 pages add
+          the nonconstant face datum and the c-to-infinity limit.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c2ec169e2dcedb227aaef96ffd1bc3df973afa915514f320f5ae57ad77a00e8d
+      '2':
+        unit: IB/methods/sheet-3/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d89d3329211cb7906efea473d63eb64974ca3c78b570364cb7b3f07b19238ec2
+        page_render_sha256:
+        - f560d77763245b530915bcd4bc37d4b3f9e0ea8df4be9303ac32bf4792de12f9
+        source_review: Checked the two half-open boundary arcs, odd Fourier modes,
+          complex substitution and bracketed geometric interpretation. The earlier
+          sheets print r ≤ 1 and the later sheets r < 1.
+        text: variants/2006-07/question.tex
+        verified_solution: history/verified-2006-07-d89d3329211c/solution.tex
+        verified_solution_sha256: da69e3a416ed0804c6448bab97731937eaa4fea46132ad014665d9f9442fef45
+      '3':
+        unit: IB/methods/sheet-3/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 54560e654fffe9bcdbdddc1566a0c05bda2bcdd58c91e9351793ef2de1b164c7
+        page_render_sha256:
+        - f560d77763245b530915bcd4bc37d4b3f9e0ea8df4be9303ac32bf4792de12f9
+        source_review: Both conducting hemispheres, the opposite signs, first derivative
+          indices, integration bounds and normalization in the hint were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 995139772c432129b62da5ab033ac9d16166ba10182529aa2e195f135f30bedc
+      '4':
+        unit: IB/methods/sheet-3/qx14
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 62aac5eb4dbddf70b6e34190eef77737e34db1fbba5cb51317a096c5ca157782
+        page_render_sha256:
+        - f560d77763245b530915bcd4bc37d4b3f9e0ea8df4be9303ac32bf4792de12f9
+        source_review: Unit weights, normalization with each integral equal to one,
+          “no summation”, both derivative subscripts and the Legendre integral checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6feca2e2c062b835c4bf6f8743a1b68ca722875d230d40c3600de5637b695019
+      '5':
+        unit: IB/methods/sheet-3/qx15
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+        page_render_sha256:
+        - f560d77763245b530915bcd4bc37d4b3f9e0ea8df4be9303ac32bf4792de12f9
+        source_review: Both three-part columns, both hints, the endpoint value, two
+          integrals, and the Abramowitz & Stegun note are present.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 5de2ffeba4001ea0c6a87c966b534182f88c41fdb3f815ce7c1a2d93c120045f
+      '6':
+        unit: IB/methods/sheet-3/qx16
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+        page_render_sha256:
+        - a8a0b0d557c04ace3665bda6f1f5bbd5c683289f7ff1ad27b2fe711ab93b9c13
+        source_review: Fixed endpoints, initial velocity rather than displacement,
+          odd modes and the denominator 960 were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3a28c79c3f6f0845009ddde00bd1e6f7591a5794c3fc05f8468c02c2ea02b084
+      '7':
+        unit: IB/methods/sheet-3/qx17
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+        page_render_sha256:
+        - a8a0b0d557c04ace3665bda6f1f5bbd5c683289f7ff1ad27b2fe711ab93b9c13
+        source_review: The damping constant is πc/ell; the harmonic forcing uses both
+          sine in x and cosine in t. Both printed subparts checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: e883b37661e20f0a638ed6d51706e1be86f1619256822a92a94fbb3ec6fff785
+      '8':
+        unit: IB/methods/sheet-3/qx18
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+        page_render_sha256:
+        - a8a0b0d557c04ace3665bda6f1f5bbd5c683289f7ff1ad27b2fe711ab93b9c13
+        source_review: Includes the printed equation marker (*), point-mass jump,
+          incoming-wave sign, phases and both size regimes.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: ffef928105a217f80cf92efbc09a216cf3626e335c5d940e0a4d55b482cab6c1
+      '9':
+        unit: IB/methods/sheet-3/qx19
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+        page_render_sha256:
+        - a8a0b0d557c04ace3665bda6f1f5bbd5c683289f7ff1ad27b2fe711ab93b9c13
+        source_review: The printed reference points to the (*) equation in the preceding
+          wave-reflection question. Initial phase, string midpoint and impulse are
+          retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 730773ebee974ef9604bd040740a09dc7d8f3f6e98a03c9e3ab26247929aea97
+      '10':
+        unit: IB/methods/sheet-3/qx20
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 59f81da2fa45564b1ee336640b868176bbc203c67b9fb4fd3498068fa14d0d70
+        page_render_sha256:
+        - a8a0b0d557c04ace3665bda6f1f5bbd5c683289f7ff1ad27b2fe711ab93b9c13
+        source_review: Both integrals, the 1/2 prefactors, substitution sign, lower-case
+          “fourier” and both limiting variables were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f38e3a0a83289a751df30bba456b84eda7809d887b8a3fd328fca91ee1fb4bfc
+    printed_course_code: Course C10—No. B8
+    footer: †If you find any errors in the Methods Examples sheets, please inform
+      your supervisor or email c.p.caulfield@bpi.cam.ac.uk.
+    printed_margin_notice: Copyright © 2006 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    render_preparation: Ghostscript ps2pdf on original PostScript, followed by the
+      same PDFium scale-2.25 RGB page rendering; original checksums are for the unchanged
+      PS.
+  2007-08:
+    archive: raw/sheets/IB/methods/2007-08/sheet-3.pdf
+    sha256: ddd7227c69286c099efbae7e117fee04b4f89cc912082fd79ff30fb22f30dcba
+    url: https://web.archive.org/web/20081001012639id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:08:36.019309+00:00'
+    printed_term: Michaelmas term 2007
+    lecturer: Dr C. P. Caulfield
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2007-08/p1.png
+        sha256: e7ec5b42a4a5197a7165df708aa168cd6ae740e22258fa55f89d371b09e821f6
+      2:
+        path: 2007-08/p2.png
+        sha256: ba5eacd19a4cff3730e866b57f0f3e1dc5c174f489130042a277f6c3dadfba90
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      qx01:
+        heading: Laplace’s equation
+        restarts_numbering: false
+      qx14:
+        heading: Legendre polynomials
+        restarts_numbering: false
+      qx16:
+        heading: The one-dimensional wave equation
+        restarts_numbering: false
+      qx20:
+        heading: The heat equation
+        restarts_numbering: false
+    references:
+      qx19:
+      - printed: the wave equation (*) given above
+        target: IB/methods/sheet-3/qx18
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d46f41556b158224a334beaafcd5b1dd8c675f244d3ed78d48d1a484f57d2d87
+        page_render_sha256:
+        - e7ec5b42a4a5197a7165df708aa168cd6ae740e22258fa55f89d371b09e821f6
+        source_review: Double infinite sum with both odd indices, all six faces and
+          the squared separation constant were checked. The 2006 and 2007 pages add
+          the nonconstant face datum and the c-to-infinity limit.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c2ec169e2dcedb227aaef96ffd1bc3df973afa915514f320f5ae57ad77a00e8d
+      '2':
+        unit: IB/methods/sheet-3/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d89d3329211cb7906efea473d63eb64974ca3c78b570364cb7b3f07b19238ec2
+        page_render_sha256:
+        - e7ec5b42a4a5197a7165df708aa168cd6ae740e22258fa55f89d371b09e821f6
+        source_review: Checked the two half-open boundary arcs, odd Fourier modes,
+          complex substitution and bracketed geometric interpretation. The earlier
+          sheets print r ≤ 1 and the later sheets r < 1.
+        text: variants/2007-08/question.tex
+        verified_solution: history/verified-2006-07-d89d3329211c/solution.tex
+        verified_solution_sha256: da69e3a416ed0804c6448bab97731937eaa4fea46132ad014665d9f9442fef45
+      '3':
+        unit: IB/methods/sheet-3/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 54560e654fffe9bcdbdddc1566a0c05bda2bcdd58c91e9351793ef2de1b164c7
+        page_render_sha256:
+        - e7ec5b42a4a5197a7165df708aa168cd6ae740e22258fa55f89d371b09e821f6
+        source_review: Both conducting hemispheres, the opposite signs, first derivative
+          indices, integration bounds and normalization in the hint were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 995139772c432129b62da5ab033ac9d16166ba10182529aa2e195f135f30bedc
+      '4':
+        unit: IB/methods/sheet-3/qx14
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 62aac5eb4dbddf70b6e34190eef77737e34db1fbba5cb51317a096c5ca157782
+        page_render_sha256:
+        - e7ec5b42a4a5197a7165df708aa168cd6ae740e22258fa55f89d371b09e821f6
+        source_review: Unit weights, normalization with each integral equal to one,
+          “no summation”, both derivative subscripts and the Legendre integral checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6feca2e2c062b835c4bf6f8743a1b68ca722875d230d40c3600de5637b695019
+      '5':
+        unit: IB/methods/sheet-3/qx15
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+        page_render_sha256:
+        - e7ec5b42a4a5197a7165df708aa168cd6ae740e22258fa55f89d371b09e821f6
+        source_review: Both three-part columns, both hints, the endpoint value, two
+          integrals, and the Abramowitz & Stegun note are present.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 5de2ffeba4001ea0c6a87c966b534182f88c41fdb3f815ce7c1a2d93c120045f
+      '6':
+        unit: IB/methods/sheet-3/qx16
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+        page_render_sha256:
+        - ba5eacd19a4cff3730e866b57f0f3e1dc5c174f489130042a277f6c3dadfba90
+        source_review: Fixed endpoints, initial velocity rather than displacement,
+          odd modes and the denominator 960 were verified.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 3a28c79c3f6f0845009ddde00bd1e6f7591a5794c3fc05f8468c02c2ea02b084
+      '7':
+        unit: IB/methods/sheet-3/qx17
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+        page_render_sha256:
+        - ba5eacd19a4cff3730e866b57f0f3e1dc5c174f489130042a277f6c3dadfba90
+        source_review: The damping constant is πc/ell; the harmonic forcing uses both
+          sine in x and cosine in t. Both printed subparts checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: e883b37661e20f0a638ed6d51706e1be86f1619256822a92a94fbb3ec6fff785
+      '8':
+        unit: IB/methods/sheet-3/qx18
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+        page_render_sha256:
+        - ba5eacd19a4cff3730e866b57f0f3e1dc5c174f489130042a277f6c3dadfba90
+        source_review: Includes the printed equation marker (*), point-mass jump,
+          incoming-wave sign, phases and both size regimes.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: ffef928105a217f80cf92efbc09a216cf3626e335c5d940e0a4d55b482cab6c1
+      '9':
+        unit: IB/methods/sheet-3/qx19
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+        page_render_sha256:
+        - ba5eacd19a4cff3730e866b57f0f3e1dc5c174f489130042a277f6c3dadfba90
+        source_review: The printed reference points to the (*) equation in the preceding
+          wave-reflection question. Initial phase, string midpoint and impulse are
+          retained.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 730773ebee974ef9604bd040740a09dc7d8f3f6e98a03c9e3ab26247929aea97
+      '10':
+        unit: IB/methods/sheet-3/qx20
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 59f81da2fa45564b1ee336640b868176bbc203c67b9fb4fd3498068fa14d0d70
+        page_render_sha256:
+        - ba5eacd19a4cff3730e866b57f0f3e1dc5c174f489130042a277f6c3dadfba90
+        source_review: Both integrals, the 1/2 prefactors, substitution sign, lower-case
+          “fourier” and both limiting variables were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f38e3a0a83289a751df30bba456b84eda7809d887b8a3fd328fca91ee1fb4bfc
+    printed_course_code: Course C10—No. B8
+    footer: †If you find any errors in the Methods Examples sheets, please inform
+      your supervisor or email c.p.caulfield@bpi.cam.ac.uk.
+    printed_margin_notice: Copyright © 2007 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2015-16:
+    archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    url: https://dec41.user.srcf.net/notes/IB_M/methods_eg.pdf
+    fetched_at: '2026-11-20T12:45:05.960820+00:00'
+    printed_term: Michaelmas term 2015
+    lecturer: Dr. D. Skinner
+    date_provenance: Verified printed Michaelmas heading on physical page 5.
+    archive_page_count: 8
+    sheet_pages:
+    - 5
+    - 6
+    rendered_pages:
+      5:
+        path: 2015-16/p5.png
+        sha256: 4f319bfd3a411f3420d53d152502e4567e88811502072e5e894c0a5eda7213ee
+      6:
+        path: 2015-16/p6.png
+        sha256: 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q05:
+        heading: Green’s functions
+        restarts_numbering: false
+      q02:
+        heading: The Dirac delta function
+        restarts_numbering: false
+      qx29:
+        heading: Fourier transforms
+        restarts_numbering: false
+    references: {}
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q05
+        original_question: '1'
+        printed_label: '1.'
+        page: 5
+        pages:
+        - 5
+        question_sha256: 5f7473254cd960aeb95d9ad09fa7c8451417ef2cecd5778ba70b19a7d73b584a
+        page_render_sha256:
+        - 4f319bfd3a411f3420d53d152502e4567e88811502072e5e894c0a5eda7213ee
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '2':
+        unit: IB/methods/sheet-3/q04
+        original_question: '2'
+        printed_label: '2.'
+        page: 5
+        pages:
+        - 5
+        question_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+        page_render_sha256:
+        - 4f319bfd3a411f3420d53d152502e4567e88811502072e5e894c0a5eda7213ee
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-7862e20b0782/solution.tex
+        verified_solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+      '3':
+        unit: IB/methods/sheet-3/qx23
+        original_question: '3'
+        printed_label: '3.'
+        page: 5
+        pages:
+        - 5
+        question_sha256: 62febfcec83d3009cca6f7cbbffbf84410d21d98e5c398a157e4dce83c8c606b
+        page_render_sha256:
+        - 4f319bfd3a411f3420d53d152502e4567e88811502072e5e894c0a5eda7213ee
+        source_review: Checked the factor x⁻², point-source equation, weighted operator
+          and both boundedness conditions. The radius intervals and both branches
+          of the requested solution match this edition.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 66c819709f26a5b52e0edd44d78b25a6e8cdcdc63bd5148a02c09fd55bb082df
+      '4':
+        unit: IB/methods/sheet-3/qx27
+        original_question: '4'
+        printed_label: '4.'
+        page: 5
+        pages:
+        - 5
+        question_sha256: c36efd022a6b7bd255217adf56039ba718c2d27d612338ffc7f1b4c03a436664
+        page_render_sha256:
+        - 4f319bfd3a411f3420d53d152502e4567e88811502072e5e894c0a5eda7213ee
+        source_review: The four initial conditions, both branches and powers k⁻² and
+          k⁻³ were checked. The earlier edition asks for a solution and gives a homogeneous-solution
+          hint; later sheets request verification of an integral and a different hint.
+        printed_title_star: true
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-c36efd022a6b/solution.tex
+        verified_solution_sha256: 52f7a06d2fd4770f6a8aa6371e0d92f955ab4462774debbf5303632340f91b56
+      '5':
+        unit: IB/methods/sheet-3/q02
+        original_question: '5'
+        printed_label: '5.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: a57290c3bc08ee00d2de7ff5bcc63ed16e70739b9eb38cc7c806b5177f6503b6
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-a57290c3bc08/solution.tex
+        verified_solution_sha256: 404a80a3a74249a912f3c300582aa2d474f8a40bfe8a78aeccb7fd4613e90205
+      '6':
+        unit: IB/methods/sheet-3/q11
+        original_question: '6'
+        printed_label: '6.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 3eb8c801513d6239c7684a6de41c4e2bdbd141cefac1da4a6627159cab81ff42
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        printed_title_star: true
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-3eb8c801513d/solution.tex
+        verified_solution_sha256: 6f03c54c13b5f926f81e8843fada94297a11ae1593ac4d5ad09918d2df48d097
+      '7':
+        unit: IB/methods/sheet-3/qx29
+        original_question: '7'
+        printed_label: '7.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 12a2efdeef6716162613d33ad419592fb7b4d1e764e63926c85e66e2848997c8
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: Both (a) and (b), sign in the iterated-transform formula, the
+          convolution asterisk and the 1/(2π) factor were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f1a2fcfe1f9c528a5889739037f586c95905c5a69566b02770e57a64a93bd348
+      '8':
+        unit: IB/methods/sheet-3/qx25
+        original_question: '8'
+        printed_label: '8.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: Right-hand and left-hand branches, numerator sign, and the
+          separate inversion question at the discontinuity checked. Retained the comment
+          about Complex Methods.
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-1983d679609e/solution.tex
+        verified_solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+      '9':
+        unit: IB/methods/sheet-3/qx24
+        original_question: '9'
+        printed_label: '9.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 36464bc6b417abea95b8a9011b5a83c212ef19537d6126b2bee879f71364c7c0
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: The shift, factor n/√π, Gaussian exponent, two sketch requests,
+          integral and large-n question were checked. The differentiation wording
+          and shift conditions vary by edition.
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-36464bc6b417/solution.tex
+        verified_solution_sha256: 64ff97c3c7da6dc258bca30b521d2dc585d71e4b477a9132077a2d84f6c0f12e
+      '10':
+        unit: IB/methods/sheet-3/qx30
+        original_question: '10'
+        printed_label: '10.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 7dbbccaa40d66405fc16825fe8380acd5dd69ec0a5f8f1eab288a0b9a7443ef0
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: Both (a) and (b), 2N²−N, N=2ᵐ, the underlined vector, even/odd
+          hint, asymptotic term and exact operation count request were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f400c8667d663cb278539879057cb6e1655b46e17e2898fd1876e8c11ccee32e
+      '11':
+        unit: IB/methods/sheet-3/q09
+        original_question: '11'
+        printed_label: '11.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 7f13382206a098931414b4bc58cd0881f6a43e9d3f8df1b00de68e6bdce1d422
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: variants/2015-16/question.tex
+        verified_solution: history/verified-2015-16-7f13382206a0/solution.tex
+        verified_solution_sha256: f2a673fae277cb46ead20cb81e639342e78f5c098bff1ba85bca846a19270146
+      '12':
+        unit: IB/methods/sheet-3/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 6
+        pages:
+        - 6
+        question_sha256: 314871c08f1697402d541446b0947a87305830f7079875d8aa7febee0cd2f3f6
+        page_render_sha256:
+        - 71aaba00646b5523ce0390448ab378c5d0938f4d78bdbceca76588f4d6030b95
+        source_review: Checked the signs of the inverse transform, piecewise frequency
+          bounds, and both strip boundaries. The 2015 and 2016 printings vary alpha;
+          the 2016 text prescribes a real codomain. Later sheets explicitly cite the
+          2004 Tripos source.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 2f36bdba8132f1c443b3af7461b49a8e715e09b9c977cdd28ad5070248a8790a
+    printed_course_code: Course C10—No. B8
+    printed_margin_notice: Copyright © 2015 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2016-17:
+    archive: raw/sheets/IB/methods/2016-17/sheet-3.pdf
+    sha256: 859dd927cad5444ffe62e7bda99260fdea7493dfe25bdadbbe04754b063226c0
+    url: https://www.damtp.cam.ac.uk/user/dbs26/1BMethods/probs3.pdf
+    fetched_at: '2026-11-20T12:44:59.336881+00:00'
+    printed_term: Michaelmas 2016
+    lecturer: David Skinner
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 3
+    sheet_pages:
+    - 1
+    - 2
+    - 3
+    rendered_pages:
+      1:
+        path: 2016-17/p1.png
+        sha256: c44f84a3dcf96608a6a14e6eb4f5996d12782e8918e49cb412ffe0cd7aae49f7
+      2:
+        path: 2016-17/p2.png
+        sha256: 8e038492a0c6773e40b30c6e473945218f631dc7e0679c3887ad11192b974f12
+      3:
+        path: 2016-17/p3.png
+        sha256: 1d5d5d713489936b90c3bca887bafb6049b956ad2c6d52ec0e62ddbecd755de5
+    printed_title: 1B Methods – Example Sheet 3
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question: {}
+    references: {}
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/qx21
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: bac0a76a41a0bd7bc8bae9a27d72c877ed1a36634479d2dfda52911fa760a0bf
+        page_render_sha256:
+        - c44f84a3dcf96608a6a14e6eb4f5996d12782e8918e49cb412ffe0cd7aae49f7
+        source_review: First derivative product and the general nth derivative request
+          checked, including regularity and test-function method.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: ad7f54c6bd2cc9299c933dc243e71178d62d4e802b75257a2f4830c380c96544
+      '2':
+        unit: IB/methods/sheet-3/qx22
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 624711a7239473ee968d7b9d004b152552b3ceeb14340345dddf15be9582b2c6
+        page_render_sha256:
+        - c44f84a3dcf96608a6a14e6eb4f5996d12782e8918e49cb412ffe0cd7aae49f7
+        source_review: The interval includes both ends; p has no printed restriction.
+          Retains “Why / why not?”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 1ac9f0b8af6ea7313546ab22927c47b9372acb5ca0d5ab17afbd9c974947bc23
+      '3':
+        unit: IB/methods/sheet-3/q05
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: c4321eada4ac48c4b694e0783e82897a66b06e2807640c21e7343120dcc94a99
+        page_render_sha256:
+        - c44f84a3dcf96608a6a14e6eb4f5996d12782e8918e49cb412ffe0cd7aae49f7
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: variants/2016-17/question.tex
+        verified_solution: history/verified-2016-17-c4321eada4ac/solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '4':
+        unit: IB/methods/sheet-3/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 914c3ed94fc914de85ef2f7e4f4fe454a03774307f858f8e5b1887b362140bc4
+        page_render_sha256:
+        - c44f84a3dcf96608a6a14e6eb4f5996d12782e8918e49cb412ffe0cd7aae49f7
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2016-17/question.tex
+        verified_solution: history/verified-2016-17-914c3ed94fc9/solution.tex
+        verified_solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+      '5':
+        unit: IB/methods/sheet-3/qx23
+        original_question: '5'
+        printed_label: '5.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b779fe64f10f098838f293128084394123ad8c91b91d223c68f72c8c559504a1
+        page_render_sha256:
+        - 8e038492a0c6773e40b30c6e473945218f631dc7e0679c3887ad11192b974f12
+        source_review: Checked the factor x⁻², point-source equation, weighted operator
+          and both boundedness conditions. The radius intervals and both branches
+          of the requested solution match this edition.
+        text: variants/2016-17/question.tex
+        verified_solution: history/verified-2016-17-b779fe64f10f/solution.tex
+        verified_solution_sha256: 66c819709f26a5b52e0edd44d78b25a6e8cdcdc63bd5148a02c09fd55bb082df
+      '6':
+        unit: IB/methods/sheet-3/qx24
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 29bcf9dc87d60aa09f3f3799f2c960570427f0909ec2f9e032a4670592169781
+        page_render_sha256:
+        - 8e038492a0c6773e40b30c6e473945218f631dc7e0679c3887ad11192b974f12
+        source_review: The shift, factor n/√π, Gaussian exponent, two sketch requests,
+          integral and large-n question were checked. The differentiation wording
+          and shift conditions vary by edition.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 64ff97c3c7da6dc258bca30b521d2dc585d71e4b477a9132077a2d84f6c0f12e
+      '7':
+        unit: IB/methods/sheet-3/qx25
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 12d830d98581abd2970a68be85b7a1d7238ac311603faf6ab654b23e987030bc
+        page_render_sha256:
+        - 8e038492a0c6773e40b30c6e473945218f631dc7e0679c3887ad11192b974f12
+        source_review: Right-hand and left-hand branches, numerator sign, and the
+          separate inversion question at the discontinuity checked. Retained the comment
+          about Complex Methods.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+      '8':
+        unit: IB/methods/sheet-3/q09
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        - 3
+        question_sha256: bc84f2960087dc8ef3544d72a700d034370a7ac4d1d6fb234a5d3813facbe584
+        page_render_sha256:
+        - 8e038492a0c6773e40b30c6e473945218f631dc7e0679c3887ad11192b974f12
+        - 1d5d5d713489936b90c3bca887bafb6049b956ad2c6d52ec0e62ddbecd755de5
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: variants/2016-17/question.tex
+        verified_solution: history/verified-2016-17-bc84f2960087/solution.tex
+        verified_solution_sha256: f2a673fae277cb46ead20cb81e639342e78f5c098bff1ba85bca846a19270146
+      '9':
+        unit: IB/methods/sheet-3/qx26
+        original_question: '9'
+        printed_label: '9.'
+        page: 3
+        pages:
+        - 3
+        question_sha256: 6dcf8f4fd8002a1bc72885da89dea06e6fbdd0db9f8b263f0aa8a3705a9fe79f
+        page_render_sha256:
+        - 1d5d5d713489936b90c3bca887bafb6049b956ad2c6d52ec0e62ddbecd755de5
+        source_review: Checked the signs of the inverse transform, piecewise frequency
+          bounds, and both strip boundaries. The 2015 and 2016 printings vary alpha;
+          the 2016 text prescribes a real codomain. Later sheets explicitly cite the
+          2004 Tripos source.
+        text: variants/2016-17/question.tex
+        verified_solution: history/verified-2016-17-6dcf8f4fd800/solution.tex
+        verified_solution_sha256: e0c6528e50a5bd616d8cae71034f390952221a444a3509687324ad70773c6471
+    opening_rubric_tex: \emph{Please email me with any comments, particularly if you
+      spot an error. Problems marked with an asterisk $(*)$ are optional; only attempt
+      them if you have time.}
+    footer: David Skinner     d.b.skinner@damtp.cam.ac.uk
+  2018-19:
+    archive: raw/sheets/IB/methods/2018-19/sheet-3.pdf
+    sha256: 4f0feaece317a6196833f470f5d0593134a9c96d942d3d87703dde1d3e533c62
+    url: https://web.archive.org/web/20181220173022id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:08:53.579746+00:00'
+    printed_term: Michaelmas term 2018
+    lecturer: Professor C. P. Caulfield
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2018-19/p1.png
+        sha256: 635a175d3aefd666c24ed3fab5033b1ba2b0029bea0ac45477f28607c2c054f9
+      2:
+        path: 2018-19/p2.png
+        sha256: c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q05:
+        heading: Green’s functions
+        restarts_numbering: false
+      q02:
+        heading: The Dirac delta function
+        restarts_numbering: false
+      q06:
+        heading: Fourier transforms
+        restarts_numbering: false
+    references:
+      qx26:
+      - printed: 2004/4/II/15A
+        target: IB/2004/P4/q15A
+        archive: raw/tripos/IB/2004/P4.pdf
+        page: 6
+        source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+        source_page_render_sha256: b752e948b29e1b42961e6a76dd74f9fce9b4ed339daaf94200ce921426fa73d0
+        render_scale: 1.45
+        review: Printed heading 15A Complex Methods; both strip transform computations
+          occur here. The historical exam displays the opposite sign in the inverse
+          transform and overlapping endpoint conditions. The question wording is independently
+          preserved.
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q05
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 5f7473254cd960aeb95d9ad09fa7c8451417ef2cecd5778ba70b19a7d73b584a
+        page_render_sha256:
+        - 635a175d3aefd666c24ed3fab5033b1ba2b0029bea0ac45477f28607c2c054f9
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '2':
+        unit: IB/methods/sheet-3/q04
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+        page_render_sha256:
+        - 635a175d3aefd666c24ed3fab5033b1ba2b0029bea0ac45477f28607c2c054f9
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2015-16-7862e20b0782/solution.tex
+        verified_solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+      '3':
+        unit: IB/methods/sheet-3/qx23
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 62febfcec83d3009cca6f7cbbffbf84410d21d98e5c398a157e4dce83c8c606b
+        page_render_sha256:
+        - 635a175d3aefd666c24ed3fab5033b1ba2b0029bea0ac45477f28607c2c054f9
+        source_review: Checked the factor x⁻², point-source equation, weighted operator
+          and both boundedness conditions. The radius intervals and both branches
+          of the requested solution match this edition.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 66c819709f26a5b52e0edd44d78b25a6e8cdcdc63bd5148a02c09fd55bb082df
+      '4':
+        unit: IB/methods/sheet-3/qx27
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1dc8549397475ed8ed25754663a32f2bec77758d2d54750cd10df787c7e63d79
+        page_render_sha256:
+        - 635a175d3aefd666c24ed3fab5033b1ba2b0029bea0ac45477f28607c2c054f9
+        source_review: The four initial conditions, both branches and powers k⁻² and
+          k⁻³ were checked. The earlier edition asks for a solution and gives a homogeneous-solution
+          hint; later sheets request verification of an integral and a different hint.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 52f7a06d2fd4770f6a8aa6371e0d92f955ab4462774debbf5303632340f91b56
+      '5':
+        unit: IB/methods/sheet-3/q02
+        original_question: '5'
+        printed_label: '5.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: a57290c3bc08ee00d2de7ff5bcc63ed16e70739b9eb38cc7c806b5177f6503b6
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2015-16-a57290c3bc08/solution.tex
+        verified_solution_sha256: 404a80a3a74249a912f3c300582aa2d474f8a40bfe8a78aeccb7fd4613e90205
+      '6':
+        unit: IB/methods/sheet-3/q11
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 291dba3babad9c1b80e7447bf536728c70b2e1379ba07724be84d4be0cc9fa20
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        printed_title_star: true
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2018-19-291dba3babad/solution.tex
+        verified_solution_sha256: e2415e2cb0e01c8eab6d363e1cba5f5a2421bfb0c0402d0f6eef470d5003a1af
+      '7':
+        unit: IB/methods/sheet-3/q06
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2018-19-b6885a422550/solution.tex
+        verified_solution_sha256: 9516bba0bb974bc50844fd1a75b01049af8d0d0942214a9fcb12a432d7f68f93
+      '8':
+        unit: IB/methods/sheet-3/qx25
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: Right-hand and left-hand branches, numerator sign, and the
+          separate inversion question at the discontinuity checked. Retained the comment
+          about Complex Methods.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2015-16-1983d679609e/solution.tex
+        verified_solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+      '9':
+        unit: IB/methods/sheet-3/qx24
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 587be09e3949f07df6c9ebe6da670c392f0097f9ba9ad38606e102c9036f4179
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: The shift, factor n/√π, Gaussian exponent, two sketch requests,
+          integral and large-n question were checked. The differentiation wording
+          and shift conditions vary by edition.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2018-19-587be09e3949/solution.tex
+        verified_solution_sha256: 64ff97c3c7da6dc258bca30b521d2dc585d71e4b477a9132077a2d84f6c0f12e
+      '10':
+        unit: IB/methods/sheet-3/qx28
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: bbab761904651ae170ac47c51aa47425ce0aa88cd410576f356ae6190b5c2adb
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: Both finite sums, their differing indices m/n, h(t_m), the
+          tilde with subscript d, and 1/N checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 771111ea8f69ff8acaf54a7ad11b943c5ed3b41a7f736ececd9e8545748e4e9b
+      '11':
+        unit: IB/methods/sheet-3/q09
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 955d6b6c54d363b9a84bb0820b5861414e4d5cf11e9ad3d831a6e9659d9c8d13
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2018-19-955d6b6c54d3/solution.tex
+        verified_solution_sha256: f2a673fae277cb46ead20cb81e639342e78f5c098bff1ba85bca846a19270146
+      '12':
+        unit: IB/methods/sheet-3/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 19b4b439b88aef5a3f807d7e08c8b120b5e321cb2e29f063280dd622b96c16ae
+        page_render_sha256:
+        - c4da837246bc8454de1bea441473a5b2ef1f5ab02e59c75fb273bca1f738eb22
+        source_review: Checked the signs of the inverse transform, piecewise frequency
+          bounds, and both strip boundaries. The 2015 and 2016 printings vary alpha;
+          the 2016 text prescribes a real codomain. Later sheets explicitly cite the
+          2004 Tripos source.
+        text: variants/2018-19/question.tex
+        verified_solution: history/verified-2018-19-19b4b439b88a/solution.tex
+        verified_solution_sha256: 2f36bdba8132f1c443b3af7461b49a8e715e09b9c977cdd28ad5070248a8790a
+    printed_course_code: Course C10—No. B8
+    footer: †If you find any errors in the Methods Examples sheets, please inform
+      your supervisor or email c.p.caulfield@bpi.cam.ac.uk.
+    printed_margin_notice: Copyright © 2018 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2020-21:
+    archive: raw/sheets/IB/methods/2020-21/sheet-3.pdf
+    sha256: 0d3407ba86c4e2d99b3e7ed7b24991c8c83fb763e978f08cacdc1ac95ab56a0b
+    url: https://web.archive.org/web/20210422135425id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:08:57.363051+00:00'
+    printed_term: Michaelmas term 2020
+    lecturer: Professor E.P.S. Shellard
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2020-21/p1.png
+        sha256: 07345d8ad6b3446ea585ef9322fcca102200fda63ae86ec6d892c1cd2ebd6ef2
+      2:
+        path: 2020-21/p2.png
+        sha256: d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q05:
+        heading: Green’s functions
+        restarts_numbering: false
+      q02:
+        heading: The Dirac delta function
+        restarts_numbering: false
+      q06:
+        heading: Fourier transforms
+        restarts_numbering: false
+    references:
+      qx26:
+      - printed: 2004/4/II/15A
+        target: IB/2004/P4/q15A
+        archive: raw/tripos/IB/2004/P4.pdf
+        page: 6
+        source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+        source_page_render_sha256: b752e948b29e1b42961e6a76dd74f9fce9b4ed339daaf94200ce921426fa73d0
+        render_scale: 1.45
+        review: Printed heading 15A Complex Methods; both strip transform computations
+          occur here. The historical exam displays the opposite sign in the inverse
+          transform and overlapping endpoint conditions. The question wording is independently
+          preserved.
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q05
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 5f7473254cd960aeb95d9ad09fa7c8451417ef2cecd5778ba70b19a7d73b584a
+        page_render_sha256:
+        - 07345d8ad6b3446ea585ef9322fcca102200fda63ae86ec6d892c1cd2ebd6ef2
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '2':
+        unit: IB/methods/sheet-3/q04
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+        page_render_sha256:
+        - 07345d8ad6b3446ea585ef9322fcca102200fda63ae86ec6d892c1cd2ebd6ef2
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2015-16-7862e20b0782/solution.tex
+        verified_solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+      '3':
+        unit: IB/methods/sheet-3/qx23
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 62febfcec83d3009cca6f7cbbffbf84410d21d98e5c398a157e4dce83c8c606b
+        page_render_sha256:
+        - 07345d8ad6b3446ea585ef9322fcca102200fda63ae86ec6d892c1cd2ebd6ef2
+        source_review: Checked the factor x⁻², point-source equation, weighted operator
+          and both boundedness conditions. The radius intervals and both branches
+          of the requested solution match this edition.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 66c819709f26a5b52e0edd44d78b25a6e8cdcdc63bd5148a02c09fd55bb082df
+      '4':
+        unit: IB/methods/sheet-3/qx27
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1dc8549397475ed8ed25754663a32f2bec77758d2d54750cd10df787c7e63d79
+        page_render_sha256:
+        - 07345d8ad6b3446ea585ef9322fcca102200fda63ae86ec6d892c1cd2ebd6ef2
+        source_review: The four initial conditions, both branches and powers k⁻² and
+          k⁻³ were checked. The earlier edition asks for a solution and gives a homogeneous-solution
+          hint; later sheets request verification of an integral and a different hint.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 52f7a06d2fd4770f6a8aa6371e0d92f955ab4462774debbf5303632340f91b56
+      '5':
+        unit: IB/methods/sheet-3/q02
+        original_question: '5'
+        printed_label: '5.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: a57290c3bc08ee00d2de7ff5bcc63ed16e70739b9eb38cc7c806b5177f6503b6
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2015-16-a57290c3bc08/solution.tex
+        verified_solution_sha256: 404a80a3a74249a912f3c300582aa2d474f8a40bfe8a78aeccb7fd4613e90205
+      '6':
+        unit: IB/methods/sheet-3/q11
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 291dba3babad9c1b80e7447bf536728c70b2e1379ba07724be84d4be0cc9fa20
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        printed_title_star: true
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2018-19-291dba3babad/solution.tex
+        verified_solution_sha256: e2415e2cb0e01c8eab6d363e1cba5f5a2421bfb0c0402d0f6eef470d5003a1af
+      '7':
+        unit: IB/methods/sheet-3/q06
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2018-19-b6885a422550/solution.tex
+        verified_solution_sha256: 9516bba0bb974bc50844fd1a75b01049af8d0d0942214a9fcb12a432d7f68f93
+      '8':
+        unit: IB/methods/sheet-3/qx25
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: Right-hand and left-hand branches, numerator sign, and the
+          separate inversion question at the discontinuity checked. Retained the comment
+          about Complex Methods.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2015-16-1983d679609e/solution.tex
+        verified_solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+      '9':
+        unit: IB/methods/sheet-3/qx24
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 587be09e3949f07df6c9ebe6da670c392f0097f9ba9ad38606e102c9036f4179
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: The shift, factor n/√π, Gaussian exponent, two sketch requests,
+          integral and large-n question were checked. The differentiation wording
+          and shift conditions vary by edition.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2018-19-587be09e3949/solution.tex
+        verified_solution_sha256: 64ff97c3c7da6dc258bca30b521d2dc585d71e4b477a9132077a2d84f6c0f12e
+      '10':
+        unit: IB/methods/sheet-3/qx28
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: bbab761904651ae170ac47c51aa47425ce0aa88cd410576f356ae6190b5c2adb
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: Both finite sums, their differing indices m/n, h(t_m), the
+          tilde with subscript d, and 1/N checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 771111ea8f69ff8acaf54a7ad11b943c5ed3b41a7f736ececd9e8545748e4e9b
+      '11':
+        unit: IB/methods/sheet-3/q09
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 955d6b6c54d363b9a84bb0820b5861414e4d5cf11e9ad3d831a6e9659d9c8d13
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2018-19-955d6b6c54d3/solution.tex
+        verified_solution_sha256: f2a673fae277cb46ead20cb81e639342e78f5c098bff1ba85bca846a19270146
+      '12':
+        unit: IB/methods/sheet-3/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 19b4b439b88aef5a3f807d7e08c8b120b5e321cb2e29f063280dd622b96c16ae
+        page_render_sha256:
+        - d506db3d3c10084faffcb6233fa7b024990011946f121ea0e710374db237dafb
+        source_review: Checked the signs of the inverse transform, piecewise frequency
+          bounds, and both strip boundaries. The 2015 and 2016 printings vary alpha;
+          the 2016 text prescribes a real codomain. Later sheets explicitly cite the
+          2004 Tripos source.
+        text: variants/2020-21/question.tex
+        verified_solution: history/verified-2018-19-19b4b439b88a/solution.tex
+        verified_solution_sha256: 2f36bdba8132f1c443b3af7461b49a8e715e09b9c977cdd28ad5070248a8790a
+    footer: †If you find any errors in the Methods Examples sheets, please inform
+      your supervisor or email epss@damtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2020 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2021-22:
+    archive: raw/sheets/IB/methods/2021-22/sheet-3.pdf
+    sha256: e6907e9797118986dd5be4e30e7c1b38ce2ecad3ff821ec7d41a8532a50077a6
+    url: https://web.archive.org/web/20221007100701id_/https://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:09:11.001005+00:00'
+    printed_term: Michaelmas term 2021
+    lecturer: Professor E.P.S. Shellard
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2021-22/p1.png
+        sha256: d4858ef8d685feb3e8260a69dc30b53fa6c5645c546d3db3002f926c869ad16b
+      2:
+        path: 2021-22/p2.png
+        sha256: 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q05:
+        heading: Green’s functions
+        restarts_numbering: false
+      q02:
+        heading: The Dirac delta function
+        restarts_numbering: false
+      q06:
+        heading: Fourier transforms
+        restarts_numbering: false
+    references:
+      qx26:
+      - printed: 2004/4/II/15A
+        target: IB/2004/P4/q15A
+        archive: raw/tripos/IB/2004/P4.pdf
+        page: 6
+        source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+        source_page_render_sha256: b752e948b29e1b42961e6a76dd74f9fce9b4ed339daaf94200ce921426fa73d0
+        render_scale: 1.45
+        review: Printed heading 15A Complex Methods; both strip transform computations
+          occur here. The historical exam displays the opposite sign in the inverse
+          transform and overlapping endpoint conditions. The question wording is independently
+          preserved.
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q05
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 5f7473254cd960aeb95d9ad09fa7c8451417ef2cecd5778ba70b19a7d73b584a
+        page_render_sha256:
+        - d4858ef8d685feb3e8260a69dc30b53fa6c5645c546d3db3002f926c869ad16b
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '2':
+        unit: IB/methods/sheet-3/q04
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+        page_render_sha256:
+        - d4858ef8d685feb3e8260a69dc30b53fa6c5645c546d3db3002f926c869ad16b
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2015-16-7862e20b0782/solution.tex
+        verified_solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+      '3':
+        unit: IB/methods/sheet-3/qx23
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 62febfcec83d3009cca6f7cbbffbf84410d21d98e5c398a157e4dce83c8c606b
+        page_render_sha256:
+        - d4858ef8d685feb3e8260a69dc30b53fa6c5645c546d3db3002f926c869ad16b
+        source_review: Checked the factor x⁻², point-source equation, weighted operator
+          and both boundedness conditions. The radius intervals and both branches
+          of the requested solution match this edition.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 66c819709f26a5b52e0edd44d78b25a6e8cdcdc63bd5148a02c09fd55bb082df
+      '4':
+        unit: IB/methods/sheet-3/qx27
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1dc8549397475ed8ed25754663a32f2bec77758d2d54750cd10df787c7e63d79
+        page_render_sha256:
+        - d4858ef8d685feb3e8260a69dc30b53fa6c5645c546d3db3002f926c869ad16b
+        source_review: The four initial conditions, both branches and powers k⁻² and
+          k⁻³ were checked. The earlier edition asks for a solution and gives a homogeneous-solution
+          hint; later sheets request verification of an integral and a different hint.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 52f7a06d2fd4770f6a8aa6371e0d92f955ab4462774debbf5303632340f91b56
+      '5':
+        unit: IB/methods/sheet-3/q02
+        original_question: '5'
+        printed_label: '5.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: a57290c3bc08ee00d2de7ff5bcc63ed16e70739b9eb38cc7c806b5177f6503b6
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2015-16-a57290c3bc08/solution.tex
+        verified_solution_sha256: 404a80a3a74249a912f3c300582aa2d474f8a40bfe8a78aeccb7fd4613e90205
+      '6':
+        unit: IB/methods/sheet-3/q11
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 291dba3babad9c1b80e7447bf536728c70b2e1379ba07724be84d4be0cc9fa20
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        printed_title_star: true
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2018-19-291dba3babad/solution.tex
+        verified_solution_sha256: e2415e2cb0e01c8eab6d363e1cba5f5a2421bfb0c0402d0f6eef470d5003a1af
+      '7':
+        unit: IB/methods/sheet-3/q06
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2018-19-b6885a422550/solution.tex
+        verified_solution_sha256: 9516bba0bb974bc50844fd1a75b01049af8d0d0942214a9fcb12a432d7f68f93
+      '8':
+        unit: IB/methods/sheet-3/qx25
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: Right-hand and left-hand branches, numerator sign, and the
+          separate inversion question at the discontinuity checked. Retained the comment
+          about Complex Methods.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2015-16-1983d679609e/solution.tex
+        verified_solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+      '9':
+        unit: IB/methods/sheet-3/qx24
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 587be09e3949f07df6c9ebe6da670c392f0097f9ba9ad38606e102c9036f4179
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: The shift, factor n/√π, Gaussian exponent, two sketch requests,
+          integral and large-n question were checked. The differentiation wording
+          and shift conditions vary by edition.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2018-19-587be09e3949/solution.tex
+        verified_solution_sha256: 64ff97c3c7da6dc258bca30b521d2dc585d71e4b477a9132077a2d84f6c0f12e
+      '10':
+        unit: IB/methods/sheet-3/qx28
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: bbab761904651ae170ac47c51aa47425ce0aa88cd410576f356ae6190b5c2adb
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: Both finite sums, their differing indices m/n, h(t_m), the
+          tilde with subscript d, and 1/N checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 771111ea8f69ff8acaf54a7ad11b943c5ed3b41a7f736ececd9e8545748e4e9b
+      '11':
+        unit: IB/methods/sheet-3/q09
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 955d6b6c54d363b9a84bb0820b5861414e4d5cf11e9ad3d831a6e9659d9c8d13
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2018-19-955d6b6c54d3/solution.tex
+        verified_solution_sha256: f2a673fae277cb46ead20cb81e639342e78f5c098bff1ba85bca846a19270146
+      '12':
+        unit: IB/methods/sheet-3/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 19b4b439b88aef5a3f807d7e08c8b120b5e321cb2e29f063280dd622b96c16ae
+        page_render_sha256:
+        - 80a378d541934a1023488a43aebed9fec63dcc0b350dce013e3d4d2305832a10
+        source_review: Checked the signs of the inverse transform, piecewise frequency
+          bounds, and both strip boundaries. The 2015 and 2016 printings vary alpha;
+          the 2016 text prescribes a real codomain. Later sheets explicitly cite the
+          2004 Tripos source.
+        text: variants/2021-22/question.tex
+        verified_solution: history/verified-2018-19-19b4b439b88a/solution.tex
+        verified_solution_sha256: 2f36bdba8132f1c443b3af7461b49a8e715e09b9c977cdd28ad5070248a8790a
+    footer: †If you find any errors in the Methods Examples sheets, please inform
+      your supervisor or email epss@damtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2021 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2022-23:
+    archive: raw/sheets/IB/methods/2022-23/sheet-3.pdf
+    sha256: 9d4b22eca0ffbc957b5a3a0eeec9d7fe122d47e51ee672fa0a89d98ba13fd7d2
+    url: https://web.archive.org/web/20230117061407id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:09:21.267327+00:00'
+    printed_term: Michaelmas term 2022
+    lecturer: Professor E.P.S. Shellard
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2022-23/p1.png
+        sha256: 9ebb5652ca2c09e3adedad8a6bd5dbb3802ffd0f4aeae3567af5539799b2c69c
+      2:
+        path: 2022-23/p2.png
+        sha256: d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+    printed_title: METHODS — EXAMPLES III
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q05:
+        heading: Green’s functions
+        restarts_numbering: false
+      q02:
+        heading: The Dirac delta function
+        restarts_numbering: false
+      q06:
+        heading: Fourier transforms
+        restarts_numbering: false
+    references:
+      qx26:
+      - printed: 2004/4/II/15A
+        target: IB/2004/P4/q15A
+        archive: raw/tripos/IB/2004/P4.pdf
+        page: 6
+        source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+        source_page_render_sha256: b752e948b29e1b42961e6a76dd74f9fce9b4ed339daaf94200ce921426fa73d0
+        render_scale: 1.45
+        review: Printed heading 15A Complex Methods; both strip transform computations
+          occur here. The historical exam displays the opposite sign in the inverse
+          transform and overlapping endpoint conditions. The question wording is independently
+          preserved.
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q05
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 5f7473254cd960aeb95d9ad09fa7c8451417ef2cecd5778ba70b19a7d73b584a
+        page_render_sha256:
+        - 9ebb5652ca2c09e3adedad8a6bd5dbb3802ffd0f4aeae3567af5539799b2c69c
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '2':
+        unit: IB/methods/sheet-3/q04
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+        page_render_sha256:
+        - 9ebb5652ca2c09e3adedad8a6bd5dbb3802ffd0f4aeae3567af5539799b2c69c
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2015-16-7862e20b0782/solution.tex
+        verified_solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+      '3':
+        unit: IB/methods/sheet-3/qx23
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 62febfcec83d3009cca6f7cbbffbf84410d21d98e5c398a157e4dce83c8c606b
+        page_render_sha256:
+        - 9ebb5652ca2c09e3adedad8a6bd5dbb3802ffd0f4aeae3567af5539799b2c69c
+        source_review: Checked the factor x⁻², point-source equation, weighted operator
+          and both boundedness conditions. The radius intervals and both branches
+          of the requested solution match this edition.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 66c819709f26a5b52e0edd44d78b25a6e8cdcdc63bd5148a02c09fd55bb082df
+      '4':
+        unit: IB/methods/sheet-3/qx27
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1dc8549397475ed8ed25754663a32f2bec77758d2d54750cd10df787c7e63d79
+        page_render_sha256:
+        - 9ebb5652ca2c09e3adedad8a6bd5dbb3802ffd0f4aeae3567af5539799b2c69c
+        source_review: The four initial conditions, both branches and powers k⁻² and
+          k⁻³ were checked. The earlier edition asks for a solution and gives a homogeneous-solution
+          hint; later sheets request verification of an integral and a different hint.
+        printed_title_star: true
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 52f7a06d2fd4770f6a8aa6371e0d92f955ab4462774debbf5303632340f91b56
+      '5':
+        unit: IB/methods/sheet-3/q02
+        original_question: '5'
+        printed_label: '5.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: a57290c3bc08ee00d2de7ff5bcc63ed16e70739b9eb38cc7c806b5177f6503b6
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2015-16-a57290c3bc08/solution.tex
+        verified_solution_sha256: 404a80a3a74249a912f3c300582aa2d474f8a40bfe8a78aeccb7fd4613e90205
+      '6':
+        unit: IB/methods/sheet-3/q11
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 291dba3babad9c1b80e7447bf536728c70b2e1379ba07724be84d4be0cc9fa20
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        printed_title_star: true
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2018-19-291dba3babad/solution.tex
+        verified_solution_sha256: e2415e2cb0e01c8eab6d363e1cba5f5a2421bfb0c0402d0f6eef470d5003a1af
+      '7':
+        unit: IB/methods/sheet-3/q06
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2018-19-b6885a422550/solution.tex
+        verified_solution_sha256: 9516bba0bb974bc50844fd1a75b01049af8d0d0942214a9fcb12a432d7f68f93
+      '8':
+        unit: IB/methods/sheet-3/qx25
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: Right-hand and left-hand branches, numerator sign, and the
+          separate inversion question at the discontinuity checked. Retained the comment
+          about Complex Methods.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2015-16-1983d679609e/solution.tex
+        verified_solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+      '9':
+        unit: IB/methods/sheet-3/qx24
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 587be09e3949f07df6c9ebe6da670c392f0097f9ba9ad38606e102c9036f4179
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: The shift, factor n/√π, Gaussian exponent, two sketch requests,
+          integral and large-n question were checked. The differentiation wording
+          and shift conditions vary by edition.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2018-19-587be09e3949/solution.tex
+        verified_solution_sha256: 64ff97c3c7da6dc258bca30b521d2dc585d71e4b477a9132077a2d84f6c0f12e
+      '10':
+        unit: IB/methods/sheet-3/qx28
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: bbab761904651ae170ac47c51aa47425ce0aa88cd410576f356ae6190b5c2adb
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: Both finite sums, their differing indices m/n, h(t_m), the
+          tilde with subscript d, and 1/N checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 771111ea8f69ff8acaf54a7ad11b943c5ed3b41a7f736ececd9e8545748e4e9b
+      '11':
+        unit: IB/methods/sheet-3/q09
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 955d6b6c54d363b9a84bb0820b5861414e4d5cf11e9ad3d831a6e9659d9c8d13
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2018-19-955d6b6c54d3/solution.tex
+        verified_solution_sha256: f2a673fae277cb46ead20cb81e639342e78f5c098bff1ba85bca846a19270146
+      '12':
+        unit: IB/methods/sheet-3/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 19b4b439b88aef5a3f807d7e08c8b120b5e321cb2e29f063280dd622b96c16ae
+        page_render_sha256:
+        - d44baf4323431a5c8752c35c90f293468c6be510dc7ab1ed5728caad77ee24ee
+        source_review: Checked the signs of the inverse transform, piecewise frequency
+          bounds, and both strip boundaries. The 2015 and 2016 printings vary alpha;
+          the 2016 text prescribes a real codomain. Later sheets explicitly cite the
+          2004 Tripos source.
+        text: variants/2022-23/question.tex
+        verified_solution: history/verified-2018-19-19b4b439b88a/solution.tex
+        verified_solution_sha256: 2f36bdba8132f1c443b3af7461b49a8e715e09b9c977cdd28ad5070248a8790a
+    footer: †If you find any errors in the Methods Examples sheets, please inform
+      your supervisor or email epss@damtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2022 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2023-24:
+    archive: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    url: https://web.archive.org/web/20231205153125id_/https://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:09:27.546922+00:00'
+    printed_term: Michaelmas 2023
+    lecturer: Dr A.C.L. Ashton
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2023-24/p1.png
+        sha256: 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+      2:
+        path: 2023-24/p2.png
+        sha256: 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+    printed_title: Methods, Example Sheet 3
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q11:
+        heading: Additional problems
+        wording_tex: \emph{These questions should \textbf{not} be attempted at the
+          expense of earlier ones.}
+        restarts_numbering: false
+    references:
+      q07:
+      - printed: the previous question
+        target: IB/methods/sheet-3/q06
+      q11:
+      - printed: question 2
+        target: IB/methods/sheet-3/q02
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 356b5b24c908a6a1595175ac7c5258228a2a48d5414597355deac822e4483d74
+        page_render_sha256:
+        - 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+        source_review: All approximate-identity conditions and delta identities were
+          compared. The 2023 printing omits the non-negativity requirement and orders
+          its quantifiers differently.
+        text: variants/2023-24/question.tex
+        verified_solution: history/verified-2023-24-356b5b24c908/solution.tex
+        verified_solution_sha256: d0bcebc74639578bd51f1128c511d6eaf98e0c9ec99bd5c83091e2f73e3d6788
+      '2':
+        unit: IB/methods/sheet-3/q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+        page_render_sha256:
+        - 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 8ba1711e041a6575acf49d91ee2e64ac282c18280eefec08df59eb60068c4f14
+      '3':
+        unit: IB/methods/sheet-3/q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+        page_render_sha256:
+        - 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+        source_review: The operator and two homogeneous boundary values were checked;
+          retains “to boundary value problem”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fe62b9de65e38ec3f166bf790500d4b4380af034b2c3b58033796f099725d9de
+      '4':
+        unit: IB/methods/sheet-3/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 3f833e46f1ea8681b838646b1e3c40caf9157df3e4719bf2436b9c4359320070
+        page_render_sha256:
+        - 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: variants/2023-24/question.tex
+        verified_solution: history/verified-2023-24-3f833e46f1ea/solution.tex
+        verified_solution_sha256: 6c4339fc6e22ab2b801d877ade50a782039579c29897a8c9716cf5142f67f552
+      '5':
+        unit: IB/methods/sheet-3/q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 27deda33b318011f29e8a94f14c0329e1bb989ee9e3e150652f0ca29d09287a1
+        page_render_sha256:
+        - 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: variants/2023-24/question.tex
+        verified_solution: history/verified-2023-24-27deda33b318/solution.tex
+        verified_solution_sha256: 65cc564eb1d0c944a81697fa0d5008a0f5f3d9a91b23292a5149bf965efcd59a
+      '6':
+        unit: IB/methods/sheet-3/q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+        page_render_sha256:
+        - 75844b34077fde0aa1fcf30bf249f4aaf7bf0fd63595a522d5f7248f0f098531
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f928b6c06154d1fc8898927f147c504aaff7f4bca925442c1c8930985feae8ca
+      '7':
+        unit: IB/methods/sheet-3/q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 500cf72b597d7198a76ac9d5bed258fe84c56d1a98b9464213145fc48c208923
+        page_render_sha256:
+        - 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+        source_review: All four functions and the printed comparison with the previous
+          question were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 21eab0b7e393e60243674587c14fac5965101a36af07387b0f53bc8f4f99f0ed
+      '8':
+        unit: IB/methods/sheet-3/q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+        page_render_sha256:
+        - 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+        source_review: Full n range, sum bounds, limiting power and the value 1/3
+          checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: da42ce18210be5627ee4162c4fd346bb3192358b649bf4eeb361e77266001c84
+      '9':
+        unit: IB/methods/sheet-3/q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1d27b9426f5a5ba8455e1f6e2c2c1b0c437decbc948367b0e5d89088a68202b4
+        page_render_sha256:
+        - 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 4f0592b4b728543b2766abc0ebe39620a7e1155ebb266557827c68ea55c28676
+      '10':
+        unit: IB/methods/sheet-3/q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9c4be558ca10d5cd88de7a34a74e5f42ff8fceee5ccf00927d2a446820458dcc
+        page_render_sha256:
+        - 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+        source_review: Checked both square root factors, αβ=2π, and each exponent
+          and constant in the final sum.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 022b1096134a328744f8c29f163fc8d967408747ed86ed4729ff54740f4bb1e6
+      '11':
+        unit: IB/methods/sheet-3/q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1a2f06ad7b67f773a05aac54c21b24c0a0910449a019af5bc2d02f3bad63d375
+        page_render_sha256:
+        - 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 44a6fd23da3569ccf06d7d33c8f7ff915e84a783fcd00c50cec7a10d7993bbbc
+      '12':
+        unit: IB/methods/sheet-3/q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+        page_render_sha256:
+        - 9b6b967cd51fc965e1548908a050f0fd9b1b21e03289c18180eabf8491efad71
+        source_review: Order n, initial conditions through n−1, and the printed wording
+          “for a n-times continuously differentiable functions” checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 972a700f972751af7e7025401ce229bdbaa7c5516e843ea14b8447a6e35ce303
+    opening_rubric_tex: \emph{Comments and corrections to acla2@damtp.cam.ac.uk. Sheet
+      with commentary available to supervisors.}
+    printed_margin_notice: Copyright © 2023 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2025-26:
+    archive: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    url: https://web.archive.org/web/20251125092819id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T12:44:32.680926+00:00'
+    printed_term: Michaelmas 2025
+    lecturer: Prof. A.C.L. Ashton
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2025-26/p1.png
+        sha256: 16bfcc9eb46825f4c2c5ae7870ab125d51a318be0777b96134d78138376b8a6e
+      2:
+        path: 2025-26/p2.png
+        sha256: e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+    printed_title: Methods, Example Sheet 3
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q11:
+        heading: Additional problems
+        wording_tex: \emph{These questions should \textbf{not} be attempted at the
+          expense of earlier ones.}
+        restarts_numbering: false
+    references:
+      q07:
+      - printed: the previous question
+        target: IB/methods/sheet-3/q06
+      q11:
+      - printed: question 2
+        target: IB/methods/sheet-3/q02
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 3a78dc6d6eca11c5c5a089491c7f25feae464b1c84980b2ff0815796f1bece69
+        page_render_sha256:
+        - 16bfcc9eb46825f4c2c5ae7870ab125d51a318be0777b96134d78138376b8a6e
+        source_review: All approximate-identity conditions and delta identities were
+          compared. The 2023 printing omits the non-negativity requirement and orders
+          its quantifiers differently.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 7ffd0dd34ebbf9bd64929677dcac03d8d7e53487b90e6b8ad6f03a19e1d4a5a2
+      '2':
+        unit: IB/methods/sheet-3/q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+        page_render_sha256:
+        - 16bfcc9eb46825f4c2c5ae7870ab125d51a318be0777b96134d78138376b8a6e
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 8ba1711e041a6575acf49d91ee2e64ac282c18280eefec08df59eb60068c4f14
+      '3':
+        unit: IB/methods/sheet-3/q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+        page_render_sha256:
+        - 16bfcc9eb46825f4c2c5ae7870ab125d51a318be0777b96134d78138376b8a6e
+        source_review: The operator and two homogeneous boundary values were checked;
+          retains “to boundary value problem”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fe62b9de65e38ec3f166bf790500d4b4380af034b2c3b58033796f099725d9de
+      '4':
+        unit: IB/methods/sheet-3/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+        page_render_sha256:
+        - 16bfcc9eb46825f4c2c5ae7870ab125d51a318be0777b96134d78138376b8a6e
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6c4339fc6e22ab2b801d877ade50a782039579c29897a8c9716cf5142f67f552
+      '5':
+        unit: IB/methods/sheet-3/q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: fb8c7aea11895e171e4cd68ed73d810ba7ea7fd673377ddbb8f414e3d22924af
+        page_render_sha256:
+        - 16bfcc9eb46825f4c2c5ae7870ab125d51a318be0777b96134d78138376b8a6e
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: variants/2025-26/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 9b4f9c119a4852496ce8516e5bec4cffbbf8bd18fd3c3d46a12f4e2c76312bb1
+      '6':
+        unit: IB/methods/sheet-3/q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f928b6c06154d1fc8898927f147c504aaff7f4bca925442c1c8930985feae8ca
+      '7':
+        unit: IB/methods/sheet-3/q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 500cf72b597d7198a76ac9d5bed258fe84c56d1a98b9464213145fc48c208923
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: All four functions and the printed comparison with the previous
+          question were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 21eab0b7e393e60243674587c14fac5965101a36af07387b0f53bc8f4f99f0ed
+      '8':
+        unit: IB/methods/sheet-3/q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: Full n range, sum bounds, limiting power and the value 1/3
+          checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: da42ce18210be5627ee4162c4fd346bb3192358b649bf4eeb361e77266001c84
+      '9':
+        unit: IB/methods/sheet-3/q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1d27b9426f5a5ba8455e1f6e2c2c1b0c437decbc948367b0e5d89088a68202b4
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 4f0592b4b728543b2766abc0ebe39620a7e1155ebb266557827c68ea55c28676
+      '10':
+        unit: IB/methods/sheet-3/q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9c4be558ca10d5cd88de7a34a74e5f42ff8fceee5ccf00927d2a446820458dcc
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: Checked both square root factors, αβ=2π, and each exponent
+          and constant in the final sum.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 022b1096134a328744f8c29f163fc8d967408747ed86ed4729ff54740f4bb1e6
+      '11':
+        unit: IB/methods/sheet-3/q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1a2f06ad7b67f773a05aac54c21b24c0a0910449a019af5bc2d02f3bad63d375
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 44a6fd23da3569ccf06d7d33c8f7ff915e84a783fcd00c50cec7a10d7993bbbc
+      '12':
+        unit: IB/methods/sheet-3/q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+        page_render_sha256:
+        - e83b4d296e5c4dcff2f8b4725274bd079ff31d4731eb0dabe2140a93e4f2a91e
+        source_review: Order n, initial conditions through n−1, and the printed wording
+          “for a n-times continuously differentiable functions” checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 972a700f972751af7e7025401ce229bdbaa7c5516e843ea14b8447a6e35ce303
+    opening_rubric_tex: \emph{Comments and corrections to acla2@damtp.cam.ac.uk. Sheet
+      with commentary available to supervisors.}
+    printed_margin_notice: Copyright © 2025 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+  2026-27:
+    archive: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    url: https://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    fetched_at: '2026-11-20T15:08:00.552540+00:00'
+    printed_term: Michaelmas 2026
+    lecturer: Prof. A.C.L. Ashton
+    date_provenance: Verified printed Michaelmas heading on physical page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: 2026-27/p1.png
+        sha256: d8ee8bb13505389d99427eb123abdf97bf0a10937f3684195a3aeb3905ac4495
+      2:
+        path: 2026-27/p2.png
+        sha256: 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+    printed_title: Methods, Example Sheet 3
+    page_image_review: Checked printed title, date, labels, complete wording, equations,
+      inequalities, punctuation and subparts against rendered original pages. No printed
+      numerical marks or question diagrams.
+    before_question:
+      q11:
+        heading: Additional problems
+        wording_tex: \emph{These questions should \textbf{not} be attempted at the
+          expense of earlier ones.}
+        restarts_numbering: false
+    references:
+      q07:
+      - printed: the previous question
+        target: IB/methods/sheet-3/q06
+      q11:
+      - printed: question 2
+        target: IB/methods/sheet-3/q02
+    questions:
+      '1':
+        unit: IB/methods/sheet-3/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 3a78dc6d6eca11c5c5a089491c7f25feae464b1c84980b2ff0815796f1bece69
+        page_render_sha256:
+        - d8ee8bb13505389d99427eb123abdf97bf0a10937f3684195a3aeb3905ac4495
+        source_review: All approximate-identity conditions and delta identities were
+          compared. The 2023 printing omits the non-negativity requirement and orders
+          its quantifiers differently.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 7ffd0dd34ebbf9bd64929677dcac03d8d7e53487b90e6b8ad6f03a19e1d4a5a2
+      '2':
+        unit: IB/methods/sheet-3/q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 22a543eb6b29d9c2ce9634fa836de157ed23b91a5e09f7cdef1c776090d1535b
+        page_render_sha256:
+        - d8ee8bb13505389d99427eb123abdf97bf0a10937f3684195a3aeb3905ac4495
+        source_review: Both absolute-value denominators and the simple-zero condition
+          checked. Older editions ask for a weighted delta integral where recent ones
+          request the quadratic delta identity.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 8ba1711e041a6575acf49d91ee2e64ac282c18280eefec08df59eb60068c4f14
+      '3':
+        unit: IB/methods/sheet-3/q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+        page_render_sha256:
+        - d8ee8bb13505389d99427eb123abdf97bf0a10937f3684195a3aeb3905ac4495
+        source_review: The operator and two homogeneous boundary values were checked;
+          retains “to boundary value problem”.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: fe62b9de65e38ec3f166bf790500d4b4380af034b2c3b58033796f099725d9de
+      '4':
+        unit: IB/methods/sheet-3/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+        page_render_sha256:
+        - d8ee8bb13505389d99427eb123abdf97bf0a10937f3684195a3aeb3905ac4495
+        source_review: Checked operator sign, boundary values, integration ranges
+          and both kernel terms. The older versions use the opposite operator sign;
+          the 2023 version lacks the hint.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 6c4339fc6e22ab2b801d877ade50a782039579c29897a8c9716cf5142f67f552
+      '5':
+        unit: IB/methods/sheet-3/q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: fb8c7aea11895e171e4cd68ed73d810ba7ea7fd673377ddbb8f414e3d22924af
+        page_render_sha256:
+        - d8ee8bb13505389d99427eb123abdf97bf0a10937f3684195a3aeb3905ac4495
+        source_review: Checked ODE, initial conditions and convolution. The 2015/2016/2018–22
+          versions request an explicit transfer function. The 2023 page uses theta
+          throughout, while the 2025 and 2026 initial conditions print y.
+        text: variants/2026-27/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 9b4f9c119a4852496ce8516e5bec4cffbbf8bd18fd3c3d46a12f4e2c76312bb1
+      '6':
+        unit: IB/methods/sheet-3/q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: The four functions, signs and support endpoints were checked.
+          The bound is strict in the older printing.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f928b6c06154d1fc8898927f147c504aaff7f4bca925442c1c8930985feae8ca
+      '7':
+        unit: IB/methods/sheet-3/q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 500cf72b597d7198a76ac9d5bed258fe84c56d1a98b9464213145fc48c208923
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: All four functions and the printed comparison with the previous
+          question were checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 21eab0b7e393e60243674587c14fac5965101a36af07387b0f53bc8f4f99f0ed
+      '8':
+        unit: IB/methods/sheet-3/q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 64c705825681454c29a0e681a0ae7a8f7e59dd51ca26dfb49479e30141c38b85
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: Full n range, sum bounds, limiting power and the value 1/3
+          checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: da42ce18210be5627ee4162c4fd346bb3192358b649bf4eeb361e77266001c84
+      '9':
+        unit: IB/methods/sheet-3/q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1d27b9426f5a5ba8455e1f6e2c2c1b0c437decbc948367b0e5d89088a68202b4
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: The support, derivative, both numerators, common squared denominator
+          and integral values were checked. The 2016 printing crosses a physical page
+          boundary. Older scalings give π/4, later scalings π²/8.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 4f0592b4b728543b2766abc0ebe39620a7e1155ebb266557827c68ea55c28676
+      '10':
+        unit: IB/methods/sheet-3/q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9c4be558ca10d5cd88de7a34a74e5f42ff8fceee5ccf00927d2a446820458dcc
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: Checked both square root factors, αβ=2π, and each exponent
+          and constant in the final sum.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 022b1096134a328744f8c29f163fc8d967408747ed86ed4729ff54740f4bb1e6
+      '11':
+        unit: IB/methods/sheet-3/q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1a2f06ad7b67f773a05aac54c21b24c0a0910449a019af5bc2d02f3bad63d375
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: Two delta arguments, the differentiated delta, integration
+          order and subtraction sign checked. In 2015 the polar proof includes a limit
+          assumption at r=0; modern editions request two proofs.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 44a6fd23da3569ccf06d7d33c8f7ff915e84a783fcd00c50cec7a10d7993bbbc
+      '12':
+        unit: IB/methods/sheet-3/q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+        page_render_sha256:
+        - 1f360f407076ae6f1172fd3d22943faf7f3330babfbe5cff38aa07ecd030b72f
+        source_review: Order n, initial conditions through n−1, and the printed wording
+          “for a n-times continuously differentiable functions” checked.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 972a700f972751af7e7025401ce229bdbaa7c5516e843ea14b8447a6e35ce303
+    opening_rubric_tex: \emph{Comments and corrections to acla2@damtp.cam.ac.uk. Sheet
+      with commentary available to supervisors.}
+source_verification_manifest_sha256: 7b4bed9705a98202e273673350c675192fc9a2c0cf8038db8b61549dbaa1b0e1
+independent_whitespace_originals:
+  b1bbf53bbfb38185e3491cf4484d4e1c1252bbcbe2cf1ee76be9f8af52c310c2:
+    published_evidence: qx24/history/verified-2018-19-587be09e3949/independent-solution.md
+    frozen_utf8_json: '"Use $\\widehat f(k)=\\int f(x)e^{-ikx}dx$. For $g(x)=e^{-n^2x^2}$
+      with $n$ real and nonzero, $g''=-2n^2xg$. Integration by parts gives $\\widehat{g''}=ik\\widehat
+      g$ and differentiation under the integral gives $\\widehat{xg}=i\\partial_k\\widehat
+      g$; both operations are justified by Gaussian decay. Hence $\\widehat g''=-(k/(2n^2))\\widehat
+      g$. The Gaussian integral gives $\\widehat g(0)=\\sqrt\\pi/|n|$, so translation
+      by a real $\\mu$ yields\n$$\n \\widehat f(k)=\\frac{\\sqrt\\pi}{|n|}\\exp[-k^2/(4n^2)]e^{-ik\\mu}.\n$$\nFor
+      the approximate identity take $n>0$. Then $\\delta_n=n e^{-n^2x^2}/\\sqrt\\pi$
+      has area one and $\\widehat\\delta_n(k)=e^{-k^2/(4n^2)}$. Both sketches are
+      even bells decreasing strictly for positive argument with horizontal asymptotes
+      at zero. The following peak and one-e-fold points set the horizontal and vertical
+      scales for a sketch:\n \n| curve | value at centre | left, right one-e-fold
+      abscissas | small positive $n$ | large positive $n$ |\n| --- | --- | --- | ---
+      | --- |\n| $\\delta_n(x)$ | $n/\\sqrt\\pi$ | $-1/n,1/n$ | low and broad | high
+      and narrow |\n| $\\widehat\\delta_n(k)$ | $1$ | $-2n,2n$ | narrow bell | broad
+      bell |\n \nFor example, these sketches use $s$ for $n=1/2$, $L$ for $n=2$ and
+      an asterisk for overlap (independent vertical scales).\n\n```text\nphysical
+      space, x\n |                        L\n |                       L L\n |\n |                      L   L\n
+      |                     L     L\n |                    sssssssss\n |           sssssssssL       Lsssssssss\n
+      |***********LLLLLLLLL         LLLLLLLLL***********\n +-------------------------------------------------\n  -4                     0                       4\n\nfrequency
+      space, k\n |                     LLL*LLL\n |                   LL  s s  LL\n
+      |                 LL           LL\n |               LL     s   s     LL\n |            LLL      s     s      LLL\n
+      |          LL                         LL\n |     LLLLL          s       s          LLLLL\n
+      |*****sssssssssssssss         sssssssssssssss*****\n +-------------------------------------------------\n  -8                     0                       8\n```\n\nAs
+      $n\\to+\\infty$, for any smooth compactly supported $\\varphi$ the substitution
+      $u=nx$ gives $\\int\\delta_n\\varphi=\\pi^{-1/2}\\int e^{-u^2}\\varphi(u/n)du\\to\\varphi(0)$
+      by dominated convergence. Thus $\\delta_n\\to\\delta$ distributionally, while
+      its transform tends to one at every fixed $k$. In physical space the pointwise
+      limit is zero away from zero and the peaks diverge. As $n\\downarrow0$ the physical
+      curve tends to zero locally while its mass spreads out. The transform tends
+      to zero away from $k=0$, keeping its unit central value. If negative $n$ are
+      admitted with the printed signed prefactor, the area and transform acquire the
+      factor $\\operatorname{sgn}(n)$ relative to $|n|$. At $n=0$ the unscaled Gaussian
+      becomes constant and has only a distributional transform $2\\pi\\delta(k)$;
+      $\\delta_0(x)=0$ pointwise under its printed definition.\n"'
+  5ac0a95f807bd4ae1fd1c2b723ff3ab6b0f7ba82ae31a9544118936c67f26e01:
+    published_evidence: q11/history/verified-2015-16-3eb8c801513d/independent-solution.md
+    frozen_utf8_json: '"Assume $f$ is at least $C^1$ near $1$, as required for pairing
+      with the derivative of a delta. Insert a smooth radial cutoff equal to one near
+      the unit circle and supported in an annulus about it. The factor $\\delta''(x^2+y^2-1)$
+      localizes there. This also avoids defining $\\delta(x^2-y^2)$ by itself at its
+      critical point $(0,0)$, so the given condition at zero suffices and plays no
+      role after localization. The two level sets meet transversely at the four points
+      with $x^2=y^2=1/2$.\n \nIn polar coordinates $r>0$, $x^2-y^2=r^2\\cos 2\\theta$
+      and $dx\\,dy=r\\,dr\\,d\\theta$. At fixed $r$, the four zeros of $\\cos 2\\theta$
+      on one revolution are simple with derivative of absolute value $2$. Thus the
+      angular integral of $\\delta(r^2\\cos2\\theta)$ is $2/r^2$. Setting $u=r^2$,
+      the resulting radial pairing is\n$$\n 2\\int_0^\\infty f(r^2)\\delta''(r^2-1)\\frac{dr}{r}\n   =\\int_0^\\infty
+      \\frac{f(u)}u\\delta''(u-1)\\,du\n   =-\\left.\\frac{d}{du}\\frac{f(u)}u\\right|_{1}\n   =
+      f(1)-f''(1).\n$$\nThe cutoff has derivative zero there.\n"'

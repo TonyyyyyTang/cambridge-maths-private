@@ -1,0 +1,2152 @@
+scope: Historical union of public IB Methods example sheet 3. Comparison against existing
+  original draft answers; whole-course audit pending.
+selection:
+  method: random.Random(seed).sample(sorted(canonical_question_names), ceil(0.2*population_size))
+  seed: 20261217
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - q12
+  - qx01
+  - qx02
+  - qx03
+  - qx04
+  - qx05
+  - qx06
+  - qx07
+  - qx08
+  - qx09
+  - qx10
+  - qx11
+  - qx12
+  - qx13
+  - qx14
+  - qx15
+  - qx16
+  - qx17
+  - qx18
+  - qx19
+  - qx20
+  - qx21
+  - qx22
+  - qx23
+  - qx24
+  - qx25
+  - qx26
+  - qx27
+  - qx28
+  - qx29
+  - qx30
+  selected:
+  - q06
+  - qx25
+  - qx10
+  - qx14
+  - q04
+  - qx07
+  - qx13
+  - q12
+  - q03
+fresh_input: Only exact question text, any cited printed question text, and original
+  file/page/printed-number locators. No first answers, metadata or reviewers’ comments.
+frozen_independent_manifest_sha256: 3c4362f8fc3be8f6bb21bba8457bf6a889c78000f71d2b7b1168fa89d69c2b83
+source_review:
+  sample_seed: 20261217
+  families: 9
+  distinct_statements: 14
+  printed_appearances: 39
+  unique_source_pages: 26
+  transcription_errors: 0
+  source_review_method: After fetching the archived originals, opened images rendered
+    with Ghostscript at 130 dpi, including the PostScript original. Read each located
+    question against the supplied statement, including subparts, wording, punctuation,
+    parameter domains, equations and accompanying hints. Mathematical typeface and
+    layout conventions in the restricted TeX are treated as equivalent. No printed
+    per-question marks occur in the sample.
+  auditor_scope: Blind source and mathematical rework. No earlier solutions, reviews
+    or metadata were consulted. Errors in existing proposed solutions can only be
+    counted by comparing the reworks with those solutions.
+  appearances:
+  - statement: q03-e33c0cce50fb
+    statement_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+    file: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    file_sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    pages:
+    - 1
+    printed_question: '3'
+    raster_sha256:
+    - 2f0d19a9678a0ec50a351e645ec53c1f1e99f4310d3db9660a932a1c733f2156
+    result: matches
+    finding: Second-derivative, first-derivative and zeroth-order signs; strict interior
+      inequalities; both homogeneous boundary values; printed phrase “to boundary
+      value problem”.
+  - statement: q03-e33c0cce50fb
+    statement_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+    file: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    file_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    pages:
+    - 1
+    printed_question: '3'
+    raster_sha256:
+    - d6286b6e00a87505a9837d30da80ef6ef53b2b52835007df8e9e9ac564aa65de
+    result: matches
+    finding: Second-derivative, first-derivative and zeroth-order signs; strict interior
+      inequalities; both homogeneous boundary values; printed phrase “to boundary
+      value problem”.
+  - statement: q03-e33c0cce50fb
+    statement_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+    file: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    file_sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    pages:
+    - 1
+    printed_question: '3'
+    raster_sha256:
+    - 94017bd6c9508e38d7d1913c9926d44edeb2f9791627f5c4602d3ea3d21815c6
+    result: matches
+    finding: Second-derivative, first-derivative and zeroth-order signs; strict interior
+      inequalities; both homogeneous boundary values; printed phrase “to boundary
+      value problem”.
+  - statement: q04-3f833e46f1ea
+    statement_sha256: 3f833e46f1ea8681b838646b1e3c40caf9157df3e4719bf2436b9c4359320070
+    file: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    file_sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    pages:
+    - 1
+    printed_question: '4'
+    raster_sha256:
+    - 2f0d19a9678a0ec50a351e645ec53c1f1e99f4310d3db9660a932a1c733f2156
+    result: matches
+    finding: Minus second derivative, nonzero real parameter, both integral limits
+      and sinh factors, limiting and imaginary-parameter questions. No hint follows.
+  - statement: q04-7862e20b0782
+    statement_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+    file: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    file_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    pages:
+    - 5
+    printed_question: '2'
+    raster_sha256:
+    - a4c668377d0d6d3de21a2bafc011a88ec0bc28c08aceae18aef54cbfd672b50e
+    result: matches
+    finding: Italic headline, positive second derivative, closed x and source intervals,
+      both boundary values, curly brackets, negative prefactor and both integral terms.
+  - statement: q04-7862e20b0782
+    statement_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+    file: raw/sheets/IB/methods/2018-19/sheet-3.pdf
+    file_sha256: 4f0feaece317a6196833f470f5d0593134a9c96d942d3d87703dde1d3e533c62
+    pages:
+    - 1
+    printed_question: '2'
+    raster_sha256:
+    - 5a53c1e3cc8704002ea0c8c1bf3e631c918bdf655caa61adc15f47f4d2dd87ba
+    result: matches
+    finding: Italic headline, positive second derivative, closed x and source intervals,
+      both boundary values, curly brackets, negative prefactor and both integral terms.
+  - statement: q04-7862e20b0782
+    statement_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+    file: raw/sheets/IB/methods/2020-21/sheet-3.pdf
+    file_sha256: 0d3407ba86c4e2d99b3e7ed7b24991c8c83fb763e978f08cacdc1ac95ab56a0b
+    pages:
+    - 1
+    printed_question: '2'
+    raster_sha256:
+    - afbd0926e6bd155317f180a5f2a5129336eb8db3b0069d5fc754d5477bd7dc33
+    result: matches
+    finding: Italic headline, positive second derivative, closed x and source intervals,
+      both boundary values, curly brackets, negative prefactor and both integral terms.
+  - statement: q04-7862e20b0782
+    statement_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+    file: raw/sheets/IB/methods/2021-22/sheet-3.pdf
+    file_sha256: e6907e9797118986dd5be4e30e7c1b38ce2ecad3ff821ec7d41a8532a50077a6
+    pages:
+    - 1
+    printed_question: '2'
+    raster_sha256:
+    - 757cd6c4935ed21d223aa98c713be8c0fa16e2a745c1cf34254b3a497d458020
+    result: matches
+    finding: Italic headline, positive second derivative, closed x and source intervals,
+      both boundary values, curly brackets, negative prefactor and both integral terms.
+  - statement: q04-7862e20b0782
+    statement_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+    file: raw/sheets/IB/methods/2022-23/sheet-3.pdf
+    file_sha256: 9d4b22eca0ffbc957b5a3a0eeec9d7fe122d47e51ee672fa0a89d98ba13fd7d2
+    pages:
+    - 1
+    printed_question: '2'
+    raster_sha256:
+    - 3b60d9bd5bd2a0b3a23dc747e6abdd5e1bb843a654af0d87499c8e75acfef859
+    result: matches
+    finding: Italic headline, positive second derivative, closed x and source intervals,
+      both boundary values, curly brackets, negative prefactor and both integral terms.
+  - statement: q04-914c3ed94fc9
+    statement_sha256: 914c3ed94fc914de85ef2f7e4f4fe454a03774307f858f8e5b1887b362140bc4
+    file: raw/sheets/IB/methods/2016-17/sheet-3.pdf
+    file_sha256: 859dd927cad5444ffe62e7bda99260fdea7493dfe25bdadbbe04754b063226c0
+    pages:
+    - 1
+    printed_question: '4'
+    raster_sha256:
+    - 4ccf95122c4e4954b05a20047137092153cf4768f643469df297360fd94d4e9f
+    result: matches
+    finding: Both boundary conditions printed on first display; real parameter, closed
+      x interval and open source interval; negative prefactor, square brackets and
+      both integral terms.
+  - statement: q04-a9257a7804dd
+    statement_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+    file: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    file_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    pages:
+    - 1
+    printed_question: '4'
+    raster_sha256:
+    - d6286b6e00a87505a9837d30da80ef6ef53b2b52835007df8e9e9ac564aa65de
+    result: matches
+    finding: Minus second derivative, nonzero real parameter, both integral terms,
+      limiting and imaginary parameters and full homogeneous-solutions hint.
+  - statement: q04-a9257a7804dd
+    statement_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+    file: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    file_sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    pages:
+    - 1
+    printed_question: '4'
+    raster_sha256:
+    - 94017bd6c9508e38d7d1913c9926d44edeb2f9791627f5c4602d3ea3d21815c6
+    result: matches
+    finding: Minus second derivative, nonzero real parameter, both integral terms,
+      limiting and imaginary parameters and full homogeneous-solutions hint.
+  - statement: q06-684b9415948c
+    statement_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+    file: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    file_sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    pages:
+    - 1
+    printed_question: '6'
+    raster_sha256:
+    - 2f0d19a9678a0ec50a351e645ec53c1f1e99f4310d3db9660a932a1c733f2156
+    result: matches
+    finding: Strict exterior and closed interior support, all four parenthesized roman
+      labels, signs, trigonometric arguments and exponential.
+  - statement: q06-684b9415948c
+    statement_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+    file: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    file_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    pages:
+    - 2
+    printed_question: '6'
+    raster_sha256:
+    - ba2fc5fe0f03f4888b2bf7dbc02a08d9e21ec2d4cc2f0327f6883d2d330a6c35
+    result: matches
+    finding: Strict exterior and closed interior support, all four parenthesized roman
+      labels, signs, trigonometric arguments and exponential.
+  - statement: q06-684b9415948c
+    statement_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+    file: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    file_sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    pages:
+    - 2
+    printed_question: '6'
+    raster_sha256:
+    - e9ba1f974e9dcd8f1bacc7a1051708cae6dc970e32f537d72207d8a0ef6867ec
+    result: matches
+    finding: Strict exterior and closed interior support, all four parenthesized roman
+      labels, signs, trigonometric arguments and exponential.
+  - statement: q06-b6885a422550
+    statement_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+    file: raw/sheets/IB/methods/2018-19/sheet-3.pdf
+    file_sha256: 4f0feaece317a6196833f470f5d0593134a9c96d942d3d87703dde1d3e533c62
+    pages:
+    - 2
+    printed_question: '7'
+    raster_sha256:
+    - 68104e503469d358dde52bb655529ee2aea562ec8e6577292c1436154a1e174c
+    result: matches
+    finding: Headline, the strict support interval, four unlabelled formula lines
+      with their periods and the sign of the exponential.
+  - statement: q06-b6885a422550
+    statement_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+    file: raw/sheets/IB/methods/2020-21/sheet-3.pdf
+    file_sha256: 0d3407ba86c4e2d99b3e7ed7b24991c8c83fb763e978f08cacdc1ac95ab56a0b
+    pages:
+    - 2
+    printed_question: '7'
+    raster_sha256:
+    - d777aa23f46f95a3c0db7cbd85cde6c9b92ca4d273b9211ecd31510c450f4c12
+    result: matches
+    finding: Headline, the strict support interval, four unlabelled formula lines
+      with their periods and the sign of the exponential.
+  - statement: q06-b6885a422550
+    statement_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+    file: raw/sheets/IB/methods/2021-22/sheet-3.pdf
+    file_sha256: e6907e9797118986dd5be4e30e7c1b38ce2ecad3ff821ec7d41a8532a50077a6
+    pages:
+    - 2
+    printed_question: '7'
+    raster_sha256:
+    - ea9a9462d1d4b6a86a8261b3a1f8b08983653fd9f650f77ef3e9750dbab00977
+    result: matches
+    finding: Headline, the strict support interval, four unlabelled formula lines
+      with their periods and the sign of the exponential.
+  - statement: q06-b6885a422550
+    statement_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+    file: raw/sheets/IB/methods/2022-23/sheet-3.pdf
+    file_sha256: 9d4b22eca0ffbc957b5a3a0eeec9d7fe122d47e51ee672fa0a89d98ba13fd7d2
+    pages:
+    - 2
+    printed_question: '7'
+    raster_sha256:
+    - 84cf36807abac7a916b6c2ccd6867780cddf340a4c11f9042753faf148c71395
+    result: matches
+    finding: Headline, the strict support interval, four unlabelled formula lines
+      with their periods and the sign of the exponential.
+  - statement: q12-48c238e5f093
+    statement_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+    file: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    file_sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    pages:
+    - 2
+    printed_question: '12'
+    raster_sha256:
+    - 39967df1eed4e1f533709ae65800696055d392469f2c9b4a1aa46d23d16fdb48
+    result: matches
+    finding: Order n in the ODE, t positive, initial conditions through order n−1
+      and printed wording “a n-times continuously differentiable functions”.
+  - statement: q12-48c238e5f093
+    statement_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+    file: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    file_sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    pages:
+    - 2
+    printed_question: '12'
+    raster_sha256:
+    - ba2fc5fe0f03f4888b2bf7dbc02a08d9e21ec2d4cc2f0327f6883d2d330a6c35
+    result: matches
+    finding: Order n in the ODE, t positive, initial conditions through order n−1
+      and printed wording “a n-times continuously differentiable functions”.
+  - statement: q12-48c238e5f093
+    statement_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+    file: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    file_sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    pages:
+    - 2
+    printed_question: '12'
+    raster_sha256:
+    - e9ba1f974e9dcd8f1bacc7a1051708cae6dc970e32f537d72207d8a0ef6867ec
+    result: matches
+    finding: Order n in the ODE, t positive, initial conditions through order n−1
+      and printed wording “a n-times continuously differentiable functions”.
+  - statement: qx07-f54d59ee2aed
+    statement_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    file: raw/sheets/IB/methods/2001-02/sheet-3.pdf
+    file_sha256: 44df449692970850fea00741843370ee12332e7d873a02f21e73ed153960987c
+    pages:
+    - 1
+    printed_question: '7'
+    raster_sha256:
+    - b588c9644c9e70e9ea41db128e21179d96e57395984720c1ca93956a4c048575
+    result: matches
+    finding: Title, complete Waterloo and Paddington narrative, level and distance
+      conditions, time formula with exponent one half, and bracketed vertical-tunnel
+      note.
+  - statement: qx07-f54d59ee2aed
+    statement_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    file: raw/sheets/IB/methods/2003-04/sheet-3.pdf
+    file_sha256: f169622309906afeb9267da245752dad29616e55c2ab8bbe358f935b2ae5c14f
+    pages:
+    - 1
+    printed_question: '7'
+    raster_sha256:
+    - cd3bd992a0a8a9c84b00cc9d86befc6f91495b446fc6b962b65bb7849ca58bcf
+    result: matches
+    finding: Title, complete Waterloo and Paddington narrative, level and distance
+      conditions, time formula with exponent one half, and bracketed vertical-tunnel
+      note.
+  - statement: qx07-f54d59ee2aed
+    statement_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    file: raw/sheets/IB/methods/2004-05/sheet-3.pdf
+    file_sha256: e1a34de0f690760e1d0c2ed34978f18370b3983afc1441c4ad3c6c61bc489fa8
+    pages:
+    - 1
+    printed_question: '7'
+    raster_sha256:
+    - 08c94b5f6cfa9cf4d74b945de0190b17afdb863a07a845e51309019e00699f3f
+    result: matches
+    finding: Title, complete Waterloo and Paddington narrative, level and distance
+      conditions, time formula with exponent one half, and bracketed vertical-tunnel
+      note.
+  - statement: qx10-1ac9532e39f2
+    statement_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    file: raw/sheets/IB/methods/2001-02/sheet-3.pdf
+    file_sha256: 44df449692970850fea00741843370ee12332e7d873a02f21e73ed153960987c
+    pages:
+    - 2
+    printed_question: '10'
+    raster_sha256:
+    - 4a5c45f0f46addbde7de211ad85a2d9eb58a706ebc18c7b1e64001c8776ffa69
+    result: matches
+    finding: Endpoints and fixed values, autonomous first integral, energy and length
+      integrands, L>a, catenary formula, and unique positive solution request.
+  - statement: qx10-1ac9532e39f2
+    statement_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    file: raw/sheets/IB/methods/2003-04/sheet-3.pdf
+    file_sha256: f169622309906afeb9267da245752dad29616e55c2ab8bbe358f935b2ae5c14f
+    pages:
+    - 2
+    printed_question: '10'
+    raster_sha256:
+    - 4b413da14f58d7d1d0b2834dedea8b351a8fb641eeeafdc51178a3e77b4b5157
+    result: matches
+    finding: Endpoints and fixed values, autonomous first integral, energy and length
+      integrands, L>a, catenary formula, and unique positive solution request.
+  - statement: qx10-1ac9532e39f2
+    statement_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    file: raw/sheets/IB/methods/2004-05/sheet-3.pdf
+    file_sha256: e1a34de0f690760e1d0c2ed34978f18370b3983afc1441c4ad3c6c61bc489fa8
+    pages:
+    - 2
+    printed_question: '10'
+    raster_sha256:
+    - ccc1af39a407d9ec45dbad0b7b5cadfe4ed14ffaa7b35e374b1632f07b8c2fa4
+    result: matches
+    finding: Endpoints and fixed values, autonomous first integral, energy and length
+      integrands, L>a, catenary formula, and unique positive solution request.
+  - statement: qx13-85901467296e
+    statement_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    file: raw/sheets/IB/methods/2001-02/sheet-3.pdf
+    file_sha256: 44df449692970850fea00741843370ee12332e7d873a02f21e73ed153960987c
+    pages:
+    - 2
+    printed_question: '13'
+    raster_sha256:
+    - 4a5c45f0f46addbde7de211ad85a2d9eb58a706ebc18c7b1e64001c8776ffa69
+    result: matches
+    finding: Power of p-weighted derivative and sign of q, nonnegative weight, all
+      three roman labels, both instances of “Minimise”, normalization, quotient and
+      final bracketed remark.
+  - statement: qx13-85901467296e
+    statement_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    file: raw/sheets/IB/methods/2003-04/sheet-3.pdf
+    file_sha256: f169622309906afeb9267da245752dad29616e55c2ab8bbe358f935b2ae5c14f
+    pages:
+    - 2
+    printed_question: '13'
+    raster_sha256:
+    - 4b413da14f58d7d1d0b2834dedea8b351a8fb641eeeafdc51178a3e77b4b5157
+    result: matches
+    finding: Power of p-weighted derivative and sign of q, nonnegative weight, all
+      three roman labels, both instances of “Minimise”, normalization, quotient and
+      final bracketed remark.
+  - statement: qx13-85901467296e
+    statement_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    file: raw/sheets/IB/methods/2004-05/sheet-3.pdf
+    file_sha256: e1a34de0f690760e1d0c2ed34978f18370b3983afc1441c4ad3c6c61bc489fa8
+    pages:
+    - 2
+    printed_question: '13'
+    raster_sha256:
+    - ccc1af39a407d9ec45dbad0b7b5cadfe4ed14ffaa7b35e374b1632f07b8c2fa4
+    result: matches
+    finding: Power of p-weighted derivative and sign of q, nonnegative weight, all
+      three roman labels, both instances of “Minimise”, normalization, quotient and
+      final bracketed remark.
+  - statement: qx14-62aac5eb4dbd
+    statement_sha256: 62aac5eb4dbddf70b6e34190eef77737e34db1fbba5cb51317a096c5ca157782
+    file: raw/sheets/IB/methods/2006-07/sheet-3.ps
+    file_sha256: 8b2601f826864905d1bc2193739fffd5fa623fef1b3b3c914983ff0bb601c5c0
+    pages:
+    - 1
+    printed_question: '4'
+    raster_sha256:
+    - 849e671ec2c0af346e72547d7a57ea204184066d1342dd90540f4693862951db
+    result: matches
+    finding: Real eigenfunctions, unweighted unit norms, p-weighted derivative term,
+      no-summation condition, Legendre integral bounds and derivative subscripts.
+  - statement: qx14-62aac5eb4dbd
+    statement_sha256: 62aac5eb4dbddf70b6e34190eef77737e34db1fbba5cb51317a096c5ca157782
+    file: raw/sheets/IB/methods/2007-08/sheet-3.pdf
+    file_sha256: ddd7227c69286c099efbae7e117fee04b4f89cc912082fd79ff30fb22f30dcba
+    pages:
+    - 1
+    printed_question: '4'
+    raster_sha256:
+    - 4f6ccddec369162cea1c45c74faafee86efc93fd6aa6a3d25ce5a4dea4ea937a
+    result: matches
+    finding: Real eigenfunctions, unweighted unit norms, p-weighted derivative term,
+      no-summation condition, Legendre integral bounds and derivative subscripts.
+  - statement: qx25-12d830d98581
+    statement_sha256: 12d830d98581abd2970a68be85b7a1d7238ac311603faf6ab654b23e987030bc
+    file: raw/sheets/IB/methods/2016-17/sheet-3.pdf
+    file_sha256: 859dd927cad5444ffe62e7bda99260fdea7493dfe25bdadbbe04754b063226c0
+    pages:
+    - 2
+    printed_question: '7'
+    raster_sha256:
+    - c9333c673bfccd9d5a6a128ac1202312c9fc6d2ff3c1d1dd1cb0e2574ce8400a
+    result: matches
+    finding: Two open half-lines, negative exponential, rational transform, inversion
+      at zero and full explanatory prompt plus parenthetical.
+  - statement: qx25-1983d679609e
+    statement_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+    file: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    file_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    pages:
+    - 6
+    printed_question: '8'
+    raster_sha256:
+    - 73f620563b9f78b2189d6961d3e4bf770631813f617963785ae49884ab1d0a46
+    result: matches
+    finding: Headline, both open half-line conditions, transform numerator and denominator,
+      claimed half-value, full Fourier-series and Complex Methods parenthetical.
+  - statement: qx25-1983d679609e
+    statement_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+    file: raw/sheets/IB/methods/2018-19/sheet-3.pdf
+    file_sha256: 4f0feaece317a6196833f470f5d0593134a9c96d942d3d87703dde1d3e533c62
+    pages:
+    - 2
+    printed_question: '8'
+    raster_sha256:
+    - 68104e503469d358dde52bb655529ee2aea562ec8e6577292c1436154a1e174c
+    result: matches
+    finding: Headline, both open half-line conditions, transform numerator and denominator,
+      claimed half-value, full Fourier-series and Complex Methods parenthetical.
+  - statement: qx25-1983d679609e
+    statement_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+    file: raw/sheets/IB/methods/2020-21/sheet-3.pdf
+    file_sha256: 0d3407ba86c4e2d99b3e7ed7b24991c8c83fb763e978f08cacdc1ac95ab56a0b
+    pages:
+    - 2
+    printed_question: '8'
+    raster_sha256:
+    - d777aa23f46f95a3c0db7cbd85cde6c9b92ca4d273b9211ecd31510c450f4c12
+    result: matches
+    finding: Headline, both open half-line conditions, transform numerator and denominator,
+      claimed half-value, full Fourier-series and Complex Methods parenthetical.
+  - statement: qx25-1983d679609e
+    statement_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+    file: raw/sheets/IB/methods/2021-22/sheet-3.pdf
+    file_sha256: e6907e9797118986dd5be4e30e7c1b38ce2ecad3ff821ec7d41a8532a50077a6
+    pages:
+    - 2
+    printed_question: '8'
+    raster_sha256:
+    - ea9a9462d1d4b6a86a8261b3a1f8b08983653fd9f650f77ef3e9750dbab00977
+    result: matches
+    finding: Headline, both open half-line conditions, transform numerator and denominator,
+      claimed half-value, full Fourier-series and Complex Methods parenthetical.
+  - statement: qx25-1983d679609e
+    statement_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+    file: raw/sheets/IB/methods/2022-23/sheet-3.pdf
+    file_sha256: 9d4b22eca0ffbc957b5a3a0eeec9d7fe122d47e51ee672fa0a89d98ba13fd7d2
+    pages:
+    - 2
+    printed_question: '8'
+    raster_sha256:
+    - 84cf36807abac7a916b6c2ccd6867780cddf340a4c11f9042753faf148c71395
+    result: matches
+    finding: Headline, both open half-line conditions, transform numerator and denominator,
+      claimed half-value, full Fourier-series and Complex Methods parenthetical.
+comparison:
+  q06-b6885a422550:
+    exact_question_sha256: b6885a422550ace1e13eec443d889327fd1666dbfafe3d1d92fc16302a5d7f0e
+    solution_sha256: 9516bba0bb974bc50844fd1a75b01049af8d0d0942214a9fcb12a432d7f68f93
+    independent_rework: '# Finite support and frequency translation
+
+
+      Integrate with the convention \(\widetilde f(k)=\int f(x)e^{-ikx}\,dx\). Since
+      all four integrals run from \(-c\) to \(c\), write \(S(t)=\sin(ct)/t\) for \(t\ne0\),
+      \(S(0)=c\). The odd part of \(e^{-itx}\) integrates to zero, and integrating
+      \(\cos(tx)\) over half the interval gives \(S(t)\). The transform of the constant
+      window is therefore \(2S(k)\). For the windowed exponential, the integrand is
+      \(e^{-i(k-a)x}\), giving \(2S(k-a)\).
+
+
+      Subtract the windowed exponentials of frequencies \(a\) and \(-a\), then divide
+      by \(2i\). This yields the sine transform \([S(k-a)-S(k+a)]/i\). Their half-sum
+      yields the cosine transform \(S(k-a)+S(k+a)\). These forms apply at both resonant
+      frequencies by the continuous value of \(S\). At \(a=0\) the sine transform
+      vanishes and the cosine result is the constant-window transform as required.
+      The omission of the two endpoints does not change any integral.
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2018-19/sheet-3.pdf`, physical page 2, printed question
+      7.
+
+      - `raw/sheets/IB/methods/2020-21/sheet-3.pdf`, physical page 2, printed question
+      7.
+
+      - `raw/sheets/IB/methods/2021-22/sheet-3.pdf`, physical page 2, printed question
+      7.
+
+      - `raw/sheets/IB/methods/2022-23/sheet-3.pdf`, physical page 2, printed question
+      7.
+
+      '
+    independent_rework_sha256: 7f5e96d2e96b07c7fc5b8f56842138e30d9615e5fe7ad8a24f7533738c44ccfc
+    main_comparison: All four finite-window transforms, including the sine difference
+      with division by 2i, the cosine sum, zero frequency and coincident frequency
+      shifts, agree.
+    script_sha256: 27f258547f4fadaa8f255b46927857017e25e5548cb15be271ce5d4836521b29
+    check_output: Four window transforms agree with direct quadrature at regular and
+      shifted zeros.
+    check_exit: 0
+  q06-684b9415948c:
+    exact_question_sha256: 684b9415948c259c3f6912bb411fc6909c889f9599ffeaf2791eee6662ae6ab5
+    solution_sha256: f928b6c06154d1fc8898927f147c504aaff7f4bca925442c1c8930985feae8ca
+    independent_rework: '# The four finite-interval transforms
+
+
+      Use the angular-frequency transform \(\widehat f(k)=\int_{\mathbb R}f(x)e^{-ikx}\,dx\).
+      For \(c>0\) define \(D(s)=\int_{-c}^c e^{-isx}\,dx=2\sin(cs)/s\) when \(s\ne0\),
+      and \(D(0)=2c\) by direct integration. Endpoints do not affect this integral.
+
+
+      1. The truncated constant has transform \(D(k)\).
+
+      2. Multiplication by \(e^{iax}\) replaces \(k\) by \(k-a\). Its transform is
+      \(D(k-a)\).
+
+      3. Expanding \(\sin(ax)=(e^{iax}-e^{-iax})/(2i)\) gives \((D(k-a)-D(k+a))/(2i)\).
+
+      4. Expanding \(\cos(ax)=(e^{iax}+e^{-iax})/2\) gives \((D(k-a)+D(k+a))/2\).
+
+
+      The assigned value of \(D(0)\) covers \(k=0\) and \(k=\pm a\), including coincident
+      frequencies at \(a=0\). The sine result is imaginary and odd, and the cosine
+      result is real and even. At \(c=0\) the support has measure zero so all transforms
+      vanish.
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2023-24/sheet-3.pdf`, physical page 1, printed question
+      6.
+
+      - `raw/sheets/IB/methods/2025-26/sheet-3.pdf`, physical page 2, printed question
+      6.
+
+      - `raw/sheets/IB/methods/2026-27/sheet-3.pdf`, physical page 2, printed question
+      6.
+
+      '
+    independent_rework_sha256: 7369c32bfd2e6f61d40811ed9b0ffc5b75304c80668e7f778778632566233b5b
+    main_comparison: All four finite-window transforms, including the sine difference
+      with division by 2i, the cosine sum, zero frequency and coincident frequency
+      shifts, agree.
+    script_sha256: 27f258547f4fadaa8f255b46927857017e25e5548cb15be271ce5d4836521b29
+    check_output: Four window transforms agree with direct quadrature at regular and
+      shifted zeros.
+    check_exit: 0
+  qx25-1983d679609e:
+    exact_question_sha256: 1983d679609eb7567101e6ed687cc551eb7a318f574e7e5795d12a3aa97f9b04
+    solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+    independent_rework: "# The one-sided exponential\n\nFor real \\(k\\), using \\\
+      (e^{-ikx}\\) in the forward integral gives\n\\[\n \\widetilde f(k)=\\left[-\\\
+      frac{e^{-(1+ik)x}}{1+ik}\\right]_0^\\infty\n =\\frac{1}{1+ik}=\\frac{1-ik}{1+k^2}.\n\
+      \\]\nThe exponential decays at the upper limit even when \\(k=0\\). No choice\
+      \ of the function value at the single point \\(x=0\\) changes this transform.\n\
+      \nAt the jump take the symmetric Fourier inversion limit with factor \\(1/(2\\\
+      pi)\\). For each positive cutoff \\(R\\), the imaginary odd term integrates\
+      \ to zero on \\([-R,R]\\), leaving \\(2\\arctan R/(2\\pi)\\). Its limit is \\\
+      (1/2\\). The transform is not absolutely integrable, and the two imaginary half-line\
+      \ integrals separately diverge. The symmetric prescription produces the midpoint\
+      \ of the two one-sided limits \\(f(0-)=0,\\ f(0+)=1\\), as guaranteed by the\
+      \ Fourier inversion theorem for piecewise smooth integrable functions of bounded\
+      \ variation.\n\n## Source appearances\n\n- `raw/sheets/IB/methods/2015-16/all-sheets.pdf`,\
+      \ physical page 6, printed question 8.\n- `raw/sheets/IB/methods/2018-19/sheet-3.pdf`,\
+      \ physical page 2, printed question 8.\n- `raw/sheets/IB/methods/2020-21/sheet-3.pdf`,\
+      \ physical page 2, printed question 8.\n- `raw/sheets/IB/methods/2021-22/sheet-3.pdf`,\
+      \ physical page 2, printed question 8.\n- `raw/sheets/IB/methods/2022-23/sheet-3.pdf`,\
+      \ physical page 2, printed question 8.\n"
+    independent_rework_sha256: ed12d341f6466ada45a3e36822f5e9b36b694a47146222ab7d1896ba964a6abf
+    main_comparison: Both frequency cutoffs give arctan(R)/π with limit 1/2, regardless
+      of the assigned point value. Separate imaginary half-line tails diverge and
+      the symmetric inversion prescription is necessary.
+    script_sha256: f7a751b79331afdf302e2563c5c247eafb8d3dbe4959e4ce556691918c035854
+    check_output: ''
+    check_exit: 0
+  qx25-12d830d98581:
+    exact_question_sha256: 12d830d98581abd2970a68be85b7a1d7238ac311603faf6ab654b23e987030bc
+    solution_sha256: 655082bea347624261776b0c36899d97af945a149504c79b7169e7c13abcf8e4
+    independent_rework: '# Inversion at the jump
+
+
+      With the forward convention \(\widetilde f(k)=\int_{\mathbb R} f(x)e^{-ikx}\,dx\),
+      the negative half-line gives zero and the positive half-line gives \(\int_0^\infty
+      e^{-(1+ik)x}\,dx=1/(1+ik)=(1-ik)/(1+k^2)\). The single omitted value of \(f(0)\)
+      makes no contribution.
+
+
+      At \(x=0\), invert using a symmetric frequency cutoff. The imaginary part is
+      odd, so
+
+      \[
+
+      \frac{1}{2\pi}\int_{-R}^R \frac{1-ik}{1+k^2}\,dk=\frac{\arctan R}{\pi}\longrightarrow\frac12.
+
+      \]
+
+      Absolute convergence fails since \(|\widetilde f|\sim1/|k|\). Separately integrating
+      the imaginary part toward each infinity would give divergent logarithms, so
+      the symmetric limiting prescription matters.
+
+
+      More generally the truncated inverse is convolution with \(\sin(Rt)/(\pi t)\),
+      an even kernel. At a jump of an integrable, piecewise smooth bounded-variation
+      function, Fourier inversion in this sense returns the mean of its left and right
+      limits. Here the limits are 0 and 1; changing the value at exactly zero cannot
+      change a transform integral. At other \(x\) this \(f\) is continuous and the
+      inverse equals \(f(x)\).
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2016-17/sheet-3.pdf`, physical page 2, printed question
+      7.
+
+      '
+    independent_rework_sha256: 6aa1748c706e642b551b72fba4a34cee1d34b5584aa8e51492fcca5729fde3e6
+    main_comparison: Both frequency cutoffs give arctan(R)/π with limit 1/2, regardless
+      of the assigned point value. Separate imaginary half-line tails diverge and
+      the symmetric inversion prescription is necessary.
+    script_sha256: f7a751b79331afdf302e2563c5c247eafb8d3dbe4959e4ce556691918c035854
+    check_output: ''
+    check_exit: 0
+  qx10-1ac9532e39f2:
+    exact_question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    solution_sha256: 093fdae3656d34dc64e8a1f4e501249c16ab1a3ed9585541ffe508efaa4867e2
+    independent_rework: "# The suspended cable\n\nFor an autonomous Lagrangian,\n\\\
+      [\n\\frac{d}{dx}(f-y'f_{y'})=y'(f_y-d f_{y'}/dx)=0\n\\]\nalong each smooth Euler–Lagrange\
+      \ solution. For the cable augment the integrand by a constant times the length\
+      \ integrand. In the form \\(f=(y-y_0)\\sqrt{1+y'^2}\\), the first integral becomes\
+      \ \\((y-y_0)/\\sqrt{1+y'^2}=c\\). The multiplier is legitimate since an abnormal\
+      \ stationary length curve between fixed points would be straight and have length\
+      \ \\(2a\\), excluded by \\(L>a\\). The full Euler–Lagrange equation gives \\\
+      ((y-y_0)y''=1+y'^2\\); in particular \\(c\\ne0\\) and there is no spurious constant\
+      \ solution on a turning interval. It follows that \\((\\operatorname{arsinh}\
+      \ y')'=1/c\\), so \\(y-y_0=c\\cosh((x-x_0)/c)\\).\n\nThe equal heights require\
+      \ \\(x_0=0\\) by evenness and strict increase of \\(\\cosh\\) on the positive\
+      \ axis. Then \\(y_0=b-c\\cosh(a/c)\\). The upward-convex hanging branch has\
+      \ \\(c>0\\), and the length gives \\(L=c\\sinh(a/c)\\). Set \\(u=a/c>0\\). The\
+      \ function \\(\\sinh u/u\\) increases strictly from 1 to infinity since \\(u\\\
+      cosh u-\\sinh u\\) has derivative \\(u\\sinh u>0\\) and value zero at the origin.\
+      \ Thus each \\(L/a>1\\) gives exactly one positive \\(c\\).\n\nTo verify the\
+      \ minimum and the sign globally, parametrise any competing cable by arclength\
+      \ \\(s\\in[-L,L]\\) increasing left to right along the cable. The unit tangent\
+      \ satisfies \\(x_s^2+y_s^2=1\\). Integrating by parts gives \\(E=2Lb-\\int_{-L}^L\
+      \ s\\,y_s\\,ds\\). For the positive \\(c\\) just found,\n\\[\n s\\,y_s+c\\,x_s\\\
+      le\\sqrt{s^2+c^2},\\qquad \\int_{-L}^L x_s\\,ds=2a.\n\\]\nThis bounds the integral\
+      \ of \\(s\\,y_s\\) above. Equality holds precisely for tangent \\((x_s,y_s)=(c,s)/\\\
+      sqrt{s^2+c^2}\\) almost everywhere. Its horizontal displacement is \\(2c\\,\\\
+      operatorname{arsinh}(L/c)=2a\\), and its vertical displacement is zero. Integrating\
+      \ yields \\(x=c\\,\\operatorname{arsinh}(s/c)\\), \\(y=y_0+\\sqrt{s^2+c^2}\\\
+      ), exactly the curve above.\n\n## Source appearances\n\n- `raw/sheets/IB/methods/2001-02/sheet-3.pdf`,\
+      \ physical page 2, printed question 10.\n- `raw/sheets/IB/methods/2003-04/sheet-3.pdf`,\
+      \ physical page 2, printed question 10.\n- `raw/sheets/IB/methods/2004-05/sheet-3.pdf`,\
+      \ physical page 2, printed question 10.\n"
+    independent_rework_sha256: fad3ebcf79883e52beabdd8552215869d97a95f56d64bcacc50511ec9dfe3fdf
+    main_comparison: The first integral and constrained hanging branch agree, with
+      a unique positive c determined by L=c sinh(a/c). The auditor and paired answer
+      verify the global arclength bound, including equality and the endpoint span.
+    script_sha256: ee9da854cc248cc965a022f2ce4722bcd9705ef45c9934059b6ffe5a15e39f92
+    check_output: ''
+    check_exit: 0
+  qx14-62aac5eb4dbd:
+    exact_question_sha256: 62aac5eb4dbddf70b6e34190eef77737e34db1fbba5cb51317a096c5ca157782
+    solution_sha256: 6feca2e2c062b835c4bf6f8743a1b68ca722875d230d40c3600de5637b695019
+    independent_rework: '# Derivatives of orthogonal eigenfunctions
+
+
+      Use self-adjoint boundary conditions for which the stronger individual endpoint
+      term \([p y_m'' y_n]_a^b\) vanishes for every pair under consideration. This
+      holds with fixed homogeneous Dirichlet or Neumann conditions at each end. Multiplication
+      of \(-(p y_m'')''+q y_m=\lambda_m y_m\) by \(y_n\) gives
+
+      \[
+
+      \int_a^b (p y_m''y_n''+q y_my_n)\,dx=\lambda_m\int_a^b y_my_n\,dx+[p y_m''y_n]_a^b
+      .
+
+      \]
+
+      Swap the indices and subtract. The symmetry then implies \((\lambda_m-\lambda_n)\int
+      y_my_n=0\). For distinct eigenvalues the modes are orthogonal, and for equal
+      indices the specified normalization gives unit norm. If an eigenvalue is repeated,
+      choose an orthonormal basis inside its eigenspace. Normalization alone would
+      not force two arbitrary vectors in the same eigenspace to be orthogonal. Under
+      these conditions the answer is \(\lambda_m\delta_{mn}\). For general Robin data
+      the boundary terms in the two identities can be equal without either one vanishing,
+      so such data require retaining the displayed endpoint term.
+
+
+      Legendre''s equation has \(p=1-x^2,\ q=0,\ \lambda_m=m(m+1)\). All polynomials
+      and their derivatives are finite at both ends, where \(p=0\). The unnormalised
+      Legendre polynomials with \(P_m(1)=1\) have \(\int P_mP_n=2\delta_{mn}/(2m+1)\).
+      To check the diagonal norm, Rodrigues'' formula gives leading coefficient \(A_m=(2m)!/[2^m(m!)^2]\).
+      Integrating the Rodrigues expression for one factor \(m\) times by parts, the
+      boundary terms vanish from the order-\(m\) zeros of \((x^2-1)^m\); hence \(\int
+      P_m^2=(A_m/2^m)\int_{-1}^1(1-x^2)^m\,dx\). The last integral is \(2^{2m+1}(m!)^2/(2m+1)!\),
+      by the substitution \(x=2t-1\) and the integer beta integral. Thus
+
+      \[
+
+      \int_{-1}^1(1-x^2)P_m''P_n''\,dx=\frac{2m(m+1)}{2m+1}\delta_{mn}.
+
+      \]
+
+      This includes degree zero, whose derivative vanishes.
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2006-07/sheet-3.ps`, physical page 1, printed question
+      4.
+
+      - `raw/sheets/IB/methods/2007-08/sheet-3.pdf`, physical page 1, printed question
+      4.
+
+      '
+    independent_rework_sha256: 7414fc831b3057ef49be742459fe82bf36e158abd424258ac617171c320ffd52
+    main_comparison: All derive the energy identity by parts with the individual endpoint
+      form vanishing. They retain normalization in a repeated eigenspace and recover
+      the Legendre value 2m(m+1)/(2m+1) on the diagonal, including degree zero.
+    script_sha256: ea961309a8737fe310e1ca742c6c9e1c6eda9c0ba97becc64512381886d2ebae
+    check_output: ''
+    check_exit: 0
+  q04-7862e20b0782:
+    exact_question_sha256: 7862e20b07828e5b40e402e342b53684959a9170e3f0fcacd30a83277489401d
+    solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+    independent_rework: "# The Green function with positive second derivative\n\n\
+      Let \\(r=\\min(x,\\xi),\\ s=\\max(x,\\xi)\\). On either side of an interior\
+      \ impulse, solutions of \\(G''=\\lambda^2G\\) vanishing at the nearer boundary\
+      \ are multiples of \\(u(x)=\\sinh(\\lambda x)\\) on the left and \\(v(x)=\\\
+      sinh(\\lambda(1-x))\\) on the right, when \\(\\lambda\\ne0\\). Continuity eliminates\
+      \ a possible delta derivative. Thus set \\(G=C u(r)v(s)\\). Its slope jump is\n\
+      \\[\n C(u(\\xi)v'(\\xi)-u'(\\xi)v(\\xi))=-C\\lambda\\sinh\\lambda.\n\\]\nIntegrating\
+      \ the equation across \\(\\xi\\) gives jump \\(+1\\). Hence \\(C=-1/(\\lambda\\\
+      sinh\\lambda)\\).\n\nSplitting \\(y=\\int_0^1G(x,\\xi)f(\\xi)\\,d\\xi\\) at\
+      \ \\(x\\) gives\n\\[\ny=-\\frac{\\sinh(\\lambda x)\\int_x^1f(\\xi)\\sinh(\\\
+      lambda(1-\\xi))\\,d\\xi+\n\\sinh(\\lambda(1-x))\\int_0^xf(\\xi)\\sinh(\\lambda\\\
+      xi)\\,d\\xi}{\\lambda\\sinh\\lambda}.\n\\]\nFor continuous \\(f\\) this solution\
+      \ has \\(y''-\\lambda^2y=f\\) and both endpoint values zero. If \\(\\lambda=0\\\
+      ), either match affine functions directly or use \\(\\sinh z=z+O(z^3)\\) to\
+      \ obtain \\(G=-r(1-s)\\), with the same unit derivative jump. For every real\
+      \ \\(\\lambda\\) uniqueness follows by multiplying the homogeneous equation\
+      \ by the conjugate solution and integrating. The boundary term vanishes, forcing\
+      \ \\(\\int_0^1(|y'|^2+\\lambda^2|y|^2)=0\\).\n\nThe formula extends continuously\
+      \ to \\(\\xi=0,1\\), with value zero in each case. The unit-jump statement concerns\
+      \ an impulse in the open interval. A boundary delta acts as zero on homogeneous\
+      \ Dirichlet test functions, and the endpoint extension makes no contribution\
+      \ to the forcing integral. A one-sided jump at an endpoint would require a separately\
+      \ specified boundary-forcing convention.\n\n## Source appearances\n\n- `raw/sheets/IB/methods/2015-16/all-sheets.pdf`,\
+      \ physical page 5, printed question 2.\n- `raw/sheets/IB/methods/2018-19/sheet-3.pdf`,\
+      \ physical page 1, printed question 2.\n- `raw/sheets/IB/methods/2020-21/sheet-3.pdf`,\
+      \ physical page 1, printed question 2.\n- `raw/sheets/IB/methods/2021-22/sheet-3.pdf`,\
+      \ physical page 1, printed question 2.\n- `raw/sheets/IB/methods/2022-23/sheet-3.pdf`,\
+      \ physical page 1, printed question 2.\n"
+    independent_rework_sha256: 743ffa02d8961d168db6966ccb83cb3c9a66549a09568df99638e413bc3c7970
+    main_comparison: Both kernel signs follow the sign of the leading second derivative
+      in each exact printing. The derivative jump, boundary conditions, and zero-parameter
+      limits agree. At the positive-operator resonant imaginary parameters the same
+      sine mode, compatibility integral and nonuniqueness result. Endpoint deltas
+      in the early inclusive formulation require a separate convention.
+    script_sha256: 1909ef12d6d505f1890a4424d1aa1414f0d72137de15824cfce9365eb76f3336
+    check_output: Negative Green kernel reproduces forced sine modes with endpoint
+      and zero-parameter limits.
+    check_exit: 0
+  q04-914c3ed94fc9:
+    exact_question_sha256: 914c3ed94fc914de85ef2f7e4f4fe454a03774307f858f8e5b1887b362140bc4
+    solution_sha256: 8b2ad051061120518fc17864c8a720f547ecc3e9d7935d8c326e2c542412dc84
+    independent_rework: "# Inverting the second derivative minus a constant\n\nFor\
+      \ \\(0<\\xi<1\\), let \\(S(z)=\\sinh(\\lambda z)/\\lambda\\) for \\(\\lambda\\\
+      ne0\\), and \\(S(z)=z\\) for \\(\\lambda=0\\). Thus \\(S''=\\lambda^2S,\\ S(0)=0,\\\
+      \ S'(0)=1\\). For a unit impulse, \\(H(x-\\xi)S(x-\\xi)\\) solves the equation\
+      \ on the line, since the function is continuous and its slope jumps by one.\
+      \ Add a homogeneous term to fix the right boundary:\n\\[\nG(x,\\xi)=H(x-\\xi)S(x-\\\
+      xi)-S(x)S(1-\\xi)/S(1).\n\\]\nFor real \\(\\lambda\\) the denominator is positive.\
+      \ The hyperbolic addition formula yields the symmetric expression\n\\[\nG(x,\\\
+      xi)=-S(\\min(x,\\xi))S(1-\\max(x,\\xi))/S(1).\n\\]\nFor \\(\\lambda=0\\) this\
+      \ is checked directly using \\(S(z)=z\\). Its unit jump, homogeneous branches,\
+      \ and vanishing endpoint values verify the kernel.\n\nSuperposition for continuous\
+      \ \\(f\\) gives\n\\[\ny(x)=-\\frac{S(x)\\int_x^1 f(\\xi)S(1-\\xi)\\,d\\xi+\n\
+      \ S(1-x)\\int_0^x f(\\xi)S(\\xi)\\,d\\xi}{S(1)}.\n\\]\nSubstituting the hyperbolic\
+      \ formula gives the requested prefactor \\(-1/(\\lambda\\sinh\\lambda)\\) multiplying\
+      \ the two products of hyperbolic sines. The displayed \\(S\\)-form already includes\
+      \ the removable zero-parameter limit. A homogeneous solution with zero left\
+      \ value is \\(A S(x)\\); its right value forces \\(A=0\\).\n\n## Source appearances\n\
+      \n- `raw/sheets/IB/methods/2016-17/sheet-3.pdf`, physical page 1, printed question\
+      \ 4.\n"
+    independent_rework_sha256: 196e54ce519637012318fbe38c1a32503ba476f045f185b925c0803edf4dbcce
+    main_comparison: Both kernel signs follow the sign of the leading second derivative
+      in each exact printing. The derivative jump, boundary conditions, and zero-parameter
+      limits agree. At the positive-operator resonant imaginary parameters the same
+      sine mode, compatibility integral and nonuniqueness result. Endpoint deltas
+      in the early inclusive formulation require a separate convention.
+    script_sha256: 1909ef12d6d505f1890a4424d1aa1414f0d72137de15824cfce9365eb76f3336
+    check_output: Negative Green kernel reproduces forced sine modes with endpoint
+      and zero-parameter limits.
+    check_exit: 0
+  q04-3f833e46f1ea:
+    exact_question_sha256: 3f833e46f1ea8681b838646b1e3c40caf9157df3e4719bf2436b9c4359320070
+    solution_sha256: 6c4339fc6e22ab2b801d877ade50a782039579c29897a8c9716cf5142f67f552
+    independent_rework: '# Dirichlet inverse and the exceptional parameters
+
+
+      Put \(u(x)=\sinh(\lambda x)\), \(v(x)=\sinh(\lambda(1-x))\). They solve the
+      homogeneous equation and vanish at the left and right ends respectively. Write
+      the continuous kernel as \(C u(\min(x,\xi))v(\max(x,\xi))\). Its right-minus-left
+      derivative is \(C(uv''-u''v)=-C\lambda\sinh\lambda\), by the addition law for
+      \(\sinh\). Integrating \(-G''''+\lambda^2G=\delta_\xi\) gives jump \(-1\), hence
+      \(C=1/(\lambda\sinh\lambda)\). For real nonzero \(\lambda\) this is finite.
+      The boundary conditions and the energy identity \(\int(|y''|^2+\lambda^2|y|^2)=0\)
+      give uniqueness in the homogeneous case.
+
+
+      For continuous \(f\) the superposition of impulses therefore gives
+
+      \[
+
+      y=C\left[u(x)\int_x^1 v(\xi)f(\xi)\,d\xi+v(x)\int_0^x u(\xi)f(\xi)\,d\xi\right].
+
+      \]
+
+      The endpoint values vanish, and application of \(L_x\) returns \(f\). Writing
+      \(r=\min(x,\xi)\), \(s=\max(x,\xi)\), the power series of \(\sinh\) gives \(G\to
+      r(1-s)\) uniformly on the unit square. The limiting integral solves \(-y''''=f\),
+      with the same boundary data, since this limiting kernel has jump \(-1\).
+
+
+      At \(\lambda=i m\pi\) for positive integer \(m\), the sine \(h(x)=\sin(m\pi
+      x)\) is a nonzero homogeneous Dirichlet solution. The Wronskian vanishes, and
+      double integration by parts gives the necessary condition \(\int_0^1 fh=0\).
+      Indeed, with \(k=m\pi\) the zero-initial-value particular solution is \(-\int_0^x\sin(k(x-t))f(t)\,dt/k\).
+      Its value at 1 vanishes exactly under this condition. Then arbitrary multiples
+      of \(h\) can be added. Thus the inverse kernel for general data fails at those
+      parameters.
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2023-24/sheet-3.pdf`, physical page 1, printed question
+      4.
+
+      '
+    independent_rework_sha256: a0b198af69be8d4f6afefb5f655c9ae173071451e468999e1b6437e138c7381c
+    main_comparison: Both kernel signs follow the sign of the leading second derivative
+      in each exact printing. The derivative jump, boundary conditions, and zero-parameter
+      limits agree. At the positive-operator resonant imaginary parameters the same
+      sine mode, compatibility integral and nonuniqueness result. Endpoint deltas
+      in the early inclusive formulation require a separate convention.
+    script_sha256: 1ef08694af18202cce01547bc7b532372f4494abb40bcc55867d894c8196d343
+    check_output: Nonzero and zero-mass Dirichlet kernels and the resonant projection
+      checked.
+    check_exit: 0
+  q04-a9257a7804dd:
+    exact_question_sha256: a9257a7804dd730a10dbe49575325e8bca711be5970a8a450a63a2958f5f14c5
+    solution_sha256: 6c4339fc6e22ab2b801d877ade50a782039579c29897a8c9716cf5142f67f552
+    independent_rework: '# Dirichlet Green function, zero limit and resonance
+
+
+      For real \(\lambda\ne0\), solve \(Ly=f\) initially from the left. Variation
+      of the initial slope gives
+
+      \[
+
+      y(x)=B\sinh(\lambda x)-\int_0^x \sinh(\lambda(x-t))f(t)\,dt/\lambda .
+
+      \]
+
+      The negative sign follows on differentiating the integral twice. Setting \(y(1)=0\)
+      determines \(B=\int_0^1\sinh(\lambda(1-t))f(t)\,dt/(\lambda\sinh\lambda)\).
+      For \(t<x\), combine the two terms by the addition formula,
+
+      \[
+
+      \sinh(\lambda x)\sinh(\lambda(1-t))-\sinh\lambda\,\sinh(\lambda(x-t))
+
+      =\sinh(\lambda t)\sinh(\lambda(1-x)).
+
+      \]
+
+      Thus, with \(r=\min(x,t)\), \(s=\max(x,t)\), the kernel is \(G=\sinh(\lambda
+      r)\sinh(\lambda(1-s))/(\lambda\sinh\lambda)\). Each branch is homogeneous, the
+      values match, and its one-sided slopes have difference \(-1\) at the source.
+      These properties and its zero boundary values verify \(LG=\delta\). The homogeneous
+      initial solution satisfying the left condition is a multiple of \(\sinh(\lambda
+      x)\), and the right condition eliminates it.
+
+
+      Explicitly the result is
+
+      \[
+
+      y=\frac{\sinh(\lambda x)\int_x^1f(t)\sinh(\lambda(1-t))\,dt+
+
+      \sinh(\lambda(1-x))\int_0^x f(t)\sinh(\lambda t)\,dt}{\lambda\sinh\lambda}.
+
+      \]
+
+      As \(\lambda\to0\), \(\sinh z/z\to1\) uniformly over the scaled bounded arguments,
+      so \(G\to r(1-s)\) uniformly. This kernel has the Dirichlet boundary values
+      and derivative jump \(-1\) for \(-D^2\). Hence its integral supplies the limit
+      for integrable \(f\).
+
+
+      For \(\lambda=i m\pi\), \(m\ge1\), the nonzero homogeneous solution \(\sin(m\pi
+      x)\) satisfies both ends. In the initial representation, \(\sinh\lambda=0\),
+      so the right condition no longer determines the slope. Instead it requires \(\int_0^1f(t)\sin(m\pi
+      t)\,dt=0\), because \(\sin(m\pi(1-t))=(-1)^{m+1}\sin(m\pi t)\). Compatible forcing
+      leaves a free sine multiple, and incompatible forcing has no solution.
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2025-26/sheet-3.pdf`, physical page 1, printed question
+      4.
+
+      - `raw/sheets/IB/methods/2026-27/sheet-3.pdf`, physical page 1, printed question
+      4.
+
+      '
+    independent_rework_sha256: 57ce70c307279361da3d3467cf96695945686dc595d94d17752d3bdad2ee4745
+    main_comparison: Both kernel signs follow the sign of the leading second derivative
+      in each exact printing. The derivative jump, boundary conditions, and zero-parameter
+      limits agree. At the positive-operator resonant imaginary parameters the same
+      sine mode, compatibility integral and nonuniqueness result. Endpoint deltas
+      in the early inclusive formulation require a separate convention.
+    script_sha256: 1ef08694af18202cce01547bc7b532372f4494abb40bcc55867d894c8196d343
+    check_output: Nonzero and zero-mass Dirichlet kernels and the resonant projection
+      checked.
+    check_exit: 0
+  qx07-f54d59ee2aed:
+    exact_question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    solution_sha256: f46ca369ba065c2fbb00bfa0a372b5a9d9697dc494d306a9decfafedaafa84c7
+    independent_rework: "# Fastest trip between stations at the same height\n\nTake\
+      \ \\(x\\) horizontal and \\(y\\) vertically down from the stations, with start\
+      \ \\((0,0)\\) and finish \\((l,0)\\). Conservation of energy gives speed \\\
+      (\\sqrt{2gy}\\). For any traversable rectifiable path, parametrised absolutely\
+      \ continuously and with greatest depth \\(d>0\\), the time is\n\\[\nT=\\int\\\
+      frac{\\sqrt{\\dot x^2+\\dot y^2}}{\\sqrt{2gy}}\\,dt.\n\\]\nSet \\(p=(2gd)^{-1/2}\\\
+      ), \\(q(y)=\\sqrt{(2gy)^{-1}-p^2}\\). Cauchy–Schwarz gives the pointwise lower\
+      \ bound \\(p\\dot x+q(y)|\\dot y|\\) for the integrand. Integrate up to a time\
+      \ at which the path attains \\(d\\) and then to the finish. On each leg the\
+      \ variation integral for \\(q(y)|\\dot y|\\) bounds the absolute difference\
+      \ of a primitive of \\(q\\) at its endpoints. The singularity at zero is integrable;\
+      \ truncating \\(q\\) and taking the increasing limit justifies this step. Hence\n\
+      \\[\n T\\ \\ge\\ pl+2\\int_0^d q(y)\\,dy\n   =\\frac{l}{\\sqrt{2gd}}+\\pi\\\
+      sqrt{\\frac{d}{2g}}\n   \\ \\ge\\sqrt{\\frac{2\\pi l}{g}} .\n\\]\nHere \\(y=d\\\
+      sin^2u\\) computes the integral, and equality in the last inequality requires\
+      \ \\(d=l/\\pi\\). This lower bound also covers paths that turn back in the horizontal\
+      \ direction.\n\nSet \\(r=l/(2\\pi)\\) and take the cycloid \\(x=r(\\theta-\\\
+      sin\\theta)\\), \\(y=r(1-\\cos\\theta)\\) for \\(0\\le\\theta\\le2\\pi\\). It\
+      \ reaches the stated stations and depth \\(2r=l/\\pi\\). Inside the interval\
+      \ \\(ds=2r\\sin(\\theta/2)\\,d\\theta\\), while the speed is \\(2\\sqrt{gr}\\\
+      sin(\\theta/2)\\). Thus the traversal time is \\(2\\pi\\sqrt{r/g}=\\sqrt{2\\\
+      pi l/g}\\), attaining the bound despite the zero endpoint speeds. The ratio\
+      \ \\(dx/dy=\\tan(\\theta/2)\\) tends to zero at both ends, giving the indicated\
+      \ vertical tangents.\n\n## Source appearances\n\n- `raw/sheets/IB/methods/2001-02/sheet-3.pdf`,\
+      \ physical page 1, printed question 7.\n- `raw/sheets/IB/methods/2003-04/sheet-3.pdf`,\
+      \ physical page 1, printed question 7.\n- `raw/sheets/IB/methods/2004-05/sheet-3.pdf`,\
+      \ physical page 1, printed question 7.\n"
+    independent_rework_sha256: 4378ffc63e36cbaddbefbfbe0627d6e2affe87e7d25134b03a4166187ad28949
+    main_comparison: The auditor gave a separate global bound in terms of maximum
+      depth, optimized at l/π. The paired proof uses a time-domain Wirtinger bound.
+      Both bounds are attained by the same full cycloid and give precisely the printed
+      time and vertical tangents.
+    script_sha256: 1fb60f1383401dd9c935648cd942d5cb8e4a96134174ffe6afe1e6b01b92a7ff
+    check_output: ''
+    check_exit: 0
+  qx13-85901467296e:
+    exact_question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    solution_sha256: eaad0c36ef8504b8134e1955e75bef2112a1d61c58659ce83322502eb2362b7b
+    independent_rework: '# The Rayleigh quotient and the word “Minimise”
+
+
+      Work in the regular real setting, with \(p>0\) sufficiently smooth, continuous
+      \(q,w\), and positive weighted norm \(M[y]=\int_a^b wy^2>0\) for each candidate.
+      Strictly positive \(w\) suffices. Let \(E[y]=\int_a^b(py''^2+qy^2)\) and \(Q=E/M\).
+      First take separated homogeneous Dirichlet or Neumann data at each end. Then
+      \([py''h]_a^b=0\) for every admissible variation \(h\). For a stationary point
+      of \(E\) at fixed \(M=C>0\) a multiplier exists since the derivative of \(M\)
+      in direction \(y\) is \(2C\). Stationarity gives
+
+      \[
+
+      0=\tfrac12\delta(E-\lambda M)[h]=[py''h]_a^b+
+
+      \int_a^b (-(py'')''+qy-\lambda wy)h\,dx .
+
+      \]
+
+      Taking compactly supported \(h\) yields the differential equation. Conversely
+      a solution with these boundary data annihilates the first variation. Taking
+      \(h=y\) gives \(\lambda=E/M\). Since \(\delta Q=(\delta E-Q\delta M)/M\), the
+      same calculation proves that stationary quotient values are exactly eigenvalues
+      and that each eigenfunction is stationary. Rescaling to \(M=C\) preserves \(Q\),
+      so the constrained energy and the quotient have identical minimising directions.
+
+
+      The printed equivalence with *minimisation* for all eigenfunctions fails. With
+      \(p=w=1,\ q=0\), Dirichlet data on \([0,\pi]\), the eigenfunctions \(\sin x,\sin(2x)\)
+      have identical positive norm and quotients 1 and 4. Admixing \(\varepsilon\sin
+      x\) in \(\sin(2x)\) changes its quotient to \((4+\varepsilon^2)/(1+\varepsilon^2)<4\).
+      Thus the second mode does not even locally minimise. Under the regular self-adjoint
+      spectral hypotheses expand in normalised eigenfunctions with eigenvalues \(\lambda_1\le\lambda_2\le\cdots\).
+      The quotient of a nonzero form-domain vector is \(\sum_j\lambda_j|c_j|^2/\sum_j|c_j|^2\);
+      its global minimum is \(\lambda_1\), and adding weighted orthogonality constraints
+      against lower modes produces the successive minima. Higher eigenvalues are critical
+      values in the unconstrained quotient.
+
+
+      For general homogeneous Robin data \(p y''=\gamma y\) at one or both ends, self-adjointness
+      only cancels the *skew* boundary form. The printed numerator alone retains \([py''h]\).
+      At Robin ends use the energy \(E-[\gamma y^2]_a^b\) with the corresponding signed
+      contribution only at those ends. Its variation cancels \([py''h]\); testing
+      the equation with \(y\) then identifies the corrected quotient. Coupled periodic
+      data cancelling the full boundary term also work directly. If the stated weight
+      vanishes identically or a candidate has zero weighted norm, the quotient is
+      undefined, and no equivalence for that candidate is meaningful.
+
+
+      ## Source appearances
+
+
+      - `raw/sheets/IB/methods/2001-02/sheet-3.pdf`, physical page 2, printed question
+      13.
+
+      - `raw/sheets/IB/methods/2003-04/sheet-3.pdf`, physical page 2, printed question
+      13.
+
+      - `raw/sheets/IB/methods/2004-05/sheet-3.pdf`, physical page 2, printed question
+      13.
+
+      '
+    independent_rework_sha256: 90a651e52ec0959447f3210b4ef523432818379b2ea605c8caf951fbcc4ec174
+    main_comparison: The auditor independently produced two equal-norm Dirichlet eigenfunctions
+      to refute the printed universal minimisation claim and distinguished Robin boundary
+      contributions. The paired solution already records both qualifications and the
+      positive-norm restriction.
+    script_sha256: 476d57a4b7f9a5aed37f33d52eed15fd06c0d756d3d970671984547efe21820f
+    check_output: ''
+    check_exit: 0
+  q12-48c238e5f093:
+    exact_question_sha256: 48c238e5f09364c5a9203b5d3de56c5ee575baf55ebe95e9d019dce38b78ac19
+    solution_sha256: 972a700f972751af7e7025401ce229bdbaa7c5516e843ea14b8447a6e35ce303
+    independent_rework: "# A causal kernel gives Taylor's remainder\n\nFor integer\
+      \ \\(n\\ge1\\), set \\(G(t,s)=0\\) when \\(t<s\\), and \\(G(t,s)=(t-s)^{n-1}/(n-1)!\\\
+      ) when \\(t>s\\). For \\(n>1\\), derivatives through order \\(n-2\\) match at\
+      \ \\(t=s\\), and the order \\(n-1\\) derivative jumps from zero to one. For\
+      \ \\(n=1\\) the kernel itself is the unit step. In both cases \\(D_t^n G=\\\
+      delta_s\\).\n\nFor continuous \\(f\\) the causal integral is \\(y(t)=\\int_0^t\
+      \ (t-s)^{n-1}f(s)\\,ds/(n-1)!\\). Each differentiation through order \\(n-1\\\
+      ) lowers the kernel power, giving \\(y^{(n-1)}(t)=\\int_0^t f(s)\\,ds\\), and\
+      \ the next derivative gives \\(f(t)\\). All prescribed initial data vanish.\
+      \ The difference of two solutions is a polynomial of degree at most \\(n-1\\\
+      ) with zero Taylor coefficients at zero, hence vanishes.\n\nFor \\(F\\in C^n\\\
+      ), subtract \\(\\sum_{j=0}^{n-1}F^{(j)}(a)(x-a)^j/j!\\) from \\(F(x)\\). The\
+      \ difference has the zero initial data at \\(a\\) and \\(n\\)-th derivative\
+      \ \\(F^{(n)}\\). Translating the integral gives\n\\[\n F(x)=\\sum_{j=0}^{n-1}\\\
+      frac{F^{(j)}(a)(x-a)^j}{j!}+\n \\frac1{(n-1)!}\\int_a^x(x-s)^{n-1} F^{(n)}(s)\\\
+      ,ds .\n\\]\nThe formula at \\(x=a\\) is immediate. For \\(x<a\\) use the oriented\
+      \ integral, which obeys the same derivative and initial conditions on the other\
+      \ side, or apply the positive-time formula to \\(t\\mapsto F(a-t)\\).\n\n##\
+      \ Source appearances\n\n- `raw/sheets/IB/methods/2023-24/sheet-3.pdf`, physical\
+      \ page 2, printed question 12.\n- `raw/sheets/IB/methods/2025-26/sheet-3.pdf`,\
+      \ physical page 2, printed question 12.\n- `raw/sheets/IB/methods/2026-27/sheet-3.pdf`,\
+      \ physical page 2, printed question 12.\n"
+    independent_rework_sha256: 412804e5457ecec7fbb32ce6f14db6b4b9d6fbc049692cd23e0adccfba8e7bd9
+    main_comparison: The causal truncated-power kernel satisfies the jump and all
+      zero initial data, including the first-order step case. Translating the convolution
+      gives the oriented Taylor integral on either side of the basepoint.
+    script_sha256: 6b322ae5232ffee7c48a5266fbbdd480135b1bad81ca877c5547c4b839b8fce5
+    check_output: Causal inverse on polynomial forcing and two-sided Taylor remainders
+      checked.
+    check_exit: 0
+  q03-e33c0cce50fb:
+    exact_question_sha256: e33c0cce50fbea6dcb277168e8602d6a6beaf226d170e19d90df906648fafbab
+    solution_sha256: fe62b9de65e38ec3f166bf790500d4b4380af034b2c3b58033796f099725d9de
+    independent_rework: "# A repeated characteristic root with two Dirichlet values\n\
+      \nWrite \\(y=e^x u\\). Then \\((D-1)y=e^x u'\\), so \\((D-1)^2y=e^x u''\\),\
+      \ with \\(u(0)=u(1)=0\\). To solve \\(u''=h\\), the impulse response for fixed\
+      \ \\(0<\\xi<1\\) must be affine on each side, continuous at \\(\\xi\\), vanish\
+      \ at the endpoints and have right derivative minus left derivative equal to\
+      \ one. Writing \\(r=\\min(x,\\xi)\\), \\(s=\\max(x,\\xi)\\), these conditions\
+      \ give \\(K=-r(1-s)\\). Its slopes are \\(\\xi-1\\) on the left and \\(\\xi\\\
+      ) on the right.\n\nConsequently the original kernel is \\(G(x,\\xi)=-e^{x-\\\
+      xi}r(1-s)\\). The conjugation factors give \\((D_x-1)^2G=e^{x-\\xi}\\delta_\\\
+      xi=\\delta_\\xi\\). In particular the exponential is directed from the source\
+      \ to the observation point. For continuous \\(f\\) the classical answer is\n\
+      \\[\ny(x)=-e^x\\left((1-x)\\int_0^x \\xi e^{-\\xi}f(\\xi)\\,d\\xi+\n x\\int_x^1(1-\\\
+      xi)e^{-\\xi}f(\\xi)\\,d\\xi\\right).\n\\]\nThe endpoint values follow term by\
+      \ term. The difference between any two solutions is \\(e^x(A+Bx)\\), and the\
+      \ endpoint values force \\(A=B=0\\).\n\n## Source appearances\n\n- `raw/sheets/IB/methods/2023-24/sheet-3.pdf`,\
+      \ physical page 1, printed question 3.\n- `raw/sheets/IB/methods/2025-26/sheet-3.pdf`,\
+      \ physical page 1, printed question 3.\n- `raw/sheets/IB/methods/2026-27/sheet-3.pdf`,\
+      \ physical page 1, printed question 3.\n"
+    independent_rework_sha256: 728357c136437120e59a5678a7c35939fc257f957985c0b12829909a8ae02e7b
+    main_comparison: Conjugating by exp(x) reduces to the Dirichlet second derivative.
+      The independently constructed kernel agrees in sign, exponential factor, boundary
+      behavior, and its split integral.
+    script_sha256: 86ab4fba66a3dfced6143a3cf39e7cb0ff54e461cd32605a623b63669b5c76c0
+    check_output: Green integral reproduces exponential times cubic, endpoints and
+      unit jump.
+    check_exit: 0
+delivery:
+  canonical-q06:
+    year: canonical
+    unit: q06
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 7
+    rasters:
+      canonical-q06-p7.png: 87beaf4f1c3fbf3dca2db64ff851db18bb2f4444b17a08bea2b2244dfccd20d6
+    html: site/private/questions/IB/methods/sheet-3/q06/index.html
+    html_sha256: dc7e7b63905011822768dc796b0c2c733076c314d0db3fb876298fee50ab6c8f
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 6e55e843e8a9d646609c1dc92cc4bf6d94da6b3463b15234252c9265dd126d42
+  2018-19-q06:
+    year: 2018-19
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2018-19/main.pdf
+    pdf_sha256: 7c3befd23bf78276847401c60378db33c2ffb410beeb72a0cd12536266958640
+    pages:
+    - 9
+    rasters:
+      2018-19-q06-p9.png: 7d5f599bfd44a34b24cfeeb4a8d371e390b8e8f4c94739796f0a63b98286334e
+    html: site/private/collections/IB/methods/sheet-3/2018-19.html
+    html_sha256: a839c55e39e6ab57cbd2533afa22387282ca86e3292ef5dafaf1b603e674b817
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7fc867233755bea48c9f9c33f104202e6a18fb1075b60667d59b35fe30e38933
+  2020-21-q06:
+    year: 2020-21
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2020-21/main.pdf
+    pdf_sha256: 514f3c24e7bbe6367c60c92db81798406c4f15e017d274b4ef33ad552f9a403c
+    pages:
+    - 9
+    rasters:
+      2020-21-q06-p9.png: 1a5e215a1e8e6137b1172ef95a69be04d8f96ffc922abf8f6362290935f4dd95
+    html: site/private/collections/IB/methods/sheet-3/2020-21.html
+    html_sha256: 8324719315ab459008cd211b8d8db3383a3a00722c441a495a84751209350c3e
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7fc867233755bea48c9f9c33f104202e6a18fb1075b60667d59b35fe30e38933
+  2021-22-q06:
+    year: 2021-22
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2021-22/main.pdf
+    pdf_sha256: 312db584b935a132a1cf6cb4c1b58a65120f8fc70af0306aaadc4146b82e0d8c
+    pages:
+    - 9
+    rasters:
+      2021-22-q06-p9.png: 5885ede8b524da1657a29160e1f7522877c23361fa96531d7fe9de6578c84530
+    html: site/private/collections/IB/methods/sheet-3/2021-22.html
+    html_sha256: 11b59c8e337979d7185bebef4e3028f3db3b8b731b5fc70bf45c9bca955a2684
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7fc867233755bea48c9f9c33f104202e6a18fb1075b60667d59b35fe30e38933
+  2022-23-q06:
+    year: 2022-23
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2022-23/main.pdf
+    pdf_sha256: e2a4557aad37d8e1036e22f1544496092628716e6d7b217837612beb064c6a1d
+    pages:
+    - 9
+    rasters:
+      2022-23-q06-p9.png: eed0f7f3b7f5afb741264ec1ce885e55927678693b2eadf7dc01ba524d76b392
+    html: site/private/collections/IB/methods/sheet-3/2022-23.html
+    html_sha256: 20b7eb0eb6812fdc74b39f56b458e79df0247eea04019cb684cd502cbfbfbd9d
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7fc867233755bea48c9f9c33f104202e6a18fb1075b60667d59b35fe30e38933
+  2023-24-q06:
+    year: 2023-24
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2023-24/main.pdf
+    pdf_sha256: 8918319f28cec76014722c45e723a8a74c46a48f9f44a2bdba19bb3fee79653b
+    pages:
+    - 7
+    rasters:
+      2023-24-q06-p7.png: 6e2242d34007c747548c3e4282e21c0dd06ec7183c37631f257d9f19d957be8b
+    html: site/private/collections/IB/methods/sheet-3/2023-24.html
+    html_sha256: 0094981fe2727a435a4c9e32786cd107acbb8365627d1a03f815dc52256ccc76
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: cdf0cd76f79f059f4cc6de45bf463e87ef74769d4c557aa303f622a8e2b16e52
+  2025-26-q06:
+    year: 2025-26
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: f5a43fd576cddc0bf3136c8f3769c98a27e75f93569b328085ae8eee9b728a28
+    pages:
+    - 7
+    rasters:
+      2025-26-q06-p7.png: cd88d36e558c6e089ea2911525bb2528fc397157980671050136f2549da3a678
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 5bd8a7975088f252e3f992872f53f84bae27f738c13646e2bf271b9fdcb42093
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 70dcf9daa522e97c891898b641c8d11ec798a4028ebb964fbd34632f17498da5
+  2026-27-q06:
+    year: 2026-27
+    unit: q06
+    pdf: build/IB-methods-sheet-3-2026-27/main.pdf
+    pdf_sha256: 97c588360f41d11d9e765c8c88b4ab8ce411e7a28d876af57c13da32abe67b12
+    pages:
+    - 6
+    rasters:
+      2026-27-q06-p6.png: b0be5a5a63ad9cf972a89e5c5844419d9ecc8fa2566e11745e3bb2e02b88a7d6
+    html: site/private/collections/IB/methods/sheet-3/2026-27.html
+    html_sha256: e819728e986ad14f47ab899851c265eb0c9560ac894d35e28e29fc73b2b79d70
+    browser:
+      total: 15
+      rendered: 15
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 70dcf9daa522e97c891898b641c8d11ec798a4028ebb964fbd34632f17498da5
+  canonical-qx25:
+    year: canonical
+    unit: qx25
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 43
+    rasters:
+      canonical-qx25-p43.png: 845d428ecaff1bca42a7913efcaae63edbed82859b53a592d5a917c701a67e66
+    html: site/private/questions/IB/methods/sheet-3/qx25/index.html
+    html_sha256: 19d3ebb2ab7f5dfe79690379df435bafefc3ae1859c5264f0a07bbfc8004b2d3
+    browser:
+      total: 10
+      rendered: 10
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 1d4cee74f0dceabdbbdee4ba31af4b2cc870041ebd31f9249ccbf1436cd452ea
+  2015-16-qx25:
+    year: 2015-16
+    unit: qx25
+    pdf: build/IB-methods-sheet-3-2015-16/main.pdf
+    pdf_sha256: 87085f40a8d10a74f80ac95ddc72e58d09eded62b9e4bd8b739d7d837e481070
+    pages:
+    - 10
+    rasters:
+      2015-16-qx25-p10.png: 9ced302d81ad5f50117c4c7fa7462ef5bfe42d66dff1c723b3d0728d63871e71
+    html: site/private/collections/IB/methods/sheet-3/2015-16.html
+    html_sha256: 663a102a156dedc817b4257550f7b2e20c53fb54ed29b62aa44e9badb8fc57a1
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: c8f83a72e3f67fc9043d8ee59a6d7436bcfa94468046912109f275ec1dffd8d7
+  2016-17-qx25:
+    year: 2016-17
+    unit: qx25
+    pdf: build/IB-methods-sheet-3-2016-17/main.pdf
+    pdf_sha256: cfb4bb086bf13debf19d8eabd4207dfb165c05934203fd95543556622be2f938
+    pages:
+    - 8
+    rasters:
+      2016-17-qx25-p8.png: 8de82277e4447376fc3fea6ca81ea67abedc2aba4f973d9b86e542e504467f0b
+    html: site/private/collections/IB/methods/sheet-3/2016-17.html
+    html_sha256: b13d89993e4b04de9ccf6251dde9a8badd072e7b3d21c66173c0ff746bde7c40
+    browser:
+      total: 10
+      rendered: 10
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 184461957a090a7a807dfbcd8254f2f80373d6c68b8c94ba9e7acf4750579b7a
+  2018-19-qx25:
+    year: 2018-19
+    unit: qx25
+    pdf: build/IB-methods-sheet-3-2018-19/main.pdf
+    pdf_sha256: 7c3befd23bf78276847401c60378db33c2ffb410beeb72a0cd12536266958640
+    pages:
+    - 10
+    rasters:
+      2018-19-qx25-p10.png: 0e55ac67b108be2e315e192279bfd50af6f4c876757bcaa564be4e0b3bf479cb
+    html: site/private/collections/IB/methods/sheet-3/2018-19.html
+    html_sha256: a839c55e39e6ab57cbd2533afa22387282ca86e3292ef5dafaf1b603e674b817
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ba814632767c6a647639797656509eee6e102c2f7483f48be02b80bbddbbe7e4
+  2020-21-qx25:
+    year: 2020-21
+    unit: qx25
+    pdf: build/IB-methods-sheet-3-2020-21/main.pdf
+    pdf_sha256: 514f3c24e7bbe6367c60c92db81798406c4f15e017d274b4ef33ad552f9a403c
+    pages:
+    - 10
+    rasters:
+      2020-21-qx25-p10.png: aee3a541ea559cad5aadab7f5b06d67be1d936784ac5080a5acb64e5cbcc418c
+    html: site/private/collections/IB/methods/sheet-3/2020-21.html
+    html_sha256: 8324719315ab459008cd211b8d8db3383a3a00722c441a495a84751209350c3e
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ba814632767c6a647639797656509eee6e102c2f7483f48be02b80bbddbbe7e4
+  2021-22-qx25:
+    year: 2021-22
+    unit: qx25
+    pdf: build/IB-methods-sheet-3-2021-22/main.pdf
+    pdf_sha256: 312db584b935a132a1cf6cb4c1b58a65120f8fc70af0306aaadc4146b82e0d8c
+    pages:
+    - 10
+    rasters:
+      2021-22-qx25-p10.png: e9344f4aa1027e417ae835cccc84b6671add89553dabaa823a12f7480428eaf9
+    html: site/private/collections/IB/methods/sheet-3/2021-22.html
+    html_sha256: 11b59c8e337979d7185bebef4e3028f3db3b8b731b5fc70bf45c9bca955a2684
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ba814632767c6a647639797656509eee6e102c2f7483f48be02b80bbddbbe7e4
+  2022-23-qx25:
+    year: 2022-23
+    unit: qx25
+    pdf: build/IB-methods-sheet-3-2022-23/main.pdf
+    pdf_sha256: e2a4557aad37d8e1036e22f1544496092628716e6d7b217837612beb064c6a1d
+    pages:
+    - 10
+    rasters:
+      2022-23-qx25-p10.png: 3122e15ddfb2a431fd8f1bb94d1a3089b609f607fbb7197a08785d37a3ca84bf
+    html: site/private/collections/IB/methods/sheet-3/2022-23.html
+    html_sha256: 20b7eb0eb6812fdc74b39f56b458e79df0247eea04019cb684cd502cbfbfbd9d
+    browser:
+      total: 14
+      rendered: 14
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ba814632767c6a647639797656509eee6e102c2f7483f48be02b80bbddbbe7e4
+  canonical-qx10:
+    year: canonical
+    unit: qx10
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 24
+    - 25
+    rasters:
+      canonical-qx10-p24.png: 7a2a9bfdbff7ca072a44c8e779cc75cacdc77315e04333f84912881a71b3069f
+      canonical-qx10-p25.png: 529a94931bf0a281deccbb6c68d5bf82db8ea9cd21362c4ae3ee3d2fa5f0acae
+    html: site/private/questions/IB/methods/sheet-3/qx10/index.html
+    html_sha256: 280c25051b83556c6066cd19b6b1cbca06151079d850ce4a146d79ecaf308688
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 59f54dcd09451629f3a479b86357e176b7fe4ec071abe7109acac2b7b3eaf17f
+  2001-02-qx10:
+    year: 2001-02
+    unit: qx10
+    pdf: build/IB-methods-sheet-3-2001-02/main.pdf
+    pdf_sha256: 55a765400051dfacec530dc1096fc327851c84c1681a9e004093f197814ded3d
+    pages:
+    - 11
+    - 12
+    rasters:
+      2001-02-qx10-p11.png: eabb976a0ff818daa9829ea9757c46a6a663bd662b9c2f1afee92e4ae1fe1d6e
+      2001-02-qx10-p12.png: 48619b7ba0b784f7ae2d4754b3e786cb3e319e5018ff757b80543b4ba095d4b7
+    html: site/private/collections/IB/methods/sheet-3/2001-02.html
+    html_sha256: f8b39265cee2611b59a2afeb98bc8c97542b7840a686a6c8145f8156da626723
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 2778c5311231c989fd96ef9856cba3d9eca269bd0c5d5bae781e3cf1593306bb
+  2003-04-qx10:
+    year: 2003-04
+    unit: qx10
+    pdf: build/IB-methods-sheet-3-2003-04/main.pdf
+    pdf_sha256: e4da89d2eb5c4ca01e92e9f597056d099aa8f7c1e56b648e31c06f01de54f67f
+    pages:
+    - 11
+    - 12
+    rasters:
+      2003-04-qx10-p11.png: 7cb3a90b770fb48860a30fe1d8104f1a317e438b99261e8e192750ba773c1063
+      2003-04-qx10-p12.png: 863e886063e6bbefb9f7395da5d611f1eb18c679eee8f1f04e76110efbd1c467
+    html: site/private/collections/IB/methods/sheet-3/2003-04.html
+    html_sha256: 81104e96af8823cc80d3fa695c446c07c6af3718a5a35829127c62126cb45c51
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 2778c5311231c989fd96ef9856cba3d9eca269bd0c5d5bae781e3cf1593306bb
+  2004-05-qx10:
+    year: 2004-05
+    unit: qx10
+    pdf: build/IB-methods-sheet-3-2004-05/main.pdf
+    pdf_sha256: 2cfb448e471fc5a8dbb8429f474e73bd64e3392febed10b185ee45ffe2da1cb1
+    pages:
+    - 11
+    - 12
+    rasters:
+      2004-05-qx10-p11.png: 56e37d070641bfbdafac6055907c366cafa80c15aef6deb87b2bbe6c9887a9f1
+      2004-05-qx10-p12.png: 566e116e70f519156ecc3f4d1d1e365b9d5a6283a86838b1b3123f7a66d9a234
+    html: site/private/collections/IB/methods/sheet-3/2004-05.html
+    html_sha256: c296621d761f9c3956fe6e48bf29f7702099c2a7becdfcd47a2a484f7c61ea89
+    browser:
+      total: 38
+      rendered: 38
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 2778c5311231c989fd96ef9856cba3d9eca269bd0c5d5bae781e3cf1593306bb
+  canonical-qx14:
+    year: canonical
+    unit: qx14
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 30
+    rasters:
+      canonical-qx14-p30.png: 3f2074c5ef19d68ca5023f895cfc888f811ac7c742764cffc36d92b246f985fd
+    html: site/private/questions/IB/methods/sheet-3/qx14/index.html
+    html_sha256: 09b9c790d464686e1f5ed35d8d5a9bc1a642a50a5deace232c2c5d8f6a5fe86a
+    browser:
+      total: 20
+      rendered: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 394d57038610748f6a46a2e195962bc61c4ba7c9884c32143b6a553a08f610a5
+  2006-07-qx14:
+    year: 2006-07
+    unit: qx14
+    pdf: build/IB-methods-sheet-3-2006-07/main.pdf
+    pdf_sha256: 81131c5b6a76a5e807204837b287d610460eaf434358a0068a471e07e987d455
+    pages:
+    - 5
+    rasters:
+      2006-07-qx14-p5.png: 7df517880591b1f9ae4f58b465f68d726fccec26c37a571d1716a7bd43baae4d
+    html: site/private/collections/IB/methods/sheet-3/2006-07.html
+    html_sha256: 4bd5939356966e8fec7bc037300a12f6be7ea1afc7ef6bab01614fcc315f83cb
+    browser:
+      total: 20
+      rendered: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7c65dab1fc594166d25dd0c6a5816ad9930d3251288822e3e064a8e3c43a4a74
+  2007-08-qx14:
+    year: 2007-08
+    unit: qx14
+    pdf: build/IB-methods-sheet-3-2007-08/main.pdf
+    pdf_sha256: f18a260bd5d0c6127bd54801b73ab3cfd649483d8123bc2688574d2f2e877c81
+    pages:
+    - 5
+    rasters:
+      2007-08-qx14-p5.png: fa50dcfd8e5dea0e5f2a6b479e5625a4c542153451e42ee6c7dc9f82e4493409
+    html: site/private/collections/IB/methods/sheet-3/2007-08.html
+    html_sha256: c6e6209b988f772df5a9274017be9948d0c2b35f262d0af316172930d15d4cb8
+    browser:
+      total: 20
+      rendered: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7c65dab1fc594166d25dd0c6a5816ad9930d3251288822e3e064a8e3c43a4a74
+  canonical-q04:
+    year: canonical
+    unit: q04
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 5
+    rasters:
+      canonical-q04-p5.png: 4d9b8685bb0a3db9ffcbe719d4a8cf8d0bac442fdd8e78f031512ea1d1c0e423
+    html: site/private/questions/IB/methods/sheet-3/q04/index.html
+    html_sha256: c190a98f2fbf7a556eae06223899b73e785b12a3bceebd12149419dd394e96c3
+    browser:
+      total: 46
+      rendered: 46
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: e743db5b8cabfec246bc8df1b3c1ff53a74cdce2fd0a0be8f5ba1e3e9b61c551
+  2015-16-q04:
+    year: 2015-16
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2015-16/main.pdf
+    pdf_sha256: 87085f40a8d10a74f80ac95ddc72e58d09eded62b9e4bd8b739d7d837e481070
+    pages:
+    - 3
+    rasters:
+      2015-16-q04-p3.png: b5d2b5a3d0aed541a1873350ddeb3830ec0f4567a8f754d3518be5ef26945846
+    html: site/private/collections/IB/methods/sheet-3/2015-16.html
+    html_sha256: 663a102a156dedc817b4257550f7b2e20c53fb54ed29b62aa44e9badb8fc57a1
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: c202f1f4377bd4978a3aa37adc51ff6d6689212a0dba5dd2e744eb52e1bf3b23
+  2016-17-q04:
+    year: 2016-17
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2016-17/main.pdf
+    pdf_sha256: cfb4bb086bf13debf19d8eabd4207dfb165c05934203fd95543556622be2f938
+    pages:
+    - 4
+    rasters:
+      2016-17-q04-p4.png: 34a088eb6433183ced06adee0d664cf4edb0710b55e6440aeeff0217caf3b111
+    html: site/private/collections/IB/methods/sheet-3/2016-17.html
+    html_sha256: b13d89993e4b04de9ccf6251dde9a8badd072e7b3d21c66173c0ff746bde7c40
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 7c99dfbeb5bd3164383e49465a8395809c2d4e280efcb442efbac00cd99fb4c1
+  2018-19-q04:
+    year: 2018-19
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2018-19/main.pdf
+    pdf_sha256: 7c3befd23bf78276847401c60378db33c2ffb410beeb72a0cd12536266958640
+    pages:
+    - 3
+    rasters:
+      2018-19-q04-p3.png: 0d1e390a2eb070f3d74d4b1aeaa57c3c3262009e6a1770b3b2c41e4a5bf25798
+    html: site/private/collections/IB/methods/sheet-3/2018-19.html
+    html_sha256: a839c55e39e6ab57cbd2533afa22387282ca86e3292ef5dafaf1b603e674b817
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: c202f1f4377bd4978a3aa37adc51ff6d6689212a0dba5dd2e744eb52e1bf3b23
+  2020-21-q04:
+    year: 2020-21
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2020-21/main.pdf
+    pdf_sha256: 514f3c24e7bbe6367c60c92db81798406c4f15e017d274b4ef33ad552f9a403c
+    pages:
+    - 3
+    rasters:
+      2020-21-q04-p3.png: 114804040dccb56a0c37f3ee23dc0e6d9ed1c01a3d23cfbab39384ef383333e7
+    html: site/private/collections/IB/methods/sheet-3/2020-21.html
+    html_sha256: 8324719315ab459008cd211b8d8db3383a3a00722c441a495a84751209350c3e
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: c202f1f4377bd4978a3aa37adc51ff6d6689212a0dba5dd2e744eb52e1bf3b23
+  2021-22-q04:
+    year: 2021-22
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2021-22/main.pdf
+    pdf_sha256: 312db584b935a132a1cf6cb4c1b58a65120f8fc70af0306aaadc4146b82e0d8c
+    pages:
+    - 3
+    rasters:
+      2021-22-q04-p3.png: ac14a024ebeb1cd3c5c7bdca8d7615a6520542c2f7ee82803aa68369ff25fdef
+    html: site/private/collections/IB/methods/sheet-3/2021-22.html
+    html_sha256: 11b59c8e337979d7185bebef4e3028f3db3b8b731b5fc70bf45c9bca955a2684
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: c202f1f4377bd4978a3aa37adc51ff6d6689212a0dba5dd2e744eb52e1bf3b23
+  2022-23-q04:
+    year: 2022-23
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2022-23/main.pdf
+    pdf_sha256: e2a4557aad37d8e1036e22f1544496092628716e6d7b217837612beb064c6a1d
+    pages:
+    - 3
+    rasters:
+      2022-23-q04-p3.png: 5b19ebd604d26339e105ca0a70e0564c9df15d4deba37bb000838a307a9a7f11
+    html: site/private/collections/IB/methods/sheet-3/2022-23.html
+    html_sha256: 20b7eb0eb6812fdc74b39f56b458e79df0247eea04019cb684cd502cbfbfbd9d
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: c202f1f4377bd4978a3aa37adc51ff6d6689212a0dba5dd2e744eb52e1bf3b23
+  2023-24-q04:
+    year: 2023-24
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2023-24/main.pdf
+    pdf_sha256: 8918319f28cec76014722c45e723a8a74c46a48f9f44a2bdba19bb3fee79653b
+    pages:
+    - 5
+    rasters:
+      2023-24-q04-p5.png: cf781281b9bd7529ffd0a0fd2f492ca3f57561c6d3312dd4d710e31f7c07bcf0
+    html: site/private/collections/IB/methods/sheet-3/2023-24.html
+    html_sha256: 0094981fe2727a435a4c9e32786cd107acbb8365627d1a03f815dc52256ccc76
+    browser:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: bbb16d76e56ce4d7247d1015de44fe1d49e3df05dcd9fd1c1274a46238072719
+  2025-26-q04:
+    year: 2025-26
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: f5a43fd576cddc0bf3136c8f3769c98a27e75f93569b328085ae8eee9b728a28
+    pages:
+    - 5
+    rasters:
+      2025-26-q04-p5.png: 65ff3833436358041556c7a60e268f50804dce287bb21238d96dbcecbcfdd171
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 5bd8a7975088f252e3f992872f53f84bae27f738c13646e2bf271b9fdcb42093
+    browser:
+      total: 46
+      rendered: 46
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 64a8b923fe4ebbc23777251bff7cda65fb28628d2b0072e2a1db144301f53106
+  2026-27-q04:
+    year: 2026-27
+    unit: q04
+    pdf: build/IB-methods-sheet-3-2026-27/main.pdf
+    pdf_sha256: 97c588360f41d11d9e765c8c88b4ab8ce411e7a28d876af57c13da32abe67b12
+    pages:
+    - 4
+    rasters:
+      2026-27-q04-p4.png: 1514b2ffb920837c96e5469f40c831bd293e49a67be8ffdd09f984581483f527
+    html: site/private/collections/IB/methods/sheet-3/2026-27.html
+    html_sha256: e819728e986ad14f47ab899851c265eb0c9560ac894d35e28e29fc73b2b79d70
+    browser:
+      total: 46
+      rendered: 46
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 64a8b923fe4ebbc23777251bff7cda65fb28628d2b0072e2a1db144301f53106
+  canonical-qx07:
+    year: canonical
+    unit: qx07
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 21
+    rasters:
+      canonical-qx07-p21.png: a0221a54cbe67414eb12d8c05b45704618d28ca8fc64a85eda06c1ea114a724d
+    html: site/private/questions/IB/methods/sheet-3/qx07/index.html
+    html_sha256: 460cd9f9c96a3a0f33221ddc873baf951b96502b5d2e4c08b4c9b22db2f5f7ce
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 2a33e20c7fc4d37007f4c3bfd9f2e84b0d5381b0a98a43b0b55c9cd950aee758
+  2001-02-qx07:
+    year: 2001-02
+    unit: qx07
+    pdf: build/IB-methods-sheet-3-2001-02/main.pdf
+    pdf_sha256: 55a765400051dfacec530dc1096fc327851c84c1681a9e004093f197814ded3d
+    pages:
+    - 8
+    rasters:
+      2001-02-qx07-p8.png: f4ecd383787a4e8a9c7226afef8123894e08e245a32a17106db23abe4ca37089
+    html: site/private/collections/IB/methods/sheet-3/2001-02.html
+    html_sha256: f8b39265cee2611b59a2afeb98bc8c97542b7840a686a6c8145f8156da626723
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ae009854efcecd213dbd0a93cc062d1b2411883b3aa8fbf5da93fe13935b1d07
+  2003-04-qx07:
+    year: 2003-04
+    unit: qx07
+    pdf: build/IB-methods-sheet-3-2003-04/main.pdf
+    pdf_sha256: e4da89d2eb5c4ca01e92e9f597056d099aa8f7c1e56b648e31c06f01de54f67f
+    pages:
+    - 8
+    rasters:
+      2003-04-qx07-p8.png: 1d887e66f55c741a5bd92d2fe4248a99ad01140942d43479a1a7acc8033ef5dd
+    html: site/private/collections/IB/methods/sheet-3/2003-04.html
+    html_sha256: 81104e96af8823cc80d3fa695c446c07c6af3718a5a35829127c62126cb45c51
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ae009854efcecd213dbd0a93cc062d1b2411883b3aa8fbf5da93fe13935b1d07
+  2004-05-qx07:
+    year: 2004-05
+    unit: qx07
+    pdf: build/IB-methods-sheet-3-2004-05/main.pdf
+    pdf_sha256: 2cfb448e471fc5a8dbb8429f474e73bd64e3392febed10b185ee45ffe2da1cb1
+    pages:
+    - 8
+    rasters:
+      2004-05-qx07-p8.png: d7ee76900eca864fd22fe313bc7e09d1d657c9eb0234bac733df7ba6c7bc4b84
+    html: site/private/collections/IB/methods/sheet-3/2004-05.html
+    html_sha256: c296621d761f9c3956fe6e48bf29f7702099c2a7becdfcd47a2a484f7c61ea89
+    browser:
+      total: 21
+      rendered: 21
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: ae009854efcecd213dbd0a93cc062d1b2411883b3aa8fbf5da93fe13935b1d07
+  canonical-qx13:
+    year: canonical
+    unit: qx13
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 28
+    - 29
+    rasters:
+      canonical-qx13-p28.png: d172dc9cec364d45a1614a09b14e1cb1b131b6e9e3d6fa7a47dcf726deda9d8a
+      canonical-qx13-p29.png: 65227f408ad11665b1bf4520b63abf31c3a8db4c43fe7266942135f3cd1252b1
+    html: site/private/questions/IB/methods/sheet-3/qx13/index.html
+    html_sha256: 8189df2e371bf1500842ec2068df86eeedbddd45081eb1a538c1915c70d43c76
+    browser:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 3b9b7da6ba6dbd023a51d5882fa58d14f64f7930814572d3da4c26beb306b54b
+  2001-02-qx13:
+    year: 2001-02
+    unit: qx13
+    pdf: build/IB-methods-sheet-3-2001-02/main.pdf
+    pdf_sha256: 55a765400051dfacec530dc1096fc327851c84c1681a9e004093f197814ded3d
+    pages:
+    - 15
+    - 16
+    rasters:
+      2001-02-qx13-p15.png: f86e91412aea01be2a1f031ff0c57b07fba29097e6589251e52a7103d3a502d0
+      2001-02-qx13-p16.png: 3777cb1e12037afd08ed26c9a93d2fe5e9069c333c9dca13bf32b9cba3b9fa7d
+    html: site/private/collections/IB/methods/sheet-3/2001-02.html
+    html_sha256: f8b39265cee2611b59a2afeb98bc8c97542b7840a686a6c8145f8156da626723
+    browser:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: b26bbc9a0e212743b438ca05f576b4c75b299970034dbb0cdb42816a4db3b68c
+  2003-04-qx13:
+    year: 2003-04
+    unit: qx13
+    pdf: build/IB-methods-sheet-3-2003-04/main.pdf
+    pdf_sha256: e4da89d2eb5c4ca01e92e9f597056d099aa8f7c1e56b648e31c06f01de54f67f
+    pages:
+    - 15
+    - 16
+    rasters:
+      2003-04-qx13-p15.png: 906a91fb48472e327b8e9b0c0f5f5de7145dc30b63225590d39112a025991330
+      2003-04-qx13-p16.png: 3b78b677cde4031d13296c1170d0b38d7605fee7998ab12d5a8916a218bc35af
+    html: site/private/collections/IB/methods/sheet-3/2003-04.html
+    html_sha256: 81104e96af8823cc80d3fa695c446c07c6af3718a5a35829127c62126cb45c51
+    browser:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: b26bbc9a0e212743b438ca05f576b4c75b299970034dbb0cdb42816a4db3b68c
+  2004-05-qx13:
+    year: 2004-05
+    unit: qx13
+    pdf: build/IB-methods-sheet-3-2004-05/main.pdf
+    pdf_sha256: 2cfb448e471fc5a8dbb8429f474e73bd64e3392febed10b185ee45ffe2da1cb1
+    pages:
+    - 15
+    - 16
+    rasters:
+      2004-05-qx13-p15.png: a14667aaf6605d06894794ee2f0cc587a17642fa74068fbd9f6fbc1125903ba6
+      2004-05-qx13-p16.png: ae37979d3543a68d2ee8a22f375e8123cbd6086df82060b385abfe8c52cc484b
+    html: site/private/collections/IB/methods/sheet-3/2004-05.html
+    html_sha256: c296621d761f9c3956fe6e48bf29f7702099c2a7becdfcd47a2a484f7c61ea89
+    browser:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: b26bbc9a0e212743b438ca05f576b4c75b299970034dbb0cdb42816a4db3b68c
+  canonical-q12:
+    year: canonical
+    unit: q12
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 13
+    rasters:
+      canonical-q12-p13.png: 262a522fa1095b3f85a086fd3b39f6be59245111c7b5d09eca8810e0e3325d4d
+    html: site/private/questions/IB/methods/sheet-3/q12/index.html
+    html_sha256: 8684c1f043514c5e784624a6d32476ef3e9e2358433412133e30fb90671b5d11
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: c4953328e9e9fcf69ff4a203cd5affa1aeeaf3f851910c5fb218843f2cbaf72b
+  2023-24-q12:
+    year: 2023-24
+    unit: q12
+    pdf: build/IB-methods-sheet-3-2023-24/main.pdf
+    pdf_sha256: 8918319f28cec76014722c45e723a8a74c46a48f9f44a2bdba19bb3fee79653b
+    pages:
+    - 13
+    rasters:
+      2023-24-q12-p13.png: 5fca9ddcfb35bb58dc791735c709789ecd46b0b7e51c15333829d1186271849e
+    html: site/private/collections/IB/methods/sheet-3/2023-24.html
+    html_sha256: 0094981fe2727a435a4c9e32786cd107acbb8365627d1a03f815dc52256ccc76
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: d2f03dba62a6c3386647ae8791013700d3b29458995de3518e8bb48a695f6f84
+  2025-26-q12:
+    year: 2025-26
+    unit: q12
+    pdf: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: f5a43fd576cddc0bf3136c8f3769c98a27e75f93569b328085ae8eee9b728a28
+    pages:
+    - 13
+    rasters:
+      2025-26-q12-p13.png: e8fd87b70da6ada04dc959a5e4a1a7182a67872731b610a2e8f9efa193b285be
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 5bd8a7975088f252e3f992872f53f84bae27f738c13646e2bf271b9fdcb42093
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 2135f35ffd4da9270751239c2c91f88644bc91573b05f6065266ad821654c7fd
+  2026-27-q12:
+    year: 2026-27
+    unit: q12
+    pdf: build/IB-methods-sheet-3-2026-27/main.pdf
+    pdf_sha256: 97c588360f41d11d9e765c8c88b4ab8ce411e7a28d876af57c13da32abe67b12
+    pages:
+    - 12
+    rasters:
+      2026-27-q12-p12.png: a5419837eec71cabe182d3550952a87bdb02b6598fa800169d5c1b2dbb2f5f2e
+    html: site/private/collections/IB/methods/sheet-3/2026-27.html
+    html_sha256: e819728e986ad14f47ab899851c265eb0c9560ac894d35e28e29fc73b2b79d70
+    browser:
+      total: 32
+      rendered: 32
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 2135f35ffd4da9270751239c2c91f88644bc91573b05f6065266ad821654c7fd
+  canonical-q03:
+    year: canonical
+    unit: q03
+    pdf: build/IB-methods-sheet-3/main.pdf
+    pdf_sha256: b61073f1b3926a60f72b8616aabd9ac847b626e384bcbb96e207c882e1da6200
+    pages:
+    - 4
+    rasters:
+      canonical-q03-p4.png: dd887bcc7399152f40e4a3d6092cb70ef66c4a71eb156d54097497ba9194ae5d
+    html: site/private/questions/IB/methods/sheet-3/q03/index.html
+    html_sha256: afa46f4fd04724becb762dad87d010bd590f742fb052a23685151076acd2a07b
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    html_capture_sha256: 9920ff9233afe871ba0a1e248ca8f626bd30607702ae59569a44fc177da46921
+  2023-24-q03:
+    year: 2023-24
+    unit: q03
+    pdf: build/IB-methods-sheet-3-2023-24/main.pdf
+    pdf_sha256: 8918319f28cec76014722c45e723a8a74c46a48f9f44a2bdba19bb3fee79653b
+    pages:
+    - 4
+    rasters:
+      2023-24-q03-p4.png: dfb00fe2ff690f7bfd490b5956cd3c4080fa2b420309104281837add503f13e2
+    html: site/private/collections/IB/methods/sheet-3/2023-24.html
+    html_sha256: 0094981fe2727a435a4c9e32786cd107acbb8365627d1a03f815dc52256ccc76
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 45ba1c1822b3ff112af64bdec12f9265574fe14e7775aa4ee768827974522514
+  2025-26-q03:
+    year: 2025-26
+    unit: q03
+    pdf: build/IB-methods-sheet-3-2025-26/main.pdf
+    pdf_sha256: f5a43fd576cddc0bf3136c8f3769c98a27e75f93569b328085ae8eee9b728a28
+    pages:
+    - 4
+    rasters:
+      2025-26-q03-p4.png: 9f0171202eefc81a1d7679acf4ea4bd75ea24eadc7e6fc53d1fbedcddd64a0bf
+    html: site/private/collections/IB/methods/sheet-3/2025-26.html
+    html_sha256: 5bd8a7975088f252e3f992872f53f84bae27f738c13646e2bf271b9fdcb42093
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 45ba1c1822b3ff112af64bdec12f9265574fe14e7775aa4ee768827974522514
+  2026-27-q03:
+    year: 2026-27
+    unit: q03
+    pdf: build/IB-methods-sheet-3-2026-27/main.pdf
+    pdf_sha256: 97c588360f41d11d9e765c8c88b4ab8ce411e7a28d876af57c13da32abe67b12
+    pages:
+    - 3
+    rasters:
+      2026-27-q03-p3.png: 4146448b95904b63b97c53498fef2600e04fa024e001fffd02505c9df9122ff5
+    html: site/private/collections/IB/methods/sheet-3/2026-27.html
+    html_sha256: e819728e986ad14f47ab899851c265eb0c9560ac894d35e28e29fc73b2b79d70
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    html_capture_sha256: 45ba1c1822b3ff112af64bdec12f9265574fe14e7775aa4ee768827974522514
+observed:
+  mathematical_errors: 0
+  transcription_errors: 0
+  canonical_units_sampled: 9
+  canonical_population: 42
+  distinct_statements_sampled: 14
+  printed_occurrences_sampled: 39
+  source_pages: 26
+  executable_checks: 14
+  compiled_pages_inspected: 56
+  browser_views_inspected: 48
+  formula_instances_rendered: 1209
+  layout_observation: In four qx13 renderings the protected source and official-comparison
+    note begins on a continuation page. No missing text or overlap.
