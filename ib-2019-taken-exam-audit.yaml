@@ -1,0 +1,1424 @@
+scope: 2019 IB examination questions in the ten confirmed-taken subjects, including
+  shared exam headings. Independent stratified sample only.
+method:
+  seed: 20261216
+  sampling: For each course in sorted order, sample ceil(20% of its population) from
+    sorted question IDs with a single seeded Python random.Random.
+  strata:
+    IB/analysis-ii:
+    - IB/2019/P1/q11E
+    - IB/2019/P2/q12E
+    - IB/2019/P2/q3E
+    - IB/2019/P3/q12E
+    - IB/2019/P3/q2E
+    - IB/2019/P4/q12E
+    - IB/2019/P4/q3E
+    IB/complex-methods:
+    - IB/2019/P1/q13F
+    - IB/2019/P1/q2F
+    - IB/2019/P2/q13D
+    - IB/2019/P3/q4D
+    - IB/2019/P4/q14D
+    IB/electromagnetism:
+    - IB/2019/P1/q16A
+    - IB/2019/P2/q18A
+    - IB/2019/P2/q6A
+    - IB/2019/P3/q17A
+    - IB/2019/P4/q7A
+    IB/fluid-dynamics:
+    - IB/2019/P1/q17C
+    - IB/2019/P1/q5C
+    - IB/2019/P2/q7C
+    - IB/2019/P3/q18C
+    - IB/2019/P4/q18C
+    IB/linear-algebra:
+    - IB/2019/P1/q1F
+    - IB/2019/P1/q9F
+    - IB/2019/P2/q10F
+    - IB/2019/P2/q1F
+    - IB/2019/P3/q10F
+    - IB/2019/P4/q10F
+    - IB/2019/P4/q1F
+    IB/markov-chains:
+    - IB/2019/P1/q20H
+    - IB/2019/P2/q20H
+    - IB/2019/P3/q9H
+    - IB/2019/P4/q9H
+    IB/methods:
+    - IB/2019/P1/q14B
+    - IB/2019/P2/q16D
+    - IB/2019/P2/q5B
+    - IB/2019/P3/q15D
+    - IB/2019/P3/q7D
+    - IB/2019/P4/q17B
+    - IB/2019/P4/q5D
+    IB/numerical-analysis:
+    - IB/2019/P1/q18C
+    - IB/2019/P1/q6C
+    - IB/2019/P2/q19C
+    - IB/2019/P3/q19C
+    - IB/2019/P4/q8C
+    IB/quantum-mechanics:
+    - IB/2019/P1/q15B
+    - IB/2019/P2/q17B
+    - IB/2019/P3/q16B
+    - IB/2019/P3/q8B
+    - IB/2019/P4/q6B
+    IB/statistics:
+    - IB/2019/P1/q19H
+    - IB/2019/P1/q7H
+    - IB/2019/P2/q8H
+    - IB/2019/P3/q20H
+    - IB/2019/P4/q19H
+  sample:
+  - IB/2019/P1/q11E
+  - IB/2019/P3/q12E
+  - IB/2019/P1/q2F
+  - IB/2019/P4/q7A
+  - IB/2019/P4/q18C
+  - IB/2019/P4/q10F
+  - IB/2019/P4/q1F
+  - IB/2019/P4/q9H
+  - IB/2019/P4/q5D
+  - IB/2019/P3/q15D
+  - IB/2019/P1/q6C
+  - IB/2019/P4/q6B
+  - IB/2019/P2/q8H
+  blind_input: Exact question fragments, question figures if present, original file
+    and printed locators only. Fresh auditor did not write the solutions. Initial
+    eleven reworks frozen separately, then final two completed after their independent
+    solutions were available.
+  initial_manifest_sha256: c8c99bd4c41082c7d880255a02927fd29134df5c61a1aabbb48bbdb2acc4098e
+  manifest_sha256: c5e8d4485019049ef938e9e1107d2775821287fc438adeecd2c9361247207ddd
+  manifest: 'd59e54c5175aea6b06ba7f275166250cc445607c82d87feeaad5ebf7d0985208  IB_2019_P1_q11E.md
+
+    1b844246896ededa07593d27619cdfb3fec54655fc79c0a9e213758b839e6974  IB_2019_P1_q2F.md
+
+    cc9eca2bf09535f6db92d3ecfd8f44318772a02c376c7bb0da92e6764a1c2a8b  IB_2019_P1_q6C.md
+
+    b568ce0ba689327d62d731e43af035b932bf6a626bf8f5ee44aecfeee35ec22a  IB_2019_P2_q8H.md
+
+    69ad67979ad1327267167d4164aaddb9db192c367ed2f89f20325ea8b4c8ca0f  IB_2019_P3_q12E.md
+
+    69db75f4ed2a8b7a2f14ab52238891264a78e36ba746a8cb89f066b70b092af3  IB_2019_P3_q15D.md
+
+    b1ef2162361af5e66141a3a168aa5d73673d9b726f36fcf5f36cabde431d6350  IB_2019_P4_q10F.md
+
+    90fa8a050ec92e1e5535c492d28338c663b5cacdc916772be9609b8fa2884d04  IB_2019_P4_q18C.md
+
+    5401088a620229dfc0228196b4d980cf9a7d72ffbc190966f70c74b04d0a1b81  IB_2019_P4_q1F.md
+
+    7f3acfe346f29a918ccbc2693299b716a51332ff754b140841705c730d9815b1  IB_2019_P4_q5D.md
+
+    21cc5a616665313b5abff148d0b820380892e6d8ddc1dad8e8f68792a3c7e190  IB_2019_P4_q6B.md
+
+    2b33098fd1ed7cb76d15c40413b6abefaa9543e2a223a06cd88247c454664927  IB_2019_P4_q7A.md
+
+    84d9f9215825c461a0b0c53dd55be125b21f24e439c05d44dbbee438554d7b14  IB_2019_P4_q9H.md
+
+    '
+population_size: 55
+observed:
+  sample: 13
+  substantive_errors: 0
+  transcription_errors: 0
+  rate: 0/13
+  failed_checks: 0
+  pdf_pages: 15
+  browser_pages: 13
+  rendered_formulas: 449
+  parse_errors: 0
+  horizontal_overflows: 0
+units:
+  IB/2019/P1/q11E:
+    independent_rework: '# P1 / q11E — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 1, physical page 5, printed 11E, Analysis II. I read the question through
+      both lettered parts against the page image. The wording and symbols match, including
+      the order of the three maps in part (b), the open domains and the argument \(h\).
+      The question prints no marks.
+
+
+      ## Independent derivation
+
+
+      Differentiability at \(p\) means that there is a linear \(L:\mathbb R^n\to\mathbb
+      R^m\) for which \(f(p+h)=f(p)+Lh+u(h)\), with \(u(0)=0\) and \(\|u(h)\|/\|h\|\to0\)
+      as nonzero \(h\to0\). Openness gives a ball of allowable increments. Comparing
+      two candidate maps along \(h=tv\), dividing by \(t\) and taking the limit proves
+      uniqueness, so \(Df(p)=L\).
+
+
+      If \(g\) is differentiable at \(f(p)\) with derivative \(B\), then \(D(g\circ
+      f)(p)=BL\). Put \(k=Lh+u(h)\). In finite dimensions \(L,B\) are bounded, so
+      \(\|k\|=O(\|h\|)\) and \(k\to0\). Expanding \(g\), the remainder after subtracting
+      \(BLh\) is \(Bu(h)+v(k)\), with \(\|v(k)\|=o(\|k\|)\). Both terms are \(o(\|h\|)\),
+      including increments for which \(k=0\), since \(v(0)=0\).
+
+
+      Use an operator norm. For \(\|h\|<1/2\) the Neumann series yields \(\|(I+h)^{-1}\|\le2\).
+      The exact remainder \((I+h)^{-1}-(I-h)=h^2(I+h)^{-1}\) has norm at most \(2\|h\|^2\).
+      Thus \(Df(I)h=-h\). For invertible \(A,C\), \((CA)^{-1}C=A^{-1}\) proves the
+      stated identity. Factoring \(C+h=C(I+C^{-1}h)\) expresses its inverse as \((I+C^{-1}h)^{-1}C^{-1}\).
+      The inner increment and final right multiplication are bounded linear maps.
+      Applying the expansion at the identity gives \(Df(C)h=-C^{-1}hC^{-1}\) with
+      \(O_C(\|h\|^2)\) remainder throughout a neighborhood of zero. This calculation
+      preserves factor order even for noncommuting \(h,C\).
+
+      '
+    independent_rework_sha256: d59e54c5175aea6b06ba7f275166250cc445607c82d87feeaad5ebf7d0985208
+    comparison: The independent inverse expansion has a quadratic remainder and preserves
+      multiplication order at general C.
+    source:
+    - 5
+    check:
+      exit: 0
+      stdout: Exact inverse remainder verified at three signed perturbations.
+      source_hashes:
+        question.tex: adb55ea13c585fb38907871b7e08d39032843ca70ac6d18fe9e7cb39edd49254
+        solution.tex: fa49c19435d7caa342c843e32e521643736e0a86f158499edff856dd52fbbed3
+      script_sha256: e0c3f77770e5afc2a160a5a37185a1c8008f5b3b705748d5b22e1c3efe61bdbe
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P1.pdf
+      source_sha256: fa2c836658eaffefce78dcebff2c289c96c268defe63716df05a965a4216c6bb
+      source_page: 5
+      compiled_pdf: build/IB-2019-P1/main.pdf
+      compiled_sha256: 63a381c58fae83fce986b0f297ccd50e12e1edde04b2c6b4886ae4c475338b6d
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2019/P1/q11E/index.html
+      html_sha256: add13a2cc558497da5502b59d3d872cd9e1d4d3e21b9c9ade5648c2fb520451a
+      math_nodes: 62
+      diagrams: {}
+      question_sha256: adb55ea13c585fb38907871b7e08d39032843ca70ac6d18fe9e7cb39edd49254
+      solution_sha256: fa49c19435d7caa342c843e32e521643736e0a86f158499edff856dd52fbbed3
+      check_sha256: e0c3f77770e5afc2a160a5a37185a1c8008f5b3b705748d5b22e1c3efe61bdbe
+      check_exit: 0
+      check_stdout: Exact inverse remainder verified at three signed perturbations.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P1/q11E · Cambridge Maths
+        math: 62
+        rendered: 62
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P1_q11E-build-12.png: dac2cae8ea03c6fa9e8d4002a498be9a0ff18b29068361c689e782e7c80c3045
+        IB_2019_P1_q11E-html.png: 8273f24d80ff6e7a5d97111d2f4a73d4738d701a177f7ee99aa84d6fd874e825
+        IB_2019_P1_q11E-orig.png: dcd52cda84695d8507bac342cdfa64cddbedab2f361e2f29b836b7511a595492
+  IB/2019/P3/q12E:
+    independent_rework: '# P3 / q12E — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 3, physical page 6, printed 12E, Analysis II. The question body agrees
+      word for word through (a), (b)(i) and (b)(ii), with the same bounds, norms,
+      quantifiers and equation. In particular \(\varphi\) is the integral alone and
+      the initial datum first enters the deduction. No absolute marks appear.
+
+
+      ## Independent derivation
+
+
+      For an open \(D\subset\mathbb R\times\mathbb R^n\), suppose \(F:D\to\mathbb
+      R^n\) is continuous and locally Lipschitz in the state, uniformly in time on
+      a neighborhood of each point of \(D\). For each \((t_0,y_0)\in D\) there is
+      an interval around \(t_0\) supporting a unique local \(C^1\) solution of \(y''=F(t,y),\
+      y(t_0)=y_0\). More precisely any two such solutions agree throughout their common
+      interval containing \(t_0\). Local existence alone need not give existence on
+      an entire prescribed interval.
+
+
+      On the finite interval \(1\le t\le b\), \(b^{-c}\le t^{-c}\le1\) for \(c\ge0\),
+      hence \(b^{-c}\|f\|_\infty\le\|f\|_c\le\|f\|_\infty\). Positivity of the weight
+      and the ordinary norm axioms give a norm. Uniform Cauchy sequences converge
+      uniformly to continuous functions because \(\mathbb R^n\) is complete. The comparison
+      therefore also gives completeness in the weighted norm.
+
+
+      The integrand is continuous, so \(\varphi(f)\in X\). For \(f,g\in X\), the weighted
+      magnitude of the difference of integrals at \(t\) is bounded by
+
+      \[
+
+      M\|f-g\|_c t^{-c}\int_1^t s^c\,ds
+
+      =M\|f-g\|_c\,(t-t^{-c})/(c+1)
+
+      \le Mb\|f-g\|_c/(c+1).
+
+      \]
+
+      Take \(c=Mb\) to obtain a factor strictly below one. Adding the constant function
+      \(y_0\) leaves this bound valid for the translated mapping \(T(f)=y_0+\varphi(f)\).
+      Banach''s fixed-point theorem supplies exactly one fixed point. The fundamental
+      theorem of calculus implies that it solves the ODE and attains the prescribed
+      initial value, and integration shows that every solution is a fixed point. Endpoints
+      use the one-sided derivative for \(b>1\). The integral formulation on a singleton
+      \(b=1\) simply prescribes \(f(1)\).
+
+      '
+    independent_rework_sha256: 69ad67979ad1327267167d4164aaddb9db192c367ed2f89f20325ea8b4c8ca0f
+    comparison: The audit obtains a global fixed point only after translating the
+      printed integral operator by the initial value. The weighted norm and contraction
+      constants agree.
+    source:
+    - 6
+    check:
+      exit: 0
+      stdout: Weighted contraction estimate verified against sharp linear examples.
+      source_hashes:
+        question.tex: 82bcc57486858af5bd309c2bf4ce8c6237b6dedac850c94086a63d8e6964cbf7
+        solution.tex: e00ffa68fb81cf250e24b8b2f0f912778dfe5a6ecb1ff1b1b6dd26ad9e58c9ea
+      script_sha256: d34f11bf90a4e9e66f8e0031cd76f99a892110c5d0d31163508db3e20faf9876
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P3.pdf
+      source_sha256: 927dcd4f0a90389addd5a3d2de9a902bde9f12afbd88c72c501fa6b0982a5955
+      source_page: 6
+      compiled_pdf: build/IB-2019-P3/main.pdf
+      compiled_sha256: 6d17c46a4cfb8a33f73312bcb1a925a97e9dff136a99984cce7816dae650d1bb
+      compiled_pages:
+      - 12
+      - 13
+      html: site/private/questions/IB/2019/P3/q12E/index.html
+      html_sha256: a930d67a3c3b4c5cc7008d4f5c89256433e2468fdb7d2b8435118147f6076deb
+      math_nodes: 47
+      diagrams: {}
+      question_sha256: 82bcc57486858af5bd309c2bf4ce8c6237b6dedac850c94086a63d8e6964cbf7
+      solution_sha256: e00ffa68fb81cf250e24b8b2f0f912778dfe5a6ecb1ff1b1b6dd26ad9e58c9ea
+      check_sha256: d34f11bf90a4e9e66f8e0031cd76f99a892110c5d0d31163508db3e20faf9876
+      check_exit: 0
+      check_stdout: Weighted contraction estimate verified against sharp linear examples.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P3/q12E · Cambridge Maths
+        math: 47
+        rendered: 47
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P3_q12E-build-12.png: df81d712c745dfc3deb84f43e54097d4e71c2ef5be20b9b2c200b9a395760ed6
+        IB_2019_P3_q12E-build-13.png: 253a3ed752e58a230d1391d23fa988ae0d187c78b1fe6d0f0741c050eb81b397
+        IB_2019_P3_q12E-html.png: 07c62efc43aab365f16cc6094d86567ac11ad46440dfd665f23f98229f5c9cc8
+        IB_2019_P3_q12E-orig.png: d466f98e131869df66b999946f0c27ae374fdb61844ec4ce55bbef92a8bc3463
+  IB/2019/P1/q2F:
+    independent_rework: '# P1 / q2F — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 1, physical page 2, printed 2F, Complex Analysis or Complex Methods. Both
+      sentences, numerator 10, factors \(z+2,z^2+1\), names and strict endpoints of
+      both annuli match the supplied fragment. No marks or subpart labels appear.
+
+
+      ## Independent derivation
+
+
+      On \(r<|z-a|<R\), a holomorphic \(f\) has the unique representation \(f(z)=\sum_{j\in\mathbb
+      Z}c_j(z-a)^j\), convergent absolutely and uniformly on compact subannuli. For
+      \(r<s<R\),
+
+      \[
+
+      c_j=\frac1{2\pi i}\oint_{|\zeta-a|=s}\frac{f(\zeta)}{(\zeta-a)^{j+1}}\,d\zeta
+
+      \]
+
+      with positive orientation. Holomorphicity is the relevant hypothesis in asking
+      for such a representation of a given function.
+
+
+      Here
+
+      \[
+
+      f(z)=\frac{2}{z+2}+\frac{4-2z}{1+z^2},
+
+      \]
+
+      since \(2(1+z^2)+(4-2z)(z+2)=10\). The first term is \(\sum_{j\ge0}(-1/2)^j
+      z^j\) on both annuli. On \(A_1\) add
+
+      \[
+
+      \sum_{j\ge0}(-1)^j(4z^{2j}-2z^{2j+1}).
+
+      \]
+
+      These coefficients add at like powers, with no negative powers. For instance
+      the constant term is \(1+4=5=f(0)\), since the origin is regular. On \(A_2\)
+      instead add
+
+      \[
+
+      \sum_{j\ge0}(-1)^j(4z^{-2j-2}-2z^{-2j-1}),
+
+      \]
+
+      using \(1/(1+z^2)=z^{-2}/(1+z^{-2})\). The geometric ratios have absolute value
+      less than one on their respective domains. Poles at \(i,-i,-2\) account for
+      the limiting circles.
+
+      '
+    independent_rework_sha256: 1b844246896ededa07593d27619cdfb3fec54655fc79c0a9e213758b839e6974
+    comparison: The partial fractions give the same two Laurent expansions, including
+      the different expansions around the poles of modulus one.
+    source:
+    - 2
+    check:
+      exit: 0
+      stdout: Both annular Laurent expansions verified at four nonreal test points.
+      source_hashes:
+        question.tex: 7a4bed6efd3ea48f5b5d0fa104015793a0a46c52a606993f5d65dcc5d9f6a79f
+        solution.tex: 8ddeda613b43b939d7f2b573d4310285757aed1c187221e294cf21ccf8da898f
+      script_sha256: 7637226bf90f1706c372a04634079d05da90c14178697159ffd9477fbe53bf8c
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P1.pdf
+      source_sha256: fa2c836658eaffefce78dcebff2c289c96c268defe63716df05a965a4216c6bb
+      source_page: 2
+      compiled_pdf: build/IB-2019-P1/main.pdf
+      compiled_sha256: 63a381c58fae83fce986b0f297ccd50e12e1edde04b2c6b4886ae4c475338b6d
+      compiled_pages:
+      - 2
+      html: site/private/questions/IB/2019/P1/q2F/index.html
+      html_sha256: ad5f59c2baae088d74b917ee8c52b10ab9facc71122ad29949a0bdead3638dc2
+      math_nodes: 12
+      diagrams: {}
+      question_sha256: 7a4bed6efd3ea48f5b5d0fa104015793a0a46c52a606993f5d65dcc5d9f6a79f
+      solution_sha256: 8ddeda613b43b939d7f2b573d4310285757aed1c187221e294cf21ccf8da898f
+      check_sha256: 7637226bf90f1706c372a04634079d05da90c14178697159ffd9477fbe53bf8c
+      check_exit: 0
+      check_stdout: Both annular Laurent expansions verified at four nonreal test
+        points.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P1/q2F · Cambridge Maths
+        math: 12
+        rendered: 12
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P1_q2F-build-2.png: f3eb484344ad7c3fc13298726493a6b2db03e519295f19ed61e41e0c89787dcd
+        IB_2019_P1_q2F-html.png: 1b872e46d5830a658717b17dfd3f5bb4bdfa783838346ece59ceec3979c6c1df
+        IB_2019_P1_q2F-orig.png: 04c8b119a2ea0e9f43743e2378d141c42474d07dd8c2ef308a22e2cea3fd13d1
+  IB/2019/P4/q7A:
+    independent_rework: '# P4 / q7A — independent examination rework
+
+
+      ## Source comparison
+
+
+      The archived 2019 Paper 4, physical page 3, prints 7A (Electromagnetism) below
+      6B. Both paragraphs match the supplied fragment. I checked the real parts, the
+      positive \(i\) in the exponential, the minus sign before \(\omega t\), the ordered
+      components \(E(1,i,0)\) and \(k(0,0,1)\), and the request for the Poynting vector
+      and its physical significance. The question prints no marks and gives no sign
+      convention for the frequency.
+
+
+      ## Independent derivation
+
+
+      In vacuum and SI units the source-free Maxwell equations are
+
+      \[
+
+      \nabla\cdot\mathbf E=0,\quad \nabla\cdot\mathbf B=0,\quad
+
+      \nabla\times\mathbf E=-\partial_t\mathbf B,\quad
+
+      \nabla\times\mathbf B=c^{-2}\partial_t\mathbf E,\qquad
+
+      c=(\epsilon_0\mu_0)^{-1/2}.
+
+      \]
+
+      Linearity and the real coefficients allow one to take the real part after solving
+      the complex equations. Acting on the exponential sends \(\nabla\) to \(i\mathbf
+      k\) and \(\partial_t\) to \(-i\omega\). The resulting equations require \(\mathbf
+      k\cdot\mathbf E_0=\mathbf k\cdot\mathbf B_0=0\), \(\mathbf k\times\mathbf E_0=\omega\mathbf
+      B_0\), and \(\mathbf k\times\mathbf B_0=-(\omega/c^2)\mathbf E_0\). On a nonzero
+      wave take \(\mathbf k\ne0,\ \mathbf E_0\ne0\) and impose \(\mathbf k\cdot\mathbf
+      E_0=0\). Crossing with \(\mathbf k\) twice gives \(-|\mathbf k|^2\mathbf E_0\).
+      Therefore set \(\omega=\pm c|\mathbf k|\) and \(\mathbf B_0=(\mathbf k\times\mathbf
+      E_0)/\omega\). Substitution verifies both curl equations and the remaining divergence
+      constraint. At zero wavevector, the zero-frequency fields may be spatially and
+      temporally constant; a nonzero frequency at zero wavevector forces both amplitudes
+      to vanish.
+
+
+      For the prescribed amplitudes put \(\varphi=kz-\omega t\). The physical fields
+      on either nonzero-frequency branch are
+
+      \[
+
+      \mathbf E=E(\cos\varphi,-\sin\varphi,0),\qquad
+
+      \mathbf B=(kE/\omega)(\sin\varphi,\cos\varphi,0).
+
+      \]
+
+      In fact \(\hat{\mathbf z}\times(1,i,0)=(-i,1,0)\); taking real parts gives the
+      signs shown. The transverse vectors rotate at constant magnitude, and \(\mathbf
+      E\cdot\mathbf B=0\). Their instantaneous Poynting vector is
+
+      \[
+
+      \mathbf S=\mu_0^{-1}\mathbf E\times\mathbf B
+
+      =\frac{kE^2}{\mu_0\omega}\hat{\mathbf z}.
+
+      \]
+
+      For \(k>0,\ \omega=ck\) it is \(E^2/(\mu_0 c)\,\hat{\mathbf z}\). There is no
+      oscillatory factor because \(\cos^2\varphi+\sin^2\varphi=1\); this is also its
+      cycle average. It gives electromagnetic energy per unit time per unit area flowing
+      in the propagation direction. In particular \(\int \mathbf S\cdot d\mathbf A\)
+      is the outward electromagnetic power through an oriented surface. As a dimensional
+      and normalization check the wave energy density is \(U=(\epsilon_0|\mathbf E|^2+|\mathbf
+      B|^2/\mu_0)/2=\epsilon_0E^2\), so \(|\mathbf S|=cU\).
+
+      '
+    independent_rework_sha256: 2b33098fd1ed7cb76d15c40413b6abefaa9543e2a223a06cd88247c454664927
+    comparison: Dispersion, transversality and the instantaneous Poynting flux coincide
+      for the chosen positive-propagation branch. Both calculations fix the direction
+      of rotation by taking real parts.
+    source:
+    - 3
+    check:
+      exit: 0
+      stdout: Both vacuum curl equations, field orthogonality and constant energy
+        flux verified.
+      source_hashes:
+        question.tex: 96b611c4e1fe62c79861e28436f9cfa475dafd98468a81e5747237a417e2ea96
+        solution.tex: 184e69982739dbe42142a39048ab64aaee4a2623ea1ecc6f13a4e1bcb86731dc
+      script_sha256: c84c6c66e620850a7778cc6c1631cb90ea2dbd5da92959158618e0b346a35c91
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 3
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2019/P4/q7A/index.html
+      html_sha256: 6ee5e69ece68f9b6bb6fdaf4909b367c08bb0efb4151655dcc325f75f3603102
+      math_nodes: 25
+      diagrams: {}
+      question_sha256: 96b611c4e1fe62c79861e28436f9cfa475dafd98468a81e5747237a417e2ea96
+      solution_sha256: 184e69982739dbe42142a39048ab64aaee4a2623ea1ecc6f13a4e1bcb86731dc
+      check_sha256: c84c6c66e620850a7778cc6c1631cb90ea2dbd5da92959158618e0b346a35c91
+      check_exit: 0
+      check_stdout: Both vacuum curl equations, field orthogonality and constant energy
+        flux verified.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q7A · Cambridge Maths
+        math: 25
+        rendered: 25
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q7A-build-7.png: be820e38a7857e1ee5f5ad0c8c4556d95ad3be11c3e07816fdb5d81baaaa454a
+        IB_2019_P4_q7A-html.png: 8556406f4040e236db35a45f196277d0007588fc2ccfce431347060acf297899
+        IB_2019_P4_q7A-orig.png: 6a8761d2a6918b48f284ea13fa74684e068f1c0ec88e518c0d91738465c987ec
+  IB/2019/P4/q18C:
+    independent_rework: "# P4 / q18C — independent examination rework\n\n## Source\
+      \ comparison\n\nThe archived 2019 Paper 4, physical page 10, prints 18C (Fluid\
+      \ Dynamics). The introductory equations and prose and all of (a)–(c) match the\
+      \ supplied question. I checked the opposite signs of the Coriolis terms, the\
+      \ divergence and potential-vorticity signs, the coefficient \\(f^2/(gh)\\),\
+      \ both piecewise domains, the condition on \\(v\\) at both infinities, the square\
+      \ root over \\(gh\\), and the strict inequality \\(q_1>q_2\\) for the sketches.\
+      \ The paper supplies no figure or marks.\n\n## Independent derivation\n\n(a)\
+      \ \\(f=2\\Omega\\sin\\lambda>0\\) is the local vertical Coriolis parameter at\
+      \ northern latitude \\(\\lambda\\), \\(g\\) is gravitational acceleration, and\
+      \ \\(h\\) is the uniform undisturbed depth above a flat impermeable bottom.\
+      \ Use a local tangent plane and constant \\(f\\), uniform density, negligible\
+      \ viscosity, no external stresses, and hydrostatic pressure under a free surface\
+      \ at constant atmospheric pressure. Horizontal scales much longer than the depth\
+      \ make vertical acceleration negligible; use the depth-averaged horizontal flow.\
+      \ Linearize about rest with \\(|\\eta|\\ll h\\) and small disturbance velocities.\
+      \ This omits quadratic advective acceleration and the product \\(\\eta(u,v)\\\
+      ) in the depth flux. The horizontal pressure force per unit mass is then \\\
+      (-g\\nabla\\eta\\).\n\n(b) Let \\(\\zeta=v_x-u_y\\) and \\(D=u_x+v_y\\). Taking\
+      \ \\(x\\)-derivative of the second momentum equation minus \\(y\\)-derivative\
+      \ of the first cancels mixed pressure derivatives and gives \\(\\zeta_t=-fD\\\
+      ). Continuity gives \\(\\eta_t=-hD\\), hence \\(q_t=\\zeta_t-(f/h)\\eta_t=0\\\
+      ) at fixed position. Constancy of \\(f,h\\) enters the cancellation.\n\n(c)\
+      \ With no dependence on time or \\(y\\), geostrophic balance gives \\(u=0,\\\
+      \ v=(g/f)\\eta'\\). Thus \\(\\zeta=v'=(g/f)\\eta''\\). Substitution into \\\
+      (q\\) yields \\(\\eta''-\\eta/R^2=(f/g)q\\), \\(R=\\sqrt{gh}/f\\). On side \\\
+      (i\\) a constant particular solution is \\(H_i=-hq_i/f\\). The homogeneous solutions\
+      \ are \\(\\exp(\\pm x/R)\\). Since \\(v\\) is proportional to \\(\\eta'\\),\
+      \ its decay removes the growing exponential at each end. Write \\(\\eta=H_1+A\
+      \ e^{x/R}\\) on the left and \\(H_2+B e^{-x/R}\\) on the right. A step in \\\
+      (q\\) has no delta or derivative of delta, so the ODE imposes continuity of\
+      \ both \\(\\eta\\) and \\(\\eta'\\) at zero. These give \\(H_1+A=H_2+B\\) and\
+      \ \\(A=-B\\), so \\(A=(H_2-H_1)/2=h(q_1-q_2)/(2f)\\). The unique matched fields\
+      \ are\n\\[\n\\eta(x)=\\begin{cases}\n-hq_1/f+\\dfrac{h(q_1-q_2)}{2f}e^{x/R},&x\\\
+      le0,\\\\\n-hq_2/f-\\dfrac{h(q_1-q_2)}{2f}e^{-x/R},&x\\ge0,\n\\end{cases}\n\\\
+      qquad v(x)=\\frac{R(q_1-q_2)}{2}e^{-|x|/R}.\n\\]\nThe two formulas for the height\
+      \ agree at zero; a pointwise assignment to \\(q(0)\\) does not change the solution.\
+      \ When \\(q_1=q_2\\) they reduce to a constant height and zero velocity.\n\n\
+      For \\(q_1>q_2\\), \\(H_1<H_2\\) irrespective of the signs of the \\(q_i\\).\
+      \ The height is increasing, convex to the left and concave to the right, with\
+      \ a continuous steepest slope at \\(x=0\\) where \\(\\eta=(H_1+H_2)/2\\). The\
+      \ velocity is even, positive, has a cusp of height \\(V=R(q_1-q_2)/2\\) at zero,\
+      \ and decays on scale \\(R\\) to either side. Qualitative profiles with the\
+      \ interface centred are shown below.\n\n~~~text\nheight                    \
+      \          velocity\nH2 |                 ______         V |           /\\\n\
+      \   |              __/                 |          /  \\\nmid|           __/\
+      \                    |        _/    \\_\n   |        __/                   \
+      \    |     __/        \\__\nH1 |_______/                        0 |____/   \
+      \           \\____\n   +-----------|---------- x          +-----------|-----------\
+      \ x\n               0                                  0\n~~~\n\nThe finite\
+      \ jump in \\(v'\\) is exactly \\(q_2-q_1\\), since \\(\\eta\\) is continuous.\
+      \ This checks both the interface condition and the sign of the jet.\n"
+    independent_rework_sha256: 90fa8a050ec92e1e5535c492d28338c663b5cacdc916772be9609b8fa2884d04
+    comparison: The audit matches both geostrophic interface conditions, the two exponential
+      height branches and the signed cusp current. The inspected two-panel plot has
+      the stated asymptotes.
+    source:
+    - 10
+    check:
+      exit: 0
+      stdout: Each potential-vorticity plateau, far-field velocity and both matching
+        conditions verified.
+      source_hashes:
+        question.tex: c2a7058adbffc2dd58a49bb64e3aa9ae3fd4c84c9e54d5c2c60187bfedcf936b
+        solution.tex: 31f063619b2018b7552b61dddba9b743b2de33fa585d0b8795848c60a96cef6f
+        plot.py: 65da2e230e170ad09f7d0eaf8e09ad2d8c89c354f080bcbb2ce8597921a787de
+        figures/geostrophic-step.png: 3870265b629f5c806b1711c4037675d62dff79b220d355ba16919b8a184c72a4
+      script_sha256: 4e9cc785a574ef7dea6a1b27f1afa937df1e1476edd95e3a4a589a2298f3e1c3
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 10
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 21
+      - 22
+      html: site/private/questions/IB/2019/P4/q18C/index.html
+      html_sha256: 15e23ff314d349792e54e904d33a48d63485fb040eceb0ce928ae4a1074cf987
+      math_nodes: 50
+      diagrams:
+        site/private/figures/tripos/IB/2019/P4/q18C/geostrophic-step.png: 3870265b629f5c806b1711c4037675d62dff79b220d355ba16919b8a184c72a4
+      question_sha256: c2a7058adbffc2dd58a49bb64e3aa9ae3fd4c84c9e54d5c2c60187bfedcf936b
+      solution_sha256: 31f063619b2018b7552b61dddba9b743b2de33fa585d0b8795848c60a96cef6f
+      check_sha256: 4e9cc785a574ef7dea6a1b27f1afa937df1e1476edd95e3a4a589a2298f3e1c3
+      check_exit: 0
+      check_stdout: Each potential-vorticity plateau, far-field velocity and both
+        matching conditions verified.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q18C · Cambridge Maths
+        math: 50
+        rendered: 50
+        parse_errors: 0
+        diagrams:
+        - alt: Surface height and along-front current for a downward step in potential
+            vorticity.
+          width: 900
+          height: 690
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q18C-build-21.png: f0ae741ece26fde2b4eb52485f8018fc5dbab9108911aedd1e560fbb18a1b2b5
+        IB_2019_P4_q18C-build-22.png: 779b602277451885dba870d2d9fe5e4882280c815880c8488c8ae73fa0244866
+        IB_2019_P4_q18C-html.png: 00788919dde582779ba92785dd08add7d3b87987ef78d5f975ee01a7d0d5e7d6
+        IB_2019_P4_q18C-orig.png: 8721f0e5d268abadb41932410062085c80dbd2fef922d8df043069bbfa135f6c
+  IB/2019/P4/q10F:
+    independent_rework: '# P4 / q10F — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 4, physical page 5, printed 10F, Linear Algebra. The isomorphism, bracketed
+      instruction, adjoint with the two orthonormal bases, image identity and least-squares
+      paragraphs match the page. I compared the final \(3\times2\) matrix row by row
+      and the right-hand side \(1,2,3\). No per-part marks are printed.
+
+
+      ## Independent derivation
+
+
+      Over the reals, \(\phi(u)=0\) implies \(0=\phi(u)(u)=\|u\|^2\). Thus the given
+      linear map is injective. A finite basis and its dual show \(\dim U=\dim U^*\),
+      so it is also onto, including in dimension zero.
+
+
+      The adjoint is the linear map \(W\to V\) characterized by \(\langle\alpha v,w\rangle_W=\langle
+      v,\alpha^*w\rangle_V\). With the finite orthonormal bases specified, the representing
+      vector in \(V\) exists uniquely by the isomorphism just proved, applied to the
+      functional \(v\mapsto\langle\alpha v,w\rangle_W\). The uniqueness also gives
+      linearity in \(w\). The entry in row \(i\), column \(j\) of the adjoint is \(\langle
+      e_i,\alpha^*f_j\rangle=\langle\alpha e_i,f_j\rangle=A_{ji}\), giving \(A^{\mathsf
+      T}\) over the reals (the conjugate transpose in complex orthonormal coordinates).
+
+
+      A vector \(w\) annihilates the image orthogonally iff \(\langle v,\alpha^*w\rangle=0\)
+      for all \(v\), equivalently \(\alpha^*w=0\). Taking perpendicular complements
+      gives the printed image identity since a subspace of the finite-dimensional
+      \(W\) is its own double orthogonal complement.
+
+
+      Put \(r=\alpha v_0-w_0\). For \(v=v_0+th\) the squared residual is \(\|r\|^2+2t\langle
+      r,\alpha h\rangle+t^2\|\alpha h\|^2\). A minimum requires vanishing of the linear
+      coefficient for every \(h\), and that condition suffices by the nonnegative
+      last term. This is precisely \(\alpha^*(\alpha v_0-w_0)=0\), whether or not
+      \(\alpha\) has a nontrivial kernel. Orthogonal projection of \(w_0\) onto the
+      image ensures existence.
+
+
+      Here \(A^{\mathsf T}A=\left(\begin{smallmatrix}2&1\\1&2\end{smallmatrix}\right)\)
+      and \(A^{\mathsf T}w_0=(3,5)^{\mathsf T}\). Solving gives \(x=1/3,\ y=7/3\),
+      unique since the determinant is 3. The residual \((-2/3,2/3,-2/3)\) is perpendicular
+      to each column, checking the normal equations.
+
+      '
+    independent_rework_sha256: b1ef2162361af5e66141a3a168aa5d73673d9b726f36fcf5f36cabde431d6350
+    comparison: Duality, finite-dimensional range orthogonality, normal equations
+      and the minimizer (1/3,7/3) match the independent proof.
+    source:
+    - 5
+    check:
+      exit: 0
+      stdout: Normal equations, residual and exact least-squares error decomposition
+        verified.
+      source_hashes:
+        question.tex: 3e8a6a4b80bbf0039ee729279df09c3a9b2f1e1c7e1802f263a23cdaeab73276
+        solution.tex: 986cb56586eff6ae8ce0c15bc9041c562405eb77b1ee3909c99d7f8c3484f7ed
+      script_sha256: 72527c11d00211a96df9c3d183a882bbe14653f1dca444a11f347378e4c8d11c
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 5
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2019/P4/q10F/index.html
+      html_sha256: e4f3fa9b83a44c973352a3e59e71ee1e2fee85aca85ed4cb265be29aff65270a
+      math_nodes: 57
+      diagrams: {}
+      question_sha256: 3e8a6a4b80bbf0039ee729279df09c3a9b2f1e1c7e1802f263a23cdaeab73276
+      solution_sha256: 986cb56586eff6ae8ce0c15bc9041c562405eb77b1ee3909c99d7f8c3484f7ed
+      check_sha256: 72527c11d00211a96df9c3d183a882bbe14653f1dca444a11f347378e4c8d11c
+      check_exit: 0
+      check_stdout: Normal equations, residual and exact least-squares error decomposition
+        verified.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q10F · Cambridge Maths
+        math: 57
+        rendered: 57
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q10F-build-10.png: 5298f6fd88053547c8dbd6f1a6b4ea3e128b10092f818f0508c9122bd326e09b
+        IB_2019_P4_q10F-html.png: 74f30e0221b7c6bbee4c6af63e006c92d2ab15823e31581215295a56c0a99d84
+        IB_2019_P4_q10F-orig.png: 218253d69b368f73543321414547eca4db42959fc9f10f856818fc398c9a6f2a
+  IB/2019/P4/q1F:
+    independent_rework: '# P4 / q1F — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 4, physical page 2, printed 1F, Linear Algebra. Both definitions, all
+      sixteen entries, the nonzero real-vector condition and the final three requests
+      agree with the page image. The repeated symbols \(aa,bb,cc,dd\) are exactly
+      as printed. No marks are shown.
+
+
+      ## Independent derivation
+
+
+      For a square matrix an eigenvalue is a scalar \(\lambda\) such that \(Ax=\lambda
+      x\) for at least one nonzero \(x\); the eigenspace is the whole kernel of \(A-\lambda
+      I\), including zero. Write \(u=(a,b,c,d)^{\mathsf T}\). Multiplication of \(uu^{\mathsf
+      T}\) produces the sixteen entries of \(A\), so \(Ax=(u\cdot x)u\). Its image
+      lies in \(\mathbb Ru\) and contains \(u\) by applying it to \(u/(u\cdot u)\).
+      The assumption \(u\ne0\) makes the denominator strictly positive and the rank
+      exactly one.
+
+
+      The zero eigenspace consists of the three-dimensional hyperplane \(u^\perp\).
+      The positive eigenvalue \(a^2+b^2+c^2+d^2\) has eigenline \(\mathbb Ru\); for
+      a nonzero eigenvalue any eigenvector lies in the image. The direct sum of this
+      line and its perpendicular is all of \(\mathbb R^4\), so these eigenspaces exhaust
+      the spectrum and yield an orthogonal eigenbasis. The diagonal matrix in such
+      a basis has entries \(\|u\|^2,0,0,0\). This proof allows individual coordinates
+      of \(u\) to vanish.
+
+      '
+    independent_rework_sha256: 5401088a620229dfc0228196b4d980cf9a7d72ffbc190966f70c74b04d0a1b81
+    comparison: The rank-one factorization gives the same nonzero eigenvalue and complementary
+      eigenspaces, also with zero individual coordinates.
+    source:
+    - 2
+    check:
+      exit: 0
+      stdout: Positive eigenvalue and three independent kernel directions tested for
+        80 vectors.
+      source_hashes:
+        question.tex: 357307c9226c22ebe789284edc98227bd4865c9ade7c815a93f5244888e91e4e
+        solution.tex: 1b355d4afec2bccca92631f21e53ed0b5996bbbb5c6cc9b718cac912ad67e85c
+      script_sha256: 14f4c89fbf9e0d805d63551a464ce45b63cb181c0ba280f2972532c8bd9ae0b1
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 2
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2019/P4/q1F/index.html
+      html_sha256: 2b79c54de9958c76b8bda21186fc470a52e1d0256113cacae2d8205ce1ccb45e
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: 357307c9226c22ebe789284edc98227bd4865c9ade7c815a93f5244888e91e4e
+      solution_sha256: 1b355d4afec2bccca92631f21e53ed0b5996bbbb5c6cc9b718cac912ad67e85c
+      check_sha256: 14f4c89fbf9e0d805d63551a464ce45b63cb181c0ba280f2972532c8bd9ae0b1
+      check_exit: 0
+      check_stdout: Positive eigenvalue and three independent kernel directions tested
+        for 80 vectors.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q1F · Cambridge Maths
+        math: 26
+        rendered: 26
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q1F-build-1.png: 989cc4c2597d0acb32f160af7a4fd180d101c7feda3be55d01bbdb1c9885dc15
+        IB_2019_P4_q1F-html.png: 17a1d7faef628030b3846955fcf9e322131bd5c00da0976b01bd2b3a8dec7a8e
+        IB_2019_P4_q1F-orig.png: 179120717cd15aca94029feb4b8887550a2516c1dd5263a17b2aca5816ad6fc6
+  IB/2019/P4/q9H:
+    independent_rework: '# P4 / q9H — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 4, physical page 4, printed 9H, Markov Chains. I checked the definition
+      and both lettered parts including their bracketed permissions, the start at
+      the origin, the two sums from \(n=0\), and the \(2n\) on the right of (b). All
+      agree. No numerical marks appear.
+
+
+      ## Independent derivation
+
+
+      Start at \(v\). With \(T_0=0\), let \(T_{j+1}\) be the first visit to \(v\)
+      strictly after \(T_j\), or infinity if it does not occur. Recurrence means \(\Pr_v(T_1<\infty)=1\).
+      The strong Markov property at each finite \(T_j\) gives the same probability
+      for the next return, hence each \(T_j\) is finite almost surely by induction.
+      Their countable intersection has probability one, and strict increase gives
+      infinitely many visits there. With \(N=\sum_{n\ge0}\mathbf1_{\{X_n=v\}}\), monotone
+      convergence yields \(\sum_{n\ge0}p_{vv}(n)=\mathbb E_v N=\infty\). The initial
+      visit contributes one.
+
+
+      At a fixed \(n\), independence of the two walks started at zero gives
+
+      \[
+
+      \Pr(X_n=Y_n)=\sum_{x\in\mathbb Z^2}p_{0x}(n)^2
+
+      =\sum_x p_{0x}(n)p_{x0}(n)=p_{00}(2n)
+
+      \]
+
+      by symmetry and Chapman–Kolmogorov, also true at \(n=0\) by the identity transition.
+      Summing these nonnegative probabilities gives \(\mathbb E Z\). Every step flips
+      the parity of the sum of coordinates, so \(p_{00}(2n+1)=0\). Therefore the even-time
+      sum equals the full return sum of the recurrent walk, infinite by (a). The infinite
+      mean is exactly the requested conclusion.
+
+      '
+    independent_rework_sha256: 84d9f9215825c461a0b0c53dd55be125b21f24e439c05d44dbbee438554d7b14
+    comparison: Both use the return count, symmetry, Chapman–Kolmogorov and parity.
+      They infer infinite expected collisions without inferring an almost sure event
+      solely from that mean.
+    source:
+    - 4
+    check:
+      exit: 0
+      stdout: Exact planar path and collision counts satisfy the doubled-time identity
+        and the parity constraint.
+      source_hashes:
+        question.tex: ab2998f85edeb9db2e2fdd2d94ba648f01e4369e4361d03c80adb9425748298f
+        solution.tex: 26a8f8108f0be195968c3dc76e909be23507043326d43e45781e8532e991cdd2
+      script_sha256: bcf18325721b4fe3ba715984ec6af4e19508578e2b56270b9a195d3f10b72c6a
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 4
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2019/P4/q9H/index.html
+      html_sha256: 107db59abf327138afac90b371700e0f2b1809cdd42e033c7cfcafd16bce7cbc
+      math_nodes: 32
+      diagrams: {}
+      question_sha256: ab2998f85edeb9db2e2fdd2d94ba648f01e4369e4361d03c80adb9425748298f
+      solution_sha256: 26a8f8108f0be195968c3dc76e909be23507043326d43e45781e8532e991cdd2
+      check_sha256: bcf18325721b4fe3ba715984ec6af4e19508578e2b56270b9a195d3f10b72c6a
+      check_exit: 0
+      check_stdout: Exact planar path and collision counts satisfy the doubled-time
+        identity and the parity constraint.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q9H · Cambridge Maths
+        math: 32
+        rendered: 32
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q9H-build-9.png: 3bb91fc009b7f577659e9c200badfa4495fa57baf7a4460511a5ac77957c2ee3
+        IB_2019_P4_q9H-html.png: ae179f0c9dbf5900c028fb3613535dd96c544613aa99afa3f5a9278b77a506d3
+        IB_2019_P4_q9H-orig.png: c02f31b0275c91d0cd840fa68cb1a5d45e6221c2db019ef62edef42817be2811
+  IB/2019/P4/q5D:
+    independent_rework: '# P4 / q5D — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 4, physical page 3, printed 5D, Methods. The numerator \(-2\epsilon x\),
+      denominator \(\pi(\epsilon^2+x^2)^2\), limits of integration, test-function
+      conditions and request for a generalized function agree with the source image.
+      In particular the print says \(\epsilon\to0\) with no plus superscript or positivity
+      stipulation. No marks are printed.
+
+
+      ## Independent derivation
+
+
+      Let \(P_a(x)=a/[\pi(a^2+x^2)]\) for \(a>0\). Its integral is one by the arctangent
+      antiderivative, and \(g_a=P_a''\). On compactly supported smooth test functions
+      (or Schwartz tests) integration by parts gives
+
+      \[
+
+      \langle g_a,\phi\rangle=-\int_{\mathbb R}\frac{\phi''(ay)}{\pi(1+y^2)}\,dy\longrightarrow-\phi''(0).
+
+      \]
+
+      Dominated convergence applies since the derivative of the test is bounded and
+      the Cauchy weight is integrable. This is \(\langle\delta'',\phi\rangle\).
+
+
+      The same limit holds under the printed smoothness and boundedness without needing
+      a global bound on \(\phi''\). Subtract \(\phi(0)\) under the original integral
+      using oddness of \(g_a\), and set \(x=ay\). Then
+
+      \[
+
+      \langle g_a,\phi\rangle=-\frac2\pi\int_{\mathbb R}
+
+      \frac{y^2}{(1+y^2)^2}
+
+      \frac{\phi(ay)-\phi(0)}{ay}\,dy.
+
+      \]
+
+      The difference quotient extends continuously at zero and stays bounded on the
+      whole real line by boundedness of \(\phi\) outside a neighborhood of zero. The
+      weight has integral \(\pi/2\) (substitute \(y=\tan s\)). This proves the limit
+      by the same theorem.
+
+
+      For \(\epsilon<0\), \(g_{\epsilon}=-g_{|\epsilon|}\), so the negative-side limit
+      is \(-\delta''\). A test such as \(\phi(x)=xe^{-x^2}\) distinguishes the sides.
+      Consequently the usual positive-width convention gives \(\delta''\), while the
+      literal two-sided limit does not exist. The pointwise zero limit cannot be substituted
+      in the integral.
+
+      '
+    independent_rework_sha256: 7f3acfe346f29a918ccbc2693299b716a51332ff754b140841705c730d9815b1
+    comparison: The positive and negative regularising widths have opposite limits
+      in both derivations. A smooth test with nonzero derivative distinguishes them.
+    source:
+    - 3
+    check:
+      exit: 0
+      stdout: Opposite one-sided derivative limits checked against an odd Gaussian
+        test.
+      source_hashes:
+        question.tex: 9db1d027d8ca5b3f685921c5301e30ed08b7cd8144d384ad993ddb787500de38
+        solution.tex: abc8e827b7370f10dccbfdf467948bbbd6172e59d5c4e8a7c61acf44825e2795
+      script_sha256: 65e5e899897ddc72154da34a0d188660f6cf652b944fcba57defd0038cd311f1
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 3
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2019/P4/q5D/index.html
+      html_sha256: f6c0b1dfdf936ca5d066c8e467b362e513068cb85bd59e4c581b4bef2d1c97af
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: 9db1d027d8ca5b3f685921c5301e30ed08b7cd8144d384ad993ddb787500de38
+      solution_sha256: abc8e827b7370f10dccbfdf467948bbbd6172e59d5c4e8a7c61acf44825e2795
+      check_sha256: 65e5e899897ddc72154da34a0d188660f6cf652b944fcba57defd0038cd311f1
+      check_exit: 0
+      check_stdout: Opposite one-sided derivative limits checked against an odd Gaussian
+        test.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q5D · Cambridge Maths
+        math: 16
+        rendered: 16
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q5D-build-5.png: e63fec9d1a10bb641ecfbd5fcf2160d5da689ba6ccd8a5cae2a628ecf10f8974
+        IB_2019_P4_q5D-html.png: 6864fb497407ec6ebc35cdae1b013e29d9107ea0e80c4615c5e2fa191fee8018
+        IB_2019_P4_q5D-orig.png: 6a8761d2a6918b48f284ea13fa74684e068f1c0ec88e518c0d91738465c987ec
+  IB/2019/P3/q15D:
+    independent_rework: '# P3 / q15D — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 3, physical page 8, printed 15D, Methods. The fragment matches the page
+      in its prose, differential equation, Fourier-integral hint (including \(1/(2\pi)\),
+      \(-i\) and \(kc\)), initial data and last interpretation request. The bold spatial
+      vectors denote the same variables throughout. No absolute marks are printed.
+
+
+      ## Independent derivation
+
+
+      In distributions \((Hh)''=Hh''+h(0)\delta\) for smooth \(h\). With \(h(t)=\sin(\alpha
+      t)/\alpha\), \(h(0)=0,\ h''(0)=1,\ h''''=-\alpha^2h\). Thus \(\psi''=H\cos(\alpha
+      t)\) and \(\psi''''=\delta-\alpha^2\psi\). At \(\alpha=0\) use the continuous
+      limit \(h=t\), yielding \((Ht)''''=\delta\).
+
+
+      For wave speed \(c>0\) and a unit impulse at \((y,s)\), set \(z=x-y,\ \tau=t-s,\
+      r=|z|\). Fourier transform in \(z\) using forward factor \(e^{-ik\cdot z}\)
+      and inverse measure \(d^3k/(2\pi)^3\). Then \(\widehat G_{\tau\tau}+c^2|k|^2\widehat
+      G=\delta(\tau)\). The causal solution is \(H(\tau)\sin(c|k|\tau)/(c|k|)\), with
+      its continuous value at \(k=0\). Angular integration of the inverse gives for
+      \(r>0\)
+
+      \[
+
+      G=\frac{H(\tau)}{2\pi^2cr}\int_0^\infty\sin(kr)\sin(kc\tau)\,dk
+
+      =\frac{H(\tau)}{4\pi cr}\big[\delta(r-c\tau)-\delta(r+c\tau)\big].
+
+      \]
+
+      The last identity is distributional, from the cosine difference and \(\int_0^\infty\cos(ka)\,dk=\pi\delta(a)\).
+      The retarded kernel is \(\delta(\tau-r/c)/(4\pi c^2 r)\). Its definition across
+      the vertex is given by integration in \(z\); the radial volume factor \(r^2\)
+      makes \(1/r\) locally integrable and the spherical integral at the vertex well
+      defined. The spatial Fourier derivation fixes the source normalization and excludes
+      an extra point mass. It vanishes before the impulse.
+
+
+      Extend the forward Cauchy solution by zero for \(t<0\). Differentiating twice
+      supplies \(u_t(x,0)\delta(t)+u(x,0)\delta''(t)=f(x)\delta(t)\) at the initial
+      surface. Retarded convolution thus gives, for \(t>0\),
+
+      \[
+
+      u(x,t)=\int\frac{\delta(t-|x-y|/c)}{4\pi c^2|x-y|}f(y)\,dy
+
+      =\frac{t}{4\pi}\int_{\mathbb S^2} f(x+ct\omega)\,d\omega.
+
+      \]
+
+      This equals \(t\) times the spherical mean on the sphere of radius \(ct\). For
+      smooth \(f\), continuity at \(t=0\) gives \(u(x,0)=0,\ \partial_tu(x,0)=f(x)\).
+      Only the spherical wavefront at distance \(ct\) contributes to the value: a
+      point impulse propagates at speed \(c\) with no tail inside its cone (the three-dimensional
+      Huygens principle).
+
+      '
+    independent_rework_sha256: 69db75f4ed2a8b7a2f14ab52238891264a78e36ba746a8cb89f066b70b092af3
+    comparison: The causal oscillator and spatial Fourier inversion give the same
+      retarded wavefront measure. The spherical mean restores the prescribed initial
+      velocity.
+    source:
+    - 8
+    check:
+      exit: 0
+      stdout: Spherical wavefront measure reproduces the Fourier oscillator including
+        zero frequency.
+      source_hashes:
+        question.tex: 756ad5a2237a1f7e3551499d582da037189091af91fef0120712bcdca73f26e6
+        solution.tex: 89553fc48c21553e642443038becd787c0226b6509a90cfde623abd3ef40a4c3
+      script_sha256: c8d8897a547872f7e11500f762a7d36bb980bfe76a2c80a83b75446fb82c6e84
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P3.pdf
+      source_sha256: 927dcd4f0a90389addd5a3d2de9a902bde9f12afbd88c72c501fa6b0982a5955
+      source_page: 8
+      compiled_pdf: build/IB-2019-P3/main.pdf
+      compiled_sha256: 6d17c46a4cfb8a33f73312bcb1a925a97e9dff136a99984cce7816dae650d1bb
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2019/P3/q15D/index.html
+      html_sha256: cf30305e57965c202e28cb4be74383484e03e21cad2928092af23f11f78dd36b
+      math_nodes: 43
+      diagrams: {}
+      question_sha256: 756ad5a2237a1f7e3551499d582da037189091af91fef0120712bcdca73f26e6
+      solution_sha256: 89553fc48c21553e642443038becd787c0226b6509a90cfde623abd3ef40a4c3
+      check_sha256: c8d8897a547872f7e11500f762a7d36bb980bfe76a2c80a83b75446fb82c6e84
+      check_exit: 0
+      check_stdout: Spherical wavefront measure reproduces the Fourier oscillator
+        including zero frequency.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P3/q15D · Cambridge Maths
+        math: 43
+        rendered: 43
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P3_q15D-build-16.png: 4ed7b701a8e455b71143565c929df65f4f90fea6d748b3cbfcb8ab941c2a1f0c
+        IB_2019_P3_q15D-html.png: b923edf73d493f17d81f476dae549be7ba22787a3f19cbc7ef26dfa271288d80
+        IB_2019_P3_q15D-orig.png: a071f08fe3865b1d82109d5e5bf7219945978b2ad1c1625aab64c998cf2e55ed
+  IB/2019/P1/q6C:
+    independent_rework: '# P1 / q6C — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 1, physical page 3, printed 6C, Numerical Analysis. Both occurrences of
+      the degree, all node subscripts, the product range and the signs and indices
+      in the recurrence agree with the image. In particular the printed phrase is
+      “polynomial of degree \(n\)”. No numbered subparts or marks are given.
+
+
+      ## Independent derivation
+
+
+      For distinct nodes \(y_0,\ldots,y_m\) let \(P\) be the polynomial of degree
+      at most \(m\) taking values \(f(y_j)\). It exists by the Lagrange sum \(\sum_j
+      f(y_j)\prod_{k\ne j}(x-y_k)/(y_j-y_k)\). It is unique since a polynomial of
+      degree at most \(m\) with \(m+1\) distinct roots vanishes identically. Define
+      \(f[y_0,\ldots,y_m]\) to be the coefficient of \(x^m\) in \(P\); in particular
+      \(f[y_0]=f(y_0)\). This definition is symmetric and permits a zero coefficient.
+
+
+      Let \(P_m\) use nodes \(x_0,\ldots,x_m\). For \(m\ge1\), \(P_m-P_{m-1}\) has
+      its first \(m\) nodes as roots and degree at most \(m\), so equals a constant
+      times \(\prod_{i=0}^{m-1}(x-x_i)\). The product is monic and \(P_{m-1}\) has
+      degree \(<m\), so that constant is \(f[x_0,\ldots,x_m]\). Summing over \(1\le
+      m\le n\) from \(P_0=f(x_0)\) gives precisely the stated Newton expansion, also
+      valid for \(n=0\). An interpolant can have lower degree: constant data for \(n\ge1\)
+      are a counterexample to interpreting the printed degree as always exact.
+
+
+      For \(m\ge1\), write \(Q\) for the interpolant on \(x_1,\ldots,x_m\), \(P\)
+      for the interpolant on \(x_0,\ldots,x_{m-1}\). The candidate
+
+      \[
+
+      T(x)=\big[(x-x_0)Q(x)-(x-x_m)P(x)\big]/(x_m-x_0)
+
+      \]
+
+      has degree at most \(m\). At the two endpoints only the appropriate interpolant
+      contributes; at every interior node both terms have the same datum and their
+      multipliers differ by \(x_m-x_0\). Thus \(T=P_m\) by uniqueness. Taking the
+      \(x^m\) coefficient gives exactly the displayed difference of the divided differences
+      divided by \(x_m-x_0\). This denominator is nonzero regardless of node order.
+      For \(m=1\) the formula reduces to the ordinary secant slope.
+
+      '
+    independent_rework_sha256: cc9eca2bf09535f6db92d3ecfd8f44318772a02c376c7bb0da92e6764a1c2a8b
+    comparison: The auditor independently constructed the interpolant from overlapping
+      node sets and obtained the same divided differences, including leading coefficient
+      zero.
+    source:
+    - 3
+    check:
+      exit: 0
+      stdout: Newton interpolant and lower-degree cancellation checked exactly on
+        unsorted nodes.
+      source_hashes:
+        question.tex: 5b74ebe2fda9b1c0171bbaae6b3fdb7a03435abd60a113238c5fab96b5483e68
+        solution.tex: 9af7879be6f908e1ebf1604eed2441510134a0c694e7539aa5fd3bd63b2e6544
+      script_sha256: b01b075cfd3fbea16c634f15b0837611c7b7fc9a9f7352038781d1bcffc79f05
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P1.pdf
+      source_sha256: fa2c836658eaffefce78dcebff2c289c96c268defe63716df05a965a4216c6bb
+      source_page: 3
+      compiled_pdf: build/IB-2019-P1/main.pdf
+      compiled_sha256: 63a381c58fae83fce986b0f297ccd50e12e1edde04b2c6b4886ae4c475338b6d
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2019/P1/q6C/index.html
+      html_sha256: 399e245d139f2d24bbc4fa4c1f533657ec2ff4011b33852d59b3d9c6b0a34723
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: 5b74ebe2fda9b1c0171bbaae6b3fdb7a03435abd60a113238c5fab96b5483e68
+      solution_sha256: 9af7879be6f908e1ebf1604eed2441510134a0c694e7539aa5fd3bd63b2e6544
+      check_sha256: b01b075cfd3fbea16c634f15b0837611c7b7fc9a9f7352038781d1bcffc79f05
+      check_exit: 0
+      check_stdout: Newton interpolant and lower-degree cancellation checked exactly
+        on unsorted nodes.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P1/q6C · Cambridge Maths
+        math: 29
+        rendered: 29
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P1_q6C-build-6.png: a9920d29a8cfa7f34a93d7d8e851c6d9d7b1dc5a3d266a1fe9f5b3edf1ecc35a
+        IB_2019_P1_q6C-html.png: 0bbf9852875cbc47ef435742c5373ae9036d970234160f3c03245935568e21a5
+        IB_2019_P1_q6C-orig.png: 18a459d5851232a95bfe644b9b56f791bd04e596574f3a54a2c6432ad721b44d
+  IB/2019/P4/q6B:
+    independent_rework: '# P4 / q6B — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 4, physical page 3, printed 6B, Quantum Mechanics. Both lettered parts
+      agree with the printed text. I checked the sign of the phase \(+ikx\), the fourth
+      root of \(2\alpha/\pi\), the continuity equation, “instantaneous, normalized”
+      and the qualifiers on \(\alpha,k\). The page states no domain or boundary conditions
+      for (a) and prints no marks.
+
+
+      ## Independent derivation
+
+
+      Assume the usual one-dimensional, spinless Schrödinger equation with real scalar
+      potential \(V\) and no vector potential. Put \(\rho=\Psi^*\Psi\) and
+
+      \[
+
+      j=\frac{\hbar}{2mi}\big(\Psi^*\partial_x\Psi-\Psi\partial_x\Psi^*\big).
+
+      \]
+
+      Multiply \(i\hbar\Psi_t=-(\hbar^2/2m)\Psi_{xx}+V\Psi\) by \(\Psi^*\) and use
+      its conjugate to compute \(\rho_t=(i\hbar/2m)(\Psi^*\Psi_{xx}-\Psi\Psi^*_{xx})=-j_x\).
+      The mixed first-derivative terms cancel in the spatial derivative of \(j\).
+
+
+      For a stationary state \(\Psi=u(x)e^{-iEt/\hbar}\) with real energy, \(\rho_t=0\),
+      so \(j\) is constant in \(x\). For a usual bound state on \(\mathbb R\), normalization
+      and finite kinetic energy give \(u,u''\in L^2\). Hence \(\int |j|\,dx\le(\hbar/m)\|u\|_2\|u''\|_2<\infty\).
+      The sole integrable constant on the line is zero. A no-flux boundary condition
+      gives the same conclusion directly. This inference uses the bound-state setting:
+      on a periodic ring even a normalized travelling eigenmode can carry constant
+      nonzero current. Normalization alone supplies no estimate of \(u''\) for arbitrary
+      differentiable functions.
+
+
+      On the full line a free-particle plane wave \(A e^{i(kx-\hbar k^2t/(2m))}\)
+      for \(A\ne0,\ k\ne0\) is stationary in density and has infinite squared norm.
+      Its current is \(\hbar k|A|^2/m\).
+
+
+      At the given instant, \(\partial_x\Psi=(-2\alpha x+ik)\Psi\). Thus
+
+      \[
+
+      \langle p\rangle=\int_{\mathbb R}|\Psi|^2(2i\hbar\alpha x+\hbar k)\,dx=\hbar
+      k.
+
+      \]
+
+      The imaginary term integrates to zero by oddness, and the constant integrates
+      against the normalized density \((2\alpha/\pi)^{1/2}e^{-2\alpha x^2}\). The
+      assumption \(\alpha>0\) ensures integrability; \(k=0\) gives zero.
+
+      '
+    independent_rework_sha256: 21cc5a616665313b5abff148d0b820380892e6d8ddc1dad8e8f68792a3c7e190
+    comparison: Both proofs derive continuity and use a finite-kinetic-energy domain
+      to deduce that a constant bound-state current vanishes on the line. Plane-wave
+      current and Gaussian momentum match.
+    source:
+    - 3
+    check:
+      exit: 0
+      stdout: Gaussian momentum expectation verified by quadrature for both momentum
+        directions.
+      source_hashes:
+        question.tex: c296a46c40410f3a6545e13a4d66f3ae0991ffd32fb21ed09e6313e9305c106a
+        solution.tex: 6728d44af89c7a4baed24ca54fd8555ab0f7b5fc29a02d2dea6a9911ca54fcdf
+      script_sha256: 6929459746e9ad1efbc94ce79d92e827c4e810f87a0a735e5e9b1e0d358beef2
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P4.pdf
+      source_sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+      source_page: 3
+      compiled_pdf: build/IB-2019-P4/main.pdf
+      compiled_sha256: ba6f3b7937ee82b02e4bfd33dfba8741758d0c6f94aa0bae4c6c3643e07031fb
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2019/P4/q6B/index.html
+      html_sha256: ca32b07585b78412f601477cf44777c61835cf23496a5bd6b040dd1a7d15afea
+      math_nodes: 23
+      diagrams: {}
+      question_sha256: c296a46c40410f3a6545e13a4d66f3ae0991ffd32fb21ed09e6313e9305c106a
+      solution_sha256: 6728d44af89c7a4baed24ca54fd8555ab0f7b5fc29a02d2dea6a9911ca54fcdf
+      check_sha256: 6929459746e9ad1efbc94ce79d92e827c4e810f87a0a735e5e9b1e0d358beef2
+      check_exit: 0
+      check_stdout: Gaussian momentum expectation verified by quadrature for both
+        momentum directions.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P4/q6B · Cambridge Maths
+        math: 23
+        rendered: 23
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P4_q6B-build-6.png: f7545204800cfdc46f23732c9b79fbde1cd7a179827023437f0ccb5ea349cc32
+        IB_2019_P4_q6B-html.png: 0bb6bf869ce8ff054ee4376eae5ee078c5ad54602c33b1973326db5cb9c35143
+        IB_2019_P4_q6B-orig.png: 6a8761d2a6918b48f284ea13fa74684e068f1c0ec88e518c0d91738465c987ec
+  IB/2019/P2/q8H:
+    independent_rework: '# P2 / q8H — independent examination rework
+
+
+      ## Source comparison
+
+
+      Paper 2, physical page 5, printed 8H, Statistics. The three parts and bracketed
+      beta-density and mean facts agree in wording, parameters and exponents with
+      the printed page. The last expectation has no printed conditioning subscript
+      and (c) uses the words “minimizes the quadratic error loss function”. No marks
+      appear.
+
+
+      ## Independent derivation
+
+
+      Encode a head by one and a tail by zero, so \(s=\sum_{i=1}^n X_i\) counts heads.
+      The likelihood of this ordered sample is \(\theta^s(1-\theta)^{n-s}\); observation
+      of the count instead introduces a constant binomial coefficient that cancels.
+      Bayes'' rule and prior density one on \([0,1]\) give the \(\operatorname{Beta}(s+1,n-s+1)\)
+      posterior, with zero density outside that interval. The normalization is \(1/B(s+1,n-s+1)=(n+1)!/[s!(n-s)!]\).
+      Both parameters are positive even for an all-heads or all-tails sample.
+
+
+      For decision \(a\) and true parameter \(\theta\) the quadratic loss is \(L(\theta,a)=(a-\theta)^2\).
+      The Bayes decision minimizes the conditional expected loss after observing \(X\).
+      Writing \(\mu=\mathbb E[\theta\mid X]\),
+
+      \[
+
+      \mathbb E[(a-\theta)^2\mid X]=(a-\mu)^2+\operatorname{Var}(\theta\mid X).
+
+      \]
+
+      The cross term vanishes by definition of conditional expectation. This yields
+      the unique minimizer \(\widehat\theta=\mu=(s+1)/(n+2)\), which lies in the permissible
+      action interval. Minimization of the pointwise loss with known \(\theta\) would
+      simply yield \(a=\theta\).
+
+
+      At fixed \(\theta\) the sample count is binomial with mean \(n\theta\), giving
+      the sampling expectation \(\mathbb E_\theta[\widehat\theta]=(n\theta+1)/(n+2)\),
+      including \(\theta=0,1\). Under the joint uniform-prior model, averaging this
+      quantity over the prior gives \(\mathbb E[\widehat\theta]=1/2\); equivalently
+      use the tower law. These distinguish the two standard probability laws relevant
+      to the unqualified final expectation.
+
+      '
+    independent_rework_sha256: b568ce0ba689327d62d731e43af035b932bf6a626bf8f5ee44aecfeee35ec22a
+    comparison: The beta posterior, quadratic-loss estimator and both conditional
+      and prior-predictive expectations match.
+    source:
+    - 5
+    check:
+      exit: 0
+      stdout: Posterior means verified by beta integrals and repeated-sample means
+        by exact binomial sums.
+      source_hashes:
+        question.tex: 5c919161bafa9540de1c90bcff35deb9d92ce860f84687c89cf1daedee350f53
+        solution.tex: 73ea6db85fa3eefbaaa994d16c8aceec29c90aefea47c428795e42e5f7279fc0
+      script_sha256: 558e227754080b04d03ee1ae0b29019add3d00efb62912034fee011c6f7d0e2c
+    delivery:
+      source_pdf: private/raw/tripos/IB/2019/P2.pdf
+      source_sha256: e657e2d6a71264a059846889eaa1dc44642ebe96e088dd2f5fedc04a069ec598
+      source_page: 5
+      compiled_pdf: build/IB-2019-P2/main.pdf
+      compiled_sha256: 80b6b7c9c89fb7525f0622b511a57ec2552c18de7b1ae0ed255385c650b5194b
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2019/P2/q8H/index.html
+      html_sha256: f3bd55fceb957e24be97c36037cadcd8262015421fa47df9fcec1fa1800b7cbd
+      math_nodes: 27
+      diagrams: {}
+      question_sha256: 5c919161bafa9540de1c90bcff35deb9d92ce860f84687c89cf1daedee350f53
+      solution_sha256: 73ea6db85fa3eefbaaa994d16c8aceec29c90aefea47c428795e42e5f7279fc0
+      check_sha256: 558e227754080b04d03ee1ae0b29019add3d00efb62912034fee011c6f7d0e2c
+      check_exit: 0
+      check_stdout: Posterior means verified by beta integrals and repeated-sample
+        means by exact binomial sums.
+      check_stderr: ''
+      browser:
+        title: IB/2019/P2/q8H · Cambridge Maths
+        math: 27
+        rendered: 27
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2019_P2_q8H-build-9.png: 413dafa811fae1e93e2004238df0562065c215fc0cda17ec7d05f91427b5f413
+        IB_2019_P2_q8H-html.png: 07ebacd16d4b3a011ca401db95c33c63ac97d44abe211d13fef06b0e3bbc71d2
+        IB_2019_P2_q8H-orig.png: 18c14aec326a539344bf1b76113b4d1638bc15b083ba90f86712f9d850a1378a
