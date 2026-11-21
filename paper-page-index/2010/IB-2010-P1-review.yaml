@@ -1,0 +1,287 @@
+paper_id: IB/2010/P1
+id: IB/2010/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2010-06-01'
+printed_date: Tuesday, 1 June, 2010
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2010/P1.pdf
+archive: private/raw/tripos/IB/2010/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2010/PaperIB_1.pdf
+sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2010/P1/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1de5910fa9bb3d8c3c35753fc19b5a83999319f02fc3d1ee4f8d629ffc9716e1
+  checks: Derivative and Euler operators both act on degree at most n minus one.
+  source_page_render_sha256: 1d8e3b2fe270a0e9f7addc1320c543748be117bbad975a1413d562cd98848d71
+- id: IB/2010/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 3c2e8ee9250ede36bd2c33b6dc65ef62527246f3fef0fa0e94f733184de2479d
+  checks: All three parts and the displayed decomposition checked.
+  source_page_render_sha256: 1d8e3b2fe270a0e9f7addc1320c543748be117bbad975a1413d562cd98848d71
+- id: IB/2010/P1/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: ca5237df5ac7d401407eb68bce7d647577d47197a8f49495a070e8ec86035fe5
+  checks: Both parts specify embedded surfaces in real three-space.
+  source_page_render_sha256: 1d8e3b2fe270a0e9f7addc1320c543748be117bbad975a1413d562cd98848d71
+- id: IB/2010/P1/q4D
+  original_question: 4D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 73f2dc561cc781df15ab7f22041c8f39f4b3decb234c32dc60f4cc23b03ee450
+  checks: Strict convexity, first-order condition and final second-derivative qualification retained.
+  source_page_render_sha256: 1d8e3b2fe270a0e9f7addc1320c543748be117bbad975a1413d562cd98848d71
+- id: IB/2010/P1/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 18e18bddaae1d26d06278558b35074ae2d3d91263a39ab824ae8f60f3e8dd54c
+  checks: The potential has opposite exponential signs, with all three time conditions as printed.
+  source_page_render_sha256: d44286d1b80c2d1df342b7bf1d9ac81e3751718f5ff06497786e7c19b8ac2eec
+- id: IB/2010/P1/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: aac163b37ebb625eccd3094c220c95f1657a7854cd400a4d6af8d81f956d578b
+  checks: Both matrices checked entry by entry, including the bottom-right lambda and the final 1/7.
+  printed_ambiguity: The full paper asks for a minimum under strict positive definiteness. Check whether the
+    boundary value is attained when solving.
+  source_page_render_sha256: d44286d1b80c2d1df342b7bf1d9ac81e3751718f5ff06497786e7c19b8ac2eec
+- id: IB/2010/P1/q7E
+  original_question: 7E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: fd7fc92a98e6574ad06a00d4b6a4851dc4c64e09a2c577e85a1b9dab33181253
+  checks: Null equality and one-sided variance alternative verified.
+  source_page_render_sha256: d44286d1b80c2d1df342b7bf1d9ac81e3751718f5ff06497786e7c19b8ac2eec
+- id: IB/2010/P1/q8E
+  original_question: 8E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 63f743537ad2a3893dcd1df81777bd04f049a9985052efbc9bc35feb74e7107e
+  checks: The zero initial flow and rational-capacity clauses both appear.
+  source_page_render_sha256: d44286d1b80c2d1df342b7bf1d9ac81e3751718f5ff06497786e7c19b8ac2eec
+- id: IB/2010/P1/q9F
+  original_question: 9F
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e527bdb97af0aa97d3d1de39b047ac9e939635d4201f50a601257dd1037f559a
+  checks: Transpose position, trace of square and bracketed hint checked.
+  source_page_render_sha256: d75593332bead47b129d5981e75dfb4d1ce5e1807422a00f83dd597738776b85
+- id: IB/2010/P1/q10H
+  original_question: 10H
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: f86b7fce9f3fb192bfc273722714b958eacc93c5661edb62b552b92413057704
+  checks: Group orders and the nested normal-subgroup claim checked.
+  source_page_render_sha256: d75593332bead47b129d5981e75dfb4d1ce5e1807422a00f83dd597738776b85
+- id: IB/2010/P1/q11G
+  original_question: 11G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: b90ee2716d877d618987639d0381075bbbcd4d00f1db49ee03a42dcd8c0426a0
+  checks: Half-open interval and one-sided derivative at zero preserved.
+  source_page_render_sha256: d75593332bead47b129d5981e75dfb4d1ce5e1807422a00f83dd597738776b85
+- id: IB/2010/P1/q12H
+  original_question: 12H
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 58d94b1d3fcb8321bad43c9b31a8480eee7f6a2bde3fdbae2ebf4f9ec72a920c
+  checks: The right inverse is the identity on Y; both numbered conclusions checked.
+  source_page_render_sha256: d75593332bead47b129d5981e75dfb4d1ce5e1807422a00f83dd597738776b85
+- id: IB/2010/P1/q13A
+  original_question: 13A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 9f24033be42dfa39e23066feb17be2176daedba4cc4539d60cc2f937c4e1b043
+  checks: Limits and both integrands compared, including the half power and the natural log.
+  source_page_render_sha256: f8a9c59de5f68660e609549550bda6dfe3c1d7c488f5bbf796e605a555e78c61
+- id: IB/2010/P1/q14A
+  original_question: 14A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: f6f64f4ac54f8aa374413aadce5c5c19edf9c1b4734c3f0845d4473c93d4b133
+  checks: Normalisations, limits, smoothness and decay exponent checked.
+  source_page_render_sha256: f8a9c59de5f68660e609549550bda6dfe3c1d7c488f5bbf796e605a555e78c61
+- id: IB/2010/P1/q15D
+  original_question: 15D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 15718465eab96fb15b06f21533230786700b7c99197ba1eb9fe699e12f0ae212
+  checks: Unit mass, Gaussian exponent, parity and probability-density period checked.
+  source_page_render_sha256: 93262480c8df1002aac575e02a7b5c552e2ae733bcaf35f1dfc378c3a96711bb
+- id: IB/2010/P1/q16C
+  original_question: 16C
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 83cfc01a83f2a98fe7997cb5efaf9950dadfe00ecbfc71bea7436c3dd2977de9
+  checks: Three cylinder potentials, dimensions, and fixed parameters for the variation checked.
+  source_page_render_sha256: 93262480c8df1002aac575e02a7b5c552e2ae733bcaf35f1dfc378c3a96711bb
+- id: IB/2010/P1/q17B
+  original_question: 17B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: afff4efcbfcf70ec9c36755d67df7e1c386655441cf52a8d27626214ce4cecbc
+  checks: Opposite displacement signs in pressure denominators and the kinetic energy coefficient checked.
+  source_page_render_sha256: a4f58173bd5d1194ff86ea3f3504b5bbc0b1ddc9d7b9fcb149551372d0fcc276
+- id: IB/2010/P1/q18C
+  original_question: 18C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: b4a71f5567c877a5d468b59aaf700ea9d04b1cf2a21a03f1bbe08a23514da810
+  checks: Weights, four supplied moments and the Lagrangian product exclude only j equal to i as printed.
+  source_page_render_sha256: 9666293f06fc5ef00286e846f8dfd4c5a52700900a2bb72bfc74dbc972bb43f1
+- id: IB/2010/P1/q19E
+  original_question: 19E
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: fc5fd71840a6fbaefc04c39ce1db8d90739223eb44d97650c3b610c04f4a9fec
+  checks: The doubled word “the” and both fourth-power expectations match the page.
+  source_page_render_sha256: 9666293f06fc5ef00286e846f8dfd4c5a52700900a2bb72bfc74dbc972bb43f1
+- id: IB/2010/P1/q20E
+  original_question: 20E
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 62dfccd7d60e2113b047cbd3b7a9f506eee464c0694a9be175c7f301cd9d41ef
+  checks: The frog can jump to the same pad, and the final expectation and factorial checked.
+  source_page_render_sha256: dd8685211629bab3eadc16c995ae860c5b2cd1c390f10d61d94c34193dff8039
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 7cb7d48298b0dc23ad71d7ae9185996a16829dd823dedb845385abed7630d232

@@ -1,0 +1,299 @@
+paper_id: IB/2010/P3
+id: IB/2010/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2010-06-03'
+printed_date: Thursday, 3 June, 2010
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2010/P3.pdf
+archive: private/raw/tripos/IB/2010/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2010/PaperIB_3.pdf
+sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2010/P3/q1H
+  original_question: 1H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ac03e59c0fd94024c1a5cc82226527ddbca39c86a1da780a9dc9020402c89804
+  checks: Both quotient rings and the separate non-triviality conditions verified.
+  source_page_render_sha256: 2e34c067e139ddefd7ce5f41e2f686204889863bc84e1c92fc057f99645b4fc2
+- id: IB/2010/P3/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 9f898911e099eaadb381f86b74d4ed614a2b1ebfa615e170823aeaa432f02190
+  checks: The ordered three symmetric polynomials and the exceptional product match the page.
+  source_page_render_sha256: 2e34c067e139ddefd7ce5f41e2f686204889863bc84e1c92fc057f99645b4fc2
+- id: IB/2010/P3/q3H
+  original_question: 3H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 6cf4a5930d8218fbf7312a8ffef15284146789a00f4cbab6caa0f43cceed0b7c
+  checks: Direction of the surjection and both continuity equivalences checked.
+  source_page_render_sha256: 2e34c067e139ddefd7ce5f41e2f686204889863bc84e1c92fc057f99645b4fc2
+- id: IB/2010/P3/q4A
+  original_question: 4A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: c52894ec1fe662003cb672dda092793ea848353155b8cd0549521fb4c243f243
+  checks: The four cubic monomials and all six real quantities are printed.
+  source_page_render_sha256: cb046120ee79da4651753fe791c7267844aa4e099110b00bad5df8b6b628095a
+- id: IB/2010/P3/q5F
+  original_question: 5F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 9fe1b8e021c3046c7d664af125f9933a4eee7603f723def6cdcda323e1685e4f
+  checks: The endpoints of the radial distance and the requirement that P lie off L checked.
+  source_page_render_sha256: cb046120ee79da4651753fe791c7267844aa4e099110b00bad5df8b6b628095a
+- id: IB/2010/P3/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 8a86db25d4dd5b857570dbdf5dcf55adc1e348ad780cdc1ff6e61942c879fcd0
+  checks: Both double integrands and the fixed boundary values compared with the image.
+  source_page_render_sha256: cb046120ee79da4651753fe791c7267844aa4e099110b00bad5df8b6b628095a
+- id: IB/2010/P3/q7B
+  original_question: 7B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: d578746a946e4f050cff90d765fbf2ee66dc2fc73a4069bf80caf80bd0b8c5f0
+  checks: The inner boundary is sine cubed of theta, with a superscript 3; all three zero boundaries and the
+    operator checked.
+  source_page_render_sha256: 488ddfb6a2c6372db01e2fee4d8e682686e339164d54d1e5d339d70e563b26dd
+- id: IB/2010/P3/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 8cb55838f3fd1c126f1c11664034cdfa49576c8e74ff65ab588e12c516ad0433
+  checks: Vector notation and the oscillator and angular momentum operators checked.
+  source_page_render_sha256: 488ddfb6a2c6372db01e2fee4d8e682686e339164d54d1e5d339d70e563b26dd
+- id: IB/2010/P3/q9E
+  original_question: 9E
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: e6a8c2f3bb2cd608c1384291d3b45336da76a09e197fffe0b07dd4d6d7afb9d9
+  checks: All four foot-dependent probabilities, the restarting rule, and the 5/9 hint checked.
+  source_page_render_sha256: 6a95348eca501889209bece3f9a1919bb5a044eef55107798f8c5fb345eeb9ea
+- id: IB/2010/P3/q10F
+  original_question: 10F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: bff78d9ea5ce0812844edbd41051b934805b4023b509cfdbd080a9d5a4ec5b0a
+  checks: Finite order, invariant complements, and the signed exponents in the average checked.
+  source_page_render_sha256: 533caf36fe26b9f25ad21c308ff030b359a4a08d51487b8cf6267141f052ab9e
+- id: IB/2010/P3/q11H
+  original_question: 11H
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 6fb8cc86c758558d5b36cc5257a4b2a74a8e3b59453881c26c3e3ae1030ad514
+  checks: The set excludes units and zero; the factorisation is into finitely many irreducibles.
+  source_page_render_sha256: 533caf36fe26b9f25ad21c308ff030b359a4a08d51487b8cf6267141f052ab9e
+- id: IB/2010/P3/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: b0d942831172beb579985c81d965e36b0e25f4b84354c211e4df21dc47d09619
+  checks: Domain dimensions and the subtraction in the last argument of F checked.
+  source_page_render_sha256: 533caf36fe26b9f25ad21c308ff030b359a4a08d51487b8cf6267141f052ab9e
+- id: IB/2010/P3/q13G
+  original_question: 13G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: cb820baaa31e1e45271543a4550e81d78848855f19f79d20026d5fe2af0b1fd1
+  checks: The closed disc carries an overbar throughout; contour derivative quotient and final nonvanishing
+    checked.
+  source_page_render_sha256: 6ad8073d823e10acac58f7f926680a0db9cdca3366e5c83b769f9a82c4cae2cc
+- id: IB/2010/P3/q14F
+  original_question: 14F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: d990f17f8a755da55e16a41d2a078e7ab371018bb9b2a6a9827fb3fe967b53c7
+  checks: The two ideal endpoints and the ordering qualification on the cross-ratio checked.
+  source_page_render_sha256: 6ad8073d823e10acac58f7f926680a0db9cdca3366e5c83b769f9a82c4cae2cc
+- id: IB/2010/P3/q15A
+  original_question: 15A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4110019eeed1bab3612180abcae1b7771068fc8a548561a71f6b6432f6eb23e7
+  checks: All four parts, both orthogonality signs and the order of the Bessel terms checked.
+  printed_ambiguity: The printed condition in part (d) is alpha unequal to beta. The displayed denominator
+    also vanishes when alpha is minus beta.
+  source_page_render_sha256: 30757d4f64199146d7c7f094396553b80b16137de498d17e4a9de7b83c7bfcc8
+- id: IB/2010/P3/q16D
+  original_question: 16D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 8967a39416b267f8e35317a0e1af7922ac3bfd22766d91feb896b49eb2f71c45
+  checks: Pion charge, mass multiplier, small-radius power and spherical-coordinate hint checked.
+  source_page_render_sha256: 50676ad7f340c7253fe194471426fef4b37b4061e3a9966e988f675415977729
+- id: IB/2010/P3/q17C
+  original_question: 17C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 20f5d59b489a2239df90899ab543e4e80cb7de7b84a6b53191e21bc71024e821
+  checks: Electric-magnetic interchange, phase, longitudinal component and both boundary cases checked.
+  source_page_render_sha256: bb668097706b689f6d940b2f09792cad44577660995c1740fb7fcd2a4fedf866
+- id: IB/2010/P3/q18B
+  original_question: 18B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: c2d687a0c826ec57c0bf3b659c37a261a6d7a8454e68f694fcb4513144456f39
+  checks: Both free-surface conditions, lower-boundary forcing phase and smallness condition checked.
+  source_page_render_sha256: bb668097706b689f6d940b2f09792cad44577660995c1740fb7fcd2a4fedf866
+- id: IB/2010/P3/q19C
+  original_question: 19C
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 4c4e44c1f7effed9cc051552cb77ffd83e5aa9e4a60173b82bd6cc5b71906cc0
+  checks: All fifteen matrix and five vector entries read from the original; final residual norm checked.
+  source_page_render_sha256: f601ca2cd9a38a8d7540f577b0c5a1932193bba4bad49077a42c2018a4aac0da
+- id: IB/2010/P3/q20E
+  original_question: 20E
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f41fdaba90ac06a2faa94345e6f8f3d13b532170578172f660d6660b9dbf7b15
+  checks: The two interval forms, squared error loss, posterior mean and gamma density verified.
+  source_page_render_sha256: f601ca2cd9a38a8d7540f577b0c5a1932193bba4bad49077a42c2018a4aac0da
+- id: IB/2010/P3/q21E
+  original_question: 21E
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 98fe9721b4d4a8e2ca50a01190b5082ecfdbe6a39c3ca9b4a1d8ee8249a452a0
+  checks: The non-negative inverse condition, all game payments, and the printed singular “choose” verified.
+  source_page_render_sha256: 3ed0eb3fecc09f4228cf4868aa145c9db888aa2f9162e9bc6af4b0e9c7236963
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 862bfb65ce95d307deb12c8cb623b3a49e863d6b04b0e193761d36fc56e745ff

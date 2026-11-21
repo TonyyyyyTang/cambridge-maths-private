@@ -1,0 +1,1984 @@
+course: IB/quantum-mechanics
+sheet: 3
+baseline: 2025-26
+editions:
+  2006-07:
+    archive: raw/sheets/IB/quantum-mechanics/2006-07/sheet-3.pdf
+    url: https://web.archive.org/web/20070221082749id_/http://www.damtp.cam.ac.uk:80/user/examples/B9c.pdf
+    sha256: 72bec322288db9ae5195610175c172f534743d3c7847a0957f4e133ab33aa579
+    fetched_at: '2026-11-20T12:51:33.907455+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part 1B
+    printed_course: QUANTUM MECHANICS
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2006
+    lecturer: Dr R. M. Williams
+    contact: rmw7@damtp.cam.ac.uk
+    copyright_year: 2006
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: d6adf305b6ed5c35da15b4bae824bbbbc4065eb22cbcf13dedc865d859e516e0
+      2: 94fba9b55a9a88de231920fe72ccb5d13dc207c88605a4d1d485afee28063e9b
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 9fe2a3f27ef63edc55ffd7d20b4d2cd3fddd9789004f7fb1b8604ac99ed5a64e
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses one stationary state, factors f1,f2,f3 and “allowed energies”;
+          no explicit positive-integer qualification.
+        verified_solution: history/verified-2006-07-9fe2a3f27ef6/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 1ab1084fb62799f5bafa9e7400d707ed5179057977b8f9c76218c6d9fe3d5426
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: wording and notation
+        difference: Uses Cartesian x,y,z and capitals Nx,Ny,Nz, provides the product
+          form and omits the explicit one-dimensional licence.
+        verified_solution: history/verified-2006-07-1ab1084fb627/solution.tex
+        verified_solution_sha256: df569e1162ebe8c757635f10c19957f80079b3e861094bc7fbc85db699c5437a
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 06551d865d24d1f3da2552e453d44a77814d0fd0ebb18c4c83908f862dcbabf3
+        image_review: Compared the potential symbol, cases, open inequalities, bound-state
+          request and the exact Laplacian hint when present.
+        relationship: historical only
+        difference: Requires the bound-state wavefunctions, existence and uses a radial
+          Laplacian hint in psi.
+        verified_solution: solution.tex
+        verified_solution_sha256: 106c6879d9a6beab0b1ec62b4e07932b5c3d90b74bbbc10448434108ecc5adb3
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 509e4e01043238c41dba95a078d0733a92e29cd4276dcd8f20f9f70247758956
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: substantive variant
+        difference: Explicitly asks for choice of simultaneous eigenbasis and a particular
+          commutator; lacks the later general-operator and uncertainty-check instructions.
+        verified_solution: history/verified-2006-07-509e4e010432/solution.tex
+        verified_solution_sha256: 2c8120f684915df5151ef1c0c5b13e9394432a5eb3f4fde68ca66df2b5d7f852
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: ef957052beaafe2ebe55f9e78ba26f1d8300adf8906b760ea3191b9b97b05d31
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: wording and notation
+        difference: Prescribes the commutation relations and requests both linearly
+          independent eigenvectors as psi± and their S² eigenvalues.
+        verified_solution: history/verified-2006-07-ef957052beaa/solution.tex
+        verified_solution_sha256: ffb6071e153168577c8579250b7541cf781b0be32035f6b09e93794fe809cb5f
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3223bbaa025d4a1c2b05c049bac3a71aa2a9181f80e2d77cb08bff72ee4edbb7
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: substantive variant
+        difference: Requires showing the normalised hydrogenic formula without referring
+          to another exercise.
+        verified_solution: solution.tex
+        verified_solution_sha256: 391ddfae3b79cc54d38fec5c5cdbae343dc7114a15796195c38f5f111dee647b
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 6d567376e911fe780fd81890ca75eb70df805ad2a6e09b1cabcdc3ce49ed6134
+        image_review: Compared shell and angular quantum numbers, spin and occupancy
+          assumptions, both filled levels and the two final questions.
+        relationship: historical only
+        difference: The filled-shell problem includes the everyday application and
+          explicitly doubles each orbital state for spin.
+        verified_solution: solution.tex
+        verified_solution_sha256: f7a192b31c4bfcf6d8ef8e18e9f9645f08611e120fc66afa11e4641a1f2e10d5
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3c1772025ee31089600c3ca473a9743c0484ea8f09e9f76db2983e09e5c8bbd4
+        image_review: Compared the optional asterisk, all operator hats and bold quantities,
+          the order of each displayed factor, the −iℏG term and the final condition.
+        relationship: historical only
+        difference: An asterisk follows the printed number. Operator order, grouped
+          second term and final −iℏG verified.
+        optional_label: '* (before Given)'
+        verified_solution: solution.tex
+        verified_solution_sha256: ea1c5cea21c5d753b27ae2bb634fd280d36d0ad96bd3409238f0a7dd7885c844
+    printed_references: {}
+  2015-16:
+    archive: raw/sheets/IB/quantum-mechanics/2015-16/sheet-3.pdf
+    url: https://web.archive.org/web/20160329010859id_/http://www.damtp.cam.ac.uk:80/user/examples/B9c.pdf
+    sha256: 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66
+    fetched_at: '2026-11-20T12:51:39.551179+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2015
+    lecturer: Dr. J.M. Evans
+    contact: J.M.Evans@damtp.cam.ac.uk
+    copyright_year: 2015
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: bb7bf572ec6efad7c991055f6d7f51c081ab0a10d8bd214abb89890687dd05a5
+      2: 9878a6a9450cc157faa688a14f4f5fa2e7f096350d403fd5ed0d5347caf80d5a
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 754381e404cdaf192668e8cc01a2d0db1fe3355934f677193e7ce7866e014fa7
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses “stationary state wavefunctions” in psi rather than stationary
+          states in chi.
+        verified_solution: history/verified-2015-16-754381e404cd/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: notation variant
+        difference: Uses V rather than U for the potential.
+        verified_solution: history/verified-2015-16-4f5b0335c9b3/solution.tex
+        verified_solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/qx04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f9b02f87f3074e2788429eb5ada5d0e45711c1aaa69eca097fd5117babc47046
+        image_review: Compared both Roman labels, both exponentials, bold vectors,
+          translation sign, momentum-velocity constraint and the final parenthesis.
+        relationship: historical only
+        difference: Retains the two Roman-numbered parts, space-time translation,
+          both oscillatory factors and the constraint on u.
+        subparts:
+        - (i)
+        - (ii)
+        verified_solution: solution.tex
+        verified_solution_sha256: e1d514023040c93801ded82cce4c478f7f5917aa1d436b113d4a7904e1e2cfb7
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: f5b203f0a9e5f2d0325abda59a37c295db04a390ea07cd3fd306aef5d5493d5c
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: typographic variant
+        difference: The derivative d is italic in 2015, upright in the later Kent
+          sheets.
+        verified_solution: history/verified-2015-16-f5b203f0a9e5/solution.tex
+        verified_solution_sha256: 7f1e277e0bf38ff8129504b844896345e393d6c38608af119aac0950ea4221a2
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 3d33ac0dba2a50ec778fab8867d109e497635113fd0917217a74c8a6af0dbeef
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: substantive variant
+        difference: Hydrogen only, with a Laplacian reminder, mass m, and no separate
+          gradient or radial momentum question.
+        verified_solution: history/verified-2015-16-3d33ac0dba2a/solution.tex
+        verified_solution_sha256: 283bbf9596573448f610573e89b3f1e4764b7202d41531f70afcc165d8699c50
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/qx01
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: cce0d782b1f117c10fcdbb9b48f64823e0dd9639441d5db7e8a3cf39d779923d
+        image_review: Compared the potential symbol, cases, open inequalities, bound-state
+          request and the exact Laplacian hint when present.
+        relationship: historical substantive variant
+        difference: Uses V and depth U; asks about existence of a spherically symmetric
+          bound state and omits the preceding editions’ wavefunction request and hint.
+        verified_solution: history/verified-2015-16-cce0d782b1f1/solution.tex
+        verified_solution_sha256: 0c9b0504f29c07f30cdf764dfd8f32db4ab8b0f806a95acfbcbf03943dd98e4a
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 4c90b2a6b7c42c85743ab98ec93114fd6edb7abc1366bb1a64a2217886312209
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: wording and notation
+        difference: Sets Phi explicitly, considers its scalar product and names the
+          Uncertainty Principle.
+        verified_solution: history/verified-2015-16-4c90b2a6b7c4/solution.tex
+        verified_solution_sha256: f126d932f05c34d1ecb634699f81608a3e5f793fa1fb85efa17dd5f0617eb5f6
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 3be0a170daba3d3f52dcc632ddfb8f373771137db459a5fdfbfc13c0c37595fe
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: wording and hypothesis variant
+        difference: Any spherical wavefunction; angular momentum operators unhatted.
+        verified_solution: history/verified-2015-16-3be0a170daba/solution.tex
+        verified_solution_sha256: 9cd11fc6927a69cb158f39e9947727e90fd66d1f96629ba54bd9a15643af7a32
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 7acf42110a89710f3b9237bea41de76e45cc03f5dd51f68700ab4a8ca4fae7a1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: substantive variant
+        difference: Omits the final uncertainty-relation comparison.
+        verified_solution: history/verified-2015-16-7acf42110a89/solution.tex
+        verified_solution_sha256: 8d5cd7cf53ae1fec2127f7f694b39ded2e7504c5f569a902ca1f65fb4370c22d
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '11':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 3c2afc6abb6ddb4bb4971de95ff5da6c02f30d2acadfed2da20c6f869509f1db
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: wording and reference variant
+        difference: Ground state wavefunction psi; prints “question 5” and omits “above”.
+        verified_solution: history/verified-2015-16-3c2afc6abb6d/solution.tex
+        verified_solution_sha256: 9aba99e56c4424c66b86cf3aaec5731bcd56e350af1cbe1230073feec15029ec
+    printed_references:
+      '11':
+      - printed: question 5
+        target: IB/quantum-mechanics/sheet-3/q06
+  2018-19:
+    archive: raw/sheets/IB/quantum-mechanics/2018-19/sheet-3.pdf
+    url: https://web.archive.org/web/20181220173042id_/http://www.damtp.cam.ac.uk:80/user/examples/B9c.pdf
+    sha256: 66db8866e0b11d0fd3a93eee22f89c4b8f151c288749f85ac77385e50a798744
+    fetched_at: '2026-11-20T12:51:43.124356+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2018
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: 2018
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: a7774f4dff6f638b702a3fe11cfa46b018228b0140ff3b557881a354c0f18035
+      2: fa9f69ab6b4425b14292a068c4667b6734c74fb255783e7e8781d9fade125fa5
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 754381e404cdaf192668e8cc01a2d0db1fe3355934f677193e7ce7866e014fa7
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses “stationary state wavefunctions” in psi rather than stationary
+          states in chi.
+        verified_solution: history/verified-2015-16-754381e404cd/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: notation variant
+        difference: Uses V rather than U for the potential.
+        verified_solution: history/verified-2015-16-4f5b0335c9b3/solution.tex
+        verified_solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 05130e195364c980a24dff7df25f17d59f356ec93535bb9f11043356a74b1bf4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: notation variant
+        difference: Unhatted Q,H and V for the potential; capital Psi(t), upright
+          differential d.
+        verified_solution: history/verified-2018-19-05130e195364/solution.tex
+        verified_solution_sha256: 7f1e277e0bf38ff8129504b844896345e393d6c38608af119aac0950ea4221a2
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 1192117f126392a19826358d136928693fb5b1206ee348411e972a7da68c0b27
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: notation variant
+        difference: A and B are printed without hats.
+        verified_solution: history/verified-2018-19-1192117f1263/solution.tex
+        verified_solution_sha256: f126d932f05c34d1ecb634699f81608a3e5f793fa1fb85efa17dd5f0617eb5f6
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: wording and hypothesis variant
+        difference: Part (a) starts with any radial wavefunction, psi; part (b) retains
+          mass m_e.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: solution.tex
+        verified_solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 3be0a170daba3d3f52dcc632ddfb8f373771137db459a5fdfbfc13c0c37595fe
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: wording and hypothesis variant
+        difference: Any spherical wavefunction; angular momentum operators unhatted.
+        verified_solution: history/verified-2015-16-3be0a170daba/solution.tex
+        verified_solution_sha256: 9cd11fc6927a69cb158f39e9947727e90fd66d1f96629ba54bd9a15643af7a32
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 4038fbf960ed8708500e68c08bec4575208a3720506194a0ffa0c978db779013
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: notation variant
+        difference: Uses distinct psi(x) and chi(r), unhatted L and potential V.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: history/verified-2018-19-4038fbf960ed/solution.tex
+        verified_solution_sha256: a5287f2eee2e91d7560ac085122a9ce9b599ddbd598bb86ad089fc74afaff3c1
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 20a397b74ec20f3f4fb859939fabf3e1e311ee60d6cf8bd151685c4e25b55ad9
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: notation variant
+        difference: Angular-momentum and arbitrary operators are printed without hats.
+        verified_solution: history/verified-2018-19-20a397b74ec2/solution.tex
+        verified_solution_sha256: 08f5009d59ca3a2e3a8bb9af49ad0891a7666e0836aa748ca5cccb79b1462f7a
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 2e5cb608e620fb1401d42d1b54ed5a05b11a8a65b0c519516599e211b4bf76b4
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: wording and reference variant
+        difference: Ground state wavefunction psi, referring to Example 5 above.
+        verified_solution: history/verified-2018-19-2e5cb608e620/solution.tex
+        verified_solution_sha256: 9e0af7c78ba5b50612a92c4d9944b8f86dd7bb7fa1fa30d182861df08d324c35
+    printed_references:
+      '10':
+      - printed: Example 5
+        target: IB/quantum-mechanics/sheet-3/q06
+  2019-20:
+    archive: raw/sheets/IB/quantum-mechanics/2019-20/sheet-3.pdf
+    url: https://www.qi.damtp.cam.ac.uk/files/Adrian/B9c.pdf
+    sha256: 70db41bd08f5db91824839181581ccd4d603f872de3d89f8df550219ae6601b5
+    fetched_at: '2026-11-20T12:48:57.365402+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2019
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: null
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: e59b6f6bb4945310635e9f5638c25c4c1095426fcf738cf98ccd9ca691ade194
+      2: 31189c7390d89dd8aa1f571603edb0ea1c2a0f4bf6a2a61cde50350454954a20
+    source_note: Personal copy with no printed copyright sidebar. Same ten printed
+      questions as the copyright-marked Faculty snapshot.
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 754381e404cdaf192668e8cc01a2d0db1fe3355934f677193e7ce7866e014fa7
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses “stationary state wavefunctions” in psi rather than stationary
+          states in chi.
+        verified_solution: history/verified-2015-16-754381e404cd/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: notation variant
+        difference: Uses V rather than U for the potential.
+        verified_solution: history/verified-2015-16-4f5b0335c9b3/solution.tex
+        verified_solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 05130e195364c980a24dff7df25f17d59f356ec93535bb9f11043356a74b1bf4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: notation variant
+        difference: Unhatted Q,H and V for the potential; capital Psi(t), upright
+          differential d.
+        verified_solution: history/verified-2018-19-05130e195364/solution.tex
+        verified_solution_sha256: 7f1e277e0bf38ff8129504b844896345e393d6c38608af119aac0950ea4221a2
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 1192117f126392a19826358d136928693fb5b1206ee348411e972a7da68c0b27
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: notation variant
+        difference: A and B are printed without hats.
+        verified_solution: history/verified-2018-19-1192117f1263/solution.tex
+        verified_solution_sha256: f126d932f05c34d1ecb634699f81608a3e5f793fa1fb85efa17dd5f0617eb5f6
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: wording and hypothesis variant
+        difference: Part (a) starts with any radial wavefunction, psi; part (b) retains
+          mass m_e.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: solution.tex
+        verified_solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 3be0a170daba3d3f52dcc632ddfb8f373771137db459a5fdfbfc13c0c37595fe
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: wording and hypothesis variant
+        difference: Any spherical wavefunction; angular momentum operators unhatted.
+        verified_solution: history/verified-2015-16-3be0a170daba/solution.tex
+        verified_solution_sha256: 9cd11fc6927a69cb158f39e9947727e90fd66d1f96629ba54bd9a15643af7a32
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 4038fbf960ed8708500e68c08bec4575208a3720506194a0ffa0c978db779013
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: notation variant
+        difference: Uses distinct psi(x) and chi(r), unhatted L and potential V.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: history/verified-2018-19-4038fbf960ed/solution.tex
+        verified_solution_sha256: a5287f2eee2e91d7560ac085122a9ce9b599ddbd598bb86ad089fc74afaff3c1
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 20a397b74ec20f3f4fb859939fabf3e1e311ee60d6cf8bd151685c4e25b55ad9
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: notation variant
+        difference: Angular-momentum and arbitrary operators are printed without hats.
+        verified_solution: history/verified-2018-19-20a397b74ec2/solution.tex
+        verified_solution_sha256: 08f5009d59ca3a2e3a8bb9af49ad0891a7666e0836aa748ca5cccb79b1462f7a
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 2e5cb608e620fb1401d42d1b54ed5a05b11a8a65b0c519516599e211b4bf76b4
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: wording and reference variant
+        difference: Ground state wavefunction psi, referring to Example 5 above.
+        verified_solution: history/verified-2018-19-2e5cb608e620/solution.tex
+        verified_solution_sha256: 9e0af7c78ba5b50612a92c4d9944b8f86dd7bb7fa1fa30d182861df08d324c35
+    printed_references:
+      '10':
+      - printed: Example 5
+        target: IB/quantum-mechanics/sheet-3/q06
+  2020-21:
+    archive: raw/sheets/IB/quantum-mechanics/2020-21/sheet-3.pdf
+    url: https://web.archive.org/web/20210422135851id_/http://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: 4111d87ab326d4c9c6c5d605fdc92f02b5a3c3392e375acdfa4d31d1340dcdfc
+    fetched_at: '2026-11-20T12:51:51.759660+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2020
+    lecturer: Dr. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2020
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: 5dbeeefab0a06c0ef9baf8e35547d614ca132d678022053ebe9ce1ba172fc4b3
+      2: 974b22671ab5af45ac0fa0de91224daf0ab5d140e3d6c9b89ab41d9c2af44691
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 754381e404cdaf192668e8cc01a2d0db1fe3355934f677193e7ce7866e014fa7
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses “stationary state wavefunctions” in psi rather than stationary
+          states in chi.
+        verified_solution: history/verified-2015-16-754381e404cd/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 132b9f1d54b0bea6f9a38ee9cd58c92282f8db64ed22c15472a6a7d45b21a7ec
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: notation variant
+        difference: Capital Psi(t) in place of the later psi(x,t).
+        verified_solution: history/verified-2020-21-132b9f1d54b0/solution.tex
+        verified_solution_sha256: f027bd71f3f47d9d0fc7e22ac0f2259679a649ae95c1878053066fe874c4eafb
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 687086cb07c5c744143630c4ac6213bb14817bbb564aa4d98da89ce74d1cd6ac
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: wording and hypothesis variant
+        difference: Part (a) starts with any radial wavefunction, psi; part (b) retains
+          mass m_e.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: solution.tex
+        verified_solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 1c4666d74be5d363cbc94a36a5abea3cbe30c21f7501bdabed73889026cd3328
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: wording and hypothesis variant
+        difference: Begins with any spherical wavefunction instead of an energy eigenfunction.
+          Uses phi for the radial function and psi_i for its products.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9cd11fc6927a69cb158f39e9947727e90fd66d1f96629ba54bd9a15643af7a32
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 34b3a19e9f2145e9b0aab8886d04a549b433a553db62d41b8142d6a27b5fc769
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: notation variant
+        difference: Uses distinct psi(x) and chi(r), with hatted L and potential U.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: history/verified-2020-21-34b3a19e9f21/solution.tex
+        verified_solution_sha256: 8d48191765f9220148da4be057d12302a0a44c71e82342f3f1dec86aebaf7422
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: acc4ab5515219a97725ba6467f44745ff84954df30ee179d5e7867e55f7fc0e7
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 2e5cb608e620fb1401d42d1b54ed5a05b11a8a65b0c519516599e211b4bf76b4
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: wording and reference variant
+        difference: Ground state wavefunction psi, referring to Example 5 above.
+        verified_solution: history/verified-2018-19-2e5cb608e620/solution.tex
+        verified_solution_sha256: 9e0af7c78ba5b50612a92c4d9944b8f86dd7bb7fa1fa30d182861df08d324c35
+    printed_references:
+      '10':
+      - printed: Example 5
+        target: IB/quantum-mechanics/sheet-3/q06
+  2022-23:
+    archive: raw/sheets/IB/quantum-mechanics/2022-23/sheet-3.pdf
+    url: https://web.archive.org/web/20221007100753id_/https://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: dc31ef03b3a22b2e0a5a7800f79e29fdc01ff6a65d3c08157d69a3824faf152a
+    fetched_at: '2026-11-20T12:51:55.611644+00:00'
+    page_count: 3
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2022
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2022
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: f0ad6ee08627526393826c1a022be008fa07049549bd439d7b0ec8c0cc889c1f
+      2: 228413ab58e9079abd53d2b5ba7ee29f44669c3c8c1b5d1acfaae07a04f2fd27
+      3: fb7c3290b9bcbac95f2c2d88702c60431b55c2d0663de721b485a8386c9d016e
+    source_note: 'Earlier snapshot: #11 reads Example 7 above. The printed #7 is an
+      angular-momentum exercise. The later 2022 snapshot changes the target to #6.'
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e7874ebce716d8f490363b35cfab58860e3de9398bf94389167157a19bddb8b4
+        image_review: Compared the chi and psi expectation subscripts, position and
+          product choices for A, powers and both energy fractions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0a8d9f46b0ab4624daf8f46be11cca625f91929fc942e78e0697b4a623038e88
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f38e5ba23c5f971f20607998ffdf72bd526ddd8b58acffe627a6aaefd1fdb6a4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 276659d94245eb30a6f1e2ab45fccba3c742dbc132433227e2032611f21dbe97
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 687086cb07c5c744143630c4ac6213bb14817bbb564aa4d98da89ce74d1cd6ac
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ec58209291b1c2f910e82ae42b0a6797095e3209c4ffa857eaf6c17547bda7a1
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9380c59d947af41dfebcd91d09ce0f18ee9b91295d157522d7f179f82cf1af3a
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 2
+        text: variants/2022-23/question.tex
+        question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2022-23/question.tex
+        question_sha256: 40c90c67b30a79a5ec237733a39bd9b06ffbd500300de05be503a6454e5e2969
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 82cd0768b7e004ef51b20149331029788cfe8f1c8d2ca86362d91984af2a4d9e
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: aa31557b58c81e91f40ed02d0f6e5d20dbd41b19e6a47154ae8a8e9c8487a457
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: solution.tex
+        verified_solution_sha256: 71853a753a72d13940efc7f88d508b33c6054592f4c21025f774f26f23a563d2
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: acc4ab5515219a97725ba6467f44745ff84954df30ee179d5e7867e55f7fc0e7
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '11':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 3
+        text: variants/2022-23/question.tex
+        question_sha256: 098eb3bd9c8923cc448400cee4bdbb1a607256f59a5cc3741024ce09f8305a53
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: printed reference variant
+        difference: 'Prints “Example 7 above”; #7 is the angular-momentum exercise;
+          the hydrogen calculation appears at #6. The later B copy prints 6.'
+        verified_solution: history/verified-2022-23-098eb3bd9c89/solution.tex
+        verified_solution_sha256: bc79c2fba6be719640ab530b77a6098a65749b2aa73df41871d7344c5dfab38a
+    printed_references:
+      '11':
+      - printed: Example 7
+        target: IB/quantum-mechanics/sheet-3/q06
+        printed_target: IB/quantum-mechanics/sheet-3/q07
+        matching_label: Example 6
+  2023-24:
+    archive: raw/sheets/IB/quantum-mechanics/2023-24/sheet-3.pdf
+    url: https://web.archive.org/web/20231205145911id_/https://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: fd593502f740d35ab9efd49c550c826d250fdb3f95d032dab0215f378927b749
+    fetched_at: '2026-11-20T12:52:04.149965+00:00'
+    page_count: 3
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2023
+    lecturer: Prof. Frank Verstraete
+    contact: fv285@cam.ac.uk
+    copyright_year: 2023
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: 2370868aec7f2595834f0d6900ce5e272e84af264a78adf827aed30ae97be02e
+      2: a0c16f473f1c98d72031168a87701ee64c73d88587b507718dd0e122f838d2bb
+      3: 7a6a56a47ab7791d38beb941a66c7739960c1d8bb28d85386a83b84e4ea5fcd3
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e7874ebce716d8f490363b35cfab58860e3de9398bf94389167157a19bddb8b4
+        image_review: Compared the chi and psi expectation subscripts, position and
+          product choices for A, powers and both energy fractions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0a8d9f46b0ab4624daf8f46be11cca625f91929fc942e78e0697b4a623038e88
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f38e5ba23c5f971f20607998ffdf72bd526ddd8b58acffe627a6aaefd1fdb6a4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 276659d94245eb30a6f1e2ab45fccba3c742dbc132433227e2032611f21dbe97
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 687086cb07c5c744143630c4ac6213bb14817bbb564aa4d98da89ce74d1cd6ac
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ec58209291b1c2f910e82ae42b0a6797095e3209c4ffa857eaf6c17547bda7a1
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9380c59d947af41dfebcd91d09ce0f18ee9b91295d157522d7f179f82cf1af3a
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        - 2
+        text: question.tex
+        question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: 40c90c67b30a79a5ec237733a39bd9b06ffbd500300de05be503a6454e5e2969
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 82cd0768b7e004ef51b20149331029788cfe8f1c8d2ca86362d91984af2a4d9e
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: aa31557b58c81e91f40ed02d0f6e5d20dbd41b19e6a47154ae8a8e9c8487a457
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: solution.tex
+        verified_solution_sha256: 71853a753a72d13940efc7f88d508b33c6054592f4c21025f774f26f23a563d2
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: acc4ab5515219a97725ba6467f44745ff84954df30ee179d5e7867e55f7fc0e7
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '11':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 3
+        text: variants/2023-24/question.tex
+        question_sha256: 9d26b35de0edeeb16335e4e2c81304fd226dfe659b114d716355fe1c1c007ee1
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 56f180ef5c8f27d4b15ad04aa7d3a2c65b0ee86fe0218d0d4950ff6a0a891aac
+    printed_references:
+      '11':
+      - printed: Example 6
+        target: IB/quantum-mechanics/sheet-3/q06
+  2025-26:
+    archive: raw/sheets/IB/quantum-mechanics/2025-26/sheet-3.pdf
+    url: https://web.archive.org/web/20260519003516id_/https://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: 7dc60e3cccde6319643cdf2d5772ae75042d52f16c29de279ddf9eed396de9e4
+    fetched_at: '2026-11-20T12:52:08.855505+00:00'
+    page_count: 3
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2025
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2025
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: d6b569328bc5b4d55ba0a78ab5eebe996a8e716fd4d8001bd907de3f8114c3da
+      2: 65e887b319ea6dfa919708e298fb8042b549c568267253ded607f5f0da715a9b
+      3: d7b64ac8f52ea4be27df8c2b9f9968c1630694b856abd72d416640d720061e95
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e7874ebce716d8f490363b35cfab58860e3de9398bf94389167157a19bddb8b4
+        image_review: Compared the chi and psi expectation subscripts, position and
+          product choices for A, powers and both energy fractions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0a8d9f46b0ab4624daf8f46be11cca625f91929fc942e78e0697b4a623038e88
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f38e5ba23c5f971f20607998ffdf72bd526ddd8b58acffe627a6aaefd1fdb6a4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 276659d94245eb30a6f1e2ab45fccba3c742dbc132433227e2032611f21dbe97
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 687086cb07c5c744143630c4ac6213bb14817bbb564aa4d98da89ce74d1cd6ac
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ec58209291b1c2f910e82ae42b0a6797095e3209c4ffa857eaf6c17547bda7a1
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9380c59d947af41dfebcd91d09ce0f18ee9b91295d157522d7f179f82cf1af3a
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 2
+        text: variants/2025-26/question.tex
+        question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2025-26/question.tex
+        question_sha256: 40c90c67b30a79a5ec237733a39bd9b06ffbd500300de05be503a6454e5e2969
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 82cd0768b7e004ef51b20149331029788cfe8f1c8d2ca86362d91984af2a4d9e
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: aa31557b58c81e91f40ed02d0f6e5d20dbd41b19e6a47154ae8a8e9c8487a457
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: solution.tex
+        verified_solution_sha256: 71853a753a72d13940efc7f88d508b33c6054592f4c21025f774f26f23a563d2
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: acc4ab5515219a97725ba6467f44745ff84954df30ee179d5e7867e55f7fc0e7
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '11':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 3
+        text: variants/2025-26/question.tex
+        question_sha256: 9d26b35de0edeeb16335e4e2c81304fd226dfe659b114d716355fe1c1c007ee1
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 56f180ef5c8f27d4b15ad04aa7d3a2c65b0ee86fe0218d0d4950ff6a0a891aac
+    printed_references:
+      '11':
+      - printed: Example 6
+        target: IB/quantum-mechanics/sheet-3/q06
+  2026-27:
+    archive: raw/sheets/IB/quantum-mechanics/2026-27/sheet-3.pdf
+    url: https://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: 3cd82eed2200915a01b6a8e8784f28a61d16d4f3e7789b0d49785061cb6c1789
+    fetched_at: '2026-11-20T12:49:05.993284+00:00'
+    page_count: 3
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2026
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2025
+    date_status: dated by printed term
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: 8c65899ccfe723edccc1cb7a2ef3cd23384ec17087d70d10f47c8437245d4149
+      2: 65e887b319ea6dfa919708e298fb8042b549c568267253ded607f5f0da715a9b
+      3: d7b64ac8f52ea4be27df8c2b9f9968c1630694b856abd72d416640d720061e95
+    source_note: Clearly printed Michaelmas Term 2026; sidebar retains copyright 2025.
+      This edition is indexed by its printed term.
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e7874ebce716d8f490363b35cfab58860e3de9398bf94389167157a19bddb8b4
+        image_review: Compared the chi and psi expectation subscripts, position and
+          product choices for A, powers and both energy fractions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0a8d9f46b0ab4624daf8f46be11cca625f91929fc942e78e0697b4a623038e88
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f38e5ba23c5f971f20607998ffdf72bd526ddd8b58acffe627a6aaefd1fdb6a4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 276659d94245eb30a6f1e2ab45fccba3c742dbc132433227e2032611f21dbe97
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 687086cb07c5c744143630c4ac6213bb14817bbb564aa4d98da89ce74d1cd6ac
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ec58209291b1c2f910e82ae42b0a6797095e3209c4ffa857eaf6c17547bda7a1
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9380c59d947af41dfebcd91d09ce0f18ee9b91295d157522d7f179f82cf1af3a
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 2
+        text: variants/2026-27/question.tex
+        question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2026-27/question.tex
+        question_sha256: 40c90c67b30a79a5ec237733a39bd9b06ffbd500300de05be503a6454e5e2969
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 82cd0768b7e004ef51b20149331029788cfe8f1c8d2ca86362d91984af2a4d9e
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: aa31557b58c81e91f40ed02d0f6e5d20dbd41b19e6a47154ae8a8e9c8487a457
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: solution.tex
+        verified_solution_sha256: 71853a753a72d13940efc7f88d508b33c6054592f4c21025f774f26f23a563d2
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: acc4ab5515219a97725ba6467f44745ff84954df30ee179d5e7867e55f7fc0e7
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '11':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 3
+        text: variants/2026-27/question.tex
+        question_sha256: 9d26b35de0edeeb16335e4e2c81304fd226dfe659b114d716355fe1c1c007ee1
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 56f180ef5c8f27d4b15ad04aa7d3a2c65b0ee86fe0218d0d4950ff6a0a891aac
+    printed_references:
+      '11':
+      - printed: Example 6
+        target: IB/quantum-mechanics/sheet-3/q06
+additional_originals:
+  2019-20-B:
+    archive: raw/sheets/IB/quantum-mechanics/2019-20/sheet-3-variant-B.pdf
+    url: https://web.archive.org/web/20200926202314id_/http://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: d25b6aedaa263f4b2b869893b45d14f91f2ed480b8486c886420a9302301312b
+    fetched_at: '2026-11-20T12:51:47.863098+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2019
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: 2019
+    date_status: same-year ancillary original
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: b2e3079769f2de07a26cb2bd7056b63cd92bb321f2fd2a0e73220140ea55382a
+      2: 12d27f2b3baf33714a1a84f278040144db3235e48770c2ff04b0db935ac0c626
+    source_note: Faculty snapshot with copyright 2019 sidebar. All ten ordered question
+      texts are identical to the separately archived personal copy.
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/2019-20-B/question.tex
+        question_sha256: 754381e404cdaf192668e8cc01a2d0db1fe3355934f677193e7ce7866e014fa7
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses “stationary state wavefunctions” in psi rather than stationary
+          states in chi.
+        verified_solution: history/verified-2015-16-754381e404cd/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: variants/2019-20-B/question.tex
+        question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: notation variant
+        difference: Uses V rather than U for the potential.
+        verified_solution: history/verified-2015-16-4f5b0335c9b3/solution.tex
+        verified_solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: variants/2019-20-B/question.tex
+        question_sha256: 05130e195364c980a24dff7df25f17d59f356ec93535bb9f11043356a74b1bf4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: notation variant
+        difference: Unhatted Q,H and V for the potential; capital Psi(t), upright
+          differential d.
+        verified_solution: history/verified-2018-19-05130e195364/solution.tex
+        verified_solution_sha256: 7f1e277e0bf38ff8129504b844896345e393d6c38608af119aac0950ea4221a2
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: variants/2019-20-B/question.tex
+        question_sha256: 1192117f126392a19826358d136928693fb5b1206ee348411e972a7da68c0b27
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: notation variant
+        difference: A and B are printed without hats.
+        verified_solution: history/verified-2018-19-1192117f1263/solution.tex
+        verified_solution_sha256: f126d932f05c34d1ecb634699f81608a3e5f793fa1fb85efa17dd5f0617eb5f6
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: wording and hypothesis variant
+        difference: Part (a) starts with any radial wavefunction, psi; part (b) retains
+          mass m_e.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: solution.tex
+        verified_solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2019-20-B/question.tex
+        question_sha256: 3be0a170daba3d3f52dcc632ddfb8f373771137db459a5fdfbfc13c0c37595fe
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: wording and hypothesis variant
+        difference: Any spherical wavefunction; angular momentum operators unhatted.
+        verified_solution: history/verified-2015-16-3be0a170daba/solution.tex
+        verified_solution_sha256: 9cd11fc6927a69cb158f39e9947727e90fd66d1f96629ba54bd9a15643af7a32
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: variants/2019-20-B/question.tex
+        question_sha256: 4038fbf960ed8708500e68c08bec4575208a3720506194a0ffa0c978db779013
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: notation variant
+        difference: Uses distinct psi(x) and chi(r), unhatted L and potential V.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: history/verified-2018-19-4038fbf960ed/solution.tex
+        verified_solution_sha256: a5287f2eee2e91d7560ac085122a9ce9b599ddbd598bb86ad089fc74afaff3c1
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: variants/2019-20-B/question.tex
+        question_sha256: 20a397b74ec20f3f4fb859939fabf3e1e311ee60d6cf8bd151685c4e25b55ad9
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: notation variant
+        difference: Angular-momentum and arbitrary operators are printed without hats.
+        verified_solution: history/verified-2018-19-20a397b74ec2/solution.tex
+        verified_solution_sha256: 08f5009d59ca3a2e3a8bb9af49ad0891a7666e0836aa748ca5cccb79b1462f7a
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: variants/2019-20-B/question.tex
+        question_sha256: 2e5cb608e620fb1401d42d1b54ed5a05b11a8a65b0c519516599e211b4bf76b4
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: wording and reference variant
+        difference: Ground state wavefunction psi, referring to Example 5 above.
+        verified_solution: history/verified-2018-19-2e5cb608e620/solution.tex
+        verified_solution_sha256: 9e0af7c78ba5b50612a92c4d9944b8f86dd7bb7fa1fa30d182861df08d324c35
+    printed_references:
+      '10':
+      - printed: Example 5
+        target: IB/quantum-mechanics/sheet-3/q06
+  2022-23-B:
+    archive: raw/sheets/IB/quantum-mechanics/2022-23/sheet-3-variant-B.pdf
+    url: https://web.archive.org/web/20230117061407id_/http://www.damtp.cam.ac.uk/user/examples/B9c.pdf
+    sha256: 1b1e3beac26ae07512102070e04816e9a3e97d77a2aeb5f487ca608afa4d78a5
+    fetched_at: '2026-11-20T12:51:59.561245+00:00'
+    page_count: 3
+    printed_header: Mathematical Tripos Part IB
+    printed_course: Quantum Mechanics
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2022
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2022
+    date_status: same-year ancillary original
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: f0ad6ee08627526393826c1a022be008fa07049549bd439d7b0ec8c0cc889c1f
+      2: 228413ab58e9079abd53d2b5ba7ee29f44669c3c8c1b5d1acfaae07a04f2fd27
+      3: eb4d326f15d6a29deff11a6a85e2464e948114f791cee3e9d36d3588a8054fb2
+    source_note: 'Same-year Faculty snapshot: #11 reads Example 6. Primary snapshot
+      #11 reads Example 7; questions #1–10 agree.'
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e7874ebce716d8f490363b35cfab58860e3de9398bf94389167157a19bddb8b4
+        image_review: Compared the chi and psi expectation subscripts, position and
+          product choices for A, powers and both energy fractions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0a8d9f46b0ab4624daf8f46be11cca625f91929fc942e78e0697b4a623038e88
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f38e5ba23c5f971f20607998ffdf72bd526ddd8b58acffe627a6aaefd1fdb6a4
+        image_review: Compared Q,H and operator hats, derivative typeface, state case/arguments,
+          potential name and components in the final instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 276659d94245eb30a6f1e2ab45fccba3c742dbc132433227e2032611f21dbe97
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 968f40fea4cade2c13cb6d625297235ed12cae6585b721d5fe80accc31e76ea7
+        image_review: Compared operator hats, state symbols, norm or inner-product
+          construction, powers, commutator order and the concluding uncertainty wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 687086cb07c5c744143630c4ac6213bb14817bbb564aa4d98da89ce74d1cd6ac
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ec58209291b1c2f910e82ae42b0a6797095e3209c4ffa857eaf6c17547bda7a1
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9380c59d947af41dfebcd91d09ce0f18ee9b91295d157522d7f179f82cf1af3a
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q06
+        pages:
+        - 2
+        text: variants/2022-23-B/question.tex
+        question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+        image_review: Compared state hypothesis, gradient and radial derivatives where
+          present, electron mass, signs and constants in the Coulomb equation, normalisation
+          and distance question.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/q07
+        pages:
+        - 2
+        text: variants/2022-23-B/question.tex
+        question_sha256: 40c90c67b30a79a5ec237733a39bd9b06ffbd500300de05be503a6454e5e2969
+        image_review: Compared spherical hypothesis, labels for radial/product functions,
+          operator hats, derivative hint, 2-hbar-squared eigenvalue and final simultaneous
+          eigenfunction request.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 82cd0768b7e004ef51b20149331029788cfe8f1c8d2ca86362d91984af2a4d9e
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: aa31557b58c81e91f40ed02d0f6e5d20dbd41b19e6a47154ae8a8e9c8487a457
+        image_review: Compared full and reduced wavefunction names, angular hats,
+          effective potential, oscillator scaling, powers and the starred optional
+          part.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        subparts:
+        - (a)
+        - (b)
+        - (c)*
+        optional_label: (c)* If time permits
+        verified_solution: solution.tex
+        verified_solution_sha256: 71853a753a72d13940efc7f88d508b33c6054592f4c21025f774f26f23a563d2
+      '9':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: dbafa15a82f58780579cd8763154eb77436cf2015fdef56f3abab1f64d4fcae1
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: acc4ab5515219a97725ba6467f44745ff84954df30ee179d5e7867e55f7fc0e7
+      '10':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 85e16103093366b92b0601d48f9d21174ae48d632a680fe66d9ad3d1080042cc
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: solution.tex
+        verified_solution_sha256: 9350db22dbc06921ab7f55cb0c3bc68a485a1e059984eaf35243b2a9738432f2
+      '11':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 3
+        text: variants/2022-23-B/question.tex
+        question_sha256: 9d26b35de0edeeb16335e4e2c81304fd226dfe659b114d716355fe1c1c007ee1
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: baseline
+        difference: Agrees with the Michaelmas 2025 statement, including symbols,
+          punctuation and subparts.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 56f180ef5c8f27d4b15ad04aa7d3a2c65b0ee86fe0218d0d4950ff6a0a891aac
+    printed_references:
+      '11':
+      - printed: Example 6
+        target: IB/quantum-mechanics/sheet-3/q06
+  unresolved-header-2003-copyright-2004:
+    archive: raw/sheets/IB/quantum-mechanics/unresolved-header-2003-copyright-2004/sheet-3.pdf
+    url: https://web.archive.org/web/20050129024147id_/http://www.damtp.cam.ac.uk:80/user/examples/B9c.pdf
+    sha256: acab554e60e59132ac8f3f1f4ee869e104a39c7c052f3ee9e77b64ca7e51b2db
+    fetched_at: '2026-11-20T12:51:29.725220+00:00'
+    page_count: 2
+    printed_header: Mathematical Tripos Part 1B
+    printed_course: QUANTUM MECHANICS
+    sheet_title: Example Sheet 3
+    printed_term: Michaelmas Term 2003
+    lecturer: Dr Adrian Kent
+    contact: A.P.A.Kent@damtp.cam.ac.uk
+    copyright_year: 2004
+    date_status: unresolved header/copyright conflict
+    render_tool: pypdfium2 PDF page.render(scale=2.0).to_pil().save(path)
+    render_scale: 2.0
+    page_png_sha256:
+      1: e71d793a5ecd5a28cbac8515f8a5b4cae79e707ccf9d1392ca48d4804b9c99be
+      2: 9a6e52b5c3159e7988b98fce2527e10f8ac8e02c5c26accc762510e4d1ac00d7
+    source_note: 'Printed Michaelmas Term 2003 and copyright 2004; chronology unresolved.
+      Shares five statements exactly with 2006; #3 and #6 change the state symbol
+      and #8 has no asterisk.'
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-3/q04
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 9fe2a3f27ef63edc55ffd7d20b4d2cd3fddd9789004f7fb1b8604ac99ed5a64e
+        image_review: Compared all three strict bounds, separation factors, state
+          symbol, energy subscripts and integer qualification, and final degeneracy
+          question.
+        relationship: wording and notation
+        difference: Uses one stationary state, factors f1,f2,f3 and “allowed energies”;
+          no explicit positive-integer qualification.
+        verified_solution: history/verified-2006-07-9fe2a3f27ef6/solution.tex
+        verified_solution_sha256: 923ff997956b2711e2985ffefa93e04820fa2b05ffde5934ad301901821caa14
+      '2':
+        unit: IB/quantum-mechanics/sheet-3/q05
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 1ab1084fb62799f5bafa9e7400d707ed5179057977b8f9c76218c6d9fe3d5426
+        image_review: Compared potential and coordinate labels, energy index order,
+          one-dimensional licence and both spherical-symmetry instructions.
+        relationship: wording and notation
+        difference: Uses Cartesian x,y,z and capitals Nx,Ny,Nz, provides the product
+          form and omits the explicit one-dimensional licence.
+        verified_solution: history/verified-2006-07-1ab1084fb627/solution.tex
+        verified_solution_sha256: df569e1162ebe8c757635f10c19957f80079b3e861094bc7fbc85db699c5437a
+      '3':
+        unit: IB/quantum-mechanics/sheet-3/qx01
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: af3bda1f0a0052e3281cf43bf09314f1b7927b9ca66488d8f4c28f2ae776cdac
+        image_review: Compared the potential symbol, cases, open inequalities, bound-state
+          request and the exact Laplacian hint when present.
+        relationship: historical notation variant
+        difference: The Laplacian hint uses chi in both places.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-af3bda1f0a00/solution.tex
+        verified_solution_sha256: 578503979903b30b15ae316b5ff568322cc73c9a945a73f7124263b1876a570a
+      '4':
+        unit: IB/quantum-mechanics/sheet-3/q09
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 509e4e01043238c41dba95a078d0733a92e29cd4276dcd8f20f9f70247758956
+        image_review: Compared angular hats, general or specific commutators, simultaneous-eigenbasis
+          instruction if present, mean squares and uncertainty clause.
+        relationship: substantive variant
+        difference: Explicitly asks for choice of simultaneous eigenbasis and a particular
+          commutator; lacks the later general-operator and uncertainty-check instructions.
+        verified_solution: history/verified-2006-07-509e4e010432/solution.tex
+        verified_solution_sha256: 2c8120f684915df5151ef1c0c5b13e9394432a5eb3f4fde68ca66df2b5d7f852
+      '5':
+        unit: IB/quantum-mechanics/sheet-3/q10
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: ef957052beaafe2ebe55f9e78ba26f1d8300adf8906b760ea3191b9b97b05d31
+        image_review: Compared all twelve matrix entries, both off-diagonal signs,
+          punctuation and every commutator/eigenvector/eigenvalue instruction.
+        relationship: wording and notation
+        difference: Prescribes the commutation relations and requests both linearly
+          independent eigenvectors as psi± and their S² eigenvalues.
+        verified_solution: history/verified-2006-07-ef957052beaa/solution.tex
+        verified_solution_sha256: ffb6071e153168577c8579250b7541cf781b0be32035f6b09e93794fe809cb5f
+      '6':
+        unit: IB/quantum-mechanics/sheet-3/q11
+        pages:
+        - 2
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 771e4d4886af3a2ad4247c9d0cadb3f6738f161f304eab0d0058d781686e645a
+        image_review: Compared sudden-change assumption, exact wavefunction and constants,
+          reference numeral where printed, charge increment and probability wording.
+        relationship: substantive variant
+        difference: Same ground-state derivation request as in 2006, but the source
+          gives chi_0(r).
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-771e4d4886af/solution.tex
+        verified_solution_sha256: 391ddfae3b79cc54d38fec5c5cdbae343dc7114a15796195c38f5f111dee647b
+      '7':
+        unit: IB/quantum-mechanics/sheet-3/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 6d567376e911fe780fd81890ca75eb70df805ad2a6e09b1cabcdc3ce49ed6134
+        image_review: Compared shell and angular quantum numbers, spin and occupancy
+          assumptions, both filled levels and the two final questions.
+        relationship: historical only
+        difference: The filled-shell problem includes the everyday application and
+          explicitly doubles each orbital state for spin.
+        verified_solution: solution.tex
+        verified_solution_sha256: f7a192b31c4bfcf6d8ef8e18e9f9645f08611e120fc66afa11e4641a1f2e10d5
+      '8':
+        unit: IB/quantum-mechanics/sheet-3/qx03
+        pages:
+        - 2
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: f4fd4dd79a83efb688257c3007e6e5326f4b683278ddb92b01f1043ad782eb5a
+        image_review: Compared the optional asterisk, all operator hats and bold quantities,
+          the order of each displayed factor, the −iℏG term and the final condition.
+        relationship: historical printed-label variant
+        difference: The same vector and scalar operators with no asterisk.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-f4fd4dd79a83/solution.tex
+        verified_solution_sha256: ea1c5cea21c5d753b27ae2bb634fd280d36d0ad96bd3409238f0a7dd7885c844
+    printed_references: {}

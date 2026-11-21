@@ -1,0 +1,595 @@
+scope: 2020 IB public examination slice for the ten taken-course strata, Papers 1 and 2. The error fraction describes
+  the sample of the exam slice only.
+auditor: ib2020_fresh_exam_audit_nov21
+seed: 20261214
+sampling_method: Reconstructed the population from 2020 exam metadata and taken IB courses. Assigned each unit to its
+  primary taken course, otherwise its first lexicographically sorted taken also_course. Used one Python random.Random(20261214),
+  iterating sorted course IDs and sampling without replacement from sorted question IDs, ceil(population/5) per course.
+  Reproduced the ten packet IDs in order.
+population_size: 27
+sample_size: 10
+strata:
+  IB/analysis-ii:
+    population_size: 1
+    population_ids:
+    - IB/2020/P1/q10E
+    sample_ids:
+    - IB/2020/P1/q10E
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/complex-methods:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q12G
+    - IB/2020/P1/q3G
+    - IB/2020/P2/q12B
+    sample_ids:
+    - IB/2020/P1/q3G
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/electromagnetism:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q16D
+    - IB/2020/P2/q15D
+    - IB/2020/P2/q5D
+    sample_ids:
+    - IB/2020/P2/q15D
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/fluid-dynamics:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q17C
+    - IB/2020/P2/q16C
+    - IB/2020/P2/q6C
+    sample_ids:
+    - IB/2020/P1/q17C
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/linear-algebra:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q1F
+    - IB/2020/P1/q8F
+    - IB/2020/P2/q8F
+    sample_ids:
+    - IB/2020/P1/q1F
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/markov-chains:
+    population_size: 2
+    population_ids:
+    - IB/2020/P1/q20H
+    - IB/2020/P2/q7H
+    sample_ids:
+    - IB/2020/P1/q20H
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/methods:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q14B
+    - IB/2020/P2/q13A
+    - IB/2020/P2/q4B
+    sample_ids:
+    - IB/2020/P1/q14B
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/numerical-analysis:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q18C
+    - IB/2020/P1/q5C
+    - IB/2020/P2/q17C
+    sample_ids:
+    - IB/2020/P2/q17C
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/quantum-mechanics:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q15A
+    - IB/2020/P1/q4A
+    - IB/2020/P2/q14A
+    sample_ids:
+    - IB/2020/P1/q15A
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+  IB/statistics:
+    population_size: 3
+    population_ids:
+    - IB/2020/P1/q19H
+    - IB/2020/P1/q6H
+    - IB/2020/P2/q18H
+    sample_ids:
+    - IB/2020/P1/q6H
+    observed_errors_before_repair: 0
+    observed_errors_after_repair: 0
+blind_protocol: Before the freeze, only the supplied question statements, locators and rendered original papers were
+  used for the mathematical work. All ten reworks and the separate visual source comparison were SHA256-frozen and the
+  manifest checksum was delivered before opening the canonical solutions.
+stage_one_sha256sums_sha256: b35960946e70902cf3eddd2b784ee331be2a9fa747d8e2cba8b1737c51e9e0b4
+stage_one_sha256sums: |
+  d382404df31dcbbb6302c8373f08ea2f909f73d53199c36ff0949513f26575e1  IB_2020_P1_q10E.md
+  8dcaa6a1f33a27397f5ae0510cf8f3868852c3629a17b07880e8ddaa89929eba  IB_2020_P1_q14B.md
+  44175665337966ef4983ac6363c124116020fa5170829fa1813d4df9e1a39713  IB_2020_P1_q15A.md
+  786754e0582c6c1dcf0e1c170ddb160b08a403bae714ec34535d4eb7a5b8748f  IB_2020_P1_q17C.md
+  d034bda15654adf18513d8566503e1563db47acfbe96e067e8c7766f5dd23568  IB_2020_P1_q1F.md
+  ddb23e41ff5a21f0652d5d0330eeba65781c59740b565312cae0975111012201  IB_2020_P1_q20H.md
+  0dc08c7e4db400c3f1a6399b7513b706cf5d573cd9515f927367ae02b5b0bb74  IB_2020_P1_q3G.md
+  601c7fad00560f847653bd6605efa39a0ce417365226c683da5f83c40668687b  IB_2020_P1_q6H.md
+  e6ea994cd81ff141b91775267bb6026a7f1c60fe4e182e024fa9f79e4abde172  IB_2020_P2_q15D.md
+  99e219ee69f8f69ee813555c3f80729c47401a9bac912c7f38f3e89abf78e8b9  IB_2020_P2_q17C.md
+  c76fddb20fb4413cd32dcfbb7e49c2886079fe63f95036956123b5508575a344  source-comparison.md
+transcription_review: |
+  # Exam page comparison
+
+  Compared the supplied body of each statement against its numbered question on a 130-dpi raster of the archived original. Paper headings, course labels and page furniture are outside the question body. All ten printed question identifiers and page locators agree. No individual mark allocations or printed source diagrams appear in these ten statements. No substantive or wording differences observed.
+
+  | Unit | Page | Supplied statement SHA256 | Page comparison |
+  |---|---:|---|---|
+  | IB/2020/P1/q10E | 4 | d2788ab5deef2c2c8323b6395c552b4e38296cad87becfab49a4f7f5ff29a1f8 | Checked dimensions, cubic, signs, normalised inverse theorem request, restrictive bracketed note, and ball centred at I. |
+  | IB/2020/P1/q14B | 6 | f82b0d31823f439bcc679f693620398448428e3a654a5d0bc6cbed73b5cc83e5 | Checked both delta equations, their positive sign, strip limits, homogeneous boundary and decay conditions and source offsets. |
+  | IB/2020/P1/q15A | 7 | c7d0d037c2cc215e09a58e447a3ab659e47c3e131b42be3d1e1f600a81b83647 | Checked stationary-state qualifier, interval and barriers, both normalised sines, complex coefficients, frequency and numerical bound. |
+  | IB/2020/P1/q17C | 9 | b7ee251d5f48ebfe352528d1a9f4ff88ba0d55e1122c421503009860ef15e25b | Checked all three parts, sign and angle conditions, streamline sketch request, relative pressure and both polar hint identities. |
+  | IB/2020/P1/q1F | 2 | a1993c04891653562145d241e5d98b8fe2c35f78c2cacf2936bd88ebac225b0d | Checked both definitions and all 18 matrix entries, including signs and both final dimensions. |
+  | IB/2020/P1/q20H | 11 | 835aeafc18268295a169b7735fcc37b5843bcaf8f90764ae146a1c40faae3396 | Checked both move rules and probability ranges, relative positions, both requested means, and almost-sure finiteness hint. |
+  | IB/2020/P1/q3G | 2 | f5eb5ee5decda1a4dbf744c46807b05148034f54ef92726fa1d5a012125add7f | Checked the open disc centre, exponential angle, radius, lower half-plane and required map onto the open disc. |
+  | IB/2020/P1/q6H | 3 | 22704ca70e905c960ca1f568c6c089adc9f7c0d5d3d5ea484401668b39e84134 | Checked normal variance convention, prior and positivity of precision parameter, and theta=0 condition for MSE. |
+  | IB/2020/P2/q15D | 8 | 7e3bbb3fe593a79c6cb98a1f7fffc0dda8e429916f5d9a8ee065e9b94423e4ba | Checked current direction and jump orientation, time derivative, cap restriction and tangent half-angle factor including the 4πr denominator. |
+  | IB/2020/P2/q17C | 10 | 941e498081d27f00e9fc44feaedd75891b82871d5254102db27e24ac3b4b1c73 | Checked time levels, signs, weights, implicit evaluation, and all three order/convergence requests. |
+
+  Archived original file checksums
+
+  - P1.pdf  9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+  - P2.pdf  4266d674e1ca4832314642f47b03cfb1cbecad0767d388883629f6ee3b2f2ee2
+observed_transcription_errors: 0
+substantive_errors_before_repair: 0
+substantive_errors_after_repair: 0
+observed_substantive_error_rate: 0/10 before and 0/10 after. No repairs were required.
+units:
+  IB/2020/P1/q10E:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 4
+    original_number: 10E
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: d382404df31dcbbb6302c8373f08ea2f909f73d53199c36ff0949513f26575e1
+    independent_rework: |
+      Differentiability at x means there is a linear L:R^m→R^r with f(x+h)−f(x)−Lh=o(||h||); uniqueness follows by setting h=tv for each fixed v and taking t→0. Write f′(x)=L. In any submultiplicative matrix norm the cubic expansion gives p′(A)H=A²H+AHA+HA²−3H. The remaining terms AH²+HAH+H²A+H³ have norm at most 3||A||||H||²+||H||³. The derivative depends continuously on A.
+
+      The inverse function theorem says that for a C¹ function between open sets in R^m with f′(a) invertible, some open neighbourhood U of a is mapped bijectively onto an open neighbourhood V of f(a), and the inverse g is C¹ with g′(y)=[f′(g(y))]^{-1}. For the normalised case choose a closed ball of radius R inside the domain on which h(x)=x−f(x) has ||Dh||≤1/2, by continuity. Integration along segments gives Lip(h)≤1/2 there and h(0)=0. For ||y||<R/2, x↦y+h(x) maps that complete ball into itself and is a contraction, so it has a unique fixed point g(y). Its norm is at most 2||y||<R. Fixed points solve f(x)=y. On V=B(0,R/2) the fixed point inequality yields ||g(y)−g(z)||≤2||y−z||. Hence g is a continuous inverse on the open preimage U=B(0,R)∩f^{-1}(V).
+
+      Take A=2I. Then p(2I)=I and p′(2I)H=9H. Identify matrices with R^{n²}; the theorem gives a C¹ inverse branch on some ball about I. There is no global two-sided inverse since p(0)=p(√3 I)=−I. Even if “inverse” is meant as a right inverse, no global continuous branch exists. Indeed take D(t)=diag(t+1,…,t+n), whose entries are distinct. Any real solution of p(X)=D(t) commutes with D(t), and hence is diagonal by the entrywise commutation equations. A continuous right inverse would therefore give a continuous real x(t) satisfying x³−3x−1=t+1 for every t. Necessarily x(t)→±∞ as t→±∞ (the scalar cubic grows without bound with the respective sign). Its image is thus all of R by the intermediate value theorem; a right inverse with full image would force the cubic to be injective, contrary to its values at 0 and √3.
+    comparison: Both cubic expansions preserve multiplication order. The contraction maps a closed ball into itself,
+      its inverse image neighbourhood is open, and the inverse is Lipschitz. At 2I the derivative is 9 times the identity.
+      The two right-inverse arguments use diagonal commutation with simple spectrum to force an impossible continuous
+      scalar branch.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Noncommuting derivative and all higher coefficients, local Jacobian and global noninjectivity verified.
+      script_sha256: 8562306b1124264c61d6e4a85f28ffbced78dea8df37f0551ed7c19729ddc9b0
+      source_hashes:
+        question.tex: d2788ab5deef2c2c8323b6395c552b4e38296cad87becfab49a4f7f5ff29a1f8
+        solution.tex: ca22de5a81028deb40661eb026c149b60907275d965b14468ab9eb32bedc1eab
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q3G:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 2
+    original_number: 3G
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 0dc08c7e4db400c3f1a6399b7513b706cf5d573cd9515f927367ae02b5b0bb74
+    independent_rework: |
+      The circle centred at c=(1+i√3)/2 meets the real line at 0 and 1. Take w=z/(1−z); its inverse is z=w/(1+w). Since Im z=Im w/|1+w|², the lower half-plane condition is Im w<0. Multiplying |z|²−2Re(z conjugate(c))<0 by |1+w|² leaves −2Re(w conjugate(c))<0, since 2Re(c)=1. Thus w runs exactly over the sector −π/6<arg(w)<0; neither the pole of the inverse nor the origin lies in it. The power w↦u=w⁶ maps this sector conformally and bijectively to Im u<0; its inverse selects arg(u)/6 with −π<arg u<0. The Cayley map (u+i)/(u−i) sends this lower half-plane conformally onto the disc (the squared distance to −i is smaller than that to i there). Composition gives [z⁶+i(1−z)⁶]/[z⁶−i(1−z)⁶].
+    comparison: Both maps send the lens to the sector with arguments between −π/6 and zero. The sixth power and correctly
+      signed lower-half-plane Cayley map agree. The inverse branch covers the entire sector.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Sector inequalities, sixth power and inverse of the disc map verified at interior points.
+      script_sha256: 5df83b3ebf34bb525e0bda04f906d307919f104a36f94587e20e6aa16a65b29b
+      source_hashes:
+        question.tex: f5eb5ee5decda1a4dbf744c46807b05148034f54ef92726fa1d5a012125add7f
+        solution.tex: 4458c2ba5fa18946faff973e666f44562d5b9bc73b1fca735fe3bfa4688f2fe4
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P2/q15D:
+    original_pdf: private/raw/tripos/IB/2020/P2.pdf
+    original_sha256: 4266d674e1ca4832314642f47b03cfb1cbecad0767d388883629f6ee3b2f2ee2
+    source_pages:
+    - 8
+    original_number: 15D
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: e6ea994cd81ff141b91775267bb6026a7f1c60fe4e182e024fa9f79e4abde172
+    independent_rework: |
+      (a) Translations within the plane and reflection in the xz plane imply that the field generated by the uniform sheet is along y and depends only on z (B is axial, so its x,z components reverse under that reflection). Reflection in z=0 reverses its y component between sides. Choose a rectangular loop in the yz plane of width L along y with oriented normal +e_x. Along its upper side the positive direction is −e_y and on the lower side +e_y. The conduction current through the rectangle is KL, so Ampère gives L(B_y^−−B_y^+)=μ₀KL for symmetric heights. Therefore B^+=−μ₀K e_y/2 and B^−=μ₀K e_y/2 at every height, in the absence of imposed background fields. The jump e_z×(B^+−B^−)=μ₀K e_x=μ₀ K_vector.
+
+      (b) At r>0, E=Q(t)e_r/(4πε₀r²) and J_d=ε₀∂_t E=I e_r/(4πr²). Rotations about z and reflection in meridional planes force the generated axial field to have only an azimuthal component, constant along a latitude circle. For 0<θ<π/2 take the outward northern spherical cap. No conduction current crosses it; its displacement current is (I/(4π))∫₀^{2π}∫₀^θ sin u du dφ=I(1−cosθ)/2. The positively oriented boundary points along +e_φ, so 2πr sinθ B_φ=μ₀ I(1−cosθ)/2. Thus B=[μ₀ I/(4πr)]tan(θ/2)e_φ. The axis limit is zero by continuity, irrespective of the azimuthal basis singularity.
+    comparison: Both Ampère loops yield opposite y-fields and the stated normal cross-product jump. The spherical cap
+      subtends 2π(1−cosθ); the outward displacement current and positive azimuthal orientation give the printed half-angle
+      field and zero on the axis.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Sheet circulation, cap flux and local Ampere-Maxwell law verified.
+      script_sha256: 371452b0321cf2e455683ce98a23cdf0b3eb3f6483b44d82e27ee81a65e5f72c
+      source_hashes:
+        question.tex: 7e3bbb3fe593a79c6cb98a1f7fffc0dda8e429916f5d9a8ee065e9b94423e4ba
+        solution.tex: 99b02f29b02060c8a72e10acd42d76e6e3c5298bf40c9cb031a648e179b3f384
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q17C:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 9
+    original_number: 17C
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 786754e0582c6c1dcf0e1c170ddb160b08a403bae714ec34535d4eb7a5b8748f
+    independent_rework: |
+      (a) The polar components are u_r=Aγr^{γ−1}cos(λθ), u_θ=−Aλr^{γ−1}sin(λθ). Substitution in the divergence gives A(γ²−λ²)r^{γ−2}cos(λθ), so positivity forces γ=λ. No penetration requires u_θ=0 at both faces, hence λ=nπ/α for a positive integer n. The sine has internal simple zeros, with changes of sign, for n≥2. Thus γ=λ=k=π/α>1.
+
+      (b) A streamfunction is ψ=Ar^k sin(kθ), since (u_r,u_θ)=(r^{-1}∂_θψ,−∂_rψ). In the interior its contours have r=r_min[sin(kθ)]^{−1/k}, where r_min>0 is attained on the bisector. The streamlines are symmetric round the bisector. On the upper face they approach from infinity, bend around the vertex and return towards infinity parallel to the lower face, with θ decreasing. Indeed near θ=0, θ is asymptotic to (r_min/r)^k/k, so the perpendicular distance to the face tends to zero (k>1); the upper-face limit is symmetric. Both walls are limiting streamlines. A schematic drawn at α=π/2 uses the exact contours xy=r_min²/2, with y increasing upward; arrows denote flow.
+
+          y
+          ↑│ ↓  ↓    ↓
+           │ │  │    ╲
+           │ │   ╲    ╲____→
+           │ ╲    ╲______→
+           │  ╲________→
+          O└────────────────→ x
+
+      (c) Adding squared components gives |u|²=(Ak)²r^{2k−2}. For steady inviscid irrotational flow of constant density ρ without a body-force potential varying in the plane, Euler’s equation integrates to p+ρ|u|²/2=constant throughout the connected wedge. Thus p(r)=p₀+(ρu₀²/2)[1−(r/r₀)^{2k−2}], independent of θ. Since k>1 the vertex is a stagnation point in the limit and p(vertex)−p₀=ρu₀²/2.
+    comparison: The Laplacian, no-penetration and fixed angular sign yield π/α. The streamfunction gives the same contours
+      and minimum on the bisector as the canonical streamline ODE. Flow orientation, vertex pressure and all four labelled
+      curves in the right-angle sketch agree.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Harmonic potential, streamline ODE, minimum radius and speed verified.
+      script_sha256: 623a4288da8afb83ddf23484bbf62ff49fac18df9cc22fcb37316358cfeed603
+      source_hashes:
+        question.tex: b7ee251d5f48ebfe352528d1a9f4ff88ba0d55e1122c421503009860ef15e25b
+        solution.tex: cce6eea20074d97880620f705ecd8069d78630b4e5f7cac177ad2f5a4beb0572
+        plot.py: c152581ccd99de8b76f76ead3148623663468885eb1ec6d29bfc461ffa7d9a63
+        figures/wedge-streamlines.png: 3563ddf657935e80f1961a949d0b49e680e6b0d20ccff3e1a8848bf72a4dca50
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q1F:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 2
+    original_number: 1F
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: d034bda15654adf18513d8566503e1563db47acfbe96e067e8c7766f5dd23568
+    independent_rework: |
+      Similarity means B = S^{-1}AS for an invertible change-of-basis matrix S over the underlying field. For a characteristic polynomial splitting over that field, the Jordan form is a similar block diagonal matrix with Jordan blocks J_k(λ) (λ on the diagonal, ones immediately above and zeros elsewhere). The Jordan theorem gives existence and uniqueness up to block permutation.
+
+      Set N=A−I and M=B−I. The rows of N are (3,6,−15),(1,2,−5),(1,2,−5), so N is the outer product (3,1,1)^T(1,2,−5). Its square vanishes since 3+2−5=0. On the other hand the first entry of M² is (0,−3,3)·(0,−2,−1)=3. If A,B were similar then (B−I)²=S^{-1}(A−I)²S=0, a contradiction. This rules out similarity over either the real or the complex numbers.
+    comparison: The rework distinguishes the matrices by (A−I)²=0 and (B−I)²≠0. The canonical ranks 1 and 2 give the
+      same obstruction; checked the third-row linear dependence and splitting hypothesis for Jordan form.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: The ranks at eigenvalue one and the two incompatible Jordan block structures verified.
+      script_sha256: 22187f2a7fdf1228592e55aa069509dbb9f95e7e28c9134ea9730f076d9a1404
+      source_hashes:
+        question.tex: a1993c04891653562145d241e5d98b8fe2c35f78c2cacf2936bd88ebac225b0d
+        solution.tex: 3e736fa3cbcc360f762987ba66f1cc6c3efbf53fccd8fcb92af16cb298d4a9a4
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q20H:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 11
+    original_number: 20H
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: ddb23e41ff5a21f0652d5d0330eeba65781c59740b565312cae0975111012201
+    independent_rework: |
+      For F_n=σ(X₀,…,X_n), a stopping time is a random variable T in {0,1,…,∞} with {T≤n}∈F_n for every n. The strong Markov property says that conditional on F_T on {T<∞}, the shifted process has the law of a new chain with transition matrix P started at X_T; thus given X_T its future is independent of the stopped past.
+
+      Assume the two contemporaneous directions are independent given the history and gap, as in the intended random-walk model. Stop D=(Z−Y)/2 at 0. At j≥2 its probabilities for changes −1,0,+1 are q/2,1/2,(1−q)/2. At j=1 use r in place of q. It stays nonnegative up to capture since all steps have size at most one.
+
+      (a) Starting at m≥2 put T=inf{n:D_n=m−1}, d=(2q−1)/2>0. The conditional mean increment prior to T is −d. Summing expectations up to T∧N gives E D_{T∧N}=m−d E(T∧N). Since D_{T∧N}≥m−1, monotone convergence gives ET≤1/d, so T is integrable and finite a.s. Also D_{T∧N}≤m+T by unit steps. Dominated convergence now gives m−1=m−d ET, or ET=1/d=2/(2q−1).
+
+      (b) At level 1 each attempt consumes a step and succeeds with probability r/2. A stay begins a new attempt at once. A jump to 2 (probability (1−r)/2) incurs an additional excursion back to 1 with finite mean c=1/d. By the strong Markov property the probability of reaching attempt k is (1−r/2)^{k−1}, and its conditional mean time spent before stopping or starting the next attempt is 1+(1−r)c/2. Summing the expected nonnegative time over attempts gives E₁T₀=[2+(1−r)c]/r. From m, add m−1 level descents by part (a) and the strong Markov property; even for m=1 this gives 2/r+(m+1/r−2)·2/(2q−1).
+
+      Model qualification: the printed marginal move probabilities alone do not explicitly specify a joint coupling. Part (a) uses the conditional drift and survives other time-homogeneous couplings with those marginals. Part (b) uses the independent-move interpretation at gap two; specifying only marginal probabilities does not in general fix the stated answer.
+    comparison: The conditional independence interpretation is identified. Stopping and dominated convergence establish
+      integrability before the expectation identity. The excursion calculation agrees for m=1 and m>1. The open issue
+      records the simultaneous-step assumption.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Level passage and both boundary recurrences verified, with independent finite-state approximations.
+      script_sha256: 06edbdb2837940b62e445ea34bc4835c24588e1f642db60d74bbcb9e41bc5f57
+      source_hashes:
+        question.tex: 835aeafc18268295a169b7735fcc37b5843bcaf8f90764ae146a1c40faae3396
+        solution.tex: 553d4c464f07c773c4dcb6ca963a432a7aa27e0e514cdb7125a30847fba0cbb7
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q14B:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 6
+    original_number: 14B
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 8dcaa6a1f33a27397f5ae0510cf8f3868852c3629a17b07880e8ddaa89929eba
+    independent_rework: |
+      Put k_n=nπ/a, g_n=(2/a)∫₀ᵃg(v)sin(k_n v)dv. Expand φ=Σu_n(x)sin(k_n y), the Dirichlet sine basis. Each mode obeys u_n″−k_n²u_n=g_n δ₀. On the left decay requires c_- exp(k_n x), on the right c_+ exp(−k_n x). The absence of a δ′ forces continuity, hence c_-=c_+. Integrating across zero, u_n′(0+)−u_n′(0−)=g_n, so c_+=−g_n/(2k_n). Therefore φ=−Σ [g_n/(2k_n)]exp(−k_n|x|)sin(k_n y). These modes satisfy each boundary condition, and the homogeneous matching equation has only zero coefficients. Smooth g with zero endpoint values gives convergence (twice integrating its coefficients by parts suffices); differentiating at the interface is understood distributionally.
+
+      For g=δ_c, g_n=(2/a)sin(k_n c). The on-axis answer is the following kernel with b=0; translation supplies arbitrary b:
+      G(x,y;b,c)=−(1/π) Σ_{n≥1} exp(−k_n|x−b|) sin(k_n y)sin(k_n c)/n.
+      The series is absolutely convergent for x≠b and gives its distributional extension across the source. For a closed form, set s=π|x−b|/a, u=πy/a, v=πc/a. Using twice the sine product as a cosine difference and Σrⁿcos(nv)/n=−(1/2)log(1−2r cos v+r²) for 0≤r<1 gives G=(1/(4π))log[(cosh s−cos(u−v))/(cosh s−cos(u+v))]. This extends across x=b away from y=c and has the positive-Laplacian singularity (1/(2π))log(distance)+O(1).
+    comparison: The sine modes, derivative jump, negative coefficients, distributional point source, horizontal translation
+      and logarithmic kernel agree. Checked the positive sign of the fundamental singularity and the Dirichlet conditions.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Strip series, walls and unit source flux verified.
+      script_sha256: d4522218c806cb19e47df4fe7ed3e4f24315b798b0791d474fb1776d66bc815c
+      source_hashes:
+        question.tex: f82b0d31823f439bcc679f693620398448428e3a654a5d0bc6cbed73b5cc83e5
+        solution.tex: 3b3aca83f7a46d4366d4a52d46137180eb4d672c88cfb2f858ccf5e0024a24e8
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P2/q17C:
+    original_pdf: private/raw/tripos/IB/2020/P2.pdf
+    original_sha256: 4266d674e1ca4832314642f47b03cfb1cbecad0767d388883629f6ee3b2f2ee2
+    source_pages:
+    - 10
+    original_number: 17C
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 99e219ee69f8f69ee813555c3f80729c47401a9bac912c7f38f3e89abf78e8b9
+    independent_rework: |
+      (a) For an LMM the order is p if insertion of any sufficiently smooth exact solution in a step produces an unnormalised residual O(h^{p+1}) and order p+1 does not hold in general. Equivalently, the residual vanishes on polynomials through degree p and fails for some polynomial of degree p+1. For a zero-stable scheme this yields O(h^p) global accuracy on bounded time intervals with sufficiently accurate starting values and the usual regularity assumptions.
+
+      (b) With origin at t_{n+1}, regard the step as approximating h∫₀¹ y′(t_{n+1}+sh)ds by a three-point quadrature with nodes −1,0,1 and weights −(α+β),β,1+α. The weights sum to 1 identically, giving order at least 1. First moment 1+2α+β must equal 1/2 for order ≥2; second moment 1−β must equal 1/3 for order ≥3. Explicitness requires α=−1. Except when β=3/2 this gives order exactly 1; that exception is second order since 1−β=−1/2≠1/3. Simultaneously matching the first two moments yields β=2/3, α=−7/12. The third moment equals the first since s³=s at all three nodes, hence equals 1/2 instead of 1/4. The order is exactly 3. Moment conditions follow by Taylor expansion of y′; the first mismatched moment gives a nonzero defect on a polynomial of the appropriate degree.
+
+      (c) The first characteristic polynomial is ρ(z)=z²−z and the second is σ(z)=(1+α)z²+βz−(α+β); ρ(1)=0 and ρ′(1)=1=σ(1), so the scheme is consistent for every pair of coefficients. The roots 0 and 1 meet the root condition (the only unit root is simple), hence zero-stability. The consistency and zero-stability theorem for multistep methods gives convergence for each fixed α,β on fixed bounded intervals with consistent starting data and a regular, Lipschitz-in-y right hand side. For implicit coefficients the step is uniquely solvable for sufficiently small h by contraction when h|1+α|Lip(f)<1.
+    comparison: The independent midpoint-node quadrature moments confirm the generic explicit order one, exceptional
+      order two at β=3/2, and unique order-three pair (−7/12,2/3). Independently verified the first unmatched term gives
+      order exactly three. The unit root is simple and consistency holds for all parameters.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Monomial defects, special explicit method, exact cubic order and simple characteristic roots verified.
+      script_sha256: 911c9bb31092cbb82095897335d06f3cdde474f9076291a8c137154bb17b8898
+      source_hashes:
+        question.tex: 941e498081d27f00e9fc44feaedd75891b82871d5254102db27e24ac3b4b1c73
+        solution.tex: 2bbf1611a08c046d24abf9e5e5eeffe70af537a01a8f9db395d5788eafaf12b9
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q15A:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 7
+    original_number: 15A
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 44175665337966ef4983ac6363c124116020fa5170829fa1813d4df9e1a39713
+    independent_rework: |
+      A stationary state has time evolution e^{−iEt/ℏ}ψ for an energy eigenstate (possibly within a degenerate eigenspace), by the time-dependent Schrödinger equation. The conjugate phase from the bra cancels this phase in the expectation of a time-independent Q, yielding ⟨ψ,Qψ⟩.
+
+      Inside the well the Hamiltonian acts as −ℏ² d²/(2m dx²) with zero endpoints. Each supplied sine obeys these conditions with eigenvalue E_j=j²π²ℏ²/(2ma²). Orthogonality and normalisation give |c₁|²+|c₂|²=1. Linearity yields coefficients c_j exp(−iE_jt/ℏ) at time t; projection onto each energy therefore has probability |c_j|², and all other energies have probability zero.
+
+      Reflection x↦a−x shows each diagonal position element is a/2. Putting u=πx/a, or using 2 sin s sin 2s=cos s−cos 3s, the off-diagonal element equals a^{-1}∫₀ᵃ x[cos(πx/a)−cos(3πx/a)]dx. Since ∫₀ᵃ x cos(kπx/a)dx=a²[cos(kπ)−1]/(kπ)², the result is −16a/(9π²). Hence ⟨x⟩=a/2−(32a/(9π²))Re(conjugate(c₁)c₂ exp(−iωt)), with angular frequency ω=(E₂−E₁)/ℏ=3π²ℏ/(2ma²). A vanishing coefficient makes the oscillation amplitude zero. Finally 2|c₁c₂|≤|c₁|²+|c₂|²=1 proves the required bound, with equality attainable for equal magnitudes and aligned or opposed time-dependent phases.
+    comparison: The eigenstate phases, energies, weights, off-diagonal matrix element −16a/(9π²), conjugation, angular
+      frequency and sharp bound agree, including a single occupied level.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: All position matrix elements, absolute amplitude bound and saturation checked.
+      script_sha256: fa2cc493576d299b3215b44104a542bde94dbced057add9a5530caf0ab2bb3b0
+      source_hashes:
+        question.tex: c7d0d037c2cc215e09a58e447a3ab659e47c3e131b42be3d1e1f600a81b83647
+        solution.tex: eca56648e758aca626c27959d1b2e50ceb6394987dc8961bb0a383fcaccd83f3
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+  IB/2020/P1/q6H:
+    original_pdf: private/raw/tripos/IB/2020/P1.pdf
+    original_sha256: 9b14ed48a84717052883c8dc50efd33734ad497e89fd42673b94cfdd9ec63784
+    source_pages:
+    - 3
+    original_number: 6H
+    transcription_matches_original: true
+    canonical_question_matches_blind_copy: true
+    independent_rework_sha256: 601c7fad00560f847653bd6605efa39a0ce417365226c683da5f83c40668687b
+    independent_rework: |
+      Conditional independence given μ makes the posterior density proportional to exp{−[Σ(x_i−μ)²+τ²(μ−θ)²]/2}. Completing the square gives a normal with precision n+τ² and mean m=(Σx_i+τ²θ)/(n+τ²). At θ=0, conditional on the true μ, the bias is −τ²μ/(n+τ²) and the variance is n/(n+τ²)². Their squared-bias-plus-variance sum is (τ⁴μ²+n)/(n+τ²)². If “mean squared error” averages jointly over the specified prior, use Eμ²=τ^{-2} to get 1/(n+τ²). This also equals the conditional posterior expected squared error for every observed sample, since the posterior variance is constant.
+    comparison: Posterior precision and mean, conditional bias and variance, fixed-μ MSE and the integrated MSE all agree.
+      Both expectations distinguish true μ from the random prior.
+    substantive_error: false
+    check:
+      returncode: 0
+      stdout: Posterior mean and frequentist MSE verified by quadrature.
+      script_sha256: 4598ef10ae831af5520f80a75a5cf13b3614a81d1013230ce96aea0a9f701356
+      source_hashes:
+        question.tex: 22704ca70e905c960ca1f568c6c089adc9f7c0d5d3d5ea484401668b39e84134
+        solution.tex: ee748c24da8ffc5475dc6bb2c97c6eae87a228c0cf18505483a1bcf66dd8c8f3
+      pdf_build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+rendering:
+  status: verified
+  compiled_pdf_pages_visually_inspected: 13
+  chrome_full_page_screenshots_visually_inspected: 10
+  viewport_px: 1220
+  math_nodes: 411
+  math_nodes_rendered: 411
+  parse_errors: 0
+  overflows_at_tested_width: 0
+  solution_diagrams_inspected_in_each_output: 1
+  notes:
+  - Independently rendered the sampled compiled PDF spans and checked each against the text and source figure where applicable.
+    P1 pp.11 and 26 carry only issues and source links. P1 p.20 shows four labelled streamlines, flow arrows and the
+    bisector.
+  - Inspected the ten supplied full-page Chrome screenshots and cross-checked their KaTeX counts, overflow measurements,
+    HTML hashes and diagram records.
+  evidence_json_sha256: 8986554e62f9072f9cd015b6251ef25085a154152edfa6edf24b8fefb33b2fa1
+  browser_json_sha256: 1d0f0a40aff68b3fd8676b706417440dddcdc4e80f88acc1e73b9cab70b1ce88
+  units:
+    IB/2020/P1/q10E:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 10
+      - 11
+      html: site/private/questions/IB/2020/P1/q10E/index.html
+      html_sha256: e5c544e0e1f1c1c2ddc76a90aeedd71bcb4faac8d59e4c8dc387a2644af2bf79
+      screenshot_sha256: 584f65571540c904c5457e8441f81f434c211a41c57237bf9df3f5dabf127836
+      rendered_math_nodes: 76
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P1/q3G:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2020/P1/q3G/index.html
+      html_sha256: 16ae69b4e746b1184db729f238d8b424e0fa7486de2e2637f63ea4940c218371
+      screenshot_sha256: 95598085d002e61738bbc93f884e37e8ff0cefdbfebf548adf592e5b35efdc23
+      rendered_math_nodes: 23
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P2/q15D:
+      compiled_pdf: build/IB-2020-P2/main.pdf
+      compiled_sha256: 29839a3229490acd7c4e77dbb1a9d465458bc93c76d8f17f86d72f07cefea46b
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2020/P2/q15D/index.html
+      html_sha256: 48ebaa420f9d093114ac13ce826b9293589858af8663419a33554e8b370947d8
+      screenshot_sha256: 231fa00feb9f32d7bf424c4afcf99f8a017b7ae86aab383b4b56edb6a14e5f6c
+      rendered_math_nodes: 40
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P1/q17C:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 19
+      - 20
+      html: site/private/questions/IB/2020/P1/q17C/index.html
+      html_sha256: 2038b356dbba3ac970504613e3383678bf8816d6422b5a7d988e44e705b2c94a
+      screenshot_sha256: b44fd659ec3c690eed7bc09136133c6db9878831f54e4b9c398ac41317a9046a
+      rendered_math_nodes: 51
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files:
+        site/private/figures/tripos/IB/2020/P1/q17C/wedge-streamlines.png: 3563ddf657935e80f1961a949d0b49e680e6b0d20ccff3e1a8848bf72a4dca50
+      browser_diagrams:
+      - alt: Streamlines for a right-angle wedge, labelled by closest radius. Arrows show the flow direction.
+        width: 883
+        height: 806
+    IB/2020/P1/q1F:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2020/P1/q1F/index.html
+      html_sha256: 776bd4fcfc9cb01e1064fa685d00aed616e701e7961bd70d49c71f7d71495d6a
+      screenshot_sha256: a6ba811016435c3f2312e3b6599646b061f99f41e0cf5c8e9439631806363c5e
+      rendered_math_nodes: 15
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P1/q20H:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 25
+      - 26
+      html: site/private/questions/IB/2020/P1/q20H/index.html
+      html_sha256: c096894b0d94e3787fe353efd4e7d674b692af13c5ed7367268efd1db84e905f
+      screenshot_sha256: c19c12a31c4d4e012e119670f5e7094f27b3a9e3edb040c2c8f1afe54665f6bc
+      rendered_math_nodes: 63
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P1/q14B:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2020/P1/q14B/index.html
+      html_sha256: 38888083dde4f36c752089f52c4c382af9129541d3ba0c95a477373bc60590d6
+      screenshot_sha256: c20fee6712c30f57dd6760ed761f48ed5476ccb76fbf55bdc444d4dbc8398d73
+      rendered_math_nodes: 46
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P2/q17C:
+      compiled_pdf: build/IB-2020-P2/main.pdf
+      compiled_sha256: 29839a3229490acd7c4e77dbb1a9d465458bc93c76d8f17f86d72f07cefea46b
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2020/P2/q17C/index.html
+      html_sha256: a8887e2641b31c06ece73e6eb2301493fd5b12f08d3cc5279a45dc3300103024
+      screenshot_sha256: 1faf72d5f26133dc5f2cbf5806a8e0df5cf5a16f07b3c329d5b4736c5a411f9c
+      rendered_math_nodes: 40
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P1/q15A:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2020/P1/q15A/index.html
+      html_sha256: 7ba464d781319857ce04a361b6c83ee4c4f8b2a2ac429d93f8b9c8c0980effb7
+      screenshot_sha256: cc7ec93123ed6288ef11f55f9a19a1cf94e33557ece59f3471af32aa0dcd35fc
+      rendered_math_nodes: 33
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []
+    IB/2020/P1/q6H:
+      compiled_pdf: build/IB-2020-P1/main.pdf
+      compiled_sha256: e6f5a10a9e202a640f80dd3f46b602eaf30128749ffd10ca9ca5d77e87e65a1e
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2020/P1/q6H/index.html
+      html_sha256: e26c3835014d20f0b72f2c6288d27d617c1bbea841e8b99f91bd0e01b11141ef
+      screenshot_sha256: ef7653a44a51bc4423ca7a10d1d5041e70a0ed95a3906a475d3af9760147c9ac
+      rendered_math_nodes: 24
+      parse_errors: 0
+      overflow_count: 0
+      diagram_files: {}
+      browser_diagrams: []

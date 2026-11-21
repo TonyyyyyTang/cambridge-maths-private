@@ -1,0 +1,312 @@
+paper_id: IB/2010/P4
+id: IB/2010/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2010-06-04'
+printed_date: Friday, 4 June, 2010
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2010/P4-full.pdf
+archive: private/raw/tripos/IB/2010/P4-full.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2010/PaperIB_4.pdf
+sha256: 8d42311ce8ee6c7d2006532ec5b6c5c87d8e57afd310bcce7d09c96a7ac9cb10
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2010/P4/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e12204a1e3b18488abbd17c0f42cc2cbe67614f61eec8c551b6ff2a6787a93e3
+  checks: The integration limits, maximum polynomial degree and both derivative coefficients checked.
+  source_page_render_sha256: 9c48ef59e8a602b1bd12b9098bcdd3062e06abd9aff3fa0a3fa96eae7c468384
+- id: IB/2010/P4/q2H
+  original_question: 2H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ead49918bb702a2b87eb0ed5ea281527c11987c3db4f4fb26a77587fa0669f91
+  checks: Two nonzero integers and the single generator of the submodule checked.
+  source_page_render_sha256: 9c48ef59e8a602b1bd12b9098bcdd3062e06abd9aff3fa0a3fa96eae7c468384
+- id: IB/2010/P4/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 47a97dbb66044bf4bd6ea7bd1a76e469eec8b18413331a2f81f95d018f699bb7
+  checks: Supremum and integral metrics and both directions of the identity map checked.
+  source_page_render_sha256: 9c48ef59e8a602b1bd12b9098bcdd3062e06abd9aff3fa0a3fa96eae7c468384
+- id: IB/2010/P4/q4G
+  original_question: 4G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 41e5d7fa7d1f7fd30a28e6f9af7328db65382f5deb31732118d683d973120b6c
+  checks: The single question refers to meromorphic functions and the capitalised Residue theorem.
+  source_page_render_sha256: 9c48ef59e8a602b1bd12b9098bcdd3062e06abd9aff3fa0a3fa96eae7c468384
+- id: IB/2010/P4/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 1bf62f14377738cf6c81b76f3bdb519b75005fdcbee9efdaaab1482519d67fb0
+  checks: Absolute derivatives in both denominators and the first-quadrant integral with dy dx checked.
+  source_page_render_sha256: daf4c5c4d9cc69e3f87e57972a34c61ac4a2f81270a02c1de30ffd849b9d3246
+- id: IB/2010/P4/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 2aabff230beab475152583f34f9759ba1a0e0d3268da5c181940d159117e1b08
+  checks: The potential and the “lowest-but-one” energy level checked.
+  source_page_render_sha256: daf4c5c4d9cc69e3f87e57972a34c61ac4a2f81270a02c1de30ffd849b9d3246
+- id: IB/2010/P4/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: f6ca1587c48727a43704730319c5f451e44ee4da48a8c5d855fee0a711a982c5
+  checks: Both electromotive-force and flux integrals and the direction of loop motion verified.
+  source_page_render_sha256: daf4c5c4d9cc69e3f87e57972a34c61ac4a2f81270a02c1de30ffd849b9d3246
+- id: IB/2010/P4/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: f0b1d240f633bd6947944bfd295f2ce55cac53b12f553b7ffff7ce5f29c2ecb6
+  checks: The omitted indices in the recursion and both sets of four numerical values checked.
+  source_page_render_sha256: cfed26ac59c3c547f1a240d345540c26a38735532f1921e7f01192551a38ebe0
+- id: IB/2010/P4/q9E
+  original_question: 9E
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 8be457a63f389a90a7e3199a4854622d92db1adb267769a888e9808d255e7307
+  checks: All sixteen transition probabilities, row and column labels, and the two event conditions checked.
+  figures:
+  - transition-probabilities
+  source_page_render_sha256: cfed26ac59c3c547f1a240d345540c26a38735532f1921e7f01192551a38ebe0
+  figure_png_sha256:
+    transition-probabilities: 09d25cc66fcb746ac9f15308453c458ed8569c633af8b37b1aa26ba05bb31b97
+  plot_sha256: 864fea2fd0146476511497f0775f9b6cac9c740f9b347305600d3a326ee5f69e
+- id: IB/2010/P4/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 286fa4f26e6f7cc4f15c7f6a1bc21be1a847ffdfa390afc1a47b942f61026365
+  checks: The odd and even cases and the precise centre hypothesis checked.
+  source_page_render_sha256: 680e52210f323b8f97e5ad533d7726033c222c0129cdf180c7e68a5938104eaa
+- id: IB/2010/P4/q11H
+  original_question: 11H
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: cc1a46e89b5862ae9fda616e03889d3c3038fb4557d5a5f94732e24b2ebcb308
+  checks: Column vectors and the order of the subgroups and quotient claims checked.
+  source_page_render_sha256: 680e52210f323b8f97e5ad533d7726033c222c0129cdf180c7e68a5938104eaa
+- id: IB/2010/P4/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 8cc89131bf009eac36a7cd352f825f0366c1cc74cdfc4d915f926794e9820385
+  checks: Both limits at infinity, boundedness and the requested proof or counterexample checked.
+  source_page_render_sha256: 44320f6f5731044d86d5ebc8d8f66ee0d5269aa5d33c48fb817b8905ac4c8ea4
+- id: IB/2010/P4/q13H
+  original_question: 13H
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 176647c9186e40ffc8761f354b3f1ef1fe5cc317bded9e3b9cd2e7a0cd46949d
+  checks: The radical covers only 2 in the line of irrational slope; the quotient, density assumption and restricted
+    map verified.
+  source_page_render_sha256: 44320f6f5731044d86d5ebc8d8f66ee0d5269aa5d33c48fb817b8905ac4c8ea4
+- id: IB/2010/P4/q14A
+  original_question: 14A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 6858bc3c785dc3a8773a60319ba628376c0649810d2c0aad6f6a9fbc11a7fcf2
+  checks: All four Laplace transform identities, third-order initial data and the repeated denominator checked.
+  printed_ambiguity: Check compatibility between the introductory initial data and the prescribed transform
+    in parts (b) and (c).
+  source_page_render_sha256: 7f9c50cd2dc194d03db01e74f803875d9c65900578ca74b1a214051687ed370a
+- id: IB/2010/P4/q15F
+  original_question: 15F
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 014f0b0845ded0ff033b60c4ca076f2725bd863bca5bc9b49b4a868512a81d59
+  checks: The denominator has first power; bounded distances and unbounded areas are both requested.
+  source_page_render_sha256: 6d5e68604d860e031ad7edd916712f48399b1929478ae679542dc49fb860bdc1
+- id: IB/2010/P4/q16D
+  original_question: 16D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: fd6f3d978f99d5319b93b888d992a37af6880f2e19793b1fb37cb6ab54c7a2bf
+  checks: The temperature law, both first integrals, the latitude identity and the complete arcsine hint checked.
+  source_page_render_sha256: 64312759c3f0181a28ac2aa5724249f4f544b6c0bc16a8922b1115c16259b8d7
+- id: IB/2010/P4/q17B
+  original_question: 17B
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4f8555f6751edc7b7b33f4bb827eaa9891a38b0b005a25a07b0987582abd01df
+  checks: Original full-paper “half plane” and a > 0 retained; the separate Faculty correction on page 1 prints
+    “half space” and a > 1.
+  printed_ambiguity: The separate Faculty correction on page 1 replaces “half plane” by “half space” and the
+    printed decay condition a > 0 by a > 1. The full-paper text is preserved in question.tex.
+  source_page_render_sha256: 554add832d38e12a7bf2e9a104fdce6bf70a9023e5b927ab9a026c61a7705d32
+- id: IB/2010/P4/q18B
+  original_question: 18B
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 44d3f7a39a62db28f9b07f32a4440c0ddc740fb569a74d8af9fb9ab455fa7c89
+  checks: Both image sources and the complete surface-pressure force integral checked, including the squared
+    denominator.
+  source_page_render_sha256: 5b4d9dcd5873ca32a09ad01814efc55e060c47cc38769b34d6fe9ca0142815df
+- id: IB/2010/P4/q19E
+  original_question: 19E
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 060310585cd6daedb0fb565296a03911ccf59ce9ae5438efd0b1f838f36f8fcb
+  checks: The two-sided square-root support, estimator and strict variance comparison checked.
+  printed_ambiguity: The question does not state a lower bound on sample size beyond its implicit positivity.
+    Check the strict variance comparison at n equal to one.
+  source_page_render_sha256: 5b4d9dcd5873ca32a09ad01814efc55e060c47cc38769b34d6fe9ca0142815df
+- id: IB/2010/P4/q20E
+  original_question: 20E
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 19ffc06925c302eda99aafc9dcc686b2b85684cf92f698105725a719a6871006
+  checks: All nine entries, the 44 and 51 upper bounds, and the 12 lower bound on syrup C verified.
+  figures:
+  - sugar-production
+  source_page_render_sha256: 52554110bd1326e095aa65bcc64a60a95b9ab103ad749b1d1ad248035e36d325
+  figure_png_sha256:
+    sugar-production: 6f07bfeb9cc21533c2d79f4a57e81bedc442d1a3b622911c853a4e60cf2b70d4
+  plot_sha256: 8eaf2d533efc5495df0f7bbe2d5ad05cd368d150358bee53c50d4d914c16550f
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: c5425cf39def96dd65ac1b43ca3e8c2c729c55cddb9538388901b1f92fdd9e65
+corrections:
+- question: q17B
+  url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2010/Paper4_17_corrected.pdf
+  archive: private/raw/tripos/IB/2010/P4.pdf
+  sha256: 960063705983c3de4a2e33f60a3cae0a7eab7d81f2f815df3843e4e4f9312f29
+  page: 1
+  page_count: 1
+  source_page_render_sha256: c9d978213946f4462401058d7c8d06062f9b7f9b00e12688473865da558d4e07
+  original: half plane, a > 0
+  replacement: half space, a > 1

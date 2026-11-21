@@ -1,0 +1,1221 @@
+scope: IB Quantum Mechanics example sheet 3, located public historical union. Sheet-level sample, independent of the earlier
+  2025–26 baseline sample.
+audit_stage: Independent sample of the completed historical union.
+method:
+  auditor: Fresh independent auditor; authored none of the stored solutions. Only exact statements and original locators
+    were provided before freezing all reworks and original comparisons.
+  seed: 20261213
+  sampling: random.Random(seed).sample(sorted(population), 3)
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - q11
+  - qx01
+  - qx02
+  - qx03
+  - qx04
+  population_size: 15
+  sample:
+  - q05
+  - q06
+  - qx04
+  sample_size: 3
+  sample_percent: 20
+frozen:
+  manifest_sha256: d647ec7f5f0eeb16a9f5b2b1c4e3f2b479e18617a82b31e77e3fc644aaccb3d2
+  manifest: |
+    ff826d02a49622d11d1e8abc87b3f58c3d6edb9210237ed266db1e4f2b6af2d3  boost-2015.md
+    b35012abd1de4bedcbc1b38b353fe6c28a477e115ce63f08452a72625fcee41d  hydrogen-radial-2015.md
+    7d68f5fb046691938b54889946db0a15b426c11f8058ab427322b19b957b7ce4  original-comparison.md
+    43885e53316956904084730ddc5869821c88e377f8501008bd80a16046f1818f  oscillator-2015.md
+    20a7221ccd2adefca6181ec58e52bf0f7c92e50651cdf4b8337806faf30f2c3a  oscillator-early.md
+    34e70198ef8df509b1299db639602ae8836e18ee718cd0ce070cf4c373da888c  q05.md
+    e39697f7765b0366f8d23684c3f6cd8722473500c9bf3852ffc0fbb57d580102  q06.md
+    bcf66061fcc9d6b960f64911c68a00aa952d98592164ed8a48f1ae1efc9d0e64  radial-2018.md
+  files:
+    boost-2015.md:
+      sha256: ff826d02a49622d11d1e8abc87b3f58c3d6edb9210237ed266db1e4f2b6af2d3
+      text: |
+        # Independent rework of the free-particle problem
+
+        (i) In Cartesian position coordinates \(p_j=-i\hbar\partial_j\). Acting on \(f=Ae^{i\mathbf k\cdot\mathbf x}\) gives \(p_j f=\hbar k_j f\) for all three \(j\). Thus \(Hf=(\sum_jp_j^2/2m)f=\hbar^2|\mathbf k|^2 f/(2m)\). Take \(A\ne0\), real \(\mathbf k\) and \(m>0\). On all of space these are generalised eigenstates; the case \(\mathbf k=0\) has zero momentum and energy.
+
+        (ii) Put \(\mathbf y=\mathbf x-\mathbf u t\), \(g=e^{i\mathbf k\cdot\mathbf x-i\Omega t}\), \(\Omega=\hbar|\mathbf k|^2/(2m)\). Let \(D=i\hbar\partial_t+(\hbar^2/2m)\Delta\). Using the chain and product rules and dividing by \(g\),
+        \[
+        D(g\Psi(\mathbf y,t))/g=(D\Psi)(\mathbf y,t)+i\hbar(\hbar\mathbf k/m-\mathbf u)\cdot\nabla\Psi+(\hbar\Omega-\hbar^2|\mathbf k|^2/(2m))\Psi.
+        \]
+        The first term vanishes by the free equation, the second by the required relation, and the third by the definition of \(\Omega\). This proves the result, including the identity transformation when \(\mathbf u=0\). The manipulation applies to classical solutions, or distributionally by multiplication by a smooth phase and translation.
+    hydrogen-radial-2015.md:
+      sha256: b35012abd1de4bedcbc1b38b353fe6c28a477e115ce63f08452a72625fcee41d
+      text: |
+        # Independent rework of the hydrogen exponential
+
+        Write \(b=e^2/(4\pi\epsilon_0)>0\). At \(r>0\), the logarithmic derivative of the proposed radial function is \(-1/a\). Thus
+        \[
+        H\psi/\psi=-\hbar^2/(2ma^2)+(\hbar^2/(ma)-b)/r.
+        \]
+        For a nonzero candidate the only way for this to be independent of \(r\) is \(a=\hbar^2/(mb)=a_0>0\), the Bohr radius for a stationary proton. The energy is \(-\hbar^2/(2ma_0^2)=-mb^2/(2\hbar^2)\). The state is finite at zero and decays at infinity. The flux through a small sphere is \(4\pi r^2\psi'(r)\to0\), so the cusp adds no point source.
+
+        The radial norm measure is \(4\pi r^2dr\). Integration by parts gives \(\int_0^\infty r^n e^{-\lambda r}dr=n!/\lambda^{n+1}\) for integer \(n\ge0,\lambda>0\). For \(\lambda=2/a_0\) the norm is \(4\pi|C|^2(2!/\lambda^3)=\pi|C|^2a_0^3\). Consequently \(C=e^{i\theta}/\sqrt{\pi a_0^3}\). Taking the quotient of the third and second moments gives \(\langle r\rangle=3/\lambda=3a_0/2\), one and a half Bohr radii.
+    original-comparison.md:
+      sha256: 7d68f5fb046691938b54889946db0a15b426c11f8058ab427322b19b957b7ce4
+      text: |
+        # Blind comparison with original page images
+
+        Fetched the archived originals before opening them. Rendered each cited page using PDFium at two pixels per PDF point and inspected the numbered passage visually against its supplied statement. The 2023–24 Q5 comparison includes the continuation on page 2. All seven statements agree in wording, variables, signs, powers, question parts and assumptions at all 23 cited positions. None has printed marks. The malformed article in the later radial prompt is printed that way. Original source files and blind statement files are identified by SHA-256 below.
+
+        | Blind key | Original relative to private/raw/sheets/IB/quantum-mechanics | Pages | Q | Original SHA-256 |
+        |---|---|---|---|---|
+        | boost-2015 | 2015-16/sheet-3.pdf | 1 | 3 | 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66 |
+        | hydrogen-radial-2015 | 2015-16/sheet-3.pdf | 1 | 5 | 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66 |
+        | oscillator-2015 | 2015-16/sheet-3.pdf | 1 | 2 | 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66 |
+        | oscillator-2015 | 2018-19/sheet-3.pdf | 1 | 2 | 66db8866e0b11d0fd3a93eee22f89c4b8f151c288749f85ac77385e50a798744 |
+        | oscillator-2015 | 2019-20/sheet-3.pdf | 1 | 2 | 70db41bd08f5db91824839181581ccd4d603f872de3d89f8df550219ae6601b5 |
+        | oscillator-2015 | 2019-20/sheet-3-variant-B.pdf | 1 | 2 | d25b6aedaa263f4b2b869893b45d14f91f2ed480b8486c886420a9302301312b |
+        | oscillator-early | 2006-07/sheet-3.pdf | 1 | 2 | 72bec322288db9ae5195610175c172f534743d3c7847a0957f4e133ab33aa579 |
+        | oscillator-early | unresolved-header-2003-copyright-2004/sheet-3.pdf | 1 | 2 | acab554e60e59132ac8f3f1f4ee869e104a39c7c052f3ee9e77b64ca7e51b2db |
+        | q05 | 2020-21/sheet-3.pdf | 1 | 2 | 4111d87ab326d4c9c6c5d605fdc92f02b5a3c3392e375acdfa4d31d1340dcdfc |
+        | q05 | 2022-23/sheet-3.pdf | 1 | 5 | dc31ef03b3a22b2e0a5a7800f79e29fdc01ff6a65d3c08157d69a3824faf152a |
+        | q05 | 2023-24/sheet-3.pdf | 1, 2 | 5 | fd593502f740d35ab9efd49c550c826d250fdb3f95d032dab0215f378927b749 |
+        | q05 | 2025-26/sheet-3.pdf | 1 | 5 | 7dc60e3cccde6319643cdf2d5772ae75042d52f16c29de279ddf9eed396de9e4 |
+        | q05 | 2026-27/sheet-3.pdf | 1 | 5 | 3cd82eed2200915a01b6a8e8784f28a61d16d4f3e7789b0d49785061cb6c1789 |
+        | q05 | 2022-23/sheet-3-variant-B.pdf | 1 | 5 | 1b1e3beac26ae07512102070e04816e9a3e97d77a2aeb5f487ca608afa4d78a5 |
+        | q06 | 2022-23/sheet-3.pdf | 2 | 6 | dc31ef03b3a22b2e0a5a7800f79e29fdc01ff6a65d3c08157d69a3824faf152a |
+        | q06 | 2023-24/sheet-3.pdf | 2 | 6 | fd593502f740d35ab9efd49c550c826d250fdb3f95d032dab0215f378927b749 |
+        | q06 | 2025-26/sheet-3.pdf | 2 | 6 | 7dc60e3cccde6319643cdf2d5772ae75042d52f16c29de279ddf9eed396de9e4 |
+        | q06 | 2026-27/sheet-3.pdf | 2 | 6 | 3cd82eed2200915a01b6a8e8784f28a61d16d4f3e7789b0d49785061cb6c1789 |
+        | q06 | 2022-23/sheet-3-variant-B.pdf | 2 | 6 | 1b1e3beac26ae07512102070e04816e9a3e97d77a2aeb5f487ca608afa4d78a5 |
+        | radial-2018 | 2018-19/sheet-3.pdf | 1 | 5 | 66db8866e0b11d0fd3a93eee22f89c4b8f151c288749f85ac77385e50a798744 |
+        | radial-2018 | 2019-20/sheet-3.pdf | 1 | 5 | 70db41bd08f5db91824839181581ccd4d603f872de3d89f8df550219ae6601b5 |
+        | radial-2018 | 2020-21/sheet-3.pdf | 1 | 5 | 4111d87ab326d4c9c6c5d605fdc92f02b5a3c3392e375acdfa4d31d1340dcdfc |
+        | radial-2018 | 2019-20/sheet-3-variant-B.pdf | 1 | 5 | d25b6aedaa263f4b2b869893b45d14f91f2ed480b8486c886420a9302301312b |
+
+        ## Distinguishing printed details
+
+        The oldest oscillator uses U, Cartesian letters x, y, z and capitals with axis subscripts. The next oscillator uses V and the later one uses U with indexed coordinates and lower-case quantum numbers. The 2015 hydrogen problem uses mass m and a recall hint. The later paired radial tasks use electron mass with subscript e. The version with the later article uses chi; its predecessor uses psi. The boost passage includes the minus in its time phase and the proportionality condition on k and u.
+
+        ## Blind statement fingerprints
+
+        - boost-2015/question.tex — f9b02f87f3074e2788429eb5ada5d0e45711c1aaa69eca097fd5117babc47046
+        - hydrogen-radial-2015/question.tex — 3d33ac0dba2a50ec778fab8867d109e497635113fd0917217a74c8a6af0dbeef
+        - oscillator-2015/question.tex — 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+        - oscillator-early/question.tex — 1ab1084fb62799f5bafa9e7400d707ed5179057977b8f9c76218c6d9fe3d5426
+        - q05/question.tex — c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+        - q06/question.tex — ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+        - radial-2018/question.tex — f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+    oscillator-2015.md:
+      sha256: 43885e53316956904084730ddc5869821c88e377f8501008bd80a16046f1818f
+      text: |
+        # Independent rework with potential V
+
+        Use \(b=(\hbar/m\omega)^{1/2}\) and the standard normalized one-dimensional eigenfunctions \(\phi_n(x)=H_n(x/b)e^{-(x/b)^2/2}/(\pi^{1/4}\sqrt{2^n n!b})\), with \(n=0,1,\ldots\). The potential and the kinetic energy both split by coordinate. For the product \(\prod_j\phi_{n_j}(x_j)\) each one-dimensional operator contributes its eigenvalue \(\hbar\omega(n_j+1/2)\). This gives \(E=\hbar\omega(n_1+n_2+n_3+3/2)\). Products form an orthonormal basis of the three-dimensional space since their three factors independently range over complete one-dimensional bases.
+
+        Let \(N=n_1+n_2+n_3\). Splitting \(N\) objects by two dividers gives \(\binom{N+2}{2}\) triples and the same eigenspace dimension for each nonnegative integral \(N\). At \(N=0\) the product is \(G=(\pi b^2)^{-3/4}e^{-r^2/(2b^2)}\), invariant under rotations. Seek a second radial eigenstate as \(P G\), where \(P=r^2+c\). Applying \(H\) by the product rule yields
+        \[
+        H(PG)/G=\tfrac32\hbar\omega P-\tfrac{\hbar^2}{2m}\Delta P+\hbar\omega\,\mathbf x\cdot\nabla P
+        =\tfrac32\hbar\omega P-3\hbar^2/m+2\hbar\omega r^2.
+        \]
+        For eigenvalue \(7\hbar\omega/2\), the last two terms must equal \(2\hbar\omega P\), hence \(c=-3b^2/2\). This state is nonzero, square-integrable and spherically symmetric.
+    oscillator-early.md:
+      sha256: 20a7221ccd2adefca6181ec58e52bf0f7c92e50651cdf4b8337806faf30f2c3a
+      text: |
+        # Independent rework in Cartesian coordinates
+
+        Take \(m,\omega>0\), \(b=\sqrt{\hbar/(m\omega)}\), \(s=x/b\). The one-dimensional Hamiltonian divided by \(\hbar\omega\) is \(a^\dagger a+1/2\), with \(a=(s+\partial_s)/\sqrt2\), \([a,a^\dagger]=1\). The norm identity for successive lowered eigenstates of \(a^\dagger a\) with initial eigenvalue \(\nu\) gives factorial products \(\nu(\nu-1)\cdots(\nu-j+1)\). Positivity requires the lowering chain to terminate at a nonnegative integer \(\nu=n\). The lowest solution of \(a\phi_0=0\) is proportional to \(e^{-s^2/2}\). The normalized Hermite functions are
+        \[
+        \phi_n(x)=\frac{H_n(x/b)e^{-x^2/(2b^2)}}{\pi^{1/4}\sqrt{b\,2^n n!}}.
+        \]
+        They are the successive normalized raises of this state.
+
+        In three dimensions the Hamiltonian is a sum of the three commuting one-variable Hamiltonians. Acting on \(\phi_{N_x}(x)\phi_{N_y}(y)\phi_{N_z}(z)\) gives \(E=\hbar\omega(3/2+N_x+N_y+N_z)\). These products form an orthonormal basis by completeness of the Hermite functions on each line. With time included each stationary state acquires \(e^{-iEt/\hbar}\).
+
+        At fixed \(N\), fixing \(N_x=k\) leaves \(N-k+1\) choices for \((N_y,N_z)\). Summing \(k=0,\dots,N\) gives \((N+1)(N+2)/2\), including one ground state. It is \(G=(\pi b^2)^{-3/4}\exp(-r^2/(2b^2))\). At \(N=2\), sum the three product states with two quanta along one axis and divide by \(\sqrt3\). From \(H_2(s)=4s^2-2\) their sum gives \((2r^2/b^2-3)G/\sqrt6\). It is normalized by orthogonality and depends only on \(r\).
+    q05.md:
+      sha256: 34e70198ef8df509b1299db639602ae8836e18ee718cd0ce070cf4c373da888c
+      text: |
+        # Independent rework with potential U
+
+        The Cartesian Hamiltonian is \(H=\sum_{j=1}^3[-\hbar^2\partial_j^2/(2m)+m\omega^2 x_j^2/2]\). By the given one-dimensional oscillator result, choose \(b=\sqrt{\hbar/(m\omega)}\) and normalized eigenfunctions \(\phi_n(t)=(2^n n!\sqrt\pi b)^{-1/2}H_n(t/b)e^{-t^2/(2b^2)}\). Then \(F_{\mathbf n}=\phi_{n_1}(x_1)\phi_{n_2}(x_2)\phi_{n_3}(x_3)\) has energy \((n_1+n_2+n_3+3/2)\hbar\omega\), since each summand differentiates only its own factor. Product orthonormality and completeness follow from the one-dimensional basis in each coordinate, giving precisely these levels at nonnegative integer total \(N\).
+
+        The number of triples with total \(N\) is the coefficient of \(z^N\) in \((\sum_{n\ge0}z^n)^3=(1-z)^{-3}\), namely \((N+1)(N+2)/2\). Write \(G=F_{000}=(\pi b^2)^{-3/4}e^{-r^2/(2b^2)}\). It is the unique ground state up to phase and depends only on \(r\). Using \(\phi_2/\phi_0=(2t^2/b^2-1)/\sqrt2\), the normalized state \((F_{200}+F_{020}+F_{002})/\sqrt3\) is \(G(2r^2/b^2-3)/\sqrt6\). Each term has total \(N=2\), and the last expression is invariant under rotations.
+    q06.md:
+      sha256: e39697f7765b0366f8d23684c3f6cd8722473500c9bf3852ffc0fbb57d580102
+      text: |
+        # Independent rework of the radial eigenfunction problem
+
+        (a) Applying the chain rule on \(\mathbb R^3\setminus\{0\}\) gives \(\nabla\chi=\chi'\mathbf r/r\). The radial divergence is \(r^{-2}\partial_r(r^2\chi')=\chi''+2\chi'/r=(r\chi)''/r\). Since \(\mathbf p^2=-\hbar^2\Delta\), conjugation of the first derivative by multiplication by \(r\) gives the factorization: \(p_r=-i\hbar r^{-1}\partial_r r=-i\hbar(\partial_r+1/r)\), whose square is \(-\hbar^2r^{-1}\partial_r^2 r\). This statement concerns the differential expressions on radial functions; singular functions at the origin or closed operator domains require separate boundary analysis.
+
+        For the radial measure \(4\pi r^2dr\), the boundary form is \(-4\pi i\hbar[(rf)^*(rg)]_0^\infty\). The usual regular functions with vanishing endpoint products, or the smooth compactly supported core away from zero, therefore give a symmetric (formally Hermitian) momentum. To test self-adjointness transform by \(f\mapsto \sqrt{4\pi}rf\), which sends \(p_r\) to \(P=-i\hbar d/dr\) on the half-line. The closure on \(H_0^1\) requires the reduced function to vanish at the origin. Its adjoint on \(H^1\) also admits nonzero boundary values. The deficiency equations \(P^*u=\pm i\lambda u\), \(\lambda>0\), have respective solutions \(e^{-\lambda r/\hbar}\) and \(e^{+\lambda r/\hbar}\) up to scale. Their square-integrable dimensions are 1 and 0. The radial momentum thus has no self-adjoint extension in this space.
+
+        (b) Set \(g=e^2/(4\pi\epsilon_0)\). For \(\chi=Ce^{-r/a}\), the radial Laplacian divided by \(\chi\) is \(a^{-2}-2/(ar)\). Dividing the Schrödinger equation by the nonzero function gives
+        \[
+        E=-\hbar^2/(2m_ea^2)+(\hbar^2/(m_ea)-g)/r.
+        \]
+        The coefficient of \(1/r\) must vanish, giving \(a=\hbar^2/(m_e g)=a_0\) and \(E=-m_e g^2/(2\hbar^2)\). This choice has positive decay length and belongs to the regular hydrogen branch, with \(r\chi\to0\) at zero and no distributional point source because \(r^2\chi'\to0\).
+
+        For \(\lambda=2/a\), successive integration by parts gives \(\int_0^\infty r^k e^{-\lambda r}dr=k!\lambda^{-(k+1)}\). The normalized three-dimensional wavefunction has \(4\pi |C|^2(2!)/\lambda^3=1\), hence \(|C|=(\pi a^3)^{-1/2}\), with arbitrary overall phase. Its mean separation is \(4\pi|C|^2(3!)/\lambda^4=3/\lambda=3a_0/2\), greater than the Bohr radius by one half of that radius.
+    radial-2018.md:
+      sha256: bcf66061fcc9d6b960f64911c68a00aa952d98592164ed8a48f1ae1efc9d0e64
+      text: |
+        # Independent rework of the radial wavefunction problem
+
+        (a) For \(r>0\), \(\partial_{x_j}r=x_j/r\), so \(\nabla\psi=\hat{\mathbf r}\psi'\). The divergence of \(\hat{\mathbf r}\) is \(3/r-r^2/r^3=2/r\). Therefore \(\Delta\psi=\psi''+2\psi'/r=(r\psi)''/r\). Writing \(p_r\psi=-i\hbar(r\psi)'/r\) gives \(p_r^2\psi=-\hbar^2(r\psi)''/r=\mathbf p^2\psi\) as differential expressions. The origin requires regular radial boundary conditions. The equality holds, for instance, on smooth radial test functions supported away from zero; it is not a claim that the closed operators have identical domains.
+
+        The radial inner product has measure \(4\pi r^2dr\). Integration by parts gives \(\langle f,p_rg\rangle-\langle p_rf,g\rangle=-4\pi i\hbar[r^2 f^*g]_0^\infty\). Vanishing endpoint terms give Hermiticity in the sense of symmetry. For a precise distinction, \(u=\sqrt{4\pi}r f\) carries the radial Hilbert space unitarily to \(L^2(0,\infty;dr)\). It sends \(p_r\) to \(-i\hbar\,d/dr\). Its closed symmetric realization on \(H_0^1(0,\infty)\) requires \(u(0)=0\), while the adjoint on \(H^1(0,\infty)\) has no endpoint condition. For a positive momentum \(\lambda\), the solutions of \(p_r^*u=\pm i\lambda u\) are \(e^{\mp\lambda r/\hbar}\); only the decaying one is square-integrable. Unequal deficiency indices \((1,0)\) preclude a self-adjoint extension of this radial momentum.
+
+        (b) Let \(b=e^2/(4\pi\epsilon_0)\) and set \(v=r\psi=Cr e^{-r/a}\). Then \(v''=C e^{-r/a}(r/a^2-2/a)\). The equation becomes \(-\hbar^2 v''/(2m_e)-b v/r=Ev\), whose constant coefficient after cancelling the common exponential gives \(\hbar^2/(m_ea)-b=0\), and whose linear coefficient gives \(E=-\hbar^2/(2m_e a^2)\). Thus \(a=\hbar^2/(m_e b)=a_0>0\) and \(E=-m_e b^2/(2\hbar^2)\). The reduced function has \(v(0)=0\) and exponential decay, with regular full wavefunction at the origin. In particular no \(1/r\) singular branch is present.
+
+        With \(J_n=\int_0^\infty r^ne^{-2r/a}dr=n!(a/2)^{n+1}\), normalization gives \(4\pi|C|^2 J_2=1\), or \(C=e^{i\theta}(\pi a^3)^{-1/2}\). The mean distance is \(J_3/J_2=3a/2=3a_0/2\) for the stationary proton.
+statement_findings:
+  boost-2015:
+    unit: IB/quantum-mechanics/sheet-3/qx04
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/qx04/solution.tex
+    question_sha256: f9b02f87f3074e2788429eb5ada5d0e45711c1aaa69eca097fd5117babc47046
+    solution_sha256: e1d514023040c93801ded82cce4c478f7f5917aa1d436b113d4a7904e1e2cfb7
+    comparison: Matches the three individual momenta, free dispersion and signs of the phase and coordinate shift. Both
+      derivations cancel the same first-derivative and scalar terms, including zero boosts.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/qx04/check.py
+      sha256: 342a8db551a3e34e69836f945ae9ed4ebfeb96f365435a2f61163769764564a9
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/qx04/meta.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Three-dimensional Fourier momenta and boosted free dispersion verified.
+  hydrogen-radial-2015:
+    unit: IB/quantum-mechanics/sheet-3/q06
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/verified-2015-16-3d33ac0dba2a/solution.tex
+    question_sha256: 3d33ac0dba2a50ec778fab8867d109e497635113fd0917217a74c8a6af0dbeef
+    solution_sha256: 283bbf9596573448f610573e89b3f1e4764b7202d41531f70afcc165d8699c50
+    comparison: Matches cancellation of the 1/r term, origin flux, fixed-proton Bohr radius, energy, arbitrary normalization
+      phase and the mean of three halves of the Bohr radius.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/verified-2015-16-3d33ac0dba2a/check.py
+      sha256: 4f6d05b5c6ed307163eec94f7a799f4666db67e3270231fe5a6202f3044ff60e
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/verified-2015-16-3d33ac0dba2a/metadata-before.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Coulomb eigenvalue, normalization, mean radius and formal radial square verified.
+  oscillator-2015:
+    unit: IB/quantum-mechanics/sheet-3/q05
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/solution.tex
+    question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+    solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+    comparison: The independent radial polynomial from the product rule is proportional to the stored Hermite combination.
+      The separation, shell energies and degeneracies agree.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/check.py
+      sha256: 04842c385bc4e210c452c13c731a4fe411d883509677935928d5a39bbda9d5de
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/metadata-before.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Spherical oscillator eigenstates and all first twelve degeneracies verified.
+  oscillator-early:
+    unit: IB/quantum-mechanics/sheet-3/q05
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2006-07-1ab1084fb627/solution.tex
+    question_sha256: 1ab1084fb62799f5bafa9e7400d707ed5179057977b8f9c76218c6d9fe3d5426
+    solution_sha256: df569e1162ebe8c757635f10c19957f80079b3e861094bc7fbc85db699c5437a
+    comparison: The stored indexed Hermite product gives the requested three Cartesian factors using the printed capital
+      subscripts. Degeneracy, ground state and radial two-quanta state match, including nonzero and square-integrable
+      solutions.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2006-07-1ab1084fb627/check.py
+      sha256: 04842c385bc4e210c452c13c731a4fe411d883509677935928d5a39bbda9d5de
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2006-07-1ab1084fb627/metadata-before.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Spherical oscillator eigenstates and all first twelve degeneracies verified.
+  q05:
+    unit: IB/quantum-mechanics/sheet-3/q05
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+    question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+    solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+    comparison: Matches the Cartesian Hermite factors, completeness, multiplicity, unique ground state and normalization
+      of the symmetric sum at N=2.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/q05/check.py
+      sha256: b2ed854293a9866f11020f3d099a712b34e78054758f56bee19bdc1668da83b0
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/q05/meta.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Shell counts, two oscillator eigenvalues and radial-state normalization verified.
+  q06:
+    unit: IB/quantum-mechanics/sheet-3/q06
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/solution.tex
+    question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+    solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+    comparison: Both reworks preserve the distinction between symmetry and self-adjointness, with boundary form and deficiency
+      indices (1,0). All Coulomb constants, normalization and the mean distance match.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/check.py
+      sha256: e636cc4fc7ae551c44d8ea8e7d00f7a1bb7d18c397980cf9cb3166fc6d641efe
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/metadata-before.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Radial square, boundary form, Coulomb energy, normalization and mean radius verified.
+  radial-2018:
+    unit: IB/quantum-mechanics/sheet-3/q06
+    paired_solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/solution.tex
+    question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+    solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+    comparison: Agrees on the formal radial square, weighted symmetry and unequal deficiency indices on the half-line,
+      and on the fixed-proton Coulomb length, energy, normalization and mean distance.
+    computer:
+      script: courses/IB/quantum-mechanics/sheets/sheet-3/q06/check.py
+      sha256: 4f6d05b5c6ed307163eec94f7a799f4666db67e3270231fe5a6202f3044ff60e
+      record: courses/IB/quantum-mechanics/sheets/sheet-3/q06/meta.yaml
+      source_and_receipt_hashes_checked: true
+      return_code: 0
+      stdout: Coulomb eigenvalue, normalization, mean radius and formal radial square verified.
+source_positions:
+- category: dated
+  edition: 2015-16
+  source: raw/sheets/IB/quantum-mechanics/2015-16/sheet-3.pdf
+  source_sha256: 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66
+  printed_question: '3'
+  pages:
+  - 1
+  unit: qx04
+  statement: boost-2015
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/qx04/question.tex
+  question_sha256: f9b02f87f3074e2788429eb5ada5d0e45711c1aaa69eca097fd5117babc47046
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/qx04/solution.tex
+  solution_sha256: e1d514023040c93801ded82cce4c478f7f5917aa1d436b113d4a7904e1e2cfb7
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2015-16
+  source: raw/sheets/IB/quantum-mechanics/2015-16/sheet-3.pdf
+  source_sha256: 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q06
+  statement: hydrogen-radial-2015
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/variants/2015-16/question.tex
+  question_sha256: 3d33ac0dba2a50ec778fab8867d109e497635113fd0917217a74c8a6af0dbeef
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/verified-2015-16-3d33ac0dba2a/solution.tex
+  solution_sha256: 283bbf9596573448f610573e89b3f1e4764b7202d41531f70afcc165d8699c50
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2015-16
+  source: raw/sheets/IB/quantum-mechanics/2015-16/sheet-3.pdf
+  source_sha256: 971810caeae91aead777b13490c94de7c9cff0937f00a9827e6ff3f87a31da66
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: oscillator-2015
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/variants/2015-16/question.tex
+  question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/solution.tex
+  solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2018-19
+  source: raw/sheets/IB/quantum-mechanics/2018-19/sheet-3.pdf
+  source_sha256: 66db8866e0b11d0fd3a93eee22f89c4b8f151c288749f85ac77385e50a798744
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: oscillator-2015
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/variants/2018-19/question.tex
+  question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/solution.tex
+  solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2019-20
+  source: raw/sheets/IB/quantum-mechanics/2019-20/sheet-3.pdf
+  source_sha256: 70db41bd08f5db91824839181581ccd4d603f872de3d89f8df550219ae6601b5
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: oscillator-2015
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/variants/2019-20/question.tex
+  question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/solution.tex
+  solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: ancillary
+  edition: 2019-20-B
+  source: raw/sheets/IB/quantum-mechanics/2019-20/sheet-3-variant-B.pdf
+  source_sha256: d25b6aedaa263f4b2b869893b45d14f91f2ed480b8486c886420a9302301312b
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: oscillator-2015
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/variants/2019-20-B/question.tex
+  question_sha256: 4f5b0335c9b307f19cc82c5d895c1690b9c8c8287c05c993d7967af969a1e473
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2015-16-4f5b0335c9b3/solution.tex
+  solution_sha256: f991a4212deb14813ca84a3d056391607f6038d201dadee393525fdf6f90665f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2006-07
+  source: raw/sheets/IB/quantum-mechanics/2006-07/sheet-3.pdf
+  source_sha256: 72bec322288db9ae5195610175c172f534743d3c7847a0957f4e133ab33aa579
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: oscillator-early
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/variants/2006-07/question.tex
+  question_sha256: 1ab1084fb62799f5bafa9e7400d707ed5179057977b8f9c76218c6d9fe3d5426
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2006-07-1ab1084fb627/solution.tex
+  solution_sha256: df569e1162ebe8c757635f10c19957f80079b3e861094bc7fbc85db699c5437a
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: ancillary
+  edition: unresolved-header-2003-copyright-2004
+  source: raw/sheets/IB/quantum-mechanics/unresolved-header-2003-copyright-2004/sheet-3.pdf
+  source_sha256: acab554e60e59132ac8f3f1f4ee869e104a39c7c052f3ee9e77b64ca7e51b2db
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: oscillator-early
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/variants/unresolved-header-2003-copyright-2004/question.tex
+  question_sha256: 1ab1084fb62799f5bafa9e7400d707ed5179057977b8f9c76218c6d9fe3d5426
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/history/verified-2006-07-1ab1084fb627/solution.tex
+  solution_sha256: df569e1162ebe8c757635f10c19957f80079b3e861094bc7fbc85db699c5437a
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2020-21
+  source: raw/sheets/IB/quantum-mechanics/2020-21/sheet-3.pdf
+  source_sha256: 4111d87ab326d4c9c6c5d605fdc92f02b5a3c3392e375acdfa4d31d1340dcdfc
+  printed_question: '2'
+  pages:
+  - 1
+  unit: q05
+  statement: q05
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/question.tex
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+  solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2022-23
+  source: raw/sheets/IB/quantum-mechanics/2022-23/sheet-3.pdf
+  source_sha256: dc31ef03b3a22b2e0a5a7800f79e29fdc01ff6a65d3c08157d69a3824faf152a
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q05
+  statement: q05
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/question.tex
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+  solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2023-24
+  source: raw/sheets/IB/quantum-mechanics/2023-24/sheet-3.pdf
+  source_sha256: fd593502f740d35ab9efd49c550c826d250fdb3f95d032dab0215f378927b749
+  printed_question: '5'
+  pages:
+  - 1
+  - 2
+  unit: q05
+  statement: q05
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/question.tex
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+  solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2025-26
+  source: raw/sheets/IB/quantum-mechanics/2025-26/sheet-3.pdf
+  source_sha256: 7dc60e3cccde6319643cdf2d5772ae75042d52f16c29de279ddf9eed396de9e4
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q05
+  statement: q05
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/question.tex
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+  solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2026-27
+  source: raw/sheets/IB/quantum-mechanics/2026-27/sheet-3.pdf
+  source_sha256: 3cd82eed2200915a01b6a8e8784f28a61d16d4f3e7789b0d49785061cb6c1789
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q05
+  statement: q05
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/question.tex
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+  solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: ancillary
+  edition: 2022-23-B
+  source: raw/sheets/IB/quantum-mechanics/2022-23/sheet-3-variant-B.pdf
+  source_sha256: 1b1e3beac26ae07512102070e04816e9a3e97d77a2aeb5f487ca608afa4d78a5
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q05
+  statement: q05
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q05/question.tex
+  question_sha256: c1c82227ac80821d1f1c296fa1a2f525a3b49d7c6699ef802dcfaf6b9d1a4b81
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q05/solution.tex
+  solution_sha256: e8adc0267b105397ed3aff0fb390d6bc76f2828e49fcc3485aa405b817b2153c
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2022-23
+  source: raw/sheets/IB/quantum-mechanics/2022-23/sheet-3.pdf
+  source_sha256: dc31ef03b3a22b2e0a5a7800f79e29fdc01ff6a65d3c08157d69a3824faf152a
+  printed_question: '6'
+  pages:
+  - 2
+  unit: q06
+  statement: q06
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/variants/2022-23/question.tex
+  question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/solution.tex
+  solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2023-24
+  source: raw/sheets/IB/quantum-mechanics/2023-24/sheet-3.pdf
+  source_sha256: fd593502f740d35ab9efd49c550c826d250fdb3f95d032dab0215f378927b749
+  printed_question: '6'
+  pages:
+  - 2
+  unit: q06
+  statement: q06
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/variants/2023-24/question.tex
+  question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/solution.tex
+  solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2025-26
+  source: raw/sheets/IB/quantum-mechanics/2025-26/sheet-3.pdf
+  source_sha256: 7dc60e3cccde6319643cdf2d5772ae75042d52f16c29de279ddf9eed396de9e4
+  printed_question: '6'
+  pages:
+  - 2
+  unit: q06
+  statement: q06
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/variants/2025-26/question.tex
+  question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/solution.tex
+  solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2026-27
+  source: raw/sheets/IB/quantum-mechanics/2026-27/sheet-3.pdf
+  source_sha256: 3cd82eed2200915a01b6a8e8784f28a61d16d4f3e7789b0d49785061cb6c1789
+  printed_question: '6'
+  pages:
+  - 2
+  unit: q06
+  statement: q06
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/variants/2026-27/question.tex
+  question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/solution.tex
+  solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: ancillary
+  edition: 2022-23-B
+  source: raw/sheets/IB/quantum-mechanics/2022-23/sheet-3-variant-B.pdf
+  source_sha256: 1b1e3beac26ae07512102070e04816e9a3e97d77a2aeb5f487ca608afa4d78a5
+  printed_question: '6'
+  pages:
+  - 2
+  unit: q06
+  statement: q06
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/variants/2022-23-B/question.tex
+  question_sha256: ec09f21a8b5b62a0eb64760ec4e780590fe077fc3e05b7bc59c68b5b1bc08db9
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/history/2026-11-21-baseline-before-expanded-question/solution.tex
+  solution_sha256: 4d9a64abc1fb944c77f88d3e192a60bfa44a9351d8e760da260ad139490c9d2f
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2018-19
+  source: raw/sheets/IB/quantum-mechanics/2018-19/sheet-3.pdf
+  source_sha256: 66db8866e0b11d0fd3a93eee22f89c4b8f151c288749f85ac77385e50a798744
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q06
+  statement: radial-2018
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/question.tex
+  question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/solution.tex
+  solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2019-20
+  source: raw/sheets/IB/quantum-mechanics/2019-20/sheet-3.pdf
+  source_sha256: 70db41bd08f5db91824839181581ccd4d603f872de3d89f8df550219ae6601b5
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q06
+  statement: radial-2018
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/question.tex
+  question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/solution.tex
+  solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: dated
+  edition: 2020-21
+  source: raw/sheets/IB/quantum-mechanics/2020-21/sheet-3.pdf
+  source_sha256: 4111d87ab326d4c9c6c5d605fdc92f02b5a3c3392e375acdfa4d31d1340dcdfc
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q06
+  statement: radial-2018
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/question.tex
+  question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/solution.tex
+  solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+- category: ancillary
+  edition: 2019-20-B
+  source: raw/sheets/IB/quantum-mechanics/2019-20/sheet-3-variant-B.pdf
+  source_sha256: d25b6aedaa263f4b2b869893b45d14f91f2ed480b8486c886420a9302301312b
+  printed_question: '5'
+  pages:
+  - 1
+  unit: q06
+  statement: radial-2018
+  text: courses/IB/quantum-mechanics/sheets/sheet-3/q06/question.tex
+  question_sha256: f1036e8874c4318909aeabcd1bae788706648ccf48d7869db01a06e5121d5915
+  solution: courses/IB/quantum-mechanics/sheets/sheet-3/q06/solution.tex
+  solution_sha256: 682ac585b3cb2311ddcf5aedd0ab09e8c9cccde2fd3b261673e22050e0981fb9
+  visual_comparison: Agrees with original page images.
+  mathematical_comparison: Agrees with frozen named rework.
+counts:
+  sampled_units: 3
+  distinct_statements: 7
+  source_occurrences: 23
+  dated_positions: 18
+  additional_original_positions: 5
+  executed_computer_checks: 7
+  canonical_browser_views: 3
+  dated_browser_views: 18
+  displayed_formulae: 634
+  successfully_rendered_formulae: 634
+  sampled_pdf_pages_viewed: 25
+  collection_pdfs: 1
+  dated_sheet_3_pdfs: 9
+result:
+  substantive_errors: 0
+  transcription_errors: 0
+  mathematical_errors: 0
+  computer_check_failures: 0
+  delivery_errors: 0
+  observed_unit_error_rate: 0/3
+  observed_distinct_statement_error_rate: 0/7
+  observed_dated_occurrence_error_rate: 0/18
+  observed_additional_occurrence_error_rate: 0/5
+  observed_all_occurrence_error_rate: 0/23
+  computer_failures: 0/7
+  pdf_failures: 0/25
+  html_failures: 0/21
+  full_sheet_review_triggered: false
+  official_answer_comparison: false
+observed_before_repair:
+  substantive_errors: 0
+  transcription_errors: 0
+  mathematical_errors: 0
+  computer_check_failures: 0
+  delivery_errors: 0
+  observed_unit_error_rate: 0/3
+  observed_distinct_statement_error_rate: 0/7
+  observed_dated_occurrence_error_rate: 0/18
+  observed_additional_occurrence_error_rate: 0/5
+  observed_all_occurrence_error_rate: 0/23
+  computer_failures: 0/7
+  pdf_failures: 0/25
+  html_failures: 0/21
+  full_sheet_review_triggered: false
+  official_answer_comparison: false
+observed_after_repair:
+  repairs: 0
+  substantive_errors: 0
+  transcription_errors: 0
+  mathematical_errors: 0
+  computer_check_failures: 0
+  delivery_errors: 0
+  observed_unit_error_rate: 0/3
+  observed_distinct_statement_error_rate: 0/7
+  observed_dated_occurrence_error_rate: 0/18
+  observed_additional_occurrence_error_rate: 0/5
+  observed_all_occurrence_error_rate: 0/23
+  computer_failures: 0/7
+  pdf_failures: 0/25
+  html_failures: 0/21
+  full_sheet_review_triggered: false
+  official_answer_comparison: false
+delivery:
+  2015-16-qx04:
+    year: 2015-16
+    unit: qx04
+    pdf: build/IB-quantum-mechanics-sheet-3-2015-16/main.pdf
+    pdf_sha256: 0f2a658abc821cb1cdabfb74d6ed8dd7aa3e32d9ba00d277f63879138c2a8446
+    pages:
+    - 3
+    rasters:
+      2015-16-qx04-p3.png: 1b4bfd1f61f518137452802a2ee086af8adbaaa0adaa75d50bbb963449801a38
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2015-16.html
+    html_sha256: 1359574094be662c57114d8969c8c0a5eb94340bf41df767e1764173263911c8
+    statement: boost-2015
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 155ab2d1053a7065d5aff63753c92d90363d460c21888beffd72694c411e3b02
+    screenshot_dimensions:
+    - 1160
+    - 657
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  canonical-qx04:
+    year: canonical
+    unit: qx04
+    pdf: build/IB-quantum-mechanics-sheet-3/main.pdf
+    pdf_sha256: f0ce384b310afcf5388545c2c8093ba525a06ce01783dd9bfa89052854d495fa
+    pages:
+    - 18
+    rasters:
+      canonical-qx04-p18.png: 5ccad8e0c8d419ff5e9c2d377ce7c84030bfa4b891ae99589ed3974a6b355f20
+    html: site/private/questions/IB/quantum-mechanics/sheet-3/qx04/index.html
+    html_sha256: d7b80c16676f93674692a452b41c0dd145f27e8f91bd3153d9619dc8fe86eb00
+    statement: boost-2015
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: e821ecfc7bb220d60a1d0b919f88180223374f4658237789c736fa58e6d20a88
+    screenshot_dimensions:
+    - 850
+    - 933
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2015-16-q06:
+    year: 2015-16
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2015-16/main.pdf
+    pdf_sha256: 0f2a658abc821cb1cdabfb74d6ed8dd7aa3e32d9ba00d277f63879138c2a8446
+    pages:
+    - 5
+    rasters:
+      2015-16-q06-p5.png: 23f7a4a8425b72625a37113cf840c3eba608c457d6cc3739a57378c1450831f3
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2015-16.html
+    html_sha256: 1359574094be662c57114d8969c8c0a5eb94340bf41df767e1764173263911c8
+    statement: hydrogen-radial-2015
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 20
+      rendered: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 5ea88bdf565343bcb03c75ac6b1fa96725311a17f3f72c1777bc9650685dbf58
+    screenshot_dimensions:
+    - 1160
+    - 758
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2015-16-q05:
+    year: 2015-16
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2015-16/main.pdf
+    pdf_sha256: 0f2a658abc821cb1cdabfb74d6ed8dd7aa3e32d9ba00d277f63879138c2a8446
+    pages:
+    - 2
+    rasters:
+      2015-16-q05-p2.png: 18bf92f393eef671d79a11e1bff598fb884c1f76de84e21523825111fe547f63
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2015-16.html
+    html_sha256: 1359574094be662c57114d8969c8c0a5eb94340bf41df767e1764173263911c8
+    statement: oscillator-2015
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: bf5df55a8a160571f7cc7e60cc76b935ae980137b074d4976bdc8d4b3fa57186
+    screenshot_dimensions:
+    - 1160
+    - 762
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2018-19-q05:
+    year: 2018-19
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2018-19/main.pdf
+    pdf_sha256: fd52dc17b8e10bd3b9470da5fffc9c4fb00da4ec9422a091e2b217127743077f
+    pages:
+    - 2
+    rasters:
+      2018-19-q05-p2.png: 95d198b19a2a6ff9cd7b00c30d3c00f54cd3e7937d14e7bec2bba227d112037a
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2018-19.html
+    html_sha256: 752fefe983e9c2f05e2f9b6e3d02eb9bf215377d86670173155564ad52ebec20
+    statement: oscillator-2015
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: bf5df55a8a160571f7cc7e60cc76b935ae980137b074d4976bdc8d4b3fa57186
+    screenshot_dimensions:
+    - 1160
+    - 762
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2019-20-q05:
+    year: 2019-20
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2019-20/main.pdf
+    pdf_sha256: dbf2cbde78eaad357dd3c072039a893355506abc9b758ad0d1d8cde832fb9bd7
+    pages:
+    - 2
+    rasters:
+      2019-20-q05-p2.png: a8116923f16ddee1170ebc751d8bb6f9754f554f8df07fc42c9194bd6d3a22fc
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2019-20.html
+    html_sha256: da733914ff8347b56057eb8b5fdd6e2da9849901fa23c2b4e7a3aa8016a54667
+    statement: oscillator-2015
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: bf5df55a8a160571f7cc7e60cc76b935ae980137b074d4976bdc8d4b3fa57186
+    screenshot_dimensions:
+    - 1160
+    - 762
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2006-07-q05:
+    year: 2006-07
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2006-07/main.pdf
+    pdf_sha256: 4e19106b6f746cce294b3aa36b3599c294349a31300d8e2e7c72e5b0d53cda2e
+    pages:
+    - 2
+    rasters:
+      2006-07-q05-p2.png: fda137171bac88e2bdb9e91bd3443ca76604d48d6247c565031b630eadad4f47
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2006-07.html
+    html_sha256: cbfe350156a5f7d586648fce7f3cead2391bb21ce01adb0faf94a4b01738f46d
+    statement: oscillator-early
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: f803f77376c9732e4c3681224c4552f7a545187359ed0800dbb0ef259a78bf37
+    screenshot_dimensions:
+    - 1160
+    - 637
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2020-21-q05:
+    year: 2020-21
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2020-21/main.pdf
+    pdf_sha256: c125efc75015bd315fa5b1fd4c475df438426f901c7d32c62d5c7376fcb8c215
+    pages:
+    - 2
+    rasters:
+      2020-21-q05-p2.png: 086e5d0204592e0fadf074f8f300ca999ead2b8253728b5306b0a83e7b683112
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2020-21.html
+    html_sha256: 53906dbf5b8c2e5ae9895276057bf58bde33452981765a02c3b2dfd769ca3788
+    statement: q05
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: de9736b3d947c93e1695a447bdebcd4b8c1206cfebbfd7f7b17f93174f13fa26
+    screenshot_dimensions:
+    - 1160
+    - 969
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  canonical-q05:
+    year: canonical
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3/main.pdf
+    pdf_sha256: f0ce384b310afcf5388545c2c8093ba525a06ce01783dd9bfa89052854d495fa
+    pages:
+    - 6
+    rasters:
+      canonical-q05-p6.png: 58138a86273a2196cf6d479355831eb6bc58f67fa7f795222fd634fd46334208
+    html: site/private/questions/IB/quantum-mechanics/sheet-3/q05/index.html
+    html_sha256: b11454ec5879a2fb5cff34309672aaa537c73d4682a70756aebc366b2f348f91
+    statement: q05
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: e67f3d627ad276ce09d8ee8951df8b8c396ea5d528bcdc2e4b8af5b54daae2bb
+    screenshot_dimensions:
+    - 850
+    - 1264
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2022-23-q05:
+    year: 2022-23
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2022-23/main.pdf
+    pdf_sha256: 7e0fce66dbe0fe0837d1c22c47dfae035bf0011c2a50e58a5bf7743ed1253ffb
+    pages:
+    - 6
+    rasters:
+      2022-23-q05-p6.png: 863cdb43b315c8c86b102ef3ba8517eb01bb808248b0c845afa263b24ae64a33
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2022-23.html
+    html_sha256: 0ce9feb0467f4eba72a204a949b94c7fb836a0ee8f1528e0e3d13d33485b5271
+    statement: q05
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: c8981c15c34187d4970ea53c6ba035b729e5b470c607f16384fa23cb5fcf5682
+    screenshot_dimensions:
+    - 1160
+    - 969
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2023-24-q05:
+    year: 2023-24
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2023-24/main.pdf
+    pdf_sha256: 12919929af6bc8dcc10fc182a34fd447e546cb03bc5aca552d53a8e7d2cb8bc0
+    pages:
+    - 6
+    rasters:
+      2023-24-q05-p6.png: 86b0bb8136f842e967c7267ede29a8bc88954def61fab175c35551741c0c2d2c
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2023-24.html
+    html_sha256: 7270ecae08e5dfa0cd731f18c438cd1491d73381684bf1f548daaa5e2067b08d
+    statement: q05
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: c8981c15c34187d4970ea53c6ba035b729e5b470c607f16384fa23cb5fcf5682
+    screenshot_dimensions:
+    - 1160
+    - 969
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2025-26-q05:
+    year: 2025-26
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2025-26/main.pdf
+    pdf_sha256: 8d65440f6f5b2da9a7069e8557bfdd6af2f3b5c482bc751fa208fe3db46d7adc
+    pages:
+    - 6
+    rasters:
+      2025-26-q05-p6.png: 81810e8ba1ae5b5da71168bf5cdfa798f8892ca73009d9fff59cee21bf6ca053
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2025-26.html
+    html_sha256: 3260b5d8bfe9ced66dc0cc32779b39c55146742e87a97cf7f985ad0ab1405b1c
+    statement: q05
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: c8981c15c34187d4970ea53c6ba035b729e5b470c607f16384fa23cb5fcf5682
+    screenshot_dimensions:
+    - 1160
+    - 969
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2026-27-q05:
+    year: 2026-27
+    unit: q05
+    pdf: build/IB-quantum-mechanics-sheet-3-2026-27/main.pdf
+    pdf_sha256: 56e0aef31cfafb166a55a2d90aeabc8fb98ecc6989ff1153ef3fe7250b03cb3b
+    pages:
+    - 5
+    rasters:
+      2026-27-q05-p5.png: ade94a6af671a99efe2f49928ee76a10e04de574c56ab642710979221eb8e3a9
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2026-27.html
+    html_sha256: 2fd7a059d3c1c06fc4956d56291c8d21735f07d9e12a8acb9da694ea54473cbc
+    statement: q05
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: c8981c15c34187d4970ea53c6ba035b729e5b470c607f16384fa23cb5fcf5682
+    screenshot_dimensions:
+    - 1160
+    - 969
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2022-23-q06:
+    year: 2022-23
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2022-23/main.pdf
+    pdf_sha256: 7e0fce66dbe0fe0837d1c22c47dfae035bf0011c2a50e58a5bf7743ed1253ffb
+    pages:
+    - 7
+    - 8
+    rasters:
+      2022-23-q06-p7.png: e1e979abb804378d5e81c88a99418cd5681b3b84a9f560087a3c7bb31125aef0
+      2022-23-q06-p8.png: 02370ce13fad426099b3e5bf986028af566406cc29ba6c92ecc4dc92350efda0
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2022-23.html
+    html_sha256: 0ce9feb0467f4eba72a204a949b94c7fb836a0ee8f1528e0e3d13d33485b5271
+    statement: q06
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 45
+      rendered: 45
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 273e361613cd0e8ae2aa8372c5a5c0695e9f0d1fa3602a68fd52b5ce30d485af
+    screenshot_dimensions:
+    - 1160
+    - 1581
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2023-24-q06:
+    year: 2023-24
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2023-24/main.pdf
+    pdf_sha256: 12919929af6bc8dcc10fc182a34fd447e546cb03bc5aca552d53a8e7d2cb8bc0
+    pages:
+    - 7
+    - 8
+    rasters:
+      2023-24-q06-p7.png: fc7fddb0eb42dc39cd3d7dd1a07fd72cde52b99a12ab25d59e82cd2ba85483b5
+      2023-24-q06-p8.png: bd85760feee158f467532b4f89bc36c6c3432d35ee5e706df62143f58f4178bf
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2023-24.html
+    html_sha256: 7270ecae08e5dfa0cd731f18c438cd1491d73381684bf1f548daaa5e2067b08d
+    statement: q06
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 45
+      rendered: 45
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 273e361613cd0e8ae2aa8372c5a5c0695e9f0d1fa3602a68fd52b5ce30d485af
+    screenshot_dimensions:
+    - 1160
+    - 1581
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2025-26-q06:
+    year: 2025-26
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2025-26/main.pdf
+    pdf_sha256: 8d65440f6f5b2da9a7069e8557bfdd6af2f3b5c482bc751fa208fe3db46d7adc
+    pages:
+    - 7
+    - 8
+    rasters:
+      2025-26-q06-p7.png: 244b858f195949cb26120daf99cbe793d66000e7db340a5c160fa29d81315dd7
+      2025-26-q06-p8.png: 10c35837a5699feec3d2db053c2247e598537278b6d58ce2476d42bc9db614e6
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2025-26.html
+    html_sha256: 3260b5d8bfe9ced66dc0cc32779b39c55146742e87a97cf7f985ad0ab1405b1c
+    statement: q06
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 45
+      rendered: 45
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 273e361613cd0e8ae2aa8372c5a5c0695e9f0d1fa3602a68fd52b5ce30d485af
+    screenshot_dimensions:
+    - 1160
+    - 1581
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2026-27-q06:
+    year: 2026-27
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2026-27/main.pdf
+    pdf_sha256: 56e0aef31cfafb166a55a2d90aeabc8fb98ecc6989ff1153ef3fe7250b03cb3b
+    pages:
+    - 6
+    - 7
+    rasters:
+      2026-27-q06-p6.png: da04840692a09174886f1b02d581761d9faae7102fe7da7b78d7ae951e74e0a0
+      2026-27-q06-p7.png: ce2a9f35890bac92f4799bdee11d59aa730e83024f398c2553b5ddb0135acd20
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2026-27.html
+    html_sha256: 2fd7a059d3c1c06fc4956d56291c8d21735f07d9e12a8acb9da694ea54473cbc
+    statement: q06
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 45
+      rendered: 45
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 273e361613cd0e8ae2aa8372c5a5c0695e9f0d1fa3602a68fd52b5ce30d485af
+    screenshot_dimensions:
+    - 1160
+    - 1581
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2018-19-q06:
+    year: 2018-19
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2018-19/main.pdf
+    pdf_sha256: fd52dc17b8e10bd3b9470da5fffc9c4fb00da4ec9422a091e2b217127743077f
+    pages:
+    - 5
+    rasters:
+      2018-19-q06-p5.png: d34127c50d0d73bc94f49609427367a4a74903e7dfdb82f3190e07b364debfdb
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2018-19.html
+    html_sha256: 752fefe983e9c2f05e2f9b6e3d02eb9bf215377d86670173155564ad52ebec20
+    statement: radial-2018
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 41
+      rendered: 41
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 6ec9864b1fb1ccc56d3d0cef89e9336a87fa717be000f16b32df992b77ce1efc
+    screenshot_dimensions:
+    - 1160
+    - 1033
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  canonical-q06:
+    year: canonical
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3/main.pdf
+    pdf_sha256: f0ce384b310afcf5388545c2c8093ba525a06ce01783dd9bfa89052854d495fa
+    pages:
+    - 7
+    rasters:
+      canonical-q06-p7.png: f76e336c2b334ad30eefe6a73b0eece2259cb1a1e3d122416d51031124483962
+    html: site/private/questions/IB/quantum-mechanics/sheet-3/q06/index.html
+    html_sha256: 2fd7cf7a6a7c68215789e6361dc80b72416fb53184065dafc0be3e30fc1521c0
+    statement: radial-2018
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 41
+      rendered: 41
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    screenshot_sha256: 66ddd8f7305811de3d5e34d93a50a003d5ad00121df5c93253318b9d534ce4a8
+    screenshot_dimensions:
+    - 850
+    - 1398
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2019-20-q06:
+    year: 2019-20
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2019-20/main.pdf
+    pdf_sha256: dbf2cbde78eaad357dd3c072039a893355506abc9b758ad0d1d8cde832fb9bd7
+    pages:
+    - 5
+    rasters:
+      2019-20-q06-p5.png: 076a77f9f96f4f37934ece1d83e091395295d3b1f5a6fef4f5ce84ede767a7e1
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2019-20.html
+    html_sha256: da733914ff8347b56057eb8b5fdd6e2da9849901fa23c2b4e7a3aa8016a54667
+    statement: radial-2018
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 41
+      rendered: 41
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 6ec9864b1fb1ccc56d3d0cef89e9336a87fa717be000f16b32df992b77ce1efc
+    screenshot_dimensions:
+    - 1160
+    - 1033
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+  2020-21-q06:
+    year: 2020-21
+    unit: q06
+    pdf: build/IB-quantum-mechanics-sheet-3-2020-21/main.pdf
+    pdf_sha256: c125efc75015bd315fa5b1fd4c475df438426f901c7d32c62d5c7376fcb8c215
+    pages:
+    - 5
+    rasters:
+      2020-21-q06-p5.png: 4cbe55b49f137920a6747c9982bf6d8fb6332e3a9f59713dc42814eee6f8abb8
+    html: site/private/collections/IB/quantum-mechanics/sheet-3/2020-21.html
+    html_sha256: 53906dbf5b8c2e5ae9895276057bf58bde33452981765a02c3b2dfd769ca3788
+    statement: radial-2018
+    html_formulae_identical_to_exact_pair: true
+    browser:
+      total: 41
+      rendered: 41
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    screenshot_sha256: 120eb96d459beb2b81facbe04102f4a9210b1f44326787f01251154ef832d1bd
+    screenshot_dimensions:
+    - 1160
+    - 1033
+    visual_review: All sampled pages and expanded browser content inspected. Wording, signs and end of solutions are visible.
+completed_at: '2026-11-21T08:56:48.749863+00:00'
