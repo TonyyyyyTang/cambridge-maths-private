@@ -1,0 +1,273 @@
+paper_id: IB/2013/P4
+id: IB/2013/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2013-06-07'
+printed_date: Friday, 7 June, 2013
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2013/P4.pdf
+archive: private/raw/tripos/IB/2013/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2013/PaperIB_4.pdf
+sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2013/P4/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c94e7230b048f933b7b5f8a7f8cc97572e7301f9774a75d7e7d9c2ae0a58ed7d
+  checks: Checked the congruence parenthesis, signature wording and every entry of the symmetric three-by-three
+    matrix.
+- id: IB/2013/P4/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 96702c00cdc517021f8648c3596f7ddaf96f1c64c2ac2bd0fbea5d92a9681348
+  checks: Checked the non-trivial finite group hypothesis, conjugacy class conclusion and lower bound for the
+    centre.
+- id: IB/2013/P4/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 246c0c63ec20a90d31c3482a83800ebd820aa1051743bb374e526dffa01c77ca
+  checks: Checked all three mapping dimensions, the unit circle hypothesis and the pointwise determinant notation.
+- id: IB/2013/P4/q4E
+  original_question: 4E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 2f4239673b38f674a594f7e2f9fca9fa1c524eed7c2ae488e050b64a37db9a56
+  checks: Checked all four polynomial terms and strict radii of the annulus.
+- id: IB/2013/P4/q5C
+  original_question: 5C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: dfd446a5ad34297423d13d2e2d9496be60c648e18e6d6d89c87395d9e8458ad7
+  checks: Checked the two travelling-wave arguments, zero boundary values, positive time and both squared terms
+    in the energy integral.
+- id: IB/2013/P4/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 71649063f02b650cc22ecedbbab659722b0b832f0e41afedb45e1666ee9bb159
+  checks: Checked all six angular momentum derivative terms and preserved the printed phrase “the corresponding
+    eigenvalues of ψ”.
+  printed_ambiguity: The source asks for “the corresponding eigenvalues of psi” after identifying psi as an
+    eigenfunction of the operator. The printed wording is preserved.
+- id: IB/2013/P4/q7D
+  original_question: 7D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: c47440e49371105d37b0f9697775e12781334b076cf9d7211d94813803554686
+  checks: Checked the two forms of the energy density, both signs of the change, and isolated versus fixed
+    potential wording.
+- id: IB/2013/P4/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 4978ed4b164a70a430accee9e31f52f7b6695dabeb6e988a0a23123f65ce7a68
+  checks: Checked node counts, polynomial space, Newton form and lower and upper limits of sum and product.
+- id: IB/2013/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 7781338a9f159ed2b55537f9d6b2b7f678c63c5ab4674c69427fe4143622f27f
+  checks: Checked irreducibility and recurrence, the backwards-indexed transition product, excluded states,
+    normalization and inequality.
+- id: IB/2013/P4/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 1fd055d823bebaa349cc0d10c96ec7669658bc3f90b1f6842f435e3d5009e9bf
+  checks: Checked the entrywise convergence definition, both printed hints and the plus sign in the definition
+    of the linear map.
+- id: IB/2013/P4/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ad2bc0443c73372779c318a6f21612224f5b16b531cdfcedccb88f7f26dfaead
+  checks: Checked the distinction between generating and maximal linearly independent sets, the non-zero multiplier
+    and the torsion-free definition.
+- id: IB/2013/P4/q12F
+  original_question: 12F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 08a1ad907a7c683ac4bc5292213a35e1851a7ba62af6e573186b048dbbebcc13
+  checks: Checked the boundedness definition, notation for continuous self-maps, supremum metric and fixed-point
+    map.
+- id: IB/2013/P4/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 9556eeca6c9e48bc712b2e06b409a3d28cc7ef0ac1560f483a3665add5c0890f
+  checks: Checked the defining equivalence and both conclusions, including the product-space topology.
+- id: IB/2013/P4/q14D
+  original_question: 14D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: e94a68f4a3443ea11102f59493ece59a066e6c8b91228b608df63ab1941fd3a8
+  checks: Checked both circle equations, conformal-mapping fraction and prescribed values on each circle.
+- id: IB/2013/P4/q15F
+  original_question: 15F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 463b86158f700b145ef4d90b34d4bdf1bebbf228927a8cfdb28a670d2fdd5fd9
+  checks: Checked the unit speed and positivity hypotheses, plane and axis of rotation, integer range and the
+    two sketch cases.
+- id: IB/2013/P4/q16A
+  original_question: 16A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 4d503ed4ea0cab4c56d6c0d3810ec35b1bc1297fb07b9e59b85a50f40d3e9e18
+  checks: Checked the signs and derivative orders in both integrals, the four endpoint data and the concluding
+    inequality.
+- id: IB/2013/P4/q17C
+  original_question: 17C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4cd21511345d128280bf55fbd8627eb96239218f15baaae6664121d3d94bdefb
+  checks: Checked the exponential transform, strip bounds, Dirac delta and the factored upper boundary datum.
+- id: IB/2013/P4/q18A
+  original_question: 18A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: aae8383887b1d94ccedf49b0bacfe2527290a39a0a8ec8271bb1c87969d918b5
+  checks: Checked the sign and power of radius in the potential, density ratio, kinetic energy, and both spherical-polar
+    differential operators.
+- id: IB/2013/P4/q19H
+  original_question: 19H
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: b5b94d22bfc6cd919bd2cacf959a3966cfe342f1f9fd2ab6c6ee8cf76e51abd9
+  checks: Checked the six-category model, count definition, uniform null, quadratic statistic, sample size
+    and value 8.12.
+- id: IB/2013/P4/q20H
+  original_question: 20H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 218e526696389151c467331038e097feecbb87a5730bc9933c602c7749cc4331
+  checks: Checked six objective coefficients, all five equality constraints, multiplier signs, the greedy starting
+    rule and the final change to maximization.

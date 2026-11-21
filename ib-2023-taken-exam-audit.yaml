@@ -1,0 +1,1256 @@
+scope: 2023 Part IB examination slice, ten taken course strata. Denominators refer to sampled questions. A mathematical
+  error replicated in PDF and HTML counts once. No official comparison.
+audit_stage: Initial independent sample and targeted correction retest completed. The expanded Statistics corpus
+  review has a separate scope and result.
+method:
+  auditor: Independent reviewer. The twelve solutions and source transcription review were frozen before access
+    to stored solutions, checks, receipts and delivered pages.
+  sampling: One Python random.Random(20261208) advances through the sorted course keys. In each stratum draw ceil(N/5)
+    from the sorted eligible IDs without replacement.
+  seed: 20261208
+  population:
+    IB/analysis-ii:
+    - IB/2023/P1/q10G
+    - IB/2023/P2/q10G
+    - IB/2023/P3/q11G
+    - IB/2023/P4/q2G
+    IB/complex-methods:
+    - IB/2023/P1/q12G
+    - IB/2023/P1/q3B
+    - IB/2023/P2/q12B
+    - IB/2023/P3/q3B
+    - IB/2023/P4/q12B
+    IB/electromagnetism:
+    - IB/2023/P1/q15D
+    - IB/2023/P2/q16D
+    - IB/2023/P2/q4D
+    - IB/2023/P3/q15D
+    - IB/2023/P4/q5D
+    IB/fluid-dynamics:
+    - IB/2023/P1/q16C
+    - IB/2023/P2/q5C
+    - IB/2023/P3/q16C
+    - IB/2023/P3/q7C
+    - IB/2023/P4/q16C
+    IB/linear-algebra:
+    - IB/2023/P1/q1F
+    - IB/2023/P1/q8F
+    - IB/2023/P2/q8F
+    - IB/2023/P3/q9F
+    - IB/2023/P4/q1F
+    - IB/2023/P4/q8F
+    IB/markov-chains:
+    - IB/2023/P1/q19H
+    - IB/2023/P2/q18H
+    - IB/2023/P3/q8H
+    - IB/2023/P4/q7H
+    IB/methods:
+    - IB/2023/P1/q13A
+    - IB/2023/P2/q14A
+    - IB/2023/P2/q3A
+    - IB/2023/P3/q14A
+    - IB/2023/P3/q5A
+    - IB/2023/P4/q14A
+    IB/numerical-analysis:
+    - IB/2023/P1/q17B
+    - IB/2023/P1/q5B
+    - IB/2023/P2/q17B
+    - IB/2023/P3/q17B
+    - IB/2023/P4/q6B
+    IB/quantum-mechanics:
+    - IB/2023/P1/q14D
+    - IB/2023/P2/q15D
+    - IB/2023/P3/q6D
+    - IB/2023/P4/q15D
+    - IB/2023/P4/q4D
+    IB/statistics:
+    - IB/2023/P1/q18H
+    - IB/2023/P1/q6H
+    - IB/2023/P2/q6H
+    - IB/2023/P3/q18H
+    - IB/2023/P4/q17H
+  sample:
+    IB/analysis-ii:
+    - IB/2023/P2/q10G
+    IB/complex-methods:
+    - IB/2023/P1/q12G
+    IB/electromagnetism:
+    - IB/2023/P4/q5D
+    IB/fluid-dynamics:
+    - IB/2023/P3/q16C
+    IB/linear-algebra:
+    - IB/2023/P2/q8F
+    - IB/2023/P1/q1F
+    IB/markov-chains:
+    - IB/2023/P4/q7H
+    IB/methods:
+    - IB/2023/P2/q14A
+    - IB/2023/P3/q5A
+    IB/numerical-analysis:
+    - IB/2023/P4/q6B
+    IB/quantum-mechanics:
+    - IB/2023/P4/q4D
+    IB/statistics:
+    - IB/2023/P4/q17H
+  population_size: 50
+  sample_size: 12
+  packet_locators_sha256: 40f8fd537c4a41b28e3c47b28038cc53852ff40fac3595f79aab9b0deaaa52f8
+  blind_input: Exact sampled statements and printed diagram, plus paper, page and printed-number locators. Ten distinct
+    original page images were read in full for the twelve questions.
+  frozen_rework_sha256: 863342c4db3bc791d7c07a5ef2c909f9d596450fb91b1ce09fddc2b17bcbf382
+  frozen_rework_manifest_utf8: |
+    1c2987c805cb7326118b4ecde786ae27465b97e4d1ee140c4a5fb4e1e277733e  P1-q12G.md
+    c96dbfef66feb5c99b55d7745d0d4edc0478a1e0434f5882e23fa0bd0f9958d0  P1-q1F.md
+    30d600bfdcac1d8dda440ecc0daafcfb6b904a41b6a6be36f1fa82b8f8f4125b  P2-q10G.md
+    65a88c3173ce1548ffaa870da505a680539599f4afe1b8bc66a65adf3e61692a  P2-q14A.md
+    505872661ccfe50d2e46c6a96b75ccf934db1749054bd666e413df0166cf7a7f  P2-q8F.md
+    5c385333cd53e22308b1397f70e64e8211b1e29cd4124ed01122fee711797690  P3-q16C.md
+    98882a6ce35f3389d99580d199346e56898c984b73be456600b2ae14ddd853d5  P3-q5A.md
+    447b8422df95dfac6403d0917aabfce07937aa7b972c9bcbca58f9ebcc282a09  P4-q17H.md
+    98e72024820164c9cd02dcfaa01193f40d55a64a7fbe992de4756770bf90a12c  P4-q4D.md
+    05c16f602b11aafb3806d69bb5b605d2fdaf2a5cbcf91cdab4d9d5c16dfc11dc  P4-q5D.md
+    e88643d5a07c1124f74119e5c5f5f2edb2b8232c7a542ef8b5b7c87be024df85  P4-q6B.md
+    13539eb7b27d4878fc18efbf36d6b14a19ae80bd6ee55d676c16bab5aa9ec684  P4-q7H.md
+    4cd0beab7c34b2f7efb133fe83b4a8001b743bfed1826066f7c9559271c3b68e  transcription.md
+  frozen_transcription_sha256: 4cd0beab7c34b2f7efb133fe83b4a8001b743bfed1826066f7c9559271c3b68e
+  frozen_transcription_utf8: |
+    # Printed-page comparison for the twelve 2023 Part IB questions
+
+    I compared each complete supplied question body with pixels rendered from its named original Cambridge PDF using pypdfium2 5.8.0 / PDFium 149.0.7825.0 at 1.6 pixels per PDF point. The paper and printed page numbers coincided with the supplied locators throughout. Each entire selected question starts and ends on its single named page. None prints an absolute mark allocation. Excluded page furniture includes the university crest, running paper/page labels, turn-over instructions, and headings for other questions. The number and course heading identify the question separately from its body. Line wrapping, display alignment and line-break hyphenation do not change the words or mathematical content.
+
+    | Original and printed number | Visual comparison with the supplied body |
+    |---|---|
+    | P2 p6, 10G, Analysis and Topology | Both opening definitions and the arbitrary-set/metric-space qualifiers match. The second paragraph has the Euclidean norm, both strict inequalities and all three boundedness/completeness/continuity requests. The third has the nonnegative range, zero value, square root enclosing both terms, $x/n$, the quantifiers on $M,t$, and all convergence questions. Ends at “Justify your answers.” |
+    | P1 p7, 12G, Complex Analysis OR Complex Methods | Parts (a)–(c) match. In particular the leading minus sign, $n=1$ lower limit, $1-z$, open disc, nonnegative-real cut, exponential with $-f(z)$, both open intervals for the argument, real logarithm of the modulus and the strict bounds on $\alpha$ are intact. The integral has numerator $x^\alpha$, denominator $(x+1)^2$, and limits zero and infinity. |
+    | P4 p3, 5D, Electromagnetism | The introductory sentence has all three signed charges in their printed order and locations, including the positive-integer qualifiers. All (a)–(c) match, including the vector $\mathbf r$ versus scalar $r$, “and/or”, the two distinct fixed products $Qd,Qd^2$, and the negative test charge on the $x$ axis. |
+    | P3 p9, 16C, Fluid Dynamics | The Euler/Bernoulli instruction and all five subparts under (b) match. Checked two-dimensional geometry, $0\le r<a(t)$, the strict liquid inequalities, the two exterior pressure statements, $a_0[1+\epsilon(t)]$, smallness qualifier, $p_0V=const$, and the final $\omega$. |
+    | P2 p5, 8F, Linear Algebra | All introductory questions and the commutator derivation agree with the original. The ordering in both nested commutators, the product rule and the polynomial identities match. The last power is $2^k-1$, with only $k$ in the exponent of 2. |
+    | P1 p2, 1F, Linear Algebra | All three successive dimension questions match. Checked real finite-dimensional spaces, both orderings of map spaces, the subspace signs for $A,B$ and the images, the intersection-preserving implications encoded by the two separate restrictions in $Y$, $V=S+T$, and both permissions to assume a vector subspace. |
+    | P4 p4, 7H, Markov Chains | The printed lead-in, labels (a)–(c), $g(i)=\mathbb E_i[T_0]$ and both starting-state-1 questions match. Also inspected the supplied figure independently against this original: state 0 has a loop of 1, state 1 leads to 0 or 2, state 2 to 1 or 3, and state 3 to 2 or itself, all six nontrivial transitions labeled $1/2$. Arrowheads, loops and state labels agree. The TeX diagram caption describes the image; the original has no printed caption. |
+    | P2 p8, 14A, Methods | All polar derivatives and factors $1/r$, $1/r^2$ match, as do both sums, their coefficients/powers, and the constant/logarithm. All three regularity regions and both problems under (b) are present. The cosine series starts at 1, the inner boundary has $f-1$, the outer boundary $f+1$ at $e^2$, and the two half-open triangular-wave intervals have the correct signs/endpoints. |
+    | P3 p3, 5A, Methods | Both paragraphs and displays match, including $G(x;\xi)$, the positive delta source, the minus signs in both differential operators, the zero boundary values and decay at infinity, $x,\xi\in(0,\infty)$, and the source $e^{-2x}$. |
+    | P4 p4, 6B, Numerical Analysis | The complete weighted inner product and its star identifier agree. The positivity condition uses the open interval, the continuous functions use the closed interval, and the projection formula, its upper and lower limits, last polynomial factor, and both squared norms in (b) match. |
+    | P4 p3, 4D, Quantum Mechanics | Both parts agree, including the commutator order $[H,O]$, the factor $i/\hbar$, the explicit time derivative, the complex conjugate on the left of the integral, expectation subscripts, the factor $m$, negative force, and zero energy derivative. The comparison request closes the question. |
+    | P4 p13, 17H, Statistics | The fixed nonnegative design, response counts, independent Poisson specification and all parts (a)–(d) match. Verified both estimator subscripts, the direction and values of the two hypotheses, size $0.05$ twice, “sum” versus “each” exposure in the separate normal approximations, and the full bracketed hint with $\mathcal N(\lambda,\lambda)$. |
+
+    No missing word, formula, mathematical condition, part, mark, diagram transition or continuation was identified. These observations concern the supplied statements. The separately frozen derivations were produced without viewing any stored solution, comparison or course review.
+
+    ## Input fingerprints
+
+    The first hash is the supplied question fragment. The second is the rendered PNG of the complete located original page. Hashes are SHA-256.
+
+    | Question | Fragment | Original page image |
+    |---|---|---|
+    | IB/2023/P2/q10G | `6fbd048824dbce667728f0187054c0f19a31cd1afd5b1a5b47257d6bf34ee81e` | `a17df8ced37f21cfaac3fcc1a139866666b9f2bb4994c401b066b48c44fcb083` |
+    | IB/2023/P1/q12G | `2f37fedf302fc20b79578c5aaf211c8ccfcb5fb22567af4c2e0516a85371c710` | `b53f14d39fed00cc94e57ed7ad4c016e944aec61ef61aa9bf5e231475bcacbbf` |
+    | IB/2023/P4/q5D | `2bb8615264d580c1cb9564945f42f9a788fd5be95c82c2dc3771f940d377a749` | `1661d41a52fb6d7c6f5e55ddab3be851ece2df679f05c81c91c2dbb2492a22ce` |
+    | IB/2023/P3/q16C | `dfba343bd93eaf3ff69c3514219ee2db6502a984b44e23fe28dd2a4a7fbec5ac` | `84aad0a5e3fc045d5e3eb1e27da26a1731c9233746698a62213be919e50689aa` |
+    | IB/2023/P2/q8F | `a2b9104a05cb43ad3392c1ba59dd8e454057935abbe498c0d75b188806bae066` | `ece54723da4d0f0acf73684cec2d656642f0420401c7d20b477cf43268f8bbc8` |
+    | IB/2023/P1/q1F | `465bd6fc2d9563da8c531e7bf80b586199ed9dcbd2a16f7ac1c361248ae218b2` | `e78db33c0a8e9171425f88f1872c085d2ac1ffc90373d88eae30f72004a2eb60` |
+    | IB/2023/P4/q7H | `88132372c92d27d2b3c1bc3ae36342ad6d137688a7dd1e0005394afdedc59ea4` | `a4272bf545dee2693b2d0750b235abbfd3fd2bd7c7baad334265893f20034958` |
+    | IB/2023/P2/q14A | `f4a6b29565329fb8bde5cf1661925fc40d7e7dd5eb65f253051c5b0b5a5fe794` | `731d53c158e3244539140c0c9061ae86fc2539cd7fa7a96b81d73a242de08f4f` |
+    | IB/2023/P3/q5A | `0d15b5c67e4a0a410e193d45ba0dbb03e65792426ba85165ae416c7194b95cfb` | `f0131494f56905064d3586a09119d5eb28603042cab432e03f007b905320bb8c` |
+    | IB/2023/P4/q6B | `1c4cc4da46c656f0b15d64acc090e49411ddd05bd8a9bad8745803a440121ab6` | `a4272bf545dee2693b2d0750b235abbfd3fd2bd7c7baad334265893f20034958` |
+    | IB/2023/P4/q4D | `cdf0fa24444439326d7f4820908af9a8d70c1e1feb4b6b1282f7f25e6b86b097` | `1661d41a52fb6d7c6f5e55ddab3be851ece2df679f05c81c91c2dbb2492a22ce` |
+    | IB/2023/P4/q17H | `36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df` | `dc76ed4be2c999882ed8175dc3da37860d5f6bbd7c0742cbc687369cb8864c1f` |
+
+    The supplied P4 7H transition figure has SHA-256 `92f699d4eab2d248fb87dba0dcffb41c21ad537c5a26b3b28bd649ae3e81b062`.
+  delivery: Read all 12 canonical solution and check files. Independently re-executed the 12 original check scripts
+    and matched their receipts. Visually inspected all 16 compiled PDF page images and all 12 full browser screenshots
+    at 1220 px; additionally rerendered each compiled PDF page and compared pixels. The original stored score assertion
+    is legible in both delivery formats. Checked the complete figure against the original diagram and reproduced
+    the archived-source crop independently.
+  evidence_inventory_sha256: 3dc84b2a40756f5f8be8e6fc8798feca49f70f1e2703f234211b62098d1161dc
+  browser_metrics_sha256: 8dabf006d2eb75d7ea07403247f64d311a8096d2d5a984b6d737e3566b8d0852
+observed_before_repair:
+  sample_questions: 12
+  substantive_failures: 1
+  observed_rate: 1/12
+  source_transcription_errors: 0/12
+  canonical_solution_errors: 1/12
+  computer_check_execution_failures: 0/12
+  pdf_rendering_failures: 0/12
+  private_html_rendering_failures: 0/12
+  units_with_incorrect_content_in_pdf: 1/12
+  units_with_incorrect_content_in_private_html: 1/12
+  diagram_discrepancies: 0/1
+  pdf_pages_examined: 16
+  html_math_rendered: 553
+  html_math_total: 553
+  browser_parse_errors: 0
+  check_exit_nonzero: 0
+  escalate: true
+observed_after_repair:
+  repairs: 1
+  retested_questions: 1
+  remaining_errors_on_retested_unit: 0/1
+  remaining_substantive_errors_in_sample: 0/12
+  source_transcription_errors: 0/12
+  sampled_pdf_rendering_failures: 0/12
+  sampled_private_html_rendering_failures: 0/12
+  initial_review_sha256: 540e1aedd88cb75165c2b49235ec6ea0c3d78d8119f7ab898f34910f4d63462f
+  evidence_inventory_sha256: 674576a45ef054e14510993d12fbd349af38368876bc30344a191957e15a170e
+  browser_receipt_sha256: 8b6302ac863abae3381c7817ef038dee3371d1a0377166ea11bc93b87028a16c
+  expanded_review: The independent review of all 20 solved Statistics units is recorded separately. The sample retest
+    alone establishes no corpus-wide rate.
+  question_evidence:
+    IB/2023/P4/q17H:
+      source_pdf: private/raw/tripos/IB/2023/P4.pdf
+      source_sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+      source_page: 13
+      compiled_pdf: build/IB-2023-P4/main.pdf
+      compiled_sha256: cff9272689e0d36e4186a7d856ab0bf4ccb7327e74f86f9ddf686a47fec54db0
+      compiled_pages:
+      - 22
+      html: site/private/questions/IB/2023/P4/q17H/index.html
+      html_sha256: d61dedcf0c6b0c357f7e30ecfa2413f3f7ff9bdd61b06d5ebc1b2dee8db13ab9
+      math_nodes: 50
+      diagrams: {}
+      question_sha256: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+      solution_sha256: 86a3c0a1114885d1f037f4d04ef37bead58e45cfdd37e7e0aeeb463a6a655c80
+      check_sha256: ffd9e511975512cd5296acc3e97407675ca99956bf84590e347a22329ea64a28
+      check_exit: 0
+      check_stdout: |-
+        Estimator means, variance ordering and equality with zero areas checked; exact Poisson tail matches the large-exposure test.
+        Log-likelihood curvature, score root and opposite signs on its two sides verified.
+      check_stderr: ''
+      source_image_sha256: 81830ff3c3f85ae63b52df20a9ad822011de3f9ee912d1733f09c5eee837d47a
+      compiled_page_image_sha256:
+        22: 34cd8f7565f3f8a6cd83e29f9d2faabc5879a2889dc57038b40eac5497651f67
+      browser_screenshot_sha256: ad34e222ebeba2e9bec9f0773bda7506f80690e09342295eea2ca49439e1dea4
+      metadata_receipt_sha256: d1e8acf5cc39975cb776a1853309fcafcea1633202b93283e159a611b190ff3d
+      browser:
+        title: IB/2023/P4/q17H · Cambridge Maths
+        math: 50
+        rendered: 50
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      verified_receipts:
+        independent:
+          status: agreed
+          evidence: independent-solution.md
+          comparison: comparison.md
+          question_sha256: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+          solution_sha256: 86a3c0a1114885d1f037f4d04ef37bead58e45cfdd37e7e0aeeb463a6a655c80
+        computer:
+          status: passed
+          script: check.py
+          result: |-
+            Estimator means, variance ordering and equality with zero areas checked; exact Poisson tail matches the large-exposure test.
+            Log-likelihood curvature, score root and opposite signs on its two sides verified.
+          script_sha256: ffd9e511975512cd5296acc3e97407675ca99956bf84590e347a22329ea64a28
+          source_hashes:
+            question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+            solution.tex: 86a3c0a1114885d1f037f4d04ef37bead58e45cfdd37e7e0aeeb463a6a655c80
+          checked_at: '2026-11-21T06:26:25.819135+00:00'
+        pdf:
+          built_at: '2026-11-21T06:26:28.732267+00:00'
+          source_hashes:
+            question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+            solution.tex: 86a3c0a1114885d1f037f4d04ef37bead58e45cfdd37e7e0aeeb463a6a655c80
+          path: build/IB-2023-P4/main.pdf
+          build_hashes:
+            templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+            scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+      comparison_with_frozen_derivation: For positive total count, the revised text uses the unique zero and the
+        positive-to-negative sign change of the score to locate a unique maximum of the log likelihood. For zero
+        count the maximum is at zero on the nonnegative parameter space. Both statements agree with the frozen derivation.
+      visual_inspection: Both revised renders show all question parts and all four matching solution parts. The
+        corrected score sentence and unique log-likelihood maximum are legible on PDF page 22 and in the full 1220
+        px browser screenshot. The original normal approximation hint and separate test thresholds remain present.
+        At the time of this retest the separate expanded review was still marked pending in both renders.
+      strengthened_check: Independent execution verified the previous variance and tail tests and new symbolic score-root,
+        strictly negative curvature, and opposite-sign assertions at half and twice the estimate.
+      unaffected_units: For the other eleven sampled units, all question, solution, script and HTML hashes are unchanged.
+        Other papers retain the same PDF hash. All unaffected sampled pages in rebuilt Paper 4 are pixel-identical
+        to their initial page images.
+stratum_rates:
+  IB/analysis-ii:
+    population: 4
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/complex-methods:
+    population: 5
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/electromagnetism:
+    population: 5
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/fluid-dynamics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/linear-algebra:
+    population: 6
+    sampled: 2
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/markov-chains:
+    population: 4
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/methods:
+    population: 6
+    sampled: 2
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/numerical-analysis:
+    population: 5
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/quantum-mechanics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors_before_repair: 0
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+  IB/statistics:
+    population: 5
+    sampled: 1
+    observed_substantive_errors_before_repair: 1
+    observed_transcription_errors: 0
+    observed_rendering_errors: 0
+    observed_substantive_errors_after_repair: 0
+question_evidence:
+  IB/2023/P1/q1F:
+    source_pdf: private/raw/tripos/IB/2023/P1.pdf
+    source_sha256: 647c04b62127c5fa145672b915af9af09108d3e0a252cd64a4d43357d4afc582
+    source_page: 2
+    compiled_pdf: build/IB-2023-P1/main.pdf
+    compiled_sha256: 28567e7e865aebf86e44ecedb52e4e391b0c901e8e10d8f995a257ff8b45361c
+    compiled_pages:
+    - 1
+    - 2
+    html: site/private/questions/IB/2023/P1/q1F/index.html
+    html_sha256: a0dbe85441c0eab7971089e93ee3edffcb7d092ac78699e1074f8a56f1427780
+    math_nodes: 65
+    diagrams: {}
+    question_sha256: 465bd6fc2d9563da8c531e7bf80b586199ed9dcbd2a16f7ac1c361248ae218b2
+    solution_sha256: 65f53267bcb65c47647f7a2c93e956b7013bce7eb00e918bd37349661eac4a48
+    check_sha256: 62d6580677a2caf4490e4bf5fca653300c92be57c2227f8eec0d335092a7f038
+    check_exit: 0
+    check_stdout: Direct matrix-entry counts verify both dimension formulas including zero and coincident subspaces.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      1: 14bbe9106bc3d64544117ab8f966091cf090c18e850f3409e687b6b46e972e21
+      2: f36619710d91026233e7333218e1b40954702629154dea13961fc2eff7d33a0e
+    source_image_sha256: 6dbcf47ec6a23fa8959e07c9078033cf588e71eaba53e942ffc016f6c222c6c6
+    blind_source_image_sha256: e78db33c0a8e9171425f88f1872c085d2ac1ffc90373d88eae30f72004a2eb60
+    browser:
+      title: IB/2023/P1/q1F · Cambridge Maths
+      math: 65
+      rendered: 65
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 5ce272bf62abbf1b5117f2033b2844b2b769afa992d86ae085f78abe81e55480
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 829f36b5dd58e7a0ed50e7e157fdc72bdf1c3d79b89f54eacf6ddb0d79e63073
+    verified_receipt_hashes:
+      independent:
+        question.tex: 465bd6fc2d9563da8c531e7bf80b586199ed9dcbd2a16f7ac1c361248ae218b2
+        solution.tex: 65f53267bcb65c47647f7a2c93e956b7013bce7eb00e918bd37349661eac4a48
+      computer:
+        question.tex: 465bd6fc2d9563da8c531e7bf80b586199ed9dcbd2a16f7ac1c361248ae218b2
+        solution.tex: 65f53267bcb65c47647f7a2c93e956b7013bce7eb00e918bd37349661eac4a48
+      pdf:
+        question.tex: 465bd6fc2d9563da8c531e7bf80b586199ed9dcbd2a16f7ac1c361248ae218b2
+        solution.tex: 65f53267bcb65c47647f7a2c93e956b7013bce7eb00e918bd37349661eac4a48
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: The matrix dimension vw, restriction count ab+(v−a)w, and the three intersection/complement contributions
+      to dim Y agree, including coincident and disjoint subspaces.
+    visual_pdf_and_html_comparison: Three dimension problems and X/Y displays; the last sentence of the Y proof,
+      open issue and source follow on page 2.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: All three successive dimension questions match. Checked real finite-dimensional
+      spaces, both orderings of map spaces, the subspace signs for $A,B$ and the images, the intersection-preserving
+      implications encoded by the two separate restrictions in $Y$, $V=S+T$, and both permissions to assume a vector
+      subspace.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P1-q1F.md
+    blind_rework_sha256: c96dbfef66feb5c99b55d7745d0d4edc0478a1e0434f5882e23fa0bd0f9958d0
+    blind_rework_utf8: |
+      # IB 2023, Paper 1, Question 1F
+
+      Write $v,w,a,b$ for the corresponding dimensions. Evaluating a linear map on an ordered basis of $V$ defines a linear bijection $\mathcal L(V,W)\to W^v$. Every tuple gives exactly one map by linear extension, so the dimension is $vw$.
+
+      Choose a basis of $A$ and extend it to one of $V$. The $a$ images of the first basis vectors may be chosen freely in $B$; all other $v-a$ images may be chosen freely in $W$. This identifies $X$ linearly with $B^a\times W^{v-a}$ and gives
+      $$\dim X=ab+(v-a)w.$$
+
+      Put $I=S\cap T$, $s=\dim S$, $t=\dim T$, and $i=\dim I=s+t-v$ by the dimension formula and $S+T=V$. Extend a basis of $I$ independently to bases of $S$ and $T$. The combined lists (with the common basis taken just once) span $S+T$ and have $i+(s-i)+(t-i)=v$ elements, hence form a basis of $V$. For a member of $Y$, the common basis vectors must land in $I$, the $s-i$ additional vectors from $S$ in $S$, and the $t-i$ additional vectors from $T$ in $T$. Conversely these independent choices suffice by linear extension. Therefore
+      $$\dim Y=(s+t-v)^2+(v-t)s+(v-s)t.$$
+      The count also allows an empty common or complementary basis. For example $S=T=V$ gives $v^2$, and in a direct sum it gives $s^2+t^2$.
+  IB/2023/P1/q12G:
+    source_pdf: private/raw/tripos/IB/2023/P1.pdf
+    source_sha256: 647c04b62127c5fa145672b915af9af09108d3e0a252cd64a4d43357d4afc582
+    source_page: 7
+    compiled_pdf: build/IB-2023-P1/main.pdf
+    compiled_sha256: 28567e7e865aebf86e44ecedb52e4e391b0c901e8e10d8f995a257ff8b45361c
+    compiled_pages:
+    - 13
+    html: site/private/questions/IB/2023/P1/q12G/index.html
+    html_sha256: 4abed32751156d945195f7e57c49bce2d00a1477b6caf5edd72260596fc2b61c
+    math_nodes: 58
+    diagrams: {}
+    question_sha256: 2f37fedf302fc20b79578c5aaf211c8ccfcb5fb22567af4c2e0516a85371c710
+    solution_sha256: 3389dc3408e2808f5f3817364d80673306d502031049939b6a284584c0257fe1
+    check_sha256: 82f3a447f39082ee854490da6ed296eae64625f6e4c9248893d83ffbea0b6fc7
+    check_exit: 0
+    check_stdout: Local logarithm identity and keyhole integral checked on both sides of alpha zero.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      13: ff90554e1b934c48099e2c75248d18891ebdf5b067454a1606499490e6c48ea9
+    source_image_sha256: 924994afaeaf0fb1cdc29b2114f48b441bc46e5e8d3c58ff8d3358134e64924d
+    blind_source_image_sha256: b53f14d39fed00cc94e57ed7ad4c016e944aec61ef61aa9bf5e231475bcacbbf
+    browser:
+      title: IB/2023/P1/q12G · Cambridge Maths
+      math: 58
+      rendered: 58
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 7400ff7ef47c49879d96a598b4b41afc073073057f74a44b442d67f54f760e9f
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 54c50a7a13638f8cd06778792ade24e725889da39d7aa63d8a7516a038e454d5
+    verified_receipt_hashes:
+      independent:
+        question.tex: 2f37fedf302fc20b79578c5aaf211c8ccfcb5fb22567af4c2e0516a85371c710
+        solution.tex: 3389dc3408e2808f5f3817364d80673306d502031049939b6a284584c0257fe1
+      computer:
+        question.tex: 2f37fedf302fc20b79578c5aaf211c8ccfcb5fb22567af4c2e0516a85371c710
+        solution.tex: 3389dc3408e2808f5f3817364d80673306d502031049939b6a284584c0257fe1
+      pdf:
+        question.tex: 2f37fedf302fc20b79578c5aaf211c8ccfcb5fb22567af4c2e0516a85371c710
+        solution.tex: 3389dc3408e2808f5f3817364d80673306d502031049939b6a284584c0257fe1
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Series derivative, local scaling, argument on the chosen cut and analytic power agree. The independent
+      keyhole contour gives identical bank phases, arc decay, residue, πα/sin(πα), and α=0 limit.
+    visual_pdf_and_html_comparison: All three lettered parts, cut and integral bounds, residue identity and separate
+      α=0 answer appear. The source heading retains both courses; the primary unit is Complex Analysis and also
+      indexes Complex Methods.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: Parts (a)–(c) match. In particular the leading minus sign, $n=1$ lower limit, $1-z$,
+      open disc, nonnegative-real cut, exponential with $-f(z)$, both open intervals for the argument, real logarithm
+      of the modulus and the strict bounds on $\alpha$ are intact. The integral has numerator $x^\alpha$, denominator
+      $(x+1)^2$, and limits zero and infinity.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P1-q12G.md
+    blind_rework_sha256: 1c2987c805cb7326118b4ecde786ae27465b97e4d1ee140c4a5fb4e1e277733e
+    blind_rework_utf8: |
+      # IB 2023, Paper 1, Question 12G
+
+      (a) Interior differentiation of the power series gives $f'(z)=\sum_{n\ge1}(1-z)^{n-1}=1/z$. The derivative of $ze^{-f(z)}$ is $e^{-f(z)}(1-zf'(z))=0$. The disc is connected, and $f(1)=0$, so $ze^{-f(z)}=1$ everywhere on it. Thus $e^f=z$.
+
+      For $a$ off the nonnegative real axis choose its argument $\theta_a\in(0,2\pi)$. On $|z-a|<|a|$ put $\ell(z)=\log|a|+i\theta_a+f(z/a)$. It is analytic and $e^{\ell(z)}=a(z/a)=z$. Continuity at $a$, where $\Im\ell=\theta_a$, allows the radius to be shrunk so that $0<\Im\ell<2\pi$ throughout. It may also be shrunk below the distance of $a$ from the cut.
+
+      (b) Taking the modulus and argument of $e^\ell=z$, the real part equals $\log|z|$ and the imaginary part is the unique argument in $(0,2\pi)$. Thus the stated $L$ agrees locally everywhere with an analytic $\ell$, and $e^L=z$. A branch of the power is $e^{\alpha L(z)}$.
+
+      (c) For a positively oriented simple closed piecewise smooth contour, a function analytic on and inside it except at finitely many isolated singularities strictly inside has integral $2\pi i$ times the sum of its enclosed residues. Here use $F(z)=e^{\alpha L(z)}/(1+z)^2$ on a positively oriented slit annulus of radii $\delta<1<R$. Take the radial edges at arguments $\eta$ and $2\pi-\eta$ and let $\eta\downarrow0$ first at fixed radii. Their sum tends to $(1-e^{2\pi i\alpha})\int_\delta^R x^\alpha(1+x)^{-2}dx$ since the upper bank runs outwards. The arc contributions tend to zero as $\delta\downarrow0$ and $R\to\infty$, bounded respectively by $2\pi\delta^{1+\alpha}/(1-\delta)^2$ and $2\pi R^{1+\alpha}/(R-1)^2$. The original integral converges at both ends since $-1<\alpha<1$.
+
+      The double pole at $-1$ has residue $(e^{\alpha L})'(-1)=\alpha e^{i\pi\alpha}/(-1)=-\alpha e^{i\pi\alpha}$. Therefore $(1-e^{2\pi i\alpha})I=-2\pi i\alpha e^{i\pi\alpha}$. For $\alpha\ne0$ use $1-e^{2\pi i\alpha}=-2ie^{i\pi\alpha}\sin(\pi\alpha)$ to get $I=\pi\alpha/\sin(\pi\alpha)$. At $\alpha=0$ integrate $(1+x)^{-2}$ directly to get $1$, the continuous value of this formula.
+  IB/2023/P2/q8F:
+    source_pdf: private/raw/tripos/IB/2023/P2.pdf
+    source_sha256: 9e8a312dd3bd1e69b2795c41800c901b3dd0740b4e7d24020a48a4949eb4ddbe
+    source_page: 5
+    compiled_pdf: build/IB-2023-P2/main.pdf
+    compiled_sha256: 593fa08bab304c93e1ab7c40c4331cd1566955913f6c35f4ed115849038e8b3d
+    compiled_pages:
+    - 8
+    html: site/private/questions/IB/2023/P2/q8F/index.html
+    html_sha256: ba23db0c76597dfb4c72eecd6e2c574e906ccb10f2e89d7380ad44cf370c550f
+    math_nodes: 55
+    diagrams: {}
+    question_sha256: a2b9104a05cb43ad3392c1ba59dd8e454057935abbe498c0d75b188806bae066
+    solution_sha256: 1ae1caf9043fff255981a422dde3aa6aff283355b4767226c10ed4ab57ef4932
+    check_sha256: 78d30604b20f430aaeb6c51bae7954673272929b850b7ac379bdeb43cdd0e773
+    check_exit: 0
+    check_stdout: Nonzero commutator example verifies the derivative rule, all induction stages and nilpotence.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      8: faaa5838763313af53068a81b1988b726a5ad3ef5dbef9e36cc43dd60df1f2ee
+    source_image_sha256: 6a39c21ae1caa52da8f9b568829edb81d5982986fd9d9259f062efa82f6e97bc
+    blind_source_image_sha256: ece54723da4d0f0acf73684cec2d656642f0420401c7d20b477cf43268f8bbc8
+    browser:
+      title: IB/2023/P2/q8F · Cambridge Maths
+      math: 55
+      rendered: 55
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 0804171a2a2df0d541104207251e2d78e4fcace281b0030ca14f3c9ec9a8fca8
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: ff97f205d944485a31744a2944eb60ae3f8180f382aa3f7224d1cb74cf363ad0
+    verified_receipt_hashes:
+      independent:
+        question.tex: a2b9104a05cb43ad3392c1ba59dd8e454057935abbe498c0d75b188806bae066
+        solution.tex: 1ae1caf9043fff255981a422dde3aa6aff283355b4767226c10ed4ab57ef4932
+      computer:
+        question.tex: a2b9104a05cb43ad3392c1ba59dd8e454057935abbe498c0d75b188806bae066
+        solution.tex: 1ae1caf9043fff255981a422dde3aa6aff283355b4767226c10ed4ab57ef4932
+      pdf:
+        question.tex: a2b9104a05cb43ad3392c1ba59dd8e454057935abbe498c0d75b188806bae066
+        solution.tex: 1ae1caf9043fff255981a422dde3aa6aff283355b4767226c10ed4ab57ef4932
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: The canonical left-evaluation of the polynomial adjugate proves the same Cayley–Hamilton identity
+      as the independent invariant flag. Leibniz and polynomial commutators and left multiplication yield the correct
+      exponent 2^k−1 without assuming [B,C]=0.
+    visual_pdf_and_html_comparison: Characteristic-polynomial and Cayley–Hamilton tasks, both nested commutators
+      and double-level exponents are present.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: All introductory questions and the commutator derivation agree with the original.
+      The ordering in both nested commutators, the product rule and the polynomial identities match. The last power
+      is $2^k-1$, with only $k$ in the exponent of 2.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P2-q8F.md
+    blind_rework_sha256: 505872661ccfe50d2e46c6a96b75ccf934db1749054bd666e413df0166cf7a7f
+    blind_rework_utf8: |
+      # IB 2023, Paper 2, Question 8F
+
+      Use the monic convention $\chi_A(t)=\det(tI-A)$ for an $n$ by $n$ matrix. Cayley–Hamilton states that $\chi_A(A)=0$. For a complex matrix there is a full invariant flag $0=V_0\subset V_1\subset\cdots\subset V_n=\mathbb C^n$. Indeed, a positive-dimensional complex space admits an eigenvector for its endomorphism by the fundamental theorem of algebra. Take this eigenline and induct on the induced endomorphism of its quotient, lifting its invariant flag to the original space. In a basis adapted to the flag, $A$ is upper triangular with diagonal $\lambda_1,\ldots,\lambda_n$, so $\chi_A(t)=\prod_{j=1}^n(t-\lambda_j)$. The operator $A-\lambda_j I$ takes $V_j$ into $V_{j-1}$, since it vanishes on $V_j/V_{j-1}$. Applying the factors in descending index order kills all of $V_n$, proving the theorem.
+
+      Inserting and subtracting $YXZ$ gives $XYZ-YZX=(XY-YX)Z+Y(XZ-ZX)$. Write $C=[B,A]$. Since $CA=AC$, repeated application of the product rule gives, for $j\ge1$,
+      $$[B,A^j]=\sum_{s=0}^{j-1}A^s C A^{j-1-s}=jA^{j-1}C.$$
+      The constant term commutes as well, so by linearity $[B,\varphi(A)]=\varphi'(A)C$ for all polynomials.
+
+      Let $m_k=2^k-1$. At $k=0$ the stated identity is precisely $f(A)=0$ (take $C^0=I$). Suppose $g(A)C^m=0$ for $g=f^{(k)}$, $m=m_k$. Commuting $B$ with that zero product gives
+      $$0=g'(A)C^{m+1}+g(A)[B,C^m].$$
+      Multiply on the left by $C^m$. Because $C$ commutes with polynomials in $A$, the second term vanishes by the hypothesis and the first becomes $g'(A)C^{2m+1}$. This proves the next case, since $2m+1=2^{k+1}-1$. No commutation between $B$ and $C$ is required. Taking $f=\chi_A$ and $k=n$ gives $n!C^{2^n-1}=0$. Thus $C$ is nilpotent. The zero-dimensional space is immediate separately.
+  IB/2023/P2/q10G:
+    source_pdf: private/raw/tripos/IB/2023/P2.pdf
+    source_sha256: 9e8a312dd3bd1e69b2795c41800c901b3dd0740b4e7d24020a48a4949eb4ddbe
+    source_page: 6
+    compiled_pdf: build/IB-2023-P2/main.pdf
+    compiled_sha256: 593fa08bab304c93e1ab7c40c4331cd1566955913f6c35f4ed115849038e8b3d
+    compiled_pages:
+    - 10
+    html: site/private/questions/IB/2023/P2/q10G/index.html
+    html_sha256: 388b2fce7ae1393bbf936eee0269312ecd93540c800486eab08b19a7761d868f
+    math_nodes: 77
+    diagrams: {}
+    question_sha256: 6fbd048824dbce667728f0187054c0f19a31cd1afd5b1a5b47257d6bf34ee81e
+    solution_sha256: 2e0fbc94c8875683368b51298948d526f4a5433beacc86eeae70015d5466761c
+    check_sha256: e488998b9fad918e1a1c7d7a57620701a47ab30881bd0f2e90f8cccb55b62304
+    check_exit: 0
+    check_stdout: Quadratic counterexample and sharp uniform bound for linear growth verified symbolically.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      10: b0e6ae3bedfc528a33276d7c251d2af8032662d7006d694012f1910b7a80945f
+    source_image_sha256: 17d7b1b4f69ad35a64704efbb34b70b3a397b2efe594f5f242c2765374ca0e0b
+    blind_source_image_sha256: a17df8ced37f21cfaac3fcc1a139866666b9f2bb4994c401b066b48c44fcb083
+    browser:
+      title: IB/2023/P2/q10G · Cambridge Maths
+      math: 77
+      rendered: 77
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: b3d11ef719b519cce65f1967c1e0898855d1f48b6feb6fa989cb96996df774da
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 189bcd07fa7fa379949c0caf1b8fbe1190804e7318d39af848ee9136ef1d1c89
+    verified_receipt_hashes:
+      independent:
+        question.tex: 6fbd048824dbce667728f0187054c0f19a31cd1afd5b1a5b47257d6bf34ee81e
+        solution.tex: 2e0fbc94c8875683368b51298948d526f4a5433beacc86eeae70015d5466761c
+      computer:
+        question.tex: 6fbd048824dbce667728f0187054c0f19a31cd1afd5b1a5b47257d6bf34ee81e
+        solution.tex: 2e0fbc94c8875683368b51298948d526f4a5433beacc86eeae70015d5466761c
+      pdf:
+        question.tex: 6fbd048824dbce667728f0187054c0f19a31cd1afd5b1a5b47257d6bf34ee81e
+        solution.tex: 2e0fbc94c8875683368b51298948d526f4a5433beacc86eeae70015d5466761c
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Uniform Cauchy passage to the pointwise limit, compact and far-field arguments, quadratic counterexample
+      and M/(2n) bound including x=0 agree.
+    visual_pdf_and_html_comparison: Both definitions, C0 assertions, and both convergence cases appear; radical
+      covers both terms and the last displayed inequality is complete.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: Both opening definitions and the arbitrary-set/metric-space qualifiers match. The
+      second paragraph has the Euclidean norm, both strict inequalities and all three boundedness/completeness/continuity
+      requests. The third has the nonnegative range, zero value, square root enclosing both terms, $x/n$, the quantifiers
+      on $M,t$, and all convergence questions. Ends at “Justify your answers.”
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P2-q10G.md
+    blind_rework_sha256: 30d600bfdcac1d8dda440ecc0daafcfb6b904a41b6a6be36f1fa82b8f8f4125b
+    blind_rework_utf8: |
+      # IB 2023, Paper 2, Question 10G
+
+      Uniform convergence to $f:S\to\mathbb R$ means that for every $\eta>0$ there is $N$ such that $n\ge N$ and $s\in S$ imply $|f_n(s)-f(s)|<\eta$. Uniform continuity of $h:M\to N$ means that for every $\eta>0$ there is $\delta>0$ such that $d_M(x,y)<\delta$ implies $d_N(h(x),h(y))<\eta$ for all $x,y\in M$.
+
+      For $f\in C_0$ choose $R$ so that $|f|<1$ outside the closed ball of radius $R$. On that ball $|f|$ attains a finite maximum by continuity and compactness. Thus $d_\infty(f,g)=\sup_x|f(x)-g(x)|$ is finite. Separation, symmetry and the triangle inequality follow pointwise (and then by taking suprema).
+
+      For a uniformly Cauchy sequence $u_n$, each real sequence $u_n(x)$ is Cauchy, hence has a limit $u(x)$. Given $\eta>0$, choose $N$ so that $\|u_n-u_m\|_\infty<\eta/3$ for all $m,n\ge N$. At each $x$ let $m\to\infty$. This gives $\|u_n-u\|_\infty\le\eta/3$ for every $n\ge N$. At a fixed $x$, continuity of $u_N$ makes $|u_N(y)-u_N(x)|<\eta/3$ when $y$ is close to $x$. The triangle inequality gives $|u(y)-u(x)|<\eta$. Outside a sufficiently large ball $|u_N(y)|<\eta/3$, so $|u(y)|<2\eta/3$. Thus the uniform limit lies in $C_0$, proving completeness.
+
+      Every $f\in C_0$ is uniformly continuous. Choose $R$ such that $|f(x)|<\eta/2$ for $\|x\|>R$. By compactness there is a single $\delta\le1$ giving oscillation $<\eta$ for distances $<\delta$ on the ball of radius $R+1$. If one of $x,y$ is in the ball of radius $R$, the other is in the larger ball. Otherwise both values have magnitude $<\eta/2$. These two cases cover all pairs at distance $<\delta$.
+
+      For fixed $x$, continuity at zero gives $\varepsilon(x/n)\to0$, hence $f_n(x)\to |x|$. Uniform convergence need not hold. With $\varepsilon(t)=t^2$, the error $|x|(\sqrt{1+n^{-2}}-1)$ is unbounded on the real line for every finite $n$. With the additional linear bound, for $x\ne0$,
+      $$0\le f_n(x)-|x|=\frac{\varepsilon(x/n)}{f_n(x)+|x|}\le\frac{M}{2n}.$$
+      At $x=0$ the error is zero. This proves uniform (and still pointwise) convergence, including $M=0$.
+  IB/2023/P2/q14A:
+    source_pdf: private/raw/tripos/IB/2023/P2.pdf
+    source_sha256: 9e8a312dd3bd1e69b2795c41800c901b3dd0740b4e7d24020a48a4949eb4ddbe
+    source_page: 8
+    compiled_pdf: build/IB-2023-P2/main.pdf
+    compiled_sha256: 593fa08bab304c93e1ab7c40c4331cd1566955913f6c35f4ed115849038e8b3d
+    compiled_pages:
+    - 14
+    - 15
+    html: site/private/questions/IB/2023/P2/q14A/index.html
+    html_sha256: 542e99953af8a518a00f1240e02e36a3266dc9a5a2a6ad33c007f3dd06076d8e
+    math_nodes: 51
+    diagrams: {}
+    question_sha256: f4a6b29565329fb8bde5cf1661925fc40d7e7dd5eb65f253051c5b0b5a5fe794
+    solution_sha256: 18dbdc1e977970447eecda54dad0036fd75b425ed4cf423f252924fd9f8d2ea2
+    check_sha256: 2a514c3933a2971ed356a5474aa698c14da36abb91f23a390496526013409198
+    check_exit: 0
+    check_stdout: Annulus PDE, both traces, mean and triangular-wave coefficients checked
+    check_stderr: ''
+    compiled_page_image_sha256:
+      14: d9f4e3130738b50f81f8dfb17d85fcf079a863ff97e63aa9caf782f5f57ff600
+      15: 37b9c984a4f20ecafd7893c6e22ef312ff4c4dda25665167a5a048174d9e5758
+    source_image_sha256: a018ae20391169d2436ce2589a4ab1101da5617eba44d2c5136b87b1d3cf739e
+    blind_source_image_sha256: 731d53c158e3244539140c0c9061ae86fc2539cd7fa7a96b81d73a242de08f4f
+    browser:
+      title: IB/2023/P2/q14A · Cambridge Maths
+      math: 51
+      rendered: 51
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: b22eca20cd76d9aff64291986ac5ef74bce6784c88b362da36fc2e4839b43a55
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: c71d35e9c33046690adc016248213c56873dd4029f7d29e225536be103ba4746
+    verified_receipt_hashes:
+      independent:
+        question.tex: f4a6b29565329fb8bde5cf1661925fc40d7e7dd5eb65f253051c5b0b5a5fe794
+        solution.tex: 18dbdc1e977970447eecda54dad0036fd75b425ed4cf423f252924fd9f8d2ea2
+      computer:
+        question.tex: f4a6b29565329fb8bde5cf1661925fc40d7e7dd5eb65f253051c5b0b5a5fe794
+        solution.tex: 18dbdc1e977970447eecda54dad0036fd75b425ed4cf423f252924fd9f8d2ea2
+      pdf:
+        question.tex: f4a6b29565329fb8bde5cf1661925fc40d7e7dd5eb65f253051c5b0b5a5fe794
+        solution.tex: 18dbdc1e977970447eecda54dad0036fd75b425ed4cf423f252924fd9f8d2ea2
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Fourier separation, exceptional n=0 modes, interior/exterior regularity, both endpoint values, shifted
+      cosh radial modes and coefficients 2(1−(−1)^n)/(πn²) agree. The ambiguous role of infinity is resolved explicitly.
+    visual_pdf_and_html_comparison: All three regions, both boundary problems, both pieces of the wave and both
+      rows of the separated expansion appear. The explicit odd-mode solution and two exterior interpretations complete
+      on page 15.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: All polar derivatives and factors $1/r$, $1/r^2$ match, as do both sums, their
+      coefficients/powers, and the constant/logarithm. All three regularity regions and both problems under (b)
+      are present. The cosine series starts at 1, the inner boundary has $f-1$, the outer boundary $f+1$ at $e^2$,
+      and the two half-open triangular-wave intervals have the correct signs/endpoints.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P2-q14A.md
+    blind_rework_sha256: 65a88c3173ce1548ffaa870da505a680539599f4afe1b8bc66a65adf3e61692a
+    blind_rework_utf8: |
+      # IB 2023, Paper 2, Question 14A
+
+      (a) For a separated mode $R(r)\Theta(\theta)$ multiply Laplace's equation by $r^2/(R\Theta)$. The radial expression $r(rR')'/R$ equals the angular expression $-\Theta''/\Theta$, hence is a constant $\lambda$. The eigenfunctions of $-\partial_\theta^2$ with $2\pi$-periodicity are the constant ($\lambda=0$) and $\cos n\theta,\sin n\theta$ ($\lambda=n^2$, positive integer $n$). This follows by solving the constant-coefficient ODE: negative eigenvalues give no nonzero periodic exponential mode, the zero-eigenvalue linear term must vanish, and positive frequencies must be integers. Writing $s=\log r$ turns the radial equation into $R_{ss}=\lambda R$. The radial solutions are $1,\log r$ for $\lambda=0$ and $r^n,r^{-n}$ otherwise. Expanding in the angular Fourier basis on each circle and applying the same ODE to each coefficient gives the general expansion
+      $$a_0+c_0\log r+\sum_{n\ge1}\left[(a_nr^n+c_nr^{-n})\cos n\theta+(b_nr^n+d_nr^{-n})\sin n\theta\right],$$
+      with coefficient choices for which the series represents the solution on the region.
+
+      At the origin, regularity requires $c_0=c_n=d_n=0$ ($n\ge1$ for the indexed modes). For an exterior solution regular at infinity, $c_0=a_n=b_n=0$, with $a_0$ permitted; boundedness of the angular coefficients excludes growing modes. In an annulus avoiding both endpoints there are no such forced zeros. If regularity in an exterior domain is interpreted only at finite points, the restriction at infinity is an additional condition.
+
+      (b)(i) Set $s=\log r\in(0,2)$. The mean boundary values are $-1,+1$, giving the harmonic mean mode $s-1$. The amplitude of the $n$th cosine solves $u_n''=n^2u_n$ with $u_n(0)=u_n(2)=A_n$. Reflection about $s=1$, or direct solution, yields $u_n(s)=A_n\cosh(n(s-1))/\cosh n$. All sine amplitudes have zero endpoints and vanish. Thus
+      $$\phi(r,\theta)=\log r-1+\sum_{n\ge1}A_n\frac{\cosh[n(\log r-1)]}{\cosh n}\cos n\theta.$$
+      The radial multiplier is 1 on both circles and decays exponentially with $n$ on compact subannuli, giving harmonicity there for ordinary integrable Fourier data. The boundary traces are interpreted wherever the given Fourier expansion represents $f$. For continuous data the Dirichlet solution is unique by the maximum principle.
+
+      (ii) The triangular wave is even under $\theta\mapsto2\pi-\theta$ and has mean zero; it has no sine or constant mode. For $n\ge1$, reflection and integration by parts give
+      $$A_n=\frac2\pi\int_0^\pi(\pi/2-\theta)\cos(n\theta)d\theta
+      =\frac{2[1-(-1)^n]}{\pi n^2}.$$
+      The explicit solution is therefore
+      $$\log r-1+\frac4\pi\sum_{j=0}^{\infty}
+      \frac{\cosh[(2j+1)(\log r-1)]\cos((2j+1)\theta)}
+      {(2j+1)^2\cosh(2j+1)}.$$
+      The triangle wave is continuous at $\pi$ and periodically at zero. Its absolutely summable coefficients and the bounded radial multipliers give continuity up to both boundary circles.
+  IB/2023/P3/q5A:
+    source_pdf: private/raw/tripos/IB/2023/P3.pdf
+    source_sha256: 937ff05bd983563faf1d0175216bd267e3f21fd17bde17cf64af711afba6c017
+    source_page: 3
+    compiled_pdf: build/IB-2023-P3/main.pdf
+    compiled_sha256: 31080c34fc0b810e710b5109760d3e5c6a7c9b22947a961b5380eb5164e7e476
+    compiled_pages:
+    - 5
+    html: site/private/questions/IB/2023/P3/q5A/index.html
+    html_sha256: 3558753cb2a22455044d66e4612908b5fc36d6ebc8cf6c33c069ad293beeeff9
+    math_nodes: 28
+    diagrams: {}
+    question_sha256: 0d15b5c67e4a0a410e193d45ba0dbb03e65792426ba85165ae416c7194b95cfb
+    solution_sha256: 95e321010153b0962280eab0e67031b20feacbff73c26cf0b975eec153a2ac1c
+    check_sha256: 874e90cea2c840fb6739408f42122227419dede90ff3c6694239d402b551e933
+    check_exit: 0
+    check_stdout: Kernel matching, jump, forcing convolution, ODE and both boundaries passed
+    check_stderr: ''
+    compiled_page_image_sha256:
+      5: 56740e1b2be441088fbde85c101f95ab3945e46c26b11918912fb7916b6cb252
+    source_image_sha256: 624459d19188feadf4b9d16fa694aea40862242d7fd6446d00addc3a6af09646
+    blind_source_image_sha256: f0131494f56905064d3586a09119d5eb28603042cab432e03f007b905320bb8c
+    browser:
+      title: IB/2023/P3/q5A · Cambridge Maths
+      math: 28
+      rendered: 28
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 5417dffb76b3a161b7cd61ee5ca539fc56385fe71670a88fd7b6f88d2e2dce3c
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: ee3323d271338a49010ba77b5d3e0079e75c6343b924461d98c7c2793c612f40
+    verified_receipt_hashes:
+      independent:
+        question.tex: 0d15b5c67e4a0a410e193d45ba0dbb03e65792426ba85165ae416c7194b95cfb
+        solution.tex: 95e321010153b0962280eab0e67031b20feacbff73c26cf0b975eec153a2ac1c
+      computer:
+        question.tex: 0d15b5c67e4a0a410e193d45ba0dbb03e65792426ba85165ae416c7194b95cfb
+        solution.tex: 95e321010153b0962280eab0e67031b20feacbff73c26cf0b975eec153a2ac1c
+      pdf:
+        question.tex: 0d15b5c67e4a0a410e193d45ba0dbb03e65792426ba85165ae416c7194b95cfb
+        solution.tex: 95e321010153b0962280eab0e67031b20feacbff73c26cf0b975eec153a2ac1c
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: The derivative jump is +1, the symmetric Green kernel has negative sign, and convolution gives (e^(−2x)−e^(−x))/3
+      satisfying both endpoints.
+    visual_pdf_and_html_comparison: Both operators, matching equations, signed kernel and complete two-line convolution
+      appear.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: Both paragraphs and displays match, including $G(x;\xi)$, the positive delta source,
+      the minus signs in both differential operators, the zero boundary values and decay at infinity, $x,\xi\in(0,\infty)$,
+      and the source $e^{-2x}$.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P3-q5A.md
+    blind_rework_sha256: 98882a6ce35f3389d99580d199346e56898c984b73be456600b2ae14ddd853d5
+    blind_rework_utf8: |
+      # IB 2023, Paper 3, Question 5A
+
+      For $x<\xi$, the homogeneous solution satisfying $G(0;\xi)=0$ is $A\sinh x$. For $x>\xi$, the decaying homogeneous solution is $Be^{-x}$. A discontinuity of $G$ would produce a derivative of the delta in $G''$, so $G$ is continuous. Integrating across $\xi$ gives $G'(\xi+)-G'(\xi-)=1$. Hence
+      $$A\sinh\xi=Be^{-\xi},\qquad -Be^{-\xi}-A\cosh\xi=1.$$
+      This yields $A=-e^{-\xi}$ and $B=-\sinh\xi$. Equivalently
+      $$G(x;\xi)=-\sinh(\min(x,\xi))e^{-\max(x,\xi)}.$$
+      It is symmetric and has the required decay. Uniqueness follows since no nonzero homogeneous solution of $u''-u=0$ satisfies both endpoint conditions.
+
+      Integrating against the forcing and splitting at $\xi=x$ gives
+      $$y(x)=-e^{-x}\int_0^x\sinh\xi\,e^{-2\xi}d\xi-\sinh x\int_x^\infty e^{-3\xi}d\xi.$$
+      The first integral is $\tfrac13-\tfrac12e^{-x}+\tfrac16e^{-3x}$, and the second is $\tfrac13e^{-3x}$. On substitution the terms proportional to $e^{-4x}$ cancel, leaving
+      $$y(x)=\tfrac13(e^{-2x}-e^{-x}).$$
+      Both endpoint conditions hold. Applying $d^2/dx^2-1$ gives $e^{-2x}$ because the $e^{-x}$ term is homogeneous.
+  IB/2023/P3/q16C:
+    source_pdf: private/raw/tripos/IB/2023/P3.pdf
+    source_sha256: 937ff05bd983563faf1d0175216bd267e3f21fd17bde17cf64af711afba6c017
+    source_page: 9
+    compiled_pdf: build/IB-2023-P3/main.pdf
+    compiled_sha256: 31080c34fc0b810e710b5109760d3e5c6a7c9b22947a961b5380eb5164e7e476
+    compiled_pages:
+    - 20
+    - 21
+    html: site/private/questions/IB/2023/P3/q16C/index.html
+    html_sha256: 02061a8603ca2217e8d737f333ae797a845ac9c1fbfd9a36e890bf8726c4698c
+    math_nodes: 49
+    diagrams: {}
+    question_sha256: dfba343bd93eaf3ff69c3514219ee2db6502a984b44e23fe28dd2a4a7fbec5ac
+    solution_sha256: 1bb7e86ef755f96f59678eac3e7e77e592c7d2242695a135dc936d708672f3c6
+    check_sha256: 85ff203425093ca6bbfbdb2fc03e3ee607312df435bbd3f77204ee430d939934
+    check_exit: 0
+    check_stdout: Radial Euler equation, conserved interface area and the independent first variations of liquid
+      and gas pressure verified.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      20: 705f67ba4aa029bbc43b231684a7c87ae241a0bc96bf2d10e9f450c052875a48
+      21: 3c564c45f14a3583c29c4504bfe8daa04cafd777c2d4c84e4d0029aa7bb79538
+    source_image_sha256: 048097643c66ba0ec103f6bf91f1fdb62a02d769ee0c5a38d0032c89d6f4f4ce
+    blind_source_image_sha256: 84aad0a5e3fc045d5e3eb1e27da26a1731c9233746698a62213be919e50689aa
+    browser:
+      title: IB/2023/P3/q16C · Cambridge Maths
+      math: 49
+      rendered: 49
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 4819d422c9420315327253b6f06d3ee31930bfc6aa9a3c55927336558192adf9
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 3bf58c464d253551f1f4ac27ad00470c167ff18c59ef51febcf56bd41b246613
+    verified_receipt_hashes:
+      independent:
+        question.tex: dfba343bd93eaf3ff69c3514219ee2db6502a984b44e23fe28dd2a4a7fbec5ac
+        solution.tex: 1bb7e86ef755f96f59678eac3e7e77e592c7d2242695a135dc936d708672f3c6
+      computer:
+        question.tex: dfba343bd93eaf3ff69c3514219ee2db6502a984b44e23fe28dd2a4a7fbec5ac
+        solution.tex: 1bb7e86ef755f96f59678eac3e7e77e592c7d2242695a135dc936d708672f3c6
+      pdf:
+        question.tex: dfba343bd93eaf3ff69c3514219ee2db6502a984b44e23fe28dd2a4a7fbec5ac
+        solution.tex: 1bb7e86ef755f96f59678eac3e7e77e592c7d2242695a135dc936d708672f3c6
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Area conservation, fixed-position time derivative, signs in the pressure difference, linear area
+      and gas-law corrections, and positive squared frequency agree.
+    visual_pdf_and_html_comparison: Part (a) and all five Roman subparts appear; the pressure signs and final frequency
+      are complete and the conditions for oscillation continue on page 21.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: The Euler/Bernoulli instruction and all five subparts under (b) match. Checked
+      two-dimensional geometry, $0\le r<a(t)$, the strict liquid inequalities, the two exterior pressure statements,
+      $a_0[1+\epsilon(t)]$, smallness qualifier, $p_0V=const$, and the final $\omega$.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P3-q16C.md
+    blind_rework_sha256: 5c385333cd53e22308b1397f70e64e8211b1e29cd4124ed01122fee711797690
+    blind_rework_utf8: |
+      # IB 2023, Paper 3, Question 16C
+
+      (a) Euler's equation for the liquid of constant density $\rho$ is $\partial_t\mathbf u+(\mathbf u\cdot\nabla)\mathbf u=-\nabla p/\rho$. Use $(\mathbf u\cdot\nabla)\mathbf u=\nabla(|\mathbf u|^2/2)-\mathbf u\times(\nabla\times\mathbf u)$ and a velocity potential $\mathbf u=\nabla\phi$ to obtain
+      $$\nabla\left(\partial_t\phi+\tfrac12|\nabla\phi|^2+p/\rho\right)=0.$$
+      The bracket equals a function of time in the connected liquid, with the additive time-dependent gauge of $\phi$ free. Irrotationality gives a potential locally, and the radial velocity used below has a single-valued potential on the annulus.
+
+      (b)(i) For radial flow, $\nabla\cdot\mathbf u=r^{-1}\partial_r(ru_r)=0$, so $u_r=A(t)/r$ and $\phi=A(t)\log(r/r_*)+C(t)$ for constant $r_*>0$. Both moving interfaces are material, giving $A=a\dot a=b\dot b$. Thus $b(t)=\sqrt{a(t)^2+b(t_*)^2-a(t_*)^2}$. The cross-sectional area $\pi(b^2-a^2)$, hence volume per unit axial length, is constant.
+
+      (ii) At the outer material interface pressure equals $p_\infty$ under the assumed absence of surface tension. Subtract the two Bernoulli equations using the partial time derivative at fixed $r$ before evaluation at either face. This gives
+      $$p(a,t)-p_\infty=\rho\left[\dot A\log(b/a)+\tfrac12 A^2(b^{-2}-a^{-2})\right],\qquad \dot A=\dot a^2+a\ddot a.$$
+
+      (iii) Linearise around rest with radii $a_0,b_0$ obeying the same fixed area. For a smooth small-amplitude perturbation $a=a_0(1+\epsilon)$, $b=b_0+(a_0^2/b_0)\epsilon$ to first order. $A=a_0^2\dot\epsilon$ and $\dot A=a_0^2\ddot\epsilon$ to first order. The kinetic term is quadratic, and the first-order correction to the logarithm multiplies another first-order factor. Hence
+      $$p(a,t)-p_\infty=\rho a_0^2\log(b_0/a_0)\ddot\epsilon$$
+      at linear order.
+
+      (iv) Continuity of pressure gives $p_0(t)=p(a,t)$; at rest its value is $p_\infty$. For a two-dimensional bubble $V$ is proportional to $a^2$ (unit axial length). Thus $p(a,t)=p_\infty a_0^2/a^2=p_\infty(1-2\epsilon)+O(\epsilon^2)$.
+
+      (v) These relations give $\ddot\epsilon+\omega^2\epsilon=0$ with
+      $$\omega=\left[\frac{2p_\infty}{\rho a_0^2\log(b_0/a_0)}\right]^{1/2}.$$
+      For $p_\infty,\rho>0$ and $0<a_0<b_0$ this is real and positive, so the linear motion is a sum of a sine and cosine. The ordinary frequency is $\omega/(2\pi)$.
+  IB/2023/P4/q4D:
+    source_pdf: private/raw/tripos/IB/2023/P4.pdf
+    source_sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+    source_page: 3
+    compiled_pdf: build/IB-2023-P4/main.pdf
+    compiled_sha256: 72c4a22891e0fb9903680a43754fbf6dffee48e43d739f4ba36f5d4dc372ed98
+    compiled_pages:
+    - 4
+    html: site/private/questions/IB/2023/P4/q4D/index.html
+    html_sha256: 02477141f0a81d18e077b415d4e20a4a96be270893c0c3a63a452fcad32408ad
+    math_nodes: 21
+    diagrams: {}
+    question_sha256: cdf0fa24444439326d7f4820908af9a8d70c1e1feb4b6b1282f7f25e6b86b097
+    solution_sha256: f006d959e1c6b413b921b50807031a5493e848c98f532f11e338d305a9dbd13c
+    check_sha256: 4c88ae315144836448f40de5fc5983e156d4a4a19399f52335f30a8f7442df80
+    check_exit: 0
+    check_stdout: Hamiltonian commutators on an arbitrary test function reproduce momentum/mass and the negative
+      potential derivative.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      4: 87c7abaebd624630f4d97e97783e80bd9c8de4117916161c773dd56bc1215f46
+    source_image_sha256: 16a5f629629c4152616e198788b6b4782b21969e229514470b50137bfae3f486
+    blind_source_image_sha256: 1661d41a52fb6d7c6f5e55ddab3be851ece2df679f05c81c91c2dbb2492a22ce
+    browser:
+      title: IB/2023/P4/q4D · Cambridge Maths
+      math: 21
+      rendered: 21
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 901e2b6e7b4f059de2553e56bc883fdb202187b227a8bd8d853e41e056c7644b
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 4aee139c6cbb2e304693311f49f06426cc54ae5256a69b78a78a03d52d87ef17
+    verified_receipt_hashes:
+      independent:
+        question.tex: cdf0fa24444439326d7f4820908af9a8d70c1e1feb4b6b1282f7f25e6b86b097
+        solution.tex: f006d959e1c6b413b921b50807031a5493e848c98f532f11e338d305a9dbd13c
+      computer:
+        question.tex: cdf0fa24444439326d7f4820908af9a8d70c1e1feb4b6b1282f7f25e6b86b097
+        solution.tex: f006d959e1c6b413b921b50807031a5493e848c98f532f11e338d305a9dbd13c
+      pdf:
+        question.tex: cdf0fa24444439326d7f4820908af9a8d70c1e1feb4b6b1282f7f25e6b86b097
+        solution.tex: f006d959e1c6b413b921b50807031a5493e848c98f532f11e338d305a9dbd13c
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: The product differentiation with a self-adjoint Hamiltonian, commutator signs, time-independent
+      energy and distinction between the expected force and the force at the mean all agree.
+    visual_pdf_and_html_comparison: Parts (a),(b), hats and expectation subscripts, conjugate, explicit time variation
+      and negative gradient survive both renderers.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: Both parts agree, including the commutator order $[H,O]$, the factor $i/\hbar$,
+      the explicit time derivative, the complex conjugate on the left of the integral, expectation subscripts, the
+      factor $m$, negative force, and zero energy derivative. The comparison request closes the question.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P4-q4D.md
+    blind_rework_sha256: 98e72024820164c9cd02dcfaa01193f40d55a64a7fbe992de4756770bf90a12c
+    blind_rework_utf8: |
+      # IB 2023, Paper 4, Question 4D
+
+      Take the complex Hilbert inner product conjugate-linear in the first slot, and a normalized Schrödinger solution with time derivative and operator products defined on a common suitable domain. For differential operators the self-adjoint Hamiltonian boundary conditions must justify transfer of $H$ in the inner product (for instance smooth rapidly decaying states on the line). Differentiating gives
+      $$\frac{d}{dt}\langle\psi,O\psi\rangle
+      =\langle\dot\psi,O\psi\rangle+\langle\psi,\partial_tO\,\psi\rangle+\langle\psi,O\dot\psi\rangle.$$
+      Substitution of $\dot\psi=-iH\psi/\hbar$ and $\langle H\psi,O\psi\rangle=\langle\psi,HO\psi\rangle$ combines the first and third terms into $(i/\hbar)\langle\psi,(HO-OH)\psi\rangle$, giving the stated theorem.
+
+      For $H=p^2/(2m)+U(x)$ and $p=-i\hbar\,d/dx$, the product rule yields $[p,x]=-i\hbar I$, $[p^2,x]=-2i\hbar p$, and $[U,p]=i\hbar U'$. Multiplication by $x$ commutes with $U$ and $p^2$ commutes with $p$. Neither $x$ nor $p$ depends explicitly on time. Thus
+      $$m\frac{d}{dt}\langle x\rangle=\langle p\rangle,\qquad \frac{d}{dt}\langle p\rangle=-\langle U'(x)\rangle.$$
+      For $O=H$, the commutator vanishes identically and the scalar potential here has no explicit time dependence, so $d\langle H\rangle/dt=0$.
+
+      Classically $\dot x=p/m$, $\dot p=-U'(x)$ and the energy of a trajectory is conserved for a time-independent Hamiltonian. The quantum formula averages the force; in general $\langle U'(x)\rangle$ need not equal $U'(\langle x\rangle)$. They do agree for affine $U'$, for example in a harmonic potential.
+  IB/2023/P4/q5D:
+    source_pdf: private/raw/tripos/IB/2023/P4.pdf
+    source_sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+    source_page: 3
+    compiled_pdf: build/IB-2023-P4/main.pdf
+    compiled_sha256: 72c4a22891e0fb9903680a43754fbf6dffee48e43d739f4ba36f5d4dc372ed98
+    compiled_pages:
+    - 5
+    html: site/private/questions/IB/2023/P4/q5D/index.html
+    html_sha256: 021b5751901293611d0da24de473b103ac71bb1851d8897c4d9298d60e8ce865
+    math_nodes: 49
+    diagrams: {}
+    question_sha256: 2bb8615264d580c1cb9564945f42f9a788fd5be95c82c2dc3771f940d377a749
+    solution_sha256: 38a2c05d4ad2cabfaaa4abf4e04f58fb9ee1ecba5e6ee417dd45b4ac995954ee
+    check_sha256: 737090b5543ccd7fc4fbff7aae0878ee99ab411d8f7fd6b024e2a973927475a9
+    check_exit: 0
+    check_stdout: Multipole coefficients, finite-distance force and attraction on both axis rays passed
+    check_stderr: ''
+    compiled_page_image_sha256:
+      5: a9773a8ebcc43b65ca4d8515ff3adac62d36a2ddbca89a15825cf056d718d706
+    source_image_sha256: 16a5f629629c4152616e198788b6b4782b21969e229514470b50137bfae3f486
+    blind_source_image_sha256: 1661d41a52fb6d7c6f5e55ddab3be851ece2df679f05c81c91c2dbb2492a22ce
+    browser:
+      title: IB/2023/P4/q5D · Cambridge Maths
+      math: 49
+      rendered: 49
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 29ec5191d7ae46548ae8313aee6074c0509300a44a93f6636e7c9c4e81533e5a
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 6bd7b0f98cd616267fe91d50fd5cf385c752c49006721bf1eec1a672bfebe8ae
+    verified_receipt_hashes:
+      independent:
+        question.tex: 2bb8615264d580c1cb9564945f42f9a788fd5be95c82c2dc3771f940d377a749
+        solution.tex: 38a2c05d4ad2cabfaaa4abf4e04f58fb9ee1ecba5e6ee417dd45b4ac995954ee
+      computer:
+        question.tex: 2bb8615264d580c1cb9564945f42f9a788fd5be95c82c2dc3771f940d377a749
+        solution.tex: 38a2c05d4ad2cabfaaa4abf4e04f58fb9ee1ecba5e6ee417dd45b4ac995954ee
+      pdf:
+        question.tex: 2bb8615264d580c1cb9564945f42f9a788fd5be95c82c2dc3771f940d377a749
+        solution.tex: 38a2c05d4ad2cabfaaa4abf4e04f58fb9ee1ecba5e6ee417dd45b4ac995954ee
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Monopole, signed dipole and quadrupole agree. The fixed-Qd² limit diverges off the equator unless
+      M=1; cancellation then also needs N=2. The exact force is attractive on both sides of the origin.
+    visual_pdf_and_html_comparison: The charge assignment, all three parts, two limiting products, signed multipole
+      series, absolute value and vector directions appear.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: The introductory sentence has all three signed charges in their printed order and
+      locations, including the positive-integer qualifiers. All (a)–(c) match, including the vector $\mathbf r$
+      versus scalar $r$, “and/or”, the two distinct fixed products $Qd,Qd^2$, and the negative test charge on the
+      $x$ axis.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P4-q5D.md
+    blind_rework_sha256: 05c16f602b11aafb3806d69bb5b605d2fdaf2a5cbcf91cdab4d9d5c16dfc11dc
+    blind_rework_utf8: |
+      # IB 2023, Paper 4, Question 5D
+
+      Let $k=1/(4\pi\epsilon_0)$, $r=|\mathbf r|$, $\mu=z/r$, and take zero potential at infinity. By superposition, away from the sources,
+      $$\Phi=kQ\left(\frac N r-\frac1{|\mathbf r-d\mathbf e_z|}-\frac M{|\mathbf r+d\mathbf e_z|}\right).$$
+      For $r>d$, expand $(1-2\mu u+u^2)^{-1/2}=\sum_{\ell\ge0}P_\ell(\mu)u^\ell$ with $u=\pm d/r$. The first three terms of the potential are
+      $$kQ\left[\frac{N-1-M}{r}+\frac{(M-1)d\mu}{r^2}-\frac{(M+1)d^2(3\mu^2-1)}{2r^3}\right].$$
+      These are respectively the monopole, dipole and quadrupole. For $\ell\ge1$ the general coefficient is $-kQ[1+M(-1)^\ell]d^\ell P_\ell(\mu)/r^{\ell+1}$.
+
+      The monopole vanishes iff $N=M+1$, the dipole iff $M=1$ (for nonzero $Q,d$), and both iff $(N,M)=(2,1)$. With the monopole cancelled, hold the field point $\mathbf r\ne0$ fixed. If $Qd=D$ is fixed, the limit is $k(M-1)D\mu/r^2$, zero when $M=1$. If $Qd^2=K\ne0$ is fixed, the quadrupole stays finite and terms above it vanish. The dipole now scales as $k(M-1)K\mu/(d r^2)$. For $M\ne1$ no finite field-wide potential limit exists, though on the equatorial plane its dipole term vanishes. For $M=1$ the limit is the pure quadrupole $-kK(3\mu^2-1)/r^3$. The expansion remainder under either scaling tends to zero for fixed $r>0$, by convergence of the generating series near $d/r=0$.
+
+      For $(N,M)=(2,1)$ and $x\ne0$, the transverse field components cancel at $(x,0,0)$. Coulomb's law gives the force on the specified charge,
+      $$\mathbf F=2kQ^2 x\left[(x^2+d^2)^{-3/2}-|x|^{-3}\right]\mathbf e_x.$$
+      The bracket is strictly negative for $d>0$, so the force points towards the origin for either sign of $x$. At $x=0$ the test particle would coincide with a source.
+  IB/2023/P4/q6B:
+    source_pdf: private/raw/tripos/IB/2023/P4.pdf
+    source_sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+    source_page: 4
+    compiled_pdf: build/IB-2023-P4/main.pdf
+    compiled_sha256: 72c4a22891e0fb9903680a43754fbf6dffee48e43d739f4ba36f5d4dc372ed98
+    compiled_pages:
+    - 6
+    html: site/private/questions/IB/2023/P4/q6B/index.html
+    html_sha256: f2cbe6aed406d26c98e21e9e7e078473c46f5db6856b3186f64671e289c45267
+    math_nodes: 30
+    diagrams: {}
+    question_sha256: 1c4cc4da46c656f0b15d64acc090e49411ddd05bd8a9bad8745803a440121ab6
+    solution_sha256: b0b5c63376e5be5e739e1c8363a354279a63e3f10dff77ad76f27c17575eff5d
+    check_sha256: c4fd83a8b0a3a95a75e69ba407bd02e2d435b91584e080add7cfc574256d3857
+    check_exit: 0
+    check_stdout: Projection residuals, minimization and Pythagoras passed for unnormalized bases
+    check_stderr: ''
+    compiled_page_image_sha256:
+      6: 1caa9bbcac180713068509505b69ab7de85952e78097474777b25e1de1df11ac
+    source_image_sha256: 2aefea886958b779117f5292f26953d2703bc9d09a37c70d52cd51a9b32c23c3
+    blind_source_image_sha256: a4272bf545dee2693b2d0750b235abbfd3fd2bd7c7baad334265893f20034958
+    browser:
+      title: IB/2023/P4/q6B · Cambridge Maths
+      math: 30
+      rendered: 30
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: 3126c4ce211e3c2a8f28b286887786015df5133367bab19a1fcd99dbd5089ff3
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 70bdc4abf92d86b44f3be63341bf147fd61514f70ec4e2ca20406711a4917966
+    verified_receipt_hashes:
+      independent:
+        question.tex: 1c4cc4da46c656f0b15d64acc090e49411ddd05bd8a9bad8745803a440121ab6
+        solution.tex: b0b5c63376e5be5e739e1c8363a354279a63e3f10dff77ad76f27c17575eff5d
+      computer:
+        question.tex: 1c4cc4da46c656f0b15d64acc090e49411ddd05bd8a9bad8745803a440121ab6
+        solution.tex: b0b5c63376e5be5e739e1c8363a354279a63e3f10dff77ad76f27c17575eff5d
+      pdf:
+        question.tex: 1c4cc4da46c656f0b15d64acc090e49411ddd05bd8a9bad8745803a440121ab6
+        solution.tex: b0b5c63376e5be5e739e1c8363a354279a63e3f10dff77ad76f27c17575eff5d
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Positive squared norms, completeness of the degree-ordered polynomial basis, square completion,
+      uniqueness and orthogonality give the same projection and Pythagorean identity.
+    visual_pdf_and_html_comparison: Both parts, star identifier, projection denominator and squared norms appear,
+      with nonorthonormal polynomials allowed.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: The complete weighted inner product and its star identifier agree. The positivity
+      condition uses the open interval, the continuous functions use the closed interval, and the projection formula,
+      its upper and lower limits, last polynomial factor, and both squared norms in (b) match.
+    question_figure_result: No figures in the supplied question or solution.
+    blind_rework_file: P4-q6B.md
+    blind_rework_sha256: e88643d5a07c1124f74119e5c5f5f2edb2b8232c7a542ef8b5b7c87be024df85
+    blind_rework_utf8: |
+      # IB 2023, Paper 4, Question 6B
+
+      In the usual orthogonal polynomial sequence, $\deg Q_k=k$, so $Q_0,\ldots,Q_n$ are a basis of $\mathcal P_n$. Their squared norms $h_k=\langle Q_k,Q_k\rangle$ are strictly positive, since a nonzero polynomial is nonzero on an open subinterval and $w$ is positive there. The question supplies a well-defined real inner product.
+
+      For $p=\sum_{k=0}^n c_kQ_k$, put $b_k=\langle f,Q_k\rangle$. Orthogonality gives
+      $$\|f-p\|^2=\|f\|^2-2\sum_k b_kc_k+\sum_k h_kc_k^2
+      =\|f\|^2-\sum_k\frac{b_k^2}{h_k}+\sum_k h_k(c_k-b_k/h_k)^2.$$
+      The expression has a unique minimum when $c_k=b_k/h_k$ for every $k$. This yields exactly $p_n^*(x)=\sum_{k=0}^n(\langle f,Q_k\rangle/\langle Q_k,Q_k\rangle)Q_k(x)$.
+
+      For every $j\le n$ we have $\langle f-p_n^*,Q_j\rangle=b_j-(b_j/h_j)h_j=0$. By linearity the residual is orthogonal to $p_n^*$, so expanding the square of $f=(f-p_n^*)+p_n^*$ gives $\|f\|^2=\|f-p_n^*\|^2+\|p_n^*\|^2$. This includes $n=0$ and the zero-residual case.
+  IB/2023/P4/q7H:
+    source_pdf: private/raw/tripos/IB/2023/P4.pdf
+    source_sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+    source_page: 4
+    compiled_pdf: build/IB-2023-P4/main.pdf
+    compiled_sha256: 72c4a22891e0fb9903680a43754fbf6dffee48e43d739f4ba36f5d4dc372ed98
+    compiled_pages:
+    - 7
+    - 8
+    html: site/private/questions/IB/2023/P4/q7H/index.html
+    html_sha256: 934ce360dd89f757000e129c6a2380f3137b20046f972c5444158f38dd927f4b
+    math_nodes: 20
+    diagrams:
+      site/private/figures/tripos/IB/2023/P4/q7H/absorbing-chain.png: 92f699d4eab2d248fb87dba0dcffb41c21ad537c5a26b3b28bd649ae3e81b062
+    question_sha256: 88132372c92d27d2b3c1bc3ae36342ad6d137688a7dd1e0005394afdedc59ea4
+    solution_sha256: 705a7f132aaf4884a56fb9eb1bd068ff33e6a2034708bd5ca3e571d2bd832b82
+    check_sha256: 9b6d5f01f9da56e6fc86d95e0c2448fd4130b0ff1167640cc407cdd9dc0dcee7
+    check_exit: 0
+    check_stdout: Absorbing fundamental matrix independently checks all three hitting times, hit probability and
+      visit count.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      7: 970bdf3b98cd99d251417e082295b1e392a353e7daed90c78cd2101a0de5dd46
+      8: fe3caa871a59af877ac4684c69d8aabb0be71fbb34a4aefa6f8035e0e21f67ce
+    source_image_sha256: 2aefea886958b779117f5292f26953d2703bc9d09a37c70d52cd51a9b32c23c3
+    blind_source_image_sha256: a4272bf545dee2693b2d0750b235abbfd3fd2bd7c7baad334265893f20034958
+    browser:
+      title: IB/2023/P4/q7H · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams:
+      - alt: Transition diagram for the four-state Markov chain.
+        width: 779
+        height: 246
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: f5c20ec35651a9febff5e4f48612e84d02ccb1f6b4f4347ce77e24b959925464
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 55f36a6bd0bbf5c396ea734d9de380b9d2679bc58fd9217202652b343fa35881
+    verified_receipt_hashes:
+      independent:
+        question.tex: 88132372c92d27d2b3c1bc3ae36342ad6d137688a7dd1e0005394afdedc59ea4
+        solution.tex: 705a7f132aaf4884a56fb9eb1bd068ff33e6a2034708bd5ca3e571d2bd832b82
+        plot.py: 372c9eede51c797e9e8c00efd066187a1bc899dfe46bd358ef011368830ed43a
+        figures/absorbing-chain.png: 92f699d4eab2d248fb87dba0dcffb41c21ad537c5a26b3b28bd649ae3e81b062
+      computer:
+        question.tex: 88132372c92d27d2b3c1bc3ae36342ad6d137688a7dd1e0005394afdedc59ea4
+        solution.tex: 705a7f132aaf4884a56fb9eb1bd068ff33e6a2034708bd5ca3e571d2bd832b82
+        plot.py: 372c9eede51c797e9e8c00efd066187a1bc899dfe46bd358ef011368830ed43a
+        figures/absorbing-chain.png: 92f699d4eab2d248fb87dba0dcffb41c21ad537c5a26b3b28bd649ae3e81b062
+      pdf:
+        question.tex: 88132372c92d27d2b3c1bc3ae36342ad6d137688a7dd1e0005394afdedc59ea4
+        solution.tex: 705a7f132aaf4884a56fb9eb1bd068ff33e6a2034708bd5ca3e571d2bd832b82
+        plot.py: 372c9eede51c797e9e8c00efd066187a1bc899dfe46bd358ef011368830ed43a
+        figures/absorbing-chain.png: 92f699d4eab2d248fb87dba0dcffb41c21ad537c5a26b3b28bd649ae3e81b062
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: First-step expected absorption times (6,10,12), 1/3 hit probability, and 2 expected visits agree.
+      The canonical geometric return argument and independent occupancy equations both count self-loops as visits.
+    visual_pdf_and_html_comparison: Diagram and all three parts appear. Four labeled states, seven directed edges
+      and their weights survive on PDF and browser. PDF page 8 contains only the issue and source following the
+      completed proof.
+    mathematics_result: agrees with independent rework
+    source_transcription_result: 'The printed lead-in, labels (a)–(c), $g(i)=\mathbb E_i[T_0]$ and both starting-state-1
+      questions match. Also inspected the supplied figure independently against this original: state 0 has a loop
+      of 1, state 1 leads to 0 or 2, state 2 to 1 or 3, and state 3 to 2 or itself, all six nontrivial transitions
+      labeled $1/2$. Arrowheads, loops and state labels agree. The TeX diagram caption describes the image; the
+      original has no printed caption.'
+    question_figure_result: Recropped original Paper 4 page 4 at (174,397,418,474) PDF points and 230 dpi with antialiasing.
+      The crop, blind figure, canonical figure and HTML asset are byte-identical. PDF page 7 and the browser show
+      the correct self-loops, directed nearest-neighbour transitions and exact probabilities.
+    independently_regenerated_figure_sha256: 92f699d4eab2d248fb87dba0dcffb41c21ad537c5a26b3b28bd649ae3e81b062
+    blind_rework_file: P4-q7H.md
+    blind_rework_sha256: 13539eb7b27d4878fc18efbf36d6b14a19ae80bd6ee55d676c16bab5aa9ec684
+    blind_rework_utf8: |
+      # IB 2023, Paper 4, Question 7H
+
+      The diagram has $0\to0$ with certainty; states 1 and 2 each move one place left or right with probability $1/2$ each; from 3 the two possibilities are 2 and 3, equiprobably. Starting from any positive state the probability of absorption within the next three steps is at least $1/8$ by consecutive left moves. Iteration gives $\Pr_i(T_0>3k)\le(7/8)^k$. Thus both the mean absorption times and the expected pre-absorption visit counts below are finite.
+
+      (a) First-step conditioning with $g_0=0$ gives $g_1=1+g_2/2$, $g_2=1+(g_1+g_3)/2$, $g_3=1+(g_2+g_3)/2$. The last equation yields $g_3=g_2+2$, the middle then gives $g_2=g_1+4$, and the first gives
+      $$g_1=6,\qquad g_2=10,\qquad g_3=12.$$
+
+      (b) For the probability $h_i$ of hitting 3 before 0, the boundary values are $h_0=0$, $h_3=1$, and $2h_i=h_{i-1}+h_{i+1}$ for $i=1,2$. Its first differences are equal, so $h_i=i/3$ and the requested probability is $1/3$.
+
+      (c) Count every time in state 3, including successive times under its self-loop. Let $v_i$ be the expectation of this count starting from $i$, with $v_0=0$. First-step conditioning gives $v_1=v_2/2$, $v_2=(v_1+v_3)/2$, $v_3=1+(v_2+v_3)/2$, with the reward of one in the last equation counting the present visit. Thus $v_3=v_2+2$, $v_2=v_1+2$, and $v_1=2$. As a check, $v_3=6$ and $h_1v_3=2$ by the strong Markov property at the first visit to 3.
+  IB/2023/P4/q17H:
+    source_pdf: private/raw/tripos/IB/2023/P4.pdf
+    source_sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+    source_page: 13
+    compiled_pdf: build/IB-2023-P4/main.pdf
+    compiled_sha256: 72c4a22891e0fb9903680a43754fbf6dffee48e43d739f4ba36f5d4dc372ed98
+    compiled_pages:
+    - 22
+    html: site/private/questions/IB/2023/P4/q17H/index.html
+    html_sha256: 9dcb926f8f40699ff5cfa9736cea5ff398f39ff1a0dd70f8aa859704b4e0b055
+    math_nodes: 50
+    diagrams: {}
+    question_sha256: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+    solution_sha256: 4d90b9de08879b70cbd2a5f31a6e2ddc5c83b602c6bd1c517ad16329c63b845e
+    check_sha256: c01f735a6625746fbbcf7f53b5e0c7519b091235d94edc4761f2e4a597b83457
+    check_exit: 0
+    check_stdout: Estimator means, variance ordering and equality with zero areas checked; exact Poisson tail matches
+      the large-exposure test.
+    check_stderr: ''
+    compiled_page_image_sha256:
+      22: 9c9550dbeee9796140dd885588d94571f37bbabe727097614016cdf8dfa79559
+    source_image_sha256: 81830ff3c3f85ae63b52df20a9ad822011de3f9ee912d1733f09c5eee837d47a
+    blind_source_image_sha256: dc76ed4be2c999882ed8175dc3da37860d5f6bbd7c0742cbc687369cb8864c1f
+    browser:
+      title: IB/2023/P4/q17H · Cambridge Maths
+      math: 50
+      rendered: 50
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    browser_screenshot_sha256: ba4162ea2b367ec7427edaf6d4955bd4b0e3680190bd9a6aec3b23d7905abd14
+    metadata_source_hashes_verified: true
+    receipt_meta_sha256: 7993e3bbf3cb5360115b05bd87e38620e508255b88c8a5b82c97263993d45f95
+    verified_receipt_hashes:
+      independent:
+        question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+        solution.tex: 4d90b9de08879b70cbd2a5f31a6e2ddc5c83b602c6bd1c517ad16329c63b845e
+      computer:
+        question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+        solution.tex: 4d90b9de08879b70cbd2a5f31a6e2ddc5c83b602c6bd1c517ad16329c63b845e
+      pdf:
+        question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+        solution.tex: 4d90b9de08879b70cbd2a5f31a6e2ddc5c83b602c6bd1c517ad16329c63b845e
+    verified_pdf_build_dependencies:
+      templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+      scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    comparison: Part (b) incorrectly attributes a maximum to the score at D/S₁. For D>0, the score D/θ−S₁ strictly
+      decreases, its derivative is −D/θ² and it diverges at θ↓0. The log likelihood reaches the maximum at the score
+      zero. The frozen rework assigns the maximum correctly. The estimators, expectations, variances, equality for
+      equal positive exposures, boundary cases and two thresholds otherwise agree.
+    visual_pdf_and_html_comparison: Parts (a)–(d), two large-exposure conditions and the printed hint appear. Both
+      formats visibly reproduce the incorrect score assertion in the canonical source; this is one shared mathematical
+      error and no conversion error.
+    mathematics_result: error in derivation, part (b)
+    source_transcription_result: The fixed nonnegative design, response counts, independent Poisson specification
+      and all parts (a)–(d) match. Verified both estimator subscripts, the direction and values of the two hypotheses,
+      size $0.05$ twice, “sum” versus “each” exposure in the separate normal approximations, and the full bracketed
+      hint with $\mathcal N(\lambda,\lambda)$.
+    question_figure_result: No figures in the supplied question or solution.
+    pre_repair_history:
+      tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction/check.py: c01f735a6625746fbbcf7f53b5e0c7519b091235d94edc4761f2e4a597b83457
+      tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction/comparison.md: bb8c1071d9318c82e2f535b88bba39a4f547d76177ec6d74a218112c385ebe94
+      tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction/independent-solution.md: 81fd5d82a7f51742f9b7b2ddb3a8658ad65b55af4eef0f6d2de1b5c1ccbc5a8b
+      tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction/metadata-before.yaml: 7993e3bbf3cb5360115b05bd87e38620e508255b88c8a5b82c97263993d45f95
+      tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction/question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+      tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction/solution.tex: 4d90b9de08879b70cbd2a5f31a6e2ddc5c83b602c6bd1c517ad16329c63b845e
+    initial_check_limitation: The passing check covers means, variance ordering, equality and the null Poisson tail.
+      It contains no score-sign or likelihood-curvature assertion and did not detect the false sentence.
+    blind_rework_file: P4-q17H.md
+    blind_rework_sha256: 447b8422df95dfac6403d0917aabfce07937aa7b972c9bcbca58f9ebcc282a09
+    blind_rework_utf8: |
+      # IB 2023, Paper 4, Question 17H
+
+      Let $S_j=\sum_i x_i^j$ for $j=1,2,3$, and first suppose $S_1>0$, equivalently $S_2>0$. The all-zero design makes all $Y_i=0$ almost surely for every $\theta$, giving no information on the parameter. A zero exposure among otherwise positive exposures contributes a deterministic zero observation under the model.
+
+      (a) Write $Y_i=\theta x_i+e_i$, with independent errors of mean zero and variances $\theta x_i$. The normal equation for minimising $\sum_i(y_i-tx_i)^2$ is $tS_2=\sum_i x_i y_i$. Since $S_2>0$ the minimizer is unique, and nonnegative for the given counts:
+      $$\hat\theta_{LS}=\frac{\sum_i x_iY_i}{S_2},\qquad \mathbb E_\theta\hat\theta_{LS}=\theta.$$
+
+      (b) On observations with positive model support, the $\theta$-dependent likelihood is $e^{-\theta S_1}\theta^{T}$, $T=\sum_iY_i$. For $T>0$ differentiation of $T\log\theta-\theta S_1$ gives the unique maximum at $T/S_1$. For $T=0$ the likelihood decreases, giving the endpoint $\theta=0$ on the natural parameter space $\theta\ge0$ (only a limiting supremum on a strictly positive parameter space). Independent Poisson addition gives $T\sim\operatorname{Poisson}(\theta S_1)$. Hence $\hat\theta_{MLE}=T/S_1$ is unbiased.
+
+      (c) Independence and the mean-variance equality give
+      $$\operatorname{Var}(\hat\theta_{LS})=\frac{\theta S_3}{S_2^2},\qquad
+      \operatorname{Var}(\hat\theta_{MLE})=\frac{\theta}{S_1}.$$
+      Cauchy–Schwarz applied to $(x_i^{1/2})_i$ and $(x_i^{3/2})_i$ gives $S_2^2\le S_1S_3$. Thus the MLE has at most the LS variance. For $\theta>0$ equality holds exactly when the positive exposures are all equal (zeros can be present); for $\theta=0$ both variances are zero.
+
+      (d) Under $H_0$, $T$ has Poisson mean $S_1$, so for large $S_1$, $(T-S_1)/\sqrt{S_1}$ is approximately standard normal. Reject in favour of the larger parameter if $\sqrt{S_1}(\hat\theta_{MLE}-1)>z_{0.95}\simeq1.645$. Discrete rounding affects only the approximation to size. Under $H_0$, when each exposure is large, independently approximate $Y_i$ by $N(x_i,x_i)$. The resulting linear combination $\sum_i x_i(Y_i-x_i)$ is approximately $N(0,S_3)$, giving the LS test that rejects when $(S_2/\sqrt{S_3})(\hat\theta_{LS}-1)>z_{0.95}$. Both tests are upper-tailed because increasing $\theta$ increases their expected values.

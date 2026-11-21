@@ -1,0 +1,1283 @@
+scope: Expanded census of all twenty existing, solved Part IB Statistics questions at this checkpoint, following a 2023
+  stratified exam-sample finding. The results describe the examined drafts only. No official solutions were used.
+completed_at_utc: '2026-11-21T06:39:27.135331+00:00'
+population:
+  criterion: Every catalogued, non-missing question with primary or additional course IB/statistics. Confirmed by scanning
+    both tripos/ and courses/ question metadata, excluding history.
+  solved_eligible: 20
+  reviewed: 20
+  exam_years:
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+  solved_questions_per_year:
+    '2023': 5
+    '2024': 5
+    '2025': 5
+    '2026': 5
+  catalogued_at_review: 68
+  missing_outside_review: 48
+  course_complete: false
+  official_comparisons: 0
+procedure:
+  blind_reviewer: An independent reviewer reworked every subpart of the supplied twenty questions and compared each statement
+    with its original public exam page. No stored derivations, code, numeric outputs, audit commentary or official answers
+    were consulted before freezing.
+  blind_input: Exact supplied question.tex fragments, original paper and printed number/page locators, and the originals
+    at those pages. The twenty question files are byte-identical to the canonical question files compared post-freeze.
+    The three working hashes below preserve the frozen packet and notes.
+  blind_packet_locators_sha256: 411c27baa04284e38af105108ea94be1d47a0f375e6082a8c9e3b575ce3c2c97
+  frozen_rework_relative_manifest_sha256: c50ef8f3b98cf6d68788128bb3910671855144b88afddde3cd06cecb99a100ce
+  frozen_source_notes_sha256: deb233d3daa2caa31c40c1ec04588b875786dd556e4085e6cb8389b3b1deee88
+  frozen_sha256_manifest: |
+    ba711d6531eb4a27aaa081d37cdf91fad4a29c4dc8d41b9a8e3bb8f1ab888ad9  2023-P1-q18H.md
+    e4e19761c52e00f5d939bc50bcc73952e8485696d109e7e29cd1d3d8f623cb28  2023-P1-q6H.md
+    fa84a0a18b6dd6fa4565d1cb560b99c73f0e5c377a1548df22e9cdc4ce65b3b2  2023-P2-q6H.md
+    66550e4fa86fb0abda7d32e6c2170441cda24410c9a1dd2adb6629488bcd715d  2023-P3-q18H.md
+    041ce0989ac2af15d6d303c48cf5127a242a132ec8a55d3a4378a690c57501b9  2023-P4-q17H.md
+    9edd4200e4a9815cf342992524c0bd4cf2e7578cfb24655f1ebf59e403c44091  2024-P1-q18H.md
+    7797af1cdcab74d504dfd200dd51b537cf5e62cc6b4540e7b145dea142e01c2d  2024-P1-q6H.md
+    52fa86e4f6ce4ac7a436ca56a54b9890e388b0b0b4e2b995e89e9d3f2e02a4d9  2024-P2-q6H.md
+    ddaff32277f50a309cb93d76ad84dfa625272f28fb5b03459d57039ff5280b1c  2024-P3-q18H.md
+    e78496aef7d3e682a021818a4d760d47adb45e96c4ffa927d27065a8b8b2555d  2024-P4-q17H.md
+    546a3b955101a6fe4ffd823766b5b5ee2d947130a14d0dc7d10558cda6425711  2025-P1-q18H.md
+    ff41cb48483732fc17618c5997776b61e37775c08f79e9eb32c5a3ae16002dc4  2025-P1-q6H.md
+    2a39e0f99876b9f226348ed9b3e55f25986e024dfe1f90889b151d2ebcbd9e00  2025-P2-q6H.md
+    033b1c2b16b1e6091bfe2185bebbff6ff055cad37dfb814202560eef5cfe421b  2025-P3-q18H.md
+    8de6b8c5734de12af3a9007ab43a7232c200394083cf98ffa41f99b9032c02d7  2025-P4-q17H.md
+    a8c10ea196d53861c51d48025558a8d12fbe7cb2cf8dd45549ca03f732200f28  2026-P1-q17H.md
+    cb9b9e265c5dbd3473f6913c447f457da9c5d7b896fb1b1ed646be1f9ff200d7  2026-P1-q6H.md
+    c19cc489e7a9c8edeb6ad3030f5d3b61d983df10e094a72daeca4b3d4343530d  2026-P2-q6H.md
+    db8be9d4d46c2f15d7eab8444555a72ee6965c9ef33cd87a2c5417b68134b630  2026-P3-q18H.md
+    f77d125f5ea57e24bba888a02024eeb6f81c519a917813b872bf18cdce4a1833  2026-P4-q17H.md
+    deb233d3daa2caa31c40c1ec04588b875786dd556e4085e6cb8389b3b1deee88  SOURCE-NOTES.md
+  frozen_source_notes: |
+    # Independent source comparison
+
+    I compared each supplied question fragment against a rendering of the specified page of the original exam. I checked the question body, mathematical notation, printed subpart order, numerical values, hints, qualifiers and the two data tables. The page heading and question number were used as locators. None of the twenty question bodies prints subpart mark allocations. Line wrapping, table rules and mathematical typesetting differ between the formats. I found no wording or mathematical-content discrepancy requiring a transcription correction.
+
+    | Exam | Page | Question | Checks against the original |
+    | --- | ---: | --- | --- |
+    | 2023 P1 | 12 | 18H | Unit normal variance, \(T=X_1+X_2\), squared target, fourth moment 3, and all five requests. |
+    | 2023 P1 | 3 | 6H | “generalized”, 75 amputations, treatment columns, lived counts 34 and 19, died counts 6 and 16, two-sided “affects”, and final instruction. |
+    | 2023 P2 | 3 | 6H | Known positive sampling and prior standard deviations, precision-weighted posterior, and all four requests. |
+    | 2023 P3 | 10 | 18H | The two parameter sets, positive exponential in the logistic density, both simple hypotheses, and the composite-null inequality. |
+    | 2023 P4 | 13 | 17H | Nonnegative areas, independent counts, parameters 1 and 2, distinction between a large total and large individual areas, and normal approximation hint. |
+    | 2024 P1 | 10 | 18H | Two uniform observations, null including zero, thresholds .95 and \(C\), all four parts including the plot. |
+    | 2024 P1 | 3 | 6H | Single observation followed by \(n\ge2\), scale parameter \(\sigma\), statistic \(\sum |X_i|\), and standard-results instruction. |
+    | 2024 P2 | 4 | 6H | All six die scores and counts 20, 15, 12, 17, 9, 17; 90 rolls; statement’s quantile wording; final instruction. |
+    | 2024 P3 | 12 | 18H | Unit sampling variance, equal prior weights, continuous variance \(\tau^2\), both displayed hints, \(n=100,\tau=1\), and near-zero/tail questions. The printed normal tail denominator is \(x\sqrt{2\pi}\). |
+    | 2024 P4 | 12 | 17H | Fixed predictors, centring by \(\bar x\), prime marks on parameters and estimates, known/unknown variance distinction, and .95 coverage. |
+    | 2025 P1 | 11 | 18H | Regression through the origin in both directions, \(t_k\), lower variance bound, proof restriction on Gauss–Markov, and the zero-residual equality condition. |
+    | 2025 P1 | 4 | 6H | Simple hypotheses, density on the real line with prefactor \(\theta/2\), strict order \(\theta_0<\theta_1\), and proof request. |
+    | 2025 P2 | 3 | 6H | One observation, gamma shape/rate prior and normaliser, displayed squared-loss result, hyperbolic cosine, strict \(0<r<\lambda\). |
+    | 2025 P3 | 9 | 18H | Discrete vector, both theorem proof requests, Poisson mean \(\sqrt q\), \(n\ge2\), factorial-moment estimator, and strict variance language. The printed statement does not explicitly exclude \(q=0\). |
+    | 2025 P4 | 11 | 17H | Both group indices, unit variances, the two nulls, specified cdfs, and the direction of rejection/nonrejection in (c). |
+    | 2026 P1 | 14 | 17H | Dimensions and full-rank assumptions, column normalisation in (iv), strict marginal tail and weak test threshold in (v), union bound, and the unscaled residual norm denominator in (vi). The normalisation in (iv) is not explicitly restated in (v). |
+    | 2026 P1 | 5 | 6H | Uniform endpoints, \(\theta<1\), target MSE and the minimum-variance hint including the factors \(n+1,n+2\). |
+    | 2026 P2 | 4 | 6H | Prior variance \(\tau^{-2}\), strict risk comparison, and the stated threshold \(2\tau^{-2}+1/n\). |
+    | 2026 P3 | 14 | 18H | Nested labels, continuity and support conditions, inclusive mixture-weight range, open exterior null \(\mu\notin[-\mu_0,\mu_0]\), and both signs in the normal equation. |
+    | 2026 P4 | 13 | 17H | Rate parametrisation, deterministic scaling constants for both interval types, gamma hint and its mgf domain, and all five parts. |
+
+    The printed assumptions about \(q=0\) and column normalisation, and the contrast between the open exterior null and its boundary, are addressed in the relevant mathematical reworks. These qualifications concern the stated mathematics.
+  frozen_content: The blind.rework entry of each question reproduces the complete frozen text including its trailing
+    newline.
+  post_freeze: Compared all 20 canonical solution fragments and their checks with the frozen independent derivations.
+    Each current check was read then executed independently with Python -B; its exit status and output were checked against
+    the saved result. The initial erroneous unit was compared separately against its preserved pre-correction snapshot.
+  locator_verification: For each question, verified exam file and its SHA256 against private/manifest.csv, the number
+    and page against the rendered original, initial packet and private/links.yaml, and section, number, source heading
+    and page against private/paper-page-index/IB-headings.tsv.
+  receipt_verification: Computed current question, solution and check hashes. Compared them with canonical independent,
+    computer and PDF source receipts, checked PDF build-source hashes and presence of the recorded PDFs, and included
+    the plot source and PNG whenever referenced. This expansion evaluates mathematical and transcription content; format
+    rendering of the initiating sample has its own audit.
+  before_repair_basis: For IB/2023/P4/q17H use only history/2026-11-21-audit-before-score-correction. The other 19 use
+    the unchanged current solution as their before-repair comparator. Repeated manifestations of a single proof error
+    count once.
+  execution_runtime:
+    python: 3.12.11
+    numpy: 1.26.4
+    scipy: 1.15.2
+    sympy: 1.13.3
+observed_before_repair:
+  scope: Twenty solved Statistics questions, census
+  substantive_errors: 1
+  questions_reviewed: 20
+  observed_rate: 1/20
+  percent: 5
+  affected:
+  - IB/2023/P4/q17H
+  new_substantive_errors_found_by_expansion: 0
+  source_transcription_errors: 0/20
+observed_after_repair:
+  scope: Twenty solved Statistics questions, census
+  substantive_errors: 0
+  questions_reviewed: 20
+  observed_rate: 0/20
+  source_transcription_errors: 0/20
+  executed_current_checks: 20/20 passed
+  verified_current_source_and_computer_receipts: 20/20 matched
+  verified_originals_and_page_locators: 20/20 matched
+  official_comparison: false
+initiating_2023_stratified_sample:
+  source_report: private/ib-2023-taken-exam-audit.yaml
+  source_report_sha256_at_comparison: 3d91f9b444ad05dac0cfaaa0415427393a0b1bee195044cfeac64c5658322d97
+  population: 50
+  sample_size: 12
+  seed: 20261208
+  sampling_reproduced: true
+  sample:
+    IB/analysis-ii:
+    - IB/2023/P2/q10G
+    IB/complex-methods:
+    - IB/2023/P1/q12G
+    IB/electromagnetism:
+    - IB/2023/P4/q5D
+    IB/fluid-dynamics:
+    - IB/2023/P3/q16C
+    IB/linear-algebra:
+    - IB/2023/P2/q8F
+    - IB/2023/P1/q1F
+    IB/markov-chains:
+    - IB/2023/P4/q7H
+    IB/methods:
+    - IB/2023/P2/q14A
+    - IB/2023/P3/q5A
+    IB/numerical-analysis:
+    - IB/2023/P4/q6B
+    IB/quantum-mechanics:
+    - IB/2023/P4/q4D
+    IB/statistics:
+    - IB/2023/P4/q17H
+  statistics_overlap:
+  - IB/2023/P4/q17H
+  before_repair: 1/12
+  after_repair: 0/12
+  affected_unit_retest: 0/1
+  interpretation: These are the original twelve sampled 2023 questions across ten course strata. Only one overlaps the
+    twenty Statistics questions. Counts and denominators must not be added.
+resolution:
+  affected_question: IB/2023/P4/q17H
+  mathematical_repair_verified: true
+  further_substantive_errors: 0
+  finding: The revised score argument identifies a change from positive to negative at D/S₁ and assigns the maximum to
+    the log likelihood. Symbolic score and curvature tests exercise this distinction; the earlier executable passed despite
+    the false statement.
+  escalation_disposition: The mathematical finding and requested expansion are resolved for the twenty currently solved
+    units. Official comparison, absent course material and future solutions remain outside this audit.
+questions:
+  IB/2023/P1/q18H:
+    source:
+      archive: private/raw/tripos/IB/2023/P1.pdf
+      sha256: 647c04b62127c5fa145672b915af9af09108d3e0a252cd64a4d43357d4afc582
+      page: 12
+      pages:
+      - 12
+      original_question: 18H
+      section: II
+      question_sha256: 703895cc3669f6313782e20d572923afc757a190de1a85d872edd36ddcb7ce7f
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The expanded bivariate density and the constant-likelihood-ratio criterion give the same minimal sufficient
+        sum. The centred second and fourth moments give risks 4μ²+2 and 2μ²+1/2. A zero-covariance Gaussian difference
+        yields conditional variance 1/2 and conditional mean T/2. The strict improvement includes μ=0.
+      check_review: SymPy independently expands the squared estimates using the first four standard-normal moments and
+        verifies the sum/difference covariance.
+    verification:
+      source_hashes:
+        question.tex: 703895cc3669f6313782e20d572923afc757a190de1a85d872edd36ddcb7ce7f
+        solution.tex: 93d0e8701d108155389691a0aed62f706d495e2fd294f5c5f6eaf41611f7fb85
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 5b6c4329af5c7b6b4b3c39048b03755fd9005849afb5db930d6096de88aa274e
+      canonical_comparison_text_sha256: 4a6adc9b0fbfb9c2acaceec0310684969cd928952a77fa0eda1a4dde1e1b22be
+      computer_check_sha256: fc9617fce49ab199b92f75a0320092fe1f53dac852c51c0cf02dc4eb39f4dc74
+      computer_check_exit: 0
+      computer_check_stdout: Normal sum/difference covariance, unbiasedness and both exact risks verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.415453+00:00'
+    blind:
+      file: 2023-P1-q18H.md
+      sha256: ba711d6531eb4a27aaa081d37cdf91fad4a29c4dc8d41b9a8e3bb8f1ab888ad9
+      rework: |
+        # 2023 Paper 1, 18H
+
+        **(a)** Independence gives the Lebesgue density
+        \[
+        f_\mu(x)=\frac{1}{2\pi}\exp[-((x_1-\mu)^2+(x_2-\mu)^2)/2],\qquad x\in\mathbb R^2.
+        \]
+
+        **(b)** Expand the exponent as \(-\|x\|^2/2+\mu T(x)-\mu^2\). The factorisation criterion proves sufficiency. For any two observations \(x,y\), the likelihood ratio is a fixed positive factor times \(\exp(\mu[T(x)-T(y)])\). With \(\mu\) free on the real line this ratio is constant in \(\mu\) exactly when \(T(x)=T(y)\). The likelihood-ratio characterisation of minimal sufficiency applies to these everywhere-positive densities.
+
+        **(c)** Write \(X_1=\mu+Z\) for standard normal \(Z\). Then \(S-\mu^2=2\mu Z+(Z^2-1)\) has mean zero. The two terms are uncorrelated by symmetry, so its second moment is \(4\mu^2+(3-2+1)=4\mu^2+2\).
+
+        **(d)** The sum \(T\) and difference \(D=X_1-X_2\) are jointly Gaussian, with zero covariance, hence independent. Since \(D\sim N(0,2)\) and \(X_1=(T+D)/2\), the conditional distribution at \(T=t\) is \(N(t/2,1/2)\), with density \(\pi^{-1/2}\exp[-(x-t/2)^2]\) on the whole line. This defines a version for all \(t\).
+
+        **(e)** Rao–Blackwell conditions an integrable estimator on a sufficient statistic and cannot increase squared-error risk. Here \(E[S\mid T]=T^2/4-1/2\), using the conditional variance and squared conditional mean in (d). It is unbiased by iterated expectation. For \(W=T/2=\mu+Z'/\sqrt2\), \(Z'\) standard normal, the new error is \(\sqrt2\mu Z'+((Z')^2-1)/2\). Its second moment is \(2\mu^2+1/2\). The risk decrease \(2\mu^2+3/2\) is positive even at \(\mu=0\).
+  IB/2023/P1/q6H:
+    source:
+      archive: private/raw/tripos/IB/2023/P1.pdf
+      sha256: 647c04b62127c5fa145672b915af9af09108d3e0a252cd64a4d43357d4afc582
+      page: 3
+      pages:
+      - 3
+      original_question: 6H
+      section: I
+      question_sha256: 90bcf18700cf40af6acb659fdca4a16fb4137427a675214a9242769e7c175e19
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Both accounts distinguish Wilks' asymptotic calibration from exact finite-sample size. Totals 40 and
+        35, 22 pooled deaths, one difference in dimension, pooled and separate binomial MLEs, and the conditional hypergeometric
+        law all agree. At fixed margins the G-order randomisation attains α even for a constant table.
+      check_review: The check reproduces the G statistic using SciPy's independent contingency calculation and sums exact
+        hypergeometric mass over every 0 through 75 death margin.
+    verification:
+      source_hashes:
+        question.tex: 90bcf18700cf40af6acb659fdca4a16fb4137427a675214a9242769e7c175e19
+        solution.tex: 4e576cc327403c2af29a4d227053f4f7e9234043d703fcfada1cedb8eaad5aee
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: a5a39f946d45161f09325cdcf959d88195fa2970bc979ae6261ad0251686be72
+      canonical_comparison_text_sha256: fabf554adf556fb265316ee4fd41ff333adc3f75229afc3ba2197efef46e3e97
+      computer_check_sha256: 305f1df1a008974b4237c6c5d1ebbc27a44824874f16be755775ce1fd0d5b3d1
+      computer_check_exit: 0
+      computer_check_stdout: Likelihood-ratio deviance, one degree of freedom and exact conditional law at every possible
+        margin verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.715554+00:00'
+    blind:
+      file: 2023-P1-q6H.md
+      sha256: e4e19761c52e00f5d939bc50bcc73952e8485696d109e7e29cd1d3d8f623cb28
+      rework: |
+        # 2023 Paper 1, 6H
+
+        **(a)** For a null parameter space \(\Theta_0\subseteq\Theta\), define \(\Lambda=\sup_{\Theta_0}L/\sup_{\Theta}L\) and \(G=-2\log\Lambda\). Small \(\Lambda\), equivalently large \(G\), is evidence against the null. Wilks' theorem states that under the null, for a regular identifiable model and a smooth nested null of codimension \(r\), \(G\) converges in law to \(\chi^2_r\) as sample size grows. The true parameter must be regular (interior in the relevant coordinates), with nonsingular information and the usual likelihood smoothness and asymptotic assumptions.
+
+        **(b)** Condition on the sizes 40 treated and 35 untreated. Model independent mortality counts as binomials with probabilities \(p_t,p_u\). The two-sided null is \(p_t=p_u\), against \(p_t\ne p_u\). Under the null the fitted probability is the pooled \(22/75\). Under the alternative the fitted probabilities are \(6/40\) and \(16/35\). Writing \(O_{ij}\) for observed counts and \(E_{ij}=(\text{row total})(\text{column total})/75\) for fitted null counts, the log likelihood ratio is \(G=2\sum O_{ij}\log(O_{ij}/E_{ij})\), with a zero contribution for an empty cell. Reject for \(G>\chi^2_{1,1-\alpha}\). The reference law has one degree of freedom since two unconstrained probabilities replace one. For positive common probability strictly below one and both group sizes large this test has asymptotic size \(\alpha\).
+
+        If exact finite-sample size is intended, condition also on the total \(d\) deaths. The treated death count \(K\) then has probability \(\binom{40}{k}\binom{35}{d-k}/\binom{75}{d}\) under the null, independently of the common probability. For each \(d\), order the possible tables by decreasing \(G\) and reject the most extreme mass up to \(\alpha\), randomising on the cutoff to attain \(\alpha\). Use \(G=0\) for the constant tables at \(d=0,75\). This gives unconditional size \(\alpha\) as well. Omitting randomisation yields conditional level at most \(\alpha\).
+  IB/2023/P2/q6H:
+    source:
+      archive: private/raw/tripos/IB/2023/P2.pdf
+      sha256: 9e8a312dd3bd1e69b2795c41800c901b3dd0740b4e7d24020a48a4949eb4ddbe
+      page: 3
+      pages:
+      - 3
+      original_question: 6H
+      section: I
+      question_sha256: 860566102849f5c63b85b345973bb8e823ddb9073de0a22a494ce84b4714a21b
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Both calculations maximise a strictly concave normal log likelihood, use the exact pivotal confidence
+        interval and the central posterior credible interval, then compare their half-width ratio and centre separation.
+        For fixed positive variances the centre separation is O(1/n) almost surely and both widths are of order n⁻¹ᐟ².
+      check_review: Symbolic posterior simplification tests the centre and variance-ratio formula and limit; a normal
+        cdf calculation tests 95% coverage.
+    verification:
+      source_hashes:
+        question.tex: 860566102849f5c63b85b345973bb8e823ddb9073de0a22a494ce84b4714a21b
+        solution.tex: d0fd2aad0279c99412ccc18ed3e364cd904a3599222b6d8f689757463949d622
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 8173641d0f9fb006870dd0a54118f69731d05a9eb8a975120699d11612ff0ec9
+      canonical_comparison_text_sha256: 697002ed06b4ffcaf52960a117c6ada46709a2e2de2892bc66c1bc8b8c2d4468
+      computer_check_sha256: 4670fdac1ea0ed2eeebf7abd9bfe39ab777554283b7f0c4ab4862676e1e982c0
+      computer_check_exit: 0
+      computer_check_stdout: Posterior centre, variance ratio, asymptotics and exact central normal probability verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.976431+00:00'
+    blind:
+      file: 2023-P2-q6H.md
+      sha256: fa84a0a18b6dd6fa4565d1cb560b99c73f0e5c377a1548df22e9cdc4ce65b3b2
+      rework: |
+        # 2023 Paper 2, 6H
+
+        **(a)** The log likelihood equals a constant minus \(\sum_i(X_i-\theta)^2/(2\sigma^2)\). The identity \(\sum_i(X_i-\theta)^2=\sum_i(X_i-\bar X)^2+n(\bar X-\theta)^2\) yields the unique maximum \(\hat\theta=\bar X\) for \(n\ge1,\sigma>0\).
+
+        **(b)** With \(z=\Phi^{-1}(.975)\), the interval \([\bar X-z\sigma/\sqrt n,\bar X+z\sigma/\sqrt n]\) has exact coverage .95 for each fixed \(\theta\), by the pivot \(\sqrt n(\bar X-\theta)/\sigma\sim N(0,1)\).
+
+        **(c)** Let \(a=\sigma^2/\nu^2\). The stipulated normal posterior has mean \(m=(n\bar X+a\mu)/(n+a)\) and variance \(\sigma^2/(n+a)\). Its equal-tail .95 credible interval is \([m-z\sigma/\sqrt{n+a},m+z\sigma/\sqrt{n+a}]\); its probability is conditional on the observed data.
+
+        **(d)** The ratio of posterior to sampling half-width is \(\sqrt{n/(n+a)}\to1\). Under sampling at a fixed true \(\theta\), \(\bar X\to\theta\) almost surely, hence \(m-\bar X=a(\mu-\bar X)/(n+a)=O(1/n)\) almost surely. The endpoints therefore agree to first order on the \(n^{-1/2}\) scale, and both intervals shrink to \(\theta\). Fixed positive prior and sampling variances guarantee finite \(a>0\).
+  IB/2023/P3/q18H:
+    source:
+      archive: private/raw/tripos/IB/2023/P3.pdf
+      sha256: 937ff05bd983563faf1d0175216bd267e3f21fd17bde17cf64af711afba6c017
+      page: 10
+      pages:
+      - 10
+      original_question: 18H
+      section: II
+      question_sha256: de5475af558aea9fb8cf431b9ca04e4bcc185107c9dc70b1d4021d4ae8b0e9de
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The definition includes the size supremum and dominance against each alternative. For every positive
+        shift the alternative-to-null likelihood ratio is increasing, and the cutoff log((1−α)/α) calibrates the simple
+        and composite nulls by monotonicity of power. Both solutions cover endpoint levels.
+      check_review: Symbolic derivatives test monotonicity and the power/density relation, and substitution verifies
+        the critical value.
+    verification:
+      source_hashes:
+        question.tex: de5475af558aea9fb8cf431b9ca04e4bcc185107c9dc70b1d4021d4ae8b0e9de
+        solution.tex: b25de4328f010cc51221a4b5170d6298bbdbeb0e02c163d889d3cd9c3aee5dd6
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 642c210f75ff563dbbeba9f5990bab912fb640f414ef8fa0c160ccfedfb1b3af
+      canonical_comparison_text_sha256: 9b3626722871d4fa82f747260a24064037c6f5ac1a8841cc28eb0459131a0d1a
+      computer_check_sha256: 91feba0696ee44e4b942ffb3b766c13bd0236109e580a824304e0b01bda1e70c
+      computer_check_exit: 0
+      computer_check_stdout: Logistic density, monotone likelihood ratio, power derivative and exact threshold verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.507194+00:00'
+    blind:
+      file: 2023-P3-q18H.md
+      sha256: 66550e4fa86fb0abda7d32e6c2170441cda24410c9a1dd2adb6629488bcd715d
+      rework: |
+        # 2023 Paper 3, 18H
+
+        **(a)** A test function \(\phi\in[0,1]\) has level \(\alpha\) when \(\sup_{\Theta_0}E_\theta\phi\le\alpha\); its size is that supremum. It is uniformly most powerful among level-\(\alpha\) tests when \(E_\theta\phi\ge E_\theta\psi\) at every \(\theta\in\Theta_1\) for every other level-\(\alpha\) test \(\psi\).
+
+        **(b)(i)** For a fixed alternative \(h>0\), put \(u=e^x\), \(a=e^{-h}<1\). The ratio \(f_h(x)/f_0(x)=a[(1+u)/(1+au)]^2\) increases strictly in \(u\), since the unsquared fraction has derivative \((1-a)/(1+au)^2>0\). The Neyman–Pearson lemma says that at fixed simple-null size, rejecting the greatest alternative-to-null likelihood ratios maximises power. For \(h=1\) the critical region is thus \(X>c\). The cdf is \(F_\theta(x)=e^{x-\theta}/(1+e^{x-\theta})\), by differentiation and its limit at minus infinity. The null tail \(1/(1+e^c)=\alpha\) gives \(c=\log((1-\alpha)/\alpha)\). The null distribution has no atom at the cutoff.
+
+        **(b)(ii)** For this cutoff the rejection probability at \(\theta\) is \(1/(1+e^{c-\theta})\), increasing in \(\theta\). Its supremum on the composite null occurs at zero and equals \(\alpha\). Every competitor with composite-null level \(\alpha\) is level \(\alpha\) at zero; the same monotone likelihood ratio calculation shows that the displayed test maximises power against each fixed \(h>0\). This proves uniform optimality. For the trivial endpoint levels 0 and 1 use the never- and always-reject tests.
+  IB/2023/P4/q17H:
+    source:
+      archive: private/raw/tripos/IB/2023/P4.pdf
+      sha256: 44ccb6b08bf1e77ef416f27dbc70394fada021a5e181213a65cd78e3fdc40843
+      page: 13
+      pages:
+      - 13
+      original_question: 17H
+      section: II
+      question_sha256: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 1
+      finding: For D>0 the archived answer says the score has its maximum at D/S₁. The score has derivative −D/θ²<0 there
+        and elsewhere on the positive parameter line. It is the log likelihood that has its maximum there; the reported
+        estimate itself was correct.
+      archive: tripos/IB/2023/P4/q17H/history/2026-11-21-audit-before-score-correction
+      file_sha256:
+        question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+        solution.tex: 4d90b9de08879b70cbd2a5f31a6e2ddc5c83b602c6bd1c517ad16329c63b845e
+        check.py: c01f735a6625746fbbcf7f53b5e0c7519b091235d94edc4761f2e4a597b83457
+        metadata-before.yaml: 7993e3bbf3cb5360115b05bd87e38620e508255b88c8a5b82c97263993d45f95
+      archived_check_rerun_exit: 0
+      archived_check_rerun_stdout: Estimator means, variance ordering and equality with zero areas checked; exact Poisson
+        tail matches the large-exposure test.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The current score D/θ−S₁ is strictly decreasing for D>0 and has its sole zero at D/S₁, where the log
+        likelihood is maximised. Cases of zero exposure, zero count and zero rate are treated. Both unbiased estimators,
+        the Cauchy–Schwarz equality case and one-sided normal cutoffs match the blind rework.
+      check_review: In addition to exact variance computations and a large-mean Poisson tail, the amended test differentiates
+        the log likelihood and verifies the score root, negative derivative and opposite signs on either side. The archived
+        predecessor checked estimators and variances but did not test the disputed score assertion.
+    verification:
+      source_hashes:
+        question.tex: 36c53c274216b98b4a98eaf3786323beeb3829d0402a18adefa9d79efc61a4df
+        solution.tex: 86a3c0a1114885d1f037f4d04ef37bead58e45cfdd37e7e0aeeb463a6a655c80
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 81fd5d82a7f51742f9b7b2ddb3a8658ad65b55af4eef0f6d2de1b5c1ccbc5a8b
+      canonical_comparison_text_sha256: 6a97e7c538953d0eb856d1b6421ef90ce57a60f27e0e88deff460ed9b3fbb62b
+      computer_check_sha256: ffd9e511975512cd5296acc3e97407675ca99956bf84590e347a22329ea64a28
+      computer_check_exit: 0
+      computer_check_stdout: |-
+        Estimator means, variance ordering and equality with zero areas checked; exact Poisson tail matches the large-exposure test.
+        Log-likelihood curvature, score root and opposite signs on its two sides verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.946438+00:00'
+    blind:
+      file: 2023-P4-q17H.md
+      sha256: 041ce0989ac2af15d6d303c48cf5127a242a132ec8a55d3a4378a690c57501b9
+      rework: |
+        # 2023 Paper 4, 17H
+
+        Put \(A_k=\sum_i x_i^k\) for positive integer \(k\) and assume at least one \(x_i>0\). All zero-area observations equal zero almost surely.
+
+        **(a)** Write \(Y_i=\theta x_i+e_i\) with independent mean-zero errors and \(\operatorname{Var}(e_i)=\theta x_i\). Minimising \(\sum_i(Y_i-bx_i)^2\), whose second derivative is \(2A_2>0\), gives \(\hat\theta_L=\sum_i x_iY_i/A_2\). Its mean is \(\theta A_2/A_2=\theta\).
+
+        **(b)** Omitting factors independent of the parameter, the likelihood is \(e^{-A_1\theta}\theta^{S}\), \(S=\sum_iY_i\). If \(S>0\), the log likelihood is strictly concave with maximum \(\hat\theta_M=S/A_1\); if \(S=0\) the maximum is at zero in the closed parameter space. For a strictly positive parameter, this latter case gives only a boundary supremum. Since \(S\sim\mathrm{Poisson}(\theta A_1)\), the usual estimator (including zero) is unbiased.
+
+        **(c)** Independence yields \(\operatorname{Var}(\hat\theta_L)=\theta A_3/A_2^2\) and \(\operatorname{Var}(\hat\theta_M)=\theta/A_1\). By Cauchy–Schwarz on \(x_i^{1/2},x_i^{3/2}\), \(A_2^2\le A_1A_3\); hence the likelihood estimator has no greater variance. For \(\theta>0\) equality requires that all positive \(x_i\) coincide. At \(\theta=0\) both variances vanish. If all areas vanish, the data cannot identify \(\theta\) and the displayed ratios are undefined.
+
+        **(d)** The larger mean at \(\theta=2\) motivates upper-tail rejection. Let \(z=\Phi^{-1}(.95)\). Under \(\theta=1\), \(S\) is Poisson with large mean \(A_1\), so reject if \(\hat\theta_M>1+z/\sqrt{A_1}\). If each positive \(x_i\) is large, the independent counts under the null are approximately \(N(x_i,x_i)\); their indicated weighted linear combination is approximately \(N(1,A_3/A_2^2)\). Reject if \(\hat\theta_L>1+z\sqrt{A_3}/A_2\). The normal thresholds give approximate one-sided size .05.
+  IB/2024/P1/q18H:
+    source:
+      archive: private/raw/tripos/IB/2024/P1.pdf
+      sha256: 3457fa33f93b43d660b8871bae3ab22956ae72ee28ff95d8a40ed79cbe795b8f
+      page: 10
+      pages:
+      - 10
+      original_question: 18H
+      section: II
+      question_sha256: 34ea5b37de1283e82a084c98e7aa62a4fa506e6bd89dfdedb2f92cbf54f9d776
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: 'Both convolution calculations give a triangle over the shifted interval, apex height one. The stored
+        figure was inspected: its horizontal scale s−2θ puts the endpoints at 0,2 and the peak at 1. The common size
+        is .05 at zero. All branches of the two power functions agree. The canonical derivative and power-one arguments
+        prove the same crossing as the blind interior examples.'
+      check_review: Numerical integration across the cut agrees with the piecewise function at eight shifts, including
+        boundaries. The check tests size and both strict comparisons and the figure/script hashes match the receipts.
+    verification:
+      source_hashes:
+        question.tex: 34ea5b37de1283e82a084c98e7aa62a4fa506e6bd89dfdedb2f92cbf54f9d776
+        solution.tex: d9a8e057ce344cb3029690ff327da1393b45c69f073aff65135d9779bbb03bca
+        plot.py: d78e40390c194243b1df9a3efc4cde9fafd8b0140984a635439515625c98709d
+        figures/sum-density.png: 34723369e1774f54a68136f98ab54e0b7a9f5df8dfc6a84f7ca2124708f5aeaa
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 4274079c5743c86783b233dfc741e8287ff1b5dc31059c66176621c888bfd0f0
+      canonical_comparison_text_sha256: 9738f6387121f0dc36276db12fabad78cb75d50301b71baa60e938361f742e7b
+      computer_check_sha256: a36ed82538c8440c624f89cedb5ee12485e3fde4f6567b8b48e5b1332b37abd7
+      computer_check_exit: 0
+      computer_check_stdout: Integrated the shifted triangular density and verified equal sizes and both strict power
+        comparisons.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.736581+00:00'
+    blind:
+      file: 2024-P1-q18H.md
+      sha256: 9edd4200e4a9815cf342992524c0bd4cf2e7578cfb24655f1ebf59e403c44091
+      rework: |
+        # 2024 Paper 1, 18H
+
+        **(a)** Write \(X_i=\theta+U_i\) for independent \(U_i\) uniform on \((0,1)\). At \(s\), with \(v=s-2\theta\), the convolution density of the sum is the length of \([0,1]\cap[v-1,v]\). This is \(v\) for \(0\le v\le1\), \(2-v\) for \(1\le v\le2\), and zero elsewhere. Thus the plot consists of straight lines joining the three labelled vertices below, with zero tails. Its area is one.
+
+        ~~~text
+        density
+           1                 /\
+                            /  \
+                           /    \
+           0  ____________/      \____________  s
+                         2θ    2θ+2
+                            2θ+1
+        ~~~
+
+        **(b)** Raising \(\theta\) shifts both observations to the right, so rejection for either test is most likely under the null at \(\theta=0\). Test 1 then has probability .05. For \(1\le C\le2\), the upper tail above \(C\) under zero is a triangle of area \((2-C)^2/2\). Equating this to .05 gives \(C=2-\sqrt{.1}\) (which lies in the assumed interval).
+
+        **(c)** Test 1 has power \(\min(1,\max(0,\theta+.05))\). For Test 2 put \(v=C-2\theta\). Its power is 1 for \(v\le0\), \(1-v^2/2\) for \(0\le v\le1\), \((2-v)^2/2\) for \(1\le v\le2\), and 0 for \(v\ge2\). These expressions agree at their common boundaries, and give .05 at \(\theta=0\).
+
+        **(d)** The powers cross within the alternative. At \(\theta=.05\), Test 1 has power .10 and Test 2 has \((\sqrt{.1}+.1)^2/2\approx.0866\). At \(\theta=.5\), Test 1 has power .55 and Test 2 has \(1-(1-\sqrt{.1})^2/2\approx.7662\). Since both tests have the same size, each is beaten at an allowed alternative and neither is UMP.
+  IB/2024/P1/q6H:
+    source:
+      archive: private/raw/tripos/IB/2024/P1.pdf
+      sha256: 3457fa33f93b43d660b8871bae3ab22956ae72ee28ff95d8a40ed79cbe795b8f
+      page: 3
+      pages:
+      - 3
+      original_question: 6H
+      section: I
+      question_sha256: 1caf9a3579815fb5e846c626cb2bdb30467e4bdb481c812535bae0fd37719ca5
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Definitions and factorisation agree. The single-observation ratio singles out |X|; in samples the squared
+        sum is minimal. The canonical proof conditions on the positive orthant, whereas the rework uses absolute components.
+        Both establish positive density on the simplex and variation on neighbourhoods, which rules out recovery even
+        up to null sets for n≥2.
+      check_review: The script checks squared-sum change symbolically for two components, and concrete positive examples
+        for n=2 through 8. The all-n, almost-sure conclusion rests on the written simplex proof.
+    verification:
+      source_hashes:
+        question.tex: 1caf9a3579815fb5e846c626cb2bdb30467e4bdb481c812535bae0fd37719ca5
+        solution.tex: 3fb475a1fef23f4b3356c5491408affd2534349e7ab36ccbf6ae606b625db3ac
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 686cad43249c5d53586d2ea700e0b21d76cb437ed074c6ac584f190ba1069207
+      canonical_comparison_text_sha256: 8a09a3935b1ad85360af352e1316731c3a53884f2ebe012188bcbb52f281ae2f
+      computer_check_sha256: 1584fc7e03e0a400da869d8273ac21d27c1db540638e3eb8798181ace55adc38
+      computer_check_exit: 0
+      computer_check_stdout: Verified squared sums vary on positive-dimensional equal-absolute-sum fibres for n >= 2.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:28.721536+00:00'
+    blind:
+      file: 2024-P1-q6H.md
+      sha256: 7797af1cdcab74d504dfd200dd51b537cf5e62cc6b4540e7b145dea142e01c2d
+      rework: |
+        # 2024 Paper 1, 6H
+
+        **(a)** A statistic \(T\) is sufficient if a conditional distribution of the whole observation given \(T\) can be chosen independently of the parameter. In a dominated model the factorisation criterion says this holds exactly when the density takes the form \(h(x)g_\theta(T(x))\) almost everywhere with nonnegative measurable factors, \(h\) common to all parameter values.
+
+        **(b)** A sufficient \(T\) is minimal sufficient when for every sufficient \(U\) there exists a measurable map \(k\) such that \(T=k(U)\) almost surely.
+
+        **(c)** The single-observation density is \((2\pi)^{-1/2}\sigma^{-1}\exp[-|x|^2/(2\sigma^2)]\) for \(\sigma>0\); it factors through \(|x|\). The ratio at observations \(x,y\) equals \(\exp[-(x^2-y^2)/(2\sigma^2)]\), which is constant in \(\sigma\) exactly when \(|x|=|y|\). The standard likelihood-ratio criterion on this common support proves minimality, including the fibre \(\{0\}\).
+
+        **(d)** In the sample the analogous ratio depends on \(\sum x_i^2-\sum y_i^2\), so \(Q=\sum_i X_i^2\) is minimal sufficient. The proposed \(S=\sum_i |X_i|\) cannot recover \(Q\). To make this assertion almost sure, put \(a_i=|X_i|>0\) almost surely. These have a positive joint density on the positive orthant. The invertible change of variables \(s=\sum a_i,\ a_1,\ldots,a_{n-1}\) (last coordinate \(s-\sum_{i<n} a_i\)) has Jacobian one. Given \(S=s>0\), the conditional density is positive on the simplex interior. There \(Q=\sum a_i^2\) is nonconstant for \(n\ge2\): one may perturb the equal split by adding and subtracting a small amount in two coordinates. By continuity it varies on sets of positive conditional measure. Thus \(Q\) is not a function of \(S\) almost surely and \(S\) is insufficient. For \(n=1\) the preceding part gives the opposite conclusion.
+  IB/2024/P2/q6H:
+    source:
+      archive: private/raw/tripos/IB/2024/P2.pdf
+      sha256: de99c023777d9279d0b72da26ba12f37191ef8d323cff20d8beeb8ef923bcd2a
+      page: 4
+      pages:
+      - 4
+      original_question: 6H
+      section: I
+      question_sha256: 5a52c61938ff2d397a7d5a1214ecdbf42ff14f5ff4a72642c577283f1c0a9a1d
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The null simple multinomial and the unrestricted alternative, five degrees of freedom and upper-tail
+        test agree. Squared deviations sum to 78 and all expected cells are 15. Thus 26/5=5.2 and the reported approximate
+        tail agrees with direct evaluation.
+      check_review: The script confirms the Pearson statistic using rational arithmetic and compares SciPy's goodness-of-fit
+        p-value against the five-degree chi-square survival function.
+    verification:
+      source_hashes:
+        question.tex: 5a52c61938ff2d397a7d5a1214ecdbf42ff14f5ff4a72642c577283f1c0a9a1d
+        solution.tex: 3e8c7188bdd03888fe476a46e264f82f7460954a0b546f240419a7d730edb20b
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 18133fee68243c5bc1fef24f00e5e4ee9f49e9f7aff104f7567cc5dccafde2ba
+      canonical_comparison_text_sha256: 04e75479e50717578e2af50016be798725312a55ff70200c92a8909a84277681
+      computer_check_sha256: 3963c79ad9d359df6d07fce8b62b84e16f8dca6f4facc0e739580fe326b7852d
+      computer_check_exit: 0
+      computer_check_stdout: Pearson statistic 5.20; five-degree-of-freedom upper tail 0.39196289.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.186655+00:00'
+    blind:
+      file: 2024-P2-q6H.md
+      sha256: 52fa86e4f6ce4ac7a436ca56a54b9890e388b0b0b4e2b995e89e9d3f2e02a4d9
+      rework: |
+        # 2024 Paper 2, 6H
+
+        **(i)** Model rolls as independent draws with a common probability vector \(p\) on six faces. The null fixes \(p_j=1/6\) for all \(j\); the alternative allows any probability vector with at least one unequal coordinate.
+
+        **(ii)** If \(N_j\) is the count in category \(j\), Pearson's statistic is \(Q=\sum_{j=1}^6 (N_j-n/6)^2/(n/6)\). Pearson's multinomial goodness-of-fit theorem gives \(Q\Rightarrow\chi^2_5\) under the null as \(n\) increases. All null cell probabilities are positive, and the fixed total gives one linear constraint. No parameters are fitted. Reject at asymptotic level \(\alpha\) if \(Q>F_5^{-1}(1-\alpha)\), with \(F_5\) the indicated chi-square cdf.
+
+        **(iii)** All six expected counts are 15. The observed deviations are \(5,0,-3,2,-6,2\), summing to zero. Their squared sum is \(25+0+9+4+36+4=78\), so \(Q=78/15=5.2\).
+
+        **(iv)** The asymptotic \(p\)-value is \(1-F_5(5.2)=P(\chi^2_5\ge5.2)\). Equivalently 5.2 is the \((1-p)\)-quantile. Either tail convention at the single endpoint agrees for this continuous reference distribution.
+  IB/2024/P3/q18H:
+    source:
+      archive: private/raw/tripos/IB/2024/P3.pdf
+      sha256: 5205c8a2aa144f1bdf77ecb99d3fafa922977ef5a1aff6f994851851ebf035f8
+      page: 12
+      pages:
+      - 12
+      original_question: 18H
+      section: II
+      question_sha256: b409c40d9f334ff3feeb590826100eb363d68049f00005ca098539833476b87e
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The normal pivot gives a two-sided p-value, and spike/slab convolution gives a half-weighted mixture
+        of N(0,1/n) and N(0,τ²+1/n). The Bayes posterior odds, positive-prior-variance condition and τ=0 extension agree.
+        For n=100 and τ=1 the tail ratios are reciprocal formulations of exponential dominance, giving p>q near zero
+        and q>p in the far tails.
+      check_review: Direct numerical integration verifies slab convolution and posterior odds; log-tail calculations
+        check the ordering without underflow.
+    verification:
+      source_hashes:
+        question.tex: b409c40d9f334ff3feeb590826100eb363d68049f00005ca098539833476b87e
+        solution.tex: 895b1a2b42ba5df5d2d5f2c0e76e113deaae0eecd2e4e271c652fe38f3271f97
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 6e53fb778ea3c54988be63619ad3b710126f0945509704e5d8f6f22a2ddab3fa
+      canonical_comparison_text_sha256: c280bd1ed20f7eadf0599fe39de80e869b1e1a04e4ef0f0a66b554753d864fca
+      computer_check_sha256: b382100c7cebd927b8c105abb8fc2107c1b86d9d6dee20128e412db3d451b46d
+      computer_check_exit: 0
+      computer_check_stdout: Verified Gaussian convolution, posterior mixture and near-zero and tail order using log
+        probabilities.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.207842+00:00'
+    blind:
+      file: 2024-P3-q18H.md
+      sha256: ddaff32277f50a309cb93d76ad84dfa625272f28fb5b03459d57039ff5280b1c
+      rework: |
+        # 2024 Paper 3, 18H
+
+        **(a)** For \(0<\alpha<1\), reject when \(\sqrt n|\bar X|>\Phi^{-1}(1-\alpha/2)\). The null distribution of \(\sqrt n\bar X\) is standard normal, so the size is exactly \(\alpha\). For observed mean \(x\) the two-sided tail probability is \(p(x)=2[1-\Phi(\sqrt n|x|)]\).
+
+        **(b)** Write \(h_v(t)=(2\pi v)^{-1/2}e^{-t^2/(2v)}\) for a centred normal density of variance \(v>0\). Then \(f(x\mid\mu)=h_{1/n}(x-\mu)\). Under the atom at zero the mean observation has density \(h_{1/n}\); on the normal component it is the sum of independent \(N(0,\tau^2)\) and \(N(0,1/n)\) variates. Consequently \(m(x)=[h_{1/n}(x)+h_{\tau^2+1/n}(x)]/2\).
+
+        **(c)** For a nondegenerate continuous component, only the atom puts probability on \(\mu=0\). Bayes' rule for its mixture weight gives
+        \[
+        q(x)=\frac{h_{1/n}(x)}{h_{1/n}(x)+h_{\tau^2+1/n}(x)}
+        =\left[1+(1+n\tau^2)^{-1/2}
+         \exp\!\left(\frac{n^2\tau^2x^2}{2(1+n\tau^2)}\right)\right]^{-1}.
+        \]
+        If one allowed \(\tau=0\) as a degenerate extension, both components then put all mass on the null and the probability of the null itself is one.
+
+        **(d)(i)** At zero, \(p(0)=1\) and \(q(0)=\sqrt{101}/(1+\sqrt{101})<1\), so by continuity \(p>q\) in a neighbourhood of zero.
+
+        **(d)(ii)** Write \(r=|x|\). For \(n=100,\tau=1\), \(q(x)\sim\sqrt{101}\exp[-(5000/101)r^2]\) as \(r\to\infty\). The given normal tail estimate gives \(p(x)\sim2e^{-50r^2}/(10r\sqrt{2\pi})\). Hence \(p/q\) decays proportionally to \(e^{-(50/101)r^2}/r\), tending to zero. The posterior probability is eventually larger, even though both probabilities tend to zero.
+  IB/2024/P4/q17H:
+    source:
+      archive: private/raw/tripos/IB/2024/P4.pdf
+      sha256: 002565030f799739e122a9cfafb58ccea529f0dc3d94d65db75c1190a86b926a
+      page: 12
+      pages:
+      - 12
+      original_question: 17H
+      section: II
+      question_sha256: 0dfa74911852007878058ae4547e13ac797fa76c209d9e6565e1e6cdcd7294f9
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The two fits give the same full-rank slope and centred intercept equal to the mean; ordinary intercept
+        differs by the covariate mean times estimated slope. Orthogonal residuals give the t interval, with n−2 degrees
+        for rank two and n−1 for constant predictors. The complete family of maximisers stated in the answer also covers
+        constant zero predictors, where only the slope is unidentified. Saturated designs lack a residual-based interval.
+      check_review: Independent least-squares fits, projection idempotence/rank, t coverage and the constant-design rank
+        are checked.
+    verification:
+      source_hashes:
+        question.tex: 0dfa74911852007878058ae4547e13ac797fa76c209d9e6565e1e6cdcd7294f9
+        solution.tex: 96e431bad14cbd09066161a73c6ba8a154c06dbad5aaa0ec754a3b2598123775
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 8ab73993ac4bfc178ac986a3910da4319f2ee90993c3e483d97c7fa7cb8c471c
+      canonical_comparison_text_sha256: 17a188283f682ab949fd72b87c74e1061e5791f03303e75c490bb8a48053fbab
+      computer_check_sha256: 0fe530ca020a47f3f9ef32307496b6cbfe34645ceb299267ef4b096f80d081d7
+      computer_check_exit: 0
+      computer_check_stdout: Centred and original fits, residual projection ranks, orthogonality and exact t interval
+        probability verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.178730+00:00'
+    blind:
+      file: 2024-P4-q17H.md
+      sha256: e78496aef7d3e682a021818a4d760d47adb45e96c4ffa927d27065a8b8b2555d
+      rework: |
+        # 2024 Paper 4, 17H
+
+        **(a)** A Gaussian log likelihood at fixed positive \(\sigma\) decreases with the residual sum of squares. The intercept score sets the sum of residuals to zero, so \(\hat\alpha=\bar Y-\hat\beta\bar x\). Substitution into the slope score yields \(\hat\beta=\sum_i(x_i-\bar x)(Y_i-\bar Y)/D\), \(D=\sum_i(x_i-\bar x)^2\). For \(D>0\) the two-column design has full rank, thus this least-squares stationary point is the unique maximum.
+
+        **(b)** In the centred design, \(w_i=x_i-\bar x\) have mean zero and \(\sum w_i^2=D\). Its slope formula is identical, so \(\hat\beta'=\hat\beta\).
+
+        **(c)** The centred intercept score is \(\sum_i(Y_i-\alpha'-\beta'w_i)=n(\bar Y-\alpha')=0\), giving \(\hat\alpha'=\bar Y=\hat\alpha+\bar x\hat\beta\). These differ in general; equality occurs when \(\bar x\hat\beta=0\).
+
+        **(d)** The centred errors average to \(N(0,\sigma^2/n)\), and the centred predictor averages to zero. Thus \(\hat\alpha'\sim N(\alpha',\sigma^2/n)\). The interval \(\bar Y\pm\Phi^{-1}(.975)\sigma/\sqrt n\) has .95 coverage.
+
+        **(e)** For \(D>0,n>2\), set \(s^2=\sum_i(Y_i-\bar Y-\hat\beta w_i)^2/(n-2)\). The residual vector is the orthogonal projection of the normal errors onto the design complement. This has dimension \(n-2\), so the normalised squared norm has \(\chi^2_{n-2}\) law. It is independent of the mean error, the latter being a projection on the intercept direction. The pivot \(\sqrt n(\bar Y-\alpha')/s\) therefore has \(t_{n-2}\) law, giving the exact interval \(\bar Y\pm t_{n-2,.975}s/\sqrt n\).
+
+        If \(D=0\), every \(x_i=\bar x\). In the original model only \(\alpha+\beta\bar x\) is identifiable; any slope with the corresponding fitted intercept maximises likelihood. In the centred model the slope is arbitrary and \(\alpha'\) remains identifiable. The interval with unknown variance then uses the intercept-only residual sum of squares and \(n-1\) degrees of freedom for \(n>1\). A saturated design has no residual degrees of freedom for this construction.
+  IB/2025/P1/q18H:
+    source:
+      archive: private/raw/tripos/IB/2025/P1.pdf
+      sha256: bd7b98f1e961b99ea58684196e2ec89b33801cb3f54ff084d37d0707aa9cbaee
+      page: 11
+      pages:
+      - 11
+      original_question: 18H
+      section: II
+      question_sha256: cc80cd4cb683a8b3bffdda6cc91f85149d05d8b3cc93a3bbe5505411ada2acbf
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Forward and reverse slope formulas, projected variance estimates, orthogonal-component independence,
+        t interval and unbiased linear variance bound all agree. Cauchy–Schwarz equality requires collinearity of nonzero
+        design and response vectors; both residual estimates then vanish. An exact fit has no positive-variance MLE,
+        and the rank-zero and reverse zero-design exceptions are acknowledged. The restriction n≥2 is needed for the
+        interval.
+      check_review: The script tests seeded designs of dimensions 2,3,10, projection orthogonality and rank, reverse-slope
+        inequalities and proportional equality cases.
+    verification:
+      source_hashes:
+        question.tex: cc80cd4cb683a8b3bffdda6cc91f85149d05d8b3cc93a3bbe5505411ada2acbf
+        solution.tex: 65e1228933858df4fc95f498b43b76383c5aee1239ca30a162d4188c8a3104bf
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 461a97e243be701bbb4373122ecba9a7ca4115d393c32180d1e2f90a0ff33b07
+      canonical_comparison_text_sha256: 46e1842e040f8c72ad9960a59ac3968ade219bd6b8991eb09a8efadaea6c00a6
+      computer_check_sha256: 5f27b9accb841ecd4095d236bc5157c75fa50c36d4fd8cdc0fe234538521567f
+      computer_check_exit: 0
+      computer_check_stdout: Projection ranks, Gaussian component orthogonality and forward/reverse equality cases checked.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.050609+00:00'
+    blind:
+      file: 2025-P1-q18H.md
+      sha256: 546a3b955101a6fe4ffd823766b5b5ee2d947130a14d0dc7d10558cda6425711
+      rework: |
+        # 2025 Paper 1, 18H
+
+        **(a)** Treat \(x=(X_i)\) as fixed and assume \(D=x^\top x>0\). Put \(P=xx^\top/D\). Orthogonal decomposition gives \(\|Y-xb\|^2=\|(I-P)Y\|^2+D(b-x^\top Y/D)^2\). Therefore \(\widehat\beta=x^\top Y/D\). At this value the log likelihood is a constant minus \(n\log v/2+\mathrm{RSS}/(2v)\), with \(v=\sigma^2>0\), \(\mathrm{RSS}=\|(I-P)Y\|^2\). Differentiation gives the maximum \(\widehat{\sigma^2}=\mathrm{RSS}/n\) when \(\mathrm{RSS}>0\). The covariance of the linear form \(x^\top Y\) with the residual vector is \(\sigma^2x^\top(I-P)=0\); they are jointly normal, hence independent, so their indicated functions are independent.
+
+        **(b)** From the normal projection onto \(x\), \((\widehat\beta-\beta)\sqrt D/\sigma\sim N(0,1)\). In an orthonormal basis of the \((n-1)\)-dimensional residual space, residuals divided by \(\sigma\) have independent \(N(0,1)\) coordinates. Thus \(\mathrm{RSS}/\sigma^2\sim\chi^2_{n-1}\), independently of \(\widehat\beta\). For \(n\ge2\), \(s^2=\mathrm{RSS}/(n-1)\) studentises the slope to a \(t_{n-1}\) pivot. With \(F_{n-1}\) its cdf, the exact interval is \(\widehat\beta\pm F_{n-1}^{-1}(1-\alpha/2)s/\sqrt D\).
+
+        **(c)** Unbiasedness for every slope requires \(c^\top x=1\). The variance is \(\sigma^2\|c\|^2\) by independence. Cauchy–Schwarz gives \(1=(c^\top x)^2\le\|c\|^2D\), as required. Equality requires proportionality to \(x\), and the constraint fixes \(c_i=X_i/D\).
+
+        **(d)** For \(\|Y\|>0\), interchanging the roles of the two vectors in (a) gives \(\hat b=Y^\top x/\|Y\|^2\). The product is \((x^\top Y)^2/(D\|Y\|^2)\le1\) by Cauchy–Schwarz. Equality holds precisely for collinear nonzero vectors, when both fitted residual vectors vanish and therefore both residual variance estimates equal zero. These zeros are boundary estimates: if the variance parameter space is strictly positive and a fit is exact, the likelihood diverges as the variance tends to zero and there is no interior MLE. With \(n>1\) and positive variance a perfect forward fit has probability zero. If the design vector vanishes its slope is unidentifiable. With \(n=1\) and nonzero design the model is saturated and the \(t\) interval is unavailable.
+  IB/2025/P1/q6H:
+    source:
+      archive: private/raw/tripos/IB/2025/P1.pdf
+      sha256: bd7b98f1e961b99ea58684196e2ec89b33801cb3f54ff084d37d0707aa9cbaee
+      page: 4
+      pages:
+      - 4
+      original_question: 6H
+      section: I
+      question_sha256: 6713db48ff41bc3d4d2855cd540fead19b3ab065406c37738717f2d741577675
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Both give threshold selection and randomisation for density ratios, including zero-null/positive-alternative
+        points, and prove Neyman–Pearson by integrating the pointwise nonnegative difference. The Laplace likelihood
+        ratio decreases in |x|, so the exact central cutoff is −log(1−α)/θ₀. The continuous null at the cutoff removes
+        the need for randomisation in this application.
+      check_review: The check integrates the two-sided Laplace mass via its absolute-value density at four sizes and
+        verifies the increase in power for two pairs of rates.
+    verification:
+      source_hashes:
+        question.tex: 6713db48ff41bc3d4d2855cd540fead19b3ab065406c37738717f2d741577675
+        solution.tex: 1b70c3a497f0b053ccf7e30c0ebaa0bcfebf9868a63f3722f5a369c10b025b86
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 958e0f40d56069431e62fb801f41d038191eedfd1eced75ad9e302e94650c9db
+      canonical_comparison_text_sha256: 571eb93b08d01599b5a5dc9175f560a4bafd0f89f9c7a2f58d8dbeafee65ce29
+      computer_check_sha256: 066c094fe03090f12b6b87144eff58affd8a07cef35425104e40bef7a02edf2f
+      computer_check_exit: 0
+      computer_check_stdout: Null rejection sizes and alternative powers checked by independent integration.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.280703+00:00'
+    blind:
+      file: 2025-P1-q6H.md
+      sha256: ff41cb48483732fc17618c5997776b61e37775c08f79e9eb32c5a3ae16002dc4
+      rework: |
+        # 2025 Paper 1, 6H
+
+        Let \(p_0,p_1\) be the simple-null and simple-alternative densities. The Neyman–Pearson lemma says that a test \(\phi\) rejecting when \(p_1>k p_0\), accepting when \(p_1<k p_0\), and randomising on equality to achieve \(E_0\phi=\alpha\), has greatest power among all tests of level \(\alpha\). Points with \(p_0=0<p_1\) are included for free. For \(0<\alpha<1\), take a null upper-tail quantile \(k\) of \(p_1/p_0\), defined where \(p_0>0\), so \(P_0(R>k)\le\alpha\le P_0(R\ge k)\). Randomise on \(R=k\) by the fraction needed to make up the difference; if there is no atom the deterministic choice suffices.
+
+        For any competitor \(0\le\psi\le1\) with \(E_0\psi\le\alpha\), \((\phi-\psi)(p_1-kp_0)\ge0\) pointwise. Integration gives \(E_1\phi-E_1\psi\ge k(E_0\phi-E_0\psi)\ge0\). If a competitor ties, the nonnegative integrand must vanish almost everywhere, so it agrees with the likelihood-ratio decision off the equality set wherever the densities matter. For \(k>0\) equality also requires full null size.
+
+        Here \(R(x)=(\theta_1/\theta_0)e^{-(\theta_1-\theta_0)|x|}\) decreases strictly in \(|x|\). The critical region uses its smallest absolute values. Under the null \(P_0(|X|\le c)=1-e^{-\theta_0 c}\) for \(c\ge0\), by integrating the two symmetric exponential tails. The requested region is \(|X|\le-\log(1-\alpha)/\theta_0\). Either choice of boundary has the same probability. With common full support the endpoint sizes 0 and 1 are obtained by never and always rejecting, respectively.
+  IB/2025/P2/q6H:
+    source:
+      archive: private/raw/tripos/IB/2025/P2.pdf
+      sha256: 2604647c333a38c141488da935e883eb51b206fd88be3e3c8bf42d6d1186b293
+      page: 3
+      pages:
+      - 3
+      original_question: 6H
+      section: I
+      question_sha256: dfd640a2282ee47de58d62fa332aea7688db5abf0bc5309bae910b648de346c9
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The exponential-rate likelihood gives posterior shape m+1 and rate λ+x. Quadratic loss yields its mean.
+        Equalising the two positive exponential risk terms gives the same log-ratio action as differentiating the risk;
+        the product is constant in the action, so equality gives the unique minimum. r<λ ensures both moments exist and
+        the small-r limit gives the posterior mean. The blind uniform bound on the minimised risk is an optional extension.
+      check_review: Symbolic limiting action and direct improper-integral comparisons of posterior risks at three sets
+        of shape/rate parameters check the formula.
+    verification:
+      source_hashes:
+        question.tex: dfd640a2282ee47de58d62fa332aea7688db5abf0bc5309bae910b648de346c9
+        solution.tex: 2245a11d3e21a3a6b8502fa25c818e1dbd0fd17c0928c3f4ff3725a533567d64
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: b0a09136ce82b3301086ed51423941ad7273d065e80afd15fde38ed549f36449
+      canonical_comparison_text_sha256: b00bf1855b0f18b5cad56dba64fab16342348bdb9fdc05ef015fd7a30328db82
+      computer_check_sha256: 18ad9c5d564c7c257eff7dcbc35ba348d18b1c56b0ad13bc76fd48eae52d8627
+      computer_check_exit: 0
+      computer_check_stdout: Limiting action and direct posterior-risk minimization for three gamma shapes checked.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.554256+00:00'
+    blind:
+      file: 2025-P2-q6H.md
+      sha256: 2a39e0f99876b9f226348ed9b3e55f25986e024dfe1f90889b151d2ebcbd9e00
+      rework: |
+        # 2025 Paper 2, 6H
+
+        **(a)** The exponential rate likelihood at \(x\ge0\) is \(\theta e^{-\theta x}\). Multiplication by the shape–rate prior \(\theta^{m-1}e^{-\lambda\theta}\) gives posterior kernel \(\theta^{m}e^{-(\lambda+x)\theta}\) on \(\theta>0\). Hence \(\theta\mid X=x\sim\Gamma(k,b)\) with \(k=m+1,\ b=\lambda+x\). Its normalising constant is \(b^k/\Gamma(k)\).
+
+        **(b)** At fixed observed \(x\), posterior squared risk is \(\operatorname{Var}(\theta\mid x)+(a-E[\theta\mid x])^2\). The unique minimiser is the posterior mean \(k/b=(m+1)/(\lambda+X)\), which also minimises integrated risk pointwise in the data.
+
+        **(c)** Write \(M(t)=E(e^{t\theta}\mid x)=(b/(b-t))^k\), obtained by integrating the gamma kernel for \(t<b\). Here \(0<r<\lambda\le b\) guarantees both \(M(r)\) and \(M(-r)\) are finite, even at the support endpoint \(x=0\). The conditional loss expectation is \([e^{-ra}M(r)+e^{ra}M(-r)]/2\). Its second derivative is \(r^2\) times the strictly positive risk. Setting its first derivative to zero gives \(e^{2ra}=M(r)/M(-r)\), hence the unique Bayes action
+        \[
+        a(X)=\frac{m+1}{2r}\log\!\frac{\lambda+X+r}{\lambda+X-r}.
+        \]
+        It is positive and tends to the posterior mean as \(r\downarrow0\), by the derivative of the logarithm. Moreover the minimised posterior risk is \([b^2/(b^2-r^2)]^{k/2}\), bounded uniformly for \(b\ge\lambda>r\), so integration over the observations is finite.
+  IB/2025/P3/q18H:
+    source:
+      archive: private/raw/tripos/IB/2025/P3.pdf
+      sha256: 63b851c1693022b140272b370fa7847a6411d2491a2e2235f4f1aebec06f1731
+      page: 9
+      pages:
+      - 9
+      original_question: 18H
+      section: II
+      question_sha256: 0215c71d74b4cad0646a9e366590936e2ad5494be6d3e2352f9bf3e1023de52d
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Both prove discrete factorisation in both directions on attainable fibres, and prove Rao–Blackwell
+        using total variance and sufficiency. The factorial moment is q; conditioning using the multinomial allocation
+        gives T(T−1)/n². On T=2 the original estimate is genuinely variable for n≥2. Strict improvement is for q>0 only
+        and both explicitly identify why q=0 cannot permit strict improvement.
+      check_review: Exact conditional binomial factorial moments are checked for n=2 through 6 and t=0 through 9, including
+        strictly positive conditional variance at t=2.
+    verification:
+      source_hashes:
+        question.tex: 0215c71d74b4cad0646a9e366590936e2ad5494be6d3e2352f9bf3e1023de52d
+        solution.tex: 5b4bf7b0322a6ac0fe26400faa6638d357875a6ccde17fb0977491aa30124183
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 36e8d07f2275c7021a05400e679d11c64984f98db1ecb1011945f0219f058e73
+      canonical_comparison_text_sha256: 80e4a81be4cbbed95e3c5b64e68f820e437890d11c2d40be4d4cbd4cde141dc5
+      computer_check_sha256: 70cd5f37cfb1748da945b31cad4ecf82c0788430b00b4c4bb2a39f7513c18fad
+      computer_check_exit: 0
+      computer_check_stdout: Conditional binomial factorial moments and strict variance reduction on T=2 checked exactly.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.209189+00:00'
+    blind:
+      file: 2025-P3-q18H.md
+      sha256: 033b1c2b16b1e6091bfe2185bebbff6ff055cad37dfb814202560eef5cfe421b
+      rework: |
+        # 2025 Paper 3, 18H
+
+        **(a)** For a discrete family \(f_\theta\), a statistic \(T\) is sufficient if there is a single conditional mass function of \(X\) given \(T=t\) that works for each \(\theta\) whenever \(P_\theta(T=t)>0\). Equivalently \(f_\theta(x)=g_\theta(T(x))h(x)\) with nonnegative factors and common \(h\). For sufficiency implying factorisation choose \(g_\theta(t)=P_\theta(T=t)\) and \(h(x)=P(X=x\mid T=T(x))\) from the common conditional law. Zero-mass fibres also satisfy the product identity, and fibres impossible under all parameters may use any conditional convention. Conversely sum the proposed product over the fibre to obtain \(P_\theta(T=t)=g_\theta(t)\sum_{T(y)=t}h(y)\). When this probability is positive, dividing cancels \(g_\theta\) and gives a parameter-free conditional mass for each \(x\) in the fibre.
+
+        **(b)** For a statistic \(U\) with finite second moment, Rao–Blackwellisation on a sufficient \(T\) is \(V=E_\theta[U\mid T]\). This is an estimator independent of the unknown parameter in its construction by (a). It has the same mean as \(U\) by iterated expectation, and variance at most that of \(U\) by
+        \[
+        \operatorname{Var}_\theta U=\operatorname{Var}_\theta V+
+        E_\theta[\operatorname{Var}_\theta(U\mid T)].
+        \]
+        Equality holds precisely when \(U=V\) almost surely at that parameter. Hence squared-error risk weakly decreases, including for biased estimators. More generally, for loss convex in the action and suitable integrability, conditional Jensen followed by expectation gives \(E_\theta L(\theta,V)\le E_\theta L(\theta,U)\).
+
+        **(c)** Let \(\lambda=\sqrt q\). The joint mass is \(e^{-n\lambda}\lambda^{\sum x_i}/\prod x_i!\), so \(T=\sum_iX_i\) is sufficient. A Poisson variable has variance and mean \(\lambda\); hence \(E[X_1^2-X_1]=\lambda^2=q\). Under independent equal-rate Poisson sampling, \(T\sim\operatorname{Poisson}(n\lambda)\); dividing joint mass by the mass of \(T=t\) gives multinomial allocation with cell probabilities \(1/n\). In particular \(X_1\mid T=t\sim\operatorname{Bin}(t,1/n)\). Counting ordered pairs of distinct successes yields \(E[X_1(X_1-1)\mid T=t]=t(t-1)/n^2\). Thus this function of \(T\) is unbiased. For \(\lambda>0\), \(T=2\) has positive probability and conditionally \(X_1(X_1-1)\) equals 2 with probability \(1/n^2\) and 0 otherwise. Both probabilities are positive for \(n\ge2\), giving strict variance improvement by (b). If \(q=0\) is admitted, both estimators equal zero almost surely, and no strict improvement at this boundary is possible.
+  IB/2025/P4/q17H:
+    source:
+      archive: private/raw/tripos/IB/2025/P4.pdf
+      sha256: 71a32addd29e4fa1dc1bdedefa1da95eea1c97de22bbad03049df76b77150c49
+      page: 11
+      pages:
+      - 11
+      original_question: 17H
+      section: II
+      question_sha256: b806f17154bdd084c548894cefe2b2ba80e2d96aa4a4f4d0c45410c1adf7aa1e
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The point-null deviance has an exact chi-square law with two degrees. The equal-means deviation equals
+        the square of the signed standardised difference. Both derive the orthogonal decomposition into contrast and
+        pooled mean and justify strictly ordered chi-square quantiles. Full-support normals give positive probability
+        of the open difference of critical regions for every pair of means, for 0<α<1.
+      check_review: Numerical chi-square and normal quantiles and elementary contrast decompositions check thresholds
+        and a region of overlap.
+    verification:
+      source_hashes:
+        question.tex: b806f17154bdd084c548894cefe2b2ba80e2d96aa4a4f4d0c45410c1adf7aa1e
+        solution.tex: 00dbddc0ae8881454ab4cdbcd5aa544e4d119ebc8e0226a684247f03d1a7c9b7
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: a4af4c906d663a75ba09eef4dd3e55de2dd2f3af576c618b1e5206ecd6f8b3e4
+      canonical_comparison_text_sha256: 0b639a94b5b6d58ffbff8496f83e54f8d0261214d72c956f590a0a9c70a154aa
+      computer_check_sha256: 8d318e10145f9c7231341367232e7ad1e9ff972e249b7131f4d45294c959cf95
+      computer_check_exit: 0
+      computer_check_stdout: Orthogonal contrast decomposition, quantile ordering and rejection-set overlap verified.
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.630567+00:00'
+    blind:
+      file: 2025-P4-q17H.md
+      sha256: 8de6b8c5734de12af3a9007ab43a7232c200394083cf98ffa41f99b9032c02d7
+      rework: |
+        # 2025 Paper 4, 17H
+
+        Assume \(m,n\ge1\) and \(0<\alpha<1\). Within-group centred sums of squares cancel from likelihood comparisons. The remaining negative twice log likelihood, up to constants, is \(m(\bar X-\lambda)^2+n(\bar Y-\mu)^2\), with unrestricted minimum zero at the observed means.
+
+        **(a)** Under the joint point null the excess sum is \(A=m\bar X^2+n\bar Y^2\). The standardised means are independent standard normals under this null, so \(A\sim\chi^2_2\) exactly. The GLR rejects for \(A>a=F_2^{-1}(1-\alpha)\).
+
+        **(b)** The common mean minimising the two quadratic terms is \(W=(m\bar X+n\bar Y)/(m+n)\). Substitution into the restricted objective gives \(B=mn(\bar X-\bar Y)^2/(m+n)\). With \(D=(\bar X-\bar Y)/\sqrt{1/m+1/n}\) one has \(B=D^2\) and \(D\sim N(0,1)\) under every common mean. Reject exactly when \(|D|>\Phi^{-1}(1-\alpha/2)\); write \(b=(\Phi^{-1}(1-\alpha/2))^2\).
+
+        **(c)** Put \(H=\sqrt{m+n}\,W\). Direct expansion gives \(A=D^2+H^2\). As an orthogonal linear transformation of \((\sqrt m\bar X,\sqrt n\bar Y)\), \((D,H)\) has identity covariance and an everywhere positive normal density at every \((\lambda,\mu)\). Since for independent standard \(Z_1,Z_2\) one has \(P(Z_1^2+Z_2^2\le t)<P(Z_1^2\le t)\) at each \(t>0\) (positive probability of \(Z_1^2<t<Z_1^2+Z_2^2\)), it follows that \(a>b\). The nonempty open region \(b<D^2<a,\ |H|<\sqrt{a-D^2}\) is rejected by (b) and accepted by (a), and has positive probability under every parameter pair. At the trivial endpoint levels the claimed strict positivity would fail.
+  IB/2026/P1/q17H:
+    source:
+      archive: private/raw/tripos/IB/2026/P1.pdf
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      page: 14
+      pages:
+      - 14
+      original_question: 17H
+      section: II
+      question_sha256: 485f67293b6e9f3486c9f732836b70324a58d45fc6a3d8f02db2a0b3dff65683
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: All six projection calculations agree, including a positive residual for the MLE, full-rank F-test
+        degrees, residual scaling, zero projected coordinates, and the replacement of a strict tail by a weak inequality
+        at a positive threshold. Part (v) explicitly needs the normalisation carried from (iv); rescaling an unrestricted
+        perpendicular column defeats the bound. The printed expression in (vi) is undefined for a saturated null block.
+        Nonidentifiable alternative directions are an optional extension.
+      check_review: Exact symbolic matrix projections verify independent orthogonal subspaces, rank, gain in sums of
+        squares, zero and bounded marginal variances and residual scale cancellation with duplicate predictors.
+    verification:
+      source_hashes:
+        question.tex: 485f67293b6e9f3486c9f732836b70324a58d45fc6a3d8f02db2a0b3dff65683
+        solution.tex: 519d4991347ac7fffb0b508a4921d99a0916ac93310d84e2e499705e6bff9548
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 1a967620ddd11bdaa3d5e44526bde0be13b7c0c0ca8a8c47c40ff000863a49ad
+      canonical_comparison_text_sha256: 9c72b28c84c5d982a14910c0cd3ce93db6e10d399e4814ff468f105829118fd3
+      computer_check_sha256: da53dc8a5ed822333c8171e03089b11868b95e11a9f1870177edb93d0a528fbe
+      computer_check_exit: 0
+      computer_check_stdout: 'PASS: exact nested projections and residual degrees, bounded and zero variances, scale
+        cancellation with collinear predictors.'
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.449853+00:00'
+    blind:
+      file: 2026-P1-q17H.md
+      sha256: a8c10ea196d53861c51d48025558a8d12fbe7cb2cf8dd45549ca03f732200f28
+      rework: |
+        # 2026 Paper 1, 17H
+
+        Write \(P_0=X_0(X_0^\top X_0)^{-1}X_0^\top,\ Q_0=I-P_0\); full column rank makes \(P_0\) the orthogonal projection onto the span of \(X_0\).
+
+        **(i)** Minimising \(\|Y-X_0b\|^2\) gives \(\hat\beta_0=(X_0^\top X_0)^{-1}X_0^\top Y\), and the residual sum is \(S_0=\|Q_0Y\|^2\). The variance-dependent log likelihood is \(-n\log v/2-S_0/(2v)\) plus a constant. Its maximum is \(\widehat{\sigma^2}=S_0/n\) for \(S_0>0\). At exact fit, zero is the boundary estimate, and no maximum is attained for strictly positive \(v\).
+
+        **(ii)** For full-column-rank \(X\), write \(P=X(X^\top X)^{-1}X^\top,\ S=\|(I-P)Y\|^2\). The \(F\) statistic is \([(S_0-S)/p_1]/[S/(n-p)]\). Under the null the numerator and denominator sums divided by \(\sigma^2\) are squared lengths of standard Gaussian projections onto orthogonal subspaces of dimensions \(p_1\) and \(n-p\). Thus their ratio after division by the degrees of freedom has \(F_{p_1,n-p}\) law; reject for large values. This requires \(p_1\ge1,\ n>p\).
+
+        **(iii)** By construction \(R=Q_0Y\). Under the null \(Q_0X_0\beta_0=0\), so \(R/\sigma=Q_0(\varepsilon/\sigma)\) with \(\varepsilon/\sigma\sim N_n(0,I)\). This yields the stipulated law.
+
+        **(iv)** The scalar \(X_{1j}^\top Q_0 Z/\sqrt n\) is centred Gaussian with variance \(v_j=\|Q_0X_{1j}\|^2/n\le\|X_{1j}\|^2/n=1\), using symmetry, idempotence and contraction of an orthogonal projection. For \(t\ge0\) and \(v_j>0\), its absolute tail is at most \(e^{-t^2/(2v_j)}\le e^{-t^2/2}\). At \(v_j=0\) its strict tail is zero, including at \(t=0\).
+
+        **(v)** Retain the column normalisation of (iv). For \(c=\sqrt{2\log(p_1/\alpha)}>0\), every nondegenerate marginal is continuous at \(c\), and a zero marginal cannot reach it. Thus (iii), (iv) and the union bound give \(P_{H_0}(T\ge c)\le \sum_{j=1}^{p_1}e^{-c^2/2}=\alpha\) for every \(\beta_0\). This requires no independence or full rank of the added columns. If (v) were read without the norm bound, the claim would fail: take a single added column orthogonal to \(X_0\) with norm \(M\sqrt n\). Its statistic then has null law \(M|Z_1|\), so for fixed \(c>0\) its rejection probability approaches one as \(M\to\infty\).
+
+        **(vi)** Use \(U=\max_j|X_{1j}^\top R|/\|R\|\). Substitution of (iii) cancels the common scale \(\sigma\), giving the requested distribution under the null. When \(n>p_0\), \(\|R\|^2/\sigma^2\sim\chi^2_{n-p_0}\) and hence the denominator is nonzero almost surely. One may reject for large \(U\) using an upper quantile, accounting for atoms when columns add no identifiable directions. If \(p_0=n\), \(Q_0=0\) and the printed target is \(0/0\); any common convention would be degenerate. Alternative coefficients whose fitted mean lies in the null subspace are statistically indistinguishable from a null parameter.
+  IB/2026/P1/q6H:
+    source:
+      archive: private/raw/tripos/IB/2026/P1.pdf
+      sha256: 874458456972e0c2e1c3b8c3f2a8fab8db94813c7248d8ac395eb46e72c37182
+      page: 5
+      pages:
+      - 5
+      original_question: 6H
+      section: I
+      question_sha256: 8719c3b02ebe99c562c7813b2cd6d630112f6f59e9b70b1bbde04919d7ab9f2c
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The parameter-dependent support factors through the sample minimum. The Rao–Blackwell theorem and MSE
+        identity agree. The canonical solution obtains the unbiased minimum-based estimate directly from its survival
+        function, while the blind solution additionally conditions 2X₁−1 as the hint suggests. Both give the exact same
+        risk and n=1 endpoint. The hint does not require an extra derivation.
+      check_review: Symbolic integration of the minimum density checks normalisation, unbiasedness and the target squared
+        risk for five sample sizes.
+    verification:
+      source_hashes:
+        question.tex: 8719c3b02ebe99c562c7813b2cd6d630112f6f59e9b70b1bbde04919d7ab9f2c
+        solution.tex: 206d85978be24682344fdbed3924996cbb04ea1966a7ba91d823e5bd53b9eed4
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 3c25019e267cea4951899b89ad742136da4284494a1c91b7a5cfaba33c976ce2
+      canonical_comparison_text_sha256: cf7b318b08abec9af268f5095885b7b3546c791077ca519aac2b6baaba716fa8
+      computer_check_sha256: 4cc2eb8d6884ab049584f70586fb21cd8865a7c5fdffb2b53b04b5fff4cea95a
+      computer_check_exit: 0
+      computer_check_stdout: 'PASS: exact order-statistic density, mean and squared-error integrals for five sample sizes
+        including n=1.'
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.778654+00:00'
+    blind:
+      file: 2026-P1-q6H.md
+      sha256: cb9b9e265c5dbd3473f6913c447f457da9c5d7b896fb1b1ed646be1f9ff200d7
+      rework: |
+        # 2026 Paper 1, 6H
+
+        **(a)** Sufficiency means that the conditional law of the full sample given \(T\) has a parameter-free version. If \(T=\min_iX_i\) and \(M=\max_iX_i\), the likelihood is \((1-\theta)^{-n}{\bf1}_{\{\theta\le T\}}{\bf1}_{\{M\le1\}}\). This factors into a function of \(T,\theta\) and a parameter-independent factor; hence \(T\) is sufficient, even though the support varies with \(\theta\).
+
+        **(b)** For a finite-variance estimator \(A\) and sufficient \(T\), Rao–Blackwell gives \(B=E[A\mid T]\) as an estimator whose expression does not need \(\theta\). It has the same mean and no larger variance or mean squared error at every \(\theta\); equality of variances at a parameter value means \(A=B\) almost surely there. These facts follow from iterated expectation and the conditional variance decomposition. More generally conditioning decreases risk under integrable convex loss in the action by conditional Jensen.
+
+        **(c)** The single-observation estimator \(2X_1-1\) has expectation \(\theta\). With probability one the minimum is unique. Given \(T=t\) its index is uniform over the \(n\) labels by symmetry, and the remaining \(n-1\) values are independent uniform on \((t,1)\) conditional on the index and \(T=t\), by the constant joint density on this truncated product. Thus
+        \[
+        E[2X_1-1\mid T=t]=n^{-1}(2t-1)+(1-n^{-1})t=((n+1)t-1)/n.
+        \]
+        Alternatively \(T=\theta+(1-\theta)V\), where \(P(V>v)=(1-v)^n\) for \(0\le v\le1\). Integrating this tail gives \(EV=1/(n+1)\), directly verifying that \(\hat\theta=((n+1)T-1)/n\) is unbiased. Its variance, using the stated \(\operatorname{Var} V\), is
+        \[
+        \frac{(n+1)^2}{n^2}(1-\theta)^2\frac{n}{(n+1)^2(n+2)}=\frac{(1-\theta)^2}{n(n+2)}.
+        \]
+        By unbiasedness this is its MSE. At \(n=1\) it reduces to \(2X_1-1\), with the same formula.
+  IB/2026/P2/q6H:
+    source:
+      archive: private/raw/tripos/IB/2026/P2.pdf
+      sha256: df110b028d6e57545266b8e5da21a339eda18617fe4ab718c9a74d708abd4ac3
+      page: 4
+      pages:
+      - 4
+      original_question: 6H
+      section: I
+      question_sha256: cfa56b588db7ea8e2152a2d58c681ca490f25fd72d6ed1b430f54cda4f5c1ae9
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: The likelihood maximiser, posterior precision n+τ², posterior mean and both frequentist risks agree.
+        The canonical explicit risk difference and the blind inequality reduce to the same strict bound; both give equality
+        exactly at the two threshold values.
+      check_review: Completion of the square and the full variance-bias risk difference are verified symbolically.
+    verification:
+      source_hashes:
+        question.tex: cfa56b588db7ea8e2152a2d58c681ca490f25fd72d6ed1b430f54cda4f5c1ae9
+        solution.tex: 9e36fe38510a245a235e269aa5c4446962fc4c2e3adcb02dc73f5fb633920d77
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 3bce1a35bc710de14f292cc62f9b909a5a217b71f999d5bdf42b3376b7df661f
+      canonical_comparison_text_sha256: 6b9bddae1884635ed27315fe82fb05360a61fa673c25181156e84a90915ae8bd
+      computer_check_sha256: 32f3d7d643e6c7e64b1559f813926427c2010d0bfb0070c24870e01a04ec3074
+      computer_check_exit: 0
+      computer_check_stdout: 'PASS: symbolic posterior precision and centre, fixed-parameter MSE and exact risk-difference
+        threshold.'
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.600571+00:00'
+    blind:
+      file: 2026-P2-q6H.md
+      sha256: c19cc489e7a9c8edeb6ad3030f5d3b61d983df10e094a72daeca4b3d4343530d
+      rework: |
+        # 2026 Paper 2, 6H
+
+        The sample log likelihood differs from \(-n(\mu-\bar X)^2/2\) by a data-only constant, so the unique maximum is \(\hat\mu=\bar X\). Its \(N(\mu,1/n)\) distribution gives mean squared error \(1/n\).
+
+        Multiplication by the prior density adds the exponent term \(-\tau^2\mu^2/2\). Completing the square gives a posterior \(N(n\bar X/(n+\tau^2),\,1/(n+\tau^2))\), whose mean is \(\tilde\mu=n\bar X/(n+\tau^2)\).
+
+        At fixed true \(\mu\), this has bias \(-\tau^2\mu/(n+\tau^2)\) and variance \(n/(n+\tau^2)^2\). The risk comparison is
+        \[
+        \frac{n+\tau^4\mu^2}{(n+\tau^2)^2}<\frac1n
+        \quad\Longleftrightarrow\quad
+        n\tau^4\mu^2<2n\tau^2+\tau^4
+        \quad\Longleftrightarrow\quad
+        \mu^2<2\tau^{-2}+1/n.
+        \]
+        The factors divided out are positive since \(n\ge1,\tau>0\). Equality of the risks holds exactly at the two threshold values, with shrinkage worse beyond them.
+  IB/2026/P3/q18H:
+    source:
+      archive: private/raw/tripos/IB/2026/P3.pdf
+      sha256: 0f887d2855fbf8ea25d585f6f7e45a984a2673362c6e1666003811621207f2a5
+      page: 14
+      pages:
+      - 14
+      original_question: 18H
+      section: II
+      question_sha256: 274eb8fd4213083da93b8d8a33dff6230b0ef7379557012d6e38c109ed2e21d3
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: Simple-null likelihood-ratio tests, monotone normal power and the two-point-mixture power argument
+        agree. For the open composite null both proofs use continuity for every competing test, not merely for the proposed
+        central rule. The equal mixture of the two excluded boundaries has inverse-cosh likelihood ratio, and the actual-null
+        size α is a supremum approached at ±μ₀. Strict monotonicity proves validity and uniqueness of the cutoff.
+      check_review: The numerical script checks normal power ordering, calibrates twelve boundary problems, tests strict
+        decline beyond the boundary and directly compares the mixture likelihood ratios.
+    verification:
+      source_hashes:
+        question.tex: 274eb8fd4213083da93b8d8a33dff6230b0ef7379557012d6e38c109ed2e21d3
+        solution.tex: 70e2bf7aa3c066b65255ab7f748e2198188db844096785e22fe1f79e19a84154
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 2e78b0dcf71f759c983eaf63aee8ca8306bb7d1b958c8077c00ad356685d970b
+      canonical_comparison_text_sha256: c438cfb07cda72a88842fa34103db5a4f6e822f95e328636993900d6e06031f0
+      computer_check_sha256: 858da36fb7762aa98d322e537b0818465bde802d6b6800b01580ce2ba146b617
+      computer_check_exit: 0
+      computer_check_stdout: 'PASS: normal power ordering and excluded-boundary size for twelve central-interval tests,
+        including likelihood-ratio ties by symmetry.'
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:29.871524+00:00'
+    blind:
+      file: 2026-P3-q18H.md
+      sha256: db8be9d4d46c2f15d7eab8444555a72ee6965c9ef33cd87a2c5417b68134b630
+      rework: |
+        # 2026 Paper 3, 18H
+
+        **(a)(i)** For a simple null \(f\) and alternative \(g\), the Neyman–Pearson lemma gives greatest power among tests of level \(\alpha\) by rejecting where \(g>kf\), accepting where \(g<kf\), and choosing the rejection probability on equality so that null size is exactly \(\alpha\). Continuity of the densities alone need not remove all likelihood-ratio ties.
+
+        **(a)(ii)** For each fixed \(h>0\), the joint alternative-to-null ratio for \(\mu=h\) against \(\mu=0\) is \(\exp(nh\bar X-nh^2/2)\), strictly increasing in \(\bar X\). Neyman–Pearson therefore gives the same most powerful critical region \(\sqrt n\bar X>\Phi^{-1}(1-\alpha)=c\) for each \(h\); its null size is exactly \(\alpha\). Under \(\mu\) its rejection probability is \(1-\Phi(c-\sqrt n\mu)\), increasing in \(\mu\). The supremum for \(\mu\le0\) equals \(\alpha\) at zero. Every test admissible for this larger null is level \(\alpha\) at zero, proving uniform optimality for that null as well.
+
+        **(b)(i)** If \(\psi\) is any competing test of level \(\alpha\) at both \(f_1,f_2\), then \(E_{\pi f_1+(1-\pi)f_2}\psi=\pi E_{f_1}\psi+(1-\pi)E_{f_2}\psi\le\alpha\). By the simple-mixture-null lemma in (a)(i) it cannot have greater power at \(g\) than \(\phi\). The assumed composite-null size makes \(\phi\) an eligible test. The argument includes \(\pi=0,1\).
+
+        **(b)(ii)** Set \(d=\mu_0>0\). For the central region its power is \(b(\mu)=\Phi(z-\mu)-\Phi(-z-\mu)\), an even continuous function. For \(\mu>0\) its derivative is \(\varphi(z+\mu)-\varphi(z-\mu)<0\) since \(|z+\mu|>|z-\mu|\) and the standard normal density decreases in absolute argument. The boundary rejection probability \(b(d)=\alpha\) thus gives the supremum on the *open* null \(|\mu|>d\) by approaching \(d\) from above. The equation determines a unique \(z>0\): its left side increases continuously from zero to one as \(z\) goes from zero to infinity.
+
+        For any competing measurable test \(\psi:\mathbb R\to[0,1]\), its power is continuous in \(\mu\): translated normal densities converge in \(L^1\) as their shifts converge (alternatively, dominate the translates for \(|\mu-a|\le1\) by an integrable Gaussian-tail envelope). Thus its level on the open null imposes \(E_{\pm d}\psi\le\alpha\) at both excluded boundary points. For the equal mixture of these two boundary densities the alternative-to-mixture ratio is
+        \[
+        \frac{\varphi(x)}{\{\varphi(x-d)+\varphi(x+d)\}/2}
+        =\frac{e^{d^2/2}}{\cosh(dx)}.
+        \]
+        It decreases strictly with \(|x|\). The proposed region \(|x|\le z\) has mixture size \(\alpha\) and by Neyman–Pearson maximises power at \(\mu=0\) among all mixture-level competitors. This includes every test eligible for the original null. Boundaries \(\pm z\) have zero sampling probability.
+  IB/2026/P4/q17H:
+    source:
+      archive: private/raw/tripos/IB/2026/P4.pdf
+      sha256: ccfdbcbc8fa800ea0281c560e83d7a9ddf704ef496dc062419f89e3da5bc7d84
+      page: 13
+      pages:
+      - 13
+      original_question: 17H
+      section: II
+      question_sha256: 855a246ec8c88f2891b56d7bdbebf3b3787beba7f2b9e4500381facd6952bd94
+      manifest_and_heading_and_link_match: true
+      blind_statement_matches_canonical: true
+    before_repair:
+      substantive_errors: 0
+      finding: Agrees with the independent rework.
+      comparison_basis: The current canonical solution is the before-repair comparator on this unaffected unit.
+    current:
+      substantive_errors: 0
+      transcription_errors: 0
+      comparison: In shape–rate notation MLE n/S, gamma sum and scaling agree; S>0 almost surely. Both invert the pivot
+        θS with the quantiles in increasing order. The posterior has shape n+β and rate λ+S; dividing its unit-rate quantiles
+        by n+β gives the requested posterior relative multipliers. The dependence restrictions and frequentist/posterior
+        probability interpretations match.
+      check_review: Symbolic log likelihood score and posterior kernels are checked along with equal-tailed probability
+        over integral and nonintegral gamma shapes and multiple rates.
+    verification:
+      source_hashes:
+        question.tex: 855a246ec8c88f2891b56d7bdbebf3b3787beba7f2b9e4500381facd6952bd94
+        solution.tex: 12fddc69cfc3c432a67d4a11470cad7e2d5900f7b2b556e0ea6270194719c8b3
+      canonical_computer_and_pdf_receipts_match: true
+      canonical_independent_receipt_matches: true
+      canonical_independent_text_sha256: 6e9193e9e89bb3f0dec94857f92fa9b37edbb96d9470c1d2d23dbaff8488b4e2
+      canonical_comparison_text_sha256: 5e1ae8ff401663ade4856af4c92e0f207e270409cf2b6ad92238f22881e8c87a
+      computer_check_sha256: ff8bae6ca148d32e32e0b8b81c41c60dcdf37e4948f21a5b78fba0182de859bf
+      computer_check_exit: 0
+      computer_check_stdout: 'PASS: log-likelihood maximisation, posterior gamma kernel, and unit-rate pivot intervals
+        for integral and nonintegral shapes.'
+      computer_check_stderr: ''
+      result_matches_saved_receipt: true
+      completed_at: '2026-11-21T06:37:30.150915+00:00'
+    blind:
+      file: 2026-P4-q17H.md
+      sha256: f77d125f5ea57e24bba888a02024eeb6f81c519a917813b872bf18cdce4a1833
+      rework: |
+        # 2026 Paper 4, 17H
+
+        **(a)** For nonnegative observations let \(S=\sum_i X_i\). The log likelihood is \(n\log\theta-\theta S\), so its unique maximum on \((0,\infty)\) is \(\hat\theta=n/S\) by differentiation and strict concavity. \(S>0\) almost surely for \(n\ge1\); the zero-sum data would give an unbounded likelihood.
+
+        **(b)** For \(t<\theta\) the exponential mgf is \(\theta/(\theta-t)\) by integrating its density. Independence raises this to the \(n\)-th power for \(S\), identifying \(\Gamma(n,\theta)\) in the shape–rate convention, by uniqueness of mgfs near zero. Likewise the mgf of \(\gamma Y\) is \([\lambda/(\lambda-\gamma t)]^\beta\) for \(t<\lambda/\gamma\), so \(\gamma Y\sim\Gamma(\beta,\lambda/\gamma)\).
+
+        **(c)** By (b), \(\theta S\sim\Gamma(n,1)\), a parameter-free pivot. Define \(q_k(u)\) as the \(u\)-quantile of \(\Gamma(k,1)\). Its continuous strictly increasing cdf gives probability \(1-\alpha\) between \(q_n(\alpha/2)\) and \(q_n(1-\alpha/2)\). Since \(S>0\), dividing both endpoints by \(S\) gives the exact equal-tail interval for \(\theta\), thus \(l=q_n(\alpha/2)/n,\ u=q_n(1-\alpha/2)/n\).
+
+        **(d)** Multiplication by the prior gives posterior kernel \(\theta^{n+\beta-1}e^{-(\lambda+S)\theta}\) on \(\theta>0\). The posterior law is \(\Gamma(k,b)\), \(k=n+\beta,\ b=\lambda+S\), with mean \(\tilde\theta=k/b\).
+
+        **(e)** Conditionally on observations \(b\theta\sim\Gamma(k,1)\), so select \(l'=q_k(\alpha/2)/k,\ u'=q_k(1-\alpha/2)/k\). Then \([l'\tilde\theta,u'\tilde\theta]\) has exactly the stipulated conditional posterior mass. These constants depend only on \(n,\beta,\alpha\); the frequentist constants in (c) do not involve prior parameters. All quantiles are finite and strictly positive for the specified interior \(\alpha\).

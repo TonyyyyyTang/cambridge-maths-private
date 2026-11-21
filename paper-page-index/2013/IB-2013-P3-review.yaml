@@ -1,0 +1,279 @@
+paper_id: IB/2013/P3
+id: IB/2013/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2013-06-06'
+printed_date: Thursday, 6 June, 2013
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2013/P3.pdf
+archive: private/raw/tripos/IB/2013/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2013/PaperIB_3.pdf
+sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2013/P3/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 28b1e10eb9bc75b02769ad6dfb5d49706893ea63a7f712142e0a21f3120238b8
+  checks: Checked the PID hypothesis and that freeness is asserted for every ideal.
+- id: IB/2013/P3/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: c2f2a5cd7e9b88921f415f39ed0957e4e1ca5682ffbdd581c9d73844e16169d3
+  checks: Checked the three formulas, including that the square root in item 3 covers only n.
+- id: IB/2013/P3/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 93fc1ed51a255b318a402bd4d7b8ae92b0836620f928ccc19501216628f7f3da
+  checks: Checked compactness as a topological space and which of the two metrics is complete.
+- id: IB/2013/P3/q4D
+  original_question: 4D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 9ea0d27dcf031742e5e3b74c1385d3d226aa7f80747c13dc6eca04bb6e48500e
+  checks: Checked the positive-side limit, delayed argument, and signs of all terms in the delay equation.
+- id: IB/2013/P3/q5F
+  original_question: 5F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 70b12830f713d574ba2b4017fa037545e245c85ed2607d4529bd6bb888cfdb5e
+  checks: Checked the two metric coefficients, the arc-length qualification and the printed identity for G.
+  printed_ambiguity: The assertion G=1 in these coordinates needs v itself to parameterise u=0 by arc length.
+    A geodesic that can merely be reparametrised by arc length does not fix the scale in v.
+- id: IB/2013/P3/q6A
+  original_question: 6A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 8d0e81af7487214c16b82bc249728ae113ce21cd02aac9d03b95b56b6b41d0ba
+  checks: Checked the density multiplier on the base, the fixed volume and the minimum mass request.
+- id: IB/2013/P3/q7C
+  original_question: 7C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: a1147d1ef49ae9611b83e17e67d25436caf18d860ec2f026a18eb00821629327
+  checks: Checked all half-space hypotheses, the outward normal and the negative-sign fundamental solution.
+- id: IB/2013/P3/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: b3a9b3a2fcfc5634ab81324d602d113971fac8d48096b6594f17c6eb4ae217bb
+  checks: Checked the operator multiplication order, commutator signs and both powers in the Hermitian sum.
+- id: IB/2013/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 0f5ca5387f1cf02b5c4a607174322999950c04eff430522f0d5b63f0743671e2
+  checks: Checked the movement, removal and addition probabilities, boundary holds at empty urns, and factorials
+    in the invariant measure.
+- id: IB/2013/P3/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 2c7f0beee11205664cd2f98e1904c2ba220db8ae290d46544e3fa812f2cf8486
+  checks: Checked both duals, composition order in the naturality equation and the direction of the image injection.
+- id: IB/2013/P3/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 3601b529313981519038923bf8e1f03f439e86df26f76ec46073a5929cb464aa
+  checks: Checked the bivariate coefficient ring, exponents and signs, and infinitely many distinct proper
+    ideals.
+- id: IB/2013/P3/q12F
+  original_question: 12F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a0c73f03d4f8b3c9ac6a0a9135d31154bbac2ac5ceebaecae51e5ca2258dd90b
+  checks: Checked six separate statements, finite versus infinite index bounds and compact support versus boundedness.
+- id: IB/2013/P3/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 11f7ff7c9458635685d6bfaa17bfd82c3bdb92231e9e814d61fb214330e9f82a
+  checks: Checked contour orientation, annular radii, coefficient function and the three boundary functions
+    including conjugation.
+- id: IB/2013/P3/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 90be93ed7607099cbed075efc04af1e7572cc40d2c6974cd749b11f7b29e2739
+  checks: Checked the open Möbius band, both conditions on the metric, and both questions about the surface
+    of great circles.
+- id: IB/2013/P3/q15C
+  original_question: 15C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 4200ef89daad7fb4fcea08904000746bd7a23ccf12a0f8ec54cf0a0c2b0335f3
+  checks: Checked the radial operator, annulus boundaries, Fourier sine data and constant shift at the outer
+    circle.
+- id: IB/2013/P3/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: a2be8727ad2c86d536c16d9f8fe08fd3c265d54f17fc51771c361d319973de0e
+  checks: Checked the plus sign and 2/hbar in the source term, integrations over three-space and first-order
+    time expansion.
+- id: IB/2013/P3/q17D
+  original_question: 17D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 94222da75e3c7217ebd7696a274473a12c8cf211d38ad96eb4ecf45ebc863a5e
+  checks: Checked all four circuit sides, the derivative defining the applied field, flux-law sign and unit
+    current condition.
+- id: IB/2013/P3/q18A
+  original_question: 18A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: e672efcaf9ebdfd61edd2be82a9db180f95adb14b97a92ed41206ddca3f98db4
+  checks: Checked the coordinate directions, volume flux, second-layer thickness and viscosity and both one-sided
+    shear terms.
+- id: IB/2013/P3/q19C
+  original_question: 19C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 716102de4eed91e54deee204342b40b9b0cf39e5d0fc4fc92a89a8e39ced43b2
+  checks: Checked the differentiation nodes, sign of the error and third derivative in the supremum bound.
+- id: IB/2013/P3/q20H
+  original_question: 20H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: ea9108494b2c3c852e59e631ce4a1cc560953046956a63e3920840ab89618cd2
+  checks: Checked the three decisions, both risk weights, interval endpoint inclusions, and the direction of
+    the final inequalities.
+- id: IB/2013/P3/q21H
+  original_question: 21H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 1a4a77553b9af8df1898836bed334a4d2c542f8a0d9d4017b53c18339867442f
+  checks: Checked the three mixed inequalities, all right-hand sides and the specified one-parameter perturbation.

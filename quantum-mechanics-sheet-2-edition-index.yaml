@@ -1,0 +1,1566 @@
+course: IB/quantum-mechanics
+sheet: 2
+baseline: 2025-26
+editions:
+  2006-07:
+    archive: raw/sheets/IB/quantum-mechanics/2006-07/sheet-2.pdf
+    url: https://web.archive.org/web/20070221083347id_/http://www.damtp.cam.ac.uk:80/user/examples/B9b.pdf
+    sha256: 955c5915437825c89bc8e97d885be99e67dfb163d5412fceed6f690c1d260322
+    page_count: 2
+    printed_term: Michaelmas Term 2006
+    lecturer: Dr. R. M. Williams
+    contact: rmw7@damtp.cam.ac.uk
+    copyright_year: 2006
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: 895173c98f5becfbbf6394cd65d42e54d8359b84cb006b79b50e4f68679bf266
+      2: a9a1f59b8f46146c43e969a433ef5b9275d9ba5e7bd65c062c4bd601f63f395b
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 1b92c13ea291eec1ac3d0543af37b8cdd05ea757edf62920375e1a6121c1809d
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: history/verified-2006-07-1b92c13ea291/solution.tex
+        verified_solution_sha256: c29e438983107502249da91c9f2df722137abd1fe882a9b787007da9c9f42621
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: dc480140f82a5d864ca9b3cb4bdffe6062beac77b3e851a508e36142950b521e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: history/verified-2006-07-dc480140f82a/solution.tex
+        verified_solution_sha256: 869f96e936b13ea90a5f25be7f224ddd3a023d148d226df9a45aad1e8097059f
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx01
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: c12e890805da63c794a7b6fccf92383ce51cb5441c8cf758a672c099743c16cb
+        image_review: Checked sech-squared potential or the sheet-1 reference, the
+          tanh-minus-ik sign, reflection wording, pole and the starred paragraph where
+          present.
+        verified_solution: history/verified-2006-07-c12e890805da/solution.tex
+        verified_solution_sha256: 21d13cfa54f7f45e144d073420d3c7f6f658ae65b23bd6aaf8b7d1380924ea75
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/qx02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e88e87b7ccde3eb6ead1b53d92f4f989d35d28dc297ce83e6f4a87a0e36b500d
+        image_review: Compared each subscript and parity claim, and the ordering and
+          conjugation of the final integral.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0b428e2ee49f5e340bd1bfd64021daf3dd83ea29acc082e83453dff42aa26d2e
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/qx03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a879e8cef1b6e22b22075d7baf4f4123c96ae8dd37e073591865a4bb38f8dc3c
+        image_review: Checked the Hermitian condition, the reality question and the
+          i multiplying the ordered commutator.
+        verified_solution: solution.tex
+        verified_solution_sha256: 51d7b1c57010f18e22a3fae789e8dfb31555359cf50bb79fe2b6a794bed5f469
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ebe0a61b84a9f7b9e7d53c5da68d7712a705d90c6d5b63fa9d6022cee955be9d
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: solution.tex
+        verified_solution_sha256: c7a031292872a00caa6c1a3d7b7bc5e9d3727633a767325e53d9203b0dd69144
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 90737e3e1f6ed1c1f01301cab4a31c01f3b940290d5a2bc58b806da8ba671834
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-2006-07-90737e3e1f6e/solution.tex
+        verified_solution_sha256: e7e79f2ab3b6d97d5f083c7df7823d4d52b9b79addda00d0731052ece0b7dbdc
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 704634d71039e0e9de3c8b0f2f4ed4946ff839a7a52576c81e10f6a61f30caaf
+        image_review: Compared S and the two states, both measurement runs, amplitude
+          expansion, limit, star and final interpreted quantum-kettle paragraph.
+        verified_solution: solution.tex
+        verified_solution_sha256: 125e9b1b3500e0212207fefca330d1820ad8ac61c43e33b900542df5870d397c
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 5a3604de665181cfe554dc91fbe28316bd26888fd1880c19a1cda1eea63b07bc
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: history/verified-2006-07-5a3604de6651/solution.tex
+        verified_solution_sha256: cf9ded8072d4341e478799c217463f69ea4661e922f1005ca51abf22d86378f8
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2ee0f0169a89007ddb2b8ab833a6f62a4cd82a941f024c74cc9fb028040615e0
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: solution.tex
+        verified_solution_sha256: 799155d540658cb3ed96282c4a26e350782f35f1c45b4f1f2a6df7a50108c97f
+    printed_references:
+      qx01:
+      - printed: Q.8, Ex.Sheet 1
+        target: IB/quantum-mechanics/sheet-1/qx04
+      q01:
+      - printed: Q.6
+        target: IB/quantum-mechanics/sheet-2/q07
+  2015-16:
+    archive: raw/sheets/IB/quantum-mechanics/2015-16/sheet-2.pdf
+    url: https://web.archive.org/web/20160329023846id_/http://www.damtp.cam.ac.uk:80/user/examples/B9b.pdf
+    sha256: ec5da087600888636992f4523efc7cbd64ab121b20f62e5d3428d78d0bac4aa1
+    page_count: 2
+    printed_term: Michaelmas Term 2015
+    lecturer: Dr. J.M. Evans
+    contact: J.M.Evans@damtp.cam.ac.uk
+    copyright_year: 2015
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: e9d30aced4ca27fde67b39e2005eb8be1de2d72dd7e19a022b10477b7797c2ae
+      2: fdf47820a963a561c58291456a431e9128031a23bbcd28acb836f57fca5874c4
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 9ebf71f6e61214c2be5bada1c1a9cad54186526df7b44aa21143d5406c8ea855
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-2015-16-9ebf71f6e612/solution.tex
+        verified_solution_sha256: e7e79f2ab3b6d97d5f083c7df7823d4d52b9b79addda00d0731052ece0b7dbdc
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 0e6c32c14e2aa07942f0df8a3824283879066f6c45a282ac8734facca77438a2
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/verified-2015-16-0e6c32c14e2a/solution.tex
+        verified_solution_sha256: c4932d9f1bd2642683671efd08aee5354edb9f6a4ca84661a07b629a54a834be
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 55f10a9dc380eb36c56b9996c5c5e3694ced870fda7e9872dd6aeb351570faa1
+        image_review: Checked the Wronskian order, one-dimensional bound-state hypothesis
+          and final question about a real wavefunction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 28578eb90d42d419721ddde313cb52ebe6d498f8ebc2cddc2213efb233231c03
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: f7e7a27f709d6756a196ef1ee7be0ae2c80400fd482c0b8820bd5b2910626f7a
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: history/verified-2015-16-f7e7a27f709d/solution.tex
+        verified_solution_sha256: c29e438983107502249da91c9f2df722137abd1fe882a9b787007da9c9f42621
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: f7a64d81da9ecc1985d5b957cf86bee06ef6e3381143ad7c9e5b895714bed56a
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: history/verified-2015-16-f7a64d81da9e/solution.tex
+        verified_solution_sha256: d6860baa99ab7caf7cf3822aa3c1ef4e3625a0a9d5733e32c4a0f30cc0130cd0
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6491484e4092d612b8c675b9140b4ae7c1204d23b8276e4ba0c6122ece6f29e5
+        image_review: Checked sech-squared potential or the sheet-1 reference, the
+          tanh-minus-ik sign, reflection wording, pole and the starred paragraph where
+          present.
+        verified_solution: solution.tex
+        verified_solution_sha256: c4ce9b2f704b2a403e796bf21df8b9d855f4ac76f40c2c79790825b0722f6bf5
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 1
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 212d71c273e511fc7e581eceafcfcd5d516661b97bce8f9621a103391212a05e
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/verified-2015-16-212d71c273e5/solution.tex
+        verified_solution_sha256: 46eda1c9f7902ecf63174157118e74f951bda65a2b0bddc5a2f3a75f1d699caf
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 231e39f206b031971c57fd99de6a138e53e3d1341d9db5199bcea0a8f8eaca8c
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: history/verified-2015-16-231e39f206b0/solution.tex
+        verified_solution_sha256: 9ad3121724e5bf5c309eb94ab53966aa2e3a6687c9cc61e2fc20750394aa5ede
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx07
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: bdf4534b8d0e770e6f40c35337941056e7a8e5a6c323a631a3020002b134f8c2
+        image_review: Checked the two swapped eigenfunctions, zero eigenspace, distinction
+          between operator/observable hats and the final positive energy-gap assumption.
+        verified_solution: history/verified-2015-16-bdf4534b8d0e/solution.tex
+        verified_solution_sha256: 31411f5f4c33dd6a6f8c172691bed8d27817bd1646075a41502f209d30204cb3
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/qx08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3927b39ea06866df22a6d31ebd9f5eb1b3598c609610f96b80ada0eec49b0aab
+        image_review: Checked amplitude versus probability wording, denominator 2
+          hbar n, the measured event and the exact kettle/pot interpretation.
+        verified_solution: solution.tex
+        verified_solution_sha256: 48c944ae0acaf2e3bd7bf87cc7725940cb6647970923945465b63ef3715e1372
+      '11':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 271717d2056626a38dca4a615eb93de30447ede39ac8283460a2f486a1e7c2c3
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: solution.tex
+        verified_solution_sha256: 652458787f577587e6c2b4997f5d8f3a69468ab871fbd06a2bdee5e863954823
+    printed_references:
+      q07:
+      - printed: a previous example
+        target: IB/quantum-mechanics/sheet-2/q01
+      qx08:
+      - printed: the previous example
+        target: IB/quantum-mechanics/sheet-2/qx07
+  2018-19:
+    archive: raw/sheets/IB/quantum-mechanics/2018-19/sheet-2.pdf
+    url: https://web.archive.org/web/20181220173037id_/http://www.damtp.cam.ac.uk:80/user/examples/B9b.pdf
+    sha256: ac7b7fceb47dd3ac4c1f2cc387fb8c5af4e2403c6ed1e024e5421a33640b0601
+    page_count: 2
+    printed_term: Michaelmas Term 2018
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: 2018
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: b1dc6c5a2233a390123b70bc3258afdb30de82b90c6f5a366408ba3350db5fe7
+      2: 814022ff1bfb14d9a7f92dd1cf557d18d5716df421aa7a14a9583dfbde40043e
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 6899f202f1677f79ec87cf3f36cb800dc19467947d66354007171b0526c818a1
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-2018-19-6899f202f167/solution.tex
+        verified_solution_sha256: e7e79f2ab3b6d97d5f083c7df7823d4d52b9b79addda00d0731052ece0b7dbdc
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5caad6275fdd92dc8159e59be3dc2ab6745b7387a6b7f3b08dde1bbf064f49ab
+        image_review: Checked initial boost argument x-ut, both exponential signs,
+          hats and the state subscripts on all four expectations.
+        verified_solution: solution.tex
+        verified_solution_sha256: b0317b31a1d3c8858310c0091b90d9d0e192b6d2c2d265c7a59c2ce0a275cb90
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: cd32a000c40206d452189f3962ba85102f0ed66517d1187b9734bd2aff90c317
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: history/verified-2018-19-cd32a000c402/solution.tex
+        verified_solution_sha256: 07b5f5396c03e98546d5fe54069ddd9d04f423621e8a856fb2d4d3c1f2dfa183
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 5e7f7dfb09c6a32b7a8b9f44af78db3fcec7171bf4d67d32d1c8291d368d12bf
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: history/verified-2018-19-5e7f7dfb09c6/solution.tex
+        verified_solution_sha256: aa336db1e6f83228e9955e9788c7a061b043fae8c274615a432ab6a07955f221
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: d8be8905b5f9b46f88b3067b22e9532ced04c8fa3ca757bafebcbb4d48c76fe7
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: history/verified-2018-19-d8be8905b5f9/solution.tex
+        verified_solution_sha256: be415d12f39b6b9c6b980148a802ae01ecb2e80e65edd6762e69ccdcdd2d62c7
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: f33996f62444756d2f22856e10beb11a2e44dc63bcf4b77033f92b5c8157cd57
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/verified-2018-19-f33996f62444/solution.tex
+        verified_solution_sha256: 46eda1c9f7902ecf63174157118e74f951bda65a2b0bddc5a2f3a75f1d699caf
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx07
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: bdf4534b8d0e770e6f40c35337941056e7a8e5a6c323a631a3020002b134f8c2
+        image_review: Checked the two swapped eigenfunctions, zero eigenspace, distinction
+          between operator/observable hats and the final positive energy-gap assumption.
+        verified_solution: history/verified-2015-16-bdf4534b8d0e/solution.tex
+        verified_solution_sha256: 31411f5f4c33dd6a6f8c172691bed8d27817bd1646075a41502f209d30204cb3
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/qx08
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Checked amplitude versus probability wording, denominator 2
+          hbar n, the measured event and the exact kettle/pot interpretation.
+        verified_solution: history/verified-2018-19-d62ba446bc8a/solution.tex
+        verified_solution_sha256: 4e117a3eda0ea2340e7bd10affc3229f1d141ff0caf55db4c9253b8b77aaa434
+      '11':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 92ffe373e9553e3cdd433ee0d546f0c2a146f5280b23910b37e45b1569c6bb4e
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: history/verified-2018-19-92ffe373e955/solution.tex
+        verified_solution_sha256: 35013934003934ce7c3de3d5c1882686a567cc62ffd8b6d8b9e5c5262723fe8c
+    printed_references:
+      q10:
+      - printed: Example 9 on Sheet 1
+        target: IB/quantum-mechanics/sheet-1/qx05
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      qx08:
+      - printed: the previous example
+        target: IB/quantum-mechanics/sheet-2/qx07
+  2019-20:
+    archive: raw/sheets/IB/quantum-mechanics/2019-20/sheet-2.pdf
+    url: https://www.qi.damtp.cam.ac.uk/files/Adrian/B9b.pdf
+    sha256: 615cd8ab55e041e6d18cdb5a7a505c9e4183ccd636fac1cd31996d462c6d262d
+    page_count: 2
+    printed_term: Michaelmas Term 2019
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: null
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: 92439e4417c4cd09a680623d5b6d4011a11d693fcd7ffd5d20f259d4ada1ec79
+      2: a935b72a7c7d9561efcc09978c89ef77acf20f4ffb2b557da7e97b630c0c9445
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 6899f202f1677f79ec87cf3f36cb800dc19467947d66354007171b0526c818a1
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-2018-19-6899f202f167/solution.tex
+        verified_solution_sha256: e7e79f2ab3b6d97d5f083c7df7823d4d52b9b79addda00d0731052ece0b7dbdc
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5caad6275fdd92dc8159e59be3dc2ab6745b7387a6b7f3b08dde1bbf064f49ab
+        image_review: Checked initial boost argument x-ut, both exponential signs,
+          hats and the state subscripts on all four expectations.
+        verified_solution: solution.tex
+        verified_solution_sha256: b0317b31a1d3c8858310c0091b90d9d0e192b6d2c2d265c7a59c2ce0a275cb90
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: cd32a000c40206d452189f3962ba85102f0ed66517d1187b9734bd2aff90c317
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: history/verified-2018-19-cd32a000c402/solution.tex
+        verified_solution_sha256: 07b5f5396c03e98546d5fe54069ddd9d04f423621e8a856fb2d4d3c1f2dfa183
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 5e7f7dfb09c6a32b7a8b9f44af78db3fcec7171bf4d67d32d1c8291d368d12bf
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: history/verified-2018-19-5e7f7dfb09c6/solution.tex
+        verified_solution_sha256: aa336db1e6f83228e9955e9788c7a061b043fae8c274615a432ab6a07955f221
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: d8be8905b5f9b46f88b3067b22e9532ced04c8fa3ca757bafebcbb4d48c76fe7
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: history/verified-2018-19-d8be8905b5f9/solution.tex
+        verified_solution_sha256: be415d12f39b6b9c6b980148a802ae01ecb2e80e65edd6762e69ccdcdd2d62c7
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: f33996f62444756d2f22856e10beb11a2e44dc63bcf4b77033f92b5c8157cd57
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/verified-2018-19-f33996f62444/solution.tex
+        verified_solution_sha256: 46eda1c9f7902ecf63174157118e74f951bda65a2b0bddc5a2f3a75f1d699caf
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx07
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: bdf4534b8d0e770e6f40c35337941056e7a8e5a6c323a631a3020002b134f8c2
+        image_review: Checked the two swapped eigenfunctions, zero eigenspace, distinction
+          between operator/observable hats and the final positive energy-gap assumption.
+        verified_solution: history/verified-2015-16-bdf4534b8d0e/solution.tex
+        verified_solution_sha256: 31411f5f4c33dd6a6f8c172691bed8d27817bd1646075a41502f209d30204cb3
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/qx08
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Checked amplitude versus probability wording, denominator 2
+          hbar n, the measured event and the exact kettle/pot interpretation.
+        verified_solution: history/verified-2018-19-d62ba446bc8a/solution.tex
+        verified_solution_sha256: 4e117a3eda0ea2340e7bd10affc3229f1d141ff0caf55db4c9253b8b77aaa434
+      '11':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 92ffe373e9553e3cdd433ee0d546f0c2a146f5280b23910b37e45b1569c6bb4e
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: history/verified-2018-19-92ffe373e955/solution.tex
+        verified_solution_sha256: 35013934003934ce7c3de3d5c1882686a567cc62ffd8b6d8b9e5c5262723fe8c
+    comparison: The two pages have the same eleven printed statements as 2018-19.
+      The lecturer-hosted copy has no copyright line. Its original bytes, raster hashes
+      and printed term are distinct.
+    printed_references:
+      q10:
+      - printed: Example 9 on Sheet 1
+        target: IB/quantum-mechanics/sheet-1/qx05
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      qx08:
+      - printed: the previous example
+        target: IB/quantum-mechanics/sheet-2/qx07
+  2020-21:
+    archive: raw/sheets/IB/quantum-mechanics/2020-21/sheet-2.pdf
+    url: https://web.archive.org/web/20210422144920id_/http://www.damtp.cam.ac.uk/user/examples/B9b.pdf
+    sha256: 999e4ef624ade1d300579db9020cf012789aed72a849a131c267e956fd3689a1
+    page_count: 2
+    printed_term: Michaelmas Term 2020
+    lecturer: Dr. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2020
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: 4a114d214dfe34d01912bab25ff19b6274d7dedffbddffa1c3ee0e4c76c814f3
+      2: 4716f54aba21429a9196c64cae800bbd1f2837fc05c66872b673254df18bfd4e
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: f9b786544417253395013d13d8173ab08103075ecfeafc876d5e151c0b651e89
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-2020-21-f9b786544417/solution.tex
+        verified_solution_sha256: e7e79f2ab3b6d97d5f083c7df7823d4d52b9b79addda00d0731052ece0b7dbdc
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5caad6275fdd92dc8159e59be3dc2ab6745b7387a6b7f3b08dde1bbf064f49ab
+        image_review: Checked initial boost argument x-ut, both exponential signs,
+          hats and the state subscripts on all four expectations.
+        verified_solution: solution.tex
+        verified_solution_sha256: b0317b31a1d3c8858310c0091b90d9d0e192b6d2c2d265c7a59c2ce0a275cb90
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 98e36af2ed2eb81a3ff508f62f39f2b1d8ba8177fd1fd831d54fff61c6a59c97
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: history/verified-2020-21-98e36af2ed2e/solution.tex
+        verified_solution_sha256: 7143e33c32002027adbf26b73e307100a839e29b06c043a32ae4a78f65361eec
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: solution.tex
+        verified_solution_sha256: f9c1ea3b0dae7f7dd56651d5ac93c9b9d73a2ba500c29e808f870156e69cd8bc
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 297bf476bb055e8546051956204a16fddd28e0dab1c6f26ba9e62ef483fb4a5b
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: history/verified-2020-21-297bf476bb05/solution.tex
+        verified_solution_sha256: 04badbaf05cd5784a78262b3ee69bedc7ba9b077ad671d7f416b36339dd05124
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 39f654685678655fd2e44ae452fef2426bb8c9eab5968fc4b407aeee071ea2ea
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/verified-2020-21-39f654685678/solution.tex
+        verified_solution_sha256: 46eda1c9f7902ecf63174157118e74f951bda65a2b0bddc5a2f3a75f1d699caf
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 7195b336b604b624c213608f983b0b2efdc128983d9412ced90a10f054f23a19
+        image_review: Checked the two swapped eigenfunctions, zero eigenspace, distinction
+          between operator/observable hats and the final positive energy-gap assumption.
+        verified_solution: solution.tex
+        verified_solution_sha256: 0cbc146e71d659d66abc9b7c651f3fb4d55a7af7d1bdf47b7309f7acc1f32fb2
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/qx08
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Checked amplitude versus probability wording, denominator 2
+          hbar n, the measured event and the exact kettle/pot interpretation.
+        verified_solution: history/verified-2018-19-d62ba446bc8a/solution.tex
+        verified_solution_sha256: 4e117a3eda0ea2340e7bd10affc3229f1d141ff0caf55db4c9253b8b77aaa434
+      '11':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 0d6a973f9f493fc245754129df74d0b0012da15081e8b617a4a5565bda608e5f
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: history/verified-2020-21-0d6a973f9f49/solution.tex
+        verified_solution_sha256: 89a7c3cb30d27967902af7075a5491372f439aa60a4a964cd56da3902a3f2365
+    printed_references:
+      q10:
+      - printed: Example 9 on Sheet 1
+        target: IB/quantum-mechanics/sheet-1/qx05
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      qx08:
+      - printed: the previous example
+        target: IB/quantum-mechanics/sheet-2/qx07
+  2022-23:
+    archive: raw/sheets/IB/quantum-mechanics/2022-23/sheet-2.pdf
+    url: https://web.archive.org/web/20221007100730id_/https://www.damtp.cam.ac.uk/user/examples/B9b.pdf
+    sha256: 225964d6c5371e4252aa6646778b6b345018c9e6c72a11dc5574902c9f996a22
+    page_count: 2
+    printed_term: Michaelmas Term 2022
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2022
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: 6516850bd769078efa6d892e78825d46ec352cb0b8818ae311906bea58915402
+      2: 97b48d12aab53494b696a2931325ad0d042a15c5431cc86d8416ce343e0386a7
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 50cf4f84325bc148b83f2d7c8f3414b2a218f9fec3933487ccca8691aea5c738
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: solution.tex
+        verified_solution_sha256: 87ac32cfc808aa6d029d1b331daa9d6089d5d8f07b0d03022802c4a12e927500
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2022-23/question.tex
+        question_sha256: 87771a0eee7fbebde7143952e75a9e6e3e552ee4e621d60ade3345f6932e1e33
+        image_review: Checked the integration interval, epsilon, two derivative limits
+          and the energy range at the end.
+        verified_solution: history/verified-2022-23-87771a0eee7f/solution.tex
+        verified_solution_sha256: 3cb5a4bc366dd6bd91d506784939dd6e2ddc6cb9b44957455935ff181b1777e9
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+        image_review: Checked strict inequalities in both the well and threshold and
+          the sign of the parity condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 3cf6b32cf6fad8201ad103de5d086d419db72468a2d69648ffee24c3dcf56852
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 78dd173a66a5e7404739e76f5b2e9cb4a8605672c69b358956b5303d882f9405
+        image_review: Checked both differential operators and their signs, the integration-by-parts
+          identity, the scaled energy and the iff condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 62ea45e28e44204e4949eef606ae5d165944a0535b1f33c92453310b25f19019
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2022-23/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 657f376eaf1fe649051583f069e8622ddc14d77ea221ca7260d97ef4737b076f
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: solution.tex
+        verified_solution_sha256: 616ff82b233b70466a1c7b205b9524419c6864aa3d5333b5c75f1cd4cefb1ce8
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2022-23/question.tex
+        question_sha256: 413fa23c3653ac7cdd4140be36744c21e07015103b5dace8ce6c46f392753444
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 06f128348d8a810ab3278fae01d1a70359519716638418422fedd72e45673bd2
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: solution.tex
+        verified_solution_sha256: f9c1ea3b0dae7f7dd56651d5ac93c9b9d73a2ba500c29e808f870156e69cd8bc
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: solution.tex
+        verified_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+    printed_references:
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      q10:
+      - printed: Example 2
+        target: IB/quantum-mechanics/sheet-2/q02
+  2023-24:
+    archive: raw/sheets/IB/quantum-mechanics/2023-24/sheet-2.pdf
+    url: https://web.archive.org/web/20240718231521id_/http://www.damtp.cam.ac.uk/user/examples/B9b.pdf
+    sha256: 4f2669389b379b4fcd7de3ca4ca707af40b643d62b64d8ca51e538ad864aba08
+    page_count: 3
+    printed_term: Michaelmas Term 2023
+    lecturer: Prof. Frank Verstraete
+    contact: fv285@cam.ac.uk
+    copyright_year: 2023
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: 5613b7323631ae4c15778a2269c867e6a82724bd9a96839e8655e5801d979bdf
+      2: 5e3abc58c7e1a5e1876153adf3f4fd868ec0b5c1149e4ffd4b827b511d7835d5
+      3: 8c4829d89e5b4297d1cd040728ff13389baf900bff09d558ee91e1e2c2f170b4
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 50cf4f84325bc148b83f2d7c8f3414b2a218f9fec3933487ccca8691aea5c738
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: solution.tex
+        verified_solution_sha256: 87ac32cfc808aa6d029d1b331daa9d6089d5d8f07b0d03022802c4a12e927500
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+        image_review: Checked the integration interval, epsilon, two derivative limits
+          and the energy range at the end.
+        verified_solution: solution.tex
+        verified_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+        image_review: Checked strict inequalities in both the well and threshold and
+          the sign of the parity condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 3cf6b32cf6fad8201ad103de5d086d419db72468a2d69648ffee24c3dcf56852
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 78dd173a66a5e7404739e76f5b2e9cb4a8605672c69b358956b5303d882f9405
+        image_review: Checked both differential operators and their signs, the integration-by-parts
+          identity, the scaled energy and the iff condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 62ea45e28e44204e4949eef606ae5d165944a0535b1f33c92453310b25f19019
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 657f376eaf1fe649051583f069e8622ddc14d77ea221ca7260d97ef4737b076f
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: solution.tex
+        verified_solution_sha256: 616ff82b233b70466a1c7b205b9524419c6864aa3d5333b5c75f1cd4cefb1ce8
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: 413fa23c3653ac7cdd4140be36744c21e07015103b5dace8ce6c46f392753444
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 06f128348d8a810ab3278fae01d1a70359519716638418422fedd72e45673bd2
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: solution.tex
+        verified_solution_sha256: f9c1ea3b0dae7f7dd56651d5ac93c9b9d73a2ba500c29e808f870156e69cd8bc
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        - 3
+        text: question.tex
+        question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: solution.tex
+        verified_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+    printed_references:
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      q10:
+      - printed: Example 2
+        target: IB/quantum-mechanics/sheet-2/q02
+  2025-26:
+    archive: raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+    url: https://web.archive.org/web/20260519011841id_/https://www.damtp.cam.ac.uk/user/examples/B9b.pdf
+    sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+    page_count: 2
+    printed_term: Michaelmas Term 2025
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2025
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: f1f7e3697033a486aca5053db15a3fdc450ee51c199b1656d8200b65b9de9d80
+      2: 47c1fb00b34702a0f82e06944c2bd2bd12a25efc3b12886f0aed991a11fab62c
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 50cf4f84325bc148b83f2d7c8f3414b2a218f9fec3933487ccca8691aea5c738
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: solution.tex
+        verified_solution_sha256: 87ac32cfc808aa6d029d1b331daa9d6089d5d8f07b0d03022802c4a12e927500
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+        image_review: Checked the integration interval, epsilon, two derivative limits
+          and the energy range at the end.
+        verified_solution: solution.tex
+        verified_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+        image_review: Checked strict inequalities in both the well and threshold and
+          the sign of the parity condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 3cf6b32cf6fad8201ad103de5d086d419db72468a2d69648ffee24c3dcf56852
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 78dd173a66a5e7404739e76f5b2e9cb4a8605672c69b358956b5303d882f9405
+        image_review: Checked both differential operators and their signs, the integration-by-parts
+          identity, the scaled energy and the iff condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 62ea45e28e44204e4949eef606ae5d165944a0535b1f33c92453310b25f19019
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2025-26/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 657f376eaf1fe649051583f069e8622ddc14d77ea221ca7260d97ef4737b076f
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: solution.tex
+        verified_solution_sha256: 616ff82b233b70466a1c7b205b9524419c6864aa3d5333b5c75f1cd4cefb1ce8
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2025-26/question.tex
+        question_sha256: 413fa23c3653ac7cdd4140be36744c21e07015103b5dace8ce6c46f392753444
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 06f128348d8a810ab3278fae01d1a70359519716638418422fedd72e45673bd2
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: solution.tex
+        verified_solution_sha256: f9c1ea3b0dae7f7dd56651d5ac93c9b9d73a2ba500c29e808f870156e69cd8bc
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: solution.tex
+        verified_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+    printed_references:
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      q10:
+      - printed: Example 2
+        target: IB/quantum-mechanics/sheet-2/q02
+  2026-27:
+    archive: raw/sheets/IB/quantum-mechanics/2026-27/sheet-2.pdf
+    url: https://www.damtp.cam.ac.uk/user/examples/B9b.pdf
+    sha256: fca609db7e3a369e02101e7c99b903cb2ef59c059efec5db780c8e96378878f0
+    page_count: 2
+    printed_term: Michaelmas Term 2026
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2025
+    date_status: dated by printed term
+    render_scale: 2.3
+    page_png_sha256:
+      1: f737a0c532767d81a90558225b29db2982211b6b9a54843d483c6c271c8c358a
+      2: 47c1fb00b34702a0f82e06944c2bd2bd12a25efc3b12886f0aed991a11fab62c
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 50cf4f84325bc148b83f2d7c8f3414b2a218f9fec3933487ccca8691aea5c738
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: solution.tex
+        verified_solution_sha256: 87ac32cfc808aa6d029d1b331daa9d6089d5d8f07b0d03022802c4a12e927500
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+        image_review: Checked the integration interval, epsilon, two derivative limits
+          and the energy range at the end.
+        verified_solution: solution.tex
+        verified_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+        image_review: Checked strict inequalities in both the well and threshold and
+          the sign of the parity condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 3cf6b32cf6fad8201ad103de5d086d419db72468a2d69648ffee24c3dcf56852
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 78dd173a66a5e7404739e76f5b2e9cb4a8605672c69b358956b5303d882f9405
+        image_review: Checked both differential operators and their signs, the integration-by-parts
+          identity, the scaled energy and the iff condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 62ea45e28e44204e4949eef606ae5d165944a0535b1f33c92453310b25f19019
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2026-27/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 657f376eaf1fe649051583f069e8622ddc14d77ea221ca7260d97ef4737b076f
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: solution.tex
+        verified_solution_sha256: 616ff82b233b70466a1c7b205b9524419c6864aa3d5333b5c75f1cd4cefb1ce8
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2026-27/question.tex
+        question_sha256: 413fa23c3653ac7cdd4140be36744c21e07015103b5dace8ce6c46f392753444
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 06f128348d8a810ab3278fae01d1a70359519716638418422fedd72e45673bd2
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: solution.tex
+        verified_solution_sha256: f9c1ea3b0dae7f7dd56651d5ac93c9b9d73a2ba500c29e808f870156e69cd8bc
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: solution.tex
+        verified_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+    comparison: Live Faculty copy explicitly prints Michaelmas Term 2026 and copyright
+      2025. At scale 2.3 only the final year digit differs from the 2025-26 raster
+      (x=1227..1240, y=109..126); page 2 matches exactly.
+    printed_references:
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      q10:
+      - printed: Example 2
+        target: IB/quantum-mechanics/sheet-2/q02
+additional_originals:
+  unresolved-header-2003-copyright-2004:
+    archive: raw/sheets/IB/quantum-mechanics/unresolved-header-2003-copyright-2004/sheet-2.pdf
+    url: https://web.archive.org/web/20050129004232id_/http://www.damtp.cam.ac.uk:80/user/examples/B9b.pdf
+    sha256: 78def86898f82ca9dc86079353dd38f17f665afac528a80f3b43b0c6d5e9bad3
+    page_count: 2
+    printed_term: Michaelmas Term 2003
+    lecturer: Prof I T Drummond
+    contact: itd@damtp.cam.ac.uk
+    copyright_year: 2004
+    date_status: academic year unresolved; printed header and copyright conflict
+    render_scale: 2.3
+    page_png_sha256:
+      1: e49c82661389ceb008c4900f1f86a3fb1ec0b70e4c6af07e5d385c04c9712739
+      2: 5191df0a3bdb63c06eb247f9e4ac89076359186516b6b43d4b9cd9c627f108a1
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 3a2b4144d8fc8d2cc561bf7c10626e13924ffc197b25e7ec9a5fd336c9a818f5
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-3a2b4144d8fc/solution.tex
+        verified_solution_sha256: 61586b247befc8aba304cb7df2076e934c001748d3d95f95a7745e57c24a0d23
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: dc480140f82a5d864ca9b3cb4bdffe6062beac77b3e851a508e36142950b521e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: history/verified-2006-07-dc480140f82a/solution.tex
+        verified_solution_sha256: 869f96e936b13ea90a5f25be7f224ddd3a023d148d226df9a45aad1e8097059f
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx01
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 16c2182c902da15d14f161ca7ff49ea1e897605772b16445d48a3487f3fb6a2c
+        image_review: Checked sech-squared potential or the sheet-1 reference, the
+          tanh-minus-ik sign, reflection wording, pole and the starred paragraph where
+          present.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-16c2182c902d/solution.tex
+        verified_solution_sha256: 21d13cfa54f7f45e144d073420d3c7f6f658ae65b23bd6aaf8b7d1380924ea75
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/qx02
+        pages:
+        - 1
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 914e74967595abe5df97d1b030ca40033eba0d1379587fc61cc432c24caf2b66
+        image_review: Compared each subscript and parity claim, and the ordering and
+          conjugation of the final integral.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-914e74967595/solution.tex
+        verified_solution_sha256: 4e41dc6c642bccac1e7697d25853959dbe1435a9107dfcf9524630341d8d5823
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/qx03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: a879e8cef1b6e22b22075d7baf4f4123c96ae8dd37e073591865a4bb38f8dc3c
+        image_review: Checked the Hermitian condition, the reality question and the
+          i multiplying the ordered commutator.
+        verified_solution: solution.tex
+        verified_solution_sha256: 51d7b1c57010f18e22a3fae789e8dfb31555359cf50bb79fe2b6a794bed5f469
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ebe0a61b84a9f7b9e7d53c5da68d7712a705d90c6d5b63fa9d6022cee955be9d
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: solution.tex
+        verified_solution_sha256: c7a031292872a00caa6c1a3d7b7bc5e9d3727633a767325e53d9203b0dd69144
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        - 2
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 54d1f6be674579a2ab62f44184fc9b15a60275a041c62c7ce43ceae1cc7fb25b
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-54d1f6be6745/solution.tex
+        verified_solution_sha256: ea83f64ec1ac9ceaae23c628a0927e77670f3139c763f816665b1c32208370e9
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/qx04
+        pages:
+        - 2
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: bb2f5f691be971a661368ae2e69f6be9db2bf8c0d65d39747ebd081e862e2524
+        image_review: Compared S and the two states, both measurement runs, amplitude
+          expansion, limit, star and final interpreted quantum-kettle paragraph.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/solution.tex
+        verified_solution_sha256: e1ca54ee0e1aed687c961e8b25b508f6197c952d573b348e10ecc3f6cde9688a
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 2
+        text: variants/unresolved-header-2003-copyright-2004/question.tex
+        question_sha256: 77401fffad8595081e0f55720a9832da25d9f3dc82c46b5102ed3a17e53ee98c
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: history/verified-unresolved-header-2003-copyright-2004-77401fffad85/solution.tex
+        verified_solution_sha256: 9eb3a937c3ba5dfb39b79a92098b1eac9020a54b78d2c3d3f559f862f7a9a55a
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2ee0f0169a89007ddb2b8ab833a6f62a4cd82a941f024c74cc9fb028040615e0
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: solution.tex
+        verified_solution_sha256: 799155d540658cb3ed96282c4a26e350782f35f1c45b4f1f2a6df7a50108c97f
+    printed_references:
+      qx01:
+      - printed: Q.8, Ex.Sheet 1
+        target: IB/quantum-mechanics/sheet-1/qx04
+      q01:
+      - printed: Q.6
+        target: IB/quantum-mechanics/sheet-2/q07
+    comparison: The same ten exercise families and order as 2006-07. The symbols χ
+      and ψ differ in five exercises, two optional stars are absent, and original
+      Question 7 crosses the page boundary. No matching dated 2003 or 2004 original
+      establishes its teaching year.
+  unresolved-header-2024-copyright-2023:
+    archive: raw/sheets/IB/quantum-mechanics/unresolved-header-2024-copyright-2023/sheet-2.pdf
+    url: https://web.archive.org/web/20250528084110id_/http://www.damtp.cam.ac.uk/user/examples/B9b.pdf
+    sha256: 3cedd0c3db0e9ae86c1d65c2fab6d1e118af8c91ba2bf13e423363bc4401c001
+    page_count: 3
+    printed_term: Michaelmas Term 2024
+    lecturer: Prof. Frank Verstraete
+    contact: fv285@cam.ac.uk
+    copyright_year: 2023
+    date_status: academic year unresolved; printed header and copyright conflict
+    render_scale: 2.3
+    page_png_sha256:
+      1: 420d5266707052108547893547f81b702e88fd1b47194e6f3e1fa02fb3a74238
+      2: 5e3abc58c7e1a5e1876153adf3f4fd868ec0b5c1149e4ffd4b827b511d7835d5
+      3: 8c4829d89e5b4297d1cd040728ff13389baf900bff09d558ee91e1e2c2f170b4
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 50cf4f84325bc148b83f2d7c8f3414b2a218f9fec3933487ccca8691aea5c738
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: solution.tex
+        verified_solution_sha256: 87ac32cfc808aa6d029d1b331daa9d6089d5d8f07b0d03022802c4a12e927500
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+        image_review: Checked the integration interval, epsilon, two derivative limits
+          and the energy range at the end.
+        verified_solution: solution.tex
+        verified_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 13221089f4317f108a7ae129117fa0453f7920921694b0d5f03f8b5324618f3a
+        image_review: Checked strict inequalities in both the well and threshold and
+          the sign of the parity condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 3cf6b32cf6fad8201ad103de5d086d419db72468a2d69648ffee24c3dcf56852
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 78dd173a66a5e7404739e76f5b2e9cb4a8605672c69b358956b5303d882f9405
+        image_review: Checked both differential operators and their signs, the integration-by-parts
+          identity, the scaled energy and the iff condition.
+        verified_solution: solution.tex
+        verified_solution_sha256: 62ea45e28e44204e4949eef606ae5d165944a0535b1f33c92453310b25f19019
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: aedf1cf28850cf9c4b5f298ccd89f4e13ea40336344e6be12cb8de3d576a5e2f
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: a4849294a038529268bc90065b28f31f0ea48b11df18c59afe12b012f3058cfa
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 657f376eaf1fe649051583f069e8622ddc14d77ea221ca7260d97ef4737b076f
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: solution.tex
+        verified_solution_sha256: 616ff82b233b70466a1c7b205b9524419c6864aa3d5333b5c75f1cd4cefb1ce8
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: 413fa23c3653ac7cdd4140be36744c21e07015103b5dace8ce6c46f392753444
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 06f128348d8a810ab3278fae01d1a70359519716638418422fedd72e45673bd2
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 2b6cdcf493d615ef143545e64074dfd98ddcd21b09e520803fbcd8a293f30fc1
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: solution.tex
+        verified_solution_sha256: f9c1ea3b0dae7f7dd56651d5ac93c9b9d73a2ba500c29e808f870156e69cd8bc
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/q10
+        pages:
+        - 2
+        - 3
+        text: question.tex
+        question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+        image_review: Checked amplitudes versus coefficients, the two reference numbers,
+          jump sign and bound-state extraction by rescaling.
+        verified_solution: solution.tex
+        verified_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+    printed_references:
+      q07:
+      - printed: Example 1
+        target: IB/quantum-mechanics/sheet-2/q01
+      q10:
+      - printed: Example 2
+        target: IB/quantum-mechanics/sheet-2/q02
+    comparison: 'Compared every pixel with 2023-24 using PDFium scale 2.3: the only
+      difference is inside the last year digit on the first page (x=1134..1147, y=192..208).
+      Pages 2 and 3 are identical. No separate academic-year assignment.'
+  2015-16-mirror:
+    archive: raw/sheets/IB/quantum-mechanics/2015-16/sheets-1-3-mirror.pdf
+    url: https://dec41.user.srcf.net/notes/IB_M/quantum_mechanics_eg.pdf
+    sha256: 4f1c3659a50e9b7f704a6082683ddd3b21a95b342b5c652fe0de425817b1c252
+    page_count: 6
+    printed_term: Michaelmas Term 2015
+    lecturer: Dr. J.M. Evans
+    contact: J.M.Evans@damtp.cam.ac.uk
+    copyright_year: 2015
+    date_status: same sheet in a six-page collection
+    render_scale: 2.3
+    page_png_sha256:
+      3: e9d30aced4ca27fde67b39e2005eb8be1de2d72dd7e19a022b10477b7797c2ae
+      4: fdf47820a963a561c58291456a431e9128031a23bbcd28acb836f57fca5874c4
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-2/q01
+        pages:
+        - 3
+        text: variants/2015-16/question.tex
+        question_sha256: 9ebf71f6e61214c2be5bada1c1a9cad54186526df7b44aa21143d5406c8ea855
+        image_review: Compared open/closed endpoints, the energy and variance formulas,
+          normalisation spelling, stationary-state symbols and the classical limit.
+        verified_solution: history/verified-2015-16-9ebf71f6e612/solution.tex
+        verified_solution_sha256: e7e79f2ab3b6d97d5f083c7df7823d4d52b9b79addda00d0731052ece0b7dbdc
+      '2':
+        unit: IB/quantum-mechanics/sheet-2/q05
+        pages:
+        - 3
+        text: variants/2015-16/question.tex
+        question_sha256: 0e6c32c14e2aa07942f0df8a3824283879066f6c45a282ac8734facca77438a2
+        image_review: Checked the observable and state notation, the Hamiltonian request
+          or specified potential, and whether the bound applies to any state or an
+          eigenvalue.
+        verified_solution: history/verified-2015-16-0e6c32c14e2a/solution.tex
+        verified_solution_sha256: c4932d9f1bd2642683671efd08aee5354edb9f6a4ca84661a07b629a54a834be
+      '3':
+        unit: IB/quantum-mechanics/sheet-2/qx06
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 55f10a9dc380eb36c56b9996c5c5e3694ced870fda7e9872dd6aeb351570faa1
+        image_review: Checked the Wronskian order, one-dimensional bound-state hypothesis
+          and final question about a real wavefunction.
+        verified_solution: solution.tex
+        verified_solution_sha256: 28578eb90d42d419721ddde313cb52ebe6d498f8ebc2cddc2213efb233231c03
+      '4':
+        unit: IB/quantum-mechanics/sheet-2/q08
+        pages:
+        - 3
+        text: variants/2015-16/question.tex
+        question_sha256: f7e7a27f709d6756a196ef1ee7be0ae2c80400fd482c0b8820bd5b2910626f7a
+        image_review: Checked current name, potential and stationary-state symbols,
+          equality or asymptotic sign and the incoming/reflected/transmitted labels.
+        verified_solution: history/verified-2015-16-f7e7a27f709d/solution.tex
+        verified_solution_sha256: c29e438983107502249da91c9f2df722137abd1fe882a9b787007da9c9f42621
+      '5':
+        unit: IB/quantum-mechanics/sheet-2/q09
+        pages:
+        - 3
+        text: variants/2015-16/question.tex
+        question_sha256: f7a64d81da9ecc1985d5b957cf86bee06ef6e3381143ad7c9e5b895714bed56a
+        image_review: Checked barrier height, relation to E, kinetic energy and the
+          entire italic bracketed instruction.
+        verified_solution: history/verified-2015-16-f7a64d81da9e/solution.tex
+        verified_solution_sha256: d6860baa99ab7caf7cf3822aa3c1ef4e3625a0a9d5733e32c4a0f30cc0130cd0
+      '6':
+        unit: IB/quantum-mechanics/sheet-2/qx01
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 6491484e4092d612b8c675b9140b4ae7c1204d23b8276e4ba0c6122ece6f29e5
+        image_review: Checked sech-squared potential or the sheet-1 reference, the
+          tanh-minus-ik sign, reflection wording, pole and the starred paragraph where
+          present.
+        verified_solution: solution.tex
+        verified_solution_sha256: c4ce9b2f704b2a403e796bf21df8b9d855f4ac76f40c2c79790825b0722f6bf5
+      '7':
+        unit: IB/quantum-mechanics/sheet-2/q07
+        pages:
+        - 3
+        - 4
+        text: variants/2015-16/question.tex
+        question_sha256: 212d71c273e511fc7e581eceafcfcd5d516661b97bce8f9621a103391212a05e
+        image_review: Checked spectrum, constants, initial-state symbols, Fourier
+          hint or numbered reference, odd/even probabilities and part boundaries.
+        verified_solution: history/verified-2015-16-212d71c273e5/solution.tex
+        verified_solution_sha256: 46eda1c9f7902ecf63174157118e74f951bda65a2b0bddc5a2f3a75f1d699caf
+      '8':
+        unit: IB/quantum-mechanics/sheet-2/q06
+        pages:
+        - 4
+        text: variants/2015-16/question.tex
+        question_sha256: 231e39f206b031971c57fd99de6a138e53e3d1341d9db5199bcea0a8f8eaca8c
+        image_review: Checked degree, parity, conjugation-free orthogonality notation,
+          requested eigenfunctions and the precise time-period or reflection conclusion.
+        verified_solution: history/verified-2015-16-231e39f206b0/solution.tex
+        verified_solution_sha256: 9ad3121724e5bf5c309eb94ab53966aa2e3a6687c9cc61e2fc20750394aa5ede
+      '9':
+        unit: IB/quantum-mechanics/sheet-2/qx07
+        pages:
+        - 4
+        text: variants/2015-16/question.tex
+        question_sha256: bdf4534b8d0e770e6f40c35337941056e7a8e5a6c323a631a3020002b134f8c2
+        image_review: Checked the two swapped eigenfunctions, zero eigenspace, distinction
+          between operator/observable hats and the final positive energy-gap assumption.
+        verified_solution: history/verified-2015-16-bdf4534b8d0e/solution.tex
+        verified_solution_sha256: 31411f5f4c33dd6a6f8c172691bed8d27817bd1646075a41502f209d30204cb3
+      '10':
+        unit: IB/quantum-mechanics/sheet-2/qx08
+        pages:
+        - 4
+        text: question.tex
+        question_sha256: 3927b39ea06866df22a6d31ebd9f5eb1b3598c609610f96b80ada0eec49b0aab
+        image_review: Checked amplitude versus probability wording, denominator 2
+          hbar n, the measured event and the exact kettle/pot interpretation.
+        verified_solution: solution.tex
+        verified_solution_sha256: 48c944ae0acaf2e3bd7bf87cc7725940cb6647970923945465b63ef3715e1372
+      '11':
+        unit: IB/quantum-mechanics/sheet-2/qx05
+        pages:
+        - 4
+        text: question.tex
+        question_sha256: 271717d2056626a38dca4a615eb93de30447ede39ac8283460a2f486a1e7c2c3
+        image_review: Checked potential and kinetic notation and hats, each commutator,
+          state subscripts, and which energy expectations are required.
+        verified_solution: solution.tex
+        verified_solution_sha256: 652458787f577587e6c2b4997f5d8f3a69468ab871fbd06a2bdee5e863954823
+    printed_references:
+      q07:
+      - printed: a previous example
+        target: IB/quantum-mechanics/sheet-2/q01
+      qx08:
+      - printed: the previous example
+        target: IB/quantum-mechanics/sheet-2/qx07
+    comparison: Pages 3 and 4 match every pixel on the standalone 2015-16 pages 1
+      and 2 at PDFium scale 2.3. The other four pages belong to Sheets 1 and 3.
