@@ -1,0 +1,1248 @@
+scope: 2018 IB examination questions in the ten confirmed-taken subjects, including
+  shared exam headings. Sample of this year only.
+method:
+  seed: 20261218
+  strata:
+    IB/analysis-ii:
+    - IB/2018/P1/q11F
+    - IB/2018/P2/q12F
+    - IB/2018/P2/q3F
+    - IB/2018/P3/q12F
+    - IB/2018/P3/q2F
+    - IB/2018/P4/q12F
+    - IB/2018/P4/q3F
+    IB/complex-methods:
+    - IB/2018/P1/q13A
+    - IB/2018/P1/q2A
+    - IB/2018/P2/q13A
+    - IB/2018/P3/q4A
+    - IB/2018/P4/q14A
+    IB/electromagnetism:
+    - IB/2018/P1/q16C
+    - IB/2018/P2/q18C
+    - IB/2018/P2/q6C
+    - IB/2018/P3/q17C
+    - IB/2018/P4/q7C
+    IB/fluid-dynamics:
+    - IB/2018/P1/q17D
+    - IB/2018/P1/q5D
+    - IB/2018/P2/q7D
+    - IB/2018/P3/q18D
+    - IB/2018/P4/q18D
+    IB/linear-algebra:
+    - IB/2018/P1/q1E
+    - IB/2018/P1/q9E
+    - IB/2018/P2/q10E
+    - IB/2018/P2/q1E
+    - IB/2018/P3/q10E
+    - IB/2018/P4/q10E
+    - IB/2018/P4/q1E
+    IB/markov-chains:
+    - IB/2018/P1/q20H
+    - IB/2018/P2/q20H
+    - IB/2018/P3/q9H
+    - IB/2018/P4/q9H
+    IB/methods:
+    - IB/2018/P1/q14C
+    - IB/2018/P2/q16A
+    - IB/2018/P2/q5C
+    - IB/2018/P3/q15A
+    - IB/2018/P3/q7A
+    - IB/2018/P4/q17C
+    - IB/2018/P4/q5A
+    IB/numerical-analysis:
+    - IB/2018/P1/q18D
+    - IB/2018/P1/q6D
+    - IB/2018/P2/q19D
+    - IB/2018/P3/q19D
+    - IB/2018/P4/q8D
+    IB/quantum-mechanics:
+    - IB/2018/P1/q15B
+    - IB/2018/P2/q17B
+    - IB/2018/P3/q16B
+    - IB/2018/P3/q8B
+    - IB/2018/P4/q6B
+    IB/statistics:
+    - IB/2018/P1/q19H
+    - IB/2018/P1/q7H
+    - IB/2018/P2/q8H
+    - IB/2018/P3/q20H
+    - IB/2018/P4/q19H
+  selection:
+    IB/analysis-ii:
+    - IB/2018/P3/q12F
+    - IB/2018/P1/q11F
+    IB/complex-methods:
+    - IB/2018/P4/q14A
+    IB/electromagnetism:
+    - IB/2018/P2/q6C
+    IB/fluid-dynamics:
+    - IB/2018/P2/q7D
+    IB/linear-algebra:
+    - IB/2018/P1/q1E
+    - IB/2018/P2/q10E
+    IB/markov-chains:
+    - IB/2018/P4/q9H
+    IB/methods:
+    - IB/2018/P4/q17C
+    - IB/2018/P3/q15A
+    IB/numerical-analysis:
+    - IB/2018/P1/q6D
+    IB/quantum-mechanics:
+    - IB/2018/P3/q16B
+    IB/statistics:
+    - IB/2018/P3/q20H
+  sampling: Single seeded Python random.Random, sorted course strata and sorted IDs.
+    Draw ceil(20% of each stratum) without replacement.
+  auditor_inputs: Exact question fragments and their supplied printed figure, locator
+    files and indicated original PDF pages only. No repository solutions or audit
+    evidence consulted.
+  source_comparison: Inspected each source-page image against the fragment, including
+    prose, symbols, subparts, printed hint text and displayed matter. No per-subpart
+    numerical mark allocations printed in any sampled question. Equivalent LaTeX commands,
+    spacing and reflow are treated as typography.
+  source_rendering: For each given physical PDF page p, pdftoppm -r 130 -f p -l p
+    -png -singlefile archive output-prefix. SHA-256 of the full original PDF and of
+    each rendered PNG.
+  manifest_sha256: 1d41e4f0f11fe5442f4ee0f75987b080f4c0712ac4a973f21707559d74c404ec
+  manifest: 'ecbdc041ee1253cd4bb8fe5e8e140b4b92c5efab493fa409b158a55397150111  IB_2018_P1_q11F.md
+
+    3eb8b980294bc52f6363650009e403371f50ffa0cf9c0ddad082f5b085021471  IB_2018_P1_q1E.md
+
+    facb04153dc7a01015b87c3ef7bae6ce43c3921155a879275da526b2289cdb41  IB_2018_P1_q6D.md
+
+    9ed8e532045e2e387e7b50e6722b8a83404cac4d6d01801d6fe4627a18bf196d  IB_2018_P2_q10E.md
+
+    5532016ffaa962ec4cecb6b4b38c533e495eb56eca87899b017f704a3defeac6  IB_2018_P2_q6C.md
+
+    9e6fb8df131dcb83d6cec15714f1705ecccfce8b61a38cf96be73cf4f699d8f9  IB_2018_P2_q7D.md
+
+    d6e6827216e876088f0c43546c88da8d1fe263ecc29210936b92524625e1078a  IB_2018_P3_q12F.md
+
+    b10b7603f86016bc101b8eb68d5ebed423cd8d05b55ea9d3b6db6b5ac2750e79  IB_2018_P3_q15A.md
+
+    5c95298c90ed760e0c8863292b2c0aa9dd2bf3692c6f98a59b48fd1fb5b16ee9  IB_2018_P3_q16B.md
+
+    e818cd803aee334611433124f41eb84ebd5598e0c5dd7f7e07cada27a3b6ec9d  IB_2018_P3_q20H.md
+
+    01fa22791ba36403443473366fdf7ce1ed7112c7086bbc0eaf10a825773400d3  IB_2018_P4_q14A.md
+
+    46c7b4f7246e74825f24e8d51311ba1d2cb5b48baf30e9df7c3ca4dbf65077fe  IB_2018_P4_q17C.md
+
+    21d2cbd148ba788e66129b1103cfb256b1af968fc2c1d9f0374c78ae93660b87  IB_2018_P4_q9H.md
+
+    e998486f337fedd997c1112d5c8641cdfca5a2ebe24978b525f98fcd9011afad  source-review.json
+
+    '
+population_size: 55
+observed:
+  sample: 13
+  substantive_errors: 0
+  transcription_errors: 0
+  rate: 0/13
+  failed_checks: 0
+  pdf_pages: 18
+  browser_pages: 13
+  rendered_formulas: 541
+  parse_errors: 0
+  horizontal_overflows: 0
+units:
+  IB/2018/P1/q11F:
+    independent_rework: '# IB/2018/P1/q11F — independent rework
+
+
+      (a) Differentiability at a point a of U means the existence of a linear map
+      Df(a) such that f(a+h) = f(a) + Df(a)h + o(‖h‖) as h tends to zero. This condition
+      at every point is differentiability on U. For C¹ one also requires that a ↦
+      Df(a) be continuous in operator norm. The inequality ‖f(a+h)−f(a)‖ ≤ ‖Df(a)‖‖h‖
+      + o(‖h‖) gives continuity. The inverse function theorem says that for C¹ f on
+      open U, if Df(a) is invertible there are open neighbourhoods V ⊆ U of a and
+      W of f(a) such that f restricts to a bijection V → W with C¹ inverse, whose
+      derivative at f(b) is (Df(b))⁻¹ for every b ∈ V.
+
+
+      (b) For distinct a,b in U, let h=b−a. Convexity places the compact segment a+th
+      (0≤t≤1) in U. Continuity of Df gives m = max ‖Df(a+th)−I‖ < 1 there. Integrating
+      the derivative of f(a+th)−(a+th) yields ‖f(b)−f(a)−h‖ ≤ m‖h‖, hence ‖f(b)−f(a)‖
+      ≥ (1−m)‖h‖ > 0. Also Df(a)v=0 implies ‖v‖ ≤ ‖I−Df(a)‖‖v‖, so the kernel is zero
+      and the endomorphism is invertible. The open sets W from (a) cover f(U).
+
+
+      The identity on any proper open ball already gives a proper image. Even for
+      U = ℝⁿ, the map f(x)=(arctan x₁,x₂,…,xₙ) has ‖Df(x)−I‖=x₁²/(1+x₁²)<1, and its
+      image has first coordinate only in (−π/2,π/2).
+
+
+      (c) The matrix Df−I has rows (2x−1,−2y) and (2y,2x−1). Its transpose times itself
+      is ((2x−1)²+4y²)I. Thus the pointwise condition holds exactly on the open disc
+      (x−1/2)²+y²<1/4. Every boundary point has norm exactly 1, showing maximality.
+
+      '
+    independent_rework_sha256: ecbdc041ee1253cd4bb8fe5e8e140b4b92c5efab493fa409b158a55397150111
+    comparison: The auditor independently bounds the derivative along a compact segment,
+      obtains a proper open image, and identifies the same maximal open disk and its
+      excluded boundary.
+    original_page_review:
+      id: IB/2018/P1/q11F
+      paper: private/raw/tripos/IB/2018/P1.pdf
+      original_sha256: f3ccdf8fb6ee34812d6f84f15eac02d45860aad4714ff936d044513de8c40a6e
+      printed_question: 11F
+      pages:
+      - physical_page: 6
+        printed_page: 6
+        raster_sha256: 74f414a5e9ced04db6aa276419074f6f90db8777a8edb12c1ba0f203fb7bc6f6
+        raster_file: images/IB_2018_P1_q11F.png
+      question_sha256: f46021b7ef0ee126d421c553bb114eab030d5010153e60d79396cc00ccd48533
+      observed_discrepancies: []
+      visual_review: All of (a)–(c), quantifier on the pointwise operator-norm bound,
+        I, whole-space case, and displayed map checked.
+      figure_review: null
+      rework_file: IB_2018_P1_q11F.md
+    check:
+      exit: 0
+      stdout: Jacobian norm, strict disk boundary and arctangent example checked.
+      script_sha256: 5b85c80039e090973f4119a9b8c1923fa43874e3c89a9326889daeb431cc9c90
+      source_hashes:
+        question.tex: f46021b7ef0ee126d421c553bb114eab030d5010153e60d79396cc00ccd48533
+        solution.tex: 6bc424e7980446ff55101e898f259ed95c5336ea8196ad89c2f8b42cd17e641d
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P1.pdf
+      source_sha256: f3ccdf8fb6ee34812d6f84f15eac02d45860aad4714ff936d044513de8c40a6e
+      source_page: 6
+      compiled_pdf: build/IB-2018-P1/main.pdf
+      compiled_sha256: c7323ddc0079551ff9293307b27dce1658d94318964ebbae3987d8e5f69f96cf
+      compiled_pages:
+      - 11
+      - 12
+      html: site/private/questions/IB/2018/P1/q11F/index.html
+      html_sha256: 03939a1d07894adbd1abad6da0b2f6d5c78fc7ce3ab84a3c0470706d71ed0358
+      math_nodes: 76
+      diagrams: {}
+      question_sha256: f46021b7ef0ee126d421c553bb114eab030d5010153e60d79396cc00ccd48533
+      solution_sha256: 6bc424e7980446ff55101e898f259ed95c5336ea8196ad89c2f8b42cd17e641d
+      check_sha256: 5b85c80039e090973f4119a9b8c1923fa43874e3c89a9326889daeb431cc9c90
+      check_exit: 0
+      check_stdout: Jacobian norm, strict disk boundary and arctangent example checked.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P1/q11F · Cambridge Maths
+        math: 76
+        rendered: 76
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P1_q11F-build-11.png: 8f7146cc91103ce24551bbea1bdf35ca8f167f980adc44fbd94162959ff92a45
+        IB_2018_P1_q11F-build-12.png: 3e9a4a6387725f33a0113040da994c50fd665a63f4dff1352f1fc85cf51753e7
+        IB_2018_P1_q11F-html.png: 4d828459a87cea41b819aa54df517220273ef4d46e45f23599b3855dbbbf6f89
+        IB_2018_P1_q11F-orig.png: 646f5373e3aaccca6bb2df91f350104a08b78359c5884df636758767a2fc66b8
+  IB/2018/P1/q1E:
+    independent_rework: "# IB/2018/P1/q1E — independent rework\n\nIf T is linear with\
+      \ finite-dimensional domain E, then dim E = dim ker T + dim im T. Indeed, extend\
+      \ a basis of ker T to a basis of E. The images of the new basis vectors form\
+      \ a basis of im T.\n\nPut A = im α and K = ker β, subspaces of the finite-dimensional\
+      \ space W. The restriction of β to A has image im(βα) and kernel A ∩ K. Applying\
+      \ rank–nullity to this restriction gives the first identity. Likewise, for C\
+      \ = im(αγ) ⊆ A, the restriction of β to C has image im(βαγ) and kernel C ∩ K.\
+      \ Since C ∩ K ⊆ A ∩ K,\n  \n  dim C − dim im(βαγ) = dim(C ∩ K) ≤ dim(A ∩ K)\
+      \ = dim A − dim im(βα).\n\nTransposing terms gives exactly the claimed inequality.\
+      \ All dimensions used in the subtraction are finite even if U, V or X is infinite-dimensional.\n"
+    independent_rework_sha256: 3eb8b980294bc52f6363650009e403371f50ffa0cf9c0ddad082f5b085021471
+    comparison: The restrictions of beta have nested kernels given by intersection
+      with its original kernel; all dimensions used are finite. The rank identity
+      and inequality agree.
+    original_page_review:
+      id: IB/2018/P1/q1E
+      paper: private/raw/tripos/IB/2018/P1.pdf
+      original_sha256: f3ccdf8fb6ee34812d6f84f15eac02d45860aad4714ff936d044513de8c40a6e
+      printed_question: 1E
+      pages:
+      - physical_page: 2
+        printed_page: 2
+        raster_sha256: 46472961ec9fc6663a2f976d31fea26a0d2dda76a9e9ff01572f4a602f50f323
+        raster_file: images/IB_2018_P1_q1E.png
+      question_sha256: 1299aa470bac52a0f06e4cb5d14a3b224cc8c45c4ca92652dc4956737cab72a4
+      observed_discrepancies: []
+      visual_review: Both displayed dimension formulas, composition orders, intersection,
+        and finite-dimensional W checked.
+      figure_review: null
+      rework_file: IB_2018_P1_q1E.md
+    check:
+      exit: 0
+      stdout: Exact ranks, image intersections and strict/equality examples checked.
+      script_sha256: c6c97935a8353ca80e2a40af5539f50f11384bc2bc11fd30f824bbcc830a20c1
+      source_hashes:
+        question.tex: 1299aa470bac52a0f06e4cb5d14a3b224cc8c45c4ca92652dc4956737cab72a4
+        solution.tex: a5c121f5267a67749324f73c4fa56cdad800b42c483b308df3d40ccd69602610
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P1.pdf
+      source_sha256: f3ccdf8fb6ee34812d6f84f15eac02d45860aad4714ff936d044513de8c40a6e
+      source_page: 2
+      compiled_pdf: build/IB-2018-P1/main.pdf
+      compiled_sha256: c7323ddc0079551ff9293307b27dce1658d94318964ebbae3987d8e5f69f96cf
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2018/P1/q1E/index.html
+      html_sha256: c5340eb33b0f7ee78f4b3e70a2caa796eecba4003bcc1cee6a5d573bb4f776d2
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: 1299aa470bac52a0f06e4cb5d14a3b224cc8c45c4ca92652dc4956737cab72a4
+      solution_sha256: a5c121f5267a67749324f73c4fa56cdad800b42c483b308df3d40ccd69602610
+      check_sha256: c6c97935a8353ca80e2a40af5539f50f11384bc2bc11fd30f824bbcc830a20c1
+      check_exit: 0
+      check_stdout: Exact ranks, image intersections and strict/equality examples
+        checked.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P1/q1E · Cambridge Maths
+        math: 20
+        rendered: 20
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P1_q1E-build-1.png: 80e8bfca7dc620d111df0fccda5843c6622ef7d080f6a8c8e5d71209fe8a409e
+        IB_2018_P1_q1E-html.png: 14d68f7c29c1c08783a009d1bed35b88e6e3bbb35f94b24b267551ebc1cbaa04
+        IB_2018_P1_q1E-orig.png: 11799ad939bf14cc907048e8800ae06a00889b3da4d6567603cf5871b684e62b
+  IB/2018/P1/q6D:
+    independent_rework: "# IB/2018/P1/q6D — independent rework\n\nUse exact increment\
+      \ minus trapezoidal increment for the sign of the local defect. Substitution\
+      \ of the exact y with y′=f into the method and Taylor expansion at t gives\n\
+      \n  R = y(t+h)−y(t)−h(y′(t)+y′(t+h))/2 = −h³ y‴(t)/12 + O(h⁴).\n\nIt suffices\
+      \ that the derivatives used be bounded on the interval. For a finite time interval\
+      \ and f uniformly Lipschitz in y with constant L on a tube around the solution,\
+      \ the stepwise error e_n satisfies, for small h,\n\n  (1−hL/2)|e_{n+1}| ≤ (1+hL/2)|e_n|\
+      \ + C h³.\n\nThe local implicit update exists uniquely near the true trajectory\
+      \ by contraction for hL/2<1. For exact initial data, iteration over at most\
+      \ T/h uniform steps bounds |e_n| by C' h², since ((1+hL/2)/(1−hL/2))^{T/h} stays\
+      \ bounded. For variable steps the same argument uses H=max h_n, Σh_n³≤T H² and\
+      \ a product bounded by exp(CLT).\n\nFor sharpness take f(t,y)=t² and y(0)=0.\
+      \ The stepwise integral is t²h+th²+h³/3, and the trapezoidal increment is t²h+th²+h³/2.\
+      \ Thus the local defect is exactly −h³/6 at every step. The computed value on\
+      \ a uniform mesh exceeds the exact one at T by Th²/6, so the general order is\
+      \ precisely k=2. The opposite local-error convention reverses A's sign.\n"
+    independent_rework_sha256: facb04153dc7a01015b87c3ef7bae6ce43c3921155a879275da526b2289cdb41
+    comparison: For exact increment minus numerical increment the leading term is
+      −h³ y‴/12. The sharpness examples use y′=t² and y′=3t² respectively, giving
+      proportional cubic defects and the same global order two.
+    original_page_review:
+      id: IB/2018/P1/q6D
+      paper: private/raw/tripos/IB/2018/P1.pdf
+      original_sha256: f3ccdf8fb6ee34812d6f84f15eac02d45860aad4714ff936d044513de8c40a6e
+      printed_question: 6D
+      pages:
+      - physical_page: 4
+        printed_page: 4
+        raster_sha256: d2d9c0e6fe28bfeabf7a1050f06d0ae89e9079dedbbf19e1374e2299465a6f67
+        raster_file: images/IB_2018_P1_q6D.png
+      question_sha256: 25ef73d7efdad45f158c5efe439db8f4dfb20c9cbf273c6dd712a8df54847360
+      observed_discrepancies: []
+      visual_review: ODE, initial value, time interval, both time levels, 1/2 factor,
+        step definition, and Ah^(k+1) checked.
+      figure_review: null
+      rework_file: IB_2018_P1_q6D.md
+    check:
+      exit: 0
+      stdout: Exact cubic defects and their global accumulation have orders three
+        and two.
+      script_sha256: eb30a61670459bdb609cf1c2938f489ed9acc399bc16ce6eafc8952d0dd1d644
+      source_hashes:
+        question.tex: 25ef73d7efdad45f158c5efe439db8f4dfb20c9cbf273c6dd712a8df54847360
+        solution.tex: 277ef2154fbee0feb60b8d473e9dd946e97186c6c0ba69875d14102169d5a280
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P1.pdf
+      source_sha256: f3ccdf8fb6ee34812d6f84f15eac02d45860aad4714ff936d044513de8c40a6e
+      source_page: 4
+      compiled_pdf: build/IB-2018-P1/main.pdf
+      compiled_sha256: c7323ddc0079551ff9293307b27dce1658d94318964ebbae3987d8e5f69f96cf
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2018/P1/q6D/index.html
+      html_sha256: 08de0067214e9a33c30a5b24ca70848bda74938b84437ed7b00c7d2ea17a99e9
+      math_nodes: 35
+      diagrams: {}
+      question_sha256: 25ef73d7efdad45f158c5efe439db8f4dfb20c9cbf273c6dd712a8df54847360
+      solution_sha256: 277ef2154fbee0feb60b8d473e9dd946e97186c6c0ba69875d14102169d5a280
+      check_sha256: eb30a61670459bdb609cf1c2938f489ed9acc399bc16ce6eafc8952d0dd1d644
+      check_exit: 0
+      check_stdout: Exact cubic defects and their global accumulation have orders
+        three and two.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P1/q6D · Cambridge Maths
+        math: 35
+        rendered: 35
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P1_q6D-build-6.png: 8a1edded2f7165d3efe2ec2d0c315184824b6ee2b0c939464accae422b65544e
+        IB_2018_P1_q6D-html.png: 275e9f5aa35be156705115ca66c2e47eef479543a0ed294243ef04548c332f93
+        IB_2018_P1_q6D-orig.png: da08e722eed8bc175cdcbfb16ff9e11677b5d0bd05a7da16b12e15cb609a6d61
+  IB/2018/P2/q10E:
+    independent_rework: '# IB/2018/P2/q10E — independent rework
+
+
+      View X as a map from F^m to F^n. Let r be its rank. Choose a basis w₁,…,wᵣ of
+      its image, elements vᵢ mapping to wᵢ, and finish the v-list with a basis of
+      ker X. This gives a domain basis, since a linear relation maps to one among
+      independent wᵢ and every image is in their span. Extend the w-list to a codomain
+      basis. With basis matrices P and Q made of the respective columns, Q⁻¹XP has
+      an identity in its first r rows and columns and zeros elsewhere. The dimensional
+      limits follow from rank–nullity. This includes r=0 and full rank.
+
+
+      In the Leibniz sum for the block matrix, a nonzero term must assign each bottom
+      row to a right-block column. They are equal in number, so every top row must
+      be assigned to a left-block column. Such a block-preserving permutation has
+      sign equal to the product of its two signs. Summing gives det B det C.
+
+
+      If AX=XB, then X intertwines B and A. For X≠0 its image W is nonzero and A-invariant.
+      Its kernel K is B-invariant, and X induces a linear isomorphism F^m/K → W conjugating
+      the induced action of B to A restricted to W. Over ℂ the common positive-dimensional
+      endomorphism has an eigenvalue λ. In a basis starting with a basis of W, A is
+      upper block triangular with A|W a diagonal block. Similarly a basis starting
+      with a basis of K gives the induced quotient map as a diagonal block of B. Apply
+      the block determinant identity to λI−A and λI−B to see both determinants vanish.
+      This contradicts disjoint spectra. Thus the kernel of L is zero and L is injective.
+
+      '
+    independent_rework_sha256: 9ed8e532045e2e387e7b50e6722b8a83404cac4d6d01801d6fe4627a18bf196d
+    comparison: The independently constructed quotient map intertwines two endomorphisms.
+      It therefore yields the very common characteristic factor that the canonical
+      proof obtains by simultaneous rank normal form.
+    original_page_review:
+      id: IB/2018/P2/q10E
+      paper: private/raw/tripos/IB/2018/P2.pdf
+      original_sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+      printed_question: 10E
+      pages:
+      - physical_page: 5
+        printed_page: 5
+        raster_sha256: 6a0ff7fd4cdd47af387afcf0be6945ecf7ec13ab03c1631217eb4712457e36a4
+        raster_file: images/IB_2018_P2_q10E.png
+      question_sha256: 71f71947676850eb9596f3cb7140d1ef649626400849cdf422f010047c9b2857
+      observed_discrepancies: []
+      visual_review: Rectangular sizes, field, inverse basis matrix, both block forms,
+        range of r, and complex intertwiner checked.
+      figure_review: null
+      rework_file: IB_2018_P2_q10E.md
+    check:
+      exit: 0
+      stdout: Basis reduction, block determinant and Sylvester rank checked exactly.
+      script_sha256: 3aa7f6226abdce65b15350cf4565f5e4d22b4fe84e559d16c88f3659efe3b587
+      source_hashes:
+        question.tex: 71f71947676850eb9596f3cb7140d1ef649626400849cdf422f010047c9b2857
+        solution.tex: 131efe3f5b9690def9f89f94b62d9b1ad1548c646f31be51cff4a7e71575647a
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P2.pdf
+      source_sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+      source_page: 5
+      compiled_pdf: build/IB-2018-P2/main.pdf
+      compiled_sha256: 8bf99a4598ba758386cff639c8754cdcee560aa4902da894bb69fb97019496f5
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2018/P2/q10E/index.html
+      html_sha256: d1196216b8f1150fdc814ad44838951b6e0b5c81db5141edf43d1faf528e515f
+      math_nodes: 53
+      diagrams: {}
+      question_sha256: 71f71947676850eb9596f3cb7140d1ef649626400849cdf422f010047c9b2857
+      solution_sha256: 131efe3f5b9690def9f89f94b62d9b1ad1548c646f31be51cff4a7e71575647a
+      check_sha256: 3aa7f6226abdce65b15350cf4565f5e4d22b4fe84e559d16c88f3659efe3b587
+      check_exit: 0
+      check_stdout: Basis reduction, block determinant and Sylvester rank checked
+        exactly.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P2/q10E · Cambridge Maths
+        math: 53
+        rendered: 53
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P2_q10E-build-10.png: 24947bdf0a3a6379bec5d9d31c5e194ca36820b702b4db3837a7072b1833d963
+        IB_2018_P2_q10E-html.png: e260b32edf3e060f54f535ddd00717dc1fc7f9d200fc48f4c0c278a38fcd7d20
+        IB_2018_P2_q10E-orig.png: 94ad6bd1f1c02df2fbda6195743b585d395559d6b8641d768acfed321662d8d7
+  IB/2018/P2/q6C:
+    independent_rework: "# IB/2018/P2/q6C — independent rework\n\nFor the magnetostatic\
+      \ field of an isolated steady current in free space, Maxwell's equations reduce\
+      \ to div B=0 and curl B=μ₀j. Choose a vector potential B=curl A with div A=0.\
+      \ The curl of curl identity then gives −ΔA=μ₀j. The decaying free-space solution\
+      \ follows componentwise from −Δ_r (1/(4π|r−r′|))=δ(r−r′):\n\n  A(r) = (μ₀/4π)\
+      \ ∫_V j(r′)/|r−r′| d³r′.\n\nTaking curl with respect to r differentiates only\
+      \ the kernel. Its gradient is −(r−r′)/|r−r′|³. Taking its cross product with\
+      \ j(r′) reverses both the order and the sign, yielding\n\n  B(r) = (μ₀/4π) ∫_V\
+      \ j(r′) × (r−r′)/|r−r′|³ d³r′.\n\nThe kernel's gradient singularity is locally\
+      \ integrable in three dimensions for a bounded current density. The free-space\
+      \ condition selects the field generated by the current. A separately imposed\
+      \ uniform magnetic field can otherwise be added, and time-dependent vacuum waves\
+      \ would also require additional initial or boundary data.\n"
+    independent_rework_sha256: 5532016ffaa962ec4cecb6b4b38c533e495eb56eca87899b017f704a3defeac6
+    comparison: Both impose the free-space magnetostatic field condition and obtain
+      Biot–Savart with the same kernel sign and order after differentiating the scalar
+      Green kernel.
+    original_page_review:
+      id: IB/2018/P2/q6C
+      paper: private/raw/tripos/IB/2018/P2.pdf
+      original_sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+      printed_question: 6C
+      pages:
+      - physical_page: 3
+        printed_page: 3
+        raster_sha256: 6d9babbf11c06c23ec062dbdf1be279e43ee4ac60a639b4eedfde7088a3d73c8
+        raster_file: images/IB_2018_P2_q6C.png
+      question_sha256: de70921336fde9c655ca8c821f4b26da6448c42bc9c996d4684a1eec264f1c51
+      observed_discrepancies: []
+      visual_review: Integration domain and measure, prefactor, primed arguments,
+        ordered cross product, cubed denominator, and gauge allowance checked.
+      figure_review: null
+      rework_file: IB_2018_P2_q6C.md
+    check:
+      exit: 0
+      stdout: Axial Biot-Savart field and independent finite-difference curl agree.
+      script_sha256: 6908ee57f32bff551f4320cd5b40a9545e2fba40f42e58699ec0cf9397cc8f56
+      source_hashes:
+        question.tex: de70921336fde9c655ca8c821f4b26da6448c42bc9c996d4684a1eec264f1c51
+        solution.tex: 7cba24ea72d9939e3bf01230da1e03924392b12a3aa2c3542cf90fd538cefc1d
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P2.pdf
+      source_sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+      source_page: 3
+      compiled_pdf: build/IB-2018-P2/main.pdf
+      compiled_sha256: 8bf99a4598ba758386cff639c8754cdcee560aa4902da894bb69fb97019496f5
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2018/P2/q6C/index.html
+      html_sha256: 2f4f6ed8da5261de605d2c1e1ed422922af55d95428121655535023b2626ce37
+      math_nodes: 15
+      diagrams: {}
+      question_sha256: de70921336fde9c655ca8c821f4b26da6448c42bc9c996d4684a1eec264f1c51
+      solution_sha256: 7cba24ea72d9939e3bf01230da1e03924392b12a3aa2c3542cf90fd538cefc1d
+      check_sha256: 6908ee57f32bff551f4320cd5b40a9545e2fba40f42e58699ec0cf9397cc8f56
+      check_exit: 0
+      check_stdout: Axial Biot-Savart field and independent finite-difference curl
+        agree.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P2/q6C · Cambridge Maths
+        math: 15
+        rendered: 15
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P2_q6C-build-6.png: e416bbcf690d9e2d7a60afa7bbf65b831c1668a6e067dbda992bd91e02ad26a7
+        IB_2018_P2_q6C-html.png: 2d63e354e8d970bef1addb8ec1bfd891831106e7b4d858f6180d6c46a5cc4dff
+        IB_2018_P2_q6C-orig.png: 16a1c379c2f3c129780b2a780d765279139e4b03e1f9d38e249c70e722ff2fa5
+  IB/2018/P2/q7D:
+    independent_rework: "# IB/2018/P2/q7D — independent rework\n\nWrite g>0 for the\
+      \ magnitude of the downward acceleration. In the homogeneous layer of depth\
+      \ h measured from z=0, the vertical equation reads p_z=−ρg. From p(h)=p₀ obtain\
+      \ p=p₀+ρg(h−z). The horizontal equations are fv=g h_x and fu=−g h_y. Thus u_h=(g/f)(−h_y,h_x),\
+      \ which is independent of z and has zero dot product with ∇h. A regular height\
+      \ contour consequently follows the horizontal velocity, with critical points\
+      \ corresponding to stagnation.\n\nConnect the two specified locations by any\
+      \ oriented horizontal curve parametrised by arclength s, and select its left\
+      \ normal (−y′,x′). The depth-integrated flux through this vertical curtain is\n\
+      \n  Q = ∫h u_h·(−y′,x′) ds = (g/f)∫ h dh\n    = (g/(2f))[(h₀+Δh)²−h₀²].\n\n\
+      Thus the leading signed volume flux is g h₀ Δh/f; the opposite orientation reverses\
+      \ it. Its magnitude is |g h₀ Δh/f| to this order. Dimensions are [g]=L T⁻²,\
+      \ [h₀]=[Δh]=L, [f]=T⁻¹ and [Q]=L³ T⁻¹. This calculation uses nonzero constant\
+      \ f and a homogeneous fluid, the usual interpretation of this layer model.\n"
+    independent_rework_sha256: 9e6fb8df131dcb83d6cec15714f1705ecccfce8b61a38cf96be73cf4f699d8f9
+    comparison: The oriented flux agrees, including the leading term, quadratic correction,
+      reversal of normal and volume-per-time dimension.
+    original_page_review:
+      id: IB/2018/P2/q7D
+      paper: private/raw/tripos/IB/2018/P2.pdf
+      original_sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+      printed_question: 7D
+      pages:
+      - physical_page: 4
+        printed_page: 4
+        raster_sha256: ae0b92954d9cf6b5977f9ed09d7302b29508da6b81e598c185109b64c3aa887e
+        raster_file: images/IB_2018_P2_q7D.png
+      question_sha256: b3f926437c5bf8896068e0bd0f6ce295152f84a36f67b459b1f7a17aec1ed1e7
+      observed_discrepancies: []
+      visual_review: Vector balance, coordinate and velocity components, surface pressure,
+        height increments, and dimensions request checked.
+      figure_review: null
+      rework_file: IB_2018_P2_q7D.md
+    check:
+      exit: 0
+      stdout: 'PASS: velocity tangent to height contours and section-independent transport'
+      script_sha256: 14557f3f08db37452abbb7c510dee76ce40df2b9c21596835a7440267b24e2cd
+      source_hashes:
+        question.tex: b3f926437c5bf8896068e0bd0f6ce295152f84a36f67b459b1f7a17aec1ed1e7
+        solution.tex: 7a9d024405313f971a497b69494d8d68efe6379aa14516c65a5a5d6098b06c72
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P2.pdf
+      source_sha256: db47d61253cd12b512df5bf0bf44b4965aaa30664787f354fc17bb4380ca2b54
+      source_page: 4
+      compiled_pdf: build/IB-2018-P2/main.pdf
+      compiled_sha256: 8bf99a4598ba758386cff639c8754cdcee560aa4902da894bb69fb97019496f5
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2018/P2/q7D/index.html
+      html_sha256: 4aa1cbce6bfa97cbae0da47c69e99936743e0ffa9ecccfb3e4332845bdabda0e
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: b3f926437c5bf8896068e0bd0f6ce295152f84a36f67b459b1f7a17aec1ed1e7
+      solution_sha256: 7a9d024405313f971a497b69494d8d68efe6379aa14516c65a5a5d6098b06c72
+      check_sha256: 14557f3f08db37452abbb7c510dee76ce40df2b9c21596835a7440267b24e2cd
+      check_exit: 0
+      check_stdout: 'PASS: velocity tangent to height contours and section-independent
+        transport'
+      check_stderr: ''
+      browser:
+        title: IB/2018/P2/q7D · Cambridge Maths
+        math: 31
+        rendered: 31
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P2_q7D-build-7.png: 801c1b1530860ad58ae55196f31ff9e0f78f5227e787d2933bc77aa9c4a8afe0
+        IB_2018_P2_q7D-html.png: 48f78fe19d9096b397889e6f305ea749980d354845f1024e759bca89421ffe9a
+        IB_2018_P2_q7D-orig.png: c0b73c2ebaf467aa7394fc3072a4af928ab03cd64d4736350537a755915c8523
+  IB/2018/P3/q12F:
+    independent_rework: '# IB/2018/P3/q12F — independent rework
+
+
+      (a) Uniform convergence means that for each ε>0 there is N such that for every
+      n≥N and every x∈A we have |f_n(x)−f(x)|<ε. Uniform continuity means that for
+      every ε>0 there is δ>0 such that any x,y∈A at distance <δ have |f(x)−f(y)|<ε.
+
+
+      (b)(i) True. Choose δ from uniform continuity and N with 1/N<δ. For every n≥N
+      the two arguments are distance 1/n<δ, independently of x.
+
+
+      (ii) False. The identity f(x)=x is uniformly continuous on ℝ. For x=n, the absolute
+      difference between (x+1/n)² and x² is 2+1/n² for all n.
+
+
+      (c) Define C_n={x∈A : g_n(x)≥δ}. Each C_n is nonempty by hypothesis and closed
+      by continuity. The C_n are nested. Because A is closed and bounded in finite-dimensional
+      Euclidean space it is compact. Nested nonempty closed subsets therefore have
+      nonempty intersection (otherwise their complements would admit a finite subcover).
+      Any point x₀ in the intersection satisfies g_n(x₀)≥δ for all n. This decreasing,
+      lower-bounded, real sequence has a limit at least δ.
+
+
+      For the deduction set g_n=f_n−f. These functions are continuous, decrease pointwise
+      to zero and are nonnegative. If convergence were not uniform, there would be
+      ε>0 and points x with g_n(x)≥ε for arbitrarily large n. For any fixed m choose
+      such n≥m, giving g_m(x)≥ε. Applying the first assertion with δ=ε now gives a
+      point with limiting difference at least ε, contradicting pointwise convergence.
+      If A is empty, uniform convergence is vacuous.
+
+      '
+    independent_rework_sha256: d6e6827216e876088f0c43546c88da8d1fe263ecc29210936b92524625e1078a
+    comparison: Both identify the translated-square counterexample and use nonempty
+      nested superlevel sets on a compact space to deduce uniform convergence.
+    original_page_review:
+      id: IB/2018/P3/q12F
+      paper: private/raw/tripos/IB/2018/P3.pdf
+      original_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      printed_question: 12F
+      pages:
+      - physical_page: 6
+        printed_page: 6
+        raster_sha256: 1973055405cedd63e5ee39e40543f04a32723582cbe1489d4933096328707850
+        raster_file: images/IB_2018_P3_q12F.png
+      question_sha256: a16ce15057f685eec22b4ef423c7c298a52298830482e4eaae2b7ff98394c084
+      observed_discrepancies: []
+      visual_review: Definitions, both translated functions, squared limit notation,
+        quantified decreasing sequences, and compact-set deduction checked.
+      figure_review: null
+      rework_file: IB_2018_P3_q12F.md
+    check:
+      exit: 0
+      stdout: Translation witness and finite compact superlevel-set model checked.
+      script_sha256: 4f37013520cb0c5698fc4c7277c961549a6b8cfce7ad2074e276d35eb7d355af
+      source_hashes:
+        question.tex: a16ce15057f685eec22b4ef423c7c298a52298830482e4eaae2b7ff98394c084
+        solution.tex: 9e988692cbd3997272efeda932d0992c778344c3c792e98c34890b1c9fbb8bd5
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P3.pdf
+      source_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      source_page: 6
+      compiled_pdf: build/IB-2018-P3/main.pdf
+      compiled_sha256: e7481f444575338e75ed1cb96210b8c3e3708e890fed38207e6cda06b6e41e83
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2018/P3/q12F/index.html
+      html_sha256: 6ef6f43f94be098d2bf4b123945d5c55166f3f045a79fdd527998477548b2739
+      math_nodes: 82
+      diagrams: {}
+      question_sha256: a16ce15057f685eec22b4ef423c7c298a52298830482e4eaae2b7ff98394c084
+      solution_sha256: 9e988692cbd3997272efeda932d0992c778344c3c792e98c34890b1c9fbb8bd5
+      check_sha256: 4f37013520cb0c5698fc4c7277c961549a6b8cfce7ad2074e276d35eb7d355af
+      check_exit: 0
+      check_stdout: Translation witness and finite compact superlevel-set model checked.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P3/q12F · Cambridge Maths
+        math: 82
+        rendered: 82
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P3_q12F-build-12.png: 38f21c3703bc8fc4753456393a2322704662903b54ca1031830288e261c1e54a
+        IB_2018_P3_q12F-html.png: 14ff5b33bef742362e499f5f314f9c41775c9743fa269a2e4fc94ac4ba632f6f
+        IB_2018_P3_q12F-orig.png: c1a3ad61323a23d8f06873bbf920c481183bfb0da7f6e99b31df95c1241afc07
+  IB/2018/P3/q15A:
+    independent_rework: '# IB/2018/P3/q15A — independent rework
+
+
+      Use distributions on smooth, compactly supported test functions φ. In (a), changing
+      variables y=αx, including reversal of the limits for α<0, pairs δ(αx) with φ
+      to give |α|⁻¹φ(0). Thus δ(αx)=δ(x)/|α|.
+
+
+      (b) By distributional differentiation, ⟨xδ′,φ⟩=−(xφ(x))′|₀=−φ(0). Hence xδ′=−δ.
+      (c) Iterating differentiation gives ⟨δ⁽ᵐ⁾,f⟩=(−1)ᵐ f⁽ᵐ⁾(0).
+
+
+      (d) With y=nx the pairing becomes ∫φ(y/n)/[π(1+y²)]dy. It converges to φ(0)
+      by dominated convergence and the antiderivative of (1+y²)⁻¹. The convergence
+      is distributional.
+
+
+      (e)(i) Let H_n(x)=n exp(−n²x²). With y=nx and by dominated convergence, H_n
+      → √π δ. Its derivative is −2n³x exp(−n²x²). Pairing with −φ′ gives convergence
+      of derivatives, hence the requested limit is −(√π/2)δ′.
+
+
+      (ii) After integrating in k the function is sin(nx)/(πx), continued at zero.
+      To justify its distributional limit, fix any d>0. Subtract φ(0) times the indicator
+      of [−d,d] from φ(x) in the sine integral. The difference divided by x is integrable:
+      it is bounded near zero by differentiability and compactly supported. The Riemann–Lebesgue
+      lemma makes this difference tend to zero. The remaining integral is (φ(0)/π)∫_{−nd}^{nd}
+      sin y/y dy → φ(0) by the given identity. Thus the limit is δ.
+
+
+      (f) The odd imaginary part integrates to zero on [−n,n] and the even real part
+      is twice the integral in (e)(ii). Including the factor 1/(2π) gives δ once again.
+
+      '
+    independent_rework_sha256: b10b7603f86016bc101b8eb68d5ebed423cd8d05b55ea9d3b6db6b5ac2750e79
+    comparison: The unit delta normalisations, the derivative sign and coefficient
+      −√π/2, and the treatment of the conditional sinc integral coincide.
+    original_page_review:
+      id: IB/2018/P3/q15A
+      paper: private/raw/tripos/IB/2018/P3.pdf
+      original_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      printed_question: 15A
+      pages:
+      - physical_page: 8
+        printed_page: 8
+        raster_sha256: a88f28bdcb25f6d389c91f412ecfae4041b5079e4ad1caea2e319a74ed16213f
+        raster_file: images/IB_2018_P3_q15A.png
+      question_sha256: c48350ee25fe890a1cf05d1f1ec7d21128210ede62853c0e5ab48b73e32147af
+      observed_discrepancies: []
+      visual_review: Sampling identity, (a)–(f), derivative orders, both regularization
+        limits, integration ranges, and supplied integrals checked.
+      figure_review: null
+      rework_file: IB_2018_P3_q15A.md
+    check:
+      exit: 0
+      stdout: Distributional moments, derivative sign, sinc normalization and both
+        scaling signs checked.
+      script_sha256: 9eabb99d1a14260f1e2bc34a32bec9594bec3fe193cffa0b07319dbfc2292023
+      source_hashes:
+        question.tex: c48350ee25fe890a1cf05d1f1ec7d21128210ede62853c0e5ab48b73e32147af
+        solution.tex: 4586759f4f2af740c18f2d950f11a4f67334feff0f654ae0eaf3c920923cd00a
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P3.pdf
+      source_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      source_page: 8
+      compiled_pdf: build/IB-2018-P3/main.pdf
+      compiled_sha256: e7481f444575338e75ed1cb96210b8c3e3708e890fed38207e6cda06b6e41e83
+      compiled_pages:
+      - 15
+      - 16
+      html: site/private/questions/IB/2018/P3/q15A/index.html
+      html_sha256: 59ae82e5d9695c2cfa26f0828fb215e6316c16f8d8f03b9523d8af2f1653a7f7
+      math_nodes: 51
+      diagrams: {}
+      question_sha256: c48350ee25fe890a1cf05d1f1ec7d21128210ede62853c0e5ab48b73e32147af
+      solution_sha256: 4586759f4f2af740c18f2d950f11a4f67334feff0f654ae0eaf3c920923cd00a
+      check_sha256: 9eabb99d1a14260f1e2bc34a32bec9594bec3fe193cffa0b07319dbfc2292023
+      check_exit: 0
+      check_stdout: Distributional moments, derivative sign, sinc normalization and
+        both scaling signs checked.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P3/q15A · Cambridge Maths
+        math: 51
+        rendered: 51
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P3_q15A-build-15.png: 4c49e924856816c5e025e96a0a1c653bde343e7925eeeab77b86444f57473e15
+        IB_2018_P3_q15A-build-16.png: 17669193e0e3dd2aa1722eae8108669f962b07599cb602651de72621f9bf4ea1
+        IB_2018_P3_q15A-html.png: 67c89c25aa020297a21137429878242cea9448bda41ff39b66e01c80b5a5c43b
+        IB_2018_P3_q15A-orig.png: ec1b4700e84559b952f2ae97475a9bb00bb62b6e35d8181cc63d65fe8b420294
+  IB/2018/P3/q16B:
+    independent_rework: "# IB/2018/P3/q16B — independent rework\n\nThe expectation\
+      \ is the probability-weighted mean of measurement outcomes for identically prepared\
+      \ states, observable as the limiting average of independent repetitions. Take\
+      \ self-adjoint observables on a common domain for the products used, and a normalized\
+      \ ψ with finite second moments. The squared norm in the question is\n\n  ⟨Q²⟩\
+      \ + iλ⟨[Q,P]⟩ + λ²⟨P²⟩ ≥ 0.\n\nThe middle coefficient is real since the expectation\
+      \ of a commutator of self-adjoint operators is imaginary. If ⟨P²⟩>0, a nonpositive\
+      \ discriminant gives |⟨[Q,P]⟩|² ≤ 4⟨P²⟩⟨Q²⟩. If ⟨P²⟩=0 then Pψ=0, both terms\
+      \ in the expected commutator vanish, and the inequality also holds. Apply the\
+      \ result with Q−⟨Q⟩I and P−⟨P⟩I. Their commutator is unchanged and their second\
+      \ moments are the variances. Taking nonnegative square roots proves the stated\
+      \ uncertainty relation.\n\nFor the oscillator, on its eigenstates [x,p]=iℏ I\
+      \ follows from the product rule for p=−iℏ d/dx. For any normalized energy eigenstate,\
+      \ positivity and AM–GM give\n\n  E = ⟨p²⟩/(2m) + mω²⟨x²⟩/2 ≥ ω√(⟨p²⟩⟨x²⟩) ≥\
+      \ ℏω/2,\n\nwith m>0 and ω the positive frequency. The second inequality uses\
+      \ the first commutator bound directly.\n"
+    independent_rework_sha256: 5c95298c90ed760e0c8863292b2c0aa9dd2bf3692c6f98a59b48fd1fb5b16ee9
+    comparison: Both centre the operators to recover the variance inequality and apply
+      the uncentred bound with AM–GM for the oscillator energy.
+    original_page_review:
+      id: IB/2018/P3/q16B
+      paper: private/raw/tripos/IB/2018/P3.pdf
+      original_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      printed_question: 16B
+      pages:
+      - physical_page: 9
+        printed_page: 9
+        raster_sha256: 169df444ae83fd1403f74da35d8246a3a8fa03c938c3ac6ec01206799ba04f24
+        raster_file: images/IB_2018_P3_q16B.png
+      question_sha256: 254c2dff9cb3c38a17c02a698df0b924c248c32fb296ba4feeb9766b336e5ffc
+      observed_discrepancies: []
+      visual_review: Expectation integrand, norm polynomial, uncentred inequality,
+        standard deviations, oscillator potential and energy bound checked.
+      figure_review: null
+      rework_file: IB_2018_P3_q16B.md
+    check:
+      exit: 0
+      stdout: 'PASS: norm minimum, centered inequalities and oscillator bound including
+        equality'
+      script_sha256: 07ab736f7443e6a749e090bb39fab724b09a01982b744ebd166b7d0e33783c84
+      source_hashes:
+        question.tex: 254c2dff9cb3c38a17c02a698df0b924c248c32fb296ba4feeb9766b336e5ffc
+        solution.tex: aaf5972305ae945c39a56b52f45e5f87a549988b9ae0f31e3c6847bd03a569dd
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P3.pdf
+      source_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      source_page: 9
+      compiled_pdf: build/IB-2018-P3/main.pdf
+      compiled_sha256: e7481f444575338e75ed1cb96210b8c3e3708e890fed38207e6cda06b6e41e83
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2018/P3/q16B/index.html
+      html_sha256: d1358d5b5693c488a31d21e6a554909669add7c49161e06a46f4c73ff9d53932
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: 254c2dff9cb3c38a17c02a698df0b924c248c32fb296ba4feeb9766b336e5ffc
+      solution_sha256: aaf5972305ae945c39a56b52f45e5f87a549988b9ae0f31e3c6847bd03a569dd
+      check_sha256: 07ab736f7443e6a749e090bb39fab724b09a01982b744ebd166b7d0e33783c84
+      check_exit: 0
+      check_stdout: 'PASS: norm minimum, centered inequalities and oscillator bound
+        including equality'
+      check_stderr: ''
+      browser:
+        title: IB/2018/P3/q16B · Cambridge Maths
+        math: 31
+        rendered: 31
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P3_q16B-build-17.png: 1e3e19b288173037fc23d109cd913b1acfdb8572dff2a606ae421083bbc93ee9
+        IB_2018_P3_q16B-html.png: 8efe33b8bfa4d672481cccd679a97034d7320fb7c336d3abbec713e14fb61604
+        IB_2018_P3_q16B-orig.png: 73c3c5145e0bd4cf0cada0e6ae13e604d23c1a64003917a5e09c23e94ba298fb
+  IB/2018/P3/q20H:
+    independent_rework: '# IB/2018/P3/q20H — independent rework
+
+
+      Let O be the observed 2×2 table, with row totals r=(a+b,c+d), column totals
+      c_*=(a+c,b+d), and grand total N. Test equal recovery probability in the two
+      treatment groups, equivalently independence in the joint table. With independent
+      observations and positive margins, the fitted counts under the null are Eᵢⱼ=rᵢc_*ⱼ/N.
+      Pearson''s statistic is X²=Σ(Oᵢⱼ−Eᵢⱼ)²/Eᵢⱼ. Reject for large values compared
+      with the upper tail of χ²₁, using an appropriate significance level, provided
+      the expected counts support the approximation.
+
+
+      Indeed, in the full multinomial model the four fitted probabilities are Oᵢⱼ/N;
+      in the independence model the row and column probabilities maximize their separate
+      terms in the likelihood at the sample margins divided by N. Twice the log of
+      the ratio of maximized alternative to null likelihood is G²=2Σ Oᵢⱼ log(Oᵢⱼ/Eᵢⱼ).
+      With Dᵢⱼ=Oᵢⱼ−Eᵢⱼ, the expansion in D/E has leading terms 2D+D²/E. The linear
+      terms sum to zero. Under an interior null with cell probabilities fixed and
+      positive, D=O_p(√N), E of order N, so the total remainder tends to zero in probability.
+      Wilks'' theorem gives χ²₁ because the full model has three free probabilities
+      and the null two. Conditioning on fixed treatment group sizes yields the same
+      calculation with two binomial samples and one degree of freedom.
+
+
+      The four discrepancies Dᵢⱼ equal (ad−bc)/N times the sign matrix with rows (+,−)
+      and (−,+). Hence X²=(ad−bc)²/N times (1/r₁+1/r₂)(1/c_*₁+1/c_*₂), giving N(ad−bc)²/(r₁r₂c_*₁c_*₂).
+
+
+      For the given table the expected counts are (48.75,11.25) and (16.25,3.75).
+      X²=80/117≈0.684, giving a nominal one-degree-of-freedom tail probability about
+      0.408. There is little evidence of a difference. An expectation of 3.75 makes
+      the asymptotic approximation questionable. For instance, a conditional exact
+      test fixes the margins and gives the treated recovery count K probability C(65,k)C(15,20−k)/C(80,20).
+      Summing all probabilities no greater than that of the observed k=15 gives two-sided
+      p≈0.509. Neither test establishes equality of recovery probabilities, and random
+      selection of patients alone does not establish random assignment of treatment.
+
+      '
+    independent_rework_sha256: e818cd803aee334611433124f41eb84ebd5598e0c5dd7f7e07cada27a3b6ec9d
+    comparison: Both calculate the same fitted counts, one degree of freedom and Pearson
+      statistic 80/117. The auditor independently obtains the same asymptotic p-value
+      and identifies the small fitted cell and conditional exact alternative.
+    original_page_review:
+      id: IB/2018/P3/q20H
+      paper: private/raw/tripos/IB/2018/P3.pdf
+      original_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      printed_question: 20H
+      pages:
+      - physical_page: 11
+        printed_page: 11
+        raster_sha256: d904936a2bc0c69eb6dfa1d83dc041c50f6b0391b2bcc6996bc1a520bec12264
+        raster_file: images/IB_2018_P3_q20H.png
+      question_sha256: 84d4bf08acb55bfb944df685b1ff9a206a9426d628f7496d9e8d86a838498ec6
+      observed_discrepancies: []
+      visual_review: Table, Pearson identity, likelihood-ratio wording, hint, and
+        all four example counts checked.
+      figure_review:
+        file: figures/recovery-table.png
+        sha256: dc0e23c57919d405996290cebd6c512550a77645d256cf27d9d81cbf2c716b34
+        method: Compared the supplied crop visually with the original printed table
+          on physical page 11. The two column headings are Recovery and Non-recovery.
+          The Untreated row reads a, b. The Treated row reads c, d.
+        observed_discrepancies: []
+      rework_file: IB_2018_P3_q20H.md
+    check:
+      exit: 0
+      stdout: Pearson formula, small fitted count, asymptotic and conditional exact
+        tail verified.
+      script_sha256: e901399810a864f33245c07457ff829e8566856072b5170afca7bd7ab5e38baa
+      source_hashes:
+        question.tex: 84d4bf08acb55bfb944df685b1ff9a206a9426d628f7496d9e8d86a838498ec6
+        solution.tex: 24486750ea82cbdd2623ee8f55f12d75b265ad39f254c577d76332650ba5850c
+        plot.py: ff3dc19eba100e1eb1d9067d75bcdeb7c206f06eb35ec43f4560437268623d52
+        figures/recovery-table.png: dc0e23c57919d405996290cebd6c512550a77645d256cf27d9d81cbf2c716b34
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P3.pdf
+      source_sha256: 85b5d521d8a17e35b036a73176aaf80a617191af3f3144da445d988ed3723404
+      source_page: 11
+      compiled_pdf: build/IB-2018-P3/main.pdf
+      compiled_sha256: e7481f444575338e75ed1cb96210b8c3e3708e890fed38207e6cda06b6e41e83
+      compiled_pages:
+      - 22
+      - 23
+      html: site/private/questions/IB/2018/P3/q20H/index.html
+      html_sha256: b6c58195bbcad7c5382da58b9524a9c945d56ef708028cb875daa8549f6809d8
+      math_nodes: 23
+      diagrams:
+        site/private/figures/tripos/IB/2018/P3/q20H/recovery-table.png: dc0e23c57919d405996290cebd6c512550a77645d256cf27d9d81cbf2c716b34
+      question_sha256: 84d4bf08acb55bfb944df685b1ff9a206a9426d628f7496d9e8d86a838498ec6
+      solution_sha256: 24486750ea82cbdd2623ee8f55f12d75b265ad39f254c577d76332650ba5850c
+      check_sha256: e901399810a864f33245c07457ff829e8566856072b5170afca7bd7ab5e38baa
+      check_exit: 0
+      check_stdout: Pearson formula, small fitted count, asymptotic and conditional
+        exact tail verified.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P3/q20H · Cambridge Maths
+        math: 23
+        rendered: 23
+        parse_errors: 0
+        diagrams:
+        - alt: Recovery and non-recovery counts for untreated and treated patients.
+          width: 597
+          height: 140
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P3_q20H-build-22.png: 8ea33ac339428d78ab2963b0fda9a1a43f2ba9709d5cc4a651d9d3deddba11d1
+        IB_2018_P3_q20H-build-23.png: b484da146dd6ab9bd848e9d101ab24dc02194328906aad4de65261f0e6392a76
+        IB_2018_P3_q20H-html.png: 299e667ea6766ee78a0c88a6625b5fa8bda11332d6284ef250ce31a676b4f6ea
+        IB_2018_P3_q20H-orig.png: cb4539d05c8246bf4149c21ea6f76c31fdee20357b51eb6b723217dde98f867b
+  IB/2018/P4/q14A:
+    independent_rework: "# IB/2018/P4/q14A — independent rework\n\n(a) For s>0 real,\
+      \ put t=bz² with b=|a|/(2√s). Then dt/√t=2√b dz and st+a²/(4t)=c²(z²+1/z²),\
+      \ where c²=|a|√s/2=sb. The supplied formula gives\n\n  ∫₀^∞ exp(−st−a²/(4t))\
+      \ dt/√(πt)\n  = (2√b/√π)(√π/(2c)) exp(−2c²) = exp(−|a|√s)/√s.\n\nHere c>0. Absolute\
+      \ convergence and holomorphic dependence on s extend this to Re s>0 with the\
+      \ principal square root. The case a=0 follows either from the Gaussian integral\
+      \ or by dominated convergence for s>0.\n\n(b) Write U(x,s) for the time Laplace\
+      \ transform of the bounded solution. One integration by parts in t gives (s−∂ₓ²)U=f.\
+      \ For real s>0 the decaying fundamental solution on the line is G_s(z)=exp(−√s\
+      \ |z|)/(2√s). Away from zero it solves the homogeneous equation; the jump G_s′(0+)−G_s′(0−)=−1\
+      \ supplies a unit point source for s−∂². For bounded f the convolution G_s*f\
+      \ is bounded. It is the unique bounded solution, since both coefficients in\
+      \ an everywhere bounded homogeneous combination of exp(±√s x) must vanish. By\
+      \ (a) the inverse transform of G_s(z) is\n\n  K(|z|,t)=exp(−z²/(4t))/√(4πt).\n\
+      \nThus u(x,t)=∫ K(|x−ξ|,t) f(ξ) dξ. For bounded data the Gaussian kernel has\
+      \ integral one; absolute integration against exp(−st)|f| justifies interchange\
+      \ in the transform. The kernel solves the heat equation at t>0 by differentiation,\
+      \ and is an approximate identity as t↓0. Consequently it recovers f pointwise\
+      \ at every continuity point, and everywhere for bounded continuous initial data.\n"
+    independent_rework_sha256: 01fa22791ba36403443473366fdf7ce1ed7112c7086bbc0eaf10a825773400d3
+    comparison: Both obtain the exponentially decaying resolvent with the derivative
+      jump −1, recover the Gaussian kernel, and specify how its convolution attains
+      the initial data.
+    original_page_review:
+      id: IB/2018/P4/q14A
+      paper: private/raw/tripos/IB/2018/P4.pdf
+      original_sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+      printed_question: 14A
+      pages:
+      - physical_page: 7
+        printed_page: 7
+        raster_sha256: 68d9c6774efbea7d149215712e4a42bff2c940d61b24a0a65148c095c12a2ebe
+        raster_file: images/IB_2018_P4_q14A.png
+      question_sha256: 3b6dc0652a73ffb8ba6a381a416e457348a9a05c35be976f2592e827652b5a9b
+      observed_discrepancies: []
+      visual_review: Kernel input, absolute value in supplied identity, bounded heat
+        solution, and both signed terms with their exponential factors and limits
+        in the supplied particular solution checked.
+      figure_review: null
+      rework_file: IB_2018_P4_q14A.md
+    check:
+      exit: 0
+      stdout: Laplace transform for signed distances and heat evolution of a Fourier
+        mode checked.
+      script_sha256: 00213c7c7ce6c48efcfc841ba4dd4a2904130ab59aa1d3c24676d6ef7119ec65
+      source_hashes:
+        question.tex: 3b6dc0652a73ffb8ba6a381a416e457348a9a05c35be976f2592e827652b5a9b
+        solution.tex: 20c3701b431cdddbd8023089b3c66322963c02064d14b0cf4f60d0e1a729cab2
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P4.pdf
+      source_sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+      source_page: 7
+      compiled_pdf: build/IB-2018-P4/main.pdf
+      compiled_sha256: c702fce49e76e0360c121d4c33402cb94e04b067c7440a394cc4f33475d432df
+      compiled_pages:
+      - 14
+      - 15
+      html: site/private/questions/IB/2018/P4/q14A/index.html
+      html_sha256: 66b2d8e547d459e43e74d5765929a9119ded68e48e1aa010fc2f69395c6c9db6
+      math_nodes: 28
+      diagrams: {}
+      question_sha256: 3b6dc0652a73ffb8ba6a381a416e457348a9a05c35be976f2592e827652b5a9b
+      solution_sha256: 20c3701b431cdddbd8023089b3c66322963c02064d14b0cf4f60d0e1a729cab2
+      check_sha256: 00213c7c7ce6c48efcfc841ba4dd4a2904130ab59aa1d3c24676d6ef7119ec65
+      check_exit: 0
+      check_stdout: Laplace transform for signed distances and heat evolution of a
+        Fourier mode checked.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P4/q14A · Cambridge Maths
+        math: 28
+        rendered: 28
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P4_q14A-build-14.png: 39ccbe32e38c890f13667bdc55f7b7b759e92f15636a04bdf816e6ae014f30a4
+        IB_2018_P4_q14A-build-15.png: fedf307420861fc9e6973e6d8a5d7ceeaeaf7ca89d55aaad6d5ce91e71eeac4c
+        IB_2018_P4_q14A-html.png: 2d598e911bfd6eb0b393997efadf2bcb1e54e4b337aaebbc32b43806af7a806e
+        IB_2018_P4_q14A-orig.png: a2ef1691ddfdca353b0890c77e6f94c4ac890334105b217c620417dc2b868eac
+  IB/2018/P4/q17C:
+    independent_rework: "# IB/2018/P4/q17C — independent rework\n\nFix the evaluation\
+      \ point x in the interior and use y for the integration point x₀. Apply the\
+      \ stated identity on Ω with a closed radius-ε disk centred at x removed, taking\
+      \ G(y)=log|y−x|/(2π). It is harmonic on the punctured domain, so the volume\
+      \ integral equals ∫Gρ. The outward normal of the punctured domain on the small\
+      \ circle points towards x; hence ∂ₙG=−1/(2πε). The inner integral ∫u ∂ₙG tends\
+      \ to −u(x) by continuity. The term ∫G ∂ₙu tends to zero, bounded by O(ε|log\
+      \ ε|). The omitted volume term tends to zero as the logarithm is locally integrable\
+      \ and ρ is bounded near x. Rearrangement gives\n\n  u(x) = −∫_Ω G(y)ρ(y) d²y\
+      \ + ∮_∂Ω (u∂ₙG−G∂ₙu) ds,\n\nwhere every derivative is in y.\n\nFor the disc\
+      \ and a fixed pole x of modulus 0<r<1, place its image at x*=x/r² outside the\
+      \ disc. Use the modified Green function\n\n  G_D(y;x) = [log|y−x|−log(r|y−x*|)]/(2π).\n\
+      \nThe subtracted potential is harmonic throughout the disc, and the distance\
+      \ identity makes G_D vanish on the boundary. For r=0 use log|y|/(2π). The punctured-disc\
+      \ representation with ρ=0 therefore gives u(x)=∮u(y)∂ₙG_D ds. Write x=r(cos\
+      \ θ,sin θ), y=R(cos φ,sin φ), c=cos(θ−φ) and D=1+r²−2rc. The outward normal\
+      \ derivative at R=1 of the first log is (1−rc)/D, and that of the second is\
+      \ (r²−rc)/D. Thus\n\n  ∂ₙG_D = (1−r²)/(2πD).\n\nOn the unit circle ds=dφ. A\
+      \ unit periodic delta at α evaluates this smooth kernel at φ=α, giving u(r,θ)=(1−r²)/[2π(1+r²−2r\
+      \ cos(θ−α))]. The formula includes r=0. The distributional boundary interpretation\
+      \ follows by approximating the point mass by smooth unit masses; equivalently,\
+      \ the positive kernel has total mass one (constant harmonic boundary data in\
+      \ the representation), and its mass outside any fixed arc around α tends to\
+      \ zero as r↑1.\n"
+    independent_rework_sha256: 46c7b4f7246e74825f24e8d51311ba1d2cb5b48baf30e9df7c3ca4dbf65077fe
+    comparison: Orientation of the puncture boundary, image point inversion, normal
+      derivative and unit angular mass agree. The answer at the disk centre matches
+      the limiting formula.
+    original_page_review:
+      id: IB/2018/P4/q17C
+      paper: private/raw/tripos/IB/2018/P4.pdf
+      original_sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+      printed_question: 17C
+      pages:
+      - physical_page: 9
+        printed_page: 9
+        raster_sha256: e9bc628421e9453443474e9244307c2fbec14d81a2a2a9de7a4e4d18b42a9d6e
+        raster_file: images/IB_2018_P4_q17C.png
+      question_sha256: e785d51613e87189de373520f0e71a39e120cb3273a51b133138dbb0b8d49018
+      observed_discrepancies: []
+      visual_review: Volume and boundary signs, logarithmic factors, derivative variables,
+        unit-disc image identity, delta angle, and Poisson denominator checked.
+      figure_review: null
+      rework_file: IB_2018_P4_q17C.md
+    check:
+      exit: 0
+      stdout: Image cancellation, Poisson normal derivative, Fourier modes and volume-potential
+        sign checked.
+      script_sha256: 33d1a25ea0984c0bcb2e05583a1a6a58f19a45d7fc22ca4e80c460194330c669
+      source_hashes:
+        question.tex: e785d51613e87189de373520f0e71a39e120cb3273a51b133138dbb0b8d49018
+        solution.tex: 161c1aa4e33e18b19b16fd981596351d83ba0a97b1c309daedf1f5c75ec7ddf3
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P4.pdf
+      source_sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+      source_page: 9
+      compiled_pdf: build/IB-2018-P4/main.pdf
+      compiled_sha256: c702fce49e76e0360c121d4c33402cb94e04b067c7440a394cc4f33475d432df
+      compiled_pages:
+      - 18
+      - 19
+      html: site/private/questions/IB/2018/P4/q17C/index.html
+      html_sha256: 735d7da738ff26589466066d8b8b6114f5ca621277028dab6355a433006476de
+      math_nodes: 77
+      diagrams: {}
+      question_sha256: e785d51613e87189de373520f0e71a39e120cb3273a51b133138dbb0b8d49018
+      solution_sha256: 161c1aa4e33e18b19b16fd981596351d83ba0a97b1c309daedf1f5c75ec7ddf3
+      check_sha256: 33d1a25ea0984c0bcb2e05583a1a6a58f19a45d7fc22ca4e80c460194330c669
+      check_exit: 0
+      check_stdout: Image cancellation, Poisson normal derivative, Fourier modes and
+        volume-potential sign checked.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P4/q17C · Cambridge Maths
+        math: 77
+        rendered: 77
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P4_q17C-build-18.png: 25914d3549caab0b9a4d0bb5b03f7c8ff03929c192a13025d4e62aca3e863f12
+        IB_2018_P4_q17C-build-19.png: b5ed06b86841a9d69ddc5b65b48be34e7c6da9219fc0689425bf9e7a9da39205
+        IB_2018_P4_q17C-html.png: 9babc7757c2a3976c3abb35245aa26de1a30d200672b7f7502ceac26e5cd9a6c
+        IB_2018_P4_q17C-orig.png: 382db11ab7d274ce685ebbc9880c89df5537a70f5a73019992709199d452ad9b
+  IB/2018/P4/q9H:
+    independent_rework: '# IB/2018/P4/q9H — independent rework
+
+
+      (a) A probability row vector π is invariant if πP=π, meaning the law after one
+      step from that initial law remains π. A finite irreducible chain has a unique
+      invariant probability distribution.
+
+
+      (b) Detailed balance requires πᵢpᵢⱼ=πⱼpⱼᵢ for every pair i,j. Summing over i
+      gives (πP)ⱼ=πⱼ Σᵢ pⱼᵢ=πⱼ, since the jth row is a probability distribution. This
+      proves invariance.
+
+
+      (c) With C=ΣₖDₖ, take πᵢ=Dᵢ/C. This is a probability distribution and every
+      edge has forward and reverse equilibrium flow 1/C. A pair of nonadjacent vertices
+      has zero flow in each direction. Detailed balance proves invariance and connectedness
+      gives irreducibility and uniqueness. The transition rule presumes positive degrees;
+      the isolated single-vertex graph would need a separately stipulated holding
+      probability to define its walk.
+
+      '
+    independent_rework_sha256: 21d2cbd148ba788e66129b1103cfb256b1af968fc2c1d9f0374c78ae93660b87
+    comparison: For each edge both forward and reverse equilibrium flows equal the
+      reciprocal total degree. Connectedness gives uniqueness, subject to the isolated
+      single-vertex convention.
+    original_page_review:
+      id: IB/2018/P4/q9H
+      paper: private/raw/tripos/IB/2018/P4.pdf
+      original_sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+      printed_question: 9H
+      pages:
+      - physical_page: 4
+        printed_page: 4
+        raster_sha256: d036dc3622c10f61841596eacb1f1816f9a35be8dd6bdf71802a208b15706403
+        raster_file: images/IB_2018_P4_q9H.png
+      question_sha256: a575429a2cb4a7c30afded09dd8ada7761d2868f8dc1839084dade2c841e01c2
+      observed_discrepancies: []
+      visual_review: Definitions, finite irreducibility, transition cases, D_i and
+        adjacency condition checked.
+      figure_review: null
+      rework_file: IB_2018_P4_q9H.md
+    check:
+      exit: 0
+      stdout: All detailed-balance pairs and stationary equations checked on a nonregular
+        graph.
+      script_sha256: 64cc8c84a22274464c5a3ff0bc73d5648e8836e91ccfd164e268b7cc253b4899
+      source_hashes:
+        question.tex: a575429a2cb4a7c30afded09dd8ada7761d2868f8dc1839084dade2c841e01c2
+        solution.tex: 742909c4962856275e86f80652c86c17e47fe862248a3c03c8618e790222bc7c
+    delivery:
+      source_pdf: private/raw/tripos/IB/2018/P4.pdf
+      source_sha256: 148aa87240b77216eddded7c4f0ad313f179d73d08f8944f120fa61b3bba24b3
+      source_page: 4
+      compiled_pdf: build/IB-2018-P4/main.pdf
+      compiled_sha256: c702fce49e76e0360c121d4c33402cb94e04b067c7440a394cc4f33475d432df
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2018/P4/q9H/index.html
+      html_sha256: 30d015ac4f98ace86955590e1bb65a9bc4fa3d882a12a56f01564daae20b38c4
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: a575429a2cb4a7c30afded09dd8ada7761d2868f8dc1839084dade2c841e01c2
+      solution_sha256: 742909c4962856275e86f80652c86c17e47fe862248a3c03c8618e790222bc7c
+      check_sha256: 64cc8c84a22274464c5a3ff0bc73d5648e8836e91ccfd164e268b7cc253b4899
+      check_exit: 0
+      check_stdout: All detailed-balance pairs and stationary equations checked on
+        a nonregular graph.
+      check_stderr: ''
+      browser:
+        title: IB/2018/P4/q9H · Cambridge Maths
+        math: 19
+        rendered: 19
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2018_P4_q9H-build-9.png: 5acc992b9f3374ab50b63e73713cfb364277346afc1d8e319d7b7e248d650a3f
+        IB_2018_P4_q9H-html.png: ae6d1de6af70f2fb54e36a104fe2af6791df8a93b3bca23a5036dde92350b9bf
+        IB_2018_P4_q9H-orig.png: 353c35fece04c922f7d6c22421325c66dbe1db7306d4a3f9f17c4f9d6575760e
