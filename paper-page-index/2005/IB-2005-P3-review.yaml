@@ -1,0 +1,414 @@
+paper_id: IB/2005/P3
+id: IB/2005/P3
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2005-06-09'
+printed_date: Thursday 9 June 2005
+time: 9 to 12
+source: private/raw/tripos/IB/2005/P3.pdf
+archive: private/raw/tripos/IB/2005/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2005/PaperIB_3.pdf
+sha256: 66188ca392f87940b2ff4b679c78d7bea5a038b2bd9791b69423c842b754c7df
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
+  Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'STATIONERY REQUIRMENTS: Gold cover sheet, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2005/P3/q1C
+  original_question: 1C
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ed243d64972c9d8bfa6c4e1eb010760657a8b83b7201c653419e41fa6435214d
+  checks: Checked equivalence relation on G, finite-group hypothesis and the divisibility direction.
+  source_page_render_sha256: 2d481bfe5d28b27b96364fc4a896dedb3728a4f03ad25da8ca7ea12e4c31a59c
+- id: IB/2005/P3/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: bafe9229d11f7743a7079cf194b51944b7f7539d0ba31e2cf478a87ca9da1ac8
+  checks: Checked the hyperbolic and Euclidean radii, area coefficient and inverse hyperbolic cosine bound.
+  source_page_render_sha256: 2d481bfe5d28b27b96364fc4a896dedb3728a4f03ad25da8ca7ea12e4c31a59c
+- id: IB/2005/P3/q3B
+  original_question: 3B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 62c2dacf729616fb2cba0f981d56fc4a1afaec62aff884a541f65f3cefe5ef4a
+  checks: Checked both two-case functions, separate numerators and the two origin values.
+  source_page_render_sha256: 2d481bfe5d28b27b96364fc4a896dedb3728a4f03ad25da8ca7ea12e4c31a59c
+- id: IB/2005/P3/q4A
+  original_question: 4A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: d56e9a2826bdc98b553a2436dd9b347877bb13db6893b2c6e1c780effe4db2da
+  checks: Checked the included left endpoint, excluded right endpoint, cofinite definition and direction of
+    the identity map.
+  source_page_render_sha256: 9e7daca0000da5dd8aa852c27088ec0e3ae92f0a52cd23eef46d95d5d49211ec
+- id: IB/2005/P3/q5F
+  original_question: 5F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 8a2832d76dea6587ea4e12fa22014013ff57cad275188590e2b07b31a0974869
+  checks: Checked the order of both harmonic conjugate pairs and the composed arguments.
+  source_page_render_sha256: 9e7daca0000da5dd8aa852c27088ec0e3ae92f0a52cd23eef46d95d5d49211ec
+- id: IB/2005/P3/q6E
+  original_question: 6E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: 8d946e5e99d1d00ce010c7903e4680ddb7a1319da8b102d84ef64eab05e92839
+  checks: Checked printed Lagrangian multipliers, the product objective and both squared semiaxes.
+  source_page_render_sha256: 9e7daca0000da5dd8aa852c27088ec0e3ae92f0a52cd23eef46d95d5d49211ec
+- id: IB/2005/P3/q7G
+  original_question: 7G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 0b223d4e3f800567d4fcbbc3f4effbd91f8c40d7911c9ffc254773dc3a5d0f39
+  checks: Checked energy indices, complex conjugation on the first coefficient and the time-independent energy
+    request.
+  source_page_render_sha256: 9e7daca0000da5dd8aa852c27088ec0e3ae92f0a52cd23eef46d95d5d49211ec
+- id: IB/2005/P3/q8D
+  original_question: 8D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: b9eb3b0dd920bde49ace9a1592563be566f4338c2e558f5bb482b4006af6fafb
+  checks: Checked the two unknown parameters, the two-sided alternative and the distribution instruction.
+  source_page_render_sha256: 00a2011bbc0781a17fb4cbbc8595ae6a9c58a185ee3461882ceb8b10fd51d27c
+- id: IB/2005/P3/q9D
+  original_question: 9D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 8b7473ef17990ff325d2f6a71b479e5e232816d8d7e2ccbdc5486ff845f24fc6
+  checks: Compared all 49 entries row by row, including the zero fifth column and absorbing sixth state.
+  printed_ambiguity: State 5 has no positive-time returns. The period of its singleton class has to be reported
+    using the convention for an empty return-time set (often zero or undefined).
+  source_page_render_sha256: 00a2011bbc0781a17fb4cbbc8595ae6a9c58a185ee3461882ceb8b10fd51d27c
+- id: IB/2005/P3/q10B
+  original_question: 10B
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 0742a009d5cf5c5c139d5c06857f8db1088857162e2de1a7e9ec2a181fda5b44
+  checks: Checked the commutator order, identity subscripts, nonzero kernel element and both independence formulations.
+  source_page_render_sha256: fc954966ac95d02f2dd35cb9c05fc38165f7bf22427e8be9b8957aba751f645b
+- id: IB/2005/P3/q11C
+  original_question: 11C
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 1baa1a19c49bed2b49754a21853e4a6bf932af6de1aeb957469c0e47ec382229
+  checks: Checked both ground rings and identical fifth-degree polynomial in the two quotients.
+  source_page_render_sha256: fc954966ac95d02f2dd35cb9c05fc38165f7bf22427e8be9b8957aba751f645b
+- id: IB/2005/P3/q12A
+  original_question: 12A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b3a6f3377d6c32f404b2e11c8ded0dcf0fa6c20aa8e9507da9397fcac1aa5f75
+  checks: Checked extended complex plane, the antipodal condition including conjugation, and excluded point
+    in the iteration limit.
+  source_page_render_sha256: 86401609768d18d1af644320df2ca042daa92e407de7c0cd1e5ac94f89ccff83
+- id: IB/2005/P3/q13B
+  original_question: 13B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: ba962c2625003d90cc6e87fd128e9bec0c02ccd48ffd23766fb03356ded9f126
+  checks: Checked positive scaling, the excluded origin, degree c and the point versus argument of the derivative.
+  source_page_render_sha256: 86401609768d18d1af644320df2ca042daa92e407de7c0cd1e5ac94f89ccff83
+- id: IB/2005/P3/q14A
+  original_question: 14A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 16feea809ab747fe6daa3ed564874b40b7c459b6be98c9387816b52174e13566
+  checks: Checked the meromorphic hypothesis, exterior growth bound with integer n and the Laurent-series suggestion.
+  source_page_render_sha256: 86401609768d18d1af644320df2ca042daa92e407de7c0cd1e5ac94f89ccff83
+- id: IB/2005/P3/q15H
+  original_question: 15H
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 0d9b896a34e58b78cbbe600c96ef327b8ec07dc921e6fcbd6fff39d67a10ae74
+  checks: Checked both differential operators including the x on each side of the second derivative, normalization
+    at one, and integration limits.
+  source_page_render_sha256: 8a777d2c3d316347c157f6f912fce955ab0264a7628693fecac7e2f59398e364
+- id: IB/2005/P3/q16G
+  original_question: 16G
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 09d9e6a87fb265ea49ec89bca21c5a5f999bda2d9b5e514b4fe57cf30be68b9b
+  checks: Checked the capital R in the printed wall condition, scaled radius, recurrence signs and powers,
+    and the full Laplacian.
+  printed_ambiguity: The source asks for conditions at r = 0 and R = a. The latter prints a capital R although
+    the wall is at radial coordinate r = a. It also prints 'at which the R is zero'.
+  source_page_render_sha256: 9aa5c18ed46cd5191f274b35b7eae05ccfbb3a3009cb8b1063a407449f796733
+- id: IB/2005/P3/q17H
+  original_question: 17H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 955a2203a6002d43e0e6799e0981be1c5aadd26f7fa782fd5fed323f8d2911f2
+  checks: Checked duality signs, tube boundary components and both scalar boundary conditions, wave phase and
+    longitudinal coefficient.
+  source_page_render_sha256: 965b203539f4a6d0e860239bb9f5a93865b727cdd17d4dbbe73010a8cffd7c59
+- id: IB/2005/P3/q18E
+  original_question: 18E
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 665bdaeb48033a9555b06de5db0234c9224b1769b5bddaf9d202996278cd0e1a
+  checks: Checked circulation sign, cylinder radius, far-field limit and the positive sign printed in the force
+    formula.
+  printed_ambiguity: The displayed pressure integral has a positive outward radial vector. With the usual angular
+    orientation this gives the opposite sign from the pressure force exerted by the fluid on the solid. Retain
+    the printed sign and state the convention when solving.
+  source_page_render_sha256: 965b203539f4a6d0e860239bb9f5a93865b727cdd17d4dbbe73010a8cffd7c59
+- id: IB/2005/P3/q19F
+  original_question: 19F
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: f6358ae8271c5a1369c3e5e598d79821df957174fda324efe8e19b8af4e3da95
+  checks: Checked every diagonal entry 1/mu, opposite off-diagonal signs, both methods and restriction to nonzero
+    real mu.
+  source_page_render_sha256: bfb4f3f977e835c8ae8a3d1f2fefefbed2d58e04e0c1f06318d4f6199a871c52
+- id: IB/2005/P3/q20D
+  original_question: 20D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 0b84c58a5e59205bffe94c0c276bfef9fb8885505ea76fc1db07a7f19e6ed0c5
+  checks: Checked the linear program, every entry in the original tableau, and three right-hand-side perturbations.
+  figures:
+  - simplex-tableau
+  source_page_render_sha256: bfb4f3f977e835c8ae8a3d1f2fefefbed2d58e04e0c1f06318d4f6199a871c52
+  figure_png_sha256:
+    simplex-tableau: 2ed0193000ecfa61fd9ae543cefedd218fc0c52339e9820c78133201038f09fc
+  plot_sha256: 8a3af6ef293e3109ad4c820ecb0b8068a3d56e365b146f3a5049f3dcc0e9a1ef
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: c3d20fb5ed95b090e25d38a1399ed027851a87cc891fae557e9f829d98aa2fc3
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 167
+  katex_failures: 0
+  compiled_proof_pages: 20
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2005 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 1ded5f32aae02c250929dd6e121dc5013cf9d4ed7bc6747ca40231935454ae12
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1C
+  - 2A
+  - 3B
+  source_page_render_sha256: 2d481bfe5d28b27b96364fc4a896dedb3728a4f03ad25da8ca7ea12e4c31a59c
+  printed_page: 2
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 4A
+  - 5F
+  - 6E
+  - 7G
+  source_page_render_sha256: 9e7daca0000da5dd8aa852c27088ec0e3ae92f0a52cd23eef46d95d5d49211ec
+  printed_page: 3
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 8D
+  - 9D
+  source_page_render_sha256: 00a2011bbc0781a17fb4cbbc8595ae6a9c58a185ee3461882ceb8b10fd51d27c
+  printed_page: 4
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 10B
+  - 11C
+  source_page_render_sha256: fc954966ac95d02f2dd35cb9c05fc38165f7bf22427e8be9b8957aba751f645b
+  printed_page: 5
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 12A
+  - 13B
+  - 14A
+  source_page_render_sha256: 86401609768d18d1af644320df2ca042daa92e407de7c0cd1e5ac94f89ccff83
+  printed_page: 6
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 15H
+  source_page_render_sha256: 8a777d2c3d316347c157f6f912fce955ab0264a7628693fecac7e2f59398e364
+  printed_page: 7
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 16G
+  source_page_render_sha256: 9aa5c18ed46cd5191f274b35b7eae05ccfbb3a3009cb8b1063a407449f796733
+  printed_page: 8
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 9
+  contents: questions
+  questions:
+  - 17H
+  - 18E
+  source_page_render_sha256: 965b203539f4a6d0e860239bb9f5a93865b727cdd17d4dbbe73010a8cffd7c59
+  printed_page: 9
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 10
+  contents: questions
+  questions:
+  - 19F
+  - 20D
+  source_page_render_sha256: bfb4f3f977e835c8ae8a3d1f2fefefbed2d58e04e0c1f06318d4f6199a871c52
+  printed_page: 10
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: true

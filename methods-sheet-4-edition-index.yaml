@@ -1,0 +1,4349 @@
+sheet: IB/methods/sheet-4
+base_version: 2025-26
+dated_originals: 14
+physical_sheet_pages: 28
+positions: 173
+distinct_question_fragments: 80
+canonical_families: 46
+historical_only_families: 33
+uncertain_editions: []
+undated_capture_metadata: undated/candidates.yaml
+ancillary_originals:
+- url: https://web.archive.org/web/20160329023834id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+  source_page: https://www.damtp.cam.ac.uk/user/examples/
+  source_kind: Wayback archived DAMTP numbered question sheet
+  sha256: 91321f2a849389acf5108a24b88a91d6d24faff3134eb39670932886aa1b9472
+  fetched_at_utc: '2026-11-20T15:08:49.281273+00:00'
+  bytes: 56464
+  pages: 2
+  format: pdf
+  final_url: https://web.archive.org/web/20160329023834id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+  original: http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+  timestamp: '20160329023834'
+  digest: L4RXBV2DGKUVYKMNKDHCP6WKTVOO7U4W
+  response_sha1_base32: L4RXBV2DGKUVYKMNKDHCP6WKTVOO7U4W
+  memento_datetime: Tue, 29 Mar 2016 02:38:34 GMT
+  cdx_digest_matches_response: true
+  year: 2015-16
+  sheet: 4
+  represented_by_existing_path: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  evidence: The two 72-dpi grayscale page renders match the corresponding pages of
+    the already archived eight-page Michaelmas 2015 collection.
+  archived_capture: raw/sheets/IB/methods/2015-16/sheet-4-standalone.pdf
+- url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+  source_page: https://web.archive.org/web/20021127124541id_/http://www.damtp.cam.ac.uk/user/examples/
+  source_kind: Wayback archived DAMTP numbered question sheet
+  sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+  fetched_at_utc: '2026-11-20T15:09:43.685244+00:00'
+  bytes: 372971
+  pages: 2
+  format: pdf
+  final_url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+  original: http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+  timestamp: '20000902160418'
+  digest: RSQ3LSUCOM7XNTV7FEGS2Z4ILGC6MKBC
+  response_sha1_base32: S2RBPRCCZBU4UB7FYDSVMW5IMM36FEKG
+  memento_datetime: Sat, 02 Sep 2000 16:04:18 GMT
+  cdx_digest_matches_response: false
+  printed_title: METHODS — EXAMPLES IV
+  sheet: 4
+  printed_term: null
+  printed_lecturer: null
+  source_course_basis: Pre-reform DAMTP catalogue and printed METHODS title and C10
+    code.
+  copyright_year: 2000
+  footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
+    sheet 3 has no dated closing attribution.
+  issue: 2000 copyright and September 2000 capture do not establish a Michaelmas teaching
+    year.
+  status: metadata-only; unassigned teaching date
+  archived_capture: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+- url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+  source_page: https://web.archive.org/web/20021127124541id_/http://www.damtp.cam.ac.uk/user/examples/
+  source_kind: Wayback archived DAMTP numbered question sheet
+  sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+  fetched_at_utc: '2026-11-20T15:09:44.427462+00:00'
+  bytes: 83288
+  pages: 2
+  format: ps
+  final_url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+  original: http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+  timestamp: '20000902160424'
+  digest: 5SVVHWYBBOTIH3MH5EST235FVZVRZ35F
+  response_sha1_base32: FUQZRAOBQLY4JERNCBINCXP6TKKAEE7D
+  memento_datetime: Sat, 02 Sep 2000 16:04:24 GMT
+  cdx_digest_matches_response: false
+  printed_title: METHODS — EXAMPLES IV
+  sheet: 4
+  printed_term: null
+  printed_lecturer: null
+  source_course_basis: Pre-reform DAMTP catalogue and printed METHODS title and C10
+    code.
+  copyright_year: 2000
+  footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
+    sheet 3 has no dated closing attribution.
+  issue: 2000 copyright and September 2000 capture do not establish a Michaelmas teaching
+    year.
+  status: metadata-only; unassigned teaching date
+  archived_capture: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+diagrams:
+- edition: 2023-24
+  slug: backwards-lightcone-2023
+  page: 2
+  original_question: '13'
+  figure: Figure 1
+  caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+  plot: editions/2023-24/q13/plot.py
+  plot_sha256: 0fcefa50815096f2045045608230b8f4e92893556414cba1caf7f63d3d4cc8b0
+  image: editions/2023-24/q13/figures/backwards-lightcone-2023.png
+  image_sha256: 3162259664fb25b694e59065b04c1ca27f9efdd9cf7af79aaa60716d14766353
+  review: Compared both shaded sections, their arrows, apex, base point, axis, ambient
+    space and caption against the archived page.
+- edition: 2025-26
+  slug: backwards-lightcone
+  page: 2
+  original_question: '13'
+  figure: Figure 1
+  caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+  plot: editions/2025-26/q13/plot.py
+  plot_sha256: 2bdc14877e58475cfcc06a62de2bac2a5a1e548c29c3f7b15e3877096ee2f785
+  image: editions/2025-26/q13/figures/backwards-lightcone.png
+  image_sha256: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+  review: Compared both shaded sections, their arrows, apex, base point, axis, ambient
+    space and caption against the archived page.
+- edition: 2026-27
+  slug: backwards-lightcone
+  page: 2
+  original_question: '13'
+  figure: Figure 1
+  caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+  plot: editions/2026-27/q13/plot.py
+  plot_sha256: 8c91d9ea8e9b03f36db34948101af6ef63cc1f69329c26d0278235a78f6f6553
+  image: editions/2026-27/q13/figures/backwards-lightcone.png
+  image_sha256: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+  review: Compared both shaded sections, their arrows, apex, base point, axis, ambient
+    space and caption against the archived page.
+repeated_numbers_within_edition: []
+reviewer: Codex source-only Methods sheet 4 historical transcription review, 2026-11-21
+renderer: pypdfium2 page.render(scale=2.25).to_pil().convert("RGB"), PNG for physical
+  archive pages. Font-map extraction was used only for navigation and comparison.
+manifest_search:
+  checked_methods_originals: 58
+  method: Independently checked the SHA256 of every registered Methods original, scanned
+    all PDF pages and Ghostscript conversions of both PS records for sheet headers,
+    and consulted original visual header crops where font maps produced no readable
+    title. The combined source prints IV on page 7.
+  unencoded_header_image: evidence/unencoded-headers.png
+  course_archive_reports:
+  - private/methods-source-queue-report.yaml
+  - private/methods-expanded-source-queue-report.yaml
+  detailed_queue_sha256: 4179ce4bbfc173cba2fca69d57802366ebb4099af7e9c25bf7d217584e1ae67f
+  records:
+  - url: https://web.archive.org/web/20011117171524id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    local_path: raw/sheets/IB/methods/2000-01/sheet-4.pdf
+    sha256: 57c8a58ed53c26b6a48908d1d7aa03b980c748f54a321f0f47eea0dbbd8cf4c4
+    fetched_at: '2026-11-20T15:09:55.802844+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20011117171158id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    local_path: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+    sha256: 0e362b586c47f4d89914e803cf0c3a0a61106852863628709f303e5b7c94d388
+    fetched_at: '2026-11-20T15:09:49.069749+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20011117171319id_/http://www.damtp.cam.ac.uk:80/user/examples/C10b.pdf
+    local_path: raw/sheets/IB/methods/2001-02/sheet-2.pdf
+    sha256: 9834b412a499defa08467800c78aebe5018e010b5e0e5a729ab0e1a954463e9f
+    fetched_at: '2026-11-20T15:09:52.093148+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20011117171414id_/http://www.damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    local_path: raw/sheets/IB/methods/2001-02/sheet-3.pdf
+    sha256: 44df449692970850fea00741843370ee12332e7d873a02f21e73ed153960987c
+    fetched_at: '2026-11-20T15:09:54.555692+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20030427033219id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    local_path: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+    sha256: 6acfa46427ada11e63d26f440a2183e1dc1e185a630866f3a8e3719fa6f7a28f
+    fetched_at: '2026-11-20T15:09:58.166010+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches: []
+    visually_verified_title: METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20040716163802id_/http://damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    local_path: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+    sha256: c5c4c64cb1ff68dcafbdfaab0d0af655c8db4ed9821d35c4a0b12fce04c879b9
+    fetched_at: '2026-11-20T15:10:08.001117+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20040716161121id_/http://damtp.cam.ac.uk:80/user/examples/C10b.pdf
+    local_path: raw/sheets/IB/methods/2003-04/sheet-2.pdf
+    sha256: 902fe38a0e9390bfbeea3173d22dd0ae1724fef89b701ffd7fc5722dac787880
+    fetched_at: '2026-11-20T15:10:07.188497+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20040716182711id_/http://damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    local_path: raw/sheets/IB/methods/2003-04/sheet-3.pdf
+    sha256: f169622309906afeb9267da245752dad29616e55c2ab8bbe358f935b2ae5c14f
+    fetched_at: '2026-11-20T15:10:10.918989+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20040716172747id_/http://damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    local_path: raw/sheets/IB/methods/2003-04/sheet-4.pdf
+    sha256: f71c6c39840eb8f88b3902331cf9b6aaf034fd4a54b0d88899fab3c2f2956284
+    fetched_at: '2026-11-20T15:10:08.885952+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20050129020336id_/http://www.damtp.cam.ac.uk:80/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+    sha256: 1af3ac91e85bc5c45109aa29389907e00df798658b6dab647db731e84a416dfe
+    fetched_at: '2026-11-20T15:08:08.010246+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20050129090433id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2004-05/sheet-2.pdf
+    sha256: 3f496c52d2e8db25c1f3b76c1324a24d0bddf7f472b086200648db0dcb5e2056
+    fetched_at: '2026-11-20T15:08:13.556531+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20050129000031id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2004-05/sheet-3.pdf
+    sha256: e1a34de0f690760e1d0c2ed34978f18370b3983afc1441c4ad3c6c61bc489fa8
+    fetched_at: '2026-11-20T15:08:06.397657+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20050129102204id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2004-05/sheet-4.pdf
+    sha256: b7674c06c5021ddb6d7b2047423e3ece68c2d0af54e5ce564daceb018ac48854
+    fetched_at: '2026-11-20T15:08:15.091932+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20070221083144id_/http://www.damtp.cam.ac.uk:80/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+    sha256: e76840677fb69c9e4cf493707dc811cf6baf3294f345c1c2a019b65c6a932abe
+    fetched_at: '2026-11-20T15:08:32.121082+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20070221082840id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2006-07/sheet-2.pdf
+    sha256: 1fa0c106f90d93bfa489560eaf4bca5c00206b4aa2e55849e3ec3f988a38101c
+    fetched_at: '2026-11-20T15:08:30.980366+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20070107074104id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.ps
+    local_path: raw/sheets/IB/methods/2006-07/sheet-3.ps
+    sha256: 8b2601f826864905d1bc2193739fffd5fa623fef1b3b3c914983ff0bb601c5c0
+    fetched_at: '2026-11-20T15:08:21.282564+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20070221082319id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2006-07/sheet-4.pdf
+    sha256: ee7c4b19a4b461e6016ed1d1405982eb4bd575f59ee671b54bd66f89f2914d10
+    fetched_at: '2026-11-20T15:08:29.556201+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20081001012629id_/http://www.damtp.cam.ac.uk:80/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+    sha256: ee8c96c49d16e705a3bbdf07df3626c08d6a366f9f07ab0bb32e67945637e838
+    fetched_at: '2026-11-20T15:08:33.231783+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20081001012634id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2007-08/sheet-2.pdf
+    sha256: c8a9384338065350f392d67dbb926991ed852a5322780899458e31cf488bcea6
+    fetched_at: '2026-11-20T15:08:34.990020+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20081001012639id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2007-08/sheet-3.pdf
+    sha256: ddd7227c69286c099efbae7e117fee04b4f89cc912082fd79ff30fb22f30dcba
+    fetched_at: '2026-11-20T15:08:36.019309+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20081001012645id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2007-08/sheet-4.pdf
+    sha256: 5b4f3e774722843ee3b01223d4ad5e8042d4c8c484d2d4d51923189956bc314b
+    fetched_at: '2026-11-20T15:08:37.293172+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20120417152207id_/http://www.damtp.cam.ac.uk:80/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+    sha256: 2a973c74f647fa6048b176e40a17ad3d3711d8d399db45b33f4baf9b8bfea82d
+    fetched_at: '2026-11-20T15:08:38.603772+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20150926215640id_/http://www.damtp.cam.ac.uk/user/examples/B8a.ps
+    local_path: raw/sheets/IB/methods/2014-15/sheet-1.ps
+    sha256: d063f629152f43b1ca9935b65132bf91d0057f71b8ae1e51f9c1e8365df63e47
+    fetched_at: '2026-11-20T15:08:43.636506+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20141031040214id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2014-15/sheet-2.pdf
+    sha256: dad6588eec97b3239ae7b666417952ed24d0c7dfc753a2d6bff7035e4c2840dd
+    fetched_at: '2026-11-20T15:08:40.954493+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://dec41.user.srcf.net/notes/IB_M/methods_eg.pdf
+    local_path: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    fetched_at: '2026-11-20T12:45:05.960820+00:00'
+    source: public-example-sheet
+    total_pages: 8
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+    - - 3
+      - METHODS — EXAMPLES II
+    - - 5
+      - METHODS — EXAMPLES III
+    - - 7
+      - METHODS — EXAMPLES IV
+  - url: https://www.damtp.cam.ac.uk/user/dbs26/1BMethods/probs1.pdf
+    local_path: raw/sheets/IB/methods/2016-17/sheet-1.pdf
+    sha256: 72c844e977d8c374f44a25835ff18dfe32a9aef534dab5ba045fdde4cff60674
+    fetched_at: '2026-11-20T12:44:52.313203+00:00'
+    source: public-example-sheet
+    total_pages: 3
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 1
+  - url: https://www.damtp.cam.ac.uk/user/dbs26/1BMethods/probs2.pdf
+    local_path: raw/sheets/IB/methods/2016-17/sheet-2.pdf
+    sha256: 736dd7375c8f3aa65ab1a9976b040b8e4cfc3cf9ef6322ed03b57f92e689be35
+    fetched_at: '2026-11-20T12:44:56.089054+00:00'
+    source: public-example-sheet
+    total_pages: 3
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 2
+  - url: https://www.damtp.cam.ac.uk/user/dbs26/1BMethods/probs3.pdf
+    local_path: raw/sheets/IB/methods/2016-17/sheet-3.pdf
+    sha256: 859dd927cad5444ffe62e7bda99260fdea7493dfe25bdadbbe04754b063226c0
+    fetched_at: '2026-11-20T12:44:59.336881+00:00'
+    source: public-example-sheet
+    total_pages: 3
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 3
+  - url: https://www.damtp.cam.ac.uk/user/dbs26/1BMethods/probs4.pdf
+    local_path: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+    sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+    fetched_at: '2026-11-20T12:45:02.430706+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods – Example Sheet 4
+  - url: https://web.archive.org/web/20181220173012id_/http://www.damtp.cam.ac.uk:80/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+    sha256: 299b69853f2d92a53a1c11bf2943310a4f1963813303959fe3aafa4ee700e62b
+    fetched_at: '2026-11-20T15:08:51.330116+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20181220173017id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2018-19/sheet-2.pdf
+    sha256: cd78241aabfbdef2a46355a766e1ceb7361d0eb6db87a67b574781263699a427
+    fetched_at: '2026-11-20T15:08:52.373749+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20181220173022id_/http://www.damtp.cam.ac.uk:80/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2018-19/sheet-3.pdf
+    sha256: 4f0feaece317a6196833f470f5d0593134a9c96d942d3d87703dde1d3e533c62
+    fetched_at: '2026-11-20T15:08:53.579746+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20181220173027id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+    sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+    fetched_at: '2026-11-20T15:08:54.624659+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20200926202324id_/http://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2019-20/sheet-2.pdf
+    sha256: 083b6637938675dd24712e59111b8a883084292ad032815279e5251bbaabfa97
+    fetched_at: '2026-11-20T15:08:55.832457+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20210422141426id_/http://www.damtp.cam.ac.uk/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+    sha256: 5a48b1e9e906a51ab6ad625fd162a931d3ed72d8b8796579acfe04af5c114ece
+    fetched_at: '2026-11-20T15:08:58.885104+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20210422144839id_/http://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2020-21/sheet-2.pdf
+    sha256: cf0d75d82ea64a67479d4e468bb5e493d8dad35a05dff6639ab379de774b693e
+    fetched_at: '2026-11-20T15:09:00.175292+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20210422135425id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2020-21/sheet-3.pdf
+    sha256: 0d3407ba86c4e2d99b3e7ed7b24991c8c83fb763e978f08cacdc1ac95ab56a0b
+    fetched_at: '2026-11-20T15:08:57.363051+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20210422145036id_/http://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+    sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+    fetched_at: '2026-11-20T15:09:02.411468+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20221007123210id_/https://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2021-22/sheet-2.pdf
+    sha256: 6b6d36d4be197f06cccb2235d22bc99e845672c6bee7ed665571212d5e146c43
+    fetched_at: '2026-11-20T15:09:16.497197+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20221007100701id_/https://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2021-22/sheet-3.pdf
+    sha256: e6907e9797118986dd5be4e30e7c1b38ce2ecad3ff821ec7d41a8532a50077a6
+    fetched_at: '2026-11-20T15:09:11.001005+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20221007100724id_/https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+    sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+    fetched_at: '2026-11-20T15:09:13.009222+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20221007100908id_/https://www.damtp.cam.ac.uk/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+    sha256: b7247fac15a6d46a68d6483a348b08417ec303b336261e3f967b8b112b14ab79
+    fetched_at: '2026-11-20T15:09:14.392173+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES I
+  - url: https://web.archive.org/web/20230117061407id_/http://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2022-23/sheet-2.pdf
+    sha256: 288abbbd36effc29668f10e8e37355ef4b3a3bd834f618d08b0aa2a65f3aae9b
+    fetched_at: '2026-11-20T15:09:19.369177+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES II
+  - url: https://web.archive.org/web/20230117061407id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2022-23/sheet-3.pdf
+    sha256: 9d4b22eca0ffbc957b5a3a0eeec9d7fe122d47e51ee672fa0a89d98ba13fd7d2
+    fetched_at: '2026-11-20T15:09:21.267327+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES III
+  - url: https://web.archive.org/web/20221027124441id_/https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+    sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+    fetched_at: '2026-11-20T15:09:17.858141+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - METHODS — EXAMPLES IV
+  - url: https://web.archive.org/web/20231205162006id_/https://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2023-24/sheet-2.pdf
+    sha256: 1664de731f5fd777768181324ef17654635a2083bcad473ed2340fa824946fa6
+    fetched_at: '2026-11-20T15:09:29.142710+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 2
+  - url: https://web.archive.org/web/20231205153125id_/https://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2023-24/sheet-3.pdf
+    sha256: 62bc48f0c831a5f2f4085b3ebd8e5f6df778298ab4cac98de57ada4b0e8189e2
+    fetched_at: '2026-11-20T15:09:27.546922+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 3
+  - url: https://web.archive.org/web/20231205143829id_/https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+    sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+    fetched_at: '2026-11-20T15:09:24.967454+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 4
+  - url: https://web.archive.org/web/20250508005429id_/http://www.damtp.cam.ac.uk/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2024-25/sheet-1.pdf
+    sha256: ceeac51d71dd54ef1c3549b0b35cb2c57eed0258a7526e86c7249997656c5f3b
+    fetched_at: '2026-11-20T12:44:48.628823+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  - url: https://web.archive.org/web/20251126043058id_/http://www.damtp.cam.ac.uk/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2025-26/sheet-1.pdf
+    sha256: b8b1e1cb2a2251f5c5b1861eca9ce50f84933dbc31f358abae72d6b4be2ea2e0
+    fetched_at: '2026-11-20T12:05:32.319932+00:00'
+    source: public-damtp-via-internet-archive
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  - url: https://web.archive.org/web/20251125092819id_/http://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2025-26/sheet-3.pdf
+    sha256: 66621b3642bd2ce203022e4aef35a7530d6a1f020b20f3b73a67d0375fcc2181
+    fetched_at: '2026-11-20T12:44:32.680926+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 3
+  - url: https://web.archive.org/web/20251124192832id_/http://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+    sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+    fetched_at: '2026-11-20T12:44:39.852452+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 4
+  - url: https://www.damtp.cam.ac.uk/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/2026-27/sheet-1.pdf
+    sha256: 0d8da1fd689c9f7c01cbd78175f956113bb669057e63069fd3dee8de93bcfda8
+    fetched_at: '2026-11-20T11:56:58.593208+00:00'
+    source: public-damtp-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  - url: https://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2026-27/sheet-2.pdf
+    sha256: 54b8174be2271ee3807c9b81568d2e056293546181122c6c6d3bbd27b0feafea
+    fetched_at: '2026-11-20T15:08:00.844132+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 2
+  - url: https://www.damtp.cam.ac.uk/user/examples/B8c.pdf
+    local_path: raw/sheets/IB/methods/2026-27/sheet-3.pdf
+    sha256: 47a31eeff51af3c24bcf35556359eee79d8fdd7a1ce9c8cbec1d972338e32a04
+    fetched_at: '2026-11-20T15:08:00.552540+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 3
+  - url: https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    local_path: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+    sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+    fetched_at: '2026-11-20T15:08:00.202158+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 4
+  - url: https://web.archive.org/web/20251201224429id_/http://www.damtp.cam.ac.uk/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/unresolved-2024-2025/sheet-2.pdf
+    sha256: f9696f805bf253b86f15b7ac40fdc1c59fd7f43888c63d5279f7262b582c4ed2
+    fetched_at: '2026-11-20T12:44:43.650636+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 2
+  - url: https://web.archive.org/web/20231205150422id_/https://www.damtp.cam.ac.uk/user/examples/B8a.pdf
+    local_path: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+    sha256: dd8d1e89bbaf423e790c328088efbdc6451630311f8c180e0e9d04eaca7cc893
+    fetched_at: '2026-11-20T12:45:11.911303+00:00'
+    source: public-example-sheet
+    total_pages: 2
+    printed_title_matches:
+    - - 1
+      - Methods, Example Sheet 1
+  uncertain_capture_metadata:
+  - url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    source_page: https://web.archive.org/web/20021127124541id_/http://www.damtp.cam.ac.uk/user/examples/
+    source_kind: Wayback archived DAMTP numbered question sheet
+    sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+    fetched_at_utc: '2026-11-20T15:09:43.685244+00:00'
+    bytes: 372971
+    pages: 2
+    format: pdf
+    final_url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    original: http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    timestamp: '20000902160418'
+    digest: RSQ3LSUCOM7XNTV7FEGS2Z4ILGC6MKBC
+    response_sha1_base32: S2RBPRCCZBU4UB7FYDSVMW5IMM36FEKG
+    memento_datetime: Sat, 02 Sep 2000 16:04:18 GMT
+    cdx_digest_matches_response: false
+    printed_title: METHODS — EXAMPLES IV
+    sheet: 4
+    printed_term: null
+    printed_lecturer: null
+    source_course_basis: Pre-reform DAMTP catalogue and printed METHODS title and
+      C10 code.
+    copyright_year: 2000
+    footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
+      sheet 3 has no dated closing attribution.
+    issue: 2000 copyright and September 2000 capture do not establish a Michaelmas
+      teaching year.
+  - url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    source_page: https://web.archive.org/web/20021127124541id_/http://www.damtp.cam.ac.uk/user/examples/
+    source_kind: Wayback archived DAMTP numbered question sheet
+    sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    fetched_at_utc: '2026-11-20T15:09:44.427462+00:00'
+    bytes: 83288
+    pages: 2
+    format: ps
+    final_url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    original: http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    timestamp: '20000902160424'
+    digest: 5SVVHWYBBOTIH3MH5EST235FVZVRZ35F
+    response_sha1_base32: FUQZRAOBQLY4JERNCBINCXP6TKKAEE7D
+    memento_datetime: Sat, 02 Sep 2000 16:04:24 GMT
+    cdx_digest_matches_response: false
+    printed_title: METHODS — EXAMPLES IV
+    sheet: 4
+    printed_term: null
+    printed_lecturer: null
+    source_course_basis: Pre-reform DAMTP catalogue and printed METHODS title and
+      C10 code.
+    copyright_year: 2000
+    footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
+      sheet 3 has no dated closing attribution.
+    issue: 2000 copyright and September 2000 capture do not establish a Michaelmas
+      teaching year.
+  existing_collection_equivalence:
+  - url: https://web.archive.org/web/20160329023834id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    source_page: https://www.damtp.cam.ac.uk/user/examples/
+    source_kind: Wayback archived DAMTP numbered question sheet
+    sha256: 91321f2a849389acf5108a24b88a91d6d24faff3134eb39670932886aa1b9472
+    fetched_at_utc: '2026-11-20T15:08:49.281273+00:00'
+    bytes: 56464
+    pages: 2
+    format: pdf
+    final_url: https://web.archive.org/web/20160329023834id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    original: http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    timestamp: '20160329023834'
+    digest: L4RXBV2DGKUVYKMNKDHCP6WKTVOO7U4W
+    response_sha1_base32: L4RXBV2DGKUVYKMNKDHCP6WKTVOO7U4W
+    memento_datetime: Tue, 29 Mar 2016 02:38:34 GMT
+    cdx_digest_matches_response: true
+    year: 2015-16
+    sheet: 4
+    represented_by_existing_path: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    evidence: The two 72-dpi grayscale page renders match the corresponding pages
+      of the already archived eight-page Michaelmas 2015 collection.
+schedule_comparison: 'Archived 2025–26 schedules (SHA256 58933e1f1ec0985d2ce1ac79fadc70cfe084273aaaeba5a2ebfc22667ca7f033),
+  physical p.18 (printed 17): earlier Cartesian tensor and variational calculus exercises
+  lie outside the modern Methods list. Derivations of Laplace and wave equations and
+  Rayleigh quotients partly overlap Methods through their results. The Bessel transform
+  calculation extends the listed PDE and Bessel theory.'
+combined_position_policy: One printed number has one ordered occurrence. Earlier classification
+  Q3 contains both modern Q2 and Q3; 2016 string Q7 contains both modern Q10 and Q11.
+  Subpart matches name both targets without inventing additional numbered questions.
+canonical_families_by_id:
+  q01:
+    preferred_edition: 2015-16
+    preferred_original_number: '1'
+    question_sha256: 531196a40edfae392b0874c2ff6166b68ce6aef5d8b7ea4e68966830d0e71288
+    canonical_selection_reason: Includes both baseline initial-value problems and
+      an additional characteristic equation with a uniqueness-region request.
+    schedule_relevance: in-schedule
+    exact_statement_count: 4
+    canonical_file: editions/2015-16/q01/question.tex
+    exact_variants:
+    - 11275d998156eb337f343743912483ff6a441f74ddbddd5ad2bc3f588402ca39
+    - 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+    - 531196a40edfae392b0874c2ff6166b68ce6aef5d8b7ea4e68966830d0e71288
+    - 89028d9005668a363ed32036d70f590fcc217af67d62388ad105adb2beb4379f
+  q02:
+    preferred_edition: 2015-16
+    preferred_original_number: '3'
+    question_sha256: 24a6934262883d076336f2d0b4c35d7e0a938c265e516ae1bd2273db47da60ad
+    canonical_selection_reason: One printed exercise contains both the Tricomi classification
+      and characteristic reduction and the second canonical-form task now printed
+      as baseline q03. The entire numbered item is preserved, with per-subpart mappings.
+    schedule_relevance: in-schedule
+    exact_statement_count: 4
+    canonical_file: editions/2015-16/q03/question.tex
+    exact_variants:
+    - 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+    - 24a6934262883d076336f2d0b4c35d7e0a938c265e516ae1bd2273db47da60ad
+    - 95231bbbe21cab75a8405e790e56707be3737dc2d8988c4a5857bddad7fc2fba
+    - ace4d9ceba43b34bcd4d762431ef806d9bbe6d05e2ff336c2224aebe24f5e2a0
+  q03:
+    preferred_edition: 2025-26
+    preferred_original_number: '3'
+    question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2025-26/q03/question.tex
+    exact_variants:
+    - 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+  q04:
+    preferred_edition: 2025-26
+    preferred_original_number: '4'
+    question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2025-26/q04/question.tex
+    exact_variants:
+    - 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+  q05:
+    preferred_edition: 2025-26
+    preferred_original_number: '5'
+    question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2025-26/q05/question.tex
+    exact_variants:
+    - 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+  q06:
+    preferred_edition: 2025-26
+    preferred_original_number: '6'
+    question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2025-26/q06/question.tex
+    exact_variants:
+    - 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+  q07:
+    preferred_edition: 2025-26
+    preferred_original_number: '7'
+    question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2025-26/q07/question.tex
+    exact_variants:
+    - d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+  q08:
+    preferred_edition: 2018-19
+    preferred_original_number: '4'
+    question_sha256: 3ff72931b3b71afc34ea2c044c5c4072f69fa1c8c034b2d5af6733b4afdd0576
+    canonical_selection_reason: Five printed parts include the Green function, Poisson
+      integral, transform derivation, top-hat data with two sketch requests, and uniform
+      boundary data.
+    schedule_relevance: in-schedule
+    exact_statement_count: 5
+    canonical_file: editions/2018-19/q04/question.tex
+    exact_variants:
+    - 3ff72931b3b71afc34ea2c044c5c4072f69fa1c8c034b2d5af6733b4afdd0576
+    - 4c961b79e82fa653d9d252385f17b559bd6576c890593a6e345bdc31337ec857
+    - 907c0326cf9a1cc3dadb4128f5bc40bfc23bd9913956f5b64a2b4b901216eb12
+    - b3c38502e8545d606d584cfb8313cf5a26002169c44286d0e79c37250ac8031b
+    - e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+    possible_duplicate_of: IB/methods/sheet-1/qx23
+  q09:
+    preferred_edition: 2015-16
+    preferred_original_number: '10'
+    question_sha256: ad463f3065323cff5bc63dd4f7bd836f9cd9b15a32405424e628d3090bb0675f
+    canonical_selection_reason: Includes both interior and exterior spherical Green
+      functions at arbitrary radius in three dimensions. The distinct 2023 n-dimensional
+      unit-ball version and later unit-ball variants retain their own exact text.
+    schedule_relevance: in-schedule
+    exact_statement_count: 7
+    canonical_file: editions/2015-16/q10/question.tex
+    exact_variants:
+    - 52815625aa4c58acaa1af64a2b6ea29c1d3267ccac7bf0d75c1514d705b72c48
+    - 64edd3f2715dd72d3e679fad316764cb1c1077647a08a3225d3b75f0331c2c7f
+    - 8bf35ea15e90ca95a63f6f5b91c38214362d7a60f60c7423b4b22dcfe5661c77
+    - 9d4d00a2f95d2e1cab029b74c3833e96320ec430812aab968f74146cb371c7e4
+    - a03b7cee18babce1fdfe5e81fcb8eb62c76c315c4dcf940b348f8d91dc2de53b
+    - ad463f3065323cff5bc63dd4f7bd836f9cd9b15a32405424e628d3090bb0675f
+    - c3d78db8e7a2cf2f6370955714517950dd1e0f46eb2e41c55ad57f0ebbc106ff
+  q10:
+    preferred_edition: 2025-26
+    preferred_original_number: '10'
+    question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 3
+    canonical_file: editions/2025-26/q10/question.tex
+    exact_variants:
+    - 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+    - d87e0f4c77047baff99507c3b0117c163241c40feeb28b0d4ded42e0c12fa6e6
+    - dd275b6e28b727662aecb14af3ce59196296784ef84d8d2f3898315b17f1b515
+  q11:
+    preferred_edition: 2016-17
+    preferred_original_number: '7'
+    question_sha256: ce862acc8aa38ac34daa02c6b50a03f52a84a5b124702a2363aaf9c67994ae97
+    canonical_selection_reason: One numbered exercise explicitly requests both the
+      infinite-string solution and the pinned-string solution, a comparison and x₀>0.
+      The printed later version instead specifies a semi-infinite string and refers
+      to the previous problem.
+    schedule_relevance: in-schedule
+    exact_statement_count: 4
+    canonical_file: editions/2016-17/q07/question.tex
+    exact_variants:
+    - 3f5f1fcd4d511faf8196a1acb8e2e956173612fe92facc05256d024e02ad9e4a
+    - 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+    - ce862acc8aa38ac34daa02c6b50a03f52a84a5b124702a2363aaf9c67994ae97
+    - d54a7a50f09dc2f65c170394c8a3b4736f6c23a7f007cb93cd3867ff43e2e8af
+  q12:
+    preferred_edition: 2025-26
+    preferred_original_number: '12'
+    question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2025-26/q12/question.tex
+    exact_variants:
+    - abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+  q13:
+    preferred_edition: 2025-26
+    preferred_original_number: '13'
+    question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+    canonical_selection_reason: Verified base statement; no more extensive dated exercise
+      in this family.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2025-26/q13/question.tex
+    exact_variants:
+    - 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+    - fe631d5c08e9a09f920f017315268da24338f027050f407ae2a9e67aefb4ccc4
+  qx01:
+    preferred_edition: 2000-01
+    preferred_original_number: '1'
+    question_sha256: 0cc8896523c7a392e65c39299728c416046cac5c4365cd4f4ed687f2fb473f59
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2000-01/q01/question.tex
+    exact_variants:
+    - 0cc8896523c7a392e65c39299728c416046cac5c4365cd4f4ed687f2fb473f59
+    - 8e4d469e5e70ff60251c0750b7b5105d0ec68f4c26c81627c587cc212cae52fc
+  qx02:
+    preferred_edition: 2000-01
+    preferred_original_number: '2'
+    question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q02/question.tex
+    exact_variants:
+    - b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+  qx03:
+    preferred_edition: 2000-01
+    preferred_original_number: '3'
+    question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q03/question.tex
+    exact_variants:
+    - bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+  qx04:
+    preferred_edition: 2000-01
+    preferred_original_number: '4'
+    question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q04/question.tex
+    exact_variants:
+    - 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+  qx05:
+    preferred_edition: 2000-01
+    preferred_original_number: '5'
+    question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q05/question.tex
+    exact_variants:
+    - 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+  qx06:
+    preferred_edition: 2000-01
+    preferred_original_number: '6'
+    question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q06/question.tex
+    exact_variants:
+    - db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+  qx07:
+    preferred_edition: 2000-01
+    preferred_original_number: '7'
+    question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q07/question.tex
+    exact_variants:
+    - ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+  qx08:
+    preferred_edition: 2000-01
+    preferred_original_number: '8'
+    question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q08/question.tex
+    exact_variants:
+    - 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+  qx09:
+    preferred_edition: 2000-01
+    preferred_original_number: '9'
+    question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q09/question.tex
+    exact_variants:
+    - d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+  qx10:
+    preferred_edition: 2000-01
+    preferred_original_number: '10'
+    question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q10/question.tex
+    exact_variants:
+    - eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+  qx11:
+    preferred_edition: 2003-04
+    preferred_original_number: '11'
+    question_sha256: ce297fefbe294312a1159c5a89b06c4bc5efdf550aeaab7d2c599b8d609d769d
+    canonical_selection_reason: Uses an explicit contraction X_m X_m rather than the
+      earlier squared-index expression in the parallel-axis theorem.
+    schedule_relevance: off-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2003-04/q11/question.tex
+    exact_variants:
+    - c5f34a820601eda5cc64637cb191cdd96358e8c08198c1bbd8fce034fec4d1d0
+    - ce297fefbe294312a1159c5a89b06c4bc5efdf550aeaab7d2c599b8d609d769d
+  qx12:
+    preferred_edition: 2003-04
+    preferred_original_number: '12'
+    question_sha256: 341b5c143f8ab983e2d3f30db76136cb84afd4de682c6d24cce59bc3cf292e91
+    canonical_selection_reason: States the magnetic identities before the force-density
+      task and gives an unambiguous repeated-index contraction in the stress tensor.
+    schedule_relevance: off-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2003-04/q12/question.tex
+    exact_variants:
+    - 1c441d6561e5db0a257a3f932194b71ded478d53a43cc8d1aea82ba0621aae82
+    - 341b5c143f8ab983e2d3f30db76136cb84afd4de682c6d24cce59bc3cf292e91
+  qx13:
+    preferred_edition: 2003-04
+    preferred_original_number: '13'
+    question_sha256: bb6ec7b917a355fe4f3bf901049dbc9cc4c30855a04c04d411e45f2e0740897b
+    canonical_selection_reason: The later printed vector identity places the final
+      B inside the differentiated brackets. The physically different early printed
+      expression is retained as a separate variant.
+    schedule_relevance: off-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2003-04/q13/question.tex
+    exact_variants:
+    - 24227fbc92f94e22ee2671faeb703f067defac26ed370435b6f512837c52b5ab
+    - bb6ec7b917a355fe4f3bf901049dbc9cc4c30855a04c04d411e45f2e0740897b
+  qx14:
+    preferred_edition: 2000-01
+    preferred_original_number: '14'
+    question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2000-01/q14/question.tex
+    exact_variants:
+    - 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+  qx15:
+    preferred_edition: 2006-07
+    preferred_original_number: '1'
+    question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q01/question.tex
+    exact_variants:
+    - 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+    possible_duplicate_of: IB/methods/sheet-3/qx04
+  qx16:
+    preferred_edition: 2006-07
+    preferred_original_number: '2'
+    question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q02/question.tex
+    exact_variants:
+    - 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+    possible_duplicate_of: IB/methods/sheet-3/qx05
+  qx17:
+    preferred_edition: 2006-07
+    preferred_original_number: '3'
+    question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q03/question.tex
+    exact_variants:
+    - 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+    possible_duplicate_of: IB/methods/sheet-3/qx06
+  qx18:
+    preferred_edition: 2006-07
+    preferred_original_number: '4'
+    question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q04/question.tex
+    exact_variants:
+    - f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+    possible_duplicate_of: IB/methods/sheet-3/qx07
+  qx19:
+    preferred_edition: 2006-07
+    preferred_original_number: '5'
+    question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q05/question.tex
+    exact_variants:
+    - 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+    possible_duplicate_of: IB/methods/sheet-3/qx08
+  qx20:
+    preferred_edition: 2006-07
+    preferred_original_number: '6'
+    question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q06/question.tex
+    exact_variants:
+    - 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+    possible_duplicate_of: IB/methods/sheet-3/qx09
+  qx21:
+    preferred_edition: 2006-07
+    preferred_original_number: '7'
+    question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q07/question.tex
+    exact_variants:
+    - 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+    possible_duplicate_of: IB/methods/sheet-3/qx10
+  qx22:
+    preferred_edition: 2006-07
+    preferred_original_number: '8'
+    question_sha256: 0a16211cff24d545bd02ad020678f57301ef00a3ce6b05280d20f8dfe47971ab
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q08/question.tex
+    exact_variants:
+    - 0a16211cff24d545bd02ad020678f57301ef00a3ce6b05280d20f8dfe47971ab
+    possible_duplicate_of: IB/methods/sheet-3/qx11
+  qx23:
+    preferred_edition: 2006-07
+    preferred_original_number: '9'
+    question_sha256: 758ffe0ce91632ee35e14f0272ca66380c5c9fe1ad793df9484f05c74929d74b
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: partly
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q09/question.tex
+    exact_variants:
+    - 758ffe0ce91632ee35e14f0272ca66380c5c9fe1ad793df9484f05c74929d74b
+  qx24:
+    preferred_edition: 2006-07
+    preferred_original_number: '10'
+    question_sha256: e8109b3cc148be3ab1bd5444a44f7834400be67fff862ed6d08d8393e99921d9
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: partly
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q10/question.tex
+    exact_variants:
+    - e8109b3cc148be3ab1bd5444a44f7834400be67fff862ed6d08d8393e99921d9
+  qx25:
+    preferred_edition: 2006-07
+    preferred_original_number: '11'
+    question_sha256: afa23260eb72cb9c0e4a654f060572ede2c690cd01a721dcc6143fcde8060f2f
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: off-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q11/question.tex
+    exact_variants:
+    - afa23260eb72cb9c0e4a654f060572ede2c690cd01a721dcc6143fcde8060f2f
+    possible_duplicate_of: IB/methods/sheet-3/qx12
+  qx26:
+    preferred_edition: 2006-07
+    preferred_original_number: '12'
+    question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: partly
+    exact_statement_count: 1
+    canonical_file: editions/2006-07/q12/question.tex
+    exact_variants:
+    - 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+    possible_duplicate_of: IB/methods/sheet-3/qx13
+  qx27:
+    preferred_edition: 2018-19
+    preferred_original_number: '2'
+    question_sha256: f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+    canonical_selection_reason: Explicitly asks for the solution series, its coefficients
+      and ill-posedness. The other family of wordings supplies a scaling hint.
+    schedule_relevance: in-schedule
+    exact_statement_count: 3
+    canonical_file: editions/2018-19/q02/question.tex
+    exact_variants:
+    - 2ea7fe5c02da00dc38449bd8789ac97ed3f5cf3b7299911eb9bfa319ecdba73a
+    - 7b3c27b658c5bcb61d30b1c9bef9eef5a1f4c6b37a208ac73f031eed6bde7c11
+    - f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+  qx28:
+    preferred_edition: 2015-16
+    preferred_original_number: '4'
+    question_sha256: 54296b138efa867b123fbce2b34b224f8f505def5d3d7dddff57c9f260119df9
+    canonical_selection_reason: The Dirichlet condition is explicit; later editions
+      using unrestricted Green functions remain separate wordings.
+    schedule_relevance: in-schedule
+    exact_statement_count: 3
+    canonical_file: editions/2015-16/q04/question.tex
+    exact_variants:
+    - 1470c4b113ca27b0b13f04072f99c98074761b04526279c2d2c3a432a5156a4f
+    - 32a5ce2e75e2ef1b5e51b791423f2a0ee2bb16ae369d9decb499d99454f53e3c
+    - 54296b138efa867b123fbce2b34b224f8f505def5d3d7dddff57c9f260119df9
+  qx29:
+    preferred_edition: 2015-16
+    preferred_original_number: '5'
+    question_sha256: b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2015-16/q05/question.tex
+    exact_variants:
+    - 2c20d6659e49ad677632a46d7bd3950f428abc801ff0dbb0d2d4ebf6d2a44b20
+    - b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+  qx30:
+    preferred_edition: 2015-16
+    preferred_original_number: '9'
+    question_sha256: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2015-16/q09/question.tex
+    exact_variants:
+    - c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+    - eb49d9241261bf5b8b5d71620269d0109266a8915cbdde35042b3a5e8bbde735
+  qx31:
+    preferred_edition: 2015-16
+    preferred_original_number: '11'
+    question_sha256: b5b88cdf43a59bf74b87541e17b2cfe20a8a16e34f0b7f3915900ed7036264ec
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: in-schedule
+    exact_statement_count: 1
+    canonical_file: editions/2015-16/q11/question.tex
+    exact_variants:
+    - b5b88cdf43a59bf74b87541e17b2cfe20a8a16e34f0b7f3915900ed7036264ec
+  qx32:
+    preferred_edition: 2018-19
+    preferred_original_number: '10'
+    question_sha256: be45c255879e4bf672d63d9de8d7c1a9883b5700429fce94b69475e5c0381a9b
+    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    schedule_relevance: in-schedule
+    exact_statement_count: 2
+    canonical_file: editions/2018-19/q10/question.tex
+    exact_variants:
+    - 3de47efcdc98d00db9d7812035bfccdf34896b881c30b53aa695137c38c2d940
+    - be45c255879e4bf672d63d9de8d7c1a9883b5700429fce94b69475e5c0381a9b
+  qx33:
+    preferred_edition: 2022-23
+    preferred_original_number: '12'
+    question_sha256: e017ef9614546f31e13ec7c2602245fad6d0c83c68d7eebbc4a6b009253b6c0e
+    canonical_selection_reason: Explicitly distinguishes the two half-spaces, supplies
+      the Bessel integral and asks for a plausibility argument. The 2018 axis-based
+      route is retained separately.
+    schedule_relevance: partly
+    exact_statement_count: 2
+    canonical_file: editions/2022-23/q12/question.tex
+    exact_variants:
+    - b13a97b930207e9c18a9c5b5e0398cbef06df2a3987460544077e580f4db9971
+    - e017ef9614546f31e13ec7c2602245fad6d0c83c68d7eebbc4a6b009253b6c0e
+editions:
+  2000-01:
+    archive: raw/sheets/IB/methods/2000-01/sheet-4.pdf
+    sha256: 57c8a58ed53c26b6a48908d1d7aa03b980c748f54a321f0f47eea0dbbd8cf4c4
+    url: https://web.archive.org/web/20011117171524id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    fetched_at: '2026-11-20T15:09:55.802844+00:00'
+    printed_term: Michaelmas term 2000
+    lecturer: Dr E.P.S. Shellard
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2000-01/p1.png
+        sha256: 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+      2:
+        path: evidence/2000-01/p2.png
+        sha256: 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+    before_question:
+      qx01:
+        heading: Cartesian tensors in R³
+        restarts_numbering: false
+    references: {}
+    marks_printed: false
+    printed_course_code: Course C10—No. B9
+    printed_margin_notice: Copyright © 2000 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email epss@amtp.cam.ac.uk.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 0cc8896523c7a392e65c39299728c416046cac5c4365cd4f4ed687f2fb473f59
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: Kronecker delta indices, isotropy and the 2000 direct and quotient-theorem
+          proof requests checked.
+        text: question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: Both sets of three matrices and the printed direction-cosines
+          matrix and product answer checked.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: All nine coefficients, both proposed directions and greatest
+          conductivity 4 checked.
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: All inertia entries, axis (1,1,2), and printed 11/3 checked.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: Transposition, both rotation-prime placements and the two plus-or-minus
+          signs checked.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: Nonzero condition, summed denominator, both projection tests
+          and the negative contraction checked.
+        text: question.tex
+      '7':
+        unit: IB/methods/sheet-4/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+        page_render_sha256:
+        - 8797c9fa5eda31616bda1dd5cb2d2956e8e3238dc9f2d279844e1f7ccbffaae2
+        source_review: The printed star, contracted k and independent ell derivative,
+          and ranks 2 and 4 checked.
+        printed_title_star: true
+        text: question.tex
+      '8':
+        unit: IB/methods/sheet-4/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: The array has 3 cubed elements; the second target interchanges
+          k and m in the second summand.
+        text: question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: The powers −4 and −5, Gaussian r squared, positive gamma and
+          two- versus three-coordinate factors checked.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: The three contractions, two eigenvalue subparts and each coefficient
+          and sign in the cubic were checked.
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: c5f34a820601eda5cc64637cb191cdd96358e8c08198c1bbd8fce034fec4d1d0
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: Parallel-axis identity, origin GP, height a√3 and general inertia
+          quadric; 2000 prints X_m squared, later X_m X_m.
+        text: variants/2000-01/question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1c441d6561e5db0a257a3f932194b71ded478d53a43cc8d1aea82ba0621aae82
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: Both field conditions, force density, stress tensor and half
+          trace checked. The early edition prints H_m squared; the later editions
+          H_m H_m.
+        text: variants/2000-01/question.tex
+      '13':
+        unit: IB/methods/sheet-4/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 24227fbc92f94e22ee2671faeb703f067defac26ed370435b6f512837c52b5ab
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: Printed diagonal blanks, gas and stress sign checked. The 2000
+          differential operator acts on square brackets containing just the scalar.
+          Later editions put the final field vector inside the brackets.
+        printed_title_star: true
+        text: variants/2000-01/question.tex
+      '14':
+        unit: IB/methods/sheet-4/qx14
+        original_question: '14'
+        printed_label: '14.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+        page_render_sha256:
+        - 9959bd860b29715fbfab99eccfe67d40eb9a49573e3f76ccb212bd749ca78cad
+        source_review: All cyclic velocity entries, evaluation point, alternating-tensor
+          indices, axes and eigenvalue request were checked.
+        text: question.tex
+  2003-04:
+    archive: raw/sheets/IB/methods/2003-04/sheet-4.pdf
+    sha256: f71c6c39840eb8f88b3902331cf9b6aaf034fd4a54b0d88899fab3c2f2956284
+    url: https://web.archive.org/web/20040716172747id_/http://damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    fetched_at: '2026-11-20T15:10:08.885952+00:00'
+    printed_term: Michaelmas term 2003
+    lecturer: Dr N. Peake
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2003-04/p1.png
+        sha256: 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+      2:
+        path: evidence/2003-04/p2.png
+        sha256: 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+    before_question:
+      qx01:
+        heading: Cartesian tensors in R³
+        restarts_numbering: false
+    references: {}
+    marks_printed: false
+    printed_course_code: Course C10—No. B9
+    printed_margin_notice: Copyright © 2003 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email n.peake@damtp.cam.ac.uk.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 8e4d469e5e70ff60251c0750b7b5105d0ec68f4c26c81627c587cc212cae52fc
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: Kronecker delta indices, isotropy and the 2000 direct and quotient-theorem
+          proof requests checked.
+        text: variants/2003-04/question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: Both sets of three matrices and the printed direction-cosines
+          matrix and product answer checked.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: All nine coefficients, both proposed directions and greatest
+          conductivity 4 checked.
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: All inertia entries, axis (1,1,2), and printed 11/3 checked.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: Transposition, both rotation-prime placements and the two plus-or-minus
+          signs checked.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: Nonzero condition, summed denominator, both projection tests
+          and the negative contraction checked.
+        text: question.tex
+      '7':
+        unit: IB/methods/sheet-4/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+        page_render_sha256:
+        - 118c382387968614c615edea050f181f64a70e898c93060d324dddc639055b71
+        source_review: The printed star, contracted k and independent ell derivative,
+          and ranks 2 and 4 checked.
+        printed_title_star: true
+        text: question.tex
+      '8':
+        unit: IB/methods/sheet-4/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: The array has 3 cubed elements; the second target interchanges
+          k and m in the second summand.
+        text: question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: The powers −4 and −5, Gaussian r squared, positive gamma and
+          two- versus three-coordinate factors checked.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: The three contractions, two eigenvalue subparts and each coefficient
+          and sign in the cubic were checked.
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: ce297fefbe294312a1159c5a89b06c4bc5efdf550aeaab7d2c599b8d609d769d
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: Parallel-axis identity, origin GP, height a√3 and general inertia
+          quadric; 2000 prints X_m squared, later X_m X_m.
+        text: question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 341b5c143f8ab983e2d3f30db76136cb84afd4de682c6d24cce59bc3cf292e91
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: Both field conditions, force density, stress tensor and half
+          trace checked. The early edition prints H_m squared; the later editions
+          H_m H_m.
+        text: question.tex
+      '13':
+        unit: IB/methods/sheet-4/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: bb6ec7b917a355fe4f3bf901049dbc9cc4c30855a04c04d411e45f2e0740897b
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: Printed diagonal blanks, gas and stress sign checked. The 2000
+          differential operator acts on square brackets containing just the scalar.
+          Later editions put the final field vector inside the brackets.
+        printed_title_star: true
+        text: question.tex
+      '14':
+        unit: IB/methods/sheet-4/qx14
+        original_question: '14'
+        printed_label: '14.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+        page_render_sha256:
+        - 3c07846a33db3b6c330b83f2de48f347ae2efbddb9c94e15763cfaaf9f4e8669
+        source_review: All cyclic velocity entries, evaluation point, alternating-tensor
+          indices, axes and eigenvalue request were checked.
+        text: question.tex
+  2004-05:
+    archive: raw/sheets/IB/methods/2004-05/sheet-4.pdf
+    sha256: b7674c06c5021ddb6d7b2047423e3ece68c2d0af54e5ce564daceb018ac48854
+    url: https://web.archive.org/web/20050129102204id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:08:15.091932+00:00'
+    printed_term: Michaelmas term 2004
+    lecturer: Professor N. Peake
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2004-05/p1.png
+        sha256: 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+      2:
+        path: evidence/2004-05/p2.png
+        sha256: fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+    before_question:
+      qx01:
+        heading: Cartesian tensors in R³
+        restarts_numbering: false
+    references: {}
+    marks_printed: false
+    printed_course_code: Course C10—No. B9
+    printed_margin_notice: Copyright © 2004 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email n.peake@damtp.cam.ac.uk.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 8e4d469e5e70ff60251c0750b7b5105d0ec68f4c26c81627c587cc212cae52fc
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: Kronecker delta indices, isotropy and the 2000 direct and quotient-theorem
+          proof requests checked.
+        text: variants/2004-05/question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: Both sets of three matrices and the printed direction-cosines
+          matrix and product answer checked.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: All nine coefficients, both proposed directions and greatest
+          conductivity 4 checked.
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: All inertia entries, axis (1,1,2), and printed 11/3 checked.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: Transposition, both rotation-prime placements and the two plus-or-minus
+          signs checked.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: Nonzero condition, summed denominator, both projection tests
+          and the negative contraction checked.
+        text: question.tex
+      '7':
+        unit: IB/methods/sheet-4/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+        page_render_sha256:
+        - 04ef4e9fe0859cfc19db0f6febf2151009fc107edd229ad1b55b41f7f40aa294
+        source_review: The printed star, contracted k and independent ell derivative,
+          and ranks 2 and 4 checked.
+        printed_title_star: true
+        text: question.tex
+      '8':
+        unit: IB/methods/sheet-4/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: The array has 3 cubed elements; the second target interchanges
+          k and m in the second summand.
+        text: question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: The powers −4 and −5, Gaussian r squared, positive gamma and
+          two- versus three-coordinate factors checked.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: The three contractions, two eigenvalue subparts and each coefficient
+          and sign in the cubic were checked.
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: ce297fefbe294312a1159c5a89b06c4bc5efdf550aeaab7d2c599b8d609d769d
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: Parallel-axis identity, origin GP, height a√3 and general inertia
+          quadric; 2000 prints X_m squared, later X_m X_m.
+        text: question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 341b5c143f8ab983e2d3f30db76136cb84afd4de682c6d24cce59bc3cf292e91
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: Both field conditions, force density, stress tensor and half
+          trace checked. The early edition prints H_m squared; the later editions
+          H_m H_m.
+        text: question.tex
+      '13':
+        unit: IB/methods/sheet-4/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: bb6ec7b917a355fe4f3bf901049dbc9cc4c30855a04c04d411e45f2e0740897b
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: Printed diagonal blanks, gas and stress sign checked. The 2000
+          differential operator acts on square brackets containing just the scalar.
+          Later editions put the final field vector inside the brackets.
+        printed_title_star: true
+        text: question.tex
+      '14':
+        unit: IB/methods/sheet-4/qx14
+        original_question: '14'
+        printed_label: '14.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+        page_render_sha256:
+        - fda7dcccb40b959ed36442ae6f0cb0d11501df385d9bb7a580ccb69d9954f7a7
+        source_review: All cyclic velocity entries, evaluation point, alternating-tensor
+          indices, axes and eigenvalue request were checked.
+        text: question.tex
+  2006-07:
+    archive: raw/sheets/IB/methods/2006-07/sheet-4.pdf
+    sha256: ee7c4b19a4b461e6016ed1d1405982eb4bd575f59ee671b54bd66f89f2914d10
+    url: https://web.archive.org/web/20070221082319id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:08:29.556201+00:00'
+    printed_term: Michaelmas term 2006
+    lecturer: Dr C. P. Caulfield
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2006-07/p1.png
+        sha256: 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+      2:
+        path: evidence/2006-07/p2.png
+        sha256: 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+    before_question:
+      qx15:
+        heading: Extrema and Lagrange multipliers
+        restarts_numbering: false
+      qx18:
+        heading: Euler-Lagrange equations
+        restarts_numbering: false
+      qx22:
+        heading: Generalizations and applications of the Euler-Lagrange equations
+        restarts_numbering: false
+    references: {}
+    marks_printed: false
+    printed_course_code: Course C10—No. B8
+    printed_margin_notice: Copyright © 2006 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/qx15
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        source_review: Retains the two-axis extrema, constant-height contours, initial
+          point, both route requests and the italic word “without”.
+        text: question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx16
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        source_review: Checked the three quartics, three mixed terms, claimed minimum
+          and saddle count, and the inverse tangent of square root two.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/qx17
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        source_review: Radical includes printed square brackets. Both perimeter tasks
+          and right-angle restriction retained.
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx18
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        source_review: Waterloo and Paddington, release from rest, uniform gravity,
+          equal levels, half-power travel time and the bracketed vertical-tunnel comment
+          retained.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx19
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        source_review: Straight fence length a, flexible fencing length ell, strict
+          lower and upper bounds and spelling “maximized” checked.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/qx20
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        source_review: The square root is in the denominator of c(y). Retains upper
+          bound on k, entrance and exit signs, turning-height equation and height
+          bound.
+        text: question.tex
+      '7':
+        unit: IB/methods/sheet-4/qx21
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        - 2
+        question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+        page_render_sha256:
+        - 61bcf5ae8db086c1b72447514e5a537d52d23dc91f3c48efec471c123a64467d
+        - 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+        source_review: Checked fixed endpoints and cable length, both bounds of both
+          integrals, first integral including its partial derivative, and positive
+          uniqueness request.
+        text: question.tex
+      '8':
+        unit: IB/methods/sheet-4/qx22
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 0a16211cff24d545bd02ad020678f57301ef00a3ce6b05280d20f8dfe47971ab
+        page_render_sha256:
+        - 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+        source_review: Second time derivative in the integrand, four endpoint values
+          including both negative slopes, and t to the fourth power checked.
+        text: question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx23
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 758ffe0ce91632ee35e14f0272ca66380c5c9fe1ad793df9484f05c74929d74b
+        page_render_sha256:
+        - 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+        source_review: Both expressions for the electrostatic energy, the permittivity,
+          and the printed phrase “that J is takes an extremal value” checked.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx24
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e8109b3cc148be3ab1bd5444a44f7834400be67fff862ed6d08d8393e99921d9
+        page_render_sha256:
+        - 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+        source_review: Checked the density per unit length, opposite signs, tension
+          and mass density and Hamilton’s Principle request.
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx25
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: afa23260eb72cb9c0e4a654f060572ede2c690cd01a721dcc6143fcde8060f2f
+        page_render_sha256:
+        - 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+        source_review: The title has no star here; checked the relativistic qualification,
+          inverse Lorentz factor, vector product and both field definitions.
+        text: question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+        page_render_sha256:
+        - 8738c5709e884b9f6b1a6648db8746887d02525cc2bdb1e2a690c862e9c1db08
+        source_review: The print says w(x) ≥ 0 and “Minimise” for both (ii) and (iii).
+          Lower and upper bounds and the final qualification about extremal values
+          are retained.
+        text: question.tex
+  2007-08:
+    archive: raw/sheets/IB/methods/2007-08/sheet-4.pdf
+    sha256: 5b4f3e774722843ee3b01223d4ad5e8042d4c8c484d2d4d51923189956bc314b
+    url: https://web.archive.org/web/20081001012645id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:08:37.293172+00:00'
+    printed_term: Michaelmas term 2007
+    lecturer: Dr C. P. Caulfield
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2007-08/p1.png
+        sha256: f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+      2:
+        path: evidence/2007-08/p2.png
+        sha256: 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+    before_question:
+      qx15:
+        heading: Extrema and Lagrange multipliers
+        restarts_numbering: false
+      qx18:
+        heading: Euler-Lagrange equations
+        restarts_numbering: false
+      qx22:
+        heading: Generalizations and applications of the Euler-Lagrange equations
+        restarts_numbering: false
+    references: {}
+    marks_printed: false
+    printed_course_code: Course C10—No. B8
+    printed_margin_notice: Copyright © 2007 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/qx15
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02ceea523f02e310abd87ad77639377e67064a1e344249f10ede5638a47d71d3
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        source_review: Retains the two-axis extrema, constant-height contours, initial
+          point, both route requests and the italic word “without”.
+        text: question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx16
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4602a9a3c87d4ab9834a3e8278e685e4b6598f19661004b73ed47523d5a419de
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        source_review: Checked the three quartics, three mixed terms, claimed minimum
+          and saddle count, and the inverse tangent of square root two.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/qx17
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6a0900733d6c424af9fd62d08477817f22ea4e0be8a985ab87625bb2830480b5
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        source_review: Radical includes printed square brackets. Both perimeter tasks
+          and right-angle restriction retained.
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx18
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f54d59ee2aedb1ae76d46b9bac234ce613b446176494947cbafe8d47a4de6f3d
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        source_review: Waterloo and Paddington, release from rest, uniform gravity,
+          equal levels, half-power travel time and the bracketed vertical-tunnel comment
+          retained.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx19
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 7b38f294464d426a9b2ab896f9e033c9b193af103f2419121e53d2dcdc18a9f6
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        source_review: Straight fence length a, flexible fencing length ell, strict
+          lower and upper bounds and spelling “maximized” checked.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/qx20
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 290f2578d21de79aa5f1ad705e449d6ac109666961b2b720edfdc30730f9a4b9
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        source_review: The square root is in the denominator of c(y). Retains upper
+          bound on k, entrance and exit signs, turning-height equation and height
+          bound.
+        text: question.tex
+      '7':
+        unit: IB/methods/sheet-4/qx21
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        - 2
+        question_sha256: 1ac9532e39f2dd24fec4b3dbf626463304babf8e2f7243e5dd236de82558e788
+        page_render_sha256:
+        - f30d2a896f2c78a87ef39585aadfec3241ee02e4c304a4e37d185db079e042a9
+        - 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+        source_review: Checked fixed endpoints and cable length, both bounds of both
+          integrals, first integral including its partial derivative, and positive
+          uniqueness request.
+        text: question.tex
+      '8':
+        unit: IB/methods/sheet-4/qx22
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 0a16211cff24d545bd02ad020678f57301ef00a3ce6b05280d20f8dfe47971ab
+        page_render_sha256:
+        - 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+        source_review: Second time derivative in the integrand, four endpoint values
+          including both negative slopes, and t to the fourth power checked.
+        text: question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx23
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 758ffe0ce91632ee35e14f0272ca66380c5c9fe1ad793df9484f05c74929d74b
+        page_render_sha256:
+        - 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+        source_review: Both expressions for the electrostatic energy, the permittivity,
+          and the printed phrase “that J is takes an extremal value” checked.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx24
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e8109b3cc148be3ab1bd5444a44f7834400be67fff862ed6d08d8393e99921d9
+        page_render_sha256:
+        - 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+        source_review: Checked the density per unit length, opposite signs, tension
+          and mass density and Hamilton’s Principle request.
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx25
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: afa23260eb72cb9c0e4a654f060572ede2c690cd01a721dcc6143fcde8060f2f
+        page_render_sha256:
+        - 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+        source_review: The title has no star here; checked the relativistic qualification,
+          inverse Lorentz factor, vector product and both field definitions.
+        text: question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx26
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 85901467296ee396acdeb2c58d1f0e9e10782567b107fb5f30e2cde85ff8507f
+        page_render_sha256:
+        - 6d077ba536496c702881ace1ac0b5350a85ee754b86b58b58c5eace41c53e94a
+        source_review: The print says w(x) ≥ 0 and “Minimise” for both (ii) and (iii).
+          Lower and upper bounds and the final qualification about extremal values
+          are retained.
+        text: question.tex
+  2015-16:
+    archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    url: https://dec41.user.srcf.net/notes/IB_M/methods_eg.pdf
+    fetched_at: '2026-11-20T12:45:05.960820+00:00'
+    printed_term: Michaelmas term 2015
+    lecturer: Dr. D. Skinner
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 7.
+    archive_page_count: 8
+    sheet_pages:
+    - 7
+    - 8
+    rendered_pages:
+      7:
+        path: evidence/2015-16/p7.png
+        sha256: 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+      8:
+        path: evidence/2015-16/p8.png
+        sha256: 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+    before_question:
+      q01:
+        heading: General properties of PDEs
+        restarts_numbering: false
+      qx28:
+        heading: Properties of Green’s functions
+        restarts_numbering: false
+      q08:
+        heading: Applications of Green’s functions
+        restarts_numbering: false
+    references:
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    printed_margin_notice: Copyright © 2015 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    printed_course_code: Course C10—No. B8
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 7
+        pages:
+        - 7
+        question_sha256: 531196a40edfae392b0874c2ff6166b68ce6aef5d8b7ea4e68966830d0e71288
+        page_render_sha256:
+        - 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+        source_review: Three equations, including y u_x + x u_y = 0 and region of
+          uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
+          versions print y.
+        text: question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx27
+        original_question: '2'
+        printed_label: '2.'
+        page: 7
+        pages:
+        - 7
+        question_sha256: 7b3c27b658c5bcb61d30b1c9bef9eef5a1f4c6b37a208ac73f031eed6bde7c11
+        page_render_sha256:
+        - 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+        source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
+          supply the Fourier series and ask to derive it as a separate step.
+        text: variants/2015-16/question.tex
+      '3':
+        unit: IB/methods/sheet-4/q02
+        original_question: '3'
+        printed_label: '3.'
+        page: 7
+        pages:
+        - 7
+        question_sha256: 24a6934262883d076336f2d0b4c35d7e0a938c265e516ae1bd2273db47da60ad
+        page_render_sha256:
+        - 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+        source_review: These are composite numbered questions, combining the base
+          q02 Tricomi and base q03 reduction tasks. 2016 uses derivative operators
+          and a square root; the other historical sheets use subscripts and bracketed
+          half powers.
+        subpart_matches:
+          i): IB/methods/sheet-4/q02
+          ii): IB/methods/sheet-4/q03
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx28
+        original_question: '4'
+        printed_label: '4.'
+        page: 7
+        pages:
+        - 7
+        question_sha256: 54296b138efa867b123fbce2b34b224f8f505def5d3d7dddff57c9f260119df9
+        page_render_sha256:
+        - 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+        source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
+          function” on an arbitrary domain; they print no boundary condition.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx29
+        original_question: '5'
+        printed_label: '5.'
+        page: 7
+        pages:
+        - 7
+        question_sha256: b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+        page_render_sha256:
+        - 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+        source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
+          statements. 2016 alone prints ∂Ω, with normal vector and gradients.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/q08
+        original_question: '6'
+        printed_label: '6.'
+        page: 7
+        pages:
+        - 7
+        - 8
+        question_sha256: 907c0326cf9a1cc3dadb4128f5bc40bfc23bd9913956f5b64a2b4b901216eb12
+        page_render_sha256:
+        - 7eb54fd615540532c960f252bb87c2935b31ddd3c6c83de91b5bf9371b2dbab3
+        - 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+        source_review: 2018 has five parts, including constant boundary data. 2015
+          does not print (another!) in part ii. 2020–22 replace parts iv and v with
+          a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
+          formula and ψ₀ in the data.
+        text: variants/2015-16/question.tex
+      '7':
+        unit: IB/methods/sheet-4/q10
+        original_question: '7'
+        printed_label: '7.'
+        page: 8
+        pages:
+        - 8
+        question_sha256: dd275b6e28b727662aecb14af3ce59196296784ef84d8d2f3898315b17f1b515
+        page_render_sha256:
+        - 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+        source_review: The literal phrasing in 2015/2018/2020–22 is “an initial velocity
+          of”, “a constant”. 2016 combines both strings under a single number and
+          says x₀ > 0.
+        text: variants/2015-16/question.tex
+      '8':
+        unit: IB/methods/sheet-4/q11
+        original_question: '8'
+        printed_label: '8.'
+        page: 8
+        pages:
+        - 8
+        question_sha256: 3f5f1fcd4d511faf8196a1acb8e2e956173612fe92facc05256d024e02ad9e4a
+        page_render_sha256:
+        - 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+        source_review: Position dependent reference to the previous question in the
+          separate-string editions. No positivity condition printed for x₀ in those
+          historical versions.
+        text: variants/2015-16/question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx30
+        original_question: '9'
+        printed_label: '9.'
+        page: 8
+        pages:
+        - 8
+        question_sha256: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+        page_render_sha256:
+        - 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+        source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
+          quadrant and states the set in words.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/q09
+        original_question: '10'
+        printed_label: '10.'
+        page: 8
+        pages:
+        - 8
+        question_sha256: ad463f3065323cff5bc63dd4f7bd836f9cd9b15a32405424e628d3090bb0675f
+        page_render_sha256:
+        - 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+        source_review: 2015, 2018, 2016 and 2020–22 explicitly ask about the exterior
+          of a sphere as well as its interior. 2015 inserts “where” before the definition
+          of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
+        printed_title_star: true
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx31
+        original_question: '11'
+        printed_label: '11.'
+        page: 8
+        pages:
+        - 8
+        question_sha256: b5b88cdf43a59bf74b87541e17b2cfe20a8a16e34f0b7f3915900ed7036264ec
+        page_render_sha256:
+        - 426d11ffd30987f39ee728a809e8931d355b67fd4c43cc550bb936c358ba63c1
+        source_review: Checked zero initial data, complete cone of integration, signs
+          in the Green kernel equation, forcing cos x and request for all zeros in
+          time.
+        text: question.tex
+  2016-17:
+    archive: raw/sheets/IB/methods/2016-17/sheet-4.pdf
+    sha256: f2309cc009352a07c5f99822251d0c582c2c67a5193cf1a10ff5972a96da84cf
+    url: https://www.damtp.cam.ac.uk/user/dbs26/1BMethods/probs4.pdf
+    fetched_at: '2026-11-20T12:45:02.430706+00:00'
+    printed_term: Michaelmas 2016
+    lecturer: David Skinner
+    printed_title: 1B Methods – Example Sheet 4
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2016-17/p1.png
+        sha256: 5a9a59ad7f6c05a32a66966fb6c01f0af70fa0ac62f0cb18c886f3b6db6ca042
+      2:
+        path: evidence/2016-17/p2.png
+        sha256: 9b84ea1ad2e310811f02f00a29643262956efe23d3a8ea28eb33ff3d57e5f7fc
+    before_question: {}
+    references: {}
+    marks_printed: false
+    opening_rubric_tex: \emph{Please email me with any comments, particularly if you
+      spot an error. Problems marked with an asterisk $(*)$ are optional; only attempt
+      them if you have time.}
+    pdf_links:
+    - page: 1
+      text: email me
+      target: mailto:d.b.skinner@damtp.cam.ac.uk
+    - page: 1
+      text: d.b.skinner@damtp.cam.ac.uk
+      target: mailto:d.b.skinner@damtp.cam.ac.uk
+    - page: 2
+      text: d.b.skinner@damtp.cam.ac.uk
+      target: mailto:d.b.skinner@damtp.cam.ac.uk
+    footer: David Skinner     d.b.skinner@damtp.cam.ac.uk
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 11275d998156eb337f343743912483ff6a441f74ddbddd5ad2bc3f588402ca39
+        page_render_sha256:
+        - 5a9a59ad7f6c05a32a66966fb6c01f0af70fa0ac62f0cb18c886f3b6db6ca042
+        source_review: Three equations, including y u_x + x u_y = 0 and region of
+          uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
+          versions print y.
+        text: variants/2016-17/question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx27
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 2ea7fe5c02da00dc38449bd8789ac97ed3f5cf3b7299911eb9bfa319ecdba73a
+        page_render_sha256:
+        - 5a9a59ad7f6c05a32a66966fb6c01f0af70fa0ac62f0cb18c886f3b6db6ca042
+        source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
+          supply the Fourier series and ask to derive it as a separate step.
+        text: variants/2016-17/question.tex
+      '3':
+        unit: IB/methods/sheet-4/q02
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: ace4d9ceba43b34bcd4d762431ef806d9bbe6d05e2ff336c2224aebe24f5e2a0
+        page_render_sha256:
+        - 5a9a59ad7f6c05a32a66966fb6c01f0af70fa0ac62f0cb18c886f3b6db6ca042
+        source_review: These are composite numbered questions, combining the base
+          q02 Tricomi and base q03 reduction tasks. 2016 uses derivative operators
+          and a square root; the other historical sheets use subscripts and bracketed
+          half powers.
+        subpart_matches:
+          (a): IB/methods/sheet-4/q02
+          (b): IB/methods/sheet-4/q03
+        text: variants/2016-17/question.tex
+      '4':
+        unit: IB/methods/sheet-4/qx28
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 32a5ce2e75e2ef1b5e51b791423f2a0ee2bb16ae369d9decb499d99454f53e3c
+        page_render_sha256:
+        - 5a9a59ad7f6c05a32a66966fb6c01f0af70fa0ac62f0cb18c886f3b6db6ca042
+        source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
+          function” on an arbitrary domain; they print no boundary condition.
+        text: variants/2016-17/question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx29
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 2c20d6659e49ad677632a46d7bd3950f428abc801ff0dbb0d2d4ebf6d2a44b20
+        page_render_sha256:
+        - 5a9a59ad7f6c05a32a66966fb6c01f0af70fa0ac62f0cb18c886f3b6db6ca042
+        source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
+          statements. 2016 alone prints ∂Ω, with normal vector and gradients.
+        text: variants/2016-17/question.tex
+      '6':
+        unit: IB/methods/sheet-4/q08
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b3c38502e8545d606d584cfb8313cf5a26002169c44286d0e79c37250ac8031b
+        page_render_sha256:
+        - 9b84ea1ad2e310811f02f00a29643262956efe23d3a8ea28eb33ff3d57e5f7fc
+        source_review: 2018 has five parts, including constant boundary data. 2015
+          does not print (another!) in part ii. 2020–22 replace parts iv and v with
+          a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
+          formula and ψ₀ in the data.
+        text: variants/2016-17/question.tex
+      '7':
+        unit: IB/methods/sheet-4/q11
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: ce862acc8aa38ac34daa02c6b50a03f52a84a5b124702a2363aaf9c67994ae97
+        page_render_sha256:
+        - 9b84ea1ad2e310811f02f00a29643262956efe23d3a8ea28eb33ff3d57e5f7fc
+        source_review: Both the infinite string and the string pinned at x=0 are requested
+          under one number. The print says “free to osillate”, gives x₀>0 and requests
+          comparison.
+        subpart_matches:
+          (a): IB/methods/sheet-4/q10
+          (b) and final comparison: IB/methods/sheet-4/q11
+        text: question.tex
+      '8':
+        unit: IB/methods/sheet-4/qx30
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: eb49d9241261bf5b8b5d71620269d0109266a8915cbdde35042b3a5e8bbde735
+        page_render_sha256:
+        - 9b84ea1ad2e310811f02f00a29643262956efe23d3a8ea28eb33ff3d57e5f7fc
+        source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
+          quadrant and states the set in words.
+        text: variants/2016-17/question.tex
+      '9':
+        unit: IB/methods/sheet-4/q09
+        original_question: '9'
+        printed_label: 9*.
+        page: 2
+        pages:
+        - 2
+        question_sha256: 9d4d00a2f95d2e1cab029b74c3833e96320ec430812aab968f74146cb371c7e4
+        page_render_sha256:
+        - 9b84ea1ad2e310811f02f00a29643262956efe23d3a8ea28eb33ff3d57e5f7fc
+        source_review: 2015, 2018, 2016 and 2020–22 explicitly ask about the exterior
+          of a sphere as well as its interior. 2015 inserts “where” before the definition
+          of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
+        printed_title_star: true
+        text: variants/2016-17/question.tex
+  2018-19:
+    archive: raw/sheets/IB/methods/2018-19/sheet-4.pdf
+    sha256: 37020ebdadf9bd4702ac4207355ca74eb9e36d835a2158a5f213ace8be5062a5
+    url: https://web.archive.org/web/20181220173027id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:08:54.624659+00:00'
+    printed_term: Michaelmas term 2018
+    lecturer: Professor C. P. Caulfield
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2018-19/p1.png
+        sha256: 7730b9de944e13c6c4e2706174d4511918b4b4929fe0ea881c31dec8791b211b
+      2:
+        path: evidence/2018-19/p2.png
+        sha256: d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+    before_question:
+      q01:
+        heading: General properties of PDEs
+        restarts_numbering: false
+      q08:
+        heading: Applications of Green’s functions
+        restarts_numbering: false
+      qx29:
+        heading: Properties of Green’s functions
+        restarts_numbering: false
+      qx33:
+        heading: Bessel functions revisited
+        restarts_numbering: false
+    references:
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email c.p.caulfield@bpi.cam.ac.uk.
+    printed_margin_notice: Copyright © 2018 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    printed_course_code: Course C10—No. B8
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 531196a40edfae392b0874c2ff6166b68ce6aef5d8b7ea4e68966830d0e71288
+        page_render_sha256:
+        - 7730b9de944e13c6c4e2706174d4511918b4b4929fe0ea881c31dec8791b211b
+        source_review: Three equations, including y u_x + x u_y = 0 and region of
+          uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
+          versions print y.
+        text: question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx27
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+        page_render_sha256:
+        - 7730b9de944e13c6c4e2706174d4511918b4b4929fe0ea881c31dec8791b211b
+        source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
+          supply the Fourier series and ask to derive it as a separate step.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/q02
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 24a6934262883d076336f2d0b4c35d7e0a938c265e516ae1bd2273db47da60ad
+        page_render_sha256:
+        - 7730b9de944e13c6c4e2706174d4511918b4b4929fe0ea881c31dec8791b211b
+        source_review: These are composite numbered questions, combining the base
+          q02 Tricomi and base q03 reduction tasks. 2016 uses derivative operators
+          and a square root; the other historical sheets use subscripts and bracketed
+          half powers.
+        subpart_matches:
+          i): IB/methods/sheet-4/q02
+          ii): IB/methods/sheet-4/q03
+        text: question.tex
+      '4':
+        unit: IB/methods/sheet-4/q08
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 3ff72931b3b71afc34ea2c044c5c4072f69fa1c8c034b2d5af6733b4afdd0576
+        page_render_sha256:
+        - 7730b9de944e13c6c4e2706174d4511918b4b4929fe0ea881c31dec8791b211b
+        source_review: 2018 has five parts, including constant boundary data. 2015
+          does not print (another!) in part ii. 2020–22 replace parts iv and v with
+          a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
+          formula and ψ₀ in the data.
+        text: question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx30
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+        page_render_sha256:
+        - 7730b9de944e13c6c4e2706174d4511918b4b4929fe0ea881c31dec8791b211b
+        source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
+          quadrant and states the set in words.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/q10
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d87e0f4c77047baff99507c3b0117c163241c40feeb28b0d4ded42e0c12fa6e6
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: The literal phrasing in 2015/2018/2020–22 is “an initial velocity
+          of”, “a constant”. 2016 combines both strings under a single number and
+          says x₀ > 0.
+        text: variants/2018-19/question.tex
+      '7':
+        unit: IB/methods/sheet-4/q11
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d54a7a50f09dc2f65c170394c8a3b4736f6c23a7f007cb93cd3867ff43e2e8af
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: Position dependent reference to the previous question in the
+          separate-string editions. No positivity condition printed for x₀ in those
+          historical versions.
+        text: variants/2018-19/question.tex
+      '8':
+        unit: IB/methods/sheet-4/q09
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 64edd3f2715dd72d3e679fad316764cb1c1077647a08a3225d3b75f0331c2c7f
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: 2015, 2018, 2016 and 2020–22 explicitly ask about the exterior
+          of a sphere as well as its interior. 2015 inserts “where” before the definition
+          of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
+        printed_title_star: true
+        text: variants/2018-19/question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx29
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
+          statements. 2016 alone prints ∂Ω, with normal vector and gradients.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx32
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: be45c255879e4bf672d63d9de8d7c1a9883b5700429fce94b69475e5c0381a9b
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: 2018 has bounded and continuous inside the display, with an
+          alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
+          in prose.
+        text: question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx28
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1470c4b113ca27b0b13f04072f99c98074761b04526279c2d2c3a432a5156a4f
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
+          function” on an arbitrary domain; they print no boundary condition.
+        text: variants/2018-19/question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx33
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b13a97b930207e9c18a9c5b5e0398cbef06df2a3987460544077e580f4db9971
+        page_render_sha256:
+        - d56ab950633f5608c165b1498da29aa6b5aa16c13918674a0752c62d6ebe326e
+        source_review: 2018 evaluates on the R=0 axis. Shellard evaluates on the z=0
+          plane, gives the Bessel integral, and explicitly requests a plausibility
+          argument.
+        text: variants/2018-19/question.tex
+  2020-21:
+    archive: raw/sheets/IB/methods/2020-21/sheet-4.pdf
+    sha256: d7e5cddb4eb991c2ca9192b97dc64e24fd18510367a8ff4eed6aba12a9eed1a3
+    url: https://web.archive.org/web/20210422145036id_/http://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:09:02.411468+00:00'
+    printed_term: Michaelmas term 2020
+    lecturer: Professor E.P.S. Shellard
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2020-21/p1.png
+        sha256: 45d199491d5db1f1e956d852ca760781d7b9e560aa89313d16daf364c5375555
+      2:
+        path: evidence/2020-21/p2.png
+        sha256: 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+    before_question:
+      q01:
+        heading: General properties of PDEs
+        restarts_numbering: false
+      q08:
+        heading: Applications of Green’s functions
+        restarts_numbering: false
+      qx29:
+        heading: Properties of Green’s functions
+        restarts_numbering: false
+      qx33:
+        heading: Bessel functions revisited
+        restarts_numbering: false
+    references:
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email epss@damtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2020 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 89028d9005668a363ed32036d70f590fcc217af67d62388ad105adb2beb4379f
+        page_render_sha256:
+        - 45d199491d5db1f1e956d852ca760781d7b9e560aa89313d16daf364c5375555
+        source_review: Three equations, including y u_x + x u_y = 0 and region of
+          uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
+          versions print y.
+        text: variants/2020-21/question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx27
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+        page_render_sha256:
+        - 45d199491d5db1f1e956d852ca760781d7b9e560aa89313d16daf364c5375555
+        source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
+          supply the Fourier series and ask to derive it as a separate step.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/q02
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 95231bbbe21cab75a8405e790e56707be3737dc2d8988c4a5857bddad7fc2fba
+        page_render_sha256:
+        - 45d199491d5db1f1e956d852ca760781d7b9e560aa89313d16daf364c5375555
+        source_review: These are composite numbered questions, combining the base
+          q02 Tricomi and base q03 reduction tasks. 2016 uses derivative operators
+          and a square root; the other historical sheets use subscripts and bracketed
+          half powers.
+        subpart_matches:
+          (i): IB/methods/sheet-4/q02
+          (ii): IB/methods/sheet-4/q03
+        text: variants/2020-21/question.tex
+      '4':
+        unit: IB/methods/sheet-4/q08
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4c961b79e82fa653d9d252385f17b559bd6576c890593a6e345bdc31337ec857
+        page_render_sha256:
+        - 45d199491d5db1f1e956d852ca760781d7b9e560aa89313d16daf364c5375555
+        source_review: 2018 has five parts, including constant boundary data. 2015
+          does not print (another!) in part ii. 2020–22 replace parts iv and v with
+          a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
+          formula and ψ₀ in the data.
+        text: variants/2020-21/question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx30
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+        page_render_sha256:
+        - 45d199491d5db1f1e956d852ca760781d7b9e560aa89313d16daf364c5375555
+        source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
+          quadrant and states the set in words.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/q10
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d87e0f4c77047baff99507c3b0117c163241c40feeb28b0d4ded42e0c12fa6e6
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: The literal phrasing in 2015/2018/2020–22 is “an initial velocity
+          of”, “a constant”. 2016 combines both strings under a single number and
+          says x₀ > 0.
+        text: variants/2020-21/question.tex
+      '7':
+        unit: IB/methods/sheet-4/q11
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d54a7a50f09dc2f65c170394c8a3b4736f6c23a7f007cb93cd3867ff43e2e8af
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: Position dependent reference to the previous question in the
+          separate-string editions. No positivity condition printed for x₀ in those
+          historical versions.
+        text: variants/2020-21/question.tex
+      '8':
+        unit: IB/methods/sheet-4/q09
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 52815625aa4c58acaa1af64a2b6ea29c1d3267ccac7bf0d75c1514d705b72c48
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: 2015, 2018, 2016 and 2020–22 explicitly ask about the exterior
+          of a sphere as well as its interior. 2015 inserts “where” before the definition
+          of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
+        printed_title_star: true
+        text: variants/2020-21/question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx29
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
+          statements. 2016 alone prints ∂Ω, with normal vector and gradients.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx32
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 3de47efcdc98d00db9d7812035bfccdf34896b881c30b53aa695137c38c2d940
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: 2018 has bounded and continuous inside the display, with an
+          alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
+          in prose.
+        text: variants/2020-21/question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx28
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1470c4b113ca27b0b13f04072f99c98074761b04526279c2d2c3a432a5156a4f
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
+          function” on an arbitrary domain; they print no boundary condition.
+        text: variants/2020-21/question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx33
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e017ef9614546f31e13ec7c2602245fad6d0c83c68d7eebbc4a6b009253b6c0e
+        page_render_sha256:
+        - 6c63940684ad4c02dbb8895afe6767a9a9fcf5fa98fbaf297073e6f084d09ac8
+        source_review: 2018 evaluates on the R=0 axis. Shellard evaluates on the z=0
+          plane, gives the Bessel integral, and explicitly requests a plausibility
+          argument.
+        text: question.tex
+  2021-22:
+    archive: raw/sheets/IB/methods/2021-22/sheet-4.pdf
+    sha256: a5ced8ebea7f233a493cd342eb3177ba3f21660ce23940599ee1c4371ef4e5f4
+    url: https://web.archive.org/web/20221007100724id_/https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:09:13.009222+00:00'
+    printed_term: Michaelmas term 2021
+    lecturer: Professor E.P.S. Shellard
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2021-22/p1.png
+        sha256: 8c1b6733075c36c7d157f0ce315cd7dadc921ec2af79544bb67567089b9150c1
+      2:
+        path: evidence/2021-22/p2.png
+        sha256: d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+    before_question:
+      q01:
+        heading: General properties of PDEs
+        restarts_numbering: false
+      q08:
+        heading: Applications of Green’s functions
+        restarts_numbering: false
+      qx29:
+        heading: Properties of Green’s functions
+        restarts_numbering: false
+      qx33:
+        heading: Bessel functions revisited
+        restarts_numbering: false
+    references:
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email epss@damtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2021 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 89028d9005668a363ed32036d70f590fcc217af67d62388ad105adb2beb4379f
+        page_render_sha256:
+        - 8c1b6733075c36c7d157f0ce315cd7dadc921ec2af79544bb67567089b9150c1
+        source_review: Three equations, including y u_x + x u_y = 0 and region of
+          uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
+          versions print y.
+        text: variants/2021-22/question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx27
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+        page_render_sha256:
+        - 8c1b6733075c36c7d157f0ce315cd7dadc921ec2af79544bb67567089b9150c1
+        source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
+          supply the Fourier series and ask to derive it as a separate step.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/q02
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 95231bbbe21cab75a8405e790e56707be3737dc2d8988c4a5857bddad7fc2fba
+        page_render_sha256:
+        - 8c1b6733075c36c7d157f0ce315cd7dadc921ec2af79544bb67567089b9150c1
+        source_review: These are composite numbered questions, combining the base
+          q02 Tricomi and base q03 reduction tasks. 2016 uses derivative operators
+          and a square root; the other historical sheets use subscripts and bracketed
+          half powers.
+        subpart_matches:
+          (i): IB/methods/sheet-4/q02
+          (ii): IB/methods/sheet-4/q03
+        text: variants/2021-22/question.tex
+      '4':
+        unit: IB/methods/sheet-4/q08
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4c961b79e82fa653d9d252385f17b559bd6576c890593a6e345bdc31337ec857
+        page_render_sha256:
+        - 8c1b6733075c36c7d157f0ce315cd7dadc921ec2af79544bb67567089b9150c1
+        source_review: 2018 has five parts, including constant boundary data. 2015
+          does not print (another!) in part ii. 2020–22 replace parts iv and v with
+          a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
+          formula and ψ₀ in the data.
+        text: variants/2021-22/question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx30
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+        page_render_sha256:
+        - 8c1b6733075c36c7d157f0ce315cd7dadc921ec2af79544bb67567089b9150c1
+        source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
+          quadrant and states the set in words.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/q10
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d87e0f4c77047baff99507c3b0117c163241c40feeb28b0d4ded42e0c12fa6e6
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: The literal phrasing in 2015/2018/2020–22 is “an initial velocity
+          of”, “a constant”. 2016 combines both strings under a single number and
+          says x₀ > 0.
+        text: variants/2021-22/question.tex
+      '7':
+        unit: IB/methods/sheet-4/q11
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d54a7a50f09dc2f65c170394c8a3b4736f6c23a7f007cb93cd3867ff43e2e8af
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: Position dependent reference to the previous question in the
+          separate-string editions. No positivity condition printed for x₀ in those
+          historical versions.
+        text: variants/2021-22/question.tex
+      '8':
+        unit: IB/methods/sheet-4/q09
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 52815625aa4c58acaa1af64a2b6ea29c1d3267ccac7bf0d75c1514d705b72c48
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: 2015, 2018, 2016 and 2020–22 explicitly ask about the exterior
+          of a sphere as well as its interior. 2015 inserts “where” before the definition
+          of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
+        printed_title_star: true
+        text: variants/2021-22/question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx29
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
+          statements. 2016 alone prints ∂Ω, with normal vector and gradients.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx32
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 3de47efcdc98d00db9d7812035bfccdf34896b881c30b53aa695137c38c2d940
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: 2018 has bounded and continuous inside the display, with an
+          alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
+          in prose.
+        text: variants/2021-22/question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx28
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1470c4b113ca27b0b13f04072f99c98074761b04526279c2d2c3a432a5156a4f
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
+          function” on an arbitrary domain; they print no boundary condition.
+        text: variants/2021-22/question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx33
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e017ef9614546f31e13ec7c2602245fad6d0c83c68d7eebbc4a6b009253b6c0e
+        page_render_sha256:
+        - d3174a7102bc6e20c7de6c51b3fccddf23906722b58e49c4a22b0634787621bb
+        source_review: 2018 evaluates on the R=0 axis. Shellard evaluates on the z=0
+          plane, gives the Bessel integral, and explicitly requests a plausibility
+          argument.
+        text: question.tex
+  2022-23:
+    archive: raw/sheets/IB/methods/2022-23/sheet-4.pdf
+    sha256: fe2afc283dd174f6f95aad4763105a2eaea9c4c531d865dedca2d760049a14c5
+    url: https://web.archive.org/web/20221027124441id_/https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:09:17.858141+00:00'
+    printed_term: Michaelmas term 2022
+    lecturer: Professor E.P.S. Shellard
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2022-23/p1.png
+        sha256: 65b887ea59b85c27eb1940d6095e9bc01721864dece61125c69cf36983afa268
+      2:
+        path: evidence/2022-23/p2.png
+        sha256: 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+    before_question:
+      q01:
+        heading: General properties of PDEs
+        restarts_numbering: false
+      q08:
+        heading: Applications of Green’s functions
+        restarts_numbering: false
+      qx29:
+        heading: Properties of Green’s functions
+        restarts_numbering: false
+      qx33:
+        heading: Bessel functions revisited
+        restarts_numbering: false
+    references:
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email epss@damtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2022 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 89028d9005668a363ed32036d70f590fcc217af67d62388ad105adb2beb4379f
+        page_render_sha256:
+        - 65b887ea59b85c27eb1940d6095e9bc01721864dece61125c69cf36983afa268
+        source_review: Three equations, including y u_x + x u_y = 0 and region of
+          uniqueness. 2016 part (a) instead has coefficient 1 on ∂_y u. Other historical
+          versions print y.
+        text: variants/2022-23/question.tex
+      '2':
+        unit: IB/methods/sheet-4/qx27
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: f83ebd33560b549040ab61553d50bb34caed7fcbc74023a19d44b99136e2471d
+        page_render_sha256:
+        - 65b887ea59b85c27eb1940d6095e9bc01721864dece61125c69cf36983afa268
+        source_review: 2015/16 give an eigenfunction scaling hint. 2018 and 2020–22
+          supply the Fourier series and ask to derive it as a separate step.
+        text: question.tex
+      '3':
+        unit: IB/methods/sheet-4/q02
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 95231bbbe21cab75a8405e790e56707be3737dc2d8988c4a5857bddad7fc2fba
+        page_render_sha256:
+        - 65b887ea59b85c27eb1940d6095e9bc01721864dece61125c69cf36983afa268
+        source_review: These are composite numbered questions, combining the base
+          q02 Tricomi and base q03 reduction tasks. 2016 uses derivative operators
+          and a square root; the other historical sheets use subscripts and bracketed
+          half powers.
+        subpart_matches:
+          (i): IB/methods/sheet-4/q02
+          (ii): IB/methods/sheet-4/q03
+        text: variants/2022-23/question.tex
+      '4':
+        unit: IB/methods/sheet-4/q08
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 4c961b79e82fa653d9d252385f17b559bd6576c890593a6e345bdc31337ec857
+        page_render_sha256:
+        - 65b887ea59b85c27eb1940d6095e9bc01721864dece61125c69cf36983afa268
+        source_review: 2018 has five parts, including constant boundary data. 2015
+          does not print (another!) in part ii. 2020–22 replace parts iv and v with
+          a single rephrased sketch task. 2016 introduces φ but prints ψ in the integral
+          formula and ψ₀ in the data.
+        text: variants/2022-23/question.tex
+      '5':
+        unit: IB/methods/sheet-4/qx30
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: c90df73d457895adb9a449ce3971bffcc864a53db551367bebcf2cc2624bf93b
+        page_render_sha256:
+        - 65b887ea59b85c27eb1940d6095e9bc01721864dece61125c69cf36983afa268
+        source_review: 2016 uses the printed subscript ≥ alone in the nonnegative
+          quadrant and states the set in words.
+        text: question.tex
+      '6':
+        unit: IB/methods/sheet-4/q10
+        original_question: '6'
+        printed_label: '6.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d87e0f4c77047baff99507c3b0117c163241c40feeb28b0d4ded42e0c12fa6e6
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: The literal phrasing in 2015/2018/2020–22 is “an initial velocity
+          of”, “a constant”. 2016 combines both strings under a single number and
+          says x₀ > 0.
+        text: variants/2022-23/question.tex
+      '7':
+        unit: IB/methods/sheet-4/q11
+        original_question: '7'
+        printed_label: '7.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: d54a7a50f09dc2f65c170394c8a3b4736f6c23a7f007cb93cd3867ff43e2e8af
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: Position dependent reference to the previous question in the
+          separate-string editions. No positivity condition printed for x₀ in those
+          historical versions.
+        text: variants/2022-23/question.tex
+      '8':
+        unit: IB/methods/sheet-4/q09
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 52815625aa4c58acaa1af64a2b6ea29c1d3267ccac7bf0d75c1514d705b72c48
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: 2015, 2018, 2016 and 2020–22 explicitly ask about the exterior
+          of a sphere as well as its interior. 2015 inserts “where” before the definition
+          of x₀*. 2018 has “Show”/“Derive”, Shellard “Verify”/“Find”.
+        printed_title_star: true
+        text: variants/2022-23/question.tex
+      '9':
+        unit: IB/methods/sheet-4/qx29
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: b99e171b7a451b86366bd9c646dc3d18b4238b54204d97a4235885a4ce1cfe4f
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: δ𝒟 (lowercase delta) is printed consistently in the 2015/2018/Shellard
+          statements. 2016 alone prints ∂Ω, with normal vector and gradients.
+        text: question.tex
+      '10':
+        unit: IB/methods/sheet-4/qx32
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 3de47efcdc98d00db9d7812035bfccdf34896b881c30b53aa695137c38c2d940
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: 2018 has bounded and continuous inside the display, with an
+          alternate concluding hint. 2020–22 say “where h(x,y) is bounded and continuous”
+          in prose.
+        text: variants/2022-23/question.tex
+      '11':
+        unit: IB/methods/sheet-4/qx28
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1470c4b113ca27b0b13f04072f99c98074761b04526279c2d2c3a432a5156a4f
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: 2015 and 2016 specify Dirichlet. 2018/2020–22 say only “a Green’s
+          function” on an arbitrary domain; they print no boundary condition.
+        text: variants/2022-23/question.tex
+      '12':
+        unit: IB/methods/sheet-4/qx33
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: e017ef9614546f31e13ec7c2602245fad6d0c83c68d7eebbc4a6b009253b6c0e
+        page_render_sha256:
+        - 5ee0ffa48ee58433aadc61ab42b857abd17b87ace79e220b3e6542ef6aa0d125
+        source_review: 2018 evaluates on the R=0 axis. Shellard evaluates on the z=0
+          plane, gives the Bessel integral, and explicitly requests a plausibility
+          argument.
+        text: question.tex
+  2023-24:
+    archive: raw/sheets/IB/methods/2023-24/sheet-4.pdf
+    sha256: dd2e37df2193a522b8ce377a85473924b3170c0377f4367cd364d47fbc5ba9f9
+    url: https://web.archive.org/web/20231205143829id_/https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:09:24.967454+00:00'
+    printed_term: Michaelmas 2023
+    lecturer: Dr A.C.L. Ashton
+    printed_title: Methods, Example Sheet 4
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2023-24/p1.png
+        sha256: 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+      2:
+        path: evidence/2023-24/p2.png
+        sha256: e34b72ed3e49a8d9806f14e5cc3e08b1a59446309cda022fadb2972f32be0e60
+    before_question:
+      q12:
+        heading: Additional problems
+        restarts_numbering: false
+        wording_tex: \emph{These questions should \textbf{not} be attempted at the
+          expense of earlier ones.}
+    references:
+      q08:
+      - printed: (‡)
+        target: IB/methods/sheet-4/q07
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    opening_rubric_tex: \emph{Comments and corrections to acla2@damtp.cam.ac.uk. Sheet
+      with commentary available to supervisors.}
+    within_question_equation_references:
+      q05:
+      - printed: (†)
+        occurrences_after_definition: 2
+        target_description: heat initial value problem in this question
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked both PDEs, the two axes carrying the initial data,
+          y cubed, the x+2y exponent and the semicolon after (i).
+        text: variants/2023-24/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 22960310daf847fef0a668bbd9a9e4ca319d4eb14b53382edd7d505a7cf3c915
+      '2':
+        unit: IB/methods/sheet-4/q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked u_xx+x u_yy, the (a), (b), (c) type order and the hyperbolic
+          region restriction on (ii).
+        text: variants/2023-24/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 543be72f882d96242b4733491f0ceb05f88b05063dc990dbdba426cfe22789c3
+      '3':
+        unit: IB/methods/sheet-4/q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked coefficient 1/2 multiplying u_y, the eta-then-xi subscript,
+          signs inside and outside each square root, and the arbitrary functions f,g.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 5627cd6b6cf0d507533c5bd643f82dc21ab939d40f82aff85cb8ee6c779c3e74
+      '4':
+        unit: IB/methods/sheet-4/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked the positive imaginary exponential, bold vector arguments,
+          n-dimensional unbounded integrals, all (2π)^n factors and both conjugation
+          bars over the whole function value.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d17ae489a33c527afad8c584613bd7bb31cacefdb2657d3a13b12a8323cd29de
+      '5':
+        unit: IB/methods/sheet-4/q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked the two-line system marked (†), nonzero forcing F,
+          open time interval, order of both data, unsquared left-side estimate, squared
+          norm definition, “etc.” and both later references to (†).
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+      '6':
+        unit: IB/methods/sheet-4/q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked the printed “Heat Kernel” capitals, “semi-group” hyphen,
+          t+s index and convolution order.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 665a1b09dad6dd9acea4b739f8dfcf17d473bf8d9a65e28ebda95b6eb35a3db5
+      '7':
+        unit: IB/methods/sheet-4/q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked domain inclusion, positive delta on the right, boundary
+          condition in x, outward-derivative variable printed in bold as n, differential
+          dS(x), and label (‡) following the final period.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+      '8':
+        unit: IB/methods/sheet-4/q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        page_render_sha256:
+        - 69b43d58e28ab2ef006c0d9aefe159897ad5e176bc3ee28d7c3da9d23cb29de4
+        source_review: Checked each condition, decay as |x|+|y| tends to infinity,
+          the (‡) reference, y/π factor, unbounded integral, and both conditions in
+          (b).
+        text: variants/2023-24/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+      '9':
+        unit: IB/methods/sheet-4/q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 8bf35ea15e90ca95a63f6f5b91c38214362d7a60f60c7423b4b22dcfe5661c77
+        page_render_sha256:
+        - e34b72ed3e49a8d9806f14e5cc3e08b1a59446309cda022fadb2972f32be0e60
+        source_review: Printed dimension n (not 3), closed ball inequality, full italic
+          external-charge hint verified on p. 2.
+        text: variants/2023-24/question.tex
+      '10':
+        unit: IB/methods/sheet-4/q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        page_render_sha256:
+        - e34b72ed3e49a8d9806f14e5cc3e08b1a59446309cda022fadb2972f32be0e60
+        source_review: Checked the full-line string is at rest for t<0 and that the
+          delta velocity is Vδ(x−x₀). No assumption on the sign of x₀ is printed.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 99e890d15df376da05a949c89d1ecd2fc231cde0eef552693bc33f315f5ec524
+      '11':
+        unit: IB/methods/sheet-4/q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        page_render_sha256:
+        - e34b72ed3e49a8d9806f14e5cc3e08b1a59446309cda022fadb2972f32be0e60
+        source_review: Checked “fixed for all time at zero at x=0”, t<0 and t>0, V
+          constant and x₀>0, and the final comparison to the previous question.
+        text: variants/2023-24/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+      '12':
+        unit: IB/methods/sheet-4/q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        page_render_sha256:
+        - e34b72ed3e49a8d9806f14e5cc3e08b1a59446309cda022fadb2972f32be0e60
+        source_review: Checked every strictly positive coordinate in the stated n-dimensional
+          region, the ellipsis and the additional-problems rubric immediately above
+          this exercise.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f27e322b79eabf8784e489083616e6a076130ff01476cb5c387dd2056159dba2
+      '13':
+        unit: IB/methods/sheet-4/q13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: fe631d5c08e9a09f920f017315268da24338f027050f407ae2a9e67aefb4ccc4
+        page_render_sha256:
+        - e34b72ed3e49a8d9806f14e5cc3e08b1a59446309cda022fadb2972f32be0e60
+        source_review: Checked both zero initial values, closed balls with radii ct₀
+          and c(t₀−t), squared derivative and gradient in E(t), closed cone inequalities,
+          italicised phrases, Figure 1 and its caption and the separate final uniqueness
+          question.
+        diagram:
+          edition: 2023-24
+          slug: backwards-lightcone-2023
+          page: 2
+          original_question: '13'
+          figure: Figure 1
+          caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+          plot: editions/2023-24/q13/plot.py
+          plot_sha256: 0fcefa50815096f2045045608230b8f4e92893556414cba1caf7f63d3d4cc8b0
+          image: editions/2023-24/q13/figures/backwards-lightcone-2023.png
+          image_sha256: 3162259664fb25b694e59065b04c1ca27f9efdd9cf7af79aaa60716d14766353
+          review: Compared both shaded sections, their arrows, apex, base point, axis,
+            ambient space and caption against the archived page.
+        text: variants/2023-24/question.tex
+  2025-26:
+    archive: raw/sheets/IB/methods/2025-26/sheet-4.pdf
+    sha256: ee107f4a5b9e5a818ec48971fc00142ec5b6dfa427f597e933d37e4bb0d6f9ce
+    url: https://web.archive.org/web/20251124192832id_/http://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T12:44:39.852452+00:00'
+    printed_term: Michaelmas 2025
+    lecturer: Prof. A.C.L. Ashton
+    printed_title: Methods, Example Sheet 4
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2025-26/p1.png
+        sha256: b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+      2:
+        path: evidence/2025-26/p2.png
+        sha256: 7c912415f393bcdf313838bc6c501e4f82bffde501e6852c4235bcd4cd1d4707
+    before_question:
+      q12:
+        heading: Additional problems
+        restarts_numbering: false
+        wording_tex: \emph{These questions should \textbf{not} be attempted at the
+          expense of earlier ones.}
+    references:
+      q08:
+      - printed: (‡)
+        target: IB/methods/sheet-4/q07
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    opening_rubric_tex: \emph{Comments and corrections to acla2@damtp.cam.ac.uk. Sheet
+      with commentary available to supervisors.}
+    within_question_equation_references:
+      q05:
+      - printed: (†)
+        occurrences_after_definition: 2
+        target_description: heat initial value problem in this question
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked both PDEs, the two axes carrying the initial data,
+          y cubed, the x+2y exponent and the semicolon after (i).
+        text: variants/2025-26/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 22960310daf847fef0a668bbd9a9e4ca319d4eb14b53382edd7d505a7cf3c915
+      '2':
+        unit: IB/methods/sheet-4/q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked u_xx+x u_yy, the (a), (b), (c) type order and the hyperbolic
+          region restriction on (ii).
+        text: variants/2025-26/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 543be72f882d96242b4733491f0ceb05f88b05063dc990dbdba426cfe22789c3
+      '3':
+        unit: IB/methods/sheet-4/q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked coefficient 1/2 multiplying u_y, the eta-then-xi subscript,
+          signs inside and outside each square root, and the arbitrary functions f,g.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 5627cd6b6cf0d507533c5bd643f82dc21ab939d40f82aff85cb8ee6c779c3e74
+      '4':
+        unit: IB/methods/sheet-4/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked the positive imaginary exponential, bold vector arguments,
+          n-dimensional unbounded integrals, all (2π)^n factors and both conjugation
+          bars over the whole function value.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d17ae489a33c527afad8c584613bd7bb31cacefdb2657d3a13b12a8323cd29de
+      '5':
+        unit: IB/methods/sheet-4/q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked the two-line system marked (†), nonzero forcing F,
+          open time interval, order of both data, unsquared left-side estimate, squared
+          norm definition, “etc.” and both later references to (†).
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+      '6':
+        unit: IB/methods/sheet-4/q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked the printed “Heat Kernel” capitals, “semi-group” hyphen,
+          t+s index and convolution order.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 665a1b09dad6dd9acea4b739f8dfcf17d473bf8d9a65e28ebda95b6eb35a3db5
+      '7':
+        unit: IB/methods/sheet-4/q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked domain inclusion, positive delta on the right, boundary
+          condition in x, outward-derivative variable printed in bold as n, differential
+          dS(x), and label (‡) following the final period.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+      '8':
+        unit: IB/methods/sheet-4/q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        page_render_sha256:
+        - b59c324494b87c08778113f932c733ba3c930ec50d75f0820951e3e6e2fa3400
+        source_review: Checked each condition, decay as |x|+|y| tends to infinity,
+          the (‡) reference, y/π factor, unbounded integral, and both conditions in
+          (b).
+        text: variants/2025-26/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+      '9':
+        unit: IB/methods/sheet-4/q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: c3d78db8e7a2cf2f6370955714517950dd1e0f46eb2e41c55ad57f0ebbc106ff
+        page_render_sha256:
+        - 7c912415f393bcdf313838bc6c501e4f82bffde501e6852c4235bcd4cd1d4707
+        source_review: Compared the ball inequality on the original page and the entire
+          italic two-sentence external-charge hint. This edition uses ≤ in the definition
+          of the ball.
+        text: variants/2025-26/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 0240c5c180437e140d8b685c85bb35d70d02d5fde68d287cd974fb8325726cf9
+      '10':
+        unit: IB/methods/sheet-4/q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        page_render_sha256:
+        - 7c912415f393bcdf313838bc6c501e4f82bffde501e6852c4235bcd4cd1d4707
+        source_review: Checked the full-line string is at rest for t<0 and that the
+          delta velocity is Vδ(x−x₀). No assumption on the sign of x₀ is printed.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 99e890d15df376da05a949c89d1ecd2fc231cde0eef552693bc33f315f5ec524
+      '11':
+        unit: IB/methods/sheet-4/q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        page_render_sha256:
+        - 7c912415f393bcdf313838bc6c501e4f82bffde501e6852c4235bcd4cd1d4707
+        source_review: Checked “fixed for all time at zero at x=0”, t<0 and t>0, V
+          constant and x₀>0, and the final comparison to the previous question.
+        text: variants/2025-26/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+      '12':
+        unit: IB/methods/sheet-4/q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        page_render_sha256:
+        - 7c912415f393bcdf313838bc6c501e4f82bffde501e6852c4235bcd4cd1d4707
+        source_review: Checked every strictly positive coordinate in the stated n-dimensional
+          region, the ellipsis and the additional-problems rubric immediately above
+          this exercise.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f27e322b79eabf8784e489083616e6a076130ff01476cb5c387dd2056159dba2
+      '13':
+        unit: IB/methods/sheet-4/q13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+        page_render_sha256:
+        - 7c912415f393bcdf313838bc6c501e4f82bffde501e6852c4235bcd4cd1d4707
+        source_review: Checked both zero initial values, closed balls with radii ct₀
+          and c(t₀−t), squared derivative and gradient in E(t), closed cone inequalities,
+          italicised phrases, Figure 1 and its caption and the separate final uniqueness
+          question.
+        diagram:
+          edition: 2025-26
+          slug: backwards-lightcone
+          page: 2
+          original_question: '13'
+          figure: Figure 1
+          caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+          plot: editions/2025-26/q13/plot.py
+          plot_sha256: 2bdc14877e58475cfcc06a62de2bac2a5a1e548c29c3f7b15e3877096ee2f785
+          image: editions/2025-26/q13/figures/backwards-lightcone.png
+          image_sha256: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+          review: Compared both shaded sections, their arrows, apex, base point, axis,
+            ambient space and caption against the archived page.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 52906d59c488bb8b867d75d5427a884ba402c093a8011fe0df005e1dcd1c8058
+  2026-27:
+    archive: raw/sheets/IB/methods/2026-27/sheet-4.pdf
+    sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+    url: https://www.damtp.cam.ac.uk/user/examples/B8d.pdf
+    fetched_at: '2026-11-20T15:08:00.202158+00:00'
+    printed_term: Michaelmas 2026
+    lecturer: Prof. A.C.L. Ashton
+    printed_title: Methods, Example Sheet 4
+    date_provenance: Printed term on physical archive page 1.
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    rendered_pages:
+      1:
+        path: evidence/2026-27/p1.png
+        sha256: da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+      2:
+        path: evidence/2026-27/p2.png
+        sha256: 9f32334537b732f4a4549ccc345fb4f5e365f8c75f575d7869abdc2288188d19
+    before_question:
+      q12:
+        heading: Additional problems
+        restarts_numbering: false
+        wording_tex: \emph{These questions should \textbf{not} be attempted at the
+          expense of earlier ones.}
+    references:
+      q08:
+      - printed: (‡)
+        target: IB/methods/sheet-4/q07
+      q11:
+      - printed: the previous question
+        target: IB/methods/sheet-4/q10
+    marks_printed: false
+    opening_rubric_tex: \emph{Comments and corrections to acla2@damtp.cam.ac.uk. Sheet
+      with commentary available to supervisors.}
+    within_question_equation_references:
+      q05:
+      - printed: (†)
+        occurrences_after_definition: 2
+        target_description: heat initial value problem in this question
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/q01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 2f8d777756a5f8b6a8a0c0f5a11853d7404a1b23ce82769005b296b720bc2b34
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked both PDEs, the two axes carrying the initial data,
+          y cubed, the x+2y exponent and the semicolon after (i).
+        text: variants/2026-27/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 22960310daf847fef0a668bbd9a9e4ca319d4eb14b53382edd7d505a7cf3c915
+      '2':
+        unit: IB/methods/sheet-4/q02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 1cf6faf1a0bbbf97a375ed4afad63d7952b9e771322e37ef5f5ab60d2a379367
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked u_xx+x u_yy, the (a), (b), (c) type order and the hyperbolic
+          region restriction on (ii).
+        text: variants/2026-27/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 543be72f882d96242b4733491f0ceb05f88b05063dc990dbdba426cfe22789c3
+      '3':
+        unit: IB/methods/sheet-4/q03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 24bb0364bd89c67af405b3753b5f83062f8a5ad964e6f6a5eb7c85afc3bf4e34
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked coefficient 1/2 multiplying u_y, the eta-then-xi subscript,
+          signs inside and outside each square root, and the arbitrary functions f,g.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 5627cd6b6cf0d507533c5bd643f82dc21ab939d40f82aff85cb8ee6c779c3e74
+      '4':
+        unit: IB/methods/sheet-4/q04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 161549844ff97b7caa8baab2defbae6ab90e46cc8e1501e9e2302f51697ec479
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked the positive imaginary exponential, bold vector arguments,
+          n-dimensional unbounded integrals, all (2π)^n factors and both conjugation
+          bars over the whole function value.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: d17ae489a33c527afad8c584613bd7bb31cacefdb2657d3a13b12a8323cd29de
+      '5':
+        unit: IB/methods/sheet-4/q05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 02464f808e97728d6f8abce89dc5bb5148b286df09dede01af9896f8aef74d14
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked the two-line system marked (†), nonzero forcing F,
+          open time interval, order of both data, unsquared left-side estimate, squared
+          norm definition, “etc.” and both later references to (†).
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: c5f48a3683ce1849a9dbe8415004db6be1535f3f09476a55ed79c286fa108162
+      '6':
+        unit: IB/methods/sheet-4/q06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: 6701b8333ba7ed294851675b85256ea414cb2bb4e5abbd68e701cfef76323cd4
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked the printed “Heat Kernel” capitals, “semi-group” hyphen,
+          t+s index and convolution order.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 665a1b09dad6dd9acea4b739f8dfcf17d473bf8d9a65e28ebda95b6eb35a3db5
+      '7':
+        unit: IB/methods/sheet-4/q07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: d254c1c51b61bfa164daa19bc846e6649108a13bd3cf02033d7ccb2cbc133a35
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked domain inclusion, positive delta on the right, boundary
+          condition in x, outward-derivative variable printed in bold as n, differential
+          dS(x), and label (‡) following the final period.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 829da766409f932380130d72491dffeeb42f8a78e2b2b7bd9b60bcd53ec47ed9
+      '8':
+        unit: IB/methods/sheet-4/q08
+        original_question: '8'
+        printed_label: '8.'
+        page: 1
+        pages:
+        - 1
+        question_sha256: e0e73c30adf2a27204bc0e74388fdbb4e54131469337e01bbba1f93e5160d6bd
+        page_render_sha256:
+        - da56046600e3906895ffa27afc893f183313f5ed0795e18c0404f8684e8fdde0
+        source_review: Checked each condition, decay as |x|+|y| tends to infinity,
+          the (‡) reference, y/π factor, unbounded integral, and both conditions in
+          (b).
+        text: variants/2026-27/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: 0519afd2580b1eec473bc374e020bd6d1050757c68c219b29350d5eef53859ff
+      '9':
+        unit: IB/methods/sheet-4/q09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: a03b7cee18babce1fdfe5e81fcb8eb62c76c315c4dcf940b348f8d91dc2de53b
+        page_render_sha256:
+        - 9f32334537b732f4a4549ccc345fb4f5e365f8c75f575d7869abdc2288188d19
+        source_review: Compared the ball inequality on the original page and the entire
+          italic two-sentence external-charge hint. This edition uses < in the definition
+          of the ball.
+        text: variants/2026-27/question.tex
+        verified_solution: history/2026-11-21-exact-2026-27/solution.tex
+        verified_solution_sha256: abb89698e0c38a645e4a17cb2281daf000fe077b4b90d0395ed7295bd4eb53bc
+      '10':
+        unit: IB/methods/sheet-4/q10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 1b8c1e8b79fde23d48c0a5ddb8e51bb7c6cb1a5bf728b535ac2ed5f11d9235cb
+        page_render_sha256:
+        - 9f32334537b732f4a4549ccc345fb4f5e365f8c75f575d7869abdc2288188d19
+        source_review: Checked the full-line string is at rest for t<0 and that the
+          delta velocity is Vδ(x−x₀). No assumption on the sign of x₀ is printed.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 99e890d15df376da05a949c89d1ecd2fc231cde0eef552693bc33f315f5ec524
+      '11':
+        unit: IB/methods/sheet-4/q11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 7bf880d87b8abaa2990b31adb83e2c675829dab1da0fb3cafa0b8aef0f6efbfa
+        page_render_sha256:
+        - 9f32334537b732f4a4549ccc345fb4f5e365f8c75f575d7869abdc2288188d19
+        source_review: Checked “fixed for all time at zero at x=0”, t<0 and t>0, V
+          constant and x₀>0, and the final comparison to the previous question.
+        text: variants/2026-27/question.tex
+        verified_solution: history/2026-11-21-baseline-before-expanded-question/solution.tex
+        verified_solution_sha256: e95fe558ff1dd029d4aa613c13b1ea4709c294d292c399fb8841a8974dd9606f
+      '12':
+        unit: IB/methods/sheet-4/q12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: abf200fae6514d563b093ab0920cdeba0a4b73119f76bb900f65b827defff93f
+        page_render_sha256:
+        - 9f32334537b732f4a4549ccc345fb4f5e365f8c75f575d7869abdc2288188d19
+        source_review: Checked every strictly positive coordinate in the stated n-dimensional
+          region, the ellipsis and the additional-problems rubric immediately above
+          this exercise.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: f27e322b79eabf8784e489083616e6a076130ff01476cb5c387dd2056159dba2
+      '13':
+        unit: IB/methods/sheet-4/q13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        question_sha256: 02972286305ee577443b18c5fb6fdf4fe8cb7be5c6ef6dda6a248e1ea85fba39
+        page_render_sha256:
+        - 9f32334537b732f4a4549ccc345fb4f5e365f8c75f575d7869abdc2288188d19
+        source_review: Checked both zero initial values, closed balls with radii ct₀
+          and c(t₀−t), squared derivative and gradient in E(t), closed cone inequalities,
+          italicised phrases, Figure 1 and its caption and the separate final uniqueness
+          question.
+        diagram:
+          edition: 2026-27
+          slug: backwards-lightcone
+          page: 2
+          original_question: '13'
+          figure: Figure 1
+          caption_tex: 'Figure 1: Backwards lightcone $\Sigma_{t_0}(\mathbf{x}_0)$.'
+          plot: editions/2026-27/q13/plot.py
+          plot_sha256: 8c91d9ea8e9b03f36db34948101af6ef63cc1f69329c26d0278235a78f6f6553
+          image: editions/2026-27/q13/figures/backwards-lightcone.png
+          image_sha256: ed73069cdd1629584911a15cd146fbb1765b8c58830d66e869aff15737f7ee75
+          review: Compared both shaded sections, their arrows, apex, base point, axis,
+            ambient space and caption against the archived page.
+        text: question.tex
+        verified_solution: solution.tex
+        verified_solution_sha256: 52906d59c488bb8b867d75d5427a884ba402c093a8011fe0df005e1dcd1c8058
+distinct_text_fragments_ignoring_figure_slug: 79
+source_verification_manifest_sha256: 642efa787ca760cf7fd0161539898341f0d140888ba85ba1ac17e2fdf41ecf63
+cross_sheet_occurrences:
+  qx15:
+    unit: IB/methods/sheet-3/qx04
+    comparison: Identical canonical question bytes.
+  qx16:
+    unit: IB/methods/sheet-3/qx05
+    comparison: Identical canonical question bytes.
+  qx17:
+    unit: IB/methods/sheet-3/qx06
+    comparison: Identical canonical question bytes.
+  qx18:
+    unit: IB/methods/sheet-3/qx07
+    comparison: Identical canonical question bytes.
+  qx19:
+    unit: IB/methods/sheet-3/qx08
+    comparison: Identical canonical question bytes.
+  qx20:
+    unit: IB/methods/sheet-3/qx09
+    comparison: Identical canonical question bytes.
+  qx21:
+    unit: IB/methods/sheet-3/qx10
+    comparison: Identical canonical question bytes.
+  qx22:
+    unit: IB/methods/sheet-3/qx11
+    comparison: The printed exercise titles differ. The complete problem after the
+      title is identical.
+  qx25:
+    unit: IB/methods/sheet-3/qx12
+    comparison: The printed exercise titles differ. The complete problem after the
+      title is identical.
+  qx26:
+    unit: IB/methods/sheet-3/qx13
+    comparison: Identical canonical question bytes.
