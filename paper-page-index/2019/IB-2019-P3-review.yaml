@@ -1,0 +1,283 @@
+paper_id: IB/2019/P3
+id: IB/2019/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2019-06-06'
+printed_date: Thursday, 6 June, 2019
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2019/P3.pdf
+archive: private/raw/tripos/IB/2019/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2019/paperib_3_2019.pdf
+sha256: 927dcd4f0a90389addd5a3d2de9a902bde9f12afbd88c72c501fa6b0982a5955
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet, Script paper, Rough paper. Special
+  requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2019/P3/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: db09b842c47658f131ce1990b4a9e9129fda3c9360f4cdd8174528356d58ef41
+  checks: Both generators, the radicand in the coefficient ring and the conclusion were checked.
+- id: IB/2019/P3/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 4a25bc5888a59fa06e4601eb986ae1b37cfde7fb2d81fc2788d9373d2fec302f
+  checks: The three domains, the square, square root and reciprocal cosine argument were checked.
+- id: IB/2019/P3/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: c2611f662bc10689d2c040f38d4a3802556b92a293001541db88bb1dbc930880
+  checks: The metric-space hypothesis and the direction from compactness to sequential compactness were matched.
+- id: IB/2019/P3/q4D
+  original_question: 4D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 553cff4bbcf9b8fa74b17fb7ac1418323d621570e2c4feccfbc154cfa1ff1bd9
+  checks: The conformal transformation, signs on the two semicircles and requested Cartesian coordinates were
+    matched.
+- id: IB/2019/P3/q5E
+  original_question: 5E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 77c923f69e6b88fd277912885b2fdbcedc7dd660a5a4cb34a353d855926f6e8a
+  checks: The lower bound on n, convexity and the regular case were checked.
+- id: IB/2019/P3/q6A
+  original_question: 6A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 3646be3c51a67904067fbe24f5723a62b851ccd73ece81edcfd85ebb9b9302fe
+  checks: The domain, strict exponent bound, double transform and conjugate-exponent inequality were checked.
+- id: IB/2019/P3/q7D
+  original_question: 7D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: e5229ce68f0c09e6d30ebf315d7ea46600c8727c24c7911378a17f991cea1ad8
+  checks: The normalization, sign in the exponential, outer power and sequence endpoints were matched.
+- id: IB/2019/P3/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 39ca084fc7a8d3e47ff53a3db11763115645d43b70bc0d409f1f033fa75c5d41
+  checks: The coordinate and momentum operators, symmetrisation and the constant in D were matched.
+- id: IB/2019/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: cadbfb8c2fd177f29abf4588cc3b79c37ef1a83ca3190193817c5c7f34f4aff7
+  checks: The state space, the two requested definitions and the direction of the period assertion were matched.
+- id: IB/2019/P3/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e3f6d977f36494a0427bcb754a109df9ed3c2ac7edc8294e95be0b28c8184436
+  checks: The two bilinear-form hypotheses, quotient definition and final direct-sum restriction were checked.
+- id: IB/2019/P3/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: bd8051cf4a08c2be876589a4d15fd5276e4a2ac3cffdc4a0d197848b352dbc46
+  checks: The generator, integer equation and exact congruence exclusion were checked.
+- id: IB/2019/P3/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 82bcc57486858af5bd309c2bf4ce8c6237b6dedac850c94086a63d8e6964cbf7
+  checks: The interval starts at one, the weight is a negative power, and the integral operator and general
+    initial condition were checked.
+- id: IB/2019/P3/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 2c374969f72f2766e4b25c748d6815eae546ccef42cbb08eef9344ba0796a252
+  checks: The path and excluded point, zero and pole orders and all five polynomial coefficients were matched.
+- id: IB/2019/P3/q14E
+  original_question: 14E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 24e75c5c3a502934453e1d11159e767d0732d19b2365346f33f05cf4c91b09d2
+  checks: The torus, sphere and negative-curvature cases, valency inequalities and triangle-subdivision figure
+    were checked.
+  figures:
+  - triangle-subdivision
+- id: IB/2019/P3/q15D
+  original_question: 15D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 756ad5a2237a1f7e3551499d582da037189091af91fef0120712bcdca73f26e6
+  checks: The spatial transform identity including its sign and factors of c and k, the initial data and the
+    sphere average were verified.
+- id: IB/2019/P3/q16B
+  original_question: 16B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 4976a0bc9a2efe396b2b053eab03ba4f0885400e933720b52223c1fb60c984d7
+  checks: Both square-well widths, endpoint inclusions, initial state and energy-measurement prompt were matched.
+- id: IB/2019/P3/q17A
+  original_question: 17A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: d87e68eb0ce87ddb6769050915107cc17466c4b8901c7568ad13e82e79181252
+  checks: Boost direction, signs and powers of c, cosine numerator and denominator, and limiting angle intervals
+    were verified.
+- id: IB/2019/P3/q18C
+  original_question: 18C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 4afd1d66d18c336191f7ce468aa3df5d775db2f613fca3696b38b42f426654e9
+  checks: The three open coordinate ranges, the layer assignment, frequency formula and two density limits
+    were checked.
+- id: IB/2019/P3/q19C
+  original_question: 19C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 5c5aac429191b8dbaf0e68d79269095657ee838f0a553f9e835e9a0f009f7d94
+  checks: All recurrence indices and initial values, Hermite normalization and the quadrature exactness question
+    were checked.
+- id: IB/2019/P3/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: c6d085386d0e4aac9f9e00b95e00650c6e09fdcebeaf2c645585c5fd876aa3e5
+  checks: Both sums, the radical over the product SXX(n−1), all three intervals and the direction of the F-test
+    were checked.
+  printed_ambiguity: The denominator of the printed statistic in (b) is the square root of the product SXX(n−1).
+    Part (d) calls H1 the hypothesis to be tested against H0 and does not specify independence between the
+    two samples; preserve these details.
+- id: IB/2019/P3/q21H
+  original_question: 21H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: acde87ae4eec790fce1235ed8c43c7465bb1d782f48980e9c378a184c665bda1
+  checks: Rank and nondegeneracy assumptions, objective and every coefficient and inequality of the program
+    were checked.

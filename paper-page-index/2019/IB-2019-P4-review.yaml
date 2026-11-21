@@ -1,0 +1,279 @@
+paper_id: IB/2019/P4
+id: IB/2019/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2019-06-07'
+printed_date: Friday, 7 June, 2019
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2019/P4.pdf
+archive: private/raw/tripos/IB/2019/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2019/paperib_4_2019.pdf
+sha256: 973b9fc089efbfb908adf73bdca74af2d88c82413f54d1e2d085fc932c9829d0
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet, Script paper, Rough paper. Special
+  requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2019/P4/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 357307c9226c22ebe789284edc98227bd4865c9ade7c815a93f5244888e91e4e
+  checks: The sixteen literal matrix products, nonzero vector hypothesis, rank and eigenspaces were checked.
+- id: IB/2019/P4/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: f45ae90bd41280b191611ed9cda05e0e9006389292650ac8edce8c893285e2f0
+  checks: Normality of K, the Sylow subgroup of K and the order of factors in the conclusion were checked.
+- id: IB/2019/P4/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 77ef30e4ba428dba4185ef789ceee3d99c37949d07c9d8384f4cbb8938e43733
+  checks: All three quantifiers, the exponential sign and the distinct closed intervals were matched.
+- id: IB/2019/P4/q4F
+  original_question: 4F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 20870c2ed3d5f070b8452251d4118c9c2d07b4881f916074edcbbcc981999f35
+  checks: Disc notation, pointwise modulus inequality and required use of the integral formula were checked.
+- id: IB/2019/P4/q5D
+  original_question: 5D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 9db1d027d8ca5b3f685921c5301e30ed08b7cd8144d384ad993ddb787500de38
+  checks: The negative sign, factors in the rational function, decay and printed limit direction were matched.
+  printed_ambiguity: The source prints a two-sided epsilon-to-zero limit without a positivity condition. Distinguish
+    the one-sided limits when solving.
+- id: IB/2019/P4/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: c296a46c40410f3a6545e13a4d66f3ae0991ffd32fb21ed09e6313e9305c106a
+  checks: The continuity equation and contrasting stationary states, Gaussian prefactor and complex phase were
+    checked.
+- id: IB/2019/P4/q7A
+  original_question: 7A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 96b611c4e1fe62c79861e28436f9cfa475dafd98468a81e5747237a417e2ea96
+  checks: Both real-part expressions, relative signs in the phase and components of the two input vectors were
+    checked.
+- id: IB/2019/P4/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 106e4a5242c4857907a3d284be62ffb08c9e6ccf2ffb271fc416ffe73747b830
+  checks: All sixteen matrix entries and the signs and ordering of all four components of b were checked.
+- id: IB/2019/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: ab2998f85edeb9db2e2fdd2d94ba648f01e4369e4361d03c80adb9425748298f
+  checks: The initial time in each sum, collision indicator, doubled time in the return sum and permitted facts
+    were checked.
+  printed_ambiguity: The geometric-return-count hint uses the recurrent case where the number of returns is
+    infinite almost surely.
+- id: IB/2019/P4/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 3e8a6a4b80bbf0039ee729279df09c3a9b2f1e1c7e1802f263a23cdaeab73276
+  checks: Adjoint identities, the printed minimisation variable and the entries in the concluding matrix and
+    vector were checked.
+- id: IB/2019/P4/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 2c78f3f36a5a9d6b13815fedb063f5dd7f72c38d6813fc2f95218015a1724cad
+  checks: The general linear group, matrix size, field and minimal polynomial with its zero constant term were
+    matched.
+  printed_ambiguity: The printed minimal polynomial has zero constant term although the group is GL10(Q). Retain
+    the statement as printed.
+- id: IB/2019/P4/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 1e89d1e510d76f932260671adfc094d23a54d243b05468ce065916904a050897
+  checks: The ball covering, convergent subsequence-distance series and the capped integral metric were checked.
+- id: IB/2019/P4/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: c2c56208188fecbfe5230530964e3ff32682211b029fd715d533c35269332b17
+  checks: Both edge identifications, the torus radii, the ambient topology and permitted compactness fact were
+    matched.
+- id: IB/2019/P4/q14D
+  original_question: 14D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: dfaf3a13630a1552a69ecf38952db5c7b1c4f9092b64f21c59adf5b8a3a5087d
+  checks: The radius, radial equation, Robin boundary sign, Laplace integral and all terms in the late-time
+    formula were checked.
+- id: IB/2019/P4/q15E
+  original_question: 15E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 939aa3bbc21322eaf2807ea7e8adda97c48aebacba5de7d3c97ff45375dfe961
+  checks: The metric, group action, pointwise half-axis condition and signed angle bounds were checked.
+- id: IB/2019/P4/q16A
+  original_question: 16A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: ff4178a9f5985138ebebb9c4343438155c329c1daf9bb886e5f3204ba09501d5
+  checks: The squared potential, asymptotic signs, equality condition, lower bound and translated tanh profile
+    were compared.
+- id: IB/2019/P4/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 6b87daa529dce383a009ef85627485678f6483981cdbcd23f21a4fd9fad8fe78
+  checks: All differential orders, signs, clamped boundary conditions and the two-sign trig/hyperbolic equation
+    were checked.
+- id: IB/2019/P4/q18C
+  original_question: 18C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: c2a7058adbffc2dd58a49bb64e3aa9ae3fd4c84c9e54d5c2c60187bfedcf936b
+  checks: The three shallow-water equations, signs of potential vorticity, forcing and Rossby radius were verified.
+- id: IB/2019/P4/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 097163cd4239817f35bb2fd834e07406fb6d6be3ad8bf4ffd094d4751dcd34ef
+  checks: The no-intercept model, errors and unknown parameters, and objective for each nonzero theta were
+    matched.
+  printed_ambiguity: The source does not require a nonzero regressor; distinguish the all-zero design when
+    solving.
+- id: IB/2019/P4/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 8abd5ffbbc206e589d9a160784d93af291581691531703d8e56627be8c17c583
+  checks: All source and sink labels, nine directed edge capacities, three network subparts and the termination
+    assumptions were checked.
+  figures:
+  - capacity-network

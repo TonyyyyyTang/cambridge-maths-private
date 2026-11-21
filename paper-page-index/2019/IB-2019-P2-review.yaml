@@ -1,0 +1,273 @@
+paper_id: IB/2019/P2
+id: IB/2019/P2
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2019-06-05'
+printed_date: Wednesday, 5 June, 2019
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2019/P2.pdf
+archive: private/raw/tripos/IB/2019/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2019/paperib_2_2019.pdf
+sha256: e657e2d6a71264a059846889eaa1dc44642ebe96e088dd2f5fedc04a069ec598
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet, Script paper, Rough paper. Special
+  requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2019/P2/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 965fe5bbcc9e6e8164d69685e167622921bc9d2796a2194ffdc69eaa21abeebb
+  checks: The dimensions and entries in both pairs of defining equations, and the kernel condition, were checked.
+- id: IB/2019/P2/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 9d658a6f852f11c173d52b5f4a66dab57db658044bd1b3fb0c04e4e6c4085d07
+  checks: The domain, torsion-free criterion, quotient and factorisation in the given direction were checked.
+- id: IB/2019/P2/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: e8bb449259db3ea6c525f75ae2eee987326d5af6318bf489cf42e9f32b9cc68e
+  checks: The three powers in the map and the nonzero-product condition were checked.
+- id: IB/2019/P2/q4G
+  original_question: 4G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: bf549eb7a2f6e11acf978e32f964beb7b0d98ebed938da3ffb5a649cd5a5a30c
+  checks: Surjectivity, interval endpoints and the restriction on invoking the Intermediate Value Theorem were
+    checked.
+- id: IB/2019/P2/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: b7ebaec244db15557f63d219027ddcd967015a37bc78fd07ab00df86a52558b7
+  checks: Shell radii, cosine argument, boundary potentials and all supplied Legendre polynomials were matched.
+- id: IB/2019/P2/q6A
+  original_question: 6A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: d1bf8d1b9bd31f65862e574147784dfb8473b9d00f7bc2af64125f7fd56e0d49
+  checks: The two Poisson equations, infinity and support conditions, far-field orders and hint indices were
+    matched.
+- id: IB/2019/P2/q7C
+  original_question: 7C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 76a687bf754f4f3601b6a325f7a984bcea8a43728946e70d1e1d66d6c8639abe
+  checks: The signs of the two nonzero velocity components and both open coordinate intervals were matched.
+- id: IB/2019/P2/q8H
+  original_question: 8H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 5c919161bafa9540de1c90bcff35deb9d92ce860f84687c89cf1daedee350f53
+  checks: The prior and posterior wording, three prompts and the complete beta density and mean were matched.
+  printed_ambiguity: Part (c) asks for a minimizer of the quadratic error loss function itself. Interpret the
+    intended expectation and clarify which distribution is used for the final expectation when solving.
+- id: IB/2019/P2/q9H
+  original_question: 9H
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 880010d0d2fdfeb000fd3cc4757eba740670d9c60eb0c399d8710929d85c39b1
+  checks: Strict positivity and the change from equality to inequality in the second maximisation were checked.
+- id: IB/2019/P2/q10F
+  original_question: 10F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: d73dacfb11b209c4344203bd2fc4c0869448a6f17ce1970ae9f84a925bc8c196
+  checks: All four parts distinguish characteristic and minimal polynomials; the final conclusion squares BA.
+- id: IB/2019/P2/q11G
+  original_question: 11G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 3bd0d18d8e110c4351086323f984185cf6ed98b8cd22f8e1c8ff892dcfabcc99
+  checks: The hypotheses on each polynomial, the product limits and the nested exponent in the finite-field
+    example were matched.
+- id: IB/2019/P2/q12E
+  original_question: 12E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 5cbf5adcdaa6d15c1e9737e3def6e5416d3710f052623fe37cb1ed5ba3b245b1
+  checks: The three initial subparts, summability condition, p-norm definition and the two subsequent subparts
+    were checked.
+- id: IB/2019/P2/q13D
+  original_question: 13D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 3404fee4fd2c08c3b683331791c945ef098e54dc797090f8984e0a836d0db3c5
+  checks: The nonzero derivative, two punctured-plane regions and slit endpoints including their closure were
+    checked.
+- id: IB/2019/P2/q14E
+  original_question: 14E
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 5ad35c1578a68edb924676f94e0fac36f602e00133e98c00e41dff327d1a6f65
+  checks: Both square roots and their radicands, the translated radii and the curvature request were matched.
+- id: IB/2019/P2/q15A
+  original_question: 15A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 73c962e7c06354b1a65ecde2c1fb0b2d48e6ec2015830c0073cc1b0204d8500a
+  checks: All factors in the first integral and Lagrangian, the sign of kappa and both limiting conditions
+    were checked.
+- id: IB/2019/P2/q16D
+  original_question: 16D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 89435a24ca909c32bf23c4d7d6ff76625ab8166f8dc8a801d0627df48f1c641c
+  checks: The coefficient of xy-prime, eigenvalue, unknown weight and the integral over the interior roots
+    were matched.
+- id: IB/2019/P2/q17B
+  original_question: 17B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 827e2a519b3a8aa840adfa6a5ea1d59bb11727ee2e925a4aec51e7ff0ee6f6f4
+  checks: The angular momentum commutators, two signs, six eigenfunctions and permitted eigenvalue result were
+    checked.
+- id: IB/2019/P2/q18A
+  original_question: 18A
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 7c88f9bfea77c5602759ee458ac96e44e34ebb9401fcaca40fae175cbd7cb180
+  checks: The loop edge ranges, vertical field component, force angle and squared terminal-velocity denominator
+    were checked.
+- id: IB/2019/P2/q19C
+  original_question: 19C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 1e3d9b26c6159e73dae9d6dd391ec19d973e40d616ea2552abbef0d13a2ae70c
+  checks: Matrix dimensions, all twelve displayed entries and the four entries of the right-hand side were
+    verified.
+- id: IB/2019/P2/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 5faad5405630b2688b03452f847f02decdc9c6e8e938acfc59af96362a44c628
+  checks: The labelled five-step three-arm graph, walk start, three targets and two hints were checked.
+  figures:
+  - three-arm-graph

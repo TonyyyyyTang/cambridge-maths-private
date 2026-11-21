@@ -1,0 +1,268 @@
+paper_id: IB/2019/P1
+id: IB/2019/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2019-06-04'
+printed_date: Tuesday, 4 June, 2019
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2019/P1.pdf
+archive: private/raw/tripos/IB/2019/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2019/paperib_1_2019.pdf
+sha256: fa2c836658eaffefce78dcebff2c289c96c268defe63716df05a965a4216c6bb
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet, Script paper, Rough paper. Special
+  requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2019/P1/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: ccab46a5ce78c09d98dcdcc0dd2215ca6c69faa9bdd840268ab6e0aa85e41179
+  checks: Both bases and the restriction to using only the definition were checked.
+- id: IB/2019/P1/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 7a4bed6efd3ea48f5b5d0fa104015793a0a46c52a606993f5d65dcc5d9f6a79f
+  checks: The numerator 10, both denominator factors and both open annuli were checked.
+- id: IB/2019/P1/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b875967d94a07601b20503902b1d969c56859e0356546ddfbc11ed95f7cb096c
+  checks: The domain, both points and the instruction regarding isometries were matched.
+- id: IB/2019/P1/q4A
+  original_question: 4A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 71a769b62eac11f8fab08a5a85236937c6ba2334af8ca1f456faed6392610505
+  checks: The minus sign in the objective and the coefficient 2 in the constraint were checked.
+- id: IB/2019/P1/q5C
+  original_question: 5C
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 2bb91d460235891b02a3bb0a74e612445bd2e01a933da71bf866a60ede189937
+  checks: The free surface, stationary replacement, perpendicular coordinate and flux per unit width were checked.
+- id: IB/2019/P1/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 5b74ebe2fda9b1c0171bbaae6b3fdb7a03435abd60a113238c5fab96b5483e68
+  checks: Distinctness, degree, coefficient ordering and both bounds on the product and recursion were checked.
+  printed_ambiguity: The source says degree n, although interpolation may yield lower degree.
+- id: IB/2019/P1/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: d928c6790a022754c376897fea89047e789844e97dad8b33758dda42e03094ef
+  checks: Both estimates and both parameters, including the variance and the bias question, were checked.
+- id: IB/2019/P1/q8H
+  original_question: 8H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 33da0f676e0c4b7487aeab0aa234e3a33ab2011f89edb6b74da31444a406f8ff
+  checks: The absolute bounds, Newton step, quadratic constant and evaluation point in the Taylor remainder
+    were checked.
+  printed_ambiguity: The absolute bound on the second derivative permits strictly concave functions. The text
+    introduces the existence of the minimum separately.
+- id: IB/2019/P1/q9F
+  original_question: 9F
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: a368a20e5c12e0313980695acc983cb8867d4dc3f5025c35046d6dc9b0fbd9fc
+  checks: All polynomial exponents and bounds, the diagonal determinant, trace and matrix powers were checked.
+- id: IB/2019/P1/q10G
+  original_question: 10G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 9d7eff8e489d163a8f0b04fe0cc5e05cedfa043be9a50a8bc1443813d9687122
+  checks: Orders and the distinct odd prime qualification were checked in (a)–(c).
+- id: IB/2019/P1/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: adb55ea13c585fb38907871b7e08d39032843ca70ac6d18fe9e7cb39edd49254
+  checks: Domains, composition order of the translations and the direction h in the derivative were checked.
+- id: IB/2019/P1/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: bc5b2008b88929ddfda43e011fcf284adc7b052039a70732882d68644b48b996
+  checks: The sequence coordinates start at one; both cases, the infinite exponent convention and all three
+    prompts were verified.
+- id: IB/2019/P1/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 807c32b2ce34c89e9186611fb02089a18c3e75d4b1d1d600c57bc1d87e79611a
+  checks: The order k, nonzero numerator condition and the sine integral including both infinite limits were
+    checked.
+- id: IB/2019/P1/q14B
+  original_question: 14B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 0256faa18829be57bb198fe30017b63de276020ad09d7accd87cf672a0f54377
+  checks: The Fourier–Bessel coefficients, sign in Bessel's equation and cubic-order instructions were checked.
+- id: IB/2019/P1/q15B
+  original_question: 15B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 9204b18d3c7fc98d195bd529c631228c95bed0307d685c6b58cc01d2cb267194
+  checks: The signs, half factors, Gaussian exponent and the monic polynomial through its constant term were
+    checked.
+- id: IB/2019/P1/q16A
+  original_question: 16A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 2f4f2fcc8bb1311aac70baa4f172c290ad6dc460db1bf5fcc5013905cc886764
+  checks: Both all-space energy integrals, shell bounds and the fixed-charge limit and variation were matched.
+- id: IB/2019/P1/q17C
+  original_question: 17C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 67f860eae095be12cc24237c6a7e1388387016b00a958df019758d763d3fa7b7
+  checks: Cylinder orientation, sign of circulation and force, and the dimensionless parameter were checked.
+- id: IB/2019/P1/q18C
+  original_question: 18C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 556b25ee1f8b979a9d389911200cf59f95bfc7ea5e67814cc8b6b08b5d3cc279
+  checks: Both polynomial sums, the exponential order criterion and all Adams–Moulton coefficients were checked.
+- id: IB/2019/P1/q19H
+  original_question: 19H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f8d69baaebb300836438faf542b638a317bb87560de411fac3052c2952a4b832
+  checks: The rate alternatives, test size, gamma distribution and distinction between simple and composite
+    hypotheses were checked.
+- id: IB/2019/P1/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: ec5f4a1bc6583f2b150a3ee3adb62633fc4bbd1dd15da1d04d979c7922e09fe4
+  checks: Time reversal, the return-time infimum and the order of the cop's and robber's motions were checked.

@@ -2,14 +2,810 @@ course: IB/quantum-mechanics
 sheet: 1
 baseline: 2025-26
 editions:
+  2004-05:
+    archive: raw/sheets/IB/quantum-mechanics/2004-05/sheet-1.pdf
+    url: https://web.archive.org/web/20050129001808id_/http://www.damtp.cam.ac.uk:80/user/examples/B9a.pdf
+    sha256: 38f07d0da5bf999229ac488bd45df5112005c16276f2ac791e6f6a0eff29c3c2
+    page_count: 2
+    printed_term: Michaelmas 2004
+    lecturer: Prof Ian Drummond
+    contact: itd@damtp.cam.ac.uk
+    copyright_year: 2004
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2004-05/question.tex
+        question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2004-05/question.tex
+        question_sha256: f0d898fba9f3880b1c46986a946783f6b130b3ea01649af572a4adcaa6a20423
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6166c2edbec7aba892ddc94997fcf3b36e2f1dd2ce54e2fe2582982b78fca7fa
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2004-05/question.tex
+        question_sha256: 9b752e175f8142dba651dc2aebd7688100c5dcd1263b9bc696d0b30be1b2ec79
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 75a30ce6da33ff1bad6a20d605d8b980e8016c6c50e64b822420283830c33f21
+        image_review: Checked normalized-state hypotheses and conjugation, uniqueness of gamma, and the strict
+          inequality in the final clause.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 972190b9e60d8c0a2e538925b827eb19362711d071231973214d89b8af7ebade
+        image_review: Checked the printed m=hbar, quarter and half powers in the denominator, current, conservation
+          and the infinitesimal interval.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: caf23ffaa4fa7abf9912508f888720c3d8bd1c5f8a95fda527d14153eda299a6
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: variants/2004-05/question.tex
+        question_sha256: e563cb4fcb2c51b646409209ad1e25da6cb331f4a977bd7a8a860c7da28b8b9d
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2004-05/question.tex
+        question_sha256: bab62cb7be5c2534c25ca4101766f28bb4136646b19b4c4c30249abaad334d65
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: ef97f12e2267e85fadc410bbf4f84dd896b457e63499ec841cdc9d6f87badab3
+        image_review: Checked period L, degeneracies and the infinite-period limit.
+  2006-07:
+    archive: raw/sheets/IB/quantum-mechanics/2006-07/sheet-1.pdf
+    url: https://web.archive.org/web/20070221083221id_/http://www.damtp.cam.ac.uk:80/user/examples/B9a.pdf
+    sha256: 719177a9b8e1db20112bf54384a8b86793d8a68176c376736e5dc37889bee79f
+    page_count: 2
+    printed_term: Michaelmas 2006
+    lecturer: Dr. R. M. Williams
+    contact: rmw7@damtp.cam.ac.uk
+    copyright_year: 2006
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: f0d898fba9f3880b1c46986a946783f6b130b3ea01649af572a4adcaa6a20423
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6166c2edbec7aba892ddc94997fcf3b36e2f1dd2ce54e2fe2582982b78fca7fa
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 9b752e175f8142dba651dc2aebd7688100c5dcd1263b9bc696d0b30be1b2ec79
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: f8408fa04d32d3d2da4ca5594f23e79e861486eebdfde080b5ad9f372521e64c
+        image_review: Checked normalized-state hypotheses and conjugation, uniqueness of gamma, and the strict
+          inequality in the final clause.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 972190b9e60d8c0a2e538925b827eb19362711d071231973214d89b8af7ebade
+        image_review: Checked the printed m=hbar, quarter and half powers in the denominator, current, conservation
+          and the infinitesimal interval.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: caf23ffaa4fa7abf9912508f888720c3d8bd1c5f8a95fda527d14153eda299a6
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 4d22d721a62712e9ddd99e29335b049a11573180b67fdc3fb13171895a2d62bc
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 0810dd4d545d8d7c05504064f97fb7662f4749feb5572d88d385506276bb9f26
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx06
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: b0d80cd0648da1a5c025673cdf10918ec3b029e6480640ae1a33594a28b3e548
+        image_review: Checked period L, degeneracies and the infinite-period limit.
+  2015-16:
+    archive: raw/sheets/IB/quantum-mechanics/2015-16/sheet-1.pdf
+    url: https://web.archive.org/web/20160329023840id_/http://www.damtp.cam.ac.uk:80/user/examples/B9a.pdf
+    sha256: 63a650aa88959aa63a5e9f923be00b788d5e266cbee3b79a363a5b68dee5906a
+    page_count: 2
+    printed_term: Michaelmas 2015
+    lecturer: Dr. J.M. Evans
+    contact: J.M.Evans@damtp.cam.ac.uk
+    copyright_year: 2015
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 704f4054e6782eb0245d83895221ddf990bf2aba6ab6ca7825dee072819f26c3
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 4c70563d968fd37a4d2928ba4d5bba5d919a46010bef4edf78a2f83429739f45
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/qx07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 3a171bebe228866f8eb1c34d7d4088052ddf721461538b763d684161d4c13f4a
+        image_review: Checked the optional special-relativity rubric, scattering angle and ordinary rather
+          than reduced Planck constant.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 347af38dd2c4e89a28cfcb0e83d2b1541495ba81b1a47659f08a9e956787665c
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 9aa5b5c06950da24cc2f391588478fb2afd36897fcf2a5f6679a610a462ffb2f
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: e18a6c1729be82d38f04cbf54bc1cd373139e6f51db5be5ca2b56d7247e635de
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 188b893dc6d93e45309d92763f273124f6bc7b119b9a5bedbf983ad93f9a500c
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 11dd547e236878e5d5cbe19b294ede1f6ade19484d662a49d4290d0f8c168f7b
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+  2018-19:
+    archive: raw/sheets/IB/quantum-mechanics/2018-19/sheet-1.pdf
+    url: https://web.archive.org/web/20181220173032id_/http://www.damtp.cam.ac.uk:80/user/examples/B9a.pdf
+    sha256: 797c0d4e510c73d3dab9809295fc227d8066fa289748852bd2716d7835dda659
+    page_count: 3
+    printed_term: Michaelmas 2018
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: 2018
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 704f4054e6782eb0245d83895221ddf990bf2aba6ab6ca7825dee072819f26c3
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 0063d533b81bf2f17965ca11e06fa1ea7405e4ed2a8e7dd05531fb46e642c153
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 90427886ed1df8786d07299e63c41855183bd85a5fac176ce2600878e84f7158
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 81a7a7269921a2e82b19cdc584c96eb3a601159c1acec973972450009b6806d5
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 23220275b1f9581021bcde668037c47f631b8b65000c63cdab8913645877b851
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: e18a6c1729be82d38f04cbf54bc1cd373139e6f51db5be5ca2b56d7247e635de
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 188b893dc6d93e45309d92763f273124f6bc7b119b9a5bedbf983ad93f9a500c
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 11dd547e236878e5d5cbe19b294ede1f6ade19484d662a49d4290d0f8c168f7b
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+      '12':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 3
+        text: variants/2018-19/question.tex
+        question_sha256: 612c9a1f670c99858e7f077b56bbbb89b7191b19c041e00a16a9b0028c0f5b47
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning.
+  2019-20:
+    archive: raw/sheets/IB/quantum-mechanics/2019-20/sheet-1.pdf
+    url: https://www.qi.damtp.cam.ac.uk/files/Adrian/B9a.pdf
+    sha256: fd64195c04c5d1ca118335b994ae05f97227259496f717e12a4c9b748fc25ea5
+    page_count: 3
+    printed_term: Michaelmas 2019
+    lecturer: Prof. Adrian Kent
+    contact: apak@damtp.cam.ac.uk
+    copyright_year: null
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 704f4054e6782eb0245d83895221ddf990bf2aba6ab6ca7825dee072819f26c3
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 0063d533b81bf2f17965ca11e06fa1ea7405e4ed2a8e7dd05531fb46e642c153
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 90427886ed1df8786d07299e63c41855183bd85a5fac176ce2600878e84f7158
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 81a7a7269921a2e82b19cdc584c96eb3a601159c1acec973972450009b6806d5
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 23220275b1f9581021bcde668037c47f631b8b65000c63cdab8913645877b851
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: e18a6c1729be82d38f04cbf54bc1cd373139e6f51db5be5ca2b56d7247e635de
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 188b893dc6d93e45309d92763f273124f6bc7b119b9a5bedbf983ad93f9a500c
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 11dd547e236878e5d5cbe19b294ede1f6ade19484d662a49d4290d0f8c168f7b
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+      '12':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 3
+        text: variants/2019-20/question.tex
+        question_sha256: 612c9a1f670c99858e7f077b56bbbb89b7191b19c041e00a16a9b0028c0f5b47
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning.
+  2020-21:
+    archive: raw/sheets/IB/quantum-mechanics/2020-21/sheet-1.pdf
+    url: https://web.archive.org/web/20210422110617id_/http://www.damtp.cam.ac.uk/user/examples/B9a.pdf
+    sha256: 99f312ea1daeffa362f76232ee526d9f6eb50b1ec0eb89d05d8c310d74ab6611
+    page_count: 3
+    printed_term: Michaelmas 2020
+    lecturer: Dr. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2020
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 704f4054e6782eb0245d83895221ddf990bf2aba6ab6ca7825dee072819f26c3
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 0063d533b81bf2f17965ca11e06fa1ea7405e4ed2a8e7dd05531fb46e642c153
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 9134c84f30380432f53bb20ec7a13ae93eca0123023a402f3ff3d74f2bf17fe5
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 43d9b6486bffd1fe0b8e1c6a6fb4c4b6c443657744d129d73c2797f793fbcc0e
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 7a5d52b3bae6a1b3aae0cfae671b3c027ce880645f7711ac5a08040123db0087
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 23220275b1f9581021bcde668037c47f631b8b65000c63cdab8913645877b851
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 4e39b255d7215b4469ad1de85590770e566bd120d9d31c898b4b6223e141efd1
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 319037aa7ffbffd8a61152bc76778a03b728c0bc9e63e86a4ddd52fd137e23c2
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 0a9969b73fcd8d832c4ca091f043847fc657d475f48341a86ef2be41471caa1e
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+      '12':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 3
+        text: variants/2020-21/question.tex
+        question_sha256: 602a04553e98c491da9b2bda388bd9462262e1a8378a5fe3db9e264c1e14d51c
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning.
+  2022-23:
+    archive: raw/sheets/IB/quantum-mechanics/2022-23/sheet-1.pdf
+    url: https://web.archive.org/web/20221007100921id_/https://www.damtp.cam.ac.uk/user/examples/B9a.pdf
+    sha256: 5b11cac956dd94154554cc14b115251c57bb16934f196cb90e3fe0aaa4183d52
+    page_count: 2
+    printed_term: Michaelmas 2022
+    lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2022
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c5182fdc84f8596e184ddc9882f3b45f6033d6fd75cd015c6ad697d6a947c5c9
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2022-23/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28378a0e907a63215cc5b5ffd3d29f50765aa0bee4df0363f54b117fc785741d
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2022-23/question.tex
+        question_sha256: c8f15dc92525e9a36fbac4672280651c255c7c439a678efb17c6b2407e619cd2
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q06
+        pages:
+        - 1
+        - 2
+        text: question.tex
+        question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+        image_review: Checked all three actions, measurement signs, zero-probability time and energy-ordering
+          hypothesis.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Checked the linear term and error in the amplitude, powers in the probability, and the
+          quantum pot comment.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 377a435f4f872cd85b8d9b7bd2f3771ed19c6458a094bf0c4cfc10d49217d3ca
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: b068d3ca54dbdf618372170ac9d81d1d44be34a1e7a4097237afdf79c63324d8
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 40efd286e231c6fbb0d5e0e97725f6e9ce9b05ad8d74cd4863baa10b92d7945a
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
+  2023-24:
+    archive: raw/sheets/IB/quantum-mechanics/2023-24/sheet-1.pdf
+    url: https://web.archive.org/web/20231205142706id_/https://www.damtp.cam.ac.uk/user/examples/B9a.pdf
+    sha256: 507a6f7c9007c02d8cdf8ed20d965e570c08b9d331430782efe83101852bd237
+    page_count: 3
+    printed_term: Michaelmas 2023
+    lecturer: Prof. Frank Verstraete
+    contact: fv285@cam.ac.uk
+    copyright_year: 2023
+    date_status: dated by printed term
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c5182fdc84f8596e184ddc9882f3b45f6033d6fd75cd015c6ad697d6a947c5c9
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2023-24/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 28378a0e907a63215cc5b5ffd3d29f50765aa0bee4df0363f54b117fc785741d
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/q05
+        pages:
+        - 1
+        text: variants/2023-24/question.tex
+        question_sha256: 286858286e776e8c1d09eb95919fd04f196011feaa05b7e5e06d7be9c2bd526a
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning. Two literal backslashes are printed in the YouTube URL before the underscore
+          and ampersand.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q06
+        pages:
+        - 1
+        - 2
+        text: question.tex
+        question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
+        image_review: Checked all three actions, measurement signs, zero-probability time and energy-ordering
+          hypothesis.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q07
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
+        image_review: Checked the linear term and error in the amplitude, powers in the probability, and the
+          quantum pot comment.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 377a435f4f872cd85b8d9b7bd2f3771ed19c6458a094bf0c4cfc10d49217d3ca
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/q09
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: b068d3ca54dbdf618372170ac9d81d1d44be34a1e7a4097237afdf79c63324d8
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '11':
+        unit: IB/quantum-mechanics/sheet-1/q11
+        pages:
+        - 2
+        - 3
+        text: question.tex
+        question_sha256: 40efd286e231c6fbb0d5e0e97725f6e9ce9b05ad8d74cd4863baa10b92d7945a
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
   2025-26:
     archive: raw/sheets/IB/quantum-mechanics/2025-26/sheet-1.pdf
     url: https://web.archive.org/web/20260519001136id_/https://www.damtp.cam.ac.uk/user/examples/B9a.pdf
     sha256: 0c5b7f8035b1ba3ec116c699db1971c9ba33448db912cb2ead419cda7ff9b5ad
     page_count: 2
     printed_term: Michaelmas 2025
-    copyright_year: 2025
     lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2025
+    date_status: dated by printed term
     questions:
       '1':
         unit: IB/quantum-mechanics/sheet-1/q01
@@ -17,96 +813,98 @@ editions:
         - 1
         text: question.tex
         question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
       '2':
         unit: IB/quantum-mechanics/sheet-1/q02
         pages:
         - 1
         text: question.tex
         question_sha256: c5182fdc84f8596e184ddc9882f3b45f6033d6fd75cd015c6ad697d6a947c5c9
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
       '3':
         unit: IB/quantum-mechanics/sheet-1/q03
         pages:
         - 1
-        text: question.tex
+        text: variants/2025-26/question.tex
         question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
       '4':
         unit: IB/quantum-mechanics/sheet-1/q04
         pages:
         - 1
         text: question.tex
         question_sha256: 28378a0e907a63215cc5b5ffd3d29f50765aa0bee4df0363f54b117fc785741d
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
       '5':
         unit: IB/quantum-mechanics/sheet-1/q05
         pages:
         - 1
         text: question.tex
         question_sha256: 15b179090c6567d36f18a87f826f320dcc3c533ffbbb64da45d86bd007008865
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning.
       '6':
         unit: IB/quantum-mechanics/sheet-1/q06
         pages:
         - 1
         text: question.tex
         question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked all three actions, measurement signs, zero-probability time and energy-ordering
+          hypothesis.
       '7':
         unit: IB/quantum-mechanics/sheet-1/q07
         pages:
         - 2
         text: question.tex
         question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the linear term and error in the amplitude, powers in the probability, and the
+          quantum pot comment.
       '8':
         unit: IB/quantum-mechanics/sheet-1/q08
         pages:
         - 2
         text: question.tex
         question_sha256: 377a435f4f872cd85b8d9b7bd2f3771ed19c6458a094bf0c4cfc10d49217d3ca
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
       '9':
         unit: IB/quantum-mechanics/sheet-1/q09
         pages:
         - 2
         text: question.tex
         question_sha256: b068d3ca54dbdf618372170ac9d81d1d44be34a1e7a4097237afdf79c63324d8
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
       '10':
         unit: IB/quantum-mechanics/sheet-1/q10
         pages:
         - 2
         text: question.tex
         question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
       '11':
         unit: IB/quantum-mechanics/sheet-1/q11
         pages:
         - 2
         text: question.tex
         question_sha256: 40efd286e231c6fbb0d5e0e97725f6e9ce9b05ad8d74cd4863baa10b92d7945a
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
   2026-27:
     archive: raw/sheets/IB/quantum-mechanics/2026-27/sheet-1.pdf
     url: https://www.damtp.cam.ac.uk/user/examples/B9a.pdf
     sha256: 12a2ac1edd80bd31952a3b7f78f83787c2ab4ac68ed80fdf7609807acb313f86
     page_count: 2
     printed_term: Michaelmas 2026
-    copyright_year: 2025
     lecturer: Prof. Maria Ubiali
+    contact: M.Ubiali@damtp.cam.ac.uk
+    copyright_year: 2025
+    date_status: dated by printed term
     questions:
       '1':
         unit: IB/quantum-mechanics/sheet-1/q01
@@ -114,85 +912,284 @@ editions:
         - 1
         text: question.tex
         question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
       '2':
         unit: IB/quantum-mechanics/sheet-1/q02
         pages:
         - 1
         text: question.tex
         question_sha256: c5182fdc84f8596e184ddc9882f3b45f6033d6fd75cd015c6ad697d6a947c5c9
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
       '3':
         unit: IB/quantum-mechanics/sheet-1/q03
         pages:
         - 1
-        text: question.tex
+        text: variants/2026-27/question.tex
         question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
       '4':
         unit: IB/quantum-mechanics/sheet-1/q04
         pages:
         - 1
         text: question.tex
         question_sha256: 28378a0e907a63215cc5b5ffd3d29f50765aa0bee4df0363f54b117fc785741d
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
       '5':
         unit: IB/quantum-mechanics/sheet-1/q05
         pages:
         - 1
         text: question.tex
         question_sha256: 15b179090c6567d36f18a87f826f320dcc3c533ffbbb64da45d86bd007008865
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked both model questions, URL text or its absence, and parentheses or square brackets
+          around the 1926 warning.
       '6':
         unit: IB/quantum-mechanics/sheet-1/q06
         pages:
         - 1
         text: question.tex
         question_sha256: e2e8f173ca6b7183961916a7fe410720c0c786822bff0e79a989d53a973191e6
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked all three actions, measurement signs, zero-probability time and energy-ordering
+          hypothesis.
       '7':
         unit: IB/quantum-mechanics/sheet-1/q07
         pages:
         - 2
         text: question.tex
         question_sha256: d62ba446bc8a6c0ce13a8f9592a2c923c2939f7b4d463720bcfce90ed58ef431
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the linear term and error in the amplitude, powers in the probability, and the
+          quantum pot comment.
       '8':
         unit: IB/quantum-mechanics/sheet-1/q08
         pages:
         - 2
         text: question.tex
         question_sha256: 377a435f4f872cd85b8d9b7bd2f3771ed19c6458a094bf0c4cfc10d49217d3ca
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
       '9':
         unit: IB/quantum-mechanics/sheet-1/q09
         pages:
         - 2
         text: question.tex
         question_sha256: b068d3ca54dbdf618372170ac9d81d1d44be34a1e7a4097237afdf79c63324d8
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked explicit reference to the preceding oscillator, all three initial states, and
+          availability and energy index of the hint.
       '10':
         unit: IB/quantum-mechanics/sheet-1/q10
         pages:
         - 2
         text: question.tex
         question_sha256: cc37d30d8c5e54e47aa2cc17de5e4992d02b6d7d8ee9ec270da468c3c7930dfe
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
       '11':
         unit: IB/quantum-mechanics/sheet-1/q11
         pages:
         - 2
         text: question.tex
         question_sha256: 40efd286e231c6fbb0d5e0e97725f6e9ce9b05ad8d74cd4863baa10b92d7945a
-        image_review: Compared the original printed page with the baseline TeX; identical
-          question bodies in the 2025 and 2026 page renders.
+        image_review: Checked the three parts, Wronskian order, potential and eigenfunction notation, and momentum
+          expectation.
+additional_originals:
+  2015-16-mirror:
+    archive: raw/sheets/IB/quantum-mechanics/2015-16/sheets-1-3-mirror.pdf
+    url: https://dec41.user.srcf.net/notes/IB_M/quantum_mechanics_eg.pdf
+    sha256: 4f1c3659a50e9b7f704a6082683ddd3b21a95b342b5c652fe0de425817b1c252
+    page_count: 6
+    printed_term: Michaelmas 2015
+    lecturer: Dr. J.M. Evans
+    contact: J.M.Evans@damtp.cam.ac.uk
+    copyright_year: 2015
+    date_status: same sheet in a six-page collection
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6a9f18f2696652200d2d78b627c31c11d4bb06c192a64acf3a8c92e005962f3b
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 704f4054e6782eb0245d83895221ddf990bf2aba6ab6ca7825dee072819f26c3
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 2dae8f4021929ae9dd49fd7d1f60bcb31e02fa268f2e5a045616f0048c827514
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 4c70563d968fd37a4d2928ba4d5bba5d919a46010bef4edf78a2f83429739f45
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/qx07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 3a171bebe228866f8eb1c34d7d4088052ddf721461538b763d684161d4c13f4a
+        image_review: Checked the optional special-relativity rubric, scattering angle and ordinary rather
+          than reduced Planck constant.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/q08
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 347af38dd2c4e89a28cfcb0e83d2b1541495ba81b1a47659f08a9e956787665c
+        image_review: Checked the potential letter, both trial functions and the sketch request, including
+          the case of the word Equation.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/q10
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 9aa5b5c06950da24cc2f391588478fb2afd36897fcf2a5f6679a610a462ffb2f
+        image_review: Checked normalisation prefactor, naming of wavefunction, initial width and which probability
+          or density limit is requested.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: e18a6c1729be82d38f04cbf54bc1cd373139e6f51db5be5ca2b56d7247e635de
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 188b893dc6d93e45309d92763f273124f6bc7b119b9a5bedbf983ad93f9a500c
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 11dd547e236878e5d5cbe19b294ede1f6ade19484d662a49d4290d0f8c168f7b
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+    sheet_pages:
+    - 1
+    - 2
+    matching_question_text: 2015-16
+    comparison: Both page rasters at 118 dpi agree, including every question.
+  unresolved-header-2006-copyright-2007:
+    archive: raw/sheets/IB/quantum-mechanics/unresolved-header-2006-copyright-2007/sheet-1.pdf
+    url: https://web.archive.org/web/20081001012655id_/http://www.damtp.cam.ac.uk:80/user/examples/B9a.pdf
+    sha256: 968ac742d787b10db30794942ec5ec626f227413e2d6b063d747dbcd1f191b7a
+    page_count: 2
+    printed_term: Michaelmas 2006
+    lecturer: Dr. R. M. Williams
+    contact: rmw7@damtp.cam.ac.uk
+    copyright_year: 2007
+    date_status: academic year unresolved; year of printed header and copyright conflict
+    questions:
+      '1':
+        unit: IB/quantum-mechanics/sheet-1/q01
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: fc6416766c36ec92756f7e6c9389d9084704c32bd2e99e0422fd8561dfc48701
+        image_review: Checked the two wavelengths and kinetic energies, old reduced Planck constant and old
+          work-function label.
+      '2':
+        unit: IB/quantum-mechanics/sheet-1/q02
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: f0d898fba9f3880b1c46986a946783f6b130b3ea01649af572a4adcaa6a20423
+        image_review: Checked energy flux exponent and units, approximate versus definite wavelength, and the
+          observation interval.
+      '3':
+        unit: IB/quantum-mechanics/sheet-1/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 6166c2edbec7aba892ddc94997fcf3b36e2f1dd2ce54e2fe2582982b78fca7fa
+        image_review: Checked energy sign and factors, ground-state speed and/or relativistic consistency,
+          Compton or Bohr radius and photon limits.
+      '4':
+        unit: IB/quantum-mechanics/sheet-1/q04
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 9b752e175f8142dba651dc2aebd7688100c5dcd1263b9bc696d0b30be1b2ec79
+        image_review: Checked which editions ask for a first-orbit radius, comparison, and fusion implications,
+          and whether the reading note is included.
+      '5':
+        unit: IB/quantum-mechanics/sheet-1/qx01
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: f8408fa04d32d3d2da4ca5594f23e79e861486eebdfde080b5ad9f372521e64c
+        image_review: Checked normalized-state hypotheses and conjugation, uniqueness of gamma, and the strict
+          inequality in the final clause.
+      '6':
+        unit: IB/quantum-mechanics/sheet-1/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 972190b9e60d8c0a2e538925b827eb19362711d071231973214d89b8af7ebade
+        image_review: Checked the printed m=hbar, quarter and half powers in the denominator, current, conservation
+          and the infinitesimal interval.
+      '7':
+        unit: IB/quantum-mechanics/sheet-1/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: caf23ffaa4fa7abf9912508f888720c3d8bd1c5f8a95fda527d14153eda299a6
+        image_review: Checked the odd-parity bound, interior/exterior endpoint conventions and presence of
+          the symmetry and graphical requirements.
+      '8':
+        unit: IB/quantum-mechanics/sheet-1/qx04
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 4d22d721a62712e9ddd99e29335b049a11573180b67fdc3fb13171895a2d62bc
+        image_review: Checked potential, dagger signs, scaled-energy symbol, hats where printed, both integrals
+          and the final equivalence or existence claim.
+      '9':
+        unit: IB/quantum-mechanics/sheet-1/qx05
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 0810dd4d545d8d7c05504064f97fb7662f4749feb5572d88d385506276bb9f26
+        image_review: Checked the derivative jump, order of its difference, bound-state request, and the extra
+          energy range where printed.
+      '10':
+        unit: IB/quantum-mechanics/sheet-1/qx06
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: b0d80cd0648da1a5c025673cdf10918ec3b029e6480640ae1a33594a28b3e548
+        image_review: Checked period L, degeneracies and the infinite-period limit.
+    sheet_pages:
+    - 1
+    - 2
+    matching_question_text: 2006-07
+    comparison: Both rasters agree except for the changed copyright notice. No additional academic year inferred.
+source_limits:
+- 2015 combined mirror contains the standalone first sheet on pages 1–2, the second on pages 3–4 and the third
+  on pages 5–6.
+- The copy headed Michaelmas 2006 with copyright 2007 is byte-distinct from the dated 2006 original. Its questions
+  match the dated copy; its actual year of teaching remains unresolved.
+- Michaelmas 2026 is the printed teaching year despite the retained 2025 copyright.
+- None of the printed sheets assigns numerical marks or supplies a question figure.
