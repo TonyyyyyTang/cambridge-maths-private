@@ -1,0 +1,550 @@
+scope: IB/methods/sheet-1, all 21 distinct units in the registered five-edition union.
+  This audit does not cover the whole course.
+performed_at_utc: '2026-11-20T15:38:01.975912+00:00'
+seed: 20261127
+sampling_algorithm: random.Random(20261127).sample(sorted(q01..q12 plus qx01..qx09),
+  5), Python 3
+population:
+- q01
+- q02
+- q03
+- q04
+- q05
+- q06
+- q07
+- q08
+- q09
+- q10
+- q11
+- q12
+- qx01
+- qx02
+- qx03
+- qx04
+- qx05
+- qx06
+- qx07
+- qx08
+- qx09
+sample:
+- q02
+- qx07
+- q09
+- q10
+- q05
+sample_size: 5
+population_size: 21
+coverage_percent: 23.81
+official_answer_used: false
+auditor: Fresh context; no sampled solutions authored by this auditor.
+independence: 'Before freezing: project orientations, selected question.tex and q05
+  2024 wording, originals, and source/edition metadata only. The qx07 source variant
+  itself describes rescaling; an independent distributional derivative argument was
+  used. The five stored answers, comparisons and executable checks were first opened
+  only after the rework hash was returned.'
+blind_rework_sha256: 4f9066202fb39bfb313d4ca13a69a3d242444bc5c0c118b51464ba9df1e6f9cf
+frozen_blind_rework_markdown: '# Independent rework of the Methods Sheet 1 sample
+
+
+  Sampling frame q01–q12 and qx01–qx09 sorted as strings, random.Random(20261127).sample(frame,
+  5), in draw order q02, qx07, q09, q10, q05. I worked from the selected questions
+  and archived question pages. The project status and source metadata contain historical
+  notes; the qx07 source-variant note itself mentions the rescaling relation to q02.
+  I instead computed qx07 directly by distributional differentiation. I had not opened
+  any stored solution, check, comparison, or detailed audit before freezing this document.
+
+
+  ## q02
+
+
+  Evenness kills all sine coefficients. The constant is the integral from zero to
+  one of 1-2x²+x⁴, namely 8/15. The nth cosine coefficient is the integral over [-1,1]
+  of f(x)cos(kx), k=nπ. At both ends sin(kx) and f'' vanish. Four integrations by
+  parts give minus [f''''''cos(kx)] from -1 to 1 divided by k⁴ plus the integral of
+  f''''''''cos(kx) divided by k⁴. The latter vanishes since f''''''''=24. As f''''''(x)=24x
+  the coefficient is 48(-1)^(n+1)/(nπ)⁴. The continuous piecewise smooth periodic
+  function satisfies pointwise Fourier inversion, including at the joins; absolute
+  summability also gives uniform convergence. Sketch symmetric humps at 2j of height
+  1, falling to 0 with horizontal tangent at odd integers; the second derivative is
+  12x²-4 with matching endpoint value 8. The third derivative jumps from 24 to -24
+  at each join, so the extension is C², not three times differentiable there. This
+  jump accounts for a nonzero boundary term in the fourth integration and exact n^-4
+  order.
+
+
+  ## qx07
+
+
+  Write the period circle as [-π,π]. The periodic quartic F, F'' and F'''' have matching
+  endpoint traces (0,0,8π²). Inside F''''''=24θ, which drops by 48π at π modulo the
+  period. Its distributional derivative is 24 minus a point mass of weight 48π at
+  the join. At any nonzero mode, therefore, (in)^4 c_n=-(48π)/(2π) exp(-inπ)=-24(-1)^n.
+  The mean is π⁴(1-2/3+1/5)=8π⁴/15. Pair positive and negative frequencies if a real
+  sketch is wanted. By Fourier inversion for a periodic continuous, piecewise smooth
+  function, equality holds everywhere; the computed fourth-power decay also implies
+  uniform absolute convergence. The arches ascend from 0 at (2j-1)π to π⁴ at 2jπ then
+  descend to 0 at (2j+1)π, all with horizontal tangents. Inflection at local coordinates
+  ±π/√3. There are exactly two continuous derivatives. Cancellations in the real series
+  at particular points do not change the exact order of the complex coefficients.
+
+
+  ## q09
+
+
+  Let U=(x²-1)^n. U^(n) has leading coefficient (2n)!/n!, hence q_n has degree n and
+  leading coefficient A_n=(2n)!/[2^n(n!)²]. Expanding near 1 gives U=(x-1)^n(2+x-1)^n,
+  so U^(n)(1)=2^n n! and q_n(1)=1. Differentiate (x²-1)U''-2nxU=0 exactly n+1 times.
+  Product rule yields coefficients x²-1, 2x, -n(n+1) on U^(n+2), U^(n+1), U^(n). Thus
+  q_n satisfies the standard Legendre equation. Any nonzero polynomial solution has
+  degree n: matching its top term of degree s gives s(s+1)=n(n+1). Two solutions must
+  then be proportional, because eliminating the leading coefficient otherwise gives
+  a nonzero lower-degree solution. Normalization at 1 identifies P_n. Next integrate
+  x^m U^(n) by parts n times. Every derivative of U of order <n vanishes at both endpoints,
+  so the moment is zero for each nonnegative integral m<n. Since P_n-A_n x^n has degree
+  <n, the squared norm reduces to A_n times the nth moment = (A_n/2^n)∫(1-x²)^n dx
+  on [-1,1]. Substituting x=2t-1 gives the latter integral 2·4^n B(n+1,n+1)=2·4^n(n!)²/(2n+1)!,
+  so the norm is 2/(2n+1). A negative exponent, if allowed by a literal m<n, lies
+  outside the polynomial-moment convention and can make the integral divergent.
+
+
+  ## q10
+
+
+  For A(r)=J_m(αr), B(r)=J_m(βr), subtract A(rB'')'' from B(rA'')'', or rearrange
+  the given ODEs, to obtain (r(AB''-BA''))''=(α²-β²)rAB. At zero the boundary term
+  vanishes: for positive integral order m both functions are O(r^m) and derivatives
+  O(r^(m-1)); at order zero functions are bounded and derivatives O(r). Negative integral
+  order, if desired, follows by J_-m=(-1)^m J_m. Evaluate the remaining boundary term
+  at 1 and divide by α²-β² to recover the displayed formula, with numerator βJ_m(α)J''_m(β)-αJ_m(β)J''_m(α).
+  If parameters are arbitrary signed reals, α≠β alone fails for β=-α. The formula
+  with the quotient applies off α²=β²; for distinct nonnegative parameters the printed
+  condition suffices. On distinct positive zeros orthogonality follows. Fix α=j>0
+  a zero and let β→j. The quotient is -jJ_m(β)J''_m(j)/(j²-β²), tending to J''_m(j)²/2.
+  The integral itself is continuous by boundedness on the compact parameter neighborhood
+  times [0,1].
+
+
+  ## q05
+
+
+  Write ξ_n=2πn/L. Periodicity kills all boundary terms, giving f-hat_n=(iξ_n)^(-N)
+  times the nth Fourier coefficient of f^(N) for n≠0. Its magnitude is at most (L/(2π|n|))^N||f^(N)||∞.
+  Choosing integer N>k gives rapid decay. For example take a real function with absolutely
+  uniformly convergent expansion Σ_{n∈Z} 2^(-|n|) exp(iξ_n θ); termwise integration
+  gives exactly the nonzero indicated coefficients. For the extra part the terms have
+  summable sup norms b^-n and integer frequencies a^n, proving continuity and periodicity
+  of the limit. Integrating termwise shows the coefficient at k=a^n is b^-n=k^(-log
+  b/log a); at other frequencies it is zero. Fix b=2 and choose a sufficiently large
+  to beat any proposed positive universal power of decay, as small an exponent as
+  desired. There is no uniform positive power bound over all continuous periodic functions
+  even allowing the constant to depend on the function. The 2024 question ends after
+  (ii).
+
+  '
+denominators:
+  distinct_sampled_units: 5
+  sampled_printed_positions: 13
+  archived_source_pages_inspected: 7
+  compiled_pdf_pages_inspected: 35
+observed_before_repair:
+  substantive_maths_errors:
+    units: 0
+    of: 5
+  minor_mathematical_errors:
+    units: 0
+    of: 5
+  transcription_errors:
+    units: 0
+    of: 5
+    printed_positions: 0
+    of_printed_positions: 13
+  presentation_or_edition_delivery_findings:
+    units: 1
+    of: 5
+    percent: 20
+    printed_positions: 1
+    of_printed_positions: 13
+    percent_of_printed_positions: 7.692
+  layout_or_plot_errors:
+    units: 0
+    of: 5
+missing_answers_by_variant_change:
+  mathematical_tasks_or_assumptions_changed:
+  - edition: 2024-25
+    printed_question: '5'
+    unit: q05
+    change: The printed 2024 problem consists exactly of canonical (i) and (ii); it
+      does not ask for the lacunary example in (iii).
+    pdf_evidence: Printed page 8 contains the two-part question followed by a generic
+      instruction to consult the canonical unit for the solution status.
+    private_html_evidence: The exact two-part question is followed by a link to the
+      longer canonical unit.
+    fix: Bind a separately verified historical answer containing the shared (i) and
+      (ii), omit canonical (iii) and its proof, rebuild PDF and private edition HTML
+      and confirm both answers resolve.
+  wording_or_order_only: []
+  baseline_or_identical_text: []
+units:
+  q02:
+    unit_dir: courses/IB/methods/sheets/sheet-1/q02
+    sha256:
+      question.tex: 66e4457c54286c12331ddea75837822f5f6cffe5c67191ba51aa687475731b09
+      solution.tex: 0d8e036652c9bec58cee91c5c4054faa07947e1637eb9cd1cc709f6fefc9c142
+      plot.py: 2c73c02b0502f59a04a0594e83cfb4ff1e38e70d62be142b3ccafe0cfa24fef4
+      figures/periodic-quartic.png: 665bf3b5b229c5747dff5567ceb09aafb856eb344de1eb43eb99ee386f540149
+      check.py: cf1a4405b83a3ddeee6b1fbe76fa209c72cb849d34c02aa80babd2d027361726
+      independent-solution.md: d61cfa0d02113d2d710ad6a42d2a84d9a7ce0d10b54fd0ab05758e0dc896e9cf
+      comparison.md: 5638d4a5b78ef05ce8ebd99a11b36a4de738fb4e12cd03bc4763256d7a5fc0d2
+    sampled_pdf_pages_in_union:
+    - 2
+    - 3
+    rerun_returncode: 0
+    rerun_stdout: 'PASS: 12 exact Fourier coefficients, mean 8/15, C2 seam matching
+      and third-derivative jump, 101 values within the rigorous uniform N=50 tail
+      bound.'
+    math_comparison: The independent integrations give the same mean and signed cosine
+      coefficients, pointwise equality, uniform convergence, critical points, regularity
+      and coefficient decay. The graph shows the correct period, extrema and inflections.
+    source_comparison: Original pages checked for numbers, wording, notation, signs,
+      conditions, hints, subparts and any printed marks. No sampled transcription
+      discrepancy.
+    printed_positions:
+    - edition: 2025-26
+      printed_number: '2'
+      source_page: 1
+      question_sha256: 66e4457c54286c12331ddea75837822f5f6cffe5c67191ba51aa687475731b09
+      compiled_pages:
+      - 2
+      - 3
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2026-27
+      printed_number: '2'
+      source_page: 1
+      question_sha256: 66e4457c54286c12331ddea75837822f5f6cffe5c67191ba51aa687475731b09
+      compiled_pages:
+      - 2
+      - 3
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2024-25
+      printed_number: '2'
+      source_page: 1
+      question_sha256: 66e4457c54286c12331ddea75837822f5f6cffe5c67191ba51aa687475731b09
+      compiled_pages:
+      - 2
+      - 3
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+  qx07:
+    unit_dir: courses/IB/methods/sheets/sheet-1/qx07
+    sha256:
+      question.tex: 5c828ec79f0aad5588dc5dbd03055e2b208aaab97dcb9c5393c3da4f42c13318
+      solution.tex: cb8bf3211d61ca3647f51a897253e1bff71c644656f661f3f7d858f5b795daaa
+      plot.py: 50954a446c85602d1da968bed9dfc797df8deba0b9dbadc2a1bb4240454a7636
+      figures/quartic-regularity.png: 776675d0f5c6838e91fa4c4601e1ec96560e7e982dbc60dbe0a97b5d07caa5da
+      check.py: 819a588855279c6dc49bc2914add03ac6428304fd404ff3e65f3e7bf3f73a529
+      independent-solution.md: c6727e27f4a07d748cf82c2d2f572c79ee1653bdbe0e127d991ae51bb748468e
+      comparison.md: f995481372e6e62fb927f7231ccf93ecb765d25ff3cba9de980eb1dbb3736726
+    sampled_pdf_pages_in_union:
+    - 36
+    - 37
+    rerun_returncode: 0
+    rerun_stdout: 'PASS: direct complex coefficients, constant coefficient, exact
+      fourth-power decay and C2/non-C3 joins.'
+    math_comparison: Periodic distributional differentiation gives the signed nonzero
+      coefficients directly. The mean, pointwise equality, periodic join derivatives,
+      sketch and decay agree with the stored elementary integration proof. Both sides
+      of each third-derivative jump are shown with open endpoints and scaled axes.
+    source_comparison: Original pages checked for numbers, wording, notation, signs,
+      conditions, hints, subparts and any printed marks. No sampled transcription
+      discrepancy.
+    printed_positions:
+    - edition: 2015-16
+      printed_number: '1'
+      source_page: 1
+      question_sha256: 5c828ec79f0aad5588dc5dbd03055e2b208aaab97dcb9c5393c3da4f42c13318
+      compiled_pages:
+      - 1
+      - 2
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+  q09:
+    unit_dir: courses/IB/methods/sheets/sheet-1/q09
+    sha256:
+      question.tex: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+      solution.tex: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+      check.py: 1a37da46f10c800acdd8ef954f3dfe7da84121e358f5d8fdfa8eee5bb26e841e
+      independent-solution.md: 9afa254242743f6801bafde4a75ae0b21b091627715f2f21baf2aefaf2cdf230
+      comparison.md: 029c4d76553b94de811c849d5794da832134eb9c54c83e0dcc0c7f648c2e7e16
+    sampled_pdf_pages_in_union:
+    - 14
+    - 15
+    rerun_returncode: 0
+    rerun_stdout: 'PASS: n=1..8 Rodrigues polynomials, endpoints, Legendre ODE/library
+      comparison, exact norms, 36 lower moments, beta-integral formula and integration-by-parts
+      endpoint factors.'
+    math_comparison: The leading coefficient, normalization, Legendre equation, uniqueness
+      and all orthogonality results agree; beta integration independently verifies
+      the stated norm. The integral monomial assumption is explicit.
+    source_comparison: Original pages checked for numbers, wording, notation, signs,
+      conditions, hints, subparts and any printed marks. No sampled transcription
+      discrepancy.
+    printed_positions:
+    - edition: 2025-26
+      printed_number: '9'
+      source_page: 2
+      question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+      compiled_pages:
+      - 14
+      - 15
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2026-27
+      printed_number: '9'
+      source_page: 2
+      question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+      compiled_pages:
+      - 14
+      - 15
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2024-25
+      printed_number: '9'
+      source_page: 2
+      question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+      compiled_pages:
+      - 13
+      - 14
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+  q10:
+    unit_dir: courses/IB/methods/sheets/sheet-1/q10
+    sha256:
+      question.tex: 0118e4706a118cb6e91f3485c73832e45ee82c06bc475f57cf62d7cfaa506703
+      solution.tex: 0a7f52de8ab400f4242fdc9d94045c16da63aa87c4fffdc9828d137fe563e658
+      check.py: 1e988388f614a7278bbb4eee3fd4b4421583644772a4f7a5ecb5f1a906c8881d
+      independent-solution.md: c1df733fb14d5d33f00bdc20e43d4195e90461514ae73b70cd903435b6b80d1e
+      comparison.md: c64a9d084ddec52b65ee6f462dc97ed491bf51dc59747633976888e0e98d8cb8
+    sampled_pdf_pages_in_union:
+    - 16
+    - 17
+    rerun_returncode: 0
+    rerun_stdout: 'PASS: 8 general product integrals, 16 Wronskian derivative tests,
+      origin limits, and 36 zero-weighted products for m=0,1,2,4; positive roots checked
+      simple numerically.'
+    math_comparison: The Wronskian identity, vanishing endpoint, distinct squared
+      frequencies, off-diagonal orthogonality and diagonal norm agree. The stored
+      response explicitly addresses the source omission for signed frequencies and
+      the m=0 boundary case.
+    source_comparison: Original pages checked for numbers, wording, notation, signs,
+      conditions, hints, subparts and any printed marks. No sampled transcription
+      discrepancy.
+    printed_positions:
+    - edition: 2025-26
+      printed_number: '10'
+      source_page: 2
+      question_sha256: 0118e4706a118cb6e91f3485c73832e45ee82c06bc475f57cf62d7cfaa506703
+      compiled_pages:
+      - 16
+      - 17
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2026-27
+      printed_number: '10'
+      source_page: 2
+      question_sha256: 0118e4706a118cb6e91f3485c73832e45ee82c06bc475f57cf62d7cfaa506703
+      compiled_pages:
+      - 16
+      - 17
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2024-25
+      printed_number: '10'
+      source_page: 2
+      question_sha256: 0118e4706a118cb6e91f3485c73832e45ee82c06bc475f57cf62d7cfaa506703
+      compiled_pages:
+      - 15
+      - 16
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+  q05:
+    unit_dir: courses/IB/methods/sheets/sheet-1/q05
+    sha256:
+      question.tex: 8c4d5650877659b3faa09fa7cd09570b38d6c1cbb3fbd4992646f98ca7fddb9a
+      solution.tex: 85284efb40aa654a07f13ae01a947d27a340b01197825a8271edcd71b0c8931c
+      check.py: a7b2ad1d621098c1b7d96bf56d036977fcfc5700ac2d5a52e1cde23cf534718e
+      independent-solution.md: 7d357c23884a77292507c2e0272646f1c209b86ef7f31778ddb5881a01409c76
+      comparison.md: 19ff814a4af0d95fc1b796e8a157962557ec3cd8970408fc656093a330e495f5
+    sampled_pdf_pages_in_union:
+    - 8
+    - 9
+    rerun_returncode: 0
+    rerun_stdout: 'PASS: 11 Gaussian Fourier integrals, 10 nonaliased lacunary coefficients,
+      11 slow-decay subsequence values and a uniform tail bound; general convergence
+      proved in solution.'
+    math_comparison: For all three parts the conclusions agree. The blind example
+      has geometric coefficients and the stored example has Gaussian coefficients.
+      Both are valid at every integer frequency. The lacunary example gives a sharp
+      subsequence exponent and the correct class-level conclusion.
+    source_comparison: Original pages checked for numbers, wording, notation, signs,
+      conditions, hints, subparts and any printed marks. No sampled transcription
+      discrepancy.
+    printed_positions:
+    - edition: 2025-26
+      printed_number: '5'
+      source_page: 1
+      question_sha256: 8c4d5650877659b3faa09fa7cd09570b38d6c1cbb3fbd4992646f98ca7fddb9a
+      compiled_pages:
+      - 8
+      - 9
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2026-27
+      printed_number: '5'
+      source_page: 1
+      question_sha256: 8c4d5650877659b3faa09fa7cd09570b38d6c1cbb3fbd4992646f98ca7fddb9a
+      compiled_pages:
+      - 8
+      - 9
+      edition_answer: Correct draft printed; canonical private web link resolves to
+        matching answer
+    - edition: 2024-25
+      printed_number: '5'
+      source_page: 1
+      question_sha256: 9e10d53180340e093a672802b96549d1fa63f1046acd03c998f76bd20d3e0294
+      compiled_pages:
+      - 8
+      edition_answer: Generic canonical pointer only; changed scope
+source_editions:
+  2025-26:
+    archive: private/raw/sheets/IB/methods/2025-26/sheet-1.pdf
+    sha256: b8b1e1cb2a2251f5c5b1861eca9ce50f84933dbc31f358abae72d6b4be2ea2e0
+    page_png_sha256:
+      1: f1e8e677b00d10acce735cd64e610190cb114e739450f36f293172ebe0363080
+      2: f1ff02ac2243a915c97f15fa01e00d5bef09ffaaf01350af6ff81c53107229a4
+  2026-27:
+    archive: private/raw/sheets/IB/methods/2026-27/sheet-1.pdf
+    sha256: 0d8da1fd689c9f7c01cbd78175f956113bb669057e63069fd3dee8de93bcfda8
+    page_png_sha256:
+      1: 1ee9a3e53b65eb682f5a4b0bef4fa1dafe7cdf6bfdb66ef31705caa9c0175a5a
+      2: d011987ad2d0bf2302497d7aaad03ad39225bf6c175e5180b4ef621df4eeb1b9
+  2024-25:
+    archive: private/raw/sheets/IB/methods/2024-25/sheet-1.pdf
+    sha256: ceeac51d71dd54ef1c3549b0b35cb2c57eed0258a7526e86c7249997656c5f3b
+    page_png_sha256:
+      1: f3d87ea897b380c83a2434f1f6304b70fa2d38d1ca41d83ac4cc17b605019793
+      2: a48fca7f24936d8566be54cc4289a1e4a142e4f71ec16ad736825673729ed715
+  2015-16:
+    archive: private/raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    page_png_sha256:
+      1: 5d365b7942eea20369e2ab4878ff2d8d5ff488e61c9f8ddc26478bbdece3f9e1
+compiled_receipts_at_review:
+  union:
+    path: build/IB-methods-sheet-1/main.pdf
+    pdf_sha256: 8e73fb0d75ffde7047782a9c4fd9239bfc3f445f213a426802835fa2857a1168
+    pages:
+    - 2
+    - 3
+    - 8
+    - 9
+    - 14
+    - 15
+    - 16
+    - 17
+    - 36
+    - 37
+    rendered_pages_sha256:
+      '2': 98936e56c433dfc186e92e5286535110aeb68dc4049d414bad5230913aa23c8a
+      '3': a2a5771cd4bbd631d9e933128c159a8c40635b467eb8632c3519a8c95f3fadcc
+      '8': 09f52bb102bb0b8cbe99cb55b1112559db02c6ab6e6071473988b021054fa75c
+      '9': a051e6ab79b4817659aed35459d73a1eef3bc1fd911d5e7872a28d5eb5b9435d
+      '14': 373b3e796987b67a03617597c718b33f0ad008471cfd1d19c9684041e813fe53
+      '15': 02e4edf37c6fba6ba2548dc91a369812704faef084e5aa7a33cbd27455cb3df8
+      '16': 293f3de05497015fff27b77e5abf9f27ec06685e129a8fdb47dad28e1e0e23cf
+      '17': 345d062056c34dad5f1a5f9f35657ffa38fc3f1b200ec7557cad44a25a1827f5
+      '36': dd145fbb52f9d39b4895c7dd421dedc4b7881b677db82f93cc50fe42c2f12a26
+      '37': 322b6bd986ce162df79cc35e82cf8ead11af864966d4103a273b5fa4a7a4a20f
+  2015-16:
+    path: build/IB-methods-sheet-1-2015-16/main.pdf
+    pdf_sha256: ebc40f9d5722ca9423752ca06873efb5b3e37295c60b7461e28690c4253d4277
+    pages:
+    - 1
+    - 2
+    rendered_pages_sha256:
+      '1': dbde6e82c61a2a53cdbe353a7403d7f62d6db58cb60c2c33bdd0ecbe529dbeb4
+      '2': a8c3794dd12c35a929a6ab12be4c50ce35c044b0c31b0b475d91eb82a939c281
+  2024-25:
+    path: build/IB-methods-sheet-1-2024-25/main.pdf
+    pdf_sha256: c9a5e954839babd26408be6fd646c50a1d384d436ba60957ad67e4a358b9ef9b
+    pages:
+    - 2
+    - 3
+    - 8
+    - 13
+    - 14
+    - 15
+    - 16
+    rendered_pages_sha256:
+      '2': ca87a09204fcbdf4b8ecea581a41bc436d059a970420f6c30e4145258210279c
+      '3': 13e6ac4b179f2ee03c287d7c48e753d41bdf98492523aa60f227e0a1058609f5
+      '8': 60f4e01e11c10587677871b85d2bd047fe3e0fe086e1d0f25dd81ca80f95e521
+      '13': 1ebed7653c4dc8320506cb96c06e665f29dbb642c6c7421878e6b90c09f87882
+      '14': 8c20e76dc2c7b6c6fd4ef22d200b8db8c06e78ffe2ab838cccd061caa6c5e45c
+      '15': 92147511136fa39534df11aa205eb036e232c87baf82255b7a7b04ed834bc84e
+      '16': f6ba8b9d18b87b37b5910aaf9ab3f3e890116bfd561e2b4f7e1ef3bfa7914ca6
+  2025-26:
+    path: build/IB-methods-sheet-1-2025-26/main.pdf
+    pdf_sha256: 8780b94def8682e8e83be8002d6c5b6efc70a6ccb0966d3b183ec3a8e0ae0f9f
+    pages:
+    - 2
+    - 3
+    - 8
+    - 9
+    - 14
+    - 15
+    - 16
+    - 17
+    rendered_pages_sha256:
+      '2': e83fcd1aa4dda2377c4598fccb084a046cbd58ecf91610720003b6c6dd01a7aa
+      '3': a2a5771cd4bbd631d9e933128c159a8c40635b467eb8632c3519a8c95f3fadcc
+      '8': cb1afd1d0642c7cd958ba6fb286ebb74542d658e6f2e053f2f3643ea799272c3
+      '9': a051e6ab79b4817659aed35459d73a1eef3bc1fd911d5e7872a28d5eb5b9435d
+      '14': 59537b15669780aedf864a6790e933814d9856489e948d937b9fd889e68d67ae
+      '15': 02e4edf37c6fba6ba2548dc91a369812704faef084e5aa7a33cbd27455cb3df8
+      '16': d80ccc08489f1ed78bd862523f8c29f4ed183bf3e89b72b198fc57747b22034c
+      '17': 345d062056c34dad5f1a5f9f35657ffa38fc3f1b200ec7557cad44a25a1827f5
+  2026-27:
+    path: build/IB-methods-sheet-1-2026-27/main.pdf
+    pdf_sha256: 59329fb2435203570c05cc0f5a9f8e155b013b59303da75b1ab8b0c79c15f29e
+    pages:
+    - 2
+    - 3
+    - 8
+    - 9
+    - 14
+    - 15
+    - 16
+    - 17
+    rendered_pages_sha256:
+      '2': 5ec13034814092c94636943d037338b948f9c40a65dc4f3ba289853824640d18
+      '3': e0cd5d0f417c575658a721c0e29f164033bee19298f86ef89f1950453573d8f9
+      '8': 25bf7e195920fb1b3b1430ca6e0379ee3eff06cc20c3bedef4626fc275a9626d
+      '9': 4966a1aacadd3b76b6e5700921321d971726997aaad6e9b88e799b56b6a0245c
+      '14': 826a0efcf33f7d3c4404ddfead8d02c79f4059656c26ba72aa4a80e5be24d1a8
+      '15': 67bd7655f1a243e420ca2147c845b08e39d3eda1e040ff68a82b36162f127c7a
+      '16': 54225555889f2b94c367fa57e28d2ce9da5c669d22dc1b4639fe2101c7686bbc
+      '17': 60b1e950b599919266af43d31ab99435ee3ff795951687267305743d5eb86878
+resolution: Pre-repair evidence. Main agent notified of the 2024-25 q05 edition delivery
+  finding. Record the rebuilt edition verification separately.
+root_repair:
+  unit: q05
+  edition: 2024-25
+  resolution: Attached both independently verified retained parts of this shorter
+    question, with their own source and check receipts. Rebuilt the PDF and private
+    edition page. The original before-repair audit rates are preserved.
+  pages_1_based:
+  - 8
+  compiled_pdf_sha256: 95610a8463e990a6982756d7d96d29a5a94f18540e08301ad5ea09f56f0ddfb4
+  solution_sha256: f9a4d89baf38ec6cdcb681823ab56b09056735d424b0bf0db09b57d4b373ea66

@@ -1,0 +1,2871 @@
+course: IB/markov-chains
+sheet: 2
+baseline: 2025-26
+source_limits:
+- The located editions span Michaelmas 2006, 2010–2021 and 2023–2025. The 2026–27
+  URL returned the 2025–26 original. No separate 2022–23 original has been verified.
+editions:
+  2025-26:
+    archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+    sha256: 363d6ec515baca9801a428d1c3a17cf125b6cf932aeb9d8ca7aa95617f9dd9f6
+    page_count: 2
+    printed_term: Michaelmas 2025
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 2a4463450b39cef1fc3c4e2fcc54c9b96e509269afbec7a8ea431c0e89eb4b73
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: b790d6212b7c450d682abfa8092ad9405beef444268f8c37692d5bde1c472f1c
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 660fef214b5ca91a3eb342aa915bdd5a7ff13ed7c7c5da4cdd15535ca28c98c0
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e5d12cee086afa7dfa6cad3f654e25d5840017ee24904eb541dbffea352d791f
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+      '6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5fa8fa9d8e8c15d6c892c6b3cf8de7ef07dee34bf1edc4c9d1b3119059a3eee1
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.12'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+      '7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2025-26/question.tex
+        question_sha256: 558474600d449efae1965584675ebad4e8705ab1466364cd480533eeaac2d3e5
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+      '10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: bf3eaf43a63fa0262a85f087e8b8f5baf03c2da08529c8dc012292c2b86c0c55
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 45d691e65cee8648015912c35ce33bafe9583f38aff50de54fe4d7fc16d6c389
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '8'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '8'
+      '13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2025-26/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+  2024-25:
+    archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+    sha256: 50289a5bc34e4ab0e82fe9720acc2cdb858c819753d86f0adcc8773aaccf35d3
+    page_count: 2
+    printed_term: Michaelmas 2024
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 7decd3d286bcb77ad90ca3e8abc18cecbfb0703184137e2c00ad52bcf573e3e6
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 6882b281f490b4f465a1e5356ccb21b6e3d82fc752c1a104183ee9c76d8aeae5
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 660fef214b5ca91a3eb342aa915bdd5a7ff13ed7c7c5da4cdd15535ca28c98c0
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: e5d12cee086afa7dfa6cad3f654e25d5840017ee24904eb541dbffea352d791f
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+      '6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 5fa8fa9d8e8c15d6c892c6b3cf8de7ef07dee34bf1edc4c9d1b3119059a3eee1
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.12'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+      '7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2024-25/question.tex
+        question_sha256: 558474600d449efae1965584675ebad4e8705ab1466364cd480533eeaac2d3e5
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+      '10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: bf3eaf43a63fa0262a85f087e8b8f5baf03c2da08529c8dc012292c2b86c0c55
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 45d691e65cee8648015912c35ce33bafe9583f38aff50de54fe4d7fc16d6c389
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '8'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '8'
+      '13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2024-25/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+  2023-24:
+    archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+    sha256: c30fdae119b425fba406339c7132e8cffae5cd15aa3bb216bda23199bbc9fbff
+    page_count: 2
+    printed_term: Michaelmas 2023
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 36c7854f0f6510a138f84b7444b0884f0f56a1782e479339105a7adf4f323753
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: ea309db7b134469b94468fb7bb2cb2d06abb0896cb39e1cf74c77ec12e6ff330
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 660fef214b5ca91a3eb342aa915bdd5a7ff13ed7c7c5da4cdd15535ca28c98c0
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2023-24/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q10
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+          note: The printed reference points to sheet 1 q10 in this edition; the mathematical
+            exercise identified by comparison with the neighbouring editions is sheet
+            1 q09 (printed 9).
+      '6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2023-24/question.tex
+        question_sha256: 5165ee2d7a3a03ffafc5894852b6b410de7c8802d0a356e8df747e38428c0dd3
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q13
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+          note: The printed reference points to sheet 1 q13 in this edition; the mathematical
+            exercise identified by comparison with the neighbouring editions is sheet
+            1 q12 (printed 12).
+      '7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2023-24/question.tex
+        question_sha256: 558474600d449efae1965584675ebad4e8705ab1466364cd480533eeaac2d3e5
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+      '10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: bf3eaf43a63fa0262a85f087e8b8f5baf03c2da08529c8dc012292c2b86c0c55
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 45d691e65cee8648015912c35ce33bafe9583f38aff50de54fe4d7fc16d6c389
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '8'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '8'
+      '13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2023-24/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+  2021-22:
+    archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+    sha256: d404bf91b4701c80fa7d66d4253fb887cd8e580c5f2d3d52dff0319682a7023b
+    page_count: 2
+    printed_term: Michaelmas 2021
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: a3c503a045c1ffcbdbac0c81eb915acbf001cdad7354adfc8dec87d9da375a91
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: ea309db7b134469b94468fb7bb2cb2d06abb0896cb39e1cf74c77ec12e6ff330
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 660fef214b5ca91a3eb342aa915bdd5a7ff13ed7c7c5da4cdd15535ca28c98c0
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2021-22/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q10
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+          note: The printed reference points to sheet 1 q10 in this edition; the mathematical
+            exercise identified by comparison with the neighbouring editions is sheet
+            1 q09 (printed 9).
+      '6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2021-22/question.tex
+        question_sha256: 5165ee2d7a3a03ffafc5894852b6b410de7c8802d0a356e8df747e38428c0dd3
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q13
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+          note: The printed reference points to sheet 1 q13 in this edition; the mathematical
+            exercise identified by comparison with the neighbouring editions is sheet
+            1 q12 (printed 12).
+      '7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2021-22/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q10
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '9'
+          note: The printed reference points to sheet 1 q10 in this edition; the mathematical
+            exercise identified by comparison with the neighbouring editions is sheet
+            1 q09 (printed 9).
+      '10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: variants/2021-22/question.tex
+        question_sha256: 48f0c02595df740d26688f49cb4f9852073806b0ee29b62ff26c9b6db5c8f62a
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: variants/2021-22/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '8'
+          note: The printed reference points to sheet 1 q09 in this edition; the mathematical
+            exercise identified by comparison with the neighbouring editions is sheet
+            1 q08 (printed 8).
+      '13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2021-22/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+  2020-21:
+    archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+    sha256: 1f1d07315a70ea410aaebd11b11294acb5ef4a74373964c57ae9a4128aaeb31b
+    page_count: 2
+    printed_term: Michaelmas 2020
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 36c63d7941f21fb589c8c1d9245712a5556b26e5f753e7a6ec7743c587a63c09
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 3e1f75fe17e8f484be7a703d401696e389c16c49c40b566b923f33bb5889004f
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 660fef214b5ca91a3eb342aa915bdd5a7ff13ed7c7c5da4cdd15535ca28c98c0
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '10'
+      '6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 79147a812dc4b8433d3aba44ef6c234ea78ebd59be3d4a58fe5a195083773628
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '13'
+      '7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '10'
+      '10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 48f0c02595df740d26688f49cb4f9852073806b0ee29b62ff26c9b6db5c8f62a
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: variants/2020-21/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '9'
+      '13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: f986b23a198a7f45023917f85942cb78025e562e0cefd36ac1b335e0bf39129f
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: variants/2020-21/question.tex
+        question_sha256: 4ac0d227e49db528c725b1c64acfae6d75d3fede7aaa1642740483bdddfd0a17
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+  2019-20:
+    archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+    sha256: 5d63d57b64d8b954d19803bb389bb82fdb99c6c9f3b73b6521983b8701a8a13a
+    page_count: 2
+    printed_term: Michaelmas 2019
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 676a5d45f86b7f3635aaeefe2059fc5a85247bf0fbdd327cad250b3ee9e3da83
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: 8f4dc9e0af9f72b533cedef233fe063052f682ca9742c18ca5363eaeed58a23b
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 660fef214b5ca91a3eb342aa915bdd5a7ff13ed7c7c5da4cdd15535ca28c98c0
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '10'
+      '6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 79147a812dc4b8433d3aba44ef6c234ea78ebd59be3d4a58fe5a195083773628
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '13'
+      '7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '10'
+      '10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 48f0c02595df740d26688f49cb4f9852073806b0ee29b62ff26c9b6db5c8f62a
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: variants/2019-20/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '9'
+      '13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: f986b23a198a7f45023917f85942cb78025e562e0cefd36ac1b335e0bf39129f
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: variants/2019-20/question.tex
+        question_sha256: 4ac0d227e49db528c725b1c64acfae6d75d3fede7aaa1642740483bdddfd0a17
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+  2018-19:
+    archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+    sha256: f52a3b6cbfc82b8e5f515e95ea6cf12491125725fb6ececacafa7d45dad34d6b
+    page_count: 2
+    printed_term: Michaelmas 2018
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: af20515574379b829e1e49fea680e7858a364ebd719b8a44b5f8495e89d36537
+    - page: 2
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 42669480182a71109353895ae2affb3e81d8c509295640f30669a096b0ad697f
+    questions:
+      '2.1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2.2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 08e910b624b8298f4e745f20bfbbb64098498c7cca60ddb0994c39fb88bf51ee
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '2.3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '2.4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '2.5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2018-19/question.tex
+        question_sha256: d6c624290d3f2350e887c62f65d922227c33f655746e6a18a409b3272d36f4bf
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '1.13'
+      '2.7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '2.8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '2.9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '2.11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: e0f8270fee300c5eaf6dea90aa522bbeb4d570cd8d1640db21884a5d554caea2
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '2.12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '1.9'
+      '2.13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: f986b23a198a7f45023917f85942cb78025e562e0cefd36ac1b335e0bf39129f
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '2.14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 407ddb0b6e31e2ea4ef9364a91a1cc876fdfdeea412888e9d830957460392a93
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '2.15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '2.16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: variants/2018-19/question.tex
+        question_sha256: 4ac0d227e49db528c725b1c64acfae6d75d3fede7aaa1642740483bdddfd0a17
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+    printed_footer: Comments for supervisors available from j.shimmon@statslab.cam.ac.uk
+  2017-18:
+    archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+    sha256: a646f238995be049b7afc2eb5b36c382a86d5ee50f4c33949ef5d699729ddcc6
+    page_count: 2
+    printed_term: Michaelmas 2017
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: e9f9f59a0a29242c11f08b36870403fef10615852d67481a39674f246318b305
+    - page: 2
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 42669480182a71109353895ae2affb3e81d8c509295640f30669a096b0ad697f
+    questions:
+      '2.1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2.2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: 08e910b624b8298f4e745f20bfbbb64098498c7cca60ddb0994c39fb88bf51ee
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '2.3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '2.4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '2.5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2017-18/question.tex
+        question_sha256: d6c624290d3f2350e887c62f65d922227c33f655746e6a18a409b3272d36f4bf
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '1.13'
+      '2.7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '2.8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '2.9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '2.11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: e0f8270fee300c5eaf6dea90aa522bbeb4d570cd8d1640db21884a5d554caea2
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '2.12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '1.9'
+      '2.13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: f986b23a198a7f45023917f85942cb78025e562e0cefd36ac1b335e0bf39129f
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '2.14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 407ddb0b6e31e2ea4ef9364a91a1cc876fdfdeea412888e9d830957460392a93
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '2.15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '2.16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: variants/2017-18/question.tex
+        question_sha256: 4ac0d227e49db528c725b1c64acfae6d75d3fede7aaa1642740483bdddfd0a17
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+    printed_footer: Comments for supervisors available from j.shimmon@statslab.cam.ac.uk
+  2016-17:
+    archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+    sha256: 487e83974218fee7ef7c59bbbf09950718aa34699ea0f656e83e761a7b7c8598
+    page_count: 2
+    printed_term: Michaelmas 2016
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: bdf3960fcf9d55b8a96b71bf20b2ba451c58e87c0ea68f2eddc948abbdc5b69a
+    - page: 2
+      resolution: 144
+      size:
+      - 1191
+      - 1684
+      image_sha256: d542cd1b2e36c5cb1fa76326ec219a8ee5226b0e383927e4e2c2596e5ee73fae
+    questions:
+      '2.1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2.2':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: 08e910b624b8298f4e745f20bfbbb64098498c7cca60ddb0994c39fb88bf51ee
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '2.3':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '2.4':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '2.5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2016-17/question.tex
+        question_sha256: d6c624290d3f2350e887c62f65d922227c33f655746e6a18a409b3272d36f4bf
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '1.13'
+      '2.7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '2.8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '2.9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d7058f5266b63db2c9be4618267fa9a76a1e4e9380c8ac5fcda9d291471d16fe
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '2.11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: e0f8270fee300c5eaf6dea90aa522bbeb4d570cd8d1640db21884a5d554caea2
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '2.12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '1.9'
+      '2.13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: f986b23a198a7f45023917f85942cb78025e562e0cefd36ac1b335e0bf39129f
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '2.14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 407ddb0b6e31e2ea4ef9364a91a1cc876fdfdeea412888e9d830957460392a93
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '2.15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '2.16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: variants/2016-17/question.tex
+        question_sha256: 4ac0d227e49db528c725b1c64acfae6d75d3fede7aaa1642740483bdddfd0a17
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+    printed_footer: Comments for supervisors available from j.shimmon@statslab.cam.ac.uk
+  2015-16:
+    archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+    sha256: 507074b7319d128df7d54befff7dd2c25d631197953f0a079475f8fc9ca3c164
+    page_count: 2
+    printed_term: Michaelmas 2015
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: a8d7f2a3b08b6b581f4eb82e1269c31def77fe2902f55af2e68e646520659091
+    - page: 2
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: f9160838ca02f1ff17821c4dedeac45ccaa708b37ed25ac3551f103d537fec43
+    questions:
+      '2.1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2.2':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: ee251e7c83139efc0ea92236728be8eebfe70510b0b67f7656f68a05a9fa0efd
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '2.3':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 08e910b624b8298f4e745f20bfbbb64098498c7cca60ddb0994c39fb88bf51ee
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '2.4':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '2.5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2015-16/question.tex
+        question_sha256: d8b1598ff0bac3456214d4237f10c9350e935f61e16aa55ee4a5bd2db14add33
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '1.13'
+      '2.7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '2.8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '2.9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 8d06519813c66804b7ff7d7f6a0ba1e8fea7cef69af9a56bb273d0b4e6d9be09
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '2.11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: b51476678e3fdf821def3ee5145b5071c3254d5fc22d7aa973ae6657888ec769
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '2.12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '1.9'
+      '2.13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '2.14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: variants/2015-16/question.tex
+        question_sha256: 407ddb0b6e31e2ea4ef9364a91a1cc876fdfdeea412888e9d830957460392a93
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '2.15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '2.16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+    printed_footer: Comments for supervisors available from j.shimmon@statslab.cam.ac.uk
+  2014-15:
+    archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+    sha256: c0f5e630cc6ad7f4c4e9632dd18f34248d77d1c734f4f8bb0e4eec7c8576b081
+    page_count: 2
+    printed_term: Michaelmas 2014
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 131de5da3afc640aad1dae95e42ef93b11b2dd8bd0b5c8315234ff6c6b50be82
+    - page: 2
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 726fe8d0d240befa7b404f88e913a906b2e67c40748744fcbab99d50e29d9a2c
+    questions:
+      '2.1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2.2':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: ee251e7c83139efc0ea92236728be8eebfe70510b0b67f7656f68a05a9fa0efd
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '2.3':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 08e910b624b8298f4e745f20bfbbb64098498c7cca60ddb0994c39fb88bf51ee
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '2.4':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '2.5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2014-15/question.tex
+        question_sha256: d8b1598ff0bac3456214d4237f10c9350e935f61e16aa55ee4a5bd2db14add33
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '1.13'
+      '2.7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '2.8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '2.9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: 8d06519813c66804b7ff7d7f6a0ba1e8fea7cef69af9a56bb273d0b4e6d9be09
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '2.11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: b51476678e3fdf821def3ee5145b5071c3254d5fc22d7aa973ae6657888ec769
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '2.12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '1.9'
+      '2.13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '2.14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: variants/2014-15/question.tex
+        question_sha256: 407ddb0b6e31e2ea4ef9364a91a1cc876fdfdeea412888e9d830957460392a93
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '2.15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '2.16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+    printed_footer: Comments for supervisors available from lab@statslab.cam.ac.uk
+  2013-14:
+    archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+    sha256: fe480936f32aeef0f507ffb5a6b5c8aa7de7b4bc4a0d4a9457a10526117580bf
+    page_count: 2
+    printed_term: Michaelmas 2013
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 754b72f23b562392e096e055cae573a419f8622293756e5453d89756f50b567d
+    - page: 2
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 726fe8d0d240befa7b404f88e913a906b2e67c40748744fcbab99d50e29d9a2c
+    questions:
+      '2.1':
+        unit: IB/markov-chains/sheet-2/q01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+        image_review: Checked the absorbing state s, reachability j → s for every
+          j and the conclusion for all other states.
+      '2.2':
+        unit: IB/markov-chains/sheet-2/q04
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: ee251e7c83139efc0ea92236728be8eebfe70510b0b67f7656f68a05a9fa0efd
+        image_review: Checked the Harder label where printed, all three indexed transition
+          probabilities, j ≥ 0, i ≥ 1, 0 < r < 1, both tasks and the definition of
+          J in the hint.
+      '2.3':
+        unit: IB/markov-chains/sheet-2/q02
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 08e910b624b8298f4e745f20bfbbb64098498c7cca60ddb0994c39fb88bf51ee
+        image_review: Checked the placement of n in the return probability, state-set
+          symbol, all nine entries in the matrix and the classification instruction.
+      '2.4':
+        unit: IB/markov-chains/sheet-2/q03
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: c4b4ff4a9269e42691a4000f72caaef73cad76c85b6f0f228821a95dee85b349
+        image_review: Checked holding probability 1/4, the probability 1/4 for each
+          adjacent vertex, the opposite vertices v and w, and the order and targets
+          of (a)–(c).
+      '2.5':
+        unit: IB/markov-chains/sheet-2/q05
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: 0648e17f4bc6859dfc3f03926540ebbb09163c8a76b89e75f92c7fc67bfa3ec8
+        image_review: Checked the literal exercise number and the distinction between
+          recurrent and transient states against this edition’s sheet 1 numbering.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.6':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2013-14/question.tex
+        question_sha256: d8b1598ff0bac3456214d4237f10c9350e935f61e16aa55ee4a5bd2db14add33
+        image_review: Checked both cases in the opening question, the optional label
+          where printed, the literal exercise number, the two event delimiters and
+          quantifiers, capital N, the transition ratio with exponent α and α ∈ (0,∞).
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.13'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '1.13'
+      '2.7':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Checked the single edge at R, the three edges at each other
+          vertex, absence of closed loops and equal jump probabilities.
+      '2.8':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 34c2289690fd1bb69a8ba623a5f7f9fed7d7b509ab84c69f112b6b7d5c05ed78
+        image_review: Checked the projection hint, dimensions 3 and 4, and transience
+          of the simple symmetric walk.
+      '2.9':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: cd33a2a8fbfb91b60f680d8e3130aba17280f0b767d12a47e92f36972a354f25
+        image_review: Checked singular or plural “distribution(s)” and the complete
+          printed reference to the matrix. The source matrix used to identify the
+          exercise was checked on sheet 1.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.10'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q09
+          matched_mathematical_target: IB/markov-chains/sheet-1/q09
+          target_original_number: '1.10'
+      '2.10':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: 8d06519813c66804b7ff7d7f6a0ba1e8fea7cef69af9a56bb273d0b4e6d9be09
+        image_review: Checked each part of the gas transfer model, the three questions,
+          and the historical attribution including the dash in dog–flea.
+      '2.11':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: b51476678e3fdf821def3ee5145b5071c3254d5fc22d7aa973ae6657888ec769
+        image_review: Checked the optional label when present, fair die, sum of the
+          first n throws, the modulus 13, probability delimiters and the general-theorem
+          instruction.
+      '2.12':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: 83ead896746f7856eeaff351ce05e7408a49e55603130293989b4df462b11706
+        image_review: Checked the printed sheet or exercise number, the three parts
+          (a), (b) and (c), and the comparison instruction.
+        cross_reference:
+          sheet: 1
+          printed_reference: '1.9'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '1.9'
+      '2.13':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: bac23f514c591b7e21bd84b48419e80737169731620754ff0eca8f5cc0c930cf
+        image_review: Checked whether the question is optional, all three labels and
+          inequalities, morning selection and evening left-end replacement, and the
+          limit of the order 1,2,3.
+      '2.14':
+        unit: IB/markov-chains/sheet-2/q14
+        pages:
+        - 2
+        text: variants/2013-14/question.tex
+        question_sha256: 407ddb0b6e31e2ea4ef9364a91a1cc876fdfdeea412888e9d830957460392a93
+        image_review: Checked both finite matrices entry by entry, all transition
+          subscripts in (c), the final symmetry condition and its stated index set.
+      '2.15':
+        unit: IB/markov-chains/sheet-2/q15
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+        image_review: Checked the two endpoint holds, all four directed transition
+          subscripts, strict positivity, both index ranges and time reversibility
+          in equilibrium.
+      '2.16':
+        unit: IB/markov-chains/sheet-2/q16
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d70bfcbf304df3c575268376dfb48f9e51337b3ed2586385fdb6521fffb7cf7d
+        image_review: Checked the optional label where present, every recurrence/aperiodicity
+          hypothesis, the forward and reverse products including the closing edges,
+          and the quantification over finite sequences.
+    printed_footer: Comments for supervisors available from lab@statslab.cam.ac.uk
+  2012-13:
+    archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+    sha256: 3da94299985238e714327f78fe755630236e044063267e1080f2a7c2377fedc2
+    page_count: 3
+    printed_term: Michaelmas Term 2012
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 49033035a9517429927cae38bde37b2067a3dad1e460321f13620d71005ae14b
+    - page: 2
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 2d4ae0723c9b0983811aa4d7b31baed15c65d1ca445175fed0708275ba834332
+    - page: 3
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 572f7847ce66fa1de8bdd041f2e40d3fba21b289c8bd4594730e5fabe13446e6
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Identical to the 2025–26 canonical text; R has a single edge,
+          every other vertex three.
+      '2':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: 61e3fa3daef9536336f36b87f1cb15ce1336924e17839ddc410fdbcafb0ae712
+        image_review: Shorter version omits the suggestion to project onto three dimensions.
+      '3':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: b1671b41700b4bf5e766c9c1d2b0b9ef6be0be28c7c95ac9ad174ebaa229467b
+        image_review: Shorter statement, with no introductory question about visit
+          counts or explicit quantifier expansion. Weber prints ordinary italic P,
+          Example 12 from Sheet 1 and comma-free transition subscripts.
+        cross_reference:
+          sheet: 1
+          printed_reference: '12'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+      '4':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 772e5e6fb5b182bf6a1ad1a0e1c5b1cf2288a6303aec0d7fb49a6610123eafaf
+        image_review: Explicit 5-by-5 matrix in place of the modern cross-reference;
+          checked row by row against Sheet 1 q09.
+      '5':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: 59afb38fa8b365f0b54393a68d3ec1bd3ab0ef5ec53b6d1f4494965931bd6049
+        image_review: The physical partition formulation lacks the later explicit
+          uniform-molecule sampling assumption and the model names. Read its count
+          transitions under the usual equally likely molecule assumption.
+      '6':
+        unit: IB/markov-chains/sheet-2/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 184e8d5e0fc2af3dce21d48f492343782c9242977c5994dddf19611a0dd60202
+        image_review: Nonholding uniformly nearest-neighbour walk, different kernel
+          and subpart order from q03. (i) first return time, (ii) number of opposite-vertex
+          visits, (iii) first opposite-vertex passage time.
+      '7':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: 01ef357ef4d8e152d5d7fb10cadecf14e9fcc1b2967a043b282e56ce57584662
+        image_review: The reference is to printed Example 7, parts (a)–(c), in the
+          contemporaneous Sheet 1. Its stable ID is IB/markov-chains/sheet-1/q08.
+        cross_reference:
+          sheet: 1
+          printed_reference: '7'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '7'
+      '8':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: variants/2012-13/question.tex
+        question_sha256: 633526c78115bcd84f3df82d42a60173030e4d0da86386b423638d484fda43a9
+        image_review: No instruction to quote general theorems; the limit uses blackboard
+          P and parentheses.
+      '9':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: cb5871171a7a45085b2708afa2311e4ad423491848b62f3851573efac0aa6186
+        image_review: Longer version includes n books, pairwise precedence probabilities
+          and the full ordered-permutation probability. The earlier three-book limit
+          is named pi_123.
+      '10':
+        unit: IB/markov-chains/sheet-2/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 92ebe631624330ebfd08e205ad9363061519353fbecbbc31ccca6a6c14a7de72
+        image_review: No semicolons after the first two matrices. Includes arbitrary
+          finite nearest-neighbour case (c), half-line case (d), and no general symmetric
+          kernel. Baseline q14 has a different fourth case alongside three shared
+          cases.
+      '11':
+        unit: IB/markov-chains/sheet-2/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 76ce815f91c807c316a830ed2ec620ec7ffd79934a90566270a7b597be279058
+        image_review: Alternating journeys, independent rain each way, long-run wet
+          proportion, all retained.
+      '12':
+        unit: IB/markov-chains/sheet-2/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: c98e84c4379571ecd4ab6c343b23b13b0c90bc0e80ece7581c34c9894d392fdb
+        image_review: Regular parenthetical title, italic P and blackboard E. The
+          residual life includes k=0; the source does not assume finite mean. Both
+          limits and endpoint 1/mu are present.
+      '13':
+        unit: IB/markov-chains/sheet-2/qx05
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 289341a31eeac6b3a542f4f84741baa98c3d7e98b1da74016fc04518485bcf58
+        image_review: Nightly cancellation probability 1/2, flower costs x thousand
+          pounds, reconciliation probability sqrt(x), £750 receipts.
+      '14':
+        unit: IB/markov-chains/sheet-2/qx06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: a4b473e60b35d1d2de61b4c79f9bab0f0086c39e9f1554bb560e686eae9e0a07
+        image_review: Printed “too difficult calculate” retained. Off-diagonal minimum,
+          on-diagonal row complement and final question all checked. Check irreducibility
+          of the accepted kernel separately from that of the proposal when solving.
+      '15':
+        unit: IB/markov-chains/sheet-2/qx07
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: ceffa44de5fade3a7e440e3f63f4d88bf645d8cf80a2e17d33b9c25004277d18
+        image_review: All nine entries checked. Starting holdings are (3,3,3); the
+          three-round example and the universal finite termination request both appear.
+          If termination means eventual fixed holdings, arbitrary irreducible periodic
+          matrices provide counterexamples.
+      '16':
+        unit: IB/markov-chains/sheet-2/qx08
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: c63438885f8c8ac1a210765876339eb53e4ee75f0c9bbdfe6b36ef8a5455f724
+        image_review: Preserved ordered list of six masses, printed chained inequalities
+          i≠j≠k, pairwise hint and strict “smaller” for all alpha. Uniform selection
+          gives equality; distinguish the interpretation “no greater” when solving.
+        cross_reference:
+          sheet: 2
+          printed_reference: '9'
+          same_edition_printed_target: IB/markov-chains/sheet-2/q13
+          matched_mathematical_target: IB/markov-chains/sheet-2/q13
+          target_original_number: '9'
+      '17':
+        unit: IB/markov-chains/sheet-2/qx09
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: ae6d9880c43846c3cc4c1f4b4c57aa603bfc334c7f0f6dcc55d0cf532aeca437
+        image_review: Outlined upright labels AB, BC and AC, second BC label, greedy
+          tie rule, observation at Nth complete set, exact golden ratio and both parity
+          cases checked.
+    before_question:
+      '14':
+        heading: Extras
+        wording: The following questions are optional, but could be fun to do or to
+          discuss with your supervisor. You should at least read them, to appreciate
+          the type of problems that the methods of our course can address.
+        applies_through: '17'
+        page: 2
+  2011-12:
+    archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+    sha256: 2663c6d9b9e9cf753241a4d7ba6566db7aaf9355b9a03320123b04a215d85447
+    page_count: 3
+    printed_term: Michaelmas Term 2011
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 0620f932b2e392456b93efdc100e4f6f699ddf8a2b4bcbb909360f046fa1c74c
+    - page: 2
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 2d4ae0723c9b0983811aa4d7b31baed15c65d1ca445175fed0708275ba834332
+    - page: 3
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 572f7847ce66fa1de8bdd041f2e40d3fba21b289c8bd4594730e5fabe13446e6
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Identical to the 2025–26 canonical text; R has a single edge,
+          every other vertex three.
+      '2':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: 61e3fa3daef9536336f36b87f1cb15ce1336924e17839ddc410fdbcafb0ae712
+        image_review: Shorter version omits the suggestion to project onto three dimensions.
+      '3':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: b1671b41700b4bf5e766c9c1d2b0b9ef6be0be28c7c95ac9ad174ebaa229467b
+        image_review: Shorter statement, with no introductory question about visit
+          counts or explicit quantifier expansion. Weber prints ordinary italic P,
+          Example 12 from Sheet 1 and comma-free transition subscripts.
+        cross_reference:
+          sheet: 1
+          printed_reference: '12'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+      '4':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 772e5e6fb5b182bf6a1ad1a0e1c5b1cf2288a6303aec0d7fb49a6610123eafaf
+        image_review: Explicit 5-by-5 matrix in place of the modern cross-reference;
+          checked row by row against Sheet 1 q09.
+      '5':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: 59afb38fa8b365f0b54393a68d3ec1bd3ab0ef5ec53b6d1f4494965931bd6049
+        image_review: The physical partition formulation lacks the later explicit
+          uniform-molecule sampling assumption and the model names. Read its count
+          transitions under the usual equally likely molecule assumption.
+      '6':
+        unit: IB/markov-chains/sheet-2/qx01
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 184e8d5e0fc2af3dce21d48f492343782c9242977c5994dddf19611a0dd60202
+        image_review: Nonholding uniformly nearest-neighbour walk, different kernel
+          and subpart order from q03. (i) first return time, (ii) number of opposite-vertex
+          visits, (iii) first opposite-vertex passage time.
+      '7':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: 01ef357ef4d8e152d5d7fb10cadecf14e9fcc1b2967a043b282e56ce57584662
+        image_review: The reference is to printed Example 7, parts (a)–(c), in the
+          contemporaneous Sheet 1. Its stable ID is IB/markov-chains/sheet-1/q08.
+        cross_reference:
+          sheet: 1
+          printed_reference: '7'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '7'
+      '8':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 1
+        text: variants/2011-12/question.tex
+        question_sha256: 633526c78115bcd84f3df82d42a60173030e4d0da86386b423638d484fda43a9
+        image_review: No instruction to quote general theorems; the limit uses blackboard
+          P and parentheses.
+      '9':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: cb5871171a7a45085b2708afa2311e4ad423491848b62f3851573efac0aa6186
+        image_review: Longer version includes n books, pairwise precedence probabilities
+          and the full ordered-permutation probability. The earlier three-book limit
+          is named pi_123.
+      '10':
+        unit: IB/markov-chains/sheet-2/qx02
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 92ebe631624330ebfd08e205ad9363061519353fbecbbc31ccca6a6c14a7de72
+        image_review: No semicolons after the first two matrices. Includes arbitrary
+          finite nearest-neighbour case (c), half-line case (d), and no general symmetric
+          kernel. Baseline q14 has a different fourth case alongside three shared
+          cases.
+      '11':
+        unit: IB/markov-chains/sheet-2/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 76ce815f91c807c316a830ed2ec620ec7ffd79934a90566270a7b597be279058
+        image_review: Alternating journeys, independent rain each way, long-run wet
+          proportion, all retained.
+      '12':
+        unit: IB/markov-chains/sheet-2/qx04
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: c98e84c4379571ecd4ab6c343b23b13b0c90bc0e80ece7581c34c9894d392fdb
+        image_review: Regular parenthetical title, italic P and blackboard E. The
+          residual life includes k=0; the source does not assume finite mean. Both
+          limits and endpoint 1/mu are present.
+      '13':
+        unit: IB/markov-chains/sheet-2/qx05
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 289341a31eeac6b3a542f4f84741baa98c3d7e98b1da74016fc04518485bcf58
+        image_review: Nightly cancellation probability 1/2, flower costs x thousand
+          pounds, reconciliation probability sqrt(x), £750 receipts.
+      '14':
+        unit: IB/markov-chains/sheet-2/qx06
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: a4b473e60b35d1d2de61b4c79f9bab0f0086c39e9f1554bb560e686eae9e0a07
+        image_review: Printed “too difficult calculate” retained. Off-diagonal minimum,
+          on-diagonal row complement and final question all checked. Check irreducibility
+          of the accepted kernel separately from that of the proposal when solving.
+      '15':
+        unit: IB/markov-chains/sheet-2/qx07
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: ceffa44de5fade3a7e440e3f63f4d88bf645d8cf80a2e17d33b9c25004277d18
+        image_review: All nine entries checked. Starting holdings are (3,3,3); the
+          three-round example and the universal finite termination request both appear.
+          If termination means eventual fixed holdings, arbitrary irreducible periodic
+          matrices provide counterexamples.
+      '16':
+        unit: IB/markov-chains/sheet-2/qx08
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: c63438885f8c8ac1a210765876339eb53e4ee75f0c9bbdfe6b36ef8a5455f724
+        image_review: Preserved ordered list of six masses, printed chained inequalities
+          i≠j≠k, pairwise hint and strict “smaller” for all alpha. Uniform selection
+          gives equality; distinguish the interpretation “no greater” when solving.
+        cross_reference:
+          sheet: 2
+          printed_reference: '9'
+          same_edition_printed_target: IB/markov-chains/sheet-2/q13
+          matched_mathematical_target: IB/markov-chains/sheet-2/q13
+          target_original_number: '9'
+      '17':
+        unit: IB/markov-chains/sheet-2/qx09
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: ae6d9880c43846c3cc4c1f4b4c57aa603bfc334c7f0f6dcc55d0cf532aeca437
+        image_review: Outlined upright labels AB, BC and AC, second BC label, greedy
+          tie rule, observation at Nth complete set, exact golden ratio and both parity
+          cases checked.
+    before_question:
+      '14':
+        heading: Extras
+        wording: The following questions are optional, but could be fun to do or to
+          discuss with your supervisor. You should at least read them, to appreciate
+          the type of problems that the methods of our course can address.
+        applies_through: '17'
+        page: 2
+  2010-11:
+    archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+    sha256: 3ade8803ab4ca2ace097eac577784425a41a2b8ac88bdbcef238398f40f1b045
+    page_count: 3
+    printed_term: Michaelmas Term 2010
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 8a38a14af1d19f1686a496082135509e59404dd8d15155c99bc9e952380ea6fb
+    - page: 2
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: 0a0e033bc41f80e4b2cb43b027259cf78a21539713ba1e6873615b9f3faeb895
+    - page: 3
+      resolution: 144
+      size:
+      - 1224
+      - 1584
+      image_sha256: da3527977c5d8610c9126b70f7438e93b54135c6852cfa529a4221738aa1087e
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Identical to the 2025–26 canonical text; R has a single edge,
+          every other vertex three.
+      '2':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2010-11/question.tex
+        question_sha256: e7fc3dba8bbe89b4be5af901941354b3454ea705bd4cffc36d5bee3a6efe01e0
+        image_review: Shorter statement, with no introductory question about visit
+          counts or explicit quantifier expansion. Printed blackboard P, Example 12
+          from Sheet 1 and comma-free transition subscripts.
+        cross_reference:
+          sheet: 1
+          printed_reference: '12'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+      '3':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2010-11/question.tex
+        question_sha256: 61e3fa3daef9536336f36b87f1cb15ce1336924e17839ddc410fdbcafb0ae712
+        image_review: Shorter version omits the suggestion to project onto three dimensions.
+      '4':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 772e5e6fb5b182bf6a1ad1a0e1c5b1cf2288a6303aec0d7fb49a6610123eafaf
+        image_review: Explicit 5-by-5 matrix in place of the modern cross-reference;
+          checked row by row against Sheet 1 q09.
+      '5':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: variants/2010-11/question.tex
+        question_sha256: 59afb38fa8b365f0b54393a68d3ec1bd3ab0ef5ec53b6d1f4494965931bd6049
+        image_review: The physical partition formulation lacks the later explicit
+          uniform-molecule sampling assumption and the model names. Read its count
+          transitions under the usual equally likely molecule assumption.
+      '6':
+        unit: IB/markov-chains/sheet-2/qx01
+        pages:
+        - 1
+        - 2
+        text: question.tex
+        question_sha256: 184e8d5e0fc2af3dce21d48f492343782c9242977c5994dddf19611a0dd60202
+        image_review: Nonholding uniformly nearest-neighbour walk, different kernel
+          and subpart order from q03. (i) first return time, (ii) number of opposite-vertex
+          visits, (iii) first opposite-vertex passage time.
+      '7':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: 01ef357ef4d8e152d5d7fb10cadecf14e9fcc1b2967a043b282e56ce57584662
+        image_review: The reference is to printed Example 7, parts (a)–(c), in the
+          contemporaneous Sheet 1. Its stable ID is IB/markov-chains/sheet-1/q08.
+        cross_reference:
+          sheet: 1
+          printed_reference: '7'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '7'
+      '8':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: 633526c78115bcd84f3df82d42a60173030e4d0da86386b423638d484fda43a9
+        image_review: No instruction to quote general theorems; the limit uses blackboard
+          P and parentheses.
+      '9':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: c2fac847d211c7eb3c1631df80bb17766608c3e7f1f35d0be1c6335a10c797c0
+        image_review: Three-book version only. She owns the three books; the concluding
+          limit is unnamed.
+      '10':
+        unit: IB/markov-chains/sheet-2/qx02
+        pages:
+        - 2
+        text: variants/2010-11/question.tex
+        question_sha256: 9ac3a7cf0750f8c6da8f8783fa249f311fa398bb700223297f6abc5aac6a7d8b
+        image_review: First two matrices are followed by semicolons. Includes arbitrary
+          finite nearest-neighbour case (c), half-line case (d), and no general symmetric
+          kernel. Baseline q14 has a different fourth case alongside three shared
+          cases.
+      '11':
+        unit: IB/markov-chains/sheet-2/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 76ce815f91c807c316a830ed2ec620ec7ffd79934a90566270a7b597be279058
+        image_review: Alternating journeys, independent rain each way, long-run wet
+          proportion, all retained.
+      '12':
+        unit: IB/markov-chains/sheet-2/qx04
+        pages:
+        - 2
+        - 3
+        text: variants/2010-11/question.tex
+        question_sha256: 5a2fe592ff7e349372b506130607972c4e234045fb2d404c64bc735e66581db5
+        image_review: Bold parenthetical title, blackboard P and E. The residual life
+          includes k=0; the source does not assume finite mean. Both limits and endpoint
+          1/mu are present.
+      '13':
+        unit: IB/markov-chains/sheet-2/qx05
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 289341a31eeac6b3a542f4f84741baa98c3d7e98b1da74016fc04518485bcf58
+        image_review: Nightly cancellation probability 1/2, flower costs x thousand
+          pounds, reconciliation probability sqrt(x), £750 receipts.
+  2006-07:
+    archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+    sha256: 598671068ab5b40fde860139c0c95ad930c52891ae58f593f7d0e7b605dd3a0a
+    page_count: 3
+    printed_term: Michaelmas Term 2006
+    rendered_pages:
+    - page: 1
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 0f3e2ae1548dc2ef32c931d7496a30c03d4fff2a5c5f28d3433b2eb2cafaf8c3
+    - page: 2
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: 8acab34f2be63e78f686143aef401d451ec662142c014ef276b2ada2d5fe248f
+    - page: 3
+      resolution: 144
+      size:
+      - 1190
+      - 1684
+      image_sha256: a3acd24f80eebfdcb5118995614a9723304df5191cffa9b69b01a1a967d481ef
+    questions:
+      '1':
+        unit: IB/markov-chains/sheet-2/q07
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+        image_review: Identical to the 2025–26 canonical text; R has a single edge,
+          every other vertex three.
+      '2':
+        unit: IB/markov-chains/sheet-2/q06
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: e7fc3dba8bbe89b4be5af901941354b3454ea705bd4cffc36d5bee3a6efe01e0
+        image_review: Shorter statement, with no introductory question about visit
+          counts or explicit quantifier expansion. Printed blackboard P, Example 12
+          from Sheet 1 and comma-free transition subscripts.
+        cross_reference:
+          sheet: 1
+          printed_reference: '12'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q12
+          matched_mathematical_target: IB/markov-chains/sheet-1/q12
+          target_original_number: '12'
+      '3':
+        unit: IB/markov-chains/sheet-2/q08
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 61e3fa3daef9536336f36b87f1cb15ce1336924e17839ddc410fdbcafb0ae712
+        image_review: Shorter version omits the suggestion to project onto three dimensions.
+      '4':
+        unit: IB/markov-chains/sheet-2/q09
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 772e5e6fb5b182bf6a1ad1a0e1c5b1cf2288a6303aec0d7fb49a6610123eafaf
+        image_review: Explicit 5-by-5 matrix in place of the modern cross-reference;
+          checked row by row against Sheet 1 q09.
+      '5':
+        unit: IB/markov-chains/sheet-2/q10
+        pages:
+        - 1
+        text: variants/2006-07/question.tex
+        question_sha256: 59afb38fa8b365f0b54393a68d3ec1bd3ab0ef5ec53b6d1f4494965931bd6049
+        image_review: The physical partition formulation lacks the later explicit
+          uniform-molecule sampling assumption and the model names. Read its count
+          transitions under the usual equally likely molecule assumption.
+      '6':
+        unit: IB/markov-chains/sheet-2/qx01
+        pages:
+        - 1
+        - 2
+        text: question.tex
+        question_sha256: 184e8d5e0fc2af3dce21d48f492343782c9242977c5994dddf19611a0dd60202
+        image_review: Nonholding uniformly nearest-neighbour walk, different kernel
+          and subpart order from q03. (i) first return time, (ii) number of opposite-vertex
+          visits, (iii) first opposite-vertex passage time.
+      '7':
+        unit: IB/markov-chains/sheet-2/q12
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 01ef357ef4d8e152d5d7fb10cadecf14e9fcc1b2967a043b282e56ce57584662
+        image_review: The reference is to printed Example 7, parts (a)–(c), in the
+          contemporaneous Sheet 1. Its stable ID is IB/markov-chains/sheet-1/q08.
+        cross_reference:
+          sheet: 1
+          printed_reference: '7'
+          same_edition_printed_target: IB/markov-chains/sheet-1/q08
+          matched_mathematical_target: IB/markov-chains/sheet-1/q08
+          target_original_number: '7'
+      '8':
+        unit: IB/markov-chains/sheet-2/q11
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 633526c78115bcd84f3df82d42a60173030e4d0da86386b423638d484fda43a9
+        image_review: No instruction to quote general theorems; the limit uses blackboard
+          P and parentheses.
+      '9':
+        unit: IB/markov-chains/sheet-2/q13
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: c2fac847d211c7eb3c1631df80bb17766608c3e7f1f35d0be1c6335a10c797c0
+        image_review: Three-book version only. She owns the three books; the concluding
+          limit is unnamed.
+      '10':
+        unit: IB/markov-chains/sheet-2/qx02
+        pages:
+        - 2
+        text: variants/2006-07/question.tex
+        question_sha256: 9ac3a7cf0750f8c6da8f8783fa249f311fa398bb700223297f6abc5aac6a7d8b
+        image_review: First two matrices are followed by semicolons. Includes arbitrary
+          finite nearest-neighbour case (c), half-line case (d), and no general symmetric
+          kernel. Baseline q14 has a different fourth case alongside three shared
+          cases.
+      '11':
+        unit: IB/markov-chains/sheet-2/qx03
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 76ce815f91c807c316a830ed2ec620ec7ffd79934a90566270a7b597be279058
+        image_review: Alternating journeys, independent rain each way, long-run wet
+          proportion, all retained.
+      '12':
+        unit: IB/markov-chains/sheet-2/qx04
+        pages:
+        - 2
+        - 3
+        text: variants/2006-07/question.tex
+        question_sha256: 5a2fe592ff7e349372b506130607972c4e234045fb2d404c64bc735e66581db5
+        image_review: Bold parenthetical title, blackboard P and E. The residual life
+          includes k=0; the source does not assume finite mean. Both limits and endpoint
+          1/mu are present.
+      '13':
+        unit: IB/markov-chains/sheet-2/qx05
+        pages:
+        - 3
+        text: question.tex
+        question_sha256: 289341a31eeac6b3a542f4f84741baa98c3d7e98b1da74016fc04518485bcf58
+        image_review: Nightly cancellation probability 1/2, flower costs x thousand
+          pounds, reconciliation probability sqrt(x), £750 receipts.

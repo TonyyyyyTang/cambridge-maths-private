@@ -8,6 +8,18 @@ sources:
   2024-25: ceeac51d71dd54ef1c3549b0b35cb2c57eed0258a7526e86c7249997656c5f3b
   2016-17: 72c844e977d8c374f44a25835ff18dfe32a9aef534dab5ba045fdde4cff60674
   2015-16: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  2001-02: 0e362b586c47f4d89914e803cf0c3a0a61106852863628709f303e5b7c94d388
+  2002-03: 6acfa46427ada11e63d26f440a2183e1dc1e185a630866f3a8e3719fa6f7a28f
+  2003-04: c5c4c64cb1ff68dcafbdfaab0d0af655c8db4ed9821d35c4a0b12fce04c879b9
+  2004-05: 1af3ac91e85bc5c45109aa29389907e00df798658b6dab647db731e84a416dfe
+  2006-07: e76840677fb69c9e4cf493707dc811cf6baf3294f345c1c2a019b65c6a932abe
+  2007-08: ee8c96c49d16e705a3bbdf07df3626c08d6a366f9f07ab0bb32e67945637e838
+  2011-12: 2a973c74f647fa6048b176e40a17ad3d3711d8d399db45b33f4baf9b8bfea82d
+  2014-15: d063f629152f43b1ca9935b65132bf91d0057f71b8ae1e51f9c1e8365df63e47
+  2018-19: 299b69853f2d92a53a1c11bf2943310a4f1963813303959fe3aafa4ee700e62b
+  2020-21: 5a48b1e9e906a51ab6ad625fd162a931d3ed72d8b8796579acfe04af5c114ece
+  2022-23: b7247fac15a6d46a68d6483a348b08417ec303b336261e3f967b8b112b14ab79
+  2023-24: dd8d1e89bbaf423e790c328088efbdc6451630311f8c180e0e9d04eaca7cc893
 mappings:
 - year: 2015-16
   original_question: 1
@@ -370,3 +382,1109 @@ mappings:
   source_pages: *id012
   unit_relative_path: question.tex
   sha256: 37b9e8c80483940f72bf25893392d0ac7f46733c5af688b7261362c126307925
+- year: 2001-02
+  original_question: 1
+  id: qx10
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+  image_review: One printed exercise joins the quartic series and half-range square
+    extensions. Part (ii) compares x and |x| without a factor of two. Later editions
+    split the tasks into q02 and q03.
+- year: 2001-02
+  original_question: 2
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2001-02/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2001-02
+  original_question: 3
+  id: qx11
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+  image_review: Finite k-fold smoothness, the explicit coefficients of |sin x|, checks
+    against Q1 and Q2, and a numerical-computation discussion referring to Q5.
+- year: 2001-02
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2001-02/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2001-02
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2001-02/question.tex
+  sha256: 842b6de80f1835f9fbbaa789db25c259d095c7a06725ea16e919bc03d3151198
+  image_review: Printed extrema exclude m=kN, including the erroneous exclusion of
+    odd multiples of N. Keeps the literal bounds N−1 and N+1.
+- year: 2001-02
+  original_question: 6
+  id: qx12
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+  image_review: Fixed string initially at rest in position with parabolic initial
+    velocity; asks for modes, both time-dependent energies and the odd sixth-power
+    sum.
+- year: 2001-02
+  original_question: 7
+  id: qx13
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+  image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+    spatially and temporally sinusoidal force.
+- year: 2001-02
+  original_question: 8
+  id: qx14
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  image_review: Equation (*) is the wave equation; the point mass at zero gives a
+    slope jump and the incident exponential is exp[iω(t−x/c)].
+- year: 2001-02
+  original_question: 9
+  id: qx15
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+  image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero
+    when the impulse λδ(x−ℓ/2) changes velocity.
+- year: 2001-02
+  original_question: 10
+  id: qx16
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+  image_review: Checks increasing and decreasing φ, the simple-root extension and
+    the final absolute-value integral.
+- year: 2001-02
+  original_question: 11
+  id: qx17
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+  image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+- year: 2001-02
+  original_question: 12
+  id: qx18
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
+  image_review: Point impulse, one initial displacement and one initial velocity;
+    also asks for the mechanical interpretation.
+- year: 2002-03
+  original_question: 1
+  id: qx10
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+  image_review: One printed exercise joins the quartic series and half-range square
+    extensions. Part (ii) compares x and |x| without a factor of two. Later editions
+    split the tasks into q02 and q03.
+- year: 2002-03
+  original_question: 2
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2002-03/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2002-03
+  original_question: 3
+  id: qx11
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+  image_review: Finite k-fold smoothness, the explicit coefficients of |sin x|, checks
+    against Q1 and Q2, and a numerical-computation discussion referring to Q5.
+- year: 2002-03
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2002-03/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2002-03
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2002-03/question.tex
+  sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient
+    notation S_N have no (x) in parts (ii)–(iii).
+- year: 2002-03
+  original_question: 6
+  id: qx12
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+  image_review: Fixed string initially at rest in position with parabolic initial
+    velocity; asks for modes, both time-dependent energies and the odd sixth-power
+    sum.
+- year: 2002-03
+  original_question: 7
+  id: qx13
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+  image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+    spatially and temporally sinusoidal force.
+- year: 2002-03
+  original_question: 8
+  id: qx14
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  image_review: Equation (*) is the wave equation; the point mass at zero gives a
+    slope jump and the incident exponential is exp[iω(t−x/c)].
+- year: 2002-03
+  original_question: 9
+  id: qx15
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+  image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero
+    when the impulse λδ(x−ℓ/2) changes velocity.
+- year: 2002-03
+  original_question: 10
+  id: qx16
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+  image_review: Checks increasing and decreasing φ, the simple-root extension and
+    the final absolute-value integral.
+- year: 2002-03
+  original_question: 11
+  id: qx17
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+  image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+- year: 2002-03
+  original_question: 12
+  id: qx18
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
+  image_review: Point impulse, one initial displacement and one initial velocity;
+    also asks for the mechanical interpretation.
+- year: 2003-04
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2003-04/question.tex
+  sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
+  image_review: Period two, variable x, open right endpoint. No explicit periodic
+    qualifier; asks for the convergence rate.
+- year: 2003-04
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2003-04/question.tex
+  sha256: 30d2884db3106366f1e270a9a93159f80c1679d713d5cf2b485673915f19e61e
+  image_review: The domain includes π and the comparisons are x and |x|.
+- year: 2003-04
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2003-04/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2003-04
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2003-04/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2003-04
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2003-04/question.tex
+  sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient
+    notation S_N have no (x) in parts (ii)–(iii).
+- year: 2003-04
+  original_question: 6
+  id: qx12
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+  image_review: Fixed string initially at rest in position with parabolic initial
+    velocity; asks for modes, both time-dependent energies and the odd sixth-power
+    sum.
+- year: 2003-04
+  original_question: 7
+  id: qx13
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+  image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+    spatially and temporally sinusoidal force.
+- year: 2003-04
+  original_question: 8
+  id: qx14
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  image_review: Equation (*) is the wave equation; the point mass at zero gives a
+    slope jump and the incident exponential is exp[iω(t−x/c)].
+- year: 2003-04
+  original_question: 9
+  id: qx15
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+  image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero
+    when the impulse λδ(x−ℓ/2) changes velocity.
+- year: 2003-04
+  original_question: 10
+  id: qx16
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+  image_review: Checks increasing and decreasing φ, the simple-root extension and
+    the final absolute-value integral.
+- year: 2003-04
+  original_question: 11
+  id: qx17
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+  image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+- year: 2004-05
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2004-05/question.tex
+  sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
+  image_review: Period two, variable x, open right endpoint. No explicit periodic
+    qualifier; asks for the convergence rate.
+- year: 2004-05
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2004-05/question.tex
+  sha256: 30d2884db3106366f1e270a9a93159f80c1679d713d5cf2b485673915f19e61e
+  image_review: The domain includes π and the comparisons are x and |x|.
+- year: 2004-05
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2004-05/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2004-05
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2004-05/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2004-05
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2004-05/question.tex
+  sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient
+    notation S_N have no (x) in parts (ii)–(iii).
+- year: 2004-05
+  original_question: 6
+  id: qx12
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
+  image_review: Fixed string initially at rest in position with parabolic initial
+    velocity; asks for modes, both time-dependent energies and the odd sixth-power
+    sum.
+- year: 2004-05
+  original_question: 7
+  id: qx13
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+  image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+    spatially and temporally sinusoidal force.
+- year: 2004-05
+  original_question: 8
+  id: qx14
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  image_review: Equation (*) is the wave equation; the point mass at zero gives a
+    slope jump and the incident exponential is exp[iω(t−x/c)].
+- year: 2004-05
+  original_question: 9
+  id: qx15
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+  image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero
+    when the impulse λδ(x−ℓ/2) changes velocity.
+- year: 2004-05
+  original_question: 10
+  id: qx16
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+  image_review: Checks increasing and decreasing φ, the simple-root extension and
+    the final absolute-value integral.
+- year: 2004-05
+  original_question: 11
+  id: qx17
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+  image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+- year: 2006-07
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2006-07/question.tex
+  sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
+  image_review: Period two, variable x, open right endpoint. No explicit periodic
+    qualifier; asks for the convergence rate.
+- year: 2006-07
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2006-07/question.tex
+  sha256: 30d2884db3106366f1e270a9a93159f80c1679d713d5cf2b485673915f19e61e
+  image_review: The domain includes π and the comparisons are x and |x|.
+- year: 2006-07
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2006-07/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2006-07
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2006-07/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2006-07
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2006-07/question.tex
+  sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient
+    notation S_N have no (x) in parts (ii)–(iii).
+- year: 2006-07
+  original_question: 6
+  id: qx19
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: b2467e728fef852716fcf392ce39ae06c7268a42651dfcccce4b0868748f5c1e
+  image_review: The longer 2006 wording asks for centered and shifted Gaussians, an
+    inverse heat-kernel transform and the delta sequence. The 2007 wording drops those
+    extra tasks and explicitly resets μ to zero.
+- year: 2006-07
+  original_question: 7
+  id: qx20
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 27088bf668a2b82a5f4ff187028092d034e3a0f46aed252d334f202bdd6ecb24
+  image_review: Printed transform pair, sine/cosine convolutions, alternative sine
+    theorem and full-line parity. Original list omits punctuation between g(x) and
+    h(x).
+- year: 2006-07
+  original_question: 8
+  id: qx21
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 084b8c8910b3c18d439f05d4d94c0e2f300a5f643542647d684a76130a6ac30f
+  image_review: Two half-line problems have respectively y(0)=b and y′(0)=b, with
+    a>1; each requests a check.
+- year: 2006-07
+  original_question: 9
+  id: qx22
+  source_pages:
+  - 2
+  unit_relative_path: variants/2006-07/question.tex
+  sha256: 669df7be1d4c26fb53c55d70fd99e4c5b339534bac9122c3d2847b8e3276d0ae
+  image_review: Both integrals contain the squared denominator (π²/4−t²)². The 2007
+    wording asks for use of the derivative; the 2006 wording permits another method.
+- year: 2006-07
+  original_question: 10
+  id: qx23
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: a4ee10f12a1327f44119b4b47d505da431d687994518afca03aeb6ff6b3dd7f5
+  image_review: Half-plane Dirichlet problem, Poisson kernel and finite-width boundary
+    pulse; both the general-y and x=±a sketches are requested.
+- year: 2007-08
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2007-08/question.tex
+  sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
+  image_review: Period two, variable x, open right endpoint. No explicit periodic
+    qualifier; asks for the convergence rate.
+- year: 2007-08
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2007-08/question.tex
+  sha256: 30d2884db3106366f1e270a9a93159f80c1679d713d5cf2b485673915f19e61e
+  image_review: The domain includes π and the comparisons are x and |x|.
+- year: 2007-08
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2007-08/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2007-08
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2007-08/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2007-08
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2007-08/question.tex
+  sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient
+    notation S_N have no (x) in parts (ii)–(iii).
+- year: 2007-08
+  original_question: 6
+  id: qx24
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 604c8f93cda844b7fb6a0375aa99b0205b06f373a7949b1654c456b4316a2c27
+  image_review: Four compact-support transforms; strict |x|<c and lower-case printed
+    “fourier” retained.
+- year: 2007-08
+  original_question: 7
+  id: qx25
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 475e804f6fc11e9c9b892e6456e6e3c3bad6857b663dc937a900d7d6575e8e7e
+  image_review: Discontinuous one-sided exponential; the inverse at zero takes half
+    the jump and the note compares Fourier series and Complex Methods.
+- year: 2007-08
+  original_question: 8
+  id: qx19
+  source_pages:
+  - 2
+  unit_relative_path: variants/2007-08/question.tex
+  sha256: 836426d288ba209e4155135730e2a260c2bd1f901c81be04be3853f5c43d012b
+  image_review: The longer 2006 wording asks for centered and shifted Gaussians, an
+    inverse heat-kernel transform and the delta sequence. The 2007 wording drops those
+    extra tasks and explicitly resets μ to zero.
+- year: 2007-08
+  original_question: 9
+  id: qx26
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 9bb7b96a71c47970aad2ee48868f19c0070f85a02b2fdb944b800505624ad5c2
+  image_review: Distinct integer translates, complex conjugation and spectral shift
+    p≠0; printed attribution 2002/4/I/8B retained.
+- year: 2007-08
+  original_question: 10
+  id: qx22
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: e3c085f8f3650cf6b4d6976fadbd71377dab78b60b02f9c9332910317b817b25
+  image_review: Both integrals contain the squared denominator (π²/4−t²)². The 2007
+    wording asks for use of the derivative; the 2006 wording permits another method.
+- year: 2007-08
+  original_question: 11
+  id: qx27
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 643f51160275b714d2e0cb5e57e245c9196f9b8afb11c81f8e76b67df71f13d9
+  image_review: Piecewise spectral boundary function has sign e^k−e^(−k); inversion
+    and the infinite strip are separate tasks, with attribution 2004/4/II/15A.
+- year: 2011-12
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
+  image_review: Period two, variable x, open right endpoint. Asks for differentiability
+    and order of terms as n→∞.
+- year: 2011-12
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: 1f24aa2cae7ad644ee576f4e0caa447d91688e9494cdcf3244cedb9df4eb66d9
+  image_review: The domain includes π; the comparisons are 2x and 2|x|.
+- year: 2011-12
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation
+    method.
+- year: 2011-12
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2011-12
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: ef43541a451715d0984ba26194b1e867783e63abd8d36cda19dbb2eff69fb35f
+  image_review: Renamed Wilbraham–Gibbs heading and S_N(x) in parts (ii)–(iii).
+- year: 2011-12
+  original_question: 6
+  id: q07
+  source_pages:
+  - 2
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
+  image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many
+    eigenvalues and rough growth. Exact introductory wording recorded.
+- year: 2011-12
+  original_question: 7
+  id: qx28
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 0dcb72f45264344c83a4c8fca9eabaa0622c44ada2d81d55bc3329db6480c941
+  image_review: The hypergeometric equation in (ii) has coefficients x(x−1), (1+a+b)x−c
+    and ab. Skinner instead sets the confluent equation xy″+(b−x)y′−ay=0. The third
+    subproblem is shared.
+- year: 2011-12
+  original_question: 8
+  id: qx06
+  source_pages:
+  - 2
+  unit_relative_path: variants/2011-12/question.tex
+  sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
+  image_review: The hint supplies the full J₀ power series and log form of the second
+    solution.
+- year: 2011-12
+  original_question: 9
+  id: qx09
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 1a118afe58a3d7f826e4dbf218216e5b8c7be541af9332f0afe5174f7ac745d0
+  image_review: Clamped boundary conditions and an if-and-only-if assertion; all coefficients
+    and the fourth-order example match the 2015 wording.
+- year: 2014-15
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: a21b30717e1eebadefd13e0e7319c939f58033f23e3c7693950536673f2e58d2
+  image_review: Period two, variable x, open right endpoint. The 2014 version adds
+    an optional integrals.com remark.
+- year: 2014-15
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: badd31ead4b7a7b3c6730e6ca502026ff6c7079bc214f9a2aba40717521b1cc4
+  image_review: Uses θ, closed domain endpoints, and doubled comparison functions.
+- year: 2014-15
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: 5695678c9971ee4a4245b8aceeb375a52f48e338e2417158864923537be30874
+  image_review: Uses θ on [−π,π); no “(complex)” qualifier or prescribed method.
+- year: 2014-15
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2014-15
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: a6ffbed4931d914d5f711cc29ed3ff3e04e0e8f4690012e48f43a49a85982586
+  image_review: Part (ii) starts with S_n(x), then switches to θ. Part (iii) prints
+    n in the integer list while discussing m.
+- year: 2014-15
+  original_question: 6
+  id: q07
+  source_pages:
+  - 2
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: 5af58152649a6b537d17b0f1d74bde5e741abeb428f18a3863711bd7c97fbe9e
+  image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many
+    eigenvalues and rough growth. Exact introductory wording recorded.
+- year: 2014-15
+  original_question: 7
+  id: qx05
+  source_pages:
+  - 2
+  unit_relative_path: variants/2014-15/question.tex
+  sha256: eefc535bacd2216672645365cd66db742a190de2ca58160914ed47051f5b863c
+  image_review: Exact 2015–16 wording; the second equation is confluent hypergeometric
+    and the third uses y(0)=y(1)=0.
+- year: 2014-15
+  original_question: 8
+  id: qx06
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: a885e34f7814b52ef04cc58b9a24fc7afcd44dc0facef3d2dd5c7f5b6fb3db65
+  image_review: The 2014/2015 wording names the regular J₀ and singular Y₀; all three
+    tasks agree.
+- year: 2014-15
+  original_question: 9
+  id: qx09
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 1a118afe58a3d7f826e4dbf218216e5b8c7be541af9332f0afe5174f7ac745d0
+  image_review: Clamped boundary conditions and an if-and-only-if assertion; all coefficients
+    and the fourth-order example match the 2015 wording.
+- year: 2018-19
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
+  image_review: Period two, variable x, open right endpoint. Asks for differentiability
+    and order of terms as n→∞.
+- year: 2018-19
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 5196278c686884781b0307247eb893893b58c160bd4b33adf69aa9dab5a68f57
+  image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π included.
+- year: 2018-19
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation method.
+- year: 2018-19
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2018-19
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 8f4432d0728ea2a754103b68bec8d0a1f411a3caa694b067a3e28e14d53e9fca
+  image_review: The historical note mentions Wilbraham, his age and the 50 years before
+    Gibbs; it is parenthesized in 2018 and italicized in square brackets in 2020 and
+    2022.
+- year: 2018-19
+  original_question: 6
+  id: q07
+  source_pages:
+  - 2
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
+  image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many
+    eigenvalues and rough growth. Exact introductory wording recorded.
+- year: 2018-19
+  original_question: 7
+  id: q08
+  source_pages:
+  - 2
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 2e011489e6b55a414a54e24c30b3109d4e030b2dc61988a80a5663389d543c33
+  image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with
+    a>b only. The modern signs of its first two terms are opposite and it additionally
+    asks about singularity. All three printed parts are retained here.
+- year: 2018-19
+  original_question: 8
+  id: qx06
+  source_pages:
+  - 2
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
+  image_review: The hint supplies the full J₀ power series and log form of the second
+    solution.
+- year: 2018-19
+  original_question: 9
+  id: qx09
+  source_pages:
+  - 2
+  unit_relative_path: variants/2018-19/question.tex
+  sha256: 2c234601d13f8ee5d372c6e9b0cc701c4290e1098a98c7c3953160fa0c9f24b3
+  image_review: This version asks for necessity under suitable unspecified boundary
+    conditions. It explicitly calls λ>0 real in the clamped fourth-order example.
+- year: 2020-21
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
+  image_review: Period two, variable x, open right endpoint. Asks for differentiability
+    and order of terms as n→∞.
+- year: 2020-21
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 5196278c686884781b0307247eb893893b58c160bd4b33adf69aa9dab5a68f57
+  image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π included.
+- year: 2020-21
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation method.
+- year: 2020-21
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2020-21
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+  image_review: The historical note mentions Wilbraham, his age and the 50 years before
+    Gibbs; it is parenthesized in 2018 and italicized in square brackets in 2020 and
+    2022.
+- year: 2020-21
+  original_question: 6
+  id: q07
+  source_pages:
+  - 2
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
+  image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many
+    eigenvalues and rough growth. Exact introductory wording recorded.
+- year: 2020-21
+  original_question: 7
+  id: q08
+  source_pages:
+  - 2
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 2e011489e6b55a414a54e24c30b3109d4e030b2dc61988a80a5663389d543c33
+  image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with
+    a>b only. The modern signs of its first two terms are opposite and it additionally
+    asks about singularity. All three printed parts are retained here.
+- year: 2020-21
+  original_question: 8
+  id: qx06
+  source_pages:
+  - 2
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
+  image_review: The hint supplies the full J₀ power series and log form of the second
+    solution.
+- year: 2020-21
+  original_question: 9
+  id: qx09
+  source_pages:
+  - 2
+  unit_relative_path: variants/2020-21/question.tex
+  sha256: 2c234601d13f8ee5d372c6e9b0cc701c4290e1098a98c7c3953160fa0c9f24b3
+  image_review: This version asks for necessity under suitable unspecified boundary
+    conditions. It explicitly calls λ>0 real in the clamped fourth-order example.
+- year: 2022-23
+  original_question: 1
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
+  image_review: Period two, variable x, open right endpoint. Asks for differentiability
+    and order of terms as n→∞.
+- year: 2022-23
+  original_question: 2
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 5196278c686884781b0307247eb893893b58c160bd4b33adf69aa9dab5a68f57
+  image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π included.
+- year: 2022-23
+  original_question: 3
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation method.
+- year: 2022-23
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  image_review: The historical wording says “show that”; the canonical 2015 sheet
+    says “show directly that”. The two cutoffs are 9π/(2T).
+- year: 2022-23
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+  image_review: The historical note mentions Wilbraham, his age and the 50 years before
+    Gibbs; it is parenthesized in 2018 and italicized in square brackets in 2020 and
+    2022.
+- year: 2022-23
+  original_question: 6
+  id: q07
+  source_pages:
+  - 2
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
+  image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many
+    eigenvalues and rough growth. Exact introductory wording recorded.
+- year: 2022-23
+  original_question: 7
+  id: q08
+  source_pages:
+  - 2
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 2e011489e6b55a414a54e24c30b3109d4e030b2dc61988a80a5663389d543c33
+  image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with
+    a>b only. The modern signs of its first two terms are opposite and it additionally
+    asks about singularity. All three printed parts are retained here.
+- year: 2022-23
+  original_question: 8
+  id: qx06
+  source_pages:
+  - 2
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
+  image_review: The hint supplies the full J₀ power series and log form of the second
+    solution.
+- year: 2022-23
+  original_question: 9
+  id: qx09
+  source_pages:
+  - 2
+  unit_relative_path: variants/2022-23/question.tex
+  sha256: 2c234601d13f8ee5d372c6e9b0cc701c4290e1098a98c7c3953160fa0c9f24b3
+  image_review: This version asks for necessity under suitable unspecified boundary
+    conditions. It explicitly calls λ>0 real in the clamped fourth-order example.
+- year: 2023-24
+  original_question: 1
+  id: q01
+  source_pages:
+  - 1
+  unit_relative_path: variants/2023-24/question.tex
+  sha256: 37dc5efbb1b3884df1e272c5dcfef3c194643152f51af974e2b2e4432f0e4a36
+  image_review: The opening says “Recall from lectures” and the final assertion ends
+    “as stated in lectures”.
+- year: 2023-24
+  original_question: 2
+  id: q02
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 66e4457c54286c12331ddea75837822f5f6cffe5c67191ba51aa687475731b09
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 3
+  id: q03
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 46787ccc62be7eda6005225661dd5a9da44d8ca0efa307e5ea085ea586a484b2
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 4
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 5
+  id: q05
+  source_pages:
+  - 1
+  unit_relative_path: variants/2023-24/question.tex
+  sha256: 9e10d53180340e093a672802b96549d1fa63f1046acd03c998f76bd20d3e0294
+  image_review: Only parts (i)–(ii) appear, exactly as in 2024–25; no lacunary-series
+    part.
+- year: 2023-24
+  original_question: 6
+  id: q06
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 7
+  id: q07
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 74157a1adb34dd4c940b0fbd6a3b98170a46e110f0347a7d00ba03433c9ada64
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 8
+  id: q08
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: f1b3ef752c65bae272a12181c446b2204ae7a5ef7a7b2a7a16a19ac722e9d9e6
+  image_review: All three subparts fit on page 1, including singularity and weight
+    requests.
+- year: 2023-24
+  original_question: 9
+  id: q09
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 10
+  id: q10
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 0118e4706a118cb6e91f3485c73832e45ee82c06bc475f57cf62d7cfaa506703
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 11
+  id: q11
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+  image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+- year: 2023-24
+  original_question: 12
+  id: q12
+  source_pages:
+  - 2
+  unit_relative_path: variants/2023-24/question.tex
+  sha256: 60163aacd585a57ee06140f1f7e6ac76da9c9ad5dc5294b3c17438f9d212fc3b
+  image_review: Part (b) adds the printed hint “orthogonality” after the second-smallest-eigenvalue
+    question; the indicated footnote is retained.

@@ -20,6 +20,12 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 1
         original_question: 1
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
   IB/methods/sheet-1/q04:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -45,6 +51,78 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 1
         original_question: 3
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
   IB/methods/sheet-1/q06:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -66,6 +144,12 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 1
         original_question: 6
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
   IB/methods/sheet-1/q05:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -87,6 +171,12 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 1
         original_question: 5
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
   IB/methods/sheet-1/q07:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -116,6 +206,42 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 2
         original_question: 6
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
   IB/methods/sheet-1/q08:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -144,6 +270,30 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 1
         original_question: 8
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
   IB/methods/sheet-1/q09:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -165,6 +315,12 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 2
         original_question: 9
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
   IB/methods/sheet-1/q10:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -186,6 +342,12 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 2
         original_question: 10
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
   IB/methods/sheet-1/q12:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -207,6 +369,12 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 2
         original_question: 12
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
   IB/methods/sheet-1/q02:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -228,6 +396,66 @@ questions:
         archive: raw/sheets/IB/methods/2024-25/sheet-1.pdf
         page: 1
         original_question: 2
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
   IB/methods/sheet-1/q03:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -253,6 +481,66 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 1
         original_question: 2
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
   IB/methods/sheet-1/q11:
     question:
       archive: raw/sheets/IB/methods/2025-26/sheet-1.pdf
@@ -282,6 +570,78 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 1
         original_question: 5
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2023-24:
+        archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
   IB/2026/P1/q10G:
     question:
       archive: raw/tripos/IB/2026/P1.pdf
@@ -1747,6 +2107,12 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 2
         original_question: 7
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
   IB/methods/sheet-1/qx06:
     question:
       archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
@@ -1764,6 +2130,36 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 2
         original_question: 8
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
   IB/methods/sheet-1/qx07:
     question:
       archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
@@ -1790,6 +2186,72 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 1
         original_question: 4
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
   IB/methods/sheet-1/qx09:
     question:
       archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
@@ -1803,6 +2265,36 @@ questions:
         archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
         page: 2
         original_question: 9
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2014-15:
+        archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2018-19:
+        archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2020-21:
+        archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2022-23:
+        archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
   IB/2026/P2/q10F:
     question:
       archive: raw/tripos/IB/2026/P2.pdf
@@ -3745,6 +4237,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.1'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.1'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.1'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.1'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.1'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.1'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q02:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3753,6 +4318,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.2'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.2'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.2'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.3'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.3'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.3'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q03:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3761,6 +4399,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.3'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.3'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.3'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.4'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.4'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.4'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q04:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3769,6 +4480,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.4'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.4'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.4'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.2'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.2'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.2'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q05:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3777,6 +4561,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.5'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.5'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.5'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.5'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.5'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.5'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q06:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3785,6 +4642,103 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.6'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.6'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.6'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.6'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.6'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.6'
+        page: 1
+        pages:
+        - 1
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q07:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3793,6 +4747,103 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.7'
+        page: 1
+        pages:
+        - 1
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.7'
+        page: 1
+        pages:
+        - 1
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.7'
+        page: 1
+        pages:
+        - 1
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.7'
+        page: 1
+        pages:
+        - 1
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.7'
+        page: 1
+        pages:
+        - 1
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.7'
+        page: 1
+        pages:
+        - 1
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '1'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q08:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3801,14 +4852,208 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.8'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.8'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.8'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.8'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.8'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.8'
+        page: 2
+        pages:
+        - 2
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '2'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '3'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q09:
     question:
-      archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
       page: 1
-      original_question: '9'
+      original_question: '4'
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '9'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '9'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '9'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '9'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '9'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '9'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.9'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.9'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.9'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.9'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.9'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.9'
+        page: 2
+        pages:
+        - 2
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '4'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q10:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3817,6 +5062,103 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '10'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '10'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '10'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '10'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '10'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '10'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.10'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.10'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.10'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.10'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.10'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.10'
+        page: 2
+        pages:
+        - 2
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '5'
+        page: 1
+        pages:
+        - 1
   IB/markov-chains/sheet-2/q11:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3825,6 +5167,103 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '11'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '11'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '11'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '11'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '11'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '11'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.11'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.11'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.11'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.11'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.11'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.11'
+        page: 2
+        pages:
+        - 2
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '8'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '8'
+        page: 2
+        pages:
+        - 2
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '8'
+        page: 2
+        pages:
+        - 2
   IB/markov-chains/sheet-2/q12:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3833,14 +5272,208 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '12'
+        page: 1
+        pages:
+        - 1
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '12'
+        page: 1
+        pages:
+        - 1
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '12'
+        page: 1
+        pages:
+        - 1
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '12'
+        page: 1
+        pages:
+        - 1
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '12'
+        page: 1
+        pages:
+        - 1
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '12'
+        page: 1
+        pages:
+        - 1
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.12'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.12'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.12'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.12'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.12'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.12'
+        page: 2
+        pages:
+        - 2
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '7'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '7'
+        page: 2
+        pages:
+        - 2
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '7'
+        page: 2
+        pages:
+        - 2
   IB/markov-chains/sheet-2/q13:
     question:
-      archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
       page: 2
-      original_question: '13'
+      original_question: '9'
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.13'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.13'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.13'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.13'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.13'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.13'
+        page: 2
+        pages:
+        - 2
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '9'
+        page: 2
+        pages:
+        - 2
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '9'
+        page: 2
+        pages:
+        - 2
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '9'
+        page: 2
+        pages:
+        - 2
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '9'
+        page: 2
+        pages:
+        - 2
   IB/markov-chains/sheet-2/q14:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3849,6 +5482,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.14'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.14'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.14'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.14'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.14'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.14'
+        page: 2
+        pages:
+        - 2
   IB/markov-chains/sheet-2/q15:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3857,6 +5563,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '15'
+        page: 2
+        pages:
+        - 2
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '15'
+        page: 2
+        pages:
+        - 2
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '15'
+        page: 2
+        pages:
+        - 2
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '15'
+        page: 2
+        pages:
+        - 2
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '15'
+        page: 2
+        pages:
+        - 2
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '15'
+        page: 2
+        pages:
+        - 2
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.15'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.15'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.15'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.15'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.15'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.15'
+        page: 2
+        pages:
+        - 2
   IB/markov-chains/sheet-2/q16:
     question:
       archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
@@ -3865,6 +5644,79 @@ questions:
     official_answer: null
     my_handwritten: null
     marking: null
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/markov-chains/2025-26/sheet-2.pdf
+        original_question: '16'
+        page: 2
+        pages:
+        - 2
+      2024-25:
+        archive: raw/sheets/IB/markov-chains/2024-25/sheet-2.pdf
+        original_question: '16'
+        page: 2
+        pages:
+        - 2
+      2023-24:
+        archive: raw/sheets/IB/markov-chains/2023-24/sheet-2.pdf
+        original_question: '16'
+        page: 2
+        pages:
+        - 2
+      2021-22:
+        archive: raw/sheets/IB/markov-chains/2021-22/sheet-2.pdf
+        original_question: '16'
+        page: 2
+        pages:
+        - 2
+      2020-21:
+        archive: raw/sheets/IB/markov-chains/2020-21/sheet-2.pdf
+        original_question: '16'
+        page: 2
+        pages:
+        - 2
+      2019-20:
+        archive: raw/sheets/IB/markov-chains/2019-20/sheet-2.pdf
+        original_question: '16'
+        page: 2
+        pages:
+        - 2
+      2018-19:
+        archive: raw/sheets/IB/markov-chains/2018-19/sheet-2.pdf
+        original_question: '2.16'
+        page: 2
+        pages:
+        - 2
+      2017-18:
+        archive: raw/sheets/IB/markov-chains/2017-18/sheet-2.pdf
+        original_question: '2.16'
+        page: 2
+        pages:
+        - 2
+      2016-17:
+        archive: raw/sheets/IB/markov-chains/2016-17/sheet-2.pdf
+        original_question: '2.16'
+        page: 2
+        pages:
+        - 2
+      2015-16:
+        archive: raw/sheets/IB/markov-chains/2015-16/sheet-2.pdf
+        original_question: '2.16'
+        page: 2
+        pages:
+        - 2
+      2014-15:
+        archive: raw/sheets/IB/markov-chains/2014-15/sheet-2.pdf
+        original_question: '2.16'
+        page: 2
+        pages:
+        - 2
+      2013-14:
+        archive: raw/sheets/IB/markov-chains/2013-14/sheet-2.pdf
+        original_question: '2.16'
+        page: 2
+        pages:
+        - 2
   IB/2024/P1/q1G:
     official_answer: null
     my_handwritten: null
@@ -4753,6 +6605,1576 @@ questions:
       archive: raw/tripos/IB/2023/P4.pdf
       page: 13
       original_question: 18H
+  IB/markov-chains/sheet-2/qx01:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 1
+      original_question: '6'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+        - 2
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '6'
+        page: 1
+        pages:
+        - 1
+        - 2
+  IB/markov-chains/sheet-2/qx02:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 2
+      original_question: '10'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '10'
+        page: 2
+        pages:
+        - 2
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '10'
+        page: 2
+        pages:
+        - 2
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '10'
+        page: 2
+        pages:
+        - 2
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '10'
+        page: 2
+        pages:
+        - 2
+  IB/markov-chains/sheet-2/qx03:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 2
+      original_question: '11'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '11'
+        page: 2
+        pages:
+        - 2
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '11'
+        page: 2
+        pages:
+        - 2
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '11'
+        page: 2
+        pages:
+        - 2
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '11'
+        page: 2
+        pages:
+        - 2
+  IB/markov-chains/sheet-2/qx04:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 2
+      original_question: '12'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '12'
+        page: 2
+        pages:
+        - 2
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '12'
+        page: 2
+        pages:
+        - 2
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '12'
+        page: 2
+        pages:
+        - 2
+        - 3
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '12'
+        page: 2
+        pages:
+        - 2
+        - 3
+  IB/markov-chains/sheet-2/qx05:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 2
+      original_question: '13'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '13'
+        page: 2
+        pages:
+        - 2
+      2010-11:
+        archive: raw/sheets/IB/markov-chains/2010-11/sheet-2.pdf
+        original_question: '13'
+        page: 3
+        pages:
+        - 3
+      2006-07:
+        archive: raw/sheets/IB/markov-chains/2006-07/sheet-2.pdf
+        original_question: '13'
+        page: 3
+        pages:
+        - 3
+  IB/markov-chains/sheet-2/qx06:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 2
+      original_question: '14'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '14'
+        page: 2
+        pages:
+        - 2
+  IB/markov-chains/sheet-2/qx07:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 3
+      original_question: '15'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '15'
+        page: 3
+        pages:
+        - 3
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '15'
+        page: 3
+        pages:
+        - 3
+  IB/markov-chains/sheet-2/qx08:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 3
+      original_question: '16'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '16'
+        page: 3
+        pages:
+        - 3
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '16'
+        page: 3
+        pages:
+        - 3
+  IB/markov-chains/sheet-2/qx09:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+      page: 3
+      original_question: '17'
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/markov-chains/2012-13/sheet-2.pdf
+        original_question: '17'
+        page: 3
+        pages:
+        - 3
+      2011-12:
+        archive: raw/sheets/IB/markov-chains/2011-12/sheet-2.pdf
+        original_question: '17'
+        page: 3
+        pages:
+        - 3
+  IB/2022/P1/q1F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 2
+      original_question: 1F
+  IB/2022/P1/q2E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 2
+      original_question: 2E
+  IB/2022/P1/q3G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 2
+      original_question: 3G
+  IB/2022/P1/q4D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 2
+      original_question: 4D
+  IB/2022/P1/q5C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 3
+      original_question: 5C
+  IB/2022/P1/q6H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 3
+      original_question: 6H
+  IB/2022/P1/q7H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 3
+      original_question: 7H
+  IB/2022/P1/q8F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 4
+      original_question: 8F
+  IB/2022/P1/q9E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 4
+      original_question: 9E
+  IB/2022/P1/q10G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 5
+      original_question: 10G
+  IB/2022/P1/q11E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 5
+      original_question: 11E
+  IB/2022/P1/q12G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 6
+      original_question: 12G
+  IB/2022/P1/q13B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 7
+      original_question: 13B
+  IB/2022/P1/q14B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 8
+      original_question: 14B
+  IB/2022/P1/q15D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 8
+      original_question: 15D
+  IB/2022/P1/q16C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 9
+      original_question: 16C
+  IB/2022/P1/q17C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 9
+      original_question: 17C
+  IB/2022/P1/q18H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 10
+      original_question: 18H
+  IB/2022/P1/q19H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P1.pdf
+      page: 11
+      original_question: 19H
+  IB/2022/P2/q1E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 2
+      original_question: 1E
+  IB/2022/P2/q2G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 2
+      original_question: 2G
+  IB/2022/P2/q3B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 2
+      original_question: 3B
+  IB/2022/P2/q4D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 2
+      original_question: 4D
+  IB/2022/P2/q5C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 3
+      original_question: 5C
+  IB/2022/P2/q6H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 3
+      original_question: 6H
+  IB/2022/P2/q7H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 3
+      original_question: 7H
+  IB/2022/P2/q8F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 4
+      original_question: 8F
+  IB/2022/P2/q9E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 4
+      original_question: 9E
+  IB/2022/P2/q10G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 4
+      original_question: 10G
+  IB/2022/P2/q11F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 5
+      original_question: 11F
+  IB/2022/P2/q12A:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 5
+      original_question: 12A
+  IB/2022/P2/q13D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 6
+      original_question: 13D
+  IB/2022/P2/q14A:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 7
+      original_question: 14A
+  IB/2022/P2/q15B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 8
+      original_question: 15B
+  IB/2022/P2/q16D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 9
+      original_question: 16D
+  IB/2022/P2/q17C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 9
+      original_question: 17C
+  IB/2022/P2/q18H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P2.pdf
+      page: 10
+      original_question: 18H
+  IB/2022/P3/q1E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 2
+      original_question: 1E
+  IB/2022/P3/q2F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 2
+      original_question: 2F
+  IB/2022/P3/q3A:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 2
+      original_question: 3A
+  IB/2022/P3/q4D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 2
+      original_question: 4D
+  IB/2022/P3/q5A:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 3
+      original_question: 5A
+  IB/2022/P3/q6B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 3
+      original_question: 6B
+  IB/2022/P3/q7C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 4
+      original_question: 7C
+  IB/2022/P3/q8H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 4
+      original_question: 8H
+  IB/2022/P3/q9F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 5
+      original_question: 9F
+  IB/2022/P3/q10E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 5
+      original_question: 10E
+  IB/2022/P3/q11G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 5
+      original_question: 11G
+  IB/2022/P3/q12F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 6
+      original_question: 12F
+  IB/2022/P3/q13G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 6
+      original_question: 13G
+  IB/2022/P3/q14A:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 7
+      original_question: 14A
+  IB/2022/P3/q15D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 8
+      original_question: 15D
+  IB/2022/P3/q16C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 9
+      original_question: 16C
+  IB/2022/P3/q17C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 10
+      original_question: 17C
+  IB/2022/P3/q18H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 11
+      original_question: 18H
+  IB/2022/P3/q19H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P3.pdf
+      page: 12
+      original_question: 19H
+  IB/2022/P4/q1F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 2
+      original_question: 1F
+  IB/2022/P4/q2G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 2
+      original_question: 2G
+  IB/2022/P4/q3G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 2
+      original_question: 3G
+  IB/2022/P4/q4B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 2
+      original_question: 4B
+  IB/2022/P4/q5D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 3
+      original_question: 5D
+  IB/2022/P4/q6C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 3
+      original_question: 6C
+  IB/2022/P4/q7H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 3
+      original_question: 7H
+  IB/2022/P4/q8F:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 4
+      original_question: 8F
+  IB/2022/P4/q9E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 4
+      original_question: 9E
+  IB/2022/P4/q10G:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 5
+      original_question: 10G
+  IB/2022/P4/q11E:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 5
+      original_question: 11E
+  IB/2022/P4/q12A:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 6
+      original_question: 12A
+  IB/2022/P4/q13D:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 7
+      original_question: 13D
+  IB/2022/P4/q14B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 8
+      original_question: 14B
+  IB/2022/P4/q15B:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 9
+      original_question: 15B
+  IB/2022/P4/q16C:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 10
+      original_question: 16C
+  IB/2022/P4/q17H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 10
+      original_question: 17H
+  IB/2022/P4/q18H:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/tripos/IB/2022/P4.pdf
+      page: 11
+      original_question: 18H
+  IB/analysis-ii/sheet-1/q01:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '1'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '1'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 1
+        original_question: '1'
+  IB/analysis-ii/sheet-1/q02:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '2'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '2'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 1
+        original_question: '2'
+  IB/analysis-ii/sheet-1/q03:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '3'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '3'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 1
+        original_question: '3'
+  IB/analysis-ii/sheet-1/q04:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '4'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '4'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 1
+        original_question: '4'
+  IB/analysis-ii/sheet-1/q05:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '5'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '5'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 1
+        original_question: '5'
+  IB/analysis-ii/sheet-1/q06:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '6'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '6'
+  IB/analysis-ii/sheet-1/q07:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '7'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '7'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 1
+        original_question: '6'
+  IB/analysis-ii/sheet-1/q08:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 1
+      original_question: '8'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 1
+        original_question: '8'
+  IB/analysis-ii/sheet-1/q09:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '9'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '9'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '7'
+  IB/analysis-ii/sheet-1/q10:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '10'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '10'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '8'
+  IB/analysis-ii/sheet-1/q11:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '11'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '11'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '9'
+  IB/analysis-ii/sheet-1/q12:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '12'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '12'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '10'
+  IB/analysis-ii/sheet-1/q13:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '13'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '13'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '11'
+  IB/analysis-ii/sheet-1/q14:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '14'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '14'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '12'
+  IB/analysis-ii/sheet-1/q15:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '15'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '15'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '13'
+  IB/analysis-ii/sheet-1/q16:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+      page: 2
+      original_question: '16'
+    sheet_versions:
+      2025-26:
+        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+        page: 2
+        original_question: '16'
+      2026-27:
+        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+        page: 2
+        original_question: '14'
+  IB/methods/sheet-1/qx10:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 1
+      pages:
+      - 1
+      original_question: '1'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+  IB/methods/sheet-1/qx11:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 1
+      pages:
+      - 1
+      original_question: '3'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+  IB/methods/sheet-1/qx12:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '6'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+  IB/methods/sheet-1/qx13:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '7'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+  IB/methods/sheet-1/qx14:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '8'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+  IB/methods/sheet-1/qx15:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '9'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+  IB/methods/sheet-1/qx16:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '10'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+  IB/methods/sheet-1/qx17:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '11'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2003-04:
+        archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2004-05:
+        archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+  IB/methods/sheet-1/qx18:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '12'
+    sheet_versions:
+      2001-02:
+        archive: raw/sheets/IB/methods/2001-02/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2002-03:
+        archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+  IB/methods/sheet-1/qx19:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '6'
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+  IB/methods/sheet-1/qx20:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '7'
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+  IB/methods/sheet-1/qx21:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '8'
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+  IB/methods/sheet-1/qx23:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '10'
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+  IB/methods/sheet-1/qx24:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '6'
+    sheet_versions:
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+  IB/methods/sheet-1/qx25:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '7'
+    sheet_versions:
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+  IB/methods/sheet-1/qx26:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '9'
+    sheet_versions:
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+  IB/methods/sheet-1/qx22:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '10'
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+  IB/methods/sheet-1/qx27:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '11'
+    sheet_versions:
+      2007-08:
+        archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+  IB/methods/sheet-1/qx28:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    question:
+      archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+      page: 2
+      pages:
+      - 2
+      original_question: '7'
+    sheet_versions:
+      2011-12:
+        archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
 sheet_editions:
   raw/sheets/IB/methods/unverified-2023/sheet-1.pdf:
     academic_year: 2023-24

@@ -1,0 +1,943 @@
+scope: IB Markov Chains sheet 2, all sixteen located editions forming a union of 25
+  stable question units
+auditor: Fresh audit worker; did not write the solutions or the previous audits.
+seed: 20261128
+selector: random.Random(20261128).sample(sorted(names), 5)
+population: 25
+sample_in_draw_order:
+- q15
+- q04
+- qx08
+- qx09
+- q01
+sample_size: 5
+sample_fraction: 0.2
+unit_of_analysis: Stable mathematical question; the 40 located print occurrences of
+  the sampled questions are dependent observations. q01 also appeared in the previous
+  baseline-only audit; the 5/25 result is reported on its own, without pooling it
+  with that sample. No course-wide rate is inferred.
+limits: Sixteen located editions only. No distinct 2022–23 or 2026–27 source verified.
+independence: The auditor opened no stored solution, prior audit, comparison, or checking
+  script before freezing the five derivations. A preliminary lookup displayed transcription
+  source notes, including the qx08 note disclosing equality at uniform probabilities.
+  Four reworks were fully blind to any solution-relevant note. The qx08 algebra was
+  derived independently, but the boundary observation is identified as pre-exposed.
+  An additional clean-context solver received only qx08 and its referenced printed
+  question, and froze the supplement before any comparison. The explicit pairwise
+  saving abc(a-b)^2/[Z(a+b)] agrees with the stored solution, independently covering
+  the equality case. The supplemental derivation counts toward the original selected
+  unit and adds no statistical observation.
+frozen_rework_markdown: '# Markov Chains sheet 2 — independent rework
+
+
+  Seed 20261128, random.Random(seed).sample(sorted(all 25 stable question directory
+  names), 5) yielded q15, q04, qx08, qx09, q01 in that order. I used the five statements,
+  the move-to-front assumptions in the 2012 printed Question 9, and images of their
+  printed sources. The source locator lookup also displayed the qx08 transcription-verification
+  note flagging equality for uniform probabilities before freezing. I did not open
+  any candidate solution, prior comparison, check, or old audit. The following calculations
+  use the statements directly.
+
+
+  ## q15
+
+
+  Put w_0=1, w_{i+1}=w_i lambda_i/mu_{i+1}. These are positive and summable on the
+  finite interval. With pi_i=w_i/sum_j w_j the forward equilibrium mass flow pi_i
+  lambda_i equals the reverse pi_{i+1} mu_{i+1}. All nonadjacent flows vanish and
+  self-loops match themselves, including both endpoints. Summing detailed balance
+  over the origin of an edge yields stationarity. Multiplication of detailed balance
+  along any finite positive-probability path shows equal forward and reversed path
+  probabilities when the initial law is pi. Zero-probability paths agree in both directions.
+  The chain is irreducible, so this is the unique equilibrium.
+
+
+  ## q04
+
+
+  Let p=1-r and D have distribution a. Each positive level is left downwards after
+  a geometric(p) number of steps almost surely. From zero, accessibility includes
+  every level up to J, since hitting a height at least i has probability A_i=P(D>=i)>0.
+  Thus C={i:A_i>0} (including 0) is irreducible, closed and recurrent. Indeed, each
+  zero excursion is finite a.s.; its length is one first step and the time to make
+  D downward moves. Thus m_0=1+E[D]/p, in extended expectations. For finite E[D],
+  excursions between zero visits contain on average A_i/p visits to i>0, and one visit
+  to 0 (include the left endpoint and exclude the right). The normalized excursion
+  occupation measure is stationary; by the reciprocal-frequency/mean-return theorem,
+  m_i=(p+E[D])/A_i for i in C, i>0. Infinite E[D] makes zero null recurrent, and irreducibility
+  gives infinite mean returns throughout C. This includes J=infinity with either finite
+  or infinite E[D] and J=0 with m_0=1. If J<infinity every state i>J forms a transient
+  singleton class: after its first downward move it is never reachable again; its
+  one-step probability of returning is r, the total eventual return probability is
+  r, and its unconditional mean return time is infinite. All recurrent periods are
+  one, since any positive state has a self-loop (and if C={0}, it too has one).
+
+
+  ## qx08
+
+
+  Write a,b,c for the positive probabilities of the three named books i,j,k (sum 1).
+  The candidate permutation weight w(x,y,z)=alpha_x^2 alpha_y balances both possible
+  adjacent swaps: exchange x,y with rates alpha_y outward, alpha_x back, whose weighted
+  flows both equal alpha_x^2 alpha_y^2. Exchange y,z with rates alpha_z outward, alpha_y
+  back and common weighted flow alpha_x^2 alpha_y alpha_z. Normalizing on the six
+  permutations gives the reversible equilibrium of this finite irreducible chain.
+  Among the six weights, total mass numerator for i before j is A=a^2(b+c)+c^2 a;
+  for j before i it is B=b^2(a+c)+c^2 b. Hence bA-aB=abc(a-b), so A/(A+B)>a/(a+b)
+  when a>b and equality when a=b. For move-to-front the more recently chosen of the
+  two precedes the other, so the equilibrium probability i precedes j is a/(a+b) (the
+  most recent occurrence of either has this chance of being i). For that unordered
+  pair retrieval cost above one is a+(b-a)P(i precedes j); the move-to-front value
+  is 2ab/(a+b). Pairwise transposition saves strictly when a!=b and has the same contribution
+  when a=b, by symmetry. Summing, the transposition rule costs strictly less unless
+  all three probabilities are 1/3, in which case each cost is 2; thus the literal
+  universal strict inequality in the print does not hold. The displayed index i≠j≠k
+  must range over permutations as stipulated.
+
+
+  ## qx09
+
+
+  Start with counts (0,0,0), strip complete sets, and sort remaining counts. At 2h
+  leftovers the counts are (h,h,0); at 2h+1 they are (h+1,h,0). The least-two rule
+  preserves these forms, choosing arbitrarily at ties. At 0 or 1 the leftover count
+  increases by one deterministically. At any x>=2 it moves to x+1 when a held prize
+  is obtained and to x-2 when the missing label is obtained and one set completes,
+  each with probability 1/2. This box-time chain is irreducible: take rises to reach
+  any desired high state, from even x take descents to zero, from odd x>=1 first rise
+  then descend. Conditional drift is -1/2 outside {0,1} and finite inside. Foster''s
+  drift criterion with V(x)=x proves positive recurrence. The box-time period is 3
+  because both jumps equal 1 mod 3 and a three-step return exists at 0.
+
+
+  To get the law exactly at completion epochs, write Y_n for the leftovers when the
+  nth set completes, Y_0=0. Starting from j, first climb deterministically to max(j,2),
+  then count the extra up-steps before the next downward step. Their number G satisfies
+  P(G=k)=2^{-(k+1)}, k>=0, independently in successive cycles. Therefore Y_{n+1}=(Y_n-2)^++G_{n+1}.
+  This completion chain is irreducible (zero geometric draws move every j down to
+  0, from which every k is possible in one transition) and aperiodic (P(0,0)>0). A
+  geometric stationary distribution on k>=0 has masses (1-t)t^k, where t=(sqrt(5)-1)/2
+  solves t^2+t=1. Indeed E[s^((Y-2)^+)]=1-t^2+t^2(1-t)/(1-ts) and E[s^G]=1/(2-s).
+  Their product simplifies to (1-t)/(1-ts) using t^2+t=1. Thus Y_n converges in law
+  to this geometric equilibrium. Couple Y_0=0 and an independently sampled stationary
+  Y*_0 using the same G increments. Monotonicity gives Y_n<=Y*_n for all n; the stationary
+  geometric tails ensure uniform integrability. Hence E[Y_N] tends to t/(1-t)=(1+sqrt(5))/2.
+  Raw box times and completion epochs have distinct laws.
+
+
+  ## q01
+
+
+  For any j different from the absorbing s, take a shortest positive-probability path
+  from j to s. It has no revisit to j before arrival; otherwise deletion through that
+  revisit gives a shorter positive path. Its strictly positive path probability is
+  a lower bound for the probability of never returning to j, since s traps the chain.
+  Thus each j other than s has return probability strictly below one and is transient.
+  Almost-sure absorption is unnecessary.
+
+  '
+frozen_rework_sha256: edb8c5d727143fc76f2afc5f61edeb5d9591abb81e2d000f8fa62f369e724797
+mathematics:
+  substantive_errors: 0
+  minor_errors: 0
+  units: 5
+  observed_error_rate: 0
+  notes:
+    q15: Normalized products satisfy detailed balance also at each boundary.
+    q04: Return-cycle calculation covers finite/infinite J, null and positive recurrence,
+      transient upper states and J=0.
+    qx08: The canonical answer correctly resolves the source’s overly strong strict
+      inequality by pairwise cost comparison and the uniform equality case.
+    qx09: The generating function for the chain at completion epochs gives a geometric
+      law. Monotone domination establishes convergence of means, and the box-time
+      chain is recurrent.
+    q01: The positive-probability shortest path avoids the starting state and precludes
+      a return.
+transcription:
+  substantive_errors: 0
+  minor_errors: 0
+  stable_units: 5
+  edition_occurrences: 40
+  notes: Visually compared all sampled primary/variant statements against printed
+    images rendered at 144 dpi, grouping byte-identical question crops. Checked the
+    full 2012 Question 9 assumptions cited by qx08. Cross-checked archive SHA256,
+    printed question number, page set, version override and fragment SHA256 against
+    sheet.yaml, private edition index and question links for every occurrence. The
+    old 2.2 removes the difficulty label. The print’s strict inequality and chained
+    unequal signs are faithfully retained.
+presentation:
+  stable_units: 5
+  findings_before_repair: 1
+  observed_rate_before_repair: 0.2
+  affected_unit: q04
+  affected_editions:
+  - 2013-14
+  - 2014-15
+  - 2015-16
+  finding: The three historical 2.2 PDF entries originally substituted a pointer for
+    the AI draft despite mathematical equivalence with the 2025 question. The only
+    differing words are the (Harder) label. A single recurring presentation defect
+    across three print records.
+  repair: Rechecked the rendered 2.2 question and its full canonical solution in those
+    three editions. Printed wording and numbering stayed faithful.
+  unresolved_count: 0
+independent_computer_checks:
+  q15:
+    hashes:
+      question.tex: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+      solution.tex: a03f12ebbd647bad3a3d2706234c70a56a5c92c8b50284764a8e54d7d9c2ae68
+      check.py: 6c44ac0d2cca05b825ee6dd0db527fda7d901dc43a4dd8ac68313ce1541642ec
+    output: 'PASS: product ratios match independent stationary nullspaces and all
+      pairwise fluxes at eight interval sizes.'
+    exitcode: 0
+  q04:
+    hashes:
+      question.tex: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+      solution.tex: 425a9e6ed3366a72e66975257a8e6f7b1e3aeb5b16493f055ae08aaeeddf1d58
+      check.py: 880ca6a1cd6835bf327edf53a02759afffd7e0b6dda580016c1a50439d920368
+    output: 'PASS: first-return linear systems and cycle occupations, including jumps
+      with gaps and J=0.'
+    exitcode: 0
+  qx08:
+    hashes:
+      question.tex: c63438885f8c8ac1a210765876339eb53e4ee75f0c9bbdfe6b36ef8a5455f724
+      solution.tex: 429fbed065ca96cd650b55722f5c6470ff8d169a6319fc1dfc2dbec4ae51896a
+      check.py: 71039dc43a9292a7457d92f81c9322cc9d1fac93019d086d58fc054bc1d9b172
+    output: Checked detailed balance and retrieval-cost inequality for 64 exact weight
+      triples.
+    exitcode: 0
+  qx09:
+    hashes:
+      question.tex: ae6d9880c43846c3cc4c1f4b4c57aa603bfc334c7f0f6dcc55d0cf532aeca437
+      solution.tex: abe3d9df59802e5b1296d8864a4671cf439bd184e26ce4ed206043948ea24b62
+      check.py: 8d905fb48f1c536db86f565104612a437817374d5529d6c6fb0f6d5ccf8ac0a0
+    output: Verified sorted prize transitions, completion-time geometric law and limiting
+      mean.
+    exitcode: 0
+  q01:
+    hashes:
+      question.tex: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+      solution.tex: 0132051ddfb1a389bfbad1e55d7d7bb39890dec4ef0fde15a100f0f5eaf66488
+      check.py: 83934d61474feb7ab6087f9539ac1005b356c3324e1960e283efbb7767af5c52
+    output: 'PASS: 48 accessible state/chain combinations have positive escape before
+      first return.'
+    exitcode: 0
+original_edition_occurrences:
+- year: 2025-26
+  unit: q15
+  printed_number: '15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 7e3acf1b9b98d59c145a8c424ec9be6daf9685ad0a8aa5f85c316d8d702b1c12
+- year: 2025-26
+  unit: q04
+  printed_number: '4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: a374ecd2dea1ee1b8d585c0a96c7d103dc8b7574606c399802f24d8e5ea98112
+- year: 2025-26
+  unit: q01
+  printed_number: '1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 170559e920acd1e2e4fbd0183cd7bec9c4fcac03c119755b33aef9af0fed0087
+- year: 2024-25
+  unit: q15
+  printed_number: '15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 473e6032ae6d2abd41e205accf3677417d724dc87beb9a153108833d890a9a00
+- year: 2024-25
+  unit: q04
+  printed_number: '4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: f9496f24a67a3c82588e475cde82b3587fd252f3906f232b3e22c565ea3ffe92
+- year: 2024-25
+  unit: q01
+  printed_number: '1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 170559e920acd1e2e4fbd0183cd7bec9c4fcac03c119755b33aef9af0fed0087
+- year: 2023-24
+  unit: q15
+  printed_number: '15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 89bdeae857bb876698001782cd93d34efbbb145c6e1986b3c9ae0d38fa32bc69
+- year: 2023-24
+  unit: q04
+  printed_number: '4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: 94215720d45b416d2e3a60a78b9c6a55efb4d5b8f375960a5392220354610b83
+- year: 2023-24
+  unit: q01
+  printed_number: '1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: d16fb995130fe03c97875c4edf8c4b674dc8ef49335428765c90404e0fe05bb8
+- year: 2021-22
+  unit: q15
+  printed_number: '15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 89bdeae857bb876698001782cd93d34efbbb145c6e1986b3c9ae0d38fa32bc69
+- year: 2021-22
+  unit: q04
+  printed_number: '4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: 94215720d45b416d2e3a60a78b9c6a55efb4d5b8f375960a5392220354610b83
+- year: 2021-22
+  unit: q01
+  printed_number: '1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: d16fb995130fe03c97875c4edf8c4b674dc8ef49335428765c90404e0fe05bb8
+- year: 2020-21
+  unit: q15
+  printed_number: '15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: dbb8e589eaf1f1274ab7a99411e3c8b3b693307b141e0feb060ed5be4d542b2c
+- year: 2020-21
+  unit: q04
+  printed_number: '4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: 651c4eada683a9d939763af244aeb29aa135b454c292683f85bf481cd7ca13a4
+- year: 2020-21
+  unit: q01
+  printed_number: '1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: a7b4f619988c909b6a17c129fdfc31419a92f2d01305933f9be9ab73f9ff68ea
+- year: 2019-20
+  unit: q15
+  printed_number: '15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: bf89384478fd5dca16b142390b76d2f95a7b300a6d66ed0cb7b778f8c41be4b4
+- year: 2019-20
+  unit: q04
+  printed_number: '4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: c84119d0f4206412e5524671b213ae394668de90ce7e2fa8c6e93235143b3c42
+- year: 2019-20
+  unit: q01
+  printed_number: '1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: a07e9d63d62c188568fdac2944c8514323d8ed2747a5d6692b1248f2ba1f4362
+- year: 2018-19
+  unit: q15
+  printed_number: '2.15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 68b06a05cb4f68e966ca224e9d9f6074e34924877e029149670d77f23f20fad1
+- year: 2018-19
+  unit: q04
+  printed_number: '2.4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: 47f98d8edb32054e934db9554117f5087d155ae3fcbf3efdd69b405f0c8772a2
+- year: 2018-19
+  unit: q01
+  printed_number: '2.1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 85030888f6f56eff3c77364e2cfea1b35ef4e0af6475f393272db4db7521fba0
+- year: 2017-18
+  unit: q15
+  printed_number: '2.15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 68b06a05cb4f68e966ca224e9d9f6074e34924877e029149670d77f23f20fad1
+- year: 2017-18
+  unit: q04
+  printed_number: '2.4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: 47f98d8edb32054e934db9554117f5087d155ae3fcbf3efdd69b405f0c8772a2
+- year: 2017-18
+  unit: q01
+  printed_number: '2.1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 85030888f6f56eff3c77364e2cfea1b35ef4e0af6475f393272db4db7521fba0
+- year: 2016-17
+  unit: q15
+  printed_number: '2.15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: ae45461205f688bb2a570d9bb340ea0a9aeabba936b55d93b5f2526577b150e2
+- year: 2016-17
+  unit: q04
+  printed_number: '2.4'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: b1d40122671501854d332667d87e71d7e81c7ef51b3e4d12082b2f1d4cbf8da2
+  crop_sha256: a4f95da98acd1df68d4e718545b13dddad7dbb3de11189c8952d04e21152a09a
+- year: 2016-17
+  unit: q01
+  printed_number: '2.1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: d01f6574b3ea15dd56d28015f0a79f4566ca7b14ec086232c85b28e63cc00865
+- year: 2015-16
+  unit: q15
+  printed_number: '2.15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 4cbeee3cafdf534c91c4676a1ac1367538715c81308ba47d696321c67194a4b1
+- year: 2015-16
+  unit: q04
+  printed_number: '2.2'
+  printed_pages:
+  - 1
+  statement: variants/2015-16/question.tex
+  statement_sha256: ee251e7c83139efc0ea92236728be8eebfe70510b0b67f7656f68a05a9fa0efd
+  crop_sha256: b95880cd8d66c6f94a41065145a22dfa47b3fa85f78a796aed119dd84c06354b
+- year: 2015-16
+  unit: q01
+  printed_number: '2.1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 85030888f6f56eff3c77364e2cfea1b35ef4e0af6475f393272db4db7521fba0
+- year: 2014-15
+  unit: q15
+  printed_number: '2.15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 4cbeee3cafdf534c91c4676a1ac1367538715c81308ba47d696321c67194a4b1
+- year: 2014-15
+  unit: q04
+  printed_number: '2.2'
+  printed_pages:
+  - 1
+  statement: variants/2014-15/question.tex
+  statement_sha256: ee251e7c83139efc0ea92236728be8eebfe70510b0b67f7656f68a05a9fa0efd
+  crop_sha256: b95880cd8d66c6f94a41065145a22dfa47b3fa85f78a796aed119dd84c06354b
+- year: 2014-15
+  unit: q01
+  printed_number: '2.1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 85030888f6f56eff3c77364e2cfea1b35ef4e0af6475f393272db4db7521fba0
+- year: 2013-14
+  unit: q15
+  printed_number: '2.15'
+  printed_pages:
+  - 2
+  statement: question.tex
+  statement_sha256: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+  crop_sha256: 4cbeee3cafdf534c91c4676a1ac1367538715c81308ba47d696321c67194a4b1
+- year: 2013-14
+  unit: q04
+  printed_number: '2.2'
+  printed_pages:
+  - 1
+  statement: variants/2013-14/question.tex
+  statement_sha256: ee251e7c83139efc0ea92236728be8eebfe70510b0b67f7656f68a05a9fa0efd
+  crop_sha256: b95880cd8d66c6f94a41065145a22dfa47b3fa85f78a796aed119dd84c06354b
+- year: 2013-14
+  unit: q01
+  printed_number: '2.1'
+  printed_pages:
+  - 1
+  statement: question.tex
+  statement_sha256: c289347488934b566ab910f6da8c3b1809645e5e7baf642c4eca55f118125271
+  crop_sha256: 85030888f6f56eff3c77364e2cfea1b35ef4e0af6475f393272db4db7521fba0
+- year: 2012-13
+  unit: qx08
+  printed_number: '16'
+  printed_pages:
+  - 3
+  statement: question.tex
+  statement_sha256: c63438885f8c8ac1a210765876339eb53e4ee75f0c9bbdfe6b36ef8a5455f724
+  crop_sha256: 94c9f87fb8faee2bab7f19f3e4d94cdf78fc970bb34257d7034300e864818219
+- year: 2012-13
+  unit: qx09
+  printed_number: '17'
+  printed_pages:
+  - 3
+  statement: question.tex
+  statement_sha256: ae6d9880c43846c3cc4c1f4b4c57aa603bfc334c7f0f6dcc55d0cf532aeca437
+  crop_sha256: d5d3fdee537817195a3a05c7b10170e221070d6e7d8d5e003912aa500f4e038a
+- year: 2011-12
+  unit: qx08
+  printed_number: '16'
+  printed_pages:
+  - 3
+  statement: question.tex
+  statement_sha256: c63438885f8c8ac1a210765876339eb53e4ee75f0c9bbdfe6b36ef8a5455f724
+  crop_sha256: 94c9f87fb8faee2bab7f19f3e4d94cdf78fc970bb34257d7034300e864818219
+- year: 2011-12
+  unit: qx09
+  printed_number: '17'
+  printed_pages:
+  - 3
+  statement: question.tex
+  statement_sha256: ae6d9880c43846c3cc4c1f4b4c57aa603bfc334c7f0f6dcc55d0cf532aeca437
+  crop_sha256: d5d3fdee537817195a3a05c7b10170e221070d6e7d8d5e003912aa500f4e038a
+compiled_pdf_snapshots:
+  2025-26:
+    pdf_path: build/IB-markov-chains-sheet-2-2025-26/main.pdf
+    pdf_sha256: 6ba61bae93a1dcca7ebbfc2a58a1095f6f23b8097b06127b2966b2824c8d61b8
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2024-25:
+    pdf_path: build/IB-markov-chains-sheet-2-2024-25/main.pdf
+    pdf_sha256: fbef9cbbf2d4986ea9b517d7c56b2c3ff0240fe59e7c9d0831787618db37a121
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2023-24:
+    pdf_path: build/IB-markov-chains-sheet-2-2023-24/main.pdf
+    pdf_sha256: bf252638026516210c70f0ad609d008f99daccbdf80b2b754bda4d217211473a
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2021-22:
+    pdf_path: build/IB-markov-chains-sheet-2-2021-22/main.pdf
+    pdf_sha256: 9e031a10ea92af53d54622b24c4fbe4d5e19ede7ec004b90ad89e017a8b32df2
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2020-21:
+    pdf_path: build/IB-markov-chains-sheet-2-2020-21/main.pdf
+    pdf_sha256: e63bf689614fc7dc0c8b75406217f44069d32d8a6fa2665b9b7e783ce058ae4d
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2019-20:
+    pdf_path: build/IB-markov-chains-sheet-2-2019-20/main.pdf
+    pdf_sha256: 72df8af1b8f43af177706ef70b213059871e6abfff67c5d7b7b0e1a0316412d5
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2018-19:
+    pdf_path: build/IB-markov-chains-sheet-2-2018-19/main.pdf
+    pdf_sha256: 7f2fd1ada217037f4b4b48b8642a6544be7a0e427b80e82b8ab8b5d727df0bce
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2017-18:
+    pdf_path: build/IB-markov-chains-sheet-2-2017-18/main.pdf
+    pdf_sha256: 19348b42388a271d3907532d83d8f4ab50c10fb62792d66aac78cda45db3d272
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2016-17:
+    pdf_path: build/IB-markov-chains-sheet-2-2016-17/main.pdf
+    pdf_sha256: b3433635b1e1d903f28a78e678d130d448757367d489f4862374dd3831c9e02b
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2015-16:
+    pdf_path: build/IB-markov-chains-sheet-2-2015-16/main.pdf
+    pdf_sha256: c55661316b1a7f2821867691d09ddd5e62f09defa43b3ad18e76800e77f4bc35
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 2
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2014-15:
+    pdf_path: build/IB-markov-chains-sheet-2-2014-15/main.pdf
+    pdf_sha256: 47a9fdf8572c074673eb6c175f16c1c7a299fe06922497776e80dd50d66f2a48
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 2
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2013-14:
+    pdf_path: build/IB-markov-chains-sheet-2-2013-14/main.pdf
+    pdf_sha256: 500e376cd96b9713a8e1a23ff7f2edb71b3a25c50b2f14692158af5ffc4ed974
+    pages: 16
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 2
+      q01:
+      - 1
+    overfull_box_warnings: []
+  2012-13:
+    pdf_path: build/IB-markov-chains-sheet-2-2012-13/main.pdf
+    pdf_sha256: 600e16f0ef37aac953e6e55bcba8725e8e2d5bf03f6877b8f081f150b31c992e
+    pages: 20
+    sample_pages:
+      qx08:
+      - 18
+      qx09:
+      - 19
+      - 20
+    overfull_box_warnings: []
+  2011-12:
+    pdf_path: build/IB-markov-chains-sheet-2-2011-12/main.pdf
+    pdf_sha256: 30b8917dc6d84ae4c285cee850f897c2f860f301a827e77984a2d5dc1b47fabb
+    pages: 20
+    sample_pages:
+      qx08:
+      - 18
+      qx09:
+      - 19
+      - 20
+    overfull_box_warnings: []
+  2010-11:
+    pdf_path: build/IB-markov-chains-sheet-2-2010-11/main.pdf
+    pdf_sha256: 3ebbd389f1b86e0f0d517e0d9078f730f8ef963a730142d69de434309366f223
+    pages: 13
+    sample_pages: {}
+    overfull_box_warnings: []
+  2006-07:
+    pdf_path: build/IB-markov-chains-sheet-2-2006-07/main.pdf
+    pdf_sha256: fba9b2d913eddec0e51b96cc6e744e00c65952feb549869ea24deeb1987a5dac
+    pages: 13
+    sample_pages: {}
+    overfull_box_warnings: []
+  union:
+    pdf_path: build/IB-markov-chains-sheet-2/main.pdf
+    pdf_sha256: d4ae78963b9ee5bf04bc812f8b67ef400205ceff74bab4b9af0925a76d5c59ab
+    pages: 28
+    sample_pages:
+      q15:
+      - 15
+      q04:
+      - 4
+      qx08:
+      - 26
+      qx09:
+      - 27
+      - 28
+      q01:
+      - 1
+    overfull_box_warnings: []
+  course:
+    pdf_path: build/IB-markov-chains/main.pdf
+    pdf_sha256: 2cc1721227c49ca1c944f6a5d5417f594efd49f1185dcfdc6a8d770dc040078a
+    pages: 85
+    sample_pages:
+      q15:
+      - 72
+      q04:
+      - 61
+      qx08:
+      - 83
+      qx09:
+      - 84
+      - 85
+      q01:
+      - 58
+    overfull_box_warnings: []
+interior_html_links:
+  2025-26:
+    q15:
+      printed_number: '15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2024-25:
+    q15:
+      printed_number: '15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2023-24:
+    q15:
+      printed_number: '15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2021-22:
+    q15:
+      printed_number: '15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2020-21:
+    q15:
+      printed_number: '15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2019-20:
+    q15:
+      printed_number: '15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2018-19:
+    q15:
+      printed_number: '2.15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '2.4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '2.1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2017-18:
+    q15:
+      printed_number: '2.15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '2.4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '2.1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2016-17:
+    q15:
+      printed_number: '2.15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '2.4'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '2.1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2015-16:
+    q15:
+      printed_number: '2.15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '2.2'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '2.1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2014-15:
+    q15:
+      printed_number: '2.15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '2.2'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '2.1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2013-14:
+    q15:
+      printed_number: '2.15'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q15/index.html
+    q04:
+      printed_number: '2.2'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q04/index.html
+    q01:
+      printed_number: '2.1'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/q01/index.html
+  2012-13:
+    qx08:
+      printed_number: '16'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/qx08/index.html
+    qx09:
+      printed_number: '17'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/qx09/index.html
+  2011-12:
+    qx08:
+      printed_number: '16'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/qx08/index.html
+    qx09:
+      printed_number: '17'
+      canonical_target: ../../../../questions/IB/markov-chains/sheet-2/qx09/index.html
+blind_qx08_supplement:
+  sha256: 217ba3f0a95655ce67ec90c7c91ab41f956bf332612d43b4af5f36e9900fdf6a
+  markdown: "# Independent rework of qx08\n\nWrite a, b, c for the selection probabilities\
+    \ of books i, j, k in a permutation. The hypotheses inherited from the other statement\
+    \ are independent choices over days, strictly positive probabilities, and a +\
+    \ b + c = 1. All sums over shelf arrangements run over the six permutations of\
+    \ three distinct books. A day's choice is independent of the current order.\n\n\
+    ## Transposition equilibrium\n\nFrom ijk the chain remains there with probability\
+    \ a, moves to jik with probability b and moves to ikj with probability c. Write\
+    \ w(ijk) = a²b and Z = ∑ w over the six orders. For the first adjacent swap, the\
+    \ two unnormalised equilibrium flows are (a²b)b and (b²a)a. For the second swap\
+    \ the flows are (a²b)c and (a²c)b. Each pair is equal. These account for every\
+    \ transition between distinct orders, so π(ijk) = w(ijk)/Z satisfies detailed\
+    \ balance and is invariant. The adjacent swaps generate all permutations and have\
+    \ positive probability, so the finite chain is irreducible and the invariant distribution\
+    \ unique. Each order has a positive self-transition, so convergence also holds\
+    \ from every initial order.\n\n## Pairwise comparison\n\nUnder move-to-front,\
+    \ a choice of i or j determines which of the two precedes the other, and a choice\
+    \ of k preserves their order. Stationarity gives p = a + cp for the probability\
+    \ p that i precedes j. Thus p = a/(a+b). At equilibrium the contribution of the\
+    \ pair {i,j} to expected retrieval position beyond 1 is b p + a(1-p) = 2ab/(a+b).\
+    \ This follows by counting a unit for each book that precedes the requested book.\n\
+    \nFor transposition let A and B be the unnormalised masses of the orders in which\
+    \ i precedes j and j precedes i, respectively. Listing ijk, ikj, kij and then\
+    \ jik, jki, kji gives\n\n    A = a²b + a²c + c²a,     B = b²a + b²c + c²b,   \
+    \  A+B = Z.\n\nThen bA − aB = abc(a−b), hence A/B > a/b when a>b. More generally,\
+    \ the transposition probability t = A/Z satisfies\n\n    t − a/(a+b) = abc(a−b)/[Z(a+b)].\n\
+    \nThe reduction in expected cost contributed by this unordered pair is\n\n   \
+    \ [b p + a(1−p)] − [b t + a(1−t)]\n      = (a−b)(t−p) = abc(a−b)²/[Z(a+b)].\n\n\
+    Summing over the three unordered pairs proves\n\n    C_move-to-front − C_transposition\n\
+    \       = (α₁α₂α₃/Z) ∑_{i<j} (αᵢ−αⱼ)²/(αᵢ+αⱼ).\n\nEvery denominator and the prefactor\
+    \ are positive. Thus transposition has strictly lower stationary cost exactly\
+    \ when the three probabilities are not all equal. Ties in a single pair give zero\
+    \ reduction for that pair. At α₁ = α₂ = α₃ = 1/3 the costs are both 2, since the\
+    \ new request is uniform independently of the current shelf. Consequently the\
+    \ printed universal claim “smaller” must mean “no larger”, with the strictness\
+    \ condition above.\n\n## Endpoints if the probability domain is enlarged\n\nZero\
+    \ probabilities lie outside the referenced question. With exactly two positive\
+    \ probabilities the unrequested book eventually occupies the last position under\
+    \ either rule. For transposition, its position can only move right and, until\
+    \ last, has at least the smaller positive selection probability of advancing each\
+    \ day. For move-to-front, once both positive-probability books have been chosen\
+    \ they precede it. The two rules then coincide on the front two books, giving\
+    \ equal stationary costs. With only one positive probability its book eventually\
+    \ reaches the front under both rules and the limiting retrieval cost is 1. In\
+    \ that degenerate case the relative order of the other two is conserved, there\
+    \ are two absorbing arrangements, and Z is zero.\n"
+  comparison: The explicit positive prefactor times the sum of squared pairwise differences
+    recovers the canonical cost inequality and the precise equality condition. The
+    discussion outside the stated domain does not change that result.
