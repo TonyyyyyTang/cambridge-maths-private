@@ -1,0 +1,475 @@
+paper_id: IB/2004/P3
+id: IB/2004/P3
+main_count: 23
+unit_count: 23
+main_question_count: 23
+question_units: 23
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 12
+  II: 11
+alternatives: []
+instructions: You should attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2004-06-03'
+printed_date: Thursday 3 June 2004
+time: 9 to 12
+source: private/raw/tripos/IB/2004/P3.pdf
+archive: private/raw/tripos/IB/2004/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2004/PaperIB_3.pdf
+sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- You should attempt at most four questions from Section I and at most six questions from Section II.
+- Additional credit will be given to substantially complete answers.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the code letter affixed to each
+  question, including in the same bundle questions from Sections I and II with the same code letter.
+- Attach a completed gold cover sheet to each bundle; write the code letter in the box marked ‘EXAMINER LETTER’
+  on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your candidate number and desk number.
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2004/P3/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 0b732ed8bb27789d71ce61e7118dd8117df708bc501b615f1247654d6517b969
+  checks: Checked finite-dimensional and real-field hypotheses, definition request and dimension identity.
+  source_page_render_sha256: 7a77084a9509e2bc8adedc6eeaaf6d3fcfee79da5a20db416827b693973cfab2
+- id: IB/2004/P3/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 276e86290aa68e8e83dfe478508c5eded35edd784fc5dbf1853aecb800d6cc02
+  checks: Checked the parity condition, norm conjugation, order of units, ideal 7R and factorization assumption.
+  source_page_render_sha256: 7a77084a9509e2bc8adedc6eeaaf6d3fcfee79da5a20db416827b693973cfab2
+- id: IB/2004/P3/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses:
+  - IB/topology
+  question_sha256: 8854b9de087dae01f7835e6178b79174329e61377ec63eaf3ceda79de250c8f2
+  checks: Checked polyhedron type, F/E/V order, pentagonal faces and dodecahedron comparison.
+  source_page_render_sha256: 7a77084a9509e2bc8adedc6eeaaf6d3fcfee79da5a20db416827b693973cfab2
+  course_mapping_note: The printed geometry of regular polyhedra is retained under IB Geometry (p. 19). Euler
+    characteristic is also taught in IB Topology (p. 18).
+- id: IB/2004/P3/q4F
+  original_question: 4F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a1bbec858c4eb4e8599b1d1d39618b697d767bbc4334a4d0798f530f98a9e3a5
+  checks: Checked primed variables in the max metric and the repeated X in the diagonal statement.
+  source_page_render_sha256: 7a77084a9509e2bc8adedc6eeaaf6d3fcfee79da5a20db416827b693973cfab2
+- id: IB/2004/P3/q5E
+  original_question: 5E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 8bf68db580b85fe508f56950663c95e0a9de2301931fe402acfa286ca825f91d
+  checks: Compared square boundaries and inequalities, contour orientation, both integrals and their limits.
+  source_page_render_sha256: 6a5146bb2f7fbf6d354375943d6057a021e4a10f3e28ad5b84272e665ef12861
+  course_mapping_note: Contour integration and evaluation around a square are in IB Complex Analysis and overlap
+    Complex Methods (pp. 19–20).
+- id: IB/2004/P3/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: 39da8d3e2d3be29c55eb65000950e3fbf8558ba7484a43c7451983d1ce1503c6
+  checks: Checked endpoint conditions, sign of the potential, the two sine terms in the trajectory and both
+    boundary-action formulas.
+  printed_ambiguity: Both displayed boundary-value formulas divide by sin(omega T); resonant times require
+    separate treatment.
+  source_page_render_sha256: 6a5146bb2f7fbf6d354375943d6057a021e4a10f3e28ad5b84272e665ef12861
+  course_mapping_note: Stationary action and the first variation are in IB Variational Principles (p. 20).
+- id: IB/2004/P3/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 0449c8ddadf5f5232bc41e0d59228287eaefacf57a232cdb45020e27cad45cf2
+  checks: Checked moving wire limits, resistance and mass per unit length, field direction, and denominator
+    and derivative factors.
+  printed_ambiguity: The requested moving-wire law uses the resistive circuit approximation and neglects self-inductance.
+  source_page_render_sha256: 6a5146bb2f7fbf6d354375943d6057a021e4a10f3e28ad5b84272e665ef12861
+- id: IB/2004/P3/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: 88f94b8541a4a3517af71d74f475403ecbbaa8f16dca65073a4a089e32c75c37
+  checks: Checked inertial frame primes, V versus u, and the strict speed bound.
+  printed_ambiguity: The strict speed claim for the particle uses the usual subluminal-particle hypothesis
+    in the original frame.
+  source_page_render_sha256: 4c7ce833d0be58d17c33a8da8aa93c56d18aceec23ff4291fd9af6c9f1cf3c22
+  course_mapping_note: One-dimensional Lorentz transformations and velocity transformation are in IA Dynamics
+    and Relativity (p. 13).
+- id: IB/2004/P3/q9D
+  original_question: 9D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 1d16ab55c4cf43fd846a82202e734e36b32889b1fb7dfb2d144f778f807c2752
+  checks: Checked quantisation, circular orbits, radius exponent, negative energy and denominator constants.
+  source_page_render_sha256: 4c7ce833d0be58d17c33a8da8aa93c56d18aceec23ff4291fd9af6c9f1cf3c22
+- id: IB/2004/P3/q10C
+  original_question: 10C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: d37a2b283878c9ec9f6db2aade132f69d99a69dc1b41d08f1afc18e48a85bfd5
+  checks: Checked the four fluid hypotheses, conservative force sign, equilibrium height and U-tube displacement
+    equation.
+  source_page_render_sha256: 4c7ce833d0be58d17c33a8da8aa93c56d18aceec23ff4291fd9af6c9f1cf3c22
+- id: IB/2004/P3/q11A
+  original_question: 11A
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 2ba2584fdcac8df1c4d9200329c2b00c8f6fa61006f5693461a0cd0e3f746ac6
+  checks: Compared all eighteen matrix entries, iteration signs and denominator and iteration starting index.
+  source_page_render_sha256: 388feb59e8ddcde65f6332ccae10b137c39314ad3974e39af0a559bd3756498d
+- id: IB/2004/P3/q12G
+  original_question: 12G
+  page: 5
+  pages:
+  - 5
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 9cd69f651c8fa98edddfb72a9337f36beba03fffb2ee13936f152c4223198f4b
+  checks: Checked game order, win and loss values, the restriction excluding Paper and both endpoint probabilities.
+  source_page_render_sha256: 388feb59e8ddcde65f6332ccae10b137c39314ad3974e39af0a559bd3756498d
+- id: IB/2004/P3/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c3f4eeeeb73efcc35ce7eca5397b0b6a85d8cc45a309a55fae9e1e81cc9b905b
+  checks: Checked the characteristic multiplicities, concrete degree-four polynomial and order of the conjugation.
+  source_page_render_sha256: 4cc6e2b6b61bc20a9fbaaff5bd49e501594e286c13cf29cdaf5169b57dddd04f
+- id: IB/2004/P3/q14F
+  original_question: 14F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 7cf8cba3d44641b2980f183c6aee9c46d60bf2644405c9623ab86b35bb7258b1
+  checks: Compared lattice generators and all four separate index, summand and quotient requests.
+  source_page_render_sha256: 4cc6e2b6b61bc20a9fbaaff5bd49e501594e286c13cf29cdaf5169b57dddd04f
+- id: IB/2004/P3/q15G
+  original_question: 15G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 75efa7f12ce8e64334a5b6736a77b9a0fe4c6eae572519033b51e7ff03492cc7
+  checks: Checked the spherical cosine product, both scaled sides, positivity of lambda and limiting statement.
+  source_page_render_sha256: 4cc6e2b6b61bc20a9fbaaff5bd49e501594e286c13cf29cdaf5169b57dddd04f
+- id: IB/2004/P3/q16F
+  original_question: 16F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: aafefc1306be85ed0793901040076b88dc4dedab124d054b25273b92a1050c4d
+  checks: Checked placement of both a and 2 under the square root, the closed left endpoint and reciprocal
+    term.
+  source_page_render_sha256: 5a3a256b9d2b835cbc4b32aad5db3a4ab837018b4f939a1b595ee42bb72f3392
+- id: IB/2004/P3/q17E
+  original_question: 17E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 55622e0bf3f4a8d5556bf5b95ab45f8524e7969065750fd37f56277e921368b3
+  checks: Checked the two-sided series, excluded lattice, two logarithm branches including their different
+    endpoints and the requested singularity at 1.
+  source_page_render_sha256: 5a3a256b9d2b835cbc4b32aad5db3a4ab837018b4f939a1b595ee42bb72f3392
+  course_mapping_note: Local uniform convergence of analytic functions, isolated singularities and log branches
+    are in IB Complex Analysis (p. 19) with overlap in Complex Methods.
+- id: IB/2004/P3/q18D
+  original_question: 18D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/variational-principles
+  also_courses:
+  - IB/methods
+  question_sha256: bb760133ef484951605a45eff31c2442e742201a0f4b1c7a3851c99ffd4d6aab
+  checks: Checked the first integral, exponential light speed, path endpoint signs, bound and substitution
+    in the hint.
+  printed_ambiguity: The positive-height ray and the indicated near-threshold sketch assume positive lambda
+    and a. The displayed inequality alone does not specify this.
+  source_page_render_sha256: e441c9901084c087d48830ab83374913e7376869b9b1587bedefd10d22a98e75
+  course_mapping_note: Fermat’s principle and variational first integrals are in IB Variational Principles
+    (p. 20).
+- id: IB/2004/P3/q19B
+  original_question: 19B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: cc08fe413aba5457d2ea1dfa0a54ef82367fffd4e15120b2f00f815ae141e295
+  checks: Checked electromagnetic energy and Poynting vector, polarisation and the printed speed c squared
+    against the final S equals Wc.
+  printed_ambiguity: The original prints speed c squared, followed by S = Wc. The propagation speed is c; the
+    printed parameter identity gives its square.
+  source_page_render_sha256: e441c9901084c087d48830ab83374913e7376869b9b1587bedefd10d22a98e75
+- id: IB/2004/P3/q20D
+  original_question: 20D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 4b6ceb2d3c6c3d9a43311d0fa0294b79fa46b96bbca0e99d56308d50f1851004
+  checks: Compared the three potential and wavefunction regions, all six amplitudes, denominator, and large-L
+    exponential scale.
+  printed_ambiguity: An incoming propagating-wave scattering state with the given transmission formula assumes
+    positive epsilon as well as epsilon below U.
+  source_page_render_sha256: 78c4806f6bdb613904a5dba72d8e3515021b4ab2048b7fabb4d1addb7ce244ad
+- id: IB/2004/P3/q21C
+  original_question: 21C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 15664ef7e5e64242a75dcb9c364bdb704962f1223c3a3249cb02612c731c4c7d
+  checks: Checked both spherical velocity components, translating direction and kinetic-energy factor; compared
+    all final parameters.
+  source_page_render_sha256: e6043c7f74115684f7ca004ef52eb24368b23f96d3ac332791cab17914784776
+- id: IB/2004/P3/q22A
+  original_question: 22A
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: b1aa8f8e134b612dff6cdadc319c02b9142b8f1421b7bd5da499fc57954b0f25
+  checks: Checked evaluation point, all three weights and nodes, derivative order and infinity norm.
+  source_page_render_sha256: e6043c7f74115684f7ca004ef52eb24368b23f96d3ac332791cab17914784776
+- id: IB/2004/P3/q23G
+  original_question: 23G
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: f728520a0fe8f39fd631283345545fe78ea4a90717c9b3230a2074b835276243
+  checks: Checked objective signs, all four constraint bounds, nonnegativity and the two simplex phases.
+  source_page_render_sha256: e6043c7f74115684f7ca004ef52eb24368b23f96d3ac332791cab17914784776
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 5d1d5f88e40a60c65d62e678268da8967073e18b16a070fe5a9e5687db459e4b
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 159
+  katex_failures: 0
+  compiled_proof_pages: 23
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2004 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 5f0d7c0f3df22be2130076e3a4e4b43695cd2066c04f0b9eeb99a592e532994a
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1E
+  - 2F
+  - 3G
+  - 4F
+  source_page_render_sha256: 7a77084a9509e2bc8adedc6eeaaf6d3fcfee79da5a20db416827b693973cfab2
+  printed_page: 2
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 5E
+  - 6D
+  - 7B
+  source_page_render_sha256: 6a5146bb2f7fbf6d354375943d6057a021e4a10f3e28ad5b84272e665ef12861
+  printed_page: 3
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 8B
+  - 9D
+  - 10C
+  source_page_render_sha256: 4c7ce833d0be58d17c33a8da8aa93c56d18aceec23ff4291fd9af6c9f1cf3c22
+  printed_page: 4
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 11A
+  - 12G
+  source_page_render_sha256: 388feb59e8ddcde65f6332ccae10b137c39314ad3974e39af0a559bd3756498d
+  printed_page: 5
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 13E
+  - 14F
+  - 15G
+  source_page_render_sha256: 4cc6e2b6b61bc20a9fbaaff5bd49e501594e286c13cf29cdaf5169b57dddd04f
+  printed_page: 6
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 16F
+  - 17E
+  source_page_render_sha256: 5a3a256b9d2b835cbc4b32aad5db3a4ab837018b4f939a1b595ee42bb72f3392
+  printed_page: 7
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 18D
+  - 19B
+  source_page_render_sha256: e441c9901084c087d48830ab83374913e7376869b9b1587bedefd10d22a98e75
+  printed_page: 8
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 9
+  contents: questions
+  questions:
+  - 20D
+  source_page_render_sha256: 78c4806f6bdb613904a5dba72d8e3515021b4ab2048b7fabb4d1addb7ce244ad
+  printed_page: 9
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 10
+  contents: questions
+  questions:
+  - 21C
+  - 22A
+  - 23G
+  source_page_render_sha256: e6043c7f74115684f7ca004ef52eb24368b23f96d3ac332791cab17914784776
+  printed_page: 10
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: physical PDF pages

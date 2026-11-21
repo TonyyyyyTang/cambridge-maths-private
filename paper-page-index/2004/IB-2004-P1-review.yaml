@@ -1,0 +1,434 @@
+paper_id: IB/2004/P1
+id: IB/2004/P1
+main_count: 22
+unit_count: 22
+main_question_count: 22
+question_units: 22
+source_page_count: 9
+page_count: 9
+section_units:
+  I: 11
+  II: 11
+alternatives: []
+instructions: You should attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2004-06-01'
+printed_date: Tuesday 1 June 2004
+time: 9 to 12
+source: private/raw/tripos/IB/2004/P1.pdf
+archive: private/raw/tripos/IB/2004/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2004/PaperIB_1.pdf
+sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- You should attempt at most four questions from Section I and at most six questions from Section II.
+- Additional credit will be given to substantially complete answers.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the code letter affixed to each
+  question, including in the same bundle questions from Sections I and II with the same code letter.
+- Attach a completed gold cover sheet to each bundle; write the code letter in the box marked ‘EXAMINER LETTER’
+  on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your candidate number and desk number.
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2004/P1/q1H
+  original_question: 1H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: ccf0fb3bb419abbaaf0ce35a75db93b1b61d3f66286fb81c93c9c7202a0465f1
+  checks: Checked bold vector symbols, replacement indices, reordered spanning set, and the final dimension
+    inequality.
+  source_page_render_sha256: b0117a14aaab2aa21a94cb9a7a64afc4fe698615ca7fdafd2b348725f93f1d93
+- id: IB/2004/P1/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 3e9e3f01004fb7e30903ccb9e9ef605763898000e044f840c448228979b63860
+  checks: Checked all normalizer indices, permitted Sylow facts and both possible Sylow counts.
+  source_page_render_sha256: b0117a14aaab2aa21a94cb9a7a64afc4fe698615ca7fdafd2b348725f93f1d93
+- id: IB/2004/P1/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 3927668ee1c90d71a2949ca0a653a2cf29ed4467b0fcbc8a2ba92b7aee50f43b
+  checks: Checked the y-squared metric denominator and the three strict region inequalities.
+  source_page_render_sha256: b0117a14aaab2aa21a94cb9a7a64afc4fe698615ca7fdafd2b348725f93f1d93
+- id: IB/2004/P1/q4G
+  original_question: 4G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: c534447ae198b931e201a9f58ba3206ab0bd4806350ca98b279c8acc1ad52af7
+  checks: Checked all three functions, common open interval, exponential signs and summation indices.
+  source_page_render_sha256: b0117a14aaab2aa21a94cb9a7a64afc4fe698615ca7fdafd2b348725f93f1d93
+- id: IB/2004/P1/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 193e4efc6649f99f9c9e4cffcf8067a5d1a2239c87947ede7c328281581f46d9
+  checks: Checked nesting of the exponentials, powers, denominators, and punctuation between the three functions.
+  source_page_render_sha256: 1e61138c94dc741bf265b756ba0285e91d94bd33c77e1478330bdcfb084285f9
+- id: IB/2004/P1/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IA/vector-calculus
+  also_courses:
+  - IB/methods
+  question_sha256: afc6f523a5ebf136dac372f6128cf9bf2a11c40d2375302854fac3d478c0a602
+  checks: Checked the rank statements, tensor indices, linear dependence on magnetic field and anisotropy condition.
+  source_page_render_sha256: 1e61138c94dc741bf265b756ba0285e91d94bd33c77e1478330bdcfb084285f9
+  course_mapping_note: Isotropic rank-two and rank-three Cartesian tensors are explicit in IA Vector Calculus,
+    physical schedule page 13. Methods is the historical heading.
+- id: IB/2004/P1/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: fdd62206e8ceafe52aad7b15b059f41a461f788dc3231941212011d50b46b7dc
+  checks: Checked current and electric field in bold, conductivity and exponential decay wording.
+  source_page_render_sha256: 1e61138c94dc741bf265b756ba0285e91d94bd33c77e1478330bdcfb084285f9
+- id: IB/2004/P1/q8D
+  original_question: 8D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 94901dc8f1e4db83f9b3331ae07bd765332bd123df92c2621796f452097423ac
+  checks: Checked continuity equation variables, complex conjugation, plane-wave phase and zero potential.
+  source_page_render_sha256: 1e61138c94dc741bf265b756ba0285e91d94bd33c77e1478330bdcfb084285f9
+- id: IB/2004/P1/q9C
+  original_question: 9C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 3c5d24b87dcfcdda1d43572f338648557cce0adafc7d1867d7da8ffceb167e18
+  checks: Checked both rational components and the streamfunction sign and derivative order.
+  printed_ambiguity: The velocity formula is singular at the origin. The requested divergence and streamfunction
+    are understood where the field is defined.
+  source_page_render_sha256: e04057816e2cc6e7c4a9bc17c141adb92744d0182a4d17dd9ba3140d9da73852
+- id: IB/2004/P1/q10H
+  original_question: 10H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 751365d50d6769afbfca5bcfea12f10de775f0f78912337d217820ac53778632
+  checks: Checked the comparison of two means and the explicit request for underlying assumptions.
+  source_page_render_sha256: e04057816e2cc6e7c4a9bc17c141adb92744d0182a4d17dd9ba3140d9da73852
+- id: IB/2004/P1/q11H
+  original_question: 11H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: d62a02d45e3acd61f2a92570f0ab2321af3eef870c8e667db28f8615d0829c8e
+  checks: Checked recurrent and irreducible conditions, the two-state minimum, and the two branches of the
+    new matrix.
+  source_page_render_sha256: e04057816e2cc6e7c4a9bc17c141adb92744d0182a4d17dd9ba3140d9da73852
+- id: IB/2004/P1/q12H
+  original_question: 12H
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 52bbdb75b5dc2bdb27d3cd748fe95b945dbb896d65d9f073b8fce8ac2f69f43d
+  checks: Compared the dimension identity, all sixteen matrix entries, both codomains and the successive basis-extension
+    requests.
+  source_page_render_sha256: eca6ca677ec6e92bd33c735c48057d09d08eb0bd71e00cf96e9707fc04ebdeb5
+- id: IB/2004/P1/q13F
+  original_question: 13F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 95e3c3b3f063a61dcaabab2eca4edd47829174590b53a67633e005db6607871b
+  checks: Checked the distinction between one prime and all primes and the request for a direct proof.
+  source_page_render_sha256: eca6ca677ec6e92bd33c735c48057d09d08eb0bd71e00cf96e9707fc04ebdeb5
+- id: IB/2004/P1/q14G
+  original_question: 14G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 9f4975f45705a25492d1415a5abe90e9e21ab8ffa7f593f9cd18b0091087af26
+  checks: Checked reflection fixing the line, nonidentity on the whole plane, and the composition statement.
+  source_page_render_sha256: eca6ca677ec6e92bd33c735c48057d09d08eb0bd71e00cf96e9707fc04ebdeb5
+- id: IB/2004/P1/q15G
+  original_question: 15G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: f93d07e04ee3357c4d6e54098c5cf0baf04da296256193e2aac992fea3432aae
+  checks: Checked the norm formula and every hypothesis on U, including openness, boundedness, origin and symmetry.
+  source_page_render_sha256: eca6ca677ec6e92bd33c735c48057d09d08eb0bd71e00cf96e9707fc04ebdeb5
+- id: IB/2004/P1/q16A
+  original_question: 16A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 4eec7968b010a5ae15ec7c6958fda6674dddfc5fb46e64f6df44f5f3f5d934e7
+  checks: Checked the product index l, distinct nonreal zeros, the degree bound and the oscillatory integral.
+  source_page_render_sha256: 27b6ee2f1c147c9d3ae6a7b639207acbbdfa07f5ef78eb315d507d564aa4da36
+- id: IB/2004/P1/q17B
+  original_question: 17B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 10f3534dc4c056fece448b22498dc41ddc70f75fc5261c14ed2f8172d93f9125
+  checks: Checked wave speed, fixed ends, initial position and velocity, absence of a prefactor in the energy,
+    and odd summation.
+  source_page_render_sha256: 27b6ee2f1c147c9d3ae6a7b639207acbbdfa07f5ef78eb315d507d564aa4da36
+- id: IB/2004/P1/q18B
+  original_question: 18B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 8c92bed207172ca3e4f4117da37e864d6005872b1b192b3e666bca8d55afcab3
+  checks: Compared (1) and (2), all three plate positions and potentials, and the minimization condition.
+  printed_ambiguity: The elementary parallel-plate energy assumes negligible edge fields. The source specifies
+    finite circular plates and supplies no fringe-field approximation explicitly.
+  source_page_render_sha256: be8a1ac9be8ef6790ae8acdb9ed60bfd69bde498b258307a655173ff5df64190
+- id: IB/2004/P1/q19D
+  original_question: 19D
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: a8d0c621b7208ef6c727ad4055738f0f49cce0f464d880f0ec2769eed2aa452d
+  checks: Checked both ladder operators, the sign of the h-bar term and quantifier “for any integer n”.
+  printed_ambiguity: The source says any integer n. Negative powers are singular on the axis, and for n=0 the
+    lowered state is zero, which is not an eigenfunction.
+  source_page_render_sha256: be8a1ac9be8ef6790ae8acdb9ed60bfd69bde498b258307a655173ff5df64190
+- id: IB/2004/P1/q20C
+  original_question: 20C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: db6d60a9060e45235e673adb33ef68eccbe2f1907e0ebec1f43335938d31405d
+  checks: Checked direction of the current and phase, both linearized surface conditions, bottom condition
+    and dispersion relation.
+  source_page_render_sha256: 4781ed1279c0d6b4a23496466de540684f9a6f95a10cbc88d1ff955db3a17fdf
+- id: IB/2004/P1/q21H
+  original_question: 21H
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f6325386309042a33b58cc9c0483952825f104f67d4921d48b77136b7e2c4b03
+  checks: Compared the support, complement factor, parameter bounds, one-dimensional statistic and unbiased
+    estimate requests.
+  source_page_render_sha256: 4781ed1279c0d6b4a23496466de540684f9a6f95a10cbc88d1ff955db3a17fdf
+- id: IB/2004/P1/q22H
+  original_question: 22H
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 2e76b621877176b7e4c2837f71704135e6fba07aef2d202eb5da00b4e6071639
+  checks: Compared all 36 transition entries, starting states 2 and 3, and the exact-n condition by counting
+    rows and columns.
+  source_page_render_sha256: 0328cc6c580b8ff62c8e1ad8f2186cc7b72ae757355fb7f6408dc18f96933394
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 50597128003aa7ba43435d251cc7c66610a99f8012777f9c23a87bdb8ced226a
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 129
+  katex_failures: 0
+  compiled_proof_pages: 22
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2004 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: 8633b41e9b940cade8c73e65fd8fa0b5b736cab5667e5bc8499d76f35c1301b9
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1H
+  - 2F
+  - 3G
+  - 4G
+  source_page_render_sha256: b0117a14aaab2aa21a94cb9a7a64afc4fe698615ca7fdafd2b348725f93f1d93
+  printed_page: 2
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 5A
+  - 6B
+  - 7B
+  - 8D
+  source_page_render_sha256: 1e61138c94dc741bf265b756ba0285e91d94bd33c77e1478330bdcfb084285f9
+  printed_page: 3
+  footer: Paper 1
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 9C
+  - 10H
+  - 11H
+  source_page_render_sha256: e04057816e2cc6e7c4a9bc17c141adb92744d0182a4d17dd9ba3140d9da73852
+  printed_page: 4
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 12H
+  - 13F
+  - 14G
+  - 15G
+  source_page_render_sha256: eca6ca677ec6e92bd33c735c48057d09d08eb0bd71e00cf96e9707fc04ebdeb5
+  printed_page: 5
+  footer: Paper 1
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 16A
+  - 17B
+  source_page_render_sha256: 27b6ee2f1c147c9d3ae6a7b639207acbbdfa07f5ef78eb315d507d564aa4da36
+  printed_page: 6
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 18B
+  - 19D
+  source_page_render_sha256: be8a1ac9be8ef6790ae8acdb9ed60bfd69bde498b258307a655173ff5df64190
+  printed_page: 7
+  footer: Paper 1
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 20C
+  - 21H
+  source_page_render_sha256: 4781ed1279c0d6b4a23496466de540684f9a6f95a10cbc88d1ff955db3a17fdf
+  printed_page: 8
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 9
+  contents: questions
+  questions:
+  - 22H
+  source_page_render_sha256: 0328cc6c580b8ff62c8e1ad8f2186cc7b72ae757355fb7f6408dc18f96933394
+  printed_page: 9
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: physical PDF pages
