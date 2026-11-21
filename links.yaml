@@ -21426,21 +21426,17 @@ questions:
         - 2
         original_question: '13'
   IB/analysis-ii/sheet-2/q01:
-    question:
+    question: &id097
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 1
-      pages: &id097
+      pages:
       - 1
       original_question: '1'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-        page: 1
-        pages: *id097
-        original_question: '1'
+      2025-26: *id097
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 1
@@ -21448,21 +21444,47 @@ questions:
         - 1
         original_question: '1'
   IB/analysis-ii/sheet-2/q02:
-    question:
+    question: &id098
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 1
-      pages: &id098
+      pages:
       - 1
       original_question: '2'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
         page: 1
-        pages: *id098
+        pages:
+        - 1
+        original_question: '6'
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2021-22:
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
         original_question: '2'
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2025-26: *id098
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 1
@@ -21470,21 +21492,35 @@ questions:
         - 1
         original_question: '2'
   IB/analysis-ii/sheet-2/q03:
-    question:
+    question: &id099
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 1
-      pages: &id099
+      pages:
       - 1
       original_question: '3'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
         page: 1
-        pages: *id099
+        pages:
+        - 1
+        original_question: '7'
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2023-24:
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
         original_question: '3'
+      2025-26: *id099
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 1
@@ -21492,21 +21528,35 @@ questions:
         - 1
         original_question: '3'
   IB/analysis-ii/sheet-2/q04:
-    question:
+    question: &id100
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 1
-      pages: &id100
+      pages:
       - 1
       original_question: '4'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
         page: 1
-        pages: *id100
+        pages:
+        - 1
+        original_question: '3'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
         original_question: '4'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2025-26: *id100
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 1
@@ -21514,20 +21564,130 @@ questions:
         - 1
         original_question: '4'
   IB/analysis-ii/sheet-2/q05:
-    question:
-      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+    question: &id101
+      archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
       page: 1
-      pages: &id101
+      pages:
       - 1
       original_question: '5'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2007-08: *id101
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2021-22:
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
       2025-26:
         archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
         page: 1
-        pages: *id101
+        pages:
+        - 1
         original_question: '5'
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
@@ -21536,21 +21696,89 @@ questions:
         - 1
         original_question: '5'
   IB/analysis-ii/sheet-2/q06:
-    question:
+    question: &id102
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 1
-      pages: &id102
+      pages:
       - 1
       original_question: '6'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '13'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '13'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '13'
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
         page: 1
-        pages: *id102
-        original_question: '6'
+        pages:
+        - 1
+        original_question: '2'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2025-26: *id102
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 1
@@ -21558,20 +21786,82 @@ questions:
         - 1
         original_question: '6'
   IB/analysis-ii/sheet-2/q07:
-    question:
-      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+    question: &id103
+      archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
       page: 1
-      pages: &id103
+      pages:
       - 1
-      original_question: '7'
+      original_question: '4'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
+      2006-07: *id103
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2023-24:
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
       2025-26:
         archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
         page: 1
-        pages: *id103
+        pages:
+        - 1
         original_question: '7'
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
@@ -21580,21 +21870,23 @@ questions:
         - 1
         original_question: '7'
   IB/analysis-ii/sheet-2/q08:
-    question:
+    question: &id104
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id104
+      pages:
       - 2
       original_question: '8'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
         page: 2
-        pages: *id104
-        original_question: '8'
+        pages:
+        - 2
+        original_question: '10'
+      2025-26: *id104
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 2
@@ -21602,21 +21894,17 @@ questions:
         - 2
         original_question: '8'
   IB/analysis-ii/sheet-2/q09:
-    question:
+    question: &id105
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id105
+      pages:
       - 2
       original_question: '9'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-        page: 2
-        pages: *id105
-        original_question: '9'
+      2025-26: *id105
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 2
@@ -21624,36 +21912,124 @@ questions:
         - 2
         original_question: '9'
   IB/analysis-ii/sheet-2/q10:
-    question:
-      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+    question: &id106
+      archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
       page: 2
-      pages: &id106
+      pages:
       - 2
-      original_question: '10'
+      original_question: '13'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
+      2006-07: *id106
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
       2025-26:
         archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
         page: 2
-        pages: *id106
+        pages:
+        - 2
         original_question: '10'
   IB/analysis-ii/sheet-2/q11:
-    question:
-      archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-      page: 2
-      pages: &id107
-      - 2
-      original_question: '11'
+    question: &id107
+      archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+      page: 1
+      pages:
+      - 1
+      original_question: '7'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
+      2014-15: *id107
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
       2025-26:
         archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
         page: 2
-        pages: *id107
+        pages:
+        - 2
         original_question: '11'
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
@@ -21662,37 +22038,95 @@ questions:
         - 2
         original_question: '10'
   IB/analysis-ii/sheet-2/q12:
-    question:
+    question: &id108
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id108
+      pages:
       - 2
       original_question: '12'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-        page: 2
-        pages: *id108
-        original_question: '12'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2025-26: *id108
   IB/analysis-ii/sheet-2/q13:
-    question:
+    question: &id109
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id109
+      pages:
       - 2
       original_question: '13'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-        page: 2
-        pages: *id109
-        original_question: '13'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2025-26: *id109
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 2
@@ -21700,21 +22134,71 @@ questions:
         - 2
         original_question: '11'
   IB/analysis-ii/sheet-2/q14:
-    question:
+    question: &id110
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id110
+      pages:
       - 2
       original_question: '14'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-        page: 2
-        pages: *id110
-        original_question: '14'
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2025-26: *id110
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 2
@@ -21722,21 +22206,47 @@ questions:
         - 2
         original_question: '12'
   IB/analysis-ii/sheet-2/q15:
-    question:
+    question: &id111
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id111
+      pages:
       - 2
       original_question: '15'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
         page: 2
-        pages: *id111
-        original_question: '15'
+        pages:
+        - 2
+        original_question: '10'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2025-26: *id111
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 2
@@ -21744,21 +22254,83 @@ questions:
         - 2
         original_question: '13'
   IB/analysis-ii/sheet-2/q16:
-    question:
+    question: &id112
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 2
-      pages: &id112
+      pages:
       - 2
       original_question: '16'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '19'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '19'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '19'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
         page: 2
-        pages: *id112
-        original_question: '16'
+        pages:
+        - 2
+        original_question: '11'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '11'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2025-26: *id112
       2026-27:
         archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
         page: 2
@@ -21766,42 +22338,49 @@ questions:
         - 2
         original_question: '14'
   IB/analysis-ii/sheet-2/q17:
-    question:
+    question: &id113
       archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
       page: 3
-      pages: &id113
+      pages:
       - 3
       original_question: Supplement
-      printed_label: '⋆ Supplement: Weierstrass approximation theorem.'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2025-26:
-        archive: raw/sheets/IB/analysis-ii/2025-26/sheet-2.pdf
-        page: 3
-        pages: *id113
-        original_question: Supplement
-        printed_label: '⋆ Supplement: Weierstrass approximation theorem.'
+      2024-25:
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        - 3
+        original_question: '12'
+      2025-26: *id113
   IB/analysis-ii/sheet-2/qx01:
-    question:
+    question: &id114
       archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
       page: 2
-      pages: &id114
+      pages:
       - 2
       - 3
       original_question: Supplement
-      printed_label: 'Supplement: A proof of Lebesgue’s theorem on the Riemann integral.'
     official_answer: null
     my_handwritten: null
     marking: null
     sheet_versions:
-      2026-27:
-        archive: raw/sheets/IB/analysis-ii/2026-27/sheet-2.pdf
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
         page: 2
-        pages: *id114
+        pages:
+        - 2
         original_question: Supplement
-        printed_label: 'Supplement: A proof of Lebesgue’s theorem on the Riemann integral.'
+      2018-19:
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: Supplement
+      2026-27: *id114
   IB/2007/P1/q1G:
     official_answer: null
     my_handwritten: null
@@ -25188,6 +25767,2031 @@ questions:
       archive: raw/tripos/IB/2004/P4.pdf
       page: 9
       original_question: 20G
+  IB/analysis-ii/sheet-2/qx02:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id148
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+    question: *id148
+  IB/analysis-ii/sheet-2/qx03:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id149
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2024-25:
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id149
+  IB/analysis-ii/sheet-2/qx04:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id150
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+    question: *id150
+  IB/analysis-ii/sheet-2/qx05:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id151
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+    question: *id151
+  IB/analysis-ii/sheet-2/qx06:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id152
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+    question: *id152
+  IB/analysis-ii/sheet-2/qx07:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id153
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2024-25:
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        - 2
+        original_question: '6'
+    question: *id153
+  IB/analysis-ii/sheet-2/qx08:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id154
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+    question: *id154
+  IB/analysis-ii/sheet-2/qx09:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23: &id155
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2023-24:
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2024-25:
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+    question: *id155
+  IB/analysis-ii/sheet-2/qx10:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2023-24:
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2024-25: &id156
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+    question: *id156
+  IB/analysis-ii/sheet-2/qx11:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id157
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+    question: *id157
+  IB/analysis-ii/sheet-2/qx12:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2024-25: &id158
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id158
+  IB/analysis-ii/sheet-2/qx13:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2024-25: &id159
+        archive: raw/sheets/IB/analysis-and-topology/2024-25/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '13'
+    question: *id159
+  IB/analysis-ii/sheet-2/qx14:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2023-24: &id160
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+    question: *id160
+  IB/analysis-ii/sheet-2/qx15:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2023-24: &id161
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id161
+  IB/analysis-ii/sheet-2/qx16:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2005-06: &id162
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2023-24:
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+    question: *id162
+  IB/analysis-ii/sheet-2/qx17:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2023-24: &id163
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+    question: *id163
+  IB/analysis-ii/sheet-2/qx18:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2023-24: &id164
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+    question: *id164
+  IB/analysis-ii/sheet-2/qx19:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2013-14: &id165
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2023-24:
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+    question: *id165
+  IB/analysis-ii/sheet-2/qx20:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2023-24: &id166
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id166
+  IB/analysis-ii/sheet-2/qx21:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23:
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2023-24: &id167
+        archive: raw/sheets/IB/analysis-and-topology/2023-24/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+    question: *id167
+  IB/analysis-ii/sheet-2/qx22:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2022-23: &id168
+        archive: raw/sheets/IB/analysis-and-topology/2022-23/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id168
+  IB/analysis-ii/sheet-2/qx23:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2021-22: &id169
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+    question: *id169
+  IB/analysis-ii/sheet-2/qx24:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2021-22: &id170
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+    question: *id170
+  IB/analysis-ii/sheet-2/qx25:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2021-22: &id171
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+    question: *id171
+  IB/analysis-ii/sheet-2/qx26:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2021-22: &id172
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+    question: *id172
+  IB/analysis-ii/sheet-2/qx27:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2021-22: &id173
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+    question: *id173
+  IB/analysis-ii/sheet-2/qx28:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2021-22: &id174
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+    question: *id174
+  IB/analysis-ii/sheet-2/qx29:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2021-22: &id175
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id175
+  IB/analysis-ii/sheet-2/qx30:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2021-22: &id176
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+    question: *id176
+  IB/analysis-ii/sheet-2/qx31:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2021-22: &id177
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+    question: *id177
+  IB/analysis-ii/sheet-2/qx32:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20:
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2021-22: &id178
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+    question: *id178
+  IB/analysis-ii/sheet-2/qx33:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20: &id179
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+    question: *id179
+  IB/analysis-ii/sheet-2/qx34:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20: &id180
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+    question: *id180
+  IB/analysis-ii/sheet-2/qx35:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20: &id181
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+    question: *id181
+  IB/analysis-ii/sheet-2/qx36:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2019-20: &id182
+        archive: raw/sheets/IB/analysis-and-topology/2019-20/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+    question: *id182
+  IB/analysis-ii/sheet-2/qx37:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2018-19: &id183
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+    question: *id183
+  IB/analysis-ii/sheet-2/qx38:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2018-19: &id184
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+    question: *id184
+  IB/analysis-ii/sheet-2/qx39:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2015-16:
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2018-19: &id185
+        archive: raw/sheets/IB/analysis-ii/2018-19/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+    question: *id185
+  IB/analysis-ii/sheet-2/qx40:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2017-18: &id186
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+    question: *id186
+  IB/analysis-ii/sheet-2/qx41:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id187
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id187
+  IB/analysis-ii/sheet-2/qx42:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '14'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '14'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '14'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2014-15:
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2015-16: &id188
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+    question: *id188
+  IB/analysis-ii/sheet-2/qx43:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id189
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '12'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2017-18:
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+    question: *id189
+  IB/analysis-ii/sheet-2/qx44:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13:
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2017-18: &id190
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+    question: *id190
+  IB/analysis-ii/sheet-2/qx45:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2017-18: &id191
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id191
+  IB/analysis-ii/sheet-2/qx46:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2017-18: &id192
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+    question: *id192
+  IB/analysis-ii/sheet-2/qx47:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2017-18: &id193
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+    question: *id193
+  IB/analysis-ii/sheet-2/qx48:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2017-18: &id194
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+    question: *id194
+  IB/analysis-ii/sheet-2/qx49:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2016-17:
+        archive: raw/sheets/IB/analysis-ii/2016-17/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2017-18: &id195
+        archive: raw/sheets/IB/analysis-ii/2017-18/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+    question: *id195
+  IB/analysis-ii/sheet-2/qx50:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2015-16: &id196
+        archive: raw/sheets/IB/analysis-ii/2015-16/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+    question: *id196
+  IB/analysis-ii/sheet-2/qx51:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2014-15: &id197
+        archive: raw/sheets/IB/analysis-ii/2014-15/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+    question: *id197
+  IB/analysis-ii/sheet-2/qx52:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2013-14: &id198
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id198
+  IB/analysis-ii/sheet-2/qx53:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2013-14: &id199
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+    question: *id199
+  IB/analysis-ii/sheet-2/qx54:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2013-14: &id200
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+    question: *id200
+  IB/analysis-ii/sheet-2/qx55:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2003-04: &id201
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2013-14:
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id201
+  IB/analysis-ii/sheet-2/qx56:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2013-14: &id202
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+    question: *id202
+  IB/analysis-ii/sheet-2/qx57:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '16'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2013-14: &id203
+        archive: raw/sheets/IB/analysis-ii/2013-14/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+    question: *id203
+  IB/analysis-ii/sheet-2/qx58:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id204
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+    question: *id204
+  IB/analysis-ii/sheet-2/qx59:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id205
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id205
+  IB/analysis-ii/sheet-2/qx60:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id206
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+    question: *id206
+  IB/analysis-ii/sheet-2/qx61:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id207
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+    question: *id207
+  IB/analysis-ii/sheet-2/qx62:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id208
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+    question: *id208
+  IB/analysis-ii/sheet-2/qx63:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id209
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '10'
+    question: *id209
+  IB/analysis-ii/sheet-2/qx64:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id210
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '11'
+    question: *id210
+  IB/analysis-ii/sheet-2/qx65:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id211
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '13'
+    question: *id211
+  IB/analysis-ii/sheet-2/qx66:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2012-13: &id212
+        archive: raw/sheets/IB/analysis-ii/2012-13/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '14'
+    question: *id212
+  IB/analysis-ii/sheet-2/qx67:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2011-12: &id213
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id213
+  IB/analysis-ii/sheet-2/qx68:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2008-09: &id214
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+    question: *id214
+  IB/analysis-ii/sheet-2/qx69:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07: &id215
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '10'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+    question: *id215
+  IB/analysis-ii/sheet-2/qx70:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2005-06: &id216
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id216
+  IB/analysis-ii/sheet-2/qx71:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+      2007-08: &id217
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+      2008-09:
+        archive: raw/sheets/IB/analysis-ii/2008-09/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+    question: *id217
+  IB/analysis-ii/sheet-2/qx72:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2005-06: &id218
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+      2009-10:
+        archive: raw/sheets/IB/analysis-ii/2009-10/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+      2010-11:
+        archive: raw/sheets/IB/analysis-ii/2010-11/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+      2011-12:
+        archive: raw/sheets/IB/analysis-ii/2011-12/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+    question: *id218
+  IB/analysis-ii/sheet-2/qx73:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2007-08: &id219
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '2'
+    question: *id219
+  IB/analysis-ii/sheet-2/qx74:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '9'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2005-06: &id220
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2006-07:
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2007-08:
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+    question: *id220
+  IB/analysis-ii/sheet-2/qx75:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2007-08: &id221
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '12'
+    question: *id221
+  IB/analysis-ii/sheet-2/qx76:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2007-08: &id222
+        archive: raw/sheets/IB/analysis-ii/2007-08/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '15'
+    question: *id222
+  IB/analysis-ii/sheet-2/qx77:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07: &id223
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '6'
+    question: *id223
+  IB/analysis-ii/sheet-2/qx78:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07: &id224
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+    question: *id224
+  IB/analysis-ii/sheet-2/qx79:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07: &id225
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id225
+  IB/analysis-ii/sheet-2/qx80:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2006-07: &id226
+        archive: raw/sheets/IB/analysis-ii/2006-07/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '14'
+    question: *id226
+  IB/analysis-ii/sheet-2/qx81:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2003-04: &id227
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '1'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '3'
+    question: *id227
+  IB/analysis-ii/sheet-2/qx82:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '4'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2005-06: &id228
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '5'
+    question: *id228
+  IB/analysis-ii/sheet-2/qx83:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        - 2
+        original_question: '5'
+      2003-04: &id229
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        - 2
+        original_question: '5'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '6'
+    question: *id229
+  IB/analysis-ii/sheet-2/qx84:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2003-04: &id230
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '7'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+    question: *id230
+  IB/analysis-ii/sheet-2/qx85:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2002-03:
+        archive: raw/sheets/IB/analysis-ii/2002-03/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2003-04:
+        archive: raw/sheets/IB/analysis-ii/2003-04/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2005-06: &id231
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+    question: *id231
+  IB/analysis-ii/sheet-2/qx86:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2005-06: &id232
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '11'
+    question: *id232
+  IB/analysis-ii/sheet-2/qx87:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '15'
+      2005-06: &id233
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '15'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '15'
+    question: *id233
+  IB/analysis-ii/sheet-2/qx88:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '16'
+      2005-06: &id234
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '16'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '16'
+    question: *id234
+  IB/analysis-ii/sheet-2/qx89:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '17'
+      2005-06: &id235
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '17'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '17'
+    question: *id235
+  IB/analysis-ii/sheet-2/qx90:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '18'
+      2005-06:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '18'
+      2005-06-B: &id236
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '18'
+    question: *id236
+  IB/analysis-ii/sheet-2/qx91:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2004-05:
+        archive: raw/sheets/IB/analysis-ii/2004-05/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '20'
+      2005-06: &id237
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '20'
+      2005-06-B:
+        archive: raw/sheets/IB/analysis-ii/2005-06/sheet-2-variant-B.pdf
+        page: 3
+        pages:
+        - 3
+        original_question: '20'
+    question: *id237
+  IB/topology/sheet-2/qx01:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '7'
+      2021-22: &id238
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '8'
+    question: *id238
+  IB/topology/sheet-2/qx02:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '8'
+      2021-22: &id239
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 1
+        pages:
+        - 1
+        original_question: '9'
+    question: *id239
+  IB/topology/sheet-2/qx03:
+    official_answer: null
+    my_handwritten: null
+    marking: null
+    sheet_versions:
+      2020-21:
+        archive: raw/sheets/IB/analysis-and-topology/2020-21/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '10'
+      2021-22: &id240
+        archive: raw/sheets/IB/analysis-and-topology/2021-22/sheet-2.pdf
+        page: 2
+        pages:
+        - 2
+        original_question: '13'
+    question: *id240
 sheet_editions:
   raw/sheets/IB/methods/unverified-2023/sheet-1.pdf:
     academic_year: 2023-24
