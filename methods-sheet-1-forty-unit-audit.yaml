@@ -1,0 +1,1003 @@
+scope: IB Methods Sheet 1 union across 17 located dated editions. This is a sheet-level audit.
+auditor: Fresh independent auditor; no drafting or editing of the audited solutions.
+method: Reworked the statement-only packet and edition variants, including original referenced prompts for qx11. Froze derivations
+  before access to repository answers, checks, indexes or builds. Compared against the archived original page images, stored
+  answers, exact variant mappings, private edition HTML and the compiled edition PDFs.
+seed: 20261130
+selector: random.Random(20261130).sample(sorted(union_ids),8)
+population: 40
+sample_size: 8
+sample_fraction: 0.2
+sample_in_draw_order:
+- q09
+- qx26
+- q04
+- qx10
+- qx11
+- qx08
+- q06
+- q11
+sampled_edition_occurrences: 58
+distinct_sampled_unit_and_exact_text_pairs: 21
+frozen_blind_rework_sha256: efc448db947648802e4e6b579402c7708ec2af9d0d2322e9519ce0c24119ff60
+frozen_blind_rework: |
+  q09. Write u=(x²-1)^n. Its nth derivative has degree n with leading coefficient (2n)!/n!; the normalization gives l=(2n)!/(2^n(n!)²). At one the factor (x-1)^n forces all n derivatives onto that factor, yielding q(1)=1. Differentiate (x²-1)u'-2nxu=0 n+1 times; the terms give (x²-1)y''+2xy'-n(n+1)y=0, y=u^(n). A polynomial solution with this degree and value is unique (cancel leading terms and use the degree condition d(d+1)=n(n+1)); hence q=P. Integrating Rodrigues by parts n times against a polynomial kills boundary terms since u and its derivatives of orders <n vanish at both ends; x^m for integer 0<=m<n gives zero. Against P the integral is l/2^n times int (1-x²)^n dx = l/2^n * 2^(2n+1)(n!)²/(2n+1)! using t=(1+x)/2 and the beta integral, giving 2/(2n+1).
+  qx26. In Plancherel convention the shift f(.+m) transforms to e^(imk)F(k) by translation for integrable test functions and L² density. Thus their Hermitian inner product (linear in first slot) is (2π)^-1 int |F|² exp[-i(n-m)k] dk. All integrals exist by Cauchy-Schwarz and Plancherel. The nonzero differences n-m traverse all nonzero integers, which proves both implications.
+  q04. Integration against e^(-inθ) gives c_n=(-1)^n sinh π/[π(1-in)]. Reconstruct sum c_n exp(inθ) symmetrically. At the seam the sum is cosh π, average of the one-sided limits; elsewhere equals e^θ. Parseval gives sinh(2π)/(2π)=(sinh π/π)^2 [1+2 sum_{n>=1} 1/(1+n²)]. Equivalently at -π the paired ±n terms give cosh π=(sinh π/π)[1+2 sum 1/(1+n²)]; both give (π coth π-1)/2. Older real form a_n=2(-1)^n sinh π/[π(1+n²)], b_n=-n a_n.
+  qx10. Period-two even quartic consists of arches from 0 at odd joins to 1 at midpoints. Mean 8/15. Four integrations by parts (f' endpoints zero, f'''(1)=24, integral of f'''' cos(nπx)=0) yield a_n=48(-1)^(n+1)/(nπ)^4. Values and derivatives through order two match and third derivative jumps. Absolute uniform approximation error O(N^-3) from coefficients O(n^-4). Odd extension of x² is x|x| on (-π,π), rising from -π² to π² with downward jumps at odd π; seam Fourier value 0. Even extension is parabolas x² on (-π,π) repeated, continuous with kinks at odd π; repeat periods out to ±6π. Integrating twice gives b_n=-2π(-1)^n/n +4[(-1)^n-1]/(π n³), while cosine series is π²/3 +4 sum (-1)^n cos(nx)/n². Differentiating cosine gives the Fourier series of 2x with zero seam midpoint. Formal derivative of sine series is a cosine series whose terms fail even to tend to zero (cos nx cannot tend to zero since cos 2nx=2cos²(nx)-1). Its regular derivative away from jumps is 2|x|; its distributional derivative includes -2π² times the comb at odd multiples of π, accounting for discrepancy, including the constant mode. Usual cosine series of 2|x| is π+4/π sum [(-1)^n-1]cos(nx)/n².
+  qx11. Repeated parts drops all boundary terms by periodicity through order k-1. |n|^k |c_n| <= ||f^(k)||_1/(2π); likewise real coefficients, and actually little-o by Riemann-Lebesgue if desired. |sin x| is even and π-periodic; a0=4/π, odd a_n and all b_n zero, a_(2m)=-4/[π(4m²-1)] from product-to-sum on (0,π). Q1 quartic coefficient n^-4 with third derivative jump; its extension C². The even x² extension is continuous, piecewise smooth with derivative jumps, giving n^-2; odd x² extension jumps giving n^-1. Q2 periodic e^x jumps and b_n=O(1/n), a_n=O(n^-2). Decay agrees (continuous derivative theorem only a sufficient bound). Differentiating multiplies modes by n and needs convergence/regularity, e.g. summable differentiated coefficients; integrating divides by n and improves convergence (separate mean and integration constant), valid also by integrating L² convergent partial sums over bounded intervals. Smooth functions permit rapid truncation; jumps cause slow decay and Gibbs oscillations persistent near the jump (Q5), value is the midpoint at the jump under piecewise smoothness.
+  qx08. For real f with L²-convergent expansion, orthogonality of finite trigonometric polynomials gives ||S_N||²/T=a0²/2+sum_{n<=N}(a_n²+b_n²) and convergence in norm gives the asserted identity. Square wave odd so b_n=2[1-(-1)^n]/(nπ). The cutoff 4.5π/T retains just odd n=1,3. Output 4/π(sin(πt/T)+sin(3πt/T)/3). Input mean square one, transmitted mean square 8/π² (1+1/9)=80/(9π²).
+  q06. Energy identity λ int |y|²=int |y'|² rules out negative eigenvalues and shows zero mode constant. For positive λ use derivative at 0 to remove sine, at L requires sqrt(λ)L=nπ. Eigenfunctions 1, cos(nπx/L) form complete basis by regular self-adjoint Sturm-Liouville theorem (p=w=1, q=0, separated homogeneous Neumann BC). Orthogonality gives mean coefficient (1/L)int f and a_n=(2/L)int f(x)cos(nπx/L)dx. Two integrations by parts, f' endpoint zero, give a_n=-(2/L)(L/(nπ))² int f'' cos; absolute uniform convergence. Completeness identifies the uniform sum with f in L², hence everywhere by continuity.
+  q11. Sketch the periodic 0/1 steps, with high level 0 to π, low level π to 2π; mark endpoints as specified in each edition. Mean 1/2; cosine coefficients zero, b_n=(1-(-1)^n)/(πn). At a jump all partial sums equal 1/2. Differentiate first N odd harmonics then 2sin x cos((2j-1)x)=sin(2jx)-sin((2j-2)x) telescopes to S'_N=sin(2Nx)/(π sin x); integrate from 0. At integer π derivative is nonzero by continuous extension 2N(-1)^k/π; at other zeros mπ/(2N) the sign changes; exclude precisely m multiple of 2N. Earliest high peak π/(2N). Set u=2Nt; continuous sinc at zero and uniform convergence of t/sin t near 0 (as interval shrinks) give limit 1/2+Si(π)/π ≈1.08949. Split integral at π/2 and reflect the second half using 1/u+1/(π-u)=π/[u(π-u)]. Using sin u>=u-u³/6 on half gives bound 1/2+(1-π²/6)log 2+5π²/48 >1.08. Error stays at about 8.95% of jump near discontinuities, oscillatory region shrinks, convergence not uniform; midpoint limit and one-sided values distinguished. 2001-02 exclusion of all multiples of N is wrong; m=N must be retained. 2014-15 and 2015-16 index list should read m=..., not n=...; historical displayed equality to limiting integral is asymptotic only. 2014-15 switches x,θ but same variable.
+original_page_review: Visually checked the sampled questions across all 17 originals, 22 edition/page combinations, rendered
+  with PDFium at scale 1.8; converted 2014-15 PostScript to a temporary PDF before rendering. Original printing quirks retained.
+before_repair:
+  substantive_math_or_transcription_errors_in_existing_solutions: 0
+  canonical_math_error_units: 0
+  canonical_math_sample_size: 8
+  existing_distinct_historical_solution_texts_reviewed: 3
+  minor_math_errors: 0
+  minor_transcription_errors: 0
+  presentation_missing_units: 3
+  presentation_missing_unit_rate: 3/8 (37.5%)
+  presentation_missing_exact_texts: 10/21
+  presentation_missing_edition_occurrences: 33/58
+  affected_years_count: 11
+  description: Affected editions show a pointer to the canonical unit in the PDF and link to it in HTML; no worked answer
+    is provided alongside the historical question, although the proof can be adapted. The canonical endpoint choices cannot
+    simply be pasted into historical q11 with unassigned endpoints. The 33 version occurrences repeat ten distinct texts and
+    are not independent mathematical trials.
+source_quirks:
+- 'q11, 2001-02 p1 Q5: printed exclusion m=kN misses actual extrema when m is an odd multiple of N. Correct exclusion m=2kN.'
+- 'q11, 2014-15 and 2015-16 p1 Q5: enumeration says n=... where m indexes extrema. In 2014-15 part (ii) shifts from x to θ;
+  2015-16 retains an extra closing parenthesis after the numerical peak.'
+- 'q11, all early versions through 2022-23 except 2016-17: printed equality to the sine-integral limit is asymptotic, not
+  true for finite N. The modern version explicitly uses an approximation sign. Historical open-interval boundary assignments
+  differ from the modern half-open convention.'
+- 'q09: solution justifiably interprets x^m as a monomial, m a nonnegative integer.'
+units:
+  q09:
+    canonical_question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+    canonical_solution_sha256: 7ee6ba2eec369a733fa72ffab20cd8eb7008091fb4722288e9fa27110fa5b60f
+    canonical_check_sha256: 1a37da46f10c800acdd8ef954f3dfe7da84121e358f5d8fdfa8eee5bb26e841e
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2023-24:
+        source_question: '9'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q09/question.tex
+        question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+        pdf_pages:
+        - 13
+        - 14
+        html_and_pdf_answer: canonical solution for this exact text
+      2024-25:
+        source_question: '9'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q09/question.tex
+        question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+        pdf_pages:
+        - 13
+        - 14
+        html_and_pdf_answer: canonical solution for this exact text
+      2025-26:
+        source_question: '9'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q09/question.tex
+        question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+        pdf_pages:
+        - 14
+        - 15
+        html_and_pdf_answer: canonical solution for this exact text
+      2026-27:
+        source_question: '9'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q09/question.tex
+        question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
+        pdf_pages:
+        - 14
+        - 15
+        html_and_pdf_answer: canonical solution for this exact text
+  qx26:
+    canonical_question_sha256: 9bb7b96a71c47970aad2ee48868f19c0070f85a02b2fdb944b800505624ad5c2
+    canonical_solution_sha256: 285e3d95c9e756624ed57d1c80f0093460acd3c591432263bd8054c59e474975
+    canonical_check_sha256: 67afd8e2e9d45a03fbce3700b5f08082c7255fc79e7de245a189a11be952cd49
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2007-08:
+        source_question: '9'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/qx26/question.tex
+        question_sha256: 9bb7b96a71c47970aad2ee48868f19c0070f85a02b2fdb944b800505624ad5c2
+        pdf_pages:
+        - 9
+        - 9
+        html_and_pdf_answer: canonical solution for this exact text
+  q04:
+    canonical_question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+    canonical_solution_sha256: a8fdfbb4c2349b5de3f776326034d88c52af8cf57b80c963c266396ac4cd41ab
+    canonical_check_sha256: 0d1957a11f431e384465b9201081e134e7009537d25f093b9950f27234459966
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2001-02:
+        source_question: '2'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2001-02/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2002-03:
+        source_question: '2'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2002-03/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2003-04:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2003-04/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2004-05:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2004-05/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2006-07:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2006-07/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2007-08:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2007-08/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2011-12:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2011-12/question.tex
+        question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2014-15:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2014-15/question.tex
+        question_sha256: 5695678c9971ee4a4245b8aceeb375a52f48e338e2417158864923537be30874
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2015-16:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2015-16/question.tex
+        question_sha256: 5982222b7e4eb86439047b5d600e75984e8db7d974cc245f29c7e2ca450d5094
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: edition-specific solution
+        edition_solution_sha256: 06350262abfe1e53a25d12d1d445d9fa4d131ee1ee8649e0f48072d17962bf95
+      2018-19:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2018-19/question.tex
+        question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2020-21:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2020-21/question.tex
+        question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2022-23:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/variants/2022-23/question.tex
+        question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+        pdf_pages:
+        - 3
+        - 3
+        html_and_pdf_answer: canonical pointer only
+      2023-24:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/question.tex
+        question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+        pdf_pages:
+        - 7
+        - 7
+        html_and_pdf_answer: canonical solution for this exact text
+      2024-25:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/question.tex
+        question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+        pdf_pages:
+        - 7
+        - 7
+        html_and_pdf_answer: canonical solution for this exact text
+      2025-26:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/question.tex
+        question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+        pdf_pages:
+        - 7
+        - 7
+        html_and_pdf_answer: canonical solution for this exact text
+      2026-27:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q04/question.tex
+        question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
+        pdf_pages:
+        - 7
+        - 7
+        html_and_pdf_answer: canonical solution for this exact text
+  qx10:
+    canonical_question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+    canonical_solution_sha256: d4bbe5d56cb0cc33c9dc23d5f45cefab163499dc12d573990c9ccb212b9a5ec7
+    canonical_check_sha256: c449e63cdb0bee014d1a445687150c84c6978fb7323b351058d88f6dff6ade84
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2001-02:
+        source_question: '1'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx10/question.tex
+        question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+        pdf_pages:
+        - 1
+        - 2
+        html_and_pdf_answer: canonical solution for this exact text
+      2002-03:
+        source_question: '1'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx10/question.tex
+        question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
+        pdf_pages:
+        - 1
+        - 2
+        html_and_pdf_answer: canonical solution for this exact text
+  qx11:
+    canonical_question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+    canonical_solution_sha256: f209c2f9899977f5f94f94b2e72c42d11f985eedeead6a11884e3fb780b97bb5
+    canonical_check_sha256: 068ea2722f218910f3831026b256d634d95a50e31ae32165bfe0acfac042cbee
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2001-02:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx11/question.tex
+        question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+        pdf_pages:
+        - 4
+        - 5
+        html_and_pdf_answer: canonical solution for this exact text
+      2002-03:
+        source_question: '3'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx11/question.tex
+        question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+        pdf_pages:
+        - 4
+        - 5
+        html_and_pdf_answer: canonical solution for this exact text
+  qx08:
+    canonical_question_sha256: a2e2444602bf987c0c15ed7a98386cb341a9e8afb92875035e55c1d3914be649
+    canonical_solution_sha256: d3e0f481f0cc05676e74d543fd8bd9c7472e25faf2b048016b3b51782b1d6039
+    canonical_check_sha256: 0d21a8bd74faeb307f83858928f3c45cedef565a3596f1c54c99c996097a0aff
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2001-02:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2001-02/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 6
+        - 6
+        html_and_pdf_answer: canonical pointer only
+      2002-03:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2002-03/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 6
+        - 6
+        html_and_pdf_answer: canonical pointer only
+      2003-04:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2003-04/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2004-05:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2004-05/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2006-07:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2006-07/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2007-08:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2007-08/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2011-12:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2011-12/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2014-15:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2014-15/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2015-16:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/question.tex
+        question_sha256: a2e2444602bf987c0c15ed7a98386cb341a9e8afb92875035e55c1d3914be649
+        pdf_pages:
+        - 6
+        - 7
+        html_and_pdf_answer: canonical solution for this exact text
+      2018-19:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2018-19/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2020-21:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2020-21/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+      2022-23:
+        source_question: '4'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/qx08/variants/2022-23/question.tex
+        question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+        pdf_pages:
+        - 4
+        - 4
+        html_and_pdf_answer: canonical pointer only
+  q06:
+    canonical_question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+    canonical_solution_sha256: 21b80f07f872edababc7ea0186078f2c82ad22c75a851a665bfae74e0b1bd2ca
+    canonical_check_sha256: 339b84656959cb12df2535c0321248eb7b8ab2ebe412655029815e2c267f5b2a
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2023-24:
+        source_question: '6'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q06/question.tex
+        question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+        pdf_pages:
+        - 9
+        - 9
+        html_and_pdf_answer: canonical solution for this exact text
+      2024-25:
+        source_question: '6'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q06/question.tex
+        question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+        pdf_pages:
+        - 9
+        - 9
+        html_and_pdf_answer: canonical solution for this exact text
+      2025-26:
+        source_question: '6'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q06/question.tex
+        question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+        pdf_pages:
+        - 10
+        - 10
+        html_and_pdf_answer: canonical solution for this exact text
+      2026-27:
+        source_question: '6'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q06/question.tex
+        question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
+        pdf_pages:
+        - 10
+        - 10
+        html_and_pdf_answer: canonical solution for this exact text
+  q11:
+    canonical_question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+    canonical_solution_sha256: d9e71c912a8b8a1bd8f519f90daa4728c3fcdaa9015c8ed80f4e446d1ad972f3
+    canonical_check_sha256: 2490da0a3d6e2213528a27a3b64b09fc5bcbaa200c52a33dd9a810946cc7788c
+    canonical_verdict: agrees with independently frozen rework
+    editions:
+      2001-02:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2001-02/question.tex
+        question_sha256: 842b6de80f1835f9fbbaa789db25c259d095c7a06725ea16e919bc03d3151198
+        pdf_pages:
+        - 7
+        - 7
+        html_and_pdf_answer: canonical pointer only
+      2002-03:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2002-03/question.tex
+        question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+        pdf_pages:
+        - 7
+        - 7
+        html_and_pdf_answer: canonical pointer only
+      2003-04:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2003-04/question.tex
+        question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2004-05:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2004-05/question.tex
+        question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2006-07:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2006-07/question.tex
+        question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2007-08:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2007-08/question.tex
+        question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2011-12:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2011-12/question.tex
+        question_sha256: ef43541a451715d0984ba26194b1e867783e63abd8d36cda19dbb2eff69fb35f
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2014-15:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2014-15/question.tex
+        question_sha256: a6ffbed4931d914d5f711cc29ed3ff3e04e0e8f4690012e48f43a49a85982586
+        pdf_pages:
+        - 6
+        - 6
+        html_and_pdf_answer: canonical pointer only
+      2015-16:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2015-16/question.tex
+        question_sha256: ce5b95e6024b846837cf175428826a542a94b947a5bf5bcf52b2703d5580dc5d
+        pdf_pages:
+        - 8
+        - 9
+        html_and_pdf_answer: edition-specific solution
+        edition_solution_sha256: 68555bb2d3d5e621b6bc98fabf624925f37ad71f0c53a798f53a7fab826511d9
+      2016-17:
+        source_question: '5'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2016-17/question.tex
+        question_sha256: 387f6fd2b1fa4b56ce8c33364ccc5c5b745209bd840b4cf41dcbeaf781fe664c
+        pdf_pages:
+        - 9
+        - 10
+        html_and_pdf_answer: edition-specific solution
+        edition_solution_sha256: 9cb0410bee6a65ec8432a4b5c9a9d7c1031cbbd9073bc002b749cf82b16d1ba6
+      2018-19:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2018-19/question.tex
+        question_sha256: 8f4432d0728ea2a754103b68bec8d0a1f411a3caa694b067a3e28e14d53e9fca
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2020-21:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2020-21/question.tex
+        question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2022-23:
+        source_question: '5'
+        source_page: 1
+        question_file: courses/IB/methods/sheets/sheet-1/q11/variants/2022-23/question.tex
+        question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+        pdf_pages:
+        - 5
+        - 5
+        html_and_pdf_answer: canonical pointer only
+      2023-24:
+        source_question: '11'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q11/question.tex
+        question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+        pdf_pages:
+        - 17
+        - 19
+        html_and_pdf_answer: canonical solution for this exact text
+      2024-25:
+        source_question: '11'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q11/question.tex
+        question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+        pdf_pages:
+        - 17
+        - 19
+        html_and_pdf_answer: canonical solution for this exact text
+      2025-26:
+        source_question: '11'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q11/question.tex
+        question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+        pdf_pages:
+        - 18
+        - 20
+        html_and_pdf_answer: canonical solution for this exact text
+      2026-27:
+        source_question: '11'
+        source_page: 2
+        question_file: courses/IB/methods/sheets/sheet-1/q11/question.tex
+        question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
+        pdf_pages:
+        - 18
+        - 20
+        html_and_pdf_answer: canonical solution for this exact text
+edition_builds:
+  2025-26:
+    source: private/raw/sheets/IB/methods/2025-26/sheet-1.pdf
+    source_sha256: b8b1e1cb2a2251f5c5b1861eca9ce50f84933dbc31f358abae72d6b4be2ea2e0
+    pdf: build/IB-methods-sheet-1-2025-26/main.pdf
+    pdf_sha256: 67ee28a114806912013dd3613a2c4dae5523cfa172bd173a38be2c21612b834d
+    pdf_pages: 23
+    html: site/private/collections/IB/methods/sheet-1/2025-26.html
+    html_sha256: 243e4501d75493e144cc3bfee22b5c29d218c7cfd06e318e83fd4ab97bb9eb74
+  2026-27:
+    source: private/raw/sheets/IB/methods/2026-27/sheet-1.pdf
+    source_sha256: 0d8da1fd689c9f7c01cbd78175f956113bb669057e63069fd3dee8de93bcfda8
+    pdf: build/IB-methods-sheet-1-2026-27/main.pdf
+    pdf_sha256: fae79a119d3fe4ef0abdac43de9f6e2f1d3835192b3ad5ce13808800df3c3582
+    pdf_pages: 22
+    html: site/private/collections/IB/methods/sheet-1/2026-27.html
+    html_sha256: b4e86979c4d3af1dae72d4e576a62ac05aeb6331f3ca881818ae7d0a3018be57
+  2024-25:
+    source: private/raw/sheets/IB/methods/2024-25/sheet-1.pdf
+    source_sha256: ceeac51d71dd54ef1c3549b0b35cb2c57eed0258a7526e86c7249997656c5f3b
+    pdf: build/IB-methods-sheet-1-2024-25/main.pdf
+    pdf_sha256: 95610a8463e990a6982756d7d96d29a5a94f18540e08301ad5ea09f56f0ddfb4
+    pdf_pages: 22
+    html: site/private/collections/IB/methods/sheet-1/2024-25.html
+    html_sha256: a4443ead4b1c0a7337f197bd43a6dd324e6e3a340fc257797b4d5e2b6598abdb
+  2016-17:
+    source: private/raw/sheets/IB/methods/2016-17/sheet-1.pdf
+    source_sha256: 72c844e977d8c374f44a25835ff18dfe32a9aef534dab5ba045fdde4cff60674
+    pdf: build/IB-methods-sheet-1-2016-17/main.pdf
+    pdf_sha256: 723004585f00d55e503540365885d20e98cb4623150bcdb23584cf21dc18cf62
+    pdf_pages: 15
+    html: site/private/collections/IB/methods/sheet-1/2016-17.html
+    html_sha256: 5591e6575e0a1bb17db30c2c6aacb9e05e6816dfea41ba5f20b2b96c1d8196e7
+  2015-16:
+    source: private/raw/sheets/IB/methods/2015-16/all-sheets.pdf
+    source_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+    pdf: build/IB-methods-sheet-1-2015-16/main.pdf
+    pdf_sha256: 2e5c07a2d487ee9bee5c7a7be4d959b8d87c7f84eeaf761d1030ac2a1234a360
+    pdf_pages: 17
+    html: site/private/collections/IB/methods/sheet-1/2015-16.html
+    html_sha256: f369fbe5583fc8e2b8021704e5af69892b57665a7395df2c409f02770a10a129
+  2001-02:
+    source: private/raw/sheets/IB/methods/2001-02/sheet-1.pdf
+    source_sha256: 0e362b586c47f4d89914e803cf0c3a0a61106852863628709f303e5b7c94d388
+    pdf: build/IB-methods-sheet-1-2001-02/main.pdf
+    pdf_sha256: 70c87cd07b3308de384fadac1016b3e077ec04a051efc4d8f9baf52cc7d9c07c
+    pdf_pages: 14
+    html: site/private/collections/IB/methods/sheet-1/2001-02.html
+    html_sha256: 8b991417d6236d6d7dfb472c46fece1912d6cb8a461ec48a3158d46de6d6a98d
+  2002-03:
+    source: private/raw/sheets/IB/methods/2002-03/sheet-1.pdf
+    source_sha256: 6acfa46427ada11e63d26f440a2183e1dc1e185a630866f3a8e3719fa6f7a28f
+    pdf: build/IB-methods-sheet-1-2002-03/main.pdf
+    pdf_sha256: 59183a08b5373330b097954caba90b06aa6e22d2ed1d79f2cf314f2cb83dc24c
+    pdf_pages: 14
+    html: site/private/collections/IB/methods/sheet-1/2002-03.html
+    html_sha256: 1d2cf0e24321040323a39d61f94b874bb48ccbe3960d2961ffdecc9e48c2cb7e
+  2003-04:
+    source: private/raw/sheets/IB/methods/2003-04/sheet-1.pdf
+    source_sha256: c5c4c64cb1ff68dcafbdfaab0d0af655c8db4ed9821d35c4a0b12fce04c879b9
+    pdf: build/IB-methods-sheet-1-2003-04/main.pdf
+    pdf_sha256: c06fe8af7636d38cab9de2e3a37eb306d185968977c44fdec7851939b73e096f
+    pdf_pages: 11
+    html: site/private/collections/IB/methods/sheet-1/2003-04.html
+    html_sha256: 1736e1a4f9fbef21d36ad9c6942814ffdaa8949e11bd81e21948cae7863157b8
+  2004-05:
+    source: private/raw/sheets/IB/methods/2004-05/sheet-1.pdf
+    source_sha256: 1af3ac91e85bc5c45109aa29389907e00df798658b6dab647db731e84a416dfe
+    pdf: build/IB-methods-sheet-1-2004-05/main.pdf
+    pdf_sha256: 3e5d24df171eff1775e3c71f4cf0ba5b6dd49a168040d4605febde7712d1541f
+    pdf_pages: 11
+    html: site/private/collections/IB/methods/sheet-1/2004-05.html
+    html_sha256: 1e2ae46a3ef6e1831e0c6a8b3cf9954475505cc5ffca9fea46fb166778fecf55
+  2006-07:
+    source: private/raw/sheets/IB/methods/2006-07/sheet-1.pdf
+    source_sha256: e76840677fb69c9e4cf493707dc811cf6baf3294f345c1c2a019b65c6a932abe
+    pdf: build/IB-methods-sheet-1-2006-07/main.pdf
+    pdf_sha256: 10400387a61690e4b46953f9eb26c3f039d3d680dd22739bb0eb748fa40e36d8
+    pdf_pages: 13
+    html: site/private/collections/IB/methods/sheet-1/2006-07.html
+    html_sha256: f5c572ab2209d657093809dd2a7eef86882f2ab12eaf4a28a5db0cd7496ec679
+  2007-08:
+    source: private/raw/sheets/IB/methods/2007-08/sheet-1.pdf
+    source_sha256: ee8c96c49d16e705a3bbdf07df3626c08d6a366f9f07ab0bb32e67945637e838
+    pdf: build/IB-methods-sheet-1-2007-08/main.pdf
+    pdf_sha256: c88732665793abf1774171e2c705bc85f234dfcaef0daee919c1ca54d17c5604
+    pdf_pages: 11
+    html: site/private/collections/IB/methods/sheet-1/2007-08.html
+    html_sha256: 52788ae89027fdd4c83d058d8b153ed10c939ffbb54b7c4d1aee85267fd00ce5
+  2011-12:
+    source: private/raw/sheets/IB/methods/2011-12/sheet-1.pdf
+    source_sha256: 2a973c74f647fa6048b176e40a17ad3d3711d8d399db45b33f4baf9b8bfea82d
+    pdf: build/IB-methods-sheet-1-2011-12/main.pdf
+    pdf_sha256: b821db4a814b4ad7458561493670d774aa1b5e1ee33e9463ef1a5d53b5fbfbac
+    pdf_pages: 11
+    html: site/private/collections/IB/methods/sheet-1/2011-12.html
+    html_sha256: 101bdc814cc19a326b8e819f1fda1279f867dee78065b839146291fb8b2e8dc4
+  2014-15:
+    source: private/raw/sheets/IB/methods/2014-15/sheet-1.ps
+    source_sha256: d063f629152f43b1ca9935b65132bf91d0057f71b8ae1e51f9c1e8365df63e47
+    pdf: build/IB-methods-sheet-1-2014-15/main.pdf
+    pdf_sha256: 1e348ab11d86cba98a3eb61c1690b459e50db4d0ec93d201e58131efa09df461
+    pdf_pages: 14
+    html: site/private/collections/IB/methods/sheet-1/2014-15.html
+    html_sha256: 876e57d95ded789fca87806e6f2e75988c13df1d71dea8f054b0b4d6f5570567
+  2018-19:
+    source: private/raw/sheets/IB/methods/2018-19/sheet-1.pdf
+    source_sha256: 299b69853f2d92a53a1c11bf2943310a4f1963813303959fe3aafa4ee700e62b
+    pdf: build/IB-methods-sheet-1-2018-19/main.pdf
+    pdf_sha256: 748fac7b2c7649a3e1458de5fddc4b034c378115c19d764e6e3544cdb783606c
+    pdf_pages: 9
+    html: site/private/collections/IB/methods/sheet-1/2018-19.html
+    html_sha256: 5e4051a73831dd818f0efb6fb7fd9492f40b3cefe7f551f0a4b5be70021bebbf
+  2020-21:
+    source: private/raw/sheets/IB/methods/2020-21/sheet-1.pdf
+    source_sha256: 5a48b1e9e906a51ab6ad625fd162a931d3ed72d8b8796579acfe04af5c114ece
+    pdf: build/IB-methods-sheet-1-2020-21/main.pdf
+    pdf_sha256: 3762946e9279826d7474eb83901ed3acbe2590a43b0df04c75fe2c8e7e5e57b4
+    pdf_pages: 9
+    html: site/private/collections/IB/methods/sheet-1/2020-21.html
+    html_sha256: 88a5ff1454c2bb40fed624b74a6c0cffc948e4636993f91a74dbad0b2cd04b24
+  2022-23:
+    source: private/raw/sheets/IB/methods/2022-23/sheet-1.pdf
+    source_sha256: b7247fac15a6d46a68d6483a348b08417ec303b336261e3f967b8b112b14ab79
+    pdf: build/IB-methods-sheet-1-2022-23/main.pdf
+    pdf_sha256: 4018612455ba2c4ce9702d88e38e28e7a96678fede46068e478576304efbd798
+    pdf_pages: 9
+    html: site/private/collections/IB/methods/sheet-1/2022-23.html
+    html_sha256: 4defd7e6c3d29db2578f8965f3d47167cd9bf43a72b0fbe84c4c41b99cef6d19
+  2023-24:
+    source: private/raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
+    source_sha256: dd8d1e89bbaf423e790c328088efbdc6451630311f8c180e0e9d04eaca7cc893
+    pdf: build/IB-methods-sheet-1-2023-24/main.pdf
+    pdf_sha256: 69be376d32c454506818f1a785efe2d156eb4a40482f1fb3e73d397efcc8e141
+    pdf_pages: 20
+    html: site/private/collections/IB/methods/sheet-1/2023-24.html
+    html_sha256: 5c8fa858780d20688d735080e0dd48a430b3fcf7413fa8b0eb4d1f09731c7035
+missing_exact_texts:
+- unit: q04
+  exact_question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
+  representative_text: courses/IB/methods/sheets/sheet-1/q04/variants/2018-19/question.tex
+  affected_occurrences:
+  - year: 2018-19
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2020-21
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2022-23
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+- unit: q04
+  exact_question_sha256: 5695678c9971ee4a4245b8aceeb375a52f48e338e2417158864923537be30874
+  representative_text: courses/IB/methods/sheets/sheet-1/q04/variants/2014-15/question.tex
+  affected_occurrences:
+  - year: 2014-15
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 4
+- unit: q04
+  exact_question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+  representative_text: courses/IB/methods/sheets/sheet-1/q04/variants/2001-02/question.tex
+  affected_occurrences:
+  - year: 2001-02
+    source_question: '2'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2002-03
+    source_question: '2'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2003-04
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2004-05
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2006-07
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2007-08
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+  - year: 2011-12
+    source_question: '3'
+    source_page: 1
+    compiled_pdf_page: 3
+- unit: q11
+  exact_question_sha256: 842b6de80f1835f9fbbaa789db25c259d095c7a06725ea16e919bc03d3151198
+  representative_text: courses/IB/methods/sheets/sheet-1/q11/variants/2001-02/question.tex
+  affected_occurrences:
+  - year: 2001-02
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 7
+- unit: q11
+  exact_question_sha256: 8f4432d0728ea2a754103b68bec8d0a1f411a3caa694b067a3e28e14d53e9fca
+  representative_text: courses/IB/methods/sheets/sheet-1/q11/variants/2018-19/question.tex
+  affected_occurrences:
+  - year: 2018-19
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+- unit: q11
+  exact_question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
+  representative_text: courses/IB/methods/sheets/sheet-1/q11/variants/2002-03/question.tex
+  affected_occurrences:
+  - year: 2002-03
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 7
+  - year: 2003-04
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+  - year: 2004-05
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+  - year: 2006-07
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+  - year: 2007-08
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+- unit: q11
+  exact_question_sha256: a6ffbed4931d914d5f711cc29ed3ff3e04e0e8f4690012e48f43a49a85982586
+  representative_text: courses/IB/methods/sheets/sheet-1/q11/variants/2014-15/question.tex
+  affected_occurrences:
+  - year: 2014-15
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 6
+- unit: q11
+  exact_question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
+  representative_text: courses/IB/methods/sheets/sheet-1/q11/variants/2020-21/question.tex
+  affected_occurrences:
+  - year: 2020-21
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+  - year: 2022-23
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+- unit: q11
+  exact_question_sha256: ef43541a451715d0984ba26194b1e867783e63abd8d36cda19dbb2eff69fb35f
+  representative_text: courses/IB/methods/sheets/sheet-1/q11/variants/2011-12/question.tex
+  affected_occurrences:
+  - year: 2011-12
+    source_question: '5'
+    source_page: 1
+    compiled_pdf_page: 5
+- unit: qx08
+  exact_question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
+  representative_text: courses/IB/methods/sheets/sheet-1/qx08/variants/2001-02/question.tex
+  affected_occurrences:
+  - year: 2001-02
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 6
+  - year: 2002-03
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 6
+  - year: 2003-04
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2004-05
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2006-07
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2007-08
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2011-12
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2014-15
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 5
+  - year: 2018-19
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2020-21
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+  - year: 2022-23
+    source_question: '4'
+    source_page: 1
+    compiled_pdf_page: 4
+after_repair:
+  state: pending independent comparison and rebuild verification
+  verified: false
+executed_checks:
+- path: courses/IB/methods/sheets/sheet-1/q09/check.py
+  exit: 0
+  output: 'PASS: n=1..8 Rodrigues polynomials, endpoints, Legendre ODE/library comparison, exact norms, 36 lower moments,
+    beta-integral formula and integration-by-parts endpoint factors.'
+  seconds: 0.81
+  sha256: 1a37da46f10c800acdd8ef954f3dfe7da84121e358f5d8fdfa8eee5bb26e841e
+- path: courses/IB/methods/sheets/sheet-1/qx26/check.py
+  exit: 0
+  output: Checked Parseval for complex shifted data with positive, negative and zero shift differences.
+  seconds: 0.03
+  sha256: 67afd8e2e9d45a03fbce3700b5f08082c7255fc79e7de245a189a11be952cd49
+- path: courses/IB/methods/sheets/sheet-1/q04/check.py
+  exit: 0
+  output: 'PASS: 9 exact Fourier coefficients, Parseval normalization, conjugate pairing; sum=1.07667404746858, N=10000 residual=9.999499983e-05
+    within [9.999000067e-05, 9.999999967e-05].'
+  seconds: 1.28
+  sha256: 0d1957a11f431e384465b9201081e134e7009537d25f093b9950f27234459966
+- path: courses/IB/methods/sheets/sheet-1/qx10/check.py
+  exit: 0
+  output: Checked full- and half-range coefficients and differentiated cosine sums.
+  seconds: 0.04
+  sha256: c449e63cdb0bee014d1a445687150c84c6978fb7323b351058d88f6dff6ade84
+- path: courses/IB/methods/sheets/sheet-1/qx11/check.py
+  exit: 0
+  output: Checked cusp coefficients and the jump example from printed question 2.
+  seconds: 0.03
+  sha256: 068ea2722f218910f3831026b256d634d95a50e31ae32165bfe0acfac042cbee
+- path: courses/IB/methods/sheets/sheet-1/qx08/check.py
+  exit: 0
+  output: |-
+    PASS: finite Parseval identity, square-wave harmonics, and transmitted power for three periods.
+    Transmitted fraction: 0.9006327434874469
+  seconds: 0.36
+  sha256: 0d21a8bd74faeb307f83858928f3c45cedef565a3596f1c54c99c996097a0aff
+- path: courses/IB/methods/sheets/sheet-1/q06/check.py
+  exit: 0
+  output: 'PASS: symbolic eigen-equation and boundary conditions for every positive integer n, zero mode, 25 exact orthogonality
+    integrals, and general-n double-integration coefficient check.'
+  seconds: 0.9
+  sha256: 339b84656959cb12df2535c0321248eb7b8ab2ebe412655029815e2c267f5b2a
+- path: courses/IB/methods/sheets/sheet-1/q11/check.py
+  exit: 0
+  output: 'PASS: 9 exact Fourier modes, 12 integral identities, 31 stationary points, reflected Gibbs integral, 5 O(N^-2)
+    maximum bounds; rational lower bound 2647/2450 > 1.08; Gibbs limit 1.089489872236084.'
+  seconds: 0.35
+  sha256: 2490da0a3d6e2213528a27a3b64b09fc5bcbaa200c52a33dd9a810946cc7788c
+- path: courses/IB/methods/sheets/sheet-1/q04/history/verified-2015-16/check.py
+  exit: 0
+  output: Complex projections and midpoint series agree with tail bounds.
+  sha256: 47b8ebcca9cd28119731104e3bd5758a72bff79ef5a427f4e15c92a5d26f3983
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2015-16/check.py
+  exit: 0
+  output: Square-wave coefficients, removable points, extrema and Gibbs limit agree.
+  sha256: 676be843e7bff343e20d5f3daa5dd13e8a095890659c1d5a20ec3595038c57c7
+- path: courses/IB/methods/sheets/sheet-1/q11/history/verified-2016-17/check.py
+  exit: 0
+  output: Square-wave coefficients, removable points, extrema and Gibbs limit agree.
+  sha256: 676be843e7bff343e20d5f3daa5dd13e8a095890659c1d5a20ec3595038c57c7

@@ -1,0 +1,243 @@
+paper_id: IB/2021/P2
+id: IB/2021/P2
+main_count: 18
+unit_count: 18
+main_question_count: 18
+question_units: 18
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 7
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2021-06-17'
+printed_date: Thursday, 17 June, 2021
+time: 10:00am to 1:00pm
+source: private/raw/tripos/IB/2021/P2.pdf
+archive: private/raw/tripos/IB/2021/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2021/paperib_2_2021.pdf
+sha256: 90f250b22fb4c76f41944bbe2730ca34fc8f5082cf2213b7e32878d6f7774775
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise you place yourself at a grave disadvantage.
+- Separate your answers to each question.
+- Complete a gold cover sheet for each question that you have attempted, and place it at the front of your
+  answer to that question.
+- Complete a green master cover sheet listing all the questions that you have attempted.
+- Every cover sheet must also show your Blind Grade Number and desk number.
+- Tie up your answers and cover sheets into a single bundle, with the master cover sheet on the top, and then
+  the cover sheet and answer for each question, in the numerical order of the questions.
+- 'Stationery: Gold cover sheets; Green master cover sheet.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2021/P2/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: d8df519548a0e7edfdc378f67172bec43ed1ef7fb8c0169bd9a37f03abb1880b
+  checks: Confirmed the PID, submodule, quotient and both directions.
+- id: IB/2021/P2/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis and Topology
+  course: IB/analysis-ii
+  also_courses:
+  - IB/topology
+  question_sha256: 35409b187e120d2e2c29d57c197d23ed4ecf4c48f8b33fc5610a2836a12da0f8
+  checks: Compared the interval square, integral kernel and the two different metrics.
+- id: IB/2021/P2/q3C
+  original_question: 3C
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 941daff8278b365fb5d6c0719e70a593b92179d8ff5fab7be3d897777c48b4c3
+  checks: Checked the operator, minus signs, weight, boundary data and expansion polynomial.
+- id: IB/2021/P2/q4D
+  original_question: 4D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: 59929a61dc50097bf0525cc76be9f19eb5389422fdf6315240877dcee1f6726c
+  checks: Checked radii and charge signs, all per-length quantities and the final denominator.
+- id: IB/2021/P2/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: e22021fd8afdbb181b1907153dcd20571779ece6e5ca1906aa4fe55474a25f0c
+  checks: Checked initial depth subscript I, radius subscript zero and steady-flow assumption.
+- id: IB/2021/P2/q6H
+  original_question: 6H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 514f899d647241980da0312a215fca279efd0ab4e8cb98e9c2bb58c7c7eeae0e
+  checks: Compared all eight observations, all six chi-square degrees and critical values and the nominal test
+    size.
+- id: IB/2021/P2/q7H
+  original_question: 7H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 8cb0bb2c598b47fb49d37c196940d8b0a2a5eedd8a6c55507708c0a6d5593252
+  checks: Checked every objective and constraint coefficient, inequality direction and dual request.
+- id: IB/2021/P2/q8E
+  original_question: 8E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c4086ddb25bcfd238beab5c1b36fb0bf950396b7ad5beb2f13e50d184533156a
+  checks: Checked nine matrix entries, the generalized eigenspace kernel and all three independence conditions.
+- id: IB/2021/P2/q9G
+  original_question: 9G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 39d935648ea50692adece11e97b07cff9c2dfd6b404c6c2cd20a8e020edbe50b
+  checks: Checked the universal property, distinction between generating and freely generating, and rank inequality.
+- id: IB/2021/P2/q10F
+  original_question: 10F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis and Topology
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 4489781c3c416a95b9d8874c248b6e9b6d4f4429da1372859bd18c09a7bdab12
+  checks: Checked support, unit mass and tail-mass bounds, convolution and polynomial kernel hint.
+- id: IB/2021/P2/q11E
+  original_question: 11E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 5d1f901a3f528df2ac85752f12639e231f80992b15a9e32a33f92f155a2e109f
+  checks: Checked conjugation and minus sign, orientation, the two reflecting lines and the angle.
+- id: IB/2021/P2/q12B
+  original_question: 12B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 8a7f71371cd675f2813d068f16119c2f6edf872aadd3ae7c055af6ad6b3d1723
+  checks: Checked the odd exponent, floor, reversed lower bound at the puncture and omitted line.
+- id: IB/2021/P2/q13D
+  original_question: 13D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 995ad74018eb236cbff338cb4075f27f573b18c5b5721a40f312a5dcdcb0df57
+  checks: Verified the fixed endpoints, plus perturbation, second variation factor and half-period bound.
+- id: IB/2021/P2/q14A
+  original_question: 14A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: fd3fedbb3b3e6794d3b47482f97af29653808839d967a4099f2e92af5c34270c
+  checks: Compared the Fourier sign conventions, every boundary segment and the numerator and factors in the
+    solution integral.
+- id: IB/2021/P2/q15C
+  original_question: 15C
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: a5fe640797bed82ab5aa03a8e0e7b3d94ce5439f4ca048ae38d79b5aab1e3694
+  checks: Checked the complex phase, well endpoints, incident direction and transmission denominator.
+- id: IB/2021/P2/q16D
+  original_question: 16D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: b1d2249351a0ff65f0651122a41aa040afae5c80e69eac3dead063313a979aa3
+  checks: Checked the quadratic multipole numerator, cubic remainder, both ground planes and sketch plane.
+- id: IB/2021/P2/q17B
+  original_question: 17B
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 7e5505ce333a649505856a8e299b1b3bbb1ed483964d04f62e8b6f7c89e5d2f0
+  checks: Checked H inverse versus Q transpose, both costs, all displayed Hessenberg entries and the hint.
+- id: IB/2021/P2/q18H
+  original_question: 18H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: a17e8c172b1cdb369fb2c3556847c408babcefaa8ef32f4ed2592b80563dfef7
+  checks: Verified both return-time prompts, negative exponents, transition at zero and sample states.
+  printed_ambiguity: Part (a) assumes only existence of an invariant distribution. A solution must state the
+    class or irreducibility hypotheses for the return-time and occupation identities.

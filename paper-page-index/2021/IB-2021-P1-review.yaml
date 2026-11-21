@@ -1,0 +1,253 @@
+paper_id: IB/2021/P1
+id: IB/2021/P1
+main_count: 19
+unit_count: 19
+main_question_count: 19
+question_units: 19
+source_page_count: 13
+page_count: 13
+section_units:
+  I: 7
+  II: 12
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2021-06-15'
+printed_date: Tuesday, 15 June, 2021
+time: 10:00am to 1:00pm
+source: private/raw/tripos/IB/2021/P1.pdf
+archive: private/raw/tripos/IB/2021/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2021/paperib_1_2021.pdf
+sha256: 4cb9de0949515ac85e2cd031fec08bc0eb4df9d816034dcf05ddfba795075b86
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise you place yourself at a grave disadvantage.
+- Separate your answers to each question.
+- Complete a gold cover sheet for each question that you have attempted, and place it at the front of your
+  answer to that question.
+- Complete a green master cover sheet listing all the questions that you have attempted.
+- Every cover sheet must also show your Blind Grade Number and desk number.
+- Tie up your answers and cover sheets into a single bundle, with the master cover sheet on the top, and then
+  the cover sheet and answer for each question, in the numerical order of the questions.
+- 'Stationery: Gold cover sheets; Green master cover sheet.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2021/P1/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 0ca19d87df72861f48871bcfe5fa4dcc104dc657f317f20935502cf06ce67a6e
+  checks: The perpendicular spaces, direct sum and non-degeneracy of the restriction were checked.
+- id: IB/2021/P1/q2F
+  original_question: 2F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: f9a0f55a367356bfdee4bca7fbfc7f3256c47a19a726ba48b0b2a2c1a3a225b9
+  checks: The level set has cosh of z squared; both global and local questions are present.
+- id: IB/2021/P1/q3B
+  original_question: 3B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 8bd2fe0f7c144ef1a9e5026538d2e237a0f58170743fe66972ae8beb46305680
+  checks: Confirmed the positive orientation, excluded radius and both powers of z.
+- id: IB/2021/P1/q4D
+  original_question: 4D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: a329a7358f32dca584224fe18e37bd241317d58fa9daa4cd088f0bbbed27e7dd
+  checks: Compared the normalization, gradient integrand, sign of the multiplier and divergence hint.
+- id: IB/2021/P1/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 0a6a9d10f8b7cae61ed9a52bcc27db97e767aa1ddb9e34130d288f5907e56449
+  checks: The cubic operation count and the printed LDL abbreviation were checked.
+- id: IB/2021/P1/q6H
+  original_question: 6H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: ec1c22a51475a471f5cfe0fb1257cd78c0270620286ecac0bb0ed72d271a70f8
+  checks: All three parts, sample-size bound and strict variance comparison were checked.
+- id: IB/2021/P1/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 27b2f94e51d606682e6a1ebed7a2cbb6dedd101f559ba35baaec98a896e7b6ea
+  checks: Checked both dimensions, indices and the sign in the exponential.
+- id: IB/2021/P1/q8E
+  original_question: 8E
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 7c7a6cd94adf9ecb8c018321f944d7ae4df27f3fa11c6437d2d87af66e07245d
+  checks: Checked the five rows of the displayed block, both exponent bounds and all three summands.
+- id: IB/2021/P1/q9G
+  original_question: 9G
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: a9f673af5aea32809a66d8599ff8e7e38b665372e53d4cf0c983d272b8c171e2
+  checks: Checked the surjective map, Z[alpha], UFD example and continuous-function ring.
+- id: IB/2021/P1/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis and Topology
+  course: IB/topology
+  also_courses: []
+  question_sha256: 85f95df88bdebc6a9ae7ea7d7d4e369fe3f172c10ce1d9da7128954f221be748
+  checks: Checked preimage versus image, density and the compact codomain in part (d).
+- id: IB/2021/P1/q11F
+  original_question: 11F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: fef0b9c3926b50f8576631a95300051a20d2d3e7aaf97d7007ab5e2cdf24dd60
+  checks: Checked curvature notation, whole-plane parametrisation, and the two mixed derivatives.
+- id: IB/2021/P1/q12G
+  original_question: 12G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 2221913ce67aa3f5eb311f1a54d0f845b16b2dca614e47d41868c16226331fec
+  checks: Both annuli, the reciprocal arguments and the two residues were checked.
+- id: IB/2021/P1/q13C
+  original_question: 13C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 36f056b648413373aabb4802c976ec27696362eaf14e1f760b594a957c30283a
+  checks: Both characteristic signs, double-integral limits and half-line initial and boundary values were
+    checked.
+- id: IB/2021/P1/q14C
+  original_question: 14C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 5cf02a7efc78966f9eb142f2ec27f9429c97935c1d2395c49f8ca767f02082be
+  checks: Checked endpoints, both inverse wavenumbers and the unchanged wavefunction in the measurement.
+- id: IB/2021/P1/q15D
+  original_question: 15D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: fb2da7c95022951d2fd6ca80efbd27767ec081c9fb1738f3b03e3b795d0af1ce
+  checks: Checked the oriented wire integral, three-dimensional delta, mutual inductance and q-dependent integral.
+- id: IB/2021/P1/q16A
+  original_question: 16A
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 976a56bb1d90b39f7218e0e87381620f72015323ac3ddb74a82259e4a275f053
+  checks: Verified the phase, averaging period, particle initial point and all three terms in x.
+- id: IB/2021/P1/q17B
+  original_question: 17B
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 9e1fcc2b0e05dd1c4071aa4c2b935ac009d4a7f9f2588366721f10ec50575cfe
+  checks: Checked vector notation, all three equation markers, floor, exponential and Runge–Kutta coefficients.
+- id: IB/2021/P1/q18H
+  original_question: 18H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: fd1ff28a6f81a00b34f3cb1ff137db8c48ca369df486f3d8044e05d3c00df886
+  checks: Checked both distributions, moment-generating-function domains, density and alternatives.
+- id: IB/2021/P1/q19H
+  original_question: 19H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 7188bca7f517a62f6e93d1947fb22d218ebd47c7412b55bf5222d4c139ea16d1
+  checks: Verified all rewards and transitions, four-square board, starting squares and the state-space hint.
+  figures:
+  - unopoly-board

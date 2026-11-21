@@ -1,0 +1,249 @@
+paper_id: IB/2021/P3
+id: IB/2021/P3
+main_count: 19
+unit_count: 19
+main_question_count: 19
+question_units: 19
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 8
+  II: 11
+alternatives: []
+instructions: Candidates may obtain credit from attempts on at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. Section
+  II questions also carry an alpha or beta quality mark and Section I questions carry a beta quality mark.
+  No absolute mark values are printed.
+date: '2021-06-18'
+printed_date: Friday, 18 June, 2021
+time: 10:00am to 1:00pm
+source: private/raw/tripos/IB/2021/P3.pdf
+archive: private/raw/tripos/IB/2021/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2021/paperib_3_2021.pdf
+sha256: e102b094967c1cd19079415d337aabb79a0e2af83d7bc4fcef55115a79eab431
+multi_page_questions: []
+cover:
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise you place yourself at a grave disadvantage.
+- Separate your answers to each question.
+- Complete a gold cover sheet for each question that you have attempted, and place it at the front of your
+  answer to that question.
+- Complete a green master cover sheet listing all the questions that you have attempted.
+- Every cover sheet must also show your Blind Grade Number and desk number.
+- Tie up your answers and cover sheets into a single bundle, with the master cover sheet on the top, and then
+  the cover sheet and answer for each question, in the numerical order of the questions.
+- 'Stationery: Gold cover sheets; Green master cover sheet.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2021/P3/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 8f50ee55eb31ff484cc559df4cd039d3829995f1be2e59cdcf592aea5ca3053b
+  checks: Checked index, factorial divisibility, lower bound and alternating group.
+- id: IB/2021/P3/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 99507104bcc25f4336fa54d39e545ccc8b2afd3d63ed160dc9f74cfb6f0ed258
+  checks: Checked both Gauss–Bonnet statements, all three coordinate planes and the two allowances.
+- id: IB/2021/P3/q3B
+  original_question: 3B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: a6665044eda6b66bb03b36993560d87b13cf0a4150b479ba8d17355f564187a0
+  checks: Checked trigonometric versus hyperbolic factors and real-part request.
+- id: IB/2021/P3/q4D
+  original_question: 4D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 293112d8b3fe1c36b1ebc6c5c1420fe2cb492fdc404476d5651d7c18b571a9de
+  checks: Checked all five terms including y times x squared and both boundary values.
+- id: IB/2021/P3/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 62f3d39424088852ed81cdbf996a88dc1ca3cdcf799f52f0bbdd24a5e4ba3323
+  checks: Checked capital and lowercase coefficient pairs, strict intervals and both odd-index series.
+- id: IB/2021/P3/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 9d52f98bada405b430595ba1edac940c10d620e504defd45d830343cf35e5c41
+  checks: Checked normalising constants, exponential lengths, superposition and radial observable.
+- id: IB/2021/P3/q7A
+  original_question: 7A
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 63ba08f3d9a9e2593ac6f31f70149a9667d08327ddfa0a0cc835fe68e4cd5bb3
+  checks: Verified both numerators and the squared common denominator; origin excluded in part (a).
+- id: IB/2021/P3/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 3927fa0c9cb4454167bd709965f9a3559f1cb8c111aa4c12046d24cf6b1af39b
+  checks: Checked all thirty-six entries row by row and the direction of the hitting time.
+- id: IB/2021/P3/q9E
+  original_question: 9E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 22e1ad0bc6b48eaa748d7ee2b1527e65d50ff6f8ece1ea7488a3ee4ff4dfe17f
+  checks: Checked inclusions, quotient, all thirty vector entries, rank bound and zero-polynomial request.
+- id: IB/2021/P3/q10G
+  original_question: 10G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 30aeea15ee99b0476677f02f7cbf5119ae0f802c41cccfa7845e12c4d10e2a55
+  checks: Checked the five equivalences, direction of surjection and the highest common factor assumption.
+- id: IB/2021/P3/q11F
+  original_question: 11F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis and Topology
+  course: IB/topology
+  also_courses: []
+  question_sha256: da0f0925e9f048a8fde3cd65aafd6b60ded81eeb949e5f1e1f715cd32c17fa46
+  checks: Checked the interval endpoints and every coordinate in A, B and the C_n.
+- id: IB/2021/P3/q12E
+  original_question: 12E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: b1f93d2e15d97cf6de2306b837a3b91dee2713b7e00f2847b5baf0e689dcbdd1
+  checks: Checked both geodesic counts, half-space and the angle to the plane in Clairaut’s relation.
+- id: IB/2021/P3/q13G
+  original_question: 13G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 2bee83932dd4fd507f890dbe984560ed6a71d2c3dc422ebaeb97981d45cd0997
+  checks: Checked the kernel sign, overlined disc, derivative limits and the final intersection decomposition.
+- id: IB/2021/P3/q14A
+  original_question: 14A
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: b42c75ce729240be7176c883012b6ab4f15b9126238e5991aacacb43b97b88e3
+  checks: Checked all derivative orders, regularity at both endpoints, weighted integrals and eigenvalue formula.
+- id: IB/2021/P3/q15D
+  original_question: 15D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: f39a38c68b01fa2737bb888e31c01038b5f8896c5717508e755f8d167fe002ac
+  checks: Checked signs of the boost, primed frame, squared transverse components and final unprimed flux.
+- id: IB/2021/P3/q16A
+  original_question: 16A
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 3b98022cf06a0926b9db1469018443c05be8405b6dbd52f01970f7994262c4ba
+  checks: Checked opposite plate velocities, Delta plus/minus throughout both fractions and the small-Delta
+    approximation.
+- id: IB/2021/P3/q17B
+  original_question: 17B
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 45cb4a9968c5dab91676eb66869dbdf49b44cc68d3e60ee76649a6fd6e097e10
+  checks: Checked powers and exponential signs, normalization by gamma and the recurrence coefficients.
+- id: IB/2021/P3/q18H
+  original_question: 18H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 3b1897d593d403ba4e78dca64b3fe959980f57efa9b0f265e239c2f4c5889949
+  checks: Checked the strict degrees-of-freedom bound, ordered eigenvalues, chi-square ratio and SVD dimensions.
+- id: IB/2021/P3/q19H
+  original_question: 19H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Optimisation
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 8cdc00d58c6d17e4f5a1d37c0dad89dc7e754f59dabc118734d0bd2a7c00dd65
+  checks: Checked all sixteen payoff entries, transpose and componentwise inequality direction.

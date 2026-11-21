@@ -1,0 +1,267 @@
+scope: IB/analysis-ii/sheet-1, 2025-26 and 2026-27 editions only. Sheet-level audit, not a whole-course
+  audit or official comparison.
+date: '2026-11-21'
+auditor: Fresh audit agent, no role in preparing the sampled solutions.
+population:
+- q01
+- q02
+- q03
+- q04
+- q05
+- q06
+- q07
+- q08
+- q09
+- q10
+- q11
+- q12
+- q13
+- q14
+- q15
+- q16
+population_size: 16
+seed: 20261129
+sampling: random.Random(seed).sample(population, 4); ordered stable IDs; 25% coverage (ceil(0.2*16)).
+sample:
+- q01
+- q07
+- q11
+- q05
+sample_size: 4
+blinding: Only designated question statements and original file/page/printed-number locators, followed
+  by images rendered directly from the original PDFs, were used before freezing the reworks. No existing
+  derivations, comparison notes, issues or delivered answers were consulted until the SHA256 freeze was
+  communicated.
+freeze:
+  sha256: bfa30e550399424d218a1cec18240f4de649f6b5720a0adff493b68f5e49bf0e
+  serialization: UTF-8 bytes of json.dumps(independent_reworks, sort_keys=True, indent=2) followed by
+    LF, with standard Python defaults.
+independent_reworks:
+  q01: '(a) No. Take every f_n to be the indicator of {0}, and x_n=1/(n+1). The uniform error is zero,
+    all f_n are locally zero at x_n, but f(0)=1 and the values approaching from the right are zero.
+
+    (b) No. For n>=2 use continuous triangular peaks of height one centered at 1-1/n with radius 1/(2n),
+    namely the positive part of 1-2n|x-(1-1/n)|. They vanish at 1 and eventually vanish at every fixed
+    x<1 and on each [-r,r]. Their supremum on the original closed interval is always one.
+
+    (c) In 2025 yes. The union of the countably many countable discontinuity sets is countable, so choose
+    x in its uncountable complement. Given epsilon, take a single N with sup|f-f_N|<epsilon/3. Continuity
+    of f_N at x bounds its variation by epsilon/3 for nearby y, hence |f(y)-f(x)|<epsilon by the triangle
+    inequality.
+
+    (d) In 2025, or (c) in 2026, no. Let phi(t)=dist(t,Z), and T(x)=sum over k>=0 of 2^{-k}phi(2^k x).
+    Each summand is continuous and bounded by 2^{-k-1}, so T is continuous. For each x choose nested level-m
+    dyadic intervals in [0,1] containing x (for dyadic x consistently choose either available side). At
+    their endpoints all terms with k>=m vanish. Each term with k<m is linear on the interval with slope
+    +1 or -1: all its breakpoints lie on the dyadic grid of depth k+1. The secant slope at level m+1 is
+    therefore the level-m slope plus or minus 1. These slopes cannot converge to a finite number. Differentiability
+    at x, including a one-sided derivative at 0 or 1, would force convergence of the secant slopes: each
+    endpoint has linearization error o(distance to x), and the endpoint distances sum to interval length.
+    Thus T is nowhere differentiable. Uniform polynomial approximation on [0,1] gives differentiable f_n
+    with uniform error <1/n. The 2026 edition omits the countable-discontinuity part.'
+  q05: For arbitrary x_n->x, |f_n(x_n)-f(x)| <= sup|f_n-f| + |f(x_n)-f(x)|, which tends to zero by uniform
+    convergence and continuity of f. Conversely, failure of uniform convergence provides epsilon>0 and
+    increasing k_j, y_j in [a,b] with |f_{k_j}(y_j)-f(y_j)|>=epsilon. Extract and relabel a subsequence
+    y_j->x in [a,b] by compactness; the corresponding indices remain increasing. Set x_{k_j}=y_j and x_n=x
+    otherwise. The entire sequence tends to x. Along the bad indices |f_{k_j}(x_{k_j})-f(x)| >= epsilon-|f(y_j)-f(x)|
+    >= epsilon/2 eventually. Therefore the function values do not converge to f(x).
+  q07: At every x the finite sum differentiates term by term and the chain rule gives f_n'(x)=sum_{m=1}^n
+    m a_m cos(mx) (one-sided values at the ends agree with the derivative of the extension). The absolute
+    tail from index M is uniformly bounded by sum_{m>=M}|a_m|, tending to zero independently of x. Thus
+    f is the uniform limit of continuous f_n and is continuous. For a_m=m^{-2}, the coefficient series
+    is absolutely convergent but the putative derivative sum at x=0 is sum 1/m, divergent.
+  q11: '(i) Bounded by 1 in absolute value, but not uniformly continuous: take x_n=sqrt(2pi n), y_n=sqrt(2pi
+    n+pi/2). Their distance is (pi/2)/(x_n+y_n)->0 while the function values differ by one. (ii) The distance
+    to the nonempty set of squares is 1-Lipschitz since |x-n^2|<=|x-y|+|y-n^2|, taking the infimum and
+    interchanging x and y. It is unbounded, since the midpoints between n^2 and (n+1)^2 have distance
+    n+1/2 from that set. (iii) Both. Absolute value <=1/(x+1), so it is bounded and tends to zero. Given
+    epsilon, choose R with 2/(R+1)<epsilon. Continuous on the compact [0,R+1], it satisfies the uniform
+    epsilon bound there with some delta<=1. For points within delta, if the smaller is <=R both lie in
+    the compact interval; otherwise both are above R, so the sum of the two absolute values is <epsilon.'
+originals:
+  2025-26:
+    archive: private/raw/sheets/IB/analysis-ii/2025-26/sheet-1.pdf
+    sha256: 300340e557a48a88a02852347a8652afafd80b79eda50fe25f3402a54c4ff012
+    url: https://www.dpmms.cam.ac.uk/study/IB/AnalysisII/2025-2026/2025sheet1.pdf
+    original_pdf_pages_visually_read:
+    - 1
+    - 2
+    sampled_generated_pdf: build/IB-analysis-ii-sheet-1-2025-26/main.pdf
+    pdf_sha256: 9aa9df0eee18561f4d1cff7f107ff97333416c98aa1ec56b91789efcc1ad7930
+    site: site/private/collections/IB/analysis-ii/sheet-1/2025-26.html
+    site_sha256: 967bb6141e95280f23251642d5c58ce5885abb68b85bca219b58d83acc5f8bcd
+  2026-27:
+    archive: private/raw/sheets/IB/analysis-ii/2026-27/sheet-1.pdf
+    sha256: 17d2ea330a2fd8ebd97cdacf27eadf2722b135f4d32fa0148aadc8a72fe342d8
+    url: https://www.dpmms.cam.ac.uk/study/IB/AnalysisII/2026-2027/2026sheet1.pdf
+    original_pdf_pages_visually_read:
+    - 1
+    - 2
+    sampled_generated_pdf: build/IB-analysis-ii-sheet-1-2026-27/main.pdf
+    pdf_sha256: b9c03a2057de9a12882e86cce30906bedc1109076863b06907a79df693e0c5fc
+    site: site/private/collections/IB/analysis-ii/sheet-1/2026-27.html
+    site_sha256: 83ba2ca72a54e5b5c42a3ad695e273d99d29e9bef2a3a8ee11546933990290a1
+checks:
+- path: courses/IB/analysis-ii/sheets/sheet-1/q01/check.py
+  sha256: 0b5dafeb4ead2cc921d315b690098157b28818231744c975b0e11de055ad7090
+  exit_code: 0
+  result: Endpoint peaks, averaging estimates and inward slope witnesses passed.
+- path: courses/IB/analysis-ii/sheets/sheet-1/q01/history/verified-2026-27/check.py
+  sha256: 0b5dafeb4ead2cc921d315b690098157b28818231744c975b0e11de055ad7090
+  exit_code: 0
+  result: Endpoint peaks, averaging estimates and inward slope witnesses passed.
+- path: courses/IB/analysis-ii/sheets/sheet-1/q07/check.py
+  sha256: 831b22d57c774dccc31807fcb47ffa4a3502bb973aef25a8e7481858b29f5ae6
+  exit_code: 0
+  result: Finite derivatives, uniform tail bounds and divergent harmonic blocks passed.
+- path: courses/IB/analysis-ii/sheets/sheet-1/q11/check.py
+  sha256: 34b91482617fcce378282e7e9baf7dc3e53a63a0c02898aa39aca4826fa781da
+  exit_code: 0
+  result: Oscillating pairs, distance Lipschitz bound, square gaps and decay passed.
+- path: courses/IB/analysis-ii/sheets/sheet-1/q05/check.py
+  sha256: db08e9342b60337a870d7c64d35169333a664ab406895148fac845ebaacf147f
+  exit_code: 0
+  result: Sparse bad indices, convergent filled sequence and pointwise witnesses passed.
+results:
+  q01:
+    comparison: All four baseline answers and all three retained 2026 answers agree. The audit used triangular
+      endpoint peaks and a dyadic Takagi-function secant proof. The two stored derivations use polynomial
+      peaks and a period-two geometric tent series, with sliding means or polynomial approximation. The
+      density of common continuity points is more than required in 2025. Inward endpoint difference quotients
+      rule out endpoint exceptions.
+    baseline_solution_sha256: dd690e329d07cc75f1406fd345258c702fe61f2411fd1c150ddf4aaab35f5e96
+    baseline_independent_sha256: efe62e97b0c2a15addd00e38b22030d8bf0caf384e830f5e01437af3a739c565
+    edition_checks:
+      2025-26:
+        original_page: 1
+        printed_number: '1'
+        statement_sha256: 89ce67df867074044885da8dab0c31e9181f26be0e2018302c8f82e95995059f
+        solution_sha256: dd690e329d07cc75f1406fd345258c702fe61f2411fd1c150ddf4aaab35f5e96
+        independent_sha256: efe62e97b0c2a15addd00e38b22030d8bf0caf384e830f5e01437af3a739c565
+        pdf_pages:
+        - 1
+        - 2
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+      2026-27:
+        original_page: 1
+        printed_number: '1'
+        statement_sha256: bde90c65930257cff7c004fb269ef7be7cc5a4b5e086e02abf357e302fcfa5bc
+        solution_sha256: f97b0c20757830df1a37dd2db7fa988637eff12854fb796a51ad9d939a8f1012
+        independent_sha256: 00da9671c5956a286418426fb7229c1cefec6f4698079ac81f402a248b84d67c
+        pdf_pages:
+        - 1
+        - 2
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+  q07:
+    comparison: Finite termwise differentiation, uniform control by the absolutely summable coefficient
+      tails, and a harmonic derivative at zero agree in all derivations.
+    baseline_solution_sha256: c8f2c36135c7f4889526ceb28e453bd2d3c619c62bb6c112fe2715a3810cab1b
+    baseline_independent_sha256: 9e598f28b4d9704313aa75ba6ff7a39760cf1b69d3e1372073dc15e11dbed3cf
+    edition_checks:
+      2025-26:
+        original_page: 1
+        printed_number: '7'
+        statement_sha256: 374cc7accbdea4b217723c482adae7fdd1ed427da36f681716319e82bc93a523
+        solution_sha256: c8f2c36135c7f4889526ceb28e453bd2d3c619c62bb6c112fe2715a3810cab1b
+        independent_sha256: 9e598f28b4d9704313aa75ba6ff7a39760cf1b69d3e1372073dc15e11dbed3cf
+        pdf_pages:
+        - 8
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+      2026-27:
+        original_page: 1
+        printed_number: '6'
+        statement_sha256: 374cc7accbdea4b217723c482adae7fdd1ed427da36f681716319e82bc93a523
+        solution_sha256: c8f2c36135c7f4889526ceb28e453bd2d3c619c62bb6c112fe2715a3810cab1b
+        independent_sha256: 9e598f28b4d9704313aa75ba6ff7a39760cf1b69d3e1372073dc15e11dbed3cf
+        pdf_pages:
+        - 7
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+  q11:
+    comparison: Both stored approaches and the independent rework agree on all six classifications, using
+      the shrinking phase gap, the 1-Lipschitz distance to squares, and uniform decay plus an overlapping
+      compact interval.
+    baseline_solution_sha256: e329ffbbbd4ec56799d1e885c0b320a3666cc54597a550a2fcf17c71a06f4bf5
+    baseline_independent_sha256: ebd7d946c682535f2a28a9989dd8217cdba126427736b3681a7beb4394568f60
+    edition_checks:
+      2025-26:
+        original_page: 2
+        printed_number: '11'
+        statement_sha256: c4f08c080a26656e31760c69dba3979022e37521d59da5a9fec39b2e367ab108
+        solution_sha256: e329ffbbbd4ec56799d1e885c0b320a3666cc54597a550a2fcf17c71a06f4bf5
+        independent_sha256: ebd7d946c682535f2a28a9989dd8217cdba126427736b3681a7beb4394568f60
+        pdf_pages:
+        - 13
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+      2026-27:
+        original_page: 2
+        printed_number: '9'
+        statement_sha256: c4f08c080a26656e31760c69dba3979022e37521d59da5a9fec39b2e367ab108
+        solution_sha256: e329ffbbbd4ec56799d1e885c0b320a3666cc54597a550a2fcf17c71a06f4bf5
+        independent_sha256: ebd7d946c682535f2a28a9989dd8217cdba126427736b3681a7beb4394568f60
+        pdf_pages:
+        - 11
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+  q05:
+    comparison: All derivations extend the selected bad subsequence to an actual full sequence, with compactness
+      and continuity at the limit used separately.
+    baseline_solution_sha256: 5073717c15f8935e0ab3d3ed6f9716cc8aa85d4a034b6b3ca9271c0aa6e01eaf
+    baseline_independent_sha256: a2e19f739243062817b2cf93977f3b8414de2e3886b846bceebc70d622bd8d41
+    edition_checks:
+      2025-26:
+        original_page: 1
+        printed_number: '5'
+        statement_sha256: 104367ecffa4fb8d7a96f0980c4eb4b23a66e5457465f55d253b1c547571cc5d
+        solution_sha256: 5073717c15f8935e0ab3d3ed6f9716cc8aa85d4a034b6b3ca9271c0aa6e01eaf
+        independent_sha256: a2e19f739243062817b2cf93977f3b8414de2e3886b846bceebc70d622bd8d41
+        pdf_pages:
+        - 6
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+      2026-27:
+        original_page: 1
+        printed_number: '5'
+        statement_sha256: 104367ecffa4fb8d7a96f0980c4eb4b23a66e5457465f55d253b1c547571cc5d
+        solution_sha256: 5073717c15f8935e0ab3d3ed6f9716cc8aa85d4a034b6b3ca9271c0aa6e01eaf
+        independent_sha256: a2e19f739243062817b2cf93977f3b8414de2e3886b846bceebc70d622bd8d41
+        pdf_pages:
+        - 6
+        source_image: Wording, symbols, labels and stars visually matched.
+        delivery: Exact statement and solution fragments matched generated TeX and HTML under printed
+          heading. Checked PDF text, page images, edition URL, canonical unit link and ai-draft display.
+observed_error_rates:
+  mathematics:
+    errors: 0
+    denominator: 4
+    unit: independently reworked canonical questions
+    rate: 0.0
+  transcription:
+    errors: 0
+    denominator: 8
+    unit: sampled original edition positions compared visually with their transcriptions
+    rate: 0.0
+  delivery:
+    errors: 0
+    denominator: 8
+    unit: sampled edition positions (each must pass both PDF and private HTML)
+    rate: 0.0
+    artifact_position_checks: 16
+history:
+  pre_repair_findings: []
+  repairs_during_audit: []
+  note: The first inspected outputs already paired the shortened 2026 Q1 with its matching answer. Both
+    editions and all four sampled questions passed. No pre-repair failure was observed or counted.
+limits: Historical editions outside these two, the other questions, and other Analysis II sheets have
+  no coverage from this sample. Source/official-answer review is separate.
