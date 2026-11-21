@@ -1,0 +1,301 @@
+paper_id: IB/2012/P1
+id: IB/2012/P1
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 12
+page_count: 12
+section_units:
+  I: 8
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2012-06-05'
+printed_date: Tuesday, 5 June, 2012
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2012/P1-full.pdf
+archive: private/raw/tripos/IB/2012/P1-full.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2012/PaperIB_1.pdf
+sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2012/P1/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: b33ec04592ce3b23ab14f3fc60bab5cab995a98276b681b955a4f930cfbe56b9
+  checks: Checked all three proposed bases and the two cases defining the point indicator.
+  source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+- id: IB/2012/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: a5540a8bd240de5090c3a223c99954b8c27d77c7f8083d275d57a494ac56f7d3
+  checks: Checked the open sector, strip height, boundary rays and boundary data in the printed order.
+  source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+- id: IB/2012/P1/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: d01d3f9c8496b71d5d05d841da80f11e931233bb249d0709578bf365bd37194d
+  checks: Checked the cylinder radius and the local isometry conclusion.
+  source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+- id: IB/2012/P1/q4B
+  original_question: 4B
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 5a7d4c109499bb7e6f39c148de98df239717aa8a6ab7be654ddba6b414ffdd06
+  checks: Checked the regularity, one-constraint qualification and the powers in the objective.
+  source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+- id: IB/2012/P1/q5A
+  original_question: 5A
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 6961121924acb7a2c24cab27bb32be5039684f6639314e318596efc7c4a4daf8
+  checks: Checked the printed sign in −G > 0, radial differential operator, axis condition and wall shear.
+  source_page_render_sha256: a3d8bdd3d8c559220442bca40691adc56246ff2e1a12d696a6f848e4560d81a8
+- id: IB/2012/P1/q6D
+  original_question: 6D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: b24b5157ab51509b513a838864c7a0420787ee15f9f93592af7e6ae86fc5629d
+  checks: Checked every entry of the two bracketed arrays, the nonzero condition and the method restriction.
+  source_page_render_sha256: a3d8bdd3d8c559220442bca40691adc56246ff2e1a12d696a6f848e4560d81a8
+- id: IB/2012/P1/q7H
+  original_question: 7H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f28921a802c942fb1cac505fb51712fea5eef999bd5d109f421580f395909bcb
+  checks: Checked both gamma laws, the F quantile superscript and degrees of freedom, test size and the chi-squared
+    fact.
+  source_page_render_sha256: a3d8bdd3d8c559220442bca40691adc56246ff2e1a12d696a6f848e4560d81a8
+- id: IB/2012/P1/q8H
+  original_question: 8H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 421c82000e6c9a3d35af1b2bad0a83df1d9d074835a6364dcd6ee07a7a9a61d5
+  checks: Checked maximization, every coefficient and each weak inequality.
+  source_page_render_sha256: 78d5bcd0ce1418e2d09de17808e0124c45dc6567e2ef191f301d63aee5447a5e
+- id: IB/2012/P1/q9F
+  original_question: 9F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 07b45e42d31a70c8cca1b25ab9fcc9d103fb6c01a5b8af0391657b7f6da49973
+  checks: Checked the two commutator spaces, isomorphisms and multiplicities of the two distinct eigenvalues.
+  source_page_render_sha256: 1a5136586cc945fdf34b02891c70b87716d33f0450188f788884a982687a3ad0
+- id: IB/2012/P1/q10G
+  original_question: 10G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: e37ecad4e06676efc41fbf619dac8bd306a5eb769049b1dea903c84429997537
+  checks: Checked the assumptions, both divisibility directions, factorial and the final group order.
+  source_page_render_sha256: 1a5136586cc945fdf34b02891c70b87716d33f0450188f788884a982687a3ad0
+- id: IB/2012/P1/q11E
+  original_question: 11E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 7b364dd5fdf152edf5189f5c79307c2197abbdab995b862b4d84306ff1446fd4
+  checks: Checked the differentiability assumptions, the nonzero x partial and the order of U and W.
+  source_page_render_sha256: c8a59298d2a3fcf414df2894638c5846471962472fd37ddd3b4bc66811a4caab
+- id: IB/2012/P1/q12F
+  original_question: 12F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 13e2ac51c536908892c9722d2e854ff14a83fb43d167e7edb96ff5b62bbb593c
+  checks: Checked both separation conditions, the one-point hint and the quotient equivalence relation.
+  source_page_render_sha256: c8a59298d2a3fcf414df2894638c5846471962472fd37ddd3b4bc66811a4caab
+- id: IB/2012/P1/q13A
+  original_question: 13A
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Analysis or Complex Methods
+  course: IB/complex-methods
+  also_courses:
+  - IB/complex-analysis
+  question_sha256: 3e5a2c1ff803a941a4cdecc70881445e9139252ac3973d4a469561d81ba45d11
+  checks: Checked the conjugate point, the three integral kernels, all prefactors and the conjugations in the
+    hint.
+  source_page_render_sha256: 9eb9e0224e988c1a73d9a77c941443a9020941a05255408d2c039c3647717b19
+- id: IB/2012/P1/q14C
+  original_question: 14C
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: ded84bfd0620a8a14438f25cd62d36b28ac4fc411bc9883502a10119f298a6f5
+  checks: Checked both endpoint conditions, the sign of the boundary term, all specified constants and the
+    eigenvalue ordering.
+  source_page_render_sha256: 08f7506f6c1f67817788f9b4535dc2ce5ca748466aae1ebe366dba1487032b69
+- id: IB/2012/P1/q15C
+  original_question: 15C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 9b775388c3addf52e59b9e75909edaf4474ae81e3dd1efdd739500354301163c
+  checks: Checked the time phase, all three actions of the hatted operator and both eigenvalue-2 measurements.
+  source_page_render_sha256: 0b804689d309252061d0d01192550a1a7c2e001da3fe4d60481f9777c9beb0fc
+- id: IB/2012/P1/q16B
+  original_question: 16B
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: d7942b72ffd5931586a34f3e119c6fc30b3a19ddf332671d340c658d945c54fd
+  checks: Checked uniform surface charge, the infinity condition, field-energy instruction and final derivative.
+  source_page_render_sha256: 0b804689d309252061d0d01192550a1a7c2e001da3fe4d60481f9777c9beb0fc
+- id: IB/2012/P1/q17A
+  original_question: 17A
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: d5abc2e7c27de2d324be364146bb59874f02845cbc23715169239fe64d1a2909
+  checks: Checked the source locations and signs, half-plane, fixed boundary and trigonometric substitution.
+  source_page_render_sha256: e299f9c41ecbcd8829d5d19f6e7e68fc00f98f0090a2cd97cfb06240c3c10b5b
+- id: IB/2012/P1/q18D
+  original_question: 18D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 17984482d84a64c0961da06dd858aee262afc29255dc7a0221158011722ac248
+  checks: Checked both time nodes and the four implicit stage coefficients, together with the final half-step
+    weight.
+  source_page_render_sha256: e299f9c41ecbcd8829d5d19f6e7e68fc00f98f0090a2cd97cfb06240c3c10b5b
+- id: IB/2012/P1/q19H
+  original_question: 19H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f9fd1b82d03fca3632c36c71854c4cf416f7d78aa1541b5b05b022775febae04
+  checks: Checked the density support, size equation, prior odds, parameter ranges and the power expression.
+  source_page_render_sha256: b9d4379a12a1361afcd25a71ce1931790e327ce7771c425c6f8a7df9dd531a33
+- id: IB/2012/P1/q20H
+  original_question: 20H
+  page: 12
+  pages:
+  - 12
+  section: II
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: e297171f6d4d0b90eb98ba145322f0b1870cf67f4b2f2a4f86930351031bfe5a
+  checks: Checked all five subparts, the original coefficients in both recurrence lines, hitting-time bounds
+    and conditional probabilities. The Faculty separately corrected the first recurrence in (ii).
+  printed_ambiguity: Account for the separately issued Faculty correction to the coefficients in the first
+    recurrence in (ii).
+  source_page_render_sha256: f0bac31a478ffcf87b95dc1d08498d74cf83b15b9c644d1d316c307a545f3965
+corrections:
+- question: q20H
+  url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2012/Paper1_20_corrected.pdf
+  archive: private/raw/tripos/IB/2012/P1.pdf
+  sha256: 902b1e7a47a470daf84f3e6caece688156169af8432750fb60a9ebe333b1d914
+  page: 1
+  page_count: 1
+  original: $x_0=1+qx_1+px_{-1}$
+  replacement: $x_0=1+px_1+qx_{-1}$
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  katex_version: 0.16.11

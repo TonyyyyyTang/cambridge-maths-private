@@ -1,0 +1,302 @@
+paper_id: IB/2012/P4
+id: IB/2012/P4
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 11
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2012-06-08'
+printed_date: Friday, 8 June, 2012
+time: 1:30 pm to 4:30 pm
+source: private/raw/tripos/IB/2012/P4.pdf
+archive: private/raw/tripos/IB/2012/P4.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2012/PaperIB_4.pdf
+sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2012/P4/q1F
+  original_question: 1F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 9a4dab2f016dcef05063546a91d6e44ca0ce6bcd626a378388e6e3eb3506414c
+  checks: Checked the cyclic endpoint, both minus signs and the provision on stating theorems.
+  source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+- id: IB/2012/P4/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 00703911211b7ae15a8534c14b3db17ecead5fa7c8dd42efef2ed46c457f03af
+  checks: Checked N greater than or equal to zero, the nonzero coefficient and the separate cubic equation.
+  source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+- id: IB/2012/P4/q3E
+  original_question: 3E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 54e60e07be071aa3155348f7ab60b6c56c762052d710ffe5b66949fc15ef76f9
+  checks: Checked the order of the two domain dimensions and the scalar codomain.
+  source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+- id: IB/2012/P4/q4E
+  original_question: 4E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 37b9e25ba0013336e711bc4f76db2ecb1b11697512928725e0ccd4a36bae2559
+  checks: Checked the distinction between h(i) and h(−i), the strict interior/exterior domains and identical
+    derivative formula.
+  source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+- id: IB/2012/P4/q5D
+  original_question: 5D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: a216dc53bfd12116ef4414b647e68d9fb65263edc07a9de964a8c69874f26936
+  checks: Checked the two wave directions, the c-squared denominator and the two initial conditions.
+  source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+- id: IB/2012/P4/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 924491d0c7bdb1e01e03c92ca5baa09b74548e38ccc16abb270c9ebcffbacf80
+  checks: Checked the three box dimensions, the factorized wavefunction and the upper bound √2 times c.
+  source_page_render_sha256: a56dc8af6854f734bb58a6164b83e4cc76e10807329695903b0ff8ecf0a152ef
+- id: IB/2012/P4/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: f58d1d65b5efbdb66065776a763d6b5eb1a7701902a705f9df3469cdff81ad21
+  checks: Checked the minus sign in Faraday’s equation, the hyperbolic-tangent magnetic field and the rest/motion
+    hypotheses.
+  source_page_render_sha256: a56dc8af6854f734bb58a6164b83e4cc76e10807329695903b0ff8ecf0a152ef
+- id: IB/2012/P4/q8D
+  original_question: 8D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 5a2991d19ceb2111b7f3b7b7ab1d006c1388367aa55ba4286f7cb4afb60553e4
+  checks: Checked the four y indices, both f indices and the exceptional parameter value for order three.
+  printed_ambiguity: The right-hand side is a difference of consecutive f values. Substitution of a linear
+    solution conflicts with the printed order claim for nonzero a.
+  source_page_render_sha256: a56dc8af6854f734bb58a6164b83e4cc76e10807329695903b0ff8ecf0a152ef
+- id: IB/2012/P4/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: 62903bf4ad25b38dbe2f53a6e4dd611255d17b927ef4ebb90fe0e77c2e95bda0
+  checks: Checked the conditional probabilities, n starting at 0 and the divisibility-by-three qualification
+    in both states.
+  source_page_render_sha256: 85cd79c3d75ed95b1bcba088ad06473409c692e59256a7f9659377f503bed860
+- id: IB/2012/P4/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 652f0d27ffe632896c2979cdae4e1180c17bf40fa0467b2005bab89ae05db37c
+  checks: Checked the order of the bilinear arguments, the orthogonal complement and direct sum, and the absolute
+    value in the index formula.
+  source_page_render_sha256: 0095829df2e8707cfd096028f8eb0fda413d18549f88e75196e950edaf24606a
+- id: IB/2012/P4/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 885d94db36f5794e24d7c526cbbc9ad8939de3271940658eb1019d281e994c45
+  checks: Checked the printed set defining I·M, the monic annihilating equation, adjugate identity and both
+    conditions on a.
+  printed_ambiguity: The printed definition of the ideal-module product lists single products. The usual module
+    product comprises finite sums of such products.
+  source_page_render_sha256: 0095829df2e8707cfd096028f8eb0fda413d18549f88e75196e950edaf24606a
+- id: IB/2012/P4/q12E
+  original_question: 12E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: f8817a8f621b95b0956169faab446479a100e5a82b68ce08fd99fb13cb830a01
+  checks: Checked the dimension of each version of Bolzano-Weierstrass, isometry, and the question about dropping
+    boundedness.
+  source_page_render_sha256: b0a04b57ed93fefcc50c2b3a4dc2cdef7a9127df767971243898169c037e062b
+- id: IB/2012/P4/q13F
+  original_question: 13F
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: c3f4bf4cc08c305a0a36b31fc1c56e861d0e73273e349d0883bc932eb4f5ec52
+  checks: Checked the two projection maps, connectedness and the open rays and operations for the example.
+  source_page_render_sha256: b0a04b57ed93fefcc50c2b3a4dc2cdef7a9127df767971243898169c037e062b
+- id: IB/2012/P4/q14A
+  original_question: 14A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 1824b660b0a83b55ae9cbbb3c2c1818ebf86f6a91d579b10556ed1c6d3de45ac
+  checks: Checked the boundary step at ±1, the integral kernel and both inverse-tangent numerators.
+  source_page_render_sha256: b0a04b57ed93fefcc50c2b3a4dc2cdef7a9127df767971243898169c037e062b
+- id: IB/2012/P4/q15G
+  original_question: 15G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 2300f1f5dcbcdb2d1f00562656669808abcde15ca32e9aa2125018820c625e34
+  checks: Checked the two principal curvatures, definition of a parabolic point, tangency along the curve and
+    final possibility question.
+  source_page_render_sha256: a0376eadcf7ca60a7e97d6f7aa983b920e991717eaffe5dafbaa20adef50aa24
+- id: IB/2012/P4/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: f47ec397b0cdaaf67b8b67a362f4d6f5b913fb2cd5be0705d3a837dcafa9e526
+  checks: Checked fixed endpoints, both variations, the squared integrand, beta threshold and the zero endpoint
+    case.
+  source_page_render_sha256: a0376eadcf7ca60a7e97d6f7aa983b920e991717eaffe5dafbaa20adef50aa24
+- id: IB/2012/P4/q17D
+  original_question: 17D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: cf0b5296fb29042d900be314f3523375772046e61658bce9dc6f9ada05413271
+  checks: Checked the factors and signs in both Green identities, disc closure, normal derivatives and inversion
+    of the source point.
+  printed_ambiguity: The inversion identity as printed allows zero vectors, for which its denominators vanish.
+    Address the centred source separately.
+  source_page_render_sha256: a673e3ef17c2039ab4c455858b7a57ed205e0835c2cc485ac7ed3661554b5c45
+- id: IB/2012/P4/q18A
+  original_question: 18A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: b205fa913da9fc20b40ff421a3f7c5df637922e8c2ee2158d62cd55479a4bb4c
+  checks: Checked all three rotating shallow-water equations, both signed pieces of velocity and the two positive
+    forcing terms.
+  printed_ambiguity: The initial tangential velocity has a jump at zero. Distinguish the pointwise potential
+    vorticity away from zero from its distributional derivative when discussing the requested matching conditions.
+  source_page_render_sha256: fc063faedcadf81f37b4adc8b3b6fc96b6fb2118dc18dc530b9a69c0520d0f3e
+- id: IB/2012/P4/q19H
+  original_question: 19H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 91c19e499d41a8f0830b156b5766696417b99c3831d378894739a3906af43e16
+  checks: Checked indices and centering, all four numerical triples, all five subparts and significance level.
+  source_page_render_sha256: 9a0893c74f1352733d82132136f65a06137964d038a1a7396709e9b8919bff18
+- id: IB/2012/P4/q20H
+  original_question: 20H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 395a2726b1aa12cd497aa63bedc46fe61ec88e2af15065cd758614fc16fd8386
+  checks: Checked the qualification on finite termination, the strict i < j sum, vectors of wins, M and all
+    entries of the fixture matrix.
+  source_page_render_sha256: e04ea836951edcab8e7cbc42a6e5ed8da26bc534dde14f7d049ee262c01b2147
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  katex_version: 0.16.11

@@ -1,0 +1,1882 @@
+scope: IB Quantum Mechanics example sheet 2 full located public union, sampled verification. The audit applies to
+  this sheet, not the whole course.
+method:
+  auditor: Fresh independent auditor; wrote none of the delivered solutions. Stage 1 restricted to statements and
+    original locators; all derivations and transcription comparisons were hashed before stage 2 opened existing
+    work.
+  seed: 20261209
+  sampling: random.Random(seed).sample(sorted(population), 4)
+  population:
+  - q01
+  - q02
+  - q03
+  - q04
+  - q05
+  - q06
+  - q07
+  - q08
+  - q09
+  - q10
+  - qx01
+  - qx02
+  - qx03
+  - qx04
+  - qx05
+  - qx06
+  - qx07
+  - qx08
+  - qx09
+  population_size: 19
+  sample:
+  - q10
+  - qx02
+  - qx04
+  - q09
+  sample_size: 4
+  sample_percent: 21.05263157894737
+counts:
+  sampled_units: 4
+  distinct_statements: 10
+  source_occurrences: 24
+  dated_positions: 18
+  additional_original_positions: 6
+  printed_reference_occurrences: 8
+  distinct_printed_reference_statements: 4
+  verified_solution_and_computer_receipts: 10
+  executed_computer_checks: 10
+  canonical_browser_views: 4
+  dated_browser_views: 18
+  displayed_formulae: 735
+  successfully_rendered_formulae: 735
+  cross_reference_navigation_tests: 7
+  cross_reference_target_formulae: 209
+  sampled_pdf_pages_viewed: 24
+  collection_pdfs: 1
+  dated_sheet_2_pdfs: 9
+result:
+  substantive_errors: 0
+  transcription_errors: 0
+  mathematical_errors: 0
+  computer_check_failures: 0
+  delivery_errors: 0
+  observed_unit_error_rate: 0/4
+  observed_distinct_statement_error_rate: 0/10
+  observed_dated_occurrence_error_rate: 0/18
+  observed_additional_occurrence_error_rate: 0/6
+  observed_all_occurrence_error_rate: 0/24
+  full_sheet_review_triggered: false
+  official_answer_comparison: false
+frozen:
+  manifest_sha256: 99d2ce4286bd0a3916329bfff31da281bcbc400da6424433b8cd35eede03de55
+  relative_filename_digests:
+    q09-dc480140f82a.md: c0e834a06d7144f0827f56725e7f129068b571eb8a6de1d393be9cc2cfcb49c1
+    q09-f65eb13d1e80.md: 0e83430efb4789a5af4c3bd0c0ffab86d147e9fe355e800f09f2b41f06e25b68
+    q09-f7a64d81da9e.md: cab9e29cbb442cab3e2e7d2f084e8b9661a4adf332850470c50d4db86d72b9c2
+    q10-297bf476bb05.md: 21411dbc87f5f9b84d105caf42a4b20a40da3268184ec283be94aec34b112c20
+    q10-a3f976c1850f.md: dd6fa27a6fb775fa79a8bc43b04d7aa1e1f19f5c267163c1061790c4b81a2646
+    q10-d8be8905b5f9.md: b6ced106bb04a5926ef465870ab3edd0489bfe61e63a2eacc4c2138853204842
+    qx02-914e74967595.md: b90421d0adeb33acd0d872d790ac132e903bbabbe5baaf0ce13ca10d0087a319
+    qx02-e88e87b7ccde.md: 2ad5bdc2616187cf7ea91deb76a8b111267834a605dd018d57ad7ee98f50a4c0
+    qx04-704634d71039.md: 19b164d25ebe0569ecaceb6a72c8a7ef85a557f3efc0d66b8b17bdb6c13f9af9
+    qx04-bb2f5f691be9.md: d5260c42da2a1e307978395709eafc19d810a711a360c6b0b943f95be8e24a6c
+    transcription.md: 39d311362e65e27fd0e4fc8408827240e9e73ac6cdfb996d97577309544a191e
+  transcription_report: "# Sheet 2 sample transcription audit\n\nIndependent blind inspection used only the supplied\
+    \ question fragments, locators, specified originals, and their printed references. The reproducible draw used\
+    \ Python’s Random(20261209).sample on the 19 sorted question keys, yielding q10, qx02, qx04, q09. Four of 19\
+    \ keys are covered (21.05%). Each original passage was rendered with PDFium at scale 2, every word, symbol,\
+    \ displayed equation, condition, punctuation mark, optional asterisk, subpart and closing hint was compared\
+    \ visually. Printed numbers and page positions were checked against the locators. Two occurrences of Q10 split\
+    \ after “positive value of” on page 2 and resume with κ on page 3. No sampled question prints an absolute mark.\
+    \ End-of-line wrapping is typographical.\n\nAll 24 sampled occurrences (18 assigned dated-edition occurrences,\
+    \ six additional originals) match, representing ten distinct question fragments. Eight printed-reference occurrences\
+    \ (four distinct fragments) were checked in addition. No sampled transcription error was found. Mathematical\
+    \ comparison with any delivered solution belongs to a separate, later stage.\n\n| Original | Printed Q | Page(s)\
+    \ | Unit | Fragment digest prefix | Comparison |\n|---|---:|---|---|---|---|\n| 2006-07/sheet-2.pdf | 2 | 1\
+    \ | q09 | dc480140f82a | agrees |\n| 2006-07/sheet-2.pdf | 4 | 1 | qx02 | e88e87b7ccde | agrees |\n| 2006-07/sheet-2.pdf\
+    \ | 8 | 2 | qx04 | 704634d71039 | agrees |\n| 2015-16/sheet-2.pdf | 5 | 1 | q09 | f7a64d81da9e | agrees |\n\
+    | 2018-19/sheet-2.pdf | 6 | 1 | q09 | f65eb13d1e80 | agrees |\n| 2018-19/sheet-2.pdf | 7 | 2 | q10 | d8be8905b5f9\
+    \ | agrees |\n| 2019-20/sheet-2.pdf | 6 | 1 | q09 | f65eb13d1e80 | agrees |\n| 2019-20/sheet-2.pdf | 7 | 2 |\
+    \ q10 | d8be8905b5f9 | agrees |\n| 2020-21/sheet-2.pdf | 6 | 1 | q09 | f65eb13d1e80 | agrees |\n| 2020-21/sheet-2.pdf\
+    \ | 7 | 2 | q10 | 297bf476bb05 | agrees |\n| 2022-23/sheet-2.pdf | 9 | 2 | q09 | f65eb13d1e80 | agrees |\n|\
+    \ 2022-23/sheet-2.pdf | 10 | 2 | q10 | a3f976c1850f | agrees |\n| 2023-24/sheet-2.pdf | 9 | 2 | q09 | f65eb13d1e80\
+    \ | agrees |\n| 2023-24/sheet-2.pdf | 10 | 2, 3 | q10 | a3f976c1850f | agrees |\n| 2025-26/sheet-2.pdf | 9 |\
+    \ 2 | q09 | f65eb13d1e80 | agrees |\n| 2025-26/sheet-2.pdf | 10 | 2 | q10 | a3f976c1850f | agrees |\n| 2026-27/sheet-2.pdf\
+    \ | 9 | 2 | q09 | f65eb13d1e80 | agrees |\n| 2026-27/sheet-2.pdf | 10 | 2 | q10 | a3f976c1850f | agrees |\n\
+    | unresolved-header-2003-copyright-2004/sheet-2.pdf | 2 | 1 | q09 | dc480140f82a | agrees |\n| unresolved-header-2003-copyright-2004/sheet-2.pdf\
+    \ | 4 | 1 | qx02 | 914e74967595 | agrees |\n| unresolved-header-2003-copyright-2004/sheet-2.pdf | 8 | 2 | qx04\
+    \ | bb2f5f691be9 | agrees |\n| unresolved-header-2024-copyright-2023/sheet-2.pdf | 9 | 2 | q09 | f65eb13d1e80\
+    \ | agrees |\n| unresolved-header-2024-copyright-2023/sheet-2.pdf | 10 | 2, 3 | q10 | a3f976c1850f | agrees\
+    \ |\n| 2015-16/sheets-1-3-mirror.pdf | 5 | 3 | q09 | f7a64d81da9e | agrees |\n\n## Printed references\n\n| Original\
+    \ | Printed Q | Page(s) | Role | Fragment | Comparison |\n|---|---:|---|---|---|---|\n| 2018-19/sheet-1.pdf\
+    \ | 9 | 2 | printed reference | sheet-1-qx05-e18a6c1729be | agrees |\n| 2019-20/sheet-1.pdf | 9 | 2 | printed\
+    \ reference | sheet-1-qx05-e18a6c1729be | agrees |\n| 2020-21/sheet-1.pdf | 9 | 2 | printed reference | sheet-1-qx05-4e39b255d721\
+    \ | agrees |\n| 2022-23/sheet-2.pdf | 2 | 1 | printed reference | sheet-2-q02-87771a0eee7f | agrees |\n| 2023-24/sheet-2.pdf\
+    \ | 2 | 1 | printed reference | sheet-2-q02-ca9dd788597a | agrees |\n| 2025-26/sheet-2.pdf | 2 | 1 | printed\
+    \ reference | sheet-2-q02-ca9dd788597a | agrees |\n| 2026-27/sheet-2.pdf | 2 | 1 | printed reference | sheet-2-q02-ca9dd788597a\
+    \ | agrees |\n| unresolved-header-2024-copyright-2023/sheet-2.pdf | 2 | 1 | printed reference | sheet-2-q02-ca9dd788597a\
+    \ | agrees |\n \n## Edition-specific details\n\n- Q09 retains “square”, subscript zero and the first-principles\
+    \ instruction in the two old originals. The 2015 paper and mirror instead refer to “this particular case” and\
+    \ “the result given in lectures”. Other dated and unresolved modern examples say “this case” and “the general\
+    \ result”. Modern versions leave the rectangular profile implicit.\n- Q10 changes from V and amplitudes to U\
+    \ and coefficients. The later typesetting places the opening parenthesis immediately after the reflection coefficient\
+    \ and a space after it. The cited prior example and the symbol ψ or χ match their respective sheets. All versions\
+    \ ask about complex k, the positive imaginary pole, rescaling, normalisability, and energy.\n- The 2020–21 Sheet\
+    \ 1 Q9 and 2022–23 Sheet 2 Q2 genuinely print −U < E < 0. The 2018–19 and 2019–20 Sheet 1 examples do not print\
+    \ this inequality; the other inspected Sheet 2 examples specify E < 0 alone. The lower bound in the two older\
+    \ printed references is dimensionally inapplicable for a delta strength. This is a property of the originals,\
+    \ not a transcription discrepancy.\n- Qx02 uses ψ in 2006–07 and χ in the unresolved older original. The last\
+    \ integral conjugates the n=2 wave. Qx04 uses the corresponding symbol change and the 2006–07 original alone\
+    \ stars the second run. The repeated measurements, squared-amplitude power, limit, and entire bracketed kettle\
+    \ passage agree.\n- Independent numerical checks of the four derivations passed at 45 decimal digits of working\
+    \ precision. The repeatable scratch script tests barrier continuity/current, delta jump/pole/normalisation,\
+    \ oscillator overlaps/eigen-equations, and repeated projections. The ten reworks record the checks relevant\
+    \ to them.\n"
+  independent_numeric_check_source_sha256: 33dc67a26f2abe432c1dc63a50e0faa0c349b5e2c19d6136cdd059ea4526b99f
+  independent_numeric_check_result: All four classes of calculation passed at 45 decimal digits. Check details are
+    repeated in the individual frozen reworks.
+baseline_git_snapshot:
+  revision: e1cc210cd24a970ad483c37bc411fa08353cde52
+  verified_current_2025_26_files:
+    q09:
+      solution: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      question: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+      computer_script: 95cefb7935326688ebbbb61e7c8821783f2c40fdb8ac6ebab81223d0d81a1e55
+    q10:
+      solution: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+      question: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+      computer_script: 393c4c68eafe89cb454e07ca142c8a299328ad28e36924a8bcc36cc4d7c7e0eb
+pre_solution_archives:
+  q09:
+    path: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/2026-11-21-before-first-solution.tex
+    sha256: cac47d661e6c298f6c33a051d0301d9ec9bbeb396a986fd873c73d7c0339f34f
+    interpretation: Prior unsolved template; no earlier mathematical solution to grade.
+  qx02:
+    path: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/2026-11-21-before-first-solution.tex
+    sha256: cac47d661e6c298f6c33a051d0301d9ec9bbeb396a986fd873c73d7c0339f34f
+    interpretation: Prior unsolved template; no earlier mathematical solution to grade.
+  qx04:
+    path: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/2026-11-21-before-first-solution.tex
+    sha256: cac47d661e6c298f6c33a051d0301d9ec9bbeb396a986fd873c73d7c0339f34f
+    interpretation: Prior unsolved template; no earlier mathematical solution to grade.
+  q10:
+    path: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/2026-11-21-before-first-solution.tex
+    sha256: cac47d661e6c298f6c33a051d0301d9ec9bbeb396a986fd873c73d7c0339f34f
+    interpretation: Prior unsolved template; no earlier mathematical solution to grade.
+sampled_questions:
+  q10:
+    exact_texts:
+    - d8be8905b5f9
+    - 297bf476bb05
+    - a3f976c1850f
+    dated_occurrences: 7
+    additional_originals: 1
+    substantive_errors: 0
+  qx02:
+    exact_texts:
+    - e88e87b7ccde
+    - 914e74967595
+    dated_occurrences: 1
+    additional_originals: 1
+    substantive_errors: 0
+  qx04:
+    exact_texts:
+    - 704634d71039
+    - bb2f5f691be9
+    dated_occurrences: 1
+    additional_originals: 1
+    substantive_errors: 0
+  q09:
+    exact_texts:
+    - dc480140f82a
+    - f7a64d81da9e
+    - f65eb13d1e80
+    dated_occurrences: 9
+    additional_originals: 3
+    substantive_errors: 0
+distinct_text_results:
+  dc480140f82a:
+    unit: q09
+    question_sha256: dc480140f82a5d864ca9b3cb4bdffe6062beac77b3e851a508e36142950b521e
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/solution.tex
+    solution_sha256: 869f96e936b13ea90a5f25be7f224ddd3a023d148d226df9a45aad1e8097059f
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/metadata-before.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/check.py
+    computer_sha256: 35451e04b302cc33775da74372fa72441dd7b73945c165a587dab9d2e7e602c2
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/comparison.md
+    status: ai-draft
+    rank: archived verified variant
+    check_rerun: Independent four-interface-equation solves verified amplitudes and flux conservation.
+    comparison_with_blind: Square U0 barrier. Both interfaces directly give right-face amplitude sech(ka), r = −i
+      tanh(ka); equal exterior speeds give the required square modulus.
+    blind_derivation_sha256: c0e834a06d7144f0827f56725e7f129068b571eb8a6de1d393be9cc2cfcb49c1
+    blind_derivation: |
+      # q09 · independent rework for dc480140f82a
+
+      Question SHA-256: `dc480140f82a5d864ca9b3cb4bdffe6062beac77b3e851a508e36142950b521e`.
+
+      Originals: 2006-07 Q2 p1, unresolved-header-2003-copyright-2004 Q2 p1.
+
+      The stated square barrier has constant height \(H=U_0=2E\) on its interval.
+
+
+      Let the incident coefficient be one and take \(k>0\). Outside the barrier the potential is zero. Put its faces at \(x=0,a\). The exterior waves are \(e^{ikx}+r e^{-ikx}\) on the left and \(c e^{ik(x-a)}\) on the right. Since the finite potential has no delta at a face, the function and its derivative are continuous. In the interior the equation is \(u''=2m(H-E)u/\hbar^2=k^2u\), where \(H\) denotes the barrier height. Matching at \(a\) fixes the interior solution without any remaining free constants apart from \(c\):
+      \[
+      u(x)=c\{\cosh(k(x-a))+i\sinh(k(x-a))\}.
+      \]
+      Write \(C=\cosh(ka)\), \(D=\sinh(ka)\). Matching value and derivative at zero gives \(1+r=c(C-iD)\) and \(i(1-r)=c(-D+iC)\). Addition after dividing the latter by \(i\) yields \(c=1/C\), then \(r=-iD/C\). The transmitted and incident waves have the same group velocity \(\hbar k/m\), so their current ratio is
+      \[
+      P_{\rm tr}=|c|^2=\operatorname{sech}^2(ka).
+      \]
+      The ordinary transmitted coefficient relative to \(e^{ikx}\) is \(ce^{-ika}\), which has the same modulus. The reflected fraction \(\tanh^2(ka)\) accounts for the complementary flux. When \(ka\downarrow0\) the fraction transmitted tends to one; at \(a=0\) there is free motion. Exactly \(k=0\) has zero incident flux and only a limiting scattering ratio. For \(ka\to\infty\) the transmitted fraction tends to zero.
+
+      Numerical cross-check: both matching conditions at both faces and the flux sum were tested to \(10^{-40}\) at \((a,k)=(0.125,0.75),(1.7,1.25),(0,2.1)\).
+    distinct_statement_outcome: agrees
+  e88e87b7ccde:
+    unit: qx02
+    question_sha256: e88e87b7ccde3eb6ead1b53d92f4f989d35d28dc297ce83e6f4a87a0e36b500d
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/solution.tex
+    solution_sha256: 0b428e2ee49f5e340bd1bfd64021daf3dd83ea29acc082e83453dff42aa26d2e
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/meta.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/check.py
+    computer_sha256: 356b82c23bc050ee0a9db75ec03dd8c7b0e4760239d0576344419bcb6a38aed5
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/comparison.md
+    status: ai-draft
+    rank: canonical
+    canonical_pdf_receipt:
+      built_at: '2026-11-21T06:20:48.041092+00:00'
+      source_hashes:
+        question.tex: e88e87b7ccde3eb6ead1b53d92f4f989d35d28dc297ce83e6f4a87a0e36b500d
+        solution.tex: 0b428e2ee49f5e340bd1bfd64021daf3dd83ea29acc082e83453dff42aa26d2e
+      path: build/IB-quantum-mechanics-sheet-2/main.pdf
+      build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    check_rerun: Ladder commutator, eigen-equations, parity and all nine overlaps verified.
+    comparison_with_blind: The ψ version gives the same normalized oscillator states, two directions of the energy
+      proof, parity argument and explicit Gaussian boundary evaluation.
+    blind_derivation_sha256: 2ad5bdc2616187cf7ea91deb76a8b111267834a605dd018d57ad7ee98f50a4c0
+    blind_derivation: |
+      # qx02 · independent rework for e88e87b7ccde
+
+      Question SHA-256: `e88e87b7ccde3eb6ead1b53d92f4f989d35d28dc297ce83e6f4a87a0e36b500d`.
+
+      Originals: 2006-07 Q4 p1.
+
+      Let \(\ell=\sqrt{\hbar/(m\omega)}\), \(y=x/\ell\), with \(m,\omega>0\). The dimensionless Hamiltonian \(H/(\hbar\omega)=(-\partial_y^2+y^2)/2\) factors as \(a^\dagger a+\tfrac12\), where \(a=(y+\partial_y)/\sqrt2\) and \(a^\dagger=(y-\partial_y)/\sqrt2\). These act as adjoints on the oscillator eigenfunctions under integration by parts (the normalisable branches decay at both ends). Differentiating \(y f\) gives \([a,a^\dagger]=1\), so \(N=a^\dagger a\) satisfies \([N,a]=-a\), \([N,a^\dagger]=a^\dagger\).
+
+      For any normalised energy eigenfunction, write \(Nf=\lambda f\). Then \(\lambda=\|af\|^2\ge0\). A nonzero lowered state has eigenvalue \(\lambda-1\) and positive squared norm when \(\lambda>0\). If \(\lambda\) were not an integer, repeated lowering would start from a value in \((0,1)\) at the final step and produce a nonzero state of negative eigenvalue, impossible. The bottom solves \(af_0=0\), yielding the unique normalised Gaussian up to phase. Raising from it always gives a nonzero eigenstate, since \(\|a^\dagger f_n\|^2=n+1\). This proves precisely the levels \(E_n=(n+\tfrac12)\hbar\omega,\ n=0,1,\ldots\).
+
+      Let \(F(x)=(\pi\ell^2)^{-1/4}e^{-y^2/2}\). Applying the raising operator with the just-derived normalising factors gives
+      \[
+      \psi_0=F,\qquad \psi_1=\sqrt2\,yF,\qquad \psi_2=\frac{2y^2-1}{\sqrt2}F.
+      \]
+      The common Gaussian is even. The prefactors are even, odd, even, respectively; each product involving the odd state and either even state is integrable and odd, so each integral on \(\mathbb R\) vanishes. The remaining pair has inner product
+      \[
+      \int \psi_2^*\psi_0\,dx=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}(2y^2-1)e^{-y^2}dy
+      =-\frac1{\sqrt{2\pi}}\big[ye^{-y^2}\big]_{-\infty}^{\infty}=0.
+      \]
+      Both boundary terms vanish by Gaussian decay. The common choice of phase makes each displayed wave real; individual phase changes do not affect the conclusions.
+
+      Numerical cross-check: direct quadrature of the three-by-three overlap matrix gives identity to \(10^{-40}\). All three differential-equation residuals vanish to this tolerance at \(y=-1,0,2\).
+    distinct_statement_outcome: agrees
+  704634d71039:
+    unit: qx04
+    question_sha256: 704634d71039e0e9de3c8b0f2f4ed4946ff839a7a52576c81e10f6a61f30caaf
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/solution.tex
+    solution_sha256: 125e9b1b3500e0212207fefca330d1820ad8ac61c43e33b900542df5870d397c
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/meta.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/check.py
+    computer_sha256: eecf698c8aed6a6e8ffb7e939e9c8815ef748c3974f5c8ac0f0fc75e2caa534f
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/comparison.md
+    status: ai-draft
+    rank: canonical
+    canonical_pdf_receipt:
+      built_at: '2026-11-21T06:20:48.046849+00:00'
+      source_hashes:
+        question.tex: 704634d71039e0e9de3c8b0f2f4ed4946ff839a7a52576c81e10f6a61f30caaf
+        solution.tex: 125e9b1b3500e0212207fefca330d1820ad8ac61c43e33b900542df5870d397c
+      path: build/IB-quantum-mechanics-sheet-2/main.pdf
+      build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    check_rerun: Eigenstates, return probability, short-time amplitude and product limit verified.
+    comparison_with_blind: The starred second run is answered. The swap eigensystem, average energy, exact return
+      probability, zero at T, short-time amplitude and all-plus probability agree; the conditional product has the
+      same explicit bound as the frozen proof.
+    blind_derivation_sha256: 19b164d25ebe0569ecaceb6a72c8a7ef85a557f3efc0d66b8b17bdb6c13f9af9
+    blind_derivation: |
+      # qx04 · independent rework for 704634d71039
+
+      Question SHA-256: `704634d71039e0e9de3c8b0f2f4ed4946ff839a7a52576c81e10f6a61f30caaf`.
+
+      Originals: 2006-07 Q8 p2.
+
+      Use the ordered orthonormal energy basis \((\psi_1,\psi_2)\). The map sending \((c_1,c_2)\mapsto(c_2,c_1)\) has eigenvalues satisfying \(s^2=1\); for each sign one obtains the normalised eigenfunction \(\phi_\pm=(\psi_1\pm \psi_2)/\sqrt2\). Its two energy weights are both \(1/2\), so each expectation is \(\mu=(E_1+E_2)/2=E_1+\Delta E/2\).
+
+      The first ideal \(+1\) measurement prepares \(\phi_+\). Under free evolution generated by the system Hamiltonian, the energy components gain respective phases \(e^{-iE_jt/\hbar}\). Projection onto \(\phi_+\) gives the amplitude \(A(t)=(e^{-iE_1t/\hbar}+e^{-iE_2t/\hbar})/2=e^{-i\mu t/\hbar}\cos(\Delta E\,t/(2\hbar))\). Its squared modulus is \(\cos^2(\Delta E\,t/(2\hbar))\), equal to one initially and zero at \(T=\pi\hbar/\Delta E\). The positive gap ensures \(T\) is finite.
+
+      For \(n\) equal intervals, conditional on all previous outcomes being \(+1\), each interval starts in the same \(\phi_+\). For fixed \(T,E_1,E_2\), Taylor expansion at \(t=T/n\) yields
+      \[
+      A_n=e^{-i\mu T/(n\hbar)}\cos(\pi/(2n))
+      =1-\frac{iT\mu}{n\hbar}+O(n^{-2}).
+      \]
+      The product rule for conditional probabilities gives \(P_n=|A_n|^{2n}=\cos^{2n}(\pi/(2n))\). For positive integer \(n\), Bernoulli’s inequality and \(\sin z\le z\) for \(z\ge0\) imply
+      \[
+      0\le1-P_n=1-(1-\sin^2(\pi/(2n)))^n\le n\sin^2(\pi/(2n))\le\pi^2/(4n).
+      \]
+      Thus \(P_n\to1\), even though the single unobserved interval of length \(T\) gives zero return probability. The product counts histories in which every measurement gives \(+1\).
+
+      Numerical cross-check: the direct two-phase amplitude raised through \(n=1,2,10,100,1000\) reproduces the exact product and satisfies the one-sided bound.
+    distinct_statement_outcome: agrees
+  f7a64d81da9e:
+    unit: q09
+    question_sha256: f7a64d81da9ecc1985d5b957cf86bee06ef6e3381143ad7c9e5b895714bed56a
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/solution.tex
+    solution_sha256: d6860baa99ab7caf7cf3822aa3c1ef4e3625a0a9d5733e32c4a0f30cc0130cd0
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/metadata-before.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/check.py
+    computer_sha256: 35451e04b302cc33775da74372fa72441dd7b73945c165a587dab9d2e7e602c2
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/comparison.md
+    status: ai-draft
+    rank: archived verified variant
+    check_rerun: Independent four-interface-equation solves verified amplitudes and flux conservation.
+    comparison_with_blind: This edition expressly states the constant-height assumption in its solution. The two
+      matches, right-face phase convention, complementary flux and width limits agree.
+    blind_derivation_sha256: cab9e29cbb442cab3e2e7d2f084e8b9661a4adf332850470c50d4db86d72b9c2
+    blind_derivation: |
+      # q09 · independent rework for f7a64d81da9e
+
+      Question SHA-256: `f7a64d81da9ecc1985d5b957cf86bee06ef6e3381143ad7c9e5b895714bed56a`.
+
+      Originals: 2015-16 Q5 p1, 2015-16-mirror Q5 p3.
+
+      Take the barrier to have constant height \(H=U=2E\) across its width, as in the rectangular barrier calculation. Only width and maximum height would be given for a general shaped barrier, which would leave its transmission undetermined.
+
+
+      Let the incident coefficient be one and take \(k>0\). Outside the barrier the potential is zero. Put its faces at \(x=0,a\). The exterior waves are \(e^{ikx}+r e^{-ikx}\) on the left and \(c e^{ik(x-a)}\) on the right. Since the finite potential has no delta at a face, the function and its derivative are continuous. In the interior the equation is \(u''=2m(H-E)u/\hbar^2=k^2u\), where \(H\) denotes the barrier height. Matching at \(a\) fixes the interior solution without any remaining free constants apart from \(c\):
+      \[
+      u(x)=c\{\cosh(k(x-a))+i\sinh(k(x-a))\}.
+      \]
+      Write \(C=\cosh(ka)\), \(D=\sinh(ka)\). Matching value and derivative at zero gives \(1+r=c(C-iD)\) and \(i(1-r)=c(-D+iC)\). Addition after dividing the latter by \(i\) yields \(c=1/C\), then \(r=-iD/C\). The transmitted and incident waves have the same group velocity \(\hbar k/m\), so their current ratio is
+      \[
+      P_{\rm tr}=|c|^2=\operatorname{sech}^2(ka).
+      \]
+      The ordinary transmitted coefficient relative to \(e^{ikx}\) is \(ce^{-ika}\), which has the same modulus. The reflected fraction \(\tanh^2(ka)\) accounts for the complementary flux. When \(ka\downarrow0\) the fraction transmitted tends to one; at \(a=0\) there is free motion. Exactly \(k=0\) has zero incident flux and only a limiting scattering ratio. For \(ka\to\infty\) the transmitted fraction tends to zero.
+
+      Numerical cross-check: both matching conditions at both faces and the flux sum were tested to \(10^{-40}\) at \((a,k)=(0.125,0.75),(1.7,1.25),(0,2.1)\).
+    distinct_statement_outcome: agrees
+  f65eb13d1e80:
+    unit: q09
+    question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+    solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/q09/meta.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/q09/check.py
+    computer_sha256: 95cefb7935326688ebbbb61e7c8821783f2c40fdb8ac6ebab81223d0d81a1e55
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/q09/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/q09/comparison.md
+    status: ai-draft
+    rank: canonical
+    canonical_pdf_receipt:
+      built_at: '2026-11-21T06:20:48.030936+00:00'
+      source_hashes:
+        question.tex: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+        solution.tex: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+      path: build/IB-quantum-mechanics-sheet-2/main.pdf
+      build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    check_rerun: Both interface matches, interior equation and total transmission/reflection flux verified.
+    comparison_with_blind: For the intended constant-height barrier the canonical transmitted coefficient refers
+      to e^(ikx). Its extra phase e^(−ika) exactly reconciles it with the frozen right-face coefficient. The stated
+      interior wavenumber makes the assumed shape identifiable.
+    blind_derivation_sha256: 0e83430efb4789a5af4c3bd0c0ffab86d147e9fe355e800f09f2b41f06e25b68
+    blind_derivation: |
+      # q09 · independent rework for f65eb13d1e80
+
+      Question SHA-256: `f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e`.
+
+      Originals: 2018-19 Q6 p1, 2019-20 Q6 p1, 2020-21 Q6 p1, 2022-23 Q9 p2, 2023-24 Q9 p2, 2025-26 Q9 p2, 2026-27 Q9 p2, unresolved-header-2024-copyright-2023 Q9 p2.
+
+      Take the barrier to have constant height \(H=U=2E\) across its width, as in the rectangular barrier calculation. Only width and maximum height would be given for a general shaped barrier, which would leave its transmission undetermined.
+
+
+      Let the incident coefficient be one and take \(k>0\). Outside the barrier the potential is zero. Put its faces at \(x=0,a\). The exterior waves are \(e^{ikx}+r e^{-ikx}\) on the left and \(c e^{ik(x-a)}\) on the right. Since the finite potential has no delta at a face, the function and its derivative are continuous. In the interior the equation is \(u''=2m(H-E)u/\hbar^2=k^2u\), where \(H\) denotes the barrier height. Matching at \(a\) fixes the interior solution without any remaining free constants apart from \(c\):
+      \[
+      u(x)=c\{\cosh(k(x-a))+i\sinh(k(x-a))\}.
+      \]
+      Write \(C=\cosh(ka)\), \(D=\sinh(ka)\). Matching value and derivative at zero gives \(1+r=c(C-iD)\) and \(i(1-r)=c(-D+iC)\). Addition after dividing the latter by \(i\) yields \(c=1/C\), then \(r=-iD/C\). The transmitted and incident waves have the same group velocity \(\hbar k/m\), so their current ratio is
+      \[
+      P_{\rm tr}=|c|^2=\operatorname{sech}^2(ka).
+      \]
+      The ordinary transmitted coefficient relative to \(e^{ikx}\) is \(ce^{-ika}\), which has the same modulus. The reflected fraction \(\tanh^2(ka)\) accounts for the complementary flux. When \(ka\downarrow0\) the fraction transmitted tends to one; at \(a=0\) there is free motion. Exactly \(k=0\) has zero incident flux and only a limiting scattering ratio. For \(ka\to\infty\) the transmitted fraction tends to zero.
+
+      Numerical cross-check: both matching conditions at both faces and the flux sum were tested to \(10^{-40}\) at \((a,k)=(0.125,0.75),(1.7,1.25),(0,2.1)\).
+    distinct_statement_outcome: agrees
+  d8be8905b5f9:
+    unit: q10
+    question_sha256: d8be8905b5f9b46f88b3067b22e9532ced04c8fa3ca757bafebcbb4d48c76fe7
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/solution.tex
+    solution_sha256: be415d12f39b6b9c6b980148a802ae01ecb2e80e65edd6762e69ccdcdd2d62c7
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/metadata-before.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/check.py
+    computer_sha256: ef107b709f0a5959cae13bee836ed105e8115f782ebe00e88f755107e5acb729
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/comparison.md
+    status: ai-draft
+    rank: archived verified variant
+    check_rerun: Verified continuity, jump, unitarity, bound-state pole limits, energy and norm.
+    comparison_with_blind: Both outgoing amplitudes, their real-axis probabilities, exclusions for complex k, threshold,
+      rescaled pole residue, bound wave, jump, norm and energy agree. Historical ψ and the correct Sheet 1 reference
+      are preserved.
+    blind_derivation_sha256: b6ced106bb04a5926ef465870ab3edd0489bfe61e63a2eacc4c2138853204842
+    blind_derivation: |
+      # q10 · independent rework for d8be8905b5f9
+
+      Question SHA-256: `d8be8905b5f9b46f88b3067b22e9532ced04c8fa3ca757bafebcbb4d48c76fe7`.
+
+      Originals: 2018-19 Q7 p2, 2019-20 Q7 p2.
+
+      The Sheet 1, Example 9 reference supplies the attractive delta interaction and matching rule for \(\psi\). The two requested scattering amplitudes are computed below with \(f=\psi\).
+
+
+      For incidence from the left, let the two exterior solutions be \(f(x)=e^{ikx}+r e^{-ikx}\) for \(x<0\), and \(f(x)=t e^{ikx}\) for \(x>0\). Each solves the free equation with \(E=\hbar^2 k^2/(2m)\). For the attractive interaction put \(\kappa=mU/\hbar^2>0\), which has units of inverse length. Continuity gives \(t=1+r\). Integration of the Schrödinger equation across zero gives \(ik(t-1+r)=-2\kappa t\): the delta integrates to \(-U f(0)\) and the energy term tends to zero with the integration interval. Hence \(ik r=-\kappa(1+r)\), so
+      \[
+      A_{\rm tr}(k)=t=\frac{k}{k-i\kappa},\qquad
+      A_{\rm ref}(k)=r=\frac{i\kappa}{k-i\kappa}.
+      \]
+      The denominator is nonzero for every real \(k>0\). These coefficients multiply waves and are amplitudes. For real \(k>0\) the physical current fractions are \(k^2/(k^2+\kappa^2)\) and \(\kappa^2/(k^2+\kappa^2)\), with sum one and limits \(0,1\) respectively at threshold. A real-\(k\) wave is a continuum generalized eigenfunction, rather than an \(L^2\) vector.
+
+      For complex \(k\) off the pole the same algebra gives a formal solution of the differential and matching equations. For nonreal \(k\) with nonzero real part the energy is nonreal, excluded from the self-adjoint Hamiltonian's spectrum. For pure imaginary \(k\ne0\) the energy is real and negative, but the incident-normalised solution away from the pole grows on at least one half-line. Specifically, in the upper half-plane the unit incident term grows on the left, and in the lower half-plane the transmitted term grows on the right. Such continuations are not physical scattering states or Hilbert-space eigenvectors. At \(k=0\) the displayed unit-incident expression collapses to zero; it does not supply a zero-energy bound state, since the exterior solutions there are affine and a square-integrable one must vanish.
+
+      The two amplitudes have a simple pole at \(k=i\kappa\). First multiply the *whole wave* by \(k-i\kappa\). On the left this gives \((k-i\kappa)e^{ikx}+i\kappa e^{-ikx}\), on the right \(ke^{ikx}\). At \(k=i\kappa\) both pieces join to \(i\kappa e^{-\kappa|x|}\). Since \(\int_{\mathbb R} e^{-2\kappa|x|}\,dx=1/\kappa\), a unit vector is
+      \[
+      f_b(x)=\sqrt{\kappa}\,e^{-\kappa|x|},\qquad
+      E_b=-\frac{\hbar^2\kappa^2}{2m}=-\frac{mU^2}{2\hbar^2}.
+      \]
+      For any negative energy the only square-integrable exterior waves are decaying exponentials. Their common amplitude is forced by continuity and their logarithmic slope by the jump, proving uniqueness up to phase. Positive-energy oscillatory exterior waves supply no \(L^2\) eigenvectors.
+
+      Numerical cross-check: the matching residuals were checked for two real and two nonreal wavenumbers away from the pole. The rescaled pole limit agrees on both half-lines, its probability integrates to one, and the real-wavenumber flux sum equals one.
+    distinct_statement_outcome: agrees
+  297bf476bb05:
+    unit: q10
+    question_sha256: 297bf476bb055e8546051956204a16fddd28e0dab1c6f26ba9e62ef483fb4a5b
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/solution.tex
+    solution_sha256: 04badbaf05cd5784a78262b3ee69bedc7ba9b077ad671d7f416b36339dd05124
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/metadata-before.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/check.py
+    computer_sha256: ef107b709f0a5959cae13bee836ed105e8115f782ebe00e88f755107e5acb729
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/comparison.md
+    status: ai-draft
+    rank: archived verified variant
+    check_rerun: Verified continuity, jump, unitarity, bound-state pole limits, energy and norm.
+    comparison_with_blind: The updated wording asks for coefficients. The solution identifies them as amplitudes
+      and provides their real-axis flux probabilities, correctly distinguishes formal and physical states, and recovers
+      the same pole residue and energy. The actual auxiliary example explains the printed lower-bound defect.
+    blind_derivation_sha256: 21411dbc87f5f9b84d105caf42a4b20a40da3268184ec283be94aec34b112c20
+    blind_derivation: |
+      # q10 · independent rework for 297bf476bb05
+
+      Question SHA-256: `297bf476bb055e8546051956204a16fddd28e0dab1c6f26ba9e62ef483fb4a5b`.
+
+      Originals: 2020-21 Q7 p2.
+
+      Use \(f=\psi\) and the Sheet 1, Example 9 jump rule with \(U>0\). The coefficients of travelling waves and the real-axis flux ratios are both given below. The reference also prints \(-U<E<0\). Here \(U\) has units of energy times length, so the lower comparison has no invariant meaning and is not implied by the attractive delta potential.
+
+
+      For incidence from the left, let the two exterior solutions be \(f(x)=e^{ikx}+r e^{-ikx}\) for \(x<0\), and \(f(x)=t e^{ikx}\) for \(x>0\). Each solves the free equation with \(E=\hbar^2 k^2/(2m)\). For the attractive interaction put \(\kappa=mU/\hbar^2>0\), which has units of inverse length. Continuity gives \(t=1+r\). Integration of the Schrödinger equation across zero gives \(ik(t-1+r)=-2\kappa t\): the delta integrates to \(-U f(0)\) and the energy term tends to zero with the integration interval. Hence \(ik r=-\kappa(1+r)\), so
+      \[
+      A_{\rm tr}(k)=t=\frac{k}{k-i\kappa},\qquad
+      A_{\rm ref}(k)=r=\frac{i\kappa}{k-i\kappa}.
+      \]
+      The denominator is nonzero for every real \(k>0\). These coefficients multiply waves and are amplitudes. For real \(k>0\) the physical current fractions are \(k^2/(k^2+\kappa^2)\) and \(\kappa^2/(k^2+\kappa^2)\), with sum one and limits \(0,1\) respectively at threshold. A real-\(k\) wave is a continuum generalized eigenfunction, rather than an \(L^2\) vector.
+
+      For complex \(k\) off the pole the same algebra gives a formal solution of the differential and matching equations. For nonreal \(k\) with nonzero real part the energy is nonreal, excluded from the self-adjoint Hamiltonian's spectrum. For pure imaginary \(k\ne0\) the energy is real and negative, but the incident-normalised solution away from the pole grows on at least one half-line. Specifically, in the upper half-plane the unit incident term grows on the left, and in the lower half-plane the transmitted term grows on the right. Such continuations are not physical scattering states or Hilbert-space eigenvectors. At \(k=0\) the displayed unit-incident expression collapses to zero; it does not supply a zero-energy bound state, since the exterior solutions there are affine and a square-integrable one must vanish.
+
+      The two amplitudes have a simple pole at \(k=i\kappa\). First multiply the *whole wave* by \(k-i\kappa\). On the left this gives \((k-i\kappa)e^{ikx}+i\kappa e^{-ikx}\), on the right \(ke^{ikx}\). At \(k=i\kappa\) both pieces join to \(i\kappa e^{-\kappa|x|}\). Since \(\int_{\mathbb R} e^{-2\kappa|x|}\,dx=1/\kappa\), a unit vector is
+      \[
+      f_b(x)=\sqrt{\kappa}\,e^{-\kappa|x|},\qquad
+      E_b=-\frac{\hbar^2\kappa^2}{2m}=-\frac{mU^2}{2\hbar^2}.
+      \]
+      For any negative energy the only square-integrable exterior waves are decaying exponentials. Their common amplitude is forced by continuity and their logarithmic slope by the jump, proving uniqueness up to phase. Positive-energy oscillatory exterior waves supply no \(L^2\) eigenvectors.
+
+      Numerical cross-check: the matching residuals were checked for two real and two nonreal wavenumbers away from the pole. The rescaled pole limit agrees on both half-lines, its probability integrates to one, and the real-wavenumber flux sum equals one.
+    distinct_statement_outcome: agrees
+  a3f976c1850f:
+    unit: q10
+    question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/solution.tex
+    solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/q10/meta.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/q10/check.py
+    computer_sha256: 393c4c68eafe89cb454e07ca142c8a299328ad28e36924a8bcc36cc4d7c7e0eb
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/q10/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/q10/comparison.md
+    status: ai-draft
+    rank: canonical
+    canonical_pdf_receipt:
+      built_at: '2026-11-21T06:20:48.034401+00:00'
+      source_hashes:
+        question.tex: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+        solution.tex: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+      path: build/IB-quantum-mechanics-sheet-2/main.pdf
+      build_hashes:
+        templates/preamble.tex: e29a24b70b25cc8c6ab33b08e1420850dbc3d9d2725f24294e80b136cda596a9
+        scripts/build.py: 8757a77705a187923cd046ab4a64f6f427b28b27dfb08f95cc330a0d0a125a54
+    check_rerun: Scattering interface, flux, pole limit, normalised tail and bound energy verified.
+    comparison_with_blind: The use of γ for mU/ℏ² and division by t give an equivalent rescaling of the full scattering
+      state. The pole energy, equal tail amplitudes and normalized bound wave agree. Real-k amplitudes are distinguished
+      from probabilities. The 2022–23 and later Example 2 targets have the appropriate energy qualifier.
+    blind_derivation_sha256: dd6fa27a6fb775fa79a8bc43b04d7aa1e1f19f5c267163c1061790c4b81a2646
+    blind_derivation: |
+      # q10 · independent rework for a3f976c1850f
+
+      Question SHA-256: `a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5`.
+
+      Originals: 2022-23 Q10 p2, 2023-24 Q10 p2,3, 2025-26 Q10 p2, 2026-27 Q10 p2, unresolved-header-2024-copyright-2023 Q10 p2,3.
+
+      Use \(f=\chi\) and the jump condition in this sheet’s Example 2 with \(U>0\). The requested coefficients attached to the travelling waves and the real-axis flux ratios are both given below. The 2022–23 printed Example 2 additionally gives \(-U<E<0\); comparison with \(-U\) is dimensionally inapplicable to a delta strength. The other supplied Example 2 references print simply \(E<0\). This distinction leaves the scattering and pole calculations unchanged.
+
+
+      For incidence from the left, let the two exterior solutions be \(f(x)=e^{ikx}+r e^{-ikx}\) for \(x<0\), and \(f(x)=t e^{ikx}\) for \(x>0\). Each solves the free equation with \(E=\hbar^2 k^2/(2m)\). For the attractive interaction put \(\kappa=mU/\hbar^2>0\), which has units of inverse length. Continuity gives \(t=1+r\). Integration of the Schrödinger equation across zero gives \(ik(t-1+r)=-2\kappa t\): the delta integrates to \(-U f(0)\) and the energy term tends to zero with the integration interval. Hence \(ik r=-\kappa(1+r)\), so
+      \[
+      A_{\rm tr}(k)=t=\frac{k}{k-i\kappa},\qquad
+      A_{\rm ref}(k)=r=\frac{i\kappa}{k-i\kappa}.
+      \]
+      The denominator is nonzero for every real \(k>0\). These coefficients multiply waves and are amplitudes. For real \(k>0\) the physical current fractions are \(k^2/(k^2+\kappa^2)\) and \(\kappa^2/(k^2+\kappa^2)\), with sum one and limits \(0,1\) respectively at threshold. A real-\(k\) wave is a continuum generalized eigenfunction, rather than an \(L^2\) vector.
+
+      For complex \(k\) off the pole the same algebra gives a formal solution of the differential and matching equations. For nonreal \(k\) with nonzero real part the energy is nonreal, excluded from the self-adjoint Hamiltonian's spectrum. For pure imaginary \(k\ne0\) the energy is real and negative, but the incident-normalised solution away from the pole grows on at least one half-line. Specifically, in the upper half-plane the unit incident term grows on the left, and in the lower half-plane the transmitted term grows on the right. Such continuations are not physical scattering states or Hilbert-space eigenvectors. At \(k=0\) the displayed unit-incident expression collapses to zero; it does not supply a zero-energy bound state, since the exterior solutions there are affine and a square-integrable one must vanish.
+
+      The two amplitudes have a simple pole at \(k=i\kappa\). First multiply the *whole wave* by \(k-i\kappa\). On the left this gives \((k-i\kappa)e^{ikx}+i\kappa e^{-ikx}\), on the right \(ke^{ikx}\). At \(k=i\kappa\) both pieces join to \(i\kappa e^{-\kappa|x|}\). Since \(\int_{\mathbb R} e^{-2\kappa|x|}\,dx=1/\kappa\), a unit vector is
+      \[
+      f_b(x)=\sqrt{\kappa}\,e^{-\kappa|x|},\qquad
+      E_b=-\frac{\hbar^2\kappa^2}{2m}=-\frac{mU^2}{2\hbar^2}.
+      \]
+      For any negative energy the only square-integrable exterior waves are decaying exponentials. Their common amplitude is forced by continuity and their logarithmic slope by the jump, proving uniqueness up to phase. Positive-energy oscillatory exterior waves supply no \(L^2\) eigenvectors.
+
+      Numerical cross-check: the matching residuals were checked for two real and two nonreal wavenumbers away from the pole. The rescaled pole limit agrees on both half-lines, its probability integrates to one, and the real-wavenumber flux sum equals one.
+    distinct_statement_outcome: agrees
+  914e74967595:
+    unit: qx02
+    question_sha256: 914e74967595abe5df97d1b030ca40033eba0d1379587fc61cc432c24caf2b66
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/solution.tex
+    solution_sha256: 4e41dc6c642bccac1e7697d25853959dbe1435a9107dfcf9524630341d8d5823
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/metadata-before.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/check.py
+    computer_sha256: 84f7e53252ab7d9a3d53c92afad7fd559e6fd8e891666cfd91806e8093209872
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/comparison.md
+    status: ai-draft
+    rank: archived verified variant
+    check_rerun: Verified the three level energies, parities and all nine Gram matrix entries.
+    comparison_with_blind: The χ ladder proof both excludes noninteger bound levels and generates each allowed level.
+      Normalisation, three wavefunctions, parities and all three independent zero overlaps agree.
+    blind_derivation_sha256: b90421d0adeb33acd0d872d790ac132e903bbabbe5baaf0ce13ca10d0087a319
+    blind_derivation: |
+      # qx02 · independent rework for 914e74967595
+
+      Question SHA-256: `914e74967595abe5df97d1b030ca40033eba0d1379587fc61cc432c24caf2b66`.
+
+      Originals: unresolved-header-2003-copyright-2004 Q4 p1.
+
+      Let \(\ell=\sqrt{\hbar/(m\omega)}\), \(y=x/\ell\), with \(m,\omega>0\). The dimensionless Hamiltonian \(H/(\hbar\omega)=(-\partial_y^2+y^2)/2\) factors as \(a^\dagger a+\tfrac12\), where \(a=(y+\partial_y)/\sqrt2\) and \(a^\dagger=(y-\partial_y)/\sqrt2\). These act as adjoints on the oscillator eigenfunctions under integration by parts (the normalisable branches decay at both ends). Differentiating \(y f\) gives \([a,a^\dagger]=1\), so \(N=a^\dagger a\) satisfies \([N,a]=-a\), \([N,a^\dagger]=a^\dagger\).
+
+      For any normalised energy eigenfunction, write \(Nf=\lambda f\). Then \(\lambda=\|af\|^2\ge0\). A nonzero lowered state has eigenvalue \(\lambda-1\) and positive squared norm when \(\lambda>0\). If \(\lambda\) were not an integer, repeated lowering would start from a value in \((0,1)\) at the final step and produce a nonzero state of negative eigenvalue, impossible. The bottom solves \(af_0=0\), yielding the unique normalised Gaussian up to phase. Raising from it always gives a nonzero eigenstate, since \(\|a^\dagger f_n\|^2=n+1\). This proves precisely the levels \(E_n=(n+\tfrac12)\hbar\omega,\ n=0,1,\ldots\).
+
+      Let \(F(x)=(\pi\ell^2)^{-1/4}e^{-y^2/2}\). Applying the raising operator with the just-derived normalising factors gives
+      \[
+      \chi_0=F,\qquad \chi_1=\sqrt2\,yF,\qquad \chi_2=\frac{2y^2-1}{\sqrt2}F.
+      \]
+      The common Gaussian is even. The prefactors are even, odd, even, respectively; each product involving the odd state and either even state is integrable and odd, so each integral on \(\mathbb R\) vanishes. The remaining pair has inner product
+      \[
+      \int \chi_2^*\chi_0\,dx=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}(2y^2-1)e^{-y^2}dy
+      =-\frac1{\sqrt{2\pi}}\big[ye^{-y^2}\big]_{-\infty}^{\infty}=0.
+      \]
+      Both boundary terms vanish by Gaussian decay. The common choice of phase makes each displayed wave real; individual phase changes do not affect the conclusions.
+
+      Numerical cross-check: direct quadrature of the three-by-three overlap matrix gives identity to \(10^{-40}\). All three differential-equation residuals vanish to this tolerance at \(y=-1,0,2\).
+    distinct_statement_outcome: agrees
+  bb2f5f691be9:
+    unit: qx04
+    question_sha256: bb2f5f691be971a661368ae2e69f6be9db2bf8c0d65d39747ebd081e862e2524
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/question.tex
+    solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/solution.tex
+    solution_sha256: e1ca54ee0e1aed687c961e8b25b508f6197c952d573b348e10ecc3f6cde9688a
+    receipt: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/metadata-before.yaml
+    computer_script: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/check.py
+    computer_sha256: 00d6858f05d10d59f50f0c674007ab30cef92e5328d71fab217a52a560165ea0
+    independent_agreement: agreed
+    independent_evidence: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/independent-solution.md
+    comparison: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/comparison.md
+    status: ai-draft
+    rank: archived verified variant
+    check_rerun: Verified swap eigenpairs, energy means, return probability, expansion and Zeno limit scaling.
+    comparison_with_blind: The unstarred χ variant uses a logarithmic expansion in place of the frozen elementary
+      bound. Its coefficient −π²/(4n) and n≥2 domain are correct, so the conditional product again tends to one.
+    blind_derivation_sha256: d5260c42da2a1e307978395709eafc19d810a711a360c6b0b943f95be8e24a6c
+    blind_derivation: |
+      # qx04 · independent rework for bb2f5f691be9
+
+      Question SHA-256: `bb2f5f691be971a661368ae2e69f6be9db2bf8c0d65d39747ebd081e862e2524`.
+
+      Originals: unresolved-header-2003-copyright-2004 Q8 p2.
+
+      Use the ordered orthonormal energy basis \((\chi_1,\chi_2)\). The map sending \((c_1,c_2)\mapsto(c_2,c_1)\) has eigenvalues satisfying \(s^2=1\); for each sign one obtains the normalised eigenfunction \(\phi_\pm=(\chi_1\pm \chi_2)/\sqrt2\). Its two energy weights are both \(1/2\), so each expectation is \(\mu=(E_1+E_2)/2=E_1+\Delta E/2\).
+
+      The first ideal \(+1\) measurement prepares \(\phi_+\). Under free evolution generated by the system Hamiltonian, the energy components gain respective phases \(e^{-iE_jt/\hbar}\). Projection onto \(\phi_+\) gives the amplitude \(A(t)=(e^{-iE_1t/\hbar}+e^{-iE_2t/\hbar})/2=e^{-i\mu t/\hbar}\cos(\Delta E\,t/(2\hbar))\). Its squared modulus is \(\cos^2(\Delta E\,t/(2\hbar))\), equal to one initially and zero at \(T=\pi\hbar/\Delta E\). The positive gap ensures \(T\) is finite.
+
+      For \(n\) equal intervals, conditional on all previous outcomes being \(+1\), each interval starts in the same \(\phi_+\). For fixed \(T,E_1,E_2\), Taylor expansion at \(t=T/n\) yields
+      \[
+      A_n=e^{-i\mu T/(n\hbar)}\cos(\pi/(2n))
+      =1-\frac{iT\mu}{n\hbar}+O(n^{-2}).
+      \]
+      The product rule for conditional probabilities gives \(P_n=|A_n|^{2n}=\cos^{2n}(\pi/(2n))\). For positive integer \(n\), Bernoulli’s inequality and \(\sin z\le z\) for \(z\ge0\) imply
+      \[
+      0\le1-P_n=1-(1-\sin^2(\pi/(2n)))^n\le n\sin^2(\pi/(2n))\le\pi^2/(4n).
+      \]
+      Thus \(P_n\to1\), even though the single unobserved interval of length \(T\) gives zero return probability. The product counts histories in which every measurement gives \(+1\).
+
+      Numerical cross-check: the direct two-phase amplitude raised through \(n=1,2,10,100,1000\) reproduces the exact product and satisfies the one-sided bound.
+    distinct_statement_outcome: agrees
+occurrences:
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2006-07/sheet-2.pdf
+  original_sha256: 955c5915437825c89bc8e97d885be99e67dfb163d5412fceed6f690c1d260322
+  original_pages:
+  - 1
+  printed_number: '2'
+  year: 2006-07
+  group: editions
+  question_sha256: dc480140f82a5d864ca9b3cb4bdffe6062beac77b3e851a508e36142950b521e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/variants/2006-07/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: d2149184fb6fe02a02bf845b769c08ff9ed8477833e7c81558ccd241a106cdaa
+  mapped_solution_sha256: 869f96e936b13ea90a5f25be7f224ddd3a023d148d226df9a45aad1e8097059f
+  distinct_text: dc480140f82a
+  outcome: agrees
+- unit: qx02
+  original: private/raw/sheets/IB/quantum-mechanics/2006-07/sheet-2.pdf
+  original_sha256: 955c5915437825c89bc8e97d885be99e67dfb163d5412fceed6f690c1d260322
+  original_pages:
+  - 1
+  printed_number: '4'
+  year: 2006-07
+  group: editions
+  question_sha256: e88e87b7ccde3eb6ead1b53d92f4f989d35d28dc297ce83e6f4a87a0e36b500d
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 2316fde828e9ae91c500bf278deab4ee6b415ee99a1dc34cfe38ecf797892fb3
+  mapped_solution_sha256: 0b428e2ee49f5e340bd1bfd64021daf3dd83ea29acc082e83453dff42aa26d2e
+  distinct_text: e88e87b7ccde
+  outcome: agrees
+- unit: qx04
+  original: private/raw/sheets/IB/quantum-mechanics/2006-07/sheet-2.pdf
+  original_sha256: 955c5915437825c89bc8e97d885be99e67dfb163d5412fceed6f690c1d260322
+  original_pages:
+  - 2
+  printed_number: '8'
+  year: 2006-07
+  group: editions
+  question_sha256: 704634d71039e0e9de3c8b0f2f4ed4946ff839a7a52576c81e10f6a61f30caaf
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 5f62c2154f4a566f44a9ee8fa332d9adbeeebedb1c45e4192abe93c3e77664fd
+  mapped_solution_sha256: 125e9b1b3500e0212207fefca330d1820ad8ac61c43e33b900542df5870d397c
+  distinct_text: 704634d71039
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2015-16/sheet-2.pdf
+  original_sha256: ec5da087600888636992f4523efc7cbd64ab121b20f62e5d3428d78d0bac4aa1
+  original_pages:
+  - 1
+  printed_number: '5'
+  year: 2015-16
+  group: editions
+  question_sha256: f7a64d81da9ecc1985d5b957cf86bee06ef6e3381143ad7c9e5b895714bed56a
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/variants/2015-16/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 4037b2e4f0c0a63dd524ca02b142d4d9ecf2abc7238c12276c48c7957d59f6ed
+  mapped_solution_sha256: d6860baa99ab7caf7cf3822aa3c1ef4e3625a0a9d5733e32c4a0f30cc0130cd0
+  distinct_text: f7a64d81da9e
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2018-19/sheet-2.pdf
+  original_sha256: ac7b7fceb47dd3ac4c1f2cc387fb8c5af4e2403c6ed1e024e5421a33640b0601
+  original_pages:
+  - 1
+  printed_number: '6'
+  year: 2018-19
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 42a8e6f1dd754513540cc449eaa162f290191361f47f1550e4391bcb0e852a6a
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2018-19/sheet-2.pdf
+  original_sha256: ac7b7fceb47dd3ac4c1f2cc387fb8c5af4e2403c6ed1e024e5421a33640b0601
+  original_pages:
+  - 2
+  printed_number: '7'
+  year: 2018-19
+  group: editions
+  question_sha256: d8be8905b5f9b46f88b3067b22e9532ced04c8fa3ca757bafebcbb4d48c76fe7
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/variants/2018-19/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 9 on Sheet 1
+    unit: IB/quantum-mechanics/sheet-1/qx05
+    original: private/raw/sheets/IB/quantum-mechanics/2018-19/sheet-1.pdf
+    page:
+    - 2
+    printed_number: '9'
+    question: courses/IB/quantum-mechanics/sheets/sheet-1/qx05/variants/2018-19/question.tex
+    question_sha256: e18a6c1729be82d38f04cbf54bc1cd373139e6f51db5be5ca2b56d7247e635de
+    original_sha256: 797c0d4e510c73d3dab9809295fc227d8066fa289748852bd2716d7835dda659
+    html_href: ../sheet-1/2018-19.html#qx05
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-1/2018-19.html
+    inspected_original_crop_sha256: a027dc131b2e358a4a2b0ff1f1843c971c862ef3f157acb647022e4093703387
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-1/qx05/history/verified-2015-16-e18a6c1729be/solution.tex
+    target_solution_sha256: 0a7ff55eeb3c7dd4fd59179e33b78ecbdbaf7dc09e8dd1e890e9d501182082aa
+    target_pdf: build/IB-quantum-mechanics-sheet-1-2018-19/main.pdf
+    target_pdf_sha256: 8825e411a9ccfd02503c0c0b81d9a6e6f321e1bfe7dc1164a3a9ec88fae9664a
+    target_pdf_pages:
+    - 11
+    target_question_bounds: no printed bound qualifier
+    target_pdf_page_image_sha256:
+    - b07035fd644bd7d59c71aa4fbbf9b28b3addaf1e91b590ca2b266703a1f6b448
+  inspected_original_crop_sha256: a771e60c566fc3fc5de80b72b9645df3f9f6e8011e72c3a915bb7f4ebf3c6ae7
+  mapped_solution_sha256: be415d12f39b6b9c6b980148a802ae01ecb2e80e65edd6762e69ccdcdd2d62c7
+  distinct_text: d8be8905b5f9
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2019-20/sheet-2.pdf
+  original_sha256: 615cd8ab55e041e6d18cdb5a7a505c9e4183ccd636fac1cd31996d462c6d262d
+  original_pages:
+  - 1
+  printed_number: '6'
+  year: 2019-20
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 81b542189b4549c27d6b92809bed3f9dd84b4e9ac649360136d863bc38aa4677
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2019-20/sheet-2.pdf
+  original_sha256: 615cd8ab55e041e6d18cdb5a7a505c9e4183ccd636fac1cd31996d462c6d262d
+  original_pages:
+  - 2
+  printed_number: '7'
+  year: 2019-20
+  group: editions
+  question_sha256: d8be8905b5f9b46f88b3067b22e9532ced04c8fa3ca757bafebcbb4d48c76fe7
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/variants/2019-20/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2018-19-d8be8905b5f9/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 9 on Sheet 1
+    unit: IB/quantum-mechanics/sheet-1/qx05
+    original: private/raw/sheets/IB/quantum-mechanics/2019-20/sheet-1.pdf
+    page:
+    - 2
+    printed_number: '9'
+    question: courses/IB/quantum-mechanics/sheets/sheet-1/qx05/variants/2019-20/question.tex
+    question_sha256: e18a6c1729be82d38f04cbf54bc1cd373139e6f51db5be5ca2b56d7247e635de
+    original_sha256: fd64195c04c5d1ca118335b994ae05f97227259496f717e12a4c9b748fc25ea5
+    html_href: ../sheet-1/2019-20.html#qx05
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-1/2019-20.html
+    inspected_original_crop_sha256: 2e0802d02d4e420e95add35338d7de8fc07a9275bf2a85d390a3daf1070be3a5
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-1/qx05/history/verified-2015-16-e18a6c1729be/solution.tex
+    target_solution_sha256: 0a7ff55eeb3c7dd4fd59179e33b78ecbdbaf7dc09e8dd1e890e9d501182082aa
+    target_pdf: build/IB-quantum-mechanics-sheet-1-2019-20/main.pdf
+    target_pdf_sha256: a03051c2ddae4054944273ec99b7d96b5a8ef44b77c8b701ec694b5fab8761f0
+    target_pdf_pages:
+    - 11
+    target_question_bounds: no printed bound qualifier
+    target_pdf_page_image_sha256:
+    - b386eb883ec720935eb7c60df6123730d6af2f7e0ef1c432f4bb118395cf6f88
+  inspected_original_crop_sha256: 58334a05c0e2e03a8fe393d1bb59356f669bc54014e1a70cd89141fe35ed7374
+  mapped_solution_sha256: be415d12f39b6b9c6b980148a802ae01ecb2e80e65edd6762e69ccdcdd2d62c7
+  distinct_text: d8be8905b5f9
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2020-21/sheet-2.pdf
+  original_sha256: 999e4ef624ade1d300579db9020cf012789aed72a849a131c267e956fd3689a1
+  original_pages:
+  - 1
+  printed_number: '6'
+  year: 2020-21
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: d5be51f975fe37bc253d3f6b8a89895a611d46d068a6804d81d1cc46b183c7e6
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2020-21/sheet-2.pdf
+  original_sha256: 999e4ef624ade1d300579db9020cf012789aed72a849a131c267e956fd3689a1
+  original_pages:
+  - 2
+  printed_number: '7'
+  year: 2020-21
+  group: editions
+  question_sha256: 297bf476bb055e8546051956204a16fddd28e0dab1c6f26ba9e62ef483fb4a5b
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/variants/2020-21/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/history/verified-2020-21-297bf476bb05/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 9 on Sheet 1
+    unit: IB/quantum-mechanics/sheet-1/qx05
+    original: private/raw/sheets/IB/quantum-mechanics/2020-21/sheet-1.pdf
+    page:
+    - 2
+    printed_number: '9'
+    question: courses/IB/quantum-mechanics/sheets/sheet-1/qx05/question.tex
+    question_sha256: 4e39b255d7215b4469ad1de85590770e566bd120d9d31c898b4b6223e141efd1
+    original_sha256: 99f312ea1daeffa362f76232ee526d9f6eb50b1ec0eb89d05d8c310d74ab6611
+    html_href: ../sheet-1/2020-21.html#qx05
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-1/2020-21.html
+    inspected_original_crop_sha256: 801dc1acebe21d7fe75e82546cf1442ec5f2e849820f3796517203d053d3ae0e
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-1/qx05/solution.tex
+    target_solution_sha256: 50e4d733590c5cd9e75a6c7f161f0c2e95511fe3786d75df959b1f3b52814d0f
+    target_pdf: build/IB-quantum-mechanics-sheet-1-2020-21/main.pdf
+    target_pdf_sha256: 4f770a3138a590d23d4152cb415d6be475be2085a8aed7bc9695b35fdb53989a
+    target_pdf_pages:
+    - 11
+    target_question_bounds: printed lower comparison -U<E<0; corresponding solution explicitly corrects it
+    target_pdf_page_image_sha256:
+    - e31a08fa923c73f92f6a3c63da8a2b0be040e168b62211f302c382e16fc591be
+  inspected_original_crop_sha256: 7b969bdff8cdd259cd99753d133f2c0763e7ee48e65fba940ac224ed96f50e26
+  mapped_solution_sha256: 04badbaf05cd5784a78262b3ee69bedc7ba9b077ad671d7f416b36339dd05124
+  distinct_text: 297bf476bb05
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2022-23/sheet-2.pdf
+  original_sha256: 225964d6c5371e4252aa6646778b6b345018c9e6c72a11dc5574902c9f996a22
+  original_pages:
+  - 2
+  printed_number: '9'
+  year: 2022-23
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: a33ba796000206f15cc64473e2054ff037f7e7e3712cb9251e54b922c353aca1
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2022-23/sheet-2.pdf
+  original_sha256: 225964d6c5371e4252aa6646778b6b345018c9e6c72a11dc5574902c9f996a22
+  original_pages:
+  - 2
+  printed_number: '10'
+  year: 2022-23
+  group: editions
+  question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 2
+    unit: IB/quantum-mechanics/sheet-2/q02
+    original: private/raw/sheets/IB/quantum-mechanics/2022-23/sheet-2.pdf
+    page:
+    - 1
+    printed_number: '2'
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q02/variants/2022-23/question.tex
+    question_sha256: 87771a0eee7fbebde7143952e75a9e6e3e552ee4e621d60ade3345f6932e1e33
+    original_sha256: 225964d6c5371e4252aa6646778b6b345018c9e6c72a11dc5574902c9f996a22
+    html_href: 2022-23.html#q02
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-2/2022-23.html
+    inspected_original_crop_sha256: 887d64c8ec359d6f3ef41ef5bc0727b9328e6098fa133e6e019eb4f7b6cd5095
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-2/q02/history/verified-2022-23-87771a0eee7f/solution.tex
+    target_solution_sha256: 3cb5a4bc366dd6bd91d506784939dd6e2ddc6cb9b44957455935ff181b1777e9
+    target_pdf: build/IB-quantum-mechanics-sheet-2-2022-23/main.pdf
+    target_pdf_sha256: 518b0d482b4647288660c2e1c7af592bee822b2f9215b039ca5710119fa3c899
+    target_pdf_pages:
+    - 2
+    target_question_bounds: printed lower comparison -U<E<0; corresponding solution explicitly corrects it
+    target_pdf_page_image_sha256:
+    - f0282812a4f844ca74fe5a761070cf183bf640d5e8cd22c0af6e4c2bda076b17
+  inspected_original_crop_sha256: 5cb0f6ee6b27237aba8e1c47b3646d84b7685acdabd4f7156427a7bc482007e2
+  mapped_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+  distinct_text: a3f976c1850f
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2023-24/sheet-2.pdf
+  original_sha256: 4f2669389b379b4fcd7de3ca4ca707af40b643d62b64d8ca51e538ad864aba08
+  original_pages:
+  - 2
+  printed_number: '9'
+  year: 2023-24
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: af058f6600f94e780638d0350fedeef6af9b0c0d177af0a9320529f5a2db42a6
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2023-24/sheet-2.pdf
+  original_sha256: 4f2669389b379b4fcd7de3ca4ca707af40b643d62b64d8ca51e538ad864aba08
+  original_pages:
+  - 2
+  - 3
+  printed_number: '10'
+  year: 2023-24
+  group: editions
+  question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 2
+    unit: IB/quantum-mechanics/sheet-2/q02
+    original: private/raw/sheets/IB/quantum-mechanics/2023-24/sheet-2.pdf
+    page:
+    - 1
+    printed_number: '2'
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q02/question.tex
+    question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+    original_sha256: 4f2669389b379b4fcd7de3ca4ca707af40b643d62b64d8ca51e538ad864aba08
+    html_href: 2023-24.html#q02
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-2/2023-24.html
+    inspected_original_crop_sha256: f217f6ed46c6f5c0d8114486dad6d0a63a9c8380edd4e5d2ab3a3b33b727a846
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-2/q02/solution.tex
+    target_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+    target_pdf: build/IB-quantum-mechanics-sheet-2-2023-24/main.pdf
+    target_pdf_sha256: f24d3b95e0683d802d7b49b374660a76bdc1670924afee2992decbe4927ae03b
+    target_pdf_pages:
+    - 2
+    target_question_bounds: printed E<0
+    target_pdf_page_image_sha256:
+    - 2727c722b23a49d8324244cb4da18cf6b7a7d7e19c3f1207f48edeefc5e28bce
+  inspected_original_crop_sha256: 58bd6145e7a81efebb10abc39025fb01c9059b9d18dfbdc4e9fc8a608d8facac
+  mapped_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+  distinct_text: a3f976c1850f
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+  original_sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+  original_pages:
+  - 2
+  printed_number: '9'
+  year: 2025-26
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: f52c3dd9d84216dad82e250817fd57041b5cc683c84146d6b26f0f3af47314bf
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+  original_sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+  original_pages:
+  - 2
+  printed_number: '10'
+  year: 2025-26
+  group: editions
+  question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 2
+    unit: IB/quantum-mechanics/sheet-2/q02
+    original: private/raw/sheets/IB/quantum-mechanics/2025-26/sheet-2.pdf
+    page:
+    - 1
+    printed_number: '2'
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q02/question.tex
+    question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+    original_sha256: cff8bf44ef5671a2dc7fa1470e5de173def7fa88c64dcdb30b05453d05f2722c
+    html_href: 2025-26.html#q02
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+    inspected_original_crop_sha256: e971540fc69ce90a2fca9c5cd501f67ba70320a89de41d38ba6c6123729f848e
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-2/q02/solution.tex
+    target_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+    target_pdf: build/IB-quantum-mechanics-sheet-2-2025-26/main.pdf
+    target_pdf_sha256: cb240f2476ce8c5742b4e7831a166a570fe87fe2488431b8d99edc7aa038db3d
+    target_pdf_pages:
+    - 2
+    target_question_bounds: printed E<0
+    target_pdf_page_image_sha256:
+    - d330a021008a4bd9f17956cecd99323c5f485311864fff3f212fe5ee64af3c46
+  inspected_original_crop_sha256: aeade16075bffb679758cefdc41b07b9ba5b56385a19e009bef026b109fba312
+  mapped_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+  distinct_text: a3f976c1850f
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2026-27/sheet-2.pdf
+  original_sha256: fca609db7e3a369e02101e7c99b903cb2ef59c059efec5db780c8e96378878f0
+  original_pages:
+  - 2
+  printed_number: '9'
+  year: 2026-27
+  group: editions
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: f87146d445e9422763ee8ca9028b1a7b13e21232f3ff398e5e4da04e5dbe3739
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/2026-27/sheet-2.pdf
+  original_sha256: fca609db7e3a369e02101e7c99b903cb2ef59c059efec5db780c8e96378878f0
+  original_pages:
+  - 2
+  printed_number: '10'
+  year: 2026-27
+  group: editions
+  question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 2
+    unit: IB/quantum-mechanics/sheet-2/q02
+    original: private/raw/sheets/IB/quantum-mechanics/2026-27/sheet-2.pdf
+    page:
+    - 1
+    printed_number: '2'
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q02/question.tex
+    question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+    original_sha256: fca609db7e3a369e02101e7c99b903cb2ef59c059efec5db780c8e96378878f0
+    html_href: 2026-27.html#q02
+    target_html: site/private/collections/IB/quantum-mechanics/sheet-2/2026-27.html
+    inspected_original_crop_sha256: a95a881864591873910835258a973780ec2c4bda2f7efdd840950c5ca6fa9213
+    target_solution: courses/IB/quantum-mechanics/sheets/sheet-2/q02/solution.tex
+    target_solution_sha256: adf4a47524da992792e2c88c559fc611da8040fc24093f9af86c5c1d3d4e5a10
+    target_pdf: build/IB-quantum-mechanics-sheet-2-2026-27/main.pdf
+    target_pdf_sha256: e1055826b9f5dfff67ed54356b66e550d64d16f0658b7da32d4338befab8d1c2
+    target_pdf_pages:
+    - 2
+    target_question_bounds: printed E<0
+    target_pdf_page_image_sha256:
+    - 1e9945c436dff7abfebdea754901981cc199b594eab3e23cd3663c815672978a
+  inspected_original_crop_sha256: 829f77b3606f217da85912db69559a8dddf5986d262176a4ccaabee455ed6fda
+  mapped_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+  distinct_text: a3f976c1850f
+  outcome: agrees
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2003-copyright-2004/sheet-2.pdf
+  original_sha256: 78def86898f82ca9dc86079353dd38f17f665afac528a80f3b43b0c6d5e9bad3
+  original_pages:
+  - 1
+  printed_number: '2'
+  year: unresolved-header-2003-copyright-2004
+  group: additional_originals
+  question_sha256: dc480140f82a5d864ca9b3cb4bdffe6062beac77b3e851a508e36142950b521e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/variants/2006-07/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2006-07-dc480140f82a/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: f03b710ac02fd5d7e8f7923209399a461811b73ce87037b7a7e1897767ebda05
+  mapped_solution_sha256: 869f96e936b13ea90a5f25be7f224ddd3a023d148d226df9a45aad1e8097059f
+  distinct_text: dc480140f82a
+  outcome: agrees
+  delivery: Verified question and solved variant are mapped in the additional-originals index. No separate dated
+    edition is assigned.
+- unit: qx02
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2003-copyright-2004/sheet-2.pdf
+  original_sha256: 78def86898f82ca9dc86079353dd38f17f665afac528a80f3b43b0c6d5e9bad3
+  original_pages:
+  - 1
+  printed_number: '4'
+  year: unresolved-header-2003-copyright-2004
+  group: additional_originals
+  question_sha256: 914e74967595abe5df97d1b030ca40033eba0d1379587fc61cc432c24caf2b66
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/variants/unresolved-header-2003-copyright-2004/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx02/history/verified-unresolved-header-2003-copyright-2004-914e74967595/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: b87b1a844519cfced0f511b4f6081874462b402975d510b683820bb9a985bae8
+  mapped_solution_sha256: 4e41dc6c642bccac1e7697d25853959dbe1435a9107dfcf9524630341d8d5823
+  distinct_text: 914e74967595
+  outcome: agrees
+  delivery: Verified question and solved variant are mapped in the additional-originals index. No separate dated
+    edition is assigned.
+- unit: qx04
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2003-copyright-2004/sheet-2.pdf
+  original_sha256: 78def86898f82ca9dc86079353dd38f17f665afac528a80f3b43b0c6d5e9bad3
+  original_pages:
+  - 2
+  printed_number: '8'
+  year: unresolved-header-2003-copyright-2004
+  group: additional_originals
+  question_sha256: bb2f5f691be971a661368ae2e69f6be9db2bf8c0d65d39747ebd081e862e2524
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/variants/unresolved-header-2003-copyright-2004/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/qx04/history/verified-unresolved-header-2003-copyright-2004-bb2f5f691be9/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 6ec187a1e39dc38aada95c63925f95e12c234a57423b3ad74e6e25a04d00ca77
+  mapped_solution_sha256: e1ca54ee0e1aed687c961e8b25b508f6197c952d573b348e10ecc3f6cde9688a
+  distinct_text: bb2f5f691be9
+  outcome: agrees
+  delivery: Verified question and solved variant are mapped in the additional-originals index. No separate dated
+    edition is assigned.
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2024-copyright-2023/sheet-2.pdf
+  original_sha256: 3cedd0c3db0e9ae86c1d65c2fab6d1e118af8c91ba2bf13e423363bc4401c001
+  original_pages:
+  - 2
+  printed_number: '9'
+  year: unresolved-header-2024-copyright-2023
+  group: additional_originals
+  question_sha256: f65eb13d1e80e37d563f9e7d677aa928ac51018a9a3b6bb3366298d26939b54e
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: e4eaafede1169b369d43267d1513d8de0c264bd94e345f28a7f2619d14adff4c
+  mapped_solution_sha256: 8c21187f2fa854ba32dec71d16c49239d50d818dbf6391dbdb6ff0df5c63ce81
+  distinct_text: f65eb13d1e80
+  outcome: agrees
+  delivery: Verified question and solved variant are mapped in the additional-originals index. No separate dated
+    edition is assigned.
+- unit: q10
+  original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2024-copyright-2023/sheet-2.pdf
+  original_sha256: 3cedd0c3db0e9ae86c1d65c2fab6d1e118af8c91ba2bf13e423363bc4401c001
+  original_pages:
+  - 2
+  - 3
+  printed_number: '10'
+  year: unresolved-header-2024-copyright-2023
+  group: additional_originals
+  question_sha256: a3f976c1850fdb18efd587327d48cc2654e3b7a13c9e8277349e63420e7bb7d5
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q10/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q10/solution.tex
+  original_visual: agrees with frozen transcription
+  printed_reference:
+    label: Example 2
+    unit: IB/quantum-mechanics/sheet-2/q02
+    original: private/raw/sheets/IB/quantum-mechanics/unresolved-header-2024-copyright-2023/sheet-2.pdf
+    page:
+    - 1
+    printed_number: '2'
+    question: courses/IB/quantum-mechanics/sheets/sheet-2/q02/question.tex
+    question_sha256: ca9dd788597a52bf62014feb1394e54875202015edade6c93198074b1d7f73d6
+    original_sha256: 3cedd0c3db0e9ae86c1d65c2fab6d1e118af8c91ba2bf13e423363bc4401c001
+    inspected_original_crop_sha256: 9fc8650b3c6210cc4c8eddd96eda01519996b220490e14510db84c1afa1021c5
+  inspected_original_crop_sha256: 03ae3172e728821cc9b25976ed64b3694c5b96900472cbbe706a425a6ce6f71e
+  mapped_solution_sha256: e5d48470ccb164ee5fb1680a1e74b741f38ecad952f1c318295d95174bf24eb7
+  distinct_text: a3f976c1850f
+  outcome: agrees
+  delivery: Verified question and solved variant are mapped in the additional-originals index. No separate dated
+    edition is assigned.
+- unit: q09
+  original: private/raw/sheets/IB/quantum-mechanics/2015-16/sheets-1-3-mirror.pdf
+  original_sha256: 4f1c3659a50e9b7f704a6082683ddd3b21a95b342b5c652fe0de425817b1c252
+  original_pages:
+  - 3
+  printed_number: '5'
+  year: 2015-16-mirror
+  group: additional_originals
+  question_sha256: f7a64d81da9ecc1985d5b957cf86bee06ef6e3381143ad7c9e5b895714bed56a
+  question: courses/IB/quantum-mechanics/sheets/sheet-2/q09/variants/2015-16/question.tex
+  solution: courses/IB/quantum-mechanics/sheets/sheet-2/q09/history/verified-2015-16-f7a64d81da9e/solution.tex
+  original_visual: agrees with frozen transcription
+  inspected_original_crop_sha256: 5a8c9e78e97eb28192042d30ce144b711b48ebbde4d2869ad277ef6471201b6e
+  mapped_solution_sha256: d6860baa99ab7caf7cf3822aa3c1ef4e3625a0a9d5733e32c4a0f30cc0130cd0
+  distinct_text: f7a64d81da9e
+  outcome: agrees
+  delivery: Verified question and solved variant are mapped in the additional-originals index. No separate dated
+    edition is assigned.
+published_outputs:
+  2006-07-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2006-07.html
+    html_sha256: 72aec5a2b5aea36824dc82a46161b37ff80ce02804a210a93af85249b1a0f0b9
+    pdf: build/IB-quantum-mechanics-sheet-2-2006-07/main.pdf
+    pdf_sha256: 92ce9ab112d2b3688a87a408a2f95bd49d5a9c4239c8e0da2d2fbdf9e313cfb8
+    pdf_pages:
+    - 2
+    pdf_render:
+    - page: 2
+      image_sha256: c331d371d0d1f27609b0b48e86d8aedc55c106b5ea0abab72cc5c93a94a59029
+    expected_question_math: 4
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 28
+      katex: 28
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 2
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 0b12d295860883b914fe60238135920c63f5a4499d12b2326dd1439ac4930132
+  2006-07-qx02:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2006-07.html
+    html_sha256: 72aec5a2b5aea36824dc82a46161b37ff80ce02804a210a93af85249b1a0f0b9
+    pdf: build/IB-quantum-mechanics-sheet-2-2006-07/main.pdf
+    pdf_sha256: 92ce9ab112d2b3688a87a408a2f95bd49d5a9c4239c8e0da2d2fbdf9e313cfb8
+    pdf_pages:
+    - 4
+    pdf_render:
+    - page: 4
+      image_sha256: 864ffbe4c8aebde0722aaad16ac92c5db759391701178e780f95c2cd58b3ba52
+    expected_question_math: 15
+    expected_solution_math: 28
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 43
+      katex: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 4
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 4dbe98b6aea4c1f8052dd8d7cdcc4718fe604e39884590c49336caab032e4bac
+  2006-07-qx04:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2006-07.html
+    html_sha256: 72aec5a2b5aea36824dc82a46161b37ff80ce02804a210a93af85249b1a0f0b9
+    pdf: build/IB-quantum-mechanics-sheet-2-2006-07/main.pdf
+    pdf_sha256: 92ce9ab112d2b3688a87a408a2f95bd49d5a9c4239c8e0da2d2fbdf9e313cfb8
+    pdf_pages:
+    - 8
+    - 9
+    pdf_render:
+    - page: 8
+      image_sha256: 592dd1ad8fbee62aece3422f0c0dbd8338c4984dfbb68e05ff859f64e3b13627
+    - page: 9
+      image_sha256: cdc87acc7562ef9d955a34630649521b2a9da7a90532412365606289de2a1809
+    expected_question_math: 37
+    expected_solution_math: 21
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 58
+      katex: 58
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 8
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 2e857a94be95770d0f62a8aff430760269f9d7df18f531bc91fee384b92b39c3
+  2015-16-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2015-16.html
+    html_sha256: 79c7f9fbfafbcd0921978de9cc6ad878befcd6634b083cfc2e48db85d78ab5f7
+    pdf: build/IB-quantum-mechanics-sheet-2-2015-16/main.pdf
+    pdf_sha256: fccd43b952bfb96226e95cedee0c0bede9e2cda67fa88541d1b956eb4bf21396
+    pdf_pages:
+    - 5
+    pdf_render:
+    - page: 5
+      image_sha256: 5ab3d954e24f09eb0d3ea674780c18795c11acb7a6277ee842c495b74ee90099
+    expected_question_math: 4
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 28
+      katex: 28
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 5
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: bf7def0028bf386b16a99e402f452ad13861d7ce202740d3afad881a9ccbf110
+  2018-19-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2018-19.html
+    html_sha256: 271f5bd1a57085dbe4adcec8369b939cdab714631da4e582541b840fd8380814
+    pdf: build/IB-quantum-mechanics-sheet-2-2018-19/main.pdf
+    pdf_sha256: 3a012e5ed0c019ec23e6b95e5eda73fe65847f2281c3d17961abe27e3fa6a402
+    pdf_pages:
+    - 6
+    pdf_render:
+    - page: 6
+      image_sha256: 1971a2106b7cfe8758b45919a2e42ee9aca8fa1d2578ff9df469530542071d1a
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 6
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: db94ec8e5a1224018cfcd2292df97d6800d6acce43f39a6a231d794cd0a33c02
+  2018-19-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2018-19.html
+    html_sha256: 271f5bd1a57085dbe4adcec8369b939cdab714631da4e582541b840fd8380814
+    pdf: build/IB-quantum-mechanics-sheet-2-2018-19/main.pdf
+    pdf_sha256: 3a012e5ed0c019ec23e6b95e5eda73fe65847f2281c3d17961abe27e3fa6a402
+    pdf_pages:
+    - 7
+    pdf_render:
+    - page: 7
+      image_sha256: 150dfdde31610447257e5d29650da84642574ab61fdcece59038c6ba20436636
+    expected_question_math: 13
+    expected_solution_math: 27
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 40
+      katex: 40
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 7
+      refs:
+      - text: Example 9 on Sheet 1
+        href: ../sheet-1/2018-19.html#qx05
+      h_overflow: 0
+      ref_target:
+        target: qx05
+        title: Question 9
+        math: 28
+        katex: 28
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-1/2018-19.html#qx05
+      js_errors: []
+      screenshot_sha256: 56eb21f6c83a6de40d5a500377b7c8231f9ffcd3589fabb822fce189ea25a5b1
+  2019-20-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2019-20.html
+    html_sha256: b27786038ba1e152891332216bc50c99d9c0f74af576c35242f76102a506f913
+    pdf: build/IB-quantum-mechanics-sheet-2-2019-20/main.pdf
+    pdf_sha256: 4b5790341555cc11094d7ec3218829cc1cd0555cf36ef3241517f0f2bc8cd394
+    pdf_pages:
+    - 6
+    pdf_render:
+    - page: 6
+      image_sha256: 5e6bfe816b72a77b578246e720ef60507d36a42bec9ee3607758057728fe0a84
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 6
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: db94ec8e5a1224018cfcd2292df97d6800d6acce43f39a6a231d794cd0a33c02
+  2019-20-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2019-20.html
+    html_sha256: b27786038ba1e152891332216bc50c99d9c0f74af576c35242f76102a506f913
+    pdf: build/IB-quantum-mechanics-sheet-2-2019-20/main.pdf
+    pdf_sha256: 4b5790341555cc11094d7ec3218829cc1cd0555cf36ef3241517f0f2bc8cd394
+    pdf_pages:
+    - 7
+    pdf_render:
+    - page: 7
+      image_sha256: cdbac35dbd0cfba0a5f2f301200966df7720a6a0c7bd5baaf00e1763c58fb3df
+    expected_question_math: 13
+    expected_solution_math: 27
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 40
+      katex: 40
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 7
+      refs:
+      - text: Example 9 on Sheet 1
+        href: ../sheet-1/2019-20.html#qx05
+      h_overflow: 0
+      ref_target:
+        target: qx05
+        title: Question 9
+        math: 28
+        katex: 28
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-1/2019-20.html#qx05
+      js_errors: []
+      screenshot_sha256: eac6e6c0d6ecd73ca3ee2d3b3ca8736906b1265391940aa60cfd04d14ab48da7
+  2020-21-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2020-21.html
+    html_sha256: bc29c63c6a25a6af4fe5d07e34733d57572ebb6893d24589b115329015db8e9d
+    pdf: build/IB-quantum-mechanics-sheet-2-2020-21/main.pdf
+    pdf_sha256: 41a3d92a2ad36856b85208abda2cc8549d90fec7cf9d4350861fe70caac04712
+    pdf_pages:
+    - 6
+    pdf_render:
+    - page: 6
+      image_sha256: c054a6b7f6a6da137db90c1f84efe78a577e9f3c64fd79067cc30f014ac08a83
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 6
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: db94ec8e5a1224018cfcd2292df97d6800d6acce43f39a6a231d794cd0a33c02
+  2020-21-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2020-21.html
+    html_sha256: bc29c63c6a25a6af4fe5d07e34733d57572ebb6893d24589b115329015db8e9d
+    pdf: build/IB-quantum-mechanics-sheet-2-2020-21/main.pdf
+    pdf_sha256: 41a3d92a2ad36856b85208abda2cc8549d90fec7cf9d4350861fe70caac04712
+    pdf_pages:
+    - 7
+    pdf_render:
+    - page: 7
+      image_sha256: 3bb34e3c32eabf826f7bb0c96b1a2e1153af4934368a42eb31a6f5f748b342ef
+    expected_question_math: 15
+    expected_solution_math: 27
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 42
+      katex: 42
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 7
+      refs:
+      - text: Example 9 on Sheet 1
+        href: ../sheet-1/2020-21.html#qx05
+      h_overflow: 0
+      ref_target:
+        target: qx05
+        title: Question 9
+        math: 32
+        katex: 32
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-1/2020-21.html#qx05
+      js_errors: []
+      screenshot_sha256: 5c40aa29bfef239bc353cee2f7e5b92d191f5425b301f8ccdedfee5e0abbb2ca
+  2022-23-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2022-23.html
+    html_sha256: ed1b6f5959b463e35121bf33f7027a6cdff9b654eb81b903901a017f90b5426a
+    pdf: build/IB-quantum-mechanics-sheet-2-2022-23/main.pdf
+    pdf_sha256: 518b0d482b4647288660c2e1c7af592bee822b2f9215b039ca5710119fa3c899
+    pdf_pages:
+    - 10
+    pdf_render:
+    - page: 10
+      image_sha256: 5634ad57368665c8da2ac7a0c6e50c24063f477d1f884d6a20661de87de3f1cc
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 9
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 2ac3c7e257ceb045854041796e1fb0cc16501bf32816c681f244ba1f3723b588
+  2022-23-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2022-23.html
+    html_sha256: ed1b6f5959b463e35121bf33f7027a6cdff9b654eb81b903901a017f90b5426a
+    pdf: build/IB-quantum-mechanics-sheet-2-2022-23/main.pdf
+    pdf_sha256: 518b0d482b4647288660c2e1c7af592bee822b2f9215b039ca5710119fa3c899
+    pdf_pages:
+    - 11
+    pdf_render:
+    - page: 11
+      image_sha256: 26a5cb8e09d4a383bb01963a51203ef6adbedfaaef62cba89ace6eb5f04cf0db
+    expected_question_math: 15
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 39
+      katex: 39
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 10
+      refs:
+      - text: Example 2
+        href: 2022-23.html#q02
+      h_overflow: 0
+      ref_target:
+        target: q02
+        title: Question 2
+        math: 34
+        katex: 34
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-2/2022-23.html#q02
+      js_errors: []
+      screenshot_sha256: b9917b07b21aa79f52c4fa56d71b9157c0294c2ebb1f9c12ed08d6b1971778ef
+  2023-24-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2023-24.html
+    html_sha256: 23272bb6a993f3c431ee714d3b55fb107ae98e227643bc2a76dd2928d5b8dd6d
+    pdf: build/IB-quantum-mechanics-sheet-2-2023-24/main.pdf
+    pdf_sha256: f24d3b95e0683d802d7b49b374660a76bdc1670924afee2992decbe4927ae03b
+    pdf_pages:
+    - 10
+    pdf_render:
+    - page: 10
+      image_sha256: fc9fed9ca1118278298b3411aec46c2873eedc3752791991ec541a1d90138222
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 9
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 2ac3c7e257ceb045854041796e1fb0cc16501bf32816c681f244ba1f3723b588
+  2023-24-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2023-24.html
+    html_sha256: 23272bb6a993f3c431ee714d3b55fb107ae98e227643bc2a76dd2928d5b8dd6d
+    pdf: build/IB-quantum-mechanics-sheet-2-2023-24/main.pdf
+    pdf_sha256: f24d3b95e0683d802d7b49b374660a76bdc1670924afee2992decbe4927ae03b
+    pdf_pages:
+    - 11
+    pdf_render:
+    - page: 11
+      image_sha256: e62fde0e4f08a648cf27bdf8f95eedeed7de378e6a1692831fabf79aec854e1c
+    expected_question_math: 15
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 39
+      katex: 39
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 10
+      refs:
+      - text: Example 2
+        href: 2023-24.html#q02
+      h_overflow: 0
+      ref_target:
+        target: q02
+        title: Question 2
+        math: 29
+        katex: 29
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-2/2023-24.html#q02
+      js_errors: []
+      screenshot_sha256: b9917b07b21aa79f52c4fa56d71b9157c0294c2ebb1f9c12ed08d6b1971778ef
+  2025-26-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+    html_sha256: 01ec83b634c248737e1dbf456c6031febfe6e9ff718afccd3800b5a6c1afebd8
+    pdf: build/IB-quantum-mechanics-sheet-2-2025-26/main.pdf
+    pdf_sha256: cb240f2476ce8c5742b4e7831a166a570fe87fe2488431b8d99edc7aa038db3d
+    pdf_pages:
+    - 10
+    pdf_render:
+    - page: 10
+      image_sha256: 4c187bc728a0ef6a183103552b8526382594025eafcda0498a566ba378b64fbe
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 9
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 2ac3c7e257ceb045854041796e1fb0cc16501bf32816c681f244ba1f3723b588
+  2025-26-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2025-26.html
+    html_sha256: 01ec83b634c248737e1dbf456c6031febfe6e9ff718afccd3800b5a6c1afebd8
+    pdf: build/IB-quantum-mechanics-sheet-2-2025-26/main.pdf
+    pdf_sha256: cb240f2476ce8c5742b4e7831a166a570fe87fe2488431b8d99edc7aa038db3d
+    pdf_pages:
+    - 11
+    pdf_render:
+    - page: 11
+      image_sha256: 7f9f3a557d8de9c54041dc686d51ed44e62119ca8324e2bddcc981e9dd3c1f04
+    expected_question_math: 15
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 39
+      katex: 39
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 10
+      refs:
+      - text: Example 2
+        href: 2025-26.html#q02
+      h_overflow: 0
+      ref_target:
+        target: q02
+        title: Question 2
+        math: 29
+        katex: 29
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-2/2025-26.html#q02
+      js_errors: []
+      screenshot_sha256: b9917b07b21aa79f52c4fa56d71b9157c0294c2ebb1f9c12ed08d6b1971778ef
+  2026-27-q09:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2026-27.html
+    html_sha256: 11916d0ed791b9e932f9e3d348f562cc1dc1c2dcddf0eb413548acbe5b63b099
+    pdf: build/IB-quantum-mechanics-sheet-2-2026-27/main.pdf
+    pdf_sha256: e1055826b9f5dfff67ed54356b66e550d64d16f0658b7da32d4338befab8d1c2
+    pdf_pages:
+    - 10
+    pdf_render:
+    - page: 10
+      image_sha256: 33d377e23cd91b5ddfbff0f921c01a1febb72795437fdf49e5f07c6574fadb16
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 9
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 2ac3c7e257ceb045854041796e1fb0cc16501bf32816c681f244ba1f3723b588
+  2026-27-q10:
+    html: site/private/collections/IB/quantum-mechanics/sheet-2/2026-27.html
+    html_sha256: 11916d0ed791b9e932f9e3d348f562cc1dc1c2dcddf0eb413548acbe5b63b099
+    pdf: build/IB-quantum-mechanics-sheet-2-2026-27/main.pdf
+    pdf_sha256: e1055826b9f5dfff67ed54356b66e550d64d16f0658b7da32d4338befab8d1c2
+    pdf_pages:
+    - 11
+    pdf_render:
+    - page: 11
+      image_sha256: f7b1961c2acd183be46e07e3b31f07600768b9423e0c99db468890a06cc2d6ac
+    expected_question_math: 15
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 39
+      katex: 39
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+      title: Question 10
+      refs:
+      - text: Example 2
+        href: 2026-27.html#q02
+      h_overflow: 0
+      ref_target:
+        target: q02
+        title: Question 2
+        math: 29
+        katex: 29
+        errors: 0
+      target_html: collections/IB/quantum-mechanics/sheet-2/2026-27.html#q02
+      js_errors: []
+      screenshot_sha256: b9917b07b21aa79f52c4fa56d71b9157c0294c2ebb1f9c12ed08d6b1971778ef
+  canonical-qx02:
+    html: site/private/questions/IB/quantum-mechanics/sheet-2/qx02/index.html
+    html_sha256: b88218c76a2eeda894614d8811b16e24cffcff003e6c61b6b7271583b7ebef1a
+    pdf: build/IB-quantum-mechanics-sheet-2/main.pdf
+    pdf_sha256: 030709828ade8cf25b357352c7a47e66010380bb5ad25450a1cea18b8ca181a3
+    pdf_pages:
+    - 13
+    pdf_render:
+    - page: 13
+      image_sha256: 898e73402be5af51348e48b16983d0b3e0916d6d0f5ed17c8d0ef30cb18813ce
+    expected_question_math: 15
+    expected_solution_math: 28
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 43
+      katex: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      title: Question
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: bf67b973cbb174e5d03c459def3a663e12e5c9e374f8de0115665d86012ad43e
+  canonical-qx04:
+    html: site/private/questions/IB/quantum-mechanics/sheet-2/qx04/index.html
+    html_sha256: 77f350bed3c04b8a5501d29cde3e203ccee9ee3a54143c1f2208acf8572dcb09
+    pdf: build/IB-quantum-mechanics-sheet-2/main.pdf
+    pdf_sha256: 030709828ade8cf25b357352c7a47e66010380bb5ad25450a1cea18b8ca181a3
+    pdf_pages:
+    - 15
+    - 16
+    pdf_render:
+    - page: 15
+      image_sha256: 705b66cdf3bd1013ea7c74547f58a21bc94e6ca91e86c3bd39df9722e6583adb
+    - page: 16
+      image_sha256: 11f6e561e90a4bb4403218870ea4a7f9b4d75d8886e703f596c5bb0b59280a77
+    expected_question_math: 37
+    expected_solution_math: 21
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 58
+      katex: 58
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      title: Question
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: c413267aac64a998426cb14898e49d9a2c5178f8eb812a07c5d4d053383775ee
+  canonical-q09:
+    html: site/private/questions/IB/quantum-mechanics/sheet-2/q09/index.html
+    html_sha256: 335d2b6e4cc7543e27869b03e26b466c0252344b124fe90cdb40ed5407a05e81
+    pdf: build/IB-quantum-mechanics-sheet-2/main.pdf
+    pdf_sha256: 030709828ade8cf25b357352c7a47e66010380bb5ad25450a1cea18b8ca181a3
+    pdf_pages:
+    - 10
+    pdf_render:
+    - page: 10
+      image_sha256: 574beba0ec36e41423c3e17da827eac2dd682dcf48aee6d94049a9121261551c
+    expected_question_math: 4
+    expected_solution_math: 16
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 20
+      katex: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      title: Question
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 47494985ad735f36aeb497468daee46ede1b7d07d0f63990d10a0c735232faa9
+  canonical-q10:
+    html: site/private/questions/IB/quantum-mechanics/sheet-2/q10/index.html
+    html_sha256: f5e0970361ecdc16ce56391be43ae33cfbb44aba5b2e79ceff6342470bf39bee
+    pdf: build/IB-quantum-mechanics-sheet-2/main.pdf
+    pdf_sha256: 030709828ade8cf25b357352c7a47e66010380bb5ad25450a1cea18b8ca181a3
+    pdf_pages:
+    - 11
+    pdf_render:
+    - page: 11
+      image_sha256: 28c58fa49ca55d7ff45be53447913c33495ef4495be9805479e714cef6df4c8f
+    expected_question_math: 15
+    expected_solution_math: 24
+    matched_html_and_tex: Full exact question and solution matched HTML and TeX source; PDF text contained correct
+      heading, Solution and Source.
+    browser:
+      math: 39
+      katex: 39
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+      title: Question
+      refs: []
+      h_overflow: 0
+      js_errors: []
+      screenshot_sha256: 73852dd1124fce8c521bfd57af7e132019190028b1958f779ab76e5907d37bfe
+visual_method: Rendered every supplied original passage via PDFium scale 2 and the sampled generated PDF pages via
+  PDFium at 1.45; visually examined all 24 compiled pages and all 22 live Chrome screenshots. Actual generated TeX
+  and private HTML contained complete expected question and solution fragments. Canonical receipts bind source and
+  build hashes. Chrome at 1220 CSS pixels expanded all 18 dated solutions and followed the seven edition-specific
+  references. The remaining original correspondences were checked in the additional-originals index.
+limitations:
+- Four of 19 sheet units were randomly selected. No official answer or full-course error rate follows from this
+  sample.
+- The older printed −U<E bound in two supporting examples is a dimensionally inconsistent source detail; the edition-specific
+  referenced solutions explain it. Modern Q09 uses the usual rectangular barrier interpretation.
+- The 2006–07 and canonical qx04 PDF continuations each contain the concluding sentence and source metadata; all
+  content is present and legible.
+- Six additional-original occurrences have archival question/solution records rather than separately dated editions.

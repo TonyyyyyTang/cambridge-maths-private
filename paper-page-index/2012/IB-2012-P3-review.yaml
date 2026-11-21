@@ -1,0 +1,322 @@
+paper_id: IB/2012/P3
+id: IB/2012/P3
+main_count: 21
+unit_count: 21
+main_question_count: 21
+question_units: 21
+source_page_count: 11
+page_count: 11
+section_units:
+  I: 9
+  II: 12
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
+  absolute mark values are printed.
+date: '2012-06-07'
+printed_date: Thursday, 7 June, 2012
+time: 9:00 am to 12:00 pm
+source: private/raw/tripos/IB/2012/P3-full.pdf
+archive: private/raw/tripos/IB/2012/P3-full.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2012/PaperIB_3.pdf
+sha256: 7d8273b95f174051ce1bcf58e1645ca3af33b90a83acc1e9fbdbbab3e9ddaecb
+multi_page_questions: []
+cover:
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
+  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle.
+- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Every cover sheet must bear your examination number and desk number.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
+- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
+  Invigilator.
+questions:
+- id: IB/2012/P3/q1G
+  original_question: 1G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: ae07ac59adc0f570c6499816bd71e157c76c9622e9040a5ce855435468b3d3d9
+  checks: Checked the square root of −3, the element 2 and the distinction between irreducibility and primality.
+  source_page_render_sha256: 74379227217d4293adfd82cd4fb1f341b80abaf11793689f3e5f8c1aa5bdbf02
+- id: IB/2012/P3/q2E
+  original_question: 2E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 73873d7427261ec65a6ca025e29ffcd2ab8ad0a192518d03ce2cb52a30d8ff41
+  checks: Checked the uniform norm, upper integral endpoint and cubed argument, and both questions about the
+    map.
+  source_page_render_sha256: 74379227217d4293adfd82cd4fb1f341b80abaf11793689f3e5f8c1aa5bdbf02
+- id: IB/2012/P3/q3F
+  original_question: 3F
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Metric and Topological Spaces
+  course: IB/topology
+  also_courses: []
+  question_sha256: 0f7561e0793e8ff698768514374813e441828b838840a34d6222eeecc8dc710a
+  checks: Checked the intersection and union hypotheses and every displayed member of the point set.
+  source_page_render_sha256: 74379227217d4293adfd82cd4fb1f341b80abaf11793689f3e5f8c1aa5bdbf02
+- id: IB/2012/P3/q4A
+  original_question: 4A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 58572422824e822ee13fdaa9ee5944b2cb79a8b8ea7d843dce7bda81efb481a5
+  checks: Checked the closed truncation interval, exponential signs, half-period and prefactor 1/s.
+  source_page_render_sha256: 74379227217d4293adfd82cd4fb1f341b80abaf11793689f3e5f8c1aa5bdbf02
+- id: IB/2012/P3/q5G
+  original_question: 5G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 7b485fd6ea15b06c6e1a77fe656b847fa9eec210c8d0f8651eb282fcba24394c
+  checks: Checked that the two geodesics are disjoint and the claimed number of common perpendiculars is at
+    most one.
+  source_page_render_sha256: 79e256c095ec60e4f73316a93935a0ab65e0aab955f66689ac4762e4f6e028f3
+- id: IB/2012/P3/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Variational Principles
+  course: IB/variational-principles
+  also_courses: []
+  question_sha256: 1e4742d6d767cecd922a555d92760d7efe38a9350846832a74a5382fc8cc0276
+  checks: Checked both squared velocities, the conserved quantity l and the sine denominator in h.
+  source_page_render_sha256: 79e256c095ec60e4f73316a93935a0ab65e0aab955f66689ac4762e4f6e028f3
+- id: IB/2012/P3/q7D
+  original_question: 7D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: eb495f8a28b1b5ecc7d681f3b93382bb00954081979e4460768164f3eaa7bcd3
+  checks: Checked the support endpoints in both piecewise functions, convolution brackets and powers in both
+    integrals.
+  source_page_render_sha256: 79e256c095ec60e4f73316a93935a0ab65e0aab955f66689ac4762e4f6e028f3
+- id: IB/2012/P3/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 02bac03be35c4875c8d5c469e8dacfff5be116bf045cfa4ff07f25eac801ebef
+  checks: Checked the two square roots and phases, expectation cross term, and the conjugated eigenfunction
+    in the matrix element.
+  source_page_render_sha256: 04c3daa0294ec421fe8e1e9f9ab01f5b8e3bfc7442c4f59e5e928a934f91b83c
+- id: IB/2012/P3/q9H
+  original_question: 9H
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Markov Chains
+  course: IB/markov-chains
+  also_courses: []
+  question_sha256: e038f43c8016f5f345bc195270b9d78738cf0987cbb63e67fd42fe88a76623ec
+  checks: Checked the front/back and morning/evening conventions, initial condition, original printed limit
+    and final first-hitting event against both archive versions.
+  printed_ambiguity: The Faculty separately corrected the limiting probability. The full-paper wording and
+    the correction are both recorded.
+  source_page_render_sha256: 04c3daa0294ec421fe8e1e9f9ab01f5b8e3bfc7442c4f59e5e928a934f91b83c
+- id: IB/2012/P3/q10F
+  original_question: 10F
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Linear Algebra
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: ec46271b9b66e9b3a2747cb286a7153c21afb3d0c2db34e8c1fa6aed624a64b8
+  checks: Checked all 48 entries of the three Jordan-form examples, the invertibility hypothesis, power n and
+    hint.
+  source_page_render_sha256: c3bd6c492010ca6d08cdb17002af314e2b261d76d8a540b512d603b1e70e1f27
+- id: IB/2012/P3/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Groups, Rings and Modules
+  course: IB/groups-rings-and-modules
+  also_courses: []
+  question_sha256: 042a0362110ce635ddfeea37baecfadeb9e334a2eb6c3e3f0c18df262c9eb25b
+  checks: Checked the two quotient fields under test, polynomial signs and both divisibilities in the fourth
+    assertion.
+  source_page_render_sha256: c3bd6c492010ca6d08cdb17002af314e2b261d76d8a540b512d603b1e70e1f27
+- id: IB/2012/P3/q12E
+  original_question: 12E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a86ef18fe86fecfe3f62718207278bb96c3c2dc3cb8d09cd2fcb57c5037d5337
+  checks: Checked the premise of pointwise convergence, all three statements and the order of the six implications.
+  source_page_render_sha256: c3bd6c492010ca6d08cdb17002af314e2b261d76d8a540b512d603b1e70e1f27
+- id: IB/2012/P3/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Complex Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 3be20d5f24ab5f587ce99057880970ed1dd4fb1df8b715c777335d53c4a93478
+  checks: Checked the disc radii and the mean-value integral, hypotheses at 0 and w, and all modulus inequalities.
+  source_page_render_sha256: 61934fa7dcb9e8b144077d896f4e6f2fbbc51e4136d7199f61c07adadc6a9591
+- id: IB/2012/P3/q14G
+  original_question: 14G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: ad41f1f790689f359d93f19125b0a2e64ade18b3ed59a99ec8285e602a553397
+  checks: Checked both fundamental forms, the tangent-vector derivative criterion and the reflection assumption.
+  source_page_render_sha256: 61934fa7dcb9e8b144077d896f4e6f2fbbc51e4136d7199f61c07adadc6a9591
+- id: IB/2012/P3/q15D
+  original_question: 15D
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: b69e47bab00ec2c869cf1a5655ef3a20518c100477945bae282e4de53799eb0a
+  checks: Checked Legendre’s differential equation, normalization, both radial powers and each spherical boundary
+    condition.
+  source_page_render_sha256: 61934fa7dcb9e8b144077d896f4e6f2fbbc51e4136d7199f61c07adadc6a9591
+- id: IB/2012/P3/q16C
+  original_question: 16C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 06a03d47a7da0f88e89f61c1e15c97901b30358caa2b21c26ede86652c624b0e
+  checks: Checked the hats, momentum sign and commutator indices, wavefunction factors and the two requested
+    angular-momentum spectra.
+  source_page_render_sha256: a78f5ca44211a116721049a59029693fff449781ce10e579efb188a5cea8becd
+- id: IB/2012/P3/q17B
+  original_question: 17B
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Electromagnetism
+  course: IB/electromagnetism
+  also_courses: []
+  question_sha256: bf7748a1e7ebf4adb34e457715a526231428f56b12b1cb219d8ab8d036fb29aa
+  checks: Checked the four Maxwell equations, starred equation, the six wall locations and each sine and cosine
+    mode index.
+  source_page_render_sha256: e755e124c5d4a02590fce6208d3ddc5090f19f53a3ffb1ab45b2e5dfdce0f1d0
+- id: IB/2012/P3/q18A
+  original_question: 18A
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 2f830ab8b075e9b5e40382b827e55ff90a2279262ed9a1f7aa70c9311b2c1a09
+  checks: Checked both cylinder radii, the small-amplitude assumption and the signed radius difference in the
+    pressure expression.
+  source_page_render_sha256: 6c38901b42f0b01e99db782e8d7722c884115300267c195cb1313031375c4c54
+- id: IB/2012/P3/q19D
+  original_question: 19D
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 59a0cbee31129cb52dfb2ae3631cce6fe30cba27356665bcf944d5d1e985e802
+  checks: Checked m greater than n, the norm, all twelve matrix entries and the signs of the right-hand-side
+    vector.
+  source_page_render_sha256: 6c38901b42f0b01e99db782e8d7722c884115300267c195cb1313031375c4c54
+- id: IB/2012/P3/q20H
+  original_question: 20H
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: f1b5cf8600e341d64ccc5e303a9561d0a136a76fca634fc0eade1efed8d9357f
+  checks: Checked both one-sided acceptance sets, the two inverted intervals, confidence level and indicator
+    in the length identity.
+  printed_ambiguity: The printed acceptance set omits the case theta = 20. Specify how coverage is interpreted
+    there when inverting the tests.
+  source_page_render_sha256: 6c64698714441659e727a634a05981ac64527a2f7ee22629070a8c147c8b5ae2
+- id: IB/2012/P3/q21H
+  original_question: 21H
+  page: 11
+  pages:
+  - 11
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 3e5301fc8ae51b2aac5eaa67284cd878dd3faf8c1fca9fd7cd4eed5b9f60d9e5
+  checks: Checked all primal and dual inequalities and indices, the six half-valued entries and the final cost
+    difference.
+  source_page_render_sha256: cf35ea12588673c3c532e95b1ec34aa2ba952030416bb4344bc15cbe36672677
+corrections:
+- question: q9H
+  url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2012/Paper3_9_corrected.pdf
+  archive: private/raw/tripos/IB/2012/P3.pdf
+  sha256: 006e6d2e13ac10585b6d618b9f1c1619589a9415cf22f335dd3dc41f04e3c242
+  page: 1
+  page_count: 1
+  original: $1/2k$
+  replacement: $\pi_0=1/(2k+1)$
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  katex_version: 0.16.11

@@ -1,0 +1,1374 @@
+scope: 2022 Part IB taken-course examinations, ten course strata
+auditor: nov21_2022_taken_audit, a fresh audit context with no authorship of canonical
+  solutions
+audit_type: Independent course-stratified examination-year sample, before repairs
+seed: 20261210
+sampling_method: Use one Python random.Random(seed) instance. Iterate course slugs
+  in sorted order, take rng.sample(sorted(population_ids), ceil(population_size/5))
+  once per course. Sort the returned IDs for display.
+population_size: 49
+sample_size: 12
+course_strata:
+  IB/analysis-ii:
+    population_size: 3
+    population_ids:
+    - IB/2022/P1/q10G
+    - IB/2022/P2/q10G
+    - IB/2022/P3/q11G
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P3/q11G
+    observed_errors: 0
+  IB/complex-methods:
+    population_size: 5
+    population_ids:
+    - IB/2022/P1/q12G
+    - IB/2022/P1/q3G
+    - IB/2022/P2/q12A
+    - IB/2022/P3/q3A
+    - IB/2022/P4/q12A
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P2/q12A
+    observed_errors: 0
+  IB/electromagnetism:
+    population_size: 5
+    population_ids:
+    - IB/2022/P1/q15D
+    - IB/2022/P2/q16D
+    - IB/2022/P2/q4D
+    - IB/2022/P3/q15D
+    - IB/2022/P4/q5D
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P3/q15D
+    observed_errors: 0
+  IB/fluid-dynamics:
+    population_size: 5
+    population_ids:
+    - IB/2022/P1/q16C
+    - IB/2022/P2/q5C
+    - IB/2022/P3/q16C
+    - IB/2022/P3/q7C
+    - IB/2022/P4/q16C
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P3/q7C
+    observed_errors: 0
+  IB/linear-algebra:
+    population_size: 6
+    population_ids:
+    - IB/2022/P1/q1F
+    - IB/2022/P1/q8F
+    - IB/2022/P2/q8F
+    - IB/2022/P3/q9F
+    - IB/2022/P4/q1F
+    - IB/2022/P4/q8F
+    sample_size: 2
+    sample_ids:
+    - IB/2022/P1/q8F
+    - IB/2022/P4/q8F
+    observed_errors: 0
+  IB/markov-chains:
+    population_size: 4
+    population_ids:
+    - IB/2022/P1/q19H
+    - IB/2022/P2/q18H
+    - IB/2022/P3/q8H
+    - IB/2022/P4/q7H
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P4/q7H
+    observed_errors: 0
+  IB/methods:
+    population_size: 6
+    population_ids:
+    - IB/2022/P1/q13B
+    - IB/2022/P2/q14A
+    - IB/2022/P2/q3B
+    - IB/2022/P3/q14A
+    - IB/2022/P3/q5A
+    - IB/2022/P4/q14B
+    sample_size: 2
+    sample_ids:
+    - IB/2022/P2/q3B
+    - IB/2022/P4/q14B
+    observed_errors: 0
+  IB/numerical-analysis:
+    population_size: 5
+    population_ids:
+    - IB/2022/P1/q17C
+    - IB/2022/P1/q5C
+    - IB/2022/P2/q17C
+    - IB/2022/P3/q17C
+    - IB/2022/P4/q6C
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P1/q17C
+    observed_errors: 0
+  IB/quantum-mechanics:
+    population_size: 5
+    population_ids:
+    - IB/2022/P1/q14B
+    - IB/2022/P2/q15B
+    - IB/2022/P3/q6B
+    - IB/2022/P4/q15B
+    - IB/2022/P4/q4B
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P3/q6B
+    observed_errors: 0
+  IB/statistics:
+    population_size: 5
+    population_ids:
+    - IB/2022/P1/q18H
+    - IB/2022/P1/q6H
+    - IB/2022/P2/q6H
+    - IB/2022/P3/q18H
+    - IB/2022/P4/q17H
+    sample_size: 1
+    sample_ids:
+    - IB/2022/P4/q17H
+    observed_errors: 0
+independence: Read the staged question fragments and independently rendered original
+  question pages after private/storage.sh fetch. Froze all twelve derivations and
+  transcription notes and transmitted the manifest digest before opening canonical
+  solutions, checks, built PDFs or private HTML. No official answer was consulted.
+frozen_evidence:
+  manifest: SHA256SUMS
+  manifest_sha256: 55fbe283067b344b054399e330af827d42974bc369d9b9618db547003652cde8
+  question_only_locator_file_sha256: 93dbecf608605eee14e8d5161f922428063d49b6ea4a2b807ac13ea48b201724
+  transcription_notes: transcription.md
+  transcription_notes_sha256: 41c08b352cd2db80e6d4324fd1cbec831b0808be13dde87c90c69ea0f58e892f
+  file_paths: Frozen filenames are relative to the rework packet.
+  manifest_text: '543254ad9cc176dcd062f8a655916d59d53c53a9e0db9452fffad4c2a78365cd  P1-q17C.md
+
+    e2127b8b133e9ac61896ab771be61b38c6f736c2c1f4daccfc51cd7ada509ff5  P1-q8F.md
+
+    6485b61adcacb068b09eea5d4fa7c37c1453a332883eab61bb72da53000864fc  P2-q12A.md
+
+    a3bfb3085fad261706ae325d3ec478e6f0083e79e4285e00d779d7e187a6936b  P2-q3B.md
+
+    e2348b4b0d62a14f40d18be93c1df06fc365c51e98b638468f2985a234cc95e2  P3-q11G.md
+
+    9332fd220660d6d8f13178f95d8272a2d2e7179da22bd5fa30bca0e5eb27de0c  P3-q15D.md
+
+    9bf6b1ad7b38aa47506e348cbcdc390fd5dbb869c0a2be9a17b9a6baa6403f21  P3-q6B.md
+
+    2121f87f63a5d36e25482bcb224ff22a9f782dcb1674792d13b707bdc93e916f  P3-q7C.md
+
+    9af633ddf6554757b50bd42e5f6ecbec67028f1ed57ec66aeeb30eb762236768  P4-q14B.md
+
+    f45d3defccafa688dcce4f775dfe70ffe542f340db8d50a78afca9c6573a3eff  P4-q17H.md
+
+    fbf2168de3b728773a6a0d348bc639b167e3db88f27fee67e9f3661fb971e634  P4-q7H.md
+
+    decb92b23983de2e69dd0b178edc2a2bc1325937eb5c84bd4a4a87faa64d8593  P4-q8F.md
+
+    41c08b352cd2db80e6d4324fd1cbec831b0808be13dde87c90c69ea0f58e892f  transcription.md
+
+    '
+  transcription_notes_text: '# Visual transcription audit, 2022 Part IB
+
+
+    Before opening archive PDFs I ran private/storage.sh fetch and received “ok: all
+    files local”. I rasterized every supplied original page with Poppler at 116 dpi,
+    read each question from the rendered page, and compared its words, formulas, punctuation,
+    labels, conditions and subparts to the staged question.tex. Course headings, adjacent
+    questions, page furniture, line breaks and spacing are outside the question body.
+    No sample has a printed question diagram or local absolute marks. All twelve question
+    bodies match. The original PDF, page and staged transcription digests below identify
+    the specific evidence.
+
+
+    ## IB/2022/P1/q17C, printed page 9
+
+
+    Matched the three-point formula, error sign, marked inequality, smoothness, the
+    three subscripts and all three requests.
+
+    PDF: 485fb4481ee997beb60b023f5e756fd6198176b4127d79b3700775e81ac71b95.
+
+    Page PNG: 71d41db33ac051a74a7d8f5e4af471d97171b7bc4e88deedbaed9e0d1a021daf.
+
+    Question TeX: d205c6397eec5874e8b78f81f67457e383cb658283b3a5fbfe58c0e59fe2465a.
+
+
+    ## IB/2022/P1/q8F, printed page 4
+
+
+    Matched (a)(i)–(ii), (b)(i)–(ii), adjoint and normality, transpose, and signs/order
+    of the two by two block.
+
+    PDF: 485fb4481ee997beb60b023f5e756fd6198176b4127d79b3700775e81ac71b95.
+
+    Page PNG: 6bd0d15a3e20d4cefb5003a558bc52ebbb4a8b63988d70df40384669e23ae273.
+
+    Question TeX: 52d4f4339fb8ac5cb088b9c8ca1296cf255d8ece61013d91de09f22a6f2f08b6.
+
+
+    ## IB/2022/P2/q12A, printed page 5
+
+
+    Matched the rational degree gap, absence of real zeros, exponential sign, common-factor
+    permission, and the full-line sine integral.
+
+    PDF: c1cfa2d0d74070e24d4f44595fbb3ab5509f1fab3740c560977ac8fd6cf972b7.
+
+    Page PNG: 494ae057f8f5cfe97cc1c0c03f5507ea0160dce0456e5b86809301cff4bcbff7.
+
+    Question TeX: 1b474708a52a21203894db412babdd45d37cdb94d3f4a5e623affbf96d5721e8.
+
+
+    ## IB/2022/P2/q3B, printed page 2
+
+
+    Matched the order and signs of the two partial derivatives, the squared boundary
+    argument, and both characteristic and solution requests.
+
+    PDF: c1cfa2d0d74070e24d4f44595fbb3ab5509f1fab3740c560977ac8fd6cf972b7.
+
+    Page PNG: a6d43a03656cab0824c1f4b074ce4b42df986bc4eac3c6f32b695d8f609eef56.
+
+    Question TeX: 7e06c0a23234361019fd41c354eb32a7fff4828345751c8991c7182f40b7f4e9.
+
+
+    ## IB/2022/P3/q11G, printed page 5
+
+
+    Matched both theorem prompts, the real cosine equation, the bracket placement
+    and signs in both components of the map, and the hint.
+
+    PDF: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4.
+
+    Page PNG: 69ecac78f34737e27aee11e0c89f47fccb21f63fd1bd6c32d8cc1a12b832e448.
+
+    Question TeX: 7525f46afa1bdfc4f99502b5f1741bf20667442eda90a7a260a64d785bf92d62.
+
+
+    ## IB/2022/P3/q15D, printed page 8
+
+
+    Matched all entries/signs, indices and factors of c in both four by four matrices,
+    the four-vector and boost question, and the complete wire prompt.
+
+    PDF: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4.
+
+    Page PNG: 6488ad1baf29fe84208a8aa90ac405de0aeb227484045550c0d8de6ed8198eae.
+
+    Question TeX: 04485f4ed8948663624a651097d0a86e970dba882a14f83960b07f870cce7bd4.
+
+
+    ## IB/2022/P3/q6B, printed page 3
+
+
+    Matched (a)–(c), the plane wave, continuity equation and its signs, the scattering
+    waves on their respective sides, and squared-modulus identity.
+
+    PDF: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4.
+
+    Page PNG: 3ffcf9bbbae724f3c59bf53e7b3b69866fae3f1429342be12554300907bf5033.
+
+    Question TeX: 9b1157e667b25be0913431287ab17275e7fc271c405d998f14e80f9389aa34ae.
+
+
+    ## IB/2022/P3/q7C, printed page 4
+
+
+    Matched both vector terms, radial powers, the exclusion of the origin, angular
+    alignment and both terms of the divergence hint.
+
+    PDF: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4.
+
+    Page PNG: 210a2fe7de604847df5f077ebab9b4efb90060e218ff52971e5340f4001945cf.
+
+    Question TeX: 0b86a86387504fd07e922c23aa1a974044936117eecbb35d842d5f5554dbf182.
+
+
+    ## IB/2022/P4/q14B, printed page 8
+
+
+    Matched (a)–(c)(ii), the integration conventions and signs, complex-width condition,
+    strip and both boundary data, including 9a².
+
+    PDF: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166.
+
+    Page PNG: 209ec275e7d56ea7165f8c1b0e8ef61fac9167aff7ce46118d28d40148b2a96d.
+
+    Question TeX: af4e9e935f98ae195b4e83c42ea228c08d67eaa1239fdfb5222e8be65afcd344.
+
+
+    ## IB/2022/P4/q17H, printed page 10
+
+
+    Matched both pmf branches, both parameter domains and sample statistics, all hypotheses,
+    maxima, likelihood ratio direction and bracketed permission.
+
+    PDF: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166.
+
+    Page PNG: 08b7eafedf1c8ce0953aff4552918063659a617d790925a432d3c08a0f3d4487.
+
+    Question TeX: 2d16b0582f6b5b36b9732fec8777c7c082d4a1bb03a2dfe2f4da218784b0331c.
+
+
+    ## IB/2022/P4/q7H, printed page 3
+
+
+    Matched the lower limit in the first return and the different lower limit in the
+    number of visits, the initial condition, and the transient-chain limit.
+
+    PDF: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166.
+
+    Page PNG: 3d03639c867b6907d916871eec6585a8706c014f884458f8b8a9eba5988ca786.
+
+    Question TeX: a6a64a5024353653f783eb943a793540b57030a6aff1e194d7819beef3ebd99f.
+
+
+    ## IB/2022/P4/q8F, printed page 4
+
+
+    Matched all definitions, both inequalities with all four bounds, the prescribed
+    ranks and final simultaneous-attainment question. The printed body gives no scalar
+    field.
+
+    PDF: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166.
+
+    Page PNG: f7767ece7be687fd96d0a0b9dc9c6ab1a29616ed88f9946616411af923d410b4.
+
+    Question TeX: 87e80d8d400a64b1ee1e4a65fe1e95c3bad9e27ba064178868d9583b9e0dfdb6.
+
+    '
+before_repair:
+  mathematical_errors: 0
+  exact_transcription_errors: 0
+  rendering_errors: 0
+  substantive_errors: 0
+  questions_with_any_error: 0
+  questions_checked: 12
+  observed_error_rate: 0/12
+  full_course_expansion_triggered: false
+  compiled_pdf_pages_visually_inspected: 17
+  private_html_pages_visually_inspected: 12
+  rendered_math_nodes: 465
+  checks_rerun_successfully: 12
+render_method: Visually compared all original question bodies, all cited compiled
+  PDF pages including continuations, and the twelve full-page Chromium screenshots
+  at 1220 pixel viewport width. Checked KaTeX counts and parser/overflow metrics alongside
+  each visual inspection. Inspected the sole solution diagram in both formats.
+limitations: These are observed sample counts for the 2022 examination stratum only.
+  Official comparison and other years or sheets are separate.
+units:
+  IB/2022/P1/q17C:
+    course: IB/numerical-analysis
+    original:
+      file: private/raw/tripos/IB/2022/P1.pdf
+      sha256: 485fb4481ee997beb60b023f5e756fd6198176b4127d79b3700775e81ac71b95
+      page: 9
+      printed_number: 17C
+      auditor_raster_sha256: 71d41db33ac051a74a7d8f5e4af471d97171b7bc4e88deedbaed9e0d1a021daf
+    transcription:
+      path: tripos/IB/2022/P1/q17C/question.tex
+      sha256: d205c6397eec5874e8b78f81f67457e383cb658283b3a5fbfe58c0e59fe2465a
+      result: matched original page image
+    mathematics:
+      frozen_rework: P1-q17C.md
+      frozen_rework_sha256: 543254ad9cc176dcd062f8a655916d59d53c53a9e0db9452fffad4c2a78365cd
+      canonical: tripos/IB/2022/P1/q17C/solution.tex
+      canonical_sha256: c8f3cd17193f878ece04b85db8f7373289e535ea12e8574a536e769d63766174
+      result: agreement after independent derivation
+      comparison: Quadratic exactness fixes weights (1,-2,1). The left and right Peano
+        kernels have opposite signs and norm 1/3. Continuous third derivatives approaching
+        their signs prove sharpness without requiring an extremizer.
+      frozen_rework_text: '# IB 2022 Paper 1, 17C
+
+        (a) Third derivatives vanish on polynomials of degree at most two, so the
+        scheme must be exact on $1,x,x^2$. The equations are $a_{-1}+a_0+a_1=0$, $-a_{-1}+a_1=0$,
+        $a_{-1}+a_1=2$. Thus the coefficients are $1,-2,1$.
+
+
+        (b) Peano''s kernel representation for a linear functional $L$ annihilating
+        degree at most $m-1$ says $L(f)=\int_a^b K(t)f^{(m)}(t)\,dt$ with $K(t)=L_x[(x-t)_+^{m-1}/(m-1)!]$,
+        under interchange of $L$ with the Taylor-remainder integral, e.g. bounded
+        sums of point derivatives through order $m-1$ on $C^{m-1}$ and $f\in C^m$.
+        The kernel can be defined up to isolated values at evaluation points. This
+        follows by applying $L$ to Taylor''s integral formula, interpreting the last
+        derivative of the truncated power almost everywhere under the integral. Here
+        $m=3$ and the evaluation includes a second derivative at zero. For $-1<t<0$,
+        $K=1+t^2-(1-t)^2/2=(1+t)^2/2$. For $0<t<1$, $K=-(1-t)^2/2$. Thus $|e(f)|\le\|f''''''\|_\infty\int_{-1}^1|K|=\|f''''''\|_\infty/3$.
+
+
+        (c) Choose continuous third derivatives $f_j''''''(t)=-\tanh(jt)$, integrate
+        three times, and take zero initial primitives. These have sup norm at most
+        one and converge to $\operatorname{sgn}K$ except at zero and the irrelevant
+        endpoints. Dominated convergence gives $e(f_j)\to1/3$, ruling out every smaller
+        constant. A continuous third derivative need not attain equality.
+
+        '
+    check:
+      path: tripos/IB/2022/P1/q17C/check.py
+      sha256: f814a368f68aef3a79bf07f39081fd9aa741705502d1eaf16eb80c5bb3a94c3c
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Exact moments and Peano norm verified; admissible smooth third derivatives
+        approach the sharp constant from below.
+    compiled_pdf:
+      file: build/IB-2022-P1/main.pdf
+      sha256: d294d7a61d412bb7a09a1679e699b98ae4cf7b3722cfdac72dc31992a4839a16
+      pages:
+      - 20
+      page_image_sha256:
+        20: 0ff8af2b8c8dbbd35fd833c9af4eec4ed257989dea27b7c0b0979b5ebb3438ae
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P1/q17C/index.html
+      sha256: 066e01668a65be07dcc75c747d2f9f7244115f8ab2b10a43a5742030e0779300
+      screenshot_sha256: 93805a74a4388bb06337cb451668f042daee780c8a0e45644ddf3fab05e8286f
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 31
+      rendered_math_nodes: 31
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P1/q8F:
+    course: IB/linear-algebra
+    original:
+      file: private/raw/tripos/IB/2022/P1.pdf
+      sha256: 485fb4481ee997beb60b023f5e756fd6198176b4127d79b3700775e81ac71b95
+      page: 4
+      printed_number: 8F
+      auditor_raster_sha256: 6bd0d15a3e20d4cefb5003a558bc52ebbb4a8b63988d70df40384669e23ae273
+    transcription:
+      path: tripos/IB/2022/P1/q8F/question.tex
+      sha256: 52d4f4339fb8ac5cb088b9c8ca1296cf255d8ece61013d91de09f22a6f2f08b6
+      result: matched original page image
+    mathematics:
+      frozen_rework: P1-q8F.md
+      frozen_rework_sha256: e2127b8b133e9ac61896ab771be61b38c6f736c2c1f4daccfc51cd7ada509ff5
+      canonical: tripos/IB/2022/P1/q8F/solution.tex
+      canonical_sha256: 2e84cd22c570a3834eeba06b65e369d7e56c3ae22d252422f55dbd38064598de
+      result: agreement after independent derivation
+      comparison: Normality gives conjugate adjoint eigenvalues and reducing complements.
+        Conjugate imaginary eigenspaces supply the signed real blocks with a real
+        kernel complement. Both inner-product conventions lead to the same conclusions.
+      frozen_rework_text: '# IB 2022 Paper 1, 8F
+
+        (a) With the inner product linear in its first argument, the adjoint is the
+        unique map such that $\langle \alpha u,w\rangle=\langle u,\alpha^*w\rangle$
+        for all $u,w$. Its matrix in an orthonormal basis is the conjugate transpose,
+        proving existence and uniqueness. If $V$ is nonzero, complex characteristic
+        polynomials have a root, so choose a unit $\lambda$-eigenvector $v$. Put $T=\alpha-\lambda
+        I$. Since $T$ is normal, $\|T^*v\|^2=\langle TT^*v,v\rangle=\langle T^*Tv,v\rangle=\|Tv\|^2=0$.
+        Thus $\alpha^*v=\bar\lambda v$. For each $w\perp v$ the adjoint identities
+        give $\alpha w\perp v$ and $\alpha^*w\perp v$. On $v^\perp$ the restrictions
+        are adjoints and commute. Induct on dimension to give an orthonormal eigenbasis
+        on the complement, then adjoin $v$. The zero space has the empty basis and
+        no eigenvector.
+
+
+        (b) On complexification $A^*=-A$, so $A$ is normal. For every eigenvalue the
+        relation in (a) gives $\bar\lambda=-\lambda$. Hence zero is the only possible
+        real eigenvalue. If $A$ has a nonzero eigenvalue $i\mu$, $\mu$ real and nonzero,
+        take $z=u+iw$ with $u,w$ real. Reality gives a second eigenvector $\bar z$
+        for $-i\mu$ orthogonal to $z$ by the normal eigenbasis (distinct eigenspaces
+        are orthogonal). Hence $0=z^Tz=\|u\|^2-\|w\|^2+2i\,u\cdot w$. Both real vectors
+        have the same nonzero length and are orthogonal. Also $Au=-\mu w$ and $Aw=\mu
+        u$. The normalized ordered pair therefore gives the desired block with top
+        right $\mu$. Skew symmetry makes the real orthogonal complement of this plane
+        invariant. Repeat there. If only zero eigenvalues remain, normal diagonalizability
+        makes the restriction zero, and its real orthonormal basis gives zero blocks.
+        The matrix with all these vectors as columns is orthogonal.
+
+        '
+    check:
+      path: tripos/IB/2022/P1/q8F/check.py
+      sha256: 0a785a2568a06c165c1d1f76d20318f5f037d915f613db86e5a4ba9f942f2873
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: A nontrivial real orthogonal conjugation gives the expected skew block,
+        paired imaginary eigenvalues and kernel.
+    compiled_pdf:
+      file: build/IB-2022-P1/main.pdf
+      sha256: d294d7a61d412bb7a09a1679e699b98ae4cf7b3722cfdac72dc31992a4839a16
+      pages:
+      - 8
+      page_image_sha256:
+        8: 7a0ca0a749badc822f1c1e2545a532ed8258a1580bded68acf543cc6d9011e7a
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P1/q8F/index.html
+      sha256: 7acfe3b7ff03c7ac66bd6b1edfa1f11debea32c67ff73664245b4ca09a6263ac
+      screenshot_sha256: 422f5be34be4a75849d3cc2486c486b546fe5b380d578cb8ad1ca1e67dc52a88
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 50
+      rendered_math_nodes: 50
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P2/q12A:
+    course: IB/complex-methods
+    original:
+      file: private/raw/tripos/IB/2022/P2.pdf
+      sha256: c1cfa2d0d74070e24d4f44595fbb3ab5509f1fab3740c560977ac8fd6cf972b7
+      page: 5
+      printed_number: 12A
+      auditor_raster_sha256: 494ae057f8f5cfe97cc1c0c03f5507ea0160dce0456e5b86809301cff4bcbff7
+    transcription:
+      path: tripos/IB/2022/P2/q12A/question.tex
+      sha256: 1b474708a52a21203894db412babdd45d37cdb94d3f4a5e623affbf96d5721e8
+      result: matched original page image
+    mathematics:
+      frozen_rework: P2-q12A.md
+      frozen_rework_sha256: 6485b61adcacb068b09eea5d4fa7c37c1453a332883eab61bb72da53000864fc
+      canonical: tripos/IB/2022/P2/q12A/solution.tex
+      canonical_sha256: 70dde6b50f2e98a11d7b1c4392f71b39dbe9abaf2f3289eba4b0bfe3c42ec395
+      result: agreement after independent derivation
+      comparison: The upper arc vanishes under the two-degree gap and both upper-pole
+        residues have the correct signs. Taking the imaginary part gives pi times
+        exp(-1/sqrt(2)) times sin(1/sqrt(2)).
+      frozen_rework_text: '# IB 2022 Paper 2, 12A
+
+        (a) The answer is $2\pi i\sum_{\operatorname{Im}z_j>0}\operatorname{Res}_{z=z_j}(P(z)e^{iz}/Q(z))$,
+        summed over distinct poles. On an upper semicircle of radius $N$ beyond all
+        poles, $|e^{iz}|\le1$ and $|P/Q|\le C/N^2$ uniformly by the leading coefficients
+        and degree gap. Its arc integral is bounded by $\pi C/N$. The oriented real
+        interval runs left to right and its integral converges absolutely as $N\to\infty$.
+        The residue theorem now gives the claim including multiple poles.
+
+
+        (b) Use $R=z/(1+z^4)$. Put $s=1/\sqrt2$. The simple upper poles are $u=s(1+i)$
+        and $w=s(-1+i)$, with squares $i,-i$. Their residues are $e^{iz}/(4z^2)$ evaluated
+        at each pole. Their sum is $e^{-s}(-ie^{is}+ie^{-is})/4=e^{-s}\sin(s)/2$.
+        Taking the imaginary part of the expression in (a) yields $\pi e^{-1/\sqrt2}\sin(1/\sqrt2)$.
+
+        '
+    check:
+      path: tripos/IB/2022/P2/q12A/check.py
+      sha256: 7e8e4e23f28f8e201d8d5976b3515329ba342c02c9727dea15296e7b5d4c7106
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Oscillatory quadrature on the full line confirms the residue value to
+        27 decimal places.
+    compiled_pdf:
+      file: build/IB-2022-P2/main.pdf
+      sha256: bed136fe6c0078008d8ec87079618e3a66100c1061d28cf44980dcf6ad70cd0f
+      pages:
+      - 13
+      page_image_sha256:
+        13: eadef4e6249750ec1c983c5fc5da31dbb0761108c99220d3ef9d5bd141f7d050
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P2/q12A/index.html
+      sha256: 9860ad8be24bf39c64dc22203e0966e1fdb527d2066168f05b7c9109be68210f
+      screenshot_sha256: f03d086c1fa3c482c17358c63576028b2ad04f385206bc67bfd9d34f73826222
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 24
+      rendered_math_nodes: 24
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P2/q3B:
+    course: IB/methods
+    original:
+      file: private/raw/tripos/IB/2022/P2.pdf
+      sha256: c1cfa2d0d74070e24d4f44595fbb3ab5509f1fab3740c560977ac8fd6cf972b7
+      page: 2
+      printed_number: 3B
+      auditor_raster_sha256: a6d43a03656cab0824c1f4b074ce4b42df986bc4eac3c6f32b695d8f609eef56
+    transcription:
+      path: tripos/IB/2022/P2/q3B/question.tex
+      sha256: 7e06c0a23234361019fd41c354eb32a7fff4828345751c8991c7182f40b7f4e9
+      result: matched original page image
+    mathematics:
+      frozen_rework: P2-q3B.md
+      frozen_rework_sha256: a3bfb3085fad261706ae325d3ec478e6f0083e79e4285e00d779d7e187a6936b
+      canonical: tripos/IB/2022/P2/q3B/solution.tex
+      canonical_sha256: 969242a040dcd2f89661a07024d28360e75824b2c8ffa9e16b3a0f8004ee3302
+      result: agreement after independent derivation
+      comparison: Integral curves rotate counterclockwise with constant squared radius.
+        Both boundary intersections impose the same value, and the prescribed origin
+        is fixed. The classical differentiability qualification is present.
+      frozen_rework_text: "# IB 2022 Paper 2, 3B\nThe characteristic equations are\
+        \ $\\dot x=-y,\\ \\dot y=x,\\ \\dot u=0$. The curve from $(r,0)$ is $(r\\\
+        cos s,r\\sin s)$, $0<r<\\infty$; it is a counterclockwise circle ($\\dot y>0$\
+        \ at the positive $x$ axis). The origin is stationary. Each nonzero circle\
+        \ meets the data at $x=\\pm r$, both with value $f(r^2)$, so $u(x,y)=f(x^2+y^2)$\
+        \ everywhere, including the specified $u(0,0)=f(0)$. The equation holds directly\
+        \ wherever the data give a differentiable solution.\n\nSchematic cross-section\
+        \ through two representative concentric circles, with the dot the stationary\
+        \ characteristic:\n~~~\n                ←\n          .-----------.\n     \
+        \   .'   .--←--.   '.\n      ↓ |   (   •   )   | ↑\n        '.   '----'  \
+        \ .'\n          '-----------'\n                →\n~~~\n"
+    check:
+      path: tripos/IB/2022/P2/q3B/check.py
+      sha256: edd9a417b8797290181a93e810efa5e56183a53cf7548916cf1ed63b54a35bd2
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Angular transport, oriented characteristics, radial invariant and both
+        halves of the boundary verified.
+    compiled_pdf:
+      file: build/IB-2022-P2/main.pdf
+      sha256: bed136fe6c0078008d8ec87079618e3a66100c1061d28cf44980dcf6ad70cd0f
+      pages:
+      - 3
+      - 4
+      page_image_sha256:
+        3: 33e4ceb8b010122c32c3adcfe753674485469c25d1166e79b78fe4e87f0bf460
+        4: 09896aa27dd93b5c0805c08664caaac80a5faceff3c39d0009d060b000aa7d84
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P2/q3B/index.html
+      sha256: d14e1de1be4cc44d42bd749f1a1b25542048ae1c104f023e5ddb724af9425b87
+      screenshot_sha256: 036f6a46e845c9dde2b11fc25966bb7f6a6bda27ea952ef0a80fbe2e163a6aa7
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 18
+      rendered_math_nodes: 18
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+    diagram:
+      source_script: tripos/IB/2022/P2/q3B/plot.py
+      source_script_sha256: 7fd4709ff0acc25630c62001a64353314b7eb9c344badbf2c22f5dc1970b35f3
+      rendered_png_sha256:
+        site/private/figures/tripos/IB/2022/P2/q3B/circular-characteristics.png: 903d3f2dd3c73700e64cdfe002a73ab0e3a9290f3e098b3ff9ecfea301165a26
+      visual_comparison: Three concentric circles centered on the black stationary
+        origin. All three arrows point counterclockwise in the first quadrant. Axes,
+        tick marks and caption are visible in the PDF and browser.
+      browser_geometry:
+      - alt: Counterclockwise circular characteristics around the stationary origin.
+        width: 758
+        height: 676
+  IB/2022/P3/q11G:
+    course: IB/analysis-ii
+    original:
+      file: private/raw/tripos/IB/2022/P3.pdf
+      sha256: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4
+      page: 5
+      printed_number: 11G
+      auditor_raster_sha256: 69ecac78f34737e27aee11e0c89f47fccb21f63fd1bd6c32d8cc1a12b832e448
+    transcription:
+      path: tripos/IB/2022/P3/q11G/question.tex
+      sha256: 7525f46afa1bdfc4f99502b5f1741bf20667442eda90a7a260a64d785bf92d62
+      result: matched original page image
+    mathematics:
+      frozen_rework: P3-q11G.md
+      frozen_rework_sha256: e2348b4b0d62a14f40d18be93c1df06fc365c51e98b638468f2985a234cc95e2
+      canonical: tripos/IB/2022/P3/q11G/solution.tex
+      canonical_sha256: ca22fcb69dc453c7137455dad4ebefbc63806c827583cdb126fa6af1fc9189b7
+      result: agreement after independent derivation
+      comparison: Picard iteration proves convergence and uniqueness on a nonempty
+        complete space. The cosine interval and the invariant complete square both
+        give strict derivative bounds. The supremum-norm bound 2 sin(1/2) is strictly
+        below one.
+      frozen_rework_text: '# IB 2022 Paper 3, 11G
+
+        A contraction from $(X,d)$ to $(Y,e)$ satisfies $e(Tx,Ty)\le qd(x,y)$ for
+        every $x,y$ with a single $0\le q<1$. A contraction of a nonempty complete
+        metric space into itself has exactly one fixed point, to which every Picard
+        iteration converges. Starting with $x_0$, put $x_{n+1}=Tx_n$. Successive distances
+        are at most $q^nd(x_0,x_1)$. The triangle inequality bounds $d(x_n,x_{n+p})$
+        by $q^nd(x_0,x_1)/(1-q)$ for $p\ge1$, so completeness gives a limit $x$. Lipschitz
+        continuity implies $Tx=\lim Tx_n=x$. Two fixed points would satisfy $d(x,y)\le
+        qd(x,y)$ and hence coincide.
+
+
+        Every real fixed point of cosine lies in $[-1,1]$. Cosine maps that complete
+        interval into itself and $|\sin t|\le\sin1<1$ there. The mean value theorem
+        and the fixed point theorem give existence and uniqueness on the interval
+        and hence on the real line.
+
+
+        For a differentiable map on an open set containing a segment $[a,b]$ with
+        derivative operator norm bounded by $M$ there, the mean value inequality gives
+        $\|f(b)-f(a)\|\le M\|b-a\|$. Apply it using the maximum norm on the closed
+        square $K=[-1/2,1/2]^2$. Each cosine lies in $[\cos(1/2),1]$, so the first
+        component belongs to $[\cos(1/2)-1/2,1/2]$ and the second to $[-(1-\cos(1/2)),1-\cos(1/2)]$,
+        both contained in $[-1/2,1/2]$. The derivative rows are $(-\sin x/2,-\sin
+        y/2)$ and $(-\sin x,\sin y)$. Their absolute row sums are at most $2\sin(1/2)<1$
+        by $\sin t<t$ for positive $t\le 1/2$. Convexity keeps each segment inside
+        $K$. This is a contraction on a nonempty complete self-mapped square and provides
+        a fixed point for $f$.
+
+        '
+    check:
+      path: tripos/IB/2022/P3/q11G/check.py
+      sha256: 50f5776028ad3f5fb837574150929aa840a5146474420865402784b4967ac1b7
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Both contraction constants and invariant bounds verified; residual-based
+        fixed-point errors below 1e-12.
+    compiled_pdf:
+      file: build/IB-2022-P3/main.pdf
+      sha256: afd78fd35fa16c8b3215fdbb3253189ff41be196ccb080a2d0c667be54f83f2e
+      pages:
+      - 11
+      page_image_sha256:
+        11: aedd8b6a89d5dd2fa939593448bbebbd173ffc31f2b88433f818914455d49664
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P3/q11G/index.html
+      sha256: c128f09349ebb6dbed937761665efe116968d8119bcbeec564e6db69b32e3b40
+      screenshot_sha256: 6de8f4e35893794315b149a0f7c622aa51cbc0185b5d1ef813afe47256410770
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 41
+      rendered_math_nodes: 41
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P3/q15D:
+    course: IB/electromagnetism
+    original:
+      file: private/raw/tripos/IB/2022/P3.pdf
+      sha256: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4
+      page: 8
+      printed_number: 15D
+      auditor_raster_sha256: 6488ad1baf29fe84208a8aa90ac405de0aeb227484045550c0d8de6ed8198eae
+    transcription:
+      path: tripos/IB/2022/P3/q15D/question.tex
+      sha256: 04485f4ed8948663624a651097d0a86e970dba882a14f83960b07f870cce7bd4
+      result: matched original page image
+    mathematics:
+      frozen_rework: P3-q15D.md
+      frozen_rework_sha256: 9332fd220660d6d8f13178f95d8272a2d2e7179da22bd5fa30bca0e5eb27de0c
+      canonical: tripos/IB/2022/P3/q15D/solution.tex
+      canonical_sha256: e6f4d06bc7e2658cb3adc4120465229ab978b2adbf495aaa17f095d5ade9371f
+      result: agreement after independent derivation
+      comparison: Each lower tensor index uses the inverse boost. All six transformed
+        field components, wire line charge and negative current direction agree with
+        the radial Gauss flux and azimuthal Ampere circulation.
+      frozen_rework_text: '# IB 2022 Paper 3, 15D
+
+        (a) $X''^\mu=\Lambda^\mu{}_\nu X^\nu$, giving $t''=\gamma(t-vx/c^2)$, $x''=\gamma(x-vt)$,
+        $y''=y$, $z''=z$.
+
+
+        (b) The displayed $F$ has lower indices. The coordinate transformation gives
+        $F''=(\Lambda^{-1})^T F\Lambda^{-1}$; $\Lambda^{-1}$ is the given matrix with
+        $v$ reversed. In the $0,1$ block the determinant is one, so $F''_{01}=F_{01}$.
+        For $j=2,3$, $F''_{0j}=\gamma(F_{0j}+(v/c)F_{1j})$ and $F''_{1j}=\gamma((v/c)F_{0j}+F_{1j})$.
+        Also $F''_{23}=F_{23}$. Reading the six independent components gives
+
+        \[
+
+        E''_x=E_x,\quad E''_y=\gamma(E_y-vB_z),\quad E''_z=\gamma(E_z+vB_y),
+
+        \]
+
+        \[
+
+        B''_x=B_x,\quad B''_y=\gamma(B_y+vE_z/c^2),\quad B''_z=\gamma(B_z-vE_y/c^2).
+
+        \]
+
+
+        (c) Put the wire on the $x$ axis and let $r$ be the perpendicular distance,
+        $\mathbf e_\phi=\mathbf e_x\times\mathbf e_r$. In its rest frame, cylindrical
+        and reflection symmetries and Gauss''s law on a length $L$ give $E_r(2\pi
+        rL)=\lambda L/\epsilon_0$. Steady stationary charges supply no magnetic field.
+        Thus at $r>0$, $\mathbf E=\lambda\mathbf e_r/(2\pi\epsilon_0r)$ and $\mathbf
+        B=0$, for fields produced by the isolated wire. For the observer moving in
+        $+x$ the transverse distance is unchanged and the result of (b) becomes $\mathbf
+        E''=\gamma\lambda\mathbf e_r/(2\pi\epsilon_0r)$ and $\mathbf B''=-\mu_0\gamma
+        v\lambda\mathbf e_\phi/(2\pi r)$, since $\mu_0\epsilon_0c^2=1$. Proper line
+        elements contract along the wire, giving $\lambda''=\gamma\lambda$ and $I''=-v\lambda''$.
+        Gauss''s law for $\lambda''$ and Ampère''s circulation law $2\pi r B''_\phi=\mu_0
+        I''$ for the steady moving-frame current reproduce the two fields.
+
+        '
+    check:
+      path: tripos/IB/2022/P3/q15D/check.py
+      sha256: c667ee4d2e22be6dfa97f1ddf2279090f5f6f4eefb68fbde844cd2e5cf35b22d
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: All tensor components and boosted charge/current laws verified
+    compiled_pdf:
+      file: build/IB-2022-P3/main.pdf
+      sha256: afd78fd35fa16c8b3215fdbb3253189ff41be196ccb080a2d0c667be54f83f2e
+      pages:
+      - 17
+      - 18
+      page_image_sha256:
+        17: 218528d1b6d5d21d09a6b12f3fcba669fc49f64804da0dff851c1f567d9b0056
+        18: 998f3b794811d1122eb33ac5457a2d2a1a1d5f3fc13436df5afcb03983238584
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P3/q15D/index.html
+      sha256: 6502eec3e531a30465aeb1597d48fe335cbaa4f27c0e02e52a6d6a17ac2caa11
+      screenshot_sha256: 66959e8a6606411200681763d09c410102e26d1b30d3e1ab9c0c89a6399ca163
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 35
+      rendered_math_nodes: 35
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P3/q6B:
+    course: IB/quantum-mechanics
+    original:
+      file: private/raw/tripos/IB/2022/P3.pdf
+      sha256: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4
+      page: 3
+      printed_number: 6B
+      auditor_raster_sha256: 3ffcf9bbbae724f3c59bf53e7b3b69866fae3f1429342be12554300907bf5033
+    transcription:
+      path: tripos/IB/2022/P3/q6B/question.tex
+      sha256: 9b1157e667b25be0913431287ab17275e7fc271c405d998f14e80f9389aa34ae
+      result: matched original page image
+    mathematics:
+      frozen_rework: P3-q6B.md
+      frozen_rework_sha256: 9bf6b1ad7b38aa47506e348cbcdc390fd5dbb869c0a2be9a17b9a6baa6403f21
+      canonical: tripos/IB/2022/P3/q6B/solution.tex
+      canonical_sha256: f76bd5d836aa036050d1ef6a9ebe5bf8096437db8b02c1e5570838ad5762baef
+      result: agreement after independent derivation
+      comparison: The differentiated plane wave gives real beam momentum and nonnegative
+        energy. Current continuity removes x dependence. Interference terms are real
+        in the flux calculation, and equal asymptotic speeds justify squared-amplitude
+        fractions.
+      frozen_rework_text: '# IB 2022 Paper 3, 6B
+
+        (a) For the free Hamiltonian $-\hbar^2\partial_x^2/(2m)$ and momentum $-i\hbar\partial_x$,
+        differentiating the plane wave twice and once gives $E=\hbar^2 k^2/(2m)$ and
+        $p=\hbar k$. A physical beam has real wave number, positive mass, and nonzero
+        amplitude. Thus $E\ge0$, with equality at $k=0$. These are generalized eigenstates
+        on the full line. For a formally complex $k$ the differential identities alone
+        still hold, without supplying such a free momentum eigenstate.
+
+
+        (b) $\rho=\psi^*\psi$ and $J=\hbar(\psi^*\partial_x\psi-\psi\partial_x\psi^*)/(2mi)$.
+        At fixed real energy $\psi=\phi(x)e^{-iEt/\hbar}$, so $\rho=|\phi|^2$ is time
+        independent. Continuity gives $\partial_xJ=0$.
+
+
+        (c) For $a e^{ikx}+b e^{-ikx}$ the interference terms in $\psi^*\partial_x\psi$
+        are real, giving $J=(\hbar k/m)(|a|^2-|b|^2)$. Hence the asymptotic currents
+        are $(\hbar k/m)(1-|R|^2)$ on the left and $(\hbar k/m)|T|^2$ on the right.
+        They agree by (b). The incoming beam has $k>0$ and division gives $|R|^2+|T|^2=1$.
+        The reflected and transmitted flux fractions, here the two squared amplitudes
+        because both channels have the same speed, exhaust the incident probability.
+
+        '
+    check:
+      path: tripos/IB/2022/P3/q6B/check.py
+      sha256: 72998e1df658c7e642b9b7e88fa79dcb278f32689446e46fba1767d47f418121
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Free Hamiltonian, momentum and both asymptotic fluxes verified
+    compiled_pdf:
+      file: build/IB-2022-P3/main.pdf
+      sha256: afd78fd35fa16c8b3215fdbb3253189ff41be196ccb080a2d0c667be54f83f2e
+      pages:
+      - 6
+      page_image_sha256:
+        6: 4c3c1f65b81c0fe51abad31b277fa86081bed33c9bfca6ab402a39756bd0e88e
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P3/q6B/index.html
+      sha256: f66384b346ffd80a700e4c81229cffc1c0cee3e6ebd12bd80919fc16e8ab1358
+      screenshot_sha256: 02f1412db557fbadd1136faee4b5cba27d9aba85c38b234b3d811344c6668417
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 39
+      rendered_math_nodes: 39
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P3/q7C:
+    course: IB/fluid-dynamics
+    original:
+      file: private/raw/tripos/IB/2022/P3.pdf
+      sha256: 98dbcbf2c067605a19bdfb40bf363339ce874004c57aa93eda266a4b1f83a1f4
+      page: 4
+      printed_number: 7C
+      auditor_raster_sha256: 210a2fe7de604847df5f077ebab9b4efb90060e218ff52971e5340f4001945cf
+    transcription:
+      path: tripos/IB/2022/P3/q7C/question.tex
+      sha256: 0b86a86387504fd07e922c23aa1a974044936117eecbb35d842d5f5554dbf182
+      result: matched original page image
+    mathematics:
+      frozen_rework: P3-q7C.md
+      frozen_rework_sha256: 2121f87f63a5d36e25482bcb224ff22a9f782dcb1674792d13b707bdc93e916f
+      canonical: tripos/IB/2022/P3/q7C/solution.tex
+      canonical_sha256: 3ef9f0e069a9a77a5252442de3a5b8de04431df74ec90f975bdd535d88c253b8
+      result: agreement after independent derivation
+      comparison: Polar radial and tangent components give equal and opposite divergence
+        terms for positive radius. The stream-function derivatives in the stated orientation
+        give d sin(theta)/r plus a constant, including the zero-vector case.
+      frozen_rework_text: '# IB 2022 Paper 3, 7C
+
+        Write $D=|\mathbf d|$. In the aligned polar basis $\mathbf x=r\mathbf e_r$
+        and $\mathbf d=D(\cos\theta\,\mathbf e_r-\sin\theta\,\mathbf e_\theta)$. Substitution
+        gives $u_r=D\cos\theta/r^2$ and $u_\theta=D\sin\theta/r^2$. For $r>0$ the
+        divergence is $r^{-1}[-D\cos\theta/r^2+D\cos\theta/r^2]=0$. Use $u_r=r^{-1}\partial_\theta\psi$
+        and $u_\theta=-\partial_r\psi$. The first equation gives $\psi=D\sin\theta/r+g(r)$
+        and the second $g''=0$. Hence $\psi=D\sin\theta/r+C$, a single-valued function
+        on the punctured plane. For $D=0$ the axes are arbitrary and the constant
+        stream function suffices.
+
+        '
+    check:
+      path: tripos/IB/2022/P3/q7C/check.py
+      sha256: ba0dda634ade53b94fd361433cfc73205df2bec769308da9e50f7d494747eb02
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Polar components, zero divergence and both stream-function identities
+        verified.
+    compiled_pdf:
+      file: build/IB-2022-P3/main.pdf
+      sha256: afd78fd35fa16c8b3215fdbb3253189ff41be196ccb080a2d0c667be54f83f2e
+      pages:
+      - 7
+      page_image_sha256:
+        7: e0b0580643555686df0b5c4c4a9b6a4712059efbd9188b1c78b4502379725e21
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P3/q7C/index.html
+      sha256: 9ea20312178e6dca5fcd879a10a269dc1fdb1e26657f86a91f9ab26904bef7cc
+      screenshot_sha256: b5ec83e7d7fb6daa2f02a3b8adeaa28ec131d4588ea5ab25dc83ca2b2293fdc3
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 26
+      rendered_math_nodes: 26
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P4/q14B:
+    course: IB/methods
+    original:
+      file: private/raw/tripos/IB/2022/P4.pdf
+      sha256: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166
+      page: 8
+      printed_number: 14B
+      auditor_raster_sha256: 209ec275e7d56ea7165f8c1b0e8ef61fac9167aff7ce46118d28d40148b2a96d
+    transcription:
+      path: tripos/IB/2022/P4/q14B/question.tex
+      sha256: af4e9e935f98ae195b4e83c42ea228c08d67eaa1239fdfb5222e8be65afcd344
+      result: matched original page image
+    mathematics:
+      frozen_rework: P4-q14B.md
+      frozen_rework_sha256: 9af633ddf6554757b50bd42e5f6ecbec67028f1ed57ec66aeeb30eb762236768
+      canonical: tripos/IB/2022/P4/q14B/solution.tex
+      canonical_sha256: 1e952197e60940ef6b45abd9fb19f1a2dc547193c925d341452968fd03e0ac3f
+      result: agreement after independent derivation
+      comparison: The transform differentiation sign, exponential inversion for complex
+        positive-real-part width, both strip boundary multipliers and zero Fourier
+        mode agree. Inverse widths 2a-y and 2a+y yield the required harmonic function
+        and both traces.
+      frozen_rework_text: '# IB 2022 Paper 4, 14B
+
+        (a) Under the given convention, $\widetilde{m''}=[m(x)e^{-ikx}]_{-\infty}^\infty+ik\int_{\mathbb
+        R} m(x)e^{-ikx}\,dx=ik\tilde m(k)$ by integration by parts and decay (with
+        the transforms interpreted wherever they exist).
+
+
+        (b) Split the inverse integral at zero and substitute $t=-k$ on the negative
+        half-line. As $\operatorname{Re}\alpha>0$ the exponentials are integrable
+        and the result is
+
+        \[
+
+        -\frac i2\int_0^\infty [e^{-(\alpha-ix)t}-e^{-(\alpha+ix)t}]\,dt=-\frac i2\left[\frac1{\alpha-ix}-\frac1{\alpha+ix}\right]=\frac{x}{x^2+\alpha^2}.
+
+        \]
+
+
+        (c)(i) Transforming in $x$ gives $\partial_{yy}\tilde u-k^2\tilde u=0$ (Fourier
+        differentiation twice). With $s=|k|>0$, its unique solution obeying the endpoint
+        conditions is
+
+        \[
+
+        \tilde u=\frac{\sinh(s(a-y))\,\tilde f+\sinh(sy)\,\tilde g}{\sinh(sa)}.
+
+        \]
+
+        Indeed the numerator solves the ODE and the quotient has the required boundary
+        values. At $k=0$ take the affine solution $(1-y/a)\tilde f(0)+(y/a)\tilde
+        g(0)$.
+
+
+        (ii) Part (b) gives $\tilde g=-i\pi\operatorname{sgn}(k)(e^{-as}-e^{-3as})$.
+        The terms may be understood as Fourier transforms in the improper or distributional
+        sense; their difference is integrable as a function of $x$ and odd, with zero
+        transform at $k=0$. Substituting and using $e^{-as}-e^{-3as}=2e^{-2as}\sinh(as)$
+        gives
+
+        \[
+
+        \tilde u=-i\pi\operatorname{sgn}(k)\left(e^{-(2a-y)s}-e^{-(2a+y)s}\right).
+
+        \]
+
+        This extends to $\tilde u(0,y)=0$. Applying (b) to both positive widths gives
+
+        \[
+
+        u(x,y)=\frac{x}{x^2+(2a-y)^2}-\frac{x}{x^2+(2a+y)^2}.
+
+        \]
+
+        At $y=0$ the terms cancel; at $y=a$ the widths are $a,3a$. Both denominators
+        are nonzero throughout the closed strip and the result decays as $|x|\to\infty$.
+
+        '
+    check:
+      path: tripos/IB/2022/P4/q14B/check.py
+      sha256: 5bee9e7877198c321b96c449c68445d7671fa693610dd17db65beb438774c3d3
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Strip PDE, both boundary traces and the two-exponential Fourier reduction
+        verified exactly.
+    compiled_pdf:
+      file: build/IB-2022-P4/main.pdf
+      sha256: c79b4cc02b13009f3f9e6d794477c563d19a8c2b2791da254ccca6be0a7f84bb
+      pages:
+      - 15
+      - 16
+      page_image_sha256:
+        15: 2fb09a611a8f64d80eb520e09fe11c1b14fd195c23c84f8ecee909ca82c8debb
+        16: 782fe774653ef3419cccde935b1d07e5d8d6b7bea7208f5e71858305d4fc741e
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P4/q14B/index.html
+      sha256: fdd7111247c28977ca5252252cf9497e8017d8b7376718536d20ed65cfa2577d
+      screenshot_sha256: 3ff63d17459a72e26639fb64eb2be804d416292746ab2b0ec38bb6b04fc0708a
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 45
+      rendered_math_nodes: 45
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P4/q17H:
+    course: IB/statistics
+    original:
+      file: private/raw/tripos/IB/2022/P4.pdf
+      sha256: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166
+      page: 10
+      printed_number: 17H
+      auditor_raster_sha256: 08b7eafedf1c8ce0953aff4552918063659a617d790925a432d3c08a0f3d4487
+    transcription:
+      path: tripos/IB/2022/P4/q17H/question.tex
+      sha256: 2d16b0582f6b5b36b9732fec8777c7c082d4a1bb03a2dfe2f4da218784b0331c
+      result: matched original page image
+    mathematics:
+      frozen_rework: P4-q17H.md
+      frozen_rework_sha256: f45d3defccafa688dcce4f775dfe70ffe542f340db8d50a78afca9c6573a3eff
+      canonical: tripos/IB/2022/P4/q17H/solution.tex
+      canonical_sha256: 8b9ed7e8c0288e62a8efa8babb6555c3bc54a2cf53271efb413c26d98f5d60ba
+      result: agreement after independent derivation
+      comparison: Likelihood factorization and the likelihood-ratio equivalence criterion
+        prove minimal sufficiency. The upper binomial rejection tail is UMP, including
+        the endpoint pi=1 and possible randomization. The interior one-restriction
+        Wilks limit and supremum convention are appropriate.
+      frozen_rework_text: '# IB 2022 Paper 4, 17H
+
+        (a) A statistic is sufficient if the conditional distribution of the sample
+        given it is independent of the parameters. A minimal sufficient statistic
+        is sufficient and a function of every other sufficient statistic (up to null
+        sets). Write $q=e^{-\lambda}$, $z=n_0$ and $s=S$. The likelihood is $[\prod_i
+        (x_i!)^{-1}][\pi+(1-\pi)q]^z[(1-\pi)q]^{n-z}\lambda^s$. Factorization gives
+        sufficiency including $\pi=1$ with evident zero-power conventions. In the
+        positive-support subfamily $\pi<1$, the likelihood ratio for two samples is
+        a fixed factorial factor times $\lambda^{\Delta s}[1+\pi e^\lambda/(1-\pi)]^{\Delta
+        z}$. A parameter-independent ratio must have $\Delta s=0$ by taking $\pi=0$
+        and varying $\lambda$. Holding $\lambda$ fixed and varying $\pi<1$ then forces
+        $\Delta z=0$. The converse follows by factorization. The likelihood-ratio
+        criterion therefore gives minimality already on the subfamily. Every sufficient
+        statistic for the full family is sufficient for that subfamily, which gives
+        positive probability to every individual sample, proving full-family minimality
+        as well.
+
+
+        (b) For $\lambda=\lambda_0$, $L(1/2)/L(0)=2^{-n}(1+e^{\lambda_0})^{n_0}$.
+        Reject for large $n_0$, whose null law is $\operatorname{Bin}(n,e^{-\lambda_0})$.
+        For an exact deterministic upper tail of size $\alpha$, take its corresponding
+        threshold. In general choose $c$ with $\Pr_0(Z>c)\le\alpha\le\Pr_0(Z\ge c)$
+        and reject for $Z>c$, randomizing at $Z=c$ with probability $(\alpha-\Pr_0(Z>c))/\Pr_0(Z=c)$.
+        At any $0<\pi<1$, the alternative/null ratio is $(1-\pi)^n[1+\pi e^{\lambda_0}/(1-\pi)]^{n_0}$,
+        strictly increasing with $n_0$. Thus the same test is Neyman–Pearson most
+        powerful for each alternative. At $\pi=1$ the alternative puts all mass on
+        $Z=n$, precisely the binomial outcome assigned highest rejection priority
+        by the test. The test is UMP on $0<\pi\le1$.
+
+
+        (c) At the null $\pi=1/2$, both $\lambda>0$ and $\pi$ are interior, with one
+        restriction. The model is smooth near the null, identifiable (ratios of positive
+        counts identify $\lambda$; their masses then identify $\pi$), and locally
+        nonsingular: positive-count log scores in $\lambda$ vary with $x$ while the
+        $\pi$ score is the nonzero constant $-1/(1-\pi)$ there. All relevant score
+        moments are finite. Wilks''s theorem gives $W\Rightarrow\chi^2_1$. Reject
+        above the $1-\alpha$ quantile for asymptotic size $\alpha$. Strictly, on an
+        all-zero finite sample the restricted supremum is approached at $\lambda\downarrow0$
+        and is not attained for $\lambda>0$; using suprema gives $W=0$ on that event,
+        whose probability under any fixed null $\lambda>0$ vanishes exponentially.
+
+        '
+    check:
+      path: tripos/IB/2022/P4/q17H/check.py
+      sha256: 2b383fce5c1faec4b873b09b2964908635e7ccf2d5f2d1b8fc85604074d2b422
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: All 125 three-count samples verify the exact likelihood ratio at lambda=log
+        2. Alternative ratios increase strictly in the zero count.
+    compiled_pdf:
+      file: build/IB-2022-P4/main.pdf
+      sha256: c79b4cc02b13009f3f9e6d794477c563d19a8c2b2791da254ccca6be0a7f84bb
+      pages:
+      - 20
+      - 21
+      page_image_sha256:
+        20: 3e9aaae6e14a61aacac9edbc5e50313c9ef65f1c83f1b01826ac5d19a2ee208d
+        21: 9a7c315d6cce6498e42f9036c0685f492b91044073dcbd2438861ed53803f70f
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P4/q17H/index.html
+      sha256: 1fb84d1a653713c7bc64a2d286270cd93677b95c793d694eb1d5ad93ada6b239
+      screenshot_sha256: 7a194dcca6515c1acb06dd18397799ed8a121b44f678b0f0f1733e3a4b5cff3b
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 52
+      rendered_math_nodes: 52
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P4/q7H:
+    course: IB/markov-chains
+    original:
+      file: private/raw/tripos/IB/2022/P4.pdf
+      sha256: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166
+      page: 3
+      printed_number: 7H
+      auditor_raster_sha256: 3d03639c867b6907d916871eec6585a8706c014f884458f8b8a9eba5988ca786
+    transcription:
+      path: tripos/IB/2022/P4/q7H/question.tex
+      sha256: a6a64a5024353653f783eb943a793540b57030a6aff1e194d7819beef3ebd99f
+      result: matched original page image
+    mathematics:
+      frozen_rework: P4-q7H.md
+      frozen_rework_sha256: fbf2168de3b728773a6a0d348bc639b167e3db88f27fee67e9f3661fb971e634
+      canonical: tripos/IB/2022/P4/q7H/solution.tex
+      canonical_sha256: 19a2120eae69eac5a17a9343fdf8e2d1e63598896313e669173d422c68b94dad
+      result: agreement after independent derivation
+      comparison: Successive returns give the geometric tail, including the recurrent
+        atom at infinity. For a transient chain the first-hit and finite Green-sum
+        argument proves the claimed limit for each pair of states.
+      frozen_rework_text: '# IB 2022 Paper 4, 7H
+
+        (a) Let $r_i=\mathbb P_i(T_i<\infty)$ and take time zero as visit 1. By the
+        strong Markov property at successive finite return times, $\mathbb P_i(V_i\ge
+        m)=r_i^{m-1}$, $m\ge1$, starting from $\mathbb P_i(V_i\ge1)=1$. If $r_i<1$,
+        subtract successive tails to obtain $\mathbb P_i(V_i=m)=(1-r_i)r_i^{m-1}$,
+        a geometric distribution on the positive integers (unit mass at 1 if $r_i=0$).
+        If the chain is recurrent, $r_i=1$ and the tails show $V_i=\infty$ almost
+        surely. Thus the wording in (a) needs the extended parameter-zero geometric
+        convention or a transient-case qualification.
+
+
+        (b) With transience, $r_j<1$ for each $j$, so $\mathbb E_jV_j=1/(1-r_j)$.
+        Let $H_j=\inf\{n\ge0:X_n=j\}$ to include an initial visit. Strong Markov at
+        $H_j$ gives $\mathbb E_iV_j=\mathbb P_i(H_j<\infty)\mathbb E_jV_j<\infty$.
+        Tonelli gives $\sum_{n\ge0}P^n(i,j)=\mathbb E_iV_j$. Terms of this convergent
+        nonnegative series tend to zero, for every $i,j$.
+
+        '
+    check:
+      path: tripos/IB/2022/P4/q7H/check.py
+      sha256: d3dfdc1ac1d15e2605c2d0d4d08b4a422ad4e70cd8ed57413798dec2aa50d48f
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: Geometric tails verified; exact binomial return sums for a transient
+        nearest-neighbour walk approach the predicted Green function 3.
+    compiled_pdf:
+      file: build/IB-2022-P4/main.pdf
+      sha256: c79b4cc02b13009f3f9e6d794477c563d19a8c2b2791da254ccca6be0a7f84bb
+      pages:
+      - 7
+      page_image_sha256:
+        7: fda5eab3e36cde7b6b9750f48ff44b0f5fd49160cc76c70e60bb82773393d5fb
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P4/q7H/index.html
+      sha256: 774d2cfdd9bbc2648d7e4c6e37b99529d9e794d4e77f06d57e9b855dee7309c7
+      screenshot_sha256: 55ac882d0407e18210fa8f35b690aaa05f6cfcc315f8d9fd57d1c238229c7130
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 26
+      rendered_math_nodes: 26
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+  IB/2022/P4/q8F:
+    course: IB/linear-algebra
+    original:
+      file: private/raw/tripos/IB/2022/P4.pdf
+      sha256: 4c594a1400cad20674ace88c3694d730a16a63648cc126b525844c21ec0c1166
+      page: 4
+      printed_number: 8F
+      auditor_raster_sha256: f7767ece7be687fd96d0a0b9dc9c6ab1a29616ed88f9946616411af923d410b4
+    transcription:
+      path: tripos/IB/2022/P4/q8F/question.tex
+      sha256: 87e80d8d400a64b1ee1e4a65fe1e95c3bad9e27ba064178868d9583b9e0dfdb6
+      result: matched original page image
+    mathematics:
+      frozen_rework: P4-q8F.md
+      frozen_rework_sha256: decb92b23983de2e69dd0b178edc2a2bc1325937eb5c84bd4a4a87faa64d8593
+      canonical: tripos/IB/2022/P4/q8F/solution.tex
+      canonical_sha256: e02d1470916ac65bbe17fd2e25bdb1076d66dfb9af121bc50d5d4934be662e90
+      result: agreement after independent derivation
+      comparison: The rank-nullity proof and all four rank bounds hold. The canonical
+        coordinate construction has the two maximal ranks simultaneously for fields
+        of order greater than two. Both reworks identify the one-dimensional binary-field
+        obstruction in the unqualified question.
+      frozen_rework_text: '# IB 2022 Paper 4, 8F
+
+        The rank is the dimension of the image, the nullity that of the kernel. Extend
+        a basis of $\ker\alpha$ to one of $V$. The images of the added vectors span
+        $\operatorname{im}\alpha$, and a linear combination of those vectors whose
+        image vanishes lies in the span of the kernel basis; basis independence forces
+        every coefficient to vanish. Thus $\dim V=r(\alpha)+n(\alpha)$.
+
+
+        Write $a=r(\alpha), b=r(\beta)$. Image containment gives $r(\alpha+\beta)\le\min(n,a+b)$.
+        Applying this upper bound to $\alpha=(\alpha+\beta)-\beta$ and to $\beta=(\alpha+\beta)-\alpha$
+        gives the lower bound $|a-b|$. The restriction of $\alpha$ to $\operatorname{im}\beta$
+        has image $\operatorname{im}\alpha\beta$ and kernel $\operatorname{im}\beta\cap\ker\alpha$.
+        Thus $r(\alpha\beta)=b-\dim(\operatorname{im}\beta\cap\ker\alpha)$ is bounded
+        below by $\max(0,b-(n-a))$ and above by $b$; containment in $\operatorname{im}\alpha$
+        also gives the upper bound $a$.
+
+
+        For sharpness write $P_S$ for a diagonal coordinate projection. Let $I$ consist
+        of the first $a$ coordinates and $K$ of the first $b$. Taking $\alpha=P_I,\
+        \beta=-P_K$ attains the lower sum bound, since nested common coordinates cancel,
+        and the upper product bound, since their intersection has size $\min(a,b)$.
+        Let $J$ be the last $b$ coordinates, so $|I\cap J|=d=\max(0,a+b-n)$. With
+        $\beta=P_J$ the product realizes its lower bound $d$.
+
+
+        Over the usual real or complex scalar fields, both upper bounds can always
+        be attained together. More generally choose a scalar $c$ different from $0$
+        and $-1$. Let $\alpha=P_I$ and define $\beta$ on coordinate vectors as follows.
+        It vanishes outside $J$, acts by $cI$ on $I\cap J$, and on $j\in J\setminus
+        I$ send $e_j$ to $e_j+v_j$. Choose $v_j$ among the span of the $e_i$ for $i\in
+        I\setminus J$ so their span has dimension $\min(a-d,b-d)$, e.g. assign distinct
+        coordinate vectors up to that number and zero thereafter. The $J$ components
+        of the images of the $J$ basis form an invertible diagonal block, so $\beta$
+        has rank $b$. The sum on the coordinates $I\cup J$ is triangular after placing
+        $I$ first, with nonzero diagonal $1,1+c,1$ on $I\setminus J,I\cap J,J\setminus
+        I$. Its rank is $|I\cup J|=\min(n,a+b)$. The image of $\alpha\beta$ is the
+        direct sum of the common-coordinate span and the span of the $v_j$, and hence
+        has dimension $d+\min(a-d,b-d)=\min(a,b)$. This includes empty index sets.
+
+
+        The printed question does not specify a scalar field. If it quantifies over
+        absolutely all fields, even the individual upper sum bound cannot always be
+        attained: $n=a=b=1$ over $\mathbb F_2$ forces both endomorphisms to be the
+        identity and their sum zero. The preceding construction works on every field
+        with more than two elements.
+
+        '
+    check:
+      path: tripos/IB/2022/P4/q8F/check.py
+      sha256: 8a4ba8edea3e6eaf082a2fad09f0ab1833debbebe4d022896d11369a812f99ba
+      command: /opt/anaconda3/bin/python3 check.py in unit directory
+      exit_code: 0
+      stdout: All four extremal constructions verified exactly for all ranks through
+        dimension five, including simultaneous upper bounds and the binary-field obstruction.
+    compiled_pdf:
+      file: build/IB-2022-P4/main.pdf
+      sha256: c79b4cc02b13009f3f9e6d794477c563d19a8c2b2791da254ccca6be0a7f84bb
+      pages:
+      - 8
+      - 9
+      page_image_sha256:
+        8: 42ecb571c0904aacccc6dffda3b275cccd939e09e9ddf6fb7f6fbbd90572d77a
+        9: c2d02fa4e2a613afc6b45dc461fd29b180b80b0ac4aacc57f3ba6874288f0f45
+      result: inspected visually; full question and solution readable across cited
+        pages
+    private_html:
+      file: site/private/questions/IB/2022/P4/q8F/index.html
+      sha256: 6f76e47baf3301dbd198409383e6c7e3595e822c007545625fbce01adfcdc8bf
+      screenshot_sha256: 8e9a38433fa5fd1e36ed6a1c70008f3c99a0e33d1bdbbcf0f7d2ce1c13addcca
+      viewport_width: 1220
+      document_width: 1220
+      math_nodes: 78
+      rendered_math_nodes: 78
+      parse_errors: 0
+      overflow_count: 0
+      result: inspected visually; all question and solution material rendered
+    before_repair:
+      mathematical_errors: 0
+      exact_transcription_errors: 0
+      rendering_errors: 0
+      substantive_errors: 0
+auditor_report_sha256_before_embedding: 4c506d817a73b6cf08955b32617c4e3511e1394e03c8ab4c51f44b9a512dfb40
