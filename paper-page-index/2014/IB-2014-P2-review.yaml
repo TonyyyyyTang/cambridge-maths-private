@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 11
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2014-06-03'
 printed_date: Tuesday, 3 June, 2014
 time: 9:00 am to 12:00 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2014/P2/q1G
   original_question: 1G
@@ -56,7 +59,8 @@ questions:
   course: IB/groups-rings-and-modules
   also_courses: []
   question_sha256: e492ddfafe95552b6bca7febc9afe360dfa24f5a9d1fb79603a00b0d75fe5151
-  checks: Checked the alternating group subscript and the connection between class sizes and simplicity.
+  checks: Checked the alternating group subscript and the connection between class
+    sizes and simplicity.
 - id: IB/2014/P2/q3F
   original_question: 3F
   page: 2
@@ -67,7 +71,8 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: d54372516c91996bdcf4652a23596136fbda3d09fa789e49c7fcda3af833a39c
-  checks: Checked the set definition, pointwise product, boundedness question and oscillating function.
+  checks: Checked the set definition, pointwise product, boundedness question and
+    oscillating function.
 - id: IB/2014/P2/q4E
   original_question: 4E
   page: 2
@@ -78,7 +83,8 @@ questions:
   course: IB/topology
   also_courses: []
   question_sha256: 80e7a464fa44dfa40b0a15be687952497a21e8d464890b5774fb3965a5763287
-  checks: Checked the image in the open-map statement and the distinct hypotheses in parts (ii) and (iii).
+  checks: Checked the image in the open-map statement and the distinct hypotheses
+    in parts (ii) and (iii).
 - id: IB/2014/P2/q5D
   original_question: 5D
   page: 3
@@ -89,7 +95,8 @@ questions:
   course: IB/methods
   also_courses: []
   question_sha256: 9db14e75fefcf467e70916136785be1ecb4537f6e72649aa7129b5ba7ce3afbd
-  checks: Checked the half-open interval, period extension, derivative notation and endpoint evaluation.
+  checks: Checked the half-open interval, period extension, derivative notation and
+    endpoint evaluation.
 - id: IB/2014/P2/q6A
   original_question: 6A
   page: 3
@@ -99,8 +106,19 @@ questions:
   course_at_time: Electromagnetism
   course: IB/electromagnetism
   also_courses: []
-  question_sha256: f80a99db5b011130d9e461c64099935561ca06475974169dbca410423865ffb2
-  checks: Checked the flux sign, two cross products, both time-shifted contours and the swept surface.
+  question_sha256: 60c799b23e303b00131d4634cef2b68e5db09201913b2fcb5dc9994c4d0fb1d1
+  checks: Checked the flux sign, two cross products, both time-shifted contours and
+    the swept surface. Fresh audit of physical page 3 found that the differential
+    and the position vector are both bold in the electromotive-force integral and
+    the side-ribbon hint. Both glyph pairs use CMBX10 in the original; both instances
+    now reproduce the printed bold dr. The force and circulation definitions have
+    the same mathematical meaning. Original page raster SHA256 f0fc468207fe5ab5d99b5f3de1e96adf7d80aa528f3d96cce33953b1cd8d29b6.
+  previous_transcriptions:
+  - question_sha256: f80a99db5b011130d9e461c64099935561ca06475974169dbca410423865ffb2
+    finding: The printed differential d is bold at two appearances; the earlier transcription
+      only bolded r.
+    severity: typographical
+    original_page_raster_sha256: f0fc468207fe5ab5d99b5f3de1e96adf7d80aa528f3d96cce33953b1cd8d29b6
 - id: IB/2014/P2/q7B
   original_question: 7B
   page: 4
@@ -111,8 +129,8 @@ questions:
   course: IB/fluid-dynamics
   also_courses: []
   question_sha256: d0c56351616fef4dd71d150e0887452b7e8be9c10fc31edfc62c88dc4844c1c2
-  checks: Checked the four entries of the velocity matrix, signs in the streamfunction and all three parameter
-    pairs.
+  checks: Checked the four entries of the velocity matrix, signs in the streamfunction
+    and all three parameter pairs.
 - id: IB/2014/P2/q8H
   original_question: 8H
   page: 5
@@ -123,8 +141,8 @@ questions:
   course: IB/statistics
   also_courses: []
   question_sha256: 1b9d69aedc102a11cb684db5646fe99884dfb007f4208bf4b9c07a2aed456fc0
-  checks: Checked the recovery counts row by row, treatment assignments, significance level and all four chi-squared
-    values.
+  checks: Checked the recovery counts row by row, treatment assignments, significance
+    level and all four chi-squared values.
 - id: IB/2014/P2/q9H
   original_question: 9H
   page: 5
@@ -135,7 +153,8 @@ questions:
   course: IB/optimisation
   also_courses: []
   question_sha256: aa10c6a5a11067aab4418e57feb524d7895be9d759d6aa1598479d35271c8b48
-  checks: Checked the two-player convention, general dimensions and the four payoff entries.
+  checks: Checked the two-player convention, general dimensions and the four payoff
+    entries.
 - id: IB/2014/P2/q10G
   original_question: 10G
   page: 6
@@ -146,8 +165,8 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: 07bc598c2b2b349ea2dd85faf8de9d2b84d3eb9e2dd7b6fa6f5583384da5e762
-  checks: Checked both block determinants including the zero corner, signs of B and the product of complex
-    determinants.
+  checks: Checked both block determinants including the zero corner, signs of B and
+    the product of complex determinants.
 - id: IB/2014/P2/q11E
   original_question: 11E
   page: 6
@@ -158,8 +177,8 @@ questions:
   course: IB/groups-rings-and-modules
   also_courses: []
   question_sha256: 06527733a7150d34c41c514a2263b8b5ff49b86052b0465f969fcbaa6a04029a
-  checks: Checked the irreducibility assumption, generated ideal, and which small field needs a multiplication
-    table.
+  checks: Checked the irreducibility assumption, generated ideal, and which small
+    field needs a multiplication table.
 - id: IB/2014/P2/q12F
   original_question: 12F
   page: 6
@@ -170,7 +189,8 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: 982b2b29aff6a78229d99953540b9c5b731e88af374f475ec09a4079fd2c8956
-  checks: Checked boundedness and openness separately in each of the four claims and the permitted theorem.
+  checks: Checked boundedness and openness separately in each of the four claims and
+    the permitted theorem.
 - id: IB/2014/P2/q13B
   original_question: 13B
   page: 7
@@ -182,7 +202,8 @@ questions:
   also_courses:
   - IB/complex-analysis
   question_sha256: 4b31bebd7c236c712630497afa7aa9b0c4628a0f96f2962b00a66649c0a51971
-  checks: Checked the rectangular contour restriction, parameter range and 5/6 in the second denominator.
+  checks: Checked the rectangular contour restriction, parameter range and 5/6 in
+    the second denominator.
 - id: IB/2014/P2/q14F
   original_question: 14F
   page: 7
@@ -193,7 +214,8 @@ questions:
   course: IB/geometry
   also_courses: []
   question_sha256: e3c38129623cf869dcb09c476c09b5229790b2591ef01c531b10776dbad2fa68
-  checks: Checked the upper half-plane metric, both centre comparisons and the two triangle isometry questions.
+  checks: Checked the upper half-plane metric, both centre comparisons and the two
+    triangle isometry questions.
 - id: IB/2014/P2/q15C
   original_question: 15C
   page: 7
@@ -204,9 +226,11 @@ questions:
   course: IB/variational-principles
   also_courses: []
   question_sha256: 3c8698782f60b0dd838e4eb3c6c25070be65aca830ef4fe87eeee15895626659
-  checks: Checked the order of the integrand arguments, angular ranges, speed and hyperbolic-sine route.
-  printed_ambiguity: Routes along a meridian have constant azimuth and need separate treatment. An endpoint
-    at a pole is at infinite travel time under the stated speed law.
+  checks: Checked the order of the integrand arguments, angular ranges, speed and
+    hyperbolic-sine route.
+  printed_ambiguity: Routes along a meridian have constant azimuth and need separate
+    treatment. An endpoint at a pole is at infinite travel time under the stated speed
+    law.
 - id: IB/2014/P2/q16D
   original_question: 16D
   page: 8
@@ -217,8 +241,8 @@ questions:
   course: IB/methods
   also_courses: []
   question_sha256: 481a500f9d5bcc571d43a1bfa7c5f9e9fffbc31006c08f0be372dc23572c9cd9
-  checks: Checked Fourier signs and factors, the primed coordinates, Gaussian kernels, temporal support and
-    the negative exponential-integral convention.
+  checks: Checked Fourier signs and factors, the primed coordinates, Gaussian kernels,
+    temporal support and the negative exponential-integral convention.
 - id: IB/2014/P2/q17A
   original_question: 17A
   page: 9
@@ -229,10 +253,12 @@ questions:
   course: IB/quantum-mechanics
   also_courses: []
   question_sha256: 0e847ee532690df93bc73ebfba8e301136edbc373e413f9f5da8fd54a4d67a30
-  checks: Checked the printed starting value of the angular quantum number, orders of angular integration,
-    factorial and exponents in the normalisation and proton probability.
-  printed_ambiguity: The displayed angular normalization prints the theta differential before the phi differential
-    although phi is the inner integral. The printed range for l starts at 1.
+  checks: Checked the printed starting value of the angular quantum number, orders
+    of angular integration, factorial and exponents in the normalisation and proton
+    probability.
+  printed_ambiguity: The displayed angular normalization prints the theta differential
+    before the phi differential although phi is the inner integral. The printed range
+    for l starts at 1.
 - id: IB/2014/P2/q18A
   original_question: 18A
   page: 10
@@ -243,8 +269,8 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: 4ac3bc6e4618163b42f60894bcc0c9881cddd85d12d8c99cee4e0b48394ce3a9
-  checks: Checked the finite-volume energy formula, the signs and magnitude of the alternating shell charges
-    and the inverse first radius.
+  checks: Checked the finite-volume energy formula, the signs and magnitude of the
+    alternating shell charges and the inverse first radius.
 - id: IB/2014/P2/q19C
   original_question: 19C
   page: 10
@@ -255,8 +281,8 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: 99aa8339a1acfe22bc256a66e4deb1efdd356b8630f0c0e9ef3b7a1974b08a8a
-  checks: Checked the factorial in the error formula, all three interpolation nodes, derivative evaluation
-    point and both norm bounds.
+  checks: Checked the factorial in the error formula, all three interpolation nodes,
+    derivative evaluation point and both norm bounds.
 - id: IB/2014/P2/q20H
   original_question: 20H
   page: 11
@@ -267,5 +293,5 @@ questions:
   course: IB/markov-chains
   also_courses: []
   question_sha256: 447f39a0af12173d6a2e66fef1b6dbc124ff8102c5317b2758260a4ef351bdcf
-  checks: Checked the hitting time starting at zero, minimality and transition formula, nine ordered pairs
-    and the initial match.
+  checks: Checked the hitting time starting at zero, minimality and transition formula,
+    nine ordered pairs and the initial match.

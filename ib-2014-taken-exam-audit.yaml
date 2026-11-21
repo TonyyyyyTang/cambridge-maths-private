@@ -1,0 +1,1463 @@
+scope: 2014 IB examination questions in the ten confirmed-taken subjects, including
+  shared headings. This is an audit of one examination year.
+method:
+  seed: 20261225
+  strata:
+    IB/analysis-ii:
+    - IB/2014/P1/q11F
+    - IB/2014/P2/q12F
+    - IB/2014/P2/q3F
+    - IB/2014/P3/q12F
+    - IB/2014/P3/q2F
+    - IB/2014/P4/q12F
+    - IB/2014/P4/q3F
+    IB/complex-methods:
+    - IB/2014/P1/q13B
+    - IB/2014/P1/q2B
+    - IB/2014/P2/q13B
+    - IB/2014/P3/q4B
+    - IB/2014/P4/q14B
+    IB/electromagnetism:
+    - IB/2014/P1/q16A
+    - IB/2014/P2/q18A
+    - IB/2014/P2/q6A
+    - IB/2014/P3/q17A
+    - IB/2014/P4/q7A
+    IB/fluid-dynamics:
+    - IB/2014/P1/q17B
+    - IB/2014/P1/q5B
+    - IB/2014/P2/q7B
+    - IB/2014/P3/q18B
+    - IB/2014/P4/q18B
+    IB/linear-algebra:
+    - IB/2014/P1/q1G
+    - IB/2014/P1/q9G
+    - IB/2014/P2/q10G
+    - IB/2014/P2/q1G
+    - IB/2014/P3/q10G
+    - IB/2014/P4/q10G
+    - IB/2014/P4/q1G
+    IB/markov-chains:
+    - IB/2014/P1/q20H
+    - IB/2014/P2/q20H
+    - IB/2014/P3/q9H
+    - IB/2014/P4/q9H
+    IB/methods:
+    - IB/2014/P1/q14D
+    - IB/2014/P2/q16D
+    - IB/2014/P2/q5D
+    - IB/2014/P3/q15D
+    - IB/2014/P3/q7D
+    - IB/2014/P4/q17D
+    - IB/2014/P4/q5D
+    IB/numerical-analysis:
+    - IB/2014/P1/q18C
+    - IB/2014/P1/q6C
+    - IB/2014/P2/q19C
+    - IB/2014/P3/q19C
+    - IB/2014/P4/q8C
+    IB/quantum-mechanics:
+    - IB/2014/P1/q15A
+    - IB/2014/P2/q17A
+    - IB/2014/P3/q16A
+    - IB/2014/P3/q8A
+    - IB/2014/P4/q6A
+    IB/statistics:
+    - IB/2014/P1/q19H
+    - IB/2014/P1/q7H
+    - IB/2014/P2/q8H
+    - IB/2014/P3/q20H
+    - IB/2014/P4/q19H
+  selection:
+    IB/analysis-ii:
+    - IB/2014/P3/q12F
+    - IB/2014/P4/q12F
+    IB/complex-methods:
+    - IB/2014/P1/q13B
+    IB/electromagnetism:
+    - IB/2014/P2/q6A
+    IB/fluid-dynamics:
+    - IB/2014/P1/q5B
+    IB/linear-algebra:
+    - IB/2014/P2/q10G
+    - IB/2014/P1/q9G
+    IB/markov-chains:
+    - IB/2014/P1/q20H
+    IB/methods:
+    - IB/2014/P2/q5D
+    - IB/2014/P3/q7D
+    IB/numerical-analysis:
+    - IB/2014/P2/q19C
+    IB/quantum-mechanics:
+    - IB/2014/P1/q15A
+    IB/statistics:
+    - IB/2014/P3/q20H
+  sampling: Seeded Python random.Random, sorted course strata and sorted IDs. Draw
+    ceil(20% of each stratum) without replacement.
+  auditor_inputs: Isolated context. Only exact question text, original question figures
+    if printed, and PDF/page/question locators.
+  source_comparison: Visual line-by-line comparison with the archived original page
+    images.
+  manifest_sha256: 5ddb62ab76ec2ec2043ac7d3352a27ccb926aeb4589659816e0ee55957946bcf
+  manifest: '3ac0499b9fff490976ea6bc89ba2c611dad200cce769d9692c8f0d13263162ef  IB/2014/P1/q13B/independent.md
+
+    88e250e0c8e95fb97e964e942085865f093fdbf84c23c0a37470b9eeda92f325  IB/2014/P1/q13B/source-review.json
+
+    cb8f187788248ce51664da2aecb8d03a1b1531565a1d96968e2fc41718a6432b  IB/2014/P1/q15A/independent.md
+
+    83615d9be77ade4def21938383fd22df35fb24035db5f86085727a25101e6fc5  IB/2014/P1/q15A/source-review.json
+
+    9f37f01b87483171ecaaa14980ef6866dae243f7e05cee1b7e5debe94d058510  IB/2014/P1/q20H/independent.md
+
+    51aac9d843267fabd1937a802eab12c44d4d66ea7add83b7ba60a40f2adfe9d8  IB/2014/P1/q20H/source-review.json
+
+    5f34ec7171ea5ff90338cb4fcdf3c12e16504d35193f44576db8a56b6e03b7d5  IB/2014/P1/q5B/independent.md
+
+    69ab08ac02c40376ac74197619b20adde4b4a15ec02f87854f76bc8ebb8a7b8c  IB/2014/P1/q5B/source-review.json
+
+    576ef9b098c9866aab3fc92cf7e132953735b6d993ffeb87ecbf841228505a35  IB/2014/P1/q9G/independent.md
+
+    9f82b669be308a724c14db8454979b3d28f18190ce6924cd7433f005e8c8752f  IB/2014/P1/q9G/source-review.json
+
+    9587ce5c261d92a7cfc1f812ccde90afbda1dd45dffa77c4fb4875b1ded6f1bf  IB/2014/P2/q10G/independent.md
+
+    dceaa7f0ce50fe50cbc4b3655bce788a784aaf8d6d928159d6e257d7a422b4fd  IB/2014/P2/q10G/source-review.json
+
+    3879b63baa96b3d7fd37d29270a8528e815b7a5ea518b0cfec24e15b30d3cfd7  IB/2014/P2/q19C/independent.md
+
+    566aae9624367e1a0fbcc84a50ea3afa5f81da67a9f3067b9f22b7d4f8e01147  IB/2014/P2/q19C/source-review.json
+
+    1059602d07c39d93775d347668b24d9e79e1e00453b64fe46cdf20614e581d6f  IB/2014/P2/q5D/independent.md
+
+    def200c96d15544524fabe69d358f6fa590169104c575907f88769b6bfd89d59  IB/2014/P2/q5D/source-review.json
+
+    bf1765c4bc3178548c1b2f0541e96ac13fd6562bdc0d13885e7a125049b72351  IB/2014/P2/q6A/independent.md
+
+    cf1c23146f725cac70ec7a8f3649e8897c6e7580f2cacee30bfbd9607588aeb3  IB/2014/P2/q6A/source-review.json
+
+    9a1a1443561010423ccfa8f08a73a1f1e4c689bd3f2e1293e83d1077ecd2b64c  IB/2014/P3/q12F/independent.md
+
+    e5b89054b9170136c45db55f561671e933cab4e629a409934b49b74f3764d6ac  IB/2014/P3/q12F/source-review.json
+
+    b511111426e65c7ef2232130a05c5291b00e7ee87a2cfa819590aaf72e4f282d  IB/2014/P3/q20H/independent.md
+
+    f5884713cb194b63fd809e715a7cddac13eeac4df9fba7f6f6edab7c650957af  IB/2014/P3/q20H/source-review.json
+
+    66564fc59b0ace9f19ea2ebd35f751ce0eaa25f3a69f0a1b9f5948eea4504493  IB/2014/P3/q7D/independent.md
+
+    fa6eeacb0b6ec22c1884ebdb7bac4f30a1c615b7681336d97c1da0fd7ecf99c8  IB/2014/P3/q7D/source-review.json
+
+    bdd50247e9d740d7f55dfa87531f58305822481e5b225f4020abb5d747201de1  IB/2014/P4/q12F/independent.md
+
+    d4627a2f5f471ff26fdafd11b82ce0b99b6ace4882285d7139968bb5d3f222c8  IB/2014/P4/q12F/source-review.json
+
+    '
+population_size: 55
+observed:
+  sample: 13
+  substantive_errors: 0
+  transcription_errors: 1
+  typographic_transcription_errors: 1
+  substantive_transcription_errors: 0
+  transcription_errors_remaining_after_repair: 0
+  rate: 0/13 mathematical; 1/13 typographic before repair
+  failed_checks: 0
+  original_pages: 12
+  pdf_pages: 17
+  browser_pages: 13
+  rendered_formulas: 529
+  parse_errors: 0
+  horizontal_overflows: 0
+units:
+  IB/2014/P1/q5B:
+    independent_rework: "# Independent rework\n\nWrite the steady fully developed\
+      \ velocity as (u(y),0). The convective acceleration vanishes. The horizontal\
+      \ momentum equation is μu″=dp/dx=G. Integrating with no slip u(0)=0, u(h)=U\
+      \ gives u(y)=Gy(y−h)/(2μ)+Uy/h.\n\nThe slope Gy/μ−Gh/(2μ)+U/h increases across\
+      \ the gap. It is negative somewhere precisely when G>2μU/h², by its value at\
+      \ the lower plate and continuity. Per unit width the flux is −Gh³/(12μ)+Uh/2,\
+      \ so zero flux requires G=6μU/h².\n\nFor η=y/h the zero-flux curve is u/U=3η²−2η.\
+      \ Its minimum is −1/3 at η=1/3, it crosses zero again at η=2/3 and reaches 1\
+      \ at η=1. The signed areas cancel. Sketch, with vertical height and horizontal\
+      \ velocity:\n\n    y/h\n      1          │                       ●  (1,1)\n\
+      \                 │               ╱\n                 │       ╱\n    2/3   \
+      \       ●\n             ╱   │\n    1/3  ●       │\n           ╲     │\n    \
+      \  0          ●────────────────────────── u/U\n       −1/3      0          \
+      \             1\n"
+    independent_rework_sha256: 5f34ec7171ea5ff90338cb4fcdf3c12e16504d35193f44576db8a56b6e03b7d5
+    comparison: The adverse-gradient condition and the zero-flux profile agree. The
+      reworked sketch has the interior minimum at one third of the gap and the interior
+      zero at two thirds, matching the independently regenerated plot.
+    original_page_review:
+      question_id: IB/2014/P1/q5B
+      printed_question: 5B
+      source: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      pages:
+      - 3
+      question_sha256: 449d53d8d951877239729aed20fd139d402898b9e4263ea4887b36060544d56c
+      locator_sha256: 05a5ac54761ec4aa5f84ebb0ea2e19329e9a20b954f608b886de76b664df75c2
+      page_images:
+      - page: 3
+        sha256: dc531d9ed8c58239cd04d64b5fa467f5f5d61a866a13c65e0c79ca0cd6c9bc80
+        render: pdftoppm -f 3 -l 3 -r 145 -png -singlefile private/raw/tripos/IB/2014/P1.pdf
+          /tmp/ib2014-fresh-inspection/P1-3
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Compared the entire opening Fluid Dynamics question, including
+        the opposing pressure term, both plate conditions, the negative-slope request,
+        zero flux and the final instruction to sketch.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The upper plate moves at positive U and the pressure derivative G is positive.
+        The sketch is requested of the candidate.
+      result: match
+      independent_sha256: 5f34ec7171ea5ff90338cb4fcdf3c12e16504d35193f44576db8a56b6e03b7d5
+    check:
+      exit: 0
+      stdout: Boundary conditions, flux, shear threshold and profile landmarks verified.
+      script_sha256: 0b7b3e258c12f34c34659189d88d2de1fa0ca15dbf0b95e03441e6cd4424ef77
+      source_hashes:
+        question.tex: 449d53d8d951877239729aed20fd139d402898b9e4263ea4887b36060544d56c
+        solution.tex: 863babfe2880a5943745bc54055c42fde21c2ac262561b01560e0802689d9d93
+        plot.py: 5ccc7278663677a151c368c9def367b87f36d09e99617e57da8efda459e80699
+        figures/zero-flux-profile.png: 5cd006e34f36a938a15643f4694edaf7818da788aeeb438a4a3cec1ab0088ce7
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      source_page: 3
+      compiled_pdf: build/IB-2014-P1/main.pdf
+      compiled_sha256: d4748f32794036bcbaec35a8fdae2a2521fa349809a71d5d07859f6293e0b83d
+      compiled_pages:
+      - 5
+      - 6
+      html: site/private/questions/IB/2014/P1/q5B/index.html
+      html_sha256: 300e8f87deb2741f36033cbc68c07b874b1d8b8f6acbaf2e32a4ea60be9fad93
+      math_nodes: 29
+      diagrams:
+        site/private/figures/tripos/IB/2014/P1/q5B/zero-flux-profile.png: 5cd006e34f36a938a15643f4694edaf7818da788aeeb438a4a3cec1ab0088ce7
+      question_sha256: 449d53d8d951877239729aed20fd139d402898b9e4263ea4887b36060544d56c
+      solution_sha256: 863babfe2880a5943745bc54055c42fde21c2ac262561b01560e0802689d9d93
+      check_sha256: 0b7b3e258c12f34c34659189d88d2de1fa0ca15dbf0b95e03441e6cd4424ef77
+      check_exit: 0
+      check_stdout: Boundary conditions, flux, shear threshold and profile landmarks
+        verified.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P1/q5B · Cambridge Maths
+        math: 29
+        rendered: 29
+        parse_errors: 0
+        diagrams:
+        - alt: Velocity across the channel at zero net flux
+          width: 910
+          height: 700
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P1_q5B-build-5.png: b2865efbd2d86b37f01b1e9dab4286c0b3f82a2cbdee639c7788d18f92dfb4b2
+        IB_2014_P1_q5B-build-6.png: e9b33ba3fe995bbcc86babf36fe1fa0725797259faff320d535121d4330ff3be
+        IB_2014_P1_q5B-html.png: 2bc1f91141e404b628b65a0729bb0a49926fe4ca79beb51b3c52af4df9f18f43
+        IB_2014_P1_q5B-orig.png: 00e961da04998200dba64bc24cf9463c70f6fca84d2f9c07a2aaa93832f9e4b3
+  IB/2014/P1/q9G:
+    independent_rework: '# Independent rework
+
+
+      (i) When x=0 its span is zero. Otherwise let d be the first index for which
+      T^d x depends linearly on x,...,T^(d−1)x. This exists with 1≤d≤n by dimension.
+      T takes every generator of the first d vectors into their span, using the dependence
+      for the last generator. All subsequent iterates therefore also belong to that
+      span.
+
+
+      (ii) In the cyclic case the listed n vectors form a basis e_j=T^(j−1)x. Write
+      T^n x=Σ_{j=0}^{n−1} a_j T^j x and p(t)=t^n−Σ a_j t^j. Then p(T)x=0 and p(T)e_j=T^(j−1)p(T)x=0.
+      To identify p, the matrix C of T has ones immediately below the diagonal, last
+      column (a_0,...,a_{n−1}), and zeros elsewhere. In tI−C add t times row 2, t²
+      times row 3, and so on to row 1. The new first row is (0,...,0,p(t)); its last-column
+      minor has diagonal −1 and is upper triangular. The cofactor sign (−1)^(1+n)
+      cancels (−1)^(n−1). Thus det(tI−C)=p(t).
+
+
+      (iii) In the extended basis the matrix is block upper triangular with blocks
+      [A B; 0 D]. The zeros express invariance, A acts on W and D induces the map
+      on V/W. There is no requirement that B vanish.
+
+
+      (iv) In dimension zero the identity endomorphism is the zero map, and the dimension-one
+      case follows from multiplication by a scalar. In positive dimension choose x≠0.
+      Its cyclic space W is invariant by (i). If it is all V then (ii) applies. Otherwise
+      both W and V/W have smaller dimension. By induction χ_D(T)v maps to zero in
+      V/W for every v, so lies in W, where χ_A(T) vanishes. Block triangularity gives
+      χ_T=χ_Aχ_D. Consequently χ_T(T)=0 on V.
+
+      '
+    independent_rework_sha256: 576ef9b098c9866aab3fc92cf7e132953735b6d993ffeb87ecbf841228505a35
+    comparison: Both close the cyclic span at the first dependence and identify the
+      cyclic characteristic polynomial without Cayley-Hamilton. The characteristic
+      polynomial on the quotient maps all of V into the invariant subspace; its own
+      polynomial then kills the result.
+    original_page_review:
+      question_id: IB/2014/P1/q9G
+      printed_question: 9G
+      source: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      pages:
+      - 5
+      question_sha256: f8f4e8aa9af2130323bcabafc04932259e9541879af4f489fd8b5d3fd45e1cf0
+      locator_sha256: 004085f216675015821206b5adb0560494e7481b6404a491094482a00215e2d8
+      page_images:
+      - page: 5
+        sha256: 9dc3b39f7e9dff2a26bc0c94f413e459b665360e6072f836c1f97247e9296254
+        render: pdftoppm -f 5 -l 5 -r 145 -png -singlefile private/raw/tripos/IB/2014/P1.pdf
+          /tmp/ib2014-fresh-inspection/P1-5
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the opening Section II question through its determinant
+        permission. Checked powers 0 through n−1, the subset sign, the two exclusions
+        on W and the four Roman-numbered requests.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - Part (ii) explicitly excludes using Cayley–Hamilton. Induction is requested
+        only in part (iv).
+      result: match
+      independent_sha256: 576ef9b098c9866aab3fc92cf7e132953735b6d993ffeb87ecbf841228505a35
+    check:
+      exit: 0
+      stdout: Verified symbolic companion determinants and restriction/quotient annihilation.
+      script_sha256: 5935bb6d83dc78e8197f9b5c70177b0094a001fe598a8a7ecd5fe2cb0fd0b41b
+      source_hashes:
+        question.tex: f8f4e8aa9af2130323bcabafc04932259e9541879af4f489fd8b5d3fd45e1cf0
+        solution.tex: f513bddfa19398f80f88ae32b1a7d78c02af76877d647bf2033a4144a730d6b8
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      source_page: 5
+      compiled_pdf: build/IB-2014-P1/main.pdf
+      compiled_sha256: d4748f32794036bcbaec35a8fdae2a2521fa349809a71d5d07859f6293e0b83d
+      compiled_pages:
+      - 11
+      html: site/private/questions/IB/2014/P1/q9G/index.html
+      html_sha256: 84499863103afd5b7347ff7e305caf5e041cdaaf275869f23bb23603165d0a16
+      math_nodes: 58
+      diagrams: {}
+      question_sha256: f8f4e8aa9af2130323bcabafc04932259e9541879af4f489fd8b5d3fd45e1cf0
+      solution_sha256: f513bddfa19398f80f88ae32b1a7d78c02af76877d647bf2033a4144a730d6b8
+      check_sha256: 5935bb6d83dc78e8197f9b5c70177b0094a001fe598a8a7ecd5fe2cb0fd0b41b
+      check_exit: 0
+      check_stdout: Verified symbolic companion determinants and restriction/quotient
+        annihilation.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P1/q9G · Cambridge Maths
+        math: 58
+        rendered: 58
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P1_q9G-build-11.png: db65d3c6bedfedc96393b96e63be7bcb744f639cbcbaab8863d4cbbf6a8b8ef4
+        IB_2014_P1_q9G-html.png: 322a61373e321cfcb0f88faa7a71bc6f505e8547366271e30f5491a1f8e475a0
+        IB_2014_P1_q9G-orig.png: 3b1b07ade781f4da0a52244934d40cf145565ddacd3b7ee0f6d5cbcc060bb317
+  IB/2014/P1/q13B:
+    independent_rework: '# Independent rework
+
+
+      Let Δ=√(a²−b²). On the positively oriented unit circle use z=exp(iθ). The integral
+      J of 1/(a+b cos θ) over a full period is the integral of (2/i) dz/(bz²+2az+b).
+      The roots are r_±=(−a±Δ)/b. Since r_+=−b/(a+Δ) lies strictly inside the unit
+      circle and r_+r_−=1, the sole enclosed residue is (2/i)/(2br_++2a)=1/(iΔ). Hence
+      J=2π/Δ.
+
+
+      For c=cos θ, b²(1−c²)/(a+bc)=a−bc−Δ²/(a+bc). Integration gives the required
+      2π(a−Δ)/b².
+
+
+      For x=cos(θ/2) use θ decreasing from π to 0, and √(1−x²)=sin(θ/2). Reversing
+      the limits produces (1/4)∫₀^π sin²θ/(3+cos θ) dθ. Reflection about π doubles
+      this integral over the full period, so the answer is (1/8)·2π(3−√8)=π(3−2√2)/4.
+
+      '
+    independent_rework_sha256: 3ac0499b9fff490976ea6bc89ba2c611dad200cce769d9692c8f0d13263162ef
+    comparison: Both residue calculations select the inner real root. The change of
+      half-angle gives the factor one eighth and the same final integral pi*(3-2 sqrt(2))/4.
+    original_page_review:
+      question_id: IB/2014/P1/q13B
+      printed_question: 13B
+      source: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      pages:
+      - 6
+      question_sha256: adaa684589c5ee1325a1ffc2fc3a502e424cc0405e4f690d40478601e9408e1f
+      locator_sha256: 31ef3a4ac8b850dff71ec1cd71074790bb6e649dac7b46dd9fd6e53e5eab410d
+      page_images:
+      - page: 6
+        sha256: f6010da22d75fbac8edb3cef7d5ab9e637028a4a5cb8fd89d3c7e818931edfe0
+        render: pdftoppm -f 6 -l 6 -r 145 -png -singlefile private/raw/tripos/IB/2014/P1.pdf
+          /tmp/ib2014-fresh-inspection/P1-6
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the lower question after 12E, including the alternative
+        course title. Compared both integrands, the full-period and unit limits, positive
+        ordering of a,b, the square root and half-angle substitution.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The second numerator has both the square-root factor and x squared.
+      result: match
+      independent_sha256: 3ac0499b9fff490976ea6bc89ba2c611dad200cce769d9692c8f0d13263162ef
+    check:
+      exit: 0
+      stdout: Pole locations, period integrals and half-angle evaluation verified.
+      script_sha256: 8209b6c13b02585a7e7d7c6b19456cdf8ed7ede7f7a336d51f2b00a0561ca89d
+      source_hashes:
+        question.tex: adaa684589c5ee1325a1ffc2fc3a502e424cc0405e4f690d40478601e9408e1f
+        solution.tex: f95deb1ee6b056e15aa5439caceed49e19915ff97328cd179495d990a82b7adb
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      source_page: 6
+      compiled_pdf: build/IB-2014-P1/main.pdf
+      compiled_sha256: d4748f32794036bcbaec35a8fdae2a2521fa349809a71d5d07859f6293e0b83d
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2014/P1/q13B/index.html
+      html_sha256: 360a3d8ad5f990fe55886de620bc7f1c44cba852b3255e2d62d601e7f422fd04
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: adaa684589c5ee1325a1ffc2fc3a502e424cc0405e4f690d40478601e9408e1f
+      solution_sha256: f95deb1ee6b056e15aa5439caceed49e19915ff97328cd179495d990a82b7adb
+      check_sha256: 8209b6c13b02585a7e7d7c6b19456cdf8ed7ede7f7a336d51f2b00a0561ca89d
+      check_exit: 0
+      check_stdout: Pole locations, period integrals and half-angle evaluation verified.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P1/q13B · Cambridge Maths
+        math: 20
+        rendered: 20
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P1_q13B-build-15.png: 6862e16049dab7afb5942a8fd9164be396e64d70e92071f4a72af4123e3cb905
+        IB_2014_P1_q13B-html.png: 20bf322a749fa5c867f20d4a0a695d8d22892235f0ecc8d6b1aead94699993d7
+        IB_2014_P1_q13B-orig.png: 9628e10d38535a00161989fb941eb3f3a53ed2405010950d27e37a7314af1428
+  IB/2014/P1/q15A:
+    independent_rework: "# Independent rework\n\n(i) Across (−a,a) the sine squared\
+      \ integrates to a, so choose α_n=1/√a up to an arbitrary unit phase. The Hamiltonian\
+      \ in the well is −ℏ²∂²_x/(2m); the wave number k_n=nπ/(2a) gives E_n=ℏ²n²π²/(8ma²).\
+      \ Each sine vanishes at both walls.\n\n(ii) Choose the prepared wave real with\
+      \ positive slope. Its normalising factor is √(3/a³) because ∫₀ᵃx²dx=a³/3. The\
+      \ L² expansion in the complete sine basis is ψ=Σ c_n ψ_n, where c_n=√3/a² ∫₀ᵃx\
+      \ sin(k_n(x+a))dx. An antiderivative is −x cos(k_n(x+a))/k_n+sin(k_n(x+a))/k_n².\
+      \ Therefore\n\n    c_n = √3 [−2(−1)^n/(nπ) − 4 sin(nπ/2)/(nπ)²].\n\nThe expansion\
+      \ also gives the stated endpoint convention at both walls, where all basis functions\
+      \ vanish. The discontinuity approached from inside the right wall does not affect\
+      \ the L² coefficients.\n\n(iii) The strict threshold means n²>8. Completeness\
+      \ and the Born rule give P=1−|c₁|²−|c₂|². Here c₁=√3(2/π−4/π²), c₂=−√3/π. Thus\
+      \ in increasing order of index the five integers are (1,0,−15,48,−48).\n\n(iv)\
+      \ From Parseval multiply Σ|c_n|²=1 by π²/3. For n=2p the contribution is 1/p².\
+      \ For n=2p−1, sin(nπ/2)=(−1)^(p−1), so the contribution is 4/(2p−1)² times [1+2(−1)^p/((2p−1)π)]².\
+      \ Summing over p≥1 yields A=1, B=4, C=2.\n"
+    independent_rework_sha256: cb8f187788248ce51664da2aecb8d03a1b1531565a1d96968e2fc41718a6432b
+    comparison: The box-mode coefficients agree termwise. Both subtract the first
+      two probabilities, obtain integer vector (1,0,-15,48,-48) and recover (1,4,2)
+      in the Parseval identity.
+    original_page_review:
+      question_id: IB/2014/P1/q15A
+      printed_question: 15A
+      source: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      pages:
+      - 8
+      question_sha256: c4682061b559b9533489d72b039f1f428780bbea23c2cfa69a0014932171479c
+      locator_sha256: c5e8326133c0a0d8b71fc1b1f1263116c8a6d4ed50fbc92ea9cfc8d43fe4d7c7
+      page_images:
+      - page: 8
+        sha256: e9c793d5891aa436aa22407e39a89407d80bd7433381760068bc37438c240d4a
+        render: pdftoppm -f 8 -l 8 -r 145 -png -singlefile private/raw/tripos/IB/2014/P1.pdf
+          /tmp/ib2014-fresh-inspection/P1-8
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the whole Quantum Mechanics question, checking both cases
+        of the stationary wavefunction, the half-well support, strict energy threshold
+        and every exponent, sum bound and alternating sign in (iii) and (iv).
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The printed last identity has no braces explicitly delimiting both summands
+        under the sum. Their dependence on p supplies the intended scope.
+      result: match
+      independent_sha256: cb8f187788248ce51664da2aecb8d03a1b1531565a1d96968e2fc41718a6432b
+    check:
+      exit: 0
+      stdout: Verified the coefficient integrals and exact threshold probability;
+        50000 modes recover unit norm within 0.00003.
+      script_sha256: f4103796cedd05823cfc66d17349c55863c407f2ffa97ab1df9adb341c734f3a
+      source_hashes:
+        question.tex: c4682061b559b9533489d72b039f1f428780bbea23c2cfa69a0014932171479c
+        solution.tex: ae4b24802215966060ebf9ad5209306033fab79d9e876d54e99f35ef7943d4e8
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      source_page: 8
+      compiled_pdf: build/IB-2014-P1/main.pdf
+      compiled_sha256: d4748f32794036bcbaec35a8fdae2a2521fa349809a71d5d07859f6293e0b83d
+      compiled_pages:
+      - 18
+      - 19
+      html: site/private/questions/IB/2014/P1/q15A/index.html
+      html_sha256: 3c30f1c89b6fb93978891f3896a37f270af2ce23aed8795229a67b74add9beac
+      math_nodes: 48
+      diagrams: {}
+      question_sha256: c4682061b559b9533489d72b039f1f428780bbea23c2cfa69a0014932171479c
+      solution_sha256: ae4b24802215966060ebf9ad5209306033fab79d9e876d54e99f35ef7943d4e8
+      check_sha256: f4103796cedd05823cfc66d17349c55863c407f2ffa97ab1df9adb341c734f3a
+      check_exit: 0
+      check_stdout: Verified the coefficient integrals and exact threshold probability;
+        50000 modes recover unit norm within 0.00003.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P1/q15A · Cambridge Maths
+        math: 48
+        rendered: 48
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P1_q15A-build-18.png: d35f73fba9896b0f018c579c47e471849b201316ae944b53fcc27a4aec0e99ec
+        IB_2014_P1_q15A-build-19.png: 70dcf145e0b47a511450b255862262fcd55f3ff018b617a945e551b6dd013ca7
+        IB_2014_P1_q15A-html.png: 2759138f9a729370ca09eaa73e277dfdbad6649d05996e8ea01fb9d227a46b32
+        IB_2014_P1_q15A-orig.png: d601dd24e30917e682ebe7c7a64c8a08fba301b1ffc6ae31d960c20e6e618d69
+  IB/2014/P1/q20H:
+    independent_rework: '# Independent rework
+
+
+      A state is aperiodic if the positive n for which (P^n)_{ii}>0 have gcd 1. It
+      is positive recurrent if its first positive return time is almost surely finite
+      with finite mean, and ergodic if it is both positive recurrent and aperiodic.
+
+
+      From i>0 one reaches 0 in i deterministic steps, while a jump from 0 can reach
+      any positive j with positive probability. Concatenation gives irreducibility.
+      Starting at 0 the next height J≥1 has mass pq^(j−1), and the ensuing descent
+      takes exactly J steps. Hence T₀=1+J, with mass pq^(n−2) for n≥2, zero for n<2.
+      Its mean is 1+1/p, and positive return probabilities at both 2 and 3 imply period
+      1.
+
+
+      The stationarity equations are π₀=π₁ and π_j−π_{j+1}=π₀pq^(j−1) for j≥1. Summation
+      to infinity (π_j→0 for a probability) gives π_j=π₀q^(j−1). Normalising gives
+      π₀=p/(1+p) and π_j=pq^(j−1)/(1+p), j≥1. These values also satisfy the equations.
+
+
+      The mean return time to i in an irreducible positive recurrent chain is 1/π_i,
+      here (1+p)/(p q^(i−1)) for i≥1. In an irreducible aperiodic positive recurrent
+      countable chain the n-step probability of each state converges to its stationary
+      probability. Applied to state 0 this gives the requested complementary limit
+      1−π₀=1/(1+p).
+
+      '
+    independent_rework_sha256: 9f37f01b87483171ecaaa14980ef6866dae243f7e05cee1b7e5debe94d058510
+    comparison: The auditor obtains the positive recurrence time 1+1/p, stationary
+      mass p/(1+p) at zero, and geometric masses above it. The aperiodic limit agrees
+      with the stored proof.
+    original_page_review:
+      question_id: IB/2014/P1/q20H
+      printed_question: 20H
+      source: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      pages:
+      - 13
+      question_sha256: 5ed1ca3a5f659a6f476b60b074062e081b09bb67e6b5719e74aaebd08e7cb4f0
+      locator_sha256: bcdae447635bfd746c1520be50bce407999e235d260d6edaf2eba55c757ac6a9
+      page_images:
+      - page: 13
+        sha256: e8f0ab336b3ef37143ab118515e86f5c923f9e19e3e577475fc7d531664468b9
+        render: pdftoppm -f 13 -l 13 -r 145 -png -singlefile private/raw/tripos/IB/2014/P1.pdf
+          /tmp/ib2014-fresh-inspection/P1-13
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the question to END OF PAPER. Compared each transition,
+        p=1−q, the first return convention n≥1, the conditional probability, both
+        requested quantities and the permission to quote results.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The initial jump excludes zero and is followed by deterministic downward steps.
+      result: match
+      independent_sha256: 9f37f01b87483171ecaaa14980ef6866dae243f7e05cee1b7e5debe94d058510
+    check:
+      exit: 0
+      stdout: Geometric return law, invariant balance and renewal limit verified.
+      script_sha256: 25bf11a00c8f99f4cff0566c0ac5053850c87b028fbc40ffd998557b373a95f3
+      source_hashes:
+        question.tex: 5ed1ca3a5f659a6f476b60b074062e081b09bb67e6b5719e74aaebd08e7cb4f0
+        solution.tex: 7db6d7a1265a7106754fe05b38735847b57b1effe6875b8429a6bdd076f6cce7
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P1.pdf
+      source_sha256: 9e59657cb5a1f27f37daae69bf26af0e5d08f60296b564f7946946f2b094edfa
+      source_page: 13
+      compiled_pdf: build/IB-2014-P1/main.pdf
+      compiled_sha256: d4748f32794036bcbaec35a8fdae2a2521fa349809a71d5d07859f6293e0b83d
+      compiled_pages:
+      - 27
+      html: site/private/questions/IB/2014/P1/q20H/index.html
+      html_sha256: 44c8250cb857d0590045301466f2cbce833334cbbea7470bb8b6551a5d96fd36
+      math_nodes: 42
+      diagrams: {}
+      question_sha256: 5ed1ca3a5f659a6f476b60b074062e081b09bb67e6b5719e74aaebd08e7cb4f0
+      solution_sha256: 7db6d7a1265a7106754fe05b38735847b57b1effe6875b8429a6bdd076f6cce7
+      check_sha256: 25bf11a00c8f99f4cff0566c0ac5053850c87b028fbc40ffd998557b373a95f3
+      check_exit: 0
+      check_stdout: Geometric return law, invariant balance and renewal limit verified.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P1/q20H · Cambridge Maths
+        math: 42
+        rendered: 42
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P1_q20H-build-27.png: 54f64581a8bc5faa0c688a351dbc4f39b2597ef68768b302092cf9054db81f50
+        IB_2014_P1_q20H-html.png: 618d8c1ae38c7dc5dd5b4a49eea7ccfa2f34301f225484ef64851399b9f8230c
+        IB_2014_P1_q20H-orig.png: 7a214707c68e49b5af457c07d1f28ac1ce8bc4cb2aa9548e4451a3563a5f4842
+  IB/2014/P2/q5D:
+    independent_rework: "# Independent rework\n\nFor period one use the exponential\
+      \ coefficients F_n=∫₀¹x(1−x)e^(−2πinx)dx. F₀=1/6. For n≠0 let w=2πin. Integrating\
+      \ by parts gives F_n=w⁻¹∫₀¹(1−2x)e^(−wx)dx because the polynomial vanishes at\
+      \ both ends. A second integration by parts gives F_n=2/w², since f′(1)−f′(0)=−2\
+      \ and the constant second derivative integrates to zero against that exponential.\
+      \ Pairing positive and negative n gives\n\n    f(x)=1/6−Σ_{n≥1} cos(2πnx)/(π²n²).\n\
+      \nThe periodic function is continuous and piecewise smooth, so its Fourier series\
+      \ has the displayed value everywhere. For the periodic extension of the derivative,\
+      \ integration by parts in the coefficient integral gives F_n(f′)=2πin F_n(f),\
+      \ including n=0 (the mean derivative is zero), since the boundary values of\
+      \ f match. Thus differentiating the individual terms gives the Fourier series\
+      \ of the derivative, 2Σ sin(2πnx)/(πn). No claim of uniform convergence of that\
+      \ differentiated series at the jump is required. At zero every sine vanishes.\
+      \ The one-sided slopes of the periodic extension are −1 on approach from the\
+      \ left and +1 on approach from the right. The Fourier midpoint rule gives their\
+      \ arithmetic mean, zero.\n"
+    independent_rework_sha256: 1059602d07c39d93775d347668b24d9e79e1e00453b64fe46cdf20614e581d6f
+    comparison: Both calculate mean 1/6, cosine coefficients -1/(pi n)^2, and the
+      termwise derivative sine series. At the periodic join the derivative series
+      has midpoint value zero.
+    original_page_review:
+      question_id: IB/2014/P2/q5D
+      printed_question: 5D
+      source: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      pages:
+      - 3
+      question_sha256: 9db14e75fefcf467e70916136785be1ecb4537f6e72649aa7129b5ba7ce3afbd
+      locator_sha256: 59a0a75ef3a76f22332b385135312d1a7f662017f7aaa71a1202bfd32dc0bfb5
+      page_images:
+      - page: 3
+        sha256: f0fc468207fe5ab5d99b5f3de1e96adf7d80aa528f3d96cce33953b1cd8d29b6
+        render: pdftoppm -f 3 -l 3 -r 145 -png -singlefile private/raw/tripos/IB/2014/P2.pdf
+          /tmp/ib2014-fresh-inspection/P2-3
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Compared all three Methods parts on the upper portion of the
+        page. Checked extension on the real line, [0,1), both occurrences of the derivative-series
+        extension and the explicit request for G(0).
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The original periodic extension is continuous at integers, and the derivative
+        has unequal one-sided limits.
+      result: match
+      independent_sha256: 1059602d07c39d93775d347668b24d9e79e1e00453b64fe46cdf20614e581d6f
+    check:
+      exit: 0
+      stdout: Coefficients, differentiated series and jump midpoint verified.
+      script_sha256: cbc47a193978818cbd8a2b93333c24be2549e80c676d68de58737faa7d2e61b2
+      source_hashes:
+        question.tex: 9db14e75fefcf467e70916136785be1ecb4537f6e72649aa7129b5ba7ce3afbd
+        solution.tex: 854d2cc33213d0e7cad0355b9f2933338a4f0aafc16ca487898e39dfb29cea45
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      source_page: 3
+      compiled_pdf: build/IB-2014-P2/main.pdf
+      compiled_sha256: 3861627a2c2e39ff4f7498d9b48fa24adaa2da5e3ae787079627af361e9df3f1
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2014/P2/q5D/index.html
+      html_sha256: 98135101dc31fc3ee52502415073452e2d39a6312a11556396a8f48d02fb7ad6
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: 9db14e75fefcf467e70916136785be1ecb4537f6e72649aa7129b5ba7ce3afbd
+      solution_sha256: 854d2cc33213d0e7cad0355b9f2933338a4f0aafc16ca487898e39dfb29cea45
+      check_sha256: cbc47a193978818cbd8a2b93333c24be2549e80c676d68de58737faa7d2e61b2
+      check_exit: 0
+      check_stdout: Coefficients, differentiated series and jump midpoint verified.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P2/q5D · Cambridge Maths
+        math: 29
+        rendered: 29
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P2_q5D-build-5.png: cf8b3582d92d06c8141c29cff247f81e08ef5e4eee13667e15fdb9dac81adba5
+        IB_2014_P2_q5D-html.png: 1d4e12a8678ed7e526cfa2ec44fde559ef094d6cc0819cae341a970d8ce690e8
+        IB_2014_P2_q5D-orig.png: fa243158d5346be80c2e33896f8387c256099719aaaf8b4a8202c0ebc7a205c4
+  IB/2014/P2/q6A:
+    independent_rework: "# Independent rework\n\nOrient C positively as the boundary\
+      \ of S, and take the final surface with positive orientation and the initial\
+      \ surface with negative orientation in the closed swept boundary. Orient the\
+      \ connecting ribbon to match. A material parametrisation of the moving curve\
+      \ r(s,t), with s increasing along C, gives on the outward ribbon the area element\
+      \ (∂_s r × v) ds dt. Its magnetic flux to first order is δt ∮ B·(dr × v)=−δt\
+      \ ∮ B·(v × dr), as in the hint.\n\nFirst freeze the magnetic field at t. Its\
+      \ divergence vanishes by Gauss's magnetic law, so its flux on the final surface\
+      \ minus the initial flux equals minus the ribbon flux. Restoring the change\
+      \ in field contributes δt ∫_S ∂_t B·dS + o(δt) for smooth fields and motion.\
+      \ Thus\n\n    dΦ/dt = ∫_S ∂_t B·dS + ∮_C B·(v × dr).\n\nFaraday's differential\
+      \ law ∂_t B=−curl E and Stokes's theorem give the first term as −∮ E·dr. The\
+      \ cyclic scalar product gives B·(v × dr)=−(v × B)·dr. Summing yields −∮(E+v\
+      \ × B)·dr=−ℰ. As a sign check an expanding circular loop in constant upward\
+      \ B increases its flux, and v × B is opposite its positive tangent.\n"
+    independent_rework_sha256: bf1765c4bc3178548c1b2f0541e96ac13fd6562bdc0d13885e7a125049b72351
+    comparison: The fresh audit found a typographic discrepancy in both instances
+      of the line element. Its sign and vector meaning agree. The auditor independently
+      oriented the ribbon outward, subtracted its flux from the cap change, and recovered
+      negative electromotive force. Main review corrected both glyphs against the
+      original, then froze and compared two derivations of the corrected statement.
+    original_page_review:
+      question_id: IB/2014/P2/q6A
+      printed_question: 6A
+      source: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      pages:
+      - 3
+      question_sha256: f80a99db5b011130d9e461c64099935561ca06475974169dbca410423865ffb2
+      locator_sha256: 744767b276b363675e091a681eafc272abbbb3d6ccf092a3e8339c788279123e
+      page_images:
+      - page: 3
+        sha256: f0fc468207fe5ab5d99b5f3de1e96adf7d80aa528f3d96cce33953b1cd8d29b6
+        render: pdftoppm -f 3 -l 3 -r 145 -png -singlefile private/raw/tripos/IB/2014/P2.pdf
+          /tmp/ib2014-fresh-inspection/P2-3
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Compared the lower Electromagnetism question, including Maxwell’s
+        law, the script electromotive-force symbol, both contour labels, both vector
+        products, and the complete italic hint and its minus sign. Examined the bold
+        differential in both integrals on the source image and confirmed it in the
+        original PDF font runs.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies:
+      - 'Typography only: the original prints both d and r in the same bold upright
+        typeface in the emf display and the hint. The supplied fragment uses a normal
+        italic d followed by a bold r in both places. The differential, its vector
+        meaning and both formulas agree.'
+      source_observations:
+      - The emf display uses a calligraphic contour C, while the hint subscript has
+        an ordinary mathematical C. Both are correctly distinguished by the transcription.
+      result: typographic_difference
+      independent_sha256: bf1765c4bc3178548c1b2f0541e96ac13fd6562bdc0d13885e7a125049b72351
+    check:
+      exit: 0
+      stdout: Verified both signs on an expanding rectangle in a time-dependent field.
+      script_sha256: a47f4b210212cc98206877fdd383694fc689d74cad526c271f5835f039c1b1f0
+      source_hashes:
+        question.tex: 60c799b23e303b00131d4634cef2b68e5db09201913b2fcb5dc9994c4d0fb1d1
+        solution.tex: 4951ea752ef518ea5f05d016393fef03640761c12bf2085b114766bb79f04056
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      source_page: 3
+      compiled_pdf: build/IB-2014-P2/main.pdf
+      compiled_sha256: 3861627a2c2e39ff4f7498d9b48fa24adaa2da5e3ae787079627af361e9df3f1
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2014/P2/q6A/index.html
+      html_sha256: 2defd506dae8ffb1973a4a24b25eaf7dc70354818cedd1228293024575f6b417
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: 60c799b23e303b00131d4634cef2b68e5db09201913b2fcb5dc9994c4d0fb1d1
+      solution_sha256: 4951ea752ef518ea5f05d016393fef03640761c12bf2085b114766bb79f04056
+      check_sha256: a47f4b210212cc98206877fdd383694fc689d74cad526c271f5835f039c1b1f0
+      check_exit: 0
+      check_stdout: Verified both signs on an expanding rectangle in a time-dependent
+        field.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P2/q6A · Cambridge Maths
+        math: 29
+        rendered: 29
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P2_q6A-build-6.png: c8d8eee652e0bdc3d1677608f2baa5c3abb413e5c9f6b6f01d16450f3ec00cfa
+        IB_2014_P2_q6A-html.png: 163e56b00bf0ba059e9ca350186e388ce167461295ea20fdb4eaaf068d048cd1
+        IB_2014_P2_q6A-orig.png: fa243158d5346be80c2e33896f8387c256099719aaaf8b4a8202c0ebc7a205c4
+    repair:
+      previous_question_sha256: f80a99db5b011130d9e461c64099935561ca06475974169dbca410423865ffb2
+      corrected_question_sha256: 60c799b23e303b00131d4634cef2b68e5db09201913b2fcb5dc9994c4d0fb1d1
+      checked_against: Physical page 3, both vector differential pairs use the original
+        CMBX10 glyphs.
+      paired_rework: Both independently reworked the corrected statement after the
+        initial finding; the previous wording and both earlier solutions remain in
+        unit history.
+  IB/2014/P2/q10G:
+    independent_rework: '# Independent rework
+
+
+      Define det A by the sum over σ∈S_n of sgn(σ) times the product of a_{j,σ(j)}
+      for all j. It is linear in each row separately as each summand contains only
+      one member of that row. Interchanging two rows reindexes the sum by a transposition,
+      changing its sign. Repeated rows therefore give zero. It follows that multiplying
+      a row by c multiplies the determinant by c, and adding a multiple of a different
+      row leaves it fixed. Reindexing by σ⁻¹ shows det(Aᵀ)=det A, hence the identical
+      rules hold for columns.
+
+
+      (i) Any nonzero summand of the block determinant assigns the bottom n rows to
+      the last n columns, because their first n entries vanish. Bijectivity then forces
+      the first rows to the first n columns. Such permutations correspond to independent
+      permutations of the two halves and have the product of their signs. Their sum
+      factorises as det A det B, regardless of C or singularity.
+
+
+      (ii) Let M=[A −B; B A]. On the subspaces U₊={(z,−iz)} and U₋={(z,iz)} the top
+      component of M is (A+iB)z and (A−iB)z, respectively, and the bottom component
+      is −i or i times the top. These two n-dimensional subspaces intersect only at
+      zero and span the full complex space. Thus in the basis from their standard
+      coordinate vectors the matrix is block diagonal with diagonal blocks A+iB and
+      A−iB. Similarity leaves a determinant invariant (equivalently perform the inverse
+      row change to the column change). Apply (i) to get the product, without a commutation
+      or invertibility assumption.
+
+      '
+    independent_rework_sha256: 9587ce5c261d92a7cfc1f812ccde90afbda1dd45dffa77c4fb4875b1ded6f1bf
+    comparison: The block-triangular factorization and the two complex diagonal blocks
+      agree. Neither proof requires invertibility or commutation of A and B.
+    original_page_review:
+      question_id: IB/2014/P2/q10G
+      printed_question: 10G
+      source: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      pages:
+      - 6
+      question_sha256: 07bc598c2b2b349ea2dd85faf8de9d2b84d3eb9e2dd7b6fa6f5583384da5e762
+      locator_sha256: 183213f55ba58a58f8a7bfc29907cc2cf1121e297108b5831783dfd478d8113f
+      page_images:
+      - page: 6
+        sha256: bf76cffb6249508f382a7fa09fcdf431b9b26692ee3aef87b86b62a241b29f29
+        render: pdftoppm -f 6 -l 6 -r 145 -png -singlefile private/raw/tripos/IB/2014/P2.pdf
+          /tmp/ib2014-fresh-inspection/P2-6
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the opening Section II question, checking the definition
+        and row/column justification request, all three matrices and the order and
+        signs of every block and complex factor in parts (i) and (ii).
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - All matrices are complex; no commutation or invertibility is assumed.
+      result: match
+      independent_sha256: 9587ce5c261d92a7cfc1f812ccde90afbda1dd45dffa77c4fb4875b1ded6f1bf
+    check:
+      exit: 0
+      stdout: Verified triangular determinant and symbolic change of basis for general
+        2 by 2 blocks.
+      script_sha256: 68d4e8887d29e42fd1d076c3a7ee8387708d85d965f74ca7ad249918ab855c0a
+      source_hashes:
+        question.tex: 07bc598c2b2b349ea2dd85faf8de9d2b84d3eb9e2dd7b6fa6f5583384da5e762
+        solution.tex: ecd2bd4b31a0abc00f65a825dbe86f814b7b6e86a438c486a440b8e46309462d
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      source_page: 6
+      compiled_pdf: build/IB-2014-P2/main.pdf
+      compiled_sha256: 3861627a2c2e39ff4f7498d9b48fa24adaa2da5e3ae787079627af361e9df3f1
+      compiled_pages:
+      - 11
+      html: site/private/questions/IB/2014/P2/q10G/index.html
+      html_sha256: 7caa15658baee2cfe79f34d9ca0e20ca8d04202b8f4600c977e0a43489faefe2
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: 07bc598c2b2b349ea2dd85faf8de9d2b84d3eb9e2dd7b6fa6f5583384da5e762
+      solution_sha256: ecd2bd4b31a0abc00f65a825dbe86f814b7b6e86a438c486a440b8e46309462d
+      check_sha256: 68d4e8887d29e42fd1d076c3a7ee8387708d85d965f74ca7ad249918ab855c0a
+      check_exit: 0
+      check_stdout: Verified triangular determinant and symbolic change of basis for
+        general 2 by 2 blocks.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P2/q10G · Cambridge Maths
+        math: 26
+        rendered: 26
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P2_q10G-build-11.png: 58147af4d0dc0e3c33f5ba8da0347f1b647ceb5c9ff90ee9ddcb899f638fc984
+        IB_2014_P2_q10G-html.png: fcbd1ac234f691f4bd4398571f58341c6f8f63a9a4887025fa525f7bb2b839a4
+        IB_2014_P2_q10G-orig.png: d8ba49f32314077af8e2fc8fe453e8b0bacb5e847839fcf35094abda310ff8d8
+  IB/2014/P2/q19C:
+    independent_rework: "# Independent rework\n\nLet λ be the true functional minus\
+      \ its approximation. Taylor expansion about a gives f(x)=P_k(x)+(1/k!)∫_a^b(x−θ)_+^k\
+      \ f^(k+1)(θ)dθ, with the step function interpretation for k=0. Exactness implies\
+      \ λ kills every polynomial of degree ≤k (a lower degree polynomial is a difference\
+      \ of two of degree k). Provided λ can be applied to the truncated powers for\
+      \ almost every θ and interchanged with this integral, the formula in the question\
+      \ follows with K(θ)=λ_x[(x−θ)_+^k]. For example a bounded functional on C[a,b]\
+      \ suffices for k≥1 by uniform Riemann integration. For the derivative evaluation\
+      \ below, the twice differentiated Taylor remainder is an ordinary integral up\
+      \ to x, so the interchange can be justified directly even at a kernel jump.\n\
+      \nApplying the scheme to 1,x,x² gives c₀+c₁+c₃=0, c₁+3c₃=0, c₁+9c₃=2. The resulting\
+      \ weights are 2/3, −1, 1/3. For 0<θ<3,\n\n    K(θ)=2·1_{θ<2} + (1−θ)_+² − (3−θ)²/3.\n\
+      \nIndeed, the actual second derivative contributes 2 times the indicator, while\
+      \ the 0-node term vanishes. At θ=2 the classical second derivative of the truncated\
+      \ power is undefined, and its isolated assigned value does not affect the integral.\
+      \ The three branches on (0,1),(1,2),(2,3) are respectively 2θ²/3, 2−(3−θ)²/3\
+      \ and −(3−θ)²/3. The first rises convexly from zero to 2/3, the next rises concavely\
+      \ to 5/3 from below. A jump of −2 at 2 starts the final increasing, concave\
+      \ branch at −1/3, with a horizontal tangent at 3. Sketch (open circles indicate\
+      \ one-sided limits):\n\n    K\n     5/3 │                               ·○\n\
+      \         │                            ···\n         │                     \
+      \    ····\n         │                       ···\n         │                \
+      \     ···\n         │                   ···\n         │                  ··\n\
+      \         │                ···\n     2/3 │              ··●\n         │    \
+      \        ···\n         │          ···\n         │       ····\n       0 │●·······\
+      \                                        ●\n         │                     \
+      \                 ···········\n         │                                  ·····\n\
+      \    −1/3 │                                ○··\n         └────────────────────────────────────────────────\
+      \ θ\n          0               1               2               3\n\nHölder's\
+      \ inequalities give r=ess sup |K|/2=5/6 and s=∫|K|/2. On (2,3) the negative\
+      \ area has magnitude 1/9. The signed area is 4/3, for ∫K/2 times 6 equals λ(x³)=12−[−1+27/3]=4.\
+      \ Thus ∫|K|=4/3+2/9=14/9 and s=7/9. To see sharpness, every continuous function\
+      \ g on [0,3] is some f‴ by three integrations. For r take nonnegative continuous\
+      \ bumps of integral 1 supported immediately to the left of 2, making ∫Kg approach\
+      \ 5/3. For s take continuous functions bounded by 1 agreeing with sgn K except\
+      \ in successively smaller intervals at 2. Boundedness of K makes the integral\
+      \ tend to ∫|K|. Finally for x³ the L¹ norm of f‴ is 18 and its supremum norm\
+      \ is 6, so 4≤15 and 4≤14/3 explicitly.\n"
+    independent_rework_sha256: 3879b63baa96b3d7fd37d29270a8528e815b7a5ea518b0cfec24e15b30d3cfd7
+    comparison: Both derive the three stencil coefficients and the kernel jump from
+      5/3 to -1/3. The normalized sharp constants 5/6 and 7/9 follow from separate
+      localized and sign-approximating tests; the cubic error equals four.
+    original_page_review:
+      question_id: IB/2014/P2/q19C
+      printed_question: 19C
+      source: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      pages:
+      - 10
+      question_sha256: 99aa8339a1acfe22bc256a66e4deb1efdd356b8630f0c0e9ef3b7a1974b08a8a
+      locator_sha256: ca37e007da90c4757ccb4547427908cf115b8afe79be47d016068fc465765ddd
+      page_images:
+      - page: 10
+        sha256: 5696ef2fea073333e1a5b5a66df76e21cbef668676150273ec9f4d671081c33a
+        render: pdftoppm -f 10 -l 10 -r 145 -png -singlefile private/raw/tripos/IB/2014/P2.pdf
+          /tmp/ib2014-fresh-inspection/P2-10
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Compared the lower Numerical Analysis question, including its
+        k! prefactor, domain, three weights and node labels, f″(2), the order 3, sketch
+        request, two norm subscripts, minima and cubic test.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The exam gives no sign convention for its error. The rework takes the true
+        derivative minus its approximation. The required sketch is an answer.
+      result: match
+      independent_sha256: 3879b63baa96b3d7fd37d29270a8528e815b7a5ea518b0cfec24e15b30d3cfd7
+    check:
+      exit: 0
+      stdout: Exact kernel reproduces monomials through degree nine, sharp bound constants
+        and jump limits.
+      script_sha256: 457b33e5306dafdf982b930db2e6e7d970caad8b3bf6b28e08eb965999136b22
+      source_hashes:
+        question.tex: 99aa8339a1acfe22bc256a66e4deb1efdd356b8630f0c0e9ef3b7a1974b08a8a
+        solution.tex: 2dc17b8e333d4f240192b3d7bb13e24ff5e006066f8718cd4c20386189e5ec73
+        plot.py: 330fa49acaf8a030a6f2d8f1b01b7eb130d2e05134f685db31cc0b7746a9dfbe
+        figures/peano-kernel.png: 4c18be704b4717dcc67b9a23bf51fc5c665a38e808021e3336e28180f2caca4d
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P2.pdf
+      source_sha256: 846cd3d43998c6ff42fe65f9a1afd5dca88ebafaee3c9e819a925357a4b24e5b
+      source_page: 10
+      compiled_pdf: build/IB-2014-P2/main.pdf
+      compiled_sha256: 3861627a2c2e39ff4f7498d9b48fa24adaa2da5e3ae787079627af361e9df3f1
+      compiled_pages:
+      - 22
+      - 23
+      html: site/private/questions/IB/2014/P2/q19C/index.html
+      html_sha256: b8781e579565ff47112a23346fafbd18659b483764a6d6b1e3534ef89ad6db6d
+      math_nodes: 66
+      diagrams:
+        site/private/figures/tripos/IB/2014/P2/q19C/peano-kernel.png: 4c18be704b4717dcc67b9a23bf51fc5c665a38e808021e3336e28180f2caca4d
+      question_sha256: 99aa8339a1acfe22bc256a66e4deb1efdd356b8630f0c0e9ef3b7a1974b08a8a
+      solution_sha256: 2dc17b8e333d4f240192b3d7bb13e24ff5e006066f8718cd4c20386189e5ec73
+      check_sha256: 457b33e5306dafdf982b930db2e6e7d970caad8b3bf6b28e08eb965999136b22
+      check_exit: 0
+      check_stdout: Exact kernel reproduces monomials through degree nine, sharp bound
+        constants and jump limits.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P2/q19C · Cambridge Maths
+        math: 66
+        rendered: 66
+        parse_errors: 0
+        diagrams:
+        - alt: Peano kernel with its two one-sided limits at the evaluation point.
+          width: 900
+          height: 472
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P2_q19C-build-22.png: f23a284990e207a74b5c769aad8327d2207c8920672aefd65cf6e6dd4034bfd5
+        IB_2014_P2_q19C-build-23.png: 77e9b07e25fb2ca9d3423e48d3dbff706c30924e59e983522f368d16766c7445
+        IB_2014_P2_q19C-html.png: eb120013e90f53a697418e6b920791434059a98ad3e02647d89c6514a193b186
+        IB_2014_P2_q19C-orig.png: 34ba20e5b189752074af25ca6e381d486af20b248dcb83f11ee39b248868da17
+  IB/2014/P3/q7D:
+    independent_rework: '# Independent rework
+
+
+      Parameterise characteristics by dx/dt=−y, dy/dt=x. Then du/dt=−yu_x+xu_y=0.
+      Starting at (0,s) for s>0 gives (−s sin t,s cos t). Thus u is constant on each
+      full circle of radius s and every positive-radius circle meets the data ray
+      exactly once as a point. Its assigned value is cos(s²).
+
+
+      The characteristic at the origin is stationary. Its given value is cos 0=1,
+      consistent with the limit from the other circles. The resulting unique classical
+      solution on the plane is u(x,y)=cos(x²+y²), a smooth function. Its derivatives
+      are −2x sin(x²+y²) and −2y sin(x²+y²), which cancel in the PDE and recover the
+      data.
+
+      '
+    independent_rework_sha256: 66564fc59b0ace9f19ea2ebd35f751ce0eaa25f3a69f0a1b9f5948eea4504493
+    comparison: Both preserve radius squared on each circular characteristic, use
+      the positive-axis data, and treat the stationary origin separately. The same
+      smooth radial cosine solves the equation everywhere.
+    original_page_review:
+      question_id: IB/2014/P3/q7D
+      printed_question: 7D
+      source: private/raw/tripos/IB/2014/P3.pdf
+      source_sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+      pages:
+      - 3
+      question_sha256: b6cdbcb4712e3eb34639b314d9d2c2a179e1b63882e74f75076c53a23f8e5025
+      locator_sha256: 4d15128abf01d7dbbc6a4eab29719663404c3e8032fbaaa166dff604bebbeb8f
+      page_images:
+      - page: 3
+        sha256: d6348452fb46df18bd7b8ecb5d37f26d7a2891a0a8dda94610efae845a1eac07
+        render: pdftoppm -f 3 -l 3 -r 145 -png -singlefile private/raw/tripos/IB/2014/P3.pdf
+          /tmp/ib2014-fresh-inspection/P3-3
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Compared the Methods question between 6C and 8A. Checked the
+        negative y and positive x transport coefficients, the zero right side and
+        the entire terminal condition.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The datum reads cos y², with square attached to y, on the nonnegative vertical
+        ray.
+      result: match
+      independent_sha256: 66564fc59b0ace9f19ea2ebd35f751ce0eaa25f3a69f0a1b9f5948eea4504493
+    check:
+      exit: 0
+      stdout: PDE, all characteristic circles and stationary origin verified.
+      script_sha256: 4cabc6d6d9ffd73d97334e2eb46b1d501ab112f8d220c355a91eb29df5b7b7da
+      source_hashes:
+        question.tex: b6cdbcb4712e3eb34639b314d9d2c2a179e1b63882e74f75076c53a23f8e5025
+        solution.tex: 22f1b1a4346bd7a8ec5b9f4a3398a2949dceda316cd07e1a0b5154cdbf0604eb
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P3.pdf
+      source_sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+      source_page: 3
+      compiled_pdf: build/IB-2014-P3/main.pdf
+      compiled_sha256: dbd362d853b126521447094b39a4962fb01b55be097dbf5f811e6f14acbed78a
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2014/P3/q7D/index.html
+      html_sha256: 3f5cf1d38e66cae2b3ab6604e04bd3c26df4933e49415f5fba5c9d3acce2534e
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: b6cdbcb4712e3eb34639b314d9d2c2a179e1b63882e74f75076c53a23f8e5025
+      solution_sha256: 22f1b1a4346bd7a8ec5b9f4a3398a2949dceda316cd07e1a0b5154cdbf0604eb
+      check_sha256: 4cabc6d6d9ffd73d97334e2eb46b1d501ab112f8d220c355a91eb29df5b7b7da
+      check_exit: 0
+      check_stdout: PDE, all characteristic circles and stationary origin verified.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P3/q7D · Cambridge Maths
+        math: 18
+        rendered: 18
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P3_q7D-build-7.png: d617e611f36a63be09a1feb5e24c7531122306e997ca6462e0865023e2026616
+        IB_2014_P3_q7D-html.png: 7f6990c7c4e8e550c735fcd9e828a8b0469eb1dbf7d911e487253602bbe1cc7d
+        IB_2014_P3_q7D-orig.png: bf33eec18bd8ae69cdb710481d39295cc73240f4a56041e0db5c996b103e71d3
+  IB/2014/P3/q12F:
+    independent_rework: '# Independent rework
+
+
+      Fix x₀∈(a,b) and ε>0. Uniform convergence gives N such that |f_N−f|<ε/3 everywhere.
+      Continuity of f_N at x₀ provides δ>0 such that |f_N(x)−f_N(x₀)|<ε/3 for x in
+      the interval within distance δ. Adding the two errors of approximation and the
+      middle difference yields |f(x)−f(x₀)|<ε.
+
+
+      On (0,1), take f_n(x)=x^n. The limit is the continuous zero function at every
+      point of the open interval, yet sup_{0<x<1}x^n=1 for each n. This rules out
+      the converse even with continuous terms and limit.
+
+
+      Choose η>0 with [α,β+η]⊂(a,b). The continuous f′ is uniformly continuous on
+      this compact interval (Heine–Cantor). For n large enough that 1/n<η, the ordinary
+      mean value theorem gives g_n(x)=f′(ξ) for a ξ between x and x+1/n. For any ε
+      choose δ for uniform continuity of f′ on the enlarged compact interval. Once
+      1/n<min(δ,η), |f′(ξ)−f′(x)|<ε for every x in [α,β], giving uniform convergence.
+      Only the eventual tail must be defined throughout that compact interval.
+
+      '
+    independent_rework_sha256: 9a1a1443561010423ccfa8f08a73a1f1e4c689bd3f2e1293e83d1077ecd2b64c
+    comparison: Both give an epsilon/3 uniform-limit proof and a moving point for
+      failure of uniformity of x^n. The forward differences converge uniformly on
+      each compact subinterval by uniform continuity of the derivative on a slightly
+      larger compact interval, once n is large enough.
+    original_page_review:
+      question_id: IB/2014/P3/q12F
+      printed_question: 12F
+      source: private/raw/tripos/IB/2014/P3.pdf
+      source_sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+      pages:
+      - 6
+      question_sha256: f00410aa8bbdbeb13a053f3806356440deb7a0304d98110e2347f084e900844f
+      locator_sha256: 8e7bf709c21be7343daff0a1c6ca443523ba469684ce1d4ab1861191a99076f6
+      page_images:
+      - page: 6
+        sha256: a3ab6b470c306f12479e69ff43222805473818bd103f8b9511103ec43bdf3059
+        render: pdftoppm -f 6 -l 6 -r 145 -png -singlefile private/raw/tripos/IB/2014/P3.pdf
+          /tmp/ib2014-fresh-inspection/P3-6
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the top Analysis II question. Compared the open interval
+        and quantifiers, pointwise converse, placement of n and 1/n in the forward
+        difference and the compact interval in the conclusion.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The shifted argument stays in the domain on each compact interval for all
+        sufficiently large n.
+      result: match
+      independent_sha256: 9a1a1443561010423ccfa8f08a73a1f1e4c689bd3f2e1293e83d1077ecd2b64c
+    check:
+      exit: 0
+      stdout: Checked pointwise/nonuniform witnesses and a uniform difference-quotient
+        error bound.
+      script_sha256: cfe34dcfdf1b6b37b99d77e8b11a728e2630738f7315b41a90d28a0e5d332585
+      source_hashes:
+        question.tex: f00410aa8bbdbeb13a053f3806356440deb7a0304d98110e2347f084e900844f
+        solution.tex: d24c8de9200d7094595a7430ca56e14d309562420e7c19ff826ca680518fd214
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P3.pdf
+      source_sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+      source_page: 6
+      compiled_pdf: build/IB-2014-P3/main.pdf
+      compiled_sha256: dbd362d853b126521447094b39a4962fb01b55be097dbf5f811e6f14acbed78a
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2014/P3/q12F/index.html
+      html_sha256: db74e928d57c8a5a627e08fe58d3489887ab3da959964d573952b2a927a360fb
+      math_nodes: 46
+      diagrams: {}
+      question_sha256: f00410aa8bbdbeb13a053f3806356440deb7a0304d98110e2347f084e900844f
+      solution_sha256: d24c8de9200d7094595a7430ca56e14d309562420e7c19ff826ca680518fd214
+      check_sha256: cfe34dcfdf1b6b37b99d77e8b11a728e2630738f7315b41a90d28a0e5d332585
+      check_exit: 0
+      check_stdout: Checked pointwise/nonuniform witnesses and a uniform difference-quotient
+        error bound.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P3/q12F · Cambridge Maths
+        math: 46
+        rendered: 46
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P3_q12F-build-12.png: 24b93b98db257a07bff1a30b0e59fb916bdab1876386894720f3e1b66dc72eb0
+        IB_2014_P3_q12F-html.png: a71cbadc5ddaba7ee0e9097fe4452dca776ee8fd269a5a31d7760a8dc5642315
+        IB_2014_P3_q12F-orig.png: 3aea1c5155139e28fcd2a07957f3d5e741beddcdca18ca8ba363dec31300b1da
+  IB/2014/P3/q20H:
+    independent_rework: '# Independent rework
+
+
+      Set N=nk and S=Σx_i, assuming the usual positive number k of trials and sample
+      size n≥1. By independence the likelihood is proportional to θ^S(1−θ)^(N−S).
+      For 0<S<N its log derivative S/θ−(N−S)/(1−θ) vanishes exactly at S/N; the second
+      derivative is strictly negative. When S=0 or N the likelihood is strictly monotone
+      and the open interval in the question excludes its supremum point. The conventional
+      extended estimate on the closure is 0 or 1 respectively; below write θ̂=S/N
+      with that interpretation for boundary data. If zero trials are allowed, k=0
+      leaves the likelihood constant and every θ maximises it. The requested strict
+      range for c presupposes N>0.
+
+
+      Statistician 1 uses Beta(α,1). After multiplying by the likelihood and normalising
+      one gets Beta(S+α,N−S+1), hence mean m₁=(S+α)/(N+α+1). With c=N/(N+α+1)∈(0,1)
+      and prior mean θ̃₁=α/(α+1), c θ̂+(1−c)θ̃₁ gives m₁. The algebra holds for boundary
+      data using the extended estimate.
+
+
+      Statistician 2 uses Beta(1,α), a reflection of the increasing first density.
+      The first favours larger probabilities and the second smaller ones. Its posterior
+      is Beta(S+1,N−S+α), giving m₂=(S+1)/(N+α+1). The difference m₁−m₂=(α−1)/(N+α+1)
+      is positive.
+
+
+      As α grows, P₁(θ≤t)=t^α decreases to zero for every 0<t<1 and P₂(θ≥t)=(1−t)^α
+      decreases to zero. Thus the priors concentrate toward 1 and 0 respectively.
+      The data weight c decreases to zero. With D=N+α+1, dm₁/dα=(N−S+1)/D²>0 and dm₂/dα=−(S+1)/D²<0.
+      Their respective limits are 1 and 0.
+
+      '
+    independent_rework_sha256: b511111426e65c7ef2232130a05c5291b00e7ee87a2cfa819590aaf72e4f282d
+    comparison: Both find the same beta posteriors, posterior means and their difference.
+      The strictly open parameter space has no likelihood maximizer for the two extreme
+      outcomes. The stored answer states the boundary convention.
+    original_page_review:
+      question_id: IB/2014/P3/q20H
+      printed_question: 20H
+      source: private/raw/tripos/IB/2014/P3.pdf
+      source_sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+      pages:
+      - 10
+      question_sha256: 27e8df0e9a1e8c881869bf46ec41cd729c462168fbd8cc6187a12f5cd6d5d8f2
+      locator_sha256: e0cb64ec729300daea29b752db6ac226d14d429942e97351a4a24280c76fcc85
+      page_images:
+      - page: 10
+        sha256: c7882f24db23d03c8adef7021b0d31a2a6e63bcd5c857dcf43478e0788745148
+        render: pdftoppm -f 10 -l 10 -r 145 -png -singlefile private/raw/tripos/IB/2014/P3.pdf
+          /tmp/ib2014-fresh-inspection/P3-10
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Compared the full Statistics question below 19C, including
+        the binomial law, open parameter range, the powers in both priors, the estimator
+        superscripts, strict comparison, increasing α and the entire beta/gamma hint.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - The open parameter space excludes maximisers at extreme samples; the standard
+        closure convention is explicit in the rework.
+      result: match
+      independent_sha256: b511111426e65c7ef2232130a05c5291b00e7ee87a2cfa819590aaf72e4f282d
+    check:
+      exit: 0
+      stdout: Checked interior scores, endpoint updates, posterior moment integrals
+        and monotone concentration.
+      script_sha256: fa26cde6e4ccbe40603da83f390e3362d9862a67eb295beda23bc81b47816ca2
+      source_hashes:
+        question.tex: 27e8df0e9a1e8c881869bf46ec41cd729c462168fbd8cc6187a12f5cd6d5d8f2
+        solution.tex: 9938161b9dff3ac58d5eaa4ee722615fde35c43055eda095c27ae0c4c165279f
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P3.pdf
+      source_sha256: 4e236cf3342757d827bf78c91a8c9216d7d857a52e8acb70f846e3c5d1c49d44
+      source_page: 10
+      compiled_pdf: build/IB-2014-P3/main.pdf
+      compiled_sha256: dbd362d853b126521447094b39a4962fb01b55be097dbf5f811e6f14acbed78a
+      compiled_pages:
+      - 22
+      - 23
+      html: site/private/questions/IB/2014/P3/q20H/index.html
+      html_sha256: b02ec774ea03a980a5b741e1150b274009cb92f69f4c1b6702ad35765e694c1e
+      math_nodes: 65
+      diagrams: {}
+      question_sha256: 27e8df0e9a1e8c881869bf46ec41cd729c462168fbd8cc6187a12f5cd6d5d8f2
+      solution_sha256: 9938161b9dff3ac58d5eaa4ee722615fde35c43055eda095c27ae0c4c165279f
+      check_sha256: fa26cde6e4ccbe40603da83f390e3362d9862a67eb295beda23bc81b47816ca2
+      check_exit: 0
+      check_stdout: Checked interior scores, endpoint updates, posterior moment integrals
+        and monotone concentration.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P3/q20H · Cambridge Maths
+        math: 65
+        rendered: 65
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P3_q20H-build-22.png: c84e465684f52ae8701470fb344f8ef591f176f074f51322416d2bebdc628825
+        IB_2014_P3_q20H-build-23.png: 28b08b8bd0a2c7e63025a8c37db9b93d3392a2c96d1ac7aabb1e06bf9054d805
+        IB_2014_P3_q20H-html.png: 9af571d95ac5f1cfc1fbd1e73a9b31f0efb458e8b4a73253c9acc0fae77be958
+        IB_2014_P3_q20H-orig.png: 30442c5f24d66e7f54388b78b733faff85c6fa3d515b218d47fc7d323890682c
+  IB/2014/P4/q12F:
+    independent_rework: '# Independent rework
+
+
+      For p=(x₀,y₀), differentiability means there exists a linear L:R²→R with f(p+v)=f(p)+L(v)+o(‖v‖)
+      as v→0. Axis increments then identify L(s,t)=sD₁f(p)+tD₂f(p).
+
+
+      Choose a ball around p contained in U. For sufficiently small (s,t), split the
+      difference into a horizontal increment at height y₀+t and a vertical increment
+      at x₀. The one-dimensional mean value theorem on those segments gives sD₁f(x₀+ξs,y₀+t)+tD₂f(x₀,y₀+ζt),
+      with 0<ξ,ζ<1 (a zero increment contributes zero). Existence of the partial derivatives
+      gives the one-variable differentiability needed on these segments. At p the
+      two derivatives are continuous, so subtracting sD₁f(p)+tD₂f(p) leaves at most
+      (|s|+|t|)o(1)=o(‖(s,t)‖).
+
+
+      The converse fails. Take f(x,y)=x² sin(1/x) for x≠0 and 0 on the y-axis. It
+      is smooth off that axis. On the axis the change in f is bounded by s², making
+      its total derivative zero there. For x≠0 the partial D₁f=2x sin(1/x)−cos(1/x)
+      equals −1 along x=1/(2πj), although it vanishes on the axis. This supplies a
+      differentiable function with a discontinuous partial at the origin (and translations
+      give any chosen point).
+
+
+      For the specified h, smoothness gives differentiability wherever x≠0. At (0,y₀)
+      with y₀≠0, the horizontal difference quotient y₀ sin(1/s) has no limit (take
+      inverse phases π/2+2πj and 3π/2+2πj). At (0,0), |h(s,t)|≤|st|≤(s²+t²)/2, so
+      h is differentiable with zero total derivative. The answer is {x≠0} together
+      with {(0,0)}.
+
+      '
+    independent_rework_sha256: bdd50247e9d740d7f55dfa87531f58305822481e5b225f4020abb5d747201de1
+    comparison: Pathwise one-variable mean-value estimates along two coordinate segments
+      give the same derivative. The horizontal quotient fails on the punctured vertical
+      axis; at the origin the quadratic bound gives total derivative zero.
+    original_page_review:
+      question_id: IB/2014/P4/q12F
+      printed_question: 12F
+      source: private/raw/tripos/IB/2014/P4.pdf
+      source_sha256: 4b085f0951b248984580eee76f9275ebf018cc2d8af775a991a8d20ed0f0a675
+      pages:
+      - 7
+      question_sha256: c73d19137de4fdee4aae86718b27343abc3d1fd1afe6b3d1a36da796a24d1285
+      locator_sha256: 0d90a2fcb566a904ef7b305fbcfab093e8f40d3a697402c79109e2a94bb510bb
+      page_images:
+      - page: 7
+        sha256: ac3cd32f039b8917ab88eec4a2fad07e73de20e1431e9b53639aa603a9feb4ba
+        render: pdftoppm -f 7 -l 7 -r 145 -png -singlefile private/raw/tripos/IB/2014/P4.pdf
+          /tmp/ib2014-fresh-inspection/P4-7
+      method: Fresh blind derivation from the supplied question and locator only.
+        Visually compared all wording, formulae, conditions and subparts of the question
+        body against the specified original Faculty PDF page rendered at 145 dpi.
+        Checked for printed marks and examiner illustrations.
+      visual_evidence: Read the opening Analysis II question and compared the existence
+        and continuity hypotheses, indices on both partials, the converse request,
+        both branches defining h, and the final request for every point.
+      printed_absolute_marks: null
+      printed_question_diagrams: []
+      transcription_discrepancies: []
+      source_observations:
+      - Continuity of the partials is assumed at the specified point, while their
+        existence is assumed on the open set.
+      result: match
+      independent_sha256: bdd50247e9d740d7f55dfa87531f58305822481e5b225f4020abb5d747201de1
+    check:
+      exit: 0
+      stdout: Verified discontinuous derivative witnesses, failure on the punctured
+        axis and the quadratic origin bound.
+      script_sha256: 23989e589898f43e4e6aa2f3670c11532cbe79d8e3abf4d3ee29965067107356
+      source_hashes:
+        question.tex: c73d19137de4fdee4aae86718b27343abc3d1fd1afe6b3d1a36da796a24d1285
+        solution.tex: 3d568cda30042944a25a844171c116a5a1658b7b2975b8282fb46a4ea9cb6e8c
+    delivery:
+      source_pdf: private/raw/tripos/IB/2014/P4.pdf
+      source_sha256: 4b085f0951b248984580eee76f9275ebf018cc2d8af775a991a8d20ed0f0a675
+      source_page: 7
+      compiled_pdf: build/IB-2014-P4/main.pdf
+      compiled_sha256: 623432bf65e6faa99c1fa264a9ffbb73ef0bbd453aa2ffac3139e73aec23e49c
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2014/P4/q12F/index.html
+      html_sha256: 0d84661ff1f392807aa121090b5d60e2aa0f05356d28ee57dac449c834affb97
+      math_nodes: 53
+      diagrams: {}
+      question_sha256: c73d19137de4fdee4aae86718b27343abc3d1fd1afe6b3d1a36da796a24d1285
+      solution_sha256: 3d568cda30042944a25a844171c116a5a1658b7b2975b8282fb46a4ea9cb6e8c
+      check_sha256: 23989e589898f43e4e6aa2f3670c11532cbe79d8e3abf4d3ee29965067107356
+      check_exit: 0
+      check_stdout: Verified discontinuous derivative witnesses, failure on the punctured
+        axis and the quadratic origin bound.
+      check_stderr: ''
+      browser:
+        title: IB/2014/P4/q12F · Cambridge Maths
+        math: 53
+        rendered: 53
+        parse_errors: 0
+        diagrams: []
+        documentWidth: 1220
+        viewport: 1220
+        overflows: []
+      inspection_image_hashes:
+        IB_2014_P4_q12F-build-12.png: e795fbe3e9b4d32731d783fa034ff3c8cd0951b4569e8668c1e461f835cf0444
+        IB_2014_P4_q12F-html.png: c0076285bcc171db60201fdb12f707e587e4695a5f8b105925be12f97696874b
+        IB_2014_P4_q12F-orig.png: 815d79b39798eed7fa9f796f85aa56042040e8105975d92a39718d7461b45967
