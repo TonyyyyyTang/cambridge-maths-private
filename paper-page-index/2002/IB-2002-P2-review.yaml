@@ -1,0 +1,408 @@
+paper_id: IB/2002/P2
+id: IB/2002/P2
+main_count: 18
+unit_count: 18
+main_question_count: 18
+question_units: 18
+source_page_count: 8
+page_count: 8
+section_units:
+  I: 9
+  II: 9
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2002-06-06'
+printed_date: Thursday 6 June 2002
+time: 9 to 12
+source: private/raw/tripos/IB/2002/P2.pdf
+archive: private/raw/tripos/IB/2002/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2002/PaperIB_2.pdf
+sha256: 4d87034c96d4d1d10f7235903496456a5ad60ca6336b8def7cdc93a7b2a66a35
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- Candidates may attempt at most four questions from Section I and at most six questions from Section II.
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Answers must be tied up in separate bundles, marked A, B, ..., H according to the letter affixed to each
+  question, and a blue cover sheet must be attached to each bundle.
+- A green master cover sheet listing all the questions attempted must be completed.
+- It is essential that every cover sheet bear the candidate’s examination number and desk number.
+questions:
+- id: IB/2002/P2/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 02d24c934a4e52562d987c0e09e27eda55e29b323b39c5e289c6f8af880d965f
+  checks: Four examples and permission to omit their justification.
+  source_page_render_sha256: 31a38cdacc90b5c4f9f339e1ecd87662ac3bf81489dff54660aa84220484921e
+  course_mapping_schedule_page: 18
+- id: IB/2002/P2/q2C
+  original_question: 2C
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IA/vector-calculus
+  also_courses:
+  - IB/methods
+  question_sha256: a62d4a3b849a63b155d88e53ec4f0698eac2b889d2c48b36061375244695b344
+  checks: Tensor transformation, rotation angle and all three coordinate axes.
+  source_page_render_sha256: 31a38cdacc90b5c4f9f339e1ecd87662ac3bf81489dff54660aa84220484921e
+  course_mapping_schedule_page: 13
+  course_mapping_note: Cartesian tensors, index notation and their application to vector calculus are now in
+    IA Vector Calculus.
+- id: IB/2002/P2/q3H
+  original_question: 3H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 9d2a505c61d0863e2687d0cd56daf1885969084eeb1526858a1ed2867a6a7184
+  checks: Exponential rate, common density, one-sided alternative and power.
+  printed_ambiguity: The size of the test is unspecified. Express the rule and power as functions of the chosen
+    size.
+  source_page_render_sha256: 31a38cdacc90b5c4f9f339e1ecd87662ac3bf81489dff54660aa84220484921e
+  course_mapping_schedule_page: 23
+- id: IB/2002/P2/q4G
+  original_question: 4G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: f5e1150fb31ed9625d9f4fdbe5dc0756cd5cda0f5dd1d55b8e7bde4a76d3ec99
+  checks: Product of real and imaginary parts is bounded above on the whole plane.
+  source_page_render_sha256: 31a38cdacc90b5c4f9f339e1ecd87662ac3bf81489dff54660aa84220484921e
+  course_mapping_schedule_page: 19
+  course_mapping_note: The complex-variable part of Further Analysis corresponds to IB Complex Analysis.
+- id: IB/2002/P2/q5B
+  original_question: 5B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: e0fb3f11226ac264a5d564e5b1bcaf1d260b9aaff3d95c7dab6f024ba8e17ab8
+  checks: All twelve matrix entries and rectangular dimensions of the skinny factorization.
+  source_page_render_sha256: 01e7837323def5eaa1ee2d396f2207d31e4466da88f2887f45ea3b8da56d2060
+  course_mapping_schedule_page: 23
+- id: IB/2002/P2/q6G
+  original_question: 6G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 57b66aa275689dab6e6b215dbe9e4452ead7db7821d703cc49719bd3e4ddc39e
+  checks: Matrix size and both non-diagonalisability and nonzero-square conditions.
+  source_page_render_sha256: 01e7837323def5eaa1ee2d396f2207d31e4466da88f2887f45ea3b8da56d2060
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P2/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 475a2406bea26aa798cc9cd7f70d96589d756f7fd9dcb3b1b1127e3a9420e613
+  checks: Constant squared modulus, open disk and required Cauchy–Riemann method.
+  source_page_render_sha256: 01e7837323def5eaa1ee2d396f2207d31e4466da88f2887f45ea3b8da56d2060
+  course_mapping_schedule_page: 20
+- id: IB/2002/P2/q8F
+  original_question: 8F
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quadratic Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: ceebd51471845a2dd2c47b8a3744b2cf53958b741def97cc8cf8c1d778cee400
+  checks: Sesquilinear form on a complex space, diagonal equality and polarization conclusion.
+  source_page_render_sha256: 01e7837323def5eaa1ee2d396f2207d31e4466da88f2887f45ea3b8da56d2060
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P2/q9D
+  original_question: 9D
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: c3c49eb716855bf67362459cbbf2789176b173181a9b94128467321dcf85d021
+  checks: Three signed angular momentum components and polynomial (x+iy)z.
+  source_page_render_sha256: 01e7837323def5eaa1ee2d396f2207d31e4466da88f2887f45ea3b8da56d2060
+  course_mapping_schedule_page: 21
+- id: IB/2002/P2/q10E
+  original_question: 10E
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: e3f4bac729719ec7a9c0e26b5f2c23b29e23749d3b6d555a10c6d08b2c39a3ba
+  checks: Complete and compact cases, iterated contraction, orbit closure and theorem allowance.
+  printed_ambiguity: The fixed-point assertions in parts (a) and (b) assume nonempty spaces.
+  source_page_render_sha256: 87b031dff8975a258596fad7c1ea2c4d380ab7dd4d3e667b38edc409a3dec5be
+  course_mapping_schedule_page: 18
+- id: IB/2002/P2/q11C
+  original_question: 11C
+  page: 4
+  pages:
+  - 4
+  section: II
+  course_at_time: Methods
+  course: IA/vector-calculus
+  also_courses:
+  - IB/methods
+  question_sha256: e7a00e6693a8a47b69d205defec9984bf1aeb59aa08893da0ad6ca8a0e0773ca
+  checks: Trace term, tensor divergence, cross-product order and zero boundary condition.
+  source_page_render_sha256: 87b031dff8975a258596fad7c1ea2c4d380ab7dd4d3e667b38edc409a3dec5be
+  course_mapping_schedule_page: 13
+  course_mapping_note: Cartesian tensors, index notation and their application to vector calculus are now in
+    IA Vector Calculus.
+- id: IB/2002/P2/q12H
+  original_question: 12H
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: cfc62011aed6ded173f2bf67e353e3a17695e3ac15bf644b7670659c1b68728c
+  checks: All ten measurements, printed mismatched sum index and the full percentile exhibit.
+  printed_ambiguity: The printed sum is indexed by j but its summand uses i. The supplied ten observations
+    reproduce the printed value 12.824.
+  figures:
+  - student-percentiles
+  source_page_render_sha256: d0c19718cf25beb85f26a0354197dda6066e1e83e8ed98bfbe87a4ab01c24e86
+  figure_png_sha256:
+    student-percentiles: 44fe6ffecf9ac84d7eecdce5236167289b6c680ece7a385b5351aebf665625a0
+  plot_sha256: e0a078be4d34c8e385876d485796a7799cbfce4032de2081701e8e42b281051c
+  course_mapping_schedule_page: 23
+- id: IB/2002/P2/q13G
+  original_question: 13G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Further Analysis
+  course: IB/topology
+  also_courses: []
+  question_sha256: 5b3724c8d92442db5a9ad9ff7c4e56929715eea1ea19ae5fed2abe0b45a6b0e5
+  checks: All basis axioms, lexicographic order and the strict open intervals.
+  source_page_render_sha256: d0c19718cf25beb85f26a0354197dda6066e1e83e8ed98bfbe87a4ab01c24e86
+  course_mapping_schedule_page: 18
+  course_mapping_note: The Topological Spaces schedule covers the point-set topology examined under Further
+    Analysis.
+- id: IB/2002/P2/q14B
+  original_question: 14B
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 70041549bb78a1a6d01aa3518740f9909c77157491f1d4be92621512eae4a183
+  checks: Distinct nodes, both recurrence denominators, omitted indices and interpolation parameter.
+  source_page_render_sha256: 09966b4666c628d73ddfe7c53a4129919a26256e5eee290309b2893cbbc5c96d
+  course_mapping_schedule_page: 23
+- id: IB/2002/P2/q15G
+  original_question: 15G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 231e177bca26769d3d8bc014662d6af3e5334cd4c0cd5755acf43ef5c5f89d4e
+  checks: Printed unipotent definition and order of each similarity transform.
+  printed_ambiguity: In part (a) the original does not introduce the name U until the expression U-I.
+  source_page_render_sha256: 09966b4666c628d73ddfe7c53a4129919a26256e5eee290309b2893cbbc5c96d
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P2/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 97b38b150b77f90293058b61811da98b3469892aa84bb03d746dff982e95ecbe
+  checks: Two-sided Laurent series, pole order k+1, derivative order k and factor four to minus k.
+  source_page_render_sha256: 3b1f1d4121600975ce27bddb0fd6660e98ba4e1732e600804ee9954978b98a10
+  course_mapping_schedule_page: 20
+- id: IB/2002/P2/q17F
+  original_question: 17F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quadratic Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 274623eabd9df12ab7d43a3ec793a8ee25a526b8398afa4fec7e8952d4fc193d
+  checks: Both adjoint implications, four spectral facts and commuting factorization hint.
+  printed_ambiguity: The opening equivalence requires the usual finite-dimensional context or closedness of
+    W and existence of the adjoint in Hilbert space. Finite dimensionality is explicit only later.
+  source_page_render_sha256: 3b1f1d4121600975ce27bddb0fd6660e98ba4e1732e600804ee9954978b98a10
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P2/q18D
+  original_question: 18D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 93b64a06789287b669e0fe29492f9499673f55671d0449258e954457a4245c17
+  checks: Negative oscillator potential, three numbered equations, moments and Gaussian quotient hint.
+  printed_ambiguity: Part (c) uses a normalized Gaussian, requiring positive real part of B and hence a restriction
+    on the phase beyond the real-valued phase in (b).
+  source_page_render_sha256: e3eff7e61560865f414115dd6c7ec42bcf60f748bc5310227009df7a4dc47067
+  course_mapping_schedule_page: 21
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 1e839e42c03608d20877aec36cf59d4c5a1b2d8812cb9fa07856a82145052f4f
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 140
+  katex_failures: 0
+  compiled_proof_pages: 18
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2002 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: ab079ba33a73913a7d448b465388f5aeb6966bdd916ed16121dff508a7ba9df4
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1E
+  - 2C
+  - 3H
+  - 4G
+  source_page_render_sha256: 31a38cdacc90b5c4f9f339e1ecd87662ac3bf81489dff54660aa84220484921e
+  printed_page: 2
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 5B
+  - 6G
+  - 7B
+  - 8F
+  - 9D
+  source_page_render_sha256: 01e7837323def5eaa1ee2d396f2207d31e4466da88f2887f45ea3b8da56d2060
+  printed_page: 3
+  footer: Paper 2
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 10E
+  - 11C
+  source_page_render_sha256: 87b031dff8975a258596fad7c1ea2c4d380ab7dd4d3e667b38edc409a3dec5be
+  printed_page: 4
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 12H
+  - 13G
+  source_page_render_sha256: d0c19718cf25beb85f26a0354197dda6066e1e83e8ed98bfbe87a4ab01c24e86
+  printed_page: 5
+  footer: Paper 2
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 14B
+  - 15G
+  source_page_render_sha256: 09966b4666c628d73ddfe7c53a4129919a26256e5eee290309b2893cbbc5c96d
+  printed_page: 6
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 16B
+  - 17F
+  source_page_render_sha256: 3b1f1d4121600975ce27bddb0fd6660e98ba4e1732e600804ee9954978b98a10
+  printed_page: 7
+  footer: Paper 2
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 18D
+  source_page_render_sha256: e3eff7e61560865f414115dd6c7ec42bcf60f748bc5310227009df7a4dc47067
+  printed_page: 8
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: true
+provenance:
+  source_class: public-faculty-tripos
+  archived_at_utc: '2026-11-20T12:26:53.581552+00:00'
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: Physical PDF pages

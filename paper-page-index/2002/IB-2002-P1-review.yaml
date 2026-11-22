@@ -1,0 +1,395 @@
+paper_id: IB/2002/P1
+id: IB/2002/P1
+main_count: 18
+unit_count: 18
+main_question_count: 18
+question_units: 18
+source_page_count: 8
+page_count: 8
+section_units:
+  I: 9
+  II: 9
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2002-06-05'
+printed_date: Wednesday 5 June 2002
+time: 1.30 to 4.30
+source: private/raw/tripos/IB/2002/P1.pdf
+archive: private/raw/tripos/IB/2002/P1.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2002/PaperIB_1.pdf
+sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- Candidates may attempt at most four questions from Section I and at most six questions from Section II.
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Answers must be tied up in separate bundles, marked A, B, ..., H according to the letter affixed to each
+  question, and a blue cover sheet must be attached to each bundle.
+- A green master cover sheet listing all the questions attempted must be completed.
+- It is essential that every cover sheet bear the candidate’s examination number and desk number.
+questions:
+- id: IB/2002/P1/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a4b6f555ac373441b882a4e09c33160aa1bb779a4469c5ea6b008358cedecb8b
+  checks: Uniform continuity of each function, both convergence modes and justification.
+  source_page_render_sha256: 56f869800029dda7df7bf88c3e920c0da65eb431f7443d3835bc6203489eefdb
+  course_mapping_schedule_page: 18
+- id: IB/2002/P1/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: bb2b44f240face28960599b29a1cf45b60ac33cb6658421736adee5fa21664fb
+  checks: Both half-range series, point three halves L, and cosine sketch interval.
+  source_page_render_sha256: 56f869800029dda7df7bf88c3e920c0da65eb431f7443d3835bc6203489eefdb
+  course_mapping_schedule_page: 21
+- id: IB/2002/P1/q3H
+  original_question: 3H
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: b644858f4cff9d25e3bd330dd907a832828861f2a6161133a80d8b7f14f540bf
+  checks: Discrete proof, random Poisson sample and dimension of the statistic.
+  source_page_render_sha256: 56f869800029dda7df7bf88c3e920c0da65eb431f7443d3835bc6203489eefdb
+  course_mapping_schedule_page: 23
+- id: IB/2002/P1/q4E
+  original_question: 4E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 1284b3e02312d20021dd9b601777419297fc526bcba9f62196f4a85d8c045399
+  checks: Both planes, preservation of orientation and smallest closed disc assumption.
+  source_page_render_sha256: 56f869800029dda7df7bf88c3e920c0da65eb431f7443d3835bc6203489eefdb
+  course_mapping_schedule_page: 19
+  course_mapping_note: Hyperbolic plane geometry, its distance and its isometries belong to IB Geometry.
+- id: IB/2002/P1/q5G
+  original_question: 5G
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e7636111e9c183b4364b87034f9e31330f0cfc44ef519c80cef3fa8c79099f16
+  checks: Signs in all three coordinates and linear independence of f and its square.
+  source_page_render_sha256: 39f6b88fefef391b747711c7c5bcb4f328f1d05cf78523238d738c3549b11379
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P1/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 8be165aec1a531361c12b756b8575fcedd39d66e52b371baffc1884aaadaf25d
+  checks: Time-dependent shear and initially vertical marked segment.
+  source_page_render_sha256: 39f6b88fefef391b747711c7c5bcb4f328f1d05cf78523238d738c3549b11379
+  course_mapping_schedule_page: 22
+- id: IB/2002/P1/q7B
+  original_question: 7B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 4979b99ad09672b2509b7007bdb643ba68435bccaaee0c7b8b55dc12a5073e7d
+  checks: Rectangle vertex order, both whole-line integrals and Fourier sign convention.
+  source_page_render_sha256: 39f6b88fefef391b747711c7c5bcb4f328f1d05cf78523238d738c3549b11379
+  course_mapping_schedule_page: 20
+- id: IB/2002/P1/q8F
+  original_question: 8F
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quadratic Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: c650e2716088199eb01d1b709ae73b2ca68f3cefd6c2c3700a19382610dc354c
+  checks: Trace product subtraction, size lower bound and traceless symmetric subspace hint.
+  source_page_render_sha256: 94964e2cd2b19e1ac314c62ac988ef3a3d541d185b6e1a1b26a3662618602f40
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P1/q9D
+  original_question: 9D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: f62332e7c05848006c22dacbb6f8a7c90d06fbefe9979c1f8579476bea1028d7
+  checks: Three open potential intervals, negative tangent sign and boundary hint.
+  printed_ambiguity: A bound ground state exists only when the finite well is sufficiently deep and wide. The
+    printed problem leaves this condition implicit.
+  source_page_render_sha256: 94964e2cd2b19e1ac314c62ac988ef3a3d541d185b6e1a1b26a3662618602f40
+  course_mapping_schedule_page: 21
+- id: IB/2002/P1/q10E
+  original_question: 10E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: bf509137350c3f602f369338a914e939fa0e7c6342e1839d52a88379f48d7725
+  checks: Continuous surjection, bijective case and closed interval for the complex argument.
+  source_page_render_sha256: 33412e2374107fad8cdc98c466c05cf41323996d3a0802e551290d3ffa2fafe6
+  course_mapping_schedule_page: 18
+- id: IB/2002/P1/q11A
+  original_question: 11A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: ca4c87a3e74829e2c258cb54e82a6c2409e0da96eec39ae50f2c96fc3ba18ff6
+  checks: Exterior minus interior jump, squared cosine, both operators and polynomial condition.
+  source_page_render_sha256: 33412e2374107fad8cdc98c466c05cf41323996d3a0802e551290d3ffa2fafe6
+  course_mapping_schedule_page: 21
+- id: IB/2002/P1/q12H
+  original_question: 12H
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: a2dd37ca5d58dd836b2545535fd651adb5309f8af45305ad065999f7e9cb483c
+  checks: Original survey table and bracketed chi-square percentile table, exact row and column totals.
+  figures:
+  - rising-preferences
+  - chi-square-percentiles
+  source_page_render_sha256: 55716bd4956390e70a1a603ff4cfbbdeb842c37f992fc1786fc653c236a9a801
+  figure_png_sha256:
+    rising-preferences: 1bfdc4f8a2bf3e4365adbafd5f35fd924e0593ee69afc11a656c21c9b5e24d02
+    chi-square-percentiles: 3a74b133d5f930442917d48cc633ed87e485a6a6ffe793d4aef04b58314df8dc
+  plot_sha256: 38432eb74b445daaef33991aae2e63ed6bd343b566604835e4aaf936994bac58
+  course_mapping_schedule_page: 23
+- id: IB/2002/P1/q13E
+  original_question: 13E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Geometry
+  course: IB/geometry
+  also_courses: []
+  question_sha256: 9ef8828cfb3a9ab0a8065cfbe209393c1e2ef34cdd61feb24a7a2a4745830599
+  checks: Positive imaginary half-plane, group determinant condition and right-triangle formula.
+  source_page_render_sha256: 55716bd4956390e70a1a603ff4cfbbdeb842c37f992fc1786fc653c236a9a801
+  course_mapping_schedule_page: 19
+  course_mapping_note: Hyperbolic plane geometry, its distance and its isometries belong to IB Geometry.
+- id: IB/2002/P1/q14G
+  original_question: 14G
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: e37d5d6fe8ac72a8c32f75a4dcf0ade42abf79b4429185cda4319650b207ec8e
+  checks: Four minimal-polynomial questions including a proper invariant subspace and degree restriction.
+  printed_ambiguity: In part (b), roots and eigenvalues are taken over the same scalar field.
+  source_page_render_sha256: 340a1c8c834c188b20f593ab6e4d2d339c721a6a40533ae38264b9e34d2cb618
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P1/q15C
+  original_question: 15C
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 96b80a106cd1b93934701fd16a8d6a2323bda1b81b646eb1bd7b7e822bdad1e5
+  checks: Initially stationary fluid, pressure difference, radial equation and energy.
+  source_page_render_sha256: 340a1c8c834c188b20f593ab6e4d2d339c721a6a40533ae38264b9e34d2cb618
+  course_mapping_schedule_page: 22
+- id: IB/2002/P1/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 58a7750024ee721550ae0efb90d24b4bf467b240146f8990dfe371b82ec74047
+  checks: Nonzero complex derivative, disk centred at minus i, upper half-plane and fractional-linear hint.
+  source_page_render_sha256: 340a1c8c834c188b20f593ab6e4d2d339c721a6a40533ae38264b9e34d2cb618
+  course_mapping_schedule_page: 20
+- id: IB/2002/P1/q17F
+  original_question: 17F
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quadratic Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: f2ccdbdacf13fbe99bd63b1a5a92f842600b4dd7db1cbd69288ec307cb54834c
+  checks: Both transpose congruences, both three-by-three matrices and all signs.
+  source_page_render_sha256: d4431d6483b9bcabe50e88ebd1d49e7b673f7d2e283886088b1faf90cc2c67af
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P1/q18D
+  original_question: 18D
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: 39f0b282a78980cc9c6baffa56fcba20e79731d52a37c0b19421d7d94961dee6
+  checks: Negative delta coefficient, derivative jump, odd parity and hyperbolic tangent condition.
+  source_page_render_sha256: d4431d6483b9bcabe50e88ebd1d49e7b673f7d2e283886088b1faf90cc2c67af
+  course_mapping_schedule_page: 21
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 05396e295cf3f967c4b047a4fa7a010731f13d40d464f0bda7acef49b7a19d8e
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 136
+  katex_failures: 0
+  compiled_proof_pages: 18
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2002 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: fde848db025c47b080ad286c49eb8c0d50a0344b1da8e2024a89517b67e676f1
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1E
+  - 2A
+  - 3H
+  - 4E
+  source_page_render_sha256: 56f869800029dda7df7bf88c3e920c0da65eb431f7443d3835bc6203489eefdb
+  printed_page: 2
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 5G
+  - 6C
+  - 7B
+  source_page_render_sha256: 39f6b88fefef391b747711c7c5bcb4f328f1d05cf78523238d738c3549b11379
+  printed_page: 3
+  footer: Paper 1
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 8F
+  - 9D
+  source_page_render_sha256: 94964e2cd2b19e1ac314c62ac988ef3a3d541d185b6e1a1b26a3662618602f40
+  printed_page: 4
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 10E
+  - 11A
+  source_page_render_sha256: 33412e2374107fad8cdc98c466c05cf41323996d3a0802e551290d3ffa2fafe6
+  printed_page: 5
+  footer: Paper 1
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 12H
+  - 13E
+  source_page_render_sha256: 55716bd4956390e70a1a603ff4cfbbdeb842c37f992fc1786fc653c236a9a801
+  printed_page: 6
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 14G
+  - 15C
+  - 16B
+  source_page_render_sha256: 340a1c8c834c188b20f593ab6e4d2d339c721a6a40533ae38264b9e34d2cb618
+  printed_page: 7
+  footer: Paper 1
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 17F
+  - 18D
+  source_page_render_sha256: d4431d6483b9bcabe50e88ebd1d49e7b673f7d2e283886088b1faf90cc2c67af
+  printed_page: 8
+  footer: Paper 1
+  turn_over: false
+  end_of_paper: true
+provenance:
+  source_class: public-faculty-tripos
+  archived_at_utc: '2026-11-20T12:26:49.663591+00:00'
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: Physical PDF pages

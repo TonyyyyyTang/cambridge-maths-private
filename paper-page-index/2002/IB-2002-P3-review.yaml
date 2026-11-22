@@ -1,0 +1,453 @@
+paper_id: IB/2002/P3
+id: IB/2002/P3
+main_count: 20
+unit_count: 20
+main_question_count: 20
+question_units: 20
+source_page_count: 10
+page_count: 10
+section_units:
+  I: 10
+  II: 10
+alternatives: []
+instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2002-06-07'
+printed_date: Friday 7 June 2002
+time: 9 to 12
+source: private/raw/tripos/IB/2002/P3.pdf
+archive: private/raw/tripos/IB/2002/P3.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2002/PaperIB_3.pdf
+sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- Candidates may attempt at most four questions from Section I and at most six questions from Section II.
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Answers must be tied up in separate bundles, marked A, B, ..., H according to the letter affixed to each
+  question, and a blue cover sheet must be attached to each bundle.
+- A green master cover sheet listing all the questions attempted must be completed.
+- It is essential that every cover sheet bear the candidate’s examination number and desk number.
+questions:
+- id: IB/2002/P3/q1E
+  original_question: 1E
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a9999422bc2abf1cf5e773a4b8f6f0a64317e1cfb7bf38bc028c3f04e9ad2cb5
+  checks: Oscillatory components, values at zero and strict lower bound for the norm.
+  source_page_render_sha256: 6932fa4f344d7606f12b69c6c39e9d31ee340a960e53800461d3c46f31e49a84
+  course_mapping_schedule_page: 18
+- id: IB/2002/P3/q2A
+  original_question: 2A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 2cda0fc3f06030cd7db9450a0ab823a39654572373b747dffaf68a89962dd76b
+  checks: Semi-infinite string, characteristic signs, energy integral and both endpoint conditions.
+  printed_ambiguity: A finite conserved energy requires suitable regularity and finite-energy initial data.
+    Displacement decay alone need not imply integrable derivative squares.
+  source_page_render_sha256: 6932fa4f344d7606f12b69c6c39e9d31ee340a960e53800461d3c46f31e49a84
+  course_mapping_schedule_page: 21
+- id: IB/2002/P3/q3G
+  original_question: 3G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Further Analysis
+  course: IB/topology
+  also_courses: []
+  question_sha256: 3c3f4c430729a8a79708f36912d3d19a9376630531c051b33c8c13e3a1fb8955
+  checks: Separate hypotheses on target Hausdorffness and source compactness.
+  source_page_render_sha256: 6932fa4f344d7606f12b69c6c39e9d31ee340a960e53800461d3c46f31e49a84
+  course_mapping_schedule_page: 18
+  course_mapping_note: The Topological Spaces schedule covers the point-set topology examined under Further
+    Analysis.
+- id: IB/2002/P3/q4E
+  original_question: 4E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Geometry
+  course: II/graph-theory
+  also_courses:
+  - IB/geometry
+  - IB/topology
+  question_sha256: 67722a09c795b58c4fc06d7c6df863c0e7e9ac9ccd3f036f8d902bfbb3a85e0e
+  checks: All hypotheses on degree and face size, weighted sum and at-least-four conclusion.
+  printed_ambiguity: Specify the connectivity or cellular-embedding hypotheses for the Euler formula used for
+    a convex polyhedron.
+  source_page_render_sha256: 557d0436649d66adfeb582db8acb5644336669c03b2915a78ab8388e7034b8cc
+  course_mapping_schedule_page: 33
+  course_mapping_note: The argument uses Euler’s planar graph formula and vertex and face incidence counts
+    on the sphere. IB Geometry and Topological Spaces provide secondary links.
+- id: IB/2002/P3/q5H
+  original_question: 5H
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 6648eae01fcd8688510ff513c98703f1d68bdab5d621d38c1d39b6c8514c2b91
+  checks: Payoff matrix, choice of player and full parameter range.
+  source_page_render_sha256: 557d0436649d66adfeb582db8acb5644336669c03b2915a78ab8388e7034b8cc
+  course_mapping_schedule_page: 24
+  course_mapping_note: The printed title uses the spelling Optimization. The present subject is IB Optimisation.
+- id: IB/2002/P3/q6B
+  original_question: 6B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 5dd938bfea743817446efee6d8f0701d3d2afcf4fd614d237e1abdfc8f34bda8
+  checks: Indices begin at zero, orthogonality condition and bracketed simple-node assumption.
+  printed_ambiguity: The original says polynomials of degree n. The usual space P_n consists of polynomials
+    of degree at most n.
+  source_page_render_sha256: 557d0436649d66adfeb582db8acb5644336669c03b2915a78ab8388e7034b8cc
+  course_mapping_schedule_page: 23
+- id: IB/2002/P3/q7F
+  original_question: 7F
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 17b9cd5a1fbf91df740c6965c14377989b6db7bd11d78a9b7dc4335818e02daa
+  checks: Four subspace statements and their quantifiers, including the word never.
+  source_page_render_sha256: 85a3a17af41fcddf4d32a2354a1d91d7348bb7285e1a5f45b301569ff1632df5
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P3/q8C
+  original_question: 8C
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 3ad2e6a36f3f61fd2e0762301bb22f21e08314d745909c10f9a30a029ca79315
+  checks: Initial vorticity, unbounded exterior region and distinction between loop classes.
+  source_page_render_sha256: 85a3a17af41fcddf4d32a2354a1d91d7348bb7285e1a5f45b301569ff1632df5
+  course_mapping_schedule_page: 22
+- id: IB/2002/P3/q9F
+  original_question: 9F
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quadratic Mathematics
+  course: II/number-theory
+  also_courses: []
+  question_sha256: b69c7c6fd0e686edaf4fa92347d352d442785434ecdf1a81a369dda69aa0f33e
+  checks: Euler exponent, reciprocity and exact prime pair 73 and 127.
+  printed_ambiguity: The printed Euler criterion concerns nonzero residue classes modulo p.
+  source_page_render_sha256: 85a3a17af41fcddf4d32a2354a1d91d7348bb7285e1a5f45b301569ff1632df5
+  course_mapping_schedule_page: 28
+  course_mapping_note: Quadratic residues, quadratic reciprocity, and binary quadratic forms are now in Part
+    II Number Theory.
+- id: IB/2002/P3/q10D
+  original_question: 10D
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Special Relativity
+  course: IA/dynamics-and-relativity
+  also_courses: []
+  question_sha256: c48d5d9749a2437f6889054566afb15b2087320358d4b40267c3063a3cf5784e
+  checks: Frame coordinates, separate train and throw speeds and direction.
+  source_page_render_sha256: 85a3a17af41fcddf4d32a2354a1d91d7348bb7285e1a5f45b301569ff1632df5
+  course_mapping_schedule_page: 13
+  course_mapping_note: The special-relativity material now falls within IA Dynamics and Relativity.
+- id: IB/2002/P3/q11E
+  original_question: 11E
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: a7e79e8f2e7ff3a080aaa043d637f01c91d091155c3e9cec0ff180e1bca12246
+  checks: Metric inequality, nested radii, sums starting at two and geometric-tail norm.
+  source_page_render_sha256: 835abca5aa945ecec4a47fe6ddaa5545551495e8ad09dfabbc3ab92eb642373f
+  course_mapping_schedule_page: 18
+- id: IB/2002/P3/q12A
+  original_question: 12A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Methods
+  course: IB/methods
+  also_courses: []
+  question_sha256: 13670d360cc43b0041bf7c2c66ff2de5e5e9f52e9664ef9d12ff7a7a07601e9f
+  checks: Sturm-Liouville sign, weight, Green kernel denominator and printed positive second derivative.
+  printed_ambiguity: The special operator y double prime has the opposite leading sign from the general operator
+    with positive p. Use its own signed eigenvalues and the usual unit weight for the special case.
+  source_page_render_sha256: 3c7848b2c204a9ba5460b7465327013767aff19c0c0e1a0ce1b210047f4bb452
+  course_mapping_schedule_page: 21
+- id: IB/2002/P3/q13G
+  original_question: 13G
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses:
+  - IB/complex-methods
+  question_sha256: 49fe906f602a82ff5eaa634e502f740eb108199d3b742cde561876396ff51fe7
+  checks: Homotopy, two disks, conjugated coefficient in the rational power and zero count.
+  printed_ambiguity: Part (c) implicitly takes m and n as nonnegative integers and counts zeros with multiplicity.
+  source_page_render_sha256: 3c7848b2c204a9ba5460b7465327013767aff19c0c0e1a0ce1b210047f4bb452
+  course_mapping_schedule_page: 19
+  course_mapping_note: The complex-variable part of Further Analysis corresponds to IB Complex Analysis.
+- id: IB/2002/P3/q14E
+  original_question: 14E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Geometry
+  course: IA/groups
+  also_courses:
+  - IB/geometry
+  question_sha256: ca93878b76a706aea51bb44e6d7121e550251a4329a3ebaf058fb1817eec15b3
+  checks: Affine versus origin-fixing isometries, minimal reflection count and tetrahedron.
+  source_page_render_sha256: c12a2448fdf5596ee1adf56dbcfe238be9b935b99af1ad8e868f997bba019519
+  course_mapping_schedule_page: 10
+  course_mapping_note: The question asks for compositions of Euclidean reflections and the symmetry group of
+    a regular tetrahedron, topics in IA Groups.
+- id: IB/2002/P3/q15H
+  original_question: 15H
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Optimization
+  course: IB/optimisation
+  also_courses: []
+  question_sha256: 7d20f4ad0906d1ddf502e757925caf8c3a003dcfedc0fdf49bf3f866e2825f65
+  checks: Maximization, all inequalities, original numbered program and both simplex phases.
+  source_page_render_sha256: c12a2448fdf5596ee1adf56dbcfe238be9b935b99af1ad8e868f997bba019519
+  course_mapping_schedule_page: 24
+  course_mapping_note: The printed title uses the spelling Optimization. The present subject is IB Optimisation.
+- id: IB/2002/P3/q16B
+  original_question: 16B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: 5a34456dee22f35fb3797ae46741255f5c95d583d001138f7d6caa4f077f828a
+  checks: Fixed-point iteration, eigenvalue modulus and row-dominance sum excluding the diagonal.
+  source_page_render_sha256: c12a2448fdf5596ee1adf56dbcfe238be9b935b99af1ad8e868f997bba019519
+  course_mapping_schedule_page: 23
+- id: IB/2002/P3/q17F
+  original_question: 17F
+  page: 8
+  pages:
+  - 8
+  section: II
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: f4a86908fe02c0a378c6777d3b7faff0f76feb99498f03774880c778155639d3
+  checks: Column ordering in all block matrices, lower-left minus AB and row-addition operation.
+  source_page_render_sha256: 4094e30833616b5e2a7766819434694c6059183685f3526d3bfcece83df74f13
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2002/P3/q18C
+  original_question: 18C
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Fluid Dynamics
+  course: IB/fluid-dynamics
+  also_courses: []
+  question_sha256: 6a67e92059d2880f87c4178439853101f4c87139583b26c56b9a9f35dbab32b3
+  checks: Interior and exterior radii, pressure law, velocity branches and critical thickness.
+  source_page_render_sha256: f62265bdbc76e44f6f50bb201c34b881a7d669dcdd0fdc67b5029206727cdae9
+  course_mapping_schedule_page: 22
+- id: IB/2002/P3/q19F
+  original_question: 19F
+  page: 9
+  pages:
+  - 9
+  section: II
+  course_at_time: Quadratic Mathematics
+  course: II/number-theory
+  also_courses: []
+  question_sha256: f0d969f3ca263deda6f0057c601d64d773018921ddefce252834851a07872485
+  checks: Discriminant minus 32, residue classes and the printed middle coefficient 2xy.
+  printed_ambiguity: In applying the representation criterion to p=2, the imprimitive reduced form of discriminant
+    -32 must be included; the original does not restrict to primitive forms.
+  source_page_render_sha256: f62265bdbc76e44f6f50bb201c34b881a7d669dcdd0fdc67b5029206727cdae9
+  course_mapping_schedule_page: 28
+  course_mapping_note: Quadratic residues, quadratic reciprocity, and binary quadratic forms are now in Part
+    II Number Theory.
+- id: IB/2002/P3/q20D
+  original_question: 20D
+  page: 10
+  pages:
+  - 10
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: fb0fa71a40b1c0faf6cac0b78a74f426b7478cc9733769d14b10ed224dde6fcc
+  checks: Three Hamiltonians, signed state swaps, probability, time intervals and final physical state.
+  source_page_render_sha256: e34fd5230ece6868a53ff05f67450a2e42f7e8973a909524f3abc99b0dfa4b80
+  course_mapping_schedule_page: 21
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: 70e643b20f49965aab7761879862dfca16a7807ea26fcf338496c17fa7bd8401
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 203
+  katex_failures: 0
+  compiled_proof_pages: 20
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2002 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: ab4cc575070c880fb2d9ebb513714a82418a047a11e0963a3a37388331269ad2
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1E
+  - 2A
+  - 3G
+  source_page_render_sha256: 6932fa4f344d7606f12b69c6c39e9d31ee340a960e53800461d3c46f31e49a84
+  printed_page: 2
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 4E
+  - 5H
+  - 6B
+  source_page_render_sha256: 557d0436649d66adfeb582db8acb5644336669c03b2915a78ab8388e7034b8cc
+  printed_page: 3
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 7F
+  - 8C
+  - 9F
+  - 10D
+  source_page_render_sha256: 85a3a17af41fcddf4d32a2354a1d91d7348bb7285e1a5f45b301569ff1632df5
+  printed_page: 4
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 11E
+  source_page_render_sha256: 835abca5aa945ecec4a47fe6ddaa5545551495e8ad09dfabbc3ab92eb642373f
+  printed_page: 5
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 12A
+  - 13G
+  source_page_render_sha256: 3c7848b2c204a9ba5460b7465327013767aff19c0c0e1a0ce1b210047f4bb452
+  printed_page: 6
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 14E
+  - 15H
+  - 16B
+  source_page_render_sha256: c12a2448fdf5596ee1adf56dbcfe238be9b935b99af1ad8e868f997bba019519
+  printed_page: 7
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 8
+  contents: questions
+  questions:
+  - 17F
+  source_page_render_sha256: 4094e30833616b5e2a7766819434694c6059183685f3526d3bfcece83df74f13
+  printed_page: 8
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: false
+- page: 9
+  contents: questions
+  questions:
+  - 18C
+  - 19F
+  source_page_render_sha256: f62265bdbc76e44f6f50bb201c34b881a7d669dcdd0fdc67b5029206727cdae9
+  printed_page: 9
+  footer: Paper 3
+  turn_over: true
+  end_of_paper: false
+- page: 10
+  contents: questions
+  questions:
+  - 20D
+  source_page_render_sha256: e34fd5230ece6868a53ff05f67450a2e42f7e8973a909524f3abc99b0dfa4b80
+  printed_page: 10
+  footer: Paper 3
+  turn_over: false
+  end_of_paper: true
+provenance:
+  source_class: public-faculty-tripos
+  archived_at_utc: '2026-11-20T12:26:56.999172+00:00'
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: Physical PDF pages
