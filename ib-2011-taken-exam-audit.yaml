@@ -1,0 +1,1025 @@
+scope: 2011 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20261231
+  strata:
+    IB/analysis-ii:
+    - IB/2011/P1/q11E
+    - IB/2011/P2/q12E
+    - IB/2011/P2/q3E
+    - IB/2011/P3/q12E
+    - IB/2011/P3/q2E
+    - IB/2011/P4/q12E
+    - IB/2011/P4/q3E
+    IB/complex-methods:
+    - IB/2011/P1/q13A
+    - IB/2011/P1/q2A
+    - IB/2011/P2/q13A
+    - IB/2011/P3/q4D
+    - IB/2011/P4/q14D
+    IB/electromagnetism:
+    - IB/2011/P1/q16D
+    - IB/2011/P2/q18C
+    - IB/2011/P2/q6C
+    - IB/2011/P3/q17C
+    - IB/2011/P4/q7C
+    IB/fluid-dynamics:
+    - IB/2011/P1/q17B
+    - IB/2011/P1/q5B
+    - IB/2011/P2/q7D
+    - IB/2011/P3/q18D
+    - IB/2011/P4/q18D
+    IB/linear-algebra:
+    - IB/2011/P1/q1G
+    - IB/2011/P1/q9G
+    - IB/2011/P2/q10G
+    - IB/2011/P2/q1G
+    - IB/2011/P3/q10G
+    - IB/2011/P4/q10G
+    - IB/2011/P4/q1G
+    IB/markov-chains:
+    - IB/2011/P1/q20H
+    - IB/2011/P2/q20H
+    - IB/2011/P3/q9H
+    - IB/2011/P4/q9H
+    IB/methods:
+    - IB/2011/P1/q14A
+    - IB/2011/P2/q16A
+    - IB/2011/P2/q5A
+    - IB/2011/P3/q15A
+    - IB/2011/P3/q7A
+    - IB/2011/P4/q17A
+    - IB/2011/P4/q5A
+    IB/numerical-analysis:
+    - IB/2011/P1/q18B
+    - IB/2011/P1/q6B
+    - IB/2011/P2/q19B
+    - IB/2011/P3/q19B
+    - IB/2011/P4/q8B
+    IB/quantum-mechanics:
+    - IB/2011/P1/q15C
+    - IB/2011/P2/q17C
+    - IB/2011/P3/q16C
+    - IB/2011/P3/q8C
+    - IB/2011/P4/q6C
+    IB/statistics:
+    - IB/2011/P1/q19H
+    - IB/2011/P1/q7H
+    - IB/2011/P2/q8H
+    - IB/2011/P3/q20H
+    - IB/2011/P4/q19H
+  selection:
+    IB/analysis-ii:
+    - IB/2011/P4/q3E
+    - IB/2011/P2/q3E
+    IB/complex-methods:
+    - IB/2011/P2/q13A
+    IB/electromagnetism:
+    - IB/2011/P1/q16D
+    IB/fluid-dynamics:
+    - IB/2011/P3/q18D
+    IB/linear-algebra:
+    - IB/2011/P2/q10G
+    - IB/2011/P4/q10G
+    IB/markov-chains:
+    - IB/2011/P1/q20H
+    IB/methods:
+    - IB/2011/P3/q7A
+    - IB/2011/P2/q5A
+    IB/numerical-analysis:
+    - IB/2011/P1/q6B
+    IB/quantum-mechanics:
+    - IB/2011/P2/q17C
+    IB/statistics:
+    - IB/2011/P1/q19H
+observed:
+  population: 55
+  sampled: 13
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 13
+  pdf_pages: 15
+  browser_views: 13
+  rendered_formulas: 378
+independent_manifest_sha256: 24bbabe9c6eb8be78d32fbb223bdcd6b518c11296a043da781f716389a813ce1
+auditor_report: '# Fresh blind audit of the 2011 Part IB sample
+
+
+  All 13 supplied questions were independently reworked and compared visually against
+  their archived original page images. Paper coverage was 4 questions on Paper 1,
+  5 on Paper 2, 2 on Paper 3 and 2 on Paper 4. I checked the printed label, wording,
+  subparts, symbols and hypotheses for each. None of the 13 showed a transcription
+  or printed-label discrepancy (0/13). No question had a printed mark allocation.
+
+
+  The independent reworks and their source records appear under each paper and question.
+  Each question packet checksum is the SHA-256 of the supplied question.tex bytes.
+  No stored solution or earlier solver''s conclusions were consulted. The observed
+  solution-discrepancy rate requires comparison with the stored answers by the main
+  agent. This sample covers the specified annual examination selection; it does not
+  establish any individual course audit rate.
+
+
+  Part (v) of P1/19H requires n>1 for a strict improvement. At n=1 no other unbiased
+  estimator can improve on the zero indicator. P2/5A distinguishes the formal Green
+  identity from the domain of a self-adjoint operator. P3/18D requires the thickness
+  to reach its critical value before a continuous flow can leave on the other branch.
+
+  '
+main_resolution: The strict Rao–Blackwell improvement needs n>1. The Legendre flux
+  conditions specify the self-adjoint domain. The slower elastic-tube outlet requires
+  reaching the critical section and emerging on the opposite speed branch.
+questions:
+  IB/2011/P4/q3E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P4.pdf
+      original_pdf_sha256: 161ce3c024a19b74f0e75c20fe7276575c3dfd8d3d3ddd641cc567aeb22f8463
+      source_page: 2
+      question_packet_sha256: 728fc95b4e854bcdedca38e8f29deebd03279c9a1272eee16783bbb022df3423
+      blind_rework_sha256: c693cc38c31ba893542eea3cea410fa5147befa6aab50abfeb4f87332ddbf384
+      transcription_discrepancies: []
+      printed_label: 3E
+      source_finding: Printed 3E, Analysis II, p. 2. Checked the bounded real functions,
+        interval on the supremum, metric assumption, inclusion and closure request.
+    independent_rework: '# IB/2011/P4/q3E — independent rework
+
+
+      Let $(f_n)$ be Cauchy for the supremum distance. Since $|f_n(x)-f_m(x)|\le d(f_n,f_m)$,
+      the scalar sequence at each $x$ is Cauchy in the complete real line; set $f(x)=\lim_m
+      f_m(x)$. Given $\epsilon>0$, take $N$ with $d(f_n,f_m)<\epsilon/2$ for every
+      $m,n\ge N$. Letting $m\to\infty$ gives $|f_n(x)-f(x)|\le\epsilon/2$ simultaneously
+      for all $x$, hence uniform convergence. Choosing, for example, $\epsilon=2$
+      gives $|f(x)|\le\sup|f_N|+1$ for all $x$. Thus $f$ belongs to $B[0,1]$ and the
+      convergence is in its metric.
+
+
+      If continuous $f_n$ converge in $d$ to $f\in B[0,1]$, choose $N$ with $d(f_N,f)<\epsilon/3$.
+      At each fixed $x_0$ continuity of $f_N$ supplies $\delta>0$ so $|f_N(x)-f_N(x_0)|<\epsilon/3$
+      for $x$ in the interval with $|x-x_0|<\delta$. The triangle inequality and the
+      two uniform error bounds give $|f(x)-f(x_0)|<\epsilon$, including at the endpoints
+      in the relative topology. Hence $f$ is continuous. Sequential closedness is
+      equivalent to closedness in a metric space.
+
+      '
+    main_comparison: Pointwise completeness of the reals and the common supremum bound
+      yield a bounded uniform limit. An epsilon/3 estimate makes the continuous subspace
+      closed.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P4.pdf
+      source_sha256: 161ce3c024a19b74f0e75c20fe7276575c3dfd8d3d3ddd641cc567aeb22f8463
+      source_page: 2
+      compiled_pdf: build/IB-2011-P4/main.pdf
+      compiled_sha256: 9e42e6b0245e47ccfe6dc2eaf8375f457f225de46a6ab95489f857ecf279ffc8
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2011/P4/q3E/index.html
+      html_sha256: dcbb35c71287d1d39e1434599b98ccbfc77a02539fe877474dd06afeac21e81e
+      math_nodes: 33
+      diagrams: {}
+      question_sha256: 728fc95b4e854bcdedca38e8f29deebd03279c9a1272eee16783bbb022df3423
+      solution_sha256: 41422d384add5e7ff5e1a409e66178b019d9a387de29d357c93928dcd74ecc0c
+      check_sha256: fd4b4334b70771896bcca060571bbf6fd6a5c3c3edbd984243ba897bd87174aa
+      check_exit: 0
+      check_stdout: Uniform geometric-tail bound holds at interior points and both
+        endpoints.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P4/q3E · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P2/q3E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      original_pdf_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 2
+      question_packet_sha256: a0f14915ed1e102849745de2b64989e61a4c152d52187583fe2f62d3d96a9dd4
+      blind_rework_sha256: f0706d05a4bcbff385642739f984d32aa4abd94677cff2e65a4b7892f723d482
+      transcription_discrepancies: []
+      printed_label: 3E
+      source_finding: Printed 3E, Analysis II, p. 2. Checked domain and codomain,
+        exponent condition, both absolute values, and both requests.
+    independent_rework: '# IB/2011/P2/q3E — independent rework
+
+
+      Differentiability at $p$ means there exists a linear functional $A$ with $f(p+h)-f(p)-A(h)=o(\|h\|)$
+      as $h\to0$. Every point on $x=y$ fails: varying only $y$ changes the second
+      term by $|h_y|$ and leaves the first fixed, giving incompatible one-sided slopes.
+
+
+      Away from the diagonal put $\sigma=\operatorname{sgn}(x-y)$. Then the second
+      term is locally affine with derivative $\sigma(h_x-h_y)$. The first is smooth
+      at every $x\ne0$, with derivative $a|x|^{a-1}\operatorname{sgn}(x)h_x$. At $x=0$
+      it has derivative zero for $a>1$ by the bound $|h_x|^a/\|h\|\le\|h\|^{a-1}$.
+      For $a=1$ the one-dimensional slopes have opposite signs, and for $0<a<1$ the
+      absolute difference quotient diverges along the horizontal line. Subtracting
+      the affine term preserves differentiability. Thus precisely $x\ne y$ and either
+      $a>1$ or $x\ne0$ are required.
+
+      '
+    main_comparison: The vertical cusp excludes all diagonal points. At x=0 off the
+      diagonal, the first term has a Fréchet derivative precisely when a>1. Both give
+      the same two domains, including the borderline a=1.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      source_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 2
+      compiled_pdf: build/IB-2011-P2/main.pdf
+      compiled_sha256: 9ace860fe3380bb1212d4de85a143e0a8adc0c71284772a8b18617fbf8fd9c2c
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2011/P2/q3E/index.html
+      html_sha256: b48eb9692f79c1d711a414bc4dbb0ff7a56a6cd156c5b93a1c631fe3ec42e3cb
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: a0f14915ed1e102849745de2b64989e61a4c152d52187583fe2f62d3d96a9dd4
+      solution_sha256: 9f53609a9f7595bf25b897e5035120f833b8b74ddb5c31428ef9efb88ac47a97
+      check_sha256: 34a01c5ce015d37cbbfa0a6d6494b26e057a32a9be86dc3c09301699e6963b32
+      check_exit: 0
+      check_stdout: One-sided slopes distinguish all three exponents at x=0.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P2/q3E · Cambridge Maths
+      math: 26
+      rendered: 26
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P2/q13A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      original_pdf_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 6
+      question_packet_sha256: 7bbb8767040ba4f4ff973be19c207a13b34707833ab727fae03088bd56b66409
+      blind_rework_sha256: be97204094df98bd76ffefafc41ab8ac8ac9cb63198e3d2fed7c6bd465f1bb31
+      transcription_discrepancies: []
+      printed_label: 13A
+      source_finding: Printed 13A, Complex Analysis or Complex Methods, p. 6. Compared
+        the square, orientation, integrand, both infinite sums, factors, three subparts
+        and full italicised hint.
+    independent_rework: '# IB/2011/P2/q13A — independent rework
+
+
+      Write $R=(2N+1/2)\pi$. For sufficiently large $N$ the square includes $-\pi
+      a$ and the poles $n\pi$ for $-2N\le n\le2N$. The noninteger assumption keeps
+      the two pole locations separate. At $n\pi$ the residue is $1/(\pi^3(n+a)^4)$.
+      At $-\pi a$ the coefficient of $(z+\pi a)^{-1}$ is $\pi(\cot)''''''(-\pi a)/6$
+      by Taylor expansion. This remains valid if the numerator has a zero there. Using
+      $c=\csc^2 z$ gives $(\cot)''=-c$, $(\cot)''''=2c\cot z$ and $(\cot)''''''=4c-6c^2$.
+
+
+      By the residue theorem the sum of these residues equals $I/(2\pi i)$. Taking
+      $N\to\infty$ (the series is absolutely convergent by comparison to $|n|^{-4}$)
+      gives $\sum_{n\in\mathbb Z}(n+a)^{-4}=\pi^4(c^2-2c/3)$ with $c=\csc^2(\pi a)$.
+      This is the required factored expression. At $a=1/2$ the sum is $\pi^4/3$.
+
+
+      On each vertical edge $\cot(\pm R+iy)=-i\tanh y$ and hence has modulus at most
+      one. On each horizontal edge $|\cot(x+iy)|^2=(\cos^2 x+\sinh^2 y)/(\sin^2 x+\sinh^2
+      y)$ bounds the squared modulus by $\coth^2 R$. Everywhere on the boundary $|z+\pi
+      a|\ge R-\pi|a|$. The length is $8R$, so $|I|\le8\pi R\coth R/(R-\pi|a|)^4=O(R^{-3})$
+      for large $R$. This argument also allows fixed complex $a$.
+
+      '
+    main_comparison: Both evaluate the shifted fourth-order residue and bound cotangent
+      uniformly on the expanding squares, giving O(L^(−3)) for the integral. The half-integer
+      series sums to π⁴/3.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      source_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 6
+      compiled_pdf: build/IB-2011-P2/main.pdf
+      compiled_sha256: 9ace860fe3380bb1212d4de85a143e0a8adc0c71284772a8b18617fbf8fd9c2c
+      compiled_pages:
+      - 13
+      html: site/private/questions/IB/2011/P2/q13A/index.html
+      html_sha256: 017ca920b60ca12823cebc1cc1311844deef5949ca1b20102ff8139f20199823
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: 7bbb8767040ba4f4ff973be19c207a13b34707833ab727fae03088bd56b66409
+      solution_sha256: 961d7cfebd467a2cf41c6dd0249ebe6bcc663e7f87c6b760bdb4f3fb82488c2e
+      check_sha256: 0405b7a7c093b7105ac22b8255617fc972f5a3fa42c24db631f78e464e1b9eba
+      check_exit: 0
+      check_stdout: Numerical bilateral quartic sums verify general and half-integral
+        results.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P2/q13A · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P1/q16D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P1.pdf
+      original_pdf_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 9
+      question_packet_sha256: 9a0774589a71b055be532d2ca4a80d2db9bbae457c8e55de8470ef3c000b40ba
+      blind_rework_sha256: 3785731eb8d99ca289802c126c0e01961e89902ee0af46167248f2c8a9073dcb
+      transcription_discrepancies: []
+      printed_label: 16D
+      source_finding: Printed 16D, Electromagnetism, p. 9. Compared all four instructions,
+        the order and signs of the wire charges, the offset, the fixed product and
+        both requested sketches.
+    independent_rework: '# IB/2011/P1/q16D — independent rework
+
+
+      In vacuum in SI units, $\nabla\cdot \mathbf E=\rho/\epsilon_0$. Integrating
+      over a volume and applying the divergence theorem gives outward flux $\oint_{\partial
+      V}\mathbf E\cdot d\mathbf S=Q_{\rm enc}/\epsilon_0$. The line-charge formula
+      follows also by taking thin charged cylinders to their limit. Translational,
+      rotational and reflection symmetries leave only a cylindrical radial component
+      $E_r(r)$; the flux through the caps vanishes and the curved surface contributes
+      $2\pi r L E_r=\lambda L/\epsilon_0$. Hence $\Phi(r)-\Phi(r_*)=-\lambda\log(r/r_*)/(2\pi\epsilon_0)$,
+      taking $r_*>0$. A single infinite line cannot use infinity as potential zero.
+
+
+      Let $s=x^2+y^2$ and $s_d=x^2+(y-d)^2$. Superposition with zero reference at
+      infinity for the pair gives $\Phi_d=\lambda\log(s_d/s)/(4\pi\epsilon_0)$ off
+      both axes of charge. For fixed $s>0$, $\log(s_d/s)=-2yd/s+O(d^2)$. Set $A=p/(2\pi\epsilon_0)$,
+      so $\Phi=-Ay/s$. Differentiation gives $\mathbf E=A(-2xy,x^2-y^2,0)/s^2$ in
+      Cartesian coordinates.
+
+
+      An exact sketch in any transverse plane can be drawn as follows. For constant
+      $\Phi=c\ne0$, draw $x^2+(y+A/(2c))^2=(A/(2c))^2$; the zero level is the horizontal
+      axis. For field lines draw $(x-a)^2+y^2=a^2$ for all $a\ne0$, together with
+      the vertical axis. Indeed $x/s$ is constant along $\mathbf E$, as its gradient
+      dotted with the field vanishes. Both families omit the singular origin; circles
+      within each family touch there and the families intersect orthogonally elsewhere.
+      With $p>0$, arrows cross the horizontal axis upward on either side, run clockwise
+      around left-hand circles and counterclockwise around right-hand circles, and
+      point downward along the vertical axis. Potential is negative above the horizontal
+      axis. Reverse signs and arrows for $p<0$; $p=0$ gives zero field and constant
+      potential.
+
+      '
+    main_comparison: The logarithmic potentials cancel their arbitrary reference at
+      infinity for the neutral pair. Expanding at fixed nonzero transverse position
+      gives −py/(2πε₀r²), the corresponding signed field, and two orthogonal circular
+      families with consistent arrows.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P1.pdf
+      source_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 9
+      compiled_pdf: build/IB-2011-P1/main.pdf
+      compiled_sha256: 70956d8e2697985e95a3e40f99412bc8be8714657dfbe703ff700e6f19eab02f
+      compiled_pages:
+      - 17
+      - 18
+      html: site/private/questions/IB/2011/P1/q16D/index.html
+      html_sha256: 550c78c80538da6e7529b209592f06bb2f9bb11bd572fcba8cf78bc9e651e5d2
+      math_nodes: 33
+      diagrams:
+        site/private/figures/tripos/IB/2011/P1/q16D/line-dipole.png: 6669514ccaf59dc619962e55ce43d875c321118cc76c1d43ea1841adc12de04e
+      question_sha256: 9a0774589a71b055be532d2ca4a80d2db9bbae457c8e55de8470ef3c000b40ba
+      solution_sha256: 15eec4461ae6d4794578ee5f311428e09c205a2d64758caa641403e5f31c6706
+      check_sha256: 88ec264f8a9aa6a738980c05904a857d2fec3c325bbb77586ea29c280b43fb34
+      check_exit: 0
+      check_stdout: Dipole expansion and field-line invariant verified symbolically.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P1/q16D · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams:
+      - alt: Transverse electric field lines with arrows and dashed equipotentials
+          for positive p.
+        width: 725
+        height: 725
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P3/q18D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P3.pdf
+      original_pdf_sha256: cf36aed82e894934c7ae49da762ea9433f5826b77d06c163a08ac286dd1afdbe
+      source_page: 8
+      question_packet_sha256: a68d437dbcf80d0e9308287aec4e3b8bdd9eaeddf7662db1d0c8cd1855b6631e
+      blind_rework_sha256: 151ccf9db032b792a51fb59585c8a3a3a405d7e72e992f23eeaf29b1d379580e
+      transcription_discrepancies: []
+      printed_label: 18D
+      source_finding: Printed 18D, Fluid Dynamics, p. 8. Compared both radius formulas
+        and all conditions, the slowly varying thickness, fractional exponent, factor
+        1/4, dimensionless definitions and final conditions.
+    independent_rework: '# IB/2011/P3/q18D — independent rework
+
+
+      Use steady, incompressible, inviscid quasi-one-dimensional flow and neglect
+      changes of elevation. Conservation of volume flux is $\pi(r-h)^2u=\pi r_0^2V$.
+      For positive radius and positive inlet speed this gives $r-h=r_0 v^{-1/2}$.
+      Bernoulli gives $p-p_0=\rho(V^2-u^2)/2$, so $r/r_0=1+(k/4)(1-v^2)$. Subtract
+      to get $H=F(v)=1-v^{-1/2}+(k/4)(1-v^2)$, $v>0$, $k>0$.
+
+
+      $F''(v)=(v^{-3/2}-kv)/2$ and $F''''(v)=-3v^{-5/2}/4-k/2<0$. The graph rises
+      from $-\infty$ at $0^+$, peaks once at $v_c=k^{-2/5}$, then falls to $-\infty$
+      at infinity. Its value at $1$ is zero and its height at the peak is $H_c=1+k/4-5k^{1/5}/4$.
+      Thus $H_m\le H_c$ is necessary. For $k\ne1$, $F(1)=0$ is away from the peak
+      and there is a second positive zero on the opposite branch. For $k=1$ the peak
+      touches the axis at $1$ and a nonnegative wall must have zero thickness throughout.
+
+
+      Since $H=0$ at entry and exit and $v_{\rm in}=1$, slower exit requires the second
+      zero to be on the lower-speed side, i.e. $v_c<1$ or $k>1$. It also requires
+      changing branches, possible in a continuous profile only where the two roots
+      coalesce, i.e. $H_m=H_c$. For a single smooth nondegenerate wall maximum at
+      this height, follow the high-speed branch from $v=1$ to $v_c$ on the way up,
+      then the low-speed branch down to the smaller zero, giving $v_{\rm out}<1$.
+      At the maximum $H_c-H$ is quadratic in position, while $H_c-F$ is quadratic
+      in $v-v_c$ with positive coefficient. Taking opposite signs on the two sides
+      permits a finite common derivative and hence a smooth crossing for the usual
+      smooth profile. With multiple contacts at the critical height the exit branch
+      is the lower one when the net number of switches is odd. If $H_m<H_c$ the branches
+      stay disjoint and the exit speed must equal $V$.
+
+      '
+    main_comparison: Escalation resolved by expanding the wall relation with positive
+      internal radius, differentiating twice and checking both branches. Strict concavity
+      gives vc=k^(−2/5) and Hc=1+k/4−5k^(1/5)/4. A slower exit requires k>1, reaching
+      the critical maximum, then switching to the low-speed branch; touching the maximum
+      permits the switch but does not force it. Both independent sketches and the
+      numerical root test confirm this ordering, including the degenerate k=1 case.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P3.pdf
+      source_sha256: cf36aed82e894934c7ae49da762ea9433f5826b77d06c163a08ac286dd1afdbe
+      source_page: 8
+      compiled_pdf: build/IB-2011-P3/main.pdf
+      compiled_sha256: 2c38ac7f721df505775cf97004ecc1e69a32d5cfa326f9e8245ea5e7818d3a93
+      compiled_pages:
+      - 19
+      - 20
+      html: site/private/questions/IB/2011/P3/q18D/index.html
+      html_sha256: 14c42b0e703e66c3ec317e6c6855b336649ffccc58d3d1a62d303cfbc4772ee7
+      math_nodes: 48
+      diagrams:
+        site/private/figures/tripos/IB/2011/P3/q18D/elastic-tube.png: d2fd99d74da074470706fe1424d7594469742dd37cf591b6df7c69f748005375
+      question_sha256: a68d437dbcf80d0e9308287aec4e3b8bdd9eaeddf7662db1d0c8cd1855b6631e
+      solution_sha256: e2ea58db6cf44cf7170ea736a58f8961ddfc48e79750f1dfd6f9a2de024ecec0
+      check_sha256: c589eaba69bfe7b35c9b066690b84ab3dcd31a5df1e551c301022cdcd8f79f9b
+      check_exit: 0
+      check_stdout: Peak heights and the ordering of distinct exit roots checked.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P3/q18D · Cambridge Maths
+      math: 48
+      rendered: 48
+      parse_errors: 0
+      diagrams:
+      - alt: Wall thickness against speed for three elasticities, with the upstream
+          point and critical maxima.
+        width: 1160
+        height: 464
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P2/q10G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      original_pdf_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 5
+      question_packet_sha256: e04fb34b897a31ce9a71d854fd763281372814f83d4adc65e2ce141b64f10410
+      blind_rework_sha256: a3adce7803aa45050c2a04346fc0be291d2b9320f646821e2bc65838e1fcfc7b
+      transcription_discrepancies: []
+      printed_label: 10G
+      source_finding: Printed 10G, Linear Algebra, p. 5. Checked complex scalar field,
+        indices beginning at zero, conjugation on g, integration interval, second
+        derivative, and the three parts.
+    independent_rework: '# IB/2011/P2/q10G — independent rework
+
+
+      Integration and conjugation give linearity in the first argument, conjugate-linearity
+      in the second and conjugate symmetry. The diagonal integral is $\int|f|^2\ge0$;
+      if zero, continuity forces $f=0$ on the integration interval, since a nonzero
+      value persists on a subinterval of positive measure. Periodicity then gives
+      zero on all of $\mathbb R$.
+
+
+      The second derivative is linear and maps each generating sine or cosine to $-k^2$
+      times itself, so acts on $V$. Integration by parts twice gives $\langle f'''',g\rangle-\langle
+      f,g''''\rangle=[f''\bar g-f\bar g'']_0^{2\pi}=0$ by periodicity of functions
+      and their first derivatives. This proves self-adjointness in finite dimensions.
+
+
+      Use $u_k=e^{ikx}/\sqrt{2\pi}$ for integer $-(n-1)\le k\le n-1$. Euler''s identities
+      show these belong to and span $V$ (at zero there is just the constant). The
+      integral of $e^{i(k-j)x}/(2\pi)$ over one period equals $\delta_{kj}$, and $\Delta
+      u_k=-k^2 u_k$. For $n=1$ the constant alone has eigenvalue zero.
+
+      '
+    main_comparison: Twice integrating by parts cancels the periodic endpoints. The
+      frequencies from −(n−1) to n−1 give an orthonormal exponential eigenbasis, with
+      eigenvalues −j².
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      source_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 5
+      compiled_pdf: build/IB-2011-P2/main.pdf
+      compiled_sha256: 9ace860fe3380bb1212d4de85a143e0a8adc0c71284772a8b18617fbf8fd9c2c
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2011/P2/q10G/index.html
+      html_sha256: 730230c65dbf333352db7b9cba7033a65cb43591513fcb664e495821e945c83d
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: e04fb34b897a31ce9a71d854fd763281372814f83d4adc65e2ce141b64f10410
+      solution_sha256: 6c16538d749c9929fa8ce6911ac0cc5194414b8ce3a6dc312f0f7fc3c86142a6
+      check_sha256: 807f1c7aabedbb045b0bf232ee05c74001f51b411760d2d742499ff60285e0c1
+      check_exit: 0
+      check_stdout: Exact discrete Fourier orthogonality verified for nine modes.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P2/q10G · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P4/q10G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P4.pdf
+      original_pdf_sha256: 161ce3c024a19b74f0e75c20fe7276575c3dfd8d3d3ddd641cc567aeb22f8463
+      source_page: 5
+      question_packet_sha256: 917723a956c86f38c2ff6f118beac60fc7254bab348a060154b388dd1cadcd2f
+      blind_rework_sha256: b7057b5085a72d29559705a61118a17f988ca54441e28df73d2e4c88ae45176c
+      transcription_discrepancies: []
+      printed_label: 10G
+      source_finding: Printed 10G, Linear Algebra, p. 5. Compared the order of the
+        compositions, placement of t, strict inequality, invertibility and diagonalisation
+        hypotheses, and both powers in part (ii).
+    independent_rework: '# IB/2011/P4/q10G — independent rework
+
+
+      For $w\in E_\lambda(f)$ the commutation relation gives $f(g^jw)=t^j\lambda g^jw$
+      by induction for $j\ge0$. Invertibility forces every eigenvalue $\lambda$ to
+      be nonzero. If $g^nw\ne0$, then all the vectors $w,gw,\dots,g^nw$ are nonzero.
+      Their eigenvalues $\lambda,t\lambda,\dots,t^n\lambda$ are distinct since $t>1$,
+      so these $n+1$ vectors would be linearly independent in dimension $n$. Therefore
+      $g^n$ vanishes on all eigenspaces, and they span $V$ by diagonalisability. For
+      the zero-dimensional space $g=0$ already.
+
+
+      Under the extra assumption, $v,gv,\dots,g^{n-1}v$ are all nonzero. They are
+      eigenvectors with eigenvalues $1,t,\dots,t^{n-1}$ and hence are independent,
+      forming a basis. Thus the diagonal form is $\operatorname{diag}(1,t,\ldots,t^{n-1})$
+      up to permutation. When $n=1$ this gives just $1$ and the nilpotent $g$ is zero.
+
+      '
+    main_comparison: The commuting relation forces distinct nonzero eigenvectors along
+      each nonzero chain because t^kλ are distinct. Dimension cuts chains off by length
+      n and a maximal specified chain is a basis.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P4.pdf
+      source_sha256: 161ce3c024a19b74f0e75c20fe7276575c3dfd8d3d3ddd641cc567aeb22f8463
+      source_page: 5
+      compiled_pdf: build/IB-2011-P4/main.pdf
+      compiled_sha256: 9e42e6b0245e47ccfe6dc2eaf8375f457f225de46a6ab95489f857ecf279ffc8
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2011/P4/q10G/index.html
+      html_sha256: 4d85522f9bbc47f26298b96ae18368ef8ab9dfe8b3aac91d4b5274d673508f98
+      math_nodes: 25
+      diagrams: {}
+      question_sha256: 917723a956c86f38c2ff6f118beac60fc7254bab348a060154b388dd1cadcd2f
+      solution_sha256: c3c05ad879c8723ea5a9399e02263d0011b0c39ab55e5aec92448d03219f333e
+      check_sha256: c76c8ffcf6ea74b33e2d3c498db32a17c8a999cbe875d751327891227c3959a1
+      check_exit: 0
+      check_stdout: A full eigenvector ladder realizes the relation and nilpotence
+        bound.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P4/q10G · Cambridge Maths
+      math: 25
+      rendered: 25
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P1/q20H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P1.pdf
+      original_pdf_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 11
+      question_packet_sha256: e49711781da0bf2fdd339f040cf50ff68e3c26f5eed07b735b519e818c91569a
+      blind_rework_sha256: 24760a5bf9c932d655c13894ae84b994cb92d78be0d5514dae1da1b2a67f570e
+      transcription_discrepancies: []
+      printed_label: 20H
+      source_finding: Printed 20H, Markov Chains, p. 11. Compared the four parts,
+        the two transition cases, the order of the matrix and inner-product factors,
+        and the closing notation.
+    independent_rework: '# IB/2011/P1/q20H — independent rework
+
+
+      An invariant distribution is a nonnegative row vector $\pi$ of sum one with
+      $\sum_i\pi_i p_{ij}=\pi_j$ for every $j$. Detailed balance requires $\pi_i p_{ij}=\pi_j
+      p_{ji}$ for every pair. Summing that identity over $i$ gives invariance since
+      the rows of $P$ sum to one.
+
+
+      On the given undirected graph set $Z=\sum_iD_i$ and $\pi_i=D_i/Z$. Wherever
+      the given transition law is defined, each vertex has a neighbour. Every directed
+      traversal of an undirected edge then has equilibrium flux $1/Z$ in either direction;
+      a nonedge has flux zero in both directions. This probability vector therefore
+      satisfies detailed balance, and is the unique invariant distribution by finite
+      irreducibility. The displayed walk is undefined at an isolated singleton without
+      a loop; if assigned a holding transition instead, detailed balance there holds
+      trivially.
+
+
+      On expanding the two inner products, the coefficient of $x_i y_j$ on the left
+      is $\pi_i p_{ij}$ and on the right it is $\pi_j p_{ji}$. Pairwise equality therefore
+      suffices for equality for all vectors. Conversely $x=e_i$ and $y=e_j$ recover
+      precisely these coefficients, proving necessity even on the diagonal.
+
+      '
+    main_comparison: Both find the invariant measure proportional to degree. Expansion
+      against coordinate vectors proves equivalence of detailed balance and self-adjointness
+      in the stationary inner product.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P1.pdf
+      source_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 11
+      compiled_pdf: build/IB-2011-P1/main.pdf
+      compiled_sha256: 70956d8e2697985e95a3e40f99412bc8be8714657dfbe703ff700e6f19eab02f
+      compiled_pages:
+      - 22
+      html: site/private/questions/IB/2011/P1/q20H/index.html
+      html_sha256: bf07ed89b766724376dbde5167311b5e08d28e9bf0f23bd0d22fc4ceeca99779
+      math_nodes: 25
+      diagrams: {}
+      question_sha256: e49711781da0bf2fdd339f040cf50ff68e3c26f5eed07b735b519e818c91569a
+      solution_sha256: d559452d7bbc7c0d625e56bee7605319069992a0ebd8e79a3c2f24f4673682ef
+      check_sha256: 87fcd38cbbd03dfc7f9d66056b7985e674b1ca43c45f076d8abd93df0bb1bd73
+      check_exit: 0
+      check_stdout: Degree weights give symmetric flows and an invariant distribution.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P1/q20H · Cambridge Maths
+      math: 25
+      rendered: 25
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P3/q7A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P3.pdf
+      original_pdf_sha256: cf36aed82e894934c7ae49da762ea9433f5826b77d06c163a08ac286dd1afdbe
+      source_page: 4
+      question_packet_sha256: 85101c72127f4fa74ab4c8150e093b0ef87a0931a9799ad263cd211c694b894e
+      blind_rework_sha256: 927057c87a3af4c07c7b8c19d0a2f371d8742f15709472bcb132c2caff6eba4e
+      transcription_discrepancies: []
+      printed_label: 7A
+      source_finding: Printed 7A, Methods, p. 4. Compared all transform bounds, exponent
+        signs, tilde symbols, absolute values, coefficient and squared denominator
+        and all three parts.
+    independent_rework: '# IB/2011/P3/q7A — independent rework
+
+
+      For example, when $h,\widetilde h\in L^1(\mathbb R)$, Fourier inversion gives
+      $h(x)=(2\pi)^{-1}\int_{\mathbb R}\widetilde h(k)e^{ikx}\,dk$ at points of continuity
+      (and almost everywhere). If $f,g\in L^1$, set $(f*g)(x)=\int_{\mathbb R}f(t)g(x-t)\,dt$
+      wherever it exists. By Fubini, changing variables $x=t+u$ in the transform gives
+      $\widetilde{f*g}=\widetilde f\,\widetilde g$.
+
+
+      For $f=e^{-|x|}$, splitting at zero gives $\widetilde f=(1-ik)^{-1}+(1+ik)^{-1}=2/(1+k^2)$.
+      Therefore $\widetilde{f*f}=4/(1+k^2)^2$, an integrable function. The convolution
+      is continuous (translate the bounded continuous factor under the integrable
+      one and apply dominated convergence). Inversion gives $(f*f)(x)=\frac2\pi\int_{\mathbb
+      R}\frac{e^{ikx}}{(1+k^2)^2}\,dk$ for every real $x$. A direct check at $x=0$
+      gives $\int e^{-2|t|}\,dt=1$ and the same answer since $\int_{\mathbb R}(1+k^2)^{-2}\,dk=\pi/2$.
+
+      '
+    main_comparison: With inverse factor 1/(2π), the Fourier transform of exp(−|x|)
+      is 2/(1+k²). Its square is integrable and inversion of the continuous convolution
+      gives the stated kernel.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P3.pdf
+      source_sha256: cf36aed82e894934c7ae49da762ea9433f5826b77d06c163a08ac286dd1afdbe
+      source_page: 4
+      compiled_pdf: build/IB-2011-P3/main.pdf
+      compiled_sha256: 2c38ac7f721df505775cf97004ecc1e69a32d5cfa326f9e8245ea5e7818d3a93
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2011/P3/q7A/index.html
+      html_sha256: 8ec6aaacdb95b559c716a3a5db13ea66744aaa0343358c85855924662a25985d
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: 85101c72127f4fa74ab4c8150e093b0ef87a0931a9799ad263cd211c694b894e
+      solution_sha256: f19f793c91b881f50869e5dd2b497a46212e84b02c05dc71eb29cdeb6c0d6e8e
+      check_sha256: de883f458d4c15afda0436c1ba40f410f68c03b5aeaaf6d1a990774202a1ad23
+      check_exit: 0
+      check_stdout: Three direct convolutions agree with inverse transforms.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P3/q7A · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P2/q5A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      original_pdf_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 3
+      question_packet_sha256: a64ece59092bc76b0f3ea1776a72b0403344016c3984947bcc0c35f1a7f8b6d8
+      blind_rework_sha256: 161f5f157f5121f3bf023a538902c0f77e5f4ce3c626884bb04beeb8692ebd38
+      transcription_discrepancies: []
+      printed_label: 5A
+      source_finding: Printed 5A, Methods, p. 3. Checked both derivatives and coefficients,
+        endpoint inequalities, non-negative integer condition and all requests.
+    independent_rework: '# IB/2011/P2/q5A — independent rework
+
+
+      In $L^2[-1,1]$ with weight one put $p=1-x^2$ and $Ly=-(py'')''$. Then $Ly=n(n+1)y$.
+      Green''s identity gives $\langle Lu,v\rangle-\langle u,Lv\rangle=[p(u\overline{v''}-u''\bar
+      v)]_{-1}^{1}$ with first argument linear. The regular Legendre polynomials and
+      their derivatives are finite at both ends, so the boundary expression vanishes.
+      Singular logarithmic solutions would require an endpoint condition; the differential
+      expression alone does not specify a self-adjoint operator.
+
+
+      An explicit regular self-adjoint realisation is obtained by closing the action
+      on polynomials. For each $j$, $Lx^j=j(j+1)x^j-j(j-1)x^{j-2}$ (last term absent
+      for $j=0,1$). Thus the triangular polynomial action has a monic eigenpolynomial
+      of each degree $j$, since $j(j+1)$ differs from all lower diagonal entries.
+      The boundary identity makes eigenpolynomials of distinct degrees orthogonal:
+      $(m(m+1)-n(n+1))\int_{-1}^1P_mP_n=0$. Normalising these gives a complete orthonormal
+      system, since they span all polynomials and polynomials are dense in $L^2[-1,1]$.
+      In coefficient space the closure is multiplication by the real sequence $\lambda_n=n(n+1)$
+      on $\sum\lambda_n^2|c_n|^2<\infty$ (truncate to finite sequences in graph norm).
+      Its adjoint has the same domain and action by testing individual basis vectors
+      and applying Parseval. This proves actual self-adjointness.
+
+
+      For the convention $P_n(1)=1$ one has $\int_{-1}^{1}P_mP_n\,dx=2\delta_{mn}/(2n+1)$.
+      Indeed Rodrigues'' formula gives leading coefficient $(2n)!/(2^n(n!)^2)$, and
+      $n$ integrations by parts (boundary terms vanish by the order-$n$ endpoint zeros)
+      yield $\int P_n^2=(2n)!/(2^{2n}(n!)^2)\int_{-1}^1(1-x^2)^n dx=2/(2n+1)$ by $u=(1+x)/2$
+      and the beta integral. For $n=0$ the norm squared is 2. Rescaling changes the
+      norm but preserves orthogonality.
+
+      '
+    main_comparison: Both use the Legendre operator on the maximal domain with zero
+      endpoint fluxes. The L² derivative bound controls the endpoint limits, Green’s
+      identity and independent endpoint tests identify the adjoint domain, and Rodrigues’
+      normalization gives 2/(2n+1).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      source_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 3
+      compiled_pdf: build/IB-2011-P2/main.pdf
+      compiled_sha256: 9ace860fe3380bb1212d4de85a143e0a8adc0c71284772a8b18617fbf8fd9c2c
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2011/P2/q5A/index.html
+      html_sha256: afcf8bb6ec0d5714851e11b6cbe234d39bfa614b4a9ed3416a9d8c1b4e1bb92b
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: a64ece59092bc76b0f3ea1776a72b0403344016c3984947bcc0c35f1a7f8b6d8
+      solution_sha256: 7e6ed152dff41a862c050287030be6848124320e4052044a9ce96d5a76a06866
+      check_sha256: 044a8317d1ecf3b52b2f7cb0e6fae7e70836b92aef5e13f838d92f27c1086d2e
+      check_exit: 0
+      check_stdout: Legendre operator and Gram matrix checked through degree five.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P2/q5A · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P1/q6B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P1.pdf
+      original_pdf_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 4
+      question_packet_sha256: c68e52cbd0854f553da0ce9dfe0a86f701fd9a124fbb74fca3cfd2d4620b7e39
+      blind_rework_sha256: 3f5336b420458025aaba5a82682edee3bf0ded35006e1f274796b606cd8d59c1
+      transcription_discrepancies: []
+      printed_label: 6B
+      source_finding: Printed 6B, Numerical Analysis, p. 4. Compared both paragraphs,
+        bounds, indices, monicity, signs and parity wording to the page image.
+    independent_rework: '# IB/2011/P1/q6B — independent rework
+
+
+      Write $h_j=\langle p_j,p_j\rangle>0$. The monic polynomials of consecutive degrees
+      form a basis through each degree. Consequently $xp_n=p_{n+1}+\sum_{j=0}^n c_jp_j$
+      and $c_jh_j=\langle p_n,xp_j\rangle$ by symmetry of multiplication by $x$. For
+      $j<n-1$, $xp_j$ lies in the span of lower degrees than $n$, so $c_j=0$. For
+      $n\ge1$, $xp_{n-1}-p_n$ has degree at most $n-1$, whence $c_{n-1}=h_n/h_{n-1}$.
+      Thus the given recurrence holds with $\beta_n=h_n/h_{n-1}$ and $\alpha_n=\langle
+      xp_n,p_n\rangle/h_n$. The starting values are $p_0=1$, $p_1=x-\alpha_0$, omitting
+      the lower term.
+
+
+      If $w$ is even, $q_n(x)=(-1)^np_n(-x)$ is monic of degree $n$. A change of variable
+      shows it is orthogonal to every polynomial of degree less than $n$, since reflection
+      preserves that space. Both $q_n$ and $p_n$ are orthogonal to their difference,
+      whose degree is less than $n$; hence its norm vanishes. Positive definiteness
+      gives $q_n=p_n$ (including $n=0$), proving parity.
+
+      '
+    main_comparison: Monicity fixes the leading recurrence coefficient. Orthogonality
+      eliminates all but two lower terms, and their inner products give the norm ratio.
+      Reflection and uniqueness establish parity for even weight.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P1.pdf
+      source_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 4
+      compiled_pdf: build/IB-2011-P1/main.pdf
+      compiled_sha256: 70956d8e2697985e95a3e40f99412bc8be8714657dfbe703ff700e6f19eab02f
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2011/P1/q6B/index.html
+      html_sha256: ec2bc0e06ad79bba644aeff9888868b00719291ae5affc1900f1f0c9facd0cab
+      math_nodes: 27
+      diagrams: {}
+      question_sha256: c68e52cbd0854f553da0ce9dfe0a86f701fd9a124fbb74fca3cfd2d4620b7e39
+      solution_sha256: 61d127340a2a8a775c492c5edb17d6f8e003fd5ea39f548cd1e58f7855ba79ed
+      check_sha256: 0000a3d58762c89bb67154a8a1aa6c7279b9ca090cd916d246d0c08e2dd8e003
+      check_exit: 0
+      check_stdout: Monic Legendre examples verify norm-ratio recurrence and parity.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P1/q6B · Cambridge Maths
+      math: 27
+      rendered: 27
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P2/q17C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      original_pdf_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 7
+      question_packet_sha256: ee7e3eeeb3d9ee9d3e7a17d6b84690b0508bbf912dca45875fb793dc57bd7e9a
+      blind_rework_sha256: 1a4af9b92bc7c4b42e23d97a62205c9a8a134bd5b781db991b7478c030b9211d
+      transcription_discrepancies: []
+      printed_label: 17C
+      source_finding: Printed 17C, Quantum Mechanics, p. 7. Checked epsilon indices,
+        signs, factors, operator squares, expectation inequality/equality and final
+        eigenvalue request.
+    independent_rework: '# IB/2011/P2/q17C — independent rework
+
+
+      Take smooth compactly supported wavefunctions initially and $\langle \phi,\psi\rangle=\int\bar\phi\psi\,d^3x$.
+      Put $b_{ik}=\epsilon_{ijk}x_j$. Its divergence is $\epsilon_{ijk}\delta_{jk}=0$.
+      Integration by parts therefore gives $\int\bar\phi(-i\hbar b_{ik}\partial_k\psi)=\int\overline{(-i\hbar
+      b_{ik}\partial_k\phi)}\,\psi$. This proves Hermiticity on that core and for
+      states with the same vanishing boundary form. The physical self-adjoint component
+      is the generator of strongly continuous unitary rotations about axis $i$ (Lebesgue
+      measure is rotation invariant).
+
+
+      For a normalised state of finite angular quadratic energy, $\langle\mathbf L^2\rangle-\langle
+      L_3^2\rangle=\|L_1\psi\|^2+\|L_2\psi\|^2\ge0$. Equality requires both generators
+      to annihilate the state. Such a vector is invariant under both one-parameter
+      rotation groups by the generator equation, hence under their products, which
+      generate all spatial rotations. Since rotations act transitively on spheres
+      centred at zero, the wavefunction depends only on radius, up to almost-everywhere
+      equivalence. Conversely all angular generators annihilate a radial state. For
+      smooth states the same conclusion follows using $[L_1,L_2]=i\hbar L_3$.
+
+
+      The common spherical harmonics have eigenvalues $\hbar^2\ell(\ell+1)$ and $\hbar^2m^2$
+      respectively, for $\ell=0,1,\ldots$ and $|m|\le\ell$. Their difference is at
+      least $\hbar^2\ell$, strictly positive at $\ell>0$. The $\ell=0$ harmonic is
+      constant in angle. Orthogonal expansion gives the same inequality and equality
+      condition for superpositions with arbitrary radial coefficients.
+
+      '
+    main_comparison: Positivity of the squared angular generators forces the individual
+      tangential derivatives to vanish in the equality case. The commutator supplies
+      the third derivative, and the spherical spectrum confirms equality only for
+      l=0.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P2-full.pdf
+      source_sha256: 7f064ae26c49dbe418492faf94f97406576c49bff44921b8192a192858f78d01
+      source_page: 7
+      compiled_pdf: build/IB-2011-P2/main.pdf
+      compiled_sha256: 9ace860fe3380bb1212d4de85a143e0a8adc0c71284772a8b18617fbf8fd9c2c
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2011/P2/q17C/index.html
+      html_sha256: 0533a8a2484ef58576da40cc0ce20b1150bfd32e574599d5b4e7193277172688
+      math_nodes: 17
+      diagrams: {}
+      question_sha256: ee7e3eeeb3d9ee9d3e7a17d6b84690b0508bbf912dca45875fb793dc57bd7e9a
+      solution_sha256: d0c15ec89395873b1d6e8e6be1c203a30d26f610e43ea2b018e9d5e993d38bbd
+      check_sha256: 61cc68cb12561ae47268df3e721ae6ca99d628dced8c7275a0a0fafef8453c02
+      check_exit: 0
+      check_stdout: Angular commutator and radial annihilation verified on test functions.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P2/q17C · Cambridge Maths
+      math: 17
+      rendered: 17
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2011/P1/q19H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2011/P1.pdf
+      original_pdf_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 10
+      question_packet_sha256: d690d22a8603472d8efb7345fcf6860d95c59d79f8cb5b81f23a06c19cddf54c
+      blind_rework_sha256: daeb73fb61b86c3ad5389b4609d57bea09d504686659c594796d1edf8013a293
+      transcription_discrepancies: []
+      printed_label: 19H
+      source_finding: Printed 19H, Statistics, p. 10. Compared all five parts, the
+        indicator subscript, the Poisson parameter and open interval with the image.
+        The print does not specify n>1.
+    independent_rework: '# IB/2011/P1/q19H — independent rework
+
+
+      A statistic $T=T(X)$ is sufficient if conditional laws of the whole sample given
+      $T$ have a version independent of $\theta$ (on conditioning events of positive
+      probability). The discrete factorisation criterion is that the joint mass equals
+      $g_\theta(T(x))h(x)$ for nonnegative factors with $h$ parameter independent,
+      including zeros of the mass.
+
+
+      For an integrable estimator $U$ and sufficient $T$, $U^*=\mathbb E_\theta[U\mid
+      T]$ is a statistic independent of the unknown parameter in its construction.
+      The tower law gives its original expectation; in particular unbiasedness is
+      preserved. For square-integrable $U$, the total variance identity follows by
+      expanding $U-\mathbb EU=(U-U^*)+(U^*-\mathbb EU)$: the cross term has expectation
+      zero after conditioning. Thus $\operatorname{Var}U-\operatorname{Var}U^*=\mathbb
+      E\,\operatorname{Var}(U\mid T)\ge0$, with equality exactly if $U=U^*$ almost
+      surely. For a general convex loss in the estimate (whenever expectations exist),
+      conditional Jensen gives the corresponding risk inequality.
+
+
+      Put $\mu=-\log\theta>0$. The sample has product mass $e^{-n\mu}\mu^{\sum x_i}/\prod_i
+      x_i!$ on nonnegative integer vectors, so $T=\sum_i X_i$ is sufficient. The zero
+      indicator $U$ has mean $e^{-\mu}=\theta$. Given $T=t$, the joint mass is $t!/(n^t\prod
+      x_i!)$ on vectors summing to $t$. This is a multinomial law with equal cell
+      probabilities, so $U^*=(1-1/n)^T$ (use $0^0=1$). When $n>1$, the event $T=1$
+      has positive probability and on it $U$ is Bernoulli with success probability
+      $1-1/n$ strictly between zero and one. Thus the variance inequality is strict.
+      Directly, $\mathbb E[(U^*)^2]=\exp[n\mu((1-1/n)^2-1)]=\theta^{2-1/n}<\theta$
+      for $n>1$.
+
+
+      At $n=1$ conditioning returns $U$. Indeed any unbiased estimator $h(X_1)$ must
+      satisfy $\sum_{x\ge0}h(x)\mu^x/x!=1$ for all $\mu>0$; integrability makes this
+      power series absolutely convergent for all positive $\mu$. Coefficient uniqueness
+      forces $h(0)=1$ and $h(x)=0$ for $x>0$. The strict request presupposes at least
+      two observations.
+
+      '
+    main_comparison: Poisson conditioning on the sufficient sum gives (1−1/n)^T. Conditional
+      variance gives strict improvement for n≥2. For n=1 the observation equals T
+      and the complete Poisson family precludes a strictly better unbiased function.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2011/P1.pdf
+      source_sha256: 96a404f6a80123a85eb4a8e6b5719b6d511aef9413c4841a923119fd4c28c98a
+      source_page: 10
+      compiled_pdf: build/IB-2011-P1/main.pdf
+      compiled_sha256: 70956d8e2697985e95a3e40f99412bc8be8714657dfbe703ff700e6f19eab02f
+      compiled_pages:
+      - 21
+      html: site/private/questions/IB/2011/P1/q19H/index.html
+      html_sha256: 47c56d22d2b07cb62ae6650ee63170e5820b99ab167b2f9c39f26f230e56f594
+      math_nodes: 44
+      diagrams: {}
+      question_sha256: d690d22a8603472d8efb7345fcf6860d95c59d79f8cb5b81f23a06c19cddf54c
+      solution_sha256: 33447b69ef696f5711c4dcb52992510e8a45009a4621a12742e4a80f198fde0e
+      check_sha256: 90a89b3f6acf51c019dc317db37da58ba75650c6a1a2f10e0c4e9c1051517dcc
+      check_exit: 0
+      check_stdout: Poisson probabilities check unbiasedness and strict variance reduction.
+      check_stderr: ''
+    browser:
+      title: IB/2011/P1/q19H · Cambridge Maths
+      math: 44
+      rendered: 44
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
