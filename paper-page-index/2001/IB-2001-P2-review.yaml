@@ -1,0 +1,389 @@
+paper_id: IB/2001/P2
+id: IB/2001/P2
+main_count: 18
+unit_count: 18
+main_question_count: 18
+question_units: 18
+source_page_count: 7
+page_count: 7
+section_units:
+  I: 9
+  II: 9
+alternatives: []
+instructions: Candidates may attempt at most four questions in Section I and at most six questions from Section
+  II.
+marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
+  mark values are printed.
+date: '2001-06-07'
+printed_date: Thursday 7 June 2001
+time: 9 to 12
+source: private/raw/tripos/IB/2001/P2.pdf
+archive: private/raw/tripos/IB/2001/P2.pdf
+url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2001/PaperIB_2.pdf
+sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+multi_page_questions: []
+cover:
+- Before you begin read these instructions carefully.
+- Each question in Section II carries twice the credit of each question in Section I.
+- Candidates may attempt at most four questions in Section I and at most six questions from Section II.
+- Complete answers are preferred to fragments.
+- Write on one side of the paper only and begin each answer on a separate sheet.
+- Write legibly; otherwise, you place yourself at a grave disadvantage.
+- 'At the end of the examination:'
+- Answers must be tied up in separate bundles, marked A, B, ..., G according to the letter affixed to each
+  question, and a blue cover sheet must be attached to each bundle.
+- A green master cover sheet listing all the questions attempted must be completed.
+- It is essential that every cover sheet bear the candidate’s examination number and desk number.
+questions:
+- id: IB/2001/P2/q1A
+  original_question: 1A
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 7d3b57d67e3a0e10b599fc2320358609aa3303d4eeba05b6ceaf120ef10120ec
+  checks: Three-point metrics, distances and direction of contraction example.
+  source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+  course_mapping_schedule_page: 18
+- id: IB/2001/P2/q2G
+  original_question: 2G
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Methods
+  course: IA/vector-calculus
+  also_courses:
+  - IB/methods
+  question_sha256: bf6f9abb1699b725e88ab83056727c3ad3e5a8ccf13444296ba96d174e6256c1
+  checks: Nine entries, wedge order and symmetric traceless remainder.
+  source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+  course_mapping_schedule_page: 13
+  course_mapping_note: Cartesian tensors, index notation and their application to vector calculus are now in
+    IA Vector Calculus.
+- id: IB/2001/P2/q3D
+  original_question: 3D
+  page: 2
+  pages:
+  - 2
+  section: I
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 4730e91aaf5747794c9337b9af75eb6206d21270019bb9b61aa21ada047fe682
+  checks: Single uniform observation and loss and prior densities.
+  source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+  course_mapping_schedule_page: 23
+- id: IB/2001/P2/q4B
+  original_question: 4B
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Further Analysis
+  course: IB/topology
+  also_courses: []
+  question_sha256: 9d6952f3a745080d442745963d73e8b4c55ab981aea0c19e2060e9962833b67b
+  checks: Endpoints for three sets, countable union and permitted connectedness result.
+  source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+  course_mapping_schedule_page: 18
+  course_mapping_note: The Topological Spaces schedule covers the point-set topology examined under Further
+    Analysis.
+- id: IB/2001/P2/q5E
+  original_question: 5E
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: d17b1c91034b2cefc8ea3242e0770af0c13fae7f761cd435e754ff8808788234
+  checks: Sixteen matrix entries and four right-hand-side entries.
+  source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+  course_mapping_schedule_page: 23
+- id: IB/2001/P2/q6C
+  original_question: 6C
+  page: 3
+  pages:
+  - 3
+  section: I
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 771819023c1f468305e43504be4a7b78edf8c6319d731e54404a16a41b6a78cc
+  checks: Right multiplication, ordered matrix-unit basis and both polynomial assertions.
+  source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2001/P2/q7E
+  original_question: 7E
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: 71d3faf62eee1293381285ef88b544a3c6cbd1370bd976e14d0fbba7185da06a
+  checks: Non-empty open domain and the formal derivative definition.
+  source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+  course_mapping_schedule_page: 20
+- id: IB/2001/P2/q8B
+  original_question: 8B
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quadratic Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: bbd35b06c936495b61f84be79646d8d9faca596794c68ef3bc268be5b82a2f9c
+  checks: Dual-space direction and order of arguments in the non-degenerate form.
+  source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2001/P2/q9F
+  original_question: 9F
+  page: 4
+  pages:
+  - 4
+  section: I
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: ac49452b7e287b1c87a8274b84685e7fb941716ce3b507b0b8c5254c0762e563
+  checks: Order of factors in expectation, momentum operator and decay assumption.
+  printed_ambiguity: Integration by parts and differentiating expectations require suitable domain and decay
+    conditions in addition to the pointwise limit printed in the hint.
+  source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+  course_mapping_schedule_page: 21
+- id: IB/2001/P2/q10A
+  original_question: 10A
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Analysis II
+  course: IB/analysis-ii
+  also_courses: []
+  question_sha256: 27a1f5f6133ac18b2554e316033036d486cedeb0f82383f4fac7a053762cf5d6
+  checks: Complete and totally bounded equivalence with Bolzano–Weierstrass.
+  source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+  course_mapping_schedule_page: 18
+- id: IB/2001/P2/q11G
+  original_question: 11G
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Methods
+  course: IA/vector-calculus
+  also_courses:
+  - IB/methods
+  question_sha256: ed2beceb74d83db8a27e217d027909bcd86d578262c0139d72900ebc3306c822
+  checks: All three index pairings and partial derivatives under the ball integral.
+  source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+  course_mapping_schedule_page: 13
+  course_mapping_note: IA Vector Calculus covers Cartesian tensors and isotropic tensors explicitly through
+    rank three. The fourth-rank application extends those topics and is marked partly in schedule.
+  schedule_relevance: partly
+- id: IB/2001/P2/q12D
+  original_question: 12D
+  page: 5
+  pages:
+  - 5
+  section: II
+  course_at_time: Statistics
+  course: IB/statistics
+  also_courses: []
+  question_sha256: 308a03865d673b030d523381222983367b232cc6bb2fb24b3c191196f00191ac
+  checks: Poisson mean equality, statistic denominator and case n=7.
+  printed_ambiguity: The Pearson approximation applies to minus twice the log likelihood ratio with sufficiently
+    large counts. The all-zero sample requires separate treatment, and the decision depends on a significance
+    level that is not printed.
+  source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+  course_mapping_schedule_page: 23
+- id: IB/2001/P2/q13A
+  original_question: 13A
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Further Analysis
+  course: IB/complex-analysis
+  also_courses: []
+  question_sha256: 2bb3bd6967f11da1b3eedb97cc603bf79ff93c409df6124365a1e64b12b69fd7
+  checks: Contour denominator, limit and two alternative inequalities.
+  source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+  course_mapping_schedule_page: 19
+  course_mapping_note: The complex-variable part of Further Analysis corresponds to IB Complex Analysis.
+- id: IB/2001/P2/q14E
+  original_question: 14E
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Numerical Analysis
+  course: IB/numerical-analysis
+  also_courses: []
+  question_sha256: bedb5fb3c4b23855b9f3df8a7011289cc3a1595caf2b4990adb083f2d60bf48e
+  checks: Cholesky and rectangular QR sizes, positive diagonal and transpose hint.
+  source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+  course_mapping_schedule_page: 23
+- id: IB/2001/P2/q15C
+  original_question: 15C
+  page: 6
+  pages:
+  - 6
+  section: II
+  course_at_time: Linear Mathematics
+  course: IB/linear-algebra
+  also_courses: []
+  question_sha256: 120f648a8a6b448f4d3af67abee48f9c2df9db309cbf1dbd2085768d70505003
+  checks: Dual arrows, dual bases and inverse-transpose identity.
+  source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+  course_mapping_schedule_page: 17
+  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
+    covered in IB Linear Algebra.
+- id: IB/2001/P2/q16E
+  original_question: 16E
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Complex Methods
+  course: IB/complex-methods
+  also_courses: []
+  question_sha256: d337af733f87356316c19be4c64026125df016da8d888972570cd7703b3ecd48
+  checks: Strong rational decay, no real poles, integral limits and exponent.
+  source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+  course_mapping_schedule_page: 20
+- id: IB/2001/P2/q17B
+  original_question: 17B
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quadratic Mathematics
+  course: II/number-theory
+  also_courses: []
+  question_sha256: 95192cab1cb589d16adc4013555df764f3fa58c2b6ac6fdd5662e8caee6bbad7
+  checks: Least absolute residue, count of negative residues and progression construction.
+  source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+  course_mapping_schedule_page: 28
+  course_mapping_note: The Legendre symbol, quadratic residues and Euler’s criterion are in II Number Theory.
+- id: IB/2001/P2/q18F
+  original_question: 18F
+  page: 7
+  pages:
+  - 7
+  section: II
+  course_at_time: Quantum Mechanics
+  course: IB/quantum-mechanics
+  also_courses: []
+  question_sha256: df1cba7916291fa60edf2527882d9942ca79785706ab74d9bf627d979d54d696
+  checks: Two commutation relations, squared total angular momentum and the third coordinate squared.
+  source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+  course_mapping_schedule_page: 21
+transcription_checks:
+  source_render_dpi: 145
+  all_questions_compared_with_original_page_images: true
+  compiled_question_images_reviewed: true
+  restricted_latex_validated: true
+  compiled_qa_pdf_sha256: e802a702d0f975b4575ace569a0087e0a940f5b039ea25255e752676977f77bf
+  katex_version: 0.16.11
+  distinct_expressions_in_paper: 115
+  katex_failures: 0
+  compiled_proof_pages: 18
+  overfull_or_missing_glyph_warnings: 0
+separate_corrections: []
+correction_check: Manifest checked for 2001 IB. The four full papers and the separate subject compilation were
+  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+physical_pages:
+- page: 1
+  contents: cover
+  questions: []
+  source_page_render_sha256: d0b5938e8b7788edd83369b47e965e849c2a885a46cf440dd3bcec945d959349
+  printed_page: null
+  footer: null
+  turn_over: false
+  end_of_paper: false
+- page: 2
+  contents: questions
+  questions:
+  - 1A
+  - 2G
+  - 3D
+  source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+  printed_page: 2
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: false
+- page: 3
+  contents: questions
+  questions:
+  - 4B
+  - 5E
+  - 6C
+  source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+  printed_page: 3
+  footer: Paper 2
+  turn_over: true
+  end_of_paper: false
+- page: 4
+  contents: questions
+  questions:
+  - 7E
+  - 8B
+  - 9F
+  source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+  printed_page: 4
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: false
+- page: 5
+  contents: questions
+  questions:
+  - 10A
+  - 11G
+  - 12D
+  source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+  printed_page: 5
+  footer: Paper 2
+  turn_over: true
+  end_of_paper: false
+- page: 6
+  contents: questions
+  questions:
+  - 13A
+  - 14E
+  - 15C
+  source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+  printed_page: 6
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: false
+- page: 7
+  contents: questions
+  questions:
+  - 16E
+  - 17B
+  - 18F
+  source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+  printed_page: 7
+  footer: Paper 2
+  turn_over: false
+  end_of_paper: true
+provenance:
+  source_class: public-faculty-tripos
+  archived_at_utc: '2026-11-20T12:27:13.428099+00:00'
+course_mapping_reference:
+  archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
+  sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
+  page_numbers: Physical PDF pages
