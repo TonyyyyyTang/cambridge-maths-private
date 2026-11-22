@@ -1,0 +1,1145 @@
+scope: 2009 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20270102
+  strata:
+    IB/analysis-ii:
+    - IB/2009/P1/q11E
+    - IB/2009/P1/q12F
+    - IB/2009/P2/q13E
+    - IB/2009/P2/q3E
+    - IB/2009/P3/q13E
+    - IB/2009/P3/q3E
+    - IB/2009/P4/q13E
+    - IB/2009/P4/q3E
+    IB/complex-methods:
+    - IB/2009/P1/q13D
+    - IB/2009/P1/q3D
+    - IB/2009/P2/q14D
+    - IB/2009/P3/q5D
+    - IB/2009/P4/q15D
+    IB/electromagnetism:
+    - IB/2009/P1/q16A
+    - IB/2009/P2/q17A
+    - IB/2009/P2/q6A
+    - IB/2009/P3/q17A
+    - IB/2009/P4/q7A
+    IB/fluid-dynamics:
+    - IB/2009/P1/q17D
+    - IB/2009/P1/q5D
+    - IB/2009/P2/q8D
+    - IB/2009/P3/q18D
+    - IB/2009/P4/q18D
+    IB/linear-algebra:
+    - IB/2009/P1/q1G
+    - IB/2009/P1/q9G
+    - IB/2009/P2/q10G
+    - IB/2009/P2/q1G
+    - IB/2009/P3/q10G
+    - IB/2009/P4/q10G
+    - IB/2009/P4/q1G
+    IB/markov-chains:
+    - IB/2009/P1/q19H
+    - IB/2009/P2/q20H
+    - IB/2009/P3/q9H
+    - IB/2009/P4/q9H
+    IB/methods:
+    - IB/2009/P1/q14B
+    - IB/2009/P2/q15B
+    - IB/2009/P2/q5B
+    - IB/2009/P3/q15A
+    - IB/2009/P3/q6A
+    - IB/2009/P4/q16A
+    - IB/2009/P4/q5B
+    IB/numerical-analysis:
+    - IB/2009/P1/q6C
+    - IB/2009/P2/q18C
+    - IB/2009/P3/q19C
+    - IB/2009/P4/q8C
+    IB/quantum-mechanics:
+    - IB/2009/P1/q15B
+    - IB/2009/P2/q16B
+    - IB/2009/P3/q16B
+    - IB/2009/P3/q7B
+    - IB/2009/P4/q6B
+    IB/statistics:
+    - IB/2009/P1/q18H
+    - IB/2009/P1/q7H
+    - IB/2009/P2/q19H
+    - IB/2009/P3/q8H
+    - IB/2009/P4/q19H
+  selection:
+    IB/analysis-ii:
+    - IB/2009/P2/q3E
+    - IB/2009/P1/q11E
+    IB/complex-methods:
+    - IB/2009/P1/q3D
+    IB/electromagnetism:
+    - IB/2009/P1/q16A
+    IB/fluid-dynamics:
+    - IB/2009/P2/q8D
+    IB/linear-algebra:
+    - IB/2009/P3/q10G
+    - IB/2009/P4/q1G
+    IB/markov-chains:
+    - IB/2009/P4/q9H
+    IB/methods:
+    - IB/2009/P2/q5B
+    - IB/2009/P4/q5B
+    IB/numerical-analysis:
+    - IB/2009/P1/q6C
+    IB/quantum-mechanics:
+    - IB/2009/P3/q7B
+    IB/statistics:
+    - IB/2009/P3/q8H
+observed:
+  population: 55
+  sampled: 13
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 13
+  pdf_pages: 14
+  browser_views: 13
+  rendered_formulas: 327
+independent_manifest_sha256: 7a526df344387ea3919bc15971e629c5df9b90daca034e5cdf805d45e0889c8b
+auditor_report: '# Fresh blind rework of 13 Cambridge Part IB questions, 2009
+
+
+  I independently solved the 13 supplied questions, using the question-only packet
+  and the archived exam pages identified by its locators. I compared each statement
+  to the rendered original page, including mathematical symbols, qualifications, labels,
+  subparts, and both supplied figures. None of the 13 questions carries an individual
+  mark allocation. I found **0 transcription discrepancies in 13 questions**. Existing
+  solutions and reviews were outside the blind inputs, so a solution comparison and
+  its observed error rate belong to the integrating reviewer.
+
+
+  | Paper and label | PDF page | Independent result |
+
+  |---|---:|---|
+
+  | P1 3D | 2 | The analytic function is exp(−z) + iC for real C. |
+
+  | P1 6C | 4 | Jacobi converges from every start exactly for −1 < μ < 1. |
+
+  | P1 11E | 6 | Continuity follows from the uniform tail bound. Successive nested
+  dyadic secant slopes differ by exactly one in magnitude. |
+
+  | P1 16A | 10 | The tangential field vanishes. The instantaneous image force gives
+  fall time (π/2)√(8πε₀md³/q²) for nonzero charge. |
+
+  | P2 3E | 2 | The second iterate is a contraction on the entire real line with constant
+  1/e. Its fixed point is fixed by the first iterate. |
+
+  | P2 5B | 3 | The cosine coefficients are 4(−1)ⁿ/n² for n ≥ 1 and the alternating
+  sum is π²/12. |
+
+  | P2 8D | 4 | The gauge pressure is ρ(u₁²−u₀²)/2. The holding force is upstream,
+  with magnitude ρA₀(u₁−u₀)²/2. |
+
+  | P3 7B | 3 | Energy probabilities are 2⁻⁽ᵐ⁺¹⁾ and the corresponding weighted energy
+  mean is time-independent, possibly infinite. |
+
+  | P3 8H | 4 | Pearson statistic 10.08 on three degrees of freedom exceeds 7.8147.
+  Reject at 5%. |
+
+  | P3 10G | 5 | The five answers are true, false, true, false, true. |
+
+  | P4 1G | 2 | Jordan block sizes 2, 3, 3 with eigenvalues 0, 1, 1 give the required
+  example. |
+
+  | P4 5B | 3 | Maximum distance 2√2, attained at (2,−2) and (−2,2). |
+
+  | P4 9H | 5 | On the 32 reachable squares the invariant mass is degree/280. The
+  mean first return time is 40. |
+
+
+  P1 11E prints “denominator 2⁻ⁿ”. Its dyadic intervals have width 2⁻ⁿ and endpoints
+  expressible with integer denominator 2ⁿ. The transcription correctly preserves the
+  original exponent. P3 7B assumes an increasing spectrum with lower bound E₀. It
+  omits any upper growth bound needed to guarantee a finite weighted mean. P4 9H fixes
+  a particular initial state. The conventional reversibility assertion is detailed
+  balance for the transition kernel with respect to its stationary measure.
+
+
+  For each question, the packet hash in source.json covers the exact bytes of question.tex;
+  any diagram has its own hash. The source PDF, printed label and first page identify
+  the physical evidence. Each rework hash covers rework.md. SHA256SUMS covers this
+  report and the 26 question-level evidence files.
+
+  '
+main_resolution: The shrinking dyadic intervals give successive slopes differing by
+  one. Geometric spectral probabilities need not give a finite mean energy without
+  a growth bound. Detailed balance gives reversibility with respect to the degree-weighted
+  invariant law; the corner return time is 40 moves. The independence statistic is
+  10.08 on three degrees of freedom.
+questions:
+  IB/2009/P2/q3E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P2.pdf
+      original_pdf_sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+      source_page: 2
+      question_packet_sha256: cf357f71c842cc8e7afbe761a258f8583e6af6f4dd6b8409d001154bc152dbf1
+      blind_rework_sha256: 2952089834203af6b790fd83a251eb5e64cabe96ee6d824dad35af0dcd5f19ba
+      transcription_discrepancies: []
+      source_finding: Both the composition f(f(x)) and the contraction-theorem instruction
+        agree. No individual mark allocation is printed.
+      printed_label: 3E
+    independent_rework: '# Banach fixed point theorem
+
+
+      Let \(X\) be a nonempty complete metric space, and \(T:X\to X\) satisfy \(d(Tu,Tv)\le
+      c\,d(u,v)\) with a fixed \(0\le c<1\). Then \(T\) has exactly one fixed point,
+      and iteration from any point converges to it.
+
+
+      Choose \(x_0\in X\) and put \(x_{n+1}=Tx_n\). Induction gives \(d(x_n,x_{n+1})\le
+      c^n d(x_0,x_1)\). Summation bounds \(d(x_n,x_m)\le c^n d(x_0,x_1)/(1-c)\) for
+      \(m>n\). The sequence is Cauchy, and completeness gives a limit \(p\in X\).
+      The Lipschitz inequality gives continuity, so \(Tp=\lim Tx_n=\lim x_{n+1}=p\).
+      For fixed points \(p,q\), \(d(p,q)\le c\,d(p,q)\) forces equality of the points.
+
+
+      On \(\mathbb R\) the derivative of \(T=f\circ f\) is \(e^{-x}\exp(-e^{-x})\).
+      Setting \(y=e^{-x}>0\), the derivative is \(ye^{-y}\), maximized at \(y=1\)
+      with value \(1/e\) by elementary differentiation. The mean value theorem therefore
+      gives the global contraction constant \(1/e\) on the complete space \(\mathbb
+      R\). If \(p=Tp\) is its unique fixed point, then \(T(f(p))=f(T(p))=f(p)\). Uniqueness
+      gives \(f(p)=p\). Every fixed point of \(f\) is fixed by \(T\), so \(p\) is
+      the unique real solution.
+
+      '
+    main_comparison: The second iterate of exp(−x) on the complete real line has derivative
+      bounded in magnitude by 1/e. The first iterate maps the unique fixed point of
+      the second to itself.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P2.pdf
+      source_sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+      source_page: 2
+      compiled_pdf: build/IB-2009-P2/main.pdf
+      compiled_sha256: 80a467518ab7023cb392208cd3c3982ed491a7e281ffe55f3ed34c82c766ac5f
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2009/P2/q3E/index.html
+      html_sha256: 029f844c78b788b13d050734ce55ca8ec8d3515789b2210cf361561a0465645b
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: cf357f71c842cc8e7afbe761a258f8583e6af6f4dd6b8409d001154bc152dbf1
+      solution_sha256: 477712a9376121b41835ab89d191355534fd33b7254ddf7035263f341e45ef20
+      check_sha256: 92825d11cabf7cb860960edc7b2ac04d6816d3081a7aaba6ea4f1f6921c94835
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q3E.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P2/q3E · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P1/q11E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P1.pdf
+      original_pdf_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 6
+      question_packet_sha256: 9fb91b3f10db4640eb9665972ef6d8516b17f53aed5cb6769a79e61a0a8c0386
+      blind_rework_sha256: bbf85345e9131353d404ba07abad08ed477f15467ed1859e98c0d3281ab3bf31
+      transcription_discrepancies: []
+      source_finding: The print really gives “denominator 2^{-n}”; the dyadic mesh
+        is 2^{-n} and a conventional integer denominator is 2^n. The exponent is faithful.
+        The series begins at n=1, the straddling inequalities allow equality, and
+        the restriction on uniform convergence is present. No individual mark allocation
+        is printed.
+      printed_label: 11E
+    independent_rework: '# Moving secants for a dyadic tent series
+
+
+      Let \(d(t)=\operatorname{dist}(t,\mathbb Z)\). The triangle inequality gives
+      \(|d(t)-d(s)|\le |t-s|\); also \(0\le d\le1/2\). The positive series defining
+      \(f\) thus has finite sum. Each of its first \(N\) summands is 1-Lipschitz.
+      The difference of its two tails at any \(x,y\) has magnitude at most \(2^{-N-1}\),
+      since both tails lie in \([0,2^{-N-1}]\). Consequently \(|f(x)-f(y)|\le N|x-y|+2^{-N-1}\).
+      Choosing \(N\) large and then \(|x-y|<\epsilon/(2N)\) proves continuity directly.
+
+
+      Differentiability at \(x\) gives \(g(t)=g(x)+L(t-x)+r(t)\), with \(r(x)=0\)
+      and \(|r(t)|\le\epsilon |t-x|\) for nearby \(t\). For any sufficiently large
+      \(n\), the error of the straddling secant from \(L\) is bounded by
+
+      \[
+
+      \epsilon (|v_n-x|+|u_n-x|)/(v_n-u_n)=\epsilon.
+
+      \]
+
+      This includes an endpoint equal to \(x\).
+
+
+      Use the intervals \([u_n,v_n]=[2^{-n}\lfloor 2^n x\rfloor,u_n+2^{-n}]\), always
+      choosing the right interval at a dyadic \(x\). They nest, straddle \(x\) and
+      shrink to it. At both endpoints terms of index \(k\ge n\) vanish. Every term
+      with \(1\le k<n\) is affine on the interval: all its slope changes are in \(2^{-(k+1)}\mathbb
+      Z\), which is contained in the level-\(n\) grid. Its slope there is \(+1\) or
+      \(-1\). Passing to the chosen half at level \(n+1\) preserves all these slopes
+      and adds precisely the slope \(+1\) or \(-1\) of term \(n\). Thus consecutive
+      secant slopes differ in absolute value by 1 and cannot converge. The secant
+      criterion precludes a finite derivative at every \(x\).
+
+
+      The original prints “denominator \(2^{-n}\)”. The endpoints have mesh \(2^{-n}\)
+      and may be written with integer denominator \(2^n\); the proof uses the permitted
+      “otherwise” route.
+
+      '
+    main_comparison: Escalation resolved by bounding the tail directly and checking
+      dyadic endpoints. On nested mesh intervals each added summand changes the secant
+      slope by exactly one in absolute value, including right-hand intervals at dyadic
+      points. This contradicts secant convergence under differentiability and uses
+      the alternative proof allowed by the wording.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P1.pdf
+      source_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 6
+      compiled_pdf: build/IB-2009-P1/main.pdf
+      compiled_sha256: 48cedeabb5823183c7a310cff59512b1c4ddb47fa6a035604c45501df2c1dd6b
+      compiled_pages:
+      - 11
+      html: site/private/questions/IB/2009/P1/q11E/index.html
+      html_sha256: b17b492a0b4b9986150fd80f8583ce2cf7f432a8d458d98f4fd9a3e71f5bd8ee
+      math_nodes: 45
+      diagrams: {}
+      question_sha256: 9fb91b3f10db4640eb9665972ef6d8516b17f53aed5cb6769a79e61a0a8c0386
+      solution_sha256: 19f560de3d19b6c7a52bc8300670e03051d07b34b22b07cfdebb7e7b18aefd01
+      check_sha256: 69f32e4f4322483b014f0f33392e4f77013e2f1d9a62f66dbc6ee30cf1fa78ac
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q11E.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P1/q11E · Cambridge Maths
+      math: 45
+      rendered: 45
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P1/q3D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P1.pdf
+      original_pdf_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 2
+      question_packet_sha256: bd7540773fa817686dfe1d69e6ae90a5975341603264b3300832f2eece68e477
+      blind_rework_sha256: 44ec18f323bb2403d667ea0713ad7a3899824ccc2e2a93f80d981016b0bdbcb8
+      transcription_discrepancies: []
+      source_finding: Both lines of the question agree, including the negative exponent
+        and both occurrences of the domain variable. No individual mark allocation
+        is printed.
+      printed_label: 3D
+    independent_rework: '# Complex differentiability and the harmonic conjugate
+
+
+      Write the complex derivative at an interior point first with a real increment
+      \(h\), then with increment \(ih\), \(h\in\mathbb R\). From the former \(f''=u_x+iv_x\);
+      from the latter \(f''=(u_y+iv_y)/i=v_y-iu_y\). Both limits exist by complex
+      differentiability. Equating components gives \(u_x=v_y,\ u_y=-v_x\).
+
+
+      For the given real part, \(v_y=-e^{-x}\cos y,\ v_x=e^{-x}\sin y\). The candidate
+      \(v_0=-e^{-x}\sin y\) has precisely these derivatives. Thus \(v-v_0\) is locally
+      constant and constant on the connected domain \(D\). For a real constant \(C\),
+
+      \[
+
+      v=-e^{-x}\sin y+C,\qquad f(z)=e^{-z}+iC.
+
+      \]
+
+      The real and imaginary parts agree by Euler''s formula.
+
+      '
+    main_comparison: Real and imaginary increments give the same Cauchy–Riemann pair.
+      The required function is exp(−z)+iC on each connected component.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P1.pdf
+      source_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 2
+      compiled_pdf: build/IB-2009-P1/main.pdf
+      compiled_sha256: 48cedeabb5823183c7a310cff59512b1c4ddb47fa6a035604c45501df2c1dd6b
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2009/P1/q3D/index.html
+      html_sha256: 7a056633ce78c725170214af06394b8b2692e0ede5f97df24602a3b7cea57ac3
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: bd7540773fa817686dfe1d69e6ae90a5975341603264b3300832f2eece68e477
+      solution_sha256: 2a5edf049ff819785f64be67090e0fc295511a639c62d985afd485cc214b0219
+      check_sha256: be4f056b11eddd94f996109b275fe4cdf35666162ffe5a6019103b7cb2206bea
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q3D.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P1/q3D · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P1/q16A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P1.pdf
+      original_pdf_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 10
+      question_packet_sha256: 1a525ea664471a33cccdef656330c075a50b9a765a282bf535f79d76c31b3711
+      blind_rework_sha256: f337cbdab091de8feffc10fe49fb657043215563008fde2b6da5e8d11eb567f9
+      transcription_discrepancies: []
+      source_finding: All three labelled subparts agree, including zero initial velocity,
+        ignoring gravity, signs and image/real charge locations. No individual mark
+        allocation is printed.
+      printed_label: 16A
+    independent_rework: '# Earthed plane and fall time
+
+
+      In electrostatic equilibrium the electric field is zero inside an ideal conductor.
+      A thin rectangular loop straddling the plane has zero circulation of \(\mathbf
+      E\) and vanishing end contributions as its height tends to zero. Thus the tangential
+      component is continuous and both tangential components just above the plane
+      vanish. Earthing fixes the potential there at zero.
+
+
+      With \(r_\pm=\sqrt{x^2+y^2+(z\mp d)^2}\) the potential in the upper half-space
+      is
+
+      \[
+
+      \phi=\frac{q}{4\pi\epsilon_0}(r_+^{-1}-r_-^{-1}).
+
+      \]
+
+      It vanishes on the plane because \(r_+=r_-\) there, so its tangential derivatives
+      vanish too. It has the prescribed charge singularity and decays at infinity.
+      Uniqueness for the grounded Dirichlet problem gives the exterior potential of
+      the real conductor.
+
+
+      In the electrostatic image-force approximation the force at each height \(z>0\)
+      is the attraction to the instantaneous image \(2z\) away. Omitting the charge''s
+      own field gives \(m\ddot z=-K/z^2\), \(K=q^2/(16\pi\epsilon_0)\). Symmetry and
+      zero transverse initial velocity keep the motion vertical. Multiply by \(\dot
+      z\) and apply \(z(0)=d,\dot z(0)=0\) to get \(\tfrac12 m\dot z^2=K(1/z-1/d)\).
+      On the downward trajectory the first hitting time is
+
+      \[
+
+      T=\sqrt{\frac{md^3}{2K}}\int_0^1\sqrt{\frac{u}{1-u}}\,du
+
+      =\frac{\pi}{2}\sqrt{\frac{8\pi\epsilon_0 m d^3}{q^2}} .
+
+      \]
+
+      Here \(u=\sin^2\theta\) evaluates the integral as \(\int_0^{\pi/2}2\sin^2\theta\,d\theta\).
+      This assumes \(q\ne0,\ m,d>0\); an uncharged particle released at rest would
+      remain at height \(d\).
+
+      '
+    main_comparison: With the grounded plane modeled by an instantaneous image charge,
+      the electrostatic force uses separation 2z. Integrating the inverse-square equation
+      from rest gives (π/2)√(md³/(2K)), with K=q²/(16πε₀).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P1.pdf
+      source_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 10
+      compiled_pdf: build/IB-2009-P1/main.pdf
+      compiled_sha256: 48cedeabb5823183c7a310cff59512b1c4ddb47fa6a035604c45501df2c1dd6b
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2009/P1/q16A/index.html
+      html_sha256: a7dc4c1046e84613a4270f53dc560ba5a41b4a5dbadc07732023981967ed94ca
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: 1a525ea664471a33cccdef656330c075a50b9a765a282bf535f79d76c31b3711
+      solution_sha256: b035d6c89ed1dd9a4f707a9935cf2acacf8073d5673ab0ba1e466322d172f3a2
+      check_sha256: 603b409568545aa9274675d5846ac07f5166c52fa9a449bbde161a45df6501dc
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q16A.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P1/q16A · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P2/q8D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P2.pdf
+      original_pdf_sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+      source_page: 4
+      question_packet_sha256: b4cff347bcbbeccc474ddbde910177416ffbaf863320dec0a43eac5d3188cea9
+      blind_rework_sha256: 126ee0c33400009aef13c6c7dd7b7a1904070876a45e82c42d2995d6eac2df50
+      transcription_discrepancies: []
+      source_finding: The area inequality, pressure reference, momentum direction
+        and squared area-ratio factor agree. The displayed result uses the usual steady,
+        equal-elevation, lossless approximation. No individual mark allocation is
+        printed.
+      printed_label: 8D
+    independent_rework: '# Nozzle pressure and holding force
+
+
+      Take the positive axis along the stream and use gauge pressures. With steady
+      incompressible flow, the mean speeds at the two uniform sections are \(u_i=Q/A_i\).
+      Applying Bernoulli at equal elevation, with negligible losses and uniform inlet/outlet
+      velocities, gives
+
+      \[
+
+      p_0=\tfrac12\rho(u_1^2-u_0^2)=\tfrac12\rho Q^2(A_1^{-2}-A_0^{-2})
+
+      \]
+
+      since the free jet has \(p_1=0\).
+
+
+      Let \(W\) be the signed force the nozzle wall exerts on the enclosed fluid.
+      The steady control-volume balance gives \(p_0 A_0+W=\rho Q(u_1-u_0)\); the outlet
+      pressure has zero gauge value. Using \(Q=A_0u_0\) gives
+
+      \(W=-\tfrac12\rho A_0(u_1-u_0)^2\).
+
+      The fluid therefore pushes the nozzle downstream, and the fireman exerts an
+      upstream force of magnitude
+
+      \[
+
+      F=\frac{\rho A_0}{2}(u_1-u_0)^2
+
+      =\frac{\rho Q^2}{2A_0}\left(\frac{A_0}{A_1}-1\right)^2 .
+
+      \]
+
+      The pressure difference and holding force both vanish in the limiting case of
+      equal areas.
+
+      '
+    main_comparison: The fluid momentum balance and Bernoulli pressure give an upstream
+      force exerted by the wall on the water. The holding force on the nozzle has
+      the stated magnitude and points upstream.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P2.pdf
+      source_sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+      source_page: 4
+      compiled_pdf: build/IB-2009-P2/main.pdf
+      compiled_sha256: 80a467518ab7023cb392208cd3c3982ed491a7e281ffe55f3ed34c82c766ac5f
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2009/P2/q8D/index.html
+      html_sha256: e628371bbdd7670e0ad57de6bfb7a008bff3499cc30ec1058f19c5d7b6997fa3
+      math_nodes: 14
+      diagrams: {}
+      question_sha256: b4cff347bcbbeccc474ddbde910177416ffbaf863320dec0a43eac5d3188cea9
+      solution_sha256: 296460a33f112f2e28a3bdf66b78c8af3ac6b732130216b9961a302ea3d36363
+      check_sha256: a7637e62cd9a33c340baf9637113bac21049f1d3fb87273f151f3d5d0aa7c4be
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q8D.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P2/q8D · Cambridge Maths
+      math: 14
+      rendered: 14
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P3/q10G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P3.pdf
+      original_pdf_sha256: 1f4345aeea0bc1c4751be6b8d3b7b728aa20a11c29728d4f261184a742d01c2c
+      source_page: 5
+      question_packet_sha256: c18897959a26c152123ea672e05faf8c03f4d69900e5f6b77bd70e5f3faa1d64
+      blind_rework_sha256: e801cfdd8bdf3f9c9ef984cbac887e62b634ad53f0b3935da02a043686ae32bc
+      transcription_discrepancies: []
+      source_finding: All five numbered claims agree, including the complex-field
+        qualifications in (1), (2), (3), (5), the power n on both products in (3),
+        and the W_c and W_(c+1) subscripts in (5). No individual mark allocation is
+        printed.
+      printed_label: 10G
+    independent_rework: '# Five questions about endomorphisms
+
+
+      1. True for \(n\ge1\). Choose a complex eigenvalue \(\lambda\) of \(A\), and
+      its nonzero eigenspace \(U\). For \(u\in U\), \(ABu=BAu=\lambda Bu\), so \(B\)
+      preserves \(U\). A complex endomorphism of a nonzero finite-dimensional space
+      has an eigenvector; one for \(B|_U\) works for both matrices.
+
+
+      2. False. \(A=I_n,\ B=2I_n\) commute and have respective spectra \(\{1\}\) and
+      \(\{2\}\).
+
+
+      3. True. \((BA)^{n+1}=B(AB)^n A=0\), so \(BA\) is nilpotent. All its eigenvalues
+      are zero and its degree-\(n\) characteristic polynomial is \(t^n\). Cayley–Hamilton
+      gives \((BA)^n=0\).
+
+
+      4. False. Take the identity on a two-dimensional space. Its \(1\)-eigenspace
+      has dimension two, but its minimal polynomial is \(t-1\) and the root has multiplicity
+      one.
+
+
+      5. True. In complex Jordan form the multiplicity of \(\lambda\) in the minimal
+      polynomial is the greatest size of a block for \(\lambda\): a block \(J_s(\lambda)\)
+      has minimal polynomial \((t-\lambda)^s\) since its superdiagonal shift has nilpotency
+      index \(s\), and block minima combine by least common multiple. On the sum of
+      all \(\lambda\)-blocks, both powers \(c,c+1\) of \(T-\lambda I\) vanish. On
+      any block of another eigenvalue, \(T-\lambda I\) is invertible (upper triangular
+      with nonzero diagonal), so both kernels there are zero. The two kernels therefore
+      coincide on the entire space.
+
+      '
+    main_comparison: The five truth values are true, false, true, false, true. In
+      the last item applying the residual polynomial to a vector in the eigenspace
+      multiplies it by the nonzero scalar q(λ), forcing kernel stabilization at c.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P3.pdf
+      source_sha256: 1f4345aeea0bc1c4751be6b8d3b7b728aa20a11c29728d4f261184a742d01c2c
+      source_page: 5
+      compiled_pdf: build/IB-2009-P3/main.pdf
+      compiled_sha256: 244368ba7c51b97cfebac8e6759866f29defbe4e82cc0804af4ec91f35de86c2
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2009/P3/q10G/index.html
+      html_sha256: 7bbd04f3cc25bb143e855ddda10211b724ca0932c6dea7ddae427174c3bee113
+      math_nodes: 53
+      diagrams: {}
+      question_sha256: c18897959a26c152123ea672e05faf8c03f4d69900e5f6b77bd70e5f3faa1d64
+      solution_sha256: 7ae0591dfde6181a1061e5fd7eb52a532f6e0af2a32fe4a3ffa0ab5f860b0fe7
+      check_sha256: c14fb3486a075d31b064e79c0dbe5e05fd5ab7b26c220144df5eec1503de59ed
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q10G.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P3/q10G · Cambridge Maths
+      math: 53
+      rendered: 53
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P4/q1G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P4.pdf
+      original_pdf_sha256: d6be4558fab3e6ec4a38f88b3c1d955b204ee50d6d1407b8845dc208b609ca66
+      source_page: 2
+      question_packet_sha256: 62f03f150f623ba681ed344f2c0391b9ab1955e1423a2b55f4235c8fb77b47fc
+      blind_rework_sha256: 3b4b22e93918ae6bfed043e0aa113c4d7ca162e10fafa7382651a8edaba0224d
+      transcription_discrepancies: []
+      source_finding: Both requests, the field, dimension eight and the two multiplicities
+        of the polynomial agree. No individual mark allocation is printed.
+      printed_label: 1G
+    independent_rework: '# Minimal polynomial and an example
+
+
+      Put \(d=\dim V\). The \(d^2+1\) endomorphisms \(I,T,\ldots,T^{d^2}\) are linearly
+      dependent in \(\operatorname{End}(V)\), of dimension \(d^2\). A nontrivial dependence
+      gives a nonzero polynomial \(p\) with \(p(T)=0\). Among such polynomials choose
+      one of smallest degree and normalize it to be monic. This is the minimal polynomial.
+      Two distinct monic candidates of the same least degree would differ by a nonzero
+      annihilator of smaller degree; hence it is unique. Polynomial division also
+      shows it divides every annihilator. For the zero vector space the monic polynomial
+      \(1\) annihilates the unique endomorphism.
+
+
+      On \(\mathbb C^8\) take the block diagonal matrix with Jordan blocks \(J_2(0),J_3(1),J_3(1)\),
+      writing \(J_s(a)=aI_s+N_s\), where \(N_s\) has ones immediately above the diagonal
+      and other entries zero. Each block has minimal polynomial \((t-a)^s\): powers
+      \(N_s^k\), \(0\le k<s\), have distinct nonzero diagonals and \(N_s^s=0\). A
+      polynomial kills the direct sum precisely when it kills every block, so the
+      least monic choice is their least common multiple \(t^2(t-1)^3\).
+
+      '
+    main_comparison: 'Finite-dimensional dependence supplies an annihilator and monic
+      minimality gives uniqueness. The different eight-dimensional examples are both
+      valid: the two longest blocks have lengths 2 at zero and 3 at one, and the other
+      blocks do not change the least common multiple.'
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P4.pdf
+      source_sha256: d6be4558fab3e6ec4a38f88b3c1d955b204ee50d6d1407b8845dc208b609ca66
+      source_page: 2
+      compiled_pdf: build/IB-2009-P4/main.pdf
+      compiled_sha256: 0ec62277d8c6cad5f9e363fd105c6787b9fd03bff454487c93087fd1adcbf906
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2009/P4/q1G/index.html
+      html_sha256: 04e8725be7a08e5afa9c4f359e97d9eca5eaf7b5d4dc7a5ac7db9130f6bfee8a
+      math_nodes: 12
+      diagrams: {}
+      question_sha256: 62f03f150f623ba681ed344f2c0391b9ab1955e1423a2b55f4235c8fb77b47fc
+      solution_sha256: 395ec87bef4f3828fdd8a5693f4b1426b38842029c7776fca2cb3dc8066e7aa0
+      check_sha256: 678c9c66e55c07ae0c3ce3538e0e72257947121d877dd8ffb9273b4884d2cd14
+      check_exit: 0
+      check_stdout: Passed independent checks for P4/q1G.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P4/q1G · Cambridge Maths
+      math: 12
+      rendered: 12
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P4/q9H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P4.pdf
+      original_pdf_sha256: d6be4558fab3e6ec4a38f88b3c1d955b204ee50d6d1407b8845dc208b609ca66
+      source_page: 5
+      question_packet_sha256: 6c290ac6f3d4f2859c10182f551c15e9c9a0df8f77aa4664459d7bd0357a869c
+      blind_rework_sha256: f729e20afaed41e5d80816425035e8cedb0b868e4b7367ab41a1e9e6798ee47e
+      transcription_discrepancies: []
+      source_finding: The prose, including the printed single word “statespace”, agrees.
+        The example figure places A at file 2, rank 5 with all nine starred destinations,
+        and the walk starts separately at the bottom left corner. Independence of
+        the random choice is understood conditional on the current square; reversibility
+        is with respect to the invariant law. No individual mark allocation is printed.
+      printed_label: 9H
+      figure_sha256:
+        figures/bishop-moves.png: 83224a446f2688a93840b453258cd29ba69240d68d7e104be3c8069854cde371
+    independent_rework: '# Bishop walk on the corner''s colour
+
+
+      Use coordinates \(1\le i,j\le8\), starting at \((1,1)\). Each diagonal move
+      preserves \(i+j\bmod2\), so only the 32 squares with even sum are available.
+      Conversely any such square connects along a diagonal to \((k,k)\), \(k=(i+j)/2\),
+      and thence to \((1,1)\), suppressing any step of length zero. Thus the state
+      graph is connected.
+
+
+      Let \(d(i,j)\) be the number of other squares on the two diagonals through \((i,j)\).
+      Their lengths are \(8-|i-j|\) and \(8-|i+j-9|\), so \(d(i,j)=14-|i-j|-|i+j-9|\).
+      By the move rule the probability of any neighboring square, conditional on the
+      history, is \(1/d(i,j)\); this proves the Markov property. Write \(D\) for the
+      sum of the degrees on the reachable colour. Weights \(\pi(s)=d(s)/D\) then satisfy
+      \(\pi(s)P(s,t)=1/D=\pi(t)P(t,s)\) on any edge, and zero in both directions on
+      a nonedge. Detailed balance implies invariance and reversibility with respect
+      to \(\pi\); finite irreducibility gives uniqueness. A deterministic initial
+      corner need not have stationary path marginals.
+
+
+      In one diagonal direction the whole board has two diagonals of each length 1
+      through 7 and one of length 8. Each length \(k\) contributes \(k(k-1)\) directed
+      transitions. This gives \(2\sum_{k=1}^7 k(k-1)+8\cdot7=280\) for one direction
+      and 560 for both. Reflection \(i\mapsto9-i\) interchanges the colours and preserves
+      bishop adjacency. Hence \(D=280\), fixing the normalization explicitly. The
+      corner has degree 7 and invariant mass \(7/280=1/40\). By the mean recurrence
+      time formula for an irreducible finite chain, starting at the corner gives expected
+      positive first return time 40 moves.
+
+      '
+    main_comparison: The accessible bishop graph is connected on one colour and the
+      invariant measure is proportional to the vertex degree. The total degree is
+      280 and the corner degree is seven, giving mean return time 40.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P4.pdf
+      source_sha256: d6be4558fab3e6ec4a38f88b3c1d955b204ee50d6d1407b8845dc208b609ca66
+      source_page: 5
+      compiled_pdf: build/IB-2009-P4/main.pdf
+      compiled_sha256: 0ec62277d8c6cad5f9e363fd105c6787b9fd03bff454487c93087fd1adcbf906
+      compiled_pages:
+      - 9
+      - 10
+      html: site/private/questions/IB/2009/P4/q9H/index.html
+      html_sha256: b0876d106391957c45bdc187f87c03fb30f670b1f03590f235bb1ddfcb13e76f
+      math_nodes: 23
+      diagrams:
+        site/private/figures/tripos/IB/2009/P4/q9H/bishop-moves.png: 83224a446f2688a93840b453258cd29ba69240d68d7e104be3c8069854cde371
+      question_sha256: 6c290ac6f3d4f2859c10182f551c15e9c9a0df8f77aa4664459d7bd0357a869c
+      solution_sha256: c7175721070efdfa38ed0258a9d6559af926c16db1ed4ecfd7b59efd4cfc4c12
+      check_sha256: 5c11b36d38b608175c3b9c7d14cd9a67f4ac8b8ca970eb7860c5a26d82f617ac
+      check_exit: 0
+      check_stdout: Passed independent checks for P4/q9H.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P4/q9H · Cambridge Maths
+      math: 23
+      rendered: 23
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 962
+        height: 946
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P2/q5B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P2.pdf
+      original_pdf_sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+      source_page: 3
+      question_packet_sha256: 981a6b265367f4491b0bc4d15c9ac20699c6619227434dd63aa3575e1d677b56
+      blind_rework_sha256: 6b2de03df8c0e5c01d6e25053771066316942fdb19ac08b7be6596ee07df92f9
+      transcription_discrepancies: []
+      source_finding: The open interval, the half constant coefficient, both powers
+        of minus one and the final pi-squared over twelve agree. No individual mark
+        allocation is printed.
+      printed_label: 5B
+    independent_rework: '# Half-range expansions
+
+
+      The odd \(2\pi\)-periodic extension of \(x\) on \((0,\pi)\) is piecewise smooth
+      and continuous on \((-\pi,\pi)\). The Fourier convergence theorem gives its
+      sine series there. Integration by parts yields
+
+      \[
+
+      b_n=\frac2\pi\int_0^\pi x\sin(nx)\,dx=\frac{2(-1)^{n-1}}n,\qquad
+
+      x=2\sum_{n\ge1}\frac{(-1)^{n-1}}{n}\sin(nx).
+
+      \]
+
+      For any \(b<\pi,\ b>0\), partial sums of \((-1)^{n-1}e^{int}\) are uniformly
+      bounded on \([0,b]\) by \(2/\min_{0\le t\le b}|1+e^{it}|\), by the geometric
+      formula. Dirichlet''s test gives uniform convergence of the sine series there
+      (its value at zero is zero). Thus for \(0<x<\pi\) we may integrate termwise
+      from 0 to \(x\), giving
+
+      \[
+
+      x^2=4\sum_{n\ge1}\frac{(-1)^{n-1}}{n^2}(1-\cos nx).
+
+      \]
+
+      Absolute convergence allows separation: \(a_n=4(-1)^n/n^2\) for \(n\ge1\) and
+      \(a_0=8\sum_{n\ge1}(-1)^{n-1}/n^2\). The cosine expansion is uniformly absolutely
+      convergent, hence integrable termwise on \([0,\pi]\); each nonconstant cosine
+      integrates to zero. Therefore
+
+      \(a_0=(2/\pi)\int_0^\pi x^2dx=2\pi^2/3\), and the alternating reciprocal-square
+      sum is \(\pi^2/12\).
+
+      '
+    main_comparison: The sine coefficients are 2(−1)^(n−1)/n. Integration is justified
+      by L² convergence on a bounded interval; averaging the resulting absolutely
+      convergent cosine series gives the alternating reciprocal-square sum π²/12.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P2.pdf
+      source_sha256: 567aaeafcf039de1488f7211d1e6977ac4940e36ac2f2523e859e3bdc6377792
+      source_page: 3
+      compiled_pdf: build/IB-2009-P2/main.pdf
+      compiled_sha256: 80a467518ab7023cb392208cd3c3982ed491a7e281ffe55f3ed34c82c766ac5f
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2009/P2/q5B/index.html
+      html_sha256: 18331d9d58ab4be15b0fc0c7d68a0902cbce493fd58c842b6e2569b5a48d5c30
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: 981a6b265367f4491b0bc4d15c9ac20699c6619227434dd63aa3575e1d677b56
+      solution_sha256: 0f6d3ad51e4600fbe73176c07b49cbeda724caebc9f7cd7b588e6511da29e257
+      check_sha256: b47e3a2dafa024014ce6ce75b4767230319e7b19cd4ee39926ce16302b393d26
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q5B.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P2/q5B · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P4/q5B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P4.pdf
+      original_pdf_sha256: d6be4558fab3e6ec4a38f88b3c1d955b204ee50d6d1407b8845dc208b609ca66
+      source_page: 3
+      question_packet_sha256: 76f34682a6419236950154a73ebe356cdf1db4dcb3baea5ba3eb5d0dc6d2d4c4
+      blind_rework_sha256: 2e15c3f9d78dcabcadbd17733d10b48c772a5c0a7d7296c6b0ab0af359615134
+      transcription_discrepancies: []
+      source_finding: The two columns of partial derivatives, their evaluation points
+        and the full curve equation agree. No individual mark allocation is printed.
+      printed_label: 5B
+    independent_rework: '# Stationarity on a level curve
+
+
+      Assume \(f,g\) are continuously differentiable. At a regular point of \(g=0\),
+      a local tangent to the level curve is perpendicular to \(\nabla g\). At a constrained
+      stationary point the directional derivative of \(f\) along that tangent vanishes,
+      hence \(\nabla f=\lambda\nabla g\). Solve this system with the constraint to
+      locate candidates; examine points with \(\nabla g=0\) separately. In the plane
+      parallelism gives \(f_xg_y-f_yg_x=0\), exactly the printed determinant. At a
+      singular point the determinant vanishes automatically.
+
+
+      Maximize \(f=x^2+y^2\) with \(g=x^2+y^2+xy-4\). The constraint gradient vanishes
+      only at \((0,0)\), off the curve. Its determinant condition is \(2x(2y+x)-2y(2x+y)=2(x^2-y^2)=0\).
+      For \(y=x\) one obtains \(x^2=4/3\) and \(f=8/3\); for \(y=-x\) one gets \(x^2=4\)
+      and \(f=8\). The curve is closed and bounded since \(x^2+y^2+xy\ge(x^2+y^2)/2\).
+      The global maximum distance is therefore \(2\sqrt2\), attained at \((2,-2),(-2,2)\).
+
+      '
+    main_comparison: The regular constraint gives parallel gradients, with singular
+      points checked separately. The squared-distance upper bound is 8 and equality
+      requires y=−x, giving precisely (2,−2) and (−2,2).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P4.pdf
+      source_sha256: d6be4558fab3e6ec4a38f88b3c1d955b204ee50d6d1407b8845dc208b609ca66
+      source_page: 3
+      compiled_pdf: build/IB-2009-P4/main.pdf
+      compiled_sha256: 0ec62277d8c6cad5f9e363fd105c6787b9fd03bff454487c93087fd1adcbf906
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2009/P4/q5B/index.html
+      html_sha256: 777198987e17e27a27f4b3016d10e2ba7c7a5d82a1f7ad22de9bcb681794965a
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: 76f34682a6419236950154a73ebe356cdf1db4dcb3baea5ba3eb5d0dc6d2d4c4
+      solution_sha256: f352502d0c04956bf69673de09b7425fac9ff534fac2b8d447be688c55ba9468
+      check_sha256: 4cd54a2968ea5a1ede697ac8b8dc0e583fccc0cd039e6a2c3780b5f214cba65a
+      check_exit: 0
+      check_stdout: Passed independent checks for P4/q5B.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P4/q5B · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P1/q6C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P1.pdf
+      original_pdf_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 4
+      question_packet_sha256: 355ebcec5d5652c6a2dc14f8db274c45d809c9e03818ac99656f15994e444314
+      blind_rework_sha256: ae02cc794917ec43f8e3be8b2a9acf4eb707663e5754642624fe2f69fe6cbb39
+      transcription_discrepancies: []
+      source_finding: Jacobi update, spectral radius inequality, matrix brackets and
+        all nine entries agree, including the two unequal lower-left coefficients.
+        No individual mark allocation is printed.
+      printed_label: 6C
+    independent_rework: '# Jacobi error propagation
+
+
+      Invertibility of \(A\) gives one solution \(x\); substituting it into the iteration
+      gives the same \(x\) at each step. Subtract that identity to get \(e_n=H e_{n-1}=H^ne_0\)
+      for \(e_n=x_n-x\). All real starting errors are possible. Convergence for all
+      of them implies columnwise convergence \(H^n\to0\), by taking coordinate vectors,
+      and hence convergence on complex vectors as well. A nonzero complex eigenvector
+      of eigenvalue \(\lambda\) then gives \(\lambda^n v\to0\), requiring \(|\lambda|<1\).
+
+
+      Conversely take a complex Jordan form for \(H\). Each block \(J=\lambda I+N\)
+      with \(N^s=0\) has for \(n\ge s\)
+
+      \[
+
+      J^n=\sum_{k=0}^{s-1}\binom nk\lambda^{n-k}N^k.
+
+      \]
+
+      For \(0<|\lambda|<1\) exponential decay dominates each polynomial factor; a
+      zero-eigenvalue block vanishes for \(n\ge s\). Conjugation by a fixed invertible
+      matrix preserves entrywise convergence to zero. This proves the equivalence
+      without a diagonalizability assumption.
+
+
+      In this case \(H\) has rows \((0,0,\mu),(\mu/3,0,\mu/3),(\mu,0,0)\). Expanding
+      \(\det(tI-H)\) along column two gives \(t(t^2-\mu^2)\). Therefore \(\rho(H)=|\mu|\),
+      and the answer is \(-1<\mu<1\). At the excluded endpoints \(A\) is singular
+      (its determinant is \(12(1-\mu^2)\)); \(\mu=0\) gives a one-step iteration.
+
+      '
+    main_comparison: Convergence for all initial errors is equivalent to the decay
+      of every complex Jordan block. The iteration matrix has characteristic polynomial
+      t(t²−μ²), giving exactly −1<μ<1.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P1.pdf
+      source_sha256: 26007854cb40eb9e25b946acf3c9f3d5e52708d61c75c00459e0f4f9d848c3f8
+      source_page: 4
+      compiled_pdf: build/IB-2009-P1/main.pdf
+      compiled_sha256: 48cedeabb5823183c7a310cff59512b1c4ddb47fa6a035604c45501df2c1dd6b
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2009/P1/q6C/index.html
+      html_sha256: 5b8d9239c92a597bd65a8e8e4731b4767dfebbfa09ef1d758006dc6746424dd3
+      math_nodes: 32
+      diagrams: {}
+      question_sha256: 355ebcec5d5652c6a2dc14f8db274c45d809c9e03818ac99656f15994e444314
+      solution_sha256: f0e249fd83a9b6b4b04398f14e8a2401b1a3b8942be289f5e64ba270e0cfc2a0
+      check_sha256: 739d50efa88137e317ee049794486cde3ad7b98972463f79a8682f81919236cf
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q6C.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P1/q6C · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P3/q7B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P3.pdf
+      original_pdf_sha256: 1f4345aeea0bc1c4751be6b8d3b7b728aa20a11c29728d4f261184a742d01c2c
+      source_page: 3
+      question_packet_sha256: dba2805a37069f8be14fb6d8a8de70aa9c9f29d57bd490f822f86d1ce359a242
+      blind_rework_sha256: d159d9acc1711daec655b572a00978fc32726637c268c1d9034e063831e3dfba
+      transcription_discrepancies: []
+      source_finding: All equations and requests agree. The printed eigenvalue ordering
+        places no upper growth condition on E_n, so a finite energy expectation requires
+        summability. No individual mark allocation is printed.
+      printed_label: 7B
+    independent_rework: '# Spectral probabilities and mean energy
+
+
+      With the \(L^2\) inner product \(\langle u,v\rangle=\int\overline u v\,dx\),
+      Hermiticity implies \(E_n\langle\psi_m,\psi_n\rangle=E_m\langle\psi_m,\psi_n\rangle\)
+      (the eigenvalues are real). For \(m\ne n\) the eigenvalues are distinct and
+      hence the inner product vanishes. For \(m=n\) normalization gives 1.
+
+
+      Write \(c_n=2^{-(n+1)/2}\). Time evolution multiplies each eigenstate by its
+      stationary phase, giving the norm-convergent expansion
+
+      \[
+
+      \Psi(x,t)=\sum_{n=0}^\infty c_n e^{-iE_n t/\hbar}\psi_n(x).
+
+      \]
+
+      For each partial sum the squared norm equals the sum of its squared coefficients
+      by orthonormality. The squared tails tend to zero and \(\sum_{n\ge0}2^{-(n+1)}=1\);
+      the limit therefore has unit norm. The probability of energy \(E_m\) is the
+      squared norm of its spectral component, \(2^{-(m+1)}\), independent of time.
+      The first moment of this distribution is
+
+      \[
+
+      \langle E\rangle=\sum_{n=0}^\infty E_n\,2^{-(n+1)},
+
+      \]
+
+      which is time-independent whenever finite. More generally \(E_n\ge E_0\), so
+      the extended mean always exists; the expression can be \(+\infty\) under the
+      printed hypotheses (for example the strictly increasing sequence \(E_n=2^n\)).
+      No bound on the growth of \(E_n\) is given. The spectral argument does not assume
+      \(\Psi\) belongs to the operator domain of an unbounded \(H\).
+
+      '
+    main_comparison: Energy-dependent phases leave the geometric probabilities 2^(−n−1)
+      unchanged. The mean requires summability of the weighted energies, and their
+      ordering alone does not imply it. The given state is normalized in Hilbert space
+      regardless.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P3.pdf
+      source_sha256: 1f4345aeea0bc1c4751be6b8d3b7b728aa20a11c29728d4f261184a742d01c2c
+      source_page: 3
+      compiled_pdf: build/IB-2009-P3/main.pdf
+      compiled_sha256: 244368ba7c51b97cfebac8e6759866f29defbe4e82cc0804af4ec91f35de86c2
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2009/P3/q7B/index.html
+      html_sha256: a1f291c0d86bdba00d5c35f7cbaee1db6d36924b0f7c2a40e569144ae5bdfa11
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: dba2805a37069f8be14fb6d8a8de70aa9c9f29d57bd490f822f86d1ce359a242
+      solution_sha256: 90ea9c1f769a3fa061f3e24c91fbc72086105fd4b9e6632bbb5ca83425309713
+      check_sha256: 6764ac477e7a9bd2e36336183e4c908dca9cccecace3e3e7020dedd73be1fd2b
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q7B.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P3/q7B · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2009/P3/q8H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2009/P3.pdf
+      original_pdf_sha256: 1f4345aeea0bc1c4751be6b8d3b7b728aa20a11c29728d4f261184a742d01c2c
+      source_page: 4
+      question_packet_sha256: 9d3dcf6cecdcde2bbd9df4b87c20ad4f12d3a6669cddd4f12e6adf40659e5e0b
+      blind_rework_sha256: 8796a3939f455772aa7af85311f740ee413b3b8c5b781cc0ea3f6c463ba8cc95
+      transcription_discrepancies: []
+      source_finding: The four row labels, both column headings and eight counts match
+        the printed table. The two chi-square references have three and four degrees
+        of freedom respectively, with the printed cutoffs preserved. No individual
+        mark allocation is printed.
+      printed_label: 8H
+      figure_sha256:
+        figures/third-child-counts.png: c5806cf51cac8382e391206b7ddaae90c3846f9f1d52b80fd4f8f18e307df20e
+    independent_rework: '# Independence test with fixed row totals
+
+
+      Rows \(GG,GB,BG,BB\) each contain 50 families. Their boy counts are \(16,28,25,31\),
+      giving a column total of 100, and the girl counts are \(34,22,25,19\), also
+      totaling 100. Under the null of a common third-child boy probability \(p\) across
+      the four row groups, the pooled estimate is \(100/200=1/2\). Each row therefore
+      has fitted counts \(25,25\).
+
+
+      With independent sampled families the Pearson statistic for the \(4\times2\)
+      table is
+
+      \[
+
+      X^2=2(9^2+3^2+0^2+6^2)/25=10.08 .
+
+      \]
+
+      There are four unrestricted proportions and one fitted common proportion, giving
+      \(4-1=3\) asymptotic degrees of freedom. The value 10.08 exceeds 7.8147. Reject
+      the independence hypothesis at the 5% level for the population represented by
+      this sampling design.
+
+      '
+    main_comparison: Conditioning on four fixed row totals gives expected counts of
+      25 in every cell. The homogeneity test gives 10.08 on three degrees of freedom
+      and rejects at five percent.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2009/P3.pdf
+      source_sha256: 1f4345aeea0bc1c4751be6b8d3b7b728aa20a11c29728d4f261184a742d01c2c
+      source_page: 4
+      compiled_pdf: build/IB-2009-P3/main.pdf
+      compiled_sha256: 244368ba7c51b97cfebac8e6759866f29defbe4e82cc0804af4ec91f35de86c2
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2009/P3/q8H/index.html
+      html_sha256: 580006dda26c0723122ec9d0df07cde78a422e8b18f4873e71a48bb0953048bf
+      math_nodes: 19
+      diagrams:
+        site/private/figures/tripos/IB/2009/P3/q8H/third-child-counts.png: c5806cf51cac8382e391206b7ddaae90c3846f9f1d52b80fd4f8f18e307df20e
+      question_sha256: 9d3dcf6cecdcde2bbd9df4b87c20ad4f12d3a6669cddd4f12e6adf40659e5e0b
+      solution_sha256: c972bc5579c0e5b3410ac339462e7798eb2cc24580fc77a1535d71cde83d9a2b
+      check_sha256: 3fdab65f8f8d1d3331e52a027b13af08edddea6d7640ccf62f61236efebcba2c
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q8H.
+      check_stderr: ''
+    browser:
+      title: IB/2009/P3/q8H · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 795
+        height: 226
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
