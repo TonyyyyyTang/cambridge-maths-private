@@ -1,0 +1,992 @@
+scope: 2007 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20270104
+  strata:
+    IB/analysis-ii:
+    - IB/2007/P1/q11H
+    - IB/2007/P2/q13H
+    - IB/2007/P2/q3H
+    - IB/2007/P3/q13H
+    - IB/2007/P3/q3H
+    - IB/2007/P4/q13H
+    - IB/2007/P4/q3H
+    IB/complex-methods:
+    - IB/2007/P1/q13F
+    - IB/2007/P1/q3F
+    - IB/2007/P2/q14F
+    - IB/2007/P3/q5F
+    - IB/2007/P4/q15F
+    IB/electromagnetism:
+    - IB/2007/P1/q16E
+    - IB/2007/P2/q17E
+    - IB/2007/P2/q6E
+    - IB/2007/P3/q17E
+    - IB/2007/P4/q7E
+    IB/fluid-dynamics:
+    - IB/2007/P1/q17D
+    - IB/2007/P1/q5D
+    - IB/2007/P2/q8D
+    - IB/2007/P3/q18D
+    - IB/2007/P4/q18D
+    IB/linear-algebra:
+    - IB/2007/P1/q1G
+    - IB/2007/P1/q9G
+    - IB/2007/P2/q10G
+    - IB/2007/P2/q1G
+    - IB/2007/P3/q10G
+    - IB/2007/P4/q10G
+    - IB/2007/P4/q1G
+    IB/markov-chains:
+    - IB/2007/P1/q19C
+    - IB/2007/P2/q20C
+    - IB/2007/P3/q9C
+    - IB/2007/P4/q9C
+    IB/methods:
+    - IB/2007/P1/q14D
+    - IB/2007/P2/q15D
+    - IB/2007/P2/q5D
+    - IB/2007/P3/q15E
+    - IB/2007/P3/q6E
+    - IB/2007/P4/q16E
+    - IB/2007/P4/q5B
+    IB/numerical-analysis:
+    - IB/2007/P1/q6F
+    - IB/2007/P2/q18F
+    - IB/2007/P3/q19F
+    - IB/2007/P4/q8F
+    IB/quantum-mechanics:
+    - IB/2007/P1/q15B
+    - IB/2007/P2/q16B
+    - IB/2007/P3/q16B
+    - IB/2007/P3/q7B
+    - IB/2007/P4/q6B
+    IB/statistics:
+    - IB/2007/P1/q18C
+    - IB/2007/P1/q7C
+    - IB/2007/P2/q19C
+    - IB/2007/P3/q8C
+    - IB/2007/P4/q19C
+  selection:
+    IB/analysis-ii:
+    - IB/2007/P4/q13H
+    - IB/2007/P1/q11H
+    IB/complex-methods:
+    - IB/2007/P4/q15F
+    IB/electromagnetism:
+    - IB/2007/P3/q17E
+    IB/fluid-dynamics:
+    - IB/2007/P1/q5D
+    IB/linear-algebra:
+    - IB/2007/P4/q1G
+    - IB/2007/P2/q10G
+    IB/markov-chains:
+    - IB/2007/P1/q19C
+    IB/methods:
+    - IB/2007/P3/q6E
+    - IB/2007/P4/q16E
+    IB/numerical-analysis:
+    - IB/2007/P4/q8F
+    IB/quantum-mechanics:
+    - IB/2007/P3/q7B
+    IB/statistics:
+    - IB/2007/P3/q8C
+observed:
+  population: 54
+  sampled: 13
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 12
+  pdf_pages: 13
+  browser_views: 13
+  rendered_formulas: 312
+independent_manifest_sha256: e26879922263a54a9d0375014dfaeb8421c9b190f5e84e8b9f9b2b6fc6054373
+auditor_report: '# IB 2007 independent audit rework
+
+
+  I compared 13 of 13 supplied question statements visually against the original archived
+  examination page images, including the figures for P3/8C. The printed bodies, subparts,
+  formulas and table entries agree in all 13 cases. Observed transcription discrepancy
+  rate in this sample is 0/13. Each source record binds the original PDF, supplied
+  question.tex and independent derivation by SHA-256. The table crops have individual
+  hashes as well.
+
+
+  I independently worked every question before any comparison with retained solutions.
+  A solution error rate requires the subsequent comparison. No official mark scheme
+  was supplied.
+
+
+  ## Hypotheses and interpretation
+
+
+  - P1/5D asks for boundedness of the family of streamlines. For equal parameters
+  the entire diagonal consists of stationary points, each of which forms a point trajectory.
+
+  - P1/19C requires a positive probability of conditioning. The row at the inaccessible
+  state r is undetermined under the conditional law. The finite conditional mean follows
+  from a geometric tail bound before conditioning.
+
+  - P2/10G uses linearity in the first slot. P4/1G uses the algebraic dual over the
+  complex numbers.
+
+  - P3/17E uses the usual long-cylinder approximation and uniform gap permittivity.
+  P3/6E uses regularity of the constraint; the ellipsoid has no singular points. P3/7B
+  uses positive mass, frequency and finite second moments.
+
+  - P3/8C specifies no test size or pooling rule. The full-table Pearson statistic
+  is 104/27 and the exact conditional upper-tail probability is 0.158589. Pooling
+  two and three defects gives a distinct test with an approximate p-value of 0.069
+  and changes the 10% decision. Both tests retain the null at 5%. An expected count
+  of four motivates stating the calibration.
+
+  - P4/13H requires a nonempty complete metric space and a uniform contraction constant
+  strictly below one. P4/15F uses integer n≥0 and the usual half-planes of Laplace
+  convergence.
+
+  - P4/16E uses positive endpoint radius and a global length argument for minimality;
+  a stationary road alone would not establish a minimum. P4/8F checks the kernel sign
+  and exhibits equality to prove optimality.
+
+  '
+main_resolution: The two goodness-of-fit tests use different multinomial cells and
+  fitted parameters. Direct integer enumeration over all 3169 possible tables conditional
+  on 192 defective bulbs gives a full-table upper-tail probability 0.158589, while
+  the grouped test gives 0.069 asymptotically. Both fail to reject at 5%. For the
+  conditioned absorbing walk the unreachable boundary row is immaterial. The change
+  to reciprocal polar radius proves the road globally minimizes travel time.
+questions:
+  IB/2007/P4/q13H:
+    source_review:
+      printed_label: 13H
+      source_page: 6
+      original_pdf: private/raw/tripos/IB/2007/P4.pdf
+      original_pdf_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      question_packet_sha256: 8b3a4cb2d6ae8816f22331089374db3d5ce3c84ae3baaacb327f9ad692d7975d
+      blind_rework_sha256: 2f1d00a11690d0bef989919aa81d3674fe05c87ce1199d22c2f449da4b10d5c0
+      transcription_discrepancies: []
+      source_finding: Confirmed both theorem requests, the signs of the interval endpoints,
+        the integration limits, integrand 3t f(t), sup norm and initial condition.
+    independent_rework: '# Independent rework · IB/2007/P4/q13H
+
+
+      On any nonempty complete metric space (X,d), a self-map T with d(Tx,Ty)≤q d(x,y)
+      for a fixed 0≤q<1 has exactly one fixed point. For any x₀, define xₙ₊₁=Txₙ.
+      Induction gives d(xₙ,xₙ₊₁)≤qⁿd(x₀,x₁); summing yields d(xₙ,xₘ)≤qⁿd(x₀,x₁)/(1−q)
+      for m>n. Thus the iterates are Cauchy and converge to z∈X. Lipschitz continuity
+      gives Tz=z. Two fixed points z,w must satisfy (1−q)d(z,w)≤0, so they coincide.
+
+
+      Choose [a,b]=[−1/2,1/2]. The sup-norm space of continuous functions there is
+      complete by the uniform limit theorem and completeness of the scalars. The integral
+      maps it into continuously differentiable functions. For either sign of x, the
+      absolute integral difference is bounded by 3‖f−g‖∞ times the integral of |t|
+      over the interval with endpoints 0 and x. Thus ‖Tf−Tg‖∞≤(3/8)‖f−g‖∞. The unique
+      fixed point has y(0)=1 and y′(x)=3xy(x) by the fundamental theorem of calculus.
+      Conversely every solution on this interval satisfies the integral equation by
+      integration. This proves existence and uniqueness there; direct substitution
+      gives y=exp(3x²/2).
+
+      '
+    main_comparison: The contraction iteration has a geometric tail; completeness
+      gives existence and contraction gives uniqueness. Both orientations of the integral
+      give the factor 3x²/2, at most 3/8 on [−1/2,1/2]. Integration and differentiation
+      identify the fixed point with the initial-value solution.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P4.pdf
+      source_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      source_page: 6
+      compiled_pdf: build/IB-2007-P4/main.pdf
+      compiled_sha256: f6c062331bb70cbd0c3b60c7520c19d3a06289215748b89ff9e196928df135b4
+      compiled_pages:
+      - 13
+      html: site/private/questions/IB/2007/P4/q13H/index.html
+      html_sha256: 682ad7e68d41eb96ca0aa5ff69c7e2c87f62740cc7b2022335352a23bf382285
+      math_nodes: 24
+      diagrams: {}
+      question_sha256: 8b3a4cb2d6ae8816f22331089374db3d5ce3c84ae3baaacb327f9ad692d7975d
+      solution_sha256: 83011fb67527f66aebe40ac2b50130776d45595a64f814cfec0a46d8221a5b83
+      check_sha256: c3ff65d7f7a6e7066c39ed215b805a10f38eb00b805bb719b94e393ed8fe8d90
+      check_exit: 0
+      check_stdout: Passed the P4/q13H mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P4/q13H · Cambridge Maths
+      math: 24
+      rendered: 24
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P1/q11H:
+    source_review:
+      printed_label: 11H
+      source_page: 4
+      original_pdf: private/raw/tripos/IB/2007/P1.pdf
+      original_pdf_sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+      question_packet_sha256: 04df24f50936b2c9edc3cc61dc9d1e330c3cb314f87014e7641cfc6b04d132dc
+      blind_rework_sha256: 9a12e594273da5649785c4968c34c455cae24fe8d2ea2139c09ca1a3f9d77861
+      transcription_discrepancies: []
+      source_finding: Matched derivative notation, domain and codomain dimensions,
+        the two chain rule requests and the qualifier on the partial derivatives.
+    independent_rework: '# Independent rework · IB/2007/P1/q11H
+
+
+      The derivative at p is a linear map A such that f(p+h)=f(p)+Ah+R(h), where R(0)=0
+      and ‖R(h)‖/‖h‖→0 as h→0 through nonzero vectors. Such a map is unique by testing
+      two proposed maps along h=tv for each v.
+
+
+      If f is differentiable at p and g at q=f(p), then g∘f is differentiable at p
+      with derivative BA, where B=Dg(q). In fact, set k=Ah+R(h). Then k→0 and ‖k‖≤(‖A‖+1)‖h‖
+      for small h. Write g(q+k)−g(q)=Bk+S(k). Given ε>0, for small h, ‖S(k)‖≤ε‖k‖
+      (including k=0). Subtract BAh from the increment of the composite. The error
+      BR(h)+S(k) is o(‖h‖) by the bound on k and continuity of B.
+
+
+      For x≠0, differentiation of the square root at the strictly positive value ∑xⱼ²
+      gives ∂ᵢ‖x‖=xᵢ/‖x‖. At the origin the quotient |t|/t has different one-sided
+      limits for every coordinate.
+
+      '
+    main_comparison: The increment of the inner map is O(‖h‖), so both remainders
+      in the composition are o(‖h‖), including a zero inner increment. The Euclidean
+      norm has partials xᵢ/‖x‖ away from zero and fails each two-sided coordinate
+      test at zero.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P1.pdf
+      source_sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+      source_page: 4
+      compiled_pdf: build/IB-2007-P1/main.pdf
+      compiled_sha256: 126cf967c8e7e1620d2df8fdb7f102c2847bb05a3ca2ef50a7008141a5a3947f
+      compiled_pages:
+      - 11
+      html: site/private/questions/IB/2007/P1/q11H/index.html
+      html_sha256: d4513ad14c6544bb931438eca0771d3e7aa45b7c891f193d872185d475f464bf
+      math_nodes: 30
+      diagrams: {}
+      question_sha256: 04df24f50936b2c9edc3cc61dc9d1e330c3cb314f87014e7641cfc6b04d132dc
+      solution_sha256: a8b485bb69e2d23e744157af468ec92eefed68a4c770b97893044c95a0bba326
+      check_sha256: 44d265598b8e28303a4c5e5f6cd482f9342e3cafdde1d983f1f7a1d9d52c6707
+      check_exit: 0
+      check_stdout: Passed the P1/q11H mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P1/q11H · Cambridge Maths
+      math: 30
+      rendered: 30
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P4/q15F:
+    source_review:
+      printed_label: 15F
+      source_page: 7
+      original_pdf: private/raw/tripos/IB/2007/P4.pdf
+      original_pdf_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      question_packet_sha256: 49862c3c84bbac425f874194a08a4098cb3778d757e557aa2d3b997d57b14e1d
+      blind_rework_sha256: 532aed3b602df4dc4ce253d7440bf20ad6b2941c08e21123a1b84c5e546655b2
+      transcription_discrepancies: []
+      source_finding: Matched all four subparts, poles, powers, ODE derivative orders
+        and initial conditions, including the third derivative equal to 1.
+    independent_rework: '# Independent rework · IB/2007/P4/q15F
+
+
+      (i) Assume n is a nonnegative integer. For Re s>0 the integral I₀=1/s; integration
+      by parts for n≥1 gives Iₙ=nIₙ₋₁/s since the endpoint terms vanish. Induction
+      gives n!/sⁿ⁺¹. Replacing s by s−a in the integral gives n!/(s−a)ⁿ⁺¹ when Re(s−a)>0.
+
+
+      (ii) For t≥0 start with (2πi)⁻¹ times the upward integral on Re s=γ>0 of eˢᵗ/[s²(s+1)²].
+      Close counterclockwise by the left semicircle about γ, radius R. There |eˢᵗ|≤eᵞᵗ
+      and the denominator has magnitude bounded below by a constant times R⁴ as R→∞,
+      so the closing integral is O(R⁻³). At the double pole 0 the residue is the derivative
+      of eˢᵗ/(s+1)² at 0, namely t−2. At −1 it is the derivative of eˢᵗ/s² at −1,
+      namely e⁻ᵗ(t+2). The inverse is f(t)=t−2+(t+2)e⁻ᵗ, continuous with f(0)=0.
+
+
+      (iii) Split F=(1/s²)/(s+1)². The time-domain factors are t and t e⁻ᵗ. Their
+      convolution is ∫₀ᵗ (t−u)u e⁻ᵘ du. Integration by parts gives ∫₀ᵗ u e⁻ᵘ du=1−(t+1)e⁻ᵗ
+      and ∫₀ᵗu² e⁻ᵘ du=2−(t²+2t+2)e⁻ᵗ. Combining produces the same expression.
+
+
+      (iv) Write G for the transform of the ODE solution. The given initial values
+      give (s⁴G−1)+2s³G+s²G=0. Thus G=F and inversion yields f(t) above. As a direct
+      check f′=1−(t+1)e⁻ᵗ, f″=te⁻ᵗ, f‴=(1−t)e⁻ᵗ and f⁽⁴⁾=(t−2)e⁻ᵗ, satisfying the
+      equation and the four initial values.
+
+      '
+    main_comparison: The two double-pole residues are t−2 and (t+2)exp(−t). The convolution
+      and transformed fourth-order initial-value problem give the same inverse, including
+      its initial derivatives.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P4.pdf
+      source_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      source_page: 7
+      compiled_pdf: build/IB-2007-P4/main.pdf
+      compiled_sha256: f6c062331bb70cbd0c3b60c7520c19d3a06289215748b89ff9e196928df135b4
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2007/P4/q15F/index.html
+      html_sha256: 540dbaa2f1437f7722e4685998c433f3c6f72509221b2443544d83b8e4a3addb
+      math_nodes: 33
+      diagrams: {}
+      question_sha256: 49862c3c84bbac425f874194a08a4098cb3778d757e557aa2d3b997d57b14e1d
+      solution_sha256: 4cef00876307a777e261754debb1411dad9b89fbdc098dad19977f9d156f32fc
+      check_sha256: 0d405445048e145ebeb5c744c2d0731336e4819737449c1456ae9a89fdb67dc2
+      check_exit: 0
+      check_stdout: Passed the P4/q15F mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P4/q15F · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P3/q17E:
+    source_review:
+      printed_label: 17E
+      source_page: 7
+      original_pdf: private/raw/tripos/IB/2007/P3.pdf
+      original_pdf_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      question_packet_sha256: 16bd153f89b8970879a8829aa10477d13a35c78c93272be5c4a004247cda5968
+      blind_rework_sha256: a145e31d34384fa2b31e63f24225e0d52b1fefad6d93e40a9e910676e24f4d54
+      transcription_discrepancies: []
+      source_finding: Matched the three radii, the restriction on λ, the grounded
+        conductors, the middle voltage, small-gap limit and extremum request.
+    independent_rework: '# Independent rework · IB/2007/P3/q17E
+
+
+      In the long-cylinder approximation neglect end effects and take the intervening
+      material to have uniform permittivity ε (ε₀ in vacuum). Cylindrical symmetry
+      and the charge-free field equation give (rφ′)′=0. Matching the endpoint potentials
+      determines φ(r)=V log(r/a)/log λ for a≤r≤λa and φ(r)=V log(2a/r)/log(2/λ) for
+      λa≤r≤2a.
+
+
+      The outward normals from the middle conductor on its inner and outer faces are
+      −eᵣ and +eᵣ. The surface charges are ε times the outward field, so multiplying
+      −φ′ by the signed normal and circumference 2πλa gives a total charge per length
+      2πεV[1/log λ+1/log(2/λ)]. Hence C is that coefficient of V. With λ=1+δ, log
+      λ∼δ, while log(2/λ)→log 2. Thus C∼2πε/δ: the thin inner gap has the parallel-plate
+      capacitance per unit length ε(2πa)/(aδ) to leading order.
+
+
+      Put u=log λ, L=log 2. Then C=2πε L/[u(L−u)], with 0<u<L. The denominator has
+      its unique maximum L²/4 at u=L/2. This gives the unique global minimum 8πε/log
+      2 at λ=√2. C diverges at both ends.
+
+      '
+    main_comparison: The two radial logarithmic potentials give the sum of the two
+      coaxial capacitances. The narrow gap contributes 2πε₀/δ to leading order. The
+      product of the complementary log gaps is largest at λ=√2, where capacitance
+      has its unique minimum.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P3.pdf
+      source_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      source_page: 7
+      compiled_pdf: build/IB-2007-P3/main.pdf
+      compiled_sha256: 6e27f04ec01b18e84c5295fff2a4b5e6f3f3702ce6a455c3521a8535c3e118d9
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2007/P3/q17E/index.html
+      html_sha256: 192090547a0ace26ea1784afdf183eda69885e0d130911c65f5defaad60e9840
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: 16bd153f89b8970879a8829aa10477d13a35c78c93272be5c4a004247cda5968
+      solution_sha256: a69210d72b8d0abf8159dd64bf3bf3f109769bc828e5e7751ea543770317e0d9
+      check_sha256: cfaaff706d8c6aeeca962e9bba8300d6985563d2f383df1f21998e4b99b0ccf2
+      check_exit: 0
+      check_stdout: Passed the P3/q17E mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P3/q17E · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P1/q5D:
+    source_review:
+      printed_label: 5D
+      source_page: 3
+      original_pdf: private/raw/tripos/IB/2007/P1.pdf
+      original_pdf_sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+      question_packet_sha256: 440275d8aafc4781001bd709c876de5e022b487e7ac4d10e2ccd156d28f4c10e
+      blind_rework_sha256: daf5e9621445f90ff7c4b8af0fb2b2f13907b00d2cbd7acf0ddf83fcef721c2f
+      transcription_discrepancies: []
+      source_finding: Matched velocity components and signs, strict positivity of
+        both constants and all four subparts including the equality case.
+    independent_rework: '# Independent rework · IB/2007/P1/q5D
+
+
+      The out-of-plane component of curl is ∂ₓuᵧ−∂ᵧuₓ=2β, and the other components
+      are zero. The divergence is α−α=0. With the convention u=(ψᵧ,−ψₓ), integrate
+      the first component in y, then match the second component, to obtain ψ=αxy−β(x²+y²)/2
+      up to a constant. Along every trajectory dψ/dt=0.
+
+
+      In coordinates s=(x+y)/√2, d=(x−y)/√2, one has 2ψ=(α−β)s²−(α+β)d². For α<β all
+      nonzero trajectories lie on bounded ellipses and the origin is stationary. For
+      α>β nonzero levels are hyperbolas. To see actual unbounded trajectories, the
+      linear velocity matrix squares to (α²−β²)I and has real eigenvalues ±√(α²−β²).
+      A nonzero trajectory grows without bound in at least one time direction by its
+      expansion in these eigenvectors. For α=β, x−y=c stays constant, and the velocity
+      is αc(1,1). For c≠0 each entire line x−y=c is a streamline. All points of x=y
+      are individually stationary. Thus boundedness of all streamlines is equivalent
+      to α<β; an individual stationary streamline can exist outside that range.
+
+      '
+    main_comparison: Rotating the coordinates diagonalizes the stream-function quadratic.
+      For α<β the streamlines are bounded ellipses or the stationary origin. At equality
+      each point of the diagonal is stationary and every other streamline is an unbounded
+      straight line.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P1.pdf
+      source_sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+      source_page: 3
+      compiled_pdf: build/IB-2007-P1/main.pdf
+      compiled_sha256: 126cf967c8e7e1620d2df8fdb7f102c2847bb05a3ca2ef50a7008141a5a3947f
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2007/P1/q5D/index.html
+      html_sha256: 11f31e0d0d813db71b0b11bfc1394c8eb0e29c32ed75a2e5737768acad036ef7
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: 440275d8aafc4781001bd709c876de5e022b487e7ac4d10e2ccd156d28f4c10e
+      solution_sha256: 00e3fe3503e0ad2adb129ba1ddaceb27d4da6cfc100b40b81e488c4ea71623ba
+      check_sha256: cdd70be7b7db4692688d7a7ffc82ca1dfbe949c8c360370d2124d66d0ceaa57e
+      check_exit: 0
+      check_stdout: Passed the P1/q5D mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P1/q5D · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P4/q1G:
+    source_review:
+      printed_label: 1G
+      source_page: 2
+      original_pdf: private/raw/tripos/IB/2007/P4.pdf
+      original_pdf_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      question_packet_sha256: bebe3013779f69867d5574bc1b4d43d84f7137d03c97081cc2ea448add033913
+      blind_rework_sha256: 6b58dae6b8da0b7a2565dd10ea62df62b85c6bee3c959724bde65f1d820012bf
+      transcription_discrepancies: []
+      source_finding: Matched finite-dimensional complex spaces, dual map notation,
+        choice of corresponding dual bases and justification request.
+    independent_rework: '# Independent rework · IB/2007/P4/q1G
+
+
+      Write W* and V* for the complex-linear functionals on W and V. The dual map
+      α*:W*→V* is composition on the right with α: (α*ℓ)(v)=ℓ(αv). It is linear in
+      ℓ, and ℓ∘α is linear in v. Let αvⱼ=∑ᵢAᵢⱼwᵢ. If vʲ,wⁱ are the respective dual
+      bases, then (α*wⁱ)(vⱼ)=wⁱ(αvⱼ)=Aᵢⱼ. Thus α*wⁱ=∑ⱼAᵢⱼvʲ, so its matrix has entry
+      Aᵢⱼ in row j, column i. This is the ordinary transpose Aᵀ. No Hermitian inner
+      product or conjugation enters the construction.
+
+      '
+    main_comparison: Evaluating the dual covectors on the original basis gives the
+      ordinary transpose for the algebraic dual over the complex numbers. Both constructions
+      reverse the direction of the map.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P4.pdf
+      source_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      source_page: 2
+      compiled_pdf: build/IB-2007-P4/main.pdf
+      compiled_sha256: f6c062331bb70cbd0c3b60c7520c19d3a06289215748b89ff9e196928df135b4
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2007/P4/q1G/index.html
+      html_sha256: dab2635e4969991335adf5312b98f1ad6704418a8b5e2ddd20b3edac8116c021
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: bebe3013779f69867d5574bc1b4d43d84f7137d03c97081cc2ea448add033913
+      solution_sha256: 59c547977ebdaf6793c1aebb6970c2f9e8f55269bbe1bd6496d69be7a44c5ba0
+      check_sha256: eade1b647121d5d6c9d2133ecb45892f7ec6b6fcba8c328dc5b22268398f2a45
+      check_exit: 0
+      check_stdout: Passed the P4/q1G mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P4/q1G · Cambridge Maths
+      math: 16
+      rendered: 16
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P2/q10G:
+    source_review:
+      printed_label: 10G
+      source_page: 5
+      original_pdf: private/raw/tripos/IB/2007/P2.pdf
+      original_pdf_sha256: e4eaa72d9891dc94e32fe2887ee1fe2cc40e108b4b1c19120620a8e3be5ccf4f
+      question_packet_sha256: 2c5a35acd6e7f44163ff658dcbed1d31967e6a13d50b84cdd162f4a32dc0a33d
+      blind_rework_sha256: 0660d68dc487322bb59c177d2d88a53082510b57adad2a1aee879d5ae0c70fca
+      transcription_discrepancies: []
+      source_finding: Confirmed normalized angular integral, bar on the second polynomial,
+        both factors evaluated on the unit circle and all three tasks.
+    independent_rework: '# Independent rework · IB/2007/P2/q10G
+
+
+      Write f=∑aₙzⁿ, g=∑bₙzⁿ with finitely supported coefficient sequences. The normalized
+      integral of exp(i(n−m)θ) is 1 when m=n and zero otherwise by direct integration
+      over the period. Expanding the integrand therefore gives ⟨f,g⟩=∑aₙ conjugate(bₙ).
+      This expression is linear in the first argument, conjugate-linear in the second
+      and conjugate-symmetric. Its value at (f,f) is a sum of squares, strictly positive
+      for a nonzero polynomial. The powers zⁿ for n≥0 span uniquely by definition
+      of a polynomial and are orthonormal by the same integral. This is an algebraic
+      basis, with finite expansions.
+
+
+      In d variables evaluate both polynomials at (exp(iθ₁),…,exp(iθ_d)) and integrate
+      their product with the second factor conjugated over [0,2π]^d with measure dθ₁⋯dθ_d/(2π)^d.
+      For monomials with multi-indices α,β in the nonnegative integer lattice the
+      integral factors into the product of Kronecker deltas δ_{αⱼβⱼ}. Consequently
+      the monomials give an orthonormal basis, and the coefficient-sum formula proves
+      positive definiteness and the Hermitian properties in any finite number of variables.
+
+      '
+    main_comparison: The first argument is linear. Integrating the monomials on the
+      unit circle gives the Kronecker delta and the squared coefficient norm. Product
+      measure on the torus makes the multivariable integrals factor, giving the monomial
+      basis.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P2.pdf
+      source_sha256: e4eaa72d9891dc94e32fe2887ee1fe2cc40e108b4b1c19120620a8e3be5ccf4f
+      source_page: 5
+      compiled_pdf: build/IB-2007-P2/main.pdf
+      compiled_sha256: d990a890588c2295213823e754e7bea56f054e09d782e653c5ae12fdd10e0ce7
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2007/P2/q10G/index.html
+      html_sha256: 18c4b9bec45c8b2e5d1e5e633a3a97a73042ef3168d090468930e891fe057125
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: 2c5a35acd6e7f44163ff658dcbed1d31967e6a13d50b84cdd162f4a32dc0a33d
+      solution_sha256: 164060eed49591f6b2fc06481ce136e7e159a9315fe4f1745d3b010d79a5dc9c
+      check_sha256: 83d50704fc25c51aecbb6bee5443ac64d2baf255d4320f1cf6f0857b6d134471
+      check_exit: 0
+      check_stdout: Passed the P2/q10G mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P2/q10G · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P1/q19C:
+    source_review:
+      printed_label: 19C
+      source_page: 8
+      original_pdf: private/raw/tripos/IB/2007/P1.pdf
+      original_pdf_sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+      question_packet_sha256: 548721b74da8d2405ad8be2d830b3adbeaa00072b680ccf7269932f8875dea11
+      blind_rework_sha256: 0f952c20f91e4a70a2fa51b77d28dc08ed6c2d1dfee3e3e2af0e057a24cdc268
+      transcription_discrepancies: []
+      source_finding: Confirmed absorbing endpoints, positivity only for interior
+        h, initial-state restrictions and the symmetric probability 1/2 in both directions.
+    independent_rework: '# Independent rework · IB/2007/P1/q19C
+
+
+      Set h₀=1 and hᵣ=0. Absorption at 0 means that, even after a history ending at
+      0, the event A is exactly equivalent to visiting 0 at or after the current time.
+      The same equivalence holds for every history since a visit before the current
+      time forces its endpoint to be 0. For a positive-probability history ending
+      in i, the Markov property therefore gives conditional probabilities hᵢ for A
+      and Pᵢⱼ hⱼ for {Xₙ₊₁=j}∩A. Conditioning on A (assuming its probability is positive)
+      divides the latter by the former whenever the history has positive conditional
+      probability. This depends only on i, and each row sums to one by the first-step
+      formula hᵢ=∑Pᵢⱼ hⱼ. State 0 remains absorbing. State r is impossible after conditioning,
+      and can be deleted or given any stochastic row. An original initial law π becomes
+      πᵢhᵢ/∑πₖhₖ.
+
+
+      For the symmetric nearest-neighbour walk let τ denote first absorption at either
+      endpoint. It has finite mean since each block of r steps has conditional probability
+      at least 2⁻ʳ of absorption if the walk is still in the interior. Harmonicity
+      with endpoint values 1 and 0 gives hᵢ=(r−i)/r. Define vᵢ=Eᵢ[τ 1_A]; its boundary
+      values are zero. First-step decomposition adds the contribution hᵢ from the
+      first transition and the average of the two neighbouring v values. Thus vᵢ₊₁−2vᵢ+vᵢ₋₁=−2hᵢ.
+      Set j=r−i. Since the centred second difference of j³ is 6j, vᵢ=(r²j−j³)/(3r)
+      satisfies the recurrence and both boundary conditions. Any difference between
+      solutions is affine and vanishes at both ends. Divide by hᵢ to obtain the conditional
+      mean (r²−(r−i)²)/3=i(2r−i)/3. On A the time τ is precisely first arrival at
+      0.
+
+      '
+    main_comparison: Conditioning a positive-probability history gives Pᵢⱼhⱼ/hᵢ on
+      the reachable states, including absorption at zero. State r has conditioned
+      probability zero. The numerator of the conditional mean solves the same inhomogeneous
+      second-difference equation in both derivations, giving i(2r−i)/3.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P1.pdf
+      source_sha256: b8604b4f967113e2de8e0358071ca12d66345867a8432cb8e10a0aeeab22fd50
+      source_page: 8
+      compiled_pdf: build/IB-2007-P1/main.pdf
+      compiled_sha256: 126cf967c8e7e1620d2df8fdb7f102c2847bb05a3ca2ef50a7008141a5a3947f
+      compiled_pages:
+      - 19
+      html: site/private/questions/IB/2007/P1/q19C/index.html
+      html_sha256: 6f69839981b414274847230b7a399966f85a0c53c9442194c6c7e3cb4f66f851
+      math_nodes: 38
+      diagrams: {}
+      question_sha256: 548721b74da8d2405ad8be2d830b3adbeaa00072b680ccf7269932f8875dea11
+      solution_sha256: 907132729b460ff2c2ae386b0c7385545afee0e045efdb928c78ca66aed9ad69
+      check_sha256: 1e0c56f0aae7b90790f08213cacf8dd05d2f31739836db5b8fcb41ca377ff02f
+      check_exit: 0
+      check_stdout: Passed the P1/q19C mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P1/q19C · Cambridge Maths
+      math: 38
+      rendered: 38
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P3/q6E:
+    source_review:
+      printed_label: 6E
+      source_page: 3
+      original_pdf: private/raw/tripos/IB/2007/P3.pdf
+      original_pdf_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      question_packet_sha256: 999dc197efab5fb970c169e1331f4062fc899b8939c79d7b8996efd71f7ef35b
+      blind_rework_sha256: bea6ca98db1b27c71eeb24d44682ea8b105999363164be16bee13ad4b687672b
+      transcription_discrepancies: []
+      source_finding: Matched the general level constraint and ellipsoid equation
+        with three strictly positive semiaxes.
+    independent_rework: '# Independent rework · IB/2007/P3/q6E
+
+
+      For differentiable f and a smooth constraint g=c with nonzero gradient, the
+      gradient of f at a constrained interior extremum annihilates every tangent direction.
+      The tangent plane is perpendicular to ∇g, so ∇f=λ∇g. Solve these equations together
+      with the constraint and compare candidates, checking singular and boundary points
+      separately when present.
+
+
+      Here the ellipsoid is compact, smooth and without boundary since a,b,c>0, so
+      both extrema exist. The equations are y=2λx/a², x=2λy/b², 0=2λz/c². If λ=0,
+      then x=y=0 and z=±c. Otherwise z=0 and x,y are nonzero by the constraint. Substitution
+      gives 4λ²=a²b² and y=±bx/a with the sign of λ. Thus x=±a/√2, |y|=b/√2. Equal
+      coordinate signs give the maximum ab/2 and opposite signs the minimum −ab/2.
+      The poles give zero. The bound 2|xy|/(ab)≤x²/a²+y²/b²≤1 independently verifies
+      both global extrema.
+
+      '
+    main_comparison: The ellipsoid is compact and has regular constraint gradient.
+      Zero multiplier yields value zero at its poles. The remaining candidates have
+      z=0 and signed products ±ab/2, and comparison gives both global extrema.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P3.pdf
+      source_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      source_page: 3
+      compiled_pdf: build/IB-2007-P3/main.pdf
+      compiled_sha256: 6e27f04ec01b18e84c5295fff2a4b5e6f3f3702ce6a455c3521a8535c3e118d9
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2007/P3/q6E/index.html
+      html_sha256: e79a4aedd65aa254f80420e85b8eb28f08893b7a9621bdc62bab7194233f34f3
+      math_nodes: 21
+      diagrams: {}
+      question_sha256: 999dc197efab5fb970c169e1331f4062fc899b8939c79d7b8996efd71f7ef35b
+      solution_sha256: e0cfc38cde11a3774526d19a59f6f6142cad532d4b94a0b8b7825e2515f92e3c
+      check_sha256: f79251691eec2a68136f554ec24fa04a56f13c492a965b117e4b547f8ee8281d
+      check_exit: 0
+      check_stdout: Passed the P3/q6E mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P3/q6E · Cambridge Maths
+      math: 21
+      rendered: 21
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P4/q16E:
+    source_review:
+      printed_label: 16E
+      source_page: 8
+      original_pdf: private/raw/tripos/IB/2007/P4.pdf
+      original_pdf_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      question_packet_sha256: 5ffbf28a4f98e3d74e19d5c5a3e1c675be58c4aec7d316da0340097790271a84
+      blind_rework_sha256: 0683f907090a89fec93462ade96de4577cc891df2951d3db32bb80841afb943d
+      transcription_discrepancies: []
+      source_finding: Matched autonomous integrand, sign of the first integral, endpoints,
+        speed proportional to the square of r, polar-length hint and both time requests.
+    independent_rework: '# Independent rework · IB/2007/P4/q16E
+
+
+      For a smooth extremal with fixed endpoints the Euler–Lagrange equation is F_y−d(F_{y′})/dx=0.
+      Since F has no explicit x dependence, differentiating F−y′F_{y′} along the curve
+      gives y′[F_y−d(F_{y′})/dx]=0. Hence F−y′F_{y′} is constant, including at points
+      where y′ vanishes.
+
+
+      Take a>0 and r>0 along a regular piecewise smooth road. Dividing the polar length
+      element by the speed gives T=(1/k)∫₀^{π/2} √(r′²+r²)/r² dθ. With r=a this is
+      π/(2ka).
+
+
+      Set ρ=1/r. The integrand of kT becomes √(ρ′²+ρ²). It is the Euclidean speed
+      of the planar curve (X,Y)=(ρ cos θ,ρ sin θ), with endpoints (1/a,0) and (0,1/a).
+      Every such curve has length at least the endpoint distance √2/a by the triangle
+      inequality, and equality holds for the straight segment traversed in one direction.
+      The segment X+Y=1/a has ρ=1/[a(cos θ+sin θ)], which is finite and positive throughout
+      the angular range. Consequently the attaining road is r=a(cos θ+sin θ), and
+      T_min=√2/(ka). This also verifies the global minimum, including against variations
+      not near the candidate. Passage through r=0 would have infinite time since |dr|/r²
+      has divergent integral there.
+
+      '
+    main_comparison: The autonomous Euler–Lagrange integral is constant along an extremal.
+      In reciprocal polar radius travel time becomes Euclidean length divided by k.
+      The endpoint chord is admissible and gives a global minimum √2/(ka) and r=a(cos
+      θ+sin θ).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P4.pdf
+      source_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      source_page: 8
+      compiled_pdf: build/IB-2007-P4/main.pdf
+      compiled_sha256: f6c062331bb70cbd0c3b60c7520c19d3a06289215748b89ff9e196928df135b4
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2007/P4/q16E/index.html
+      html_sha256: fd76f9050553c7f2ed8b3079b0a1ce3015c2f662b169efd527b07b6760299cad
+      math_nodes: 34
+      diagrams: {}
+      question_sha256: 5ffbf28a4f98e3d74e19d5c5a3e1c675be58c4aec7d316da0340097790271a84
+      solution_sha256: 43a08301d3ebe88ac977460122262f6068ff426a2902c091652f5e49585a45ad
+      check_sha256: f2878bf4773a80935650352acdca12d98b10711fe05f128078be35bd7ddbe7ba
+      check_exit: 0
+      check_stdout: Passed the P4/q16E mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P4/q16E · Cambridge Maths
+      math: 34
+      rendered: 34
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P4/q8F:
+    source_review:
+      printed_label: 8F
+      source_page: 4
+      original_pdf: private/raw/tripos/IB/2007/P4.pdf
+      original_pdf_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      question_packet_sha256: cb75df14f3a458ee4f868e574ded9422b084f9afb1fb99110710a49a5c5add96
+      blind_rework_sha256: bea23d8c1e7ba42b839bc147ec379292b64c2504a6410e2bec39d87b5d122b7e
+      transcription_discrepancies: []
+      source_finding: Matched regularity, interval, all three weights, error functional,
+        third derivative sup norm and equality example request.
+    independent_rework: '# Independent rework · IB/2007/P4/q8F
+
+
+      Let Lf=f′(0)−μ(f). Direct substitution on 1,x,x² gives L=0 in all three cases.
+      By the order-three Peano representation, Lf=∫₀² f‴(t)K(t)dt, with K(t)=Lₓ[(x−t)₊²/2].
+      The derivative at x=0 and the value at x=0 contribute zero for t≥0. Hence K(t)=(2−t)²/4−(1−t)₊².
+      This is t−3t²/4 on [0,1] and (2−t)²/4 on [1,2], nonnegative on both. The integral
+      of K is 1/4+1/12=1/3. Thus |Lf|≤‖f‴‖∞/3. With f(x)=x³/6 one has f‴=1 everywhere
+      and Lf=1/3, so the bound is achieved and c=1/3 is least.
+
+      '
+    main_comparison: The derivative error annihilates quadratics. The piecewise quadratic
+      Peano kernel is nonnegative on both pieces and integrates to 1/3. The example
+      x³/6 attains that bound exactly.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P4.pdf
+      source_sha256: 8fca0b212600a4d491d603566f24d7e0c5e20099ce42c4be8ff92d140b493b7f
+      source_page: 4
+      compiled_pdf: build/IB-2007-P4/main.pdf
+      compiled_sha256: f6c062331bb70cbd0c3b60c7520c19d3a06289215748b89ff9e196928df135b4
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2007/P4/q8F/index.html
+      html_sha256: 26ea4a2f9b9886e9ab69ed471972f91c1e8c87a292ec4bba1425d376867f0521
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: cb75df14f3a458ee4f868e574ded9422b084f9afb1fb99110710a49a5c5add96
+      solution_sha256: 00363f92b80d0b2983088bff3f014700db66f054dff8cef16aebcf1bc7bc06b9
+      check_sha256: d1b81b11fe937208cdcca3d0b997da0a870c4de9099f4d34295f69f6c3021d3e
+      check_exit: 0
+      check_stdout: Passed the P4/q8F mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P4/q8F · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P3/q7B:
+    source_review:
+      printed_label: 7B
+      source_page: 3
+      original_pdf: private/raw/tripos/IB/2007/P3.pdf
+      original_pdf_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      question_packet_sha256: 21a8194b0c026ba57626ca539c0afd6ce98b70afd527ee73341a338b7855276c
+      blind_rework_sha256: 6fc4e4a997725babf868f2ba6d594141ab121e410f24005b1ad5925753e43075
+      transcription_discrepancies: []
+      source_finding: Matched both terms of H, both inequalities and the variance
+        definitions. The first printed energy expectation uses literal less-than and
+        greater-than glyphs, as in the packet.
+    independent_rework: '# Independent rework · IB/2007/P3/q7B
+
+
+      Use the normalized state and the conventional positive mass and oscillator frequency.
+      By linearity of the expectation, the difference between E and the stated variance
+      expression equals ⟨p⟩²/(2m)+mω²⟨x⟩²/2. Both terms are nonnegative since the
+      observables have real means. The arithmetic-geometric mean inequality applied
+      to the variance contributions gives E≥ω Δx Δp≥ℏω/2 by Heisenberg''s inequality
+      for position and momentum. The inequalities apply whenever these second moments
+      exist, including the given finite-energy stationary state. Equality requires
+      zero means, Δp=mωΔx and saturation of the uncertainty product.
+
+      '
+    main_comparison: Splitting second moments into variances and squared means gives
+      the first bound. Arithmetic–geometric mean followed by Heisenberg gives the
+      lower energy ℏω/2 for a positive oscillator frequency.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P3.pdf
+      source_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      source_page: 3
+      compiled_pdf: build/IB-2007-P3/main.pdf
+      compiled_sha256: 6e27f04ec01b18e84c5295fff2a4b5e6f3f3702ce6a455c3521a8535c3e118d9
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2007/P3/q7B/index.html
+      html_sha256: 02bf11b53e66f7252a65fa97c9cd65e0641b98cfea2153b5d56dc29d3446a428
+      math_nodes: 11
+      diagrams: {}
+      question_sha256: 21a8194b0c026ba57626ca539c0afd6ce98b70afd527ee73341a338b7855276c
+      solution_sha256: 6e80a6456af9af82b125627751476f0f9bda93ea566975487b533124a1de0696
+      check_sha256: 0c73cc74237fc721b41566befa4ba2a57cde4e0c84d599a8178e88c7eba43b4e
+      check_exit: 0
+      check_stdout: Passed the P3/q7B mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2007/P3/q7B · Cambridge Maths
+      math: 11
+      rendered: 11
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2007/P3/q8C:
+    source_review:
+      printed_label: 8C
+      source_page: 4
+      original_pdf: private/raw/tripos/IB/2007/P3.pdf
+      original_pdf_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      question_packet_sha256: 45fc91c3797c13b0eb3ddb9e90fc06218257ef0517970bbe1e6345a854944583
+      blind_rework_sha256: 1a27bce81546dbd806692065e7386462aaab4c6b189b232861c2c9592959441f
+      transcription_discrepancies: []
+      source_finding: Compared both packet figures with the printed page. Counts 116,94,40,6,
+        class labels, all sixteen critical values and the closing hint bracket match.
+      question_figure_sha256:
+        packet-counts.png: afaf4b7418717f8d288ee3534cfb4341e0ca0df3ad670eaef3802a86abab5b46
+        percentage-points.png: 82e3b27d8e0cc4c479b4ada832d8e6231d9585d089106a127e17a068e68fbe98
+    independent_rework: '# Independent rework · IB/2007/P3/q8C
+
+
+      Under the null, packet counts in bins 0,1,2,3 have a multinomial distribution
+      on 256 trials with probabilities pⱼ=binom(3,j)θʲ(1−θ)³⁻ʲ. There are 94+2·40+3·6=192
+      defective bulbs out of 768. The likelihood as a function of θ is proportional
+      to θ¹⁹²(1−θ)⁵⁷⁶ and has its maximum at 1/4. The expected frequencies are 108,108,36,4
+      and the observed ones 116,94,40,6. The Pearson statistic is 64/108+196/108+16/36+4/4=104/27.
+      With four categories, one total constraint and one fitted parameter its large-sample
+      reference law is χ² with two degrees of freedom, giving p≈0.146 (below both
+      supplied critical values in statistic units). The unpooled test gives insufficient
+      evidence against the null at 5% or 10%.
+
+
+      The last expectation is only four. An exact calibration for the same statistic
+      conditions on the total of 192 defects. Each set of 192 positions has equal
+      probability under the null, for any 0<θ<1. For counts (a,b,c,d) of packets with
+      0,1,2,3 defects, the weight is [256!/(a!b!c!d!)]3^(b+c)/binom(768,192). This
+      counts assignments of packet types and choices of defective positions in each
+      type. Enumerate d=0,…,64 and c=0,…,floor((192−3d)/2), with b=192−3d−2c and a=256−b−c−d.
+      Summing the weights for Pearson statistics at least 104/27 over this support
+      gives p=0.158589 (3169 tables examined; all weights sum to one). This supports
+      the same decision without relying on the small cell''s asymptotic approximation.
+      The null at θ=0 or 1 cannot produce the observed total.
+
+
+      Pooling 2 and 3 in advance defines a different legitimate test. For the grouped
+      sample (116,94,46), the log likelihood is 536 log(1−θ)+186 log θ+46 log(3−2θ)
+      plus a constant. The interior solution of 1536θ²−2630θ+558=0 is 0.248123; strict
+      concavity and the divergent negative log terms at the endpoints certify the
+      maximum. The expected grouped counts are 108.813,107.726,39.461. The statistic
+      3.30734 on one degree of freedom gives p≈0.069. This grouped analysis fails
+      to reject at 5% but rejects at 10%. Its difference from the full-table test
+      illustrates why the grouping and level should be specified before using the
+      data to choose a conclusion.
+
+      '
+    main_comparison: The full table has 192 defects among 768 bulbs, giving expected
+      counts (108,108,36,4) and Pearson 104/27 on two degrees of freedom. Fitting
+      the pooled counts gives 0.248123 and Pearson 3.307 on one degree of freedom.
+      Both fail to reject at 5%, with different decisions at 10%. The fresh rework
+      independently calibrated the sparse full table conditionally on the defect total
+      and obtained 0.158589.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2007/P3.pdf
+      source_sha256: 4c19d470c6ac6bf7ce22443c20ff09bb1eeb4b2c3d66d2336f5031d151970f25
+      source_page: 4
+      compiled_pdf: build/IB-2007-P3/main.pdf
+      compiled_sha256: 6e27f04ec01b18e84c5295fff2a4b5e6f3f3702ce6a455c3521a8535c3e118d9
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2007/P3/q8C/index.html
+      html_sha256: 94f7e352367d5a88da5e822fabd6f858156c91bdfefa16d6e5da34781119e353
+      math_nodes: 18
+      diagrams:
+        site/private/figures/tripos/IB/2007/P3/q8C/packet-counts.png: afaf4b7418717f8d288ee3534cfb4341e0ca0df3ad670eaef3802a86abab5b46
+        site/private/figures/tripos/IB/2007/P3/q8C/percentage-points.png: 82e3b27d8e0cc4c479b4ada832d8e6231d9585d089106a127e17a068e68fbe98
+      question_sha256: 45fc91c3797c13b0eb3ddb9e90fc06218257ef0517970bbe1e6345a854944583
+      solution_sha256: b142795c1567502509eaec0031b40ee4dd9319365c8d24dc3f0bfaecb13f9cee
+      check_sha256: 7265b228575aebbc0a20ce9de2224643ae0844bfe36319f9242c89b2a1356c67
+      check_exit: 0
+      check_stdout: 'Pearson tests and all 3169 conditional tables verified.
+
+        Passed the P3/q8C mathematical checks.'
+      check_stderr: ''
+    browser:
+      title: IB/2007/P3/q8C · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 846
+        height: 115
+      - alt: ''
+        width: 1335
+        height: 175
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
