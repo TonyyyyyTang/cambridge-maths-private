@@ -10,10 +10,10 @@ section_units:
   I: 8
   II: 11
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2009-06-02'
 printed_date: Tuesday, 2 June, 2009
 time: 9:00 am to 12:00 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2009/P1/q1G
   original_question: 1G
@@ -44,9 +47,41 @@ questions:
   course_at_time: Linear Algebra
   course: IB/linear-algebra
   also_courses: []
-  question_sha256: 656fac64690d19a8ce44ebbfbc07c3ff933952efc3eba553c4e7364641408884
+  question_sha256: 41380fdb9d1407f4b2ccd4e0af58f55a0e2a5dc8e2d87c799025bd90b5bcf287
   checks: Both direct sums and the non-zero endomorphism condition checked.
   source_page_render_sha256: e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+  previous_question_sha256: 656fac64690d19a8ce44ebbfbc07c3ff933952efc3eba553c4e7364641408884
+  typography_qualifications:
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  faculty_collection:
+    collection_page: 19
+    printed_course: Linear Algebra
+    section: I
+    body_glyphs: 359
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 359
+    proof_body_glyph_count: 359
+    physical_pages:
+    - 2
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+    dpi: 145
+    question_sha256: 41380fdb9d1407f4b2ccd4e0af58f55a0e2a5dc8e2d87c799025bd90b5bcf287
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 162.56
+      pdf_top: 166.91
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 180.8
+      pdf_top: 166.91
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2009/P1/q2G
   original_question: 2G
   page: 2
@@ -59,6 +94,34 @@ questions:
   question_sha256: b0f11a3fbec4c8ab0f1761cdabfcb53bb4af41daef221dde4bdc69e82ae8a251
   checks: The disk uses radius rho, the final circle radius 2.
   source_page_render_sha256: e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+  faculty_collection:
+    collection_page: 15
+    printed_course: Geometry
+    section: I
+    body_glyphs: 209
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 209
+    proof_body_glyph_count: 208
+    physical_pages:
+    - 2
+    checked_residuals:
+    - source: '-'
+      proof: ''
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point:
+      - - CMR10
+        - 45
+        - 508.79
+        - 340.94
+      proof_font_code_and_point: []
+  reinspection:
+    source_raster_sha256:
+    - e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+    dpi: 145
+    question_sha256: b0f11a3fbec4c8ab0f1761cdabfcb53bb4af41daef221dde4bdc69e82ae8a251
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q3D
   original_question: 3D
   page: 2
@@ -69,9 +132,31 @@ questions:
   course: IB/complex-methods
   also_courses:
   - IB/complex-analysis
-  question_sha256: 322988ac83ba6588dc30483d447cd12e9153f60c006242584ed8303d5fb5809e
+  question_sha256: bd7540773fa817686dfe1d69e6ae90a5975341603264b3300832f2eece68e477
   checks: The exponent is negative and the trigonometric factor is cosine.
   source_page_render_sha256: e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+  previous_question_sha256: 322988ac83ba6588dc30483d447cd12e9153f60c006242584ed8303d5fb5809e
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  faculty_collection:
+    collection_page: 6
+    printed_course: Complex Analysis or Complex Methods
+    section: I
+    body_glyphs: 185
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 185
+    proof_body_glyph_count: 185
+    physical_pages:
+    - 2
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - e3052b19efafba22715f1da3897faa2e19853b33723ff1009e2650b4d9b308db
+    dpi: 145
+    question_sha256: bd7540773fa817686dfe1d69e6ae90a5975341603264b3300832f2eece68e477
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q4C
   original_question: 4C
   page: 3
@@ -81,9 +166,41 @@ questions:
   course_at_time: Special Relativity
   course: IA/dynamics-and-relativity
   also_courses: []
-  question_sha256: 34b94da681ce77eb990ba35d424e91e833284d1e8fc843b4336fc0205719ef82
-  checks: The four-vector components carry lower indices; the remnant momentum is bold.
+  question_sha256: f053ad80e5c5e446f965e6de943ab5aeda514f057c112cae587b118f64736d92
+  checks: The four-vector components carry lower indices; the remnant momentum is
+    bold.
   source_page_render_sha256: 9abe1e9ad6e852b4ee7da2f3fb691895a36676753404719abbc46d51a66b9522
+  previous_question_sha256: 34b94da681ce77eb990ba35d424e91e833284d1e8fc843b4336fc0205719ef82
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  faculty_collection:
+    collection_page: 46
+    printed_course: Special Relativity
+    section: I
+    body_glyphs: 361
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 361
+    proof_body_glyph_count: 360
+    physical_pages:
+    - 3
+    checked_residuals:
+    - source: '-'
+      proof: ''
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point:
+      - - CMR10
+        - 45
+        - 508.76
+        - 65.1
+      proof_font_code_and_point: []
+  reinspection:
+    source_raster_sha256:
+    - 9abe1e9ad6e852b4ee7da2f3fb691895a36676753404719abbc46d51a66b9522
+    dpi: 145
+    question_sha256: f053ad80e5c5e446f965e6de943ab5aeda514f057c112cae587b118f64736d92
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q5D
   original_question: 5D
   page: 3
@@ -93,9 +210,49 @@ questions:
   course_at_time: Fluid Dynamics
   course: IB/fluid-dynamics
   also_courses: []
-  question_sha256: aa12514459519ec89b01ae47c600bade43bf63362bff7e83e5f8515efc8100fb
-  checks: The curl, sign of the diffusion term and bracketed component identities were checked individually.
+  question_sha256: d0e53f067d1fed8e6614fe358873cc1f682e6f0f3d55ea5caba1fda303570951
+  checks: The curl, sign of the diffusion term and bracketed component identities
+    were checked individually.
   source_page_render_sha256: 9abe1e9ad6e852b4ee7da2f3fb691895a36676753404719abbc46d51a66b9522
+  previous_question_sha256: aa12514459519ec89b01ae47c600bade43bf63362bff7e83e5f8515efc8100fb
+  typography_qualifications:
+  - The linking words between the curl and Laplacian are italic and the comma is mathematical.
+  faculty_collection:
+    collection_page: 11
+    printed_course: Fluid Dynamics
+    section: I
+    body_glyphs: 474
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 474
+    proof_body_glyph_count: 474
+    physical_pages:
+    - 3
+    checked_residuals:
+    - source: ']'
+      proof: (cid:21)
+      reason: Enlarged CMR17 closing text bracket in the original; matching-height
+        math delimiter in the restricted proof.
+      source_font_code_and_point:
+      - - CMR17
+        - 93
+        - 373.64
+        - 582.09
+      proof_font_code_and_point:
+      - - CMEX10
+        - 21
+        - 366.32
+        - 326.48
+  typography_limits:
+  - The very large closing hint bracket is an enlarged CMR17 text glyph in print.
+    The fragment uses a math delimiter of the corresponding height.
+  reinspection:
+    source_raster_sha256:
+    - 9abe1e9ad6e852b4ee7da2f3fb691895a36676753404719abbc46d51a66b9522
+    dpi: 145
+    question_sha256: d0e53f067d1fed8e6614fe358873cc1f682e6f0f3d55ea5caba1fda303570951
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q6C
   original_question: 6C
   page: 4
@@ -105,9 +262,33 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: 153830b820b9e95c69f4c63db864e71083e9b705f4b2be2823ecade3dc79632f
-  checks: All nine matrix entries and the sign of the Jacobi iteration matrix were checked.
+  question_sha256: 355ebcec5d5652c6a2dc14f8db274c45d809c9e03818ac99656f15994e444314
+  checks: All nine matrix entries and the sign of the Jacobi iteration matrix were
+    checked.
   source_page_render_sha256: 15b395ef77e3ba40c6043a8417397c864c17128267a42518b22b9fc18d2c2745
+  previous_question_sha256: 153830b820b9e95c69f4c63db864e71083e9b705f4b2be2823ecade3dc79632f
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  - The digit and full stop at the spectral radius bound are in maths.
+  faculty_collection:
+    collection_page: 34
+    printed_course: Numerical Analysis
+    section: I
+    body_glyphs: 527
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 527
+    proof_body_glyph_count: 527
+    physical_pages:
+    - 4
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 15b395ef77e3ba40c6043a8417397c864c17128267a42518b22b9fc18d2c2745
+    dpi: 145
+    question_sha256: 355ebcec5d5652c6a2dc14f8db274c45d809c9e03818ac99656f15994e444314
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q7H
   original_question: 7H
   page: 5
@@ -120,6 +301,25 @@ questions:
   question_sha256: 3d2a5188e5c12604c5440f97cf47ca30a52461012c1f2eb93efb33b9f3fa3093
   checks: Model dimensions, normal variance and the unbiasedness request checked.
   source_page_render_sha256: c93953f18fbabe3cb710fa2dfb8f419783a285140d4fa8cd9bbada449ba78558
+  faculty_collection:
+    collection_page: 48
+    printed_course: Statistics
+    section: I
+    body_glyphs: 302
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 302
+    proof_body_glyph_count: 302
+    physical_pages:
+    - 5
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - c93953f18fbabe3cb710fa2dfb8f419783a285140d4fa8cd9bbada449ba78558
+    dpi: 145
+    question_sha256: 3d2a5188e5c12604c5440f97cf47ca30a52461012c1f2eb93efb33b9f3fa3093
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q8H
   original_question: 8H
   page: 5
@@ -129,9 +329,51 @@ questions:
   course_at_time: Optimization
   course: IB/optimisation
   also_courses: []
-  question_sha256: 0956e264b8e599680d5d6b2c5f403b03c1bfea0143a29e385712cd22e29df53e
+  question_sha256: 2acd35d8c6105585eae3759e14dbc74613f78eb3b32ba94cad2a94f9d9b1e477
   checks: Maximand and the three constraint directions checked.
   source_page_render_sha256: c93953f18fbabe3cb710fa2dfb8f419783a285140d4fa8cd9bbada449ba78558
+  previous_question_sha256: 0956e264b8e599680d5d6b2c5f403b03c1bfea0143a29e385712cd22e29df53e
+  typography_qualifications:
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  faculty_collection:
+    collection_page: 38
+    printed_course: Optimization
+    section: I
+    body_glyphs: 117
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 117
+    proof_body_glyph_count: 117
+    physical_pages:
+    - 5
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - c93953f18fbabe3cb710fa2dfb8f419783a285140d4fa8cd9bbada449ba78558
+    dpi: 145
+    question_sha256: 2acd35d8c6105585eae3759e14dbc74613f78eb3b32ba94cad2a94f9d9b1e477
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 109.16
+      pdf_top: 282.82
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 326.96
+      pdf_top: 294.82
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 326.96
+      pdf_top: 311.86
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 326.96
+      pdf_top: 328.78
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2009/P1/q9G
   original_question: 9G
   page: 6
@@ -144,6 +386,25 @@ questions:
   question_sha256: 07998d8579ef82028a77a712f9b71cbfb17d1c0ee3b620f7dd10ef5df2795b6c
   checks: Both index sets begin at zero; the derivative is evaluated at zero.
   source_page_render_sha256: 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+  faculty_collection:
+    collection_page: 20
+    printed_course: Linear Algebra
+    section: II
+    body_glyphs: 238
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 238
+    proof_body_glyph_count: 238
+    physical_pages:
+    - 6
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+    dpi: 145
+    question_sha256: 07998d8579ef82028a77a712f9b71cbfb17d1c0ee3b620f7dd10ef5df2795b6c
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q10F
   original_question: 10F
   page: 6
@@ -153,9 +414,40 @@ questions:
   course_at_time: Groups, Rings and Modules
   course: IB/groups-rings-and-modules
   also_courses: []
-  question_sha256: 0f7d7774bffdd4c44a0f343f85730b7ca8d5809b33fd870bb49ed942b8135ff7
+  question_sha256: 4d818174bdceb0e6125f5b7b1e627cd49930e76c1894f6593e6bb3b5b05bbc2e
   checks: The ring, additive index two and bracketed proof allowance checked.
   source_page_render_sha256: 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+  previous_question_sha256: 0f7d7774bffdd4c44a0f343f85730b7ca8d5809b33fd870bb49ed942b8135ff7
+  typography_qualifications:
+  - The final point after the italic hint is upright.
+  faculty_collection:
+    collection_page: 17
+    printed_course: Groups, Rings and Modules
+    section: II
+    body_glyphs: 387
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 387
+    proof_body_glyph_count: 388
+    physical_pages:
+    - 6
+    checked_residuals:
+    - source: ''
+      proof: '-'
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point: []
+      proof_font_code_and_point:
+      - - CMR10
+        - 45
+        - 529.27
+        - 110.07
+  reinspection:
+    source_raster_sha256:
+    - 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+    dpi: 145
+    question_sha256: 4d818174bdceb0e6125f5b7b1e627cd49930e76c1894f6593e6bb3b5b05bbc2e
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q11E
   original_question: 11E
   page: 6
@@ -165,11 +457,55 @@ questions:
   course_at_time: Analysis II
   course: IB/analysis-ii
   also_courses: []
-  question_sha256: b06cc9b200c180eccc6a2bc039d7995137e7540b42b324e7c67c3c7e1465064f
+  question_sha256: 9fb91b3f10db4640eb9665972ef6d8516b17f53aed5cb6769a79e61a0a8c0386
   checks: The last paragraph literally gives denominator 2 to the minus n.
-  printed_ambiguity: The final paragraph prints denominator 2 to the power minus n. Compare the intended dyadic
-    scale when solving.
+  printed_ambiguity: The final paragraph prints denominator 2 to the power minus n.
+    Compare the intended dyadic scale when solving.
   source_page_render_sha256: 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+  previous_question_sha256: b06cc9b200c180eccc6a2bc039d7995137e7540b42b324e7c67c3c7e1465064f
+  typography_qualifications:
+  - The final point after the italic hint is upright.
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  faculty_collection:
+    collection_page: 3
+    printed_course: Analysis II
+    section: II
+    body_glyphs: 489
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 489
+    proof_body_glyph_count: 488
+    physical_pages:
+    - 6
+    checked_residuals:
+    - source: '-'
+      proof: ''
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point:
+      - - CMR10
+        - 45
+        - 508.77
+        - 578.94
+      proof_font_code_and_point: []
+  printed_qualification: The final paragraph prints denominator 2 to the power minus
+    n. Compare the intended dyadic scale when solving.
+  reinspection:
+    source_raster_sha256:
+    - 1f708f3f191c133d18cbde87f46ff765b91ea92a5acae44abd55efd10b41fa50
+    dpi: 145
+    question_sha256: 9fb91b3f10db4640eb9665972ef6d8516b17f53aed5cb6769a79e61a0a8c0386
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 417.44
+      pdf_top: 486.63
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 440.96
+      pdf_top: 486.63
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2009/P1/q12F
   original_question: 12F
   page: 7
@@ -181,8 +517,28 @@ questions:
   also_courses:
   - IB/analysis-ii
   question_sha256: 6b817771927c815e62b1e47f2500cf6b6d97d90e50d4a907d6d573f21cbb3df0
-  checks: The compactness assumption belongs to Y, and the final example is real to real.
+  checks: The compactness assumption belongs to Y, and the final example is real to
+    real.
   source_page_render_sha256: 8b726476475534b99d3fa6df6df06cacc8e44846b5bda879391e42a43d68662d
+  faculty_collection:
+    collection_page: 32
+    printed_course: Metric and Topological Spaces
+    section: II
+    body_glyphs: 252
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 252
+    proof_body_glyph_count: 252
+    physical_pages:
+    - 7
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 8b726476475534b99d3fa6df6df06cacc8e44846b5bda879391e42a43d68662d
+    dpi: 145
+    question_sha256: 6b817771927c815e62b1e47f2500cf6b6d97d90e50d4a907d6d573f21cbb3df0
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q13D
   original_question: 13D
   page: 7
@@ -193,9 +549,34 @@ questions:
   course: IB/complex-methods
   also_courses:
   - IB/complex-analysis
-  question_sha256: 7d0766ad791f02725b0b733bb2cb6db9abd3e864ae21121e5d2dc43577764f3f
-  checks: Line of inversion, branch exponent, both time regimes and gamma integral checked.
+  question_sha256: 292e9d00137eabcf38acae00d5612bf5f1a4bd7e47e6d63f43d854e6ce26df7c
+  checks: Line of inversion, branch exponent, both time regimes and gamma integral
+    checked.
   source_page_render_sha256: 8b726476475534b99d3fa6df6df06cacc8e44846b5bda879391e42a43d68662d
+  previous_question_sha256: 7d0766ad791f02725b0b733bb2cb6db9abd3e864ae21121e5d2dc43577764f3f
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  faculty_collection:
+    collection_page: 6
+    printed_course: Complex Analysis or Complex Methods
+    section: II
+    body_glyphs: 552
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 552
+    proof_body_glyph_count: 552
+    physical_pages:
+    - 7
+    checked_residuals: []
+  printed_qualification: The branch of the square root is not explicitly specified.
+    The asymptotic expansion instruction explicitly allows termwise integration.
+  reinspection:
+    source_raster_sha256:
+    - 8b726476475534b99d3fa6df6df06cacc8e44846b5bda879391e42a43d68662d
+    dpi: 145
+    question_sha256: 292e9d00137eabcf38acae00d5612bf5f1a4bd7e47e6d63f43d854e6ce26df7c
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q14B
   original_question: 14B
   page: 8
@@ -205,9 +586,32 @@ questions:
   course_at_time: Mathematical Methods
   course: IB/methods
   also_courses: []
-  question_sha256: d9be5676695be3773d458989c72506d295bccada06528b9e080ed1fa4959b296
-  checks: The mixed degree-three basis and both quadrature weights checked against the image.
+  question_sha256: fe641f7458c0de9c0bfc846519daee0c43f9f70e573aa0df58a59181ed3f705b
+  checks: The mixed degree-three basis and both quadrature weights checked against
+    the image.
   source_page_render_sha256: 1091fe23ae47cf2eec2d9ded99a39ec2439291fcca15903d7d7dd949864c7170
+  previous_question_sha256: d9be5676695be3773d458989c72506d295bccada06528b9e080ed1fa4959b296
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  faculty_collection:
+    collection_page: 27
+    printed_course: Mathematical Methods
+    section: II
+    body_glyphs: 718
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 718
+    proof_body_glyph_count: 718
+    physical_pages:
+    - 8
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 1091fe23ae47cf2eec2d9ded99a39ec2439291fcca15903d7d7dd949864c7170
+    dpi: 145
+    question_sha256: fe641f7458c0de9c0bfc846519daee0c43f9f70e573aa0df58a59181ed3f705b
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q15B
   original_question: 15B
   page: 9
@@ -217,9 +621,38 @@ questions:
   course_at_time: Quantum Mechanics
   course: IB/quantum-mechanics
   also_courses: []
-  question_sha256: 44ba5e6262a363a928cc99235079aa1b500abeb4bf14b1e7ed6bb0a4a1e91dc2
-  checks: Parity appears in superscripts. The two sine signs, derivative jump and high-energy limit were checked.
+  question_sha256: 85b5ac95721533a2ee56b103ec70ab68616735875525fe12f893f254911964b0
+  checks: Parity appears in superscripts. The two sine signs, derivative jump and
+    high-energy limit were checked.
   source_page_render_sha256: ef9c138810ebc9fbf3ec38aa6a89c4fd8037599e46079f630880e9317aa9a37d
+  previous_question_sha256: 44ba5e6262a363a928cc99235079aa1b500abeb4bf14b1e7ed6bb0a4a1e91dc2
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  - The compact two-row definition uses the original CMEX10 code-26 brace.
+  - The three-row wavefunction uses a brace without extra extender pieces.
+  faculty_collection:
+    collection_page: 43
+    printed_course: Quantum Mechanics
+    section: II
+    body_glyphs: 857
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 857
+    proof_body_glyph_count: 857
+    physical_pages:
+    - 9
+    checked_residuals: []
+  printed_qualification: The even wavefunction is printed as zero otherwise, with
+    both inner intervals excluding the origin. The same page then requests the positive
+    energy difference eta_n, followed by its limit zero. Both the single-point assignment
+    and the zero-limit request require explicit treatment.
+  reinspection:
+    source_raster_sha256:
+    - ef9c138810ebc9fbf3ec38aa6a89c4fd8037599e46079f630880e9317aa9a37d
+    dpi: 145
+    question_sha256: 85b5ac95721533a2ee56b103ec70ab68616735875525fe12f893f254911964b0
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q16A
   original_question: 16A
   page: 10
@@ -232,6 +665,34 @@ questions:
   question_sha256: 1a525ea664471a33cccdef656330c075a50b9a765a282bf535f79d76c31b3711
   checks: Image charge, both coordinates and the release condition checked.
   source_page_render_sha256: 3d58e6f4ba9c39ebdb0927feec35d30768178c5aaabab2430b755691d7aa3009
+  faculty_collection:
+    collection_page: 9
+    printed_course: Electromagnetism
+    section: II
+    body_glyphs: 448
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 448
+    proof_body_glyph_count: 447
+    physical_pages:
+    - 10
+    checked_residuals:
+    - source: '-'
+      proof: ''
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point:
+      - - CMR10
+        - 45
+        - 508.67
+        - 163.36
+      proof_font_code_and_point: []
+  reinspection:
+    source_raster_sha256:
+    - 3d58e6f4ba9c39ebdb0927feec35d30768178c5aaabab2430b755691d7aa3009
+    dpi: 145
+    question_sha256: 1a525ea664471a33cccdef656330c075a50b9a765a282bf535f79d76c31b3711
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q17D
   original_question: 17D
   page: 10
@@ -241,9 +702,32 @@ questions:
   course_at_time: Fluid Dynamics
   course: IB/fluid-dynamics
   also_courses: []
-  question_sha256: db72e8921a54f217b5f114bddcb1ce72b655d226008f4ed1626fee857dc22438
-  checks: Three cases, the squared velocity in F and the fractional power in the critical height checked.
+  question_sha256: 8b512b6df660b1967b3699ba485291ecaef25fad583051414f1641330a9571a0
+  checks: Three cases, the squared velocity in F and the fractional power in the critical
+    height checked.
   source_page_render_sha256: 3d58e6f4ba9c39ebdb0927feec35d30768178c5aaabab2430b755691d7aa3009
+  previous_question_sha256: db72e8921a54f217b5f114bddcb1ce72b655d226008f4ed1626fee857dc22438
+  typography_qualifications:
+  - Match the source math punctuation at the indicated formula boundary.
+  faculty_collection:
+    collection_page: 12
+    printed_course: Fluid Dynamics
+    section: II
+    body_glyphs: 461
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 461
+    proof_body_glyph_count: 461
+    physical_pages:
+    - 10
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 3d58e6f4ba9c39ebdb0927feec35d30768178c5aaabab2430b755691d7aa3009
+    dpi: 145
+    question_sha256: 8b512b6df660b1967b3699ba485291ecaef25fad583051414f1641330a9571a0
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2009/P1/q18H
   original_question: 18H
   page: 11
@@ -253,9 +737,36 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: d61779e62db60b1e6225b5105a1b060644abcc17d18b3c69aa41be2056231b9f
+  question_sha256: e97549fd2af898832f8ed004f220955061f9518df23b8c7f20fc2aec240b6ff6
   checks: Point alternative, final composite null and power monotonicity checked.
   source_page_render_sha256: 3dc837735355c7212e50cd7096928b9fdb80d71ea36b0d83222537e36c5c1069
+  previous_question_sha256: d61779e62db60b1e6225b5105a1b060644abcc17d18b3c69aa41be2056231b9f
+  typography_qualifications:
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  faculty_collection:
+    collection_page: 49
+    printed_course: Statistics
+    section: II
+    body_glyphs: 480
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 480
+    proof_body_glyph_count: 480
+    physical_pages:
+    - 11
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 3dc837735355c7212e50cd7096928b9fdb80d71ea36b0d83222537e36c5c1069
+    dpi: 145
+    question_sha256: e97549fd2af898832f8ed004f220955061f9518df23b8c7f20fc2aec240b6ff6
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 372.92
+      pdf_top: 174.14
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2009/P1/q19H
   original_question: 19H
   page: 12
@@ -265,18 +776,44 @@ questions:
   course_at_time: Markov Chains
   course: IB/markov-chains
   also_courses: []
-  question_sha256: 90bded8192b2868fc4f8f3eacd8ae4a36a69b13c416c72bbcb0363c929d35811
-  checks: The nine-node diagram includes the labelled outer node 0 and central node 1. Both movement rules
-    checked.
+  question_sha256: 44bd9a2b39687973a5e0ae7447ea0d6285ea813cefd4f20ccd902f93898bbfee
+  checks: The nine-node diagram includes the labelled outer node 0 and central node
+    1. Both movement rules checked.
   figures:
   - gerbil-maze
   source_page_render_sha256: 56d5b531b08f9800f5e94f5cc314324c3e7c66d3527c5a9da764da9713b86f92
   figure_png_sha256:
     gerbil-maze: 39b2b80a18d09119accfaccf8684cad5362f3d36ce68f32331f9b685e685a27c
   plot_sha256: 022aafba60c42a385782973eeb5d6f3cbfe6258377bd5ea07d9fb66a4d56d494
+  previous_question_sha256: 90bded8192b2868fc4f8f3eacd8ae4a36a69b13c416c72bbcb0363c929d35811
+  typography_qualifications:
+  - The Faculty figure has no printed caption. Its full original image is retained.
+  faculty_collection:
+    collection_page: 24
+    printed_course: Markov Chains
+    section: II
+    body_glyphs: 678
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 678
+    proof_body_glyph_count: 678
+    physical_pages:
+    - 12
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 56d5b531b08f9800f5e94f5cc314324c3e7c66d3527c5a9da764da9713b86f92
+    dpi: 145
+    question_sha256: 44bd9a2b39687973a5e0ae7447ea0d6285ea813cefd4f20ccd902f93898bbfee
+    status: changed
+    printed_slanted_inequalities: []
 transcription_checks:
   source_render_dpi: 145
   all_questions_compared_with_original_page_images: true
   compiled_question_images_reviewed: true
   restricted_latex_validated: true
   compiled_qa_pdf_sha256: 4bd2826700dfc02cf0873c7786cadf3ae00f29042d506809e63532f54d24b17f
+faculty_course_ordered_collection:
+  archive: private/raw/tripos/IB/2009/all-questions.pdf
+  sha256: 4ff71565dc14397033b4d6abc4e17a3c3d92f38bcf651722a03900fd31751e38
+  pages: 49

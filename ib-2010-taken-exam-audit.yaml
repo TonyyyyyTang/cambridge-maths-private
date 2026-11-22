@@ -1,0 +1,1044 @@
+scope: 2010 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20270101
+  strata:
+    IB/analysis-ii:
+    - IB/2010/P1/q11G
+    - IB/2010/P2/q12G
+    - IB/2010/P2/q3G
+    - IB/2010/P2/q4H
+    - IB/2010/P3/q12G
+    - IB/2010/P3/q2G
+    - IB/2010/P4/q12G
+    - IB/2010/P4/q3G
+    IB/complex-methods:
+    - IB/2010/P1/q13A
+    - IB/2010/P1/q2A
+    - IB/2010/P2/q13A
+    - IB/2010/P3/q4A
+    - IB/2010/P4/q14A
+    IB/electromagnetism:
+    - IB/2010/P1/q16C
+    - IB/2010/P2/q18C
+    - IB/2010/P2/q6C
+    - IB/2010/P3/q17C
+    - IB/2010/P4/q7B
+    IB/fluid-dynamics:
+    - IB/2010/P1/q17B
+    - IB/2010/P1/q5B
+    - IB/2010/P2/q7B
+    - IB/2010/P3/q18B
+    - IB/2010/P4/q18B
+    IB/linear-algebra:
+    - IB/2010/P1/q1F
+    - IB/2010/P1/q9F
+    - IB/2010/P2/q10F
+    - IB/2010/P2/q1F
+    - IB/2010/P3/q10F
+    - IB/2010/P4/q10F
+    - IB/2010/P4/q1F
+    IB/markov-chains:
+    - IB/2010/P1/q20E
+    - IB/2010/P2/q20E
+    - IB/2010/P3/q9E
+    - IB/2010/P4/q9E
+    IB/methods:
+    - IB/2010/P1/q14A
+    - IB/2010/P2/q16B
+    - IB/2010/P2/q5A
+    - IB/2010/P3/q15A
+    - IB/2010/P3/q7B
+    - IB/2010/P4/q17B
+    - IB/2010/P4/q5A
+    IB/numerical-analysis:
+    - IB/2010/P1/q18C
+    - IB/2010/P1/q6C
+    - IB/2010/P2/q19C
+    - IB/2010/P3/q19C
+    - IB/2010/P4/q8C
+    IB/quantum-mechanics:
+    - IB/2010/P1/q15D
+    - IB/2010/P2/q17D
+    - IB/2010/P3/q16D
+    - IB/2010/P3/q8D
+    - IB/2010/P4/q6D
+    IB/statistics:
+    - IB/2010/P1/q19E
+    - IB/2010/P1/q7E
+    - IB/2010/P2/q8E
+    - IB/2010/P3/q20E
+    - IB/2010/P4/q19E
+  selection:
+    IB/analysis-ii:
+    - IB/2010/P2/q4H
+    - IB/2010/P3/q2G
+    IB/complex-methods:
+    - IB/2010/P3/q4A
+    IB/electromagnetism:
+    - IB/2010/P1/q16C
+    IB/fluid-dynamics:
+    - IB/2010/P1/q5B
+    IB/linear-algebra:
+    - IB/2010/P2/q10F
+    - IB/2010/P3/q10F
+    IB/markov-chains:
+    - IB/2010/P1/q20E
+    IB/methods:
+    - IB/2010/P2/q5A
+    - IB/2010/P3/q15A
+    IB/numerical-analysis:
+    - IB/2010/P3/q19C
+    IB/quantum-mechanics:
+    - IB/2010/P2/q17D
+    IB/statistics:
+    - IB/2010/P3/q20E
+observed:
+  population: 56
+  sampled: 13
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 12
+  pdf_pages: 14
+  browser_views: 13
+  rendered_formulas: 413
+independent_manifest_sha256: 71dd54260ff70a62915e4b52b3ce7cb4b2114fe820d506dd40ae650d859d64d7
+auditor_report: '# Fresh blind rework of the 2010 Part IB examination sample
+
+
+  I independently reworked each of the 13 supplied questions using its statement and
+  original PDF locator. I compared the words, symbols, conditions and subparts with
+  the rendered original question images, including the operators, signs, inequalities
+  and matrix entries. No transcription discrepancies were identified in these 13 questions.
+  The comparison of these mathematical derivations with the repository solutions is
+  a separate step for the coordinating agent.
+
+
+  | Question | PDF page | Printed label | Transcription discrepancies |
+
+  | --- | ---: | --- | ---: |
+
+  | IB/2010/P1/q16C | 6 | 16C | 0 |
+
+  | IB/2010/P1/q20E | 9 | 20E | 0 |
+
+  | IB/2010/P1/q5B | 3 | 5B | 0 |
+
+  | IB/2010/P2/q10F | 5 | 10F | 0 |
+
+  | IB/2010/P2/q17D | 8 | 17D | 0 |
+
+  | IB/2010/P2/q4H | 2 | 4H | 0 |
+
+  | IB/2010/P2/q5A | 3 | 5A | 0 |
+
+  | IB/2010/P3/q10F | 6 | 10F | 0 |
+
+  | IB/2010/P3/q15A | 8 | 15A | 0 |
+
+  | IB/2010/P3/q19C | 11 | 19C | 0 |
+
+  | IB/2010/P3/q20E | 11 | 20E | 0 |
+
+  | IB/2010/P3/q2G | 2 | 2G | 0 |
+
+  | IB/2010/P3/q4A | 3 | 4A | 0 |
+
+
+  The printed restriction in P3/15A(d) allows opposite nonzero parameters unless the
+  parameters are nonnegative. Division requires unequal squares. For the strict bound-state
+  problem in P2/17D the critical depth is an unattained infimum. For P1/16C the geometric
+  mean is a minimizer for all fixed potentials, with uniqueness when the applied potential
+  is nonzero. P1/20E distinguishes a stationary probability normalized on the communicating
+  class from a mixture over closed classes.
+
+
+  The per-question records bind each question.tex packet and rework.md to the SHA256
+  of the archived PDF. The inventory hashes all 27 evidence files.
+
+  '
+main_resolution: The capacitor minimum is unique only at nonzero voltage. The bound-state
+  depth threshold is an unattained infimum. The origin flux vanishes for bounded Bessel
+  solutions and opposite nonzero parameters require the removable limit. The Markov
+  cycle occupation count is 1/k. The audited derivations agree with these qualifications.
+questions:
+  IB/2010/P2/q4H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P2.pdf
+      original_pdf_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 2
+      question_packet_sha256: 723ead0b3203683d4cecd64a0e32d4ec7ea17db6d33edbab1d34f916256a04a8
+      blind_rework_sha256: e18f5c161ab56b790677f0373d723e2d4f696f886f78a48da61d6f6419e9dcf1
+      transcription_discrepancies: []
+      printed_label: 4H
+      source_finding: All definitions, primes, exponents, sequential limits and both
+        directions of the identity map match the page image.
+    independent_rework: '# IB/2010/P2/q4H — independent rework
+
+
+      For nonzero rational r let v(r) be the exponent of 3 in its numerator minus
+      that in its denominator in reduced form. This integer is unique by prime factorization.
+      Put v(0)=+∞ and |r|₃=3⁻ᵛ⁽ʳ⁾ with |0|₃=0. Then d₃(x,y)=|x−y|₃ vanishes exactly
+      on the diagonal, is real nonnegative and is symmetric because v(−r)=v(r).
+
+
+      For rationals r,s with finite valuations let h=min(v(r),v(s)). Both 3⁻ʰr and
+      3⁻ʰs have reduced denominator prime to 3. So does their sum (unless zero, which
+      has infinite valuation). Consequently v(r+s)≥h. The case of a zero summand is
+      immediate. Applying this to r=x−y and s=y−z gives d₃(x,z)≤max(d₃(x,y),d₃(y,z)),
+      which implies the triangle inequality.
+
+
+      The distances d₃(3ⁿ,0)=3⁻ⁿ→0 and d₃(3⁻ⁿ,0)=3ⁿ→∞ establish the requested limits.
+      The first sequence fails to converge to zero in the usual metric, the second
+      does converge to zero there. Continuity would preserve convergence to zero;
+      these sequences witness failure at zero in each direction. Translation gives
+      the same failure at every rational point.
+
+      '
+    main_comparison: The valuation of a sum gives the ultrametric inequality, including
+      cancellation. The sequences 3^n and 3^(−n) separate ordinary and 3-adic convergence
+      and disprove continuity in each direction.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P2.pdf
+      source_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 2
+      compiled_pdf: build/IB-2010-P2/main.pdf
+      compiled_sha256: 62ac63f6274bcdc978740a1725bf39c009925188d0f29ab4553ccbbb22cb981c
+      compiled_pages:
+      - 4
+      html: site/private/questions/IB/2010/P2/q4H/index.html
+      html_sha256: 84ebf3792a57a7aafc678db0f684247f2180c00aa58b6e10bb566bac53dd8444
+      math_nodes: 35
+      diagrams: {}
+      question_sha256: 723ead0b3203683d4cecd64a0e32d4ec7ea17db6d33edbab1d34f916256a04a8
+      solution_sha256: dd4e50a6f4503ba15e33764974964b087f2440ff297302dab9aa3fe06efbba32
+      check_sha256: 770384a0423ddd60ca808bcd9c8ea0bb45961f5937b980dbdef70d839fc06b18
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q4H.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P2/q4H · Cambridge Maths
+      math: 35
+      rendered: 35
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P3/q2G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P3.pdf
+      original_pdf_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 2
+      question_packet_sha256: 9f898911e099eaadb381f86b74d4ed614a2b1ebfa615e170823aeaa432f02190
+      blind_rework_sha256: 595c2e62dcd768a9a10c7973385cd10ebd98017b3c84ec748d8fc4cbc43762d3
+      transcription_discrepancies: []
+      printed_label: 2G
+      source_finding: The three coordinates of f, derivative request, theorem qualification
+        and final three factors match the page.
+    independent_rework: '# IB/2010/P3/q2G — independent rework
+
+
+      All three coordinates are polynomial and hence continuously differentiable on
+      ℝ³. The derivative is the linear map given in standard coordinates by the matrix
+      with rows (1,1,1), (y+z,x+z,x+y), (yz,xz,xy). Subtract the first column from
+      the second and third. Removing the common factors x−y and x−z from those columns
+      leaves lower entries (1,z) and (1,y), so the determinant is (x−y)(x−z)(y−z).
+      This differs by a minus sign from the printed product and has exactly the same
+      zeros.
+
+
+      The inverse function theorem says that for a C¹ map on an open set of ℝⁿ with
+      invertible derivative at p, there are open neighborhoods of p and of f(p) between
+      which the restriction is a bijection with C¹ inverse. Here the full space is
+      open, and the determinant is nonzero for distinct coordinates. This proves the
+      claim. At a repeated coordinate, swapping those two coordinates in a sufficiently
+      small perturbation with distinct values gives two different nearby points with
+      identical image by symmetry. Hence no neighborhood there gives injectivity.
+
+      '
+    main_comparison: The Jacobian determinant is nonzero for distinct coordinates,
+      so the inverse theorem applies there. At repeated coordinates arbitrarily close
+      transposed triples have the same image and exclude local injectivity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P3.pdf
+      source_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 2
+      compiled_pdf: build/IB-2010-P3/main.pdf
+      compiled_sha256: f454e186aa82ac776155583f4f279e35c63668a4eecf9c02aea8e30096add83b
+      compiled_pages:
+      - 2
+      html: site/private/questions/IB/2010/P3/q2G/index.html
+      html_sha256: 30d4d0095c83e0e1e83600c1ebd07aebf5058a46c560af26e2e188e5debef409
+      math_nodes: 8
+      diagrams: {}
+      question_sha256: 9f898911e099eaadb381f86b74d4ed614a2b1ebfa615e170823aeaa432f02190
+      solution_sha256: 0387aad896ee4e83bc5e03871aa8d046e9f790738ad47b8c66027678944929f8
+      check_sha256: e6f01714331cac8df67d18e323bda41d120fa80912049c6fe56ed5b9ccc6e56c
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q2G.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P3/q2G · Cambridge Maths
+      math: 8
+      rendered: 8
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P3/q4A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P3.pdf
+      original_pdf_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 3
+      question_packet_sha256: 1db94d212ba91c86c74fa63e4625c11f36816ab7bd7227a35c8b8f7538c4d211
+      blind_rework_sha256: 6a298a0f31b38d4b27f94871a6b30f627ae6435e30a693f143133d82f749a986
+      transcription_discrepancies: []
+      printed_label: 4A
+      source_finding: The differentiability hypothesis, powers and real coefficient
+        condition, labels and the analytic-function request agree.
+    independent_rework: '# IB/2010/P3/q4A — independent rework
+
+
+      (a) Suppose f=u+iv is complex differentiable throughout an open set. Holomorphic
+      functions there are analytic, so their real and imaginary parts are smooth.
+      The Cauchy–Riemann equations give uₓ=vᵧ and uᵧ=−vₓ. Differentiating, Δu=vᵧₓ−vₓᵧ=0
+      and Δv=−uᵧₓ+uₓᵧ=0 by equality of mixed partials. Differentiability solely at
+      one individual point would not imply this open-set conclusion.
+
+
+      (b) Matching the two coefficients in Δu=(6a+2c)x+(2b+6d)y yields c=−3a, b=−3d.
+      Thus all solutions are a(x³−3xy²)+d(y³−3x²y), with a,d arbitrary real.
+
+
+      (c) Since z³=(x³−3xy²)+i(3x²y−y³), the real part of (a+i d)z³ yields exactly
+      u. An arbitrary purely imaginary additive constant leaves this real part unchanged.
+
+      '
+    main_comparison: On an open analytic domain the mixed partials commute and give
+      harmonic real and imaginary parts. The coefficient conditions c=−3a, b=−3d give
+      (a+id)z³ up to an imaginary constant.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P3.pdf
+      source_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 3
+      compiled_pdf: build/IB-2010-P3/main.pdf
+      compiled_sha256: f454e186aa82ac776155583f4f279e35c63668a4eecf9c02aea8e30096add83b
+      compiled_pages:
+      - 4
+      html: site/private/questions/IB/2010/P3/q4A/index.html
+      html_sha256: aa589264aae8a724f25583dd585eff4e31fc6560d6400900a265c398caaf59c4
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: 1db94d212ba91c86c74fa63e4625c11f36816ab7bd7227a35c8b8f7538c4d211
+      solution_sha256: c7c57cd75b4b479ab479b4cbaac346aba2f795b99c4d253b2cfa47fcaf04d71a
+      check_sha256: f921c802810616c7671a2256c3595635087fcaa930f4568c4cc3937787c762fd
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q4A.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P3/q4A · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P1/q16C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P1.pdf
+      original_pdf_sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+      source_page: 6
+      question_packet_sha256: 83cfc01a83f2a98fe7997cb5efaf9950dadfe00ecbfc71bea7436c3dd2977de9
+      blind_rework_sha256: fa4d458ccc0eedab46f734324dc8a2339860821cde68418d489342d7bfe9f9a4
+      transcription_discrepancies: []
+      printed_label: 16C
+      source_finding: The image agrees on all three radii and voltages, the per-unit-length
+        quantities and the fixed parameters in the minimization. No absolute marks
+        are printed.
+    independent_rework: '# IB/2010/P1/q16C — independent rework
+
+
+      With no volume charge, cylindrical symmetry gives (rΦ′)′=0 in each annulus.
+      The boundary values select Φ=V log(r/a)/log(b/a) for a≤r≤b and Φ=V log(c/r)/log(c/b)
+      for b≤r≤c. The potential in the central cavity is zero by regularity at the
+      axis. The radial field is −Φ′. On the middle conductor, the normals into the
+      two gaps are respectively −eᵣ and +eᵣ, so the two surface charges per area are
+      ε₀V/[b log(b/a)] and ε₀V/[b log(c/b)]. Multiplying their sum by 2πb gives charge
+      per length λ=2πε₀V[1/log(b/a)+1/log(c/b)].
+
+
+      The two gaps act in parallel. Their summed capacitance per length is C′=2πε₀[1/log(b/a)+1/log(c/b)],
+      the proportionality constant between λ and V, and energy per length is U′=C′V²/2
+      by integrating the charging work from zero. A uniform dielectric would replace
+      ε₀ by its permittivity.
+
+
+      Writing s=log(c/a)>0 and h=log(b/a) in (0,s), the reciprocal sum is s/[h(s−h)].
+      Since h(s−h)=s²/4−(h−s/2)², U′ is minimized at h=s/2, or b=√(ac). The minimum
+      is 4πε₀V²/s. Equality is unique for V≠0; at V=0 all choices have zero energy.
+
+      '
+    main_comparison: The inner and outer coaxial regions share the imposed voltage
+      difference. Positive logarithmic separations have fixed sum, so their reciprocal
+      sum and energy are minimized at b=√(ac) for nonzero voltage; zero voltage is
+      degenerate.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P1.pdf
+      source_sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+      source_page: 6
+      compiled_pdf: build/IB-2010-P1/main.pdf
+      compiled_sha256: 120995d17ddd0e6cda52ccc631f23722b8f8d74e9f696acf3e49c8a2bf2862e9
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2010/P1/q16C/index.html
+      html_sha256: 84d9472c7233589981b7a78a509c85253f685fd1f5164bbf4f8d38a4a7be6b6d
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: 83cfc01a83f2a98fe7997cb5efaf9950dadfe00ecbfc71bea7436c3dd2977de9
+      solution_sha256: ad07a1334f3368eb5f052960c79e07084c2cdcf8d148ee511ffcb67aeaf70ff3
+      check_sha256: b525ba4ee9534b8a6bb1d67a0b34eb5c2610675fde30cefedff8c852656164ae
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q16C.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P1/q16C · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P1/q5B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P1.pdf
+      original_pdf_sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+      source_page: 3
+      question_packet_sha256: 18e18bddaae1d26d06278558b35074ae2d3d91263a39ab824ae8f60f3e8dd54c
+      blind_rework_sha256: 1b0e997320ac6577dfc1d8ddb13adc9d2721c64259ba6ff732429bf6a6d51bb5
+      transcription_discrepancies: []
+      printed_label: 5B
+      source_finding: The image shows the two opposite time exponents and the three
+        requested loci, including the earlier-time condition on the streakline. All
+        words and symbols match.
+    independent_rework: '# IB/2010/P1/q5B — independent rework
+
+
+      With velocity defined by the gradient of the potential, a particle has velocity
+      (e⁻ᵗ,eᵗ). At time zero the streamlines therefore have slope one. They are y=x+C,
+      oriented northeast.
+
+
+      For a particle starting at the origin at time zero, integration gives x=1−e⁻ᵗ,
+      y=eᵗ−1. Eliminating time gives y=x/(1−x), x<1. The forward part has 0≤x<1 and
+      increases towards the vertical asymptote x=1. Extending to negative times gives
+      the same branch approaching y=−1 as x→−∞.
+
+
+      For a particle released at time s<0, integration from s to zero gives x=e⁻ˢ−1
+      and y=1−eˢ. Thus y=x/(1+x), x>0, approaching (0,0) for s↑0 and the horizontal
+      asymptote y=1 for s→−∞. Include (0,0) if release at the observation time is
+      included. A sketch can be drawn with all three represented curves tangent to
+      y=x at the origin, taking the streamline C=0. The forward pathline bends above
+      that diagonal through (1/2,1), and the streakline bends below it through (1,1/2);
+      the other streamlines are parallel translates.
+
+      '
+    main_comparison: The trajectory through the origin and the instantaneous release
+      locus use different starting times. Both give y=x/(1−x) for the path and y=x/(1+x)
+      for the streak at zero, with their printed time ranges and the distinct streamline
+      family.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P1.pdf
+      source_sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+      source_page: 3
+      compiled_pdf: build/IB-2010-P1/main.pdf
+      compiled_sha256: 120995d17ddd0e6cda52ccc631f23722b8f8d74e9f696acf3e49c8a2bf2862e9
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2010/P1/q5B/index.html
+      html_sha256: 867ef98e95553ef84d27d6d52b02d8d90154403c0ad436f7a06adb0e9ec0957c
+      math_nodes: 21
+      diagrams:
+        site/private/figures/tripos/IB/2010/P1/q5B/velocity-curves.png: 94a396ad7f04dc988d368925563a08451ad2d147c41d739222dd16213818fab8
+      question_sha256: 18e18bddaae1d26d06278558b35074ae2d3d91263a39ab824ae8f60f3e8dd54c
+      solution_sha256: f4b32074afcdfbbab40b10148c351c95f9ebad258bfa0e7cb9846a26044dd631
+      check_sha256: 4cee9464967c95f8694ea23259b84bf008340f11e4cc78c6211bb8838754c2e1
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q5B.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P1/q5B · Cambridge Maths
+      math: 21
+      rendered: 21
+      parse_errors: 0
+      diagrams:
+      - alt: Streamlines, pathline and streakline with the indicated ranges.
+        width: 1650
+        height: 525
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P2/q10F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P2.pdf
+      original_pdf_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 5
+      question_packet_sha256: 0d51acb97d2b03a4ec10b7818b544e71a06884bfd0d9134180ac570b4886a30f
+      blind_rework_sha256: 367be7c7e62c65ea99252c072ccc12e2b394b8eae9b2485d5a90faa527692965
+      transcription_discrepancies: []
+      printed_label: 10F
+      source_finding: The similarity convention, map, field, four numbered parts and
+        final justification instruction match.
+    independent_rework: '# IB/2010/P2/q10F — independent rework
+
+
+      (i) For ordered bases e and f put P equal to the matrix whose columns are the
+      f-basis vectors expressed in e-coordinates. Thus [v]ₑ=P[v]f, where the final
+      subscript denotes the f-coordinates. If B represents T in e and A in f, comparison
+      on every v gives BP=PA. Conversely any invertible P provides a basis by taking
+      its columns in e-coordinates. For T represented by B in e this basis gives precisely
+      P⁻¹BP=A.
+
+
+      (ii) Over ℂ every linear endomorphism admits a basis of Jordan chains. Equivalently
+      the matrix is similar to a block diagonal matrix with blocks Jₛ(λ)=λI+Nₛ, where
+      Nₛ has ones immediately above the diagonal and zeros elsewhere. The list of
+      eigenvalues and block lengths (with multiplicities) is unique up to block permutation.
+      In particular the difference of the nullities of (A−λI)ᵏ and (A−λI)ᵏ⁻¹ counts
+      the blocks for λ of size at least k, since on a length-s chain the corresponding
+      nullity is min(k,s).
+
+
+      (iii) If A=SJS⁻¹ then Aᵀ is similar to Jᵀ. Reversing the order of the vectors
+      in each block, using the blockwise anti-identity permutation, conjugates J to
+      Jᵀ. Similarity is transitive, so A and Aᵀ are similar.
+
+
+      (iv) Invertibility means every λ is nonzero. The inverse block J⁻¹ has eigenvalue
+      λ⁻¹. Since J⁻¹−λ⁻¹I=−λ⁻¹J⁻¹Nₛ, and the invertible factor commutes with Nₛ, its
+      kth power has the same kernel as Nₛᵏ. Therefore each length-s block contributes
+      exactly one length-s block for λ⁻¹, with the usual unit superdiagonal after
+      similarity.
+
+      '
+    main_comparison: Both use Jordan blocks to identify generalized kernels and similarity
+      to the transpose. Inverting a nonsingular block preserves its nilpotency index
+      and block size while taking the reciprocal eigenvalue.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P2.pdf
+      source_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 5
+      compiled_pdf: build/IB-2010-P2/main.pdf
+      compiled_sha256: 62ac63f6274bcdc978740a1725bf39c009925188d0f29ab4553ccbbb22cb981c
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2010/P2/q10F/index.html
+      html_sha256: f12a39c749b6a608704599fe431b49d1aea9af2c4c7356a3edf367059110a191
+      math_nodes: 30
+      diagrams: {}
+      question_sha256: 0d51acb97d2b03a4ec10b7818b544e71a06884bfd0d9134180ac570b4886a30f
+      solution_sha256: 58f4064634545a9b3d19afb9a2d221f66bbfa58035350bcbbee0f17f368faad6
+      check_sha256: 40f0de1ab1181ccc8dfd9f8502c7bb4f35e672ddec55fbef1d3a96f876bb9c47
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q10F.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P2/q10F · Cambridge Maths
+      math: 30
+      rendered: 30
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P3/q10F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P3.pdf
+      original_pdf_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 6
+      question_packet_sha256: bff78d9ea5ce0812844edbd41051b934805b4023b509cfdbd080a9d5a4ec5b0a
+      blind_rework_sha256: 8a6e2847e1a5df26e0999ad82eedabf090c3e59fe7b4bdedf049977d554d8a2e
+      transcription_discrepancies: []
+      printed_label: 10F
+      source_finding: The invariant subspaces, order condition, direct sum and every
+        exponent and index in the printed averaging hint match.
+    independent_rework: '# IB/2010/P3/q10F — independent rework
+
+
+      Extend a basis of V₁ to a basis of V and project along the additional vectors
+      to obtain π:V→V₁ that fixes V₁ pointwise. Because αⁿ=I, α is invertible, and
+      V₁ is stable under α⁻¹=αⁿ⁻¹ as well as under α.
+
+
+      Let ρ=(1/n)Σᵢ₌₀ⁿ⁻¹ αⁱπα⁻ⁱ. Each term maps into V₁ and fixes it pointwise. Thus
+      ρ maps onto V₁ and fixes V₁; in particular ρ²=ρ. Conjugating by α cycles the
+      summands (with period n), so αρ=ρα. Take V₂=kerρ. For every x there is a decomposition
+      x=ρx+(x−ρx), with first part in V₁ and second in V₂; their intersection is zero
+      because ρ fixes V₁. Finally ραx=αρx=0 for x∈V₂, hence α(V₂)⊂V₂. This includes
+      V₁=0 or V₁=V.
+
+      '
+    main_comparison: Averaging conjugates of a projection yields a commuting projection
+      onto the invariant subspace. Finite order makes its inverse preserve that subspace
+      too; the kernel gives the invariant complement.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P3.pdf
+      source_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 6
+      compiled_pdf: build/IB-2010-P3/main.pdf
+      compiled_sha256: f454e186aa82ac776155583f4f279e35c63668a4eecf9c02aea8e30096add83b
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2010/P3/q10F/index.html
+      html_sha256: 587a28460fa5af59fe144e77c519755357f96d6532cc5785e90a69f5c1540f3f
+      math_nodes: 37
+      diagrams: {}
+      question_sha256: bff78d9ea5ce0812844edbd41051b934805b4023b509cfdbd080a9d5a4ec5b0a
+      solution_sha256: 904ee57004f50ed398cb4ee607df34f807f2f7b38e867a4f67368ceb55b7d5ae
+      check_sha256: da21b93d31cec7e00d9574e499ed91a1371ef69d6e46cf10098d3ddddd96bb80
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q10F.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P3/q10F · Cambridge Maths
+      math: 37
+      rendered: 37
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P1/q20E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P1.pdf
+      original_pdf_sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+      source_page: 9
+      question_packet_sha256: 6e45a1ca33eedec852de96a5ca0314e9211720f50e309087b1a205965a714570
+      blind_rework_sha256: 8f45d92c6d907bc51de5378040e7370ff4ce22aaa2c76e742d0c34914e86ea6c
+      transcription_discrepancies: []
+      printed_label: 20E
+      source_finding: The body, subparts (a)–(d), inclusive pad set, factorial, numerical
+        ellipsis and final requested pad match the paper.
+    independent_rework: '# IB/2010/P1/q20E — independent rework
+
+
+      (a) Put Tᵢ=inf{n≥1:Xₙ=i}. Positive recurrence means EᵢTᵢ<∞ (in particular return
+      occurs almost surely). For an irreducible countable discrete-time chain, a stationary
+      probability exists exactly when the chain is positive recurrent and is then
+      unique, with πᵢ=1/EᵢTᵢ. Periodicity does not affect this statement. For a general
+      chain normalize on the closed positive recurrent class C; a stationary law giving
+      it positive mass has πᵢ=π(C)/EᵢTᵢ. Class mass can be zero.
+
+
+      (b) Communication means mutual reachability by paths of positive probability,
+      allowing a zero-step path to the starting state. The equivalence classes are
+      communicating classes. Let i≠j communicate. There is a positive-probability
+      finite path from i to j which avoids i after departure until it reaches j (erase
+      loops). Call the probability of hitting j in an i-to-i excursion p>0. Excursions
+      are iid by strong Markov and their lengths L have finite mean μ. The expected
+      time through the end of the first successful excursion is Σₙ₌₁^∞ E[Lₙ 1{first
+      n−1 excursions failed}]=Σ μ(1−p)ⁿ⁻¹=μ/p. Hence EᵢHⱼ≤μ/p for Hⱼ the first hit
+      of j. On success, the remainder of the excursion after hitting j has conditional
+      mean EⱼHᵢ by strong Markov. Thus p EⱼHᵢ≤μ. Starting from j, a route to i followed
+      by a return to j bounds the first positive return time from above. Its mean
+      is finite by the two estimates. Hence j is positive recurrent.
+
+
+      (c) From every pad one can jump to 1 then ascend to any target, so the chain
+      is irreducible. The balance equations are πⱼ=Σᵢ≥max(1,j−1) πᵢ/(i+1). Thus π₁=π₂,
+      and for j≥2, πⱼ−πⱼ₊₁=πⱼ₋₁/j. Induction yields πⱼ=π₁/(j−1)!; normalization gives
+      π₁=e⁻¹. Substitution verifies the infinite equations: πᵢ/(i+1)=e⁻¹(1/i!−1/(i+1)!),
+      which telescopes to the required mass including j=1. The chain therefore has
+      the displayed stationary probability and is positive recurrent.
+
+
+      (d) The return-time theorem gives EₖTₖ=e(k−1)!. The expected occupation counts
+      νⱼ per regeneration cycle [0,Tₖ) sum to EₖTₖ. They form an invariant measure
+      because shifting the counting interval to [1,Tₖ] exchanges two visits to k;
+      the one-step conditional expectation gives νP=ν. Dividing by EₖTₖ yields the
+      unique stationary probability. In particular Eₖ[number of visits to k+1]=πₖ₊₁/πₖ=1/k.
+
+      '
+    main_comparison: Summing the telescoping stationary balance gives π_k=e^(−1)/(k−1)!.
+      The mean return time is e(k−1)!, and the ratio of excursion occupation counts
+      gives 1/k expected visits to the next state.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P1.pdf
+      source_sha256: 894484aa139ca4f0e3821db2e40557d3d8f3695c282b6b4dd55ba2def912e7f5
+      source_page: 9
+      compiled_pdf: build/IB-2010-P1/main.pdf
+      compiled_sha256: 120995d17ddd0e6cda52ccc631f23722b8f8d74e9f696acf3e49c8a2bf2862e9
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2010/P1/q20E/index.html
+      html_sha256: 8c3888599ed64f5a4be5d3165770746cf769858d2b44624eafffa52a256e4e3e
+      math_nodes: 48
+      diagrams: {}
+      question_sha256: 6e45a1ca33eedec852de96a5ca0314e9211720f50e309087b1a205965a714570
+      solution_sha256: def9d967aa4969c79863e5f03d3f9bd751d4bfff9dc36095bc5597c39ed56298
+      check_sha256: 980509c470a9643cc0832c60c34d916ffc1dee47448ef9d02301ddc8d88d6589
+      check_exit: 0
+      check_stdout: Passed independent checks for P1/q20E.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P1/q20E · Cambridge Maths
+      math: 48
+      rendered: 48
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P2/q5A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P2.pdf
+      original_pdf_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 3
+      question_packet_sha256: 4fae2f436868840b4f9ef1e99d497ce09b61d84009e08e542932071119bd4bd8
+      blind_rework_sha256: 92b4edbcc60e742962801fd56345d024b33d0e798a877d850a96329285dc7d19
+      transcription_discrepancies: []
+      printed_label: 5A
+      source_finding: The image confirms the operator, both zero initial conditions,
+        the inequalities at T and both instructions about the Green function.
+    independent_rework: '# IB/2010/P2/q5A — independent rework
+
+
+      For a regular operator L=A(t)d²/dt²+B(t)d/dt+C(t), choose the retarded Green
+      function satisfying LₜG(t,s)=δ(t−s) and G=0 for t<s. It solves the homogeneous
+      equation for t>s with G(s+,s)=0 and ∂ₜG(s+,s)=1/A(s). Continuity removes a delta
+      derivative; integration through t=s gives the stated derivative jump. Then x(t)=∫₀ᵗG(t,s)f(s)ds
+      has the two zero initial conditions and Lx=f by superposition (with the usual
+      regularity and A nonzero).
+
+
+      Here G(t,s)=(t−s)1{t≥s}. Consequently x(t)=a∫₀ᵐ(t−s)ds=a(tm−m²/2), m=min(t,T).
+      This is at²/2 for t≤T and aTt−aT²/2 for t>T. Both x and its velocity agree at
+      T; afterwards the velocity stays aT. This is a particle initially at rest driven
+      by a constant force ma for duration T and left in force-free motion thereafter.
+
+      '
+    main_comparison: A retarded Green function has the appropriate leading-coefficient
+      derivative jump. For a finite interval of constant acceleration both give the
+      matched quadratic and linear displacements with continuous velocity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P2.pdf
+      source_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 3
+      compiled_pdf: build/IB-2010-P2/main.pdf
+      compiled_sha256: 62ac63f6274bcdc978740a1725bf39c009925188d0f29ab4553ccbbb22cb981c
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2010/P2/q5A/index.html
+      html_sha256: 9c234491b565233e7790d92d98b481b7261d4fdd63eded654119785a2ff386bc
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: 4fae2f436868840b4f9ef1e99d497ce09b61d84009e08e542932071119bd4bd8
+      solution_sha256: 10cb5dcc114916dc96148dec8808e95072379fabdee1f5d07531f092b5796f36
+      check_sha256: cd8ece8c1a3b513cf12ca7c5a90d2b2ff6a1de4d1360a4dc2873a652f1cdcd4b
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q5A.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P2/q5A · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P3/q15A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P3.pdf
+      original_pdf_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 8
+      question_packet_sha256: 0381e3b7f50c7920d6ec507159362391247fba317f81285d42d6c467e12ac4fa
+      blind_rework_sha256: c6d2d62d55030e2ad2c871fcb7255c56e3b899d25e722a1a60d556ee934fc361
+      transcription_discrepancies: []
+      printed_label: 15A
+      source_finding: All four subparts match, including weight placement, quotient
+        signs and the literal printed condition α≠β in (d). That condition alone leaves
+        opposite nonzero parameters unresolved.
+    independent_rework: '# IB/2010/P3/q15A — independent rework
+
+
+      (a) The equation is −(xu′)′=λxu. Thus p=x, q=0 and the weight w=x on (0,1).
+
+
+      (b) For two bounded eigenfunctions let B(x)=x(uₘuₙ′−uₙuₘ′). Subtraction gives
+      B′=(λₘ−λₙ)xuₘuₙ. For each bounded eigenfunction u the equation implies (xu′)′=O(x);
+      hence xu′ has a finite limit L and equals L+O(x²). A nonzero L would give a
+      logarithmic divergence on integrating u′, contrary to boundedness. Thus xu′=O(x²),
+      so B(0+)=0. Orthogonality follows precisely by making B(1)=0 for every pair.
+      This requires the endpoint data (u(1),u′(1)) for all eigenfunctions to be collinear.
+      For the usual real self-adjoint problem this gives a common Robin relation A
+      u(1)+B u′(1)=0 where real A,B are not both zero, including the Dirichlet and
+      Neumann extremes. Requiring both components zero gives only the zero solution
+      by regular endpoint uniqueness. Equivalently collinearity is the criterion for
+      the bilinear identity as written, even if complex data and coefficients are
+      allowed.
+
+
+      (c) Using u(1)=0, multiply by the complex conjugate of u and integrate by parts;
+      the boundary term vanishes at both ends by the bounded-origin estimate. Hence
+      λ∫₀¹x|u|² dx=∫₀¹x|u′|² dx. A nonzero eigenfunction has λ>0 since a zero numerator
+      would make u constant and the endpoint would force it to vanish. Substituting
+      t=√λ x reduces the equation to the given order-zero Bessel equation. Boundedness
+      eliminates the unbounded independent solution; u is a multiple of J₀(√λ x).
+      The remaining endpoint demands J₀(√λ)=0. Conversely each positive zero jₙ supplies
+      a nonzero admissible eigenfunction. Thus the eigenvalues are jₙ².
+
+
+      (d) Take u=J₀(αx), v=J₀(βx). Multiply (xu′)′=−α²xu by v and the corresponding
+      v-equation by u; subtract and integrate by parts. The two interior terms involving
+      u′v′ cancel, giving (α²−β²)∫₀¹xuv dx=[x(uv′−vu′)]₀¹=βJ₀(α)J₀′(β)−αJ₀(β)J₀′(α).
+      Division yields the displayed formula for α²≠β². If α,β are taken nonnegative
+      the printed qualification α≠β is sufficient. For unrestricted real parameters
+      with β=−α≠0 the printed quotient is 0/0. The undivided identity remains valid
+      and the quotient has a removable singularity. For instance its continuous value
+      there is ∫₀¹xJ₀(αx)²dx=[J₀(α)²+J₀′(α)²]/2, from differentiating t²(J₀(t)²+J₀′(t)²)/2
+      and using the Bessel equation.
+
+      '
+    main_comparison: Escalation resolved by checking the singular radial endpoint,
+      positivity of the eigenvalues and the Wronskian sign. The eigenvalues are the
+      squared positive Bessel zeros. The divided expression requires α²≠β²; for β=−α≠0
+      the integral is finite and the continuous value is (J₀(α)²+J₀′(α)²)/2.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P3.pdf
+      source_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 8
+      compiled_pdf: build/IB-2010-P3/main.pdf
+      compiled_sha256: f454e186aa82ac776155583f4f279e35c63668a4eecf9c02aea8e30096add83b
+      compiled_pages:
+      - 15
+      - 16
+      html: site/private/questions/IB/2010/P3/q15A/index.html
+      html_sha256: 23d2c769fd551c886c07ab22ce3f823e07037272604679e2cee106e0fc2b5e8e
+      math_nodes: 41
+      diagrams: {}
+      question_sha256: 0381e3b7f50c7920d6ec507159362391247fba317f81285d42d6c467e12ac4fa
+      solution_sha256: 8e354426cc20c55c0962ec562bbaac42c92fbde7762ad85625a0dba88cceed72
+      check_sha256: ea3df9ebf79df3524fd21534af468c6fe2baebba036bcf673b46e901011458a0
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q15A.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P3/q15A · Cambridge Maths
+      math: 41
+      rendered: 41
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P3/q19C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P3.pdf
+      original_pdf_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 11
+      question_packet_sha256: 4c4e44c1f7effed9cc051552cb77ffd83e5aa9e4a60173b82bd6cc5b71906cc0
+      blind_rework_sha256: 10567cac334088c27a25bd1384d1c760e4d3dbfed6c262f91fdfa2e9497b52bd
+      transcription_discrepancies: []
+      printed_label: 19C
+      source_finding: The image confirms all fifteen matrix entries, all five entries
+        of b and both requested numerical outputs.
+    independent_rework: '# IB/2010/P3/q19C — independent rework
+
+
+      For m>n the full factorization is A=Q [R;0], with Q an orthogonal m×m matrix
+      and R an n×n upper triangular matrix. Equivalently A=Q₁R with Q₁ the first n
+      columns of Q. For Qᵀb=(c,d), orthogonality gives ‖Ax−b‖²=‖Rx−c‖²+‖d‖². With
+      full column rank R is invertible, so solve Rx=c by backward substitution, giving
+      residual norm ‖d‖. For rank-deficient A one can apply column-pivoted QR to isolate
+      an invertible leading block of dimension rank(A) and solve its equations with
+      free coordinates, retaining the remaining residual components.
+
+
+      For a nonzero v a Householder reflection is H=I−2vvᵀ/(vᵀv), which fixes the
+      hyperplane perpendicular to v and negates v. The rank-one projector P=vvᵀ/(vᵀv)
+      satisfies P²=P=Pᵀ, hence HᵀH=(I−2P)²=I.
+
+
+      The first two matrix columns already need no reduction. In the last three rows
+      the third column is w=(2,1,−2), with norm 3. Choose v=w−3e₁=(−1,1,−2). Its squared
+      norm is 6 and vᵀw=3, so Hw=w−v=(3,0,0). For the last three entries of b, vᵀ(3,1,−1)=0,
+      so Hb_tail=b_tail. Applying diag(I₂,H) produces the upper triangle with rows
+      (2,4,7),(0,3,−1),(0,0,3); the transformed right-hand side is (9,−7,3,1,−1).
+      Back substitution gives x₃=1, x₂=−2 and x₁=5. The transformed residual has entries
+      (0,0,0,−1,1), so the minimum norm is √2. Direct multiplication gives the original
+      residual (0,0,−1,0,−1), orthogonal to all columns.
+
+      '
+    main_comparison: The Householder reflector makes the final three rows of the third
+      column triangular and fixes the corresponding perpendicular right-hand-side
+      tail. The minimizing vector is (5,−2,1) with residual norm √2.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P3.pdf
+      source_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 11
+      compiled_pdf: build/IB-2010-P3/main.pdf
+      compiled_sha256: f454e186aa82ac776155583f4f279e35c63668a4eecf9c02aea8e30096add83b
+      compiled_pages:
+      - 21
+      html: site/private/questions/IB/2010/P3/q19C/index.html
+      html_sha256: 65bd74d6da4c3dc6862f90dbd0bc65c50950790cbf6311617c4d7c5584e153e4
+      math_nodes: 30
+      diagrams: {}
+      question_sha256: 4c4e44c1f7effed9cc051552cb77ffd83e5aa9e4a60173b82bd6cc5b71906cc0
+      solution_sha256: c0536bd08b4a1e097adfe631a5ac9c14a24dd8fe4231cd09b557697c792a1399
+      check_sha256: 21bcf9ac40619a60cb92e8f0589d9a8d2d64cf94adbf356ab0ff5796b24ddbda
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q19C.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P3/q19C · Cambridge Maths
+      math: 30
+      rendered: 30
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P2/q17D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P2.pdf
+      original_pdf_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 8
+      question_packet_sha256: e594a85c4c14a765f25c443e6af05918131ecdef1b0a9ea5da2ace77acf23cea
+      blind_rework_sha256: bf98a1d24f5f5c8d7d9072d425207a8fb4f8e26badfd50ef982b4d894781e5e6
+      transcription_discrepancies: []
+      printed_label: 17D
+      source_finding: All three potential regions, the matching equation, strict E<V₀,
+        expectation formula and graph hint agree. The stated minimum well depth is
+        a threshold.
+    independent_rework: '# IB/2010/P2/q17D — independent rework
+
+
+      The infinite wall sets ψ(0)=0. The oscillatory solution in 0≤x≤a is A sin(kx),
+      whereas for x>a square integrability selects B exp(−c(x−a)). Continuity of ψ
+      and ψ′ at the finite jump gives B=A sin(ka) and k cos(ka)=−c sin(ka). Sin(ka)=0
+      would force both sine and cosine to vanish for a nonzero state, so division
+      yields c+k cot(ka)=0.
+
+
+      Let z=ka and R=a√(2mV₀)/ℏ. An admissible root satisfies 0<z<R, with ca=√(R²−z²)=−z
+      cot z>0. The first positive branch on which the right side is positive is π/2<z<π,
+      followed by translates through multiples of π. Thus R>π/2 is necessary. On the
+      first branch the right side increases from zero to infinity (its derivative
+      is −cot z+z csc²z>0). The semicircle is decreasing, positive at the left endpoint
+      and either reaches zero at R<π or is overtaken before π. This gives a root for
+      every R>π/2. The critical depth is π²ℏ²/(8ma²), an infimum under the strict
+      bound-state hypothesis. At equality the exterior solution at zero decay is not
+      normalizable.
+
+
+      Take A real, positive without loss of global phase and ψ=0 for x<0. Normalization
+      gives A⁻²=a/2−sin(2ka)/(4k)+sin²(ka)/(2c)=(a+1/c)/2. For the last equality use
+      cos(ka)=−(c/k)sin(ka) and sin²(ka)=k²/(k²+c²). The normalized wave function
+      is the two pieces above with A=√[2/(a+1/c)], B=A sin(ka).
+
+
+      The first moment is A²[∫₀ᵃ x sin²(kx)dx+sin²(ka)∫ₐ^∞ x exp(−2c(x−a))dx]. The
+      supplied identity and tan(ka)=−k/c give ⟨x⟩=(a+1/c)/2. This exceeds a precisely
+      when ca<1. For wells just above threshold the first bound state has π/2<z<R↓π/2,
+      giving ca→0; the long exterior tail allows ⟨x⟩ to exceed a. Equality occurs
+      at ca=1 and the expectation lies inside for ca>1.
+
+      '
+    main_comparison: The matching equation −t cot t = sqrt(K²−t²) has a positive first-branch
+      root exactly when K>π/2. Both exclude the nondecaying threshold state and obtain
+      the same normalization and mean (a+1/c)/2.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P2.pdf
+      source_sha256: dfa90347f8c44eb2c59dd5a1bda2a1c07be4c7f581917b25a5994c51cb967fae
+      source_page: 8
+      compiled_pdf: build/IB-2010-P2/main.pdf
+      compiled_sha256: 62ac63f6274bcdc978740a1725bf39c009925188d0f29ab4553ccbbb22cb981c
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2010/P2/q17D/index.html
+      html_sha256: b3f75f17a064ecf0cb2e392ba2197ca39043953c17245c9c4995e71f95897d39
+      math_nodes: 46
+      diagrams: {}
+      question_sha256: e594a85c4c14a765f25c443e6af05918131ecdef1b0a9ea5da2ace77acf23cea
+      solution_sha256: 5b9d88b776d4f6d727f8d6cee906389b143b4fe811190009908a771a4743d7da
+      check_sha256: 4cbb283e1ffe3024827e516997bf2d16868b44dfa391faeaf2ee3b8e0cbacdf9
+      check_exit: 0
+      check_stdout: Passed independent checks for P2/q17D.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P2/q17D · Cambridge Maths
+      math: 46
+      rendered: 46
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2010/P3/q20E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2010/P3.pdf
+      original_pdf_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 11
+      question_packet_sha256: 26775277c1f56bec750b675a8ea03a662c8e0605c9ca2b0065ae93cd5e179874
+      blind_rework_sha256: cbca1dd374dcdb13c665de235c39905fff9f7073e63b1419d9526686fdae85de
+      transcription_discrepancies: []
+      printed_label: 20E
+      source_finding: All rate parameters, endpoints, quantile coverage levels, the
+        summation, prior and density normalization agree with the image.
+    independent_rework: '# IB/2010/P3/q20E — independent rework
+
+
+      Write S=ΣXᵢ. Under the stated rate parameterization ℓ(θ)=n log θ−θS+constant.
+      Its second derivative is −n/θ², and for S>0 the unique maximizer is θ̂=n/S.
+      S>0 holds almost surely. The Laplace transform of S is [θ/(θ+t)]ⁿ by independence,
+      so n/θ̂=S is Gamma(shape n, rate θ). Scaling gives θ/θ̂=θS/n ∼ Gamma(n,n).
+
+
+      Write Gₛ for the CDF of the unit-rate Gamma(s,1). Since θS∼Gamma(n,1), the event
+      θ≤C θ̂ has probability Gₙ(nC). For 0<α<1 its unique required constant is C=Gₙ⁻¹(1−α)/n.
+      The interval is [0,Gₙ⁻¹(1−α) θ̂/n].
+
+
+      The prior density times the likelihood has kernel θⁿ⁺ᵏ⁻¹ exp[−(λ+S)θ], so θ|X∼Gamma(n+k,λ+S).
+      Conditional squared-error risk is Var(θ|X)+(a−E[θ|X])². It is minimized by θ̂_B=(n+k)/(λ+S).
+      Since (λ+S)θ|X∼Gamma(n+k,1), P(θ≤C_B θ̂_B|X)=Gₙ₊ₖ((n+k)C_B). Thus C_B=Gₙ₊ₖ⁻¹(1−α)/(n+k),
+      independent of the observations.
+
+      '
+    main_comparison: Scaling the sufficient sum gives the Gamma(n,n) pivot for the
+      exponential rate. Both posterior calculations give Gamma(n+k,λ+S); the analogous
+      posterior pivot is Gamma(n+k,n+k).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2010/P3.pdf
+      source_sha256: e5c6f41acf4984d1fa377b5f2576c60430096b3a62a3073d3222813689086c59
+      source_page: 11
+      compiled_pdf: build/IB-2010-P3/main.pdf
+      compiled_sha256: f454e186aa82ac776155583f4f279e35c63668a4eecf9c02aea8e30096add83b
+      compiled_pages:
+      - 22
+      html: site/private/questions/IB/2010/P3/q20E/index.html
+      html_sha256: 8c9f53ad85893bfa0bc03d53748f23e8425f7cbfcb39bedb06db37a0eb988371
+      math_nodes: 47
+      diagrams: {}
+      question_sha256: 26775277c1f56bec750b675a8ea03a662c8e0605c9ca2b0065ae93cd5e179874
+      solution_sha256: 2d1b066f3155decb97ec0ae308f419a37944d8dd4239a4e5c06d2ccf96dd88db
+      check_sha256: 6557ef31dd46adea281553a528313abe7be4cf81b3a7fb73606d2c10ea4bd05c
+      check_exit: 0
+      check_stdout: Passed independent checks for P3/q20E.
+      check_stderr: ''
+    browser:
+      title: IB/2010/P3/q20E · Cambridge Maths
+      math: 47
+      rendered: 47
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
