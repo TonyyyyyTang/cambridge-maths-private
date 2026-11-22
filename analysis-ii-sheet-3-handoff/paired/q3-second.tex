@@ -1,0 +1,7 @@
+In Euclidean space $x\mapsto\|x\|$ is continuous, so its bounded image makes $X$ bounded. If $a\in\overline X\setminus X$, then $x\mapsto1/\|x-a\|$ is continuous on $X$ but unbounded, by choosing points of $X$ arbitrarily close to $a$. Hence $X$ is closed as well. Heine--Borel gives compactness, including for the empty set.
+
+The assertion also holds in every metric space. Suppose $X$ is not compact. The equivalence of compactness and sequential compactness for metric spaces gives a sequence $(x_n)$ with no convergent subsequence in $X$. For each $x\in X$ some ball $B(x,2r)$ with $r>0$ contains only finitely many terms: otherwise one could successively choose later indices in balls about $x$ of radii tending to zero. Define continuous functions
+\[
+ h_n(y)=n\max\{0,1-n d(y,x_n)\},\qquad h(y)=\sum_{n=1}^\infty h_n(y).
+\]
+For all sufficiently large $n$, $x_n\notin B(x,2r)$ and $1/n<r$. For $y\in B(x,r)$ the triangle inequality then gives $d(y,x_n)>r>1/n$, so $h_n$ vanishes throughout this neighbourhood. The sum is locally finite and therefore real-valued and continuous. Its nonnegative summands give $h(x_n)\ge n$ for every $n$, contradicting boundedness. Thus $X$ must be compact.

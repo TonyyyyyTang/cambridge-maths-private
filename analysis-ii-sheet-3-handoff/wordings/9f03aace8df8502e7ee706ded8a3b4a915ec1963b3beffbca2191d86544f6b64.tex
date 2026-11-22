@@ -1,0 +1,32 @@
+$^\star$ \textbf{Supplement: Incompleteness of the Riemann $L^1$ norm.} From lectures/ex. sheet 2, we know the following:
+
+\begin{enumerate}
+\item[(i)] $C([0,1])$ with the norm $\|f\|_1=\int_0^1|f|$ is incomplete (ex. sheet 2, Q6);
+\item[(ii)] $C([0,1])$ is a linear subspace of the space of bounded Riemann integrable functions $\mathcal R([0,1])$;
+\item[(iii)] $\|\cdot\|_1$ is defined on this larger space $\mathcal R([0,1])$, although since
+\[
+\int_0^1|f|=0\not\Rightarrow f(x)=0\quad\text{for every } x\in[0,1],
+\]
+technically $\|\cdot\|_1$ is not a norm on $\mathcal R([0,1])$;
+\item[(iv)] This issue is easily fixed by considering instead the quotient space $\widetilde{\mathcal R}([0,1])=\mathcal R([0,1])/\sim$ where $f\sim g$ if $f(x)=g(x)$ for a.e. $x\in[0,1]$ (i.e. there is a null set $N\subset[0,1]$ such that $f(x)=g(x)$ for every $x\in[0,1]\setminus N$). As discussed in lectures (as a non-examinable topic), addition $[f]+[g]=[f+g]$ and scalar multiplication $\lambda[f]=[\lambda f]$ are well-defined operations on $\widetilde{\mathcal R}([0,1])$ which make it a vector space over $\mathbb R$, and $\|[f]\|_1=\int_0^1|f|$ is well-defined and is a norm on $\widetilde{\mathcal R}([0,1])$ (this last assertion can be verified, for instance, with the help of Lebesgue’s theorem on the Riemann integral).
+\end{enumerate}
+
+For notational simplicity we shall continue to write $\mathcal R([0,1])$ for $\widetilde{\mathcal R}([0,1])$ and $\|f\|_1$ for $\|[f]\|_1$. Given the above facts, an important question is whether $\mathcal R([0,1])$ is complete with respect to $\|\cdot\|_1$.
+
+To understand this, we might at first consider the following example which you saw very early on in the lectures: let $q_1,q_2,q_3,\ldots$ be an enumeration of the rational numbers in $[0,1]$, and let $h_k$ be the indicator function of the set $\{q_1,q_2,\ldots,q_k\}$. We have that $h_k\to h$ pointwise on $[0,1]$ where $h:[0,1]\to\mathbb R$ is the indicator function of the set of all rationals in $[0,1]$. The $h_k$ are Riemann integrable, but $h$ is not; moreover, $(h_k)$ is a Cauchy sequence with respect to $\|\cdot\|_1$.
+
+\textbf{Question:} Why does this example not establish incompleteness of $(\mathcal R([0,1]),\|\cdot\|_1)$?
+
+Here is an outline of a slightly more elaborate construction, which follows the basic idea of the above example but considers, instead of $h_k$, the indicator function $f_k$ of a “fattened-up” version of $\{q_1,q_2,\ldots,q_k\}$. As an optional exercise, you may wish to complete this (to see incompleteness :)). Incompleteness of the $L^1$ norm on $\mathcal R([0,1])$ is a serious drawback of Riemann integration, which is very successfully resolved by the more general theory of Lebesgue integration (covered in Part II courses ‘Probability \& Measure’ and ‘Analysis of Functions’).
+
+Let $I_j=[q_j-\frac{1}{2^{j+2}},q_j+\frac{1}{2^{j+2}}]\cap[0,1]$ and let $J_k=\cup_{j=1}^k I_j$. Let $f_k:[0,1]\to\mathbb R$ be the indicator function of $J_k$.
+
+(a) Show that $f_k$ is Riemann integrable, with $0\le\int_0^1 f_k\le1/2$ for each $k$.
+
+(b) Show that $(f_k)$ is a Cauchy sequence with respect to $\|\cdot\|_1$.
+
+(c) Suppose (for a contradiction) that there is (a bounded) $g\in\mathcal R([0,1])$ such that $\|f_k-g\|_1\to0$. Show that $\int_{I_j}|1-g|=0$ for each $j$.
+
+(d) For any given interval $[p,q]\subset[0,1]$ with $p<q$, by choosing appropriate $I_j$ and using part (c), show that $\sup_{[p,q]}g\ge1$.
+
+(e) Deduce that any Riemann upper sum $U(P,g)\ge1$ and hence that $\int_0^1g\ge1$, which (since $\|f_k-g\|_1\to0$) contradicts part (a) . Conclude that $(\mathcal R([0,1]),\|\cdot\|_1)$ is incomplete.

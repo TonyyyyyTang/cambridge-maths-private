@@ -1,0 +1,10 @@
+In dimension two the implication fails. Take $U=\R^2$, $a=(0,0)$ and
+\[
+ f(x,y)=\begin{cases}x^3/(x^2+y^2),&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}
+\]
+This function is continuous, including at zero because $|f(x,y)|\le |x|$. It satisfies $f(tv)=t f(v)$ for every real $t$. For any curve differentiable at zero with $\gamma(0)=0$, the vector $\gamma(t)/t$ tends to $\gamma'(0)$. Thus
+\[
+ \frac{f(\gamma(t))-f(\gamma(0))}{t}
+ =f\left(\frac{\gamma(t)}{t}\right)\longrightarrow f(\gamma'(0)).
+\]
+The two-sided derivative of every such composition exists, even when the curve has zero velocity. If $f$ had a derivative $L$ at zero, testing on straight lines $t\mapsto tv$ would give $L(v)=f(v)$ for every $v$. But $f(1,0)=1$, $f(0,1)=0$ and $f(1,1)=1/2$, contradicting additivity of $L$. This counterexample extends to higher dimensions by ignoring the other coordinates. In dimension one a straight-line test through $a$ already gives ordinary differentiability.

@@ -1,0 +1,1159 @@
+scope: 2001 IB examination questions across eight represented confirmed-taken courses.
+  Whole-course audits remain pending.
+sample:
+  seed: 20270110
+  strata:
+    IB/analysis-ii:
+    - IB/2001/P1/q10A
+    - IB/2001/P1/q1A
+    - IB/2001/P2/q10A
+    - IB/2001/P2/q1A
+    - IB/2001/P3/q11A
+    - IB/2001/P3/q1A
+    - IB/2001/P4/q10A
+    - IB/2001/P4/q1A
+    IB/complex-methods:
+    - IB/2001/P1/q7E
+    - IB/2001/P2/q16E
+    - IB/2001/P2/q7E
+    - IB/2001/P4/q17F
+    - IB/2001/P4/q8F
+    IB/fluid-dynamics:
+    - IB/2001/P1/q15G
+    - IB/2001/P1/q6G
+    - IB/2001/P3/q18G
+    - IB/2001/P3/q8G
+    - IB/2001/P4/q16G
+    - IB/2001/P4/q7G
+    IB/linear-algebra:
+    - IB/2001/P1/q14C
+    - IB/2001/P1/q17B
+    - IB/2001/P1/q5C
+    - IB/2001/P2/q15C
+    - IB/2001/P2/q6C
+    - IB/2001/P2/q8B
+    - IB/2001/P3/q17C
+    - IB/2001/P3/q19B
+    - IB/2001/P3/q7C
+    - IB/2001/P3/q9B
+    - IB/2001/P4/q15C
+    - IB/2001/P4/q6C
+    IB/methods:
+    - IB/2001/P1/q11H
+    - IB/2001/P1/q16E
+    - IB/2001/P1/q2H
+    - IB/2001/P2/q11G
+    - IB/2001/P2/q2G
+    - IB/2001/P3/q12H
+    - IB/2001/P3/q2G
+    - IB/2001/P4/q11H
+    - IB/2001/P4/q2H
+    IB/numerical-analysis:
+    - IB/2001/P2/q14E
+    - IB/2001/P2/q5E
+    - IB/2001/P3/q16E
+    - IB/2001/P3/q6E
+    IB/quantum-mechanics:
+    - IB/2001/P1/q18F
+    - IB/2001/P1/q9F
+    - IB/2001/P2/q18F
+    - IB/2001/P2/q9F
+    - IB/2001/P3/q20F
+    IB/statistics:
+    - IB/2001/P1/q12D
+    - IB/2001/P1/q3D
+    - IB/2001/P2/q12D
+    - IB/2001/P2/q3D
+    - IB/2001/P4/q12D
+    - IB/2001/P4/q3D
+  selection:
+    IB/analysis-ii:
+    - IB/2001/P2/q1A
+    - IB/2001/P3/q1A
+    IB/complex-methods:
+    - IB/2001/P2/q7E
+    IB/fluid-dynamics:
+    - IB/2001/P1/q6G
+    - IB/2001/P1/q15G
+    IB/linear-algebra:
+    - IB/2001/P3/q17C
+    - IB/2001/P4/q15C
+    - IB/2001/P3/q19B
+    IB/methods:
+    - IB/2001/P1/q16E
+    - IB/2001/P4/q2H
+    IB/numerical-analysis:
+    - IB/2001/P2/q5E
+    IB/quantum-mechanics:
+    - IB/2001/P1/q18F
+    IB/statistics:
+    - IB/2001/P1/q3D
+    - IB/2001/P4/q3D
+observed:
+  population: 55
+  sampled: 14
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 12
+  pdf_pages: 16
+  browser_views: 14
+  rendered_formulas: 417
+independent_manifest_sha256: 0abcf5eca160aa525a0563398c89e3f4d0271752a2402f519e2ea9fb94864678
+auditor_report: '# Independent rework of fourteen Cambridge Part IB questions from
+  2001
+
+
+  I reworked all 14 questions from the supplied blind packets and compared the complete
+  question bodies with the stated printed questions on 12 original PDF page images.
+  The packet contents and original pages were the only mathematical inputs. The source
+  comparison included prose, hypotheses, subscripts, exponents, signs, subparts, punctuation,
+  matrix entries and hints. None of the sampled question bodies has an individual
+  mark allocation or a figure. Each source record binds the original PDF, question
+  text and independently derived answer to its SHA-256 digest.
+
+
+  | Paper | Printed page and question | Questions checked | Question-body transcription
+  discrepancies |
+
+  |---|---|---:|---:|
+
+  | 1 | p. 3, 3D and 6G; p. 7, 15G; p. 8, 16E; p. 9, 18F | 5 | 0 |
+
+  | 2 | p. 2, 1A; p. 3, 5E; p. 4, 7E | 3 | 0 |
+
+  | 3 | p. 2, 1A; p. 7, 17C; p. 8, 19B | 3 | 0 |
+
+  | 4 | p. 2, 2H and 3D; p. 7, 15C | 3 | 0 |
+
+
+  The observed body-transcription discrepancy count is 0/14. This blind pass did not
+  receive stored solutions, so the stored-solution error rate must be established
+  by the main agent''s comparison.
+
+
+  ## Mathematical qualifications for comparison
+
+
+  - Paper 1, 16E. The printed assumptions establish the Fourier coefficients but cannot
+  imply the asserted pointwise equality. A function equal to one at a single point
+  and zero elsewhere gives a uniformly convergent periodization and an identically
+  zero Fourier transform. The exponential example satisfies the additional regularity,
+  and the sum is $\pi\coth\pi$.
+
+  - Paper 1, 18F. The derivative jumps at the centre. The half-well state has a finite
+  quadratic-form energy although it is outside the operator domain of the Dirichlet
+  Hamiltonian. Both the weak pairing and the spectral energy yield $\hbar^2\pi^2/(2ma^2)$.
+
+  - Paper 1, 3D. The positive-parameter MLE exists except on the probability-zero
+  all-zero sample. Paper 1, 15G. The particle expansion holds on fixed bounded time
+  intervals.
+
+  - Paper 4, 2H. $P_0''=0$ is not an eigenfunction. Paper 4, 3D. Identifiability requires
+  a nonzero design vector, and the usual unknown-variance test needs at least two
+  observations.
+
+
+  ## Independent computational checks
+
+
+  I verified the Paper 2 LU product and right-hand side with exact integer arithmetic.
+  For Paper 1, 15G, numerical period averaging reproduced the Eulerian acceleration.
+  Fourth-order Runge–Kutta integration over one period with 2,000 steps gave horizontal
+  dye-particle speeds of $0.000200080039$ and $0.0000500050006$ at $\epsilon=0.02$
+  and $0.01$, respectively, against leading terms $0.0002$ and $0.00005$. For Paper
+  1, 16E the symmetric sum truncated at 100,000 differed from $\pi\coth\pi$ by less
+  than $2/100000$. For Paper 1, 18F the spectral energy ratio with 100,000 odd terms
+  was $0.9999979736$, and direct overlap quadrature reproduced the coefficients for
+  indices 1 through 7 and 9 to within $10^{-8}$. For Paper 4, 2H, 16-point Gauss–Legendre
+  quadrature gave absolute weighted inner products below $10^{-12}$ for all distinct
+  pairs among indices 1 through 8.
+
+  '
+main_resolution: The single-point Poisson summation counterexample preserves the computed
+  coefficient identity, and the exponential example gives pi coth(pi). The half-well
+  energy is well-defined through its quadratic form despite the derivative jump. We
+  checked the zero Legendre derivative exclusion, nonzero regression design, singular-matrix
+  conjugacy and the block QR argument. The original-page comma after the half-well
+  sine is present in the sampled text.
+questions:
+  IB/2001/P2/q1A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P2.pdf
+      original_pdf_sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+      source_page: 2
+      question_packet_sha256: 7d3b57d67e3a0e10b599fc2320358609aa3303d4eeba05b6ceaf120ef10120ec
+      blind_rework_sha256: 4a7a10b17f6f3864c83ee4002f63fbfb99196a452296c27bca03cff107ef5f5f
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 2, 1A
+
+
+      Let $(X,\rho)$ be a nonempty complete metric space and $f:X\to X$ satisfy $\rho(fu,fv)\le
+      q\rho(u,v)$ for every pair, with one constant $0\le q<1$. Then $f$ has a unique
+      fixed point and the iterates from every starting point converge to it.
+
+
+      Take any $u_0$ and put $u_{k+1}=f(u_k)$. The successive distances are at most
+      $q^k\rho(u_1,u_0)$, so for $l>k$ the triangle inequality and geometric sum give
+
+      \[
+
+      \rho(u_l,u_k)\le q^k\rho(u_1,u_0)/(1-q).
+
+      \]
+
+      This makes the iterates Cauchy. Completeness gives a limit $u$, and continuity
+      of the Lipschitz map gives $f(u)=\lim u_{k+1}=u$. If $v$ is also fixed, $\rho(u,v)\le
+      q\rho(u,v)$ forces $u=v$.
+
+
+      The prescribed distances are symmetric, positive for distinct arguments and
+      zero on the diagonal. A triangle with distinct vertices has sides $2,2,1$, satisfying
+      all three inequalities. Repeated vertices give immediate inequalities. Also
+      $d\le d''\le2d$, so the metrics are Lipschitz equivalent.
+
+
+      Define $f(x)=z$ and $f(y)=f(z)=y$. The pair $(y,z)$ has equal images. Each pair
+      involving $x$ and a different point has its $d''$-distance halved. Thus $1/2$
+      is a contraction constant for $d''$. For $(x,y)$ the discrete distance is one
+      both before and after applying $f$, ruling out any discrete contraction constant
+      less than one.
+
+      '
+    main_comparison: The geometric tail bound proves the contraction theorem. In the
+      three-point example the map collapses the short edge and halves the other two
+      distances, while its discrete Lipschitz constant is one.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P2.pdf
+      source_sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+      source_page: 2
+      compiled_pdf: build/IB-2001-P2/main.pdf
+      compiled_sha256: 4390a3a4afb55ae7474eca824e8b84171e584455b15321ad95051e3d54d185db
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2001/P2/q1A/index.html
+      html_sha256: ce992c50832932c28ddbeea1a01c93546c835ce3d6164723ccceac88af7b2feb
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: 7d3b57d67e3a0e10b599fc2320358609aa3303d4eeba05b6ceaf120ef10120ec
+      solution_sha256: 8f9613e8f3628c7b7a6e0df0ae1ed3e4ab44c21c17ef87aefe35265d930cf072
+      check_sha256: a3480e36c89f18cd0b6bbb5f35abf841464974cfaafb534520cc72e7bf924766
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P2/q1A · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P3/q1A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P3.pdf
+      original_pdf_sha256: 3d174b6c856cfb6ec4ac36ad8eba9ceb558611dce2bd7f62d702ebece553b647
+      source_page: 2
+      question_packet_sha256: 4196e1ab042e11dc72c85dc4f72dc1e0e25fcbfcbcbfffcf2a51b9ee66106512
+      blind_rework_sha256: 33e1b1c27ae6a4ed659e30f1efc715545bd5b423f201ee7c63730763ad2fc636
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 3, 1A
+
+
+      A norm $N$ on a real vector space is real-valued and nonnegative, with $N(x)=0$
+      exactly for $x=0$. It satisfies $N(tx)=|t|N(x)$ for real $t$ and $N(x+y)\le
+      N(x)+N(y)$.
+
+
+      Let $P,Q$ be norms. If $cP\le Q\le CP$ for constants $0<c\le C$, the metric
+      inequalities follow by substituting differences $x-y$. Each metric ball around
+      $x$ then contains a ball for the other metric about $x$, so the induced topologies
+      coincide. Conversely, if the metric topologies coincide, the $Q$-unit ball is
+      a neighborhood of zero for $P$, hence contains the $P$-ball of some radius $r>0$.
+      For every $v\ne0$ the vector $rv/(2P(v))$ lies in this latter ball, so $Q(v)<2P(v)/r$.
+      Interchanging $P,Q$ gives a converse bound and zero satisfies both inequalities.
+      No dimension assumption enters.
+
+
+      For a real inner product, symmetry and bilinearity give $\|x\pm y\|^2=\|x\|^2\pm2\langle
+      x,y\rangle+\|y\|^2$. Adding proves the parallelogram identity. For the maximum
+      norm, take $x=(1,0)$ and $y=(0,1)$. Both $x+y$ and $x-y$ have norm one, as do
+      $x$ and $y$, so the identity would read $2=4$. This excludes an inducing inner
+      product.
+
+      '
+    main_comparison: Scaling the open unit ball inclusion yields two-sided bounds
+      for arbitrary-dimensional norms. The maximum norm on the two coordinate vectors
+      gives 2 and 4 on the opposite sides of the parallelogram law.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P3.pdf
+      source_sha256: 3d174b6c856cfb6ec4ac36ad8eba9ceb558611dce2bd7f62d702ebece553b647
+      source_page: 2
+      compiled_pdf: build/IB-2001-P3/main.pdf
+      compiled_sha256: 11018b9dcc53f44c6ef418ac9c0163c4ada0418c29b8aa8e22f7cf061332d40c
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2001/P3/q1A/index.html
+      html_sha256: 0e4c4a6da97a5ecd8beb7090055e982740272fab887300966bbb41f2499e7de6
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: 4196e1ab042e11dc72c85dc4f72dc1e0e25fcbfcbcbfffcf2a51b9ee66106512
+      solution_sha256: a776f78dc20f430c9088b1e6ff9e03637e9b36c948617280fdb4230a51010280
+      check_sha256: 1c8c45e2349a46e98d8f471a86c01544d116083daf0de1446a47a901857d8491
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P3/q1A · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P2/q7E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P2.pdf
+      original_pdf_sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+      source_page: 4
+      question_packet_sha256: 71d3faf62eee1293381285ef88b544a3c6cbd1370bd976e14d0fbba7185da06a
+      blind_rework_sha256: 655c3e9f41f95a2b28ec135ef8e1d3d3c9420662e903bd6b3ceca2a487428aeb
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 2, 7E
+
+
+      At any $z=x+iy\in V$, complex differentiability means that the limit
+
+      \[
+
+      f''(z)=\lim_{h\to0,\ h\ne0}\frac{f(z+h)-f(z)}{h}
+
+      \]
+
+      exists as a complex number independent of the direction of approach. Since $V$
+      is open, all sufficiently short real and imaginary increments remain inside
+      $V$. Write $f=u+iv$. For real $h=s$, the real and imaginary parts of the quotient
+      tend respectively to $u_x$ and $v_x$, proving their existence and giving $f''=u_x+iv_x$.
+      For $h=is$, dividing the changes in $u+iv$ by $is$ instead gives $f''=v_y-iu_y$,
+      with both partial derivatives again existing. Thus $u_x=v_y$ and $u_y=-v_x$
+      throughout $V$.
+
+      '
+    main_comparison: The real and imaginary coordinate difference quotients must have
+      the same complex limit, giving the two Cauchy–Riemann equations without assuming
+      continuity of the partial derivatives.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P2.pdf
+      source_sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+      source_page: 4
+      compiled_pdf: build/IB-2001-P2/main.pdf
+      compiled_sha256: 4390a3a4afb55ae7474eca824e8b84171e584455b15321ad95051e3d54d185db
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2001/P2/q7E/index.html
+      html_sha256: 4a06b589216fed2bec3ada7bfbe2e84eb95f8a86d1c9996abd88bfb23a266d82
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: 71d3faf62eee1293381285ef88b544a3c6cbd1370bd976e14d0fbba7185da06a
+      solution_sha256: 2b30b71e41bceca545223d15ab16b168a114d644fb78531a16b2a49323198df5
+      check_sha256: af2eee727d2a8d3a7e1740e6a5b5c7742345b2d13abea39a92e2f6c3d4ee6934
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P2/q7E · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P1/q6G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P1.pdf
+      original_pdf_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 3
+      question_packet_sha256: 436e01b00a824da1e48c69e763b96eab18320f6f6161f102557a6890d960c04d
+      blind_rework_sha256: d9ccdd6a165113a13ee3014963d1f4f734fe6c528ef36c126040f4bf55ae1fa3
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 1, 6G
+
+
+      Take $z$ to increase downwards, let $\mathbf e_z$ be its unit vector and write
+      $p_s$ for the pressure at the surface. Hydrostatic force balance on an infinitesimal
+      element gives $\nabla p=\rho g\mathbf e_z$, hence $p(z)=p_s+\rho gz$. If $\mathbf
+      n$ points outwards from the immersed body''s volume $V$, the fluid exerts the
+      resultant
+
+      \[
+
+      -\int_{\partial V}p\mathbf n\,dS
+
+      =-\int_V\nabla p\,dV=-\rho gV\mathbf e_z.
+
+      \]
+
+      Here $p_s+\rho gz$ extends the fluid pressure through the displaced volume.
+      The force points vertically upwards with magnitude $\rho gV$.
+
+
+      Let $W$ denote the iceberg''s total volume. The immersed volume is $W-V_I$.
+      Uniform atmospheric pressure cancels over the complete boundary. The balance
+      of seawater buoyancy and weight gives $\rho_w(W-V_I)g=\rho_I Wg$, so
+
+      \[
+
+      W=\frac{\rho_w V_I}{\rho_w-\rho_I}.
+
+      \]
+
+      Positive freeboard and positive iceberg density require $0<\rho_I<\rho_w$ in
+      this model.
+
+      '
+    main_comparison: Continuing the hydrostatic pressure through the displaced volume
+      and integrating its gradient gives upward force rho gV. Substituting the actual
+      submerged volume into flotation supplies the total volume and the density inequality.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P1.pdf
+      source_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 3
+      compiled_pdf: build/IB-2001-P1/main.pdf
+      compiled_sha256: eea1de651d1bbfc2a986e7d36bb16c4cbc5ca3793dcf8e54130e001987f08fc7
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2001/P1/q6G/index.html
+      html_sha256: 41fc4d5e44857ddbc186f6500159f2a29d635867edc0aa3a4fbbe7ac16d11206
+      math_nodes: 17
+      diagrams: {}
+      question_sha256: 436e01b00a824da1e48c69e763b96eab18320f6f6161f102557a6890d960c04d
+      solution_sha256: 532964f61365408ca931e3ba17ed48949cea17f4c5c693669102178c6c1f8c7a
+      check_sha256: e7f4dec8a179578e3daee4cde265be8ef70d378dbe29beba9f399656120ec4bc
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P1/q6G · Cambridge Maths
+      math: 17
+      rendered: 17
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P1/q15G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P1.pdf
+      original_pdf_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 7
+      question_packet_sha256: 4e50a8063af8a948915cb2183462b501d6f5148a81639caa59e94a4f541c4be6
+      blind_rework_sha256: b2cd4fe18af408ad3e0d7fdab70b95d05f53f26d39908a63eb478a5216787c55
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: "# IB 2001 Paper 1, 15G\n\nSet $\\theta=x-t$. The gradient\
+      \ of the potential gives $\\mathbf u=(-\\epsilon y\\sin\\theta,\\epsilon\\cos\\\
+      theta)$ and $\\nabla\\cdot\\mathbf u=-\\epsilon y\\cos\\theta$. Each velocity\
+      \ component at fixed $(x,y)$ integrates to zero over a complete period. The\
+      \ material acceleration is $\\partial_t\\mathbf u+(\\mathbf u\\cdot\\nabla)\\\
+      mathbf u$, which evaluates to\n\\[\n(\\epsilon y\\cos\\theta+\\epsilon^2(y^2-1)\\\
+      sin\\theta\\cos\\theta,\\\n \\epsilon\\sin\\theta+\\epsilon^2y\\sin^2\\theta).\n\
+      \\]\nAveraging at fixed $(x,y)$ gives $(0,\\epsilon^2y/2)$.\n\nThe marked particle\
+      \ satisfies $\\dot X=-\\epsilon Y\\sin(X-t)$ and $\\dot Y=\\epsilon\\cos(X-t)$,\
+      \ with $X(0)=Y(0)=0$. On any fixed bounded time interval $\\dot Y=O(\\epsilon)$\
+      \ gives $Y=O(\\epsilon)$, then $\\dot X=O(\\epsilon^2)$ gives $X=O(\\epsilon^2)$.\
+      \ Thus $\\dot Y=\\epsilon\\cos t+O(\\epsilon^3)$ and $Y=\\epsilon\\sin t+O(\\\
+      epsilon^3)$. Substituting back,\n\\[\n\\dot X=\\epsilon^2\\sin^2t+O(\\epsilon^4),\\\
+      qquad\nX=\\epsilon^2(t/2-\\sin(2t)/4)+O(\\epsilon^4).\n\\]\nThe net displacement\
+      \ divided by $2\\pi$ is $(\\epsilon^2/2,0)$ through order $\\epsilon^2$. The\
+      \ secular term does not justify extrapolating this expansion uniformly to arbitrarily\
+      \ long times.\n"
+    main_comparison: A fixed-point average of the gradient vanishes, yet the mean
+      material acceleration has vertical component epsilon squared times y/2. Following
+      the particle from the origin generates horizontal drift epsilon squared/2 over
+      its first period.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P1.pdf
+      source_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 7
+      compiled_pdf: build/IB-2001-P1/main.pdf
+      compiled_sha256: eea1de651d1bbfc2a986e7d36bb16c4cbc5ca3793dcf8e54130e001987f08fc7
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2001/P1/q15G/index.html
+      html_sha256: e454cb6b3e567c96ff9584f70410d862d1aaa44bdbf2263f8d2cf9bf0883b92a
+      math_nodes: 34
+      diagrams: {}
+      question_sha256: 4e50a8063af8a948915cb2183462b501d6f5148a81639caa59e94a4f541c4be6
+      solution_sha256: 72cc651d415e66c3ce2614bb8895620cf2f431d2cb8c06d48e82062c6e917c49
+      check_sha256: bd1d0f53abf93a6bdcb9bfcce3867092121d1bfd956e0aaea2499528c1745e9a
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P1/q15G · Cambridge Maths
+      math: 34
+      rendered: 34
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P3/q17C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P3.pdf
+      original_pdf_sha256: 3d174b6c856cfb6ec4ac36ad8eba9ceb558611dce2bd7f62d702ebece553b647
+      source_page: 7
+      question_packet_sha256: 21ae2b914bb5bc1ce46ea98708b2a7b76b6d0031fbf379847bea0fed42fefacf
+      blind_rework_sha256: 7575096ce172fcee698e428ad23322e8069c838e26b07d9e2154ffbaebb1a53a
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 3, 17C
+
+
+      Let $K_j=\ker\alpha^j$ with $K_0=0$. These subspaces increase up to $K_m=V$,
+      and $\alpha K_j\subset K_{j-1}$. Begin with a basis of $K_1$ and successively
+      extend it to a basis of each $K_j$, placing the newly added vectors last. The
+      image of each basis vector is in the span of basis vectors from strictly earlier
+      layers. The representing matrix therefore has zeros on and below its diagonal.
+      For the first claim this basis ordering also works with arbitrary-dimensional
+      layers given basis extension; the exponent bound in the next part concerns finite
+      dimension.
+
+
+      For $n=\dim V<\infty$, the span of the first $i$ basis vectors maps into the
+      span of the first $i-1$, so $\alpha^nV=0$. If $V=0$ this remains true since
+      the identity is its zero map. Take the $4\times4$ matrix with ones at $(1,2),(2,3),(3,4)$
+      and zeros elsewhere. Its cube sends $e_4$ to $e_1$ and its fourth power is zero.
+
+
+      In a triangularizing basis $I+A$ is upper triangular with every diagonal entry
+      one, so its characteristic polynomial is $(t-1)^n$. For the product take $A=E_{12}$
+      and $B=E_{21}$ in dimension two. Both square to zero, while
+
+      \[
+
+      (I+A)(I+B)=\begin{pmatrix}2&1\\1&1\end{pmatrix}
+
+      \]
+
+      has characteristic polynomial $t^2-3t+1$. Its trace already rules out two eigenvalues
+      equal to one.
+
+      '
+    main_comparison: A basis adapted to the kernels of powers puts the nilpotent operator
+      in strictly upper triangular form. The size-four chain attains index four. The
+      product of the two shifted square-zero matrices has trace three in dimension
+      two and cannot have all eigenvalues one.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P3.pdf
+      source_sha256: 3d174b6c856cfb6ec4ac36ad8eba9ceb558611dce2bd7f62d702ebece553b647
+      source_page: 7
+      compiled_pdf: build/IB-2001-P3/main.pdf
+      compiled_sha256: 11018b9dcc53f44c6ef418ac9c0163c4ada0418c29b8aa8e22f7cf061332d40c
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2001/P3/q17C/index.html
+      html_sha256: 914a7ada8ba1ce35b52a7f29431171cde0971a5efb4ddd3f462a5363baf45fd0
+      math_nodes: 42
+      diagrams: {}
+      question_sha256: 21ae2b914bb5bc1ce46ea98708b2a7b76b6d0031fbf379847bea0fed42fefacf
+      solution_sha256: 97013151462449a7297b34db0b4dd03e76a8d71c592df02c6fc0c6fe9702bed6
+      check_sha256: a399a098128b211b1f1fdf76961afeb673f81afa1eb35684f219154efb8ae060
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P3/q17C · Cambridge Maths
+      math: 42
+      rendered: 42
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P4/q15C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P4.pdf
+      original_pdf_sha256: d4d807006f79b7aab50caf83d830bc4a6434fc951a1aa6afcdf96a429bb21eec
+      source_page: 7
+      question_packet_sha256: a04bebd4e40c8745d314d51758099fc4a9b15a3848a47f484c5f2a7338dbb045
+      blind_rework_sha256: ee19e3adec61ebe310ca132b7c9476e0a2e9fe2d69c1ad622df5095cf1cf2d0f
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 4, 15C
+
+
+      For all but finitely many $y\in\mathbb C$, $C=A+yI$ is invertible since its
+      determinant is monic in $y$. Then $CB=C(BC)C^{-1}$, so $\det(xI-CB)=\det(xI-BC)$.
+      Both sides are polynomials in $y$ for each $x$; equality extends to $y=0$. This
+      proves the characteristic polynomial identity, also for singular $A$. Take $A=E_{11}$
+      and $B=E_{21}$ of size two. Then $AB=0$ has minimal polynomial $x$, but $BA=E_{21}$
+      has minimal polynomial $x^2$.
+
+
+      For each $k\ge0$, $B(AB)^k A=(BA)^{k+1}$. By linearity $(BA)p(BA)=Bp(AB)A=0$,
+      so the minimal polynomial of $BA$ divides $xp(x)$, by polynomial division. Diagonalizability
+      of $AB$ makes $p$ the product of distinct linear factors. In the Jordan form
+      of $BA$ every block for a nonzero eigenvalue has size one, and any blocks for
+      zero have size at most two. Squaring therefore makes every zero block zero and
+      every other block a scalar of size one. Thus $(BA)^2$ is diagonalizable, as
+      is $(AB)^2$. The original characteristic polynomial identity gives identical
+      multisets of eigenvalues with multiplicity, so squaring produces the same multisets
+      again, even when opposite eigenvalues coalesce. The two diagonal forms agree
+      up to permutation, proving conjugacy.
+
+      '
+    main_comparison: A scalar perturbation proves characteristic-polynomial equality
+      including singular factors. The adjoint-order product identity bounds the possible
+      zero Jordan blocks by size two for diagonalizable AB. Squaring kills those blocks;
+      the two squares are diagonalizable with matching eigenvalue multiplicities.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P4.pdf
+      source_sha256: d4d807006f79b7aab50caf83d830bc4a6434fc951a1aa6afcdf96a429bb21eec
+      source_page: 7
+      compiled_pdf: build/IB-2001-P4/main.pdf
+      compiled_sha256: ab4e37d80fb2ffae0dbe7f293dcdfa642260cefd175e88140920f325be0618cc
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2001/P4/q15C/index.html
+      html_sha256: f707a271b18818b95341e50adfc1342f248996114cfe1d345c5987fbbc6c3d2c
+      math_nodes: 47
+      diagrams: {}
+      question_sha256: a04bebd4e40c8745d314d51758099fc4a9b15a3848a47f484c5f2a7338dbb045
+      solution_sha256: aee75b795f4e95e630414aef28419b34298e1375797d7c95c2aa9b0347e9d9aa
+      check_sha256: f8fa16010af2f355ddadc15c36e7e9bade0344096b208a92ba37393866138ae4
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P4/q15C · Cambridge Maths
+      math: 47
+      rendered: 47
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P3/q19B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P3.pdf
+      original_pdf_sha256: 3d174b6c856cfb6ec4ac36ad8eba9ceb558611dce2bd7f62d702ebece553b647
+      source_page: 8
+      question_packet_sha256: 6907dd013c6e71bdfd7251f1094c2e063239e5ba5d3621694a46010a2cd08d6f
+      blind_rework_sha256: f1ae82dc4e128683fef8a202e4de1aefe4046f1c7025182eef5acbf0d366ba7a
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 3, 19B
+
+
+      Write $J=J_1$. Orthogonality of $J^{-1}TJT^{-1}$, after multiplying its Gram
+      matrix equation on the left by $T^t$ and on the right by $T$, becomes $J^t GJ=G$
+      for $G=T^tT$, since $J$ is orthogonal. For $G=\left(\begin{smallmatrix}g&h\\h&k\end{smallmatrix}\right)$
+      the left side is $\left(\begin{smallmatrix}k&-h\\-h&g\end{smallmatrix}\right)$.
+      Thus $h=0$ and $k=g$. If $T=\left(\begin{smallmatrix}a&b\\0&d\end{smallmatrix}\right)$
+      with $a,d>0$, the columns are orthogonal with equal length. Therefore $ab=0$,
+      $b=0$, and $d=a$. Hence $T=aI$ commutes with $J$.
+
+
+      For any invertible real square $A$, apply Gram–Schmidt to its ordered columns
+      $a_j$. Subtract the projections on the earlier orthonormal $u_i$ and divide
+      the remainder by its positive length to obtain $u_j$. The remainder is nonzero
+      because the columns are independent. With $B=[u_1,\ldots,u_N]$, set $C=B^t A$.
+      Then $B$ is orthogonal, $A=BC$, $C_{ij}=0$ for $i>j$, and $C_{jj}$ is that positive
+      length.
+
+
+      For the stated $2n$-dimensional decomposition (in particular $A$ is invertible),
+      $KBC=BCK$ gives $CKC^{-1}=B^{-1}KB$. The right-hand side and $K^{-1}$ are orthogonal,
+      so $D=K^{-1}CKC^{-1}$ is orthogonal. With consecutive coordinate pairs as blocks,
+      $C$ and $C^{-1}$ are block upper triangular, and $K$ and $K^{-1}$ are block
+      diagonal. Hence $D$ is block upper triangular. Its inverse is also block upper
+      triangular, while $D^{-1}=D^t$ is block lower triangular. This forces $D$ to
+      be block diagonal. Each of its diagonal blocks $E_i$ is orthogonal.
+
+
+      Multiplication of block upper triangular matrices multiplies their corresponding
+      diagonal blocks, and inversion inverts these blocks. Thus
+
+      \[
+
+      E_i=J^{-1}C_iJC_i^{-1},\quad C_i=C_{ii},
+
+      \]
+
+      where $C_i$ is upper triangular with strictly positive diagonal entries. The
+      first part gives $C_iJ=JC_i$ and therefore $E_i=I_2$ for every $i$. It follows
+      that $D=I$ and $KC=CK$. Finally $KB=KAC^{-1}=AKC^{-1}=AC^{-1}K=BK$.
+
+      '
+    main_comparison: Escalation resolved. Orthogonality forces the Gram matrix of
+      the two-by-two triangular block to be scalar. Using positive diagonal QR in
+      block dimension two makes the orthogonal triangular commutator block diagonal.
+      Each diagonal block is identity by the first argument, giving the two required
+      commutations.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P3.pdf
+      source_sha256: 3d174b6c856cfb6ec4ac36ad8eba9ceb558611dce2bd7f62d702ebece553b647
+      source_page: 8
+      compiled_pdf: build/IB-2001-P3/main.pdf
+      compiled_sha256: 11018b9dcc53f44c6ef418ac9c0163c4ada0418c29b8aa8e22f7cf061332d40c
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2001/P3/q19B/index.html
+      html_sha256: 2bf57221e3f5d75b30fa754058ded06872e32cc6522256c0c63e6aeaa056f103
+      math_nodes: 74
+      diagrams: {}
+      question_sha256: 6907dd013c6e71bdfd7251f1094c2e063239e5ba5d3621694a46010a2cd08d6f
+      solution_sha256: dec7cf4b6c153b1797a5634aabb97c5690fa5f865090406d480ddc50cba0ee10
+      check_sha256: 00aaec1ba62ec15e846c1e618b43beaa9ef77211123320fbca06581ceaf4b3c3
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P3/q19B · Cambridge Maths
+      math: 74
+      rendered: 74
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P1/q16E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P1.pdf
+      original_pdf_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 8
+      question_packet_sha256: 5d731bc290c6f81c83b14dd5affa5c6ac45a566e3f9fc199e766d3c8b3cf69e8
+      blind_rework_sha256: 6e45efdbb32cac3335a4983c582793231121657dc2747b2fd003bff48e194cc1
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 1, 16E
+
+
+      Use $\widehat F(m)=\int_{\mathbb R} F(u)e^{-imu}\,du$. The total integral over
+      one period of the sum of absolute translates is $\int_{\mathbb R}|F|$, by Tonelli''s
+      theorem. Switching summation and integration in the Fourier coefficient is therefore
+      legitimate. In the $k$th integral set $u=x+2\pi k$ and use $e^{2\pi imk}=1$.
+      The translated intervals tile the real line, giving
+
+      \[
+
+      c_m=\frac1{2\pi}\int_0^{2\pi} f(x)e^{-imx}\,dx
+
+      =\frac{\widehat F(m)}{2\pi}.
+
+      \]
+
+      The periodization is $2\pi$-periodic wherever the translates converge absolutely,
+      by shifting the summation index, hence almost everywhere. Under the usual convention
+      of convergence of the two tails it is periodic pointwise wherever the translated
+      series is defined. These coefficients give the formal Fourier expansion.
+
+
+      The printed assumptions do not imply the requested equality of values at every
+      point. Set $F(1)=1$ and $F(x)=0$ elsewhere. On $[0,2\pi]$ only the central translate
+      can be nonzero, so convergence is uniform. Every Fourier transform value is
+      zero while $f(1)=1$. For an everywhere continuous, piecewise continuously differentiable
+      periodization, the Fourier convergence theorem does yield the claimed pointwise
+      formula.
+
+
+      For $F(x)=e^{-|x|}$ the tails of the periodization are uniformly bounded by
+      geometric tails on $[0,2\pi]$. The resulting periodic function is continuous
+      and piecewise smooth (on the open interval it is a sum of two geometric series
+      times $e^{\pm x}$). The transform is
+
+      \[
+
+      \widehat F(m)=\frac1{1+im}+\frac1{1-im}=\frac{2}{1+m^2}.
+
+      \]
+
+      Its Fourier series converges absolutely. At zero $f(0)=1+2e^{-2\pi}/(1-e^{-2\pi})=\coth\pi$,
+      giving $\sum_{m\in\mathbb Z}(1+m^2)^{-1}=\pi\coth\pi$.
+
+      '
+    main_comparison: Escalation resolved. Integrating one period gives the Fourier
+      coefficients, but the periodization of a singleton spike has all zero coefficients
+      and still differs at the spike. The exponential example meets the added inversion
+      regularity and gives pi coth(pi). The general printed claim is qualified.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P1.pdf
+      source_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 8
+      compiled_pdf: build/IB-2001-P1/main.pdf
+      compiled_sha256: eea1de651d1bbfc2a986e7d36bb16c4cbc5ca3793dcf8e54130e001987f08fc7
+      compiled_pages:
+      - 16
+      - 17
+      html: site/private/questions/IB/2001/P1/q16E/index.html
+      html_sha256: e6438575afabef27440c069fa80a93da14f3d6e112bf50e66719f18745ee61b7
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: 5d731bc290c6f81c83b14dd5affa5c6ac45a566e3f9fc199e766d3c8b3cf69e8
+      solution_sha256: 9396ccbf9f43d9ff2e38ea57ccaa9274dfdba99ee49d930b2a675bb3c07a89cd
+      check_sha256: d30aefbbb244b97ffde16603e99d8ead5b457a82a65a629ee187af40b25fd293
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P1/q16E · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P4/q2H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P4.pdf
+      original_pdf_sha256: d4d807006f79b7aab50caf83d830bc4a6434fc951a1aa6afcdf96a429bb21eec
+      source_page: 2
+      question_packet_sha256: c299dc0cabbbfaf6b9353ea4d75aa5703515c9610bfc8ab32c62513ab75dda07
+      blind_rework_sha256: 835963457cac4836b1524ba1016aee302d0c29c229c2e73f3f813131a6f3a60a
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 4, 2H
+
+
+      Differentiate the given polynomial identity and put $R_n=P_n''$. Combining the
+      two contributions to the first derivative and collecting terms gives
+
+      \[
+
+      (1-x^2)R_n''''-4xR_n''+[n(n+1)-2]R_n=0.
+
+      \]
+
+      Multiplication by $1-x^2$ yields
+
+      \[
+
+      -\big((1-x^2)^2R_n''\big)''=\lambda_n(1-x^2)R_n,
+
+      \qquad \lambda_n=(n-1)(n+2).
+
+      \]
+
+      Thus the weight is $w=1-x^2$ and the leading coefficient is $(1-x^2)^2$. For
+      $n\ge1$ the eigenfunctions are nonzero. At $n=0$ the derivative of the constant
+      $P_0$ is identically zero and hence does not define an eigenfunction.
+
+
+      Multiply the $n$ equation by $R_m$, subtract the $m$ equation times $R_n$, and
+      integrate on $[-1,1]$. The boundary term $[(1-x^2)^2(R_nR_m''-R_mR_n'')]_{-1}^{1}$
+      is zero because both functions and derivatives are polynomials. Consequently
+      $(\lambda_n-\lambda_m)\int_{-1}^1(1-x^2)R_nR_m\,dx=0$. Distinct positive indices
+      have distinct eigenvalues, so their weighted inner product vanishes. The same
+      integral is trivially zero when an index equals zero.
+
+      '
+    main_comparison: Multiplying the differentiated Legendre equation by 1−x squared
+      puts it into self-adjoint form. Its boundary Wronskian vanishes since the leading
+      coefficient vanishes at both ends. The derivative of P0 is zero and is excluded
+      as an eigenfunction.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P4.pdf
+      source_sha256: d4d807006f79b7aab50caf83d830bc4a6434fc951a1aa6afcdf96a429bb21eec
+      source_page: 2
+      compiled_pdf: build/IB-2001-P4/main.pdf
+      compiled_sha256: ab4e37d80fb2ffae0dbe7f293dcdfa642260cefd175e88140920f325be0618cc
+      compiled_pages:
+      - 2
+      html: site/private/questions/IB/2001/P4/q2H/index.html
+      html_sha256: ca303aafe46ada2542112d4f21e041cd10d7e0e16531a89e384092d2a5d08715
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: c299dc0cabbbfaf6b9353ea4d75aa5703515c9610bfc8ab32c62513ab75dda07
+      solution_sha256: f7e3a5932d050dffcec157e86b528a03e5c707d0083c0e3f5bfffc9efc5f88c1
+      check_sha256: a58f8b33fba9ea57aa23980be919ae0a03ecd249c716d822cfc92a9c165c5385
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P4/q2H · Cambridge Maths
+      math: 16
+      rendered: 16
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P2/q5E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P2.pdf
+      original_pdf_sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+      source_page: 3
+      question_packet_sha256: 2a863cda5ef4e23586e9e95898c84b6322cf29c4eab39b08baee293f1b57f222
+      blind_rework_sha256: 221dac23d40e1f9114dd2e657013a667c39a05672f36c8a30c6de5f013f58ddc
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 2, 5E
+
+
+      Eliminate the first column below the leading $2$ using multipliers $-2,2,-3$.
+      The new bottom three rows are $(0,1,2,2),(0,0,-3,2),(0,2,1,7)$. The second-column
+      multiplier for the last row is $2$, leaving $(0,0,-3,3)$, and the last multiplier
+      is $1$. Storing these multipliers gives
+
+      \[
+
+      L=\begin{pmatrix}1&0&0&0\\-2&1&0&0\\2&0&1&0\\-3&2&1&1\end{pmatrix},
+
+      \quad
+
+      U=\begin{pmatrix}2&-1&3&2\\0&1&2&2\\0&0&-3&2\\0&0&0&1\end{pmatrix}.
+
+      \]
+
+      Forward substitution in $Ly=b$ gives $y=(-2,-2,8,1)^T$. Back substitution in
+      $Ux=y$ gives $x=(1,0,-2,1)^T$. Direct multiplication gives the components of
+      $Ax$ as $2-6+2=-2$, $-4+8-2=2$, $4-6+6=4$, and $-6+16+1=11$.
+
+      '
+    main_comparison: Elimination multipliers reconstruct the two triangular factors.
+      Forward substitution gives (−2,−2,8,1), and the solution (1,0,−2,1) satisfies
+      the original system.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P2.pdf
+      source_sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
+      source_page: 3
+      compiled_pdf: build/IB-2001-P2/main.pdf
+      compiled_sha256: 4390a3a4afb55ae7474eca824e8b84171e584455b15321ad95051e3d54d185db
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2001/P2/q5E/index.html
+      html_sha256: 7682c010f2b4c35fd33c773bc4085ff622ed5172b6a13828151056e21d68f608
+      math_nodes: 14
+      diagrams: {}
+      question_sha256: 2a863cda5ef4e23586e9e95898c84b6322cf29c4eab39b08baee293f1b57f222
+      solution_sha256: be014e2a04f1e496786294c470db383064e09ae523d5038671b613ecfadf0a30
+      check_sha256: 9c1b716299cb3a1e2f809993f810fda4262c032a155a54881da7ddcf7bfd9f0a
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P2/q5E · Cambridge Maths
+      math: 14
+      rendered: 14
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P1/q18F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P1.pdf
+      original_pdf_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 9
+      question_packet_sha256: ace8b4bb83d022cb50f47d15450bc0808be534c4d9cc53a7d90eabcb32ed1f2c
+      blind_rework_sha256: 8487bcf9611a21753c96559f54ba98aaa9114769b39fe8dc62a5f5b7be800017
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: "# IB 2001 Paper 1, 18F\n\nThe impenetrable walls give the\
+      \ Dirichlet conditions at $\\pm a$. In the interval $H=-(\\hbar^2/2m)d^2/dx^2$.\
+      \ Integrating by parts gives nonnegative energy, and zero energy would force\
+      \ a constant, hence zero, eigenfunction. For $E>0$ the left boundary selects\
+      \ a multiple of $\\sin(k(x+a))$, with $k=\\sqrt{2mE}/\\hbar$. The right boundary\
+      \ requires $2ak=n\\pi$, $n=1,2,\\ldots$. Its squared sine integrates to $a$,\
+      \ giving the stated normalizations and\n\\[\nE_n=\\frac{\\hbar^2 n^2\\pi^2}{8ma^2}.\n\
+      \\]\nThe translated Fourier sine system is complete on the interval. The half-well\
+      \ state is normalized since $(2/a)\\int_0^a\\sin^2(\\pi x/a)\\,dx=1$.\n\nIts\
+      \ derivative jumps at zero. The state belongs to the Dirichlet energy form domain\
+      \ $H^1_0(-a,a)$ but not the operator domain $H^2(-a,a)\\cap H^1_0(-a,a)$. The\
+      \ position-space expectation is rigorously\n\\[\n\\frac{\\hbar^2}{2m}\\int_{-a}^a|\\\
+      psi'(x)|^2\\,dx\n=\\frac{\\hbar^2}{2m}\\frac{2\\pi^2}{a^3}\\int_0^a\\cos^2(\\\
+      pi x/a)\\,dx\n=E_2 .\n\\]\nEquivalently the weak second derivative on the open\
+      \ well equals the regular second derivative on each side plus $\\sqrt{2/a}(\\\
+      pi/a)\\delta_0$. Its latter contribution paired with $\\psi$ vanishes since\
+      \ $\\psi(0)=0$. This explains the printed notation $\\int\\psi H\\psi$.\n\n\
+      For even indices $n=2k$, the eigenfunction on the right half is $(-1)^k a^{-1/2}\\\
+      sin(k\\pi x/a)$. Sine orthogonality gives $a_2=-1/\\sqrt2$ and all other even\
+      \ coefficients zero. For $n=2p+1$, put $u=\\pi x/a$. The overlap coefficient\
+      \ is\n\\[\na_n=\\frac{\\sqrt2(-1)^p}{\\pi}\\int_0^\\pi \\sin u\\cos(nu/2)\\\
+      ,du\n=\\frac{4\\sqrt2(-1)^p}{\\pi(4-n^2)}.\n\\]\nBy the product-to-sum identity\
+      \ the integral is $\\tfrac12[(1+n/2)^{-1}+(1-n/2)^{-1}]=1/(1-n^2/4)$, since\
+      \ $\\cos((1\\pm n/2)\\pi)=0$ for odd $n$.\n\nThe spectral expectation is thus\n\
+      \\[\n\\sum_n|a_n|^2E_n\n=E_2\\left(\\frac12+\\frac8{\\pi^2}\\sum_{p\\ge0}\n\
+      \ \\frac{(2p+1)^2}{[(2p+1)^2-4]^2}\\right).\n\\]\nThe series converges since\
+      \ its summand is $O(p^{-2})$. Equality with the form energy and division by\
+      \ $E_2$ give the requested identity.\n"
+    main_comparison: Escalation resolved. The kink is compatible with the energy form
+      but excludes the Hamiltonian operator domain. Integrating the squared first
+      derivative gives E2. Direct overlaps give only a2 among even coefficients and
+      the same alternating odd coefficients in both solutions. The weighted sum converges
+      and gives the printed identity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P1.pdf
+      source_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 9
+      compiled_pdf: build/IB-2001-P1/main.pdf
+      compiled_sha256: eea1de651d1bbfc2a986e7d36bb16c4cbc5ca3793dcf8e54130e001987f08fc7
+      compiled_pages:
+      - 19
+      - 20
+      html: site/private/questions/IB/2001/P1/q18F/index.html
+      html_sha256: 957b32b11186a1fa198031996d4f982bcddd5003576bc6c917e4339029978b63
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: ace8b4bb83d022cb50f47d15450bc0808be534c4d9cc53a7d90eabcb32ed1f2c
+      solution_sha256: 3be35f6fd02a4e5e1d67145ce29a4618007e259772d3c19b84b7b65e9aeab887
+      check_sha256: a4a1ad8215117f81101ba9c6b492aa962b6304ecbd5fa3a0c159dbc775ad2f15
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P1/q18F · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P1/q3D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P1.pdf
+      original_pdf_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 3
+      question_packet_sha256: 99968e74b5b9534e4f59229bc5c0a8564b9901a14ce4202cc13ca91bab8f9e1b
+      blind_rework_sha256: e60d00296210aeb05e4fd4723ac93d272cad9e6744887fa34152c4357489e0ae
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 1, 3D
+
+
+      Put $S=\sum_i x_i$ and $Q=\sum_i x_i^2$. The joint Lebesgue density is
+
+      \[
+
+      (2\pi)^{-n/2}\mu^{-n}\exp\{-Q/(2\mu^2)+S/\mu-n/2\}.
+
+      \]
+
+      The Neyman–Fisher factorization criterion for this dominated family states that
+      $T$ is sufficient if the joint density factors as $g_\mu(T(x))h(x)$ with nonnegative
+      measurable factors and $h$ independent of the parameter. The displayed density
+      factors in this way with $T=(S,Q)$ and $h=1$.
+
+
+      For $Q>0$ the log-likelihood derivative is $(Q-S\mu-n\mu^2)/\mu^3$. The quadratic
+      in the numerator has one positive and one negative root. The derivative changes
+      from positive to negative at the positive root, hence the unique MLE is
+
+      \[
+
+      \widehat\mu=\frac{\sqrt{S^2+4nQ}-S}{2n}.
+
+      \]
+
+      On the all-zero sample the likelihood is proportional to $\mu^{-n}$ and has
+      no maximum on $\mu>0$. This sample has probability zero under every model parameter.
+
+      '
+    main_comparison: Sums of observations and their squares suffice by factorization.
+      Exactly one positive stationary point exists when the squared sum statistic
+      is nonzero. The all-zero sample has no maximizer on the open parameter space.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P1.pdf
+      source_sha256: 67b8df6b3209d96908d81243d118a950666db57094d554fab00d31d965d50aa9
+      source_page: 3
+      compiled_pdf: build/IB-2001-P1/main.pdf
+      compiled_sha256: eea1de651d1bbfc2a986e7d36bb16c4cbc5ca3793dcf8e54130e001987f08fc7
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2001/P1/q3D/index.html
+      html_sha256: 3aab58363b0fd7022165babefc0fb00a9e9667baf86f7e1845bfcebe11aa3a53
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: 99968e74b5b9534e4f59229bc5c0a8564b9901a14ce4202cc13ca91bab8f9e1b
+      solution_sha256: d86d54d8c64eec0a37b12c0cf78afb4d32c20a61f4908449d05e616d2acbe4b4
+      check_sha256: 16953bc28eb111e167196a9a1d63b91a4e3ab11aaf069a11292390d49d9687f0
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P1/q3D · Cambridge Maths
+      math: 16
+      rendered: 16
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2001/P4/q3D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2001/P4.pdf
+      original_pdf_sha256: d4d807006f79b7aab50caf83d830bc4a6434fc951a1aa6afcdf96a429bb21eec
+      source_page: 2
+      question_packet_sha256: a98c697a24da38c0d0d1d97dbc7f973929ba8c82242bb4cbc573487e9702449d
+      blind_rework_sha256: 1192210099de2a6d1f4bd534e50d618f38facceb45b48c1341e8c4d7acbf6727
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB 2001 Paper 4, 3D
+
+
+      Set $Q=\sum_i x_i^2$ and suppose $Q>0$. Differentiating $\sum_i(Y_i-bx_i)^2$
+      gives the unique minimum at
+
+      \[
+
+      \widehat\beta=\frac{\sum_i x_iY_i}{Q}.
+
+      \]
+
+      It is a linear combination of independent Gaussian observations, with distribution
+      $N(\beta,\sigma^2/Q)$. For $n\ge2$ estimate $\sigma^2$ by $s^2=\sum_i(Y_i-\widehat\beta
+      x_i)^2/(n-1)$. The Gaussian error component along $x=(x_i)$ is independent of
+      its residual projection perpendicular to $x$, for which the squared length divided
+      by $\sigma^2$ is $\chi^2_{n-1}$. Hence under $H_0$,
+
+      \[
+
+      T=\frac{\widehat\beta-\beta_0}{s/\sqrt Q}\ \sim\ t_{n-1}.
+
+      \]
+
+      At level $\alpha$ reject when $|T|>t_{n-1,1-\alpha/2}$. If $Q=0$ every slope
+      minimizes the same criterion and the observations carry no information about
+      $\beta$. If $n=1$ and $Q>0$ the slope is estimable, but there are no residual
+      degrees of freedom for this unknown-variance $t$ test.
+
+      '
+    main_comparison: Projection onto the nonzero fixed-design vector identifies the
+      slope. Its independent orthogonal residual has n−1 degrees of freedom, giving
+      the two-sided Student test for n at least two.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2001/P4.pdf
+      source_sha256: d4d807006f79b7aab50caf83d830bc4a6434fc951a1aa6afcdf96a429bb21eec
+      source_page: 2
+      compiled_pdf: build/IB-2001-P4/main.pdf
+      compiled_sha256: ab4e37d80fb2ffae0dbe7f293dcdfa642260cefd175e88140920f325be0618cc
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2001/P4/q3D/index.html
+      html_sha256: a0f60beb83a818ca3e2611d7638f06730608e3611a15ab4dcac9b883216ee4a4
+      math_nodes: 28
+      diagrams: {}
+      question_sha256: a98c697a24da38c0d0d1d97dbc7f973929ba8c82242bb4cbc573487e9702449d
+      solution_sha256: 16aa9d3c131eae28d46b5b59611a6e547f40724a7ba2d5e797c4d8bb2b8716a3
+      check_sha256: 828ff2314de440ec17f93cacca0b57c6cf12eb3d8ec308acf5068c08a7ba78ac
+      check_exit: 0
+      check_stdout: Independent checks passed.
+      check_stderr: ''
+    browser:
+      title: IB/2001/P4/q3D · Cambridge Maths
+      math: 28
+      rendered: 28
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []

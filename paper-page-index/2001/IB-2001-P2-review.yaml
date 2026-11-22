@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 9
 alternatives: []
-instructions: Candidates may attempt at most four questions in Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
-  mark values are printed.
+instructions: Candidates may attempt at most four questions in Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the credit of each question
+  in Section I. No absolute mark values are printed.
 date: '2001-06-07'
 printed_date: Thursday 7 June 2001
 time: 9 to 12
@@ -24,16 +24,20 @@ sha256: 98ac21e83a0f68e002feaacbaa72747c6e840a38866f4ad0dd2915e6a3b74a95
 multi_page_questions: []
 cover:
 - Before you begin read these instructions carefully.
-- Each question in Section II carries twice the credit of each question in Section I.
-- Candidates may attempt at most four questions in Section I and at most six questions from Section II.
+- Each question in Section II carries twice the credit of each question in Section
+  I.
+- Candidates may attempt at most four questions in Section I and at most six questions
+  from Section II.
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
 - 'At the end of the examination:'
-- Answers must be tied up in separate bundles, marked A, B, ..., G according to the letter affixed to each
-  question, and a blue cover sheet must be attached to each bundle.
+- Answers must be tied up in separate bundles, marked A, B, ..., G according to the
+  letter affixed to each question, and a blue cover sheet must be attached to each
+  bundle.
 - A green master cover sheet listing all the questions attempted must be completed.
-- It is essential that every cover sheet bear the candidate’s examination number and desk number.
+- It is essential that every cover sheet bear the candidate’s examination number and
+  desk number.
 questions:
 - id: IB/2001/P2/q1A
   original_question: 1A
@@ -48,6 +52,29 @@ questions:
   checks: Three-point metrics, distances and direction of contraction example.
   source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
   course_mapping_schedule_page: 18
+  faculty_collection:
+    collection_page: 8
+    printed_course: Analysis II
+    section: I
+    body_glyphs: 324
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 324
+    proof_body_glyph_count: 324
+    physical_pages:
+    - 2
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 324
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+    dpi: 145
+    question_sha256: 7d3b57d67e3a0e10b599fc2320358609aa3303d4eeba05b6ceaf120ef10120ec
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q2G
   original_question: 2G
   page: 2
@@ -62,8 +89,40 @@ questions:
   checks: Nine entries, wedge order and symmetric traceless remainder.
   source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
   course_mapping_schedule_page: 13
-  course_mapping_note: Cartesian tensors, index notation and their application to vector calculus are now in
-    IA Vector Calculus.
+  course_mapping_note: Cartesian tensors, index notation and their application to
+    vector calculus are now in IA Vector Calculus.
+  faculty_collection:
+    collection_page: 13
+    printed_course: Methods
+    section: I
+    body_glyphs: 288
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 288
+    proof_body_glyph_count: 287
+    physical_pages:
+    - 2
+    checked_residuals:
+    - source: '-'
+      proof: ''
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point:
+      - - CMR10
+        - 45
+        - 500.4
+        - 356.92
+      proof_font_code_and_point: []
+    design_size_comparison:
+      aligned_ink_glyphs: 287
+      maximum_relative_design_size_difference: 0.0
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+    dpi: 145
+    question_sha256: bf6f9abb1699b725e88ab83056727c3ad3e5a8ccf13444296ba96d174e6256c1
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q3D
   original_question: 3D
   page: 2
@@ -77,6 +136,38 @@ questions:
   checks: Single uniform observation and loss and prior densities.
   source_page_render_sha256: 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
   course_mapping_schedule_page: 23
+  faculty_collection:
+    collection_page: 25
+    printed_course: Statistics
+    section: I
+    body_glyphs: 262
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 262
+    proof_body_glyph_count: 263
+    physical_pages:
+    - 2
+    checked_residuals:
+    - source: ''
+      proof: '-'
+      reason: Line-end automatic word hyphenation; body words agree.
+      source_font_code_and_point: []
+      proof_font_code_and_point:
+      - - CMR10
+        - 45
+        - 529.59
+        - 146.89
+    design_size_comparison:
+      aligned_ink_glyphs: 262
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 7f7e95b574b7d98ae4ccca42ffbdfc7428d34341b08eb2134817cc9c24c26e5f
+    dpi: 145
+    question_sha256: 4730e91aaf5747794c9337b9af75eb6206d21270019bb9b61aa21ada047fe682
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q4B
   original_question: 4B
   page: 3
@@ -90,8 +181,31 @@ questions:
   checks: Endpoints for three sets, countable union and permitted connectedness result.
   source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
   course_mapping_schedule_page: 18
-  course_mapping_note: The Topological Spaces schedule covers the point-set topology examined under Further
-    Analysis.
+  course_mapping_note: The Topological Spaces schedule covers the point-set topology
+    examined under Further Analysis.
+  faculty_collection:
+    collection_page: 32
+    printed_course: Further Analysis
+    section: I
+    body_glyphs: 346
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 346
+    proof_body_glyph_count: 346
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 346
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+    dpi: 145
+    question_sha256: 9d6952f3a745080d442745963d73e8b4c55ab981aea0c19e2060e9962833b67b
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q5E
   original_question: 5E
   page: 3
@@ -101,10 +215,36 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: d17b1c91034b2cefc8ea3242e0770af0c13fae7f761cd435e754ff8808788234
+  question_sha256: 2a863cda5ef4e23586e9e95898c84b6322cf29c4eab39b08baee293f1b57f222
   checks: Sixteen matrix entries and four right-hand-side entries.
   source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
   course_mapping_schedule_page: 23
+  previous_question_sha256: d17b1c91034b2cefc8ea3242e0770af0c13fae7f761cd435e754ff8808788234
+  typography_qualifications:
+  - 'Restored printed typography: ''\\\\'' → ''\\\\[-1.6pt]''.'
+  faculty_collection:
+    collection_page: 23
+    printed_course: Numerical Analysis
+    section: I
+    body_glyphs: 119
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 119
+    proof_body_glyph_count: 119
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 119
+      maximum_relative_design_size_difference: 0.0
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+    dpi: 145
+    question_sha256: 2a863cda5ef4e23586e9e95898c84b6322cf29c4eab39b08baee293f1b57f222
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q6C
   original_question: 6C
   page: 3
@@ -118,8 +258,31 @@ questions:
   checks: Right multiplication, ordered matrix-unit basis and both polynomial assertions.
   source_page_render_sha256: 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
   course_mapping_schedule_page: 17
-  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
-    covered in IB Linear Algebra.
+  course_mapping_note: The vector-space, linear map and inner-product portions of
+    the historical subject are covered in IB Linear Algebra.
+  faculty_collection:
+    collection_page: 2
+    printed_course: Linear Mathematics
+    section: I
+    body_glyphs: 309
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 309
+    proof_body_glyph_count: 309
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 309
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 29bc5c5cd2d68cf777016878c1e742dc4da3e25394714121f4e3c6357c02e243
+    dpi: 145
+    question_sha256: 771819023c1f468305e43504be4a7b78edf8c6319d731e54404a16a41b6a78cc
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q7E
   original_question: 7E
   page: 4
@@ -133,6 +296,29 @@ questions:
   checks: Non-empty open domain and the formal derivative definition.
   source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
   course_mapping_schedule_page: 20
+  faculty_collection:
+    collection_page: 11
+    printed_course: Complex Methods
+    section: I
+    body_glyphs: 180
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 180
+    proof_body_glyph_count: 180
+    physical_pages:
+    - 4
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 180
+      maximum_relative_design_size_difference: 0.0
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+    dpi: 145
+    question_sha256: 71d3faf62eee1293381285ef88b544a3c6cbd1370bd976e14d0fbba7185da06a
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q8B
   original_question: 8B
   page: 4
@@ -146,8 +332,31 @@ questions:
   checks: Dual-space direction and order of arguments in the non-degenerate form.
   source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
   course_mapping_schedule_page: 17
-  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
-    covered in IB Linear Algebra.
+  course_mapping_note: The vector-space, linear map and inner-product portions of
+    the historical subject are covered in IB Linear Algebra.
+  faculty_collection:
+    collection_page: 29
+    printed_course: Quadratic Mathematics
+    section: I
+    body_glyphs: 362
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 362
+    proof_body_glyph_count: 362
+    physical_pages:
+    - 4
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 362
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+    dpi: 145
+    question_sha256: bbd35b06c936495b61f84be79646d8d9faca596794c68ef3bc268be5b82a2f9c
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q9F
   original_question: 9F
   page: 4
@@ -159,10 +368,37 @@ questions:
   also_courses: []
   question_sha256: ac49452b7e287b1c87a8274b84685e7fb941716ce3b507b0b8c5254c0762e563
   checks: Order of factors in expectation, momentum operator and decay assumption.
-  printed_ambiguity: Integration by parts and differentiating expectations require suitable domain and decay
-    conditions in addition to the pointwise limit printed in the hint.
+  printed_ambiguity: Integration by parts and differentiating expectations require
+    suitable domain and decay conditions in addition to the pointwise limit printed
+    in the hint.
   source_page_render_sha256: a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
   course_mapping_schedule_page: 21
+  faculty_collection:
+    collection_page: 18
+    printed_course: Quantum Mechanics
+    section: I
+    body_glyphs: 259
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 259
+    proof_body_glyph_count: 259
+    physical_pages:
+    - 4
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 259
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  printed_qualification: Integration by parts and differentiating expectations require
+    suitable domain and decay conditions in addition to the pointwise limit printed
+    in the hint.
+  reinspection:
+    source_raster_sha256:
+    - a20a7aa59f47308a579f9f19dd0e601d8b2eb6046474e6376b8699a216d48e6a
+    dpi: 145
+    question_sha256: ac49452b7e287b1c87a8274b84685e7fb941716ce3b507b0b8c5254c0762e563
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q10A
   original_question: 10A
   page: 5
@@ -176,6 +412,29 @@ questions:
   checks: Complete and totally bounded equivalence with Bolzano–Weierstrass.
   source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
   course_mapping_schedule_page: 18
+  faculty_collection:
+    collection_page: 8
+    printed_course: Analysis II
+    section: II
+    body_glyphs: 132
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 132
+    proof_body_glyph_count: 132
+    physical_pages:
+    - 5
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 132
+      maximum_relative_design_size_difference: 0.0
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+    dpi: 145
+    question_sha256: 27a1f5f6133ac18b2554e316033036d486cedeb0f82383f4fac7a053762cf5d6
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q11G
   original_question: 11G
   page: 5
@@ -190,9 +449,33 @@ questions:
   checks: All three index pairings and partial derivatives under the ball integral.
   source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
   course_mapping_schedule_page: 13
-  course_mapping_note: IA Vector Calculus covers Cartesian tensors and isotropic tensors explicitly through
-    rank three. The fourth-rank application extends those topics and is marked partly in schedule.
+  course_mapping_note: IA Vector Calculus covers Cartesian tensors and isotropic tensors
+    explicitly through rank three. The fourth-rank application extends those topics
+    and is marked partly in schedule.
   schedule_relevance: partly
+  faculty_collection:
+    collection_page: 13
+    printed_course: Methods
+    section: II
+    body_glyphs: 281
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 281
+    proof_body_glyph_count: 281
+    physical_pages:
+    - 5
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 281
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+    dpi: 145
+    question_sha256: ed2beceb74d83db8a27e217d027909bcd86d578262c0139d72900ebc3306c822
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q12D
   original_question: 12D
   page: 5
@@ -202,13 +485,44 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: 308a03865d673b030d523381222983367b232cc6bb2fb24b3c191196f00191ac
+  question_sha256: eda669dcdb08bd40a62f751428f0e49ec162e24d9689bc0b7f48dbd6197ac886
   checks: Poisson mean equality, statistic denominator and case n=7.
-  printed_ambiguity: The Pearson approximation applies to minus twice the log likelihood ratio with sufficiently
-    large counts. The all-zero sample requires separate treatment, and the decision depends on a significance
-    level that is not printed.
+  printed_ambiguity: The Pearson approximation applies to minus twice the log likelihood
+    ratio with sufficiently large counts. The all-zero sample requires separate treatment,
+    and the decision depends on a significance level that is not printed.
   source_page_render_sha256: f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
   course_mapping_schedule_page: 23
+  previous_question_sha256: 308a03865d673b030d523381222983367b232cc6bb2fb24b3c191196f00191ac
+  typography_qualifications:
+  - 'Restored printed typography: ''\\lambda_i$,'' → ''\\lambda_i,$''.'
+  - 'Restored printed typography: ''X_i$.'' → ''X_i.$''.'
+  faculty_collection:
+    collection_page: 26
+    printed_course: Statistics
+    section: II
+    body_glyphs: 413
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 413
+    proof_body_glyph_count: 413
+    physical_pages:
+    - 5
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 413
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  printed_qualification: The Pearson approximation applies to minus twice the log
+    likelihood ratio with sufficiently large counts. The all-zero sample requires
+    separate treatment, and the decision depends on a significance level that is not
+    printed.
+  reinspection:
+    source_raster_sha256:
+    - f4369b4e860d3ebf1770afdbd28a2adfd143d4ab37f5c7f0813b8e0d42b20077
+    dpi: 145
+    question_sha256: eda669dcdb08bd40a62f751428f0e49ec162e24d9689bc0b7f48dbd6197ac886
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q13A
   original_question: 13A
   page: 6
@@ -218,11 +532,50 @@ questions:
   course_at_time: Further Analysis
   course: IB/complex-analysis
   also_courses: []
-  question_sha256: 2bb3bd6967f11da1b3eedb97cc603bf79ff93c409df6124365a1e64b12b69fd7
+  question_sha256: 03ab155bfae1fda12f6455333345bea967e12f1b637f17a22bbe89695890dc89
   checks: Contour denominator, limit and two alternative inequalities.
   source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
   course_mapping_schedule_page: 19
-  course_mapping_note: The complex-variable part of Further Analysis corresponds to IB Complex Analysis.
+  course_mapping_note: The complex-variable part of Further Analysis corresponds to
+    IB Complex Analysis.
+  previous_question_sha256: 2bb3bd6967f11da1b3eedb97cc603bf79ff93c409df6124365a1e64b12b69fd7
+  typography_qualifications:
+  - 'Restored printed typography: ''\\infty$.'' → ''\\infty.$''.'
+  - 'Restored printed typography: ''v(z)$,'' → ''v(z),$''.'
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 32
+    printed_course: Further Analysis
+    section: II
+    body_glyphs: 246
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 246
+    proof_body_glyph_count: 246
+    physical_pages:
+    - 6
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 246
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+    dpi: 145
+    question_sha256: 03ab155bfae1fda12f6455333345bea967e12f1b637f17a22bbe89695890dc89
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 218.87
+      pdf_top: 248.38
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 346.41
+      pdf_top: 248.38
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2001/P2/q14E
   original_question: 14E
   page: 6
@@ -232,10 +585,41 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: bedb5fb3c4b23855b9f3df8a7011289cc3a1595caf2b4990adb083f2d60bf48e
+  question_sha256: 76c3a2cb4adc84c6de5205ce2dd132377ada516846d926c83665d42a4f77499c
   checks: Cholesky and rectangular QR sizes, positive diagonal and transpose hint.
   source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
   course_mapping_schedule_page: 23
+  previous_question_sha256: bedb5fb3c4b23855b9f3df8a7011289cc3a1595caf2b4990adb083f2d60bf48e
+  typography_qualifications:
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 23
+    printed_course: Numerical Analysis
+    section: II
+    body_glyphs: 384
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 384
+    proof_body_glyph_count: 384
+    physical_pages:
+    - 6
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 384
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+    dpi: 145
+    question_sha256: 76c3a2cb4adc84c6de5205ce2dd132377ada516846d926c83665d42a4f77499c
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 272.7
+      pdf_top: 374.91
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2001/P2/q15C
   original_question: 15C
   page: 6
@@ -249,8 +633,31 @@ questions:
   checks: Dual arrows, dual bases and inverse-transpose identity.
   source_page_render_sha256: 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
   course_mapping_schedule_page: 17
-  course_mapping_note: The vector-space, linear map and inner-product portions of the historical subject are
-    covered in IB Linear Algebra.
+  course_mapping_note: The vector-space, linear map and inner-product portions of
+    the historical subject are covered in IB Linear Algebra.
+  faculty_collection:
+    collection_page: 3
+    printed_course: Linear Mathematics
+    section: II
+    body_glyphs: 395
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 395
+    proof_body_glyph_count: 395
+    physical_pages:
+    - 6
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 395
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 969552182b7616ca1dc152d5ebc37eb199bdc169a4b72839e0e5d72bf09ad450
+    dpi: 145
+    question_sha256: 120f648a8a6b448f4d3af67abee48f9c2df9db309cbf1dbd2085768d70505003
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q16E
   original_question: 16E
   page: 7
@@ -260,10 +667,42 @@ questions:
   course_at_time: Complex Methods
   course: IB/complex-methods
   also_courses: []
-  question_sha256: d337af733f87356316c19be4c64026125df016da8d888972570cd7703b3ecd48
+  question_sha256: ec8fa99f10cb6f4cd35b6f5c77f4a0fe11eb055b6e36aed8c97f60105833a108
   checks: Strong rational decay, no real poles, integral limits and exponent.
   source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
   course_mapping_schedule_page: 20
+  previous_question_sha256: d337af733f87356316c19be4c64026125df016da8d888972570cd7703b3ecd48
+  typography_qualifications:
+  - 'Restored printed typography: ''{1+x^{2n}}.'' → ''{1+x^{2n}}\\cdot''.'
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 11
+    printed_course: Complex Methods
+    section: II
+    body_glyphs: 160
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 160
+    proof_body_glyph_count: 160
+    physical_pages:
+    - 7
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 160
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+    dpi: 145
+    question_sha256: ec8fa99f10cb6f4cd35b6f5c77f4a0fe11eb055b6e36aed8c97f60105833a108
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 176.37
+      pdf_top: 183.7
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2001/P2/q17B
   original_question: 17B
   page: 7
@@ -273,11 +712,38 @@ questions:
   course_at_time: Quadratic Mathematics
   course: II/number-theory
   also_courses: []
-  question_sha256: 95192cab1cb589d16adc4013555df764f3fa58c2b6ac6fdd5662e8caee6bbad7
+  question_sha256: 8eb152969b553b96d3dac0c73b834f421f12171a089ab099b1ff97c4394bce23
   checks: Least absolute residue, count of negative residues and progression construction.
   source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
   course_mapping_schedule_page: 28
-  course_mapping_note: The Legendre symbol, quadratic residues and Euler’s criterion are in II Number Theory.
+  course_mapping_note: The Legendre symbol, quadratic residues and Euler’s criterion
+    are in II Number Theory.
+  previous_question_sha256: 95192cab1cb589d16adc4013555df764f3fa58c2b6ac6fdd5662e8caee6bbad7
+  typography_qualifications:
+  - 'Restored printed typography: ''\\bigl(\\frac ap\\bigr)'' → ''(\\frac ap)''.'
+  faculty_collection:
+    collection_page: 30
+    printed_course: Quadratic Mathematics
+    section: II
+    body_glyphs: 563
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 563
+    proof_body_glyph_count: 563
+    physical_pages:
+    - 7
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 563
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+    dpi: 145
+    question_sha256: 8eb152969b553b96d3dac0c73b834f421f12171a089ab099b1ff97c4394bce23
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2001/P2/q18F
   original_question: 18F
   page: 7
@@ -288,9 +754,33 @@ questions:
   course: IB/quantum-mechanics
   also_courses: []
   question_sha256: df1cba7916291fa60edf2527882d9942ca79785706ab74d9bf627d979d54d696
-  checks: Two commutation relations, squared total angular momentum and the third coordinate squared.
+  checks: Two commutation relations, squared total angular momentum and the third
+    coordinate squared.
   source_page_render_sha256: ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
   course_mapping_schedule_page: 21
+  faculty_collection:
+    collection_page: 18
+    printed_course: Quantum Mechanics
+    section: II
+    body_glyphs: 372
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 372
+    proof_body_glyph_count: 372
+    physical_pages:
+    - 7
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 372
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - ac2fbfc382b8dcfbd91f40a1509402dd8dc221dec8f4870f08e7d5b07eded93f
+    dpi: 145
+    question_sha256: df1cba7916291fa60edf2527882d9942ca79785706ab74d9bf627d979d54d696
+    status: unchanged
+    printed_slanted_inequalities: []
 transcription_checks:
   source_render_dpi: 145
   all_questions_compared_with_original_page_images: true
@@ -303,8 +793,9 @@ transcription_checks:
   compiled_proof_pages: 18
   overfull_or_missing_glyph_warnings: 0
 separate_corrections: []
-correction_check: Manifest checked for 2001 IB. The four full papers and the separate subject compilation were
-  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+correction_check: Manifest checked for 2001 IB. The four full papers and the separate
+  subject compilation were distinguished by archive path, URL and SHA256. No separate
+  correction notice was listed.
 physical_pages:
 - page: 1
   contents: cover
@@ -387,3 +878,7 @@ course_mapping_reference:
   archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
   sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
   page_numbers: Physical PDF pages
+faculty_course_ordered_collection:
+  archive: private/raw/tripos/IB/2001/all-questions.pdf
+  sha256: c0bfb340ec785904255534b2aed5e8cfc41af0476f30471de115028846942e6a
+  pages: 33

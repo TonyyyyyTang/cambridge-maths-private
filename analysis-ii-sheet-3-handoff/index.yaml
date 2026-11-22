@@ -1,0 +1,212 @@
+source_inventory: ../analysis-ii-sheet-3-source-inventory.yaml
+scope: Working evidence for two inspected public editions. The 26-edition historical
+  union and registration are pending. Ordinal 13 in 2025 is an unnumbered Supplement.
+editions:
+  2025-26:
+  - printed_label: '1'
+    wording_sha256: ef2285f87350ee51ac6ecb85ed883363ca3689245d2f10ce9ae69d04cb29e4ed
+    path: wordings/ef2285f87350ee51ac6ecb85ed883363ca3689245d2f10ce9ae69d04cb29e4ed.tex
+    source_pages:
+    - 1
+  - printed_label: '2'
+    wording_sha256: 208ce93ec58ba5fbbdb4c63d640a4f3830b5b5767b3a0adc4112736a1b922f3d
+    path: wordings/208ce93ec58ba5fbbdb4c63d640a4f3830b5b5767b3a0adc4112736a1b922f3d.tex
+    source_pages:
+    - 1
+  - printed_label: '3'
+    wording_sha256: 45762c08f8e3ee252c5b9ae26cc9ab081bcf616e13ee5b3b73a2d85cf9b5b8be
+    path: wordings/45762c08f8e3ee252c5b9ae26cc9ab081bcf616e13ee5b3b73a2d85cf9b5b8be.tex
+    source_pages:
+    - 1
+  - printed_label: '4'
+    wording_sha256: cbfb9cf652ff397e9bf74dfacdd4b997b94c869f8c2501360fb076d9b8cb6760
+    path: wordings/cbfb9cf652ff397e9bf74dfacdd4b997b94c869f8c2501360fb076d9b8cb6760.tex
+    source_pages:
+    - 1
+  - printed_label: '5'
+    wording_sha256: 8b4ce48f91b96375a9d399f7b95bc74869ae3f351940fac952a53271e8d33995
+    path: wordings/8b4ce48f91b96375a9d399f7b95bc74869ae3f351940fac952a53271e8d33995.tex
+    source_pages:
+    - 1
+  - printed_label: '6'
+    wording_sha256: 8b9c0d58a7e46ffdee23f0476f7f505d99180696e26766db17afb6def112a9f9
+    path: wordings/8b9c0d58a7e46ffdee23f0476f7f505d99180696e26766db17afb6def112a9f9.tex
+    source_pages:
+    - 1
+  - printed_label: '7'
+    wording_sha256: f192514226fc9ac913a88cb51d6e8bdb5b08f9beb65077c8c6c1a92381cc849d
+    path: wordings/f192514226fc9ac913a88cb51d6e8bdb5b08f9beb65077c8c6c1a92381cc849d.tex
+    source_pages:
+    - 2
+  - printed_label: '8'
+    wording_sha256: aa6175197fb19fbde9f82dcf2d9319403b9814cc6bd0e0082b55ce8fcd3de803
+    path: wordings/aa6175197fb19fbde9f82dcf2d9319403b9814cc6bd0e0082b55ce8fcd3de803.tex
+    source_pages:
+    - 2
+  - printed_label: '9'
+    wording_sha256: c5d31d9bbf828d63caace6d17a2ac79018dbc3c7dc80acb5aef1ca8e9b637820
+    path: wordings/c5d31d9bbf828d63caace6d17a2ac79018dbc3c7dc80acb5aef1ca8e9b637820.tex
+    source_pages:
+    - 2
+  - printed_label: '10'
+    wording_sha256: a2b3f8b137647559673cd4c76d90990554eac8b61de6b9f496ad82da2248348a
+    path: wordings/a2b3f8b137647559673cd4c76d90990554eac8b61de6b9f496ad82da2248348a.tex
+    source_pages:
+    - 2
+  - printed_label: '11'
+    wording_sha256: 6345cf24529f9c4db85201c858ffd55b3710b00673eafd28c3daed2c512ca1a4
+    path: wordings/6345cf24529f9c4db85201c858ffd55b3710b00673eafd28c3daed2c512ca1a4.tex
+    source_pages:
+    - 2
+  - printed_label: '12'
+    wording_sha256: ebc22e84dd0c8d79b7f7b50fac748610f1c3d3a8c41dbca2e9c645c977626937
+    path: wordings/ebc22e84dd0c8d79b7f7b50fac748610f1c3d3a8c41dbca2e9c645c977626937.tex
+    source_pages:
+    - 2
+  - printed_label: Supplement
+    wording_sha256: 5d69aed8687249c9460bbc229c8611d12b59b3aaa1f52c1eb7411d5e9bd5d352
+    path: wordings/5d69aed8687249c9460bbc229c8611d12b59b3aaa1f52c1eb7411d5e9bd5d352.tex
+    source_pages:
+    - 2
+    - 3
+  2026-27:
+  - printed_label: '1'
+    wording_sha256: ef2285f87350ee51ac6ecb85ed883363ca3689245d2f10ce9ae69d04cb29e4ed
+    path: wordings/ef2285f87350ee51ac6ecb85ed883363ca3689245d2f10ce9ae69d04cb29e4ed.tex
+    source_pages:
+    - 1
+  - printed_label: '2'
+    wording_sha256: 208ce93ec58ba5fbbdb4c63d640a4f3830b5b5767b3a0adc4112736a1b922f3d
+    path: wordings/208ce93ec58ba5fbbdb4c63d640a4f3830b5b5767b3a0adc4112736a1b922f3d.tex
+    source_pages:
+    - 1
+  - printed_label: '3'
+    wording_sha256: 45762c08f8e3ee252c5b9ae26cc9ab081bcf616e13ee5b3b73a2d85cf9b5b8be
+    path: wordings/45762c08f8e3ee252c5b9ae26cc9ab081bcf616e13ee5b3b73a2d85cf9b5b8be.tex
+    source_pages:
+    - 1
+  - printed_label: '4'
+    wording_sha256: 572511419c44d760842df2f188b73116be6f11b447e5bcadb7b9cc3a224f62ba
+    path: wordings/572511419c44d760842df2f188b73116be6f11b447e5bcadb7b9cc3a224f62ba.tex
+    source_pages:
+    - 1
+  - printed_label: '5'
+    wording_sha256: f192514226fc9ac913a88cb51d6e8bdb5b08f9beb65077c8c6c1a92381cc849d
+    path: wordings/f192514226fc9ac913a88cb51d6e8bdb5b08f9beb65077c8c6c1a92381cc849d.tex
+    source_pages:
+    - 1
+  - printed_label: '6'
+    wording_sha256: aa6175197fb19fbde9f82dcf2d9319403b9814cc6bd0e0082b55ce8fcd3de803
+    path: wordings/aa6175197fb19fbde9f82dcf2d9319403b9814cc6bd0e0082b55ce8fcd3de803.tex
+    source_pages:
+    - 1
+  - printed_label: '7'
+    wording_sha256: c5d31d9bbf828d63caace6d17a2ac79018dbc3c7dc80acb5aef1ca8e9b637820
+    path: wordings/c5d31d9bbf828d63caace6d17a2ac79018dbc3c7dc80acb5aef1ca8e9b637820.tex
+    source_pages:
+    - 1
+  - printed_label: '8'
+    wording_sha256: a2b3f8b137647559673cd4c76d90990554eac8b61de6b9f496ad82da2248348a
+    path: wordings/a2b3f8b137647559673cd4c76d90990554eac8b61de6b9f496ad82da2248348a.tex
+    source_pages:
+    - 2
+  - printed_label: '9'
+    wording_sha256: 6345cf24529f9c4db85201c858ffd55b3710b00673eafd28c3daed2c512ca1a4
+    path: wordings/6345cf24529f9c4db85201c858ffd55b3710b00673eafd28c3daed2c512ca1a4.tex
+    source_pages:
+    - 2
+  - printed_label: '10'
+    wording_sha256: 7d3e63bbb56af8ca486ee412676d3096db9215f9016e14f24186241fe4f056a8
+    path: wordings/7d3e63bbb56af8ca486ee412676d3096db9215f9016e14f24186241fe4f056a8.tex
+    source_pages:
+    - 2
+  - printed_label: '11'
+    wording_sha256: 8b9c0d58a7e46ffdee23f0476f7f505d99180696e26766db17afb6def112a9f9
+    path: wordings/8b9c0d58a7e46ffdee23f0476f7f505d99180696e26766db17afb6def112a9f9.tex
+    source_pages:
+    - 2
+  - printed_label: Supplement
+    wording_sha256: 9f03aace8df8502e7ee706ded8a3b4a915ec1963b3beffbca2191d86544f6b64
+    path: wordings/9f03aace8df8502e7ee706ded8a3b4a915ec1963b3beffbca2191d86544f6b64.tex
+    source_pages:
+    - 2
+    - 3
+paired:
+  '1':
+    question_sha256: ef2285f87350ee51ac6ecb85ed883363ca3689245d2f10ce9ae69d04cb29e4ed
+    evidence:
+      first.tex:
+        path: paired/q1-first.tex
+        sha256: d41961263a94873300c1138fd7b466f19b00a1dd2f778bd1751917fbe09ff08e
+      second.tex:
+        path: paired/q1-second.tex
+        sha256: d945566534bf59c30ae2f9c2b429a4b1a8341f48266b2d86e3e2ca6e307a5f0e
+      check.py:
+        path: paired/q1-check.py
+        sha256: dee2e10dc880158cc593f7b353b57aa9151b51b3ea22f84af33a1228166be1e9
+    main_comparison: Both scaling proofs yield two-sided bounds on the norms. Rescaling
+      a violating sequence detects failure of sequence equivalence. A discontinuous
+      Hamel-basis functional then constructs an inequivalent norm in infinite dimension.
+    check_stdout: The finite restrictions exhibit unbounded norm ratios and a sequence
+      separating the two norms.
+    formal_status: waiting for canonical question registration
+  '2':
+    question_sha256: 208ce93ec58ba5fbbdb4c63d640a4f3830b5b5767b3a0adc4112736a1b922f3d
+    evidence:
+      first.tex:
+        path: paired/q2-first.tex
+        sha256: bbfe8065157dd00f7c281b4f38e4eea0c05b753769aaee5409eb013c4e63f6c3
+      second.tex:
+        path: paired/q2-second.tex
+        sha256: 3bdf40b9c875afe0c33f99872b27f588f85a0dbf0adedb5f2b500b2d5380fbd3
+      check.py:
+        path: paired/q2-check.py
+        sha256: 2871d866a55eca4f3c6519985ea6dfec4e0534d9f3cbbcc5d4740dee02a381ae
+    main_comparison: The open ball about the image has an open preimage exactly when
+      every sufficiently close domain point stays in that target neighbourhood. The
+      two directions use only the metric definition of continuity.
+    check_stdout: At all tested scales the same points witness failure of both continuity
+      and an open preimage.
+    formal_status: waiting for canonical question registration
+  '3':
+    question_sha256: 45762c08f8e3ee252c5b9ae26cc9ab081bcf616e13ee5b3b73a2d85cf9b5b8be
+    evidence:
+      first.tex:
+        path: paired/q3-first.tex
+        sha256: 56abe275466df8046f1a20fa3e7a30298312fe2dceb8bc0e9f510136aed9e7e4
+      second.tex:
+        path: paired/q3-second.tex
+        sha256: a006a61744acd7170c9fa16228afc0c8946e45aadb184092d7b42f216eda176e
+      check.py:
+        path: paired/q3-check.py
+        sha256: 09e90b3f3f911c8539253171ab33dba128b5c197a73ab384c98d73b111bffba5
+    main_comparison: Both Euclidean proofs rule out missing finite limit points by
+      reciprocal distance. In general metrics, the first proof derives completeness
+      and total boundedness. The second builds an unbounded locally finite sum around
+      a sequence without a convergent subsequence; the supports shrink to ensure local
+      finiteness.
+    check_stdout: The missing-endpoint and separated-sequence witnesses attain their
+      prescribed unbounded values.
+    formal_status: waiting for canonical question registration
+  '6':
+    question_sha256: 8b9c0d58a7e46ffdee23f0476f7f505d99180696e26766db17afb6def112a9f9
+    evidence:
+      first.tex:
+        path: paired/q6-first.tex
+        sha256: 65d05e99e8d2240018e471360281886609558743ddbcced85231a24b350618cf
+      second.tex:
+        path: paired/q6-second.tex
+        sha256: a8ab3ca030e0a00d616521a3186258f9abe6f60754d2055c5571ec86d975097b
+      check.py:
+        path: paired/q6-check.py
+        sha256: 6f0543951b4c8286e74a8c9f2647637f0ee4e864ce88674e215bf053afd45204
+    main_comparison: The continuous odd degree-one homogeneous example admits derivatives
+      along all differentiable curves at the origin, with values determined by velocity.
+      Testing the alleged linear derivative at the two axes and their sum contradicts
+      additivity.
+    check_stdout: Signed homogeneity, failure of additivity and derivatives along
+      curved paths verified.
+    formal_status: waiting for canonical question registration
+blind_manifest_sha256: 6f1cc8c8bbeff42b2ac25f57cd655e5d4a5aa5dbbb7d84a7685aa539fa2e7f02
+existing_exact_match: The 2025 printed 12 is byte-identical to IB/analysis-ii/sheet-2/qx39.
+  Reuse subject to checking both source references and current solution receipts.

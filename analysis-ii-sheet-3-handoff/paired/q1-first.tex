@@ -1,0 +1,7 @@
+(a) Write $p,q$ for the two norms. If $c p\le q\le C p$ with $c,C>0$, the open $p$-ball of radius $1/C$ lies in the open $q$-unit ball, which lies in the open $p$-ball of radius $1/c$. Conversely, suppose the stated inclusions hold. For $x\ne0$, apply the first inclusion to $tx$ for $0<t<r/p(x)$, then let $t$ increase to $r/p(x)$. This gives $q(x)\le p(x)/r$. Applying the second inclusion for $0<t<1/q(x)$ gives $p(x)\le Rq(x)$. At zero both estimates hold.
+
+(b) Either inequality passes convergence in the corresponding direction. Conversely, if no estimate $q\le C p$ holds, choose $v_n$ with $q(v_n)>n p(v_n)$ and rescale to $w_n=v_n/q(v_n)$. Then $p(w_n)<1/n$ but $q(w_n)=1$. This contradicts the stated implication at zero. Interchange the norms for the other inequality.
+
+(c) The triangle inequality and absolute homogeneity follow from those of $p$ and the absolute value of a linear functional. Vanishing forces $p(x)=0$, hence $x=0$. If $p+|\varphi|$ were bounded above by a constant times $p$, then so would $|\varphi|$, and linearity would make $\varphi$ continuous at zero and everywhere.
+
+(d) Yes, with the usual algebraic basis theorem. If $V$ is infinite dimensional, choose recursively linearly independent $e_n$ with $p(e_n)=1$. Extend them to a Hamel basis and prescribe $\varphi(e_n)=n$, zero on the other basis vectors. Finite linear expansion defines a linear functional. It is unbounded on the unit sphere, so part (c) constructs an inequivalent norm. This contradicts the premise.

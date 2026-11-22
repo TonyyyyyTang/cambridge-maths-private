@@ -1,0 +1,1310 @@
+scope: 2002 IB examination questions across eight represented confirmed-taken courses.
+  Whole-course audits remain pending.
+sample:
+  seed: 20270109
+  strata:
+    IB/analysis-ii:
+    - IB/2002/P1/q10E
+    - IB/2002/P1/q1E
+    - IB/2002/P2/q10E
+    - IB/2002/P2/q1E
+    - IB/2002/P3/q11E
+    - IB/2002/P3/q1E
+    - IB/2002/P4/q10E
+    - IB/2002/P4/q1E
+    IB/complex-methods:
+    - IB/2002/P1/q16B
+    - IB/2002/P1/q7B
+    - IB/2002/P2/q16B
+    - IB/2002/P2/q4G
+    - IB/2002/P2/q7B
+    - IB/2002/P3/q13G
+    - IB/2002/P4/q17B
+    - IB/2002/P4/q8B
+    IB/fluid-dynamics:
+    - IB/2002/P1/q15C
+    - IB/2002/P1/q6C
+    - IB/2002/P3/q18C
+    - IB/2002/P3/q8C
+    - IB/2002/P4/q16C
+    - IB/2002/P4/q7C
+    IB/linear-algebra:
+    - IB/2002/P1/q14G
+    - IB/2002/P1/q17F
+    - IB/2002/P1/q5G
+    - IB/2002/P1/q8F
+    - IB/2002/P2/q15G
+    - IB/2002/P2/q17F
+    - IB/2002/P2/q6G
+    - IB/2002/P2/q8F
+    - IB/2002/P3/q17F
+    - IB/2002/P3/q7F
+    - IB/2002/P4/q15F
+    - IB/2002/P4/q6F
+    IB/methods:
+    - IB/2002/P1/q11A
+    - IB/2002/P1/q2A
+    - IB/2002/P2/q11C
+    - IB/2002/P2/q2C
+    - IB/2002/P3/q12A
+    - IB/2002/P3/q2A
+    - IB/2002/P4/q11A
+    - IB/2002/P4/q2A
+    IB/numerical-analysis:
+    - IB/2002/P2/q14B
+    - IB/2002/P2/q5B
+    - IB/2002/P3/q16B
+    - IB/2002/P3/q6B
+    IB/quantum-mechanics:
+    - IB/2002/P1/q18D
+    - IB/2002/P1/q9D
+    - IB/2002/P2/q18D
+    - IB/2002/P2/q9D
+    - IB/2002/P3/q20D
+    IB/statistics:
+    - IB/2002/P1/q12H
+    - IB/2002/P1/q3H
+    - IB/2002/P2/q12H
+    - IB/2002/P2/q3H
+    - IB/2002/P4/q12H
+    - IB/2002/P4/q3H
+  selection:
+    IB/analysis-ii:
+    - IB/2002/P1/q1E
+    - IB/2002/P2/q1E
+    IB/complex-methods:
+    - IB/2002/P3/q13G
+    - IB/2002/P4/q17B
+    IB/fluid-dynamics:
+    - IB/2002/P1/q6C
+    - IB/2002/P4/q16C
+    IB/linear-algebra:
+    - IB/2002/P3/q7F
+    - IB/2002/P3/q17F
+    - IB/2002/P1/q14G
+    IB/methods:
+    - IB/2002/P4/q11A
+    - IB/2002/P1/q2A
+    IB/numerical-analysis:
+    - IB/2002/P3/q16B
+    IB/quantum-mechanics:
+    - IB/2002/P2/q9D
+    IB/statistics:
+    - IB/2002/P1/q12H
+    - IB/2002/P4/q3H
+observed:
+  population: 57
+  sampled: 15
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 14
+  pdf_pages: 15
+  browser_views: 15
+  rendered_formulas: 389
+independent_manifest_sha256: 1bbb4791ecdb4eb4779907bcf7f1ab7031fa4ebc9367fd7659ecae2a6895b11f
+auditor_report: '# Part IB 2002 sampled examination rework
+
+
+  I independently reworked all 15 supplied questions using their statements, cropped
+  figures and cited original pages. I compared each question body against the rendered
+  page image, including subpart labels, symbols, endpoints, bracketed instructions
+  and printed tables. The three supplied table crops match their originals. None of
+  these question bodies has printed marks. I found 0 transcription discrepancies in
+  15 sampled questions.
+
+
+  | Paper | Original pages | Reworked questions |
+
+  | --- | --- | --- |
+
+  | 1 | 2, 3, 6, 7 | 1E, 2A, 6C, 12H, 14G |
+
+  | 2 | 2, 3 | 1E, 9D |
+
+  | 3 | 4, 6, 7, 8 | 7F, 13G, 16B, 17F |
+
+  | 4 | 2, 5, 8, 9 | 3H, 11A, 16C, 17B |
+
+
+  The concrete-block problem gives an unbiased proportion of 0.11 under the stated
+  equality of marginal probabilities. The independent-mix interval and independent-block
+  interval have different standard errors. The differential equation in Paper 4 question
+  11A selects the singular solution x + 1/x. Its original improper integral diverges.
+  Paper 4 question 16C uses the standard homogeneous incompressible Euler assumptions.
+  Paper 3 question 16B prints a one-way fixed-point implication. The spectral hypothesis
+  supplies existence so the implication can be applied. These qualifications are recorded
+  in the respective reworks.
+
+
+  Each source.json binds the statement, supplied figures, full archived original PDF
+  and rework by SHA-256. The question-packet digest is the hash of the supplied question.tex
+  bytes; the figure map uses the supplied image filenames. The original_pdf field
+  is a path reference. All reworks were produced without access to earlier solutions
+  or evidence. The comparison of these reworks with existing solutions, and any resulting
+  mathematical error rate, belongs to the main reviewer.
+
+  '
+main_resolution: The concrete-block and independent-mix designs give different sampling
+  intervals despite the same unbiased failure proportion. The singular Euler–Lagrange
+  equation has the unique solution x+1/x, whose original improper integral diverges.
+  The fixed-point iteration proof first establishes existence from the spectral assumption.
+  The point-vortex result uses the incompressible constant-density, conservative-force
+  model.
+questions:
+  IB/2002/P1/q1E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P1.pdf
+      original_pdf_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 2
+      printed_question: 1E
+      question_packet_sha256: a4b6f555ac373441b882a4e09c33160aa1bb779a4469c5ea6b008358cedecb8b
+      blind_rework_sha256: 3820201eed580a27424c16eef8ecf45a75188f2c9ad53354fc68c4df88e2572b
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared uniform continuity and convergence quantifiers on
+        all of R, both (a) and (b), and the final justification instruction. No item
+        or subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P1/q1E
+
+
+      **(a)** Take \(f_n(x)=\min(1,\max(0,nx))\). Truncation to \([0,1]\) is 1-Lipschitz,
+      so \(f_n\) is \(n\)-Lipschitz on the entire real line. At any \(x>0\), \(f_n(x)=1\)
+      eventually. At \(x\le0\) it is always zero. The pointwise limit jumps from zero
+      at 0 to one immediately to its right.
+
+
+      **(b)** Given \(\epsilon>0\), fix \(N\) with \(\sup_x|f_N(x)-f(x)|<\epsilon/3\).
+      Choose \(\delta>0\) for uniform continuity of this one function \(f_N\), at
+      tolerance \(\epsilon/3\). For \(|x-y|<\delta\),
+
+      \[
+
+      |f(x)-f(y)|\le |f(x)-f_N(x)|+|f_N(x)-f_N(y)|+|f_N(y)-f(y)|<\epsilon.
+
+      \]
+
+      This proves uniform continuity of the limit and hence continuity. In (a) the
+      changing Lipschitz constants are consistent with the different conclusion.
+
+      '
+    main_comparison: The clipped linear ramps have finite individual Lipschitz constants
+      and converge pointwise to the right step, discontinuous at zero. Uniform convergence
+      supplies a single approximation on both arguments and transfers uniform continuity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P1.pdf
+      source_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 2
+      compiled_pdf: build/IB-2002-P1/main.pdf
+      compiled_sha256: 746d0137b809b368dd3a951012aa19a493427673dc47fb7c87cdb32ce43d461c
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2002/P1/q1E/index.html
+      html_sha256: b16faa65e2fc5cc06b5c1fc54af1493d1fb88cacb64b70704e4aae5ac4f5ecc8
+      math_nodes: 24
+      diagrams: {}
+      question_sha256: a4b6f555ac373441b882a4e09c33160aa1bb779a4469c5ea6b008358cedecb8b
+      solution_sha256: 6d4e5d02e417f0bf68a7886776f2150cfe12244367e1203bcb58524c1e3c172e
+      check_sha256: 01566aa425eaefb4e781a384e264d6d2fc598786455fe55472260a63f7f88a50
+      check_exit: 0
+      check_stdout: Continuous ramp reaches unit height at a sequence tending to its
+        zero endpoint
+      check_stderr: ''
+    browser:
+      title: IB/2002/P1/q1E · Cambridge Maths
+      math: 24
+      rendered: 24
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P2/q1E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P2.pdf
+      original_pdf_sha256: 4d87034c96d4d1d10f7235903496456a5ad60ca6336b8def7cdc93a7b2a66a35
+      source_page: 2
+      printed_question: 1E
+      question_packet_sha256: 02d24c934a4e52562d987c0e09e27eda55e29b323b39c5e289c6f8af880d965f
+      blind_rework_sha256: 6e929f983ab14461caf0ac24998495e9dd41ede57effcf9154542b9dd50ee29c
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared both definitions, both space examples, both continuous
+        onto mappings and the bracketed instruction. No item or subpart marks are
+        printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P2/q1E
+
+
+      Completeness means every Cauchy sequence converges to a point of the space.
+      A sequence \((x_n)\) is Cauchy when for every \(\epsilon>0\) there is \(N\)
+      such that \(m,n\ge N\) implies \(d(x_m,x_n)<\epsilon\). Total boundedness means
+      that for every \(\epsilon>0\), finitely many open balls of radius \(\epsilon\)
+      with centres in the space cover it.
+
+
+      Use Euclidean distances throughout. The real line is complete and fails total
+      boundedness because a finite union of unit balls is bounded. The interval \((0,1)\)
+      is totally bounded by a sufficiently fine finite grid with centres inside it.
+      The sequence \(1/(n+1)\) is Cauchy but has its real limit outside the interval.
+
+
+      The continuous map \(x\mapsto e^x\) sends the complete real line onto \((0,\infty)\),
+      which also omits the limit of \(1/(n+1)\). The continuous map \(x\mapsto 1/x\)
+      sends \((0,1)\) onto \((1,\infty)\), an unbounded metric space, so its image
+      fails total boundedness.
+
+      '
+    main_comparison: The line and the open unit interval distinguish completeness
+      from total boundedness. Exponentiation maps a complete space onto an incomplete
+      space, and reciprocation maps a totally bounded domain onto an unbounded interval.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P2.pdf
+      source_sha256: 4d87034c96d4d1d10f7235903496456a5ad60ca6336b8def7cdc93a7b2a66a35
+      source_page: 2
+      compiled_pdf: build/IB-2002-P2/main.pdf
+      compiled_sha256: ec2889b2386d6211cb0adca178a5883741dd74e933875fc1445cdc65947c7d47
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2002/P2/q1E/index.html
+      html_sha256: 44c8b3360a2e5b8b0f4922af1f826d790a72defe829f77d872ccd249cdcd5038
+      math_nodes: 12
+      diagrams: {}
+      question_sha256: 02d24c934a4e52562d987c0e09e27eda55e29b323b39c5e289c6f8af880d965f
+      solution_sha256: 37afa9444088573a29bfe317f664a85fbd92722ef21dcca199338360d7211d35
+      check_sha256: ed009431e94031390dce0901531d1d4482ad7dd378127bfa606dba8e9944b277
+      check_exit: 0
+      check_stdout: A sequence approaching the missing endpoint has unbounded reciprocal
+        images
+      check_stderr: ''
+    browser:
+      title: IB/2002/P2/q1E · Cambridge Maths
+      math: 12
+      rendered: 12
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P3/q13G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P3.pdf
+      original_pdf_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 6
+      printed_question: 13G
+      question_packet_sha256: 9abf0952a2c18231c474d269227b54477dfb6726772b6d66dcfa2435a543e64f
+      blind_rework_sha256: b87155336ab1b534fc7af003f6e60d8407033b9fed3c404d42332bce0db7dbfd
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared (a)–(c), homotopy and strict boundary inequality,
+        closed/open disk mapping, conjugate in denominator, exponents and the subtraction
+        of a. No item or subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P3/q13G
+
+
+      **(a)** Parameterize the simple closed curve with positive orientation. Null
+      homotopy in \(D\) gives winding number zero about every point outside \(D\),
+      so its Jordan interior lies in \(D\). For \(t\in[0,1]\) put \(h_t=f+tg\). On
+      the curve, \(|h_t|\ge |f|-|g|>0\), uniformly by compactness. Hence the loops
+      \(h_t(\gamma)\) constitute a homotopy in \(\mathbb C\setminus\{0\}\), and their
+      winding numbers about zero agree. By the argument principle the winding number
+      for \(h_t\) counts its interior zeros with multiplicity. The counts at \(t=0\)
+      and \(t=1\) therefore agree.
+
+
+      **(b)** On \(|z|=1\) the mapping assumption gives \(|g(z)|<1=|z|\). Apply (a)
+      to \(f(z)=z\) and perturbation \(-g\). Both functions are analytic on a neighbourhood
+      of the closed disk. Thus \(z-g(z)\) has exactly one zero counting multiplicity
+      in the open disk. It is a simple fixed point of \(g\) in the sense that \(z-g(z)\)
+      has a simple zero.
+
+
+      **(c)** Take \(m,n\) to be nonnegative integers as implicit in the zero count.
+      Put \(B(z)=(z-a)/(1-\bar a z)\). Its denominator is nonzero on a neighbourhood
+      of the closed disk, since for \(a\ne0\) the pole is at \(1/\bar a\) outside;
+      for \(a=0\) there is no denominator zero. On \(|z|=1\), direct expansion gives
+      \(|z-a|^2=|1-\bar a z|^2\). Thus \(z^m B(z)^n\) has boundary modulus 1, exceeding
+      the modulus of the constant perturbation \(-a\). By (a) the perturbed function
+      has as many interior zeros as the product. The factors contribute \(m\) zeros
+      at 0 and \(n\) at \(a\), counted with multiplicities including coincident roots
+      when \(a=0\). The count is \(m+n\).
+
+      '
+    main_comparison: Rouché follows from the nonvanishing boundary homotopy and the
+      argument principle. The unit disk fixed point has multiplicity one. The finite
+      Blaschke product has unit boundary modulus and its zeros at zero and a contribute
+      m+n with multiplicity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P3.pdf
+      source_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 6
+      compiled_pdf: build/IB-2002-P3/main.pdf
+      compiled_sha256: 293e6bd9007ef93cda57234716c0233093aa14f63d333becbafe502238fa9920
+      compiled_pages:
+      - 14
+      html: site/private/questions/IB/2002/P3/q13G/index.html
+      html_sha256: f824fd48c5a3b41ff8b335d5e6c5f5d290a0a54f3aa7f8a39dbe8e73a09907d4
+      math_nodes: 34
+      diagrams: {}
+      question_sha256: 9abf0952a2c18231c474d269227b54477dfb6726772b6d66dcfa2435a543e64f
+      solution_sha256: 16bdafd061bef92aa3c0fcdf054385cbdcb1dd781722b6cb949ecb87a6c450a6
+      check_sha256: b3e6403ea967d648695f7c8840e9a70df1eca580e98c3f9f0cfd2ae7adb1ccb6
+      check_exit: 0
+      check_stdout: Disk zero counts verified for three Blaschke-product perturbations
+      check_stderr: ''
+    browser:
+      title: IB/2002/P3/q13G · Cambridge Maths
+      math: 34
+      rendered: 34
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P4/q17B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P4.pdf
+      original_pdf_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 9
+      printed_question: 17B
+      question_packet_sha256: 70005ddf92e10ce9eba4700e781051722227af383b12c9916801095d1135a19b
+      blind_rework_sha256: ef93eadf3b687f3da295eb59e243de64d0e4e411076a373cc7a04bd38d53aa77
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared both parts, sine inequality, positive lambda, arc
+        parameter and limits, straight segment endpoints, and the integrand and claimed
+        value. No item or subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P4/q17B
+
+
+      **(a)** Put \(M_R=\sup_{0\le\theta\le\pi}|f(Re^{i\theta})|\). The limit at infinity
+      means \(M_R\to0\). On the arc, \(|e^{i\lambda z}|=e^{-\lambda R\sin\theta}\)
+      and \(|dz|=R\,d\theta\). Symmetry about \(\pi/2\) and the given sine bound yield
+
+      \[
+
+      \left|\int_{\Gamma_R}f(z)e^{i\lambda z}\,dz\right|
+
+      \le 2RM_R\int_0^{\pi/2} e^{-2\lambda R\theta/\pi}\,d\theta
+
+      =\frac{\pi M_R}{\lambda}(1-e^{-\lambda R})\longrightarrow0.
+
+      \]
+
+
+      **(b)** Integrate \(e^{iz}/z\) counterclockwise around the upper half-annulus.
+      The integrand is holomorphic on a neighbourhood of this contour and its enclosed
+      region since zero is excluded. The straight portions, traversed from \(-R\)
+      to \(-r\) and \(r\) to \(R\), sum to \(2i\int_r^R\sin x\,dx/x\) by substituting
+      \(x\mapsto-x\) in the negative portion. The outer arc tends to zero by (a) with
+      \(f(z)=1/z\) and \(\lambda=1\). The inner arc is clockwise, parameterized by
+      \(\theta\) decreasing from \(\pi\) to zero; its integral is \(\int_\pi^0 i e^{ir
+      e^{i\theta}}\,d\theta\to-i\pi\), since \(e^{ir e^{i\theta}}\to1\) uniformly.
+      Their sum is zero by Cauchy''s theorem. Taking \(R\to\infty\) and \(r\downarrow0\)
+      gives \(\int_0^\infty\sin x\,dx/x=\pi/2\). The sine quotient extends continuously
+      to zero, and the upper-tail convergence also follows by integration by parts
+      with a bounded primitive of \(\sin x\).
+
+      '
+    main_comparison: The exponential decay on the upper semicircle and the angular
+      sine bound control the outer arc by pi times the supremum over lambda. The clockwise
+      indentation contributes minus i pi. The difference of the two real-segment integrals
+      gives twice i times the ordinary sine integral.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P4.pdf
+      source_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 9
+      compiled_pdf: build/IB-2002-P4/main.pdf
+      compiled_sha256: f9105ef193de70cc96c6f9c25a58966dbab982dc1ba81519955baff1583a5a48
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2002/P4/q17B/index.html
+      html_sha256: 04b3f960be2d83cd84de3db806ccadf4f282389d0fa1f2010c43423f5552b09f
+      math_nodes: 24
+      diagrams: {}
+      question_sha256: 70005ddf92e10ce9eba4700e781051722227af383b12c9916801095d1135a19b
+      solution_sha256: 3caed55ea603240732d22914af6480a71b40fe1480140933e4648f211cbe14a3
+      check_sha256: b5fad875c054b96772a48e45c4bf232dae27d36f304b6b5f35af19f44b06102b
+      check_exit: 0
+      check_stdout: Sine integral checked using independent oscillatory tail quadrature
+        1.5707963268467806
+      check_stderr: ''
+    browser:
+      title: IB/2002/P4/q17B · Cambridge Maths
+      math: 24
+      rendered: 24
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P1/q6C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P1.pdf
+      original_pdf_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 3
+      printed_question: 6C
+      question_packet_sha256: afb4d13e9d062319c2f475832b554ca56e12cc9a6c53f40dd7fa72e099e370c8
+      blind_rework_sha256: 55e09ae3497a3f457c2dfc92abb8e81a41069cf9fbb275548c105bfa842db8e4
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared velocity kty, all time labels, 3D starting line
+        coordinates and the length and angle requests. No item or subpart marks are
+        printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P1/q6C
+
+
+      The divergence is \(\partial_x(kty)+\partial_y0+\partial_z0=0\). With the convention
+      \(u=\partial_y\psi,\ v=-\partial_x\psi\), take \(\psi=kty^2/2\). At fixed time
+      \(t\) the nonzero velocities point along the \(x\)-axis, so each regular streamline
+      has \(y=y_0,\ z=z_0\). At \(kty_0=0\) the vector field vanishes there and its
+      integral curves through those points are stationary.
+
+
+      Label a dyed particle by its starting coordinate \(s\in[0,a]\). Its material
+      equations are \(y=s,\ z=0,\ \dot x=kts\), whence
+
+      \[
+
+      (x,y,z)=s(kt^2/2,1,0).
+
+      \]
+
+      The material line remains straight and has length \(a\sqrt{1+k^2t^4/4}\). For
+      \(a>0\) its direction from the origin makes the angle \(\theta=\operatorname{atan2}(1,kt^2/2)\in(0,\pi)\)
+      with the positive \(x\)-axis. Equivalently, \(\cot\theta=kt^2/2\). If the angle
+      between unoriented lines is requested, take \(\min(\theta,\pi-\theta)\). The
+      angle at \(t=0\) or \(k=0\) is \(\pi/2\). If \(a=0\), the segment has zero length
+      and no direction.
+
+      '
+    main_comparison: Instantaneous streamlines have fixed transverse coordinates,
+      with no direction defined at stagnation. The material dye line instead has horizontal
+      displacement proportional to its initial height times t squared. Both its norm
+      and oriented angle cover zero and negative shear.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P1.pdf
+      source_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 3
+      compiled_pdf: build/IB-2002-P1/main.pdf
+      compiled_sha256: 746d0137b809b368dd3a951012aa19a493427673dc47fb7c87cdb32ce43d461c
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2002/P1/q6C/index.html
+      html_sha256: 8a40d9f00340393a6753f0a062af4777d5c38db2f5e21bf5655ddb3cd15e2a45
+      math_nodes: 28
+      diagrams: {}
+      question_sha256: afb4d13e9d062319c2f475832b554ca56e12cc9a6c53f40dd7fa72e099e370c8
+      solution_sha256: 30fb97f565e164ebfbaf7d290d2282f566dee20cebbe4a7cccc560bbd405cc23
+      check_sha256: 3590c7438ca648aa5aead8c36a1d88b1d02c6577260a9f7f91b678bb9bf576d6
+      check_exit: 0
+      check_stdout: Material trajectory and stretched line-segment length verified
+      check_stderr: ''
+    browser:
+      title: IB/2002/P1/q6C · Cambridge Maths
+      math: 28
+      rendered: 28
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P4/q16C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P4.pdf
+      original_pdf_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 8
+      printed_question: 16C
+      question_packet_sha256: e434f60caa481f4bac9ab1a22c76b8806369eb879f2048ce440182ed607173b8
+      blind_rework_sha256: f03ca00af217b10577140202852d5f650c3e7f9de6e23ce34e2a88f0d45125a9
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared all three flow requests, the vector signs and ordering,
+        the equal-strength condition, and the initial positions. No item or subpart
+        marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P4/q16C
+
+
+      In the usual homogeneous incompressible fluid with conservative body force,
+      Euler''s equation is \(D\mathbf u/Dt=-\nabla(p/\rho+\Phi)\). Write \(\mathbf
+      u=(u,v,0)\) with \(u,v\) independent of \(z\), and \(\omega=v_x-u_y\), the vertical
+      component of vorticity. Apply \(\partial_x\) to the vertical-in-plane momentum
+      equation for \(v\) and subtract \(\partial_y\) times the one for \(u\). The
+      force drops out as a mixed derivative and the convective terms give
+
+      \[
+
+      \partial_t\omega+u\omega_x+v\omega_y+(u_x+v_y)\omega=0.
+
+      \]
+
+      Incompressibility eliminates the last term, proving \(D\boldsymbol\omega/Dt=0\).
+      For general compressible inviscid fluids the last term, and possibly a baroclinic
+      pressure term, can survive.
+
+
+      Write \(J(x,y)=(-y,x)\). A point vortex at \(\mathbf a\) with positive counterclockwise
+      circulation \(\kappa\) gives, for \(\mathbf x\ne\mathbf a\),
+
+      \[
+
+      \mathbf u(\mathbf x)=\frac{\kappa}{2\pi}\frac{J(\mathbf x-\mathbf a)}{|\mathbf
+      x-\mathbf a|^2}.
+
+      \]
+
+      Its tangential speed times the circle circumference is \(\kappa\) with its sign.
+      For \(\mathbf r=\mathbf x_1-\mathbf x_2\), each vortex moves in the nonsingular
+      velocity induced by the other:
+
+      \[
+
+      \dot{\mathbf x}_1=\frac{\kappa_2 J\mathbf r}{2\pi|\mathbf r|^2},\qquad
+
+      \dot{\mathbf x}_2=-\frac{\kappa_1 J\mathbf r}{2\pi|\mathbf r|^2}.
+
+      \]
+
+      The weighted sum of these velocities vanishes, proving conservation of \(\mathbf
+      q\) even when \(\kappa_1+\kappa_2=0\). Subtraction shows that \(\dot{\mathbf
+      r}\) is a multiple of \(J\mathbf r\), so \(d|\mathbf r|^2/dt=2\mathbf r\cdot\dot{\mathbf
+      r}=0\). Distinct vortices remain separated.
+
+
+      For equal strengths \(\kappa\) the two velocities are opposite, so the midpoint
+      remains at the origin. The separation is \(2|a|>0\). Then \(\dot{\mathbf x}_1=\Omega
+      J\mathbf x_1\) with \(\Omega=\kappa/(4\pi a^2)\), giving \(\mathbf x_1(t)=(a\cos\Omega
+      t,a\sin\Omega t)\) and \(\mathbf x_2(t)=-\mathbf x_1(t)\). Negative strength
+      reverses rotation and zero strength gives stationary points.
+
+      '
+    main_comparison: Curling planar incompressible Euler for uniform density and conservative
+      forcing eliminates stretching. The pair equations conserve both signed first
+      moment and separation without dividing by total strength. Identical vortices
+      rotate with signed angular frequency kappa/(4 pi a squared).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P4.pdf
+      source_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 8
+      compiled_pdf: build/IB-2002-P4/main.pdf
+      compiled_sha256: f9105ef193de70cc96c6f9c25a58966dbab982dc1ba81519955baff1583a5a48
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2002/P4/q16C/index.html
+      html_sha256: 089f3b7515e45874c4eaf1a76f6e12728103324ab65f278e56361313a8191643
+      math_nodes: 33
+      diagrams: {}
+      question_sha256: e434f60caa481f4bac9ab1a22c76b8806369eb879f2048ce440182ed607173b8
+      solution_sha256: 9287f1ebe527ae4caf248b55ee9753e346c4bd8a68e900135b8864811190d88b
+      check_sha256: 4cd4ca0107d5c01bd623a087c4d5c4ec81ce5344197a9833d2e46887bc9869cb
+      check_exit: 0
+      check_stdout: Signed first moment and vortex separation are conserved by the
+        mutual velocities
+      check_stderr: ''
+    browser:
+      title: IB/2002/P4/q16C · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P3/q7F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P3.pdf
+      original_pdf_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 4
+      printed_question: 7F
+      question_packet_sha256: 17b9cd5a1fbf91df740c6965c14377989b6db7bd11d78a9b7dc4335818e02daa
+      blind_rework_sha256: 42a843a04cd09ce5612330018b27957f86dba4a6386432f109a01316ddeabc2a
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared all four statements, distinctness, quantifiers,
+        placements of sums/intersections and the complement conditions. No item or
+        subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P3/q7F
+
+
+      **(a) True.** The intersection contains zero. A linear combination of members
+      of the intersection lies in each of \(U,W\), hence in the intersection.
+
+
+      **(b) False.** If \(U=\{0\}\) and \(W=V=\mathbb R\), their union equals \(W\),
+      though \(U,W\) are distinct.
+
+
+      **(c) False.** In \(\mathbb R^2\), let \(W\) and \(X\) be the coordinate axes
+      and \(U\) the diagonal line \(y=x\). Since \(W+X=\mathbb R^2\), the left side
+      equals \(U\). The two intersections on the right are both zero.
+
+
+      **(d) True.** Extend a basis of \(U\) to a basis of \(V\), and let \(W\) be
+      the span of the additional vectors. Spanning of the full basis gives \(U+W=V\).
+      Linear independence gives uniqueness of the basis coefficients and hence \(U\cap
+      W=\{0\}\). The construction allows either group of vectors to be empty.
+
+      '
+    main_comparison: Closure under linear combination proves (a). Nested subspaces
+      disprove (b), the two axes and diagonal disprove (c), and basis extension proves
+      (d).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P3.pdf
+      source_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 4
+      compiled_pdf: build/IB-2002-P3/main.pdf
+      compiled_sha256: 293e6bd9007ef93cda57234716c0233093aa14f63d333becbafe502238fa9920
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2002/P3/q7F/index.html
+      html_sha256: 211756324dd549562d58b88b4b200d9cc6aca26d56869a2cde8cc20bfc174c0a
+      math_nodes: 33
+      diagrams: {}
+      question_sha256: 17b9cd5a1fbf91df740c6965c14377989b6db7bd11d78a9b7dc4335818e02daa
+      solution_sha256: 65fb56aba93bf40146146f05f42fd32371ab7428c3a4f867113d2aee758b4b25
+      check_sha256: 32683fe518a3bc1c2b20d044d116daa0df94f4434ce543a7934bf00d3dd443ef
+      check_exit: 0
+      check_stdout: Three distinct lines witness the failure of distributivity of
+        subspace sum
+      check_stderr: ''
+    browser:
+      title: IB/2002/P3/q7F · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P3/q17F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P3.pdf
+      original_pdf_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 8
+      printed_question: 17F
+      question_packet_sha256: f4a86908fe02c0a378c6777d3b7faff0f76feb99498f03774880c778155639d3
+      blind_rework_sha256: b58309352f684b72bb16ac415f4aa924225ea3333e3e5dbf21ebe8b90338791f
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared row-operation definition, both block matrices with
+        I/O and minus sign, and final determinant identity. No item or subpart marks
+        are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P3/q17F
+
+
+      Use the Leibniz definition \(\det A=\sum_{\sigma\in S_n}\operatorname{sgn}(\sigma)\prod_{i=1}^n
+      a_{i,\sigma(i)}\). Each term uses one entry of each row, so the determinant
+      is linear in each row separately. Swapping two rows reindexes the permutations
+      by composition with one transposition and reverses their signs. With two identical
+      rows the permutation terms pair with equal products and opposite signs, giving
+      zero over any field. Adding \(c\) times row \(i\) to distinct row \(j\) thus
+      adds \(c\) times a determinant with identical rows, leaving the determinant
+      unchanged.
+
+
+      For the block triangular \(X\), a permutation making a nonzero contribution
+      must send all the bottom \(n\) rows to the last \(n\) columns. It then sends
+      the top \(n\) rows to the first \(n\) columns. Such permutations are independent
+      permutations of the two index sets and their signs multiply since there are
+      no cross-block inversions. Summing the factored products gives \(\det X=\det
+      A\,\det C\).
+
+
+      In \(\left(\begin{smallmatrix}B&I\\0&A\end{smallmatrix}\right)\), add \(-a_{ij}\)
+      times top row \(j\) to bottom row \(i\) for each \(1\le i,j\le n\), leaving
+      the top rows available unchanged. The bottom blocks become \(-AB\) and \(A-A=0\).
+      The determinant remains \(\det B\det A\). Exchange the two blocks of columns,
+      which consists of the \(n\) swaps of column \(j\) with column \(j+n\); the Leibniz
+      formula gives sign \((-1)^n\). The resulting block triangular determinant is
+      \(\det I\det(-AB)=(-1)^n\det(AB)\). Cancelling the two sign factors gives \(\det(AB)=\det
+      A\det B\), also when either matrix is singular.
+
+      '
+    main_comparison: The permutation definition gives alternation and the block triangular
+      product. Lower-row additions create the −AB block. The n column swaps give the
+      same sign as taking the determinant of −AB, yielding multiplicativity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P3.pdf
+      source_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 8
+      compiled_pdf: build/IB-2002-P3/main.pdf
+      compiled_sha256: 293e6bd9007ef93cda57234716c0233093aa14f63d333becbafe502238fa9920
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2002/P3/q17F/index.html
+      html_sha256: cc868f7f9426c02e3a0a94ae1d55bb6c4ba33d8ffbf9cb7720a712939b5a0821
+      math_nodes: 36
+      diagrams: {}
+      question_sha256: f4a86908fe02c0a378c6777d3b7faff0f76feb99498f03774880c778155639d3
+      solution_sha256: b5b56c80ff9da0c8954d8146bc0e914f5c933eee15d131ba8a8ca67092c146e5
+      check_sha256: 742ff46b417d14f44b7ec70f73e83663fc286fdae0e8c5aa0e2367937377e366
+      check_exit: 0
+      check_stdout: Block elimination and determinant multiplication verified exactly
+      check_stderr: ''
+    browser:
+      title: IB/2002/P3/q17F · Cambridge Maths
+      math: 36
+      rendered: 36
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P1/q14G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P1.pdf
+      original_pdf_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 7
+      printed_question: 14G
+      question_packet_sha256: e37d5d6fe8ac72a8c32f75a4dcf0ade42abf79b4429185cda4319650b207ec8e
+      blind_rework_sha256: 80be00b0b58655c8a60c55d5c2bbe2140ebf37841f6301990957c1a9fb116d71
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared all four printed parts, subspace invariance, divisibility
+        direction, proper-subspace condition, and degree bound. No item or subpart
+        marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P1/q14G
+
+
+      **(a)** Choosing a basis identifies \(\operatorname{End}(V)\) with all \(n\times
+      n\) matrices, with the \(n^2\) matrix units as a basis. Thus \(I,\alpha,\ldots,\alpha^{n^2}\)
+      are linearly dependent. A dependence with some nonzero coefficient is precisely
+      a nonzero annihilating polynomial. The minimal polynomial is the monic annihilator
+      of smallest degree. It exists by well-ordering and scaling a leading coefficient.
+      Two such monic polynomials would have a lower-degree annihilating difference,
+      so they coincide. Polynomial division of any annihilator by the minimal polynomial
+      gives a remainder which annihilates and has smaller degree, hence vanishes.
+
+
+      **(b)** For an eigenvector \(v\ne0\) with eigenvalue \(\lambda\) one has \(m_\alpha(\alpha)v=m_\alpha(\lambda)v=0\),
+      so \(m_\alpha(\lambda)=0\). Conversely take a root in the scalar field and write
+      \(m_\alpha=(X-\lambda)q\). Minimality gives \(q(\alpha)\ne0\). Choose \(w\)
+      with \(q(\alpha)w\ne0\). This vector is killed by \(\alpha-\lambda I\) and is
+      the required eigenvector. Roots over an extension field give eigenvalues of
+      the scalar-extended map.
+
+
+      **(c)** Invariance of \(W\) makes every power of \(\beta\) the restriction of
+      the same power of \(\alpha\). Thus \(m_\alpha(\beta)=0\). Divisibility by \(m_\beta\)
+      follows from the division argument in (a).
+
+
+      **(d)** On a three-dimensional space with basis \(e_1,e_2,e_3\), take \(\alpha
+      e_2=e_1\), \(\alpha e_1=\alpha e_3=0\), and \(W=\langle e_1,e_2\rangle\). Both
+      operators have square zero and are nonzero. A monic linear annihilator would
+      make the map scalar, whereas its image of \(e_2\) is \(e_1\). Both minimal polynomials
+      are \(X^2\).
+
+      '
+    main_comparison: On restriction the original minimal polynomial still annihilates
+      the map. Minimality and polynomial division give divisibility, and factoring
+      at a root in the base field produces a nonzero eigenvector. Both diagonal examples
+      have the two eigenvalues zero and one on the proper invariant subspace.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P1.pdf
+      source_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 7
+      compiled_pdf: build/IB-2002-P1/main.pdf
+      compiled_sha256: 746d0137b809b368dd3a951012aa19a493427673dc47fb7c87cdb32ce43d461c
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2002/P1/q14G/index.html
+      html_sha256: 809701d10a4240858459c3e193a389e984581b8bb57ddf385423b055eb5f3799
+      math_nodes: 42
+      diagrams: {}
+      question_sha256: e37d5d6fe8ac72a8c32f75a4dcf0ade42abf79b4429185cda4319650b207ec8e
+      solution_sha256: 52386d916ae116255ebbf51bd99c4a565c14fc334134cf86f48f2c5070dacedb
+      check_sha256: 4e7970d30f52557a74595f612242d1cff7c5bcb976ae74f95ebff69961473282
+      check_exit: 0
+      check_stdout: Proper invariant restriction preserves the quadratic minimal polynomial
+      check_stderr: ''
+    browser:
+      title: IB/2002/P1/q14G · Cambridge Maths
+      math: 42
+      rendered: 42
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P4/q11A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P4.pdf
+      original_pdf_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 5
+      printed_question: 11A
+      question_packet_sha256: 6798f76da86a8822da2b1a0318507d3dd9dd2b1d74310c8fc51462e79bdb5b7d
+      blind_rework_sha256: 2edaf325138637424b3d7f9b6fd04f8d37fb91bb3e9473e8071a9f54104e6537
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared the general endpoint conditions, second-derivative
+        exponent and x power, both asymptotic limits (0,1 respectively), and the right
+        endpoint data. No item or subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P4/q11A
+
+
+      Assume the differentiability needed for the first variation and integrations
+      by parts. If \(\eta,\eta''\) vanish at both endpoints, stationarity implies
+
+      \[
+
+      0=\int_a^b(f_y\eta+f_{y''}\eta''+f_{y''''}\eta'''')\,dx
+
+      =\int_a^b \bigl(f_y-(f_{y''})''+(f_{y''''})''''\bigr)\eta\,dx .
+
+      \]
+
+      The boundary term \([(f_{y''}-(f_{y''''})'')\eta+f_{y''''}\eta'']_a^b\) vanishes
+      by the prescribed endpoint data. Taking all compactly supported smooth \(\eta\)
+      yields the interior equation \(f_y-(f_{y''})''+(f_{y''''})''''=0\).
+
+
+      Here \(f_y=8yy''\), \(f_{y''}=4y^2\), and \(f_{y''''}=2x^4y''''\). The first
+      two terms cancel, leaving \((x^4y'''')''''=0\) on \(0<x<1\). Integrating \(x^4y''''=Ax+B\)
+      twice gives
+
+      \[
+
+      y=\frac{A}{2x}+\frac{B}{6x^2}+Cx+D .
+
+      \]
+
+      The first limit forces \(B=0\), the second then \(A=2\). At 1, \(y''=0\) forces
+      \(C=1\), and \(y=2\) forces \(D=0\). The unique ODE solution is \(y=x+x^{-1}\),
+      for which \(x^4y''''=2x\).
+
+
+      The question asks to solve the differential equation with singular data. Substituting
+      this solution into the original integrand gives \(4x^2+4-4x^{-4}\). Its improper
+      integral diverges to minus infinity. The regular-endpoint first-variation argument
+      does not establish a finite stationary integral for this singular solution.
+
+      '
+    main_comparison: Escalation resolved. Both variations reduce to the same fourth-order
+      equation; the singular conditions select x+1/x. I checked both independent endpoint
+      limits and the regular endpoint data. The leading term −4/x to the fourth power
+      makes the original improper functional divergent. This is a formal stationary
+      differential equation, with no finite stationary integral on this solution.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P4.pdf
+      source_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 5
+      compiled_pdf: build/IB-2002-P4/main.pdf
+      compiled_sha256: f9105ef193de70cc96c6f9c25a58966dbab982dc1ba81519955baff1583a5a48
+      compiled_pages:
+      - 11
+      html: site/private/questions/IB/2002/P4/q11A/index.html
+      html_sha256: c3da820510ada885bb91091a090d1a967a62a84af1cc000d91aa3244b7e7cbf3
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: 6798f76da86a8822da2b1a0318507d3dd9dd2b1d74310c8fc51462e79bdb5b7d
+      solution_sha256: dbe08b74522d8615c4eba953c7137f02e440b6c3b26990b33a91b839051ff687
+      check_sha256: 48ee42e2c9148a3036455e3d9d07917521e83e2d7006531a77436d9f032e3c7d
+      check_exit: 0
+      check_stdout: 'All regular and singular boundary conditions and leading divergent
+        integrand checked
+
+        Both one-sided singular endpoint limits verified.'
+      check_stderr: ''
+    browser:
+      title: IB/2002/P4/q11A · Cambridge Maths
+      math: 26
+      rendered: 26
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P1/q2A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P1.pdf
+      original_pdf_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 2
+      printed_question: 2A
+      question_packet_sha256: 6b3c1333121923292da4302df89bc6ebf3c9c1704de0c50847722fb57eeae8fb
+      blind_rework_sha256: 89cc673325346190ef5c6683c03b5cdd500c5de31cbeaf49f2f7cb301253705a
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared sine and cosine instructions, both 3L/2 evaluation
+        points, endpoints of the sketch, and the bracketed instruction. No item or
+        subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P1/q2A
+
+
+      Extend \(x\) oddly from \((0,L)\) to \((-L,L)\), then with period \(2L\). Orthogonality
+      gives, for \(n\ge1\),
+
+      \[
+
+      b_n=\frac2L\int_0^L x\sin(n\pi x/L)\,dx
+
+      =\frac{2L}{n\pi}(-1)^{n+1}.
+
+      \]
+
+      Here the boundary term after integration by parts is \(-L^2\cos(n\pi)/(n\pi)\)
+      and the remaining integrated cosine vanishes. The sine series is \(\sum_{n\ge1}b_n\sin(n\pi
+      x/L)\). Its sum at \(3L/2\) equals its sum at \(-L/2\), where the odd extension
+      is continuous and has value \(-L/2\). The piecewise smooth convergence theorem
+      gives the midpoint at a jump such as \(L\), where the sum is zero.
+
+
+      The cosine extension equals \(|x|\) on \([-L,L]\) and repeats with period \(2L\).
+      Its sketch consists of straight line segments successively joining
+
+      \[
+
+      (-2L,0),\quad(-L,L),\quad(0,0),\quad(L,L),\quad(2L,0).
+
+      \]
+
+      Thus at \(3L/2\) its sum is \(L/2\). Both periodic extensions are piecewise
+      smooth and the cosine extension is continuous also at the vertices.
+
+      '
+    main_comparison: The odd periodic extension at three half-lengths gives −L/2,
+      while the even extension gives L/2. Integration by parts fixes the alternating
+      signs in the sine series. Both sketches show the even triangular wave.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P1.pdf
+      source_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 2
+      compiled_pdf: build/IB-2002-P1/main.pdf
+      compiled_sha256: 746d0137b809b368dd3a951012aa19a493427673dc47fb7c87cdb32ce43d461c
+      compiled_pages:
+      - 2
+      html: site/private/questions/IB/2002/P1/q2A/index.html
+      html_sha256: e1afce63b68f6dab7f4326bf379bd176ebb9c409cb58e670c8c96715e1a576ab
+      math_nodes: 21
+      diagrams:
+        site/private/figures/tripos/IB/2002/P1/q2A/cosine-extension.png: e8264982c2b96b01c31d05bde5d520f8ca620feba3062edca32cb66a9759f071
+      question_sha256: 6b3c1333121923292da4302df89bc6ebf3c9c1704de0c50847722fb57eeae8fb
+      solution_sha256: be8f9ac807cbaa92215b7cbfbe1443a0d0dbe5e1975f67a829bf85deb5e33d0b
+      check_sha256: 33a0d7d6b577cdc285e7c0a65065da7973a5376e9392a6ff3f7155273f31052d
+      check_exit: 0
+      check_stdout: Half-range sine coefficients and the triangular extension normalization
+        verified
+      check_stderr: ''
+    browser:
+      title: IB/2002/P1/q2A · Cambridge Maths
+      math: 21
+      rendered: 21
+      parse_errors: 0
+      diagrams:
+      - alt: Even periodic extension of the half-range data, with the value at three
+          halves highlighted.
+        width: 840
+        height: 406
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P3/q16B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P3.pdf
+      original_pdf_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 7
+      printed_question: 16B
+      question_packet_sha256: 5a34456dee22f35fb3797ae46741255f5c95d583d001138f7d6caa4f077f828a
+      blind_rework_sha256: 3ab50ec0d7395f47bd99aa205cc664444f121e21febced2a647089114ba0ff2a
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared (a) and (b), the printed fixed-point implication,
+        eigenvector assumptions and strict diagonal-dominance sum including its excluded
+        diagonal. No item or subpart marks are printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P3/q16B
+
+
+      **(a)** The given eigenbasis implies that 1 is not an eigenvalue of \(H\), so
+      \(I-H\) is invertible. The vector \(y=(I-H)^{-1}v\) is a fixed point, and the
+      one-way consistency assumption now gives \(Ay=b\). Since \(A\) is invertible,
+      \(y=x^*\). This establishes the fixed-point identity needed to subtract the
+      iteration. Write \(x^0-x^*=\sum_i c_iw_i\); if the eigenbasis is complex, work
+      in the complexification. Then
+
+      \[
+
+      x^k-x^*=H^k(x^0-x^*)=\sum_i c_i\lambda_i^k w_i.
+
+      \]
+
+      It tends to zero because each of the finitely many powers tends to zero.
+
+
+      **(b)** For nonzero diagonal entries, Jacobi evaluates all components simultaneously
+      from the previous vector:
+
+      \[
+
+      x_i^{k+1}=\frac{b_i-\sum_{j\ne i}a_{ij}x_j^k}{a_{ii}} .
+
+      \]
+
+      Subtract the corresponding component identity for the solution. Writing \(e^k=x^k-x^*\)
+      gives \(|e_i^{k+1}|\le |a_{ii}|^{-1}\sum_{j\ne i}|a_{ij}|\,\|e^k\|_\infty\).
+      The displayed dominance hypothesis hence gives \(\|e^k\|_\infty\le\gamma^k\|e^0\|_\infty\to0\).
+      If \(\gamma=0\) the first update is already exact.
+
+      '
+    main_comparison: Since 1 is outside the spectrum, the fixed-point equation is
+      solvable and consistency identifies its unique solution with the original system.
+      Eigenbasis expansion yields convergence. The Jacobi infinity-norm bound follows
+      row by row and strict diagonal dominance ensures nonsingularity.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P3.pdf
+      source_sha256: 7da1bc641789416a8e050e3c83907fec40a2b4187895115f2a5aa9c1c627d734
+      source_page: 7
+      compiled_pdf: build/IB-2002-P3/main.pdf
+      compiled_sha256: 293e6bd9007ef93cda57234716c0233093aa14f63d333becbafe502238fa9920
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2002/P3/q16B/index.html
+      html_sha256: 920a357fe6dc292a21de33caf04f82035d8e52605e91b9298b5ac1233d1012e8
+      math_nodes: 33
+      diagrams: {}
+      question_sha256: 5a34456dee22f35fb3797ae46741255f5c95d583d001138f7d6caa4f077f828a
+      solution_sha256: 29847844639e74d32fc459cc94da854d12467cf30041cadd700fa567e4e7659f
+      check_sha256: 0cc53280a4cdf5445397a5ca1000b7eb3f75e17a03759764bd9f3eeb5bc8f108
+      check_exit: 0
+      check_stdout: Jacobi sup-norm contraction verified for a nonsymmetric strictly
+        dominant matrix
+      check_stderr: ''
+    browser:
+      title: IB/2002/P3/q16B · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P2/q9D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P2.pdf
+      original_pdf_sha256: 4d87034c96d4d1d10f7235903496456a5ad60ca6336b8def7cdc93a7b2a66a35
+      source_page: 3
+      printed_question: 9D
+      question_packet_sha256: c3c49eb716855bf67362459cbbf2789176b173181a9b94128467321dcf85d021
+      blind_rework_sha256: d40035f2b24599cc75057e5fbee82262579be63e67eb872ead8179a59b7db714
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+      source_comparison: Compared signs/order of all three angular momentum operators,
+        F=(x+iy)z, and the two requested eigenvalues. No item or subpart marks are
+        printed alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P2/q9D
+
+
+      Let \(F=xz+iyz\). The Cartesian momenta are \(P_j=-i\hbar\partial_j\). Set \(D_x=y\partial_z-z\partial_y,\
+      D_y=z\partial_x-x\partial_z,\ D_z=x\partial_y-y\partial_x\), so \(L_j=-i\hbar
+      D_j\). Then
+
+      \[
+
+      D_zF=ixz-yz=iF,\quad D_xF=xy+i(y^2-z^2),\quad
+
+      D_yF=z^2-x^2-ixy.
+
+      \]
+
+      Applying the same operators a second time gives \(D_z^2F=-F,\ D_x^2F=-xz-4iyz,\
+      D_y^2F=-4xz-iyz\). Thus \(L_zF=\hbar F\) and \(\mathbf L^2F=-\hbar^2(D_x^2+D_y^2+D_z^2)F=6\hbar^2
+      F\). Equivalently the angular quantum numbers are \(m=1,\ \ell=2\).
+
+      '
+    main_comparison: The quadratic harmonic polynomial has Euler degree two. Expansion
+      of the angular momentum operators gives L squared eigenvalue six hbar squared,
+      and direct azimuthal differentiation gives Lz eigenvalue hbar.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P2.pdf
+      source_sha256: 4d87034c96d4d1d10f7235903496456a5ad60ca6336b8def7cdc93a7b2a66a35
+      source_page: 3
+      compiled_pdf: build/IB-2002-P2/main.pdf
+      compiled_sha256: ec2889b2386d6211cb0adca178a5883741dd74e933875fc1445cdc65947c7d47
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2002/P2/q9D/index.html
+      html_sha256: a703e6518dfc768b213f5cb7cd8610c283dfae233fb7d83c2e6b0d86f96cf971
+      math_nodes: 19
+      diagrams: {}
+      question_sha256: c3c49eb716855bf67362459cbbf2789176b173181a9b94128467321dcf85d021
+      solution_sha256: 6fd2f0dd612dcd58b07557fe0a0c2bd2c8377c53f505ca721be1f790472fbd86
+      check_sha256: 8d5bf61db18aea33477b2ecdc9c943c8b72fca4106040094b44b801f9a2ce89b
+      check_exit: 0
+      check_stdout: Both angular eigenvalues verified directly from the three Cartesian
+        operators
+      check_stderr: ''
+    browser:
+      title: IB/2002/P2/q9D · Cambridge Maths
+      math: 19
+      rendered: 19
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P1/q12H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P1.pdf
+      original_pdf_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 6
+      printed_question: 12H
+      question_packet_sha256: 4b76f0c3eb58cc84cc080c2e4158342fd2f4aa9f1d86234b61ae3fad68282612
+      blind_rework_sha256: 6aab7e76c68cf2465634b015bf08caf9bc7e8113e6e77739d93e71b8ee93a71d
+      transcription_discrepancies: []
+      question_figure_sha256:
+        chi-square-percentiles.png: 3a74b133d5f930442917d48cc633ed87e485a6a6ffe793d4aef04b58314df8dc
+        rising-preferences.png: 1bfdc4f8a2bf3e4365adbafd5f35fd924e0593ee69afc11a656c21c9b5e24d02
+      source_comparison: Compared the full text and both supplied table images visually.
+        Rows 17,22,11 and 43,78,29, all totals, and the printed 99% quantiles for
+        1,2,3,5,6 degrees of freedom agree. No item or subpart marks are printed alongside
+        this question.
+    independent_rework: '# Blind rework of IB/2002/P1/q12H
+
+
+      Condition on the stated group sizes \(r_1=50,r_2=150\), and take independent
+      individual categorical responses. Write \(n_{ij}\) for the counts and \(c_j=\sum_i
+      n_{ij}\). Under the unrestricted model the two rows have probability triples
+      \(p_{ij}\), each summing to one. The likelihood is \(C\prod_{i,j}p_{ij}^{n_{ij}}\),
+      where \(C\) consists of the multinomial coefficients. Under independence the
+      rows share one triple \(p_j\).
+
+
+      A Lagrange multiplier for each unrestricted row gives \(n_{ij}/p_{ij}=\lambda_i\),
+      hence \(\lambda_i=r_i\) and \(\widehat p_{ij}=n_{ij}/r_i\). Under the null the
+      equations give \(\widehat p_j=c_j/200\). All counts are positive here and concavity
+      of the log likelihood makes these maxima. Consequently the likelihood ratio
+      \(\Lambda=\sup_{H_0}L/\sup L\) gives
+
+      \[
+
+      G^2=-2\log\Lambda=2\sum_{i,j}n_{ij}\log(n_{ij}/E_{ij}),
+
+      \qquad E_{ij}=r_i c_j/200 .
+
+      \]
+
+      Use large values as evidence against the null. Under the null the asymptotic
+      reference law is \(\chi^2_2\) because four free alternative parameters reduce
+      to two under the null. From column totals \((60,100,40)\) the expected rows
+      are \((15,25,10)\) and \((45,75,30)\). Substituting observed rows \((17,22,11)\)
+      and \((43,78,29)\) gives \(G^2=0.97007955\). The supplied 99th percentile is
+      9.21 and the asymptotic \(p\)-value is \(e^{-G^2/2}=0.61567\). Retain the independence
+      hypothesis at the 1% level.
+
+      '
+    main_comparison: The fixed-row multinomial ratio fits expected rows (15,25,10)
+      and (45,75,30). Twice the log likelihood difference gives 0.97008 on two degrees
+      of freedom, below the 1 percent upper critical value.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P1.pdf
+      source_sha256: df3da4ac46c5e24f27775b50aff123010b5f544fd92f488d582fa10d238f656e
+      source_page: 6
+      compiled_pdf: build/IB-2002-P1/main.pdf
+      compiled_sha256: 746d0137b809b368dd3a951012aa19a493427673dc47fb7c87cdb32ce43d461c
+      compiled_pages:
+      - 13
+      html: site/private/questions/IB/2002/P1/q12H/index.html
+      html_sha256: 5eb856c4f93c2eaee1d59d03dd846f9c9479951062295a400b3a8f7a75d44fe3
+      math_nodes: 12
+      diagrams:
+        site/private/figures/tripos/IB/2002/P1/q12H/rising-preferences.png: 1bfdc4f8a2bf3e4365adbafd5f35fd924e0593ee69afc11a656c21c9b5e24d02
+        site/private/figures/tripos/IB/2002/P1/q12H/chi-square-percentiles.png: 3a74b133d5f930442917d48cc633ed87e485a6a6ffe793d4aef04b58314df8dc
+      question_sha256: 4b76f0c3eb58cc84cc080c2e4158342fd2f4aa9f1d86234b61ae3fad68282612
+      solution_sha256: 9b96e0266d1ed670b6bf154157c45b2caaf8f5d7336846d4ed614f640f7a779e
+      check_sha256: 04a2efed3fb1ec7208dfe14fcd41d62ea6704596c45486ec6fa5fb0eec59f299
+      check_exit: 0
+      check_stdout: Likelihood-ratio statistic, degrees of freedom and tail probability
+        verified
+      check_stderr: ''
+    browser:
+      title: IB/2002/P1/q12H · Cambridge Maths
+      math: 12
+      rendered: 12
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 929
+        height: 188
+      - alt: ''
+        width: 866
+        height: 99
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2002/P4/q3H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2002/P4.pdf
+      original_pdf_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 2
+      printed_question: 3H
+      question_packet_sha256: eec2e6d5442294a8cba809612a0f6c2d93637d43c83f30aa1716729f297120ee
+      blind_rework_sha256: fbba232fd6028a50b97a5209358a10f3fc17c14560a69bd0fb29d8d60da7b8fa
+      transcription_discrepancies: []
+      question_figure_sha256:
+        concrete-test-counts.png: b7d165775052a4d12aef60b77eac14672f67351269616022c5b5fb799faad26b
+      source_comparison: Compared the full question and supplied table image, with
+        columns 0 through 6 and frequencies 53,32,12,2,1,0,0. The paper specifies
+        equal marginal failure probabilities. No item or subpart marks are printed
+        alongside this question.
+    independent_rework: '# Blind rework of IB/2002/P4/q3H
+
+
+      Let \(X_i\) be the number of failures in mix \(i\). Linearity of expectation
+      gives \(E X_i=6p\) when each block has marginal failure probability \(p\), including
+      when blocks of a mix are dependent. Thus the total divided by 600 is unbiased:
+
+      \[
+
+      \widehat p=\frac{32+2(12)+3(2)+4(1)}{600}=\frac{66}{600}=0.11.
+
+      \]
+
+
+      If the 100 mixes are independent, identically sampled units, use the variation
+      of their observed counts, allowing arbitrary dependence within a mix. Here \(\bar
+      X=0.66\) and \(\sum_i X_i^2=32+48+18+16=114\), giving \(s_X^2=(114-100(0.66)^2)/99=0.711515\).
+      The standard error of \(\bar X/6\) is estimated by \(s_X/(6\sqrt{100})=0.01406\).
+      A CLT-based approximate 95% interval is \(0.11\pm1.96(0.01406)\), or \((0.0824,0.1376)\).
+
+
+      If individual blocks are also mutually independent, \(S=\sum_iX_i\sim\operatorname{Bin}(600,p)\).
+      An exact equal-tailed interval can then be obtained by solving \(\Pr_{p_L}(S\ge66)=0.025\)
+      and \(\Pr_{p_U}(S\le66)=0.025\). The plug-in normal approximation gives \(0.11\pm1.96\sqrt{0.11(0.89)/600}=(0.0850,0.1350)\).
+      Equal marginal failure probabilities alone determine the estimator''s mean but
+      leave its sampling variance undetermined. For example, perfectly correlated
+      blocks in a mix have \(X_i=6B_i\) and variance \(36p(1-p)\), instead of the
+      binomial \(6p(1-p)\).
+
+      '
+    main_comparison: There are 66 failures in 600 blocks and common marginal probability
+      suffices for unbiasedness. The binomial interval (0.0850,0.1350) needs independence
+      of blocks. Independent replicate mixes instead give a cluster-based interval
+      of (0.0824,0.1376).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2002/P4.pdf
+      source_sha256: b2d5a143e78c022665b604d282604ce5be565caf7047150bb52eaac8fe0c4fc9
+      source_page: 2
+      compiled_pdf: build/IB-2002-P4/main.pdf
+      compiled_sha256: f9105ef193de70cc96c6f9c25a58966dbab982dc1ba81519955baff1583a5a48
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2002/P4/q3H/index.html
+      html_sha256: 7a0352995e53843fb29fe5acb0664d18b735940482b874911ab757755cebdcd2
+      math_nodes: 12
+      diagrams:
+        site/private/figures/tripos/IB/2002/P4/q3H/concrete-test-counts.png: b7d165775052a4d12aef60b77eac14672f67351269616022c5b5fb799faad26b
+      question_sha256: eec2e6d5442294a8cba809612a0f6c2d93637d43c83f30aa1716729f297120ee
+      solution_sha256: 75148cff09cad1bd8b77c16da0296f06da86b301bced6657d68d7bc2ae55d3c1
+      check_sha256: d33218eb9df8234b4e9d3d3d3a52ae9b1ad42d3403484962139b86b596c37499
+      check_exit: 0
+      check_stdout: Block proportion and independent-mix standard error verified 0.11
+      check_stderr: ''
+    browser:
+      title: IB/2002/P4/q3H · Cambridge Maths
+      math: 12
+      rendered: 12
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 891
+        height: 102
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
