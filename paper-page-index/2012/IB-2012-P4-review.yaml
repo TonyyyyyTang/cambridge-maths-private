@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 11
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2012-06-08'
 printed_date: Friday, 8 June, 2012
 time: 1:30 pm to 4:30 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2012/P4/q1F
   original_question: 1F
@@ -45,8 +48,16 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: 9a4dab2f016dcef05063546a91d6e44ca0ce6bcd626a378388e6e3eb3506414c
-  checks: Checked the cyclic endpoint, both minus signs and the provision on stating theorems.
+  checks: Checked the cyclic endpoint, both minus signs and the provision on stating
+    theorems.
   source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+  reinspection:
+    source_raster_sha256:
+    - 63f908d99e6bf5f468a483167a11f59540f9e33f5a5875445b8a6e9803ecc0fb
+    dpi: 145
+    question_sha256: 9a4dab2f016dcef05063546a91d6e44ca0ce6bcd626a378388e6e3eb3506414c
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q2G
   original_question: 2G
   page: 2
@@ -56,9 +67,26 @@ questions:
   course_at_time: Groups, Rings and Modules
   course: IB/groups-rings-and-modules
   also_courses: []
-  question_sha256: 00703911211b7ae15a8534c14b3db17ecead5fa7c8dd42efef2ed46c457f03af
-  checks: Checked N greater than or equal to zero, the nonzero coefficient and the separate cubic equation.
+  question_sha256: 64e2173908619aea0c5775988cca43c365df8848c608f49891ba5ab927279605
+  checks: Checked N greater than or equal to zero, the nonzero coefficient and the
+    separate cubic equation.
   source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+  previous_question_sha256: 00703911211b7ae15a8534c14b3db17ecead5fa7c8dd42efef2ed46c457f03af
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 63f908d99e6bf5f468a483167a11f59540f9e33f5a5875445b8a6e9803ecc0fb
+    dpi: 145
+    question_sha256: 64e2173908619aea0c5775988cca43c365df8848c608f49891ba5ab927279605
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 364.9
+      pdf_top: 260.48
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P4/q3E
   original_question: 3E
   page: 2
@@ -71,6 +99,13 @@ questions:
   question_sha256: 54e60e07be071aa3155348f7ab60b6c56c762052d710ffe5b66949fc15ef76f9
   checks: Checked the order of the two domain dimensions and the scalar codomain.
   source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+  reinspection:
+    source_raster_sha256:
+    - 63f908d99e6bf5f468a483167a11f59540f9e33f5a5875445b8a6e9803ecc0fb
+    dpi: 145
+    question_sha256: 54e60e07be071aa3155348f7ab60b6c56c762052d710ffe5b66949fc15ef76f9
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q4E
   original_question: 4E
   page: 2
@@ -81,9 +116,16 @@ questions:
   course: IB/complex-analysis
   also_courses: []
   question_sha256: 37b9e25ba0013336e711bc4f76db2ecb1b11697512928725e0ccd4a36bae2559
-  checks: Checked the distinction between h(i) and h(−i), the strict interior/exterior domains and identical
-    derivative formula.
+  checks: Checked the distinction between h(i) and h(−i), the strict interior/exterior
+    domains and identical derivative formula.
   source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+  reinspection:
+    source_raster_sha256:
+    - 63f908d99e6bf5f468a483167a11f59540f9e33f5a5875445b8a6e9803ecc0fb
+    dpi: 145
+    question_sha256: 37b9e25ba0013336e711bc4f76db2ecb1b11697512928725e0ccd4a36bae2559
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q5D
   original_question: 5D
   page: 2
@@ -94,8 +136,16 @@ questions:
   course: IB/methods
   also_courses: []
   question_sha256: a216dc53bfd12116ef4414b647e68d9fb65263edc07a9de964a8c69874f26936
-  checks: Checked the two wave directions, the c-squared denominator and the two initial conditions.
+  checks: Checked the two wave directions, the c-squared denominator and the two initial
+    conditions.
   source_page_render_sha256: f931678ec5cd3b83c715a9705c0c405f88e1dbbdb88baa22f028bf90da8dcf2b
+  reinspection:
+    source_raster_sha256:
+    - 63f908d99e6bf5f468a483167a11f59540f9e33f5a5875445b8a6e9803ecc0fb
+    dpi: 145
+    question_sha256: a216dc53bfd12116ef4414b647e68d9fb65263edc07a9de964a8c69874f26936
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q6C
   original_question: 6C
   page: 3
@@ -106,8 +156,16 @@ questions:
   course: IB/quantum-mechanics
   also_courses: []
   question_sha256: 924491d0c7bdb1e01e03c92ca5baa09b74548e38ccc16abb270c9ebcffbacf80
-  checks: Checked the three box dimensions, the factorized wavefunction and the upper bound √2 times c.
+  checks: Checked the three box dimensions, the factorized wavefunction and the upper
+    bound √2 times c.
   source_page_render_sha256: a56dc8af6854f734bb58a6164b83e4cc76e10807329695903b0ff8ecf0a152ef
+  reinspection:
+    source_raster_sha256:
+    - 19ef7b5bf84c02bdb56a3f09e3d0a6ab35ba1ed5c2c3b0006c7d6be4fe3b6cd8
+    dpi: 145
+    question_sha256: 924491d0c7bdb1e01e03c92ca5baa09b74548e38ccc16abb270c9ebcffbacf80
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q7B
   original_question: 7B
   page: 3
@@ -118,9 +176,16 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: f58d1d65b5efbdb66065776a763d6b5eb1a7701902a705f9df3469cdff81ad21
-  checks: Checked the minus sign in Faraday’s equation, the hyperbolic-tangent magnetic field and the rest/motion
-    hypotheses.
+  checks: Checked the minus sign in Faraday’s equation, the hyperbolic-tangent magnetic
+    field and the rest/motion hypotheses.
   source_page_render_sha256: a56dc8af6854f734bb58a6164b83e4cc76e10807329695903b0ff8ecf0a152ef
+  reinspection:
+    source_raster_sha256:
+    - 19ef7b5bf84c02bdb56a3f09e3d0a6ab35ba1ed5c2c3b0006c7d6be4fe3b6cd8
+    dpi: 145
+    question_sha256: f58d1d65b5efbdb66065776a763d6b5eb1a7701902a705f9df3469cdff81ad21
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q8D
   original_question: 8D
   page: 3
@@ -131,10 +196,19 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: 5a2991d19ceb2111b7f3b7b7ab1d006c1388367aa55ba4286f7cb4afb60553e4
-  checks: Checked the four y indices, both f indices and the exceptional parameter value for order three.
-  printed_ambiguity: The right-hand side is a difference of consecutive f values. Substitution of a linear
-    solution conflicts with the printed order claim for nonzero a.
+  checks: Checked the four y indices, both f indices and the exceptional parameter
+    value for order three.
+  printed_ambiguity: The right-hand side is a difference of consecutive f values.
+    Substitution of a linear solution conflicts with the printed order claim for nonzero
+    a.
   source_page_render_sha256: a56dc8af6854f734bb58a6164b83e4cc76e10807329695903b0ff8ecf0a152ef
+  reinspection:
+    source_raster_sha256:
+    - 19ef7b5bf84c02bdb56a3f09e3d0a6ab35ba1ed5c2c3b0006c7d6be4fe3b6cd8
+    dpi: 145
+    question_sha256: 5a2991d19ceb2111b7f3b7b7ab1d006c1388367aa55ba4286f7cb4afb60553e4
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q9H
   original_question: 9H
   page: 4
@@ -144,10 +218,26 @@ questions:
   course_at_time: Markov Chains
   course: IB/markov-chains
   also_courses: []
-  question_sha256: 62903bf4ad25b38dbe2f53a6e4dd611255d17b927ef4ebb90fe0e77c2e95bda0
-  checks: Checked the conditional probabilities, n starting at 0 and the divisibility-by-three qualification
-    in both states.
+  question_sha256: 3e5fb0b029beb9bf659dd9ce21ad8f643a2b8b0c18453def371182db6f9a0680
+  checks: Checked the conditional probabilities, n starting at 0 and the divisibility-by-three
+    qualification in both states.
   source_page_render_sha256: 85cd79c3d75ed95b1bcba088ad06473409c692e59256a7f9659377f503bed860
+  previous_question_sha256: 62903bf4ad25b38dbe2f53a6e4dd611255d17b927ef4ebb90fe0e77c2e95bda0
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 0c533c1edc7baba0af6013b7439ea3b4c11784cd2f417fbe6801439c44867ea8
+    dpi: 145
+    question_sha256: 3e5fb0b029beb9bf659dd9ce21ad8f643a2b8b0c18453def371182db6f9a0680
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 186.98
+      pdf_top: 133.92
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P4/q10F
   original_question: 10F
   page: 5
@@ -158,9 +248,16 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: 652f0d27ffe632896c2979cdae4e1180c17bf40fa0467b2005bab89ae05db37c
-  checks: Checked the order of the bilinear arguments, the orthogonal complement and direct sum, and the absolute
-    value in the index formula.
+  checks: Checked the order of the bilinear arguments, the orthogonal complement and
+    direct sum, and the absolute value in the index formula.
   source_page_render_sha256: 0095829df2e8707cfd096028f8eb0fda413d18549f88e75196e950edaf24606a
+  reinspection:
+    source_raster_sha256:
+    - 032313386504239babcc7cbc3f6d7eb00277f4471cf5a5863d95ddfe02196796
+    dpi: 145
+    question_sha256: 652f0d27ffe632896c2979cdae4e1180c17bf40fa0467b2005bab89ae05db37c
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q11G
   original_question: 11G
   page: 5
@@ -171,11 +268,18 @@ questions:
   course: IB/groups-rings-and-modules
   also_courses: []
   question_sha256: 885d94db36f5794e24d7c526cbbc9ad8939de3271940658eb1019d281e994c45
-  checks: Checked the printed set defining I·M, the monic annihilating equation, adjugate identity and both
-    conditions on a.
-  printed_ambiguity: The printed definition of the ideal-module product lists single products. The usual module
-    product comprises finite sums of such products.
+  checks: Checked the printed set defining I·M, the monic annihilating equation, adjugate
+    identity and both conditions on a.
+  printed_ambiguity: The printed definition of the ideal-module product lists single
+    products. The usual module product comprises finite sums of such products.
   source_page_render_sha256: 0095829df2e8707cfd096028f8eb0fda413d18549f88e75196e950edaf24606a
+  reinspection:
+    source_raster_sha256:
+    - 032313386504239babcc7cbc3f6d7eb00277f4471cf5a5863d95ddfe02196796
+    dpi: 145
+    question_sha256: 885d94db36f5794e24d7c526cbbc9ad8939de3271940658eb1019d281e994c45
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q12E
   original_question: 12E
   page: 6
@@ -186,9 +290,16 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: f8817a8f621b95b0956169faab446479a100e5a82b68ce08fd99fb13cb830a01
-  checks: Checked the dimension of each version of Bolzano-Weierstrass, isometry, and the question about dropping
-    boundedness.
+  checks: Checked the dimension of each version of Bolzano-Weierstrass, isometry,
+    and the question about dropping boundedness.
   source_page_render_sha256: b0a04b57ed93fefcc50c2b3a4dc2cdef7a9127df767971243898169c037e062b
+  reinspection:
+    source_raster_sha256:
+    - 628e55658cad0e5dac1f3ba380f3d84f856202aa260fd3f9680301ede227549f
+    dpi: 145
+    question_sha256: f8817a8f621b95b0956169faab446479a100e5a82b68ce08fd99fb13cb830a01
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q13F
   original_question: 13F
   page: 6
@@ -199,8 +310,16 @@ questions:
   course: IB/topology
   also_courses: []
   question_sha256: c3f4bf4cc08c305a0a36b31fc1c56e861d0e73273e349d0883bc932eb4f5ec52
-  checks: Checked the two projection maps, connectedness and the open rays and operations for the example.
+  checks: Checked the two projection maps, connectedness and the open rays and operations
+    for the example.
   source_page_render_sha256: b0a04b57ed93fefcc50c2b3a4dc2cdef7a9127df767971243898169c037e062b
+  reinspection:
+    source_raster_sha256:
+    - 628e55658cad0e5dac1f3ba380f3d84f856202aa260fd3f9680301ede227549f
+    dpi: 145
+    question_sha256: c3f4bf4cc08c305a0a36b31fc1c56e861d0e73273e349d0883bc932eb4f5ec52
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q14A
   original_question: 14A
   page: 6
@@ -210,9 +329,32 @@ questions:
   course_at_time: Complex Methods
   course: IB/complex-methods
   also_courses: []
-  question_sha256: 1824b660b0a83b55ae9cbbb3c2c1818ebf86f6a91d579b10556ed1c6d3de45ac
-  checks: Checked the boundary step at ±1, the integral kernel and both inverse-tangent numerators.
+  question_sha256: eb28f031f1d685e7ba00362a16c46712e9d84d230951267b093105a2cc4f7fa1
+  checks: Checked the boundary step at ±1, the integral kernel and both inverse-tangent
+    numerators.
   source_page_render_sha256: b0a04b57ed93fefcc50c2b3a4dc2cdef7a9127df767971243898169c037e062b
+  previous_question_sha256: 1824b660b0a83b55ae9cbbb3c2c1818ebf86f6a91d579b10556ed1c6d3de45ac
+  typography_qualifications:
+  - The comma ending the decay condition is an upright CMR10 comma.
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 628e55658cad0e5dac1f3ba380f3d84f856202aa260fd3f9680301ede227549f
+    dpi: 145
+    question_sha256: eb28f031f1d685e7ba00362a16c46712e9d84d230951267b093105a2cc4f7fa1
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 200.38
+      pdf_top: 510.87
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 349.3
+      pdf_top: 574.83
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2012/P4/q15G
   original_question: 15G
   page: 7
@@ -223,9 +365,16 @@ questions:
   course: IB/geometry
   also_courses: []
   question_sha256: 2300f1f5dcbcdb2d1f00562656669808abcde15ca32e9aa2125018820c625e34
-  checks: Checked the two principal curvatures, definition of a parabolic point, tangency along the curve and
-    final possibility question.
+  checks: Checked the two principal curvatures, definition of a parabolic point, tangency
+    along the curve and final possibility question.
   source_page_render_sha256: a0376eadcf7ca60a7e97d6f7aa983b920e991717eaffe5dafbaa20adef50aa24
+  reinspection:
+    source_raster_sha256:
+    - 835682867977805ed18f5125e8f12a12160e43768bd6f1e7420d6423daa45319
+    dpi: 145
+    question_sha256: 2300f1f5dcbcdb2d1f00562656669808abcde15ca32e9aa2125018820c625e34
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q16B
   original_question: 16B
   page: 7
@@ -236,9 +385,16 @@ questions:
   course: IB/variational-principles
   also_courses: []
   question_sha256: f47ec397b0cdaaf67b8b67a362f4d6f5b913fb2cd5be0705d3a837dcafa9e526
-  checks: Checked fixed endpoints, both variations, the squared integrand, beta threshold and the zero endpoint
-    case.
+  checks: Checked fixed endpoints, both variations, the squared integrand, beta threshold
+    and the zero endpoint case.
   source_page_render_sha256: a0376eadcf7ca60a7e97d6f7aa983b920e991717eaffe5dafbaa20adef50aa24
+  reinspection:
+    source_raster_sha256:
+    - 835682867977805ed18f5125e8f12a12160e43768bd6f1e7420d6423daa45319
+    dpi: 145
+    question_sha256: f47ec397b0cdaaf67b8b67a362f4d6f5b913fb2cd5be0705d3a837dcafa9e526
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q17D
   original_question: 17D
   page: 8
@@ -248,12 +404,29 @@ questions:
   course_at_time: Methods
   course: IB/methods
   also_courses: []
-  question_sha256: cf0b5296fb29042d900be314f3523375772046e61658bce9dc6f9ada05413271
-  checks: Checked the factors and signs in both Green identities, disc closure, normal derivatives and inversion
-    of the source point.
-  printed_ambiguity: The inversion identity as printed allows zero vectors, for which its denominators vanish.
-    Address the centred source separately.
+  question_sha256: ed60b78e049f6396e90d68f58a75c36b5e46d6d4e7aa14b07bbaa2af6a390142
+  checks: Checked the factors and signs in both Green identities, disc closure, normal
+    derivatives and inversion of the source point.
+  printed_ambiguity: The inversion identity as printed allows zero vectors, for which
+    its denominators vanish. Address the centred source separately.
   source_page_render_sha256: a673e3ef17c2039ab4c455858b7a57ed205e0835c2cc485ac7ed3661554b5c45
+  previous_question_sha256: cf0b5296fb29042d900be314f3523375772046e61658bce9dc6f9ada05413271
+  typography_qualifications:
+  - The right-hand side of the first displayed identity uses ordinary parentheses.
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - e6a6cd66807d671a0851a0e8da2ee7b1f917fc531256eb9d4e550a0151326600
+    dpi: 145
+    question_sha256: ed60b78e049f6396e90d68f58a75c36b5e46d6d4e7aa14b07bbaa2af6a390142
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 455.73
+      pdf_top: 327.46
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2012/P4/q18A
   original_question: 18A
   page: 9
@@ -263,12 +436,24 @@ questions:
   course_at_time: Fluid Dynamics
   course: IB/fluid-dynamics
   also_courses: []
-  question_sha256: b205fa913da9fc20b40ff421a3f7c5df637922e8c2ee2158d62cd55479a4bb4c
-  checks: Checked all three rotating shallow-water equations, both signed pieces of velocity and the two positive
-    forcing terms.
-  printed_ambiguity: The initial tangential velocity has a jump at zero. Distinguish the pointwise potential
-    vorticity away from zero from its distributional derivative when discussing the requested matching conditions.
+  question_sha256: 751eb5923ec0f3f0d8aa5a84531b6697845f9c7557df381f2e18b84b06040a25
+  checks: Checked all three rotating shallow-water equations, both signed pieces of
+    velocity and the two positive forcing terms.
+  printed_ambiguity: The initial tangential velocity has a jump at zero. Distinguish
+    the pointwise potential vorticity away from zero from its distributional derivative
+    when discussing the requested matching conditions.
   source_page_render_sha256: fc063faedcadf81f37b4adc8b3b6fc96b6fb2118dc18dc530b9a69c0520d0f3e
+  previous_question_sha256: b205fa913da9fc20b40ff421a3f7c5df637922e8c2ee2158d62cd55479a4bb4c
+  typography_qualifications:
+  - The two initial velocity cases have a separated second row and a tall assembled
+    left brace.
+  reinspection:
+    source_raster_sha256:
+    - f22a6b151e8a6241535f86c176a775ed8851c68a6cf7530bf7b3f80c31ceb227
+    dpi: 145
+    question_sha256: 751eb5923ec0f3f0d8aa5a84531b6697845f9c7557df381f2e18b84b06040a25
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q19H
   original_question: 19H
   page: 10
@@ -279,8 +464,16 @@ questions:
   course: IB/statistics
   also_courses: []
   question_sha256: 91c19e499d41a8f0830b156b5766696417b99c3831d378894739a3906af43e16
-  checks: Checked indices and centering, all four numerical triples, all five subparts and significance level.
+  checks: Checked indices and centering, all four numerical triples, all five subparts
+    and significance level.
   source_page_render_sha256: 9a0893c74f1352733d82132136f65a06137964d038a1a7396709e9b8919bff18
+  reinspection:
+    source_raster_sha256:
+    - a17b9ae7ac9b2281c6601744d5579e42974ee6aa7f0308fd6bb3a50909ec6228
+    dpi: 145
+    question_sha256: 91c19e499d41a8f0830b156b5766696417b99c3831d378894739a3906af43e16
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P4/q20H
   original_question: 20H
   page: 11
@@ -291,9 +484,16 @@ questions:
   course: IB/optimisation
   also_courses: []
   question_sha256: 395a2726b1aa12cd497aa63bedc46fe61ec88e2af15065cd758614fc16fd8386
-  checks: Checked the qualification on finite termination, the strict i < j sum, vectors of wins, M and all
-    entries of the fixture matrix.
+  checks: Checked the qualification on finite termination, the strict i < j sum, vectors
+    of wins, M and all entries of the fixture matrix.
   source_page_render_sha256: e04ea836951edcab8e7cbc42a6e5ed8da26bc534dde14f7d049ee262c01b2147
+  reinspection:
+    source_raster_sha256:
+    - 23713e67b279f10efd60537e47491891c3a5d94189382125891a032eaf9bfc93
+    dpi: 145
+    question_sha256: 395a2726b1aa12cd497aa63bedc46fe61ec88e2af15065cd758614fc16fd8386
+    status: unchanged
+    printed_slanted_inequalities: []
 transcription_checks:
   source_render_dpi: 145
   all_questions_compared_with_original_page_images: true

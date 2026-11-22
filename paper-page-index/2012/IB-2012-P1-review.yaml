@@ -10,10 +10,10 @@ section_units:
   I: 8
   II: 12
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2012-06-05'
 printed_date: Tuesday, 5 June, 2012
 time: 9:00 am to 12:00 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2012/P1/q1F
   original_question: 1F
@@ -47,6 +50,13 @@ questions:
   question_sha256: b33ec04592ce3b23ab14f3fc60bab5cab995a98276b681b955a4f930cfbe56b9
   checks: Checked all three proposed bases and the two cases defining the point indicator.
   source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+  reinspection:
+    source_raster_sha256:
+    - ba2099ba720931f19331d0500a2649ccab2f7c196083d764753c67542f21f593
+    dpi: 145
+    question_sha256: b33ec04592ce3b23ab14f3fc60bab5cab995a98276b681b955a4f930cfbe56b9
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q2A
   original_question: 2A
   page: 2
@@ -58,8 +68,16 @@ questions:
   also_courses:
   - IB/complex-analysis
   question_sha256: a5540a8bd240de5090c3a223c99954b8c27d77c7f8083d275d57a494ac56f7d3
-  checks: Checked the open sector, strip height, boundary rays and boundary data in the printed order.
+  checks: Checked the open sector, strip height, boundary rays and boundary data in
+    the printed order.
   source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+  reinspection:
+    source_raster_sha256:
+    - ba2099ba720931f19331d0500a2649ccab2f7c196083d764753c67542f21f593
+    dpi: 145
+    question_sha256: a5540a8bd240de5090c3a223c99954b8c27d77c7f8083d275d57a494ac56f7d3
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q3G
   original_question: 3G
   page: 2
@@ -72,6 +90,13 @@ questions:
   question_sha256: d01d3f9c8496b71d5d05d841da80f11e931233bb249d0709578bf365bd37194d
   checks: Checked the cylinder radius and the local isometry conclusion.
   source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+  reinspection:
+    source_raster_sha256:
+    - ba2099ba720931f19331d0500a2649ccab2f7c196083d764753c67542f21f593
+    dpi: 145
+    question_sha256: d01d3f9c8496b71d5d05d841da80f11e931233bb249d0709578bf365bd37194d
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q4B
   original_question: 4B
   page: 2
@@ -82,8 +107,16 @@ questions:
   course: IB/variational-principles
   also_courses: []
   question_sha256: 5a7d4c109499bb7e6f39c148de98df239717aa8a6ab7be654ddba6b414ffdd06
-  checks: Checked the regularity, one-constraint qualification and the powers in the objective.
+  checks: Checked the regularity, one-constraint qualification and the powers in the
+    objective.
   source_page_render_sha256: 38716f15bef92a7de10e782f04b5d0fbd941258d190b733de26f10cec399e0fe
+  reinspection:
+    source_raster_sha256:
+    - ba2099ba720931f19331d0500a2649ccab2f7c196083d764753c67542f21f593
+    dpi: 145
+    question_sha256: 5a7d4c109499bb7e6f39c148de98df239717aa8a6ab7be654ddba6b414ffdd06
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q5A
   original_question: 5A
   page: 3
@@ -94,8 +127,16 @@ questions:
   course: IB/fluid-dynamics
   also_courses: []
   question_sha256: 6961121924acb7a2c24cab27bb32be5039684f6639314e318596efc7c4a4daf8
-  checks: Checked the printed sign in −G > 0, radial differential operator, axis condition and wall shear.
+  checks: Checked the printed sign in −G > 0, radial differential operator, axis condition
+    and wall shear.
   source_page_render_sha256: a3d8bdd3d8c559220442bca40691adc56246ff2e1a12d696a6f848e4560d81a8
+  reinspection:
+    source_raster_sha256:
+    - 06e6f739fa496eab07fff579085302cb18eb810e4cfa5c4f0dc60e6a5265edb0
+    dpi: 145
+    question_sha256: 6961121924acb7a2c24cab27bb32be5039684f6639314e318596efc7c4a4daf8
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q6D
   original_question: 6D
   page: 3
@@ -105,9 +146,20 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: b24b5157ab51509b513a838864c7a0420787ee15f9f93592af7e6ae86fc5629d
-  checks: Checked every entry of the two bracketed arrays, the nonzero condition and the method restriction.
+  question_sha256: ae6ce9be6ae57747fd09af72d3096cb3df4e5c63f51ae9fe6866a1382150466a
+  checks: Checked every entry of the two bracketed arrays, the nonzero condition and
+    the method restriction.
   source_page_render_sha256: a3d8bdd3d8c559220442bca40691adc56246ff2e1a12d696a6f848e4560d81a8
+  previous_question_sha256: b24b5157ab51509b513a838864c7a0420787ee15f9f93592af7e6ae86fc5629d
+  typography_qualifications:
+  - The printed matrix has extra space between rows and extended square brackets.
+  reinspection:
+    source_raster_sha256:
+    - 06e6f739fa496eab07fff579085302cb18eb810e4cfa5c4f0dc60e6a5265edb0
+    dpi: 145
+    question_sha256: ae6ce9be6ae57747fd09af72d3096cb3df4e5c63f51ae9fe6866a1382150466a
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q7H
   original_question: 7H
   page: 3
@@ -117,10 +169,26 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: f28921a802c942fb1cac505fb51712fea5eef999bd5d109f421580f395909bcb
-  checks: Checked both gamma laws, the F quantile superscript and degrees of freedom, test size and the chi-squared
-    fact.
+  question_sha256: 2320a24619b885f3baf2611b5218d25da47d304c76babb053b75b938e59e2cc9
+  checks: Checked both gamma laws, the F quantile superscript and degrees of freedom,
+    test size and the chi-squared fact.
   source_page_render_sha256: a3d8bdd3d8c559220442bca40691adc56246ff2e1a12d696a6f848e4560d81a8
+  previous_question_sha256: f28921a802c942fb1cac505fb51712fea5eef999bd5d109f421580f395909bcb
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 06e6f739fa496eab07fff579085302cb18eb810e4cfa5c4f0dc60e6a5265edb0
+    dpi: 145
+    question_sha256: 2320a24619b885f3baf2611b5218d25da47d304c76babb053b75b938e59e2cc9
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 511.17
+      pdf_top: 575.91
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P1/q8H
   original_question: 8H
   page: 4
@@ -130,9 +198,40 @@ questions:
   course_at_time: Optimization
   course: IB/optimisation
   also_courses: []
-  question_sha256: 421c82000e6c9a3d35af1b2bad0a83df1d9d074835a6364dcd6ee07a7a9a61d5
+  question_sha256: fe4b23d9f75a5ba134e9355b79da60a201855e0cbd1980f06acd2bd5fee006a5
   checks: Checked maximization, every coefficient and each weak inequality.
   source_page_render_sha256: 78d5bcd0ce1418e2d09de17808e0124c45dc6567e2ef191f301d63aee5447a5e
+  previous_question_sha256: 421c82000e6c9a3d35af1b2bad0a83df1d9d074835a6364dcd6ee07a7a9a61d5
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 726a73d3a3d6cdd5b6403be72ff53758b76bcac301f359bbe0cf7d029cda2570
+    dpi: 145
+    question_sha256: fe4b23d9f75a5ba134e9355b79da60a201855e0cbd1980f06acd2bd5fee006a5
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 348.46
+      pdf_top: 174.7
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 395.5
+      pdf_top: 174.7
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 478.3
+      pdf_top: 174.7
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 294.58
+      pdf_top: 199.18
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P1/q9F
   original_question: 9F
   page: 5
@@ -143,8 +242,16 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: 07b45e42d31a70c8cca1b25ab9fcc9d103fb6c01a5b8af0391657b7f6da49973
-  checks: Checked the two commutator spaces, isomorphisms and multiplicities of the two distinct eigenvalues.
+  checks: Checked the two commutator spaces, isomorphisms and multiplicities of the
+    two distinct eigenvalues.
   source_page_render_sha256: 1a5136586cc945fdf34b02891c70b87716d33f0450188f788884a982687a3ad0
+  reinspection:
+    source_raster_sha256:
+    - 6129001e3d56ad7ad3167cb2180cac8acc3e5c965d93b9ceed4289e13f69b4c3
+    dpi: 145
+    question_sha256: 07b45e42d31a70c8cca1b25ab9fcc9d103fb6c01a5b8af0391657b7f6da49973
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q10G
   original_question: 10G
   page: 5
@@ -154,9 +261,22 @@ questions:
   course_at_time: Groups, Rings and Modules
   course: IB/groups-rings-and-modules
   also_courses: []
-  question_sha256: e37ecad4e06676efc41fbf619dac8bd306a5eb769049b1dea903c84429997537
-  checks: Checked the assumptions, both divisibility directions, factorial and the final group order.
+  question_sha256: b2ad3650498e07c22f3dea31342f1cda46953c547e8714b7d1ec471413dfc193
+  checks: Checked the assumptions, both divisibility directions, factorial and the
+    final group order.
   source_page_render_sha256: 1a5136586cc945fdf34b02891c70b87716d33f0450188f788884a982687a3ad0
+  previous_question_sha256: e37ecad4e06676efc41fbf619dac8bd306a5eb769049b1dea903c84429997537
+  typography_qualifications:
+  - The two divisibility signs are taller than the neighbouring ordinary absolute-value
+    bars. The source uses two CMEX10 arrowvertex extenders, while the restricted TeX
+    uses two same-height vextendsingle extenders supported by KaTeX.
+  reinspection:
+    source_raster_sha256:
+    - 6129001e3d56ad7ad3167cb2180cac8acc3e5c965d93b9ceed4289e13f69b4c3
+    dpi: 145
+    question_sha256: b2ad3650498e07c22f3dea31342f1cda46953c547e8714b7d1ec471413dfc193
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q11E
   original_question: 11E
   page: 6
@@ -167,8 +287,16 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: 7b364dd5fdf152edf5189f5c79307c2197abbdab995b862b4d84306ff1446fd4
-  checks: Checked the differentiability assumptions, the nonzero x partial and the order of U and W.
+  checks: Checked the differentiability assumptions, the nonzero x partial and the
+    order of U and W.
   source_page_render_sha256: c8a59298d2a3fcf414df2894638c5846471962472fd37ddd3b4bc66811a4caab
+  reinspection:
+    source_raster_sha256:
+    - 41612be4435912fd1c3db42e6df976621b83b9caf0aa61a9874ae98b9300e26e
+    dpi: 145
+    question_sha256: 7b364dd5fdf152edf5189f5c79307c2197abbdab995b862b4d84306ff1446fd4
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q12F
   original_question: 12F
   page: 6
@@ -178,9 +306,20 @@ questions:
   course_at_time: Metric and Topological Spaces
   course: IB/topology
   also_courses: []
-  question_sha256: 13e2ac51c536908892c9722d2e854ff14a83fb43d167e7edb96ff5b62bbb593c
-  checks: Checked both separation conditions, the one-point hint and the quotient equivalence relation.
+  question_sha256: c9fe086a2a9d7051e388cdd1a75f5684d9ec22c8f435107c4e7cf26f855d0388
+  checks: Checked both separation conditions, the one-point hint and the quotient
+    equivalence relation.
   source_page_render_sha256: c8a59298d2a3fcf414df2894638c5846471962472fd37ddd3b4bc66811a4caab
+  previous_question_sha256: 13e2ac51c536908892c9722d2e854ff14a83fb43d167e7edb96ff5b62bbb593c
+  typography_qualifications:
+  - The membership negation uses the CMSY10 negation stroke on the membership glyph.
+  reinspection:
+    source_raster_sha256:
+    - 41612be4435912fd1c3db42e6df976621b83b9caf0aa61a9874ae98b9300e26e
+    dpi: 145
+    question_sha256: c9fe086a2a9d7051e388cdd1a75f5684d9ec22c8f435107c4e7cf26f855d0388
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q13A
   original_question: 13A
   page: 7
@@ -192,9 +331,16 @@ questions:
   also_courses:
   - IB/complex-analysis
   question_sha256: 3e5a2c1ff803a941a4cdecc70881445e9139252ac3973d4a469561d81ba45d11
-  checks: Checked the conjugate point, the three integral kernels, all prefactors and the conjugations in the
-    hint.
+  checks: Checked the conjugate point, the three integral kernels, all prefactors
+    and the conjugations in the hint.
   source_page_render_sha256: 9eb9e0224e988c1a73d9a77c941443a9020941a05255408d2c039c3647717b19
+  reinspection:
+    source_raster_sha256:
+    - 0adb873aef8328d760781a86f2685ad85de600fc8ec770086f2a228acaff154e
+    dpi: 145
+    question_sha256: 3e5a2c1ff803a941a4cdecc70881445e9139252ac3973d4a469561d81ba45d11
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q14C
   original_question: 14C
   page: 8
@@ -204,10 +350,37 @@ questions:
   course_at_time: Methods
   course: IB/methods
   also_courses: []
-  question_sha256: ded84bfd0620a8a14438f25cd62d36b28ac4fc411bc9883502a10119f298a6f5
-  checks: Checked both endpoint conditions, the sign of the boundary term, all specified constants and the
-    eigenvalue ordering.
+  question_sha256: a962cb154a01ee2ad7bdd5e95cbde7d4d475180e8a34e0f417f303b047728b05
+  checks: Checked both endpoint conditions, the sign of the boundary term, all specified
+    constants and the eigenvalue ordering.
   source_page_render_sha256: 08f7506f6c1f67817788f9b4535dc2ce5ca748466aae1ebe366dba1487032b69
+  previous_question_sha256: ded84bfd0620a8a14438f25cd62d36b28ac4fc411bc9883502a10119f298a6f5
+  typography_qualifications:
+  - The closing full stop belongs to the math expression in CMMI10.
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - ce6722a69014d238ddcce6083e5f6d55476f5212873a21584f37e1058b207c1b
+    dpi: 145
+    question_sha256: a962cb154a01ee2ad7bdd5e95cbde7d4d475180e8a34e0f417f303b047728b05
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 361.18
+      pdf_top: 155.14
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 381.94
+      pdf_top: 155.14
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 411.82
+      pdf_top: 382.42
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P1/q15C
   original_question: 15C
   page: 9
@@ -217,9 +390,26 @@ questions:
   course_at_time: Quantum Mechanics
   course: IB/quantum-mechanics
   also_courses: []
-  question_sha256: 9b775388c3addf52e59b9e75909edaf4474ae81e3dd1efdd739500354301163c
-  checks: Checked the time phase, all three actions of the hatted operator and both eigenvalue-2 measurements.
+  question_sha256: ed39a95cbc9a8cac3e75c1f42bb2305ee872e38e66c0739c2fe73a1faaf7fc4d
+  checks: Checked the time phase, all three actions of the hatted operator and both
+    eigenvalue-2 measurements.
   source_page_render_sha256: 0b804689d309252061d0d01192550a1a7c2e001da3fe4d60481f9777c9beb0fc
+  previous_question_sha256: 9b775388c3addf52e59b9e75909edaf4474ae81e3dd1efdd739500354301163c
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 6ac98efba62de06e94153520a9f40c766bf4568a5dcc3f77c0c7cad71383f4cc
+    dpi: 145
+    question_sha256: ed39a95cbc9a8cac3e75c1f42bb2305ee872e38e66c0739c2fe73a1faaf7fc4d
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 347.98
+      pdf_top: 356.98
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P1/q16B
   original_question: 16B
   page: 9
@@ -230,8 +420,16 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: d7942b72ffd5931586a34f3e119c6fc30b3a19ddf332671d340c658d945c54fd
-  checks: Checked uniform surface charge, the infinity condition, field-energy instruction and final derivative.
+  checks: Checked uniform surface charge, the infinity condition, field-energy instruction
+    and final derivative.
   source_page_render_sha256: 0b804689d309252061d0d01192550a1a7c2e001da3fe4d60481f9777c9beb0fc
+  reinspection:
+    source_raster_sha256:
+    - 6ac98efba62de06e94153520a9f40c766bf4568a5dcc3f77c0c7cad71383f4cc
+    dpi: 145
+    question_sha256: d7942b72ffd5931586a34f3e119c6fc30b3a19ddf332671d340c658d945c54fd
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q17A
   original_question: 17A
   page: 10
@@ -241,9 +439,26 @@ questions:
   course_at_time: Fluid Dynamics
   course: IB/fluid-dynamics
   also_courses: []
-  question_sha256: d5abc2e7c27de2d324be364146bb59874f02845cbc23715169239fe64d1a2909
-  checks: Checked the source locations and signs, half-plane, fixed boundary and trigonometric substitution.
+  question_sha256: 3100a766b1545af9d27332cedf1bef9851a524de7bf6d68927aa9ef43d8682d8
+  checks: Checked the source locations and signs, half-plane, fixed boundary and trigonometric
+    substitution.
   source_page_render_sha256: e299f9c41ecbcd8829d5d19f6e7e68fc00f98f0090a2cd97cfb06240c3c10b5b
+  previous_question_sha256: d5abc2e7c27de2d324be364146bb59874f02845cbc23715169239fe64d1a2909
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 4a83909a74a15e857807b9eaa21908157fb34161f0f14a1c95e96c0780ec57cb
+    dpi: 145
+    question_sha256: 3100a766b1545af9d27332cedf1bef9851a524de7bf6d68927aa9ef43d8682d8
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 306.62
+      pdf_top: 223.9
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P1/q18D
   original_question: 18D
   page: 10
@@ -253,10 +468,22 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: 17984482d84a64c0961da06dd858aee262afc29255dc7a0221158011722ac248
-  checks: Checked both time nodes and the four implicit stage coefficients, together with the final half-step
-    weight.
+  question_sha256: 21293898d140ec066edbe31f748365c8273e076476cad8abee5669c8251faa0f
+  checks: Checked both time nodes and the four implicit stage coefficients, together
+    with the final half-step weight.
   source_page_render_sha256: e299f9c41ecbcd8829d5d19f6e7e68fc00f98f0090a2cd97cfb06240c3c10b5b
+  previous_question_sha256: 17984482d84a64c0961da06dd858aee262afc29255dc7a0221158011722ac248
+  typography_qualifications:
+  - The two outer stage-function parentheses are CMEX10 large delimiters (codes 16,
+    17); the inner pair is smaller.
+  - Same outer stage-function parentheses.
+  reinspection:
+    source_raster_sha256:
+    - 4a83909a74a15e857807b9eaa21908157fb34161f0f14a1c95e96c0780ec57cb
+    dpi: 145
+    question_sha256: 21293898d140ec066edbe31f748365c8273e076476cad8abee5669c8251faa0f
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2012/P1/q19H
   original_question: 19H
   page: 11
@@ -266,9 +493,36 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: f9fd1b82d03fca3632c36c71854c4cf416f7d78aa1541b5b05b022775febae04
-  checks: Checked the density support, size equation, prior odds, parameter ranges and the power expression.
+  question_sha256: 08d3f073d2d5ac5eba7d830bd1a2c12848ea442e37a14e18ea25b55401be0e66
+  checks: Checked the density support, size equation, prior odds, parameter ranges
+    and the power expression.
   source_page_render_sha256: b9d4379a12a1361afcd25a71ce1931790e327ce7771c425c6f8a7df9dd531a33
+  previous_question_sha256: f9fd1b82d03fca3632c36c71854c4cf416f7d78aa1541b5b05b022775febae04
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - c20db1dbb4ee7803410303bd73fb6e065cb439befd3f5da301a777ca6645e035
+    dpi: 145
+    question_sha256: 08d3f073d2d5ac5eba7d830bd1a2c12848ea442e37a14e18ea25b55401be0e66
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 236.74
+      pdf_top: 163.66
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 259.18
+      pdf_top: 163.66
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 392.14
+      pdf_top: 292.42
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2012/P1/q20H
   original_question: 20H
   page: 12
@@ -278,12 +532,44 @@ questions:
   course_at_time: Markov Chains
   course: IB/markov-chains
   also_courses: []
-  question_sha256: e297171f6d4d0b90eb98ba145322f0b1870cf67f4b2f2a4f86930351031bfe5a
-  checks: Checked all five subparts, the original coefficients in both recurrence lines, hitting-time bounds
-    and conditional probabilities. The Faculty separately corrected the first recurrence in (ii).
-  printed_ambiguity: Account for the separately issued Faculty correction to the coefficients in the first
-    recurrence in (ii).
+  question_sha256: db1343e3a2e7fe6215deed91c32c3b7008ba83d3165c5cf4bc955f902b43f995
+  checks: Checked all five subparts, the original coefficients in both recurrence
+    lines, hitting-time bounds and conditional probabilities. The Faculty separately
+    corrected the first recurrence in (ii).
+  printed_ambiguity: Account for the separately issued Faculty correction to the coefficients
+    in the first recurrence in (ii).
   source_page_render_sha256: f0bac31a478ffcf87b95dc1d08498d74cf83b15b9c644d1d316c307a545f3965
+  previous_question_sha256: e297171f6d4d0b90eb98ba145322f0b1870cf67f4b2f2a4f86930351031bfe5a
+  typography_qualifications:
+  - The non-strict inequality glyphs have slanted bars in MSAM. Source glyph codes
+    54 and 62 give the two directions.
+  reinspection:
+    source_raster_sha256:
+    - 77e3aca53f004f1cf1a78c282593fc823775b677da0a6ba50bbaffe667c676df
+    dpi: 145
+    question_sha256: db1343e3a2e7fe6215deed91c32c3b7008ba83d3165c5cf4bc955f902b43f995
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 245.5
+      pdf_top: 133.92
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 214.06
+      pdf_top: 199.18
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 170.25
+      pdf_top: 403.42
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 231.69
+      pdf_top: 425.98
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 corrections:
 - question: q20H
   url: https://www.maths.cam.ac.uk/undergrad/pastpapers/files/2012/Paper1_20_corrected.pdf
