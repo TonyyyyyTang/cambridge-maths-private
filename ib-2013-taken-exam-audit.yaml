@@ -1,0 +1,1472 @@
+scope: 2013 IB examination questions in the ten courses confirmed taken. Annual stratified
+  sample, whole-course audits pending.
+method:
+  seed: 20261227
+  strata:
+    IB/analysis-ii:
+    - IB/2013/P1/q11F
+    - IB/2013/P2/q12F
+    - IB/2013/P2/q3F
+    - IB/2013/P3/q12F
+    - IB/2013/P3/q2F
+    - IB/2013/P4/q12F
+    - IB/2013/P4/q3F
+    IB/complex-methods:
+    - IB/2013/P1/q13E
+    - IB/2013/P1/q2D
+    - IB/2013/P2/q13D
+    - IB/2013/P3/q4D
+    - IB/2013/P4/q14D
+    IB/electromagnetism:
+    - IB/2013/P1/q16D
+    - IB/2013/P2/q18D
+    - IB/2013/P2/q6D
+    - IB/2013/P3/q17D
+    - IB/2013/P4/q7D
+    IB/fluid-dynamics:
+    - IB/2013/P1/q17A
+    - IB/2013/P1/q5A
+    - IB/2013/P2/q7A
+    - IB/2013/P3/q18A
+    - IB/2013/P4/q18A
+    IB/linear-algebra:
+    - IB/2013/P1/q1E
+    - IB/2013/P1/q9E
+    - IB/2013/P2/q10E
+    - IB/2013/P2/q1E
+    - IB/2013/P3/q10E
+    - IB/2013/P4/q10E
+    - IB/2013/P4/q1E
+    IB/markov-chains:
+    - IB/2013/P1/q20H
+    - IB/2013/P2/q20H
+    - IB/2013/P3/q9H
+    - IB/2013/P4/q9H
+    IB/methods:
+    - IB/2013/P1/q14B
+    - IB/2013/P2/q16B
+    - IB/2013/P2/q5B
+    - IB/2013/P3/q15C
+    - IB/2013/P3/q7C
+    - IB/2013/P4/q17C
+    - IB/2013/P4/q5C
+    IB/numerical-analysis:
+    - IB/2013/P1/q18C
+    - IB/2013/P1/q6C
+    - IB/2013/P2/q19C
+    - IB/2013/P3/q19C
+    - IB/2013/P4/q8C
+    IB/quantum-mechanics:
+    - IB/2013/P1/q15B
+    - IB/2013/P2/q17B
+    - IB/2013/P3/q16B
+    - IB/2013/P3/q8B
+    - IB/2013/P4/q6B
+    IB/statistics:
+    - IB/2013/P1/q19H
+    - IB/2013/P1/q7H
+    - IB/2013/P2/q8H
+    - IB/2013/P3/q20H
+    - IB/2013/P4/q19H
+  selection:
+    IB/analysis-ii:
+    - IB/2013/P4/q3F
+    - IB/2013/P4/q12F
+    IB/complex-methods:
+    - IB/2013/P1/q13E
+    IB/electromagnetism:
+    - IB/2013/P1/q16D
+    IB/fluid-dynamics:
+    - IB/2013/P4/q18A
+    IB/linear-algebra:
+    - IB/2013/P2/q10E
+    - IB/2013/P1/q1E
+    IB/markov-chains:
+    - IB/2013/P2/q20H
+    IB/methods:
+    - IB/2013/P4/q5C
+    - IB/2013/P2/q5B
+    IB/numerical-analysis:
+    - IB/2013/P3/q19C
+    IB/quantum-mechanics:
+    - IB/2013/P3/q16B
+    IB/statistics:
+    - IB/2013/P1/q19H
+observed:
+  canonical_population: 55
+  units_sampled: 13
+  mathematical_errors: 0
+  initial_units_with_typographical_transcription_errors: 3
+  initial_typographic_error_rate: 3/13
+  source_forms_reinspected: 19
+  slanted_relation_positions_repaired: 49
+  corrected_subscripts: 1
+  physical_original_pages: 13
+  compiled_pages_inspected: 17
+  browser_pages: 13
+  formula_instances: 460
+  residual_sampled_transcription_errors: 0
+independent_manifest_sha256: 55585b7458dcadb8d667e6bb8a3a96850bedc4561ab9b6636a8b203560f4f880
+units:
+  IB/2013/P4/q3F:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P4.pdf
+      archive_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      physical_pages:
+      - 2
+      printed_question: 3F
+      question_sha256: 246c0c63ec20a90d31c3482a83800ebd820aa1051743bb374e526dffa01c77ca
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched both map dimensions, the unit circle, determinant
+        evaluated at x, and the final universal quantifier.
+      transcription_differences: []
+      mathematical_notes: []
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P4/q3F
+
+
+      If \(F\) is differentiable at \(a\) and \(G\) is differentiable at \(F(a)\),
+      then \(G\circ F\) is differentiable at \(a\) with \(D(G\circ F)_a=DG_{F(a)}\circ
+      DF_a\). Indeed, put \(A=DF_a,\ B=DG_{F(a)},\ k=F(a+h)-F(a)=Ah+r(h)\) where \(r(h)=o(|h|)\).
+      The increment of \(G\) is \(Bk+s(k)\) where \(s(k)=o(|k|)\) and \(s(0)=0\).
+      As \(|k|\le(\|A\|+1)|h|\) for small \(h\), the full remainder \(Br(h)+s(k)\)
+      is \(o(|h|)\), also when \(k=0\). This proves the assertion. Now \(H(y)=y\cdot
+      y\) has derivative \(DH_y(v)=2y\cdot v\). Since \(H(F(x))=1\) everywhere, \(F(x)\cdot
+      DF_x(v)=0\) for every \(v\). The image of \(DF_x\) lies in the one-dimensional
+      perpendicular to the nonzero unit vector \(F(x)\in\mathbb R^2\), so its determinant
+      is zero.
+
+      '
+    fresh_sha256: 30a52cb16ccb360282e25c07ffd979147cdd3d4d54568235574e586ae42171d3
+    main_comparison: The two differentiability remainders give the chain rule, including
+      increments for which the interior difference vanishes. Both columns lie in the
+      orthogonal complement of the nonzero circle vector, so the determinant is zero.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P4.pdf
+      source_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      source_page: 2
+      compiled_pdf: build/IB-2013-P4/main.pdf
+      compiled_sha256: 1d54b3e854cc2765a2182befed1ed46f1e78e111cde33ec43ca8e7228f5b164a
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2013/P4/q3F/index.html
+      html_sha256: 7c9e8215f8c848e67c899e7a38bd2d42602e28ef3e36aa3b445e4a47fd6c0893
+      math_nodes: 37
+      diagrams: {}
+      question_sha256: 246c0c63ec20a90d31c3482a83800ebd820aa1051743bb374e526dffa01c77ca
+      solution_sha256: 98f9d02577d1120967c70196ab1ba64eaa9b73418aa1b91f649c03bf12040815
+      check_sha256: ba5c43eaba831747a8311f99ff015aae8e5f237c02802b888bd3a5dbf733c8fc
+      check_exit: 0
+      check_stdout: Verified the chain-rule tangency identity and singularity on a
+        circle-valued example.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P4/q3F · Cambridge Maths
+      math: 37
+      rendered: 37
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P4_q3F-build-3.png: b0f95dcc30ece3ed4f18b3e8185d368de8723820f3e03bc9b54049ba3db5a3cc
+      IB_2013_P4_q3F-html.png: 1d66ab225970e2535ef0609bb45d8fb7c86225ce266b96eba81cd8006ac5544c
+      IB_2013_P4_q3F-orig.png: f764b7721fc26e9ccb7d87d473b02ebbe858fc2d8e2ab75ce90f43f5cc9afa41
+  IB/2013/P4/q12F:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P4.pdf
+      archive_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      physical_pages:
+      - 5
+      printed_question: 12F
+      question_sha256: 08a1ad907a7c683ac4bc5292213a35e1851a7ba62af6e573186b048dbbebcc13
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched the boundedness definition, supremum over X, complete
+        and bounded hypotheses, continuous self maps, contraction subspace, and fixed-point
+        map direction.
+      transcription_differences: []
+      mathematical_notes:
+      - X must be nonempty for the fixed-point assignment, as implicit in the theorem.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P4/q12F
+
+
+      Banach''s contraction theorem: a map of a nonempty complete metric space into
+      itself with Lipschitz bound \(q<1\) has a unique fixed point, and iteration
+      from each starting point converges to it. Assume the nonempty convention implicit
+      in the question. Boundedness of \(X\) bounds \(\delta\) by its diameter. Symmetry
+      and nonnegativity follow pointwise; \(\delta=0\) forces equality everywhere,
+      and taking suprema of the pointwise triangle inequality gives the metric triangle
+      inequality.
+
+
+      For a \(\delta\)-Cauchy sequence \(f_n\), each sequence \(f_n(x)\) is Cauchy
+      and converges in \(X\) to some \(f(x)\). For every \(\varepsilon>0\), eventually
+      \(\delta(f_n,f_m)\le\varepsilon\); taking \(m\to\infty\) at each \(x\) gives
+      \(\delta(f_n,f)\le\varepsilon\). Given \(x\) and \(\varepsilon>0\), choose a
+      continuous \(f_n\) within \(\varepsilon/3\) uniformly, then choose a neighbourhood
+      in which \(f_n\) varies by less than \(\varepsilon/3\) from its value at \(x\).
+      The triangle inequality gives continuity of \(f\). This proves completeness.
+
+
+      The contractions need not be complete: on \([0,1]\), \(f_n(x)=(1-1/n)x\) converges
+      uniformly to the identity, which cannot have a Lipschitz bound less than one
+      for the pair \(0,1\). For continuity of the fixed-point map at a contraction
+      \(f\), fix a bound \(q_f<1\). If \(a=\tau(f), b=\tau(g)\), then \(d(a,b)=d(f(a),g(b))\le
+      q_fd(a,b)+\delta(f,g)\). Thus \(d(\tau(f),\tau(g))\le\delta(f,g)/(1-q_f)\),
+      proving continuity at every \(f\) without a common contraction factor.
+
+      '
+    fresh_sha256: fffe9c025474221c05aa0994a8ad3b76facc3441e439679ce60a88f75e5f8611
+    main_comparison: Sup distance is finite by boundedness. Pointwise limits of Cauchy
+      sequences are uniform and continuous. Strict contractions tending to the identity
+      give incompleteness, and delta/(1-q) bounds the fixed-point change at a given
+      contraction.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P4.pdf
+      source_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      source_page: 5
+      compiled_pdf: build/IB-2013-P4/main.pdf
+      compiled_sha256: 1d54b3e854cc2765a2182befed1ed46f1e78e111cde33ec43ca8e7228f5b164a
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2013/P4/q12F/index.html
+      html_sha256: a6e127247408258919889b8d4f1343467bd5c1190fa762e390c2ad85693705f1
+      math_nodes: 43
+      diagrams: {}
+      question_sha256: 08a1ad907a7c683ac4bc5292213a35e1851a7ba62af6e573186b048dbbebcc13
+      solution_sha256: 64bc412e2460d4a9318f696e2c7526e7ea89d2cdb29b3a57bee01852d7219115
+      check_sha256: 165daf4228d33395dbae7b105c19c255beaf5dd4b791d271b647763f7e4d647b
+      check_exit: 0
+      check_stdout: Verified convergence to a noncontraction and equality in the local
+        fixed-point bound.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P4/q12F · Cambridge Maths
+      math: 43
+      rendered: 43
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P4_q12F-build-12.png: 71b7fdbb8e3953a57b241e91f6d93681d1368dfc8dfc574d2f7a586b89f79963
+      IB_2013_P4_q12F-html.png: f2215263dc992c59f326a8fa01341c49929a9e1d7ea85dd8162288d14a8c175a
+      IB_2013_P4_q12F-orig.png: 140872af6d211f02514d38f9991fd05d075b7ff5c864c59bc3bfae2701e786ea
+  IB/2013/P1/q13E:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P1.pdf
+      archive_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      physical_pages:
+      - 7
+      printed_question: 13E
+      question_sha256: efe6d8095282fbedf05e2d5222c6a9bc30d0f0512da82408b750ad85cb30a4d2
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched both strict annulus endpoints, the even degree, square-root
+        signs, subtraction in z^4−z, radius 2, anticlockwise orientation and ±1 qualification.
+      transcription_differences: []
+      mathematical_notes:
+      - The contour is interpreted as the circle centred at zero, as is conventional
+        in this context.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P1/q13E
+
+
+      Let \(p(z)=a\prod_{j=1}^{2m}(z-r_j)\), listing multiplicities. On \(|z|>R\),
+      each \(1-r_j/z\) lies in the disk \(|w-1|<1\), which has a single-valued holomorphic
+      logarithm. Choose \(b^2=a\). Then \(bz^m\exp(\tfrac12\sum_j\log(1-r_j/z))\)
+      is holomorphic and squares to \(p\); this covers nonzero constants as well.
+      For \(z^4-z\), on \(|z|>1\) take \(z^2(1-z^{-3})^{1/2}\) with the root positive
+      near 1. Its binomial series converges uniformly on \(|z|=2\), starting \(z^2-\tfrac12z^{-1}+O(z^{-4})\)
+      with later exponents \(2-3j,\ j\ge2\). Termwise integration anticlockwise gives
+      \(-\pi i\). The other branch gives \(+\pi i\), since the quotient of two branches
+      maps the connected exterior into \(\{1,-1\}\).
+
+      '
+    fresh_sha256: 457d64ac6c533bcaf90c0acb0d9baffc8c81b6835dd03a4032db575a92462f31
+    main_comparison: On the exterior, factoring a polynomial of even degree into its
+      leading monomial times a function near one gives an analytic square root there.
+      Both find coefficient -1/2 of the reciprocal power, hence integral -pi i and
+      the opposite sign on the other branch.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P1.pdf
+      source_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      source_page: 7
+      compiled_pdf: build/IB-2013-P1/main.pdf
+      compiled_sha256: 1e5ab8fcabeca2d29c5a2e3492175365c1d74b8ea8eb56336090a9e1611a2524
+      compiled_pages:
+      - 14
+      html: site/private/questions/IB/2013/P1/q13E/index.html
+      html_sha256: 3e1243661ee9cf08cedf6a1b3f0e4713ce77693465b159f72db7228b28ce9c67
+      math_nodes: 24
+      diagrams: {}
+      question_sha256: efe6d8095282fbedf05e2d5222c6a9bc30d0f0512da82408b750ad85cb30a4d2
+      solution_sha256: c7b5debe0976ebf887ca28abeabf8611791173e313bd415d5c09b54646820ee8
+      check_sha256: 757afb080fb3c5bd96bce2da19eec9885afbcbf596531cba485ab08b585801d1
+      check_exit: 0
+      check_stdout: Checked the continuous exterior branch and its oriented contour
+        integral.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P1/q13E · Cambridge Maths
+      math: 24
+      rendered: 24
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P1_q13E-build-14.png: bc56ddbd935d2bfbb3a879fd4524536611fb25eff72a2e74886978a13b85f455
+      IB_2013_P1_q13E-html.png: b96d340de4dad71c5dee1f84eb72aaa8056485aac160cac212504f1d4c32077f
+      IB_2013_P1_q13E-orig.png: 1134c885a704f6bedadbd81a063eb992b86ed1c090b61fb1f53f1563d449c640
+  IB/2013/P1/q16D:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P1.pdf
+      archive_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      physical_pages:
+      - 8
+      printed_question: 16D
+      question_sha256: 2f2954b8b23d3ee4d94c1869e7d695de08c5bddeef9a27c029b3cc18a5f499f3
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched the bold vectors, time and spatial exponential signs,
+        tildes, equation label (*), both conductivity definitions, relative permittivity,
+        and plasma-frequency conditions.
+      transcription_differences: []
+      mathematical_notes:
+      - The paper calls τ⁻¹ a probability in unit time. In the Drude derivation this
+        is a collision rate; collision probability in dt is dt/τ+o(dt). For a lossy
+        wave, k² denotes the analytic continuation of the real wavevector's squared
+        length, not the Hermitian squared norm.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P1/q16D
+
+
+      Treat the carriers as independent classical particles moving with acceleration
+      \(e\mathbf E/m\) between instantaneous independent collisions against a fixed
+      ion background. A collision resets the drift to zero on average. With constant
+      collision rate \(1/\tau\), survival for \(dt\) has probability \(1-dt/\tau+o(dt)\).
+      Writing \(\mathbf w=\langle\mathbf v\rangle\), take the ensemble mean after
+      \(dt\): \(\mathbf w(t+dt)=(1-dt/\tau)(\mathbf w(t)+e\mathbf E\,dt/m)+o(dt)\).
+      The equation is \(\dot{\mathbf w}=-\mathbf w/\tau+e\mathbf E/m\). Here \(e\)
+      is signed. With the given time dependence, \((1/\tau-i\omega)\mathbf w=e\mathbf
+      E/m\). Multiplication by \(ne\) gives \(\mathbf J=\sigma\mathbf E,\ \sigma=ne^2\tau/[m(1-i\omega\tau)]\).
+
+
+      Charge neutrality gives \(\nabla\cdot\mathbf E=0\); Faraday and Ampère–Maxwell
+      give \(\nabla\times\nabla\times\mathbf E=-\mu_0\partial_t(\mathbf J+\epsilon_0\partial_t\mathbf
+      E)\). The double curl is \(-\nabla^2\mathbf E\). Thus \(k^2=\omega^2/c^2+i\mu_0\omega\sigma=(\omega^2/c^2)(1+i\sigma/(\omega\epsilon_0))\),
+      with \(c^{-2}=\mu_0\epsilon_0\). For a complex propagation vector the analytic
+      continuation of \(k^2\) is \(\mathbf k\cdot\mathbf k\), without conjugation.
+      In a chosen propagation direction use \(\exp(ikz-i\omega t)\). Exactly,
+
+      \[
+
+      \epsilon_r=1-\frac{\omega_p^2}{\omega(\omega+i/\tau)}.
+
+      \]
+
+      For \(\omega>0,\tau<\infty\) this has strictly positive imaginary part, so the
+      half-space solution has \({\rm Im}\,k>0\) and amplitude \(e^{-({\rm Im}\,k)z}\).
+      In the collisionless limit for fixed \(0<\omega<\omega_p\), \(\epsilon_r\to1-\omega_p^2/\omega^2<0\),
+      giving the leading evanescent attenuation \(e^{-z\sqrt{\omega_p^2-\omega^2}/c}\).
+      Close to cutoff the small dissipative term may matter.
+
+      '
+    fresh_sha256: cdd7be7ccafec88494a1181f96efea24d725498cfd8ddc6e7fd2e9c20befc75f
+    main_comparison: Both derive the complex dielectric function from the electron-current
+      response. The transverse dispersion uses the bilinear square of the complex
+      wavevector and the attenuating branch has positive imaginary part in z>0. The
+      collisionless cutoff approximation and full response are distinguished.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P1.pdf
+      source_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      source_page: 8
+      compiled_pdf: build/IB-2013-P1/main.pdf
+      compiled_sha256: 1e5ab8fcabeca2d29c5a2e3492175365c1d74b8ea8eb56336090a9e1611a2524
+      compiled_pages:
+      - 18
+      - 19
+      html: site/private/questions/IB/2013/P1/q16D/index.html
+      html_sha256: d3410babbecce17c441f44e6d2f0303d707f605b847c8c6b9acc346d86ceb76a
+      math_nodes: 55
+      diagrams: {}
+      question_sha256: 2f2954b8b23d3ee4d94c1869e7d695de08c5bddeef9a27c029b3cc18a5f499f3
+      solution_sha256: 8c736e9368e261fc66eb0a688cf8ba74fdb5078aed430b0e4806e4d95d389e87
+      check_sha256: e8da98583c5585269a01cce8815cc41d8e3bbd7bcac9b270d3d30bb32eee9770
+      check_exit: 0
+      check_stdout: Verified Drude dielectric dispersion and the physical decaying
+        branch, including near cutoff.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P1/q16D · Cambridge Maths
+      math: 55
+      rendered: 55
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P1_q16D-build-18.png: 2b9b46a3ef0c2a594b738c06fc20b7fb5fd2786939918540f9347b450134ad84
+      IB_2013_P1_q16D-build-19.png: 9275f937bf69ec7a5d49be5d792ad6ea02fd44151e50ae5e4f3fa48d13e213eb
+      IB_2013_P1_q16D-html.png: bc5bda9fba62c8c079cc42e7eb4787792a08a870b5cb569d000ecc9b68f83c8d
+      IB_2013_P1_q16D-orig.png: e752b5dd1c64610b0ada245797eea4d67039f3c4d2689a5f8c6d045073b26770
+  IB/2013/P4/q18A:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P4.pdf
+      archive_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      physical_pages:
+      - 8
+      printed_question: 18A
+      question_sha256: aae8383887b1d94ccedf49b0bacfe2527290a39a0a8ec8271bb1c87969d918b5
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched physical hypotheses, potential and velocity instructions,
+        energy kMU²/4, density ratio, heavy sphere assumption k<1, drop h, and both
+        spherical-polar formulas. Checked fonts of the gradient and basis-vector indices
+        in the printed PDF.
+      transcription_differences:
+      - In the gradient formula the printed e_r has a bold roman r subscript, whereas
+        the printed e_theta has an ordinary theta subscript (CMMI8). The supplied
+        question sets that theta subscript in bold with \boldsymbol{\theta}. All other
+        basis-vector weights and both Laplacians agree.
+      mathematical_notes:
+      - An additive constant in the potential is arbitrary.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P4/q18A
+
+
+      For \(\mathbf v=\nabla\phi\), incompressibility means \(\Delta\phi=0\). Orient
+      the polar axis along the sphere velocity. Impermeability gives \(\phi_r(a,\theta)=U\cos\theta\);
+      far away \(\nabla\phi\to0\). In the separated ansatz choose \(g=\cos\theta\)
+      to fit the boundary data. Since \((\sin\theta\,g'')''=-2\sin\theta\,g\), the
+      radial equation is \((r^2f'')''-2f=0\), hence \(f=Ar+B/r^2\). The far field
+      sets \(A=0\) and the sphere condition sets \(B=-Ua^3/2\). In the usual zero-at-infinity
+      gauge, \(\phi=-Ua^3\cos\theta/(2r^2)\). Uniqueness within decaying exterior
+      potentials follows by applying Green''s identity to the difference: its inner
+      flux vanishes and its surface term at infinity vanishes for the decaying exterior
+      harmonic expansion, forcing its gradient to vanish. The velocity is
+
+      \[
+
+      \mathbf v=(Ua^3/r^3)\big(\cos\theta\,\mathbf e_r+\tfrac12\sin\theta\,\mathbf
+      e_\theta\big).
+
+      \]
+
+      With fluid density \(\rho\), integrate the speed squared. The radial integral
+      is \(\int_a^\infty r^{-4}dr=1/(3a^3)\); the angular integral of \(\cos^2\theta+\tfrac14\sin^2\theta\)
+      is \(4\pi(1/3+1/6)=2\pi\). Thus \(T_f=(\rho/2)U^2a^6\,2\pi/(3a^3)=\pi\rho a^3U^2/3=kMU^2/4\)
+      using the displaced mass \(4\pi\rho a^3/3=kM\). After descent by \(h\), gravity
+      and buoyancy release energy \((1-k)Mgh\). Equating this to \(MU^2/2+kMU^2/4\)
+      gives \(U=\sqrt{4(1-k)gh/(2+k)}\). The mass cancels. The \(k\downarrow0\) limit
+      recovers \(\sqrt{2gh}\).
+
+      '
+    fresh_sha256: 51e0399f316b9a626a362275cf12d7dedcf6d66ad9d25755677131082bde3322
+    main_comparison: The dipole potential enforces normal velocity of the descending
+      sphere. Direct integration gives the fluid energy kMU^2/4. Adding the buoyancy
+      work yields speed sqrt(4(1-k)gh/(2+k)).
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P4.pdf
+      source_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      source_page: 8
+      compiled_pdf: build/IB-2013-P4/main.pdf
+      compiled_sha256: 1d54b3e854cc2765a2182befed1ed46f1e78e111cde33ec43ca8e7228f5b164a
+      compiled_pages:
+      - 18
+      - 19
+      html: site/private/questions/IB/2013/P4/q18A/index.html
+      html_sha256: ff7256c6f994fb2036a9d3a51be58feaaf0db41880a713b115b7c9f33ae55cff
+      math_nodes: 37
+      diagrams: {}
+      question_sha256: 752d2d00225cd2867fb1baf3dc597b9e6d5e7ed3c6a5b161cfad1b2e90965932
+      solution_sha256: 148966c5b407893a9b8bead65beeee837b5d760dc253c24c33308e1306bfee90
+      check_sha256: 8f73406ccff86fc89b386bfa3c9b73b2f56084522a080955374c1f3d22ed1ec0
+      check_exit: 0
+      check_stdout: Verified harmonicity, normal velocity, integrated fluid energy
+        and descent speed.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P4/q18A · Cambridge Maths
+      math: 37
+      rendered: 37
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P4_q18A-build-18.png: b509fb9d75c0f47a9a3ddc2c3863f5728e860488b05c8df043d7c9363e14f5b9
+      IB_2013_P4_q18A-build-19.png: 32b5369b045fabe6456a880a7318865e3d3e5bbbec5ccbaefa7931c4ab2b5a96
+      IB_2013_P4_q18A-html.png: 2c43e01e341ae2fe346fd1852255570bf04b269bb622c4cf612ac370580ab0ad
+      IB_2013_P4_q18A-orig.png: 7bb07bed596270020b454798ba1d699aa8dc2b783147030d454b178f5c869103
+  IB/2013/P2/q10E:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P2.pdf
+      archive_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+      physical_pages:
+      - 5
+      printed_question: 10E
+      question_sha256: e1cc3536575e5e75bdf7535d5fd559ddc7b7ac594268608c1b63b5ec69b2dd5d
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched the three instructions and hypotheses, including
+        'from the definition', n+1 vectors in R^n, 'any basis', and bounded continuous
+        functions on R.
+      transcription_differences: []
+      mathematical_notes: []
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P2/q10E
+
+
+      Linear dependence means there are finitely many distinct vectors from the set
+      and coefficients, at least one nonzero, whose linear combination vanishes. For
+      \(n+1\) vectors in dimension-coordinate space \(\mathbb R^n\) use induction
+      on \(n\). In \(\mathbb R^0\) a single vector is zero. If every last coordinate
+      vanishes, apply the induction hypothesis to any \(n\) of the vectors in the
+      first \(n-1\) coordinates. Otherwise move a vector \(v_0\) with nonzero last
+      coordinate to the front and set \(w_j=v_j-(v_{j,n}/v_{0,n})v_0\), \(1\le j\le
+      n\). These \(n\) vectors have zero last coordinate, so there is a nontrivial
+      relation among them by induction. Substitution retains the nonzero coefficient
+      of at least one \(v_j,\ j\ge1\). The same argument works over any field.
+
+
+      Coordinates in a specified \(n\)-element basis identify \(V\) linearly and bijectively
+      with scalar \(n\)-space. Every other basis is independent, so it has at most
+      \(n\) elements (even an infinite one would have \(n+1\) distinct elements).
+      If it has \(m\), reverse the two coordinate descriptions to deduce \(n\le m\).
+      This includes the zero space. Finally the functions \(b_j(x)=\max(0,1-2|x-j|)\),
+      \(j=1,2,\ldots\), are bounded continuous and satisfy \(b_j(k)=\delta_{jk}\)
+      for positive integers \(k\). Evaluating a finite linear relation at each centre
+      makes every coefficient vanish. Hence this space cannot have a finite basis.
+
+      '
+    fresh_sha256: 670883c2c2a4b55553ecd4fbb8ad2db9164143020c10cc2f68ae1886274ca1ef
+    main_comparison: Pivot elimination reduces the dependence assertion by one dimension.
+      Interchanging bases gives equality of their sizes. Evaluating bounded triangular
+      bump functions at their distinct centres proves infinite independence.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P2.pdf
+      source_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+      source_page: 5
+      compiled_pdf: build/IB-2013-P2/main.pdf
+      compiled_sha256: a6bbdf646d7c8707ce369e1b91e9ecf75c94b87646d5dd59c0c06a132e6c9883
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2013/P2/q10E/index.html
+      html_sha256: 31abc5d384a3817116a062dff8ba685729f7c0da51111723751b31e820cfeba6
+      math_nodes: 32
+      diagrams: {}
+      question_sha256: e1cc3536575e5e75bdf7535d5fd559ddc7b7ac594268608c1b63b5ec69b2dd5d
+      solution_sha256: 2bd34335a5154388b1eb55baa680d79b9f25a81781256aa5de880a1bc50bf68b
+      check_sha256: 87076489d2a36bff499861206b430ff75e185fa8fe8bfa48ac6580f9ea3a10aa
+      check_exit: 0
+      check_stdout: Verified a nontrivial coordinate relation and arbitrary-size diagonal
+        evaluation examples.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P2/q10E · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P2_q10E-build-10.png: a59e7ed1c64f42a1c4a838551373a637bfb6067f8955f1e7f55191c6d2e18387
+      IB_2013_P2_q10E-html.png: 57869ec4c7d282b8ffbff12c3109f74c11ac7999a606884d33b46bef561979ec
+      IB_2013_P2_q10E-orig.png: ce438597c4fa74971ae6a9a08aca54bfd2a052c3afbe4affe1c1607706c5fba1
+  IB/2013/P1/q1E:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P1.pdf
+      archive_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      physical_pages:
+      - 2
+      printed_question: 1E
+      question_sha256: b30dffe91cdf29bd4d6aad6910efa583a4fc7cf9d12627dc158258b9f89c6e0c
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched the two inverse occurrences, integer-entry hypotheses,
+        n by n dimension and determinant ±1.
+      transcription_differences: []
+      mathematical_notes:
+      - The inverse condition presupposes existence of an inverse.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P1/q1E
+
+
+      Write \(A^{(i,j)}\) for the result of deleting row \(i\) and column \(j\). Put
+      \(C_{ij}=(-1)^{i+j}\det A^{(i,j)}\); the adjugate is \(C^T\) (the empty minor
+      has determinant one). The \(ij\) entry of \(AC^T\) expands a determinant along
+      row \(j\), replacing that row by row \(i\). It gives \(\det A\) for \(i=j\)
+      and zero otherwise because two rows coincide. The column version gives \(C^TA=(\det
+      A)I\). Hence \(A^{-1}=C^T/\det A\) when the determinant is nonzero. Integer
+      entries yield integer cofactors, so determinant \(1\) or \(-1\) suffices. Conversely
+      an integral inverse gives two integers \(\det A,\det(A^{-1})\) whose product
+      is one, forcing both to be units. For singular \(A\) there is no inverse.
+
+      '
+    fresh_sha256: d03f63b4139c528361783a02277a179fd8c2c2d1579332355ecf1806c95a1093
+    main_comparison: Row and column expansions give the two adjugate identities, including
+      the scalar empty minor. The product of the integral determinants gives necessity,
+      and the adjugate gives sufficiency.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P1.pdf
+      source_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      source_page: 2
+      compiled_pdf: build/IB-2013-P1/main.pdf
+      compiled_sha256: 1e5ab8fcabeca2d29c5a2e3492175365c1d74b8ea8eb56336090a9e1611a2524
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2013/P1/q1E/index.html
+      html_sha256: 3822ea32a002a9a40ce29131ba60d2a63e55f4b98f442554ebcb43f0c90a3487
+      math_nodes: 21
+      diagrams: {}
+      question_sha256: b30dffe91cdf29bd4d6aad6910efa583a4fc7cf9d12627dc158258b9f89c6e0c
+      solution_sha256: e6ad8a3d669e8f6572d1c98c6a15b2628c53bf0ff993df958fabf599774984b6
+      check_sha256: 315e494ef9ded0315200f9a7d814d32033887ccd3535935896fdd6ab785cf46e
+      check_exit: 0
+      check_stdout: Verified the symbolic cofactor identity and both integral determinant
+        signs.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P1/q1E · Cambridge Maths
+      math: 21
+      rendered: 21
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P1_q1E-build-1.png: 7e77b13c001b47cf98fad7d1fb7a7a663113c7a2f4868be38922ac07598d78d4
+      IB_2013_P1_q1E-html.png: 02e45369cdb0669edc35c2ec19aadc8aea2062f435397bd5194f23c606417412
+      IB_2013_P1_q1E-orig.png: aec7e410be9489143e8ba3398b34526db9e69c400c35452b98606e3ef3e42f09
+  IB/2013/P2/q20H:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P2.pdf
+      archive_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+      physical_pages:
+      - 10
+      printed_question: 20H
+      question_sha256: a76d0b8996cbada9d8d8118558f154912e93b90ed95f885529d055e4da069414
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched subparts (i)–(iii), return exponents and sum indices,
+        both strict binomial bounds, monster's two end indices n_i+1 and n_{i+1},
+        Y_{i+1}, initial states, simultaneous origin and strict block probability
+        >1/2.
+      transcription_differences:
+      - Nine weak greater-than relations use AMS slanted equality bars in print (\geqslant)
+        and horizontal equality bars (\geq) in the supplied question. They are the
+        same mathematical relation.
+      mathematical_notes:
+      - The printed strict 1/2 lower bound fails at n=1, where the expression equals
+        1/2. It holds for n≥2, which suffices. The displayed marginal block probability
+        does not imply block independence.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P2/q20H
+
+
+      (i) From \(i\), the event of hitting \(j\) at a strictly positive time and then
+      hitting \(i\) at a later time entails a return. By the strong Markov property
+      its probability is \(f_{ij}f_{ji}\), including the case \(i=j\). If \(N\) counts
+      all visits to \(i\) including time zero, repeated strong Markov at returns gives
+      \(P_i(N\ge r)=f_{ii}^{r-1}\), \(r\ge1\), with the first term one. Summing visit
+      indicators and separately summing tails gives the two expressions for \(E_iN\)
+      by monotone convergence.
+
+
+      (ii) Transform \((x,y)\) to \((x+y,x-y)\). Each one-step increment in these
+      coordinates is a uniform pair of independent signs. Thus the probability of
+      returning at \(2m\) is \(b_m^2\) with \(b_m=4^{-m}{2m\choose m}\), while odd-time
+      return is impossible. For \(m\ge2\), \(b_m^2>1/(4m)\). The divergent return
+      sum forces \(f_{ii}=1\) by (i); translation invariance covers every state. At
+      \(m=1\), the printed strict lower bound has equality, immaterial to divergence.
+      By irreducibility a recurrent walk hits the origin from any start, and repeats
+      this infinitely often (each return to the start offers a fixed positive chance
+      to follow a path to the origin before another return).
+
+
+      (iii) With two active walks, the joint walk on the accessible parity class has
+      origin return probabilities \(b_m^4<1/m^2\) at times \(2m\) and zero at odd
+      times. Its return probability \(r\) is strictly less than one by (i). Invariance
+      under translation and simultaneous reflection makes the origin-to-start and
+      start-to-origin hitting probabilities equal, say \(p\): reflection in the midpoint
+      interchanges the joint states and preserves the increment law. By (i), \(p^2\le
+      r<1\). Also \(p>0\): both can walk straight to the origin in 100 steps.
+
+
+      For the sleepy schedule let \(A_i\) be the event that the princess visits the
+      origin during block \(i\). Independently of her, the monster''s skeleton \(Y\)
+      visits the origin infinitely often. Conditional on \(Y\), its visiting blocks
+      \(i_j\) with \(Y_{i_j+1}=0\) form a fixed infinite sequence. For each \(m\),
+      \(P_X(\bigcup_{j\ge m} A_{i_j})\ge1/2\) by the printed marginal condition, so
+      \(P_X(A_{i_j}\ {\rm infinitely\ often})\ge1/2\) by continuity from above. This
+      limsup event is invariant under every finite permutation of the i.i.d. princess
+      increments: all positions beyond the permuted segment agree, so all sufficiently
+      late blocks agree. By the Hewitt–Savage zero–one law its probability is one.
+      For completeness the zero–one argument approximates such an event \(D\) in probability
+      within \(\varepsilon\) by a first-\(m\)-increment event \(B\); swapping those
+      \(m\) increments with the next \(m\) produces an independent copy \(B''\) still
+      within \(\varepsilon\) of \(D\). Thus \(P(B)^2=P(B\cap B'')\) differs from \(P(D)\)
+      by at most \(2\varepsilon\); passing to zero yields \(P(D)^2=P(D)\). Removing
+      conditioning gives capture with probability one. No independence of the princess''s
+      successive block events is required. Such deterministic blocks can be chosen
+      recursively by recurrence and continuity from below.
+
+      '
+    fresh_sha256: ea61aefeb43a9d9874aec5e3378ddd55ba3ab307cc07901a9882d1e3ffad9d5c
+    main_comparison: Both establish recurrence by the divergent even-time central-binomial
+      sum. Active capture has strictly positive probability bounded by 1/49. Conditional
+      on the recurrent embedded monster, infinitely many designated windows give probability
+      at least one half to the limsup; permutation invariance upgrades that probability
+      to one.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P2.pdf
+      source_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+      source_page: 10
+      compiled_pdf: build/IB-2013-P2/main.pdf
+      compiled_sha256: a6bbdf646d7c8707ce369e1b91e9ecf75c94b87646d5dd59c0c06a132e6c9883
+      compiled_pages:
+      - 21
+      - 22
+      html: site/private/questions/IB/2013/P2/q20H/index.html
+      html_sha256: 498b4f9137eff3088e70a310c88d959ea0ddd843693729cfabe3928bf996da32
+      math_nodes: 60
+      diagrams: {}
+      question_sha256: 996ce2d23765e751497354aa85cca1e05f4853027ef1fa60501452418c008a53
+      solution_sha256: f9e9981d40653a59af80281d2aa2f32bf0ebc79f64dfb48f53c1d55c28249334
+      check_sha256: 4ad8cb91894290b31d919948a4f17e55a542d7b52ead50115596dd1867033fe0
+      check_exit: 0
+      check_stdout: Verified exact lattice return masses, active-monster bound and
+        finite-permutation invariance.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P2/q20H · Cambridge Maths
+      math: 60
+      rendered: 60
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P2_q20H-build-21.png: 030c39642ecc284c27cf7297fe3189cdd097c9977bc4df3dde4c9e484b4c8242
+      IB_2013_P2_q20H-build-22.png: 67b594949cfde46a2d73036280c04e6f051817294415464be215389a61ac3a33
+      IB_2013_P2_q20H-html.png: 33d90834cc43646768324a06fbc141cd7b89084d7bfda8714dc7d9f6b2ce08f9
+      IB_2013_P2_q20H-orig.png: db8618978e4972428b4dbd89193867a2fd2630f83b45a24a62b0ef3021a3e777
+  IB/2013/P4/q5C:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P4.pdf
+      archive_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      physical_pages:
+      - 3
+      printed_question: 5C
+      question_sha256: dfd446a5ad34297423d13d2e2d9496be60c648e18e6d6d89c87395d9e8458ad7
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched both wave speeds and derivatives, ct−x and ct+x,
+        both fixed endpoints, t>0, period 2L and the energy integral including the
+        1/2 factor.
+      transcription_differences: []
+      mathematical_notes:
+      - Profiles evaluated for t>0 have periodic extensions; values on unused negative
+        arguments of arbitrarily selected global representatives cannot be deduced.
+      uncertainty: []
+    independent_solution: "# Independent rework — IB/2013/P4/q5C\n\nLet \\(c,L>0\\\
+      ) and use characteristic variables \\(\\xi=ct-x,\\eta=ct+x\\). The left hand\
+      \ side becomes \\(4y_{\\xi\\eta}\\). Integration on the characteristic domain\
+      \ gives \\(y=f(\\xi)+g(\\eta)\\) (constant of integration absorbed into either\
+      \ profile); differentiation verifies the converse. For \\(s=ct>0\\), the two\
+      \ ends imply \\(g(s)=-f(s)\\) and \\(g(s+L)=-f(s-L)\\). Consequently \\(f(u+2L)=f(u)\\\
+      ) for \\(u>-L\\), hence \\(g\\) is \\(2L\\)-periodic on its sampled domain \\\
+      (u>0\\). These determine globally \\(2L\\)-periodic extensions with \\(g=-f\\\
+      ). A choice of arbitrary profile values outside the sampled domains is not forced\
+      \ by the positive-time boundary conditions. \n\nLet \\(H=(f')^2\\) for the periodic\
+      \ representative. Compute \\(c^{-1}y_t=f'(ct-x)+g'(ct+x)\\) and \\(y_x=-f'(ct-x)+g'(ct+x)\\\
+      ). Squaring cancels the cross terms, so\n\\[\nE(t)=\\int_0^L[H(ct-x)+H(ct+x)]\\\
+      ,dx=\\int_{ct-L}^{ct+L} H(s)\\,ds .\n\\]\nThis integral covers a full period\
+      \ and is independent of \\(t\\). Smoothness up to the boundaries suffices for\
+      \ all differentiations.\n"
+    fresh_sha256: 5842985b3b53c55ff5f8a36e0e53a0141365e6f6447cd974fc3a19b63e5e7e25
+    main_comparison: The wave equation factors in characteristic coordinates. Reflection
+      at the two ends implies period 2L on the arguments reached at positive time,
+      with global periodic extensions available. The energy reduces to the squared
+      profile derivative integrated over one period.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P4.pdf
+      source_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+      source_page: 3
+      compiled_pdf: build/IB-2013-P4/main.pdf
+      compiled_sha256: 1d54b3e854cc2765a2182befed1ed46f1e78e111cde33ec43ca8e7228f5b164a
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2013/P4/q5C/index.html
+      html_sha256: c92153d817a362352e1b12db6ec96d894ae6f685a886afb0a23acc556ecbf823
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: dfd446a5ad34297423d13d2e2d9496be60c648e18e6d6d89c87395d9e8458ad7
+      solution_sha256: db751c98be6f120913e78c3f21f59d471704c5a564264ab23e88dbf9c4b66fe1
+      check_sha256: 1de7520eb094649ff0c16cdd39f0cc77aaabdad59865fa0d7d913541e5c29f24
+      check_exit: 0
+      check_stdout: Verified a periodic-wave PDE, both endpoints and the conserved
+        full-period energy.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P4/q5C · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P4_q5C-build-5.png: bdb2bd2a503370c336a34f7ca2c1f6a68bbffb71e1aa9bc67d7cbc313667c636
+      IB_2013_P4_q5C-html.png: 2d481b163a9e7c5cee0d7a7425382110e9d24e875c92dc2909e43cc0d1721e83
+      IB_2013_P4_q5C-orig.png: b63ef665dd4e8fda164ee210048035700d9db6e3073a10945ab6f550c5404a16
+  IB/2013/P2/q5B:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P2.pdf
+      archive_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+      physical_pages:
+      - 3
+      printed_question: 5B
+      question_sha256: 95890fc97ca97c6c3181c45249d32fbd7dfcd6e95cd7c477525c41c024fcc721
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched both first-order coefficients, unit right-hand side,
+        initial line x=1 and data y, and method of characteristics.
+      transcription_differences: []
+      mathematical_notes: []
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P2/q5B
+
+
+      Start characteristics at \((1,\eta,\eta)\) at \(s=0\). The characteristic system
+      \(x''=x,\ y''=x+y,\ u''=1\) yields \(x=e^s,\ (e^{-s}y)''=1,\ u=\eta+s\). Consequently
+      \(y=e^s(\eta+s)\) and \(u=y/x\) on the half-plane \(x>0\) swept out by the initial
+      line. Directly \(x(-y/x^2)+(x+y)/x=1\) and \(u(1,y)=y\). The formula also solves
+      the PDE for \(x<0\), where the given data do not determine it. At the origin
+      the PDE itself would read \(0=1\).
+
+      '
+    fresh_sha256: 82b98220d7c607dd3a049c888ea8ed1352c782113175a65971721a64fda65805
+    main_comparison: A characteristic from x=1 has x=e^s and reaches exactly x>0.
+      The solution there is y/x. Data give no uniqueness on the negative half-plane;
+      the equation at the origin would read 0=1.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P2.pdf
+      source_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+      source_page: 3
+      compiled_pdf: build/IB-2013-P2/main.pdf
+      compiled_sha256: a6bbdf646d7c8707ce369e1b91e9ecf75c94b87646d5dd59c0c06a132e6c9883
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2013/P2/q5B/index.html
+      html_sha256: a1b59417fbe930bde7957f214e5a277e6f6c297862ed96dcc775fd93e42e80a6
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: 95890fc97ca97c6c3181c45249d32fbd7dfcd6e95cd7c477525c41c024fcc721
+      solution_sha256: 9e024b21c7bf276294fbf8a773a5ea8c69876164b586843867b491e5283f9e1f
+      check_sha256: f519c63e7763c0da84763e046ecb72bc47b2933d38fdd0b453df1592b41a7477
+      check_exit: 0
+      check_stdout: Verified characteristic map, PDE residual and Cauchy data.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P2/q5B · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P2_q5B-build-5.png: b0fbf36487418f4eccd2a014d0770b94fed2f27f136967349a34c76319627e70
+      IB_2013_P2_q5B-html.png: 30e7255e87a67f5adef5bc8ee9f98e16cce1b4b4e985480433fef6779fc3a180
+      IB_2013_P2_q5B-orig.png: 0cc7e5be25ebdbf5ac6bf94d4d137c741850012748007782ed32f397c1de526d
+  IB/2013/P3/q19C:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P3.pdf
+      archive_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+      physical_pages:
+      - 9
+      printed_question: 19C
+      question_sha256: 716102de4eed91e54deee204342b40b9b0cf39e5d0fc4fc92a89a8e39ced43b2
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched derivative node, all three nodes of λ, the approximate/defining
+        signs, error sign, exactness degree, smoothness interval and derivative norm.
+      transcription_differences:
+      - The final weak less-than glyph has a slanted lower bar in print (\leqslant),
+        whereas the supplied text uses \leq. Same mathematical inequality.
+      mathematical_notes: []
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P3/q19C
+
+
+      Test \(1,x,x^2\). Exactness gives \(a_0+a_1+a_2=0,\ a_1+2a_2=1,\ a_1+4a_2=0\),
+      hence \((a_0,a_1,a_2)=(-3/2,2,-1/2)\). Apply the Peano kernel theorem on \([0,2]\)
+      to \(e\), which annihilates all quadratics and is continuous on \(C^3\). Then
+      \(e(f)=\int_0^2 K(t)f''''''(t)\,dt\), where \(K(t)=e_x((x-t)_+^2/2)\). At zero
+      the test function and its derivative vanish for \(t\ge0\); hence \(K(t)=(2-t)^2/4-(1-t)_+^2\).
+      On \([0,1]\) this is \(t-3t^2/4\ge0\), and on \([1,2]\) it is \((2-t)^2/4\ge0\).
+      Thus the best bound is at most \(\int K=1/4+1/12=1/3\). In fact \(f=x^3/6\)
+      gives \(f''''''=1\) and \(e(f)=1/3\), proving sharpness.
+
+      '
+    fresh_sha256: 8c3ffb3afeb7b41e32adab44cebdbf962b699cd95b080ee3f6ce8e788abc8543
+    main_comparison: The two kernels differ by the conventional factor of two for
+      the truncated square. Their integrated nonnegative weights both give 1/3 and
+      the cubic x^3/6 attains the bound.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P3.pdf
+      source_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+      source_page: 9
+      compiled_pdf: build/IB-2013-P3/main.pdf
+      compiled_sha256: aeb6f56f2167296624e9f172de3d39f7afc2b0373e11b9706c217682d1d5a3e7
+      compiled_pages:
+      - 19
+      html: site/private/questions/IB/2013/P3/q19C/index.html
+      html_sha256: ac97482bc7a50bc67fa4fcfda8c0dc8db05745d006ad20c1fde382a7f123002a
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: 842c16218dabbe57bd45696288d0ffc5db66d2eb766fc824c720ed3ad79908bf
+      solution_sha256: 98cdf060b85484ad82ecbf64c49d2b59599a4efe161abd6de9406f426722d7aa
+      check_sha256: be0dc83b37111d95239b4fa21209e3e63296124de545c4410d85942957c22772
+      check_exit: 0
+      check_stdout: Verified the Peano formula on eight monomials and the sharp extremizer.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P3/q19C · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P3_q19C-build-19.png: dce970fc0952e6d9884165811611e1c710d3901cf4673000d2bdf896c8faf365
+      IB_2013_P3_q19C-html.png: 8151d8951719375ac3c182dc355596641c8dc6802e1b22da709593ac38a11e32
+      IB_2013_P3_q19C-orig.png: f3344ecd50942abb1399b4a654737032f4f6d177e2cf2d0c871863d384979890
+  IB/2013/P3/q16B:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P3.pdf
+      archive_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+      physical_pages:
+      - 7
+      printed_question: 16B
+      question_sha256: a2be8727ad2c86d536c16d9f8fe08fd3c265d54f17fc51771c361d319973de0e
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched all bold position/current symbols, divergence and
+        plus signs, time-independent hypothesis, 2/ℏ factors, the three-dimensional
+        volume integrals, first order expansion, and final strict negativity.
+      transcription_differences: []
+      mathematical_notes:
+      - The integrated balance assumes vanishing net current flux at infinity and
+        sufficient convergence.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P3/q16B
+
+
+      Take \(i\hbar\psi_t=-(\hbar^2/2m)\Delta\psi+U\psi\). Conjugate and substitute
+      both time derivatives into \(\partial_t\rho=\psi^*\psi_t+\psi_t^*\psi\), \(\rho=|\psi|^2\).
+      Since \(\psi^*\Delta\psi-\psi\Delta\psi^*=\nabla\cdot(\psi^*\nabla\psi-\psi\nabla\psi^*)\),
+      one gets
+
+      \[
+
+      \partial_t\rho+\nabla\cdot\mathbf j=(2/\hbar)\rho\,{\rm Im}\,U,\qquad
+
+      \mathbf j=\frac{\hbar}{2mi}(\psi^*\nabla\psi-\psi\nabla\psi^*).
+
+      \]
+
+      A real scalar potential gives local probability conservation even if it is time-dependent.
+
+
+      With \(U=U(\mathbf x)\), integrate over a ball of radius \(R\). The divergence
+      term becomes the outward surface flux. Assume sufficient integrability and decay
+      to differentiate under the volume integral and to make the flux tend to zero
+      as \(R\to\infty\) (as for a rapidly decaying state). Then \(N(t)=\int|\psi|^2\)
+      satisfies \(N''(t)=(2/\hbar)\int\rho\,{\rm Im}\,U\). Here \(N(0)=1\). The Taylor
+      coefficient is \(N''(0)=(2/\hbar)\int\rho_0\,{\rm Im}\,U\), giving the requested
+      expansion \(1+(2t/\hbar)\int\rho_0\,{\rm Im}\,U+\cdots\). If the imaginary part
+      is everywhere negative and the state has nonzero norm, this derivative is strictly
+      negative, so the total probability decreases. The identity alone imposes no
+      universal exponential rate or limit zero for a merely pointwise negative imaginary
+      part.
+
+      '
+    fresh_sha256: e2f47b27595bc8722227c2c3d0601629b2ab0302e06f98a12394b54c18ab8fb5
+    main_comparison: A complex potential contributes 2 Im(U) times the density divided
+      by hbar to the continuity equation. Vanishing flux at infinity makes its integral
+      the norm derivative. Strict negativity implies monotone loss for a nonzero state
+      without fixing a decay rate.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P3.pdf
+      source_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+      source_page: 7
+      compiled_pdf: build/IB-2013-P3/main.pdf
+      compiled_sha256: aeb6f56f2167296624e9f172de3d39f7afc2b0373e11b9706c217682d1d5a3e7
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2013/P3/q16B/index.html
+      html_sha256: e4b982f0e333f139b3ae6406197f394cbeb22f0b7cc95fe7ed8f6cac602bb37a
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: a2be8727ad2c86d536c16d9f8fe08fd3c265d54f17fc51771c361d319973de0e
+      solution_sha256: b71a0e3462825b182549572e58ce636d94b9e09e3cb0bd2ab655cc6d0ac8a9c9
+      check_sha256: cec5e8a22a967a5a85ff1f64eae27b6ac4d65e77b08422fc216e577e0eff8fbb
+      check_exit: 0
+      check_stdout: Verified the local source sign, current and initial loss rate
+        on an exact complex-potential mode.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P3/q16B · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P3_q16B-build-16.png: 35d7ea8372bae456a793d8f4470d7679fc7ead8e133dea6d5381f28c2371da8d
+      IB_2013_P3_q16B-html.png: 34b845a6f75b81617d1e59e4a98d3504ca47a123abffa9ab68bde8fc9b784a98
+      IB_2013_P3_q16B-orig.png: 8eee97852a436ab805b552e4e8fde56c8f3252ef29c9ff8b49a2c488a7435cc1
+  IB/2013/P1/q19H:
+    original_review:
+      archive: private/raw/tripos/IB/2013/P1.pdf
+      archive_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      physical_pages:
+      - 10
+      printed_question: 19H
+      question_sha256: 69ebfb0441f555339b34ed8a785dad2bed3bf3ed70a6ccda66ab73f8a6468d8e
+      verification_method: Read the complete question in a raster image generated
+        from the original physical page at scale 2.3 (PDFium); compared prose and
+        displayed mathematics with the blind-input fragment. No question contains
+        a diagram or a printed mark allocation. The identifying number and course
+        heading are external to the question body.
+      visual_comparison: Matched matrix dimensions, both estimator formulae, stated
+        variance and independence, both fertilizer matrices and yield matrix entry
+        by entry, next year/no fertilizer and 95% predictive interval.
+      transcription_differences: []
+      mathematical_notes:
+      - The printed observations exactly fit three parameters. The usual prediction
+        interval collapses at RSS=0, a null event at positive model variance.
+      uncertainty: []
+    independent_solution: '# Independent rework — IB/2013/P1/q19H
+
+
+      Put \(B=(X^TX)^{-1}X^T,\ H=XB\). Then \(\hat\theta=\theta+B\epsilon,\ \hat\epsilon=(I-H)\epsilon\).
+      Since \(H\) is an orthogonal projection, the two laws are \(N_p(\theta,\sigma^2(X^TX)^{-1})\)
+      and the possibly singular \(N_n(0,\sigma^2(I-H))\); their cross-covariance is
+      \(\sigma^2 B(I-H)=0\). Joint Gaussianity also gives independence.
+
+
+      Order trees \(11,12,21,22\). Both designs have intercept columns \((1,1,0,0)^T,(0,0,1,1)^T\),
+      with respective third columns \((0,1,2,3)^T\) and \((0,2,3,1)^T\). Row centring
+      removes the intercepts. The least-squares slope is \(\sum(x_{ij}-\bar x_i)y_{ij}/S,\
+      S=\sum(x_{ij}-\bar x_i)^2\), by differentiating the residual sum after fitting
+      the intercepts. Its variance is \(\sigma^2/S\), giving \(\sigma^2\) for I and
+      \(\sigma^2/4\) for II.
+
+
+      In II both within-row slopes are \(100\) and the fitted row intercepts are \(100,300\).
+      The total forecast at zero fertilizer is \(2(100+300)=800\). For a future total
+      \(T\), the difference from \(l^T\hat\theta,\ l=(2,2,0)^T\), has variance \(\sigma^2[4+l^T(X^TX)^{-1}l]\)
+      including four independent future observations. Since \(l^T\hat\theta=2\bar
+      y_1+2\bar y_2-6\hat\beta\) and the centred slope is uncorrelated with both row
+      means, its variance is \((4+36/4)\sigma^2=13\sigma^2\). Thus the usual two-sided
+      95% interval is \(800\pm t_{1,0.975}\sqrt{17}\,s\), \(s^2={\rm RSS}/(4-3)\).
+      The scalar residual component is normal and independent of the prediction error
+      by orthogonal projection and future independence, giving the \(t_1\) pivot almost
+      surely. Here all residuals are exactly zero, so the interval formula evaluates
+      to \([800,800]\). Under a positive-variance continuous model this dataset belongs
+      to a null event; the pivot itself has zero denominator here and unconditional
+      coverage does not give conditional certainty.
+
+      '
+    fresh_sha256: 3c513a8de61181de6b910a3f74d286a560314c297ac68881639a9fb9f99688b1
+    main_comparison: The common-slope design gives relative slope variances four to
+      one. The independent forecast and estimation variance sum to 17 sigma squared.
+      The data give an exact fitted total of 800 and zero RSS, hence plug-in endpoints
+      [800,800] on a probability-zero observation for positive Gaussian variance.
+    delivered:
+      source_pdf: private/raw/tripos/IB/2013/P1.pdf
+      source_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+      source_page: 10
+      compiled_pdf: build/IB-2013-P1/main.pdf
+      compiled_sha256: 1e5ab8fcabeca2d29c5a2e3492175365c1d74b8ea8eb56336090a9e1611a2524
+      compiled_pages:
+      - 22
+      - 23
+      html: site/private/questions/IB/2013/P1/q19H/index.html
+      html_sha256: ffe9430a38d5b8eb4055a50d60b0f5dabd2695dd8e2fb91a4b16ae5edd6302dd
+      math_nodes: 60
+      diagrams: {}
+      question_sha256: 69ebfb0441f555339b34ed8a785dad2bed3bf3ed70a6ccda66ab73f8a6468d8e
+      solution_sha256: f07458ef686136c7865af54a68291d66ec4369a55e59adae0c562615119f26a4
+      check_sha256: cff5eaf5a2efaab9392991a80e51c1012adf2ab218ccf80b790fa7a855541c6a
+      check_exit: 0
+      check_stdout: Verified both designs, slope variances, exact fit and 17-sigma-squared
+        prediction variance.
+      check_stderr: ''
+    browser:
+      title: IB/2013/P1/q19H · Cambridge Maths
+      math: 60
+      rendered: 60
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+    raster_sha256:
+      IB_2013_P1_q19H-build-22.png: f15701468cd7e6e1bacdcfdbbd7f2c65a4a55be86c2a0002f9b06a7576ddb047
+      IB_2013_P1_q19H-build-23.png: c6a6eb7e6f2b79daa004a376edbd12b81dd747eb8d32ff7e057f1c92a67f8f53
+      IB_2013_P1_q19H-html.png: 8c240e028950c8c3602283e420512f6fb3a4d7cafe1af6143a60b748835e4fd8
+      IB_2013_P1_q19H-orig.png: fc3c34784a03435d323fed0a78f3e750c039ad82834ca5b16c984d2350217244
+typographic_reinspection:
+  IB/2013/P4/q9H:
+    question_id: IB/2013/P4/q9H
+    question_sha256: db88f1300dfb0bc99ab13b9eeb3faf3ebea2dde670dc99754690c4f46e7b5825
+    original_pdf: private/raw/tripos/IB/2013/P4.pdf
+    original_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+    physical_page: 4
+    printed_question: 9H
+    page_image_crop_sha256: 2c13dc21d964a14dface0458761d6c58420de0bb7b9af6862190ba43eb279baa
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The last inequality uses ⩾. Both introductory positivity signs are
+      strict, and the path-product indices, exclusions in the inner summation, γ indices
+      and normalisation agree.
+    remaining_discrepancies: []
+  IB/2013/P4/q20H:
+    question_id: IB/2013/P4/q20H
+    question_sha256: 4ff75290b1c1a12528f4378c77202a467f8afe636ba1d310b826df524c6f0094
+    original_pdf: private/raw/tripos/IB/2013/P4.pdf
+    original_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+    physical_page: 9
+    printed_question: 20H
+    page_image_crop_sha256: f2718515448f2a0d362d7cbdb4aace1c7136b49b341f61d1a878d52676c2c51f
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The nonnegativity condition uses ⩾. The dual bounds, objective comparison
+      and a+2 ⩽ b use ⩽. The strict positivity condition, six costs, all five balance
+      equations, indexing, and emphasis on maximizes agree.
+    remaining_discrepancies: []
+  IB/2013/P4/q16A:
+    question_id: IB/2013/P4/q16A
+    question_sha256: 8bf4b93e1b5036a7bbbb4ae1407bf73d4216c5a0ffdbe01e234033926fc1e141
+    original_pdf: private/raw/tripos/IB/2013/P4.pdf
+    original_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+    physical_page: 7
+    printed_question: 16A
+    page_image_crop_sha256: 8152e0ac073cdf93519cabba5ef40d8c6d83dd39886eb6538f5ca0b0850f77d1
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The integral comparison uses ⩽. The primes and powers in both integrals,
+      endpoint data for y and y′, the global maximum request and both zero boundary
+      values for φ agree.
+    remaining_discrepancies: []
+  IB/2013/P4/q18A:
+    question_id: IB/2013/P4/q18A
+    question_sha256: 752d2d00225cd2867fb1baf3dc597b9e6d5e7ed3c6a5b161cfad1b2e90965932
+    original_pdf: private/raw/tripos/IB/2013/P4.pdf
+    original_sha256: 4dac5bcc6b5561bcf112dd2133283928c01cbd48e1694935b94edbeea623160d
+    physical_page: 8
+    printed_question: 18A
+    page_image_crop_sha256: 5bed85ff539bbd75b99569e2b7f0e885ad07d46cb3146cad13f13f63fe1b9685
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The gradient symbol is bold, the Laplacians ordinary. Both unit-vector
+      e glyphs are bold; the radial index is bold upright r and the angular index
+      is ordinary italic θ. The potential, velocity, kinetic energy factor and spherical-polar
+      formulae agree.
+    remaining_discrepancies: []
+  IB/2013/P3/q14F:
+    question_id: IB/2013/P3/q14F
+    question_sha256: c406ebe9b690bccf2f7d06d2fa2a2eba1d7a6f58704b603b9bff4725b8e10ac2
+    original_pdf: private/raw/tripos/IB/2013/P3.pdf
+    original_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+    physical_page: 6
+    printed_question: 14F
+    page_image_crop_sha256: 8be9c80036fa0ca394445489123afb645b0176262ad6ce099ca88554cf76aa18
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The metric codomain has the subscript ⩾0. Both invariance conditions,
+      the two surfaces S and S′, the boundary-circle wording and both curvature questions
+      agree.
+    remaining_discrepancies: []
+  IB/2013/P3/q20H:
+    question_id: IB/2013/P3/q20H
+    question_sha256: e997c117e4c4f0e569aa97b5430f37841b165aff86b779e759b180e5fc191ae9
+    original_pdf: private/raw/tripos/IB/2013/P3.pdf
+    original_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+    physical_page: 9
+    printed_question: 20H
+    page_image_crop_sha256: 5b8c97354e80ec1d1d5d36b91bb0b4f3a1dd4d4faa96b5fc42f0a5b68af313a1
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The error hypothesis has ⩽ and both final inequalities have ⩾. Subscripts,
+      five-point stars for the inconclusive decision, superscript asterisks on the
+      optimal rule, half-open and closed endpoints, and the numerical hint agree.
+      The printed γ definition uses δ(x).
+    remaining_discrepancies: []
+  IB/2013/P3/q21H:
+    question_id: IB/2013/P3/q21H
+    question_sha256: 300fe39f8be5e936f8ede54ba6ca27e444a47563a8070f61d335280a8e3a5d75
+    original_pdf: private/raw/tripos/IB/2013/P3.pdf
+    original_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+    physical_page: 10
+    printed_question: 21H
+    page_image_crop_sha256: 783964095ca2f008cc7d0a369e9085530067d1f7811ebbcd0f43b8b3e667b1aa
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The first constraint uses ⩽ and the remaining three lines use ⩾,
+      including the joint nonnegativity condition. The linear objective, all coefficients,
+      right-hand sides, perturbations and signs in the last tuple agree.
+    remaining_discrepancies: []
+  IB/2013/P3/q19C:
+    question_id: IB/2013/P3/q19C
+    question_sha256: 842c16218dabbe57bd45696288d0ffc5db66d2eb766fc824c720ed3ad79908bf
+    original_pdf: private/raw/tripos/IB/2013/P3.pdf
+    original_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+    physical_page: 9
+    printed_question: 19C
+    page_image_crop_sha256: f8d9a842d372bbe1bbcd762e30beffed23d7e3846069412969b39256de5a23e3
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: 'The bound has ⩽, matching the printed slanted bar. The approximation,
+      defining =: sign, derivative and error signs, nodes, C³[0,2], supremum norm
+      and least-constant instruction agree.'
+    remaining_discrepancies: []
+  IB/2013/P3/q12F:
+    question_id: IB/2013/P3/q12F
+    question_sha256: 47b1e58748408cd2d1e83f91778535248e31a1aecccb145bb9ee689ca24cf725
+    original_pdf: private/raw/tripos/IB/2013/P3.pdf
+    original_sha256: 75eda03d60d4165ad61b6154760b0678bc200aabaef09fe45c0368a9711423e5
+    physical_page: 5
+    printed_question: 12F
+    page_image_crop_sha256: 8242b69c1f119c92356ab658529b6a3c559836c98a16068003508b8ed7719ceb
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The finite maximization has two ⩽ signs and the sequence index has
+      ⩾. Both norm bounds in each of statements 3 and 4 have ⩽. The maximum vs supremum
+      notations, quantifiers, conditions on functions and all six numbered statements
+      agree.
+    remaining_discrepancies: []
+  IB/2013/P2/q9H:
+    question_id: IB/2013/P2/q9H
+    question_sha256: a716bc933b32a1d35bdd1adafe7434f0d3189353d9ebe3f245a6226a99cf1a46
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 4
+    printed_question: 9H
+    page_image_crop_sha256: b06d12264bf30bf47b6e78f12b546eabb58a1f3d963fa60a540cd6e2f6fbce38
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The displayed condition has d(U) ⩾ k|U| but U ⊆ V. The hint has
+      b with subscript j′. The printed wording 'ensuring it possible' and 'the number
+      edges' is faithfully retained.
+    remaining_discrepancies: []
+  IB/2013/P2/q3F:
+    question_id: IB/2013/P2/q3F
+    question_sha256: 34d87bacf54119dda2abff8123c1920a05a73322d3f65cf931aead9410560824
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 2
+    printed_question: 3F
+    page_image_crop_sha256: bd2ccd2f76cd58c0e91816ddc479948ff03ce5f638c501a382c299673c66c46f
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: Both closed unit balls use ⩽ 1. C and its primed space, the two
+      norm subscripts, the evaluation of f′ at the midpoint, and the question about
+      boundedness agree.
+    remaining_discrepancies: []
+  IB/2013/P2/q14F:
+    question_id: IB/2013/P2/q14F
+    question_sha256: 92bb4543233ff34230575eeb5efff88b3a8e2a954a74b170f540362572008204
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 7
+    printed_question: 14F
+    page_image_crop_sha256: fd255bd6fee598182d5fe9bc2763154d54b15e422cb7ab6abdfb4b17e364677c
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: Both occurrences of 0 ⩽ i ⩽ n−1, together with n ⩾ 2 and i ⩾ 1,
+      have slanted bars. Tangency indices, numbered conditions, emphasis on mod and
+      constellation, the picture request and closure statement agree.
+    remaining_discrepancies: []
+  IB/2013/P2/q20H:
+    question_id: IB/2013/P2/q20H
+    question_sha256: 996ce2d23765e751497354aa85cca1e05f4853027ef1fa60501452418c008a53
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 10
+    printed_question: 20H
+    page_image_crop_sha256: a4569aab35d2a2fb0b2714bc75fed66f64a763966696c5b6527946b59b0da97d
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: All nine weak greater-than signs have slanted bars, including sequence
+      indices and f_ii. The two strict signs in the printed binomial bound and its
+      n ⩾ 1 qualifier are preserved. The three subparts, sleep-block endpoints, starting
+      states and > 1/2 condition agree.
+    remaining_discrepancies: []
+  IB/2013/P2/q19C:
+    question_id: IB/2013/P2/q19C
+    question_sha256: 762c3478ee2aaa620ef04d7be513909ef6bffb0c22eabaa0f2b14d741eb79d4a
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 9
+    printed_question: 19C
+    page_image_crop_sha256: 0aebc1d02b3d4749ad0c949a2658b22930758a824a11020308fe8e496d24f7a9
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The Lipschitz inequality uses ⩽, while L > 0 is strict. The interval
+      endpoints, backward Euler indices, first-principles instruction, order and stability-domain
+      requests agree.
+    remaining_discrepancies: []
+  IB/2013/P2/q17B:
+    question_id: IB/2013/P2/q17B
+    question_sha256: f2f361568881ef29b2526625f86dc0c88e21cc9f19708bf68384d39ca48ee41b
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 8
+    printed_question: 17B
+    page_image_crop_sha256: 6558e1224b7a4812b67728c81a7af2c76bad74b4e62cd0cb1891a9077d9c1bf6
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The bound is −U ⩽ E < 0. Both spatial branches of the well retain
+      strict inequalities. The α and β definitions, delta scatterer, signs of k and
+      E, bound-state expression and fixed-Ul limit agree.
+    remaining_discrepancies: []
+  IB/2013/P2/q11G:
+    question_id: IB/2013/P2/q11G
+    question_sha256: 1174bab7a3f7fdc3324e5c64f913cd78b46ff9dfdb80bf5e87d78669d70ff264
+    original_pdf: private/raw/tripos/IB/2013/P2.pdf
+    original_sha256: ba88d31b469f91ad2ff8623a066dfe95c3467621fa87fbd3cb1abf1aec49fdd2
+    physical_page: 5
+    printed_question: 11G
+    page_image_crop_sha256: 9af2f632fae59c12926d6e441a30584d4c295925c8ed5f88080610cf2c96d33e
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The condition on the exponent is n_i ⩾ 1. The three numbered requests,
+      module actions, quotient, direct sum, superscripts and dimensions agree.
+    remaining_discrepancies: []
+  IB/2013/P1/q15B:
+    question_id: IB/2013/P1/q15B
+    question_sha256: 8fe9f593b559fca1bca47222c8882c18cfaf1f6afcd84f94c2f91c1ef909ce5e
+    original_pdf: private/raw/tripos/IB/2013/P1.pdf
+    original_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+    physical_page: 8
+    printed_question: 15B
+    page_image_crop_sha256: ef3c46485b1aca45de4784bf384113d7cfd4651313a6c6b4eb17bba0600199eb
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: Both the expectation inequality and uncertainty bound use ⩾. The
+      ordered factors, hats, conjugate star, positive parameter domains, χ, and final
+      two vanishing expectations agree.
+    remaining_discrepancies: []
+  IB/2013/P1/q7H:
+    question_id: IB/2013/P1/q7H
+    question_sha256: 533bb909764465e657b03d4854de764d39acbc693fca887c0d8eb0a6ec9facdd
+    original_pdf: private/raw/tripos/IB/2013/P1.pdf
+    original_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+    physical_page: 3
+    printed_question: 7H
+    page_image_crop_sha256: 1caa630166531a0c01c05c1cbb91c1a7ac594db985267c57051d4506f1a9e402
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The density uses x ⩾ μ for the exponential branch and x < μ for
+      the zero branch. The exponent, positive parameters, three hats and both estimator
+      requests agree.
+    remaining_discrepancies: []
+  IB/2013/P1/q14B:
+    question_id: IB/2013/P1/q14B
+    question_sha256: 30952630b1fa5df2b170aaaf11999e391e4d4d5755155fc7b0e729167690c075
+    original_pdf: private/raw/tripos/IB/2013/P1.pdf
+    original_sha256: 3e932f069742e0718670a85a11b0d249b653abf08deaf0ae78897fd1c0b5a47e
+    physical_page: 7
+    printed_question: 14B
+    page_image_crop_sha256: 5fa60a2343005a423cb2bde0fa353ffe5cf6faece8e9de2e2be459394a13bc07
+    method: Read the entire question from a freshly rendered original PDF page image
+      and compared its words, symbols, conditions, instructions and subparts with
+      the supplied corrected LaTeX.
+    observations: The first interval has 0 < x ⩽ π, and both endpoints of the second
+      interval use ⩽. The sum, both derivative signs, eigenvalue condition, boundary
+      data and forcing agree.
+    remaining_discrepancies: []
+typographic_manifest_sha256: e8a34312f63652cc3f8765999877fe40c377d31ffb9ea0e1e71d8c2cf5efaa24
+layout_observation: The plasma, forecast and random-walk solutions continue naturally
+  onto the following page. The falling-sphere solution finishes on its first page;
+  its source footer and open issue appear together on the next page. All sampled questions
+  and solutions fit the PDF margins and browser width.

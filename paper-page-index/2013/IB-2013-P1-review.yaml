@@ -10,10 +10,10 @@ section_units:
   I: 8
   II: 12
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2013-06-04'
 printed_date: Tuesday, 4 June, 2013
 time: 9:00 am to 12:00 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2013/P1/q1E
   original_question: 1E
@@ -45,7 +48,8 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: b30dffe91cdf29bd4d6aad6910efa583a4fc7cf9d12627dc158258b9f89c6e0c
-  checks: Checked the adjugate, integer-entry condition on the inverse and both determinant signs.
+  checks: Checked the adjugate, integer-entry condition on the inverse and both determinant
+    signs.
 - id: IB/2013/P1/q2D
   original_question: 2D
   page: 2
@@ -57,7 +61,8 @@ questions:
   also_courses:
   - IB/complex-analysis
   question_sha256: 88c61f17306002b570bb8be094c68f6ba6a50b6e7887d6468e777987d636980d
-  checks: Checked all four denominators, the square-root exponent and both principal argument restrictions.
+  checks: Checked all four denominators, the square-root exponent and both principal
+    argument restrictions.
 - id: IB/2013/P1/q3F
   original_question: 3F
   page: 2
@@ -68,7 +73,8 @@ questions:
   course: IB/geometry
   also_courses: []
   question_sha256: 8bf14ad06e565aeab53614e6289a73726ffb47fe3dd927d8df8309d4dce6c666
-  checks: Checked ultraparallelism, uniqueness and the distinct can/must questions for three common perpendiculars.
+  checks: Checked ultraparallelism, uniqueness and the distinct can/must questions
+    for three common perpendiculars.
 - id: IB/2013/P1/q4A
   original_question: 4A
   page: 2
@@ -79,9 +85,11 @@ questions:
   course: IB/variational-principles
   also_courses: []
   question_sha256: baa5b530493dc6b235143a7aec177f949792aa00d8031c1967c5414671eaf380
-  checks: Checked the convexity differentiability assumption, open positive domain and the biconjugate claim.
-  printed_ambiguity: For the usual supremum convention the biconjugate agrees on the stated positive domain.
-    Its closed convex extension also has a finite value at zero.
+  checks: Checked the convexity differentiability assumption, open positive domain
+    and the biconjugate claim.
+  printed_ambiguity: For the usual supremum convention the biconjugate agrees on the
+    stated positive domain. Its closed convex extension also has a finite value at
+    zero.
 - id: IB/2013/P1/q5A
   original_question: 5A
   page: 3
@@ -92,9 +100,11 @@ questions:
   course: IB/fluid-dynamics
   also_courses: []
   question_sha256: e912deab541a802ee1b5fd05ee853bf54c7ed2b5c30840ed64e5a93d8d0e0dc2
-  checks: Checked the explicitly time-dependent velocity, streamfunction sign convention and initial coordinates.
-  printed_ambiguity: The velocity depends explicitly on time. A stream function for the whole flow must also
-    depend on time, though the question prints only spatial arguments.
+  checks: Checked the explicitly time-dependent velocity, streamfunction sign convention
+    and initial coordinates.
+  printed_ambiguity: The velocity depends explicitly on time. A stream function for
+    the whole flow must also depend on time, though the question prints only spatial
+    arguments.
 - id: IB/2013/P1/q6C
   original_question: 6C
   page: 3
@@ -105,7 +115,8 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: c0cabaac27298345ae01a315291a449841faa110b3da60c3d4cea4f982635f58
-  checks: Checked the weight and integral limits, both nodes and the exemption from numerical weights.
+  checks: Checked the weight and integral limits, both nodes and the exemption from
+    numerical weights.
 - id: IB/2013/P1/q7H
   original_question: 7H
   page: 3
@@ -115,11 +126,22 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: 34c9987bba8c66c4cb1e3aaacf55ffaced986edd197a6cf493e23081db8d4b59
-  checks: Checked the density support endpoints, positivity of both parameters, definition of beta and all
-    three bias questions.
-  printed_ambiguity: The problem has no stated lower bound on sample size; existence and finiteness of the
-    rate estimator's mean need separate consideration for small n.
+  question_sha256: 533bb909764465e657b03d4854de764d39acbc693fca887c0d8eb0a6ec9facdd
+  checks: Checked the density support endpoints, positivity of both parameters, definition
+    of beta and all three bias questions.
+  printed_ambiguity: The problem has no stated lower bound on sample size; existence
+    and finiteness of the rate estimator's mean need separate consideration for small
+    n.
+  glyph_reinspection:
+    previous_question_sha256: 34c9987bba8c66c4cb1e3aaacf55ffaced986edd197a6cf493e23081db8d4b59
+    note: Compared the original with its embedded font. The 1 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 3
+      - 482.47
+      - 365.62
+      - '>'
 - id: IB/2013/P1/q8H
   original_question: 8H
   page: 4
@@ -130,8 +152,8 @@ questions:
   course: IB/optimisation
   also_courses: []
   question_sha256: d76f86161bf85390529acece8aa81d6f664fc4da893b1b2a268926f0c9250e0b
-  checks: Checked the player roles, all three possible search costs and the starting probability in Colin’s
-    strategy.
+  checks: Checked the player roles, all three possible search costs and the starting
+    probability in Colin’s strategy.
 - id: IB/2013/P1/q9E
   original_question: 9E
   page: 5
@@ -142,7 +164,8 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: 1afef641ba84d5a96063990dac640c60a9492d9dec5f0772f5737a7feef586bb
-  checks: Checked the distinction between sums, all 24 basis coordinates and both zero-coordinate conditions.
+  checks: Checked the distinction between sums, all 24 basis coordinates and both
+    zero-coordinate conditions.
 - id: IB/2013/P1/q10G
   original_question: 10G
   page: 5
@@ -153,10 +176,10 @@ questions:
   course: IB/groups-rings-and-modules
   also_courses: []
   question_sha256: b6bee84fae25e444004b2dfc0920670c07dcace1eac8837c09e1cc3b46f33348
-  checks: Checked the diagonal subgroup, permutation matrix, quotient and the unrestricted prime in the finite-field
-    case.
-  printed_ambiguity: Include p=2 explicitly. Over this field the diagonal invertible subgroup is trivial and
-    the whole general linear group normalises it.
+  checks: Checked the diagonal subgroup, permutation matrix, quotient and the unrestricted
+    prime in the finite-field case.
+  printed_ambiguity: Include p=2 explicitly. Over this field the diagonal invertible
+    subgroup is trivial and the whole general linear group normalises it.
 - id: IB/2013/P1/q11F
   original_question: 11F
   page: 6
@@ -167,8 +190,8 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: 188dc56aee0d16b0ca2b9d86b13a079d10d1834fccbc39f60fa950e3e6068d49
-  checks: Checked the interval inclusion, derivative assumptions and the numerator, denominator and interval
-    of the final series.
+  checks: Checked the interval inclusion, derivative assumptions and the numerator,
+    denominator and interval of the final series.
 - id: IB/2013/P1/q12G
   original_question: 12G
   page: 6
@@ -179,8 +202,8 @@ questions:
   course: IB/topology
   also_courses: []
   question_sha256: 62e2936494ab6270218d2b2f4472fc951f339d8be3c97a4a7923e6dda62476d4
-  checks: Checked the ambient Euclidean metric, the quotient relation and the signs of the three antipodal
-    coordinates.
+  checks: Checked the ambient Euclidean metric, the quotient relation and the signs
+    of the three antipodal coordinates.
 - id: IB/2013/P1/q13E
   original_question: 13E
   page: 7
@@ -192,7 +215,8 @@ questions:
   also_courses:
   - IB/complex-analysis
   question_sha256: efe6d8095282fbedf05e2d5222c6a9bc30d0f0512da82408b750ad85cb30a4d2
-  checks: Checked the even degree, exterior annulus, integrand and ambiguity of the square-root branch.
+  checks: Checked the even degree, exterior annulus, integrand and ambiguity of the
+    square-root branch.
 - id: IB/2013/P1/q14B
   original_question: 14B
   page: 7
@@ -202,9 +226,27 @@ questions:
   course_at_time: Methods
   course: IB/methods
   also_courses: []
-  question_sha256: 797e2abe0f6ec9dcebd5137b46a3202348a62f347bf0bde3852db1577406e0d8
-  checks: Checked the half-open interval, both periodic extensions, operator signs, homogeneous boundary data
-    and exponential forcing.
+  question_sha256: 30952630b1fa5df2b170aaaf11999e391e4d4d5755155fc7b0e729167690c075
+  checks: Checked the half-open interval, both periodic extensions, operator signs,
+    homogeneous boundary data and exponential forcing.
+  glyph_reinspection:
+    previous_question_sha256: 797e2abe0f6ec9dcebd5137b46a3202348a62f347bf0bde3852db1577406e0d8
+    note: Compared the original with its embedded font. The 3 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 7
+      - 316.01
+      - 249.46
+      - '6'
+    - - 7
+      - 329.57
+      - 368.74
+      - '6'
+    - - 7
+      - 329.57
+      - 389.5
+      - '6'
 - id: IB/2013/P1/q15B
   original_question: 15B
   page: 8
@@ -214,9 +256,23 @@ questions:
   course_at_time: Quantum Mechanics
   course: IB/quantum-mechanics
   also_courses: []
-  question_sha256: f24c5f1383715effa2d9fcd0d028b4c2c35fb9035b14b537b0fdb0d1c8634b59
-  checks: Checked factor order, sign and positivity of s, powers of x, integration bounds and zero expectation
-    assumptions.
+  question_sha256: 8fe9f593b559fca1bca47222c8882c18cfaf1f6afcd84f94c2f91c1ef909ce5e
+  checks: Checked factor order, sign and positivity of s, powers of x, integration
+    bounds and zero expectation assumptions.
+  glyph_reinspection:
+    previous_question_sha256: f24c5f1383715effa2d9fcd0d028b4c2c35fb9035b14b537b0fdb0d1c8634b59
+    note: Compared the original with its embedded font. The 2 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 8
+      - 257.14
+      - 360.86
+      - '>'
+    - - 8
+      - 303.34
+      - 327.13
+      - '>'
 - id: IB/2013/P1/q16D
   original_question: 16D
   page: 8
@@ -227,8 +283,8 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: 2f2954b8b23d3ee4d94c1869e7d695de08c5bddeef9a27c029b3cc18a5f499f3
-  checks: Checked the electron charge sign convention, frequency phases, static conductivity, relative permittivity
-    and plasma-frequency condition.
+  checks: Checked the electron charge sign convention, frequency phases, static conductivity,
+    relative permittivity and plasma-frequency condition.
 - id: IB/2013/P1/q17A
   original_question: 17A
   page: 9
@@ -239,10 +295,10 @@ questions:
   course: IB/fluid-dynamics
   also_courses: []
   question_sha256: 433d497aac58f08ffa9920f5c89c89feda582966399ec0762849610d71350c90
-  checks: Checked unsteady Bernoulli assumptions, dimensions of the tube, the printed pressure parenthesis
-    and both requested results.
-  printed_ambiguity: The emptying-time claim needs an initial flow condition; the paper does not state the
-    usual release from rest.
+  checks: Checked unsteady Bernoulli assumptions, dimensions of the tube, the printed
+    pressure parenthesis and both requested results.
+  printed_ambiguity: The emptying-time claim needs an initial flow condition; the
+    paper does not state the usual release from rest.
 - id: IB/2013/P1/q18C
   original_question: 18C
   page: 9
@@ -253,8 +309,8 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: 1e79cd3aa32de6e41ab49b4c982cd272efe8792ba206ce00e44e65065c56474c
-  checks: Checked the matrix dimensions, Givens index notation, all matrix and right-hand side entries and
-    the residual norm.
+  checks: Checked the matrix dimensions, Givens index notation, all matrix and right-hand
+    side entries and the residual norm.
 - id: IB/2013/P1/q19H
   original_question: 19H
   page: 10
@@ -265,8 +321,8 @@ questions:
   course: IB/statistics
   also_courses: []
   question_sha256: 69ebfb0441f555339b34ed8a785dad2bed3bf3ed70a6ccda66ab73f8a6468d8e
-  checks: Checked the residual definition, both fertilizer design matrices and all four observed yields, including
-    the next-year predictive target.
+  checks: Checked the residual definition, both fertilizer design matrices and all
+    four observed yields, including the next-year predictive target.
 - id: IB/2013/P1/q20H
   original_question: 20H
   page: 11
@@ -277,5 +333,5 @@ questions:
   course: IB/markov-chains
   also_courses: []
   question_sha256: b0877f3ed981fb5abd4c90b813e62c993e46615edb05fa33bda43c6463c597bd
-  checks: Checked the nine transition entries, number of edges, first passage and first traversal events, and
-    the order of all differences.
+  checks: Checked the nine transition entries, number of edges, first passage and
+    first traversal events, and the order of all differences.

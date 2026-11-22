@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 11
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2013-06-05'
 printed_date: Wednesday, 5 June, 2013
 time: 1:30 pm to 4:30 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheets, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2013/P2/q1E
   original_question: 1E
@@ -45,7 +48,8 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: ff02ce6a9b24070988e93b27f45ea0c7d52080be90bc472b0799b54fc3e91b87
-  checks: Checked the conjugate transpose, invertibility hypothesis, determinant norm and identity-matrix case.
+  checks: Checked the conjugate transpose, invertibility hypothesis, determinant norm
+    and identity-matrix case.
 - id: IB/2013/P2/q2G
   original_question: 2G
   page: 2
@@ -66,8 +70,23 @@ questions:
   course_at_time: Analysis II
   course: IB/analysis-ii
   also_courses: []
-  question_sha256: 3155d0b1e06a065a2af5596e1eab868eb5ea0b7494a7b95eeb1ebf7549a66a06
-  checks: Checked the two maxima separately, the midpoint derivative functional and the two unit-ball norms.
+  question_sha256: 34d87bacf54119dda2abff8123c1920a05a73322d3f65cf931aead9410560824
+  checks: Checked the two maxima separately, the midpoint derivative functional and
+    the two unit-ball norms.
+  glyph_reinspection:
+    previous_question_sha256: 3155d0b1e06a065a2af5596e1eab868eb5ea0b7494a7b95eeb1ebf7549a66a06
+    note: Compared the original with its embedded font. The 2 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 2
+      - 442.82
+      - 439.66
+      - '6'
+    - - 2
+      - 489.5
+      - 297.22
+      - '6'
 - id: IB/2013/P2/q4G
   original_question: 4G
   page: 2
@@ -78,7 +97,8 @@ questions:
   course: IB/topology
   also_courses: []
   question_sha256: 6e2aa9a67eaed56f7fd1c4f015729b3020e663389614cedabda97a7d45112b31
-  checks: Checked discreteness in the first claim and both compactness hypotheses in the second.
+  checks: Checked discreteness in the first claim and both compactness hypotheses
+    in the second.
 - id: IB/2013/P2/q5B
   original_question: 5B
   page: 3
@@ -89,7 +109,8 @@ questions:
   course: IB/methods
   also_courses: []
   question_sha256: 95890fc97ca97c6c3181c45249d32fbd7dfcd6e95cd7c477525c41c024fcc721
-  checks: Checked both transport coefficients, constant forcing and the initial curve x=1.
+  checks: Checked both transport coefficients, constant forcing and the initial curve
+    x=1.
 - id: IB/2013/P2/q6D
   original_question: 6D
   page: 3
@@ -100,7 +121,8 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: 4d554c46f66b342087303322b67e4948436de8bf1db69a61be70d76603c12c3d
-  checks: Checked the continuity equation, uniform conductivity and the finite isolated body assumption.
+  checks: Checked the continuity equation, uniform conductivity and the finite isolated
+    body assumption.
 - id: IB/2013/P2/q7A
   original_question: 7A
   page: 3
@@ -111,8 +133,8 @@ questions:
   course: IB/fluid-dynamics
   also_courses: []
   question_sha256: 1d88032417dfc06e2347752d68c8977a98585e00a3b4db951d2af355ffa54edb
-  checks: Checked the positive gravity term in Bernoulli’s integral, velocity conventions, exponents and Doppler
-    shift.
+  checks: Checked the positive gravity term in Bernoulli’s integral, velocity conventions,
+    exponents and Doppler shift.
 - id: IB/2013/P2/q8H
   original_question: 8H
   page: 4
@@ -123,10 +145,11 @@ questions:
   course: IB/statistics
   also_courses: []
   question_sha256: ac24daefa18a5bb4b67dd62f4c0e6a75ef40ed77957247ef09641b5f53a0eced
-  checks: Checked all three categorical probabilities, the exact ordered sample event and the strict variance
-    bound.
-  printed_ambiguity: The first three observations require a sample of at least three. If any category has zero
-    probability the requested strict variance inequality is impossible.
+  checks: Checked all three categorical probabilities, the exact ordered sample event
+    and the strict variance bound.
+  printed_ambiguity: The first three observations require a sample of at least three.
+    If any category has zero probability the requested strict variance inequality
+    is impossible.
 - id: IB/2013/P2/q9H
   original_question: 9H
   page: 4
@@ -136,9 +159,19 @@ questions:
   course_at_time: Optimization
   course: IB/optimisation
   also_courses: []
-  question_sha256: e38a47aaeee3510fc90acb442f72ba387b56743782baeeb4f66d08da4e221b15
-  checks: Checked the directed arc convention, outgoing street requirement, non-strict cut inequality and all
-    node types in the hint.
+  question_sha256: a716bc933b32a1d35bdd1adafe7434f0d3189353d9ebe3f245a6226a99cf1a46
+  checks: Checked the directed arc convention, outgoing street requirement, non-strict
+    cut inequality and all node types in the hint.
+  glyph_reinspection:
+    previous_question_sha256: e38a47aaeee3510fc90acb442f72ba387b56743782baeeb4f66d08da4e221b15
+    note: Compared the original with its embedded font. The 1 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 4
+      - 466.73
+      - 281.14
+      - '>'
 - id: IB/2013/P2/q10E
   original_question: 10E
   page: 5
@@ -149,8 +182,8 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: e1cc3536575e5e75bdf7535d5fd559ddc7b7ac594268608c1b63b5ec69b2dd5d
-  checks: Checked the n+1 count, finite-basis hypothesis and bounded continuous function space on the real
-    line.
+  checks: Checked the n+1 count, finite-basis hypothesis and bounded continuous function
+    space on the real line.
 - id: IB/2013/P2/q11G
   original_question: 11G
   page: 5
@@ -160,9 +193,19 @@ questions:
   course_at_time: Groups, Rings and Modules
   course: IB/groups-rings-and-modules
   also_courses: []
-  question_sha256: 4b6f8ed68753e20d750d3e498282493b90f9d3ac6a635ecea70c206d2254768a
-  checks: Checked the fourth-power annihilator, direct-sum exponents, quotient cubic and the explicit inverse
-    request.
+  question_sha256: 1174bab7a3f7fdc3324e5c64f913cd78b46ff9dfdb80bf5e87d78669d70ff264
+  checks: Checked the fourth-power annihilator, direct-sum exponents, quotient cubic
+    and the explicit inverse request.
+  glyph_reinspection:
+    previous_question_sha256: 4b6f8ed68753e20d750d3e498282493b90f9d3ac6a635ecea70c206d2254768a
+    note: Compared the original with its embedded font. The 1 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 5
+      - 372.6
+      - 246.34
+      - '>'
 - id: IB/2013/P2/q12F
   original_question: 12F
   page: 6
@@ -173,7 +216,8 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: 84cac673bf1aab6e0ddb746423a82c5d1ed5f4e4b2ea4bb3e73964b0f2f5f311
-  checks: Checked mixed-derivative orders, every exponent in both piecewise formulas and both origin questions.
+  checks: Checked mixed-derivative orders, every exponent in both piecewise formulas
+    and both origin questions.
 - id: IB/2013/P2/q13D
   original_question: 13D
   page: 6
@@ -185,8 +229,8 @@ questions:
   also_courses:
   - IB/complex-analysis
   question_sha256: dcde85793c71beaaff532487ee85f91788eca1366d48e4f4c5667f04b84ce3a7
-  checks: Checked signs and factors in the exponentials, four contour vertices, orientation and both copies
-    of the complex constant.
+  checks: Checked signs and factors in the exponentials, four contour vertices, orientation
+    and both copies of the complex constant.
 - id: IB/2013/P2/q14F
   original_question: 14F
   page: 7
@@ -196,10 +240,42 @@ questions:
   course_at_time: Geometry
   course: IB/geometry
   also_courses: []
-  question_sha256: f6c4788611aad4c28f754bc79bf0ae98db67017a9f99f3ff63c27eb06b4611e8
-  checks: Checked the two defining properties, indexing modulo n, tangency pairs and the closure requirement.
-  printed_ambiguity: The induction does not explicitly exclude backtracking to the previous circle or switching
-    directions. The intended closure assertion requires choosing a consistent chain.
+  question_sha256: 92bb4543233ff34230575eeb5efff88b3a8e2a954a74b170f540362572008204
+  checks: Checked the two defining properties, indexing modulo n, tangency pairs and
+    the closure requirement.
+  printed_ambiguity: The induction does not explicitly exclude backtracking to the
+    previous circle or switching directions. The intended closure assertion requires
+    choosing a consistent chain.
+  glyph_reinspection:
+    previous_question_sha256: f6c4788611aad4c28f754bc79bf0ae98db67017a9f99f3ff63c27eb06b4611e8
+    note: Compared the original with its embedded font. The 6 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 7
+      - 163.66
+      - 296.14
+      - '6'
+    - - 7
+      - 163.66
+      - 314.38
+      - '6'
+    - - 7
+      - 243.22
+      - 373.54
+      - '>'
+    - - 7
+      - 303.34
+      - 117.46
+      - '6'
+    - - 7
+      - 303.34
+      - 139.54
+      - '6'
+    - - 7
+      - 316.9
+      - 342.58
+      - '>'
 - id: IB/2013/P2/q15A
   original_question: 15A
   page: 7
@@ -210,7 +286,8 @@ questions:
   course: IB/variational-principles
   also_courses: []
   question_sha256: 74b9b2694b17e0c4348cdf1964d3c73b0f61ad46d6301263d8cbddb52257b859
-  checks: Checked the sign in the first integral, half-plane, light-speed law and both endpoints.
+  checks: Checked the sign in the first integral, half-plane, light-speed law and
+    both endpoints.
 - id: IB/2013/P2/q16B
   original_question: 16B
   page: 8
@@ -221,8 +298,8 @@ questions:
   course: IB/methods
   also_courses: []
   question_sha256: e4240393a52df93efb6faae230bb5b18fb96ac8c06b09f0b86c16475cf047276
-  checks: Checked both boundary-value problems, operator signs, diffusivity and explicit boundary data on the
-    unit interval.
+  checks: Checked both boundary-value problems, operator signs, diffusivity and explicit
+    boundary data on the unit interval.
 - id: IB/2013/P2/q17B
   original_question: 17B
   page: 8
@@ -232,9 +309,19 @@ questions:
   course_at_time: Quantum Mechanics
   course: IB/quantum-mechanics
   also_courses: []
-  question_sha256: 336abeb09423e7c75dfb313aa24e382f0e77cc0be34b4edce609c023c26a2aba
-  checks: Checked both well inequalities, the allowed energy interval, parity, sign of delta strength and limiting
-    quantity held fixed.
+  question_sha256: f2f361568881ef29b2526625f86dc0c88e21cc9f19708bf68384d39ca48ee41b
+  checks: Checked both well inequalities, the allowed energy interval, parity, sign
+    of delta strength and limiting quantity held fixed.
+  glyph_reinspection:
+    previous_question_sha256: 336abeb09423e7c75dfb313aa24e382f0e77cc0be34b4edce609c023c26a2aba
+    note: Compared the original with its embedded font. The 1 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 8
+      - 500.81
+      - 294.46
+      - '6'
 - id: IB/2013/P2/q18D
   original_question: 18D
   page: 9
@@ -245,8 +332,8 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: 3e55952423560ff02249d251e4ed3a2d77994dba7685d8cbe3157d646cf28752
-  checks: Checked all primed vectors, the leading minus sign, the outside-loop condition and the polar equation
-    of the ellipse.
+  checks: Checked all primed vectors, the leading minus sign, the outside-loop condition
+    and the polar equation of the ellipse.
 - id: IB/2013/P2/q19C
   original_question: 19C
   page: 9
@@ -256,9 +343,19 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: ad2400d7787a5d1db6fa6bde2d036d94a1e634413cfa643df61038f7eba7d5ab
-  checks: Checked the initial condition, global Lipschitz inequality, implicit stage and the two convergence
-    and stability requests.
+  question_sha256: 762c3478ee2aaa620ef04d7be513909ef6bffb0c22eabaa0f2b14d741eb79d4a
+  checks: Checked the initial condition, global Lipschitz inequality, implicit stage
+    and the two convergence and stability requests.
+  glyph_reinspection:
+    previous_question_sha256: ad2400d7787a5d1db6fa6bde2d036d94a1e634413cfa643df61038f7eba7d5ab
+    note: Compared the original with its embedded font. The 1 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 9
+      - 573.57
+      - 266.62
+      - '6'
 - id: IB/2013/P2/q20H
   original_question: 20H
   page: 10
@@ -268,6 +365,48 @@ questions:
   course_at_time: Markov Chains
   course: IB/markov-chains
   also_courses: []
-  question_sha256: a76d0b8996cbada9d8d8118558f154912e93b90ed95f885529d055e4da069414
-  checks: Checked both infinite sums, the binomial bound, all random-walk starting positions, block indexing
-    and the strict probability threshold.
+  question_sha256: 996ce2d23765e751497354aa85cca1e05f4853027ef1fa60501452418c008a53
+  checks: Checked both infinite sums, the binomial bound, all random-walk starting
+    positions, block indexing and the strict probability threshold.
+  glyph_reinspection:
+    previous_question_sha256: a76d0b8996cbada9d8d8118558f154912e93b90ed95f885529d055e4da069414
+    note: Compared the original with its embedded font. The 9 non-strict relation
+      glyph(s) use MSAM slanted bars; the inequality direction and all bounds are
+      unchanged.
+    source_page_coordinates_top_left_points:
+    - - 10
+      - 133.92
+      - 224.18
+      - '>'
+    - - 10
+      - 144.22
+      - 239.54
+      - '>'
+    - - 10
+      - 144.22
+      - 378.86
+      - '>'
+    - - 10
+      - 221.76
+      - 202.58
+      - '>'
+    - - 10
+      - 221.76
+      - 522.26
+      - '>'
+    - - 10
+      - 232.06
+      - 283.34
+      - '>'
+    - - 10
+      - 316.2
+      - 441.86
+      - '>'
+    - - 10
+      - 329.76
+      - 227.9
+      - '>'
+    - - 10
+      - 343.32
+      - 133.58
+      - '>'
