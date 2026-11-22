@@ -1,0 +1,1202 @@
+scope: 2003 IB examination questions across eight represented confirmed-taken courses.
+  Whole-course audits remain pending.
+sample:
+  seed: 20270108
+  strata:
+    IB/analysis-ii:
+    - IB/2003/P1/q10F
+    - IB/2003/P1/q1F
+    - IB/2003/P2/q10F
+    - IB/2003/P2/q1F
+    - IB/2003/P3/q11F
+    - IB/2003/P3/q1F
+    - IB/2003/P4/q10F
+    - IB/2003/P4/q1F
+    IB/complex-methods:
+    - IB/2003/P1/q16B
+    - IB/2003/P1/q7B
+    - IB/2003/P2/q7B
+    - IB/2003/P3/q3E
+    - IB/2003/P4/q13E
+    - IB/2003/P4/q17B
+    - IB/2003/P4/q8B
+    IB/fluid-dynamics:
+    - IB/2003/P1/q15C
+    - IB/2003/P1/q6C
+    - IB/2003/P3/q18C
+    - IB/2003/P3/q8C
+    - IB/2003/P4/q16C
+    - IB/2003/P4/q7C
+    IB/linear-algebra:
+    - IB/2003/P1/q14E
+    - IB/2003/P1/q5E
+    - IB/2003/P1/q8G
+    - IB/2003/P2/q15E
+    - IB/2003/P2/q17G
+    - IB/2003/P2/q6E
+    - IB/2003/P2/q8G
+    - IB/2003/P3/q17G
+    - IB/2003/P3/q19G
+    - IB/2003/P3/q7G
+    - IB/2003/P4/q15G
+    - IB/2003/P4/q6G
+    IB/methods:
+    - IB/2003/P1/q11D
+    - IB/2003/P1/q2D
+    - IB/2003/P2/q11C
+    - IB/2003/P2/q16B
+    - IB/2003/P2/q2C
+    - IB/2003/P3/q12D
+    - IB/2003/P3/q2D
+    - IB/2003/P4/q11D
+    - IB/2003/P4/q2D
+    IB/numerical-analysis:
+    - IB/2003/P2/q14B
+    - IB/2003/P2/q5B
+    - IB/2003/P3/q16B
+    - IB/2003/P3/q6B
+    IB/quantum-mechanics:
+    - IB/2003/P1/q18A
+    - IB/2003/P1/q9A
+    - IB/2003/P2/q18A
+    - IB/2003/P2/q9A
+    - IB/2003/P3/q20A
+    IB/statistics:
+    - IB/2003/P1/q12H
+    - IB/2003/P1/q3H
+    - IB/2003/P2/q12H
+    - IB/2003/P2/q3H
+    - IB/2003/P4/q12H
+    - IB/2003/P4/q3H
+  selection:
+    IB/analysis-ii:
+    - IB/2003/P2/q1F
+    - IB/2003/P3/q1F
+    IB/complex-methods:
+    - IB/2003/P4/q17B
+    - IB/2003/P1/q16B
+    IB/fluid-dynamics:
+    - IB/2003/P1/q15C
+    - IB/2003/P1/q6C
+    IB/linear-algebra:
+    - IB/2003/P3/q19G
+    - IB/2003/P1/q8G
+    - IB/2003/P1/q14E
+    IB/methods:
+    - IB/2003/P3/q12D
+    - IB/2003/P2/q16B
+    IB/numerical-analysis:
+    - IB/2003/P3/q16B
+    IB/quantum-mechanics:
+    - IB/2003/P2/q9A
+    IB/statistics:
+    - IB/2003/P2/q12H
+    - IB/2003/P1/q12H
+observed:
+  population: 57
+  sampled: 15
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 13
+  pdf_pages: 16
+  browser_views: 15
+  rendered_formulas: 402
+independent_manifest_sha256: 5d46e95d9e19330c7d70cf592eaa80b3d99afb09d09c180d6db2a3be5bde1016
+auditor_report: '# Independent blind rework of sampled 2003 Part IB Tripos questions
+
+
+  The audit covers 15 assigned units on four papers. I read each question-only packet
+  and its locator, visually compared its wording, symbols and subparts to a rendering
+  of the specified original PDF page, and independently solved all requested parts.
+  The three supplied table crops were checked against the original data and hints.
+  Every packet matches its source, including the printed anomalies below. Each unit
+  has a rework and a source record binding the original, question text, supplied figures
+  and rework to their SHA256 digests. Figure keys are filenames under the packet''s
+  figures directory.
+
+
+  The material printed formula defect is in P3/q12D, page 5. The printed solution
+  form leaves a mode-dependent denominator outside the sum, contains an extraneous
+  slash after the final sine, and omits the factor 1/l required by the stated unit
+  delta initial velocity. The rework derives the corrected series from its sine coefficients
+  and treats each damping regime.
+
+
+  In P2/q9A, page 4, the original reads “the statement than an operator”. This wording
+  is preserved. Its Hermiticity argument assumes a suitable operator domain and vanishing
+  boundary terms. The rework distinguishes symmetry on that domain from full self-adjointness.
+
+
+  P2/q16B(a), page 7, presupposes an existing Fourier transform. The ODE alone admits
+  exp(x²/2), outside the ordinary Fourier-transform setting. The rework specifies
+  valid hypotheses for the identities and verifies them for all the requested Gaussian-polynomial
+  solutions. In P1/q15C, page 7, the usual stretching law assumes the baroclinic term
+  vanishes, as for a homogeneous fluid. A magnitude times an axial unit vector represents
+  arbitrary initial rotation if that vector points along the initial vorticity (otherwise
+  use the signed axial component). The rework records both details.
+
+
+  Observed question-transcription discrepancies: 0/15. Canonical solutions, their
+  histories, and previous verification evidence were excluded from this blind comparison.
+  The canonical-solution error count must be determined by the separate reconciliation
+  with the frozen reworks.
+
+  '
+main_resolution: The printed damped-string target cannot supply the prescribed delta
+  projection without an interval normalization, and its modal denominator must be
+  inside the sum. The reworks, nine independent weak projections, and the critical-mode
+  limit agree. The oscillator Fourier argument requires transformability, the vorticity
+  result requires vanishing baroclinic torque, and the quantum pairing uses an appropriate
+  Hamiltonian domain. The city comparison gives 7.5691 on two degrees of freedom.
+questions:
+  IB/2003/P2/q1F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P2.pdf
+      original_pdf_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 2
+      question_packet_sha256: dd7c87c90efc1aae672a6baf8f2bcad00492930fb119f4e200754737caab16d2
+      blind_rework_sha256: 64bdebe0f7c13e6ad9e6b649aea049575aba2c7151751af995a56f47ba3664e2
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P2/q1F — independent rework
+
+
+      Differentiability at \(p=(a,b)\) means there is a linear map \(L:\mathbb R^2\to\mathbb
+      R\) with \(f(p+h)-f(p)-Lh=o(\|h\|_2)\) as \(h\to0\). Testing on the coordinate
+      axes forces \(L(h,k)=f_x(p)h+f_y(p)k\).
+
+
+      Take a rectangle about \(p\) contained in the neighbourhood of existence of
+      the partials. Split the increment at \((a,b+k)\). The one-dimensional mean value
+      theorem along its horizontal and vertical segments gives \(h f_x(a+\theta h,b+k)+k
+      f_y(a,b+\eta k)\), with intermediate parameters between zero and one; a zero-length
+      segment contributes zero. The theorem applies because the coordinate sections
+      are differentiable and hence continuous there. Both intermediate points tend
+      to \(p\). By continuity of the partials at \(p\), the error from \(L\) is bounded
+      by \((|h|+|k|)o(1)=o(\sqrt{h^2+k^2})\).
+
+
+      The example is identically zero along each axis and at the origin, so the two
+      partial derivatives there both exist and equal zero. Along \((t,t)\), \(t\ne0\),
+      its value is \(1/2\). This rules out continuity at the origin and therefore
+      differentiability.
+
+      '
+    main_comparison: Take horizontal and vertical increments separately and use the
+      one-variable mean value theorem in a small rectangle. Continuity of the partials
+      at its centre bounds the combined remainder divided by the step length. The
+      example has zero axis partials and constant value one half on the punctured
+      diagonal.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P2.pdf
+      source_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 2
+      compiled_pdf: build/IB-2003-P2/main.pdf
+      compiled_sha256: d203003157c364937dc537906345258ecc016ee1e960bf2345244189e97d475c
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2003/P2/q1F/index.html
+      html_sha256: 738b845b3aa781aefeebd49341c6be1b81e40f65cde96892738ab82062b3ba3c
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: dd7c87c90efc1aae672a6baf8f2bcad00492930fb119f4e200754737caab16d2
+      solution_sha256: ae2f2b41e0a0354d55e66c3bf541dfd36d363f1e562ee5a8fc0caaf2785a7477
+      check_sha256: 75bd262d3efe8b1d40c46dff5c391d72fc5317bda213cc939f3b69e90a92b3e5
+      check_exit: 0
+      check_stdout: Diagonal and coordinate-axis approaches have incompatible limits
+      check_stderr: ''
+    browser:
+      title: IB/2003/P2/q1F · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P3/q1F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P3.pdf
+      original_pdf_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 2
+      question_packet_sha256: bb706e09871dd38ae6d121c5e52c1cef777a34d66b551007a9069b25231b9c31
+      blind_rework_sha256: ec170c5ef4f8ac755f941f6358cac3e063ef6551d8f2553fb52a5427f21dad54
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P3/q1F — independent rework
+
+
+      The integral of an absolute value of a continuous function exists and is nonnegative.
+      If \(f(x_0)\ne0\), continuity gives a relative neighbourhood of \(x_0\) of positive
+      length on which \(|f|\ge |f(x_0)|/2\), including when \(x_0\) is an endpoint.
+      Hence the integral vanishes exactly for the zero function. Since \(|af(x)|=|a||f(x)|\)
+      and \(|f(x)+g(x)|\le |f(x)|+|g(x)|\), integration gives absolute homogeneity
+      and the triangle inequality. Thus it is a norm.
+
+
+      Here \(\|x^n\|=2\int_0^1 x^n\,dx=2/(n+1)\to0\). Hence \(f_n\) converges in this
+      norm to the zero function, which belongs to \(V\), and is Cauchy since \(\|f_m-f_n\|\le2/(m+1)+2/(n+1)\).
+      Values at \(\pm1\) do not obstruct norm convergence.
+
+      '
+    main_comparison: Continuity makes a nonzero value persist on a set of positive
+      length. The integral norm of the nth power on the symmetric interval is exactly
+      2/(n+1), establishing both convergence to zero and the Cauchy property regardless
+      of the endpoint values.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P3.pdf
+      source_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 2
+      compiled_pdf: build/IB-2003-P3/main.pdf
+      compiled_sha256: bbede2d6e7f734ee7ef864b7359309b259e0f5ad910a237d202563d6bac7520e
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2003/P3/q1F/index.html
+      html_sha256: d57cea0a731d5e9786fce5342400c6685b8179cbb07b1046ebca3bd2659a955d
+      math_nodes: 10
+      diagrams: {}
+      question_sha256: bb706e09871dd38ae6d121c5e52c1cef777a34d66b551007a9069b25231b9c31
+      solution_sha256: 1b9fbe437805f06af5aab3ee5519146a2d92caf16e245c98d19628c883d67f8b
+      check_sha256: 1a06c2384d05a657ef020d22b1e15bfea58399691a9e6c99aebc8504c0549559
+      check_exit: 0
+      check_stdout: Exact norm decay for powers verified for odd and even indices
+      check_stderr: ''
+    browser:
+      title: IB/2003/P3/q1F · Cambridge Maths
+      math: 10
+      rendered: 10
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P4/q17B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P4.pdf
+      original_pdf_sha256: 4991ff1db9c4823f2e811cf7f340be5a4065fe797ead35d5efc243158d7eba22
+      source_page: 9
+      question_packet_sha256: eb9dc22aa249dfb3c2128ceea9036722d64a14826159c70af1712d23221463bc
+      blind_rework_sha256: d937953e766fc3e82aef6559121bae90f55e04339721d96752aec331eed48343
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P4/q17B — independent rework
+
+
+      (a) Use the positive orientation. The roots of \(1+z^n\) have modulus one and
+      arguments \((2j+1)\pi/n\) modulo \(2\pi\). Exactly \(\zeta=e^{i\pi/n}\) is inside
+      the sector since \(R>1\), with no boundary poles. Its simple-pole residue is
+      \(\zeta^m/(n\zeta^{n-1})=-\zeta^{m+1}/n\). Thus the integral is \(-(2\pi i/n)e^{i\pi(m+1)/n}\).
+      The corner at the origin is regular.
+
+
+      (b) On \(\gamma_R\), \(|1+z^n|\ge R^n-1\) and the arc length is \(2\pi R/n\).
+      The modulus of its integral is at most \(2\pi R^{m+1}/(n(R^n-1))\), which tends
+      to zero by the strict degree condition.
+
+
+      (c) Denote the positive radial integral to \(R\) by \(I_R\). On the return ray
+      set \(z=e^{2\pi i/n}x\), \(x:R\to0\). Including \(dz\), its contribution is
+      \(-e^{2\pi i(m+1)/n}I_R\). The infinite positive-ray integral converges: its
+      integrand is bounded by \(x^m\) near zero and \(x^{m-n}\) at infinity with \(m-n<-1\).
+      Put \(\theta=\pi(m+1)/n\in(0,\pi)\). The limiting contour equation is \((1-e^{2i\theta})I_\infty=-(2\pi
+      i/n)e^{i\theta}\). Since \(1-e^{2i\theta}=-2ie^{i\theta}\sin\theta\), division
+      gives \(I_\infty=\pi/(n\sin\theta)\).
+
+      '
+    main_comparison: The pole at exp(i pi/n) is the only one in the sector. Its residue
+      and the phase of the returning radial integral give pi divided by n sin((m+1)pi/n).
+      The bound on the circular arc tends to zero under the printed strict power inequality.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P4.pdf
+      source_sha256: 4991ff1db9c4823f2e811cf7f340be5a4065fe797ead35d5efc243158d7eba22
+      source_page: 9
+      compiled_pdf: build/IB-2003-P4/main.pdf
+      compiled_sha256: 1b4451428a06d0e2496816941a0ea3c187436a9f00011dfba9299ec54f199413
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2003/P4/q17B/index.html
+      html_sha256: 94ef7aa8c428eae9079bfeb832ac2cf1853681a1513a3434cbe4abf80cfd8b46
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: eb9dc22aa249dfb3c2128ceea9036722d64a14826159c70af1712d23221463bc
+      solution_sha256: f0090758376c913e9f498626c8caa2d335be9656139a307c948475f91159e6e7
+      check_sha256: a48c12a5ab592988544761ccce6fe5cb6716fd79f4c3899d7210f844ffd3b995
+      check_exit: 0
+      check_stdout: Sector-integral formula matches direct real quadrature
+      check_stderr: ''
+    browser:
+      title: IB/2003/P4/q17B · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P1/q16B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P1.pdf
+      original_pdf_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 7
+      question_packet_sha256: c61f7f3f326d0f9711ef33b8952a397976de99ab21db2612511ddbb14c389bea
+      blind_rework_sha256: 9f51674a7026c60d0d66892931cdd3a27779d083429d8ff73886bd6576c83def
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: "# IB/2003/P1/q16B — independent rework\n\nThe boundary equations\
+      \ give \\(x+y=1\\) at intersection. On the unit circle this yields \\(i,1\\\
+      ). Sketch the lens in the unit square by drawing the northeast quadrant of the\
+      \ circle centered at \\(0\\) and the southwest quadrant of the circle centered\
+      \ at \\(1+i\\), both joining those endpoints. Shade between the arcs, leaving\
+      \ their boundaries open. For \\(0<x<1\\) its vertical sections run from \\(1-\\\
+      sqrt{1-(x-1)^2}\\) up to \\(\\sqrt{1-x^2}\\).\n\n```\ni  o\n    ##########\n\
+      \    #############\n    ################\n     #################\n     ###################\n\
+      \      ####################\n       ####################\n        ####################\n\
+      \          ###################\n            #################\n            \
+      \  ################\n                 #############\n                    ##########\n\
+      0                             o\n                              1\n```\n\nThe\
+      \ shaded entries indicate the interior. The two open endpoints lie at i and\
+      \ 1.\n\nSet \\(w=(z-1)/(z-i)\\). This sends the intersections to \\(0,\\infty\\\
+      ), so the two circles become straight lines through \\(0\\). The first circle\
+      \ contains \\(-1\\), where \\(w=1-i\\); the second contains \\(2+i\\), where\
+      \ \\(w=(1+i)/2\\). A Möbius bijection on the sphere sends each disk onto one\
+      \ of the corresponding half-planes. At the common interior test point \\(z=(1+i)/2\\\
+      ), \\(w=-1\\). The intersection therefore maps precisely onto \\(3\\pi/4<\\\
+      arg w<5\\pi/4\\). Squaring maps this sector bijectively to \\(\\Re W>0\\), doubling\
+      \ its angular width to \\(\\pi\\) about angle \\(2\\pi\\); its derivative is\
+      \ nonzero inside. Thus \\(W=((z-1)/(z-i))^2\\) works. Compose with \\((W-1)/(W+1)\\\
+      ) to map onto the unit disk, since \\(|W-1|<|W+1|\\) exactly for \\(\\Re W>0\\\
+      ) and the inverse is \\((1+\\zeta)/(1-\\zeta)\\).\n"
+    main_comparison: The two Möbius choices send the lens vertices to zero and infinity
+      in opposite order. The interior point (1+i)/2 and the midpoint of each arc select
+      a sector of angle pi/2. Squaring is injective there and maps it onto the right
+      half-plane. The final fractional-linear map gives the whole disc.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P1.pdf
+      source_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 7
+      compiled_pdf: build/IB-2003-P1/main.pdf
+      compiled_sha256: 1c4769f494b0f316bbb80c1d638ea2c279ad33811fe5c2f0f5ccb3d8b33c200c
+      compiled_pages:
+      - 17
+      - 18
+      html: site/private/questions/IB/2003/P1/q16B/index.html
+      html_sha256: add70636b58d03b1770ded6591d93799da241b72386f5b017b251f05e5127ef6
+      math_nodes: 23
+      diagrams:
+        site/private/figures/tripos/IB/2003/P1/q16B/disc-lens.png: 88c36504f4fa020174ebc4b46b288de2967b217300444c3a8fede8f1391db653
+      question_sha256: c61f7f3f326d0f9711ef33b8952a397976de99ab21db2612511ddbb14c389bea
+      solution_sha256: 5a3816c32e132c96dcfcc44563fa926c0de3b75140334c951641cb3028296c07
+      check_sha256: e2b4d8dfd2352027a9104463c38f2e7cb2cb156948b8a08c3a10bde6b96b28c9
+      check_exit: 0
+      check_stdout: Lens arc rays and interior images verified
+      check_stderr: ''
+    browser:
+      title: IB/2003/P1/q16B · Cambridge Maths
+      math: 23
+      rendered: 23
+      parse_errors: 0
+      diagrams:
+      - alt: The shaded lens is bounded by two circular arcs joining one and i.
+        width: 700
+        height: 630
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P1/q15C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P1.pdf
+      original_pdf_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 7
+      question_packet_sha256: 715e87447c83c92451b5f22216cdd9d42f992596e00656fb466e8867d2646ae2
+      blind_rework_sha256: 2dc775fd2772b5a78a0d4d4325d480872c99c0d229da5dbb1cc9fc45bfa1ceea
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P1/q15C — independent rework
+
+
+      For smooth velocity use \((u\cdot\nabla)u=\nabla(|u|^2/2)-u\times\omega\). Take
+      the curl of Euler''s equation and expand the curl of \(u\times\omega\), using
+      \(\nabla\cdot\omega=0=\nabla\cdot u\):
+
+      \[
+
+      D_t\omega=(\omega\cdot\nabla)u+\rho^{-2}\nabla\rho\times\nabla p.
+
+      \]
+
+      For the intended homogeneous fluid the last term vanishes. Incompressibility
+      alone does not require spatially constant density.
+
+
+      The given field is divergence free with spatially uniform curl \(2\Omega(t)e_z\),
+      and \(\partial_z u=2\beta e_z\). The stretching equation yields \(2\dot\Omega=4\beta\Omega\),
+      giving \(\omega=2\Omega(0)e^{2\beta t}e_z\). If \(\omega_0\) denotes a magnitude,
+      take the axial unit vector along the initial vorticity (or assume \(\Omega(0)\ge0\)
+      with fixed positive \(e_z\)). Zero initial vorticity stays zero.
+
+
+      For a marked point, \((r^2)''=2x\dot x+2y\dot y=-2\beta r^2,\ \dot z=2\beta
+      z,\ \dot\theta=\Omega(t)\). Each point on the initial unit circle acquires the
+      same angular offset, \(a(t)=e^{-\beta t}\) and \(z=e^{2\beta t}=a^{-2}\). Positive
+      circulation about \(+e_z\) is \(2\pi a(\Omega a)=2\pi\Omega(0)\). This exemplifies
+      Kelvin''s theorem, conserving circulation around a material loop for inviscid
+      homogeneous flow with conservative body force, including zero force. Reversing
+      orientation reverses the sign.
+
+      '
+    main_comparison: Curling Euler gives the homogeneous-fluid stretching law. With
+      general density the extra term is the density gradient crossed with the pressure
+      gradient divided by density squared. The material circle radius shrinks as exp(-beta
+      t), its height is its inverse radius squared, and the signed circulation is
+      2 pi Omega(0).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P1.pdf
+      source_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 7
+      compiled_pdf: build/IB-2003-P1/main.pdf
+      compiled_sha256: 1c4769f494b0f316bbb80c1d638ea2c279ad33811fe5c2f0f5ccb3d8b33c200c
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2003/P1/q15C/index.html
+      html_sha256: 44d9fc5b68a3de3fbb0584a225520ebbcfe8e70c420ec074239b337ae3ecf31d
+      math_nodes: 34
+      diagrams: {}
+      question_sha256: 715e87447c83c92451b5f22216cdd9d42f992596e00656fb466e8867d2646ae2
+      solution_sha256: 92a71ef6c1c4ee31f00f0a46d03c6a2142213b74ab1cf64b9339d7e89c4ecff4
+      check_sha256: f8efffd177bccd729aa1915e3ba42c41d45c2bc8a9582e9b9d6b09a228ba370d
+      check_exit: 0
+      check_stdout: Vortex stretching, material area and conserved circulation agree
+        exactly
+      check_stderr: ''
+    browser:
+      title: IB/2003/P1/q15C · Cambridge Maths
+      math: 34
+      rendered: 34
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P1/q6C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P1.pdf
+      original_pdf_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 3
+      question_packet_sha256: 38345b38f62655ab4b816bd2355ca28f0fc49c2e940d920ccc89d944e56e82de
+      blind_rework_sha256: d4d3a5d8b48c9f8e26866161b3a92628991335b20c93454f70fdf22cd7d8c432
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P1/q6C — independent rework
+
+
+      For trajectory time \(\tau\), initial condition at \(\tau=s\) gives \(z(\tau)=0,\
+      x(\tau)=\tau-s\). Then
+
+      \[
+
+      y(t)=\int_s^t \tau(\tau-s)\,d\tau=\frac{s}{2}(t-s)^2+\frac13(t-s)^3.
+
+      \]
+
+      All three coordinates vanish when \(t=s\), and differentiating at fixed \(s\)
+      gives \((1,t(t-s),0)\). Eliminating \(s=t-x\) at fixed observation time yields
+      \(z=0,\ y=tx^2/2-x^3/6\). Only releases at or before \(t\) contribute, so \(x\ge0\),
+      or \(0\le x\le t\) if release starts at zero.
+
+      '
+    main_comparison: Integrating each released particle from its actual release time
+      gives x=t−s and z=0. At fixed observation time the locus is y=t x squared/2−x
+      cubed/6, restricted to the release interval.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P1.pdf
+      source_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 3
+      compiled_pdf: build/IB-2003-P1/main.pdf
+      compiled_sha256: 1c4769f494b0f316bbb80c1d638ea2c279ad33811fe5c2f0f5ccb3d8b33c200c
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2003/P1/q6C/index.html
+      html_sha256: 1bcc6171fbddecde0b166a29df3c9774b852ce233db3469d0537cb4641ccfb1c
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: 38345b38f62655ab4b816bd2355ca28f0fc49c2e940d920ccc89d944e56e82de
+      solution_sha256: cbc663d4f5381b05dfa3e08e9d0f12bd29f748731338e3da5e4c078e33bd8986
+      check_sha256: dfe4b5d900517f570fdafec63905e412da752fa9bbb9700f572f4a96827ef3d6
+      check_exit: 0
+      check_stdout: Integrated particle trajectories give the stated common-time streak
+      check_stderr: ''
+    browser:
+      title: IB/2003/P1/q6C · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P3/q19G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P3.pdf
+      original_pdf_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 8
+      question_packet_sha256: 5ffa4562472e9d8d4de17ec19b4e2eecb6edf5abf9e24aea0853010b69d85790
+      blind_rework_sha256: 3b5dd8b3cace6f0b932580413b5a97233972a90eb13f91cbc4e602772864f971
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P3/q19G — independent rework
+
+
+      (a) Any idempotent \(P\) gives a vector-space direct sum: write \(u=(u-Pu)+Pu\);
+      the first term lies in its kernel and the second in its image, on which \(P\)
+      acts as identity. The intersection is zero since \(P\) acts as zero there as
+      well. When \(P=P^*\), \(\langle x,Py\rangle=\langle Px,y\rangle=0\) for \(x\in\ker
+      P\). Thus the sum is orthogonal.
+
+
+      (b) Normality gives \(\|\phi x\|^2=\langle x,\phi^*\phi x\rangle=\langle x,\phi\phi^*x\rangle=\|\phi^*x\|^2\),
+      whence \(\ker\phi=\ker\phi^*\). The adjoint identity gives \((\operatorname{im}\phi)^\perp=\ker\phi^*\).
+      Therefore the algebraic decomposition from (a) is orthogonal. In that decomposition
+      \(\phi\) is zero on the kernel and identity on the image. Pairing arbitrary
+      decomposed vectors shows \(\langle\phi u,v\rangle=\langle u,\phi v\rangle\),
+      as both equal the inner product of their image components.
+
+
+      (c) Finite-dimensional positive definiteness gives \(U=W^\perp\oplus W\). Taking
+      the \(W\) component gives a self-adjoint idempotent with image \(W\) by the
+      preceding pairing argument. Conversely any such map has kernel \(W^\perp\) by
+      (a), and its restrictions to both components are forced. Now \(\tau_2\tau_1=0\)
+      iff \(\operatorname{im}\tau_1\subseteq\ker\tau_2\), equivalently \(W_1\subseteq
+      W_2^\perp\).
+
+
+      (d) For the given idempotent set \(K=\ker\phi,\ I=\operatorname{im}\phi\). Give
+      \(K\oplus I\) the sum of the restrictions of the original inner product: \([k+i,k''+i'']=\langle
+      k,k''\rangle+\langle i,i''\rangle\). This is well defined by unique decomposition,
+      bilinear, symmetric and positive definite. Then \(\phi\) takes the \(I\) component
+      and is self-adjoint for this new product. Zero and identity projections are
+      covered.
+
+      '
+    main_comparison: Every idempotent fixes its image and vanishes on its kernel.
+      For a normal operator the adjoint has the same kernel, which makes these summands
+      perpendicular. The image fixes its orthogonal projector uniquely; any idempotent
+      becomes orthogonal for an inner product adapted to the direct sum.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P3.pdf
+      source_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 8
+      compiled_pdf: build/IB-2003-P3/main.pdf
+      compiled_sha256: bbede2d6e7f734ee7ef864b7359309b259e0f5ad910a237d202563d6bac7520e
+      compiled_pages:
+      - 19
+      html: site/private/questions/IB/2003/P3/q19G/index.html
+      html_sha256: 1b3c9688361df587e9ed5fb5736ba5347e569be71a4881048720bd88b15162c1
+      math_nodes: 48
+      diagrams: {}
+      question_sha256: 5ffa4562472e9d8d4de17ec19b4e2eecb6edf5abf9e24aea0853010b69d85790
+      solution_sha256: 4aed2c2a818e1bc028ff64854ba8ba7832d50118bf23c178a8f5afccb631ed06
+      check_sha256: 847da34414dcd9581b45f91fd01020cc53127258cca926b84346d530a89c1a1f
+      check_exit: 0
+      check_stdout: An oblique projection becomes orthogonal in the constructed positive
+        metric
+      check_stderr: ''
+    browser:
+      title: IB/2003/P3/q19G · Cambridge Maths
+      math: 48
+      rendered: 48
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P1/q8G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P1.pdf
+      original_pdf_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 4
+      question_packet_sha256: 3c5e5a9905e3eab69ed99b0956ea6506b5754e8942224ce896e8ecaac778575e
+      blind_rework_sha256: 3428274acf79343190bd6b3ade1f256be589e9c1ef9645730ace1aa785a4f385
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P1/q8G — independent rework
+
+
+      Left and right nondegeneracy make \(B_L:U\to V^*,\ x\mapsto b(x,\cdot)\) and
+      \(B_R:V\to U^*,\ y\mapsto b(\cdot,y)\) injective. Finite dimensionality implies
+      both \(\dim U\le\dim V\) and the reverse inequality, so both maps are isomorphisms.
+      Define \(C_L,C_R\) likewise for \(c\); bilinearity makes them linear. Put \(S=B_L^{-1}C_L\),
+      \(T=B_R^{-1}C_R\). Evaluating \(B_L Sx=C_Lx\) on \(y\) and \(B_R Ty=C_Ry\) on
+      \(x\) gives the two identities, with uniqueness from injectivity. The zero-dimensional
+      case is included.
+
+      '
+    main_comparison: Nondegeneracy in both slots gives injections into the opposite
+      duals. Finite dimension makes both isomorphisms, so inverting the respective
+      pairing maps constructs the two unique endomorphisms.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P1.pdf
+      source_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 4
+      compiled_pdf: build/IB-2003-P1/main.pdf
+      compiled_sha256: 1c4769f494b0f316bbb80c1d638ea2c279ad33811fe5c2f0f5ccb3d8b33c200c
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2003/P1/q8G/index.html
+      html_sha256: 0259ec457a68b1369da7e8b353a1df37b2fcd5acf534fde0a5738c4280b9fbf2
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: 3c5e5a9905e3eab69ed99b0956ea6506b5754e8942224ce896e8ecaac778575e
+      solution_sha256: 45dabc41bbd9a158db3c326ed4d491bf0d59ceb3a97f8e9f66096e2a5c4ee922
+      check_sha256: 837d224033ea21fe4904629703a637e326c0aa8857b12a87e33cd3af068c4296
+      check_exit: 0
+      check_stdout: Left and right representing endomorphisms reproduce a nonsymmetric
+        form
+      check_stderr: ''
+    browser:
+      title: IB/2003/P1/q8G · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P1/q14E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P1.pdf
+      original_pdf_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 6
+      question_packet_sha256: 4259007bea9ced6e41d21f8a1463a3839ea9dea3027430a7e75c724b6b88195f
+      blind_rework_sha256: 39bc29f4c10e2a9d9cc532684437f0a10ad7c70bcf24d0e7d6e494111795cd2d
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P1/q14E — independent rework
+
+
+      (a) The addition map \(U\oplus U''\to U+U''\) is onto. Its kernel is formed
+      by the pairs \((w,-w)\), \(w\in U\cap U''\). Rank-nullity gives the stated dimension
+      formula.
+
+
+      (b) Every \((\alpha+\beta)v\) lies in \(\operatorname{im}\alpha+\operatorname{im}\beta\).
+      By (a) this containing space has dimension at most the sum of the ranks.
+
+
+      (c) Apply (b) to \(\alpha=(\alpha+\beta)+(-\beta)\), noting that negation preserves
+      rank. Interchange \(\alpha,\beta\) and take the greater of the two signed differences.
+
+
+      (d) Take \(\alpha\) diagonal with \(-1\) on the first \(r\) positions, zero
+      elsewhere, and \(\beta\) diagonal with \(1\) on the first \(s\) positions, zero
+      elsewhere. Their sum has its only \(s-r\) nonzero entries in positions \(r+1,\ldots,s\).
+      For the second example use diagonal matrices with \(+1\) on the first \(r\)
+      and last \(s\) positions respectively, zero elsewhere. Their supports cover
+      all positions since \(r+s\ge n\). Their sum has diagonal entries \(1\) or \(2\),
+      giving rank \(n\) over the reals. These work also for \(r=s\), \(r+s=n\), or
+      \(s=n\).
+
+      '
+    main_comparison: The kernel of the addition map identifies with the intersection.
+      Image inclusion gives the upper rank bound and applying it to either summand
+      gives the absolute-difference lower bound. Opposing diagonal projections and
+      overlapping positive diagonal projections respectively attain the two requested
+      ranks.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P1.pdf
+      source_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 6
+      compiled_pdf: build/IB-2003-P1/main.pdf
+      compiled_sha256: 1c4769f494b0f316bbb80c1d638ea2c279ad33811fe5c2f0f5ccb3d8b33c200c
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2003/P1/q14E/index.html
+      html_sha256: 9f9a10cfd9719c41dfc2628c9c2012ee9639f9c62e4695ae5a9c8ac301f4589f
+      math_nodes: 37
+      diagrams: {}
+      question_sha256: 4259007bea9ced6e41d21f8a1463a3839ea9dea3027430a7e75c724b6b88195f
+      solution_sha256: b5b19b248d386843f9adc5d27c3dad13988f90597d33d7de9e0263503f42fe61
+      check_sha256: 309da87804ef6b932d4e1983adb440d4cf261d2d10ca7bb806125e84342a1df4
+      check_exit: 0
+      check_stdout: Explicit diagonal examples attain both extremal rank bounds
+      check_stderr: ''
+    browser:
+      title: IB/2003/P1/q14E · Cambridge Maths
+      math: 37
+      rendered: 37
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P3/q12D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P3.pdf
+      original_pdf_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 5
+      question_packet_sha256: ea6400e11953c3d877bc68a6b7c80874e14e2fc13b0ca9b594886950a630603c
+      blind_rework_sha256: 1ecd0c439fe3db6ddbd14e130514102d111f2b53c975029a6b88f4b3f4a5b1bc
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: "# IB/2003/P3/q12D — independent rework\n\nAssume the blow\
+      \ is in the interior, \\(0<a<l\\). The clamped ends impose \\(y(0,t)=y(l,t)=0\\\
+      ). The sine basis \\(s_n(x)=\\sin(n\\pi x/l)\\), \\(n\\ge1\\), has squared norm\
+      \ \\(l/2\\). Write \\(y=\\sum u_n(t)s_n\\). Projecting the PDE and distributional\
+      \ initial data gives\n\\[\nu_n''+2ku_n'+\\alpha_n^2u_n=0,\\quad u_n(0)=0,\\\
+      quad\nu_n'(0)=\\frac2l s_n(a),\\qquad \\alpha_n=\\pi cn/l.\n\\]\nThe delta identity\
+      \ follows by pairing the sine series with compactly supported smooth test functions\
+      \ and evaluating their sine expansions at \\(a\\).\n\nPut \\(u_n=(2/l)s_n(a)e^{-kt}h_n(t)\\\
+      ). Then \\(h_n''+(\\alpha_n^2-k^2)h_n=0,\\ h_n(0)=0,\\ h_n'(0)=1\\), so\n\\\
+      [\n y(x,t)=\\frac2l\\sum_{n=1}^\\infty e^{-kt}s_n(a)s_n(x)h_n(t),\n\\quad h_n(t)=\n\
+      \\begin{cases}\n \\sin(\\omega_nt)/\\omega_n,&\\omega_n=\\sqrt{\\alpha_n^2-k^2}>0,\\\
+      \\\n t,&\\alpha_n=k,\\\\\n \\sinh(\\kappa_nt)/\\kappa_n,&\\kappa_n=\\sqrt{k^2-\\\
+      alpha_n^2}>0 .\n\\end{cases}\n\\]\nBoth oscillatory and hyperbolic forms have\
+      \ critical limit \\(t\\). Differentiating at zero returns the delta coefficients.\
+      \ This is the solution of the stated problem. The printed display puts an \\\
+      (n\\)-dependent prefactor outside the sum, has a slash following \\(\\sin\\\
+      ), and lacks the \\(1/l\\) imposed by a unit impulse. These features are on\
+      \ the original page.\n\nFor \\(k\\ll\\alpha_1\\) all modes oscillate with frequency\
+      \ near \\(\\alpha_n\\) and exponential envelope \\(e^{-kt}\\), reducing to the\
+      \ undamped impulse at \\(k=0\\). Critical damping of a mode occurs at \\(k/\\\
+      alpha_n=1\\). For \\(k>\\alpha_n\\) it decays as the difference of two real\
+      \ exponentials with roots \\(-k\\pm\\sqrt{k^2-\\alpha_n^2}<0\\). For fixed \\\
+      (n\\) and \\(k\\gg\\alpha_n\\), these are approximately \\(-\\alpha_n^2/(2k)\\\
+      ) and \\(-2k\\): after a fast transient the low modes decay slowly without oscillation.\
+      \ The first transition occurs at \\(kl/(\\pi c)=1\\); larger values successively\
+      \ overdamp further low modes. No finite \\(k\\) overdamps every mode. A zero\
+      \ \\(s_n(a)\\) simply prevents that mode from being excited.\n"
+    main_comparison: Escalation resolved. Projection of a unit delta onto the orthogonal
+      sine modes gives the coefficient 2/l, and the frequency denominator depends
+      on the mode so belongs inside the sum. I checked the original display against
+      both solutions and a third independent rework, including the extraneous slash.
+      The critical mode contributes t times exponential decay. A finite damping coefficient
+      leaves sufficiently high modes underdamped.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P3.pdf
+      source_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 5
+      compiled_pdf: build/IB-2003-P3/main.pdf
+      compiled_sha256: bbede2d6e7f734ee7ef864b7359309b259e0f5ad910a237d202563d6bac7520e
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2003/P3/q12D/index.html
+      html_sha256: 7f6f11ad34ddc95b6fb73ff5a8fd6babe478631863e12e2389e64a5952877af3
+      math_nodes: 32
+      diagrams: {}
+      question_sha256: ea6400e11953c3d877bc68a6b7c80874e14e2fc13b0ca9b594886950a630603c
+      solution_sha256: b14f4a57c06d7cb7b05c6caa5c9836a60689c505d227c644ed6c54baf4dfdf40
+      check_sha256: 5eececa2fe30a6f1bf60aab49ff0e3e7883274fc36a67eee5040c5ac0b3b90be
+      check_exit: 0
+      check_stdout: 'Damped impulse modal ODE, initial velocity, and critical limit
+        verified
+
+        Nine weak delta projections on three interval lengths recover the prescribed
+        unit impulse.'
+      check_stderr: ''
+    browser:
+      title: IB/2003/P3/q12D · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P2/q16B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P2.pdf
+      original_pdf_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 7
+      question_packet_sha256: 8a9f55b3a40c282c4cfd078b7230c6bf9c653b35c76516b1854f4078493dec1c
+      blind_rework_sha256: d1288e21036e12af3063daea157682bbac527ec98ac362671398a70e70fe6258
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P2/q16B — independent rework
+
+
+      (a) Choose \(\widehat f(\lambda)=K\int f(x)e^{-i\lambda x}\,dx\), \(K\ne0\)
+      constant. For a sufficiently regular decaying \(f\), integrating by parts twice
+      gives \(\widehat{f''''}=-\lambda^2\widehat f\); two \(\lambda\)-derivatives
+      under the integral give \(\widehat{x^2 f}=-\widehat f''''\). Substitution gives
+      \(\widehat f''''-\lambda^2\widehat f=\mu\widehat f\). The identities also hold
+      for tempered distributions. Some existence hypothesis is necessary: \(f=e^{x^2/2}\)
+      solves the ODE with \(\mu=1\) yet has no ordinary Fourier transform. All functions
+      required in (b)–(d) are Schwartz.
+
+
+      (b) Put \(g=e^{-x^2/2}\). Substituting \(f=pg\) gives \(p''''-2xp''-(1+\mu)p=0\).
+      The highest-degree term fixes \(\mu=-(2n+1)\). Writing \(p=\sum a_kx^k\) gives
+
+      \[
+
+      (k+2)(k+1)a_{k+2}+2(n-k)a_k=0.
+
+      \]
+
+      Set \(a_{n+1}=a_{n+2}=0\), choose \(a_n\ne0\), and solve downwards from \(k=n-1\)
+      to \(0\); denominators never vanish. This constructs a solution unique up to
+      its leading coefficient, including any nonzero constant for \(n=0\).
+
+
+      (c) Since \(\widehat{x^k g}=i^k\partial_\lambda^k(cg)\) and \(g^{(k)}\) is \(g\)
+      times a degree-\(k\) polynomial with leading coefficient \((-1)^k\) (differentiate
+      \(Pg\) to get \((P''-\lambda P)g\)), the new polynomial has degree \(n\) and
+      leading coefficient \(c(-i)^na_n\). Here \(c\ne0\), as is also seen by evaluating
+      at zero.
+
+
+      (d) By (a) the transformed Gaussian polynomial solves the equation with the
+      same \(\mu_n\). By (b) it is proportional to \(p_ng\), with eigenvalue \(c(-i)^n\)
+      in this convention.
+
+      '
+    main_comparison: The Fourier transform intertwines the oscillator equation in
+      the Schwartz or tempered setting. For degree n the leading term enforces eigenvalue
+      minus (2n+1) and the recurrence fixes each coefficient up to scale. Gaussian
+      differentiation supplies Fourier eigenvalue c times (-i) to the nth power. The
+      original ODE alone also admits non-transformable growing solutions.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P2.pdf
+      source_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 7
+      compiled_pdf: build/IB-2003-P2/main.pdf
+      compiled_sha256: d203003157c364937dc537906345258ecc016ee1e960bf2345244189e97d475c
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2003/P2/q16B/index.html
+      html_sha256: 39da1d7617f07491662e4bfd0129382d899192e7d714e251469a726e2e0e0cb0
+      math_nodes: 41
+      diagrams: {}
+      question_sha256: 8a9f55b3a40c282c4cfd078b7230c6bf9c653b35c76516b1854f4078493dec1c
+      solution_sha256: 3246e3db8297df804477afe1ad77cdf4d5f1656eba0cc03372b205ff341f6729
+      check_sha256: f8fca67969f7082c6894cabe960977cb31386df9b3290d313a34125609999004
+      check_exit: 0
+      check_stdout: 'Hermite functions through order seven satisfy both eigenvalue
+        identities
+
+        The positive-growth solution satisfies the ODE without ordinary Fourier integrability.'
+      check_stderr: ''
+    browser:
+      title: IB/2003/P2/q16B · Cambridge Maths
+      math: 41
+      rendered: 41
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P3/q16B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P3.pdf
+      original_pdf_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 7
+      question_packet_sha256: 5c5718095620872edfec3f08510649500c0c596e6488430e6be39f5ba6423eb2
+      blind_rework_sha256: af46cd73ccbe9ec58930f99b16f3ca1223e9108edf27d325f4f4ed777aca58e7
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P3/q16B — independent rework
+
+
+      (a) Let \(G=e^{-x^2}\). From \(G^{(n)}=(-1)^nH_nG\) and differentiation one
+      obtains \(H_{n+1}=2xH_n-H_n''\). With \(H_0=1\), induction gives degree \(n\)
+      and leading coefficient \(2^n\). For any polynomial \(P\) of degree \(<n\),
+
+      \[
+
+      \int P H_nG\,dx=(-1)^n\int P G^{(n)}\,dx=\int P^{(n)}G\,dx=0
+
+      \]
+
+      over the whole line. Each integration by parts has zero boundary term since
+      a polynomial times a Gaussian tends to zero at both infinities. Taking \(P=H_m\),
+      \(m<n\), gives orthogonality, with the reverse index order by symmetry.
+
+
+      (b) Differentiating \(G''=-2xG\) \(n\) times, Leibniz''s rule gives \(G^{(n+1)}=-2xG^{(n)}-2nG^{(n-1)}\)
+      for \(n\ge1\). Divide by \((-1)^{n+1}G\) to obtain \(H_{n+1}=2xH_n-2nH_{n-1}\).
+      The initial values are \(H_0=1,H_1=2x\). Comparing with the derivative relation
+      in (a) also gives \(H''_n=2nH_{n-1}\).
+
+      '
+    main_comparison: Rodrigues differentiation gives the next Hermite polynomial from
+      twice x times the current polynomial minus its derivative. Integration by parts
+      n times against a lower-degree polynomial gives zero with vanishing Gaussian
+      boundary terms. The derivative identity closes the three-term recurrence by
+      induction.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P3.pdf
+      source_sha256: 8207ce4f94be0b84dfc78375e0cdab384becc8f9c0b1e87276e419b37fa1a50c
+      source_page: 7
+      compiled_pdf: build/IB-2003-P3/main.pdf
+      compiled_sha256: bbede2d6e7f734ee7ef864b7359309b259e0f5ad910a237d202563d6bac7520e
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2003/P3/q16B/index.html
+      html_sha256: 04e19a550fbc5970f3daa0a63a9c615831960ad45efd595d2c55a63dab263f03
+      math_nodes: 24
+      diagrams: {}
+      question_sha256: 5c5718095620872edfec3f08510649500c0c596e6488430e6be39f5ba6423eb2
+      solution_sha256: bf411d829458930889187675f02bdd3beb405d80f73489720f995d6f3033e67e
+      check_sha256: 11d53238b4f4e3e937a4ebc10734d082890c11b5d0ca88a3fdfe3cc313ebe1d4
+      check_exit: 0
+      check_stdout: Rodrigues derivatives verify both recurrences through order eight
+      check_stderr: ''
+    browser:
+      title: IB/2003/P3/q16B · Cambridge Maths
+      math: 24
+      rendered: 24
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P2/q9A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P2.pdf
+      original_pdf_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 4
+      question_packet_sha256: 6722f13aa8782d415a607273e1b09f0bc6ae90aa1da349339a8b24d69a51af76
+      blind_rework_sha256: 16944943102a9e67a201370036a5badbe1258900d8fc4d7f722b32d63fd1b7f3
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# IB/2003/P2/q9A — independent rework
+
+
+      For a densely defined operator the Hermitian pairing identity is \(\langle \phi,A\psi\rangle=\langle
+      A\phi,\psi\rangle\) for test states in the domain (inner product conjugate linear
+      in the first entry). This proves symmetry; full self-adjointness also requires
+      the domain of the adjoint to agree. For suitable wavefunctions on the line with
+      sufficient decay and regularity, \(H=-(\hbar^2/2m)d^2/dx^2+V(x)\) has
+
+      \[
+
+      \langle\phi,H\psi\rangle-\langle H\phi,\psi\rangle
+
+      =-\frac{\hbar^2}{2m}[\bar\phi\psi''-\bar\phi''\psi]_{-\infty}^{\infty}=0,
+
+      \]
+
+      using integration by parts twice and the reality of \(V\). This also holds on
+      domains with the corresponding boundary cancellation. Reality of the potential
+      alone does not prove self-adjointness of an arbitrary domain.
+
+
+      Use a normalized Schrödinger solution with sufficient moments, derivatives and
+      decay to justify the products and differentiation below. For a time-independent
+      observable,
+
+      \[
+
+      d\langle A\rangle/dt=(i/\hbar)\langle HA-AH\rangle.
+
+      \]
+
+      This follows by differentiating both factors and substituting \(i\hbar\partial_t\psi=H\psi\).
+      On suitable test states \(p=-i\hbar\partial_x\) gives \([p,x]=-i\hbar I\), \([p^2,x]=-2i\hbar
+      p\), \([V,x]=0\), \([V,p]=i\hbar V''\) by the product rule, and \([p^2,p]=0\).
+      Thus \(d\langle x\rangle/dt=\langle p\rangle/m\) and \(d\langle p\rangle/dt=-\langle
+      V''\rangle\).
+
+      '
+    main_comparison: The double integration by parts exhibits the exact boundary pairing.
+      For an unbounded Hamiltonian, self-adjointness also uses the adjoint domain.
+      The position and momentum commutators yield the mean velocity and mean negative
+      potential derivative.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P2.pdf
+      source_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 4
+      compiled_pdf: build/IB-2003-P2/main.pdf
+      compiled_sha256: d203003157c364937dc537906345258ecc016ee1e960bf2345244189e97d475c
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2003/P2/q9A/index.html
+      html_sha256: 2ff4ba611c95e7e7e7479689fa05ed206a01dfbdec87980e24fc028cd1c86793
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: 6722f13aa8782d415a607273e1b09f0bc6ae90aa1da349339a8b24d69a51af76
+      solution_sha256: 739b63806111fbc9e5143e89ea6a00c5c14e186adcf1b8bba7c34c75cf122681
+      check_sha256: 378ac4541f06e388f41266a5b78a6d14b6ffaa59be2eb2dc045f5170dc28297a
+      check_exit: 0
+      check_stdout: Both Ehrenfest commutators verified on a Gaussian in a quartic
+        potential
+      check_stderr: ''
+    browser:
+      title: IB/2003/P2/q9A · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P2/q12H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P2.pdf
+      original_pdf_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 6
+      question_packet_sha256: fdd5701a0ee9d29089818debf7d40b210f2f8715518f32309e59f6f0e25f1cf7
+      blind_rework_sha256: d62670b9133ff757810dc24185ab56e8da136574e0d6dbb252a041017f95a7b3
+      transcription_discrepancies: []
+      question_figure_sha256:
+        city-grades.png: 2bb0a818fef413d1987fd6c3bbb9319b3390cd8e0f18d4a29d9e78bf993498f4
+        percentile-hint.png: f2cd22479b66a15564c2f5b43ebe1889ee2a54b2d39796b767f47231f342f392
+    independent_rework: '# IB/2003/P2/q12H — independent rework
+
+
+      Treat the two rows as independent multinomial samples of fixed sizes \(N_i=500\).
+      Under the alternative each row has probabilities \(p_{ij}\) with \(\sum_jp_{ij}=1\).
+      The null restricts both rows to a common vector \(p_j\). Write \(O_{ij}\) for
+      observed counts and \(C_j\) for column totals. The log likelihood up to a constant
+      is \(\sum O_{ij}\log p_{ij}\). Lagrange multipliers on the row constraints give
+      \(\hat p_{ij}=O_{ij}/N_i\); on the null the pooled counts give \(\hat p_j=C_j/1000\).
+      Concavity and positivity of the observed counts give maxima. Null fitted counts
+      are \(E_{ij}=N_i\hat p_j\). The null-to-full likelihood ratio gives
+
+      \[
+
+      G^2=2\sum_{ij}O_{ij}\log(O_{ij}/E_{ij}).
+
+      \]
+
+      Large values oppose homogeneity. The regular interior large-sample chi-square
+      law has \(2(3-1)-(3-1)=2\) degrees of freedom by the likelihood-ratio theorem.
+      For the Pearson form expand \(2(E+d)\log(1+d/E)=2d+d^2/E+O(|d|^3/E^2)\) with
+      \(d=O-E\). The linear terms sum to zero and the remainder is \(o_p(1)\) under
+      fixed positive cell probabilities as both samples grow proportionally. Hence
+      \(X^2=\sum d^2/E\) has the same limiting null law.
+
+
+      The counted rows are \((103,145,252),(140,136,224)\), yielding common fitted
+      row \((121.5,140.5,238)\). The Pearson statistic is \(2(18.5^2/121.5+4.5^2/140.5+14^2/238)=7.56906\).
+      The likelihood-ratio statistic gives \(7.59203\). Both exceed 5.99 and fall
+      short of 9.21. With two degrees of freedom the upper tail is \(\exp(-x/2)\),
+      giving about \(0.0227\) (Pearson) or \(0.0225\) (likelihood ratio). Reject homogeneity
+      at 5%; evidence falls short at 1%. All expected counts are large.
+
+      '
+    main_comparison: The study fixes the two city totals. Row and pooled multinomial
+      maximizers give identical fitted rows of (121.5,140.5,238). The likelihood ratio
+      and Pearson values are 7.592 and 7.569 on two degrees of freedom. Both reject
+      at 5% and retain at 1% using the original percentile table.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P2.pdf
+      source_sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
+      source_page: 6
+      compiled_pdf: build/IB-2003-P2/main.pdf
+      compiled_sha256: d203003157c364937dc537906345258ecc016ee1e960bf2345244189e97d475c
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2003/P2/q12H/index.html
+      html_sha256: 0cd2a8d44a606f62e7ca43cd8d14fc3a85cfe623afc642bb976e2fe866609509
+      math_nodes: 15
+      diagrams:
+        site/private/figures/tripos/IB/2003/P2/q12H/city-grades.png: 2bb0a818fef413d1987fd6c3bbb9319b3390cd8e0f18d4a29d9e78bf993498f4
+        site/private/figures/tripos/IB/2003/P2/q12H/percentile-hint.png: f2cd22479b66a15564c2f5b43ebe1889ee2a54b2d39796b767f47231f342f392
+      question_sha256: fdd5701a0ee9d29089818debf7d40b210f2f8715518f32309e59f6f0e25f1cf7
+      solution_sha256: d318cce77fdf0803ca2b1661795968d341c8ad3189ca125537b56d47cea869e3
+      check_sha256: a218651e38418f1ac02eccfd3e47196e14f5f8544aa05a1fd6d09458eee0d0c7
+      check_exit: 0
+      check_stdout: Pearson and likelihood-ratio homogeneity tests agree on the five
+        per cent decision
+      check_stderr: ''
+    browser:
+      title: IB/2003/P2/q12H · Cambridge Maths
+      math: 15
+      rendered: 15
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 504
+        height: 143
+      - alt: ''
+        width: 1019
+        height: 185
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2003/P1/q12H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2003/P1.pdf
+      original_pdf_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 6
+      question_packet_sha256: 28881f6390b923752be0de2f46adc21f3cd386f58878545d955100cce0d32dbd
+      blind_rework_sha256: 8a21cc58ff42c607591c7b270b8ba10e956a9e53b5a0edbbcb34da3f198ae688
+      transcription_discrepancies: []
+      question_figure_sha256:
+        percentile-hint.png: a8565018cba743476beae56aa171b81efca46ef19e502e60b6eb1acb82284ce9
+    independent_rework: '# IB/2003/P1/q12H — independent rework
+
+
+      Take independent normal samples of sizes \(m=6,n=21\), with residual sums of
+      squares \(A,B>0\). Maximization over each mean gives its sample mean since the
+      residual sum separates into its centered value and the squared mean displacement
+      times the sample size. Put \(u=1/\sigma_X^2,v=1/\sigma_Y^2\). The profiled log
+      likelihood is
+
+      \[
+
+      \ell=(m\log u+n\log v-Au-Bv)/2+\text{constant}.
+
+      \]
+
+      It is strictly concave, has null maximizer \(u=v=(m+n)/(A+B)\), and unrestricted
+      maximizer \(u=m/A,v=n/B\). For the one-sided fit \(u\le v\), the latter is feasible
+      exactly when \(r=(A/m)/(B/n)\ge1\). Otherwise the maximum is on the common-precision
+      boundary because there is no feasible interior stationary point and the likelihood
+      goes to zero at the ends. Taking the closure leaves the alternative supremum
+      unchanged.
+
+
+      For \(r\le1\) the null-to-full maximized likelihood ratio \(\Lambda=1\). For
+      \(r>1\), substitution gives
+
+      \[
+
+      \Lambda^2=r^m\left(\frac{m+n}{mr+n}\right)^{m+n}.
+
+      \]
+
+      Its log derivative is \(mn(1-r)/(r(mr+n))<0\). Reject for large \(r\), equivalently
+      for large \(F=[A/(m-1)]/[B/(n-1)]\). Under the null, the two residual sums divided
+      by the common variance are independent chi-squares of 5 and 20 degrees of freedom
+      (normal residual projections of these ranks). Thus \(F\sim F_{5,20}\). Observed
+      \(F=6/2=3\) exceeds the supplied 95th percentile 2.71. Reject equal variances
+      at 5% in favor of a larger X variance. The threshold is in the strictly varying
+      part of the profile.
+
+      '
+    main_comparison: The ordered variance model has a boundary optimum if the separate
+      MLEs violate the ordering. On the other branch the likelihood ratio decreases
+      in the observed ratio. Independent normal residual projections give F(5,20);
+      the observed 3 exceeds 2.71.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2003/P1.pdf
+      source_sha256: f168b0077117ee8a09fa4654e40f2f7cca18f7c8cec125fc8d2646ab36ba2823
+      source_page: 6
+      compiled_pdf: build/IB-2003-P1/main.pdf
+      compiled_sha256: 1c4769f494b0f316bbb80c1d638ea2c279ad33811fe5c2f0f5ccb3d8b33c200c
+      compiled_pages:
+      - 13
+      html: site/private/questions/IB/2003/P1/q12H/index.html
+      html_sha256: f3235ca9eeda3991d6925ad2c4982bca85083815cd582c88939d51e21db3aa3b
+      math_nodes: 31
+      diagrams:
+        site/private/figures/tripos/IB/2003/P1/q12H/percentile-hint.png: a8565018cba743476beae56aa171b81efca46ef19e502e60b6eb1acb82284ce9
+      question_sha256: 28881f6390b923752be0de2f46adc21f3cd386f58878545d955100cce0d32dbd
+      solution_sha256: a67633318fcbe0faf2ec46c7c4e7325c139aaf3dcc19a65c99519ac9902fbb87
+      check_sha256: 0161390554222a33621998c8e319c377358490db71ea862c1efc8ec0f79f8251
+      check_exit: 0
+      check_stdout: One-sided F statistic, critical quantile and significance verified
+      check_stderr: ''
+    browser:
+      title: IB/2003/P1/q12H · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams:
+      - alt: ''
+        width: 1150
+        height: 143
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
