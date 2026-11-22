@@ -184,3 +184,174 @@ records:
   local_path: raw/sheets/IB/methods/2026-27/sheet-4.pdf
   status: archived
   sha256: d770b35ad2b63f8f658f5d0e7768d8327f3e909a9cca7b57cb6c1e97e83b84ab
+reinspection_2026_11_22:
+  public_queue_original_totals_preserved: true
+  source_records:
+  - url: https://web.archive.org/web/20000902160257id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    local_path: raw/sheets/IB/methods/1999-00/sheet-1.pdf
+    sha256: 445f8a668dd46a0b84bf3bac717017c7fd46364de654ce07de324b593052e083
+    fetched_at: '2026-11-22T01:22:00.657429+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20000902160305id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.ps
+    local_path: raw/sheets/IB/methods/1999-00/sheet-1.ps
+    sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+    fetched_at: '2026-11-22T01:22:00.170100+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20000902160358id_/http://www.damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    local_path: raw/sheets/IB/methods/undated/sheet-3-capture-20000902160358.pdf
+    sha256: 23948a68c36ac6c6a5714f5a70decba2376d342112016ad7e62b071aa504c8c1
+    fetched_at: '2026-11-22T01:22:00.776215+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    local_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+    sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+    fetched_at: '2026-11-21T14:29:11.675078+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    local_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    fetched_at: '2026-11-21T14:29:11.675545+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20000902160324id_/http://www.damtp.cam.ac.uk:80/user/examples/C10b.pdf
+    local_path: raw/sheets/IB/methods/1999-00/sheet-2.pdf
+    sha256: 8946698d969141727907d213b3fcd1fceb27ce348bba00423ce19449c5462fe2
+    fetched_at: '2026-11-22T01:14:00.252023+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20000902160333id_/http://www.damtp.cam.ac.uk:80/user/examples/C10b.ps
+    local_path: raw/sheets/IB/methods/1999-00/sheet-2.ps
+    sha256: a88fb6c51a7c66e212f760f8f2ee6e397132c46dd5ed651212943ecd3e139a93
+    fetched_at: '2026-11-22T01:13:59.968416+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20160329023824id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.pdf
+    local_path: raw/sheets/IB/methods/2015-16/sheet-2-standalone.pdf
+    sha256: e6407da386f35045aaf9827bb0600dffd5b53111c524b67d0bc5a1dd76f1ea6d
+    fetched_at: '2026-11-22T01:14:00.015528+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20011117171345id_/http://www.damtp.cam.ac.uk:80/user/examples/C10b.ps
+    local_path: raw/sheets/IB/methods/2001-02/sheet-2-20011117171345.ps
+    sha256: a8b22e00ad9303b9e1c7b886f230ee479ef8fc69535aab14e284dcb2001b96fe
+    fetched_at: '2026-11-22T01:18:47.783488+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20040716133122id_/http://damtp.cam.ac.uk:80/user/examples/C10b.ps
+    local_path: raw/sheets/IB/methods/2003-04/sheet-2-20040716133122.ps
+    sha256: 1f6acee9d412b8cf8e318069cb837836869a49907f4a18eed7d915727b32cb6c
+    fetched_at: '2026-11-22T01:18:47.438811+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20050129114117id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.ps
+    local_path: raw/sheets/IB/methods/2004-05/sheet-2-20050129114117.ps
+    sha256: 204323c37663787b1789944ac8680fcdf571baf92876df1621be83aa6caf12d2
+    fetched_at: '2026-11-22T01:18:47.578781+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20070218052312id_/http://www.damtp.cam.ac.uk:80/user/examples/B8b.ps
+    local_path: raw/sheets/IB/methods/2006-07/sheet-2-20070218052312.ps
+    sha256: 12edd50a28f7f3d608eb0a68840fdd2e1746c4fe772edf74df7d775e0b03cf23
+    fetched_at: '2026-11-22T01:18:48.473954+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20210422152638id_/http://www.damtp.cam.ac.uk/user/examples/B8b.ps
+    local_path: raw/sheets/IB/methods/2020-21/sheet-2-20210422152638.ps
+    sha256: a1b8d0970555b780f5a2e1a72d3f2aa303d901b96f8aa374ca6e43409c019606
+    fetched_at: '2026-11-22T01:18:49.737053+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20041108083441id_/http://damtp.cam.ac.uk:80/user/examples/C10b.pdf
+    local_path: raw/sheets/IB/methods/2004-05/sheet-2-20041108083441.pdf
+    sha256: 2a6af54e0cf80d085671019356c56f7d1940624ab26ca8d66726d8db4ca2c5bb
+    fetched_at: '2026-11-22T01:18:49.090582+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  - url: https://web.archive.org/web/20041108092131id_/http://damtp.cam.ac.uk:80/user/examples/C10b.ps
+    local_path: raw/sheets/IB/methods/2004-05/sheet-2-20041108092131.ps
+    sha256: 2ecabc1dac64602f8b4dfb980da2700ea641f55847a0217c8a63ebf229915d56
+    fetched_at: '2026-11-22T01:18:49.502660+00:00'
+    source: public-wayback-methods-sheet-ancillary
+  early_original_provenance:
+  - filename: C10a.pdf
+    url: https://web.archive.org/web/20000902160257id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    original_url: http://www.damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    wayback_timestamp: '20000902160257'
+    bytes: 399579
+    sha256: 445f8a668dd46a0b84bf3bac717017c7fd46364de654ce07de324b593052e083
+    response_sha1_base32: SD7ORGZWMZ34DOAKAI6Y3RS5ZRTHC7YX
+    cdx_sha1_base32: 44ZX64DAMWWIURFL5Q4KYZYBJYGDYOZR
+    cdx_sha1_matches: false
+    queue_first_fetch_utc: '2026-11-20T15:09:30.752266+00:00'
+    fetched_at_utc: '2026-11-22T01:22:00.657429+00:00'
+    existing_archive_path: null
+    proposed_manifest_path: raw/sheets/IB/methods/1999-00/sheet-1.pdf
+    source: public-wayback-methods-sheet-ancillary
+    page_count: 2
+    date: Sun, 22 Nov 2026 01:21:59 GMT
+    memento-datetime: Sat, 02 Sep 2000 16:02:57 GMT
+    x-archive-orig-last-modified: Wed, 12 Apr 2000 01:40:10 GMT
+  - filename: C10a.ps
+    url: https://web.archive.org/web/20000902160305id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.ps
+    original_url: http://www.damtp.cam.ac.uk:80/user/examples/C10a.ps
+    wayback_timestamp: '20000902160305'
+    bytes: 88225
+    sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+    response_sha1_base32: FAJ5TYBUEVZFE4C6TVCDYH3BOCHGW4QI
+    cdx_sha1_base32: FQGGY3QVE3L4FQZJHKXYJ7VHKTH2Z6NR
+    cdx_sha1_matches: false
+    queue_first_fetch_utc: '2026-11-20T15:09:32.918584+00:00'
+    fetched_at_utc: '2026-11-22T01:22:00.170100+00:00'
+    existing_archive_path: null
+    proposed_manifest_path: raw/sheets/IB/methods/1999-00/sheet-1.ps
+    source: public-wayback-methods-sheet-ancillary
+    page_count: 2
+    date: Sun, 22 Nov 2026 01:21:59 GMT
+    memento-datetime: Sat, 02 Sep 2000 16:03:05 GMT
+    x-archive-orig-last-modified: Tue, 11 Apr 2000 13:41:51 GMT
+  - filename: C10c.pdf
+    url: https://web.archive.org/web/20000902160358id_/http://www.damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    original_url: http://www.damtp.cam.ac.uk:80/user/examples/C10c.pdf
+    wayback_timestamp: '20000902160358'
+    bytes: 389244
+    sha256: 23948a68c36ac6c6a5714f5a70decba2376d342112016ad7e62b071aa504c8c1
+    response_sha1_base32: MLR6MIIDTUQQPMVQL7KMFR2EPNEQNCOT
+    cdx_sha1_base32: EEU3C4KRQBKY5EIMHUPSTPLISBYQEO3C
+    cdx_sha1_matches: false
+    queue_first_fetch_utc: '2026-11-20T15:09:39.103406+00:00'
+    fetched_at_utc: '2026-11-22T01:22:00.776215+00:00'
+    existing_archive_path: null
+    proposed_manifest_path: raw/sheets/IB/methods/undated/sheet-3-capture-20000902160358.pdf
+    source: public-wayback-methods-sheet-ancillary
+    page_count: 2
+    date: Sun, 22 Nov 2026 01:22:00 GMT
+    memento-datetime: Sat, 02 Sep 2000 16:03:58 GMT
+    x-archive-orig-last-modified: Wed, 12 Apr 2000 01:40:20 GMT
+  - filename: C10d.pdf
+    url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    original_url: http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+    wayback_timestamp: '20000902160418'
+    bytes: 372971
+    sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+    response_sha1_base32: S2RBPRCCZBU4UB7FYDSVMW5IMM36FEKG
+    cdx_sha1_base32: RSQ3LSUCOM7XNTV7FEGS2Z4ILGC6MKBC
+    cdx_sha1_matches: false
+    queue_first_fetch_utc: '2026-11-20T15:09:43.685244+00:00'
+    fetched_at_utc: '2026-11-21T14:29:11.675078+00:00'
+    existing_archive_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+    proposed_manifest_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+    source: public-wayback-methods-sheet-ancillary
+    page_count: 2
+  - filename: C10d.ps
+    url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    original_url: http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    wayback_timestamp: '20000902160424'
+    bytes: 83288
+    sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    response_sha1_base32: FUQZRAOBQLY4JERNCBINCXP6TKKAEE7D
+    cdx_sha1_base32: 5SVVHWYBBOTIH3MH5EST235FVZVRZ35F
+    cdx_sha1_matches: false
+    queue_first_fetch_utc: '2026-11-20T15:09:44.427462+00:00'
+    fetched_at_utc: '2026-11-21T14:29:11.675545+00:00'
+    existing_archive_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    proposed_manifest_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    source: public-wayback-methods-sheet-ancillary
+    page_count: 2
+  september_capture_review: Original A4 PostScript prints Michaelmas term 1999, Dr
+    E.P.S. Shellard, and the sheet identifiers on C10a, C10b and C10d. The US Letter
+    PDF counterparts omit the teaching header. The September 2000 C10c PDF has no
+    visible term or lecturer, and the page break clips the beginning of the exercise
+    preceding question 9. The subsequent sheet III original has different questions.
+    The linked contemporary DAMTP directory is consistent with publication by April
+    2000. Retrieval dates, checksums and edition evidence are recorded below and in
+    the manifest.

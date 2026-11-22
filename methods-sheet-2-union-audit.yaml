@@ -1,0 +1,1671 @@
+scope: All located IB Methods sheet 2 printings across 16 dated years and one unresolved
+  printing
+seed: 20261229
+sampling: random.Random(seed).sample(sorted(26 family identifiers), ceil(0.2 * 26))
+population:
+- qx01
+- qx02
+- qx03
+- qx04
+- qx05
+- qx06
+- qx07
+- qx08
+- qx09
+- qx10
+- qx11
+- qx12
+- qx13
+- qx14
+- qx15
+- qx16
+- qx17
+- qx18
+- qx19
+- qx20
+- qx21
+- qx22
+- qx23
+- qx24
+- qx25
+- qx26
+sample:
+- qx06
+- qx08
+- qx12
+- qx16
+- qx22
+- qx26
+exact_wordings: 11
+printed_positions: 33
+separate_source_page_spans: 27
+math_errors: 0
+math_families_examined: 6
+transcription_errors: 0
+reviewed_positions:
+- variant: qx06-8877b42600f0
+  archive: raw/sheets/IB/methods/2023-24/sheet-2.pdf
+  edition: 2023-24
+  physical_pages:
+  - 1
+  printed_question: '6.'
+  original_sha256: 1664de731f5fd777768181324ef17654635a2083bcad473ed2340fa824946fa6
+  crop_box_original_pixels:
+  - 130
+  - 1344
+  - 1094
+  - 1573
+  crop_pixel_sha256: 0e457b8483306c4fe8d6d4d6e35ad91f5a9afd2bb5edd5c33e53e25e5d9769a2
+  question_sha256: 8877b42600f066246c3082c8fe96b9c1459a191f3112a683d30df234459b79cb
+  solution_sha256: 98bc9dac4b6b87d480011eab6d5486a637f3678e73c7151cccb7d00969978b5a
+- variant: qx06-8877b42600f0
+  archive: raw/sheets/IB/methods/2026-27/sheet-2.pdf
+  edition: 2026-27
+  physical_pages:
+  - 1
+  printed_question: '6.'
+  original_sha256: 54b8174be2271ee3807c9b81568d2e056293546181122c6c6d3bbd27b0feafea
+  crop_box_original_pixels:
+  - 102
+  - 1257
+  - 1124
+  - 1543
+  crop_pixel_sha256: 04fb03469b786c1ba9a53a7594db65005c2a943cffc1d26e52c042a20b8bb9de
+  question_sha256: 8877b42600f066246c3082c8fe96b9c1459a191f3112a683d30df234459b79cb
+  solution_sha256: 98bc9dac4b6b87d480011eab6d5486a637f3678e73c7151cccb7d00969978b5a
+- variant: qx06-8877b42600f0
+  archive: raw/sheets/IB/methods/unresolved-2024-2025/sheet-2.pdf
+  edition: unresolved-2024-2025
+  physical_pages:
+  - 1
+  printed_question: '6.'
+  original_sha256: f9696f805bf253b86f15b7ac40fdc1c59fd7f43888c63d5279f7262b582c4ed2
+  crop_box_original_pixels:
+  - 102
+  - 1357
+  - 1124
+  - 1587
+  crop_pixel_sha256: aaf379087cd584a553e2c53563cd5e29b9ed178f6a0cb82379dcc04c224df243
+  question_sha256: 8877b42600f066246c3082c8fe96b9c1459a191f3112a683d30df234459b79cb
+  solution_sha256: 98bc9dac4b6b87d480011eab6d5486a637f3678e73c7151cccb7d00969978b5a
+- variant: qx06-bd4e19164b5f
+  archive: raw/sheets/IB/methods/2016-17/sheet-2.pdf
+  edition: 2016-17
+  physical_pages:
+  - 3
+  printed_question: '8.'
+  original_sha256: 736dd7375c8f3aa65ab1a9976b040b8e4cfc3cf9ef6322ed03b57f92e689be35
+  crop_box_original_pixels:
+  - 144
+  - 161
+  - 1052
+  - 619
+  crop_pixel_sha256: c1de3be6255d21d0df09c1aeb17f8c93e9f88985258da30ac967ae33140e614c
+  question_sha256: bd4e19164b5f021efa20a5525248abbd3e8069546e910d157271f7134637f76f
+  solution_sha256: cac4054ab5fe807a576c8df4bfd5b77cbc4b96673dc8ce6909c1e323d58cb19b
+- variant: qx06-e63ce8d6d4a6
+  archive: raw/sheets/IB/methods/2018-19/sheet-2.pdf
+  edition: 2018-19
+  physical_pages:
+  - 2
+  printed_question: '7.'
+  original_sha256: cd78241aabfbdef2a46355a766e1ceb7361d0eb6db87a67b574781263699a427
+  crop_box_original_pixels:
+  - 102
+  - 381
+  - 1110
+  - 601
+  crop_pixel_sha256: 91ee8ec84b2aa65522e2472aa89d712de174159109798061a31ac2a0c6bc35a6
+  question_sha256: e63ce8d6d4a67778fd3a2a279652a1a450d3571e2999fbcb80be1ceff0402d02
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx06-e63ce8d6d4a6
+  archive: raw/sheets/IB/methods/2019-20/sheet-2.pdf
+  edition: 2019-20
+  physical_pages:
+  - 2
+  printed_question: '7.'
+  original_sha256: 083b6637938675dd24712e59111b8a883084292ad032815279e5251bbaabfa97
+  crop_box_original_pixels:
+  - 102
+  - 381
+  - 1110
+  - 601
+  crop_pixel_sha256: 91ee8ec84b2aa65522e2472aa89d712de174159109798061a31ac2a0c6bc35a6
+  question_sha256: e63ce8d6d4a67778fd3a2a279652a1a450d3571e2999fbcb80be1ceff0402d02
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx06-e63ce8d6d4a6
+  archive: raw/sheets/IB/methods/2020-21/sheet-2.pdf
+  edition: 2020-21
+  physical_pages:
+  - 2
+  printed_question: '7.'
+  original_sha256: cf0d75d82ea64a67479d4e468bb5e493d8dad35a05dff6639ab379de774b693e
+  crop_box_original_pixels:
+  - 102
+  - 381
+  - 1110
+  - 601
+  crop_pixel_sha256: 91ee8ec84b2aa65522e2472aa89d712de174159109798061a31ac2a0c6bc35a6
+  question_sha256: e63ce8d6d4a67778fd3a2a279652a1a450d3571e2999fbcb80be1ceff0402d02
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx06-e63ce8d6d4a6
+  archive: raw/sheets/IB/methods/2021-22/sheet-2.pdf
+  edition: 2021-22
+  physical_pages:
+  - 2
+  printed_question: '7.'
+  original_sha256: 6b6d36d4be197f06cccb2235d22bc99e845672c6bee7ed665571212d5e146c43
+  crop_box_original_pixels:
+  - 102
+  - 381
+  - 1110
+  - 601
+  crop_pixel_sha256: 91ee8ec84b2aa65522e2472aa89d712de174159109798061a31ac2a0c6bc35a6
+  question_sha256: e63ce8d6d4a67778fd3a2a279652a1a450d3571e2999fbcb80be1ceff0402d02
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx06-e63ce8d6d4a6
+  archive: raw/sheets/IB/methods/2022-23/sheet-2.pdf
+  edition: 2022-23
+  physical_pages:
+  - 2
+  printed_question: '7.'
+  original_sha256: 288abbbd36effc29668f10e8e37355ef4b3a3bd834f618d08b0aa2a65f3aae9b
+  crop_box_original_pixels:
+  - 102
+  - 381
+  - 1110
+  - 601
+  crop_pixel_sha256: 91ee8ec84b2aa65522e2472aa89d712de174159109798061a31ac2a0c6bc35a6
+  question_sha256: e63ce8d6d4a67778fd3a2a279652a1a450d3571e2999fbcb80be1ceff0402d02
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx06-f8028be0969c
+  archive: raw/sheets/IB/methods/2014-15/sheet-2.pdf
+  edition: 2014-15
+  physical_pages:
+  - 1
+  printed_question: '2.'
+  original_sha256: dad6588eec97b3239ae7b666417952ed24d0c7dfc753a2d6bff7035e4c2840dd
+  crop_box_original_pixels:
+  - 101
+  - 577
+  - 1110
+  - 828
+  crop_pixel_sha256: 65ca964a74fd5e9ded56523e2d175c71d2a51022982a1a99e3ff9f6ebdc46172
+  question_sha256: f8028be0969cb9a1fccee7a1b373c4c18ae0613727c9f31f17e55c910d6b83c5
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx06-f8028be0969c
+  archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  edition: 2015-16
+  physical_pages:
+  - 3
+  printed_question: '2.'
+  original_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  crop_box_original_pixels:
+  - 101
+  - 577
+  - 1110
+  - 828
+  crop_pixel_sha256: 26396f08311cbf19c70ec616fec04546edd83a80354252d17301181d76d64b25
+  question_sha256: f8028be0969cb9a1fccee7a1b373c4c18ae0613727c9f31f17e55c910d6b83c5
+  solution_sha256: ed0bc15787bcd353cdf3598075af3c5667fdfd9f66239883887f21e0bbcb16f1
+- variant: qx08-f1aedf8d34f2
+  archive: raw/sheets/IB/methods/2023-24/sheet-2.pdf
+  edition: 2023-24
+  physical_pages:
+  - 2
+  printed_question: '8.'
+  original_sha256: 1664de731f5fd777768181324ef17654635a2083bcad473ed2340fa824946fa6
+  crop_box_original_pixels:
+  - 130
+  - 574
+  - 1094
+  - 887
+  crop_pixel_sha256: 354622b9d6fef33c53bec5c40d6428be457418bf323ac49c3ecd5af1d3efd0f7
+  question_sha256: f1aedf8d34f29413c4e1503a857cf48c0a64789dd6dadbc25752ab80e5946c94
+  solution_sha256: e0b993b155ecde42ce8951070764cb72c3214ae6d291aaf6f8642065263e7610
+- variant: qx08-f1aedf8d34f2
+  archive: raw/sheets/IB/methods/2026-27/sheet-2.pdf
+  edition: 2026-27
+  physical_pages:
+  - 2
+  printed_question: '8.'
+  original_sha256: 54b8174be2271ee3807c9b81568d2e056293546181122c6c6d3bbd27b0feafea
+  crop_box_original_pixels:
+  - 101
+  - 473
+  - 1123
+  - 785
+  crop_pixel_sha256: 4e4a0e02e93007fb7d813b8b4ae6ff5541e06aa5609e84a64e1e7cac1e1ba929
+  question_sha256: f1aedf8d34f29413c4e1503a857cf48c0a64789dd6dadbc25752ab80e5946c94
+  solution_sha256: e0b993b155ecde42ce8951070764cb72c3214ae6d291aaf6f8642065263e7610
+- variant: qx08-f1aedf8d34f2
+  archive: raw/sheets/IB/methods/unresolved-2024-2025/sheet-2.pdf
+  edition: unresolved-2024-2025
+  physical_pages:
+  - 2
+  printed_question: '8.'
+  original_sha256: f9696f805bf253b86f15b7ac40fdc1c59fd7f43888c63d5279f7262b582c4ed2
+  crop_box_original_pixels:
+  - 101
+  - 573
+  - 1123
+  - 885
+  crop_pixel_sha256: e826d940593948827cc67ffc1a9f7b0071e7ed9e2bf3170923133e7cb7c738d0
+  question_sha256: f1aedf8d34f29413c4e1503a857cf48c0a64789dd6dadbc25752ab80e5946c94
+  solution_sha256: e0b993b155ecde42ce8951070764cb72c3214ae6d291aaf6f8642065263e7610
+- variant: qx12-3bde27515d8e
+  archive: raw/sheets/IB/methods/2001-02/sheet-2.pdf
+  edition: 2001-02
+  physical_pages:
+  - 2
+  printed_question: '9.'
+  original_sha256: 9834b412a499defa08467800c78aebe5018e010b5e0e5a729ab0e1a954463e9f
+  crop_box_original_pixels:
+  - 101
+  - 1156
+  - 1108
+  - 1387
+  crop_pixel_sha256: 88bf7d3b5c7b1c8456f94e06b95ba4504231998ee7198277cec3286fcdedce2a
+  question_sha256: 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-3bde27515d8e
+  archive: raw/sheets/IB/methods/2003-04/sheet-2.pdf
+  edition: 2003-04
+  physical_pages:
+  - 2
+  printed_question: '9.'
+  original_sha256: 902fe38a0e9390bfbeea3173d22dd0ae1724fef89b701ffd7fc5722dac787880
+  crop_box_original_pixels:
+  - 101
+  - 1156
+  - 1108
+  - 1387
+  crop_pixel_sha256: b04fa18cff4b7bd9a012a14cc285438274b8c4a50f09df0514e4cbb2d532737b
+  question_sha256: 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-3bde27515d8e
+  archive: raw/sheets/IB/methods/2004-05/sheet-2.pdf
+  edition: 2004-05
+  physical_pages:
+  - 2
+  printed_question: '9.'
+  original_sha256: 3f496c52d2e8db25c1f3b76c1324a24d0bddf7f472b086200648db0dcb5e2056
+  crop_box_original_pixels:
+  - 101
+  - 1156
+  - 1107
+  - 1387
+  crop_pixel_sha256: 35c30e31bf25cfea3c849a60ce02af29d4b9f096ee1c8ecfa8a389e919b9cd45
+  question_sha256: 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-9861f02aef2f
+  archive: raw/sheets/IB/methods/2018-19/sheet-2.pdf
+  edition: 2018-19
+  physical_pages:
+  - 1
+  printed_question: '5.'
+  original_sha256: cd78241aabfbdef2a46355a766e1ceb7361d0eb6db87a67b574781263699a427
+  crop_box_original_pixels:
+  - 101
+  - 1268
+  - 1108
+  - 1535
+  crop_pixel_sha256: ebe7cf429e67708f93caa877c7d153a58c7780f978907453787716f96316e453
+  question_sha256: 9861f02aef2fa518128f9f9582fe0b0aba12a684df89856554d964ec70bf1c00
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-9861f02aef2f
+  archive: raw/sheets/IB/methods/2019-20/sheet-2.pdf
+  edition: 2019-20
+  physical_pages:
+  - 1
+  printed_question: '5.'
+  original_sha256: 083b6637938675dd24712e59111b8a883084292ad032815279e5251bbaabfa97
+  crop_box_original_pixels:
+  - 101
+  - 1244
+  - 1108
+  - 1511
+  crop_pixel_sha256: 0a5e1d228d2aa11217218fa89141ef413b183d2f0660bbcceef411acf72c4ba1
+  question_sha256: 9861f02aef2fa518128f9f9582fe0b0aba12a684df89856554d964ec70bf1c00
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-9861f02aef2f
+  archive: raw/sheets/IB/methods/2020-21/sheet-2.pdf
+  edition: 2020-21
+  physical_pages:
+  - 1
+  printed_question: '5.'
+  original_sha256: cf0d75d82ea64a67479d4e468bb5e493d8dad35a05dff6639ab379de774b693e
+  crop_box_original_pixels:
+  - 101
+  - 1244
+  - 1108
+  - 1511
+  crop_pixel_sha256: 0a5e1d228d2aa11217218fa89141ef413b183d2f0660bbcceef411acf72c4ba1
+  question_sha256: 9861f02aef2fa518128f9f9582fe0b0aba12a684df89856554d964ec70bf1c00
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-9861f02aef2f
+  archive: raw/sheets/IB/methods/2021-22/sheet-2.pdf
+  edition: 2021-22
+  physical_pages:
+  - 1
+  printed_question: '5.'
+  original_sha256: 6b6d36d4be197f06cccb2235d22bc99e845672c6bee7ed665571212d5e146c43
+  crop_box_original_pixels:
+  - 101
+  - 1244
+  - 1108
+  - 1511
+  crop_pixel_sha256: 0a5e1d228d2aa11217218fa89141ef413b183d2f0660bbcceef411acf72c4ba1
+  question_sha256: 9861f02aef2fa518128f9f9582fe0b0aba12a684df89856554d964ec70bf1c00
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-9861f02aef2f
+  archive: raw/sheets/IB/methods/2022-23/sheet-2.pdf
+  edition: 2022-23
+  physical_pages:
+  - 1
+  printed_question: '5.'
+  original_sha256: 288abbbd36effc29668f10e8e37355ef4b3a3bd834f618d08b0aa2a65f3aae9b
+  crop_box_original_pixels:
+  - 101
+  - 1244
+  - 1108
+  - 1511
+  crop_pixel_sha256: 0a5e1d228d2aa11217218fa89141ef413b183d2f0660bbcceef411acf72c4ba1
+  question_sha256: 9861f02aef2fa518128f9f9582fe0b0aba12a684df89856554d964ec70bf1c00
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx12-e98bce05fc07
+  archive: raw/sheets/IB/methods/1999-00/sheet-2.ps
+  edition: 1999-00
+  physical_pages:
+  - 2
+  printed_question: '9.'
+  original_sha256: a88fb6c51a7c66e212f760f8f2ee6e397132c46dd5ed651212943ecd3e139a93
+  crop_box_original_pixels:
+  - 101
+  - 1176
+  - 1108
+  - 1384
+  crop_pixel_sha256: f642e2ffe968d2fbb7c70d1bac7804a0d1bdc134d087e5bdc15585b02a08ea2d
+  question_sha256: e98bce05fc0738f23cfa0e5f0d0aa8dec6299917360879793a0020bb6673c374
+  solution_sha256: d099ba7516368617e30dac0788dc762b695e2d35ebf74af512b8d02aa5f05f90
+- variant: qx16-27fe9938e567
+  archive: raw/sheets/IB/methods/2014-15/sheet-2.pdf
+  edition: 2014-15
+  physical_pages:
+  - 2
+  printed_question: '8.'
+  original_sha256: dad6588eec97b3239ae7b666417952ed24d0c7dfc753a2d6bff7035e4c2840dd
+  crop_box_original_pixels:
+  - 101
+  - 683
+  - 1108
+  - 967
+  crop_pixel_sha256: c4fdd4c09abca12c660006086ff5f6e91205529c6a589dfad3b21007550fb219
+  question_sha256: 27fe9938e567cb68ed3b4d894def09c7b1317c1627df05e550577f7914260702
+  solution_sha256: bf7e85d2aa85f8fc9c74e089e9f427990b28d680ccc866d327331bd547d4f8e8
+- variant: qx16-27fe9938e567
+  archive: raw/sheets/IB/methods/2015-16/all-sheets.pdf
+  edition: 2015-16
+  physical_pages:
+  - 4
+  printed_question: '8.'
+  original_sha256: 463062a8cfdf7f765504d35bf244c06dd3f0ffa208aea25b0f5a471543a1c19e
+  crop_box_original_pixels:
+  - 101
+  - 683
+  - 1108
+  - 967
+  crop_pixel_sha256: 384c11d3fb6fa3c08bd753d4fb69254a8e410f7d18e5457d497839644261291b
+  question_sha256: 27fe9938e567cb68ed3b4d894def09c7b1317c1627df05e550577f7914260702
+  solution_sha256: bf7e85d2aa85f8fc9c74e089e9f427990b28d680ccc866d327331bd547d4f8e8
+- variant: qx22-9c502912c2df
+  archive: raw/sheets/IB/methods/2006-07/sheet-2.pdf
+  edition: 2006-07
+  physical_pages:
+  - 2
+  printed_question: '6.'
+  original_sha256: 1fa0c106f90d93bfa489560eaf4bca5c00206b4aa2e55849e3ec3f988a38101c
+  crop_box_original_pixels:
+  - 102
+  - 368
+  - 904
+  - 506
+  crop_pixel_sha256: a7fe98fb429a48cbedca98ccbb1985f05a4cf70c9ae0a37ccb4af5c354b56202
+  question_sha256: 9c502912c2dfc0d105f61a4152c7cd2c8231a393e0c630876f552d681c8dac06
+  solution_sha256: 04143e626af659935f294ca5dcd79378f09aafd13fe56bddc8da596b3510a09b
+- variant: qx22-9c502912c2df
+  archive: raw/sheets/IB/methods/2007-08/sheet-2.pdf
+  edition: 2007-08
+  physical_pages:
+  - 2
+  printed_question: '6.'
+  original_sha256: c8a9384338065350f392d67dbb926991ed852a5322780899458e31cf488bcea6
+  crop_box_original_pixels:
+  - 102
+  - 368
+  - 904
+  - 506
+  crop_pixel_sha256: a7fe98fb429a48cbedca98ccbb1985f05a4cf70c9ae0a37ccb4af5c354b56202
+  question_sha256: 9c502912c2dfc0d105f61a4152c7cd2c8231a393e0c630876f552d681c8dac06
+  solution_sha256: 04143e626af659935f294ca5dcd79378f09aafd13fe56bddc8da596b3510a09b
+- variant: qx26-74cfd2f9df63
+  archive: raw/sheets/IB/methods/1999-00/sheet-2.ps
+  edition: 1999-00
+  physical_pages:
+  - 2
+  printed_question: '10.'
+  original_sha256: a88fb6c51a7c66e212f760f8f2ee6e397132c46dd5ed651212943ecd3e139a93
+  crop_box_original_pixels:
+  - 101
+  - 1393
+  - 1071
+  - 1548
+  crop_pixel_sha256: a0dae4492a76b87cff4b9c1607359e438d3bf3a47556324cc89dd17fa8a78f8a
+  question_sha256: 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+  solution_sha256: c2012187e326ed794922cbfd4379035bb33c096db6c70beb8c60cdad82f66cd3
+- variant: qx26-74cfd2f9df63
+  archive: raw/sheets/IB/methods/2001-02/sheet-2.pdf
+  edition: 2001-02
+  physical_pages:
+  - 2
+  printed_question: '10.'
+  original_sha256: 9834b412a499defa08467800c78aebe5018e010b5e0e5a729ab0e1a954463e9f
+  crop_box_original_pixels:
+  - 101
+  - 1397
+  - 1071
+  - 1549
+  crop_pixel_sha256: 87ee6c831a9dce084921ce586067c1915604f53c508b67809fb0fc1b4487ef86
+  question_sha256: 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+  solution_sha256: c2012187e326ed794922cbfd4379035bb33c096db6c70beb8c60cdad82f66cd3
+- variant: qx26-74cfd2f9df63
+  archive: raw/sheets/IB/methods/2003-04/sheet-2.pdf
+  edition: 2003-04
+  physical_pages:
+  - 2
+  printed_question: '10.'
+  original_sha256: 902fe38a0e9390bfbeea3173d22dd0ae1724fef89b701ffd7fc5722dac787880
+  crop_box_original_pixels:
+  - 101
+  - 1397
+  - 1071
+  - 1549
+  crop_pixel_sha256: 47bcb48df335a568b8743320f88fa1c5d220e5acf63389df88d3770597826528
+  question_sha256: 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+  solution_sha256: c2012187e326ed794922cbfd4379035bb33c096db6c70beb8c60cdad82f66cd3
+- variant: qx26-74cfd2f9df63
+  archive: raw/sheets/IB/methods/2004-05/sheet-2.pdf
+  edition: 2004-05
+  physical_pages:
+  - 2
+  printed_question: '10.'
+  original_sha256: 3f496c52d2e8db25c1f3b76c1324a24d0bddf7f472b086200648db0dcb5e2056
+  crop_box_original_pixels:
+  - 101
+  - 1397
+  - 1071
+  - 1549
+  crop_pixel_sha256: c00622010a91446df6f61b11ae631a01ced7bc8bd7e5b65919c517ff754a739b
+  question_sha256: 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+  solution_sha256: c2012187e326ed794922cbfd4379035bb33c096db6c70beb8c60cdad82f66cd3
+- variant: qx26-74cfd2f9df63
+  archive: raw/sheets/IB/methods/2006-07/sheet-2.pdf
+  edition: 2006-07
+  physical_pages:
+  - 2
+  printed_question: '10.'
+  original_sha256: 1fa0c106f90d93bfa489560eaf4bca5c00206b4aa2e55849e3ec3f988a38101c
+  crop_box_original_pixels:
+  - 101
+  - 1396
+  - 1071
+  - 1562
+  crop_pixel_sha256: 5e3f3f72003b560546a698fdd0d60141629969156290a9e74d2d9adb51729577
+  question_sha256: 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+  solution_sha256: c2012187e326ed794922cbfd4379035bb33c096db6c70beb8c60cdad82f66cd3
+- variant: qx26-74cfd2f9df63
+  archive: raw/sheets/IB/methods/2007-08/sheet-2.pdf
+  edition: 2007-08
+  physical_pages:
+  - 2
+  printed_question: '10.'
+  original_sha256: c8a9384338065350f392d67dbb926991ed852a5322780899458e31cf488bcea6
+  crop_box_original_pixels:
+  - 101
+  - 1396
+  - 1071
+  - 1562
+  crop_pixel_sha256: 5e3f3f72003b560546a698fdd0d60141629969156290a9e74d2d9adb51729577
+  question_sha256: 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+  solution_sha256: c2012187e326ed794922cbfd4379035bb33c096db6c70beb8c60cdad82f66cd3
+comparison:
+  qx06: Both reworks give the repeated-root transient and the driven sine term. The
+    initial-velocity adjustment, phase lag and long-time limit agree for all four
+    question wordings.
+  qx08: Subtracting the affine equilibrium leaves the negative odd sine coefficients;
+    the initial trace and leading large-time term coincide.
+  qx12: The auditor independently obtains the leading coefficient, normalization at
+    one, Legendre equation, orthogonality and norm. The printed monomial orthogonality
+    assumes nonnegative integer degree.
+  qx16: The generating-function derivatives give the multipole coefficients and integrated
+    norm. The derivative difference includes the separate degree-zero endpoint case.
+  qx22: The four-quadrant Jacobian recovers f(u)/u at v=0, agreeing with the stored
+    polar derivation and its minus-derivative sign.
+  qx26: The formal adjoint coefficient conditions and clamped oscillation determinant
+    agree. The independently computed first roots and exponential approach to the
+    half-periods agree with the stored asymptotics.
+blind_rework: '# Independent mathematical rework of the Methods Sheet 2 sample
+
+
+  The input comprised eleven exact question fragments and their original locators.
+  This is a blind rework prepared without consulting solutions. Each heading identifies
+  every variant to which the derivation applies. The six families contain 11, 3, 9,
+  2, 2 and 6 printed occurrences, respectively.
+
+
+  ## Damped string — qx06-8877b42600f0, bd4e19164b5f, e63ce8d6d4a6, f8028be0969c
+
+
+  Write d for the printed length (L or ℓ), T for the tension (τ or T), and H for the
+  force amplitude (F or F₀). In the small-slope approximation the vertical resultant
+  of the two end tensions on [x,x+dx] is T(y_x(x+dx)−y_x(x)) = T y_xx dx + o(dx).
+  With mass μ dx and external force density h, the transverse force law is μ y_tt
+  = T y_xx − 2k μ y_t + h. Putting T=μc² and initially h=0 gives both displayed rearrangements.
+  The fixed endpoints enforce homogeneous Dirichlet data.
+
+
+  Set S=sin(πx/d) and k=πc/d. In part (i), or (a), y=S u(t) gives u''''+2ku''+k²u=0.
+  Its repeated root −k gives u=(a+bt)e^(−kt). Initial displacement and velocity set
+  a=A and b=kA. Hence y=A(1+kt)e^(−kt)S. This solves the full initial-boundary problem
+  uniquely: the energy of the difference of any two solutions is (1/2)∫(μy_t²+Ty_x²)
+  dx, with time derivative −2kμ∫y_t² dx and initial value zero.
+
+
+  In part (ii), or (b), the same modal equation has right-hand side (H/μ) cos kt.
+  Putting u_p=B sin kt cancels the undamped terms and yields 2k²B=H/μ. Thus y_p =
+  H/(2μk²) S sin kt; the forced displacement lags the force by a quarter-period. If
+  the original displacement and zero velocity are imposed after turning on the forcing,
+  the complete amplitude is
+
+  u = [A+(kA−H/(2μk))t]e^(−kt) + H/(2μk²) sin kt.
+
+  Without prescribed initial conditions a homogeneous solution may be added. In mode
+  n the characteristic equation is s²+2ks+n²k²=0. The n=1 critical transient is O((1+t)e^(−kt)),
+  and every n≥2 modal transient is e^(−kt) times a linear combination of sin and cos
+  of k√(n²−1)t. For general finite-energy initial data the transient energy tends
+  to zero, since each mode decays and is dominated by its initial energy by dissipation.
+  The explicitly given initial data excite only n=1. The limiting motion is periodic,
+  in the sense y−y_p→0.
+
+
+  ## Nonhomogeneous temperature — qx08-f1aedf8d34f2
+
+
+  Take B=0 from x=0 and A=1 from x=1. Φ=φ−x has homogeneous boundary conditions, initial
+  function g=x²−x and Φ_t=κΦ_xx. With a=nπ, the sine coefficient of g is 2∫ g sin(ax)
+  dx over [0,1]. The boundary terms vanish upon two integrations by parts since g
+  vanishes at the endpoints and sin(ax) vanishes there. The result is −(2/a²)∫g''''
+  sin(ax) dx=−4(1−(−1)^n)/a³. For κ>0,
+
+  φ(x,t)=x−(8/π³)Σ_{odd n≥1} exp(−κn²π²t) sin(nπx)/n³.
+
+  The sine expansion of the continuous piecewise smooth odd periodic extension recovers
+  g, including the zero endpoint values, and its n^−3 coefficients give uniform convergence
+  at t=0. Termwise derivatives are justified on positive-time strips by the Gaussian
+  factor. The difference of two solutions with identical data dissipates L² norm by
+  integration by parts. The solution tends uniformly to x, with leading correction
+  −(8/π³)e^(−κπ²t)sin(πx) and a remainder uniformly O(e^(−9κπ²t)).
+
+
+  ## Rodrigues’ formula — qx12-3bde27515d8e, 9861f02aef2f, e98bce05fc07
+
+
+  (a)(i) Let U=(x²−1)^n and q=U^(n)/(2^n n!). Its top term is a_n x^n, where a_n=(2n)!/(2^n(n!)²)>0.
+  Thus its degree is exactly n. (ii) In U=(x−1)^n(x+1)^n only the Leibniz term taking
+  all n derivatives on (x−1)^n survives at x=1: U^(n)(1)=n!2^n and q(1)=1. (iii) Differentiate
+  (x²−1)U''−2nxU=0 a further n+1 times. The three terms left are (x²−1)U^(n+2)+2xU^(n+1)−n(n+1)U^(n)=0.
+  Division by the defining constant gives Legendre''s equation.
+
+
+  (b)(i) For a nonzero polynomial solution of degree j its highest-power coefficient
+  gives j(j+1)=n(n+1), hence j=n. Two independent polynomial solutions could be combined
+  to cancel the degree n term, a contradiction. The normalisation at 1 therefore identifies
+  q=P_n.
+
+  (ii) Every U^(j) for j<n vanishes at both ends. Integrating Rodrigues’ formula against
+  P_n by parts n times gives ∫P_n²=(a_n/2^n)∫(1−x²)^n. The substitution x=2t−1 gives
+  the last integral as 2·4^n∫₀¹t^n(1−t)^n dt = 2·4^n(n!)²/(2n+1)!, using the integer
+  beta integral (equivalently repeated integration by parts). Thus the squared norm
+  is 2/(2n+1).
+
+  (iii) For integers 0≤m<n the same integrations by parts applied to x^m give zero
+  because its nth derivative vanishes. The usual implied polynomial-degree restriction
+  matters: the bare inequality m<n alone would allow m=−1,n=1, giving ∫x^−1P₁(x) dx=2
+  over [−1,1], with a removable integrand singularity.
+
+
+  ## Multipoles — qx16-27fe9938e567
+
+
+  Write s=|r−k|. For s>0 the radial Laplacian around k is s^−2 ∂s(s²∂s); applied to
+  s^−1 it vanishes. For k the unit polar vector, put x=cos θ. The axisymmetric potential
+  G=(1−2rx+r²)^−1/2 has Taylor coefficients A_j(x) in r at r=0, polynomial of degree
+  at most j by the binomial expansion at zero. For real x in [−1,1] the complex roots
+  of the radicand have modulus 1, so the branch at zero is analytic for |r|<1. On
+  compact radii this expansion is uniform in x by Cauchy''s estimate on an intermediate
+  radius. Substituting into the axisymmetric Laplace equation ∂r(r²G_r)+∂x((1−x²)G_x)=0
+  gives [(1−x²)A_j'']''+j(j+1)A_j=0. Coefficient comparison can also be performed
+  by differentiating at r=0. On the polar axis G(r,1)=(1−r)^−1, hence A_j(1)=1. Polynomial
+  uniqueness as in the previous derivation gives A_j=P_j. The stated derivative formula
+  follows from Taylor''s formula.
+
+
+  For distinct j and k, multiplying the Legendre equations by the opposite polynomial,
+  subtracting and integrating by parts gives zero cross integral: (1−x²) annihilates
+  the endpoint terms. By uniform convergence one can integrate the square of the generating
+  function to obtain Σ r^(2j)∫P_j². The given integral evaluates for 0<r<1 to (1/r)log((1+r)/(1−r))=2Σ_{j≥0}r^(2j)/(2j+1);
+  the limit at r=0 is 2. Coefficients identify the norms.
+
+
+  Finally (1−r²)G_x/r = (1−r²)(1−2rx+r²)^−3/2 = 2rG_r+G, the first quotient having
+  its limiting value at zero. Comparison of the r^ℓ coefficients gives P''_{ℓ+1}−P''_{ℓ−1}=(2ℓ+1)P_ℓ
+  for ℓ≥1 (P''₀=0). The zeroth coefficient reads P''₁=P₀, without requiring a negative
+  polynomial index.
+
+
+  ## Product of deltas — qx22-9c502912c2df
+
+
+  Take u=x²+y², v=x²−y². The support lies over (u,v)=(1,0), at four points x=±1/√2,
+  y=±1/√2. In each quadrant the absolute Jacobian |∂(u,v)/∂(x,y)|=8|xy|=4√(u²−v²)
+  is nonzero near the supporting point. A smooth cutoff equal to one near those points
+  permits the local changes of variables, and contributions elsewhere vanish. Summing
+  the four branches gives effective integrand f(u)/√(u²−v²) against δ''(u−1)δ(v).
+  Setting v=0 gives f(u)/u near u=1; the derivative delta acts by minus the derivative
+  there, yielding f(1)−f''(1). This uses sufficient local smoothness of f for the
+  stated action (smooth test data suffice).
+
+
+  ## Fourth-order operator and clamped eigenvalues — qx26-74cfd2f9df63
+
+
+  For sufficiently smooth real p_j the formal adjoint on compactly supported smooth
+  functions is Σ(−D)^j(p_j·). Matching D³ gives 4p₄''−p₃=p₃, so p₃=2p₄''. The D² condition
+  follows by differentiation. Matching D gives 4p₄''''''−3p₃''''+2p₂''−p₁=p₁, hence
+  p₁=p₂''−p₄''''''. Conversely these identities put the expression into D²(p₄ D²)+D((p₂−p₄'''')D)+p₀,
+  formally self-adjoint after integration by parts. A self-adjoint *operator* on an
+  interval additionally requires a specified domain with appropriate boundary conditions;
+  the coefficient test concerns the formal differential expression.
+
+
+  For clamped boundaries and nonzero eigenfunction, two integrations by parts give
+  λ∫|y|²=∫|y''''|²>0; equality forces an affine clamped function and hence the zero
+  function. Write z=λ^(1/4)>0. Satisfying the two conditions at zero gives y=A(cosh
+  zx−cos zx)+B(sinh zx−sin zx). The remaining determinant divided by z equals
+
+  (cosh z−cos z)²−(sinh z−sin z)(sinh z+sin z)=2(1−cosh z cos z).
+
+  At a positive root the first coefficient cosh z−cos z is positive, hence the nullspace
+  is one-dimensional. z=0 is ruled out by the energy identity.
+
+
+  For z>0 the equation is cos z=sech z. In each positive cosine lobe centred at 2jπ,
+  j≥1, cosh z cos z increases from zero to cosh(2jπ)>1 on the left half. On the right
+  half, its logarithmic derivative tanh z−tan z is positive at the centre, decreases
+  strictly (sech² z−sec² z<0), and tends to −∞. Thus there is exactly one crossing
+  of 1 on either half. On (0,π/2) the logarithmic derivative decreases strictly from
+  0, so the product is <1, and negative cosine lobes have no roots. These crossings
+  enumerate strictly increasing positive z_n and λ_n=z_n^4. At large j each crossing
+  is near its adjacent zero of cosine, since sech z tends to zero. Writing s_n=(n+1/2)π,
+  n≥1, the bounded displacement to s_n is O(e^(−s_n)) by |sin(z_n−s_n)|=sech z_n and
+  the edge branch. Therefore λ_n=[(n+1/2)π+O(e^(−(n+1/2)π))]^4, in particular λ_n~π^4n^4.
+
+  '
+source_inspection: '# Original-page transcription audit
+
+
+  Compared all eleven supplied fragments against all 33 printed positions in the six
+  sampled families. Every original page was independently rendered, and each of the
+  33 labelled question crops was individually inspected. The printed question number
+  is supplied by its locator. Ordinary layout, line wrapping, title underlining and
+  font family are normalized in the restricted fragments. No sampled question prints
+  a numerical mark allocation. No discrepancies in wording, mathematical symbols,
+  conditions, labels or marks were found (0/33 printed positions). No original was
+  unreadable.
+
+
+  Originals were fetched via private/storage.sh fetch. Ghostscript 10.07.0 rendered
+  at 144 dpi in grayscale, with text and graphics antialiasing set to 4. Physical
+  PDF page numbers were passed through -dFirstPage and -dLastPage. The 1999–00 original
+  was rendered directly from PostScript with -sPAPERSIZE=a4 -dFIXEDMEDIA, respecting
+  its %%PaperSize: a4 declaration (1190 × 1684 pixels). The render-index records original
+  file hashes, crop coordinates and pixel hashes. PNGs and render scripts are local
+  evidence only.
+
+
+  | Variant | Edition | Original physical page | Printed question | Compared region
+  |
+
+  |---|---|---:|---:|---|
+
+  | qx06-8877b42600f0 | 2023-24 | 1 | 6. | Match. Length L, tension τ, F without subscript,
+  (i)/(ii), displayed equation in 1/c² form and both initial conditions agree. |
+
+  | qx06-8877b42600f0 | 2026-27 | 1 | 6. | Match. Length L, tension τ, F without subscript,
+  (i)/(ii), displayed equation in 1/c² form and both initial conditions agree. |
+
+  | qx06-8877b42600f0 | unresolved-2024-2025 | 1 | 6. | Match. Length L, tension τ,
+  F without subscript, (i)/(ii), displayed equation in 1/c² form and both initial
+  conditions agree. |
+
+  | qx06-bd4e19164b5f | 2016-17 | 3 | 8. | Match. (a)/(b), L, density, F₀, resultant
+  forced oscillation and hint ending “derived in (i).” agree. The source itself uses
+  (i) here. |
+
+  | qx06-e63ce8d6d4a6 | 2018-19 | 2 | 7. | Match. Heading, (i)/(ii), ℓ, mass, force
+  per unit length, F₀, particular integral and t→∞ agree. |
+
+  | qx06-e63ce8d6d4a6 | 2019-20 | 2 | 7. | Match. Heading, (i)/(ii), ℓ, mass, force
+  per unit length, F₀, particular integral and t→∞ agree. |
+
+  | qx06-e63ce8d6d4a6 | 2020-21 | 2 | 7. | Match. Heading, (i)/(ii), ℓ, mass, force
+  per unit length, F₀, particular integral and t→∞ agree. |
+
+  | qx06-e63ce8d6d4a6 | 2021-22 | 2 | 7. | Match. Heading, (i)/(ii), ℓ, mass, force
+  per unit length, F₀, particular integral and t→∞ agree. |
+
+  | qx06-e63ce8d6d4a6 | 2022-23 | 2 | 7. | Match. Heading, (i)/(ii), ℓ, mass, force
+  per unit length, F₀, particular integral and t→∞ agree. |
+
+  | qx06-f8028be0969c | 2014-15 | 1 | 2. | Match. Heading, (i)/(ii), ℓ, density, force
+  on unit length, both initial values, F₀ and “probably derived in (i)” agree. |
+
+  | qx06-f8028be0969c | 2015-16 | 3 | 2. | Match. Heading, (i)/(ii), ℓ, density, force
+  on unit length, both initial values, F₀ and “probably derived in (i)” agree. |
+
+  | qx08-f1aedf8d34f2 | 2023-24 | 2 | 8. | Match. All four PDE/data lines, (x,t) domain,
+  non-zero emphasis, constants A,B, substitution sign and long-time request agree.
+  |
+
+  | qx08-f1aedf8d34f2 | 2026-27 | 2 | 8. | Match. All four PDE/data lines, (x,t) domain,
+  non-zero emphasis, constants A,B, substitution sign and long-time request agree.
+  |
+
+  | qx08-f1aedf8d34f2 | unresolved-2024-2025 | 2 | 8. | Match. All four PDE/data lines,
+  (x,t) domain, non-zero emphasis, constants A,B, substitution sign and long-time
+  request agree. |
+
+  | qx12-3bde27515d8e | 2001-02 | 2 | 9. | Match. Unstarred title, all six letter/roman
+  subparts, factorial and squared norm, hint with u and Abramowitz & Stegun agree.
+  |
+
+  | qx12-3bde27515d8e | 2003-04 | 2 | 9. | Match. Unstarred title, all six letter/roman
+  subparts, factorial and squared norm, hint with u and Abramowitz & Stegun agree.
+  |
+
+  | qx12-3bde27515d8e | 2004-05 | 2 | 9. | Match. Unstarred title, all six letter/roman
+  subparts, factorial and squared norm, hint with u and Abramowitz & Stegun agree.
+  |
+
+  | qx12-9861f02aef2f | 2018-19 | 1 | 5. | Match. Starred title, all six subparts,
+  hint with subscripted uₙ, and the full DLMF reference with dlmf.nist.gov agree.
+  |
+
+  | qx12-9861f02aef2f | 2019-20 | 1 | 5. | Match. Starred title, all six subparts,
+  hint with subscripted uₙ, and the full DLMF reference with dlmf.nist.gov agree.
+  |
+
+  | qx12-9861f02aef2f | 2020-21 | 1 | 5. | Match. Starred title, all six subparts,
+  hint with subscripted uₙ, and the full DLMF reference with dlmf.nist.gov agree.
+  |
+
+  | qx12-9861f02aef2f | 2021-22 | 1 | 5. | Match. Starred title, all six subparts,
+  hint with subscripted uₙ, and the full DLMF reference with dlmf.nist.gov agree.
+  |
+
+  | qx12-9861f02aef2f | 2022-23 | 1 | 5. | Match. Starred title, all six subparts,
+  hint with subscripted uₙ, and the full DLMF reference with dlmf.nist.gov agree.
+  |
+
+  | qx12-e98bce05fc07 | 1999-00 | 2 | 9. | Match. Unstarred title, italic Show, all
+  six subparts, short [Hint: in (b) integrate by parts.] and Abramowitz & Stegun agree.
+  |
+
+  | qx16-27fe9938e567 | 2014-15 | 2 | 8. | Match. Vector formatting, exception r≠k,
+  derivative at r=0, angular variable, integration limits, American “normalization”
+  and derivative recurrence agree. |
+
+  | qx16-27fe9938e567 | 2015-16 | 4 | 8. | Match. Vector formatting, exception r≠k,
+  derivative at r=0, angular variable, integration limits, American “normalization”
+  and derivative recurrence agree. |
+
+  | qx22-9c502912c2df | 2006-07 | 2 | 6. | Match. Starred title, two limits −∞ to
+  +∞, δ′ on sum minus one, δ on difference, differential order and f(1)−f′(1) agree.
+  |
+
+  | qx22-9c502912c2df | 2007-08 | 2 | 6. | Match. Starred title, two limits −∞ to
+  +∞, δ′ on sum minus one, δ on difference, differential order and f(1)−f′(1) agree.
+  |
+
+  | qx26-74cfd2f9df63 | 1999-00 | 2 | 10. | Match. Starred title, sum limits, coefficient
+  derivatives, sign of y fourth derivative, all four clamped endpoint conditions and
+  eigenvalue indexing agree. |
+
+  | qx26-74cfd2f9df63 | 2001-02 | 2 | 10. | Match. Starred title, sum limits, coefficient
+  derivatives, sign of y fourth derivative, all four clamped endpoint conditions and
+  eigenvalue indexing agree. |
+
+  | qx26-74cfd2f9df63 | 2003-04 | 2 | 10. | Match. Starred title, sum limits, coefficient
+  derivatives, sign of y fourth derivative, all four clamped endpoint conditions and
+  eigenvalue indexing agree. |
+
+  | qx26-74cfd2f9df63 | 2004-05 | 2 | 10. | Match. Starred title, sum limits, coefficient
+  derivatives, sign of y fourth derivative, all four clamped endpoint conditions and
+  eigenvalue indexing agree. |
+
+  | qx26-74cfd2f9df63 | 2006-07 | 2 | 10. | Match. Starred title, sum limits, coefficient
+  derivatives, sign of y fourth derivative, all four clamped endpoint conditions and
+  eigenvalue indexing agree. |
+
+  | qx26-74cfd2f9df63 | 2007-08 | 2 | 10. | Match. Starred title, sum limits, coefficient
+  derivatives, sign of y fourth derivative, all four clamped endpoint conditions and
+  eigenvalue indexing agree. |
+
+
+  ## Scope and interpretation
+
+
+  The 2016–17 reference to (i) in the hint is printed even though its immediate labels
+  are (a)/(b). The Rodrigues orthogonality statement uses the conventional nonnegative
+  integer polynomial degree m. The fourth-order coefficient statement concerns formal
+  self-adjointness prior to a choice of boundary domain. These qualifications are
+  documented in the independent rework. The comparison with stored answers belongs
+  to the main agent.
+
+
+  ## Input identities
+
+
+  - qx06-8877b42600f0/question.tex — 8877b42600f066246c3082c8fe96b9c1459a191f3112a683d30df234459b79cb
+
+  - qx06-bd4e19164b5f/question.tex — bd4e19164b5f021efa20a5525248abbd3e8069546e910d157271f7134637f76f
+
+  - qx06-e63ce8d6d4a6/question.tex — e63ce8d6d4a67778fd3a2a279652a1a450d3571e2999fbcb80be1ceff0402d02
+
+  - qx06-f8028be0969c/question.tex — f8028be0969cb9a1fccee7a1b373c4c18ae0613727c9f31f17e55c910d6b83c5
+
+  - qx08-f1aedf8d34f2/question.tex — f1aedf8d34f29413c4e1503a857cf48c0a64789dd6dadbc25752ab80e5946c94
+
+  - qx12-3bde27515d8e/question.tex — 3bde27515d8ee314eebc870dcd7d47d909847e08589b9fdd2dbbe92d918ef67d
+
+  - qx12-9861f02aef2f/question.tex — 9861f02aef2fa518128f9f9582fe0b0aba12a684df89856554d964ec70bf1c00
+
+  - qx12-e98bce05fc07/question.tex — e98bce05fc0738f23cfa0e5f0d0aa8dec6299917360879793a0020bb6673c374
+
+  - qx16-27fe9938e567/question.tex — 27fe9938e567cb68ed3b4d894def09c7b1317c1627df05e550577f7914260702
+
+  - qx22-9c502912c2df/question.tex — 9c502912c2dfc0d105f61a4152c7cd2c8231a393e0c630876f552d681c8dac06
+
+  - qx26-74cfd2f9df63/question.tex — 74cfd2f9df63075d0515d7b55d828fbf4aaa0b92bd21a8a19124de1c9a57540c
+
+  '
+independent_computation:
+  code: "\"\"\"Independent spot checks of the formulas in rework.md, using the standard\
+    \ library.\"\"\"\nfrom fractions import Fraction as Q\nfrom math import cos, sin,\
+    \ cosh, exp, factorial, pi\nimport cmath\n\ndef simpson(f, lo, hi, n=2400):\n\
+    \    dx=(hi-lo)/n\n    return dx/3*(f(lo)+f(hi)+sum((4 if j%2 else 2)*f(lo+dx*j)\
+    \ for j in range(1,n)))\n\n# Use exponentials to check the ODE and both initial\
+    \ conditions by exact analytic derivatives.\nA,mu,k,H=1.3,.9,2.7,.61\nB=H/(2*mu*k**2)\n\
+    C=A*k-B*k\nfor t in (0,.13,.79,1.8):\n    u=(A+C*t)*exp(-k*t)+B*sin(k*t)\n   \
+    \ du=(C-k*(A+C*t))*exp(-k*t)+k*B*cos(k*t)\n    ddu=(k*k*(A+C*t)-2*k*C)*exp(-k*t)-k*k*B*sin(k*t)\n\
+    \    assert abs(ddu+2*k*du+k*k*u-H/mu*cos(k*t))<1e-13\n    if t==0: assert abs(u-A)+abs(du)<1e-14\n\
+    print(\"Damped string: forced ODE and two initial values passed.\")\nfor n in\
+    \ range(1,10):\n    c=2*simpson(lambda x:(x*x-x)*sin(n*pi*x),0,1)\n    assert\
+    \ abs(c+4*(1-(-1)**n)/(n*pi)**3)<1e-11\nprint(\"Heat equation: nine projection\
+    \ coefficients passed by quadrature.\")\n\ndef legendre(n):\n    a=[Q(0) for _\
+    \ in range(n+1)]\n    for j in range((n+1)//2,n+1):\n        a[2*j-n]=Q((-1)**(n-j)*factorial(2*j),2**n*factorial(j)*factorial(n-j)*factorial(2*j-n))\n\
+    \    return a\n\ndef moment(n):\n    return Q(2,n+1) if n%2==0 else Q(0)\n\ndef\
+    \ value(a,x):\n    return sum(c*x**j for j,c in enumerate(a))\n\nfor n in range(1,10):\n\
+    \    a=legendre(n); assert sum(a)==1 and a[-1]\n    for m in range(n): assert\
+    \ sum(c*moment(j+m) for j,c in enumerate(a))==0\n    assert sum(v*w*moment(i+j)\
+    \ for i,v in enumerate(a) for j,w in enumerate(a))==Q(2,2*n+1)\n    above,below=legendre(n+1),legendre(n-1)\n\
+    \    for i in range(n+1):\n        assert (i+1)*(above[i+1]-(below[i+1] if i+1<len(below)\
+    \ else 0))==(2*n+1)*a[i]\nr,x=.21,.37\nassert abs(sum(float(value(legendre(j),x))*r**j\
+    \ for j in range(28))-(1-2*r*x+r*r)**(-.5))<1e-14\nprint(\"Legendre: exact normalized\
+    \ polynomials, squared norms, lower moments and derivative recurrence passed n=1..9;\
+    \ generating series passed.\")\n# Complex step checks the distribution derivative\
+    \ acting on a nonconstant test function.\nfor a in (.21,1.7,-.62):\n    h=1e-10;\
+    \ u=1+1j*h\n    result=-(cmath.exp(a*u)/u).imag/h\n    assert abs(result-(1-a)*exp(a))<1e-13\n\
+    print(\"Delta derivative: three complex-step actions on exp(a u)/u passed.\")\n\
+    \nroots=[]\nfor n in range(1,9):\n    edge=(n+.5)*pi\n    lo,hi=(edge,edge+.5*pi)\
+    \ if n%2 else (edge-.5*pi,edge)\n    def f(z): return cos(z)-1/cosh(z)\n    assert\
+    \ f(lo)*f(hi)<0\n    for _ in range(55):\n        mid=(lo+hi)/2\n        if f(lo)*f(mid)<=0:\
+    \ hi=mid\n        else: lo=mid\n    z=(lo+hi)/2\n    assert abs(f(z))<3e-14 and\
+    \ abs(z-edge)<2.1*exp(-edge)\n    roots.append(z)\nprint(\"Clamped beam: eight\
+    \ edge-bracket root residuals and shifts passed; first three fourth roots\",*[round(x,9)\
+    \ for x in roots[:3]])\n"
+  result: 'Damped string: forced ODE and two initial values passed.
+
+    Heat equation: nine projection coefficients passed by quadrature.
+
+    Legendre: exact normalized polynomials, squared norms, lower moments and derivative
+    recurrence passed n=1..9; generating series passed.
+
+    Delta derivative: three complex-step actions on exp(a u)/u passed.
+
+    Clamped beam: eight edge-bracket root residuals and shifts passed; first three
+    fourth roots 4.730040745 7.853204624 10.995607838
+
+    '
+  sha256: 8a9571c2fe77cced78c5cbfb947bdee7495ad2f9a7f473aad611763311b2cd06
+blind_manifest_sha256: 3eea22e31a08991605d58d0cefff01b05b411548664e9c365720d9078a6901db
+delivery:
+  pdf_spans: 39
+  pdf_pages: 39
+  browser_views: 39
+  rendered_formulas: 1316
+  samples:
+    canonical-qx06:
+      year: canonical
+      unit: qx06
+      pdf: build/IB-methods-sheet-2/main.pdf
+      pdf_sha256: 132f12a1ce70241b386f3898b9dfe041b92551589668bfc5e28ca6bdea1fecfe
+      pages:
+      - 6
+      rasters:
+        canonical-qx06-p6.png: 00733207c22fdb3225a911bc15b99d996da87ebaae721103e51f038db5592107
+      html: site/private/questions/IB/methods/sheet-2/qx06/index.html
+      html_sha256: 1616f46767ebe6d491a4e18c8bfd80f9e8041ed2719b4baf7d3dc3c6eb0e20ad
+    2014-15-qx06:
+      year: 2014-15
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2014-15/main.pdf
+      pdf_sha256: 91af12fbc60f63606c22db19b6d6fe7e15ce25c2b85a0fe40f519382e048eaa7
+      pages:
+      - 3
+      rasters:
+        2014-15-qx06-p3.png: c4643e4c39b08e9f83a79975f0e5ecdc33e4bac21cc4ce69ef688ccdf74d0fc6
+      html: site/private/collections/IB/methods/sheet-2/2014-15.html
+      html_sha256: 4a556015ded58fa9428606efa83df21bb6b4bf0e71dfa95e66b89fa58b2c8620
+    2015-16-qx06:
+      year: 2015-16
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2015-16/main.pdf
+      pdf_sha256: 537d70326ef470b6d67b5d7ccb02c3d328f2772e6639d2fa33b49631298fe859
+      pages:
+      - 2
+      rasters:
+        2015-16-qx06-p2.png: 002207361a8640a56b112e21de98f3c259f3295774ba58237d93877be678a381
+      html: site/private/collections/IB/methods/sheet-2/2015-16.html
+      html_sha256: f99450466e0d62426ed8d084f1fba4587cd4776f707d587e40d60b01308b87b2
+    2016-17-qx06:
+      year: 2016-17
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2016-17/main.pdf
+      pdf_sha256: a69af7bfbd9394c25de71352f043e4cfcfdf184cd37689bb3153b380686e05a0
+      pages:
+      - 10
+      rasters:
+        2016-17-qx06-p10.png: bd85dedfa8da4d716c718edd10c1142e57667969ff1803193c82f1d5c90e2a1b
+      html: site/private/collections/IB/methods/sheet-2/2016-17.html
+      html_sha256: 7c18a4c712112a5736ad0a15713e46f20b3bc752ef684f769cc76ce6df2b6a14
+    2018-19-qx06:
+      year: 2018-19
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2018-19/main.pdf
+      pdf_sha256: 02237eb258615844766224ae55cd4332b063c24131900e53716edfd0e074e324
+      pages:
+      - 7
+      rasters:
+        2018-19-qx06-p7.png: b3ca9fe2f0dc0246f3199e2ad7941e370bd4957573e6bdfad1ce5c548055be93
+      html: site/private/collections/IB/methods/sheet-2/2018-19.html
+      html_sha256: ef53f0036b54304974e31b735e95305392125978366577cee23d6b3fef1e3db4
+    2019-20-qx06:
+      year: 2019-20
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2019-20/main.pdf
+      pdf_sha256: 03428ff9756ca8143edc8bcbb00a24a913aa3e9fd4b6e5cb933ca38f3b66ce03
+      pages:
+      - 7
+      rasters:
+        2019-20-qx06-p7.png: e2f422a99f2c8561f4259ffe9fd4c6b768e12de637b3f69161138bfcd5e4ec8f
+      html: site/private/collections/IB/methods/sheet-2/2019-20.html
+      html_sha256: 4a3dd184b29db5afdaf25cfd9389ba6d7bfbc5ff9ad2f391dd864a82b872b0ee
+    2020-21-qx06:
+      year: 2020-21
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2020-21/main.pdf
+      pdf_sha256: 0a39ae0dce8078455b0766675f9e854f3313c740b1e1f66912a1a8b79cb60443
+      pages:
+      - 7
+      rasters:
+        2020-21-qx06-p7.png: e8284c8a1d0e63cfe5ae3b4d04acbc8d20e1b941c91647f16c74ee514672a59d
+      html: site/private/collections/IB/methods/sheet-2/2020-21.html
+      html_sha256: 46e5bedb0bdf1010b1231eb11c591f31dcb195e48bec6cc03ec4d5bb7c04e83c
+    2021-22-qx06:
+      year: 2021-22
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2021-22/main.pdf
+      pdf_sha256: 9cec2fcd95c42f6387602db9ce5a1e7d0ce8fb3e0ca98aaba4c7b9b3a2ad61ac
+      pages:
+      - 7
+      rasters:
+        2021-22-qx06-p7.png: c5c4ed70a8592c60e5c5ffc371d00753ceb2904c20d08cd232e7ca46b760f4fb
+      html: site/private/collections/IB/methods/sheet-2/2021-22.html
+      html_sha256: ae95df999dae55933f493dbce90a294eaa2600e8aeb321d5a99e5b62c7e9b5ae
+    2022-23-qx06:
+      year: 2022-23
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2022-23/main.pdf
+      pdf_sha256: d1c5c5fd948642408a6090a37ef605f39be2835f2d4c60dbda55c9a704a038e3
+      pages:
+      - 7
+      rasters:
+        2022-23-qx06-p7.png: 2e720313cb520ee3692a025a67c5cbbf7170eb4d13872b3639387ae7d41bdb0b
+      html: site/private/collections/IB/methods/sheet-2/2022-23.html
+      html_sha256: f4372a99f5b3ea9b27972e269784cf8fc03f712daee0aa9a343014475d1d62ca
+    2023-24-qx06:
+      year: 2023-24
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2023-24/main.pdf
+      pdf_sha256: f37d39093095339c9df96dc287da80c88568b3a5057540d5e48679dbbab87038
+      pages:
+      - 6
+      rasters:
+        2023-24-qx06-p6.png: a76eeab568b0727b4b37da74d9604664965ac780cf495787f577dc34fcea8358
+      html: site/private/collections/IB/methods/sheet-2/2023-24.html
+      html_sha256: e7ee84a345f8600851b183223b7bd6596736e65679bb19d41201913cd467d34c
+    2026-27-qx06:
+      year: 2026-27
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-2026-27/main.pdf
+      pdf_sha256: c1a4e1d237a56ef6139556afe5659cdd8abe85a2754d3d71d6e7fc0c87e59ac6
+      pages:
+      - 6
+      rasters:
+        2026-27-qx06-p6.png: 1b66cdf88f7697c386e0047563ca2b4fa7c7e93489e982bebb8320ea406774b6
+      html: site/private/collections/IB/methods/sheet-2/2026-27.html
+      html_sha256: 54fe9291075b09aa67216102e90595df869825bbca0b540378922f67ea695d1c
+    unresolved-2024-2025-qx06:
+      year: unresolved-2024-2025
+      unit: qx06
+      pdf: build/IB-methods-sheet-2-unresolved-2024-2025/main.pdf
+      pdf_sha256: 91be04a693a1fd413f3f344b7f5b51d36593c5690fdc03980ee3582ab7fcb847
+      pages:
+      - 6
+      rasters:
+        unresolved-2024-2025-qx06-p6.png: a09501dc92c94bcda528161b60f7aea4a1e945471a195e17438c326367a73b6d
+      html: site/private/collections/IB/methods/sheet-2/unresolved-2024-2025.html
+      html_sha256: 6e40e2104779eba2b8cfcec954434cc9f428f46e599c85257e767db02e19402e
+    canonical-qx08:
+      year: canonical
+      unit: qx08
+      pdf: build/IB-methods-sheet-2/main.pdf
+      pdf_sha256: 132f12a1ce70241b386f3898b9dfe041b92551589668bfc5e28ca6bdea1fecfe
+      pages:
+      - 8
+      rasters:
+        canonical-qx08-p8.png: caad91933eb0b76bebd99be5fde2f92354bc556320c8315f6ed6d71aa40dfdbf
+      html: site/private/questions/IB/methods/sheet-2/qx08/index.html
+      html_sha256: e3eb5f001f60f48ca75767058468e06674b964c6d33613312e8af277e2757dde
+    2023-24-qx08:
+      year: 2023-24
+      unit: qx08
+      pdf: build/IB-methods-sheet-2-2023-24/main.pdf
+      pdf_sha256: f37d39093095339c9df96dc287da80c88568b3a5057540d5e48679dbbab87038
+      pages:
+      - 8
+      rasters:
+        2023-24-qx08-p8.png: 3e9c1374366fe17fb11c01ec6d038785d31386729053f1911c611a033d391576
+      html: site/private/collections/IB/methods/sheet-2/2023-24.html
+      html_sha256: e7ee84a345f8600851b183223b7bd6596736e65679bb19d41201913cd467d34c
+    2026-27-qx08:
+      year: 2026-27
+      unit: qx08
+      pdf: build/IB-methods-sheet-2-2026-27/main.pdf
+      pdf_sha256: c1a4e1d237a56ef6139556afe5659cdd8abe85a2754d3d71d6e7fc0c87e59ac6
+      pages:
+      - 8
+      rasters:
+        2026-27-qx08-p8.png: e97693506f0b12bb1a84621fb3b7ffe465cae476eef6d10d2a5bf2dd48e50f8b
+      html: site/private/collections/IB/methods/sheet-2/2026-27.html
+      html_sha256: 54fe9291075b09aa67216102e90595df869825bbca0b540378922f67ea695d1c
+    unresolved-2024-2025-qx08:
+      year: unresolved-2024-2025
+      unit: qx08
+      pdf: build/IB-methods-sheet-2-unresolved-2024-2025/main.pdf
+      pdf_sha256: 91be04a693a1fd413f3f344b7f5b51d36593c5690fdc03980ee3582ab7fcb847
+      pages:
+      - 8
+      rasters:
+        unresolved-2024-2025-qx08-p8.png: a2e8fc6ef371193225077b4a019b7f651626cb8d7bf6780ac326fa12e73450f0
+      html: site/private/collections/IB/methods/sheet-2/unresolved-2024-2025.html
+      html_sha256: 6e40e2104779eba2b8cfcec954434cc9f428f46e599c85257e767db02e19402e
+    canonical-qx12:
+      year: canonical
+      unit: qx12
+      pdf: build/IB-methods-sheet-2/main.pdf
+      pdf_sha256: 132f12a1ce70241b386f3898b9dfe041b92551589668bfc5e28ca6bdea1fecfe
+      pages:
+      - 13
+      rasters:
+        canonical-qx12-p13.png: 159bea2269cb8f8efaa272a55b2bed4ac7665fd01ab5ad6aa4aeaec97d6f25e3
+      html: site/private/questions/IB/methods/sheet-2/qx12/index.html
+      html_sha256: c6a601efe584621e572abe319eab8f2867b1f9ec93b7b10f5d987e9644a0d77a
+    1999-00-qx12:
+      year: 1999-00
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-1999-00/main.pdf
+      pdf_sha256: c22b45935bda607ac5b63716013dd26a6a012de3d8d9381d79adb67a35756eac
+      pages:
+      - 10
+      rasters:
+        1999-00-qx12-p10.png: bc509b6dbc2dca975ee24ba539914b36dc39aaaf83b625eb1be38c45528a8daf
+      html: site/private/collections/IB/methods/sheet-2/1999-00.html
+      html_sha256: b7434a0076bb3beede41659847c15de959d50a431b02033accaf287d25ab8a0b
+    2001-02-qx12:
+      year: 2001-02
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2001-02/main.pdf
+      pdf_sha256: ddae458ff04214cb7687a5d1a40e70f385fad428498afb1f6411d7e3a565098b
+      pages:
+      - 10
+      rasters:
+        2001-02-qx12-p10.png: 77e3d6ce5b308f75ac07e8dbff975b493920c9c14eae735326607cf82623ae0f
+      html: site/private/collections/IB/methods/sheet-2/2001-02.html
+      html_sha256: da65931fa10f885edb4c47ea11025166676367dc015e8d6376c159d435787921
+    2003-04-qx12:
+      year: 2003-04
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2003-04/main.pdf
+      pdf_sha256: 5827f934f603262cc43ec63ba8f0ec06249d71341a5f16d81f4939729348bf69
+      pages:
+      - 10
+      rasters:
+        2003-04-qx12-p10.png: 3d55c656c1957eafbb5ac5e7b35303fe168957eaf21f3c44a820f3c069c3d63b
+      html: site/private/collections/IB/methods/sheet-2/2003-04.html
+      html_sha256: d67d319659415c607962aab4604d4422c59138bd7ddd477ae34de4843e156828
+    2004-05-qx12:
+      year: 2004-05
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2004-05/main.pdf
+      pdf_sha256: b9a5994a188d3e3a50d274fcf647c9745b340ff81ed787f6ec6375ae689d5962
+      pages:
+      - 10
+      rasters:
+        2004-05-qx12-p10.png: 9c8f3c18e3beac7ad630f483fa3ba640dc4a8404872e2bc80d6876e02dae2710
+      html: site/private/collections/IB/methods/sheet-2/2004-05.html
+      html_sha256: afd8757961a4aa292e789f766ca4c451975c5cf9368b7f21b8f7ada5585695fa
+    2018-19-qx12:
+      year: 2018-19
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2018-19/main.pdf
+      pdf_sha256: 02237eb258615844766224ae55cd4332b063c24131900e53716edfd0e074e324
+      pages:
+      - 5
+      rasters:
+        2018-19-qx12-p5.png: b40cf4391b6275eddc8ffa2684086307895d3d3721783e6ceacdc2cd0ad7dcde
+      html: site/private/collections/IB/methods/sheet-2/2018-19.html
+      html_sha256: ef53f0036b54304974e31b735e95305392125978366577cee23d6b3fef1e3db4
+    2019-20-qx12:
+      year: 2019-20
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2019-20/main.pdf
+      pdf_sha256: 03428ff9756ca8143edc8bcbb00a24a913aa3e9fd4b6e5cb933ca38f3b66ce03
+      pages:
+      - 5
+      rasters:
+        2019-20-qx12-p5.png: 6f6a32ba9afe7491a839a31891dadadcb443fac2f81bb43534c87994d981a470
+      html: site/private/collections/IB/methods/sheet-2/2019-20.html
+      html_sha256: 4a3dd184b29db5afdaf25cfd9389ba6d7bfbc5ff9ad2f391dd864a82b872b0ee
+    2020-21-qx12:
+      year: 2020-21
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2020-21/main.pdf
+      pdf_sha256: 0a39ae0dce8078455b0766675f9e854f3313c740b1e1f66912a1a8b79cb60443
+      pages:
+      - 5
+      rasters:
+        2020-21-qx12-p5.png: d18243cea369078a6aab6a44ea1ac2ab83b343896150cb27d0230926741aa505
+      html: site/private/collections/IB/methods/sheet-2/2020-21.html
+      html_sha256: 46e5bedb0bdf1010b1231eb11c591f31dcb195e48bec6cc03ec4d5bb7c04e83c
+    2021-22-qx12:
+      year: 2021-22
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2021-22/main.pdf
+      pdf_sha256: 9cec2fcd95c42f6387602db9ce5a1e7d0ce8fb3e0ca98aaba4c7b9b3a2ad61ac
+      pages:
+      - 5
+      rasters:
+        2021-22-qx12-p5.png: 7aca3cbc83de26b531574726803bf607a981977f6d0a98ec82b6ca5414cc2446
+      html: site/private/collections/IB/methods/sheet-2/2021-22.html
+      html_sha256: ae95df999dae55933f493dbce90a294eaa2600e8aeb321d5a99e5b62c7e9b5ae
+    2022-23-qx12:
+      year: 2022-23
+      unit: qx12
+      pdf: build/IB-methods-sheet-2-2022-23/main.pdf
+      pdf_sha256: d1c5c5fd948642408a6090a37ef605f39be2835f2d4c60dbda55c9a704a038e3
+      pages:
+      - 5
+      rasters:
+        2022-23-qx12-p5.png: 5bbab806ed9cbab2d43665b7eba8adb21b6328dccab70184dc4c6d3c6b8dff3a
+      html: site/private/collections/IB/methods/sheet-2/2022-23.html
+      html_sha256: f4372a99f5b3ea9b27972e269784cf8fc03f712daee0aa9a343014475d1d62ca
+    canonical-qx16:
+      year: canonical
+      unit: qx16
+      pdf: build/IB-methods-sheet-2/main.pdf
+      pdf_sha256: 132f12a1ce70241b386f3898b9dfe041b92551589668bfc5e28ca6bdea1fecfe
+      pages:
+      - 18
+      rasters:
+        canonical-qx16-p18.png: cba6658032649ac493402656e90380d04c256486f0fbf45129aea42bcb600d23
+      html: site/private/questions/IB/methods/sheet-2/qx16/index.html
+      html_sha256: 11c9f7c8d70c4b586ea6765aa8c25eef5a8b3321a1ccddc8fc4c390ffceedcfe
+    2014-15-qx16:
+      year: 2014-15
+      unit: qx16
+      pdf: build/IB-methods-sheet-2-2014-15/main.pdf
+      pdf_sha256: 91af12fbc60f63606c22db19b6d6fe7e15ce25c2b85a0fe40f519382e048eaa7
+      pages:
+      - 9
+      rasters:
+        2014-15-qx16-p9.png: 9d9ae3799655c89b23c507a8c95767d4c1b579fe4dd8f98d6b2fb3cb08327539
+      html: site/private/collections/IB/methods/sheet-2/2014-15.html
+      html_sha256: 4a556015ded58fa9428606efa83df21bb6b4bf0e71dfa95e66b89fa58b2c8620
+    2015-16-qx16:
+      year: 2015-16
+      unit: qx16
+      pdf: build/IB-methods-sheet-2-2015-16/main.pdf
+      pdf_sha256: 537d70326ef470b6d67b5d7ccb02c3d328f2772e6639d2fa33b49631298fe859
+      pages:
+      - 8
+      rasters:
+        2015-16-qx16-p8.png: 15944a295b4b3c136c9372363b79372603bcd81886b479d17e8138aad1b47ee0
+      html: site/private/collections/IB/methods/sheet-2/2015-16.html
+      html_sha256: f99450466e0d62426ed8d084f1fba4587cd4776f707d587e40d60b01308b87b2
+    canonical-qx22:
+      year: canonical
+      unit: qx22
+      pdf: build/IB-methods-sheet-2/main.pdf
+      pdf_sha256: 132f12a1ce70241b386f3898b9dfe041b92551589668bfc5e28ca6bdea1fecfe
+      pages:
+      - 24
+      rasters:
+        canonical-qx22-p24.png: 389964b6d005ee605f97b6d9434dd783ad50d3b64779c069fc4ef95877c01f42
+      html: site/private/questions/IB/methods/sheet-2/qx22/index.html
+      html_sha256: be47c32ccf2f116b97c3d746a078adab7de0de52093394202a17e86694fc4fd2
+    2006-07-qx22:
+      year: 2006-07
+      unit: qx22
+      pdf: build/IB-methods-sheet-2-2006-07/main.pdf
+      pdf_sha256: b2d27730dab623fb520e59a4896921678f5ba03365199cac72e2b88b4d59578c
+      pages:
+      - 7
+      rasters:
+        2006-07-qx22-p7.png: c0ae11ad8f1b5ab1a52f3eb445224b6fe84952c44d888b4dc8cecaa6916c5fe7
+      html: site/private/collections/IB/methods/sheet-2/2006-07.html
+      html_sha256: 15046b545b00d4fa8d249f8d8670e4efedfa979c2c42cf033702c7cbb052953f
+    2007-08-qx22:
+      year: 2007-08
+      unit: qx22
+      pdf: build/IB-methods-sheet-2-2007-08/main.pdf
+      pdf_sha256: d19e17af95334f3a3559836bdd60a9442860a7c60feb0bd207e9d4942ffefaee
+      pages:
+      - 7
+      rasters:
+        2007-08-qx22-p7.png: ab92ba0f9d017764eac2289ceb73daff17e4eb7d092d69f2994cfc6ec94fe440
+      html: site/private/collections/IB/methods/sheet-2/2007-08.html
+      html_sha256: 8cfe7ea20c4cf381f52f31f0fae1926581a19662b93df9d0f998d3eb056d89a6
+    canonical-qx26:
+      year: canonical
+      unit: qx26
+      pdf: build/IB-methods-sheet-2/main.pdf
+      pdf_sha256: 132f12a1ce70241b386f3898b9dfe041b92551589668bfc5e28ca6bdea1fecfe
+      pages:
+      - 29
+      rasters:
+        canonical-qx26-p29.png: aff4e801b8d7742eca43e85e09eb107fc0e90df6b2eec6cb4a4a6c00cede192c
+      html: site/private/questions/IB/methods/sheet-2/qx26/index.html
+      html_sha256: 3adce98d9a4102f0b079c3f9f51e864aa14815bb09ef1a87859991095d5aa702
+    1999-00-qx26:
+      year: 1999-00
+      unit: qx26
+      pdf: build/IB-methods-sheet-2-1999-00/main.pdf
+      pdf_sha256: c22b45935bda607ac5b63716013dd26a6a012de3d8d9381d79adb67a35756eac
+      pages:
+      - 11
+      rasters:
+        1999-00-qx26-p11.png: 3abec73bb999300ea373160cff5c1a451e82f09ad2421d02501f47bb6a397bf4
+      html: site/private/collections/IB/methods/sheet-2/1999-00.html
+      html_sha256: b7434a0076bb3beede41659847c15de959d50a431b02033accaf287d25ab8a0b
+    2001-02-qx26:
+      year: 2001-02
+      unit: qx26
+      pdf: build/IB-methods-sheet-2-2001-02/main.pdf
+      pdf_sha256: ddae458ff04214cb7687a5d1a40e70f385fad428498afb1f6411d7e3a565098b
+      pages:
+      - 11
+      rasters:
+        2001-02-qx26-p11.png: a0636a793d36bf29d9c9fc5ad717bfd8f031dd113827eac877af085f8f00ea55
+      html: site/private/collections/IB/methods/sheet-2/2001-02.html
+      html_sha256: da65931fa10f885edb4c47ea11025166676367dc015e8d6376c159d435787921
+    2003-04-qx26:
+      year: 2003-04
+      unit: qx26
+      pdf: build/IB-methods-sheet-2-2003-04/main.pdf
+      pdf_sha256: 5827f934f603262cc43ec63ba8f0ec06249d71341a5f16d81f4939729348bf69
+      pages:
+      - 11
+      rasters:
+        2003-04-qx26-p11.png: 2f54b885cba50cb83366364bf7e35e3148e912dbe3d28610a5e2ee5a1c15f874
+      html: site/private/collections/IB/methods/sheet-2/2003-04.html
+      html_sha256: d67d319659415c607962aab4604d4422c59138bd7ddd477ae34de4843e156828
+    2004-05-qx26:
+      year: 2004-05
+      unit: qx26
+      pdf: build/IB-methods-sheet-2-2004-05/main.pdf
+      pdf_sha256: b9a5994a188d3e3a50d274fcf647c9745b340ff81ed787f6ec6375ae689d5962
+      pages:
+      - 11
+      rasters:
+        2004-05-qx26-p11.png: 27e665340f72f7d1520d1e94a0f084115470ee6252af69a99c040554165d9af4
+      html: site/private/collections/IB/methods/sheet-2/2004-05.html
+      html_sha256: afd8757961a4aa292e789f766ca4c451975c5cf9368b7f21b8f7ada5585695fa
+    2006-07-qx26:
+      year: 2006-07
+      unit: qx26
+      pdf: build/IB-methods-sheet-2-2006-07/main.pdf
+      pdf_sha256: b2d27730dab623fb520e59a4896921678f5ba03365199cac72e2b88b4d59578c
+      pages:
+      - 12
+      rasters:
+        2006-07-qx26-p12.png: 957a55a6cdc1dee998f96745a6f9fbb2f68535c6ef7d30d16e718a20d8ca2ec3
+      html: site/private/collections/IB/methods/sheet-2/2006-07.html
+      html_sha256: 15046b545b00d4fa8d249f8d8670e4efedfa979c2c42cf033702c7cbb052953f
+    2007-08-qx26:
+      year: 2007-08
+      unit: qx26
+      pdf: build/IB-methods-sheet-2-2007-08/main.pdf
+      pdf_sha256: d19e17af95334f3a3559836bdd60a9442860a7c60feb0bd207e9d4942ffefaee
+      pages:
+      - 12
+      rasters:
+        2007-08-qx26-p12.png: d3203d0d1e121fb86f87c3f1ac186fbfe8c5d16c44887d038cd917b361c361a2
+      html: site/private/collections/IB/methods/sheet-2/2007-08.html
+      html_sha256: 8cfe7ea20c4cf381f52f31f0fae1926581a19662b93df9d0f998d3eb056d89a6
+  browser:
+    canonical-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    2014-15-qx06:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2015-16-qx06:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2016-17-qx06:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2018-19-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2019-20-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2020-21-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2021-22-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2022-23-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2023-24-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2026-27-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    unresolved-2024-2025-qx06:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    canonical-qx08:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    2023-24-qx08:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2026-27-qx08:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    unresolved-2024-2025-qx08:
+      total: 23
+      rendered: 23
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    canonical-qx12:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    1999-00-qx12:
+      total: 44
+      rendered: 44
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2001-02-qx12:
+      total: 46
+      rendered: 46
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2003-04-qx12:
+      total: 46
+      rendered: 46
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2004-05-qx12:
+      total: 46
+      rendered: 46
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2018-19-qx12:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2019-20-qx12:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2020-21-qx12:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2021-22-qx12:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2022-23-qx12:
+      total: 47
+      rendered: 47
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    canonical-qx16:
+      total: 34
+      rendered: 34
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    2014-15-qx16:
+      total: 34
+      rendered: 34
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2015-16-qx16:
+      total: 34
+      rendered: 34
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    canonical-qx22:
+      total: 12
+      rendered: 12
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    2006-07-qx22:
+      total: 12
+      rendered: 12
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2007-08-qx22:
+      total: 12
+      rendered: 12
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    canonical-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: null
+    1999-00-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2001-02-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2003-04-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2004-05-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2006-07-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    2007-08-qx26:
+      total: 43
+      rendered: 43
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+whole_course: Methods as a whole has not been audited.

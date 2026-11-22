@@ -54,10 +54,18 @@ ancillary_originals:
   copyright_year: 2000
   footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
     sheet 3 has no dated closing attribution.
-  issue: 2000 copyright and September 2000 capture do not establish a Michaelmas teaching
-    year.
+  issue: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+    on page 1. The Letter PDF clips the teaching header.
   status: metadata-only; unassigned teaching date
   archived_capture: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+  recheck_2026_11_22:
+    archive: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+    sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+    registered: true
+    confirmed_academic_year: 1999-00
+    basis: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+      on page 1. The Letter PDF clips the teaching header.
+    primary_header_witness: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
 - url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
   source_page: https://web.archive.org/web/20021127124541id_/http://www.damtp.cam.ac.uk/user/examples/
   source_kind: Wayback archived DAMTP numbered question sheet
@@ -75,17 +83,25 @@ ancillary_originals:
   cdx_digest_matches_response: false
   printed_title: METHODS — EXAMPLES IV
   sheet: 4
-  printed_term: null
-  printed_lecturer: null
+  printed_term: Michaelmas term 1999
+  printed_lecturer: Dr E.P.S. Shellard
   source_course_basis: Pre-reform DAMTP catalogue and printed METHODS title and C10
     code.
   copyright_year: 2000
   footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
     sheet 3 has no dated closing attribution.
-  issue: 2000 copyright and September 2000 capture do not establish a Michaelmas teaching
-    year.
+  issue: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+    on page 1. The Letter PDF clips the teaching header.
   status: metadata-only; unassigned teaching date
   archived_capture: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+  recheck_2026_11_22:
+    archive: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    registered: true
+    confirmed_academic_year: 1999-00
+    basis: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+      on page 1. The Letter PDF clips the teaching header.
+    primary_header_witness: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
 diagrams:
 - edition: 2023-24
   slug: backwards-lightcone-2023
@@ -687,8 +703,16 @@ manifest_search:
     copyright_year: 2000
     footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
       sheet 3 has no dated closing attribution.
-    issue: 2000 copyright and September 2000 capture do not establish a Michaelmas
-      teaching year.
+    issue: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+      on page 1. The Letter PDF clips the teaching header.
+    recheck_2026_11_22:
+      archive: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+      sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+      registered: true
+      confirmed_academic_year: 1999-00
+      basis: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+        on page 1. The Letter PDF clips the teaching header.
+      primary_header_witness: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
   - url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
     source_page: https://web.archive.org/web/20021127124541id_/http://www.damtp.cam.ac.uk/user/examples/
     source_kind: Wayback archived DAMTP numbered question sheet
@@ -706,15 +730,23 @@ manifest_search:
     cdx_digest_matches_response: false
     printed_title: METHODS — EXAMPLES IV
     sheet: 4
-    printed_term: null
-    printed_lecturer: null
+    printed_term: Michaelmas term 1999
+    printed_lecturer: Dr E.P.S. Shellard
     source_course_basis: Pre-reform DAMTP catalogue and printed METHODS title and
       C10 code.
     copyright_year: 2000
     footer: No printed teaching date. Sheets 1, 2 and 4 end with a corrections contact;
       sheet 3 has no dated closing attribution.
-    issue: 2000 copyright and September 2000 capture do not establish a Michaelmas
-      teaching year.
+    issue: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+      on page 1. The Letter PDF clips the teaching header.
+    recheck_2026_11_22:
+      archive: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+      sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+      registered: true
+      confirmed_academic_year: 1999-00
+      basis: The native A4 PostScript prints Michaelmas term 1999 and Dr E.P.S. Shellard
+        on page 1. The Letter PDF clips the teaching header.
+      primary_header_witness: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
   existing_collection_equivalence:
   - url: https://web.archive.org/web/20160329023834id_/http://www.damtp.cam.ac.uk:80/user/examples/B8d.pdf
     source_page: https://www.damtp.cam.ac.uk/user/examples/

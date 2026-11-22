@@ -1,0 +1,1038 @@
+scope: 2012 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20261228
+  strata:
+    IB/analysis-ii:
+    - IB/2012/P1/q11E
+    - IB/2012/P2/q12E
+    - IB/2012/P2/q3E
+    - IB/2012/P3/q12E
+    - IB/2012/P3/q2E
+    - IB/2012/P4/q12E
+    - IB/2012/P4/q3E
+    IB/complex-methods:
+    - IB/2012/P1/q13A
+    - IB/2012/P1/q2A
+    - IB/2012/P2/q13A
+    - IB/2012/P3/q4A
+    - IB/2012/P4/q14A
+    IB/electromagnetism:
+    - IB/2012/P1/q16B
+    - IB/2012/P2/q18B
+    - IB/2012/P2/q6B
+    - IB/2012/P3/q17B
+    - IB/2012/P4/q7B
+    IB/fluid-dynamics:
+    - IB/2012/P1/q17A
+    - IB/2012/P1/q5A
+    - IB/2012/P2/q7A
+    - IB/2012/P3/q18A
+    - IB/2012/P4/q18A
+    IB/linear-algebra:
+    - IB/2012/P1/q1F
+    - IB/2012/P1/q9F
+    - IB/2012/P2/q10F
+    - IB/2012/P2/q1F
+    - IB/2012/P3/q10F
+    - IB/2012/P4/q10F
+    - IB/2012/P4/q1F
+    IB/markov-chains:
+    - IB/2012/P1/q20H
+    - IB/2012/P2/q20H
+    - IB/2012/P3/q9H
+    - IB/2012/P4/q9H
+    IB/methods:
+    - IB/2012/P1/q14C
+    - IB/2012/P2/q16C
+    - IB/2012/P2/q5C
+    - IB/2012/P3/q15D
+    - IB/2012/P3/q7D
+    - IB/2012/P4/q17D
+    - IB/2012/P4/q5D
+    IB/numerical-analysis:
+    - IB/2012/P1/q18D
+    - IB/2012/P1/q6D
+    - IB/2012/P2/q19D
+    - IB/2012/P3/q19D
+    - IB/2012/P4/q8D
+    IB/quantum-mechanics:
+    - IB/2012/P1/q15C
+    - IB/2012/P2/q17C
+    - IB/2012/P3/q16C
+    - IB/2012/P3/q8C
+    - IB/2012/P4/q6C
+    IB/statistics:
+    - IB/2012/P1/q19H
+    - IB/2012/P1/q7H
+    - IB/2012/P2/q8H
+    - IB/2012/P3/q20H
+    - IB/2012/P4/q19H
+  selection:
+    IB/analysis-ii:
+    - IB/2012/P3/q12E
+    - IB/2012/P4/q3E
+    IB/complex-methods:
+    - IB/2012/P4/q14A
+    IB/electromagnetism:
+    - IB/2012/P4/q7B
+    IB/fluid-dynamics:
+    - IB/2012/P1/q17A
+    IB/linear-algebra:
+    - IB/2012/P4/q10F
+    - IB/2012/P2/q1F
+    IB/markov-chains:
+    - IB/2012/P4/q9H
+    IB/methods:
+    - IB/2012/P3/q15D
+    - IB/2012/P2/q16C
+    IB/numerical-analysis:
+    - IB/2012/P1/q6D
+    IB/quantum-mechanics:
+    - IB/2012/P2/q17C
+    IB/statistics:
+    - IB/2012/P1/q7H
+observed:
+  population: 55
+  sampled: 13
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 12
+  pdf_pages: 13
+  browser_views: 13
+  rendered_formulas: 375
+independent_manifest_sha256: bfc0aaa0a8a537be55f8e94180d9f4b0d1a57f198c246a4a25a130bb509bcf28
+auditor_report: '# Blind audit of the 2012 IB taken-course exam sample
+
+
+  Reworked all 13 question packets across ten courses. The source check covered 12
+  distinct original pages. The four source PDFs have 12, 10, 11 and 11 pages respectively
+  (44 total). P1 page 3 supplies two questions. No sampled statement differed from
+  the original question body or label. Neither a stored solution nor any historical
+  comparison was used. The files record independent working; comparison with the stored
+  solutions is pending the main agent''s review.
+
+
+  The printed statistical model in P1/7H relies on the usual independence of the two
+  samples for the claimed exact ratio test. In P4/14A the bounded Fourier solution
+  takes midpoint vertical limits at the endpoints. Unrestricted growth in x also prevents
+  uniqueness from the printed pointwise decay condition alone. The two qualifications
+  concern interpretation of the original statements, not changes to their transcription.
+  P1/17A distinguishes the finite gauge-pressure resultant from the infinite background
+  load.
+
+  '
+main_resolution: The stored F test makes cross-sample independence explicit. The stored
+  bounded Fourier solution gives the half trace at the two discontinuities and exhibits
+  a non-unique solution if growth in x is unrestricted. The wall force is the gauge-pressure
+  resultant relative to ambient pressure.
+questions:
+  IB/2012/P3/q12E:
+    source_review:
+      question_id: IB/2012/P3/q12E
+      printed_label: 12E
+      original_pdf: private/raw/tripos/IB/2012/P3-full.pdf
+      original_pdf_sha256: 7d8273b95f174051ce1bcf58e1645ca3af33b90a83acc1e9fbdbbab3e9ddaecb
+      source_page: 5
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 7231858e15ea13455d78a6b3fca5ca4931f6c2bf7edcbd34c40a6bf0619b1957
+      question_packet_sha256: 2132e665eba0c43341245ba606e82a624b6c3eb79c787f6e1845170ad184719b
+      locator_sha256: ff43f8b16b4b121c9405b60febdec21332cb3dc220fdfa274738394a15b1b0b7
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Pointwise assumption, the three italic mathematical labels and
+        their semicolons, both integrals, and the order/direction of all six implications
+        agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: 3ed3421f1469c9f2da9de4926907916ed77a7737e468b6d573db6aa2b4092393
+    independent_rework: '# IB/2012/P3/q12E
+
+
+      (a) implies (b). Given x and epsilon>0, select one N with norm(f-f_N)_inf<epsilon/3.
+      Use continuity of f_N at x to bound |f_N(x)-f_N(t)|<epsilon/3 on a relative
+      neighbourhood; the triangle inequality gives continuity of f. (a) implies (c)
+      since the continuous limit is Riemann integrable and |integral(f_n-f)| <= norm(f_n-f)_inf
+      on the unit interval.
+
+      For n>=1 let h_n(x)=2n max(1-|2nx-1|,0), a continuous triangle supported on
+      [0,1/n], of height 2n at 1/(2n). It vanishes at x=0 and eventually at any fixed
+      positive x, so tends pointwise to 0, a continuous function. Its supremum is
+      2n, and its area is one. Thus (b) does not imply (a) or (c).
+
+      For g_n(x)=x^n the pointwise limit is 0 for x<1 and 1 at x=1. That limit has
+      integral 0, as does the limit of 1/(n+1), so (c) holds. The limit is discontinuous,
+      proving (c) does not imply (b); by the already proved (a) implies (b) it also
+      cannot converge uniformly. This proves (c) does not imply (a).
+
+      '
+    main_comparison: Uniform convergence gives continuity and convergence of integrals.
+      Shrinking triangular spikes separate continuity from integral convergence; x
+      to the nth power gives a discontinuous integrable limit.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P3-full.pdf
+      source_sha256: 7d8273b95f174051ce1bcf58e1645ca3af33b90a83acc1e9fbdbbab3e9ddaecb
+      source_page: 5
+      compiled_pdf: build/IB-2012-P3/main.pdf
+      compiled_sha256: 71b8302c33f52425d191a1f26a54eb45b6e94b8360566f6e0583955165404a5b
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2012/P3/q12E/index.html
+      html_sha256: 1fd1a06835b9bd6e7467b6d7400df4481469a4b3cb6c67dba2733fd228eaeecc
+      math_nodes: 46
+      diagrams: {}
+      question_sha256: 2132e665eba0c43341245ba606e82a624b6c3eb79c787f6e1845170ad184719b
+      solution_sha256: 686b6f6a7d0cb5e370951f61e43f4ca93c2533cba3030dc15fb8996d6991630d
+      check_sha256: 7e0750606271c66a185a4359b32712fea4078efd9616fb973d148547d8fa7d87
+      check_exit: 0
+      check_stdout: Verified the triangular spike area and the integrals of the powers.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P3/q12E · Cambridge Maths
+      math: 46
+      rendered: 46
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P4/q3E:
+    source_review:
+      question_id: IB/2012/P4/q3E
+      printed_label: 3E
+      original_pdf: private/raw/tripos/IB/2012/P4.pdf
+      original_pdf_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 2
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 8d22309501e871ba3b90f2729b0408f674e395641e5be7e7c26643469424346e
+      question_packet_sha256: 54e60e07be071aa3155348f7ab60b6c56c762052d710ffe5b66949fc15ef76f9
+      locator_sha256: e9440bc61d23d535cd5e506b10e2e2cd11a2192da2cc8e8451facd37d93f5a63
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Both occurrences of the product domain have exponents n then
+        m. The codomain is real. The differentiability and derivative requests agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: 698432bad59b136aadafa95a1a17d7ddd48367417c4a3fd405161abc078e57a9
+    independent_rework: '# IB/2012/P4/q3E
+
+
+      Represent f(x,y)=sum a_ij x_i y_j where a_ij=f(e_i,e_j). Thus by Cauchy-Schwarz
+      |f(h,k)|<=C ||h|| ||k|| with C=(sum a_ij^2)^(1/2). Bilinearity gives f(x+h,y+k)-f(x,y)=f(h,y)+f(x,k)+f(h,k).
+      The first two terms define a bounded linear function of (h,k). The last term
+      is bounded by (C/2)(||h||^2+||k||^2), hence is little-o of the Euclidean product
+      norm. Therefore the Fréchet derivative at any (x,y) is the map (h,k) -> f(h,y)+f(x,k).
+
+      '
+    main_comparison: The finite matrix of bilinear coefficients bounds the cross term
+      by a multiple of the squared increment norm and identifies the linear derivative
+      in both directions.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P4.pdf
+      source_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 2
+      compiled_pdf: build/IB-2012-P4/main.pdf
+      compiled_sha256: 0b1889985b0921f100b41ba02b9abdda7e6f27ec2ca9d5d8b5d540d143205e13
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2012/P4/q3E/index.html
+      html_sha256: 0604528405a2c2b26168bcafa672be63dac2b82b433dfb1c1561bf7c4bb5a057
+      math_nodes: 12
+      diagrams: {}
+      question_sha256: 54e60e07be071aa3155348f7ab60b6c56c762052d710ffe5b66949fc15ef76f9
+      solution_sha256: edd664979a1c1faed65fae7843b0d234713f190e343a863ab142736ce20fd9cc
+      check_sha256: 5eedc23c3942d649c3f80590087b1d036db0fa627a0359292d7bdceb8df77ef4
+      check_exit: 0
+      check_stdout: Verified the symbolic bilinear remainder in unequal dimensions.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P4/q3E · Cambridge Maths
+      math: 12
+      rendered: 12
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P4/q14A:
+    source_review:
+      question_id: IB/2012/P4/q14A
+      printed_label: 14A
+      original_pdf: private/raw/tripos/IB/2012/P4.pdf
+      original_pdf_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 6
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 57128e890ff2befc5fcb15d1b8b23fe907783376ab4a982be394d9e2ec7f7386
+      question_packet_sha256: eb28f031f1d685e7ba00362a16c46712e9d84d230951267b093105a2cc4f7fa1
+      locator_sha256: 34847f987e92096f0d68e8dcd4da64a5cc803ad1ba4a291ef30ac2c09b6f579b
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: The half-plane includes y=0, the decay clause is for all x,
+        the interval includes its endpoints, the convolution formula includes the
+        upright differential d, and both arctangent numerators and signs agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: 595e2a36ab20c416aeba882fdaeb286233b4ac01f514cb838ec497ac45b4d9a7
+    independent_rework: '# IB/2012/P4/q14A
+
+
+      Use hat(f)(k)=int exp(-ikx) f(x) dx and inverse with factor 1/(2pi). For integrable
+      functions, hat(f*g)=hat(f)hat(g), where (f*g)(x)=int f(x-t)g(t)dt; Fubini and
+      translation give this identity. Let g=1 on [-1,1] and 0 outside. Transforming
+      Laplace''s equation in x gives u_yy=k^2 u. In the usual bounded Poisson solution
+      class retain the decaying branch for k nonzero to obtain u(k,y)=hat(g)(k)exp(-|k|y),
+      where hat(g)=2 sin(k)/k with continuous value 2 at zero. A single zero frequency
+      does not affect the inverse integral and the mean is conserved for this solution.
+
+      The inverse transform of exp(-|k|y) for y>0 is (1/pi)Re int_0^infty exp[-(y-ix)k]dk=y/[pi(y^2+x^2)].
+      Convolving with g gives (y/pi)int_-1^1 dt/[y^2+(x-t)^2]. Integrating via s=(t-x)/y
+      yields [arctan((1-x)/y)+arctan((1+x)/y)]/pi. This is harmonic and tends to zero
+      as y tends to infinity (bounded by 2/(pi y)); its boundary limits are 1 inside
+      and 0 outside except precisely at ±1, where its vertical trace is 1/2. The values
+      1 at the two boundary points can be assigned separately; their values have no
+      effect on the Poisson integral.
+
+      Taken literally, pointwise decay for each fixed x does not ensure uniqueness
+      on the unbounded half-plane. For example Im exp((x+iy)^2)=exp(x^2-y^2) sin(2xy)
+      is harmonic, zero on y=0, and decays as y increases for each fixed x, but grows
+      rapidly in x. The claimed formula is the bounded Fourier/Poisson solution. One
+      cannot in general infer frequency-by-frequency transformed decay from merely
+      pointwise physical-space decay.
+
+      '
+    main_comparison: The inverse transform of exp(−|k|y) gives the Poisson kernel
+      and the same sum of arctangents. At the two jumps the vertical limit is one
+      half. A zero-trace harmonic function with fixed-x decay shows why a uniqueness
+      claim needs a growth class.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P4.pdf
+      source_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 6
+      compiled_pdf: build/IB-2012-P4/main.pdf
+      compiled_sha256: 0b1889985b0921f100b41ba02b9abdda7e6f27ec2ca9d5d8b5d540d143205e13
+      compiled_pages:
+      - 14
+      html: site/private/questions/IB/2012/P4/q14A/index.html
+      html_sha256: 14d62cf357e9fcfed7c86199d3afd2b8148509843efff1cb7c3ebf761a432af7
+      math_nodes: 27
+      diagrams: {}
+      question_sha256: eb28f031f1d685e7ba00362a16c46712e9d84d230951267b093105a2cc4f7fa1
+      solution_sha256: b1983ce2175d0226262b677942072f5338fe5f7b5fa7c160e0af51060565bbf2
+      check_sha256: 18f3a987cdae9e824c8b1eb94197c7fecc1e694c11cbfbe7e25d104653f9eea4
+      check_exit: 0
+      check_stdout: Verified half-plane Poisson convolution against its arctangent
+        form.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P4/q14A · Cambridge Maths
+      math: 27
+      rendered: 27
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P4/q7B:
+    source_review:
+      question_id: IB/2012/P4/q7B
+      printed_label: 7B
+      original_pdf: private/raw/tripos/IB/2012/P4.pdf
+      original_pdf_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 3
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 79fa404a86fcae36af39a13d16a1c06288594074ef58f6ec11d3957fc5ab2329
+      question_packet_sha256: f58d1d65b5efbdb66065776a763d6b5eb1a7701902a705f9df3469cdff81ad21
+      locator_sha256: a5fbd8be89982859ccfbd9552a069f10ac19130ca63ac69f1739babef901ca32
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: The vector curl, minus sign and partial derivative, stationary-loop
+        proviso, tanh field, radius/resistance and plane, and final moving-loop request
+        agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: d1d09d8d003d08ba5dfa1b5b2418ba3a5f098eaadaa7b9561ee078351d8f9427
+    independent_rework: '# IB/2012/P4/q7B
+
+
+      Choose an oriented spanning surface S and give its boundary C the right-hand
+      orientation. Magnetic flux is Phi=int_S B dot n dS (surface-independent for
+      div B=0). The emf is the work done per unit positive charge around C; at rest
+      this is the circulation of E. Ohmic resistance R is the proportionality between
+      emf and steady/quasistatic current in a purely resistive loop, emf=RI (or dissipated
+      power I^2 R). Stokes and Maxwell-Faraday give emf=int_S curl E dot n dS=-int_S
+      partial_t B dot n dS=-dPhi/dt for a fixed loop.
+
+      With +z normal, Phi=pi a^2 B tanh t, so I=-(pi a^2 B/R)sech^2 t with anticlockwise
+      positive as viewed from +z. For B>0 the flux increases and the current is clockwise.
+      The given model neglects self-inductance.
+
+      For a material loop with local velocity v, Lorentz force on its charges supplies
+      v cross B as a tangential force per unit charge in addition to E (drift along
+      the wire has no tangential magnetic contribution). Moving the loop may alter
+      the flux, even when the field is stationary. The flux rule is emf=oint_(C(t))(E+v
+      cross B) dot dl = -d/dt int_(S(t)) B dot n dS. A motion preserving flux in a
+      steady field has zero resulting emf.
+
+      '
+    main_comparison: Faraday induction gives the signed hyperbolic-secant-squared
+      current in the purely resistive loop. The moving-loop argument includes the
+      magnetic Lorentz force and uses a consistent orientation.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P4.pdf
+      source_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 3
+      compiled_pdf: build/IB-2012-P4/main.pdf
+      compiled_sha256: 0b1889985b0921f100b41ba02b9abdda7e6f27ec2ca9d5d8b5d540d143205e13
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2012/P4/q7B/index.html
+      html_sha256: da1d9925894ae8f5e587e61be7ceef64308a2f9b715e332d5802636e9751a784
+      math_nodes: 17
+      diagrams: {}
+      question_sha256: f58d1d65b5efbdb66065776a763d6b5eb1a7701902a705f9df3469cdff81ad21
+      solution_sha256: fd2b881ba71098fe7a0e5af1d8691b36b2d6f8ae05350849edbc3f6d6fa1df18
+      check_sha256: c1f12bf470a6f04f83130a838a6d9caa3a5d23928b3bfb34b0de2cac15e1ca9e
+      check_exit: 0
+      check_stdout: Verified the instantaneous current profile and integrated flux
+        change.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P4/q7B · Cambridge Maths
+      math: 17
+      rendered: 17
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P1/q17A:
+    source_review:
+      question_id: IB/2012/P1/q17A
+      printed_label: 17A
+      original_pdf: private/raw/tripos/IB/2012/P1-full.pdf
+      original_pdf_sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+      source_page: 10
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: c2bf57b7f86d719fa2371b53e7fb4cd6963a0e212ad1af9ad0ea8d4cc1f8e3d8
+      question_packet_sha256: 3100a766b1545af9d27332cedf1bef9851a524de7bf6d68927aa9ef43d8682d8
+      locator_sha256: d81b28849c2da3e225f9cff2a0f9e351ac0ca370b6c51fce0bb529ca25faf0d5
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Both source positions and subscripts, the y inequality, pressure
+        and force requests, and the italicized substitution hint agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: e14abfed309c7bb40db006d4ff95f71c48dda2bf58047d6dce35331e66e5df1c
+    independent_rework: '# IB/2012/P1/q17A
+
+
+      Take the velocity convention u=grad(phi). A circle of radius r about an isolated
+      source carries flux 2 pi r u_r=m per unit length perpendicular to the plane.
+      By radial symmetry u_theta=0, so phi=(m/2pi)log(r/r0), with arbitrary reference
+      radius r0. Linearity gives phi=(m/2pi)log(r_+ r_-/r0^2), where r_±^2=x^2+(y∓a)^2.
+      The domain excludes the singularities and a>0 is understood. The normal velocity
+      vanishes at y=0 because the y derivatives cancel by reflection, while the only
+      interior singularity in the upper half-plane is the prescribed source. This
+      restriction satisfies the stationary impermeable wall condition, with tangential
+      slip.
+
+      On the wall u_x=mx/[pi(x^2+a^2)]. The steady irrotational Bernoulli constant
+      is the far-field pressure p_inf (velocity decays), giving p=p_inf-rho m^2 x^2/[2
+      pi^2 (x^2+a^2)^2]. The outward normal from the upper fluid is -e_y. Its gauge-pressure
+      force on the wall per unit out-of-plane length is (rho m^2/2pi^2)e_y times the
+      integral of x^2/(x^2+a^2)^2 over the real line. Substitution x=a tan(theta)
+      gives (1/a) times the integral of sin^2(theta) from -pi/2 to pi/2, namely pi/(2a).
+      The resultant relative to ambient is therefore +rho m^2 e_y/(4 pi a), towards
+      the source. Integrating absolute pressure over an infinite wall also includes
+      the uniform background load.
+
+      '
+    main_comparison: The reflected source imposes zero normal flow. Bernoulli pressure
+      and a convergent wall integral give the force relative to ambient pressure,
+      rho times flux-strength squared divided by 4 pi a in the stated normal direction.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P1-full.pdf
+      source_sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+      source_page: 10
+      compiled_pdf: build/IB-2012-P1/main.pdf
+      compiled_sha256: b2fb6e2a26b79b5be5aab7175b0578580814321758d1a35b9c3c6e4a62440a7b
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2012/P1/q17A/index.html
+      html_sha256: 714ae80c68ca74709406aed11ad3c0f9baa7f402520c9cfa929cdf2e84178585
+      math_nodes: 28
+      diagrams: {}
+      question_sha256: 3100a766b1545af9d27332cedf1bef9851a524de7bf6d68927aa9ef43d8682d8
+      solution_sha256: 0ebdd9786dce6c7c66d8b2a3a6b9ba0936a80873115ea24dc9fa6c4d4829fda1
+      check_sha256: 7cded43136a520751a23cac74318e13e4a95311657c9ded73cda7254dd27e068
+      check_exit: 0
+      check_stdout: Verified wall velocities and exact pressure-force integral.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P1/q17A · Cambridge Maths
+      math: 28
+      rendered: 28
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P4/q10F:
+    source_review:
+      question_id: IB/2012/P4/q10F
+      printed_label: 10F
+      original_pdf: private/raw/tripos/IB/2012/P4.pdf
+      original_pdf_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 5
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 0f2bec7e71e51b33cf2f40baafe8975a7f233a143e3207bd4f5422504cdd5580
+      question_packet_sha256: 652f0d27ffe632896c2979cdae4e1180c17bf40fa0467b2005bab89ae05db37c
+      locator_sha256: 98766329852a97ed00b74450304ab4265ca80360778fffc8e904a0ec48b01597
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Definition uses B(v,w) in that order, with complements based
+        on the first argument. The symmetric assumption, diagonalizability proviso,
+        italic definitions, isotropic quantifier, and absolute value of sigma agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: d151772575de8918f3e2ac07e445c1d69aae63b256971935fd7adb2e9a25be0c
+    independent_rework: '# IB/2012/P4/q10F
+
+
+      Let q(v)=B(v,v) and H={w:B(v,w)=0}. For q(v) nonzero decompose x as t v+(x-t
+      v), t=B(v,x)/q(v). The second term is in H and tv is in H only for t=0, proving
+      the direct sum, without symmetry.
+
+      Now use symmetry. If dim V>0 and q vanished everywhere, polarization 2B(x,y)=q(x+y)-q(x)-q(y)
+      would imply B=0, contradicting nondegeneracy. Pick v with q(v) nonzero. The
+      restriction to H in the splitting is nondegenerate: any h in its radical already
+      annihilates v by symmetry and hence all of V, so h=0. Induction from dimension
+      zero gives an orthogonal basis of H, which extends by v. Each diagonal entry
+      in this basis is nonzero.
+
+      For a real quadratic form diagonalized with p positive and q negative squares
+      (discard zero coefficients), its signature is p-q. Count signs of B(v_i,v_i)
+      in the constructed basis. Rescale diagonal vectors to squared lengths +1 and
+      -1. The counts are intrinsic: a positive definite subspace intersects the negative
+      and zero coordinate subspace trivially and thus has dimension at most p, attained
+      by the positive block; similarly for negative dimension. Here p+q=n.
+
+      An isotropic subspace projects injectively to both the positive and negative
+      coordinate blocks, since a vector belonging wholly to one block has nonzero
+      square unless zero. Thus its dimension is at most min(p,q). Pair orthonormal
+      positive vectors e_i with negative ones f_i for i=1,...,min(p,q); B(e_i+f_i,e_j+f_j)=delta_ij-delta_ij=0.
+      They are independent by projection. This attains min(p,q)=(n-|p-q|)/2, including
+      definite and zero-dimensional cases. This last part uses the standing symmetry
+      assumption.
+
+      '
+    main_comparison: The first direct sum follows from a single bilinear projection.
+      Orthogonal splitting and the isotropic bound use symmetry. The paired positive/negative
+      vectors attain the minimum of the two inertia counts.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P4.pdf
+      source_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 5
+      compiled_pdf: build/IB-2012-P4/main.pdf
+      compiled_sha256: 0b1889985b0921f100b41ba02b9abdda7e6f27ec2ca9d5d8b5d540d143205e13
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2012/P4/q10F/index.html
+      html_sha256: b4e20d17ad6b1e098d7a79eb00712781ac79a001339eb961f23ef7d9cf34aa0e
+      math_nodes: 49
+      diagrams: {}
+      question_sha256: 652f0d27ffe632896c2979cdae4e1180c17bf40fa0467b2005bab89ae05db37c
+      solution_sha256: 02bff828d78e9438d713523a65306edd3855a86cc6e1901d1afc14c868c5cd18
+      check_sha256: 0d648df3bc03bfd94fbc0fd8a57057650410de84c0f38ef7614e6fbf4454d181
+      check_exit: 0
+      check_stdout: Verified extremal isotropic constructions for definite and indefinite
+        signatures.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P4/q10F · Cambridge Maths
+      math: 49
+      rendered: 49
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P2/q1F:
+    source_review:
+      question_id: IB/2012/P2/q1F
+      printed_label: 1F
+      original_pdf: private/raw/tripos/IB/2012/P2.pdf
+      original_pdf_sha256: b35debeb791559914fe331b6220d1ea9277aab21fa2d6103c0ee48ef00a75654
+      source_page: 2
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 77198e623f6b3f5986ad95add27d22371a193fee2d7ab3263dc4d102d26baab9
+      question_packet_sha256: 0e081c52540a85b35ab6b93a086ffa114c25d9279cdd8b84d10ea4731741e610
+      locator_sha256: 716ca5959534626ffc97842a12e9fce42fa9839ea07a223034c0c41b17ea0b13
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Matrix dimensions, the zero lower-left block and products of
+        determinants agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: 361d73bebad359a10528576c68d89b7b08c7322b2d81b478db4e2de350d4f1ff
+    independent_rework: '# IB/2012/P2/q1F
+
+
+      For M=(m_ij), det M=sum over permutations s of sgn(s) times the product over
+      rows i of m_(i,s(i)). For a contributing permutation of the block matrix, each
+      of the final m rows must select a final-block column; their injectivity uses
+      all m of those columns. The first n rows must therefore select precisely the
+      first n columns. Such a permutation is a pair of independent permutations s,t
+      within the consecutive blocks, without cross inversions, so its sign is sgn(s)sgn(t).
+      The product in each term separates into an A term and a C term. Summing the
+      products proves the claimed factorization even for singular A or C, independently
+      of B.
+
+      '
+    main_comparison: In the permutation expansion of a block upper triangular determinant
+      every nonzero term preserves the diagonal blocks. Its sign and contributions
+      factor.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P2.pdf
+      source_sha256: b35debeb791559914fe331b6220d1ea9277aab21fa2d6103c0ee48ef00a75654
+      source_page: 2
+      compiled_pdf: build/IB-2012-P2/main.pdf
+      compiled_sha256: ccd30573f48c40bca26f8469e1afabbbb51c277ac82976804aea03f1047766e6
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2012/P2/q1F/index.html
+      html_sha256: b54f53fb53c0fe05d36196997703a21451be1fea5ce56d4be4b325ff09b0285c
+      math_nodes: 21
+      diagrams: {}
+      question_sha256: 0e081c52540a85b35ab6b93a086ffa114c25d9279cdd8b84d10ea4731741e610
+      solution_sha256: 2ee0c0601e37517fe1a48fe518dbcfae94e74005c44baa18decb8f04e549eb7a
+      check_sha256: f54c2cb5fa4a293f1334a8dc9f0baf647f39f6f12302fcf1ea2eff97789a0d52
+      check_exit: 0
+      check_stdout: Verified symbolic upper-block determinant including singular specializations.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P2/q1F · Cambridge Maths
+      math: 21
+      rendered: 21
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P4/q9H:
+    source_review:
+      question_id: IB/2012/P4/q9H
+      printed_label: 9H
+      original_pdf: private/raw/tripos/IB/2012/P4.pdf
+      original_pdf_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 4
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: dda6d3322f355b4d0af11a60d18ef649f217f39b1c52e59cd8592d774169af74
+      question_packet_sha256: 3e5fb0b029beb9bf659dd9ce21ad8f643a2b8b0c18453def371182db6f9a0680
+      locator_sha256: 6a287f25e2d6a130331b05d8f85f9ea1694baa8a209f6e207c10bf8f2937e5b6
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Index n begins at zero, transition probability has superscript
+        (n), roman labels (i),(ii) agree, and the last assertion says divisible by
+        3 with no claim of minimal period.
+      transcription_discrepancies: []
+      blind_rework_sha256: f5e0e6b594b2b78ca0059b3f3474e28571d70c4d6b1f1e9a7dcf1cadda868be8
+    independent_rework: '# IB/2012/P4/q9H
+
+
+      Write T_i^+=inf{n>=1:X_n=i}. A state is transient when f_i=P_i(T_i^+<infty)<1;
+      it is aperiodic when the gcd of {n>=1:p_ii^(n)>0} equals one. Counting visits
+      to i from time zero under P_i gives E N_i=sum_(n>=0) p_ii^(n) by monotone convergence.
+      By the strong Markov property at successive return times, P(N_i>=k+1)=f_i^k.
+      Thus transience is equivalent to finiteness of that sum (value 1/(1-f_i) in
+      the transient case).
+
+      For j distinct from i choose lengths r,s of positive probability paths i->j
+      and j->i. Let c=p_ij^(r)p_ji^(s)>0. Concatenation gives p_ii^(r+n+s)>=c p_jj^(n).
+      Summing over n proves transience of j whenever i is transient. The positive
+      lengths r+s and r+n+s are return lengths for i whenever n is one for j. Thus
+      d_i, the period at i, divides their difference n and hence divides d_j. Interchanging
+      i,j gives equality, proving aperiodicity is shared. Under the last hypothesis
+      both lengths are multiples of three, so every such n is also a multiple of three;
+      there is no need to assume the period is exactly three. The zero-step identity
+      is consistent since 0 is divisible by 3.
+
+      '
+    main_comparison: Positive-probability paths in each direction transfer transience
+      and the positive return-time gcd. The same concatenation transfers the three-step
+      divisibility property.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P4.pdf
+      source_sha256: 6b8bcd369476964838b1673633eaf8c5cbe7634aa0a808853b76cc1b9fac643a
+      source_page: 4
+      compiled_pdf: build/IB-2012-P4/main.pdf
+      compiled_sha256: 0b1889985b0921f100b41ba02b9abdda7e6f27ec2ca9d5d8b5d540d143205e13
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2012/P4/q9H/index.html
+      html_sha256: cff143ddca3cf6c233f5c9906e183aa2c8b82357c373992636aa87d0f7e9c191
+      math_nodes: 35
+      diagrams: {}
+      question_sha256: 3e5fb0b029beb9bf659dd9ce21ad8f643a2b8b0c18453def371182db6f9a0680
+      solution_sha256: f0c16de85b470dcec48a3955134a8b3445ec4723ae1b8c4119018ee5f96c6e18
+      check_sha256: ed2ad347bbe12fa5a5b8a91b10c3114997639123b4a8d1f900a98f9b96fa0ab6
+      check_exit: 0
+      check_stdout: Verified common return-time divisibility on an irreducible period-three
+        chain.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P4/q9H · Cambridge Maths
+      math: 35
+      rendered: 35
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P3/q15D:
+    source_review:
+      question_id: IB/2012/P3/q15D
+      printed_label: 15D
+      original_pdf: private/raw/tripos/IB/2012/P3-full.pdf
+      original_pdf_sha256: 7d8273b95f174051ce1bcf58e1645ca3af33b90a83acc1e9fbdbbab3e9ddaecb
+      source_page: 6
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 8cf8ed547d03349ebd62ea540709425d37945f24a7ea9512f679ef4d38f4ed33
+      question_packet_sha256: b18523e58406c03dd07101eccd1b23762a8135ef67dc244b886b33989e11faed
+      locator_sha256: e663bcc17ae23e6f2c8423feea4d9dd3c0158238c5afbaf955ec962bbaad9c6d
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Signs in the differential equation, degree and normalization,
+        radial powers and multiplier, boundary radii and both prescribed values agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: b90ce79d250dac843fe3d017f30d68dcecebba7c5712888fc8ba81b8de03db38
+    independent_rework: '# IB/2012/P3/q15D
+
+
+      Substitute y=sum c_j x^j. Coefficient equations are (j+1)(j+2)c_(j+2)=[j(j+1)-lambda]c_j.
+      For lambda=n(n+1), start with c_0=1 for even n or c_1=1 for odd n, and zero
+      opposite parity. Every factor used to reach degree n is nonzero, but the recurrence
+      at n terminates the series. For n=0,1,2 this yields constant, x, and a multiple
+      of 1-3x^2. Normalize at 1 to get P_0=1, P_1=x, P_2=(3x^2-1)/2.
+
+      For the spherical shell 0<a<b, the inner datum equals P_0 and the outer equals
+      P_0+2P_2. Choose the constant monopole 1. For the second mode the radial factor
+      is A r^2+B r^(-3). The inner zero requires B=-Aa^5, and the outer value 2 gives
+      A=2b^3/(b^5-a^5). Consequently psi=1+[2b^3(r^2-a^5/r^3)/(b^5-a^5)] P_2(cos theta).
+      These modes solve Laplace''s equation and meet both data. Uniqueness follows
+      by the maximum and minimum principles on the bounded shell for the difference
+      of two regular solutions with zero boundary values.
+
+      '
+    main_comparison: The Legendre recursion fixes the angular polynomial modes; both
+      radial powers occur on a shell. The constant and degree-two modes match the
+      two spherical boundary values.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P3-full.pdf
+      source_sha256: 7d8273b95f174051ce1bcf58e1645ca3af33b90a83acc1e9fbdbbab3e9ddaecb
+      source_page: 6
+      compiled_pdf: build/IB-2012-P3/main.pdf
+      compiled_sha256: 71b8302c33f52425d191a1f26a54eb45b6e94b8360566f6e0583955165404a5b
+      compiled_pages:
+      - 15
+      html: site/private/questions/IB/2012/P3/q15D/index.html
+      html_sha256: 4565e951f0f10c54edd3f3eb30f9c067c686adfb2aa8d69bd8d985dec0a3b60b
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: b18523e58406c03dd07101eccd1b23762a8135ef67dc244b886b33989e11faed
+      solution_sha256: 3407c92b7202e3207bb0650eb634631bda540264d9938ba41a2047343947b627
+      check_sha256: e27064819baf82f549892db5092b88f70e82723148e19393e6b6eb47a5236097
+      check_exit: 0
+      check_stdout: Verified angular and radial equations and shell boundary data.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P3/q15D · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P2/q16C:
+    source_review:
+      question_id: IB/2012/P2/q16C
+      printed_label: 16C
+      original_pdf: private/raw/tripos/IB/2012/P2.pdf
+      original_pdf_sha256: b35debeb791559914fe331b6220d1ea9277aab21fa2d6103c0ee48ef00a75654
+      source_page: 7
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: f6f1d964c29013e3bda9a3459e31ba8c487c911beb7a747baece4c4cd50b272b
+      question_packet_sha256: 5eda7358a7a1ea9e29166f0717b7ee88b4747c772af061e428b9d36fa029886c
+      locator_sha256: e9e2b453c8757a483798b0528133626186042505e3cc1f9ce52d02aea5d84415
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Minus sign and second derivative in the operator, half-line,
+        both boundary conditions, forcing cases including equality at mu, and the
+        exponents and signs in the target interface value agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: 72d9ca3406233b177d4668133119cdb81b5829d55dcc2e28c3fcf29b3d0bec23
+    independent_rework: '# IB/2012/P2/q16C
+
+
+      For a source point xi>0 the homogeneous solution vanishing at zero is sinh x,
+      and that decaying at infinity is exp(-x). Continuity across xi suggests G=sinh(min(x,xi))
+      exp(-max(x,xi)). Its right derivative minus its left derivative at xi equals
+      -exp(-xi)(sinh xi+cosh xi)=-1. Thus -G''''+G is precisely a unit delta and the
+      end conditions hold. Equivalently G=(exp(-abs(x-xi))-exp(-x-xi))/2. A decaying
+      homogeneous solution with zero left boundary is identically zero, so the inverse
+      is unique on this domain.
+
+      Integrate G over 0<=xi<=mu. For x<=mu the parts give exp(-x)(cosh x-1)+sinh
+      x(exp(-x)-exp(-mu))=1-exp(-x)-exp(-mu)sinh x. For x>=mu the result is (cosh
+      mu-1)exp(-x). Both expressions at mu equal exp(-mu)(cosh mu-1)=(1+exp(-2mu)-2exp(-mu))/2.
+      The left derivative there is exp(-mu)(1-cosh mu), the right derivative equals
+      it. At x=0 the inner expression vanishes; the outer one decays. The forcing
+      has a jump, so use the piecewise ODE away from mu with continuous y,y'' across
+      it.
+
+      '
+    main_comparison: Both half-line Green functions impose the wall value, decay at
+      infinity and the unit derivative jump. The response to the step forcing matches
+      in value and slope at mu, with a jump in its second derivative.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P2.pdf
+      source_sha256: b35debeb791559914fe331b6220d1ea9277aab21fa2d6103c0ee48ef00a75654
+      source_page: 7
+      compiled_pdf: build/IB-2012-P2/main.pdf
+      compiled_sha256: ccd30573f48c40bca26f8469e1afabbbb51c277ac82976804aea03f1047766e6
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2012/P2/q16C/index.html
+      html_sha256: 8ac241769742b3513c8a909ad733e4f30f4e082137520d803ab618890777db5f
+      math_nodes: 27
+      diagrams: {}
+      question_sha256: 5eda7358a7a1ea9e29166f0717b7ee88b4747c772af061e428b9d36fa029886c
+      solution_sha256: 814b5905e26e26bc8b50bd99e9a1c0c058c6ed5c741e60b2ff0d20b5fdaf9c8d
+      check_sha256: 824f677a20eef031b3706595f057571a9c87c24295d92010f0d8c8e5964325b9
+      check_exit: 0
+      check_stdout: Verified the two ODEs, interface value and derivative matching.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P2/q16C · Cambridge Maths
+      math: 27
+      rendered: 27
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P1/q6D:
+    source_review:
+      question_id: IB/2012/P1/q6D
+      printed_label: 6D
+      original_pdf: private/raw/tripos/IB/2012/P1-full.pdf
+      original_pdf_sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+      source_page: 3
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 71c74f7b9384f505059091cbad44de4db79fb6aa3696398ebcf2015bcf2bf80f
+      question_packet_sha256: ae6ce9be6ae57747fd09af72d3096cb3df4e5c63f51ae9fe6866a1382150466a
+      locator_sha256: db49c15415785f85b4d73b5308b10083aef88dfd7f968725c18b472cdc81d84a
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: The four circulant rows, column b, gamma and its nonzero restriction
+        agree. The printed LU and two substitution directions and the bracketed restriction
+        on solution methods are present.
+      transcription_discrepancies: []
+      blind_rework_sha256: 9f02828549e6762dc3f3c8dcc8ae06f30f1833f92d6039a386138405bdd12bd2
+    independent_rework: '# IB/2012/P1/q6D
+
+
+      Use row 1 as pivot, subtracting a^3, a^2, a times that row from rows 2,3,4 respectively.
+      What remains is already upper triangular. With gamma=1-a^4,
+
+      L has rows (1,0,0,0), (a^3,1,0,0), (a^2,0,1,0), (a,0,0,1);
+
+      U has rows (1,a,a^2,a^3), (0,gamma,a gamma,a^2 gamma), (0,0,gamma,a gamma),
+      (0,0,0,gamma). These operations give A=LU.
+
+      Forward substitution Ly=b yields y_1=gamma, y_2=-a^3 gamma, y_3=-a^2 gamma,
+      y_4=-a gamma. Back substitution from row 4 yields x_4=-a; row 3 yields x_3=-a^2-a
+      x_4=0; row 2 yields x_2=-a^3-a x_3-a^2 x_4=0; row 1 yields x_1=gamma-a x_2-a^2
+      x_3-a^3 x_4=1. All divisions are by nonzero pivots; a=0 is included.
+
+      '
+    main_comparison: The two triangular solves give x=(1,0,0,−a). Multiplying by the
+      displayed matrix confirms the answer when the stated pivots are nonzero.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P1-full.pdf
+      source_sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+      source_page: 3
+      compiled_pdf: build/IB-2012-P1/main.pdf
+      compiled_sha256: b2fb6e2a26b79b5be5aab7175b0578580814321758d1a35b9c3c6e4a62440a7b
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2012/P1/q6D/index.html
+      html_sha256: 90fb9aeed0d5dd66800f8d36522a9ad25320822279dfb8af354c943f816db661
+      math_nodes: 13
+      diagrams: {}
+      question_sha256: ae6ce9be6ae57747fd09af72d3096cb3df4e5c63f51ae9fe6866a1382150466a
+      solution_sha256: 2b06d447660c517c6a9ba2072afeffc3515cb97bab9ca635ba8f17f5e546edd7
+      check_sha256: cd1b66ef21453e28928683a6a85b8966f256bda5550cb05d0ce9a046e8671f1c
+      check_exit: 0
+      check_stdout: Verified exact LU and both triangular solves.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P1/q6D · Cambridge Maths
+      math: 13
+      rendered: 13
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P2/q17C:
+    source_review:
+      question_id: IB/2012/P2/q17C
+      printed_label: 17C
+      original_pdf: private/raw/tripos/IB/2012/P2.pdf
+      original_pdf_sha256: b35debeb791559914fe331b6220d1ea9277aab21fa2d6103c0ee48ef00a75654
+      source_page: 8
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 283c9707c79f9d76400ab4abda2bd89bd109e0080575dfd1db3b2565aafabdb4
+      question_packet_sha256: 2f715bf036ffb9b8c923733cada54dafaa4674e2fd6956a7bee10ace1cef3775
+      locator_sha256: cb8151f715ec4bc83e4ae646813defefdd722706730cc7977bffb96ed284726f
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Non-degenerate energy, symmetry hypothesis, potential levels,
+        all three interval endpoints, positive energy/height bounds, plus superscript,
+        minus tangent, reciprocal kappa factor, coth, and both squared wave-number
+        definitions agree.
+      transcription_discrepancies: []
+      blind_rework_sha256: 80ade572d1f0d3c81fc00277222f5bed1bff14a6f37318c0b648e0813d8b2c35
+    independent_rework: '# IB/2012/P2/q17C
+
+
+      Write P chi(x)=chi(-x). The second derivative commutes with reflection and so
+      does multiplication by an even potential, on the reflection-invariant physical
+      domain. Hence P chi lies in the same eigenspace and equals c chi by nondegeneracy.
+      Applying P again gives c^2=1, proving even or odd parity.
+
+      For even states, restrict to x>=0 with derivative zero at 0. The central ODE
+      chi''''=kappa^2 chi gives A cosh(kappa x), and the well ODE chi''''=-k^2 chi
+      with the hard wall at l2 gives C sin(k(l2-x)). Extend evenly by replacing x
+      with |x| and use zero for |x|>=l2. At l1 both chi and chi'' are continuous since
+      the jump in V is finite. Set d=l2-l1; the conditions are A cosh(kappa l1)=C
+      sin(kd) and A kappa sinh(kappa l1)=-C k cos(kd). The amplitudes are nonzero
+      in a nonzero state, and with k,kappa,l1>0 these equations force both sine and
+      cosine nonzero. Dividing gives -tan(kd)=(k/kappa)coth(kappa l1). For each allowed
+      root take C=A cosh(kappa l1)/sin(kd); A sets the overall normalization/phase.
+      The endpoints E=0,U are excluded.
+
+      '
+    main_comparison: Both match the wavefunction and its derivative across the interface
+      after excluding the hard-wall endpoints. The logarithmic-derivative equation
+      relates the trigonometric and hyperbolic factors for 0<E<U.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P2.pdf
+      source_sha256: b35debeb791559914fe331b6220d1ea9277aab21fa2d6103c0ee48ef00a75654
+      source_page: 8
+      compiled_pdf: build/IB-2012-P2/main.pdf
+      compiled_sha256: ccd30573f48c40bca26f8469e1afabbbb51c277ac82976804aea03f1047766e6
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2012/P2/q17C/index.html
+      html_sha256: 02691ebe547af2b5eea6b09aeda0e0416f32d408f3ef54616bfe511a06687555
+      math_nodes: 32
+      diagrams: {}
+      question_sha256: 2f715bf036ffb9b8c923733cada54dafaa4674e2fd6956a7bee10ace1cef3775
+      solution_sha256: 4f6e4cd24b40e157360e839229b5231c658a917cdcfbd24f725dedae6109a4df
+      check_sha256: 6930d225b0cc2552850cd29c46247112ba562afbd497542308a36241687955e8
+      check_exit: 0
+      check_stdout: Verified value and derivative matching against the root equation.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P2/q17C · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2012/P1/q7H:
+    source_review:
+      question_id: IB/2012/P1/q7H
+      printed_label: 7H
+      original_pdf: private/raw/tripos/IB/2012/P1-full.pdf
+      original_pdf_sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+      source_page: 3
+      image_render: pdftoppm -f PAGE -l PAGE -r 141 -png -singlefile ORIGINAL PREFIX
+      page_image_sha256: 71c74f7b9384f505059091cbad44de4db79fb6aa3696398ebcf2015bcf2bf80f
+      question_packet_sha256: 2320a24619b885f3baf2611b5218d25da47d304c76babb053b75b938e59e2cc9
+      locator_sha256: a6d7bfedea2f56845fbe77845a6169e96bd8e510475196d3c00294ba79f7edd1
+      method: Compared the complete question body and printed label visually with
+        the rasterized original page. The sampled question has no printed absolute
+        marks.
+      source_finding: Both rate symbols, density and support, directions of hypotheses,
+        ratio of sums, quantile superscript, sample size, test size and chi-square/Gamma
+        hint agree. There is no separate cross-sample independence clause in the original.
+      transcription_discrepancies: []
+      blind_rework_sha256: 629aa23fcb47cc6850116b8bf9e6c94a6c3cab3a0038d376b1e62ae03c424eb5
+    independent_rework: '# IB/2012/P1/q7H
+
+
+      For nested parameter spaces Theta_0 inside Theta the generalized likelihood
+      ratio is sup_{Theta_0} L / sup_{Theta} L. Reject H0 for small values, choosing
+      the cutoff to control the supremum null rejection probability at the desired
+      size. This tests restrictions on unknown parameters, including composite hypotheses
+      and nuisance parameters.
+
+      Use the intended independent two-sample model. Let S,T be the respective sums
+      (positive almost surely) and lambda,mu>0. The likelihood up to sample-only factors
+      is lambda^(2n) mu^(2n) exp(-lambda S-mu T). The two unconstrained maxima are
+      2n/S,2n/T; the common-rate maximum is 4n/(S+T). Each follows by setting the
+      corresponding log derivative to zero, with negative second derivative. Cancellation
+      gives Lambda=[4ST/(S+T)^2]^(2n)=[4R/(1+R)^2]^(2n). The factor is unchanged under
+      R -> 1/R, increasing up to 1 and decreasing beyond. Reject for large max(R,1/R).
+
+      Under the null 2lambda S and 2lambda T are independent chi-squares with 4n degrees
+      of freedom, so R has the F_(4n,4n) law. By interchange of independent identically
+      distributed sums, R and 1/R have the same law. For n=5, c=F_(20,20)^(0.975),
+      and one rejects if R>c or R<1/c, otherwise retains H0. Strict inequalities at
+      the critical values give exact size .05 by continuity. Cross-sample independence
+      is understood in this derivation but is not stated expressly by the two separate
+      within-sample iid clauses. If cross-dependence is unrestricted the joint likelihood
+      and calibration are undetermined (e.g. Y_i=X_i under H0 gives R=1).
+
+      '
+    main_comparison: The reciprocal likelihood ratio yields a two-sided F test with
+      equal tail sizes under the common-rate null. The n=5 case uses the upper 0.975
+      quantile of F(20,20).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2012/P1-full.pdf
+      source_sha256: d0e68c83be97fb6e0003c2b0bd74d40f42780b436508983e80282ff00ab3e5b6
+      source_page: 3
+      compiled_pdf: build/IB-2012-P1/main.pdf
+      compiled_sha256: b2fb6e2a26b79b5be5aab7175b0578580814321758d1a35b9c3c6e4a62440a7b
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2012/P1/q7H/index.html
+      html_sha256: 564fe593fb2fd6295a425644b6be3e9e8e9dbbb14820cc26ab33f2e4b5715f88
+      math_nodes: 37
+      diagrams: {}
+      question_sha256: 2320a24619b885f3baf2611b5218d25da47d304c76babb053b75b938e59e2cc9
+      solution_sha256: 7dab28a674ce97e29a750f1edf81f9bd245daf05da353cf48a0ec32042b6268b
+      check_sha256: 483e7c346308f84aefb74bd0cfc69a6a4463aa0303268167b0cd6bd36abd3f7e
+      check_exit: 0
+      check_stdout: Verified reciprocal likelihood ratio and exact two-tail F calibration.
+      check_stderr: ''
+    browser:
+      title: IB/2012/P1/q7H · Cambridge Maths
+      math: 37
+      rendered: 37
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
