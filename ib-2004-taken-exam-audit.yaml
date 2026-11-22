@@ -1,0 +1,1279 @@
+scope: 2004 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20270107
+  strata:
+    IB/analysis-ii:
+    - IB/2004/P1/q15G
+    - IB/2004/P1/q4G
+    - IB/2004/P2/q14G
+    - IB/2004/P2/q15E
+    - IB/2004/P2/q3G
+    - IB/2004/P3/q16F
+    - IB/2004/P3/q4F
+    - IB/2004/P4/q13F
+    - IB/2004/P4/q3F
+    IB/complex-methods:
+    - IB/2004/P1/q16A
+    - IB/2004/P1/q5A
+    - IB/2004/P2/q16A
+    - IB/2004/P2/q5A
+    - IB/2004/P3/q17E
+    - IB/2004/P3/q5E
+    - IB/2004/P4/q4E
+    IB/electromagnetism:
+    - IB/2004/P1/q18B
+    - IB/2004/P1/q7B
+    - IB/2004/P2/q18B
+    - IB/2004/P2/q7B
+    - IB/2004/P3/q19B
+    - IB/2004/P3/q7B
+    IB/fluid-dynamics:
+    - IB/2004/P1/q20C
+    - IB/2004/P1/q9C
+    - IB/2004/P3/q10C
+    - IB/2004/P3/q21C
+    - IB/2004/P4/q18C
+    - IB/2004/P4/q8C
+    IB/linear-algebra:
+    - IB/2004/P1/q12H
+    - IB/2004/P1/q1H
+    - IB/2004/P2/q12E
+    - IB/2004/P2/q1E
+    - IB/2004/P3/q13E
+    - IB/2004/P3/q1E
+    - IB/2004/P4/q11E
+    - IB/2004/P4/q1E
+    IB/markov-chains:
+    - IB/2004/P1/q11H
+    - IB/2004/P1/q22H
+    - IB/2004/P2/q11H
+    - IB/2004/P2/q22H
+    IB/methods:
+    - IB/2004/P1/q17B
+    - IB/2004/P1/q6B
+    - IB/2004/P2/q17B
+    - IB/2004/P2/q6B
+    - IB/2004/P3/q18D
+    - IB/2004/P3/q6D
+    - IB/2004/P4/q15A
+    - IB/2004/P4/q16C
+    - IB/2004/P4/q5A
+    - IB/2004/P4/q6C
+    IB/numerical-analysis:
+    - IB/2004/P2/q20A
+    - IB/2004/P2/q9A
+    - IB/2004/P3/q11A
+    - IB/2004/P3/q22A
+    IB/quantum-mechanics:
+    - IB/2004/P1/q19D
+    - IB/2004/P1/q8D
+    - IB/2004/P2/q19D
+    - IB/2004/P2/q8D
+    - IB/2004/P3/q20D
+    - IB/2004/P3/q9D
+    IB/statistics:
+    - IB/2004/P1/q10H
+    - IB/2004/P1/q21H
+    - IB/2004/P2/q10H
+    - IB/2004/P2/q21H
+    - IB/2004/P4/q19H
+    - IB/2004/P4/q9H
+  selection:
+    IB/analysis-ii:
+    - IB/2004/P3/q4F
+    - IB/2004/P4/q3F
+    IB/complex-methods:
+    - IB/2004/P2/q16A
+    - IB/2004/P3/q17E
+    IB/electromagnetism:
+    - IB/2004/P3/q7B
+    - IB/2004/P3/q19B
+    IB/fluid-dynamics:
+    - IB/2004/P1/q9C
+    - IB/2004/P3/q10C
+    IB/linear-algebra:
+    - IB/2004/P1/q1H
+    - IB/2004/P4/q11E
+    IB/markov-chains:
+    - IB/2004/P2/q11H
+    IB/methods:
+    - IB/2004/P2/q17B
+    - IB/2004/P1/q6B
+    IB/numerical-analysis:
+    - IB/2004/P2/q9A
+    IB/quantum-mechanics:
+    - IB/2004/P3/q20D
+    - IB/2004/P2/q8D
+    IB/statistics:
+    - IB/2004/P4/q9H
+    - IB/2004/P4/q19H
+observed:
+  population: 66
+  sampled: 18
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 16
+  pdf_pages: 19
+  browser_views: 18
+  rendered_formulas: 419
+independent_manifest_sha256: c3db5beae134a02411814184aa3001fd86f0ebe4e1ce1344014de1532fe8166a
+auditor_report: '# Blind audit of eighteen 2004 Part IB questions
+
+
+  I compared the supplied question bodies against rendered images of the cited Faculty
+  PDF pages and independently solved each question using those inputs. The 18 questions
+  occupy 16 distinct pages. Every sampled question ends on its cited page. None contains
+  a source figure. I found 0 question-body transcription discrepancies in 18 comparisons.
+  The sample contains no printed question-level marks.
+
+
+  Each rework records my independent derivation before any comparison with the stored
+  solution. An error rate for the stored solutions requires the main agent to compare
+  these reworks with them. The sample does not establish whole-course error rates.
+
+
+  | Question | Source page | Question-body comparison |
+
+  |---|---:|---|
+
+  | IB/2004/P1/q1H | 2 | Matched |
+
+  | IB/2004/P1/q6B | 3 | Matched |
+
+  | IB/2004/P1/q9C | 4 | Matched |
+
+  | IB/2004/P2/q11H | 4 | Matched |
+
+  | IB/2004/P2/q16A | 6 | Matched |
+
+  | IB/2004/P2/q17B | 6 | Matched |
+
+  | IB/2004/P2/q8D | 3 | Matched |
+
+  | IB/2004/P2/q9A | 3 | Matched |
+
+  | IB/2004/P3/q10C | 4 | Matched |
+
+  | IB/2004/P3/q17E | 7 | Matched |
+
+  | IB/2004/P3/q19B | 8 | Matched |
+
+  | IB/2004/P3/q20D | 9 | Matched |
+
+  | IB/2004/P3/q4F | 2 | Matched |
+
+  | IB/2004/P3/q7B | 3 | Matched |
+
+  | IB/2004/P4/q11E | 5 | Matched |
+
+  | IB/2004/P4/q19H | 9 | Matched |
+
+  | IB/2004/P4/q3F | 2 | Matched |
+
+  | IB/2004/P4/q9H | 4 | Matched |
+
+
+  ## Qualifications for comparison
+
+
+  - P3/q19B faithfully reproduces the printed phrase identifying the speed as squared.
+  The energy flux equals the energy density times the speed c.
+
+  - P3/q10C uses the long-tube approximation that the base contributes negligible
+  length relative to the two columns. A finite bend gives half the actual fluid length
+  in the oscillator equation.
+
+  - P3/q4F identifies the two factors as metric spaces for the diagonal claim. Equality
+  merely of underlying sets allows a counterexample with different metrics.
+
+  - P3/q20D requires positive exterior energy for incoming and outgoing propagating
+  waves. The thick-barrier asymptotic keeps the energy strictly between the thresholds.
+
+  - P4/q9H requires a nonzero design and a residual degree of freedom for the usual
+  exact Student test.
+
+  '
+main_resolution: All eighteen reworks agree with the paired solutions. The metric
+  diagonal conclusion assumes identical metric spaces and a transposition provides
+  an explicit counterexample for unrelated metrics. The tube equation uses half the
+  liquid length, the printed electromagnetic speed should read c, and the barrier
+  transmission formula requires positive exterior energy. The regression test requires
+  a nonzero design and a residual degree of freedom. Independent comparison also confirmed
+  both quadrature weights, the cube tensor eigenvalues and the periodic logarithm
+  argument.
+questions:
+  IB/2004/P3/q4F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P3.pdf
+      original_pdf_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 2
+      question_packet_sha256: db591ddda3a6d0ccf50564babc4d58761f33633d4e2f9d8d6e38d1972b396bf9
+      blind_rework_sha256: e97097a7712eea05941a02c492ff0e611186331c48794ba1c525f4b9b726e929
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P3/q4F
+
+
+      Nonnegativity and symmetry follow in both coordinates. The maximum vanishes
+      precisely if both coordinate distances vanish, that is, if the two ordered pairs
+      coincide. For an intermediate point \(w\), each coordinate distance from \(u\)
+      to \(v\) is bounded by the sum of its two distances via \(w\), hence by \(D(u,w)+D(w,v)\).
+      Taking the maximum proves the triangle inequality.
+
+
+      When the two factors are the same metric space, take \((x,y)\) off the diagonal
+      and let \(r=d(x,y)/2>0\). If \((z,z)\) lay in its open product ball of radius
+      \(r\), then \(d(x,y)\le d(x,z)+d(z,y)<2r\), a contradiction. This proves the
+      complement is open. The identification of the two metric spaces matters: if
+      only the underlying sets coincide, pull back the usual metric on \(\mathbb R\)
+      through the permutation exchanging 0 and 1 in the second factor. Then \((1/n,1/n)\)
+      converges to \((0,1)\) in the product, so the conclusion can fail for unrelated
+      metrics.
+
+      '
+    main_comparison: The maximum of the coordinate distances has the metric axioms.
+      At each pair off the diagonal the triangle inequality gives a positive product-ball
+      radius excluding every diagonal point. Both factors are identified as the same
+      metric space. The fresh rework tests that hypothesis by pulling back the second
+      metric under the transposition of zero and one.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P3.pdf
+      source_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 2
+      compiled_pdf: build/IB-2004-P3/main.pdf
+      compiled_sha256: 7986c30cc43ea8fc05f5679f987f681701facd88ec55b2aa0df9edae2e14e88c
+      compiled_pages:
+      - 4
+      html: site/private/questions/IB/2004/P3/q4F/index.html
+      html_sha256: ea6da2a93c71aea8edd3d19a4b849eea3332f4e135f290bf7bf6b83263d83a53
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: db591ddda3a6d0ccf50564babc4d58761f33633d4e2f9d8d6e38d1972b396bf9
+      solution_sha256: 202007d275bc74da335a2d6f21c230100d0d377178b3fdb46c06e601ecada92d
+      check_sha256: 546a22ebc379cebf003916c83f3a5e140980650a9d33c5dbbed7b7299cfafa2c
+      check_exit: 0
+      check_stdout: 'Finite product distances and positive separation from its diagonal
+        verified
+
+        The unequal-metric diagonal sequence converges to the off-diagonal point.'
+      check_stderr: ''
+    browser:
+      title: IB/2004/P3/q4F · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P4/q3F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P4.pdf
+      original_pdf_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 2
+      question_packet_sha256: e8716b5ebea58f13a25c40e20988c4666cc4147e964a830b06d6c276e616a711
+      blind_rework_sha256: d1b5fd25caaca104d73c18d2d3a44e8e9cd3863d142c481cd5f2222460b1df4d
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P4/q3F
+
+
+      Fréchet differentiability at \(u\) means that some linear \(A:\mathbb R^n\to\mathbb
+      R^m\) satisfies \(\|f(u+h)-f(u)-Ah\|/\|h\|\to0\) through nonzero \(h\to0\) with
+      \(u+h\in U\). At a point with \(ab\ne0\), take \(\|(h,k)\|<\min(|a|,|b|)\).
+      Both coordinates keep their original signs, giving \(g(a+h,b+k)-g(a,b)=\operatorname{sgn}(a)h+\operatorname{sgn}(b)k\)
+      exactly. This linear form is the derivative; the error is identically zero near
+      the point.
+
+      '
+    main_comparison: A ball of radius smaller than both nonzero coordinate magnitudes
+      fixes their signs. The exact local increment of the sum of absolute values equals
+      a linear functional with no remainder.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P4.pdf
+      source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 2
+      compiled_pdf: build/IB-2004-P4/main.pdf
+      compiled_sha256: 721b8fc57a08ee72d7e343e8ea48709cde446fb92207eebbff16a64bb5584c53
+      compiled_pages:
+      - 3
+      html: site/private/questions/IB/2004/P4/q3F/index.html
+      html_sha256: 78df9a966adf6d697479730aa129892d5681906ef9563fed48f17069be906ee3
+      math_nodes: 18
+      diagrams: {}
+      question_sha256: e8716b5ebea58f13a25c40e20988c4666cc4147e964a830b06d6c276e616a711
+      solution_sha256: d48159b82a1421ab2676a1550aeca56d6a8acd6458ef44091ff0d8ef54b59e86
+      check_sha256: 428a97a18d879a84e6bc1e8f67d09d1fa269bd6b0ea0603acdd85ce613ddffd2
+      check_exit: 0
+      check_stdout: The linear expansion is exact in each of the four quadrants
+      check_stderr: ''
+    browser:
+      title: IB/2004/P4/q3F · Cambridge Maths
+      math: 18
+      rendered: 18
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P2/q16A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P2.pdf
+      original_pdf_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 6
+      question_packet_sha256: 1421774e2f3246b83f484414e3b3e6f12ca5d6063663c57d6afbdacf6c130803
+      blind_rework_sha256: fffd4ff72bd910a6947b829f164d7391a512f3d528854bb89832c0d523bd999f
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P2/q16A
+
+
+      Define \(g(z)=\int_{[0,z]} f(w)\,dw\). The triangle with vertices \(0,z,z+h\)
+      lies in the disc whenever its vertices do, by convexity. The integral on its
+      boundary vanishes by Cauchy''s theorem (and by segment cancellation for a degenerate
+      triangle). Hence for nonzero sufficiently small \(h\),
+
+      \[
+
+      \frac{g(z+h)-g(z)}h=\int_0^1 f(z+sh)\,ds.
+
+      \]
+
+      Its difference from \(f(z)\) is bounded by \(\sup_{|w-z|\le |h|}|f(w)-f(z)|\),
+      tending to zero by continuity. Thus \(g''(z)=f(z)\) at every point and \(g\)
+      is analytic there.
+
+      '
+    main_comparison: The line segment primitive is well defined in the convex disk.
+      Cauchy's theorem on the triangle reduces its difference quotient to a shrinking
+      segment average of f, whose limit is f(z).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P2.pdf
+      source_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 6
+      compiled_pdf: build/IB-2004-P2/main.pdf
+      compiled_sha256: 99c250db92b3f2a32ed637fc5a8de7f39ffaf76e9d155279849014e03ead5609
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2004/P2/q16A/index.html
+      html_sha256: 4f0c46dbc389eb26b810ba1a8f5629a72b12441a4bca06ca061da5764d418326
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: 1421774e2f3246b83f484414e3b3e6f12ca5d6063663c57d6afbdacf6c130803
+      solution_sha256: bebb6a6e8066e4b9308267c83fcf03726b3c079099c9547b4f035b36d91179c3
+      check_sha256: c969f8e16b7a84230dcc1c3d6552ad28536744f58a7de17487b37103df05db9c
+      check_exit: 0
+      check_stdout: The complex difference quotient of the integrated exponential
+        agrees in three directions
+      check_stderr: ''
+    browser:
+      title: IB/2004/P2/q16A · Cambridge Maths
+      math: 16
+      rendered: 16
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P3/q17E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P3.pdf
+      original_pdf_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 7
+      question_packet_sha256: 1be15ad06211b2d446195cb8fac114e332d5f862ebd9a321fc8138bd3bf1061f
+      blind_rework_sha256: 8df3ac2ad1e3598df6f999b0a3fc2efc987655efa5280994b37d04754575b778
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P3/q17E
+
+
+      On a compact subset of \(\mathbb C\setminus\mathbb Z\) choose \(R\) with \(|z|\le
+      R\). For \(|n|>2R\) one has \(|z-n|^{-2}\le4/n^2\), giving absolute, locally
+      uniform convergence by the Weierstrass test. The terms are holomorphic on the
+      stated domain, hence so is their locally uniform sum. Absolute convergence permits
+      reindexing \(n\mapsto n-1\) when the argument increases by one.
+
+
+      For each \(z_0\ne0,1\) take a disc around it omitting both points and a holomorphic
+      logarithm there. Its values differ from the specified determination at each
+      point by \(2\pi i\) times an integer. Periodicity makes \(f(\log z/(2\pi i))\)
+      independent of the choice, even where the specified determination jumps. The
+      logarithm divided by \(2\pi i\) cannot lie in \(\mathbb Z\) on this disc, since
+      that would give \(z=1\); thus the local composition is analytic.
+
+
+      Near zero \(f(w)=w^{-2}+H(w)\), where \(H\) is holomorphic by the same convergence
+      test with the \(n=0\) term omitted. A holomorphic logarithm near 1 with value
+      zero there gives \(w=(z-1)/(2\pi i)+O((z-1)^2)\). Consequently \((z-1)^2g(z)\to(2\pi
+      i)^2=-4\pi^2\); the singularity is a double pole.
+
+      '
+    main_comparison: A summable inverse-square majorant gives locally uniform convergence
+      off the integers. Reindexing proves periodicity, permitting analytic local logarithms
+      to agree after composition. The log has a simple zero at one, producing the
+      same double-pole coefficient (2πi)².
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P3.pdf
+      source_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 7
+      compiled_pdf: build/IB-2004-P3/main.pdf
+      compiled_sha256: 7986c30cc43ea8fc05f5679f987f681701facd88ec55b2aa0df9edae2e14e88c
+      compiled_pages:
+      - 17
+      html: site/private/questions/IB/2004/P3/q17E/index.html
+      html_sha256: e81c242ef8113b281b38c149b288dcc96e7ec78a79d192dfde5e8e947d30aff5
+      math_nodes: 33
+      diagrams: {}
+      question_sha256: 1be15ad06211b2d446195cb8fac114e332d5f862ebd9a321fc8138bd3bf1061f
+      solution_sha256: 01e708a55795fb46d9b449836e99961d708b3d40a24c9de97d933401dc12a160
+      check_sha256: 085822ff2be97d1972d0066adcda6606e87541ca94fcd12f7c1e1c0e4ef2c5c7
+      check_exit: 0
+      check_stdout: Lattice sum reindexing and double-pole coefficient numerically
+        verified
+      check_stderr: ''
+    browser:
+      title: IB/2004/P3/q17E · Cambridge Maths
+      math: 33
+      rendered: 33
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P3/q7B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P3.pdf
+      original_pdf_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 3
+      question_packet_sha256: 0449c8ddadf5f5232bc41e0d59228287eaefacf57a232cdb45020e27cad45cf2
+      blind_rework_sha256: d06d557191ef01b8ec2d82c77d929cb1a8a9126ddf19e647bc4a160a038a4662
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P3/q7B
+
+
+      Orient the loop with normal \(+\hat z\). Its area is \(2\ell X\), so the moving-loop
+      flux rule gives \(\mathcal E=-2\ell\,d(XB)/dt\), including both flux variation
+      terms. The conducting loop length is \(2X+4\ell\), giving signed current \(I=\mathcal
+      E/[2R(X+2\ell)]\) in the resistive model. Positive loop current runs in \(+\hat
+      y\) on the moving rod, so its magnetic force from \(I\int d\mathbf l\times\mathbf
+      B\) is \(2\ell I B\,\hat x\). The moving mass is \(2\ell M\), hence
+
+      \[
+
+      M\ddot X=IB=-\frac{B}{R(X+2\ell)}\frac{d(X\ell B)}{dt}.
+
+      \]
+
+      For constant \(B\) the force opposes the rod velocity.
+
+      '
+    main_comparison: With positive-z orientation the moving-loop flux is 2 ell X B,
+      the resistance is 2R(X+2 ell), and the rod mass is 2 ell M. Substituting the
+      signed magnetic force gives the printed motion equation and damping for constant
+      B.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P3.pdf
+      source_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 3
+      compiled_pdf: build/IB-2004-P3/main.pdf
+      compiled_sha256: 7986c30cc43ea8fc05f5679f987f681701facd88ec55b2aa0df9edae2e14e88c
+      compiled_pages:
+      - 7
+      html: site/private/questions/IB/2004/P3/q7B/index.html
+      html_sha256: 7b7fbb200a0579b8b3398c5c9ddeece75b4b73a618670eafa8ac938b4611387b
+      math_nodes: 23
+      diagrams: {}
+      question_sha256: 0449c8ddadf5f5232bc41e0d59228287eaefacf57a232cdb45020e27cad45cf2
+      solution_sha256: 61240972f92bea6d22e304c0feaa08096acd9ccf254f576f37ac29cb411e0b65
+      check_sha256: 5d13cb3298d645bbe1798efad73e29752f57150ee30d0b1043784d55748d0c5b
+      check_exit: 0
+      check_stdout: Moving-rod force and constant-field mechanical-to-Joule power
+        balance verified
+      check_stderr: ''
+    browser:
+      title: IB/2004/P3/q7B · Cambridge Maths
+      math: 23
+      rendered: 23
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P3/q19B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P3.pdf
+      original_pdf_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 8
+      question_packet_sha256: cc08fe413aba5457d2ea1dfa0a54ef82367fffd4e15120b2f00f815ae141e295
+      blind_rework_sha256: 052cc2d57f947720b5357936402eff6b2da7d5f9327866d2fc8685446e0864d2
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P3/q19B
+
+
+      Faraday and Ampère–Maxwell give \(\nabla\times E=-\partial_tB\) and \(\nabla\times
+      B=\mu_0 J+\mu_0\epsilon_0\partial_t E\). Thus
+
+      \[
+
+      \frac1{\mu_0}\nabla\cdot(E\times B)
+
+      =\frac1{\mu_0}[B\cdot(\nabla\times E)-E\cdot(\nabla\times B)]
+
+      =-\partial_t\left(\frac{B^2}{2\mu_0}+\frac{\epsilon_0 E^2}{2}\right)-J\cdot
+      E.
+
+      \]
+
+      For the travelling wave the divergence equations hold. Equating the sine coefficients
+      in the curl equations yields \(kE_0=\omega B_0,\ k B_0=\epsilon_0\mu_0\omega
+      E_0\). For a nontrivial positive-frequency wave travelling in \(+z\), \(\omega/k=c=(\mu_0\epsilon_0)^{-1/2}\)
+      and \(B_0=E_0/c\). Writing \(C=\cos(kz-\omega t)\), one gets \(W=\epsilon_0
+      E_0^2 C^2\) and \(\mathbf S=(E_0 B_0/\mu_0)C^2\hat z=cW\hat z\). This equality
+      holds also at nodes. The printed paper calls \(c^2\) the speed; the speed is
+      \(c\), whose square is the displayed reciprocal.
+
+      '
+    main_comparison: Both Maxwell curl laws fix E0=cB0 and the energy flux has magnitude
+      c times energy density, including at a node. The original calls c squared the
+      speed. The parameter identity specifies the speed squared, with propagation
+      speed c.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P3.pdf
+      source_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 8
+      compiled_pdf: build/IB-2004-P3/main.pdf
+      compiled_sha256: 7986c30cc43ea8fc05f5679f987f681701facd88ec55b2aa0df9edae2e14e88c
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2004/P3/q19B/index.html
+      html_sha256: 6b67d555a5e2245b525b8a21293e10d7f6be7b5891c25d3b0823d63371ce748e
+      math_nodes: 30
+      diagrams: {}
+      question_sha256: cc08fe413aba5457d2ea1dfa0a54ef82367fffd4e15120b2f00f815ae141e295
+      solution_sha256: 7376dbed671865b46fbd97deaa6ce87c15979ab6c55e32588a379372e550517e
+      check_sha256: d244d6e9ecfb1f6f9af121458c852cf1c6e25389da1ad431c86475fa5febfc55
+      check_exit: 0
+      check_stdout: Travelling electromagnetic energy profile satisfies the conservation
+        law
+      check_stderr: ''
+    browser:
+      title: IB/2004/P3/q19B · Cambridge Maths
+      math: 30
+      rendered: 30
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P1/q9C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P1.pdf
+      original_pdf_sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+      source_page: 4
+      question_packet_sha256: 3c5d24b87dcfcdda1d43572f338648557cce0adafc7d1867d7da8ffceb167e18
+      blind_rework_sha256: b4e397b6aca8e48596c7f2187ad711a81b60a36272cfade66c85c50102e1ec82
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P1/q9C
+
+
+      Continuity gives \(\partial_t\rho+\nabla\cdot(\rho u)=D\rho/Dt+\rho\,\nabla\cdot
+      u=0\). Each incompressible fluid element preserves its positive density, so
+      the divergence vanishes. For \(r^2=x^2+y^2>0\), the two terms in the displayed
+      field''s divergence are \(-2xy/r^4\) and \(2xy/r^4\). Taking \(\psi=\frac12\log(x^2+y^2)+C\)
+      gives \(\psi_y=y/r^2\) and \(-\psi_x=-x/r^2\). The singular point is excluded.
+
+      '
+    main_comparison: Positive parcel density and mass conservation imply vanishing
+      divergence. On the punctured plane the two derivative terms cancel and half
+      the logarithm of the squared radius has the two required signed derivatives.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P1.pdf
+      source_sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+      source_page: 4
+      compiled_pdf: build/IB-2004-P1/main.pdf
+      compiled_sha256: bd132d3d6e0823dd519122c522571fd74da73a1bcd070c5c747b1f3f58e21571
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2004/P1/q9C/index.html
+      html_sha256: a040e3262874a5efd926e9a972e618a162cc7061047e780806248415f77f1247
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: 3c5d24b87dcfcdda1d43572f338648557cce0adafc7d1867d7da8ffceb167e18
+      solution_sha256: c35503e4d8df3c6d135aa5b973d2e2bf87d180f8db0a01a14259a80a2524f3eb
+      check_sha256: ee5d926611f8122970b38cd377783b886964015bfa381355361ccd0609b81c20
+      check_exit: 0
+      check_stdout: Divergence and both oriented streamfunction derivatives verified
+      check_stderr: ''
+    browser:
+      title: IB/2004/P1/q9C · Cambridge Maths
+      math: 16
+      rendered: 16
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P3/q10C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P3.pdf
+      original_pdf_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 4
+      question_packet_sha256: d37a2b283878c9ec9f6db2aade132f69d99a69dc1b41d08f1afc18e48a85bfd5
+      blind_rework_sha256: e1bc72e54cc8c762bfa096d8cb414eb951d6513d79239fd64f3b5f2e8a5099fa
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P3/q10C
+
+
+      Using \(u=\nabla\phi\), unsteady Bernoulli for constant density is \(\partial_t\phi+\frac12|\nabla\phi|^2+p/\rho+\chi=F(t)\)
+      in the connected fluid. Take a fixed arclength coordinate increasing from the
+      descending to the rising free surface. Incompressibility, constant section and
+      the long-tube (one-dimensional) approximation give a common signed velocity
+      \(\dot\zeta\), so \(\phi=s\dot\zeta+A(t)\) and the partial derivative at fixed
+      \(s\) is \(s\ddot\zeta+A''(t)\). The free surfaces have heights \(h-\zeta\)
+      and \(h+\zeta\), equal atmospheric pressures and equal squared speeds. The fluid
+      length is \(2h\) in the idealisation neglecting the base bend. Subtracting Bernoulli
+      at those surfaces gives \(2h\ddot\zeta+2g\zeta=0\). If a finite bend length
+      is retained the exact one-dimensional coefficient is half the total fluid length.
+
+      '
+    main_comparison: At equal surface pressures the kinetic terms in unsteady Bernoulli
+      cancel. The potential time derivatives must be taken at fixed arclength. Twice
+      the equilibrium height represents the liquid length only when the bend length
+      is negligible. With a finite bend the oscillator coefficient becomes half the
+      actual length.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P3.pdf
+      source_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 4
+      compiled_pdf: build/IB-2004-P3/main.pdf
+      compiled_sha256: 7986c30cc43ea8fc05f5679f987f681701facd88ec55b2aa0df9edae2e14e88c
+      compiled_pages:
+      - 10
+      html: site/private/questions/IB/2004/P3/q10C/index.html
+      html_sha256: 08abc5b8b36d27049e09ac131febcda9113ce3a3d81400892848a919832dbb59
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: d37a2b283878c9ec9f6db2aade132f69d99a69dc1b41d08f1afc18e48a85bfd5
+      solution_sha256: 1c962e62b071c67b9fd74b69879620c3ec3ea2ef31b3e2df89057751d3ca87da
+      check_sha256: 3a1cc424c2fc5e48285ace8eccfcb3963f5dc3d78ea953f153838799810f747c
+      check_exit: 0
+      check_stdout: Surface head difference gives the expected oscillation frequency
+      check_stderr: ''
+    browser:
+      title: IB/2004/P3/q10C · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P1/q1H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P1.pdf
+      original_pdf_sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+      source_page: 2
+      question_packet_sha256: 89596c787ef5cab54392568f9021a236c9395be1fc0ec5412abd5d972df4b6c3
+      blind_rework_sha256: dcade77821478f9e9692e104ab4e03d281a281fe207c30a47115c3f9738e965d
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P1/q1H
+
+
+      Write \(e_{r+1}=\sum_{i=1}^r a_i e_i+\sum_{j=r+1}^m b_j f_j\), using the spanning
+      hypothesis. At least one \(b_j\) is nonzero, because otherwise the independent
+      set of \(r+1\) vectors satisfies a relation with last coefficient 1. Move this
+      \(f_j\) to slot \(r+1\). Solving the displayed identity for it shows that every
+      old generator belongs to the new span, hence the new list spans.
+
+
+      Start with the \(m\) vectors \(f_j\) and insert successive \(e_i\) in this manner
+      while \(i\le \min(m,n)\). If \(n>m\), after \(m\) steps the first \(m\) vectors
+      \(e_i\) span, making \(e_{m+1}\) dependent on them. This contradiction proves
+      \(n\le m\), including \(m=0\) by the empty-span convention.
+
+      '
+    main_comparison: Independence forces a nonzero coefficient from the unreplaced
+      spanning vectors. Solving for that vector preserves spanning after exchange.
+      Iterating exhausts any shorter spanning list, contradicting a further independent
+      vector.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P1.pdf
+      source_sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+      source_page: 2
+      compiled_pdf: build/IB-2004-P1/main.pdf
+      compiled_sha256: bd132d3d6e0823dd519122c522571fd74da73a1bcd070c5c747b1f3f58e21571
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2004/P1/q1H/index.html
+      html_sha256: a357267d79988ce1bd41cc6ada4173e006ae5e1de7268ce4d7195c27c1be9ba8
+      math_nodes: 25
+      diagrams: {}
+      question_sha256: 89596c787ef5cab54392568f9021a236c9395be1fc0ec5412abd5d972df4b6c3
+      solution_sha256: 205cad5901c093ac0109195c21fbfea75e1295858d66f09a6bbe5f44e9c02bd3
+      check_sha256: ac67593a90d3addd26407c1483cf93df9a5fab5a989d70560f203b382ac45428
+      check_exit: 0
+      check_stdout: An exchange preserves spanning exactly for the nonzero pivot coefficients
+      check_stderr: ''
+    browser:
+      title: IB/2004/P1/q1H · Cambridge Maths
+      math: 25
+      rendered: 25
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P4/q11E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P4.pdf
+      original_pdf_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 5
+      question_packet_sha256: f0a9075a14c367271c3cc4329437883973e65575a03101b9b6c5025818ee914f
+      blind_rework_sha256: 9c44cac0e205f4f065d23df680b5b2240c31e06abfecce84f60c2acacbe2f008
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P4/q11E
+
+
+      In positive dimension the characteristic polynomial over \(\mathbb C\) has a
+      root, giving an eigenvector \(u\), which can be normalised. Its eigenvalue \(\lambda\)
+      is real since \(\langle\alpha u,u\rangle\) is real by Hermitian symmetry. For
+      \(w\perp u\) one has \(\langle\alpha w,u\rangle=\langle w,\alpha u\rangle=0\).
+      The orthogonal complement is invariant and its restriction is Hermitian. Induction
+      on dimension, starting with dimension zero, supplies an orthonormal eigenbasis
+      of the complement. Appending \(u\) proves (i).
+
+
+      Since \((\alpha\beta)^*=\beta^*\alpha^*=\beta\alpha\), equality to its own adjoint
+      is equivalent to commutation.
+
+
+      For positive-definite \(\alpha\), each eigenvalue equals its positive Rayleigh
+      quotient. On the mutually orthogonal eigenspaces \(E_\lambda\) define \(\beta=\sqrt\lambda\,\mathrm{Id}\).
+      Its diagonal form shows it is Hermitian, strictly positive on nonzero vectors,
+      and squares to \(\alpha\). Any other positive Hermitian root \(\gamma\) commutes
+      with \(\alpha=\gamma^2\), so preserves every \(E_\lambda\). Its restriction
+      there has an orthonormal eigenbasis by (i), and every eigenvalue is positive
+      and has square \(\lambda\). The restriction is therefore \(\sqrt\lambda\,\mathrm{Id}\)
+      throughout that eigenspace, proving uniqueness even with repeated eigenvalues.
+
+      '
+    main_comparison: An eigenvector exists in positive complex dimension and its orthogonal
+      complement is invariant. Induction diagonalizes the Hermitian operator. Reversing
+      the adjoint product gives the commutation criterion. Any positive root commutes
+      with its square and must equal the scalar positive root on each eigenspace.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P4.pdf
+      source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 5
+      compiled_pdf: build/IB-2004-P4/main.pdf
+      compiled_sha256: 721b8fc57a08ee72d7e343e8ea48709cde446fb92207eebbff16a64bb5584c53
+      compiled_pages:
+      - 11
+      html: site/private/questions/IB/2004/P4/q11E/index.html
+      html_sha256: 2f0a22bf6c29f5e59c079034bc79a180ced7f02594e2e674cfa343ac7f16a338
+      math_nodes: 29
+      diagrams: {}
+      question_sha256: f0a9075a14c367271c3cc4329437883973e65575a03101b9b6c5025818ee914f
+      solution_sha256: 2613f4da16ed025c696f1f142c673a9fa1727965ddce4e640aa6c3807b4652c2
+      check_sha256: 683e0564d1996b29d89cbee968b66c895ad530240b30bcdafcd17f731822fff6
+      check_exit: 0
+      check_stdout: Hermitian positive square root and noncommuting product checked
+      check_stderr: ''
+    browser:
+      title: IB/2004/P4/q11E · Cambridge Maths
+      math: 29
+      rendered: 29
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P2/q11H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P2.pdf
+      original_pdf_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 4
+      question_packet_sha256: 6fcf41cb1971edf2486e068f4f20e79e849151aa86f663862729474810e53b60
+      blind_rework_sha256: 73d26cb9db02cdc77f263a7e771532a72dcb2850971ca0135e529d565d8818f2
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P2/q11H
+
+
+      Reversibility in the invariant initial law means that the joint law of \((X_0,\ldots,X_n)\)
+      equals that of \((X_n,\ldots,X_0)\) for every \(n\). For \(n=1\) this gives
+      detailed balance by evaluating the pair \((i,j)\). Conversely the Markov property
+      gives each path probability \(\pi_{i_0}P_{i_0 i_1}\cdots P_{i_{n-1}i_n}\). Replacing
+      the first factor pair by \(\pi_{i_1}P_{i_1 i_0}\), then replacing the new pair
+      at each subsequent edge by detailed balance, yields \(\pi_{i_n}\prod_{k=1}^n
+      P_{i_k i_{k-1}}\). This is the probability of the reversed path. There is no
+      division by possibly zero transition probabilities.
+
+      '
+    main_comparison: Stationarity with irreducibility gives positive mass to each
+      state. Two-time reversal yields detailed balance. Conversely the ratios telescope
+      along any finite path and give identical forward and backward path probabilities,
+      including paths with zero probability.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P2.pdf
+      source_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 4
+      compiled_pdf: build/IB-2004-P2/main.pdf
+      compiled_sha256: 99c250db92b3f2a32ed637fc5a8de7f39ffaf76e9d155279849014e03ead5609
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2004/P2/q11H/index.html
+      html_sha256: 4218a981430a672129cd38b56fd9431e0128419ee27c01b2ff574169a73b74e1
+      math_nodes: 16
+      diagrams: {}
+      question_sha256: 6fcf41cb1971edf2486e068f4f20e79e849151aa86f663862729474810e53b60
+      solution_sha256: 40f23020cc167e6b040a734d186978c21755ac7258835e1cbd329a40de248ae6
+      check_sha256: b60d74860373769de7ef2bf67b43b9bb3daa5f46e15fe8cf2bd7f20c80bf1b37
+      check_exit: 0
+      check_stdout: All 64 stationary path probabilities equal their reversals
+      check_stderr: ''
+    browser:
+      title: IB/2004/P2/q11H · Cambridge Maths
+      math: 16
+      rendered: 16
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P2/q17B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P2.pdf
+      original_pdf_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 6
+      question_packet_sha256: daaaaea1fab0f2b392e32633fc91c61d340f0b417827c78ae66bb98ea82d9f3e
+      blind_rework_sha256: b0f03939a5ecaadb152abcaf2dcf9c7403a19c9898cd67fe90bf59fb60e56102
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: "# Independent rework of IB/2004/P2/q17B\n\nWrite \\(r\\)\
+      \ for displacement from the centre of mass. The displacement from \\(P\\) is\
+      \ \\(r-X\\), so integrate \\(|r-X|^2\\delta_{ij}-(r_i-X_i)(r_j-X_j)\\) against\
+      \ \\(dm\\). Every mixed term integrates to zero because \\(\\int r\\,dm=0\\\
+      ), yielding \\(I(G)+M(|X|^2\\mathrm{Id}-XX^T)\\).\n\nIn the cube each coordinate\
+      \ is uniformly distributed on \\([-a,a]\\) under \\(dm/M\\), with second moment\
+      \ \\(a^2/3\\); every cross moment vanishes by reflection. Hence \\(I(G)=(2Ma^2/3)\\\
+      mathrm{Id}\\). With \\(v=(1,1,1)^T\\),\n\\[\n I(P)=Ma^2\\big[(11/3)\\mathrm{Id}-vv^T\\\
+      big].\n\\]\nIts diagonal entries are \\(8Ma^2/3\\), its off-diagonal entries\
+      \ \\(-Ma^2\\). Along \\(v\\) the eigenvalue is \\(2Ma^2/3\\). On \\(x+y+z=0\\\
+      ) the eigenvalue is \\(11Ma^2/3\\) with multiplicity two; independent choices\
+      \ are \\((1,-1,0)\\) and \\((1,1,-2)\\).\n"
+    main_comparison: First moments vanish about the centre of mass, giving the translation
+      formula for inertia. For the corner the body diagonal retains eigenvalue 2Ma²/3,
+      while the perpendicular plane has eigenvalue 11Ma²/3.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P2.pdf
+      source_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 6
+      compiled_pdf: build/IB-2004-P2/main.pdf
+      compiled_sha256: 99c250db92b3f2a32ed637fc5a8de7f39ffaf76e9d155279849014e03ead5609
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2004/P2/q17B/index.html
+      html_sha256: 9a6215724756e077b5477ff65173e5146c2dfebbc703adc295e710befc067eb8
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: daaaaea1fab0f2b392e32633fc91c61d340f0b417827c78ae66bb98ea82d9f3e
+      solution_sha256: 4a99e0ae84ec44030721ef8d5425e4f22bcc6209b5989642ffd12a48daa13696
+      check_sha256: b7d7f430296747e1327310357c91e235a63a8240e15f5fe398746f6ae2ecd1b2
+      check_exit: 0
+      check_stdout: Cube quadrature about the corner gives eigenvalues [0.66666667
+        3.66666667 3.66666667]
+      check_stderr: ''
+    browser:
+      title: IB/2004/P2/q17B · Cambridge Maths
+      math: 26
+      rendered: 26
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P1/q6B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P1.pdf
+      original_pdf_sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+      source_page: 3
+      question_packet_sha256: afc6f523a5ebf136dac372f6128cf9bf2a11c40d2375302854fac3d478c0a602
+      blind_rework_sha256: 74f613998f6dcd1803c3e15deeca04ab93a2acded9a98a2f3759d5b0a724f8f3
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P1/q6B
+
+
+      In three dimensions the isotropic rank-two and rank-three tensors under proper
+      rotations are \(a\delta_{ij}\) and \(b\epsilon_{ijk}\), respectively. If invariance
+      under every orthogonal transformation is required for an ordinary polar rank-three
+      tensor, inversion further forces \(b=0\). In an isotropic material \(\sigma_{ij}=b\epsilon_{ijk}B_k\)
+      changes sign on exchanging \(i,j\). The required stress symmetry therefore gives
+      \(\sigma_{ij}=0\) for every applied field. A nonzero linear stress of the specified
+      type requires anisotropy.
+
+      '
+    main_comparison: The only proper-rotation invariant rank-three tensor is a multiple
+      of the alternating tensor. Its contraction with a field is antisymmetric in
+      its two free indices, while mechanical stress is symmetric, forcing the response
+      to vanish.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P1.pdf
+      source_sha256: 5ae6aab6b939bc6fc426009bf67e1ca8a23d22954dbdeb194d6b306ec8d91611
+      source_page: 3
+      compiled_pdf: build/IB-2004-P1/main.pdf
+      compiled_sha256: bd132d3d6e0823dd519122c522571fd74da73a1bcd070c5c747b1f3f58e21571
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2004/P1/q6B/index.html
+      html_sha256: 8e037597bef9b6feb78935f9b2079b8da9f125a950a8bfdce3c126b9b5793b73
+      math_nodes: 11
+      diagrams: {}
+      question_sha256: afc6f523a5ebf136dac372f6128cf9bf2a11c40d2375302854fac3d478c0a602
+      solution_sha256: 332bdacd4b323b72ee61900b5b12a7b5219db3573dc272b7558b204dc2e2d2cf
+      check_sha256: 2b00ad93ec5123e877466dfd793a07178883263d2fc42d91f48dce9f64eb2afd
+      check_exit: 0
+      check_stdout: Alternating contraction has identically zero symmetric part [[0.0,
+        0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+      check_stderr: ''
+    browser:
+      title: IB/2004/P1/q6B · Cambridge Maths
+      math: 11
+      rendered: 11
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P2/q9A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P2.pdf
+      original_pdf_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 3
+      question_packet_sha256: f218c4a93e7d084790c585b247a8393c6956739444567afa958243c34608ff30
+      blind_rework_sha256: bba78d783553f991340931843cb3f9aa7be532626da2a515ec43e29417c63e9b
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P2/q9A
+
+
+      The moments of the measure \(x\,dx\) on \([0,1]\) are \(m_j=1/(j+2)\). For cubic
+      exactness the monic node polynomial \(p=x^2+Ax+B\) is orthogonal to \(1,x\),
+      because the putative rule vanishes on \(p,xp\). Thus \(1/4+A/3+B/2=0,\ 1/5+A/4+B/3=0\).
+      Solving gives \(A=-6/5,\ B=3/10\) and nodes \(r_\pm=(6\pm\sqrt6)/10\). The constant
+      and linear moment equations \(w_-+w_+=1/2,\ w_-r_-+w_+r_+=1/3\) give \(w_\pm=1/4\pm\sqrt6/36\).
+      The requested rule is \(w_- f(r_-)+w_+f(r_+)\). Every cubic divides by \(p\)
+      with linear quotient and at most linear remainder, so the four moment conditions
+      suffice. The positive integral of \(p^2\) precludes quartic exactness.
+
+      '
+    main_comparison: Orthogonality of the monic two-node polynomial to 1 and x gives
+      nodes (6±√6)/10. The constant and linear moments fix weights 1/4±√6/36 with
+      matching signs. Division by the nodal polynomial proves cubic exactness.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P2.pdf
+      source_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 3
+      compiled_pdf: build/IB-2004-P2/main.pdf
+      compiled_sha256: 99c250db92b3f2a32ed637fc5a8de7f39ffaf76e9d155279849014e03ead5609
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2004/P2/q9A/index.html
+      html_sha256: 211076f2851c7cc8587a1496d0df859f31a4fde5db94df2e6bb48c8b02d91776
+      math_nodes: 17
+      diagrams: {}
+      question_sha256: f218c4a93e7d084790c585b247a8393c6956739444567afa958243c34608ff30
+      solution_sha256: e23293aede57bf4efe3240489e796904c76d24cb3458450d15c54f78250236d2
+      check_sha256: 2b8a70f44da2172c0e5367b0303c5a76b8a1dcf019b66e858256b9b4342ba524
+      check_exit: 0
+      check_stdout: All four weighted moments match exactly
+      check_stderr: ''
+    browser:
+      title: IB/2004/P2/q9A · Cambridge Maths
+      math: 17
+      rendered: 17
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P3/q20D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P3.pdf
+      original_pdf_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 9
+      question_packet_sha256: 874170fca039d6b1fb6ab6b0bfa2511838fe547b220f826223e24d85d399de4f
+      blind_rework_sha256: 700d2d5eedd088222637538fbd5b35efd43b54ab0b5ed48c9603ddcfe0db9cd2
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P3/q20D
+
+
+      For scattering let \(k=\sqrt\epsilon>0\), \(K=\sqrt{U-\epsilon}>0\). The real
+      potential conserves probability current. In each free region the current is
+      \((\hbar k/m)\) times right-moving intensity minus left-moving intensity, so
+      \(|a|^2-|c|^2=|d|^2-|b|^2\). The equal exterior wave numbers give the stated
+      incoming/outgoing identity.
+
+
+      Set \(C=\cosh KL,\ S=\sinh KL,\ \lambda=K/(ik)\). Continuity of the wave and
+      first derivative at the finite jumps gives
+
+      \[
+
+      a+c=e,\quad ik(a-c)=Kf,\quad d+b=eC+fS,\quad ik(d-b)=K(eS+fC).
+
+      \]
+
+      Subtract the last equation divided by \(ik\) from the preceding one. Substitution
+      of \(e=a+c,\ f=(a-c)/\lambda\) gives
+
+      \[
+
+      2b=2Cc-(\lambda+\lambda^{-1})Sc-(\lambda-\lambda^{-1})Sa.
+
+      \]
+
+      Thus \(c=[b+(\lambda-\lambda^{-1})Sa/2]/D\), where \(D=C-(\lambda+\lambda^{-1})S/2\).
+      Reflection \(x\mapsto L-x\) interchanges \(a,b\) and \(c,d\) with the given
+      boundary phase conventions and leaves the barrier invariant. It gives \(d=[a+(\lambda-\lambda^{-1})Sb/2]/D\).
+
+
+      With incidence only from the left, \(T\) is transmitted divided by incident
+      flux, hence \(T=|d/a|^2=1/|D|^2\). Here \(\lambda=-iK/k\), so
+
+      \[
+
+      |D|^2=C^2+\tfrac14(k/K-K/k)^2S^2
+
+      =1+\frac{(k^2+K^2)^2}{4k^2K^2}S^2.
+
+      \]
+
+      This is positive for every \(L\). As \(KL\to\infty\), \(S^2\sim e^{2KL}/4\)
+      and
+
+      \(T\sim16\epsilon(U-\epsilon)e^{-2\sqrt{U-\epsilon}L}/U^2\) for fixed \(0<\epsilon<U\).
+
+      '
+    main_comparison: Current conservation requires a real barrier and a propagating
+      exterior wave. The four interface equations and reflection about the midpoint
+      agree with both scattering amplitudes. At fixed energy between zero and U the
+      large-width prefactor is 16 times epsilon times (U minus epsilon) over U squared.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P3.pdf
+      source_sha256: 585b139233591041b98abe33c88304ee375754c635fdde0c1b5a51acce5ec1dc
+      source_page: 9
+      compiled_pdf: build/IB-2004-P3/main.pdf
+      compiled_sha256: 7986c30cc43ea8fc05f5679f987f681701facd88ec55b2aa0df9edae2e14e88c
+      compiled_pages:
+      - 21
+      - 22
+      html: site/private/questions/IB/2004/P3/q20D/index.html
+      html_sha256: 9b5666f7f5661bcdcee545576e13255a853b2d00170c0e6433605506a6b93cef
+      math_nodes: 40
+      diagrams: {}
+      question_sha256: 874170fca039d6b1fb6ab6b0bfa2511838fe547b220f826223e24d85d399de4f
+      solution_sha256: 48d5270cca1068c53a426709e5899df989790aa6487f20332c4ca339d7ec4af3
+      check_sha256: dc608bd95f1b6823dbbbcfdde80da81850b49fe9df83cea6e28d8c9bb1d2aabd
+      check_exit: 0
+      check_stdout: Both interfaces, two-sided current balance and the transmission
+        denominator checked
+      check_stderr: ''
+    browser:
+      title: IB/2004/P3/q20D · Cambridge Maths
+      math: 40
+      rendered: 40
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P2/q8D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P2.pdf
+      original_pdf_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 3
+      question_packet_sha256: f3b956e9f5ea2b24e0706915d327caa38ce5baeb40625be79512caf91d87c204
+      blind_rework_sha256: 6475b3e73d15bfde49d7fcd49b593a1f02448694aad0c83f0e710fc83708d763
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P2/q8D
+
+
+      The eigenvectors form an orthonormal basis. The initial state is \(\cos\theta\,\psi_0-\sin\theta\,\psi_1\).
+      Each component acquires the phase \(\exp(-iE_jt/\hbar)\). The second coordinate
+      of the resulting state is therefore \(\sin\theta\cos\theta(e^{-iE_0t/\hbar}-e^{-iE_1t/\hbar})\).
+      Its squared modulus is
+
+      \[
+
+      \sin^2(2\theta)\sin^2\!\left(\frac{(E_1-E_0)t}{2\hbar}\right).
+
+      \]
+
+      It vanishes at \(t=0\) and for degenerate energies.
+
+      '
+    main_comparison: Changing from the coordinate basis to the orthonormal energy
+      basis and evolving both phases gives a transition probability equal to the product
+      of sine squared of twice the mixing angle and sine squared of half the relative
+      phase. Degeneracy gives zero.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P2.pdf
+      source_sha256: c8c7b0f49c229872238dbb04dc50216cf3b1f1ec062ac89a1ef522992a41901c
+      source_page: 3
+      compiled_pdf: build/IB-2004-P2/main.pdf
+      compiled_sha256: 99c250db92b3f2a32ed637fc5a8de7f39ffaf76e9d155279849014e03ead5609
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2004/P2/q8D/index.html
+      html_sha256: 864a0de7a8ab6408af6f903eb257ae5df7fed8cd4c7aaa019ac191aac26ec09a
+      math_nodes: 13
+      diagrams: {}
+      question_sha256: f3b956e9f5ea2b24e0706915d327caa38ce5baeb40625be79512caf91d87c204
+      solution_sha256: 6977ac488d8c4494439c304585ff57822fdeda947236640c5468934e8d716160
+      check_sha256: e4cd92367baefc1e7bc82765e5cefc56817dcc617b7b41ae736a227927c06952
+      check_exit: 0
+      check_stdout: Direct unitary evolution matches all sampled transition probabilities
+      check_stderr: ''
+    browser:
+      title: IB/2004/P2/q8D · Cambridge Maths
+      math: 13
+      rendered: 13
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P4/q9H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P4.pdf
+      original_pdf_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 4
+      question_packet_sha256: 0d2ce39599912a62996cfdad47577b382ea04efe33c23d04faac809a17b5bba0
+      blind_rework_sha256: dbac5f358b707997741b3ad61cdfb7ebb8ee0b9823f356cacc8311c25668b082
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P4/q9H
+
+
+      Let \(Q=\sum_i x_i^2\). For \(Q>0\), \(\sum(Y_i-bx_i)^2\) has derivative \(2Qb-2\sum
+      x_iY_i\) and positive second derivative \(2Q\). Thus \(\hat\beta=\sum x_iY_i/Q\).
+      Set \(s^2=(n-1)^{-1}\sum(Y_i-\hat\beta x_i)^2\) for \(n\ge2\). In an orthonormal
+      basis whose first direction is \(x/\sqrt Q\), the first coordinate of \(Y\)
+      is \(\sqrt Q\,\hat\beta\sim N(\sqrt Q\,\beta,\sigma^2)\). The other \(n-1\)
+      coordinates are independent \(N(0,\sigma^2)\) and independent of the first coordinate
+      by spherical Gaussian covariance. Their squared sum is the residual sum of squares,
+      hence \((n-1)s^2/\sigma^2\sim\chi^2_{n-1}\). For positive \(\sigma^2\) the null
+      distribution of \(T=\sqrt Q\,\hat\beta/s\) is Student \(t_{n-1}\). Reject at
+      level \(\alpha\) if \(|T|>t_{n-1,1-\alpha/2}\), with two-sided \(p\)-value \(2[1-F_{t_{n-1}}(|T|)]\).
+      If all \(x_i=0\), every slope minimizes and the data carry no information about
+      it. For \(n=1\) there is no residual degree of freedom for this unknown-variance
+      test.
+
+      '
+    main_comparison: Projection onto a nonzero design gives the slope and leaves independent
+      Gaussian residual coordinates. Their sum of squares supplies the Student denominator
+      with n−1 degrees of freedom. A zero design or a single observation invalidates
+      the usual two-sided test.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P4.pdf
+      source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 4
+      compiled_pdf: build/IB-2004-P4/main.pdf
+      compiled_sha256: 721b8fc57a08ee72d7e343e8ea48709cde446fb92207eebbff16a64bb5584c53
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2004/P4/q9H/index.html
+      html_sha256: 969634d27e5d894515f0939fc1e9324eb0a1b181f6981a4302355a06995ac754
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: 0d2ce39599912a62996cfdad47577b382ea04efe33c23d04faac809a17b5bba0
+      solution_sha256: d7d9540fe937fda334e0ff7f16b4da121254f42d375aab442b8181563224257f
+      check_sha256: 3153bb2be03e8a7624eb30bd5af879a1882bda0ea523744c854aa04207327ab9
+      check_exit: 0
+      check_stdout: Regression through the origin separates fitted and residual sums
+        of squares
+      check_stderr: ''
+    browser:
+      title: IB/2004/P4/q9H · Cambridge Maths
+      math: 26
+      rendered: 26
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2004/P4/q19H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2004/P4.pdf
+      original_pdf_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 9
+      question_packet_sha256: ef2dc8e77e54625b61e1e24e5f5a89bc01f55ab18ba83ed1c5a040febd68bb12
+      blind_rework_sha256: a7788ba8ba2572ea6c68967443d8ec4e97eade99d98ffe634553a316cd4f32be
+      transcription_discrepancies: []
+      question_figure_sha256: {}
+    independent_rework: '# Independent rework of IB/2004/P4/q19H
+
+
+      For a decision \(\delta(X)\), condition its loss on \(X\). The Bayes risk is
+      \(\int m(x)\int L(\theta,\delta(x))\pi(\theta\mid x)\,d\theta\,dx\), with \(m\)
+      the predictive density. For nonnegative or integrable loss, pointwise minimisation
+      of the inner expectation yields a Bayes rule (up to predictive null sets, with
+      a measurable minimiser).
+
+
+      Write \(r=\mu+x>0\). The posterior density is proportional to \(\theta e^{-r\theta}\)
+      for \(\theta>0\). Its integral before normalization is \(1/r^2\), so the posterior
+      is Gamma with shape 2 and rate \(r\). For squared loss the posterior risk is
+      the posterior variance plus \((a-\mathbb E[\theta\mid x])^2\); the minimiser
+      is \(2/r\).
+
+
+      With relative absolute loss the posterior risk is \(r^2\int_0^\infty|\theta-a|e^{-r\theta}\,d\theta\).
+      Up to a positive factor, this is ordinary absolute loss for an exponential distribution
+      with rate \(r\). For \(a<0\) the risk decreases as \(a\) increases; for \(a\ge0\)
+      its derivative divided by \(r\) equals \(2(1-e^{-ra})-1\). The unique minimum
+      is its median \(\log(2)/r\).
+
+      '
+    main_comparison: Conditioning Bayes risk gives pointwise posterior minimization.
+      The posterior is gamma with shape two and rate μ+x. Its mean gives squared-error
+      action 2/(μ+x), while inverse-parameter reweighting gives an exponential median
+      log(2)/(μ+x).
+    delivery:
+      source_pdf: private/raw/tripos/IB/2004/P4.pdf
+      source_sha256: f84848e90feb7b60f7199dfdf6d14efa1f92c099db653174b6993aad2597f488
+      source_page: 9
+      compiled_pdf: build/IB-2004-P4/main.pdf
+      compiled_sha256: 721b8fc57a08ee72d7e343e8ea48709cde446fb92207eebbff16a64bb5584c53
+      compiled_pages:
+      - 20
+      html: site/private/questions/IB/2004/P4/q19H/index.html
+      html_sha256: a3bfc574a5d9c0e6bbc36951f63cd5f342b3bc2a58cc7783c3cb3c4f58c9140e
+      math_nodes: 31
+      diagrams: {}
+      question_sha256: ef2dc8e77e54625b61e1e24e5f5a89bc01f55ab18ba83ed1c5a040febd68bb12
+      solution_sha256: 01747abffd3fcb76bbe8973243802b052924d3e288ff07258c7c14e7f5381182
+      check_sha256: 1149916dfb37fb00db1f3c0ec3f05dac9807748c5c381370526886a4d67db82e
+      check_exit: 0
+      check_stdout: Posterior means and weighted posterior medians verified by integration
+      check_stderr: ''
+    browser:
+      title: IB/2004/P4/q19H · Cambridge Maths
+      math: 31
+      rendered: 31
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []

@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 9
 alternatives: []
-instructions: You should attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the credit of each question in Section I. No absolute
-  mark values are printed.
+instructions: You should attempt at most four questions from Section I and at most
+  six questions from Section II.
+marks_note: Each question in Section II carries twice the credit of each question
+  in Section I. No absolute mark values are printed.
 date: '2003-06-04'
 printed_date: Wednesday 4 June 2003
 time: 1.30 to 4.30
@@ -24,20 +24,24 @@ sha256: 074e1d64d7da559ab528df312e62d9eec1b58d95cb5fa14794fb23c675964233
 multi_page_questions: []
 cover:
 - Before you begin read these instructions carefully.
-- Each question in Section II carries twice the credit of each question in Section I.
-- You should attempt at most four questions from Section I and at most six questions from Section II.
+- Each question in Section II carries twice the credit of each question in Section
+  I.
+- You should attempt at most four questions from Section I and at most six questions
+  from Section II.
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
 - 'At the end of the examination:'
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the code letter affixed to each
-  question, including in the same bundle questions from Sections I and II with the same code letter.
-- Attach a completed blue cover sheet to each bundle; write the code letter in the box marked ‘SECTION’ on
-  the cover sheet.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the code
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same code letter.
+- Attach a completed blue cover sheet to each bundle; write the code letter in the
+  box marked ‘SECTION’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2003/P2/q1F
   original_question: 1F
@@ -51,6 +55,29 @@ questions:
   question_sha256: dd7c87c90efc1aae672a6baf8f2bcad00492930fb119f4e200754737caab16d2
   checks: Map into R to the first power and the exceptional value at the origin.
   source_page_render_sha256: ce76d15025498e8e91094f7f928c6e1ac7608619d9ce22592fb98c5dd85c3ecf
+  faculty_collection:
+    collection_page: 2
+    printed_course: Analysis II
+    section: I
+    body_glyphs: 316
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 316
+    proof_body_glyph_count: 316
+    physical_pages:
+    - 2
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 316
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - ce76d15025498e8e91094f7f928c6e1ac7608619d9ce22592fb98c5dd85c3ecf
+    dpi: 145
+    question_sha256: dd7c87c90efc1aae672a6baf8f2bcad00492930fb119f4e200754737caab16d2
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q2C
   original_question: 2C
   page: 2
@@ -62,10 +89,34 @@ questions:
   also_courses:
   - IB/methods
   question_sha256: 6f1b535ab32a7ecf111cf0524e3011cf6ee01c4cff6ec70a5fca6bc0e55667a8
-  checks: Both translated factors in the integral and eigenspaces relative to the vector y.
+  checks: Both translated factors in the integral and eigenspaces relative to the
+    vector y.
   source_page_render_sha256: ce76d15025498e8e91094f7f928c6e1ac7608619d9ce22592fb98c5dd85c3ecf
-  course_mapping_note: Current Vector Calculus teaches Cartesian tensor transformation laws and isotropic tensors
-    (physical schedule p. 13).
+  course_mapping_note: Current Vector Calculus teaches Cartesian tensor transformation
+    laws and isotropic tensors (physical schedule p. 13).
+  faculty_collection:
+    collection_page: 19
+    printed_course: Methods
+    section: I
+    body_glyphs: 394
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 394
+    proof_body_glyph_count: 394
+    physical_pages:
+    - 2
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 394
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - ce76d15025498e8e91094f7f928c6e1ac7608619d9ce22592fb98c5dd85c3ecf
+    dpi: 145
+    question_sha256: 6f1b535ab32a7ecf111cf0524e3011cf6ee01c4cff6ec70a5fca6bc0e55667a8
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q3H
   original_question: 3H
   page: 2
@@ -75,9 +126,36 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: 85264dd46a75ad0c00daafeac518971a4515ed97476a58b3f261ef05ddd953a4
+  question_sha256: 9366c76f60a263e447eb96e0c15c1f104534d2379a9c328eeceb1f437b8c19fd
   checks: Normal prior with three known parameters and both loss functions.
   source_page_render_sha256: ce76d15025498e8e91094f7f928c6e1ac7608619d9ce22592fb98c5dd85c3ecf
+  previous_question_sha256: 85264dd46a75ad0c00daafeac518971a4515ed97476a58b3f261ef05ddd953a4
+  typography_qualifications:
+  - 'Restored printed typography: ''Let $X_1,\\ldots,X_n$'' → ''Let $X_1$, $\\ldots$,
+    $X_n$''.'
+  faculty_collection:
+    collection_page: 31
+    printed_course: Statistics
+    section: I
+    body_glyphs: 241
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 241
+    proof_body_glyph_count: 241
+    physical_pages:
+    - 2
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 241
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - ce76d15025498e8e91094f7f928c6e1ac7608619d9ce22592fb98c5dd85c3ecf
+    dpi: 145
+    question_sha256: 9366c76f60a263e447eb96e0c15c1f104534d2379a9c328eeceb1f437b8c19fd
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q4E
   original_question: 4E
   page: 3
@@ -87,11 +165,42 @@ questions:
   course_at_time: Further Analysis
   course: IB/topology
   also_courses: []
-  question_sha256: 078291081d92665099334dd72bf34f825dbb34a658ad0863e3827cbe52167eef
+  question_sha256: 502bcb4b40404d7527c71e39aa8041bfef9e50e235f6ccd0ca1a7ebda64cc2bf
   checks: Two topologies on N, eventual constancy and the global upper bound.
   source_page_render_sha256: 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
-  course_mapping_note: Current Topological Spaces covers abstract topologies and continuity, connectedness,
-    path-connectedness and compactness (physical schedule p. 18).
+  course_mapping_note: Current Topological Spaces covers abstract topologies and continuity,
+    connectedness, path-connectedness and compactness (physical schedule p. 18).
+  previous_question_sha256: 078291081d92665099334dd72bf34f825dbb34a658ad0863e3827cbe52167eef
+  typography_qualifications:
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 12
+    printed_course: Further Analysis
+    section: I
+    body_glyphs: 400
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 400
+    proof_body_glyph_count: 400
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 400
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
+    dpi: 145
+    question_sha256: 502bcb4b40404d7527c71e39aa8041bfef9e50e235f6ccd0ca1a7ebda64cc2bf
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 482.57
+      pdf_top: 214.1
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2003/P2/q5B
   original_question: 5B
   page: 3
@@ -101,9 +210,35 @@ questions:
   course_at_time: Numerical Analysis
   course: IB/numerical-analysis
   also_courses: []
-  question_sha256: c3ea0c9f28a9d071e52c50d52f3d8cf9b4c664b7545d7ae90b2664bd7d85876e
+  question_sha256: d2b3212b66603d96dac73f7e87f4c69da89049b3275a4637804e4c201b24875b
   checks: All sixteen matrix entries, four right-hand entries and gamma nonzero.
   source_page_render_sha256: 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
+  previous_question_sha256: c3ea0c9f28a9d071e52c50d52f3d8cf9b4c664b7545d7ae90b2664bd7d85876e
+  typography_qualifications:
+  - 'Restored printed typography: ''\\\\'' → ''\\\\[-1.6pt]''.'
+  faculty_collection:
+    collection_page: 22
+    printed_course: Numerical Analysis
+    section: I
+    body_glyphs: 123
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 123
+    proof_body_glyph_count: 123
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 123
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
+    dpi: 145
+    question_sha256: d2b3212b66603d96dac73f7e87f4c69da89049b3275a4637804e4c201b24875b
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q6E
   original_question: 6E
   page: 3
@@ -116,8 +251,31 @@ questions:
   question_sha256: ab98a54de9800d7041daf7f1bea4698eed1c0a6a05ef4990ea9cafb0b72244fb
   checks: Rows of the matrix, distinct real parameters, permitted general matrix facts.
   source_page_render_sha256: 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
-  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
-    duality or bilinear forms (physical schedule p. 17).
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional
+    linear maps, matrices, duality or bilinear forms (physical schedule p. 17).
+  faculty_collection:
+    collection_page: 15
+    printed_course: Linear Mathematics
+    section: I
+    body_glyphs: 275
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 275
+    proof_body_glyph_count: 275
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 275
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
+    dpi: 145
+    question_sha256: ab98a54de9800d7041daf7f1bea4698eed1c0a6a05ef4990ea9cafb0b72244fb
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q7B
   original_question: 7B
   page: 3
@@ -130,6 +288,29 @@ questions:
   question_sha256: a3fecbd5fb71f52fcb9b9407dec2328a558aa60897604ea533852d8fa7d2cc61
   checks: Unit circle, power 2n, and the factorial and power-of-two factors.
   source_page_render_sha256: 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
+  faculty_collection:
+    collection_page: 5
+    printed_course: Complex Methods
+    section: I
+    body_glyphs: 95
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 95
+    proof_body_glyph_count: 95
+    physical_pages:
+    - 3
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 95
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 338eb9b8abec566170388f3828d0239fe84ce7759da7e8de4ec3e273de60a91e
+    dpi: 145
+    question_sha256: a3fecbd5fb71f52fcb9b9407dec2328a558aa60897604ea533852d8fa7d2cc61
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q8G
   original_question: 8G
   page: 4
@@ -142,8 +323,31 @@ questions:
   question_sha256: e67f99e79a56004a5e6d4ae82fe3ad0bd747be8cabb1b09e9ebe81a942a31571
   checks: Positive definiteness, the skew-adjoint relation and the restriction hint.
   source_page_render_sha256: 45be09a5c1b7a385fbb7587ae790e54de1355e34042b40bae53abf373dcde266
-  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
-    duality or bilinear forms (physical schedule p. 17).
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional
+    linear maps, matrices, duality or bilinear forms (physical schedule p. 17).
+  faculty_collection:
+    collection_page: 25
+    printed_course: Quadratic Mathematics
+    section: I
+    body_glyphs: 289
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 289
+    proof_body_glyph_count: 289
+    physical_pages:
+    - 4
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 289
+      maximum_relative_design_size_difference: 0.0
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 45be09a5c1b7a385fbb7587ae790e54de1355e34042b40bae53abf373dcde266
+    dpi: 145
+    question_sha256: e67f99e79a56004a5e6d4ae82fe3ad0bd747be8cabb1b09e9ebe81a942a31571
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q9A
   original_question: 9A
   page: 4
@@ -154,10 +358,36 @@ questions:
   course: IB/quantum-mechanics
   also_courses: []
   question_sha256: 6722f13aa8782d415a607273e1b09f0bc6ae90aa1da349339a8b24d69a51af76
-  checks: The original reads “statement than an operator”; both Ehrenfest relations preserved.
-  printed_ambiguity: The first sentence prints “than” in place of “that”. Domain and boundary assumptions are
-    needed for the operator argument.
+  checks: The original reads “statement than an operator”; both Ehrenfest relations
+    preserved.
+  printed_ambiguity: The first sentence prints “than” in place of “that”. Domain and
+    boundary assumptions are needed for the operator argument.
   source_page_render_sha256: 45be09a5c1b7a385fbb7587ae790e54de1355e34042b40bae53abf373dcde266
+  faculty_collection:
+    collection_page: 28
+    printed_course: Quantum Mechanics
+    section: I
+    body_glyphs: 265
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 265
+    proof_body_glyph_count: 265
+    physical_pages:
+    - 4
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 265
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  printed_qualification: The first sentence prints “than” in place of “that”. Domain
+    and boundary assumptions are needed for the operator argument.
+  reinspection:
+    source_raster_sha256:
+    - 45be09a5c1b7a385fbb7587ae790e54de1355e34042b40bae53abf373dcde266
+    dpi: 145
+    question_sha256: 6722f13aa8782d415a607273e1b09f0bc6ae90aa1da349339a8b24d69a51af76
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q10F
   original_question: 10F
   page: 5
@@ -167,11 +397,48 @@ questions:
   course_at_time: Analysis II
   course: IB/analysis-ii
   also_courses: []
-  question_sha256: 35abd632334c0218dbd06a3a98b85aed90af2b6a7ccbccf9f6ffd9dc0adb98c4
-  checks: Euclidean operator norm, determinant derivative and the printed adjugate/cofactor wording.
-  printed_ambiguity: The printed description “matrix of its cofactors” omits the transpose in the standard
-    adjugate definition. The displayed adjugate identity fixes the intended convention.
+  question_sha256: 31442aa0af3b270df9a7f87af5bda24cb3bfcb58cab4e163cceaa7074cb3a57e
+  checks: Euclidean operator norm, determinant derivative and the printed adjugate/cofactor
+    wording.
+  printed_ambiguity: The printed description “matrix of its cofactors” omits the transpose
+    in the standard adjugate definition. The displayed adjugate identity fixes the
+    intended convention.
   source_page_render_sha256: 0634c90fa0ffe9000105cb7332c5374cb530cc0d3b628b5602d26d80d224293e
+  previous_question_sha256: 35abd632334c0218dbd06a3a98b85aed90af2b6a7ccbccf9f6ffd9dc0adb98c4
+  typography_qualifications:
+  - 'Restored printed typography: ''A.I$.}]'' → ''A.I$}.]''.'
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 3
+    printed_course: Analysis II
+    section: II
+    body_glyphs: 759
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 759
+    proof_body_glyph_count: 759
+    physical_pages:
+    - 5
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 759
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  printed_qualification: The printed description “matrix of its cofactors” omits the
+    transpose in the standard adjugate definition. The displayed adjugate identity
+    fixes the intended convention.
+  reinspection:
+    source_raster_sha256:
+    - 0634c90fa0ffe9000105cb7332c5374cb530cc0d3b628b5602d26d80d224293e
+    dpi: 145
+    question_sha256: 31442aa0af3b270df9a7f87af5bda24cb3bfcb58cab4e163cceaa7074cb3a57e
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 230.46
+      pdf_top: 214.1
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2003/P2/q11C
   original_question: 11C
   page: 5
@@ -184,11 +451,35 @@ questions:
   - IA/vector-calculus
   - IB/methods
   question_sha256: abd2b672bd34edc4dffad5ba5551f5b6881ebad1635a0df6ebb153966a701d18
-  checks: Fourth-rank isotropic tensor, strain decomposition and nonnegative energy conditions.
+  checks: Fourth-rank isotropic tensor, strain decomposition and nonnegative energy
+    conditions.
   source_page_render_sha256: 0634c90fa0ffe9000105cb7332c5374cb530cc0d3b628b5602d26d80d224293e
-  course_mapping_note: Current Waves explicitly includes the constitutive stress-strain relation for an isotropic
-    solid (physical schedule p. 45), and Vector Calculus treats the Cartesian tensor transformation law (physical
-    schedule p. 13).
+  course_mapping_note: Current Waves explicitly includes the constitutive stress-strain
+    relation for an isotropic solid (physical schedule p. 45), and Vector Calculus
+    treats the Cartesian tensor transformation law (physical schedule p. 13).
+  faculty_collection:
+    collection_page: 19
+    printed_course: Methods
+    section: II
+    body_glyphs: 590
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 590
+    proof_body_glyph_count: 590
+    physical_pages:
+    - 5
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 590
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 0634c90fa0ffe9000105cb7332c5374cb530cc0d3b628b5602d26d80d224293e
+    dpi: 145
+    question_sha256: abd2b672bd34edc4dffad5ba5551f5b6881ebad1635a0df6ebb153966a701d18
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q12H
   original_question: 12H
   page: 6
@@ -198,10 +489,11 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: 282b7065ff5e0c320135d17b954e895c69aef597b44b21b8ae42d06d37f2ab82
-  checks: Both intact original tables, including 99 and 95 percent rows and nonconsecutive degrees of freedom.
-  printed_ambiguity: The paper supplies two significance levels in the hint and requests the test without selecting
-    a level.
+  question_sha256: fdd5701a0ee9d29089818debf7d40b210f2f8715518f32309e59f6f0e25f1cf7
+  checks: Both intact original tables, including 99 and 95 percent rows and nonconsecutive
+    degrees of freedom.
+  printed_ambiguity: The paper supplies two significance levels in the hint and requests
+    the test without selecting a level.
   figures:
   - city-grades
   - percentile-hint
@@ -210,6 +502,53 @@ questions:
     city-grades: 2bb0a818fef413d1987fd6c3bbb9319b3390cd8e0f18d4a29d9e78bf993498f4
     percentile-hint: f2cd22479b66a15564c2f5b43ebe1889ee2a54b2d39796b767f47231f342f392
   plot_sha256: feff2d0bfc6dc787bc7cca020e4225bb63c49ddee99143d5a33993cf56f51cdd
+  previous_question_sha256: 282b7065ff5e0c320135d17b954e895c69aef597b44b21b8ae42d06d37f2ab82
+  typography_qualifications:
+  - Removed editorial figure captions absent from the printed question.
+  faculty_collection:
+    collection_page: 32
+    printed_course: Statistics
+    section: II
+    body_glyphs: 415
+    differences: []
+    figures:
+      city-grades:
+        bbox:
+        - 240.0
+        - 151.0
+        - 398.0
+        - 196.0
+        sha256: 2bb0a818fef413d1987fd6c3bbb9319b3390cd8e0f18d4a29d9e78bf993498f4
+        source_vs_collection_unmatched_ink_fraction: 0.0
+        two_pixel_tolerance: true
+      percentile-hint:
+        bbox:
+        - 108.0
+        - 231.0
+        - 427.0
+        - 289.0
+        sha256: f2cd22479b66a15564c2f5b43ebe1889ee2a54b2d39796b767f47231f342f392
+        source_vs_collection_unmatched_ink_fraction: 0.0
+        two_pixel_tolerance: true
+  exact_glyph_check:
+    source_body_glyph_count: 269
+    proof_body_glyph_count: 269
+    physical_pages:
+    - 6
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 269
+      maximum_relative_design_size_difference: 0.0
+      design_size_outliers: []
+  printed_qualification: The paper supplies two significance levels in the hint and
+    requests the test without selecting a level.
+  reinspection:
+    source_raster_sha256:
+    - c9d791ead22dfccfc0e48be9338e0f6d6915c9279a42c792f485ba355a447245
+    dpi: 145
+    question_sha256: fdd5701a0ee9d29089818debf7d40b210f2f8715518f32309e59f6f0e25f1cf7
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q13E
   original_question: 13E
   page: 6
@@ -222,8 +561,31 @@ questions:
   question_sha256: 8f5789e6896e27ae81ff56ec5a50efe09f3ce79fdedd17abe1527927d4511985
   checks: The two spirals, closed disc notation and the connectivity distinction.
   source_page_render_sha256: c9d791ead22dfccfc0e48be9338e0f6d6915c9279a42c792f485ba355a447245
-  course_mapping_note: Current Topological Spaces covers abstract topologies and continuity, connectedness,
-    path-connectedness and compactness (physical schedule p. 18).
+  course_mapping_note: Current Topological Spaces covers abstract topologies and continuity,
+    connectedness, path-connectedness and compactness (physical schedule p. 18).
+  faculty_collection:
+    collection_page: 12
+    printed_course: Further Analysis
+    section: II
+    body_glyphs: 296
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 296
+    proof_body_glyph_count: 296
+    physical_pages:
+    - 6
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 296
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - c9d791ead22dfccfc0e48be9338e0f6d6915c9279a42c792f485ba355a447245
+    dpi: 145
+    question_sha256: 8f5789e6896e27ae81ff56ec5a50efe09f3ce79fdedd17abe1527927d4511985
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q14B
   original_question: 14B
   page: 6
@@ -234,8 +596,32 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: c9b99a96181a9d7cf3bed9d83cce2b44a58c5bb85e118441327bca78ad62fc28
-  checks: The three evaluation points, derivative order, regularity, error constant one third.
+  checks: The three evaluation points, derivative order, regularity, error constant
+    one third.
   source_page_render_sha256: c9d791ead22dfccfc0e48be9338e0f6d6915c9279a42c792f485ba355a447245
+  faculty_collection:
+    collection_page: 22
+    printed_course: Numerical Analysis
+    section: II
+    body_glyphs: 357
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 357
+    proof_body_glyph_count: 357
+    physical_pages:
+    - 6
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 357
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - c9d791ead22dfccfc0e48be9338e0f6d6915c9279a42c792f485ba355a447245
+    dpi: 145
+    question_sha256: c9b99a96181a9d7cf3bed9d83cce2b44a58c5bb85e118441327bca78ad62fc28
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q15E
   original_question: 15E
   page: 7
@@ -245,11 +631,58 @@ questions:
   course_at_time: Linear Mathematics
   course: IB/linear-algebra
   also_courses: []
-  question_sha256: f94e712b8a00dec1ad77dbf6f25f01a78b9fd9ab522a573d83add3cb7ab77f6d
-  checks: Minimal nullity index, weighted column dependence and final determinant argument.
+  question_sha256: 3e658a4b5dab15d3b51556ac0dde986cf26ea15859c1ebabc9d7bfcd69a28e86
+  checks: Minimal nullity index, weighted column dependence and final determinant
+    argument.
   source_page_render_sha256: 2b51e265eaad9cad23bc44230a379c7622cffcdcd119ad56a3c59f685bbbd693
-  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
-    duality or bilinear forms (physical schedule p. 17).
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional
+    linear maps, matrices, duality or bilinear forms (physical schedule p. 17).
+  previous_question_sha256: f94e712b8a00dec1ad77dbf6f25f01a78b9fd9ab522a573d83add3cb7ab77f6d
+  typography_qualifications:
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 16
+    printed_course: Linear Mathematics
+    section: II
+    body_glyphs: 887
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 887
+    proof_body_glyph_count: 887
+    physical_pages:
+    - 7
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 887
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 2b51e265eaad9cad23bc44230a379c7622cffcdcd119ad56a3c59f685bbbd693
+    dpi: 145
+    question_sha256: 3e658a4b5dab15d3b51556ac0dde986cf26ea15859c1ebabc9d7bfcd69a28e86
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 380.33
+      pdf_top: 115.91
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 114.64
+      pdf_top: 202.52
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 458.15
+      pdf_top: 202.52
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 244.63
+      pdf_top: 287.61
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2003/P2/q16B
   original_question: 16B
   page: 7
@@ -262,11 +695,37 @@ questions:
   - IB/complex-methods
   question_sha256: 8a9f55b3a40c282c4cfd078b7230c6bf9c653b35c76516b1854f4078493dec1c
   checks: Equation star, Fourier hats, Gaussian exponents, polynomials of exact degree.
-  printed_ambiguity: The Fourier identities require appropriate existence and decay hypotheses, or a specified
-    generalized transform.
+  printed_ambiguity: The Fourier identities require appropriate existence and decay
+    hypotheses, or a specified generalized transform.
   source_page_render_sha256: 2b51e265eaad9cad23bc44230a379c7622cffcdcd119ad56a3c59f685bbbd693
-  course_mapping_note: The oscillator/Fourier-transform problem uses the core Fourier transform identities
-    taught in current Methods (physical schedule p. 21). The historical Complex Methods connection is retained.
+  course_mapping_note: The oscillator/Fourier-transform problem uses the core Fourier
+    transform identities taught in current Methods (physical schedule p. 21). The
+    historical Complex Methods connection is retained.
+  faculty_collection:
+    collection_page: 6
+    printed_course: Complex Methods
+    section: II
+    body_glyphs: 555
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 555
+    proof_body_glyph_count: 555
+    physical_pages:
+    - 7
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 555
+      maximum_relative_design_size_difference: 0.000917
+      design_size_outliers: []
+  printed_qualification: The Fourier identities require appropriate existence and
+    decay hypotheses, or a specified generalized transform.
+  reinspection:
+    source_raster_sha256:
+    - 2b51e265eaad9cad23bc44230a379c7622cffcdcd119ad56a3c59f685bbbd693
+    dpi: 145
+    question_sha256: 8a9f55b3a40c282c4cfd078b7230c6bf9c653b35c76516b1854f4078493dec1c
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q17G
   original_question: 17G
   page: 8
@@ -279,8 +738,31 @@ questions:
   question_sha256: 4137d3da924310266498ec9c042dcd9b91f8a6d60168d0e1ec1c90d2d1149559
   checks: Three complex matrices, both traces, Phi and both bilinear forms.
   source_page_render_sha256: 0cfe75ddfefd773bdcbc4c5880fd908322bae6013f5a05d3df8bf9b1875d881d
-  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional linear maps, matrices,
-    duality or bilinear forms (physical schedule p. 17).
+  course_mapping_note: Current Linear Algebra covers the question's finite-dimensional
+    linear maps, matrices, duality or bilinear forms (physical schedule p. 17).
+  faculty_collection:
+    collection_page: 26
+    printed_course: Quadratic Mathematics
+    section: II
+    body_glyphs: 786
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 786
+    proof_body_glyph_count: 786
+    physical_pages:
+    - 8
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 786
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 0cfe75ddfefd773bdcbc4c5880fd908322bae6013f5a05d3df8bf9b1875d881d
+    dpi: 145
+    question_sha256: 4137d3da924310266498ec9c042dcd9b91f8a6d60168d0e1ec1c90d2d1149559
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2003/P2/q18A
   original_question: 18A
   page: 8
@@ -290,9 +772,48 @@ questions:
   course_at_time: Quantum Mechanics
   course: IB/quantum-mechanics
   also_courses: []
-  question_sha256: 0681f2b7da5ecc98f461f843d2997850c1362ed9919648dd8291566ac3b45305
-  checks: Barrier interval includes both endpoints, product held fixed, reciprocal transmission formula.
+  question_sha256: ad0523ff08c646d23d31633e8bea53735833b7330106e00f8c16b05234d540cc
+  checks: Barrier interval includes both endpoints, product held fixed, reciprocal
+    transmission formula.
   source_page_render_sha256: 0cfe75ddfefd773bdcbc4c5880fd908322bae6013f5a05d3df8bf9b1875d881d
+  previous_question_sha256: 0681f2b7da5ecc98f461f843d2997850c1362ed9919648dd8291566ac3b45305
+  typography_qualifications:
+  - 'Restored printed typography: ''\\begin{cases}V_0&0\\le x\\le a\\\\0&\\text{otherwise}\\end{cases}''
+    → ''\\Bigl\\{\\begin{aligned}&V_0&&0\\le x\\le a\\\\[-2pt]&0&&\\text{otherwise}\\end{aligned}''.'
+  - Restored printed slanted relations at the recorded source glyph positions.
+  faculty_collection:
+    collection_page: 29
+    printed_course: Quantum Mechanics
+    section: II
+    body_glyphs: 217
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 217
+    proof_body_glyph_count: 217
+    physical_pages:
+    - 8
+    checked_residuals: []
+    design_size_comparison:
+      aligned_ink_glyphs: 217
+      maximum_relative_design_size_difference: 0.00068
+      design_size_outliers: []
+  reinspection:
+    source_raster_sha256:
+    - 0cfe75ddfefd773bdcbc4c5880fd908322bae6013f5a05d3df8bf9b1875d881d
+    dpi: 145
+    question_sha256: ad0523ff08c646d23d31633e8bea53735833b7330106e00f8c16b05234d540cc
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 308.83
+      pdf_top: 557.17
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 329.61
+      pdf_top: 557.17
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 transcription_checks:
   source_render_dpi: 145
   all_questions_compared_with_original_page_images: true
@@ -305,8 +826,9 @@ transcription_checks:
   compiled_proof_pages: 18
   overfull_or_missing_glyph_warnings: 0
 separate_corrections: []
-correction_check: Manifest checked for 2003 IB. The four full papers and the separate subject compilation were
-  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+correction_check: Manifest checked for 2003 IB. The four full papers and the separate
+  subject compilation were distinguished by archive path, URL and SHA256. No separate
+  correction notice was listed.
 physical_pages:
 - page: 1
   contents: cover
@@ -397,3 +919,7 @@ course_mapping_reference:
   archive: private/raw/schedules/schedules-fetched-2026-11-20.pdf
   sha256: 5eedbdd40aef930178266ac2cf196d05447c391b8e2fb013369bd3a34dc8acf4
   page_numbers: physical PDF pages
+faculty_course_ordered_collection:
+  archive: private/raw/tripos/IB/2003/all-questions.pdf
+  sha256: 9aa1f0bc84b0388dc914ed0e4e51222dc164c5966678035214ae6b11452d6136
+  pages: 32
