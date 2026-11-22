@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 11
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2010-06-02'
 printed_date: Wednesday, 2 June, 2010
 time: 1:30 pm to 4:30 pm
@@ -26,14 +26,17 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
 - Attach a completed gold cover sheet to each bundle.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2010/P2/q1F
   original_question: 1F
@@ -45,8 +48,16 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: b9893d054cfeae887d26f3a12d8718ef4dcee134ab21641d8acd3a3ea72ed2ff
-  checks: Both directions of the spectral assertion, including finite dimension and complex scalars, checked.
+  checks: Both directions of the spectral assertion, including finite dimension and
+    complex scalars, checked.
   source_page_render_sha256: be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+  reinspection:
+    source_raster_sha256:
+    - be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+    dpi: 145
+    question_sha256: b9893d054cfeae887d26f3a12d8718ef4dcee134ab21641d8acd3a3ea72ed2ff
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q2H
   original_question: 2H
   page: 2
@@ -59,6 +70,13 @@ questions:
   question_sha256: 1c7d84c92195e9b1400bdddab2d0576f7abfe4e728201fe205bfd570326713e7
   checks: The group on four letters and brief justification request verified.
   source_page_render_sha256: be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+  reinspection:
+    source_raster_sha256:
+    - be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+    dpi: 145
+    question_sha256: 1c7d84c92195e9b1400bdddab2d0576f7abfe4e728201fe205bfd570326713e7
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q3G
   original_question: 3G
   page: 2
@@ -68,9 +86,20 @@ questions:
   course_at_time: Analysis II
   course: IB/analysis-ii
   also_courses: []
-  question_sha256: 6204c630a47631a7fed3475be7fd9d19a592c331865337b10fd1774e0e305cc5
-  checks: Negative-power weights, the two restricted norms, and the truncated test sequences checked.
+  question_sha256: c719df336c8a43ee469ffb7c17d2c4cdd350af396fe76d2e782c197274b19c44
+  checks: Negative-power weights, the two restricted norms, and the truncated test
+    sequences checked.
   source_page_render_sha256: be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+  previous_question_sha256: 6204c630a47631a7fed3475be7fd9d19a592c331865337b10fd1774e0e305cc5
+  typography_qualifications:
+  - The norm placeholders are low points (CMMI10 code 58), not central dots.
+  reinspection:
+    source_raster_sha256:
+    - be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+    dpi: 145
+    question_sha256: c719df336c8a43ee469ffb7c17d2c4cdd350af396fe76d2e782c197274b19c44
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q4H
   original_question: 4H
   page: 2
@@ -81,9 +110,20 @@ questions:
   course: IB/analysis-ii
   also_courses:
   - IB/topology
-  question_sha256: 543bfd7c805718a25a2b3acfbea6820c095c8e246dbc275b4db374c7b33abf0c
-  checks: Valuation sign, positive and negative power limits, and both directions of the identity checked.
+  question_sha256: 723ead0b3203683d4cecd64a0e32d4ec7ea17db6d33edbab1d34f916256a04a8
+  checks: Valuation sign, positive and negative power limits, and both directions
+    of the identity checked.
   source_page_render_sha256: be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+  previous_question_sha256: 543bfd7c805718a25a2b3acfbea6820c095c8e246dbc275b4db374c7b33abf0c
+  typography_qualifications:
+  - The 3 in “3-adic metric” is upright.
+  reinspection:
+    source_raster_sha256:
+    - be15926c70f53f59813ab3d572e0c966b2a2168ede3cede2d122ad0c3b066bf9
+    dpi: 145
+    question_sha256: 723ead0b3203683d4cecd64a0e32d4ec7ea17db6d33edbab1d34f916256a04a8
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q5A
   original_question: 5A
   page: 3
@@ -93,9 +133,34 @@ questions:
   course_at_time: Methods
   course: IB/methods
   also_courses: []
-  question_sha256: 47793e7bcbe87a4ddf210751cfc46dfa4fbd44d027319b86debd07e6160b98c7
+  question_sha256: 4fae2f436868840b4f9ef1e99d497ce09b61d84009e08e542932071119bd4bd8
   checks: Second-order operator and acceleration on the closed time interval checked.
   source_page_render_sha256: bb33e079d1f9c9cc579a662381e239b3163e3772abc73969229467cacba53f6e
+  previous_question_sha256: 47793e7bcbe87a4ddf210751cfc46dfa4fbd44d027319b86debd07e6160b98c7
+  typography_qualifications:
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  reinspection:
+    source_raster_sha256:
+    - bb33e079d1f9c9cc579a662381e239b3163e3772abc73969229467cacba53f6e
+    dpi: 145
+    question_sha256: 4fae2f436868840b4f9ef1e99d497ce09b61d84009e08e542932071119bd4bd8
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 386.84
+      pdf_top: 137.65
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 309.44
+      pdf_top: 207.73
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 327.92
+      pdf_top: 207.73
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2010/P2/q6C
   original_question: 6C
   page: 3
@@ -105,9 +170,20 @@ questions:
   course_at_time: Electromagnetism
   course: IB/electromagnetism
   also_courses: []
-  question_sha256: 726b63125ba00145b6bd59b794bfd25087e2db110edddb5572c805379e715728
-  checks: The original spells the first occurrence “homogenous”; the divergence and time derivatives checked.
+  question_sha256: 293e2ac6fb4b904cf96f4f68c49f1b9ab2192b0299c0efb44d9e7fccb16dc1bd
+  checks: The original spells the first occurrence “homogenous”; the divergence and
+    time derivatives checked.
   source_page_render_sha256: bb33e079d1f9c9cc579a662381e239b3163e3772abc73969229467cacba53f6e
+  previous_question_sha256: 726b63125ba00145b6bd59b794bfd25087e2db110edddb5572c805379e715728
+  typography_qualifications:
+  - The terminal point of the hint is italic.
+  reinspection:
+    source_raster_sha256:
+    - bb33e079d1f9c9cc579a662381e239b3163e3772abc73969229467cacba53f6e
+    dpi: 145
+    question_sha256: 293e2ac6fb4b904cf96f4f68c49f1b9ab2192b0299c0efb44d9e7fccb16dc1bd
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q7B
   original_question: 7B
   page: 3
@@ -120,6 +196,13 @@ questions:
   question_sha256: e2e31e6df20dfb4a846669e94dbb4e16f081e6be202c0aee98252309991b99fd
   checks: Both strengths, arrangement and angular-velocity coefficient checked.
   source_page_render_sha256: bb33e079d1f9c9cc579a662381e239b3163e3772abc73969229467cacba53f6e
+  reinspection:
+    source_raster_sha256:
+    - bb33e079d1f9c9cc579a662381e239b3163e3772abc73969229467cacba53f6e
+    dpi: 145
+    question_sha256: e2e31e6df20dfb4a846669e94dbb4e16f081e6be202c0aee98252309991b99fd
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q8E
   original_question: 8E
   page: 4
@@ -130,8 +213,8 @@ questions:
   course: IB/statistics
   also_courses: []
   question_sha256: 83e35487e1e6433d540cd2de637dfba6ec97af2933d2fa979f79d47e9c16584a
-  checks: Both original tables checked cell by cell, including the six chi-squared percentiles and the before/after
-    sample design.
+  checks: Both original tables checked cell by cell, including the six chi-squared
+    percentiles and the before/after sample design.
   figures:
   - washing-powders
   - percentiles
@@ -140,6 +223,13 @@ questions:
     washing-powders: a46ea8218142a0362977a1075cab71dd73c5a9af1a44c594528ef9f7cdefe49a
     percentiles: b699d89edc79bac07c7dc4f61ea31f673683ff836376b78f7beff5aca7236de4
   plot_sha256: 93b9d242f4d388ea72b79b364696a2147ad16312f697e26412bb6a1c70a434c1
+  reinspection:
+    source_raster_sha256:
+    - 049b7c82515a0ed535afb5a1cf8ca8e7f1db6c3becde56b8d83a8fa23412799f
+    dpi: 145
+    question_sha256: 83e35487e1e6433d540cd2de637dfba6ec97af2933d2fa979f79d47e9c16584a
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q9E
   original_question: 9E
   page: 4
@@ -152,6 +242,13 @@ questions:
   question_sha256: a8859ce229e35e0bc89c1c508844bf33e6008dd6222c400c43479ee2db7fe5d6
   checks: Constraint, powers of both variables and derivative evaluation point checked.
   source_page_render_sha256: 049b7c82515a0ed535afb5a1cf8ca8e7f1db6c3becde56b8d83a8fa23412799f
+  reinspection:
+    source_raster_sha256:
+    - 049b7c82515a0ed535afb5a1cf8ca8e7f1db6c3becde56b8d83a8fa23412799f
+    dpi: 145
+    question_sha256: a8859ce229e35e0bc89c1c508844bf33e6008dd6222c400c43479ee2db7fe5d6
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q10F
   original_question: 10F
   page: 5
@@ -161,9 +258,19 @@ questions:
   course_at_time: Linear Algebra
   course: IB/linear-algebra
   also_courses: []
-  question_sha256: 10d3b8bd717537a6ce3a8fe026791662d257c66a55d978d0d539f199a13f5b5c
+  question_sha256: 0d51acb97d2b03a4ec10b7818b544e71a06884bfd0d9134180ac570b4886a30f
   checks: All four subparts and orientation of the similarity transform checked.
   source_page_render_sha256: 8b032cea6043f3c0f4e114310b80adda02281e56192e2290116c6c24142ccc40
+  previous_question_sha256: 10d3b8bd717537a6ce3a8fe026791662d257c66a55d978d0d539f199a13f5b5c
+  typography_qualifications:
+  - The comma between the matrix names is upright.
+  reinspection:
+    source_raster_sha256:
+    - 8b032cea6043f3c0f4e114310b80adda02281e56192e2290116c6c24142ccc40
+    dpi: 145
+    question_sha256: 0d51acb97d2b03a4ec10b7818b544e71a06884bfd0d9134180ac570b4886a30f
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q11H
   original_question: 11H
   page: 5
@@ -173,9 +280,19 @@ questions:
   course_at_time: Groups Rings and Modules
   course: IB/groups-rings-and-modules
   also_courses: []
-  question_sha256: ea722d6b91de411691d6b4843614d982db084adb9ccd51ae3d58b7526ee0bdca
+  question_sha256: cb48a7cdaf68078b670e8bdda44499515220d04d174c229e0139ee7d7b4f94eb
   checks: The product and intersection ideals in all three parts verified.
   source_page_render_sha256: 8b032cea6043f3c0f4e114310b80adda02281e56192e2290116c6c24142ccc40
+  previous_question_sha256: ea722d6b91de411691d6b4843614d982db084adb9ccd51ae3d58b7526ee0bdca
+  typography_qualifications:
+  - The comma after R is mathematical.
+  reinspection:
+    source_raster_sha256:
+    - 8b032cea6043f3c0f4e114310b80adda02281e56192e2290116c6c24142ccc40
+    dpi: 145
+    question_sha256: cb48a7cdaf68078b670e8bdda44499515220d04d174c229e0139ee7d7b4f94eb
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q12G
   original_question: 12G
   page: 6
@@ -185,9 +302,19 @@ questions:
   course_at_time: Analysis II
   course: IB/analysis-ii
   also_courses: []
-  question_sha256: a6dd7521a7dd84ce266bfeba197c436dcfef87a2647e83a1106349ef83e02953
+  question_sha256: 10b5994d3c9755e9ee529c14402e00b8a9db68582a56efe7742f3b4131dcd83c
   checks: The difference quotient and both definitions at and away from c checked.
   source_page_render_sha256: 0c94e4e66f1a5b5cf1b1cdbfbd19b600b96c24fc0bb231fac18171ae532e30b3
+  previous_question_sha256: a6dd7521a7dd84ce266bfeba197c436dcfef87a2647e83a1106349ef83e02953
+  typography_qualifications:
+  - The two entries are separated vertically, giving a taller assembled left brace.
+  reinspection:
+    source_raster_sha256:
+    - 0c94e4e66f1a5b5cf1b1cdbfbd19b600b96c24fc0bb231fac18171ae532e30b3
+    dpi: 145
+    question_sha256: 10b5994d3c9755e9ee529c14402e00b8a9db68582a56efe7742f3b4131dcd83c
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q13A
   original_question: 13A
   page: 6
@@ -198,9 +325,20 @@ questions:
   course: IB/complex-methods
   also_courses:
   - IB/complex-analysis
-  question_sha256: 97ef88f52201f026e810ea25c47cf22ab354b11d0bb4495b7b48a29559eddbd7
-  checks: The first transform is the fraction (z minus one) over z; step 2 multiplies by i and step 3 is exponential.
+  question_sha256: 5b9eb4be48442d71f0b80530419ab5cc701966e7253f89b9657530b64d04019c
+  checks: The first transform is the fraction (z minus one) over z; step 2 multiplies
+    by i and step 3 is exponential.
   source_page_render_sha256: 0c94e4e66f1a5b5cf1b1cdbfbd19b600b96c24fc0bb231fac18171ae532e30b3
+  previous_question_sha256: 97ef88f52201f026e810ea25c47cf22ab354b11d0bb4495b7b48a29559eddbd7
+  typography_qualifications:
+  - The terminal point of the hint is italic.
+  reinspection:
+    source_raster_sha256:
+    - 0c94e4e66f1a5b5cf1b1cdbfbd19b600b96c24fc0bb231fac18171ae532e30b3
+    dpi: 145
+    question_sha256: 5b9eb4be48442d71f0b80530419ab5cc701966e7253f89b9657530b64d04019c
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q14F
   original_question: 14F
   page: 7
@@ -211,8 +349,16 @@ questions:
   course: IB/geometry
   also_courses: []
   question_sha256: 5988a7436a453ee05abbaefae7217b1b75f55f5add918fdd08508c1343380e99
-  checks: The positive half-cone and the distinct threshold cases compared with the page.
+  checks: The positive half-cone and the distinct threshold cases compared with the
+    page.
   source_page_render_sha256: 51f6525072947a1bf248203874319ee9c51882b5e272eeda3a9e535d2b71f289
+  reinspection:
+    source_raster_sha256:
+    - 51f6525072947a1bf248203874319ee9c51882b5e272eeda3a9e535d2b71f289
+    dpi: 145
+    question_sha256: 5988a7436a453ee05abbaefae7217b1b75f55f5add918fdd08508c1343380e99
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q15D
   original_question: 15D
   page: 7
@@ -223,8 +369,16 @@ questions:
   course: IB/variational-principles
   also_courses: []
   question_sha256: 357a127669fe6b867d18875f585642c000798c008b5e2415f58a43909e131de8
-  checks: Both tent shapes, the matching floor fabric and the two negative exponents in the hint verified.
+  checks: Both tent shapes, the matching floor fabric and the two negative exponents
+    in the hint verified.
   source_page_render_sha256: 51f6525072947a1bf248203874319ee9c51882b5e272eeda3a9e535d2b71f289
+  reinspection:
+    source_raster_sha256:
+    - 51f6525072947a1bf248203874319ee9c51882b5e272eeda3a9e535d2b71f289
+    dpi: 145
+    question_sha256: 357a127669fe6b867d18875f585642c000798c008b5e2415f58a43909e131de8
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q16B
   original_question: 16B
   page: 7
@@ -234,9 +388,24 @@ questions:
   course_at_time: Methods
   course: IB/methods
   also_courses: []
-  question_sha256: 4f6b530d386b6b5ab171c7d673f26cd5850d2c1095457e7a3ab661e226f9796d
+  question_sha256: 7af5c77b9b1d02d809688e3ca6cc8bb835211d6ef65e02b20e21b7b8be3fb61a
   checks: PDE signs, initial half-axis, and exceptional value of alpha checked.
   source_page_render_sha256: 51f6525072947a1bf248203874319ee9c51882b5e272eeda3a9e535d2b71f289
+  previous_question_sha256: 4f6b530d386b6b5ab171c7d673f26cd5850d2c1095457e7a3ab661e226f9796d
+  typography_qualifications:
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  reinspection:
+    source_raster_sha256:
+    - 51f6525072947a1bf248203874319ee9c51882b5e272eeda3a9e535d2b71f289
+    dpi: 145
+    question_sha256: 7af5c77b9b1d02d809688e3ca6cc8bb835211d6ef65e02b20e21b7b8be3fb61a
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 373.28
+      pdf_top: 508.61
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 - id: IB/2010/P2/q17D
   original_question: 17D
   page: 8
@@ -246,11 +415,33 @@ questions:
   course_at_time: Quantum Mechanics
   course: IB/quantum-mechanics
   also_courses: []
-  question_sha256: 8d529db7bcd7a1e74c8f6548b9f99c3a953fd361fb28d08c10f46ef9b8195f36
+  question_sha256: e594a85c4c14a765f25c443e6af05918131ecdef1b0a9ea5da2ace77acf23cea
   checks: All three potential ranges and expectation and hint formulae checked.
-  printed_ambiguity: The paper asks for a minimum well depth with E strictly below V0. Check whether the threshold
-    is attained.
+  printed_ambiguity: The paper asks for a minimum well depth with E strictly below
+    V0. Check whether the threshold is attained.
   source_page_render_sha256: a0a9d1444504461068796b9b2c09eaa1499f4053f7b80829c418cabc3086f42b
+  previous_question_sha256: 8d529db7bcd7a1e74c8f6548b9f99c3a953fd361fb28d08c10f46ef9b8195f36
+  typography_qualifications:
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  printed_qualification: The paper asks for a minimum well depth with E strictly below
+    V0. Check whether the threshold is attained.
+  reinspection:
+    source_raster_sha256:
+    - a0a9d1444504461068796b9b2c09eaa1499f4053f7b80829c418cabc3086f42b
+    dpi: 145
+    question_sha256: e594a85c4c14a765f25c443e6af05918131ecdef1b0a9ea5da2ace77acf23cea
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 326.0
+      pdf_top: 154.81
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 346.76
+      pdf_top: 154.81
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2010/P2/q18C
   original_question: 18C
   page: 8
@@ -261,8 +452,16 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: faa7242ea517d7c3683dafc004147435007255d411dc6d269c4499f8ace9ea1c
-  checks: Three contour integrals, vector order and nested cross product verified from the page image.
+  checks: Three contour integrals, vector order and nested cross product verified
+    from the page image.
   source_page_render_sha256: a0a9d1444504461068796b9b2c09eaa1499f4053f7b80829c418cabc3086f42b
+  reinspection:
+    source_raster_sha256:
+    - a0a9d1444504461068796b9b2c09eaa1499f4053f7b80829c418cabc3086f42b
+    dpi: 145
+    question_sha256: faa7242ea517d7c3683dafc004147435007255d411dc6d269c4499f8ace9ea1c
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q19C
   original_question: 19C
   page: 9
@@ -273,8 +472,16 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: 37df5504c429ad01a59aaac4172a848da69f29e771293db92be9d7856d1d46f0
-  checks: The two branches of k2 and the distinction between explicit and implicit expressions are preserved.
+  checks: The two branches of k2 and the distinction between explicit and implicit
+    expressions are preserved.
   source_page_render_sha256: 615bae5302c3edeece4e75c395c30b4bc639a9ce4f4b62ac25bdcdc2b857f1e4
+  reinspection:
+    source_raster_sha256:
+    - 615bae5302c3edeece4e75c395c30b4bc639a9ce4f4b62ac25bdcdc2b857f1e4
+    dpi: 145
+    question_sha256: 37df5504c429ad01a59aaac4172a848da69f29e771293db92be9d7856d1d46f0
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2010/P2/q20E
   original_question: 20E
   page: 9
@@ -284,11 +491,122 @@ questions:
   course_at_time: Markov Chains
   course: IB/markov-chains
   also_courses: []
-  question_sha256: 6e7bf2c5903e9125e5e307d65cb1066860574463983ecccf098cd4d8a5b18e89
-  checks: Reflection at and after hitting, both event identities and the final parity hint verified.
-  printed_ambiguity: The definition of Ta begins with a at least 1, while later identities include a equal
-    to zero.
+  question_sha256: a63d76ad5391bdb6a843412d4f3d6b3b4cde5ffe62f4e43f7a72ff937142167b
+  checks: Reflection at and after hitting, both event identities and the final parity
+    hint verified.
+  printed_ambiguity: The definition of Ta begins with a at least 1, while later identities
+    include a equal to zero.
   source_page_render_sha256: 615bae5302c3edeece4e75c395c30b4bc639a9ce4f4b62ac25bdcdc2b857f1e4
+  previous_question_sha256: 6e7bf2c5903e9125e5e307d65cb1066860574463983ecccf098cd4d8a5b18e89
+  typography_qualifications:
+  - The original subscript on X inside the maximum is n, including in the rendered
+    page image. This is distinct from the bound variable i.
+  - The compact two-row definition uses a CMEX10 code-26 brace.
+  - The non-strict inequality bars are slanted (MSAM codes 54 and 62).
+  printed_qualification: The definition of Ta begins with a at least 1, while later
+    identities include a equal to zero.
+  reinspection:
+    source_raster_sha256:
+    - 615bae5302c3edeece4e75c395c30b4bc639a9ce4f4b62ac25bdcdc2b857f1e4
+    dpi: 145
+    question_sha256: a63d76ad5391bdb6a843412d4f3d6b3b4cde5ffe62f4e43f7a72ff937142167b
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 164.96
+      pdf_top: 368.12
+      font: MSAM7
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 468.8
+      pdf_top: 377.07
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 141.32
+      pdf_top: 390.63
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 343.64
+      pdf_top: 453.15
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 166.52
+      pdf_top: 482.0
+      font: MSAM7
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 200.96
+      pdf_top: 507.56
+      font: MSAM7
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 213.32
+      pdf_top: 507.56
+      font: MSAM7
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 348.56
+      pdf_top: 502.95
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 411.2
+      pdf_top: 502.95
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 468.32
+      pdf_top: 502.95
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 199.4
+      pdf_top: 521.12
+      font: MSAM7
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 387.8
+      pdf_top: 516.51
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 228.68
+      pdf_top: 540.99
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 270.32
+      pdf_top: 540.99
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 359.24
+      pdf_top: 540.99
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 227.24
+      pdf_top: 579.03
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 295.52
+      pdf_top: 579.03
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 360.8
+      pdf_top: 579.03
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
+    - pdf_x: 287.36
+      pdf_top: 638.55
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 transcription_checks:
   source_render_dpi: 145
   all_questions_compared_with_original_page_images: true

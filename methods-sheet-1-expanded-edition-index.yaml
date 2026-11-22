@@ -31,23 +31,26 @@
       - 1
       text: question.tex
       question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
-      image_review: One printed exercise joins the quartic series and half-range square extensions. Part
-        (ii) compares x and |x| without a factor of two. Later editions split the tasks into q02 and q03.
+      image_review: One printed exercise joins the quartic series and half-range square
+        extensions. Part (ii) compares x and |x| without a factor of two. Later editions
+        split the tasks into q02 and q03.
     '2':
       unit: IB/methods/sheet-1/q04
       pages:
       - 1
       text: variants/2001-02/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '3':
       unit: IB/methods/sheet-1/qx11
       pages:
       - 1
       text: question.tex
       question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
-      image_review: Finite k-fold smoothness, the explicit coefficients of |sin x|, checks against Q1
-        and Q2, and a numerical-computation discussion referring to Q5.
+      image_review: Finite k-fold smoothness, the explicit coefficients of |sin x|,
+        checks against Q1 and Q2, and a numerical-computation discussion referring
+        to Q5.
       same_edition_references:
         '1': IB/methods/sheet-1/qx10
         '2': IB/methods/sheet-1/q04
@@ -58,48 +61,52 @@
       - 1
       text: variants/2001-02/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2001-02/question.tex
       question_sha256: 842b6de80f1835f9fbbaa789db25c259d095c7a06725ea16e919bc03d3151198
-      image_review: Printed extrema exclude m=kN, including the erroneous exclusion of odd multiples of
-        N. Keeps the literal bounds N−1 and N+1.
+      image_review: Printed extrema exclude m=kN, including the erroneous exclusion
+        of odd multiples of N. Keeps the literal bounds N−1 and N+1.
     '6':
       unit: IB/methods/sheet-1/qx12
       pages:
       - 2
       text: question.tex
       question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
-      image_review: Fixed string initially at rest in position with parabolic initial velocity; asks for
-        modes, both time-dependent energies and the odd sixth-power sum.
+      image_review: Fixed string initially at rest in position with parabolic initial
+        velocity; asks for modes, both time-dependent energies and the odd sixth-power
+        sum.
     '7':
       unit: IB/methods/sheet-1/qx13
       pages:
       - 2
       text: question.tex
       question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
-      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional spatially and temporally
-        sinusoidal force.
+      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+        spatially and temporally sinusoidal force.
     '8':
       unit: IB/methods/sheet-1/qx14
       pages:
       - 2
       text: question.tex
-      question_sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
-      image_review: Equation (*) is the wave equation; the point mass at zero gives a slope jump and the
-        incident exponential is exp[iω(t−x/c)].
+      question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+      image_review: Equation (*) is the wave equation; the point mass at zero gives
+        a slope jump and the incident exponential is exp[iω(t−x/c)].
+      punctuation_reinspection: A terminal full stop follows the right-hand side of
+        the jump condition in part (i).
+      original_crop_sha256: 0de6ba6d46bcb42e04135298472e0c6b85a8ad87fe5ecd0eda0a4a0ea2e6bf74
     '9':
       unit: IB/methods/sheet-1/qx15
       pages:
       - 2
       text: question.tex
       question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
-      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero when the impulse
-        λδ(x−ℓ/2) changes velocity.
+      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses
+        zero when the impulse λδ(x−ℓ/2) changes velocity.
       same_edition_references:
         (*) in question 8: IB/methods/sheet-1/qx14
     '10':
@@ -108,23 +115,24 @@
       - 2
       text: question.tex
       question_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
-      image_review: Checks increasing and decreasing φ, the simple-root extension and the final absolute-value
-        integral.
+      image_review: Checks increasing and decreasing φ, the simple-root extension
+        and the final absolute-value integral.
     '11':
       unit: IB/methods/sheet-1/qx17
       pages:
       - 2
       text: question.tex
       question_sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
-      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side
+        is f(1)−f′(1).
     '12':
       unit: IB/methods/sheet-1/qx18
       pages:
       - 2
       text: question.tex
       question_sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
-      image_review: Point impulse, one initial displacement and one initial velocity; also asks for the
-        mechanical interpretation.
+      image_review: Point impulse, one initial displacement and one initial velocity;
+        also asks for the mechanical interpretation.
 2002-03:
   archive: raw/sheets/IB/methods/2002-03/sheet-1.pdf
   sha256: 6acfa46427ada11e63d26f440a2183e1dc1e185a630866f3a8e3719fa6f7a28f
@@ -158,23 +166,26 @@
       - 1
       text: question.tex
       question_sha256: 475a7bda36798b9211e742157b63297c59eb090a74d427f44c96fafcbdf0383b
-      image_review: One printed exercise joins the quartic series and half-range square extensions. Part
-        (ii) compares x and |x| without a factor of two. Later editions split the tasks into q02 and q03.
+      image_review: One printed exercise joins the quartic series and half-range square
+        extensions. Part (ii) compares x and |x| without a factor of two. Later editions
+        split the tasks into q02 and q03.
     '2':
       unit: IB/methods/sheet-1/q04
       pages:
       - 1
       text: variants/2002-03/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '3':
       unit: IB/methods/sheet-1/qx11
       pages:
       - 1
       text: question.tex
       question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
-      image_review: Finite k-fold smoothness, the explicit coefficients of |sin x|, checks against Q1
-        and Q2, and a numerical-computation discussion referring to Q5.
+      image_review: Finite k-fold smoothness, the explicit coefficients of |sin x|,
+        checks against Q1 and Q2, and a numerical-computation discussion referring
+        to Q5.
       same_edition_references:
         '1': IB/methods/sheet-1/qx10
         '2': IB/methods/sheet-1/q04
@@ -185,48 +196,52 @@
       - 1
       text: variants/2002-03/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2002-03/question.tex
       question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
-      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient notation
-        S_N have no (x) in parts (ii)–(iii).
+      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and
+        coefficient notation S_N have no (x) in parts (ii)–(iii).
     '6':
       unit: IB/methods/sheet-1/qx12
       pages:
       - 2
       text: question.tex
       question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
-      image_review: Fixed string initially at rest in position with parabolic initial velocity; asks for
-        modes, both time-dependent energies and the odd sixth-power sum.
+      image_review: Fixed string initially at rest in position with parabolic initial
+        velocity; asks for modes, both time-dependent energies and the odd sixth-power
+        sum.
     '7':
       unit: IB/methods/sheet-1/qx13
       pages:
       - 2
       text: question.tex
       question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
-      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional spatially and temporally
-        sinusoidal force.
+      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+        spatially and temporally sinusoidal force.
     '8':
       unit: IB/methods/sheet-1/qx14
       pages:
       - 2
       text: question.tex
-      question_sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
-      image_review: Equation (*) is the wave equation; the point mass at zero gives a slope jump and the
-        incident exponential is exp[iω(t−x/c)].
+      question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+      image_review: Equation (*) is the wave equation; the point mass at zero gives
+        a slope jump and the incident exponential is exp[iω(t−x/c)].
+      punctuation_reinspection: A terminal full stop follows the right-hand side of
+        the jump condition in part (i).
+      original_crop_sha256: 85af70e6bb06b2501e746aa046f093c48fbdb8f7c52493665aeee6d6ca94d184
     '9':
       unit: IB/methods/sheet-1/qx15
       pages:
       - 2
       text: question.tex
       question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
-      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero when the impulse
-        λδ(x−ℓ/2) changes velocity.
+      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses
+        zero when the impulse λδ(x−ℓ/2) changes velocity.
       same_edition_references:
         (*) in question 8: IB/methods/sheet-1/qx14
     '10':
@@ -235,23 +250,24 @@
       - 2
       text: question.tex
       question_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
-      image_review: Checks increasing and decreasing φ, the simple-root extension and the final absolute-value
-        integral.
+      image_review: Checks increasing and decreasing φ, the simple-root extension
+        and the final absolute-value integral.
     '11':
       unit: IB/methods/sheet-1/qx17
       pages:
       - 2
       text: question.tex
       question_sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
-      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side
+        is f(1)−f′(1).
     '12':
       unit: IB/methods/sheet-1/qx18
       pages:
       - 2
       text: question.tex
       question_sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
-      image_review: Point impulse, one initial displacement and one initial velocity; also asks for the
-        mechanical interpretation.
+      image_review: Point impulse, one initial displacement and one initial velocity;
+        also asks for the mechanical interpretation.
 2003-04:
   archive: raw/sheets/IB/methods/2003-04/sheet-1.pdf
   sha256: c5c4c64cb1ff68dcafbdfaab0d0af655c8db4ed9821d35c4a0b12fce04c879b9
@@ -285,8 +301,8 @@
       - 1
       text: variants/2003-04/question.tex
       question_sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
-      image_review: Period two, variable x, open right endpoint. No explicit periodic qualifier; asks
-        for the convergence rate.
+      image_review: Period two, variable x, open right endpoint. No explicit periodic
+        qualifier; asks for the convergence rate.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
@@ -300,55 +316,60 @@
       - 1
       text: variants/2003-04/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2003-04/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2003-04/question.tex
       question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
-      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient notation
-        S_N have no (x) in parts (ii)–(iii).
+      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and
+        coefficient notation S_N have no (x) in parts (ii)–(iii).
     '6':
       unit: IB/methods/sheet-1/qx12
       pages:
       - 2
       text: question.tex
       question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
-      image_review: Fixed string initially at rest in position with parabolic initial velocity; asks for
-        modes, both time-dependent energies and the odd sixth-power sum.
+      image_review: Fixed string initially at rest in position with parabolic initial
+        velocity; asks for modes, both time-dependent energies and the odd sixth-power
+        sum.
     '7':
       unit: IB/methods/sheet-1/qx13
       pages:
       - 2
       text: question.tex
       question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
-      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional spatially and temporally
-        sinusoidal force.
+      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+        spatially and temporally sinusoidal force.
     '8':
       unit: IB/methods/sheet-1/qx14
       pages:
       - 2
       text: question.tex
-      question_sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
-      image_review: Equation (*) is the wave equation; the point mass at zero gives a slope jump and the
-        incident exponential is exp[iω(t−x/c)].
+      question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+      image_review: Equation (*) is the wave equation; the point mass at zero gives
+        a slope jump and the incident exponential is exp[iω(t−x/c)].
+      punctuation_reinspection: A terminal full stop follows the right-hand side of
+        the jump condition in part (i).
+      original_crop_sha256: aa4293f8da45e346fab5450ce374ebaa1851f5696c298dce062aba3d1bd3347e
     '9':
       unit: IB/methods/sheet-1/qx15
       pages:
       - 2
       text: question.tex
       question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
-      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero when the impulse
-        λδ(x−ℓ/2) changes velocity.
+      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses
+        zero when the impulse λδ(x−ℓ/2) changes velocity.
       same_edition_references:
         (*) in question 8: IB/methods/sheet-1/qx14
     '10':
@@ -357,15 +378,16 @@
       - 2
       text: question.tex
       question_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
-      image_review: Checks increasing and decreasing φ, the simple-root extension and the final absolute-value
-        integral.
+      image_review: Checks increasing and decreasing φ, the simple-root extension
+        and the final absolute-value integral.
     '11':
       unit: IB/methods/sheet-1/qx17
       pages:
       - 2
       text: question.tex
       question_sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
-      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side
+        is f(1)−f′(1).
 2004-05:
   archive: raw/sheets/IB/methods/2004-05/sheet-1.pdf
   sha256: 1af3ac91e85bc5c45109aa29389907e00df798658b6dab647db731e84a416dfe
@@ -399,8 +421,8 @@
       - 1
       text: variants/2004-05/question.tex
       question_sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
-      image_review: Period two, variable x, open right endpoint. No explicit periodic qualifier; asks
-        for the convergence rate.
+      image_review: Period two, variable x, open right endpoint. No explicit periodic
+        qualifier; asks for the convergence rate.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
@@ -414,55 +436,60 @@
       - 1
       text: variants/2004-05/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2004-05/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2004-05/question.tex
       question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
-      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient notation
-        S_N have no (x) in parts (ii)–(iii).
+      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and
+        coefficient notation S_N have no (x) in parts (ii)–(iii).
     '6':
       unit: IB/methods/sheet-1/qx12
       pages:
       - 2
       text: question.tex
       question_sha256: e3e5a4d83c2d1a60c2ecfa33886417ebdd75d77e8a653509b0bdd57df93a70cd
-      image_review: Fixed string initially at rest in position with parabolic initial velocity; asks for
-        modes, both time-dependent energies and the odd sixth-power sum.
+      image_review: Fixed string initially at rest in position with parabolic initial
+        velocity; asks for modes, both time-dependent energies and the odd sixth-power
+        sum.
     '7':
       unit: IB/methods/sheet-1/qx13
       pages:
       - 2
       text: question.tex
       question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
-      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional spatially and temporally
-        sinusoidal force.
+      image_review: Checks both the resistance −2kμy_t with k=πc/ℓ and the additional
+        spatially and temporally sinusoidal force.
     '8':
       unit: IB/methods/sheet-1/qx14
       pages:
       - 2
       text: question.tex
-      question_sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
-      image_review: Equation (*) is the wave equation; the point mass at zero gives a slope jump and the
-        incident exponential is exp[iω(t−x/c)].
+      question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+      image_review: Equation (*) is the wave equation; the point mass at zero gives
+        a slope jump and the incident exponential is exp[iω(t−x/c)].
+      punctuation_reinspection: A terminal full stop follows the right-hand side of
+        the jump condition in part (i).
+      original_crop_sha256: 6e77ffd4ff3c3d8794b6f71932ad744817238cdd4e0c6287da30f755b957107e
     '9':
       unit: IB/methods/sheet-1/qx15
       pages:
       - 2
       text: question.tex
       question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
-      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses zero when the impulse
-        λδ(x−ℓ/2) changes velocity.
+      image_review: Refers to equation (*) in Q8; fundamental oscillation crosses
+        zero when the impulse λδ(x−ℓ/2) changes velocity.
       same_edition_references:
         (*) in question 8: IB/methods/sheet-1/qx14
     '10':
@@ -471,15 +498,16 @@
       - 2
       text: question.tex
       question_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
-      image_review: Checks increasing and decreasing φ, the simple-root extension and the final absolute-value
-        integral.
+      image_review: Checks increasing and decreasing φ, the simple-root extension
+        and the final absolute-value integral.
     '11':
       unit: IB/methods/sheet-1/qx17
       pages:
       - 2
       text: question.tex
       question_sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
-      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side is f(1)−f′(1).
+      image_review: Double integral contains δ′(x²+y²−1) and δ(x²−y²); right side
+        is f(1)−f′(1).
 2006-07:
   archive: raw/sheets/IB/methods/2006-07/sheet-1.pdf
   sha256: e76840677fb69c9e4cf493707dc811cf6baf3294f345c1c2a019b65c6a932abe
@@ -504,8 +532,8 @@
       heading: Fourier series
     qx19:
       heading: Fourier Transforms
-      wording_tex: 'As in the lectures, for a function $f(x)$, $\tilde f(k)$ is the Fourier transform
-        of $f(x)$, defined as
+      wording_tex: 'As in the lectures, for a function $f(x)$, $\tilde f(k)$ is the
+        Fourier transform of $f(x)$, defined as
 
         \[
 
@@ -519,8 +547,8 @@
       - 1
       text: variants/2006-07/question.tex
       question_sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
-      image_review: Period two, variable x, open right endpoint. No explicit periodic qualifier; asks
-        for the convergence rate.
+      image_review: Period two, variable x, open right endpoint. No explicit periodic
+        qualifier; asks for the convergence rate.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
@@ -534,64 +562,67 @@
       - 1
       text: variants/2006-07/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2006-07/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2006-07/question.tex
       question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
-      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient notation
-        S_N have no (x) in parts (ii)–(iii).
+      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and
+        coefficient notation S_N have no (x) in parts (ii)–(iii).
     '6':
       unit: IB/methods/sheet-1/qx19
       pages:
       - 2
       text: question.tex
       question_sha256: b2467e728fef852716fcf392ce39ae06c7268a42651dfcccce4b0868748f5c1e
-      image_review: The longer 2006 wording asks for centered and shifted Gaussians, an inverse heat-kernel
-        transform and the delta sequence. The 2007 wording drops those extra tasks and explicitly resets
-        μ to zero.
+      image_review: The longer 2006 wording asks for centered and shifted Gaussians,
+        an inverse heat-kernel transform and the delta sequence. The 2007 wording
+        drops those extra tasks and explicitly resets μ to zero.
     '7':
       unit: IB/methods/sheet-1/qx20
       pages:
       - 2
       text: question.tex
       question_sha256: 27088bf668a2b82a5f4ff187028092d034e3a0f46aed252d334f202bdd6ecb24
-      image_review: Printed transform pair, sine/cosine convolutions, alternative sine theorem and full-line
-        parity. Original list omits punctuation between g(x) and h(x).
+      image_review: Printed transform pair, sine/cosine convolutions, alternative
+        sine theorem and full-line parity. Original list omits punctuation between
+        g(x) and h(x).
     '8':
       unit: IB/methods/sheet-1/qx21
       pages:
       - 2
       text: question.tex
       question_sha256: 084b8c8910b3c18d439f05d4d94c0e2f300a5f643542647d684a76130a6ac30f
-      image_review: Two half-line problems have respectively y(0)=b and y′(0)=b, with a>1; each requests
-        a check.
+      image_review: Two half-line problems have respectively y(0)=b and y′(0)=b, with
+        a>1; each requests a check.
     '9':
       unit: IB/methods/sheet-1/qx22
       pages:
       - 2
       text: variants/2006-07/question.tex
       question_sha256: 669df7be1d4c26fb53c55d70fd99e4c5b339534bac9122c3d2847b8e3276d0ae
-      image_review: Both integrals contain the squared denominator (π²/4−t²)². The 2007 wording asks for
-        use of the derivative; the 2006 wording permits another method.
+      image_review: Both integrals contain the squared denominator (π²/4−t²)². The
+        2007 wording asks for use of the derivative; the 2006 wording permits another
+        method.
     '10':
       unit: IB/methods/sheet-1/qx23
       pages:
       - 2
       text: question.tex
       question_sha256: a4ee10f12a1327f44119b4b47d505da431d687994518afca03aeb6ff6b3dd7f5
-      image_review: Half-plane Dirichlet problem, Poisson kernel and finite-width boundary pulse; both
-        the general-y and x=±a sketches are requested.
+      image_review: Half-plane Dirichlet problem, Poisson kernel and finite-width
+        boundary pulse; both the general-y and x=±a sketches are requested.
 2007-08:
   archive: raw/sheets/IB/methods/2007-08/sheet-1.pdf
   sha256: ee8c96c49d16e705a3bbdf07df3626c08d6a366f9f07ab0bb32e67945637e838
@@ -616,8 +647,8 @@
       heading: Fourier series
     qx24:
       heading: Fourier transforms
-      wording_tex: 'As in the lectures, for a function $f(x)$, $\tilde f(k)$ is the Fourier transform
-        of $f(x)$, defined as
+      wording_tex: 'As in the lectures, for a function $f(x)$, $\tilde f(k)$ is the
+        Fourier transform of $f(x)$, defined as
 
         \[
 
@@ -631,8 +662,8 @@
       - 1
       text: variants/2007-08/question.tex
       question_sha256: b3457ee5a81929c44d86ac6b0a3df8cb60f61b16312a7cb567d66bbab56ded63
-      image_review: Period two, variable x, open right endpoint. No explicit periodic qualifier; asks
-        for the convergence rate.
+      image_review: Period two, variable x, open right endpoint. No explicit periodic
+        qualifier; asks for the convergence rate.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
@@ -646,71 +677,74 @@
       - 1
       text: variants/2007-08/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2007-08/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2007-08/question.tex
       question_sha256: 935f0690dc7d2ef5ea35d2864c4f718782e04df0cf7ccddc5df798b2445756ef
-      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and coefficient notation
-        S_N have no (x) in parts (ii)–(iii).
+      image_review: Repaired exclusion m=2kN with 2N−1 and 2N+1; the integral and
+        coefficient notation S_N have no (x) in parts (ii)–(iii).
     '6':
       unit: IB/methods/sheet-1/qx24
       pages:
       - 2
       text: question.tex
       question_sha256: 604c8f93cda844b7fb6a0375aa99b0205b06f373a7949b1654c456b4316a2c27
-      image_review: Four compact-support transforms; strict |x|<c and lower-case printed “fourier” retained.
+      image_review: Four compact-support transforms; strict |x|<c and lower-case printed
+        “fourier” retained.
     '7':
       unit: IB/methods/sheet-1/qx25
       pages:
       - 2
       text: question.tex
       question_sha256: 475e804f6fc11e9c9b892e6456e6e3c3bad6857b663dc937a900d7d6575e8e7e
-      image_review: Discontinuous one-sided exponential; the inverse at zero takes half the jump and the
-        note compares Fourier series and Complex Methods.
+      image_review: Discontinuous one-sided exponential; the inverse at zero takes
+        half the jump and the note compares Fourier series and Complex Methods.
     '8':
       unit: IB/methods/sheet-1/qx19
       pages:
       - 2
       text: variants/2007-08/question.tex
       question_sha256: 836426d288ba209e4155135730e2a260c2bd1f901c81be04be3853f5c43d012b
-      image_review: The longer 2006 wording asks for centered and shifted Gaussians, an inverse heat-kernel
-        transform and the delta sequence. The 2007 wording drops those extra tasks and explicitly resets
-        μ to zero.
+      image_review: The longer 2006 wording asks for centered and shifted Gaussians,
+        an inverse heat-kernel transform and the delta sequence. The 2007 wording
+        drops those extra tasks and explicitly resets μ to zero.
     '9':
       unit: IB/methods/sheet-1/qx26
       pages:
       - 2
       text: question.tex
       question_sha256: 9bb7b96a71c47970aad2ee48868f19c0070f85a02b2fdb944b800505624ad5c2
-      image_review: Distinct integer translates, complex conjugation and spectral shift p≠0; printed attribution
-        2002/4/I/8B retained.
+      image_review: Distinct integer translates, complex conjugation and spectral
+        shift p≠0; printed attribution 2002/4/I/8B retained.
     '10':
       unit: IB/methods/sheet-1/qx22
       pages:
       - 2
       text: question.tex
       question_sha256: e3c085f8f3650cf6b4d6976fadbd71377dab78b60b02f9c9332910317b817b25
-      image_review: Both integrals contain the squared denominator (π²/4−t²)². The 2007 wording asks for
-        use of the derivative; the 2006 wording permits another method.
+      image_review: Both integrals contain the squared denominator (π²/4−t²)². The
+        2007 wording asks for use of the derivative; the 2006 wording permits another
+        method.
     '11':
       unit: IB/methods/sheet-1/qx27
       pages:
       - 2
       text: question.tex
       question_sha256: 643f51160275b714d2e0cb5e57e245c9196f9b8afb11c81f8e76b67df71f13d9
-      image_review: Piecewise spectral boundary function has sign e^k−e^(−k); inversion and the infinite
-        strip are separate tasks, with attribution 2004/4/II/15A.
+      image_review: Piecewise spectral boundary function has sign e^k−e^(−k); inversion
+        and the infinite strip are separate tasks, with attribution 2004/4/II/15A.
 2011-12:
   archive: raw/sheets/IB/methods/2011-12/sheet-1.pdf
   sha256: 2a973c74f647fa6048b176e40a17ad3d3711d8d399db45b33f4baf9b8bfea82d
@@ -742,8 +776,8 @@
       - 1
       text: variants/2011-12/question.tex
       question_sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
-      image_review: Period two, variable x, open right endpoint. Asks for differentiability and order
-        of terms as n→∞.
+      image_review: Period two, variable x, open right endpoint. Asks for differentiability
+        and order of terms as n→∞.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
@@ -757,15 +791,16 @@
       - 1
       text: variants/2011-12/question.tex
       question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
-      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified summation method.
+      image_review: Asks for the Fourier series on (−π,π) and the sum; no specified
+        summation method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2011-12/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
@@ -779,31 +814,33 @@
       - 2
       text: variants/2011-12/question.tex
       question_sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
-      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many eigenvalues and
-        rough growth. Exact introductory wording recorded.
+      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely
+        many eigenvalues and rough growth. Exact introductory wording recorded.
     '7':
       unit: IB/methods/sheet-1/qx28
       pages:
       - 2
       text: question.tex
       question_sha256: 0dcb72f45264344c83a4c8fca9eabaa0622c44ada2d81d55bc3329db6480c941
-      image_review: The hypergeometric equation in (ii) has coefficients x(x−1), (1+a+b)x−c and ab. Skinner
-        instead sets the confluent equation xy″+(b−x)y′−ay=0. The third subproblem is shared.
+      image_review: The hypergeometric equation in (ii) has coefficients x(x−1), (1+a+b)x−c
+        and ab. Skinner instead sets the confluent equation xy″+(b−x)y′−ay=0. The
+        third subproblem is shared.
     '8':
       unit: IB/methods/sheet-1/qx06
       pages:
       - 2
       text: variants/2011-12/question.tex
       question_sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
-      image_review: The hint supplies the full J₀ power series and log form of the second solution.
+      image_review: The hint supplies the full J₀ power series and log form of the
+        second solution.
     '9':
       unit: IB/methods/sheet-1/qx09
       pages:
       - 2
       text: question.tex
       question_sha256: 1a118afe58a3d7f826e4dbf218216e5b8c7be541af9332f0afe5174f7ac745d0
-      image_review: Clamped boundary conditions and an if-and-only-if assertion; all coefficients and
-        the fourth-order example match the 2015 wording.
+      image_review: Clamped boundary conditions and an if-and-only-if assertion; all
+        coefficients and the fourth-order example match the 2015 wording.
 2014-15:
   archive: raw/sheets/IB/methods/2014-15/sheet-1.ps
   sha256: d063f629152f43b1ca9935b65132bf91d0057f71b8ae1e51f9c1e8365df63e47
@@ -816,13 +853,15 @@
     - 1101
     - 1558
     image_sha256: 562afaa2ff1706ca5ca423b68bede956e56b256f4762077937684896ddf23bc1
-    renderer: pypdfium2, scale 1.85; RGB PIL PNG; source converted with ps2pdf before rendering
+    renderer: pypdfium2, scale 1.85; RGB PIL PNG; source converted with ps2pdf before
+      rendering
   - page: 2
     size:
     - 1101
     - 1558
     image_sha256: 2772763e05aab57f3aa9d3a65331d8063bdaeb4528cd776f4f4fefc491c9d41b
-    renderer: pypdfium2, scale 1.85; RGB PIL PNG; source converted with ps2pdf before rendering
+    renderer: pypdfium2, scale 1.85; RGB PIL PNG; source converted with ps2pdf before
+      rendering
   before_question:
     q02:
       heading: Fourier series
@@ -835,8 +874,8 @@
       - 1
       text: variants/2014-15/question.tex
       question_sha256: a21b30717e1eebadefd13e0e7319c939f58033f23e3c7693950536673f2e58d2
-      image_review: Period two, variable x, open right endpoint. The 2014 version adds an optional integrals.com
-        remark.
+      image_review: Period two, variable x, open right endpoint. The 2014 version
+        adds an optional integrals.com remark.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
@@ -857,47 +896,48 @@
       - 1
       text: variants/2014-15/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2014-15/question.tex
       question_sha256: a6ffbed4931d914d5f711cc29ed3ff3e04e0e8f4690012e48f43a49a85982586
-      image_review: Part (ii) starts with S_n(x), then switches to θ. Part (iii) prints n in the integer
-        list while discussing m.
+      image_review: Part (ii) starts with S_n(x), then switches to θ. Part (iii) prints
+        n in the integer list while discussing m.
     '6':
       unit: IB/methods/sheet-1/q07
       pages:
       - 2
       text: variants/2014-15/question.tex
       question_sha256: 5af58152649a6b537d17b0f1d74bde5e741abeb428f18a3863711bd7c97fbe9e
-      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many eigenvalues and
-        rough growth. Exact introductory wording recorded.
+      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely
+        many eigenvalues and rough growth. Exact introductory wording recorded.
     '7':
       unit: IB/methods/sheet-1/qx05
       pages:
       - 2
       text: variants/2014-15/question.tex
       question_sha256: eefc535bacd2216672645365cd66db742a190de2ca58160914ed47051f5b863c
-      image_review: Exact 2015–16 wording; the second equation is confluent hypergeometric and the third
-        uses y(0)=y(1)=0.
+      image_review: Exact 2015–16 wording; the second equation is confluent hypergeometric
+        and the third uses y(0)=y(1)=0.
     '8':
       unit: IB/methods/sheet-1/qx06
       pages:
       - 2
       text: question.tex
       question_sha256: a885e34f7814b52ef04cc58b9a24fc7afcd44dc0facef3d2dd5c7f5b6fb3db65
-      image_review: The 2014/2015 wording names the regular J₀ and singular Y₀; all three tasks agree.
+      image_review: The 2014/2015 wording names the regular J₀ and singular Y₀; all
+        three tasks agree.
     '9':
       unit: IB/methods/sheet-1/qx09
       pages:
       - 2
       text: question.tex
       question_sha256: 1a118afe58a3d7f826e4dbf218216e5b8c7be541af9332f0afe5174f7ac745d0
-      image_review: Clamped boundary conditions and an if-and-only-if assertion; all coefficients and
-        the fourth-order example match the 2015 wording.
+      image_review: Clamped boundary conditions and an if-and-only-if assertion; all
+        coefficients and the fourth-order example match the 2015 wording.
 2018-19:
   archive: raw/sheets/IB/methods/2018-19/sheet-1.pdf
   sha256: 299b69853f2d92a53a1c11bf2943310a4f1963813303959fe3aafa4ee700e62b
@@ -929,70 +969,74 @@
       - 1
       text: variants/2018-19/question.tex
       question_sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
-      image_review: Period two, variable x, open right endpoint. Asks for differentiability and order
-        of terms as n→∞.
+      image_review: Period two, variable x, open right endpoint. Asks for differentiability
+        and order of terms as n→∞.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
       - 1
       text: variants/2018-19/question.tex
       question_sha256: 5196278c686884781b0307247eb893893b58c160bd4b33adf69aa9dab5a68f57
-      image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π included.
+      image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π
+        included.
     '3':
       unit: IB/methods/sheet-1/q04
       pages:
       - 1
       text: variants/2018-19/question.tex
       question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
-      image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation method.
+      image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation
+        method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2018-19/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2018-19/question.tex
       question_sha256: 8f4432d0728ea2a754103b68bec8d0a1f411a3caa694b067a3e28e14d53e9fca
-      image_review: The historical note mentions Wilbraham, his age and the 50 years before Gibbs; it
-        is parenthesized in 2018 and italicized in square brackets in 2020 and 2022.
+      image_review: The historical note mentions Wilbraham, his age and the 50 years
+        before Gibbs; it is parenthesized in 2018 and italicized in square brackets
+        in 2020 and 2022.
     '6':
       unit: IB/methods/sheet-1/q07
       pages:
       - 2
       text: variants/2018-19/question.tex
       question_sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
-      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many eigenvalues and
-        rough growth. Exact introductory wording recorded.
+      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely
+        many eigenvalues and rough growth. Exact introductory wording recorded.
     '7':
       unit: IB/methods/sheet-1/q08
       pages:
       - 2
       text: variants/2018-19/question.tex
       question_sha256: 2e011489e6b55a414a54e24c30b3109d4e030b2dc61988a80a5663389d543c33
-      image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with a>b only. The modern
-        signs of its first two terms are opposite and it additionally asks about singularity. All three
-        printed parts are retained here.
+      image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with
+        a>b only. The modern signs of its first two terms are opposite and it additionally
+        asks about singularity. All three printed parts are retained here.
     '8':
       unit: IB/methods/sheet-1/qx06
       pages:
       - 2
       text: variants/2018-19/question.tex
       question_sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
-      image_review: The hint supplies the full J₀ power series and log form of the second solution.
+      image_review: The hint supplies the full J₀ power series and log form of the
+        second solution.
     '9':
       unit: IB/methods/sheet-1/qx09
       pages:
       - 2
       text: variants/2018-19/question.tex
       question_sha256: 2c234601d13f8ee5d372c6e9b0cc701c4290e1098a98c7c3953160fa0c9f24b3
-      image_review: This version asks for necessity under suitable unspecified boundary conditions. It
-        explicitly calls λ>0 real in the clamped fourth-order example.
+      image_review: This version asks for necessity under suitable unspecified boundary
+        conditions. It explicitly calls λ>0 real in the clamped fourth-order example.
 2020-21:
   archive: raw/sheets/IB/methods/2020-21/sheet-1.pdf
   sha256: 5a48b1e9e906a51ab6ad625fd162a931d3ed72d8b8796579acfe04af5c114ece
@@ -1024,70 +1068,74 @@
       - 1
       text: variants/2020-21/question.tex
       question_sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
-      image_review: Period two, variable x, open right endpoint. Asks for differentiability and order
-        of terms as n→∞.
+      image_review: Period two, variable x, open right endpoint. Asks for differentiability
+        and order of terms as n→∞.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
       - 1
       text: variants/2020-21/question.tex
       question_sha256: 5196278c686884781b0307247eb893893b58c160bd4b33adf69aa9dab5a68f57
-      image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π included.
+      image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π
+        included.
     '3':
       unit: IB/methods/sheet-1/q04
       pages:
       - 1
       text: variants/2020-21/question.tex
       question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
-      image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation method.
+      image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation
+        method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2020-21/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2020-21/question.tex
       question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
-      image_review: The historical note mentions Wilbraham, his age and the 50 years before Gibbs; it
-        is parenthesized in 2018 and italicized in square brackets in 2020 and 2022.
+      image_review: The historical note mentions Wilbraham, his age and the 50 years
+        before Gibbs; it is parenthesized in 2018 and italicized in square brackets
+        in 2020 and 2022.
     '6':
       unit: IB/methods/sheet-1/q07
       pages:
       - 2
       text: variants/2020-21/question.tex
       question_sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
-      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many eigenvalues and
-        rough growth. Exact introductory wording recorded.
+      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely
+        many eigenvalues and rough growth. Exact introductory wording recorded.
     '7':
       unit: IB/methods/sheet-1/q08
       pages:
       - 2
       text: variants/2020-21/question.tex
       question_sha256: 2e011489e6b55a414a54e24c30b3109d4e030b2dc61988a80a5663389d543c33
-      image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with a>b only. The modern
-        signs of its first two terms are opposite and it additionally asks about singularity. All three
-        printed parts are retained here.
+      image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with
+        a>b only. The modern signs of its first two terms are opposite and it additionally
+        asks about singularity. All three printed parts are retained here.
     '8':
       unit: IB/methods/sheet-1/qx06
       pages:
       - 2
       text: variants/2020-21/question.tex
       question_sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
-      image_review: The hint supplies the full J₀ power series and log form of the second solution.
+      image_review: The hint supplies the full J₀ power series and log form of the
+        second solution.
     '9':
       unit: IB/methods/sheet-1/qx09
       pages:
       - 2
       text: variants/2020-21/question.tex
       question_sha256: 2c234601d13f8ee5d372c6e9b0cc701c4290e1098a98c7c3953160fa0c9f24b3
-      image_review: This version asks for necessity under suitable unspecified boundary conditions. It
-        explicitly calls λ>0 real in the clamped fourth-order example.
+      image_review: This version asks for necessity under suitable unspecified boundary
+        conditions. It explicitly calls λ>0 real in the clamped fourth-order example.
 2022-23:
   archive: raw/sheets/IB/methods/2022-23/sheet-1.pdf
   sha256: b7247fac15a6d46a68d6483a348b08417ec303b336261e3f967b8b112b14ab79
@@ -1119,70 +1167,74 @@
       - 1
       text: variants/2022-23/question.tex
       question_sha256: fee191d82c400b4cbd90741e7978360f47c402315d14ddaf5c668ced1d635557
-      image_review: Period two, variable x, open right endpoint. Asks for differentiability and order
-        of terms as n→∞.
+      image_review: Period two, variable x, open right endpoint. Asks for differentiability
+        and order of terms as n→∞.
     '2':
       unit: IB/methods/sheet-1/q03
       pages:
       - 1
       text: variants/2022-23/question.tex
       question_sha256: 5196278c686884781b0307247eb893893b58c160bd4b33adf69aa9dab5a68f57
-      image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π included.
+      image_review: The domain excludes π; the comparisons are 2x and 2|x| with −π
+        included.
     '3':
       unit: IB/methods/sheet-1/q04
       pages:
       - 1
       text: variants/2022-23/question.tex
       question_sha256: 01ea0e8db9be6bed12b783e87995d7d414dabbae78a0c022dce732c137c708fa
-      image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation method.
+      image_review: Explicitly 2π-periodic with x on [−π,π); no prescribed summation
+        method.
     '4':
       unit: IB/methods/sheet-1/qx08
       pages:
       - 1
       text: variants/2022-23/question.tex
       question_sha256: 83e355a09b1c5c040c23da85baf54f45214bd6d4a82edffbe239b49363a8e226
-      image_review: The historical wording says “show that”; the canonical 2015 sheet says “show directly
-        that”. The two cutoffs are 9π/(2T).
+      image_review: The historical wording says “show that”; the canonical 2015 sheet
+        says “show directly that”. The two cutoffs are 9π/(2T).
     '5':
       unit: IB/methods/sheet-1/q11
       pages:
       - 1
       text: variants/2022-23/question.tex
       question_sha256: ba57e01d812782a4a727e4a6a1e8ca4593ade773061437caefc6f33b74060e67
-      image_review: The historical note mentions Wilbraham, his age and the 50 years before Gibbs; it
-        is parenthesized in 2018 and italicized in square brackets in 2020 and 2022.
+      image_review: The historical note mentions Wilbraham, his age and the 50 years
+        before Gibbs; it is parenthesized in 2018 and italicized in square brackets
+        in 2020 and 2022.
     '6':
       unit: IB/methods/sheet-1/q07
       pages:
       - 2
       text: variants/2022-23/question.tex
       question_sha256: 1700d0b8dc0861f977cde07c53077e35dca319cc4ccc7b02c511b91a429e125a
-      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely many eigenvalues and
-        rough growth. Exact introductory wording recorded.
+      image_review: Mixed endpoint conditions y(0)=0 and y(1)+y′(1)=0, infinitely
+        many eigenvalues and rough growth. Exact introductory wording recorded.
     '7':
       unit: IB/methods/sheet-1/q08
       pages:
       - 2
       text: variants/2022-23/question.tex
       question_sha256: 2e011489e6b55a414a54e24c30b3109d4e030b2dc61988a80a5663389d543c33
-      image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with a>b only. The modern
-        signs of its first two terms are opposite and it additionally asks about singularity. All three
-        printed parts are retained here.
+      image_review: The historical second equation begins x(x−1)y″+[ax−b]y′+λy=0 with
+        a>b only. The modern signs of its first two terms are opposite and it additionally
+        asks about singularity. All three printed parts are retained here.
     '8':
       unit: IB/methods/sheet-1/qx06
       pages:
       - 2
       text: variants/2022-23/question.tex
       question_sha256: 1e4b1649002ae419ec75b525295780fa0c87fdd403a826fb7246b3adf9be5b69
-      image_review: The hint supplies the full J₀ power series and log form of the second solution.
+      image_review: The hint supplies the full J₀ power series and log form of the
+        second solution.
     '9':
       unit: IB/methods/sheet-1/qx09
       pages:
       - 2
       text: variants/2022-23/question.tex
       question_sha256: 2c234601d13f8ee5d372c6e9b0cc701c4290e1098a98c7c3953160fa0c9f24b3
-      image_review: This version asks for necessity under suitable unspecified boundary conditions. It
-        explicitly calls λ>0 real in the clamped fourth-order example.
+      image_review: This version asks for necessity under suitable unspecified boundary
+        conditions. It explicitly calls λ>0 real in the clamped fourth-order example.
 2023-24:
   archive: raw/sheets/IB/methods/unverified-2023/sheet-1.pdf
   sha256: dd8d1e89bbaf423e790c328088efbdc6451630311f8c180e0e9d04eaca7cc893
@@ -1205,7 +1257,8 @@
   before_question:
     q11:
       heading: Additional problems
-      wording_tex: \emph{These questions should \textbf{not} be attempted at the expense of earlier ones.}
+      wording_tex: \emph{These questions should \textbf{not} be attempted at the expense
+        of earlier ones.}
   questions:
     '1':
       unit: IB/methods/sheet-1/q01
@@ -1213,78 +1266,88 @@
       - 1
       text: variants/2023-24/question.tex
       question_sha256: 37dc5efbb1b3884df1e272c5dcfef3c194643152f51af974e2b2e4432f0e4a36
-      image_review: The opening says “Recall from lectures” and the final assertion ends “as stated in
-        lectures”.
+      image_review: The opening says “Recall from lectures” and the final assertion
+        ends “as stated in lectures”.
     '2':
       unit: IB/methods/sheet-1/q02
       pages:
       - 1
       text: question.tex
       question_sha256: 66e4457c54286c12331ddea75837822f5f6cffe5c67191ba51aa687475731b09
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '3':
       unit: IB/methods/sheet-1/q03
       pages:
       - 1
       text: question.tex
       question_sha256: 46787ccc62be7eda6005225661dd5a9da44d8ca0efa307e5ea085ea586a484b2
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '4':
       unit: IB/methods/sheet-1/q04
       pages:
       - 1
       text: question.tex
       question_sha256: e338fa9b3d874148a10a36ca8ad2f4409439ff06301bbf676ac56009b44ae6f8
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '5':
       unit: IB/methods/sheet-1/q05
       pages:
       - 1
       text: variants/2023-24/question.tex
       question_sha256: 9e10d53180340e093a672802b96549d1fa63f1046acd03c998f76bd20d3e0294
-      image_review: Only parts (i)–(ii) appear, exactly as in 2024–25; no lacunary-series part.
+      image_review: Only parts (i)–(ii) appear, exactly as in 2024–25; no lacunary-series
+        part.
     '6':
       unit: IB/methods/sheet-1/q06
       pages:
       - 1
       text: question.tex
       question_sha256: 07ee1b7bd2e9920e3ff8aa4cb13b7cb37ecd48c72c610f60950071b89d097c62
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '7':
       unit: IB/methods/sheet-1/q07
       pages:
       - 1
       text: question.tex
       question_sha256: 74157a1adb34dd4c940b0fbd6a3b98170a46e110f0347a7d00ba03433c9ada64
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '8':
       unit: IB/methods/sheet-1/q08
       pages:
       - 1
       text: question.tex
       question_sha256: f1b3ef752c65bae272a12181c446b2204ae7a5ef7a7b2a7a16a19ac722e9d9e6
-      image_review: All three subparts fit on page 1, including singularity and weight requests.
+      image_review: All three subparts fit on page 1, including singularity and weight
+        requests.
     '9':
       unit: IB/methods/sheet-1/q09
       pages:
       - 2
       text: question.tex
       question_sha256: 583ed3e563cd6d23a396fdc8e3fc97b626303cae381de58074cb66f975397406
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '10':
       unit: IB/methods/sheet-1/q10
       pages:
       - 2
       text: question.tex
       question_sha256: 0118e4706a118cb6e91f3485c73832e45ee82c06bc475f57cf62d7cfaa506703
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '11':
       unit: IB/methods/sheet-1/q11
       pages:
       - 2
       text: question.tex
       question_sha256: 11af62789337a7433cc1fb3a0157524408bef3b409a6c92474cc12ccaffa1141
-      image_review: The wording, symbols, hypotheses and tasks match the baseline question.
+      image_review: The wording, symbols, hypotheses and tasks match the baseline
+        question.
     '12':
       unit: IB/methods/sheet-1/q12
       pages:
@@ -1293,3 +1356,329 @@
       question_sha256: 60163aacd585a57ee06140f1f7e6ac76da9c9ad5dc5294b3c17438f9d212fc3b
       image_review: Part (b) adds the printed hint “orthogonality” after the second-smallest-eigenvalue
         question; the indicated footnote is retained.
+1999-00:
+  archive: raw/sheets/IB/methods/1999-00/sheet-1.ps
+  sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+  url: https://web.archive.org/web/20000902160305id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.ps
+  lecturer: Dr E.P.S. Shellard
+  printed_term: Michaelmas term 1999
+  before_question:
+    qx10:
+      heading: Fourier series
+    qx12:
+      heading: The one-dimensional wave equation
+    qx16:
+      heading: The Dirac delta function
+  questions:
+    '1':
+      unit: IB/methods/sheet-1/qx10
+      original_question: '1'
+      printed_label: '1.'
+      page: 1
+      pages:
+      - 1
+      text: variants/1999-00/question.tex
+      question_sha256: e0247dae442415a8d33fd68ef99d4b61b992aac31e91ea115866cc5205489242
+      source_review: Checks the quartic on −1≤x<1, coefficient 48/π⁴ and n⁻⁴ with
+        alternating sign, FS convergence wording and range notation (a–b) in part
+        (ii).
+      page_render_sha256:
+      - 608423b33ae3f874f00c70cd02d5af3551d355bcf5af9e48f7af6e27c30c5173
+      crop_sha256: 51ee0b7c888fe6449c18b091a01bdd243d2a1d9a58f7bad7e2b111f10ccc1843
+      crop_box_points_from_top:
+      - 43
+      - 117
+      - 564
+      - 243
+      verified_solution: history/verified-1999-00-e0247dae4424/solution.tex
+      verified_solution_sha256: 6e11d5d3fa1de09457215f53d8117a452fc60de85d1c14bd9fbf7c193336aa47
+    '2':
+      unit: IB/methods/sheet-1/q04
+      original_question: '2'
+      printed_label: '2.'
+      page: 1
+      pages:
+      - 1
+      text: variants/1999-00/question.tex
+      question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+      source_review: Both intervals use (−π,π); the summation has numerator 1, lower
+        index 1 and unit subtraction inside the final bracket.
+      page_render_sha256:
+      - 608423b33ae3f874f00c70cd02d5af3551d355bcf5af9e48f7af6e27c30c5173
+      crop_sha256: 1a997f4e02ecfa009d5eadd9bdb30220654314f673402c9049fdd6bd51c5d20b
+      crop_box_points_from_top:
+      - 43
+      - 244
+      - 564
+      - 310
+      verified_solution: history/verified-2001-02-65ec3e65a969/solution.tex
+      verified_solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+    '3':
+      unit: IB/methods/sheet-1/qx11
+      original_question: '3'
+      printed_label: '3.'
+      page: 1
+      pages:
+      - 1
+      text: question.tex
+      question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+      source_review: Both real coefficient integrals have endpoints 0 and 2π. Includes
+        all three subparts and references to questions 1, 2 and Q5.
+      page_render_sha256:
+      - 608423b33ae3f874f00c70cd02d5af3551d355bcf5af9e48f7af6e27c30c5173
+      crop_sha256: 85f2c3eb161742d9806efeaa666b1714cd5f0dd522016e994abc5b8c7cec61cf
+      crop_box_points_from_top:
+      - 43
+      - 310
+      - 564
+      - 436
+      verified_solution: solution.tex
+      verified_solution_sha256: f209c2f9899977f5f94f94b2e72c42d11f985eedeead6a11884e3fb780b97bb5
+      same_edition_references:
+        questions 1 and 2:
+        - IB/methods/sheet-1/qx10
+        - IB/methods/sheet-1/q04
+        Q5: IB/methods/sheet-1/q11
+    '4':
+      unit: IB/methods/sheet-1/qx08
+      original_question: '4'
+      printed_label: '4.'
+      page: 1
+      pages:
+      - 1
+      text: variants/1999-00/question.tex
+      question_sha256: 3fd38acef4ab549f328f7124b551006bc89031867321a41c925f8ef381d6c931
+      source_review: Both cutoff fractions are 9π/(2T). The last two sentences ask
+        for the output and the incident-power fraction directly.
+      page_render_sha256:
+      - 608423b33ae3f874f00c70cd02d5af3551d355bcf5af9e48f7af6e27c30c5173
+      crop_sha256: 6ff56e19b3a3aaa7241df12a5370ebbd502ea6adfd4c0e40ff396b27cb089367
+      crop_box_points_from_top:
+      - 43
+      - 437
+      - 564
+      - 574
+      verified_solution: history/verified-1999-00-3fd38acef4ab/solution.tex
+      verified_solution_sha256: ab0ae0911e0d04c0cbe401c4129b87278bb644a1e49ed5de8d548886482406ea
+    '5':
+      unit: IB/methods/sheet-1/q11
+      original_question: '5'
+      printed_label: '5.'
+      page: 1
+      pages:
+      - 1
+      text: variants/1999-00/question.tex
+      question_sha256: 5c36808150ae84f856632f2419039275c0615e19713d9dfef3db070eed04017a
+      source_review: The star and apostrophe in Gibbs’ are printed. The numerator
+        is sin(2n−1)x and the displayed extrema range ends at N−1. The final printed
+        decimal is 1·089.
+      page_render_sha256:
+      - 608423b33ae3f874f00c70cd02d5af3551d355bcf5af9e48f7af6e27c30c5173
+      crop_sha256: fdea6f4750b475586f0ce295a7691c5dd93871790ab9d5b757eefc602bf4e305
+      crop_box_points_from_top:
+      - 43
+      - 575
+      - 564
+      - 810
+      verified_solution: history/verified-1999-00-5c36808150ae/solution.tex
+      verified_solution_sha256: f9b02c6aa47c0d4a5eac318a8647ec4c2e3c4cd5fe5912110f0234269814ac10
+    '6':
+      unit: IB/methods/sheet-1/qx12
+      original_question: '6'
+      printed_label: '6.'
+      page: 2
+      pages:
+      - 2
+      text: variants/1999-00/question.tex
+      question_sha256: e330f4690e5c0462d3dfc1cba63fe36f76ff2477ec8ea7812828925ed193439e
+      source_review: The title specifies a plucked string. The initial velocity is
+        4V x(ℓ−x)/ℓ². The normal-mode energy comparison gives the odd sixth-power
+        sum π⁶/960.
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: c5902b68d6ca4f3042aeda0f482a74e670116b6d3a5a7372e27f9e7d922d5a2a
+      crop_box_points_from_top:
+      - 43
+      - 50
+      - 564
+      - 192
+      verified_solution: history/verified-1999-00-e330f4690e5c/solution.tex
+      verified_solution_sha256: e5db3a7dad8c18898adba86ce0abdb707fc6d5831b5ca4ba5c568a1542f3c4c1
+    '7':
+      unit: IB/methods/sheet-1/qx13
+      original_question: '7'
+      printed_label: '7.'
+      page: 2
+      pages:
+      - 2
+      text: question.tex
+      question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+      source_review: Part (i) specifies the force −2kμy_t and k=πc/ℓ. Part (ii) includes
+        both sine and cosine factors of the forced oscillation.
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: 435c204ee856f5e1775b65a90846e0c680388852b603698b82c6363b8c77baf4
+      crop_box_points_from_top:
+      - 43
+      - 193
+      - 564
+      - 310
+      verified_solution: solution.tex
+      verified_solution_sha256: e883b37661e20f0a638ed6d51706e1be86f1619256822a92a94fbb3ec6fff785
+    '8':
+      unit: IB/methods/sheet-1/qx14
+      original_question: '8'
+      printed_label: '8.'
+      page: 2
+      pages:
+      - 2
+      text: question.tex
+      question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+      source_review: The display is labeled (*). The jump in part (i) has the x=0+
+        upper and x=0− lower limits and is followed by a full stop. Part (ii) uses
+        incidence from −∞ and λ=Mωc/T.
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: 5a95a73f14cd1a943e55862887417baf3664ae3fbbd5211fa1d381a200c0185b
+      crop_box_points_from_top:
+      - 43
+      - 311
+      - 564
+      - 483
+      verified_solution: solution.tex
+      verified_solution_sha256: 5d71085e36b5c9cc3c04fccf235e07af7e6a10b6d8f5ef2c3aaee590f8f95737
+    '9':
+      unit: IB/methods/sheet-1/qx15
+      original_question: '9'
+      printed_label: '9.'
+      page: 2
+      pages:
+      - 2
+      text: question.tex
+      question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+      source_review: The midpoint impulse changes the velocity by λδ(x−ℓ/2). Question
+        8 supplies the wave equation labeled (*).
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: 3d6c9992a8ba048a1316ceed1ba32c12d586d861fd0133e6ba4dd3c985efc11d
+      crop_box_points_from_top:
+      - 43
+      - 484
+      - 564
+      - 546
+      verified_solution: solution.tex
+      verified_solution_sha256: 730773ebee974ef9604bd040740a09dc7d8f3f6e98a03c9e3ab26247929aea97
+      same_edition_references:
+        (*) given above: IB/methods/sheet-1/qx14
+    '10':
+      unit: IB/methods/sheet-1/qx16
+      original_question: '10'
+      printed_label: '10.'
+      page: 2
+      pages:
+      - 2
+      text: question.tex
+      question_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+      source_review: Integral limits a,b and −∞,+∞, derivative in absolute value,
+        and the simple-root condition checked.
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: 165b9800b8bc2fb5d51b21e58ee6c386b46698eaef0600223386f5cd4a4ece99
+      crop_box_points_from_top:
+      - 43
+      - 559
+      - 564
+      - 684
+      verified_solution: solution.tex
+      verified_solution_sha256: 526759b5504ea043c23db8bee015925705321c38537f54dd5fb7fa6ab28048fe
+    '11':
+      unit: IB/methods/sheet-1/qx17
+      original_question: '11'
+      printed_label: '11.'
+      page: 2
+      pages:
+      - 2
+      text: question.tex
+      question_sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+      source_review: First delta is differentiated, with argument x²+y²−1. Second
+        delta has argument x²−y²; the right side is f(1)−f′(1).
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: b9d530d96b30652a7b53b265ea56c36ea398f89691db126f05ae826fbee2043f
+      crop_box_points_from_top:
+      - 43
+      - 685
+      - 564
+      - 744
+      verified_solution: solution.tex
+      verified_solution_sha256: 2493af2938e764069e89c4a3ba20b199d00c299328d210e7c698e906b5b70526
+    '12':
+      unit: IB/methods/sheet-1/qx18
+      original_question: '12'
+      printed_label: '12.'
+      page: 2
+      pages:
+      - 2
+      text: question.tex
+      question_sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
+      source_review: Point impulse has t₀>0, initial displacement zero and initial
+        velocity V; concludes with the mechanics question.
+      page_render_sha256:
+      - 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+      crop_sha256: 420a7831c2582d4797a10e52978fe3dc27d494f2b010e15d5007d54386bf84d7
+      crop_box_points_from_top:
+      - 43
+      - 745
+      - 564
+      - 784
+      verified_solution: solution.tex
+      verified_solution_sha256: 874b52c76114fe82a5148d95b7d28400d7280401d8bedf2059d83a66d0606281
+  printed_course_code: Course C10—No. B6
+  closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples sheets,
+    please inform your supervisor or email epss@amtp.cam.ac.uk.
+  printed_margin_notice: Copyright © 2000 University of Cambridge. Not to be quoted
+    or reproduced without permission.
+  marks_printed: false
+  fetched_at: '2026-11-22T01:22:00.170100+00:00'
+  verified_formats:
+  - local_path: raw/sheets/IB/methods/1999-00/sheet-1.pdf
+    sha256: 445f8a668dd46a0b84bf3bac717017c7fd46364de654ce07de324b593052e083
+    url: https://web.archive.org/web/20000902160257id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.pdf
+    fetched_at: '2026-11-22T01:22:00.657429+00:00'
+  - local_path: raw/sheets/IB/methods/1999-00/sheet-1.ps
+    sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+    url: https://web.archive.org/web/20000902160305id_/http://www.damtp.cam.ac.uk:80/user/examples/C10a.ps
+    fetched_at: '2026-11-22T01:22:00.170100+00:00'
+  source_verification_manifest_sha256: f87d14a30b19d9087da258762d2191fa19713f8c8d8e71a1d07892e52e26f65d
+  page_count: 2
+  rendered_pages:
+  - page: 1
+    size:
+    - 1369
+    - 1937
+    image_sha256: 608423b33ae3f874f00c70cd02d5af3551d355bcf5af9e48f7af6e27c30c5173
+    renderer: Ghostscript 10.07.0 A4; pypdfium2 5.13.0 scale 2.3; PIL mode L.
+  - page: 2
+    size:
+    - 1369
+    - 1937
+    image_sha256: 7651f3c64f1be218ad0e6708d94ca052b5e70c3b851b3c6abed9dda36a633861
+    renderer: Ghostscript 10.07.0 A4; pypdfium2 5.13.0 scale 2.3; PIL mode L.
+  raster_recipe:
+    ghostscript: 10.07.0
+    postscript_device: A4 print area, declared %%BoundingBox 0 0 596 842 in both originals;
+      A4 device without a fit or scale operation
+    conversion_arguments:
+    - gs
+    - -q
+    - -dSAFER
+    - -dBATCH
+    - -dNOPAUSE
+    - -sPAPERSIZE=a4
+    - -sDEVICE=pdfwrite
+    - -sOutputFile=OUT
+    - INPUT.ps
+    pdf_rasterizer: 5.13.0
+    scale: 2.3
+    mode: L; crop coordinates from upper left, point values multiplied by scale and
+      rounded to nearest pixel

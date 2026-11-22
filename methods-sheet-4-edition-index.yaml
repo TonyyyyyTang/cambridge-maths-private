@@ -1,8 +1,8 @@
 sheet: IB/methods/sheet-4
 base_version: 2025-26
-dated_originals: 14
-physical_sheet_pages: 28
-positions: 173
+dated_originals: 15
+physical_sheet_pages: 30
+positions: 187
 distinct_question_fragments: 80
 canonical_families: 46
 historical_only_families: 33
@@ -952,7 +952,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '1'
     question_sha256: 0cc8896523c7a392e65c39299728c416046cac5c4365cd4f4ed687f2fb473f59
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 2
     canonical_file: editions/2000-01/q01/question.tex
@@ -963,7 +964,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '2'
     question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q02/question.tex
@@ -973,7 +975,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '3'
     question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q03/question.tex
@@ -983,7 +986,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '4'
     question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q04/question.tex
@@ -993,7 +997,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '5'
     question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q05/question.tex
@@ -1003,7 +1008,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '6'
     question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q06/question.tex
@@ -1013,7 +1019,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '7'
     question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q07/question.tex
@@ -1023,7 +1030,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '8'
     question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q08/question.tex
@@ -1033,7 +1041,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '9'
     question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q09/question.tex
@@ -1043,7 +1052,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '10'
     question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q10/question.tex
@@ -1090,7 +1100,8 @@ canonical_families_by_id:
     preferred_edition: 2000-01
     preferred_original_number: '14'
     question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
-    canonical_selection_reason: Earliest located formulation containing the full exercise.
+    canonical_selection_reason: The 1999 original confirms the same full canonical
+      wording as the previously selected 2000–01 witness.
     schedule_relevance: off-schedule
     exact_statement_count: 1
     canonical_file: editions/2000-01/q14/question.tex
@@ -4616,6 +4627,364 @@ editions:
         text: question.tex
         verified_solution: solution.tex
         verified_solution_sha256: 52906d59c488bb8b867d75d5427a884ba402c093a8011fe0df005e1dcd1c8058
+  1999-00:
+    archive: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+    lecturer: Dr E.P.S. Shellard
+    printed_term: Michaelmas term 1999
+    before_question:
+      qx01:
+        heading: Cartesian tensors in R³
+        restarts_numbering: false
+        heading_tex: Cartesian tensors in $\mathbf R^3$
+    questions:
+      '1':
+        unit: IB/methods/sheet-4/qx01
+        original_question: '1'
+        printed_label: '1.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 0cc8896523c7a392e65c39299728c416046cac5c4365cd4f4ed687f2fb473f59
+        source_review: Both proof routes and the separate isotropy question match;
+          the indices each range from 1 to 3.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: c56242b129f5a53f790442242abab2ad349a63bc4b1cc277508a8336608ce74a
+        crop_box_points_from_top:
+        - 43
+        - 135
+        - 564
+        - 195
+        verified_solution: solution.tex
+        verified_solution_sha256: 3d711fbee5fed42624c5c77cbfa760e7063a7e4284551fbb5f3db88f94a036a1
+      '2':
+        unit: IB/methods/sheet-4/qx02
+        original_question: '2'
+        printed_label: '2.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+        source_review: Compared each of the six input matrices, all nine entries of
+          the direction-cosine matrix, and the product ℓ_i1 ℓ_j1. The answer bracket
+          is retained.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: 4444849dec389721cf55b8393e592e6f6933dbd4dacb2021dd4a1ed9fd9c95c1
+        crop_box_points_from_top:
+        - 43
+        - 195
+        - 564
+        - 420
+        verified_solution: solution.tex
+        verified_solution_sha256: eec5f5e47f8e632bfe3bc7e66c663f04fce8cb234bb46db64b9faa0ef2176f30
+      '3':
+        unit: IB/methods/sheet-4/qx03
+        original_question: '3'
+        printed_label: '3.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+        source_review: All nine conductivity entries, both listed coordinate triples,
+          and greatest conductivity 4 match.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: 0dc18587d685978ff210e22452759b2e6d0c05850a53bdcce2374d94f86555ce
+        crop_box_points_from_top:
+        - 43
+        - 421
+        - 564
+        - 516
+        verified_solution: solution.tex
+        verified_solution_sha256: d0acdfba250ad8407862eca50b3ce38b6513ca1fe0f0ddf06d82f708bde8d006
+      '4':
+        unit: IB/methods/sheet-4/qx04
+        original_question: '4'
+        printed_label: '4.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+        source_review: All matrix entries, line through O, direction (1,1,2) and bracketed
+          answer 11/3 match.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: a9d90d8afc450d7a01c5ea1edf91d05a12e37305e85d12b87f1b845aecb70a4f
+        crop_box_points_from_top:
+        - 43
+        - 517
+        - 564
+        - 597
+        verified_solution: solution.tex
+        verified_solution_sha256: 71259897e34768ea50a21f95645dbaedf97b148c90082c0c6db806a57f6ce287
+      '5':
+        unit: IB/methods/sheet-4/qx05
+        original_question: '5'
+        printed_label: '5.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+        source_review: Transpose assertion, primed index order, both ± signs and the
+          square-bracket explanation match.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: 5818780793d828d8379a95b8212cbe212f2343cb472a6f4241f73df5e9711abc
+        crop_box_points_from_top:
+        - 43
+        - 599
+        - 564
+        - 658
+        verified_solution: solution.tex
+        verified_solution_sha256: 2b3841e55b5095af2687bb60fed17e9f82a8522cccf1e0930b47cf45b21158c8
+      '6':
+        unit: IB/methods/sheet-4/qx06
+        original_question: '6'
+        printed_label: '6.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+        source_review: The projection denominator is v_k v_k. Both range/kernel tests
+          and negative contraction match.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: 8844f9c0fc84410482e7459fcfbd7704dce635da333cd8870d7ec795b922bf0c
+        crop_box_points_from_top:
+        - 43
+        - 659
+        - 564
+        - 760
+        verified_solution: solution.tex
+        verified_solution_sha256: d1af92aa5629ea0755effa669a1a8a7dc28f770ceb5b46c2178109628c526b60
+      '7':
+        unit: IB/methods/sheet-4/qx07
+        original_question: '7'
+        printed_label: '7.'
+        page: 1
+        pages:
+        - 1
+        text: question.tex
+        question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+        source_review: The title carries a star. The contracted derivative uses k,
+          the free derivative ℓ; the ranks are 2 and 4.
+        page_render_sha256:
+        - 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        crop_sha256: 547c92985acea254a8b88182e7643e32d8b3f87fdf38fdb4def5b6eb7fc68722
+        crop_box_points_from_top:
+        - 43
+        - 760
+        - 564
+        - 799
+        verified_solution: solution.tex
+        verified_solution_sha256: 91b8e3741dd3b02f8256dcc05a062828ce35280120e0e090eb48868edc19c4cf
+      '8':
+        unit: IB/methods/sheet-4/qx08
+        original_question: '8'
+        printed_label: '8.'
+        page: 2
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+        source_review: The 3³ components, symmetric a_km, both requested arrays and
+          index interchange km/mk match.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: 8f6c35c53a352ba102cc5300cd4cfb78fe6554a6114d1e9a6d68a84844741d92
+        crop_box_points_from_top:
+        - 43
+        - 59
+        - 564
+        - 144
+        verified_solution: solution.tex
+        verified_solution_sha256: fe166c3383d882dfc88c9c43bd5cc59b1758875f0f48367cc25201f5c699adb0
+      '9':
+        unit: IB/methods/sheet-4/qx09
+        original_question: '9'
+        printed_label: '9.'
+        page: 2
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+        source_review: Compared γ>0, r²=x_p x_p, radial powers −4 and −5 and factors
+          with two/three x coordinates.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: 2fcad78167fe43721759d80556b469aa3b1f87115db4b2f978c18a6f749c2918
+        crop_box_points_from_top:
+        - 43
+        - 145
+        - 564
+        - 201
+        verified_solution: solution.tex
+        verified_solution_sha256: 60746c43bb0be47b4a13cce0485726efc3ac3f65417e4933eb794dace25e6910
+      '10':
+        unit: IB/methods/sheet-4/qx10
+        original_question: '10'
+        printed_label: '10.'
+        page: 2
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+        source_review: All three contractions and all four terms of the characteristic
+          polynomial match, including 2γ in the constant term.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: dc3275aa59c893fb6200a0c6a05147fad4d74030075343878e0ae358f3f4bdf4
+        crop_box_points_from_top:
+        - 43
+        - 202
+        - 564
+        - 305
+        verified_solution: solution.tex
+        verified_solution_sha256: efbb43bf6cd0ec11ee773e18c55c9b8c1a0d599cf924e9e8d1f4e06b5a9d7bd9
+      '11':
+        unit: IB/methods/sheet-4/qx11
+        original_question: '11'
+        printed_label: '11.'
+        page: 2
+        pages:
+        - 2
+        text: variants/1999-00/question.tex
+        question_sha256: c5f34a820601eda5cc64637cb191cdd96358e8c08198c1bbd8fce034fec4d1d0
+        source_review: The exponent on X_m is 2. The cylinder height is a√3, with
+          the symmetry-axis passing through its centre.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: 65a599cc50f91997e218b5bdb12215487d9a61da2f0989da9dda48ca5b9a7b20
+        crop_box_points_from_top:
+        - 43
+        - 306
+        - 564
+        - 412
+        verified_solution: history/2026-11-21-exact-c5f34a820601/solution.tex
+        verified_solution_sha256: 6eb7030b3fb04d850dbbead27b96ee21e8df7d9285cfcdb205511c731d0d09a9
+      '12':
+        unit: IB/methods/sheet-4/qx12
+        original_question: '12'
+        printed_label: '12.'
+        page: 2
+        pages:
+        - 2
+        text: variants/1999-00/question.tex
+        question_sha256: 1c441d6561e5db0a257a3f932194b71ded478d53a43cc8d1aea82ba0621aae82
+        source_review: Current density is curl H, magnetic flux intensity is B=μH,
+          div B=0; the last term of the stress tensor is −½H_m²δ_ik.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: 27e51ea890482fdae721b2457e29988ed880cf3524e653b06b93134556b5c2dd
+        crop_box_points_from_top:
+        - 43
+        - 413
+        - 564
+        - 498
+        verified_solution: history/2026-11-21-exact-1c441d6561e5/solution.tex
+        verified_solution_sha256: 7a2aa17e312128a291134b70dbf71e852297c47a0d84536b70e3dcd42f29ee3a
+      '13':
+        unit: IB/methods/sheet-4/qx13
+        original_question: '13'
+        printed_label: '13.'
+        page: 2
+        pages:
+        - 2
+        text: variants/1999-00/question.tex
+        question_sha256: 24227fbc92f94e22ee2671faeb703f067defac26ed370435b6f512837c52b5ab
+        source_review: The title is starred, with pressure perpendicular twice on
+          the diagonal and parallel once. The directional derivative and final bold
+          B have the printed positions.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: 3539fa2f1ba821ec5b561a03d940e1a38a2ba9f34ceddeaf7c1000e38006d02a
+        crop_box_points_from_top:
+        - 43
+        - 499
+        - 564
+        - 640
+        verified_solution: history/2026-11-21-exact-24227fbc92f9/solution.tex
+        verified_solution_sha256: f9abcab30f0d41e46deccdcf2925edc9a006beba211dba73163e2c4e3d0ef0d3
+      '14':
+        unit: IB/methods/sheet-4/qx14
+        original_question: '14'
+        printed_label: '14.'
+        page: 2
+        pages:
+        - 2
+        text: question.tex
+        question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+        source_review: All three vector-field components, evaluation point (2,3,0),
+          epsilon contraction, and three axes including the negative second coordinate
+          in the first one match.
+        page_render_sha256:
+        - 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        crop_sha256: d007b33c76be84f59734244d8db31208185a34e4c37b67721bb97b345de427ce
+        crop_box_points_from_top:
+        - 43
+        - 641
+        - 564
+        - 780
+        verified_solution: solution.tex
+        verified_solution_sha256: d37601bc1447d6e6b322af5e0e0c364ba3bea4f94b17335f425434300f6a78c4
+    printed_course_code: Course C10—No. B9
+    closing_rubric_tex: $^{\dagger}$If you find any errors in the Methods Examples
+      sheets, please inform your supervisor or email epss@amtp.cam.ac.uk.
+    printed_margin_notice: Copyright © 2000 University of Cambridge. Not to be quoted
+      or reproduced without permission.
+    marks_printed: false
+    fetched_at: '2026-11-21T14:29:11.675545+00:00'
+    verified_formats:
+    - local_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160418.pdf
+      sha256: e6f01a93ab7b0b192e8ae488f31a016a4a05da7cc5ecb1032da3890b32853fc6
+      url: https://web.archive.org/web/20000902160418id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.pdf
+      fetched_at: '2026-11-21T14:29:11.675078+00:00'
+    - local_path: raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+      sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+      url: https://web.archive.org/web/20000902160424id_/http://www.damtp.cam.ac.uk:80/user/examples/C10d.ps
+      fetched_at: '2026-11-21T14:29:11.675545+00:00'
+    source_verification_manifest_sha256: f87d14a30b19d9087da258762d2191fa19713f8c8d8e71a1d07892e52e26f65d
+    archive_page_count: 2
+    sheet_pages:
+    - 1
+    - 2
+    references: {}
+    rendered_pages:
+      1:
+        sha256: 5f660ad2dd6e16caff52cf556003fb7adceb5e11714db9ade3d562703726b54e
+        renderer: Ghostscript 10.07.0 A4; pypdfium2 5.13.0 scale 2.3; PIL mode L.
+      2:
+        sha256: 5d842bee6669d7a691e1e061e0f66a9504ba376cafe78478366ef01ef5dc0347
+        renderer: Ghostscript 10.07.0 A4; pypdfium2 5.13.0 scale 2.3; PIL mode L.
+    printed_title: METHODS — EXAMPLES IV
+    date_provenance: First physical page of the original A4 PostScript.
+    raster_recipe:
+      ghostscript: 10.07.0
+      postscript_device: A4 print area, declared %%BoundingBox 0 0 596 842 in both
+        originals; A4 device without a fit or scale operation
+      conversion_arguments:
+      - gs
+      - -q
+      - -dSAFER
+      - -dBATCH
+      - -dNOPAUSE
+      - -sPAPERSIZE=a4
+      - -sDEVICE=pdfwrite
+      - -sOutputFile=OUT
+      - INPUT.ps
+      pdf_rasterizer: 5.13.0
+      scale: 2.3
+      mode: L; crop coordinates from upper left, point values multiplied by scale
+        and rounded to nearest pixel
 distinct_text_fragments_ignoring_figure_slug: 79
 source_verification_manifest_sha256: 642efa787ca760cf7fd0161539898341f0d140888ba85ba1ac17e2fdf41ecf63
 cross_sheet_occurrences:

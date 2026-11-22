@@ -20,6 +20,7 @@ sources:
   2020-21: 5a48b1e9e906a51ab6ad625fd162a931d3ed72d8b8796579acfe04af5c114ece
   2022-23: b7247fac15a6d46a68d6483a348b08417ec303b336261e3f967b8b112b14ab79
   2023-24: dd8d1e89bbaf423e790c328088efbdc6451630311f8c180e0e9d04eaca7cc893
+  1999-00: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
 mappings:
 - year: 2015-16
   original_question: 1
@@ -453,7 +454,7 @@ mappings:
   source_pages:
   - 2
   unit_relative_path: question.tex
-  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
   image_review: Equation (*) is the wave equation; the point mass at zero gives a
     slope jump and the incident exponential is exp[iω(t−x/c)].
 - year: 2001-02
@@ -562,7 +563,7 @@ mappings:
   source_pages:
   - 2
   unit_relative_path: question.tex
-  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
   image_review: Equation (*) is the wave equation; the point mass at zero gives a
     slope jump and the incident exponential is exp[iω(t−x/c)].
 - year: 2002-03
@@ -669,7 +670,7 @@ mappings:
   source_pages:
   - 2
   unit_relative_path: question.tex
-  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
   image_review: Equation (*) is the wave equation; the point mass at zero gives a
     slope jump and the incident exponential is exp[iω(t−x/c)].
 - year: 2003-04
@@ -767,7 +768,7 @@ mappings:
   source_pages:
   - 2
   unit_relative_path: question.tex
-  sha256: 24eaa4f2d7e50ef9bb604b9b7638b166fb0995f0892d67c7a1fd531d6bfdc054
+  sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
   image_review: Equation (*) is the wave equation; the point mass at zero gives a
     slope jump and the incident exponential is exp[iω(t−x/c)].
 - year: 2004-05
@@ -1488,3 +1489,87 @@ mappings:
   sha256: 60163aacd585a57ee06140f1f7e6ac76da9c9ad5dc5294b3c17438f9d212fc3b
   image_review: Part (b) adds the printed hint “orthogonality” after the second-smallest-eigenvalue
     question; the indicated footnote is retained.
+- year: 1999-00
+  original_question: 1
+  id: qx10
+  source_pages:
+  - 1
+  unit_relative_path: variants/1999-00/question.tex
+  sha256: e0247dae442415a8d33fd68ef99d4b61b992aac31e91ea115866cc5205489242
+- year: 1999-00
+  original_question: 2
+  id: q04
+  source_pages:
+  - 1
+  unit_relative_path: variants/1999-00/question.tex
+  sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+- year: 1999-00
+  original_question: 3
+  id: qx11
+  source_pages:
+  - 1
+  unit_relative_path: question.tex
+  sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+- year: 1999-00
+  original_question: 4
+  id: qx08
+  source_pages:
+  - 1
+  unit_relative_path: variants/1999-00/question.tex
+  sha256: 3fd38acef4ab549f328f7124b551006bc89031867321a41c925f8ef381d6c931
+- year: 1999-00
+  original_question: 5
+  id: q11
+  source_pages:
+  - 1
+  unit_relative_path: variants/1999-00/question.tex
+  sha256: 5c36808150ae84f856632f2419039275c0615e19713d9dfef3db070eed04017a
+- year: 1999-00
+  original_question: 6
+  id: qx12
+  source_pages:
+  - 2
+  unit_relative_path: variants/1999-00/question.tex
+  sha256: e330f4690e5c0462d3dfc1cba63fe36f76ff2477ec8ea7812828925ed193439e
+- year: 1999-00
+  original_question: 7
+  id: qx13
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+- year: 1999-00
+  original_question: 8
+  id: qx14
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+- year: 1999-00
+  original_question: 9
+  id: qx15
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+- year: 1999-00
+  original_question: 10
+  id: qx16
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+- year: 1999-00
+  original_question: 11
+  id: qx17
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+- year: 1999-00
+  original_question: 12
+  id: qx18
+  source_pages:
+  - 2
+  unit_relative_path: question.tex
+  sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5

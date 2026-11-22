@@ -1,0 +1,881 @@
+scope: 1999–00 IB Methods sheets I and IV. Supplement to the audits of their previously
+  registered editions.
+seed: 20261230
+sampling: Each sheet separately, printed numeric order, Python random.Random(seed),
+  ceil(0.2*n) without replacement in sheet order I, IV.
+selection:
+  sheet-1:
+  - 12
+  - 4
+  - 10
+  sheet-4:
+  - 14
+  - 9
+  - 12
+population: 26
+sampled: 6
+math_errors: 0
+transcription_errors: 0
+comparison:
+  sheet-1-4: The original square wave has unit mean-square power. Both evaluations
+    pass only the first and third harmonics and give 80/(9π²).
+  sheet-1-10: The pullback formula uses simple zeros inside the domain. For a≠0 the
+    last integral is one; the zero parameter is excluded because the pullback at the
+    double root is undefined.
+  sheet-1-12: Continuity of position and a velocity jump I/m give Vt+(I/m)(t−t₀)₊.
+    Independent weak testing agrees.
+  sheet-4-9: Rotational invariance and the radial trace give 2π^(3/2)δij/(3√γ); inversion
+    forces the other integral to vanish.
+  sheet-4-12: With constant permeability and div B=0 the stated stress divergence
+    is J×B with the printed index ordering.
+  sheet-4-14: Signed antisymmetric entries give ω=(0,0,−6), and the symmetric part
+    has eigenvalues −3,12,4 in the stated direction order.
+original_inspection:
+  render_command: gs -q -dSAFER -dBATCH -dNOPAUSE -sPAPERSIZE=a4 -dFIXEDMEDIA -sDEVICE=pnggray
+    -r165 -dTextAlphaBits=4 -sOutputFile=sheet-N-p%d.png original.ps
+  ghostscript_version: 10.07.0
+  sample:
+  - sheet: sheet-1
+    printed_question: 10
+    physical_page: 2
+    original: private/raw/sheets/IB/methods/1999-00/sheet-1.ps
+    original_sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+    statement_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+    render_165dpi_sha256: ee3a3e0c068fe26ec134eabe49b7bb8fb7463940ddb8a399dcb9cfaf19b00e8f
+    visual_statement_match: true
+  - sheet: sheet-1
+    printed_question: 12
+    physical_page: 2
+    original: private/raw/sheets/IB/methods/1999-00/sheet-1.ps
+    original_sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+    statement_sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
+    render_165dpi_sha256: ee3a3e0c068fe26ec134eabe49b7bb8fb7463940ddb8a399dcb9cfaf19b00e8f
+    visual_statement_match: true
+  - sheet: sheet-1
+    printed_question: 4
+    physical_page: 1
+    original: private/raw/sheets/IB/methods/1999-00/sheet-1.ps
+    original_sha256: fa47c19d4799fea1b9841da7d314e3b1624678e5b4c7567e719554436465e6ca
+    statement_sha256: 3fd38acef4ab549f328f7124b551006bc89031867321a41c925f8ef381d6c931
+    render_165dpi_sha256: 6e07ceb60b270ad806c094dadfb8605c88467914ce3d687590589b3c48d0e770
+    visual_statement_match: true
+  - sheet: sheet-4
+    printed_question: 12
+    physical_page: 2
+    original: private/raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    original_sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    statement_sha256: 1c441d6561e5db0a257a3f932194b71ded478d53a43cc8d1aea82ba0621aae82
+    render_165dpi_sha256: 2299c3a56c6af55fd4df6095bd6bdbc0a9a2fb6681f13d7511dc5b06e380c32f
+    visual_statement_match: true
+  - sheet: sheet-4
+    printed_question: 14
+    physical_page: 2
+    original: private/raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    original_sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    statement_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+    render_165dpi_sha256: 2299c3a56c6af55fd4df6095bd6bdbc0a9a2fb6681f13d7511dc5b06e380c32f
+    visual_statement_match: true
+  - sheet: sheet-4
+    printed_question: 9
+    physical_page: 2
+    original: private/raw/sheets/IB/methods/undated/sheet-4-capture-20000902160424.ps
+    original_sha256: 02928c6b33de984853754147e8fda3b4af7a07652b1ecb91147ebe3e199ea22f
+    statement_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+    render_165dpi_sha256: 2299c3a56c6af55fd4df6095bd6bdbc0a9a2fb6681f13d7511dc5b06e380c32f
+    visual_statement_match: true
+blind_rework: '# Independent audit of six Methods questions
+
+
+  Only the supplied statements and physical locators, original PostScript and its
+  rendered images were used to derive the answers. No existing answer was opened.
+  See `evidence.json` for the original and statement SHA-256 digests and the physical
+  page for each rework. The source-image review used Ghostscript 10.07.0, A4 fixed
+  media and 165 dpi. The higher-resolution 550 dpi render of sheet 1 p. 1 confirmed
+  the trailing comma in the Parseval identity. Physical pages 1 and 2 were inspected
+  on sheet 1, and physical page 2 on sheet 4. Question numbers are recorded by locator.
+  Across the six statements I checked headings, sentences, formulae, signs, indices,
+  limits, conditions, numerical constants and subparts against the images. The source
+  uses typographical underlining on titles as well as italics. No assessed question
+  carries a printed mark allocation.
+
+
+  ## Sheet 1, printed Q4, physical p. 1
+
+
+  For real square-integrable f, take the norm squared to be the integral of the square
+  divided by T. Each nonconstant basis function has norm 1, the constant 1 has squared
+  norm 2, and different basis functions are orthogonal by integrating the product-to-sum
+  formulae over a complete period. Thus the squared norm of the Nth Fourier partial
+  sum is a0²/2 plus the sum of a_n²+b_n² through N. In the mean-square limit the norms
+  converge to the norm of f, proving the identity. If the printed convergence assumption
+  is taken as pointwise convergence of the Fourier series and convergence of the square
+  sum, orthogonality makes the partial sums Cauchy in L². A subsequence converges
+  almost everywhere to the L² limit, which consequently equals f almost everywhere.
+
+
+  Oddness removes the constant and the cosine terms. Integrating the sine over (0,T)
+  gives b_n = 2(1−(−1)^n)/(nπ). Only n=1,3 have nonzero coefficient below 9/2. With
+  unit transmission of the retained modes, the output is (4/π)[sin(πt/T)+sin(3πt/T)/3].
+  Its mean-square power is one half the sum of the two retained squared amplitudes,
+  or 80/(9π²). The input has mean square 1 and the transmitted fraction is 80/(9π²),
+  about 0.900633. Values assigned at jump points do not change the power or coefficients.
+
+
+  The original has cutoff (9/2)π/T twice, the constant-term halves in both formulae,
+  and an incident square wave with positive sign for positive t. All match the statement.
+
+
+  ## Sheet 1, printed Q10, physical p. 2
+
+
+  Assume φ is continuously differentiable near each simple interior zero r and f is
+  continuous there (for the distribution identity, take smooth test functions). Choose
+  a neighborhood in which φ can serve as a coordinate, y=φ(x). The transformed test
+  function at y=0 is f(r)/|φ′(r)|, since reversal of the limits for the decreasing
+  map supplies the minus sign. Away from the zero the pulled-back delta has no support.
+  Thus for one zero the integral is f(c)/|φ′(c)| in either monotonicity case. Separate
+  the zero neighborhoods to obtain the sum of the corresponding contributions, including
+  in the case of locally finitely many simple zeros on compact test-function support.
+  Endpoint zeros would need a convention. Monotonicity alone permits φ(x)=x³, for
+  which this pullback argument fails.
+
+
+  For a real nonzero a, the two simple roots of x²−a² are ±|a|, with slope magnitudes
+  2|a|. Each carries weight |a|/(2|a|)=1/2. The integral is 1. At a=0 the root is
+  double and δ(x²) is undefined by the usual simple-zero pullback. For instance, replacing
+  δ by a mollifier ρ_ε gives 2∫₀^∞ x ρ_ε(x²)dx = ∫₀^∞ρ_ε(u)du; this depends on the
+  regularisation, although the symmetric choice yields half. The natural continuation
+  of the simple-root result as a→0 is 1 and differs from this symmetric regularisation
+  at a=0.
+
+
+  The original says monotone increasing for the first formula, says “provided the
+  zeros are simple” for the generalisation and leaves the last a unrestricted. The
+  packet preserves all three features; the qualifications belong in the solution.
+
+
+  ## Sheet 1, printed Q12, physical p. 2
+
+
+  Take m>0. On each side of t₀ the acceleration vanishes, so the motion is affine.
+  Integrating the differential equation across t₀ gives the velocity increment I/m.
+  A position jump would introduce a delta derivative in the acceleration, absent on
+  the right, so position is continuous. Hence x(t)=Vt+(I/m)max(t−t₀,0). Its distributional
+  second derivative is (I/m)δ(t−t₀); its value and right velocity at zero meet the
+  specified data since t₀>0. The difference of two solutions has zero second derivative
+  and zero initial data, hence vanishes. This is an otherwise free point mass with
+  signed initial velocity V along the line, receiving a point impulse of signed momentum
+  I at t₀. The before/after velocities are the data at the impulse, where a classical
+  two-sided velocity need not exist.
+
+
+  Initial velocity V, positive impulse time and the delta argument t−t₀ match the
+  original.
+
+
+  ## Sheet 4, printed Q9, physical p. 2
+
+
+  Write x=r n with n a unit vector. The radial factor left by either integrand after
+  multiplication by r²dr is exp(−γr²)dr. Each angular monomial is bounded by 1; the
+  integrals therefore converge absolutely as r tends to zero and infinity for γ>0.
+  The off-diagonal products n_i n_j integrate to zero upon reflection of an axis.
+  Permutations make the three diagonal integrals equal and their sum is the area 4π
+  because Σ n_i²=1. Each component of the rank-two integral is consequently (4π/3)δ_ij
+  times √π/(2√γ), i.e. 2π^(3/2)δ_ij/(3√γ). Inversion n↦−n preserves area and reverses
+  the rank-three product, giving zero in every component of (ii).
+
+
+  Both negative powers, the Gaussian sign and the components of the integrands match.
+  The printed comma following (i)''s dV matches the packet.
+
+
+  ## Sheet 4, printed Q12, physical p. 2
+
+
+  Use Cartesian coordinates and differentiable fields. The vector cross product identity
+  in components gives ((curl H)×B)_i = μ(H_k ∂_k H_i − H_k ∂_i H_k). To see the sign,
+  use ε_ijk ε_jlm = δ_im δ_kl − δ_il δ_km. Independently differentiating the proposed
+  stress gives μH_k∂_kH_i+μH_i∂_kH_k−μH_m∂_iH_m. The middle term vanishes by ∂_kB_k=0
+  with constant μ; this uses μ∂_kH_k=0 without dividing by μ and also covers zero
+  permeability formally. The remaining terms coincide with J×B.
+
+
+  The current is curl H, the multiplication order is J×B, the derivative is with respect
+  to x_k and the isotropic stress has the minus sign and factor 1/2. All match the
+  original.
+
+
+  ## Sheet 4, printed Q14, physical p. 2
+
+
+  The gradient has rows (x₂²,2x₁x₂,0), (0,x₃²,2x₂x₃), (2x₃x₁,0,x₁²). At (2,3,0) the
+  rows are (9,12,0), (0,0,0), (0,0,4). Separate the symmetric and antisymmetric parts
+  by adding and subtracting the transpose and halving. The symmetric e has rows (9,6,0),
+  (6,0,0), (0,0,4). The antisymmetric remainder has entries A₁₂=6, A₂₁=−6, others
+  zero. This is ε_ijk ω_j for ω=(0,0,−6), since ε₁₃₂=−1. Thus ∂_k u_i=e_ik+ε_ijk ω_j.
+  Multiplying e by (1,−2,0), (2,1,0) and (0,0,1) gives respectively (−3,6,0), (24,12,0)
+  and (0,0,4). The eigenvalues in printed order are −3, 12 and 4, and these mutually
+  perpendicular vectors give the printed unit principal directions after normalisation.
+
+
+  The index order ε_ijk ω_j, point, components and all three directions match the
+  image, including the comma following the third direction.
+
+
+  ## Findings and verification
+
+
+  Confirmed transcription errors: 0/6. I initially flagged the commas after dV in
+  sheet 4 Q9 and after (0,0,1) in sheet 4 Q14 as missing from the supplied statements.
+  On checking the literal lines in both files against the image I found that both
+  commas were already present. Both preliminary flags are withdrawn; no edits are
+  called for. Sheet 1 Q10 contains an implicit mathematical restriction originating
+  in the printed source. The original also omits a simple-root assumption in the monotone
+  paragraph.
+
+
+  Executable independent checks for all six reworks are in `check.py`; `check-results.txt`
+  records the successful run. These check the answers derived above. Comparison against
+  the project''s stored answers is reserved for the coordinator after this packet
+  is frozen.
+
+  '
+independent_check:
+  source: "#!/usr/bin/env python3\n\"\"\"Independent tests for the six printed questions,\
+    \ using the Python standard library.\"\"\"\nfrom fractions import Fraction as\
+    \ F\nfrom itertools import product\nfrom math import cos, sin, exp, pi, sqrt,\
+    \ fsum, isclose\n\n\ndef near(actual, expected, tol=1e-8):\n    assert isclose(actual,\
+    \ expected, rel_tol=tol, abs_tol=tol), (actual, expected)\n\n\ndef integral(f,\
+    \ a, b, n=2048):\n    step = (b - a) / n\n    return step * (f(a) + f(b) + fsum(\n\
+    \        (4 if j % 2 else 2) * f(a + j * step) for j in range(1, n)\n    )) /\
+    \ 3\n\n\ndef parseval():\n    # Work in phase = pi*t/T. Split at jumps to avoid\
+    \ sampling ambiguous endpoints.\n    for n in range(1, 9):\n        b = (integral(lambda\
+    \ t: sin(n*t), 0, pi)\n             - integral(lambda t: sin(n*t), -pi, 0)) /\
+    \ pi\n        near(b, 4/(pi*n) if n % 2 else 0)\n    power = integral(lambda t:\
+    \ (4/pi*(sin(t)+sin(3*t)/3))**2, -pi, pi)/(2*pi)\n    near(power, 80/(9*pi*pi))\n\
+    \    f = lambda t: 1.3 + 2*sin(2*t) - 3*cos(t)\n    near(integral(lambda t: f(t)**2,\
+    \ -pi, pi)/pi, 2*1.3**2 + 4 + 9)\n    return f'computed power fraction {power:.12f}'\n\
+    \n\ndef delta():\n    eps = 0.018\n    moll = lambda y: exp(-(y/eps)**2)/(sqrt(pi)*eps)\n\
+    \    test = lambda x: 1+x+x*x\n    # Compare a regularised original x-integral\
+    \ against the exact two-root sum.\n    for a in (0.7, -1.5):\n        rho = abs(a)\n\
+    \        estimate = integral(lambda x: test(x)*moll(x*x-a*a), -2, 2, 8192)\n \
+    \       near(estimate, (test(rho)+test(-rho))/(2*rho), 0.0004)\n        near(integral(lambda\
+    \ x: abs(x)*moll(x*x-a*a), -2, 2, 8192), 1)\n    # Decreasing single-root change\
+    \ of variables.\n    near(integral(lambda x: test(x)*moll(2-3*x), 0, 2), test(2/3)/3,\
+    \ 2e-5)\n    return 'two simple roots, decreasing change of variable, and both\
+    \ signs of a passed'\n\n\ndef impulse():\n    m, I, t0, V, T = 3, -5, 1, 2, 3\n\
+    \    pos = lambda t: V*t + I/m*max(t-t0, 0)\n    phi = lambda t: t**3*(T-t)**3\n\
+    \    phi2 = lambda t: 6*T**3*t - 36*T**2*t**2 + 60*T*t**3 - 30*t**4\n    val =\
+    \ m * (integral(lambda t: pos(t)*phi2(t), 0, t0)\n               + integral(lambda\
+    \ t: pos(t)*phi2(t), t0, T))\n    near(val, I*phi(t0))\n    near(pos(0), 0)\n\
+    \    near(pos(0.05)/0.05, V)\n    return f'weak impulse identity gave {val:.9f}'\n\
+    \n\ndef isotropic():\n    # Approximate angle by equally spaced azimuths and midpoint\
+    \ u = cos(theta).\n    dirs = []\n    for j in range(96):\n        u = -1+(j+0.5)*2/96\n\
+    \        for k in range(24):\n            v = 2*pi*k/24\n            dirs.append((sqrt(1-u*u)*cos(v),\
+    \ sqrt(1-u*u)*sin(v), u))\n    for gamma in (0.3, 2.5):\n        radial = integral(lambda\
+    \ r: exp(-gamma*r*r), 0, 9/sqrt(gamma))\n        def angular(indices):\n     \
+    \       import math\n            return 4*pi*fsum(math.prod(d[i] for i in indices)\
+    \ for d in dirs)/len(dirs)\n        for i,j in product(range(3), repeat=2):\n\
+    \            near(radial*angular((i,j)), 2*pi**1.5/(3*sqrt(gamma))*(i==j), 0.00015)\n\
+    \        for ijk in product(range(3), repeat=3):\n            near(radial*angular(ijk),\
+    \ 0)\n    return '9 even and 27 odd components integrated at each of two positive\
+    \ gamma'\n\n\ndef electrodynamics():\n    def field(p):\n        x,y,z = p\n \
+    \       return [y*y+z, z*z+2*x, x*x+3*y]\n    for p in [(1.,-0.5,2.), (-1.,2.,0.3)]:\n\
+    \        x,y,z = p\n        h = field(p)\n        curl = [3-2*z, 1-2*x, 2-2*y]\n\
+    \        for mu in (0., 1.7):\n            def stress(v, i, k):\n            \
+    \    b = field(v)\n                return mu*(b[i]*b[k] - 0.5*(i==k)*sum(q*q for\
+    \ q in b))\n            for i in range(3):\n                div = 0\n        \
+    \        for k in range(3):\n                    q, r = list(p), list(p)\n   \
+    \                 d = 1e-5\n                    q[k] += d\n                  \
+    \  r[k] -= d\n                    div += (stress(q,i,k)-stress(r,i,k))/(2*d)\n\
+    \                j,k = (i+1)%3, (i+2)%3\n                near(div, mu*(curl[j]*h[k]-curl[k]*h[j]),\
+    \ 2e-8)\n    return 'numerical stress divergence matched the curl cross B on polynomial\
+    \ fields'\n\n\ndef decomposition():\n    def velocity(p):\n        x,y,z = p\n\
+    \        return [x*y*y, y*z*z, z*x*x]\n    a = [[0]*3 for _ in range(3)]\n   \
+    \ for k in range(3):\n        p = [2,3,0]\n        q, r = p.copy(), p.copy()\n\
+    \        q[k] += F(1,10)\n        r[k] -= F(1,10)\n        for i in range(3):\n\
+    \            a[i][k] = (velocity(q)[i]-velocity(r)[i]) / F(1,5)\n    s = [[(a[i][k]+a[k][i])/2\
+    \ for k in range(3)] for i in range(3)]\n    for v, lam in [([1,-2,0],-3),([2,1,0],12),([0,0,1],4)]:\n\
+    \        assert [sum(s[i][k]*v[k] for k in range(3)) for i in range(3)] == [lam*x\
+    \ for x in v]\n    omega = [(a[2][1]-a[1][2])/2, (a[0][2]-a[2][0])/2, (a[1][0]-a[0][1])/2]\n\
+    \    assert omega == [0,0,-6]\n    return 'exact central differences, three eigenpairs,\
+    \ and signed axial vector passed'\n\n\nif __name__ == '__main__':\n    for tag,\
+    \ test_fn in [('1/4', parseval), ('1/10', delta), ('1/12', impulse),\n       \
+    \                  ('4/9', isotropic), ('4/12', electrodynamics), ('4/14', decomposition)]:\n\
+    \        print(tag, test_fn())\n"
+  sha256: 7567450412bff8b04a42d46b6cba821e028633c2367d72b92cdedf4278a7377f
+  stdout: '1/4 computed power fraction 0.900632743487
+
+    1/10 two simple roots, decreasing change of variable, and both signs of a passed
+
+    1/12 weak impulse identity gave -40.000000000
+
+    4/9 9 even and 27 odd components integrated at each of two positive gamma
+
+    4/12 numerical stress divergence matched the curl cross B on polynomial fields
+
+    4/14 exact central differences, three eigenpairs, and signed axial vector passed'
+blind_manifest_sha256: 1a7e43f07ee9b9dd9dec48562e9237a85e57f1ebafb089e921da08af706cadcb
+delivery:
+  dated_questions: 26
+  pdf_pages: 31
+  rendered_formulas: 633
+  pdfs_and_html:
+    sheet-1-1:
+      year: 1999-00
+      unit: qx10
+      printed: '1'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 1
+      - 2
+      - 3
+      rasters:
+        sheet-1-1-p1.png: 503991f0df5a2d9d419168a863c4313f8e7e2b6658edac89950dfe2fbd8095b4
+        sheet-1-1-p2.png: c32a2ce3e41ab1b90120f2f0eb3522ece083620c828932d768fbbd6193b130f9
+        sheet-1-1-p3.png: 1e32f28305046c9ec3c04f89f96ae87d59af28fca6026d42f5a324e03a628e83
+      question_sha256: e0247dae442415a8d33fd68ef99d4b61b992aac31e91ea115866cc5205489242
+      solution_sha256: 6e11d5d3fa1de09457215f53d8117a452fc60de85d1c14bd9fbf7c193336aa47
+    sheet-1-2:
+      year: 1999-00
+      unit: q04
+      printed: '2'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 4
+      rasters:
+        sheet-1-2-p4.png: e3762910cf53b2de1558400fecfbe14f57024b6182f91254bd3b327f0789e47d
+      question_sha256: 65ec3e65a9698189b25e1e12e65d89dd02a9e678e6157b8960b00d91c1ac7d34
+      solution_sha256: 9c7642b04a4a6443c8ee2a7380d7e9d8f8b609f85034b7c3bb7c664ef4ec73e7
+    sheet-1-3:
+      year: 1999-00
+      unit: qx11
+      printed: '3'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 5
+      - 6
+      rasters:
+        sheet-1-3-p5.png: 1c088aa893cac7ab192dce6a5e4ca5b1e9d64b3f0ce8afd0e33573970926b9c3
+        sheet-1-3-p6.png: 477a3ba525166ba2417d6ada19fbd90b0b70dee0e33897ca6d28adc6b89d8e8b
+      question_sha256: 04406d7283c2f0fce1031e783df0c396f558ba90ed182aaf8947cb2810e42fb4
+      solution_sha256: f209c2f9899977f5f94f94b2e72c42d11f985eedeead6a11884e3fb780b97bb5
+    sheet-1-4:
+      year: 1999-00
+      unit: qx08
+      printed: '4'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 7
+      rasters:
+        sheet-1-4-p7.png: c670f4cbad221f224ff3891afbb47db1fa98974ef51804def4611fa4520e00b9
+      question_sha256: 3fd38acef4ab549f328f7124b551006bc89031867321a41c925f8ef381d6c931
+      solution_sha256: ab0ae0911e0d04c0cbe401c4129b87278bb644a1e49ed5de8d548886482406ea
+    sheet-1-5:
+      year: 1999-00
+      unit: q11
+      printed: '5'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 8
+      - 9
+      rasters:
+        sheet-1-5-p8.png: bf05c8701a293ae2c324c49dbe3f2326c78defad3e0ca15634d329d78cfc0185
+        sheet-1-5-p9.png: 70dde78f8b0472b78287580db4477fea5361e8bfd9c7c5166ea9e9925693568f
+      question_sha256: 5c36808150ae84f856632f2419039275c0615e19713d9dfef3db070eed04017a
+      solution_sha256: f9b02c6aa47c0d4a5eac318a8647ec4c2e3c4cd5fe5912110f0234269814ac10
+    sheet-1-6:
+      year: 1999-00
+      unit: qx12
+      printed: '6'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 10
+      - 11
+      rasters:
+        sheet-1-6-p10.png: 7584672fb1f2d36a0ca94961c9c6d30a59c9621e16b5eac7fb80956cd78c144c
+        sheet-1-6-p11.png: bb09d906961492df812d346f28ab731d81d7d6b2482af52fd0a4163db385ee34
+      question_sha256: e330f4690e5c0462d3dfc1cba63fe36f76ff2477ec8ea7812828925ed193439e
+      solution_sha256: e5db3a7dad8c18898adba86ce0abdb707fc6d5831b5ca4ba5c568a1542f3c4c1
+    sheet-1-7:
+      year: 1999-00
+      unit: qx13
+      printed: '7'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 12
+      rasters:
+        sheet-1-7-p12.png: 38fee38033424a0ade037ed0cb8c513b427cd962f53d5457ef2bc257f9f0f5bf
+      question_sha256: cc6f73839f1b9898db381ee7e3e5f7b3cc3ed66f971e8bda2effb735b682724b
+      solution_sha256: e883b37661e20f0a638ed6d51706e1be86f1619256822a92a94fbb3ec6fff785
+    sheet-1-8:
+      year: 1999-00
+      unit: qx14
+      printed: '8'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 13
+      rasters:
+        sheet-1-8-p13.png: 7f2209fb58cf1afb6a468e4e9a79cc1563a8fb6e36f7ab946512ccb9768f1200
+      question_sha256: e893b2adf651efdc2967ab15752a4a7816e465448b20b41fab813b44eccd9357
+      solution_sha256: 5d71085e36b5c9cc3c04fccf235e07af7e6a10b6d8f5ef2c3aaee590f8f95737
+    sheet-1-9:
+      year: 1999-00
+      unit: qx15
+      printed: '9'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 14
+      rasters:
+        sheet-1-9-p14.png: 47ba9ae624aff7da767864ff9323f9f239c591bbb64f4b8834573887dc7c43e0
+      question_sha256: 3f55fd41079b4e756ab894581642b29afea95206d0bbd533ece754bb471c0ff6
+      solution_sha256: 730773ebee974ef9604bd040740a09dc7d8f3f6e98a03c9e3ab26247929aea97
+    sheet-1-10:
+      year: 1999-00
+      unit: qx16
+      printed: '10'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 15
+      rasters:
+        sheet-1-10-p15.png: 95a1d70db35c1823710f3698f59598c092ad307dbb4d31fe74e47fc2b3e74750
+      question_sha256: ce686dbb69b67fc4f4f4c24d8c0a1e43376bd45c6198f6482aa2b6fa9dbdbd5a
+      solution_sha256: 526759b5504ea043c23db8bee015925705321c38537f54dd5fb7fa6ab28048fe
+    sheet-1-11:
+      year: 1999-00
+      unit: qx17
+      printed: '11'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 16
+      rasters:
+        sheet-1-11-p16.png: 7fb5bdd203e1062da68546f3ede7518bb96f5e8f0cea8a5e67ed36479a115f5a
+      question_sha256: 2bc0f4109f5793f33cebe885db68d88b2ce1452de9e540d67a36e1858165ab46
+      solution_sha256: 2493af2938e764069e89c4a3ba20b199d00c299328d210e7c698e906b5b70526
+    sheet-1-12:
+      year: 1999-00
+      unit: qx18
+      printed: '12'
+      html: site/private/collections/IB/methods/sheet-1/1999-00.html
+      html_sha256: 763433d0acbb8dd46fc84409c95441c26f6a289493fdbbb0786db466b7d70b91
+      pdf: build/IB-methods-sheet-1-1999-00/main.pdf
+      pdf_sha256: 3157ca8b0332f1285426a07c82a455b2685d06b57c5b86b412878c8890d44248
+      pages:
+      - 17
+      rasters:
+        sheet-1-12-p17.png: 81a17ccf5fe9d2e6ddbcfdb321165bb9d524d2e66e4e644f265da98df1be893f
+      question_sha256: eb93e5cfa80caebe7d9b72f920a04bc59792417188cf6419a32851ad91517cd5
+      solution_sha256: 874b52c76114fe82a5148d95b7d28400d7280401d8bedf2059d83a66d0606281
+    sheet-4-1:
+      year: 1999-00
+      unit: qx01
+      printed: '1'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 1
+      rasters:
+        sheet-4-1-p1.png: cca5ca25e9765ba4c537f23763ccc7e836a4b0f41c9dfac021744a82de6e8df7
+      question_sha256: 0cc8896523c7a392e65c39299728c416046cac5c4365cd4f4ed687f2fb473f59
+      solution_sha256: 3d711fbee5fed42624c5c77cbfa760e7063a7e4284551fbb5f3db88f94a036a1
+    sheet-4-2:
+      year: 1999-00
+      unit: qx02
+      printed: '2'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 2
+      rasters:
+        sheet-4-2-p2.png: d946506066bbe70817159d8cba5efc420a7946220e17773b59b37db72a2c4ba4
+      question_sha256: b8fbce8211a10f1353f92b32142ad2ddb70b0d75adc6600bf08ee3f90d8fdaa5
+      solution_sha256: eec5f5e47f8e632bfe3bc7e66c663f04fce8cb234bb46db64b9faa0ef2176f30
+    sheet-4-3:
+      year: 1999-00
+      unit: qx03
+      printed: '3'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 3
+      rasters:
+        sheet-4-3-p3.png: e15bfcd881f9bb40dfb7b62e9a30f259cb8216fb27c7ffa45f2066a2ee5c73db
+      question_sha256: bcfc8c5b240f82893719f995448a451e6221bf81f11d71d15cf61301517c34c6
+      solution_sha256: d0acdfba250ad8407862eca50b3ce38b6513ca1fe0f0ddf06d82f708bde8d006
+    sheet-4-4:
+      year: 1999-00
+      unit: qx04
+      printed: '4'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 4
+      rasters:
+        sheet-4-4-p4.png: 93ee201f7634f308ff84541a64e0d96088e6246fbc0feb427a9913c9c235a26a
+      question_sha256: 1c16c2f346ade139ca98c06fa6f3c5b2760a1cc4ae98c431439f1b08fe2d61da
+      solution_sha256: 71259897e34768ea50a21f95645dbaedf97b148c90082c0c6db806a57f6ce287
+    sheet-4-5:
+      year: 1999-00
+      unit: qx05
+      printed: '5'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 5
+      rasters:
+        sheet-4-5-p5.png: 8f2a305f2ee24815f062267117275c3a636ca0e775fc67891c7efc28b17ac0ca
+      question_sha256: 82b1e6565590227ffb40395887c2c625ea82b8822207e5ca4027229b105c2a38
+      solution_sha256: 2b3841e55b5095af2687bb60fed17e9f82a8522cccf1e0930b47cf45b21158c8
+    sheet-4-6:
+      year: 1999-00
+      unit: qx06
+      printed: '6'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 6
+      rasters:
+        sheet-4-6-p6.png: fad2e33e3c2ec737d661e657a4531a1ca2533b54810af9b85944e3dd7b2b4c40
+      question_sha256: db82c8162d45bb6d48ff505304031c434886b67ef7653b4d2b16b4947c461dda
+      solution_sha256: d1af92aa5629ea0755effa669a1a8a7dc28f770ceb5b46c2178109628c526b60
+    sheet-4-7:
+      year: 1999-00
+      unit: qx07
+      printed: '7'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 7
+      rasters:
+        sheet-4-7-p7.png: eeb0b840394a03e465bf954bf3dc126fd0e99687b58ffc50b943b7bcea45d0da
+      question_sha256: ae31ada12e17b691f7aed257def0927d0d424c223cb274a00b61b4d0dac4a418
+      solution_sha256: 91b8e3741dd3b02f8256dcc05a062828ce35280120e0e090eb48868edc19c4cf
+    sheet-4-8:
+      year: 1999-00
+      unit: qx08
+      printed: '8'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 8
+      rasters:
+        sheet-4-8-p8.png: aae6e44e45ca6e19445867a7afe69d2ea275cba6e1fd02d9a3ad990c53b8de86
+      question_sha256: 421c9e2f21f85054030f058f981e925307b33f87ecf1f2871202034dcd6de065
+      solution_sha256: fe166c3383d882dfc88c9c43bd5cc59b1758875f0f48367cc25201f5c699adb0
+    sheet-4-9:
+      year: 1999-00
+      unit: qx09
+      printed: '9'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 9
+      rasters:
+        sheet-4-9-p9.png: cd8a52f0e22cafe91c33b8137e865efee026a8f6351373678b04301a0ce76376
+      question_sha256: d38aed289294c3dfe045fb41eccc6dfae9f20dc059cb2bb98c8053f89bff8ef1
+      solution_sha256: 60746c43bb0be47b4a13cce0485726efc3ac3f65417e4933eb794dace25e6910
+    sheet-4-10:
+      year: 1999-00
+      unit: qx10
+      printed: '10'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 10
+      rasters:
+        sheet-4-10-p10.png: 4bc6e460d36a1864301b640c45b047a868ba0996a72eba7bff6b7959cc46d111
+      question_sha256: eb29bf32141e27e0a5bc209981dd389942f9b709d8b82cdd435814d7549c1609
+      solution_sha256: efbb43bf6cd0ec11ee773e18c55c9b8c1a0d599cf924e9e8d1f4e06b5a9d7bd9
+    sheet-4-11:
+      year: 1999-00
+      unit: qx11
+      printed: '11'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 11
+      rasters:
+        sheet-4-11-p11.png: 3a0c20d4c1556e41062369a2c692d677180f08a94eb1065dc55d701163d9e318
+      question_sha256: c5f34a820601eda5cc64637cb191cdd96358e8c08198c1bbd8fce034fec4d1d0
+      solution_sha256: 6eb7030b3fb04d850dbbead27b96ee21e8df7d9285cfcdb205511c731d0d09a9
+    sheet-4-12:
+      year: 1999-00
+      unit: qx12
+      printed: '12'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 12
+      rasters:
+        sheet-4-12-p12.png: 462f0a02e5d0e220edb0c222085497eb6fdd97238bcafd861379340458d09006
+      question_sha256: 1c441d6561e5db0a257a3f932194b71ded478d53a43cc8d1aea82ba0621aae82
+      solution_sha256: 7a2aa17e312128a291134b70dbf71e852297c47a0d84536b70e3dcd42f29ee3a
+    sheet-4-13:
+      year: 1999-00
+      unit: qx13
+      printed: '13'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 13
+      rasters:
+        sheet-4-13-p13.png: a285231ce4d9037a4793bf5110957438dc9e2e1db00c44c5c80be76a1a29b21a
+      question_sha256: 24227fbc92f94e22ee2671faeb703f067defac26ed370435b6f512837c52b5ab
+      solution_sha256: f9abcab30f0d41e46deccdcf2925edc9a006beba211dba73163e2c4e3d0ef0d3
+    sheet-4-14:
+      year: 1999-00
+      unit: qx14
+      printed: '14'
+      html: site/private/collections/IB/methods/sheet-4/1999-00.html
+      html_sha256: 563ba357f2bf83aae724e5593a85e22bea2d89e957b0d6afc06985f789bc087e
+      pdf: build/IB-methods-sheet-4-1999-00/main.pdf
+      pdf_sha256: aa37c70f17f7031dbae438a6caa366b766a55500eaa8cc59d685f413e07ce2b8
+      pages:
+      - 14
+      rasters:
+        sheet-4-14-p14.png: 81193c04ed70e1e2ee6e25e8195a51c1ea2e0b0510d92f2aa61daa949c5f7161
+      question_sha256: 9be6c0eb839cede942636a6af22b106af1e6cd61eeeac1d790427cb4aadec776
+      solution_sha256: d37601bc1447d6e6b322af5e0e0c364ba3bea4f94b17335f425434300f6a78c4
+  browser:
+    sheet-1-1:
+      total: 52
+      rendered: 52
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-2:
+      total: 20
+      rendered: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-3:
+      total: 45
+      rendered: 45
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-4:
+      total: 27
+      rendered: 27
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-5:
+      total: 39
+      rendered: 39
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-6:
+      total: 35
+      rendered: 35
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-7:
+      total: 28
+      rendered: 28
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-8:
+      total: 37
+      rendered: 37
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-9:
+      total: 22
+      rendered: 22
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-10:
+      total: 36
+      rendered: 36
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-11:
+      total: 13
+      rendered: 13
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-1-12:
+      total: 17
+      rendered: 17
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-1:
+      total: 13
+      rendered: 13
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-2:
+      total: 16
+      rendered: 16
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-3:
+      total: 16
+      rendered: 16
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-4:
+      total: 11
+      rendered: 11
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-5:
+      total: 12
+      rendered: 12
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-6:
+      total: 31
+      rendered: 31
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-7:
+      total: 13
+      rendered: 13
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-8:
+      total: 16
+      rendered: 16
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-9:
+      total: 8
+      rendered: 8
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-10:
+      total: 20
+      rendered: 20
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-11:
+      total: 36
+      rendered: 36
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-12:
+      total: 16
+      rendered: 16
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-13:
+      total: 28
+      rendered: 28
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
+    sheet-4-14:
+      total: 26
+      rendered: 26
+      errors: 0
+      document_width: 1220
+      viewport: 1220
+      expanded: true
