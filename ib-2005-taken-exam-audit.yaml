@@ -1,0 +1,948 @@
+scope: 2005 IB examination questions across ten confirmed-taken courses. Whole-course
+  audits remain pending.
+sample:
+  seed: 20270106
+  strata:
+    IB/analysis-ii:
+    - IB/2005/P1/q11B
+    - IB/2005/P1/q12A
+    - IB/2005/P2/q13B
+    - IB/2005/P2/q3B
+    - IB/2005/P3/q13B
+    - IB/2005/P3/q3B
+    - IB/2005/P4/q13B
+    - IB/2005/P4/q14A
+    - IB/2005/P4/q3B
+    IB/complex-methods:
+    - IB/2005/P1/q13F
+    - IB/2005/P1/q3F
+    - IB/2005/P2/q14F
+    - IB/2005/P3/q5F
+    IB/electromagnetism:
+    - IB/2005/P1/q16H
+    - IB/2005/P2/q17H
+    - IB/2005/P2/q6H
+    - IB/2005/P3/q17H
+    - IB/2005/P4/q7H
+    IB/fluid-dynamics:
+    - IB/2005/P1/q17E
+    - IB/2005/P1/q5E
+    - IB/2005/P2/q8E
+    - IB/2005/P3/q18E
+    - IB/2005/P4/q18E
+    IB/linear-algebra:
+    - IB/2005/P1/q1C
+    - IB/2005/P1/q9C
+    - IB/2005/P2/q10C
+    - IB/2005/P2/q1C
+    - IB/2005/P3/q10B
+    - IB/2005/P4/q10B
+    - IB/2005/P4/q1B
+    IB/markov-chains:
+    - IB/2005/P1/q19D
+    - IB/2005/P2/q20D
+    - IB/2005/P3/q9D
+    - IB/2005/P4/q9D
+    IB/methods:
+    - IB/2005/P1/q14E
+    - IB/2005/P2/q15E
+    - IB/2005/P2/q5E
+    - IB/2005/P3/q15H
+    - IB/2005/P3/q6E
+    - IB/2005/P4/q15F
+    - IB/2005/P4/q16H
+    - IB/2005/P4/q5H
+    IB/numerical-analysis:
+    - IB/2005/P1/q6F
+    - IB/2005/P2/q18F
+    - IB/2005/P3/q19F
+    - IB/2005/P4/q8F
+    IB/quantum-mechanics:
+    - IB/2005/P1/q15G
+    - IB/2005/P2/q16G
+    - IB/2005/P3/q16G
+    - IB/2005/P3/q7G
+    - IB/2005/P4/q6G
+    IB/statistics:
+    - IB/2005/P1/q18D
+    - IB/2005/P1/q7D
+    - IB/2005/P2/q19D
+    - IB/2005/P3/q8D
+    - IB/2005/P4/q19D
+  selection:
+    IB/analysis-ii:
+    - IB/2005/P1/q12A
+    - IB/2005/P4/q13B
+    IB/complex-methods:
+    - IB/2005/P1/q13F
+    IB/electromagnetism:
+    - IB/2005/P1/q16H
+    IB/fluid-dynamics:
+    - IB/2005/P2/q8E
+    IB/linear-algebra:
+    - IB/2005/P1/q9C
+    - IB/2005/P2/q1C
+    IB/markov-chains:
+    - IB/2005/P1/q19D
+    IB/methods:
+    - IB/2005/P4/q5H
+    - IB/2005/P3/q6E
+    IB/numerical-analysis:
+    - IB/2005/P2/q18F
+    IB/quantum-mechanics:
+    - IB/2005/P4/q6G
+    IB/statistics:
+    - IB/2005/P3/q8D
+observed:
+  population: 56
+  sampled: 13
+  mathematical_errors: 0
+  transcription_errors: 0
+  source_pages: 12
+  pdf_pages: 13
+  browser_views: 13
+  rendered_formulas: 303
+independent_manifest_sha256: ae6ac0af2cdf14281d93438ef86dc4a826747cb68ba80d9882a15c7cac556a98
+auditor_report: '# 2005 Part IB blind sample rework
+
+
+  I examined all 13 question statements in the supplied sample against the question
+  blocks rendered from the original Faculty PDFs. The sample spans P1 (5), P2 (3),
+  P3 (2) and P4 (3). I compared words, operators, numbers, conditions and subparts.
+  No discrepancies survived comparison (0/13). In particular P1 q13F prints “and,
+  finally,” in precisely the position transcribed.
+
+
+  I derived each answer from the question and source page. The 13 question directories
+  contain these derivations and the hashes of the packet, original paper and rework.
+  No source figures occurred in this sample. Comparison with stored solutions and
+  estimation of their substantive error rate fall to the receiving reviewer, who can
+  now consult those solutions.
+
+
+  ## Points for comparison
+
+
+  - P1 q13F. The hint overlooks the finite-plane domain’s missing point at infinity.
+  The composed conformal map omits 0. Any claim of equivalence to the whole disk needs
+  an amended domain. The obstruction is a noncontractible loop around the segment.
+
+  - P2 q8E. Bernoulli’s identity uses the steady Euler equation with conservative
+  body acceleration. The printed kinematic hypotheses alone do not imply it. The streamfunction
+  derivative relation follows by cancellation only on regular points, with appropriate
+  extension to their limits.
+
+  - P2 q18F. The projection formula as a sum up to index n uses the customary degree
+  indexing of an orthogonal polynomial sequence. Approximation is in degree at most
+  n, since all odd coefficients here are zero.
+
+  - P3 q8D. The usual Student test has n−1 degrees of freedom and requires n≥2 and
+  positive population variance.
+
+  - P4 q13B. A vanishing Lipschitz constant or a vanishing upper bound for the magnitude
+  of F gives an immediate fixed point, so the reciprocal bounds can be interpreted
+  without division by zero.
+
+
+  I also enumerated all 15 possible swaps for each initial relative seat position
+  (P1 q19D), checked the first 12 projection coefficients by quadrature to absolute
+  tolerance 10⁻¹² (P2 q18F), and independently integrated the interior and exterior
+  field energies symbolically (P1 q16H). Each check agreed with the derivation.
+
+  '
+main_resolution: The slit-plane map has a punctured disk as its image and extends
+  over infinity to the full disk. A preliminary punctuation concern in the hint was
+  resolved by reading the literal question bytes and original print; their punctuation
+  agrees. The fluid rotation identity requires the steady Euler hypotheses. The Chebyshev
+  projection assumes the polynomial system spans all degrees through n. Independent
+  enumeration of seating swaps, quadrature of the first twelve coefficients, and integration
+  of sphere field energy agree with the canonical results.
+questions:
+  IB/2005/P1/q12A:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P1.pdf
+      original_pdf_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 6
+      question_packet_sha256: 411bd5d63e8821b124c1d3c50917b93d5fefd2500ab12d2c2a47baeb7ba21a9c
+      blind_rework_sha256: dfab89ea5f770e556a30bb3e7b199ea2edc1d5c6e4780b9006cc9180773170da
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P1/q12A independent rework
+
+
+      The sum of the two component distances is nonnegative, symmetric, and zero exactly
+      when both coordinates coincide. Adding their respective triangle inequalities
+      through an intermediate pair proves the triangle inequality. Projection onto
+      the second coordinate is 1-Lipschitz since the second summand is at most the
+      sum.
+
+
+      Given an infinite sequence (xₙ), suppose every x∈X has a ball containing only
+      finitely many sequence indices. By compactness, finitely many such balls cover
+      X; their finite union of index sets cannot contain all natural numbers. There
+      is thus x for which every ball contains infinitely many indices. Recursively
+      choose indices nⱼ>nⱼ₋₁ with d_X(xₙⱼ,x)<1/j. This argument counts repeated terms
+      with their multiplicities.
+
+
+      If y belongs to the closure of π(F), choose yₙ∈π(F) tending to y and xₙ with
+      (xₙ,yₙ)∈F. The x-coordinates have a convergent subsequence with limit x∈X, so,
+      by the sum metric, the corresponding pairs converge to (x,y). Closedness of
+      F gives (x,y)∈F and y∈π(F). An empty image is already closed. For failure with
+      X=Y=R take F={(x,y):xy=1}; continuity of multiplication gives closedness, while
+      π(F)=R∖{0} contains 1/n and omits its limit.
+
+      '
+    main_comparison: The sum metric bounds the projection distance. Finite open covers
+      give a convergent subsequence in the compact factor, whose paired lifts converge
+      in the closed set. Projecting the closed hyperbola in the noncompact plane gives
+      the punctured line.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P1.pdf
+      source_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 6
+      compiled_pdf: build/IB-2005-P1/main.pdf
+      compiled_sha256: 61b1f40179029bb48fab94d489fdf88a0fcf390afb364c6383c938ad9393fd77
+      compiled_pages:
+      - 12
+      html: site/private/questions/IB/2005/P1/q12A/index.html
+      html_sha256: b2e53d14008f986a930bd4428528c3a0e0e398f8537eee1a44e2e42e01ae1bb9
+      math_nodes: 25
+      diagrams: {}
+      question_sha256: 411bd5d63e8821b124c1d3c50917b93d5fefd2500ab12d2c2a47baeb7ba21a9c
+      solution_sha256: 0bd734af40c81e928738cd100c7996455848fba4d6644db88630780053a0337d
+      check_sha256: a250ddde2f87dcc94ba248e29e6776e58ab1642358ba41442ad7d09fa1e9d288
+      check_exit: 0
+      check_stdout: Passed the P1/q12A mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P1/q12A · Cambridge Maths
+      math: 25
+      rendered: 25
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P4/q13B:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P4.pdf
+      original_pdf_sha256: eab2014f59691f0d4ae9611d346acfbc478fb3e61369533042292c1c3ce6ce9f
+      source_page: 7
+      question_packet_sha256: 9be54245c4dbc409df52acb3e667b0c788d9af2011f86f5d627325d93240dc84
+      blind_rework_sha256: ea8be81678c33554e74e89fae6daf64c483def361e730dd9386e98e3bdfda499
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P4/q13B independent rework
+
+
+      Assume positive interval radii and b>0 as usual. Put J=[−b,b], I=[x₀−r,x₀+r].
+      Integrating a C¹ solution on the oriented interval from 0 to t gives x(t)=x₀+∫₀ᵗF(s,x(s))ds.
+      Conversely, for a continuous I-valued x the integrand is continuous, so the
+      integral equation gives the initial value and, by the fundamental theorem of
+      calculus, the differential equation with continuous derivative (one-sided derivatives
+      at the endpoints).
+
+
+      Use the sup metric on the space of continuous functions J→I. This is a nonempty
+      closed subset of the complete space C(J,R), hence complete. Define (Tx)(t) by
+      the right hand side of the integral equation. Since J⊂[−a,a] and |F|≤C, the
+      absolute difference |(Tx)(t)−x₀|≤C|t|≤Cb<r; in particular T maps the space into
+      itself. For two functions x,y, Lipschitz continuity gives |(Tx)(t)−(Ty)(t)|≤K|t|
+      ||x−y||∞, also for negative t by reversing the endpoints. Taking suprema shows
+      T is a contraction with constant bK<1. The contraction mapping theorem supplies
+      exactly one fixed point; the equivalence above gives exactly one C¹ solution
+      with values in I.
+
+
+      If C=0, F vanishes and the solution is x≡x₀. If K=0 the integrand is independent
+      of the space variable, T is constant on the function space, and its value is
+      its unique fixed point. One can read the corresponding reciprocal restrictions
+      as imposing no bound.
+
+      '
+    main_comparison: Both proofs use the closed uniform ball of continuous paths to
+      keep the integral operator in its domain. Its Lipschitz factor bK is less than
+      one. The fundamental theorem gives the C1 solution and the equivalence checks
+      uniqueness, including the zero-bound cases.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P4.pdf
+      source_sha256: eab2014f59691f0d4ae9611d346acfbc478fb3e61369533042292c1c3ce6ce9f
+      source_page: 7
+      compiled_pdf: build/IB-2005-P4/main.pdf
+      compiled_sha256: 67424544e7154dfca2900ed29b93f81963436b2505ef634cfd2411bbcc308803
+      compiled_pages:
+      - 13
+      html: site/private/questions/IB/2005/P4/q13B/index.html
+      html_sha256: bb9624f028ddb11df1c3304158f32f5f7616e860b13fd436bf60e2418293509d
+      math_nodes: 24
+      diagrams: {}
+      question_sha256: 9be54245c4dbc409df52acb3e667b0c788d9af2011f86f5d627325d93240dc84
+      solution_sha256: c410e5915bb5149dd27d102a7b638e81a0f894fd4d2869e5df06587569c75b4a
+      check_sha256: d318714ab4ead216cd691bb04c8ba38ad73626812d082956987b48993556df0c
+      check_exit: 0
+      check_stdout: Passed the P4/q13B mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P4/q13B · Cambridge Maths
+      math: 24
+      rendered: 24
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P1/q13F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P1.pdf
+      original_pdf_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 6
+      question_packet_sha256: c902dc469e6e8a7a5e57bce08466f64a84be217534563b8d5bfbd4db5cbaff26
+      blind_rework_sha256: e82792c3f4da8f004e5b1afe605e6376d63372d2577589fdec328221cc431dc5
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P1/q13F independent rework
+
+
+      There are two readings of “to”. A conformal map into the disc comes from T(z)=(z−1)/(z+1).
+      This takes finite points off the segment bijectively to C∖((−∞,0]∪{1}). Indeed
+      the inverse is z=(1+t)/(1−t), and nonpositive real t corresponds to the deleted
+      segment (with the endpoint −1 the pole of T). The value t=1 would require z=∞.
+      The principal square root maps this slit plane with 1 removed onto the right
+      half-plane with 1 removed. The Cayley map s↦(s−1)/(s+1) maps that domain bijectively
+      to the unit disc with 0 removed. All three maps and inverses on their images
+      are holomorphic, and their derivatives are nonzero there. Their composition
+      gives the requested map into the disc if surjectivity is not intended.
+
+
+      No conformal equivalence onto the complete disc exists for Ω₀ as printed. The
+      circle |z|=2 has winding number one about 0, invariant under all deformations
+      staying in Ω₀. It cannot be contracted there, whereas every loop in a disc can
+      be contracted by a straight-line homotopy. A biholomorphism would transfer that
+      contraction to Ω₀. Adjoining infinity to the source fills the missing point,
+      since T(∞)=1 and the resulting map takes ∞ to 0, with a nonzero derivative in
+      the coordinate 1/z. Both the original and the packet specify the finite complex
+      plane.
+
+      '
+    main_comparison: The two explicit maps differ by a rotation. Their common image
+      is a punctured disk because the original finite-plane domain omits infinity.
+      Either is a conformal map into the disk, and winding about zero rules out a
+      bijection onto the full disk. Adjoining infinity fills its missing centre.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P1.pdf
+      source_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 6
+      compiled_pdf: build/IB-2005-P1/main.pdf
+      compiled_sha256: 61b1f40179029bb48fab94d489fdf88a0fcf390afb364c6383c938ad9393fd77
+      compiled_pages:
+      - 13
+      html: site/private/questions/IB/2005/P1/q13F/index.html
+      html_sha256: 17fad5c641fc1a37ff63b1c0e318651f19a1e1bebc8a37ba0d1f81d9b4188571
+      math_nodes: 15
+      diagrams: {}
+      question_sha256: c902dc469e6e8a7a5e57bce08466f64a84be217534563b8d5bfbd4db5cbaff26
+      solution_sha256: 4168bdf63c0fd8cca32f847dbf60766390c17e18c85d2768b1e455c7afb5f168
+      check_sha256: 724cd9285c4f52a61921981fcc3b0effbcc7698216528e81caaf8c6d3af5fa02
+      check_exit: 0
+      check_stdout: Passed the P1/q13F mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P1/q13F · Cambridge Maths
+      math: 15
+      rendered: 15
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P1/q16H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P1.pdf
+      original_pdf_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 7
+      question_packet_sha256: 070c40bf19c4ac93af0a7399d728af6b306e739600b59bb53a0b7b275623f1dc
+      blind_rework_sha256: 627462bd7c5e1932be86094361ac70c8ec7fc73d481e90387052bc3acf5af16e
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P1/q16H independent rework
+
+
+      For an isolated localized charge distribution take φ→0 at infinity and assume
+      finite integrals. Assemble it quasistatically by increasing its density from
+      zero to ρ along λρ, 0≤λ≤1. Linearity gives potential λφ at intermediate charge.
+      Work to add ρ dλ is dE=dλ∫λφρ d³x, giving E=½∫ρφ d³x. With ∇·E=ρ/ε₀ and ∇φ=−E,
+      integration of ∇·(φE) over a large ball gives ∫ρφ=ε₀∫|E|²+ε₀∮φ E·n. The surface
+      term tends to zero for localized charge (φ=O(1/r), E=O(1/r²)). This yields the
+      field formula with the same factor ½.
+
+
+      Write Q=4πρR³/3. Rotational symmetry and Gauss'' law on a sphere of radius r
+      give E=ρr eᵣ/(3ε₀) inside and Q eᵣ/(4πε₀r²) outside. At the origin take E=0.
+      The potential obtained by radial integration is Q/(4πε₀r) outside and ρ(3R²−r²)/(6ε₀)
+      inside. At R both potential and radial field agree, consistent with the absence
+      of a surface charge.
+
+
+      Use the charge formula over r≤R: E_stored=(πρ²/(3ε₀))∫₀ᴿ(3R²r²−r⁴)dr=4πρ²R⁵/(15ε₀)=3Q²/(20πε₀R).
+      If the nuclear volume scales like Z then R∝Z^{1/3} for a sphere and Q=Ze, so
+      the energy scales as Z^{5/3} at the uniform-sphere level of approximation.
+
+      '
+    main_comparison: Continuous charge assembly and integration by parts yield the
+      identical two energy formulas. Gauss and continuity of potential at the sphere
+      give 3Q²/(20πε₀R). Fixed volume per proton then implies the stated five-thirds
+      exponent.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P1.pdf
+      source_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 7
+      compiled_pdf: build/IB-2005-P1/main.pdf
+      compiled_sha256: 61b1f40179029bb48fab94d489fdf88a0fcf390afb364c6383c938ad9393fd77
+      compiled_pages:
+      - 16
+      html: site/private/questions/IB/2005/P1/q16H/index.html
+      html_sha256: 0a63cf9d7bf4b980e20b367e62434045a7a07a8d1581cdec7fc2561a379928aa
+      math_nodes: 30
+      diagrams: {}
+      question_sha256: 070c40bf19c4ac93af0a7399d728af6b306e739600b59bb53a0b7b275623f1dc
+      solution_sha256: 2ff37ea5223cebf38b0478e1316595eba38dd40b0cdc29279a09bf30a72022e1
+      check_sha256: 0544022aeaef3ad6050f4301e0eba0f08c83dc8a73e25fd7dc96023d00ad8dd7
+      check_exit: 0
+      check_stdout: Passed the P1/q16H mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P1/q16H · Cambridge Maths
+      math: 30
+      rendered: 30
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P2/q8E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P2.pdf
+      original_pdf_sha256: 9e659f6555b5db239b18bfec7e15871bd5062f09e7f8582854e274334cce761b
+      source_page: 4
+      question_packet_sha256: 24ef70c76c1d41b3eb929bfa52ccaadd0c67be47bd2ad46cf3c08eef82f68f06
+      blind_rework_sha256: 046d776244e2e73aa690ee50568aaed866e2be8ba9bde6881fe96386d794f3bd
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P2/q8E independent rework
+
+
+      Use the steady Euler momentum equation for an inviscid fluid of constant density,
+      with conservative body acceleration −∇Φ (take Φ=0 when body forces are absent).
+      In components (u×ω)ᵢ=∑ⱼuⱼ(∂ᵢuⱼ−∂ⱼuᵢ), so (u·∇)u=∇(|u|²/2)−u×ω. Substitution
+      of (u·∇)u=−∇p/ρ−∇Φ gives H=p/ρ+|u|²/2+Φ up to a constant. Along a streamline
+      with tangent u, dH/ds=∇H·u=0.
+
+
+      With u=(ψ_y,−ψ_x,0), the scalar vorticity is ω=−Δψ and the cross product (−ωψ_x,−ωψ_y,0)=−ω∇ψ.
+      Hence wherever H is a differentiable function of ψ, (H′(ψ)+ω)∇ψ=0. On regular
+      streamlines, ∇ψ≠0 and H′(ψ)+ω=0. The equality extends by continuity to limits
+      of regular points if H′ and ω are continuous there. A stagnant open patch has
+      ∇ψ=0, so cancellation there alone cannot determine H′. Streamwise constancy
+      by itself also does not identify different disconnected streamlines of the same
+      ψ; the question assumes H=H(ψ).
+
+
+      Under the bare printed kinematic hypotheses of steadiness and incompressibility
+      this generally fails. For example u=(exp(y),1,0) is divergence-free with ω_z=−exp(y),
+      and u×ω=(−exp(y),exp(2y),0) has curl with z-component exp(y)≠0. This flow even
+      solves the steady viscous equation with unit kinematic viscosity and constant
+      pressure. The Euler hypothesis matters.
+
+      '
+    main_comparison: The Euler identity requires constant density, inviscid flow and
+      conservative forcing. The streamline derivative of the Bernoulli function vanishes.
+      The stated streamfunction convention gives u×ω=−ω∇ψ, hence the printed derivative
+      relation on regular levels.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P2.pdf
+      source_sha256: 9e659f6555b5db239b18bfec7e15871bd5062f09e7f8582854e274334cce761b
+      source_page: 4
+      compiled_pdf: build/IB-2005-P2/main.pdf
+      compiled_sha256: 0b97ea860f14b2f8486d0116f556f149cf1aacfa94054a690dcec3cfcaae33bd
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2005/P2/q8E/index.html
+      html_sha256: 810af97ed8930d11c12f7a172a317b36ce2ab68e7020c30b6f5e85d9a9addade
+      math_nodes: 27
+      diagrams: {}
+      question_sha256: 24ef70c76c1d41b3eb929bfa52ccaadd0c67be47bd2ad46cf3c08eef82f68f06
+      solution_sha256: 1e63ff07c3cb21bfaaa3efdbd8ac358fa7361f2ffb725e57ee5edf0eb2d0044d
+      check_sha256: 633d6b790da0a6b58c89d57b686e4d161e099f6055e170c6822efbfd9ebd92c2
+      check_exit: 0
+      check_stdout: 'Passed the P2/q8E mathematical checks.
+
+        The counterexample has divergence zero and a nonzero curl of u cross vorticity.'
+      check_stderr: ''
+    browser:
+      title: IB/2005/P2/q8E · Cambridge Maths
+      math: 27
+      rendered: 27
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P1/q9C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P1.pdf
+      original_pdf_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 5
+      question_packet_sha256: e4c4d44fe257412934c0eba9f555ed19ceb3b36a108378c2d99e6599a3ebb398
+      blind_rework_sha256: eec5fe97cd7c2bac6e629de23767e7d981d5f619c3efbf5474d73a0ce843eaec
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P1/q9C independent rework
+
+
+      Take a basis w₁,…,wₖ for W and extend it to a basis w₁,…,wₖ,vₖ₊₁,…,v_d of V.
+      A linear functional on V is uniquely determined by its values on this basis.
+      It vanishes on W exactly when its first k values are zero. Its remaining d−k
+      values range freely over R, giving a linear isomorphism α(W) ≅ R^{d−k}. This
+      includes W=0 and W=V.
+
+
+      Take W to be the row space of A in Rⁿ, of dimension r (equality of row and column
+      ranks if rank is defined by columns). The dot product identifies x∈Rⁿ with the
+      covector w↦w·x. Indeed the inverse takes the values of a covector on the standard
+      basis as the coordinates of x. Ax=0 precisely when this covector vanishes on
+      all rows and therefore on W. Hence the solution space is isomorphic to α(W)
+      and any basis gives n−r independent solutions. For r=n this is the empty basis
+      of the zero space.
+
+      '
+    main_comparison: Extending a basis yields precisely n−dim W free coefficients
+      in the annihilator. Applying this to the row span, column vectors represent
+      all functionals, giving n−r independent null vectors.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P1.pdf
+      source_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 5
+      compiled_pdf: build/IB-2005-P1/main.pdf
+      compiled_sha256: 61b1f40179029bb48fab94d489fdf88a0fcf390afb364c6383c938ad9393fd77
+      compiled_pages:
+      - 9
+      html: site/private/questions/IB/2005/P1/q9C/index.html
+      html_sha256: 46e4c9fb7839af6b22f62d7573c3d44eaad362c312cd37a73cf8fede629aa97f
+      math_nodes: 32
+      diagrams: {}
+      question_sha256: e4c4d44fe257412934c0eba9f555ed19ceb3b36a108378c2d99e6599a3ebb398
+      solution_sha256: 5e806947c9f90dd942994dd332d8df512b13a74a092dee7f2932c03a7e5de49a
+      check_sha256: 652644859faff9fdfe3a6b901a7cadde5ef39c05a40fee9a40c85084b5dc26ab
+      check_exit: 0
+      check_stdout: Passed the P1/q9C mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P1/q9C · Cambridge Maths
+      math: 32
+      rendered: 32
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P2/q1C:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P2.pdf
+      original_pdf_sha256: 9e659f6555b5db239b18bfec7e15871bd5062f09e7f8582854e274334cce761b
+      source_page: 2
+      question_packet_sha256: dafdb74f923406cebf00e79e0ddf9a0618db5b9197a3448c440e455f7382de24
+      blind_rework_sha256: 5a728e8ed6355cb9d79bdfd07e31e5b2618e9ccfefa6236ee74137051b1a4c50
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P2/q1C independent rework
+
+
+      Set z=a+ib and w=c+id. Then the matrices are exactly M(z,w) with rows (z,w)
+      and (−w̄,z̄). The top row recovers all four real parameters, and the parametrization
+      is real-linear, so the real dimension is 4. Direct row-by-column multiplication
+      gives M(z,w)M(s,t)=M(zs−w t̄,zt+w s̄), proving closure. Reversing the signs
+      of b,c,d gives M(z̄,−w). Substitution in the product formula gives top row (|z|²+|w|²,0)
+      and hence the claimed scalar matrix. The reverse product gives the same result
+      (replace z,w by z̄,−w). For a nonzero element the real number |z|²+|w|² is strictly
+      positive, so the inverse is M(z̄,−w)/(|z|²+|w|²) in Ω. When z=w=0 the norm vanishes
+      and the matrix is singular.
+
+      '
+    main_comparison: The explicit square and anticommuting products give closure and
+      the scalar norm identity. The first row proves real linear independence. Division
+      by the positive scalar norm yields the inverse of every nonzero element.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P2.pdf
+      source_sha256: 9e659f6555b5db239b18bfec7e15871bd5062f09e7f8582854e274334cce761b
+      source_page: 2
+      compiled_pdf: build/IB-2005-P2/main.pdf
+      compiled_sha256: 0b97ea860f14b2f8486d0116f556f149cf1aacfa94054a690dcec3cfcaae33bd
+      compiled_pages:
+      - 1
+      html: site/private/questions/IB/2005/P2/q1C/index.html
+      html_sha256: a7677c238c5dd04a17000e25690e4615688edf63d3b0105dd43e25fbd871d485
+      math_nodes: 17
+      diagrams: {}
+      question_sha256: dafdb74f923406cebf00e79e0ddf9a0618db5b9197a3448c440e455f7382de24
+      solution_sha256: e994029b4bad8ebca19b5aa42d70348e7da1d37d4834ca569bcf02413b1bf15a
+      check_sha256: 3fa43e0888b01f34133a4e98a22a5cba178a1257bc69157d613d335c4e568a5c
+      check_exit: 0
+      check_stdout: Passed the P2/q1C mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P2/q1C · Cambridge Maths
+      math: 17
+      rendered: 17
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P1/q19D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P1.pdf
+      original_pdf_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 9
+      question_packet_sha256: 1223808787f42f13ac5804b6f13054c451b754a56f9cdc631999ae78ec1b9012
+      blind_rework_sha256: fbe43966318f74215109cfc234296c9858ba99dfa6367551642d5705950143c2
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P1/q19D independent rework
+
+
+      Group all positions into two events, O (opposite) and N (otherwise). In O any
+      of the six pairs of guests may be swapped, or Lancelot and Guinevere may themselves
+      be swapped, to leave O unchanged. Each of the eight other swaps breaks O. In
+      N the seat opposite either distinguished diner is occupied by a guest. Swapping
+      that guest with the other distinguished diner creates O, giving exactly two
+      successful pairs out of the fifteen unordered pairs. The nightly choices are
+      independent. If pₙ is the probability of O after n swaps, then p₀=0 and pₙ₊₁=(7pₙ+2(1−pₙ))/15=2/15+pₙ/3.
+      The fixed value is 1/5; subtracting it and iterating gives pₙ=(1−3^{−n})/5.
+      The first swap gives 2/15 and the limiting value 1/5 agrees with the one opposite
+      seat among five other seats.
+
+      '
+    main_comparison: Among 15 unordered swaps seven preserve opposition and two create
+      it when absent. Both give the same affine recurrence, fixed point 1/5 and multiplier
+      1/3, starting with the pair adjacent.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P1.pdf
+      source_sha256: 938c5539323a7176cf5affa7ad7859d4165e5f4a9c7a07e98af1413e0431fede
+      source_page: 9
+      compiled_pdf: build/IB-2005-P1/main.pdf
+      compiled_sha256: 61b1f40179029bb48fab94d489fdf88a0fcf390afb364c6383c938ad9393fd77
+      compiled_pages:
+      - 19
+      html: site/private/questions/IB/2005/P1/q19D/index.html
+      html_sha256: 05b3660a4c4d5fbed75eca071eec79815b7946939a235f64e8d6b1024e81a1d8
+      math_nodes: 10
+      diagrams: {}
+      question_sha256: 1223808787f42f13ac5804b6f13054c451b754a56f9cdc631999ae78ec1b9012
+      solution_sha256: 479389b0f5d1d9392c932f7fefd1500e0d26f2a5afe3e52383f11450d344e47f
+      check_sha256: 728b90f55373973e6887b2b29e40342b86bd2efbb41fab5925e32c34f2c372ba
+      check_exit: 0
+      check_stdout: Passed the P1/q19D mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P1/q19D · Cambridge Maths
+      math: 10
+      rendered: 10
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P4/q5H:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P4.pdf
+      original_pdf_sha256: eab2014f59691f0d4ae9611d346acfbc478fb3e61369533042292c1c3ce6ce9f
+      source_page: 3
+      question_packet_sha256: 0902e09c19e77d209fdd84840c4868e2f96eeb89d237fbac7322a64968005577
+      blind_rework_sha256: 3144001beb26a0bebd544bd5af7607726193ac7644bd769e05d0377b1d701385
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P4/q5H independent rework
+
+
+      Assume a classical solution and c>0, L>0. In coordinates u=ct−x and v=ct+x,
+      the wave operator c⁻²∂²_t−∂²_x equals (∂ᵤ+∂ᵥ)²−(−∂ᵤ+∂ᵥ)²=4∂ᵤ∂ᵥ. Thus the u-derivative
+      depends only on u, and integration gives y=f(u)+g(v); the converse is immediate.
+      This holds globally on the whole characteristic plane and also on the strip
+      because the intersections with each characteristic are intervals.
+
+
+      At x=0, f(s)=−g(s). At L this yields g(s+L)=g(s−L), hence g and f are 2L-periodic
+      (the fundamental period can be smaller). These identities are on all real arguments
+      for all-time solutions; for forward time use the corresponding boundary identities
+      on accessible arguments and extend the travelling profile periodically. In the
+      latter case, for −L≤s<0 one can define g(s)=−f(s), with g(s)=g(s+2L) following
+      from the L boundary.
+
+
+      The two derivatives are y_t/c=f′(u)+g′(v) and y_x=−f′(u)+g′(v). On summing their
+      squares and halving, the cross terms cancel. Replacing f′ by −g′ and then reflecting
+      x↦−x in the first integral yields ∫_{−L}^L g′(ct+x)² dx. This integrates the
+      2L-periodic function g′² over one complete period, so its time derivative is
+      c[g′(ct+L)²−g′(ct−L)²]=0.
+
+      '
+    main_comparison: Characteristic coordinates give two travelling profiles. Fixed
+      ends set them opposite and 2L-periodic. In the half-sum of energy squares the
+      mixed terms cancel. Reflecting one term puts the entire integral over a period
+      of the squared derivative.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P4.pdf
+      source_sha256: eab2014f59691f0d4ae9611d346acfbc478fb3e61369533042292c1c3ce6ce9f
+      source_page: 3
+      compiled_pdf: build/IB-2005-P4/main.pdf
+      compiled_sha256: 67424544e7154dfca2900ed29b93f81963436b2505ef634cfd2411bbcc308803
+      compiled_pages:
+      - 5
+      html: site/private/questions/IB/2005/P4/q5H/index.html
+      html_sha256: 90e9580ea769e17589b02cc1f7f4f14aa55d63b0a1a733c5a76f25cccc63ba2d
+      math_nodes: 22
+      diagrams: {}
+      question_sha256: 0902e09c19e77d209fdd84840c4868e2f96eeb89d237fbac7322a64968005577
+      solution_sha256: 846bb418dc2aaa254a8b1ec0d5d89128c79ba634fa9e975614deaaaaceb75435
+      check_sha256: 0b90388befa199e5e0f765ce6ee1d69900b636f9fcbb4b7b110753939e72ef40
+      check_exit: 0
+      check_stdout: Passed the P4/q5H mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P4/q5H · Cambridge Maths
+      math: 22
+      rendered: 22
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P3/q6E:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P3.pdf
+      original_pdf_sha256: 66188ca392f87940b2ff4b679c78d7bea5a038b2bd9791b69423c842b754c7df
+      source_page: 3
+      question_packet_sha256: 8d946e5e99d1d00ce010c7903e4680ddb7a1319da8b102d84ef64eab05e92839
+      blind_rework_sha256: 30525d8e2fde43b95f059876a44f41838092595f65596c3da449980d21e219f7
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P3/q6E independent rework
+
+
+      At a regular constrained point ∇g≠0, the implicit-function theorem identifies
+      the tangent line as the vectors orthogonal to ∇g. At stationarity, the derivative
+      of f in each tangent direction vanishes, so ∇f=λ∇g. Conversely this implies
+      zero tangent derivative. Solve these two coordinate equations with g=0, checking
+      any singular constraint points or endpoints separately.
+
+
+      Assume a,b≠0 so the ellipse is defined. Its gradient (2x/a²,2y/b²) never vanishes
+      on the ellipse. The multiplier conditions are y=2λx/a² and x=2λy/b²; one coordinate
+      zero would force both zero, contrary to the constraint. Multiply the first by
+      x and the second by y: xy=2λx²/a²=2λy²/b² with λ nonzero. Thus each of x²/a²
+      and y²/b² equals 1/2. There are four stationary points (±|a|/√2,±|b|/√2) with
+      signs independently chosen, all satisfying the multiplier equations for λ=a²y/(2x).
+      Equal signs yield the maximum |ab|/2 and opposite signs yield the minimum −|ab|/2.
+      These are global since 2|xy|/|ab|≤x²/a²+y²/b²=1. For positive semiaxes the values
+      are ±ab/2.
+
+      '
+    main_comparison: The constraint gradient is nonzero on the ellipse. Rescaling
+      to the circle gives four stationary points; the two possible values are ±ab/2.
+      The elementary product bound identifies the global extrema.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P3.pdf
+      source_sha256: 66188ca392f87940b2ff4b679c78d7bea5a038b2bd9791b69423c842b754c7df
+      source_page: 3
+      compiled_pdf: build/IB-2005-P3/main.pdf
+      compiled_sha256: 14714b021e2acf0917b80f5a709c77681ed5fcf420e21c5595e6131c88a39a21
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2005/P3/q6E/index.html
+      html_sha256: c62e3e197a8002c159e9666f93f9e8e13ff9de7c6d63f36736ef3a6f5740368b
+      math_nodes: 20
+      diagrams: {}
+      question_sha256: 8d946e5e99d1d00ce010c7903e4680ddb7a1319da8b102d84ef64eab05e92839
+      solution_sha256: 82a5cc84a011b79bed625aa92908dfc03079e82d6eddcc05ba02d60d62af2688
+      check_sha256: 88a81bff2cb98377102d5f7c76fc55c4bf7dc1adf0c82107f791053f316228e9
+      check_exit: 0
+      check_stdout: Passed the P3/q6E mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P3/q6E · Cambridge Maths
+      math: 20
+      rendered: 20
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P2/q18F:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P2.pdf
+      original_pdf_sha256: 9e659f6555b5db239b18bfec7e15871bd5062f09e7f8582854e274334cce761b
+      source_page: 9
+      question_packet_sha256: f2e33ebe1debe898271dbb09f25da05ba7cff0733a10e582e6f9b3dea39c6ea2
+      blind_rework_sha256: fe9b2fe662acf1f57b1b5ca4cb0bb8495bcd914421daf8c66bccb466287750c5
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P2/q18F independent rework
+
+
+      Let Pₙ be polynomials of degree at most n and take the standard meaning of a
+      sequence of orthogonal polynomials, with nonzero Qⱼ of degree j. These give
+      an orthogonal basis of Pₙ. For p=∑cⱼQⱼ, residual orthogonality gives cⱼ=(f,Qⱼ)/(Qⱼ,Qⱼ).
+      The corresponding p* is the unique minimizer since ||f−p||²=||f−p*||²+||p*−p||².
+      Mere mutual orthogonality without the spanning property only projects onto their
+      span.
+
+
+      On substituting x=cos θ the weighted inner product becomes the unweighted integral
+      from 0 to π of the corresponding functions of cos θ. Take Tⱼ(cos θ)=cos(jθ);
+      these are polynomials of degree j by the cosine recurrence. Their norms squared
+      are π for j=0 and π/2 otherwise, with pairwise orthogonality by product-to-sum.
+      Here f(cos θ)=sin θ. Thus (f,T₀)=2, odd coefficients vanish by reflection about
+      π/2, and for j=2k≥2 integration of sin θ cos(2kθ)=[sin((2k+1)θ)+sin((1−2k)θ)]/2
+      gives 2/(1−4k²). Consequently pₙ(x)=2/π−(4/π)∑_{k=1}^{⌊n/2⌋} T₂ₖ(x)/(4k²−1).
+      For n=0 or 1 this is constant. For odd n the best polynomial has degree below
+      n, consistent with approximation in Pₙ.
+
+      '
+    main_comparison: Projection on an orthogonal basis through degree n gives the
+      least-squares minimizer. Substitution x=cos θ produces Chebyshev modes with
+      constant coefficient 2/π, odd coefficients zero, and even coefficients 4/[π(1−4m²)].
+      The degree or spanning assumption is required.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P2.pdf
+      source_sha256: 9e659f6555b5db239b18bfec7e15871bd5062f09e7f8582854e274334cce761b
+      source_page: 9
+      compiled_pdf: build/IB-2005-P2/main.pdf
+      compiled_sha256: 0b97ea860f14b2f8486d0116f556f149cf1aacfa94054a690dcec3cfcaae33bd
+      compiled_pages:
+      - 18
+      html: site/private/questions/IB/2005/P2/q18F/index.html
+      html_sha256: 2cd08645e2fa10bfb422ebb7ee67d61380c6b80e857194b41dc1bf4bda979648
+      math_nodes: 27
+      diagrams: {}
+      question_sha256: f2e33ebe1debe898271dbb09f25da05ba7cff0733a10e582e6f9b3dea39c6ea2
+      solution_sha256: b8120ab76f0eefa8081b06d0060c5fe7a11443555b0c9fbba5c5faae9b04fb2d
+      check_sha256: aecdb2d4d861c08b789f4a8e75368da2bd6e8c9cbd58b1010db7bc2780df8868
+      check_exit: 0
+      check_stdout: Passed the P2/q18F mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P2/q18F · Cambridge Maths
+      math: 27
+      rendered: 27
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P4/q6G:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P4.pdf
+      original_pdf_sha256: eab2014f59691f0d4ae9611d346acfbc478fb3e61369533042292c1c3ce6ce9f
+      source_page: 4
+      question_packet_sha256: 89aecda131187e63cc2860197182b1cff82d4c1396a863ff8389970ff8ea3b60
+      blind_rework_sha256: 777662f06ab43877bcf5556806db9e989a13ff0a6990b9643a017ed05267fa50
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P4/q6G independent rework
+
+
+      On a common domain for the products, [A,B]=AB−BA. Use pⱼ=−iℏ∂ⱼ so [xᵢ,pⱼ]=iℏδᵢⱼ
+      while like coordinates and like momenta commute. Expanding the first commutator
+      gives [yp_z,zp_x]=−iℏ yp_x and [−zp_y,−xp_z]=iℏ xp_y. The other two pairings
+      vanish. Thus [L_x,L_y]=iℏ(xp_y−yp_x)=iℏL_z, with cyclic variants. For example
+      [L²,L_z]=−iℏ(L_xL_y+L_yL_x)+iℏ(L_yL_x+L_xL_y)=0, using [A²,B]=A[A,B]+[A,B]A.
+      Cyclic relabelling proves all three statements.
+
+
+      Each Lⱼ is −iℏ times a rotational derivative, annihilating every radial factor
+      h(r) for r>0. Hence L²(h(r)q)=h(r)L²q. For q=x one has L_x x=0, L_y x=−iℏ z
+      and L_z x=iℏ y, whence L_y²x=ℏ²x=L_z²x. By rotating the coordinates, L² has
+      the same eigenvalue 2ℏ² on y and z. Linearity gives L²ψ=2ℏ²ψ with h=e^{−r} and
+      q=x+y+z. The radial factor poses no angular singularity at r=0: on each rotation
+      orbit it is constant, the wave function vanishes at the origin, and the equality
+      also holds as an L² identity. At infinity the exponential ensures square integrability.
+
+      '
+    main_comparison: Canonical brackets give the cyclic angular-momentum algebra and
+      cancellation in [L²,Lw]. Angular derivatives annihilate radial factors. On each
+      Cartesian coordinate the two nonzero square terms give a total of 2ℏ² times
+      the coordinate.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P4.pdf
+      source_sha256: eab2014f59691f0d4ae9611d346acfbc478fb3e61369533042292c1c3ce6ce9f
+      source_page: 4
+      compiled_pdf: build/IB-2005-P4/main.pdf
+      compiled_sha256: 67424544e7154dfca2900ed29b93f81963436b2505ef634cfd2411bbcc308803
+      compiled_pages:
+      - 6
+      html: site/private/questions/IB/2005/P4/q6G/index.html
+      html_sha256: a2ed8b79db07823e00bf0cea3fd773c9542ed1a9ebfb0e63e417770ce63f66b0
+      math_nodes: 28
+      diagrams: {}
+      question_sha256: 89aecda131187e63cc2860197182b1cff82d4c1396a863ff8389970ff8ea3b60
+      solution_sha256: 6fc9b7b39cfc8a36fda3c7cad2fe10a3d9051a1c18782c0495ba7a47986110e2
+      check_sha256: ed84a9ecaa68ab7cdb547e5ba44cdec36a8847f6e7711cb5c0fa623b9e1ce070
+      check_exit: 0
+      check_stdout: Passed the P4/q6G mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P4/q6G · Cambridge Maths
+      math: 28
+      rendered: 28
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
+  IB/2005/P3/q8D:
+    source_review:
+      original_pdf: private/raw/tripos/IB/2005/P3.pdf
+      original_pdf_sha256: 66188ca392f87940b2ff4b679c78d7bea5a038b2bd9791b69423c842b754c7df
+      source_page: 4
+      question_packet_sha256: b9eb3b0dd920bde49ace9a1592563be566f4338c2e558f5bb482b4006af6fafb
+      blind_rework_sha256: dce368446d7a91a6496244c7691ad9ea7ee4b1fd2ec637a15934bab0d8503f83
+      transcription_discrepancies: []
+    independent_rework: '# IB/2005/P3/q8D independent rework
+
+
+      Let S=∑(xᵢ−x̄)² and S₀=∑(xᵢ−μ₀)²=S+n(x̄−μ₀)². For fixed μ the log likelihood
+      is −(n/2)log(2πσ²)−∑(xᵢ−μ)²/(2σ²). The maximizer over positive σ² is ∑(xᵢ−μ)²/n
+      for positive residual sum, by differentiation and the limits at 0 and ∞. Its
+      maximized value decreases with the residual sum, which is minimized over μ at
+      x̄. Hence the null-to-full ratio is Λ=(S/S₀)^{n/2}. With s²=S/(n−1) and T=√n(x̄−μ₀)/s,
+      this equals (1+T²/(n−1))^{−n/2}. It decreases strictly in |T|, hence rejection
+      for small Λ amounts to rejection for large |T|.
+
+
+      Under H₀ and σ²>0, T∼Student t with n−1 degrees of freedom. For 0<α<1 reject
+      for |T|>t_{n−1,1−α/2}; symmetry and continuity give exact size α at every nuisance
+      variance. Equivalently compare Λ with (1+t_{n−1,1−α/2}²/(n−1))^{−n/2}. The derivation
+      requires n≥2, and S=0 is then a null-probability event under every nondegenerate
+      normal distribution. If the unrestricted supremum is taken over μ≠μ₀ only, excluding
+      a possible maximizer at μ₀ leaves the same supremum by continuity.
+
+      '
+    main_comparison: Profiling both normal likelihoods over variance gives a ratio
+      strictly decreasing in the absolute Student statistic. Under the null the statistic
+      has n−1 degrees of freedom and yields the exact two-sided size.
+    delivery:
+      source_pdf: private/raw/tripos/IB/2005/P3.pdf
+      source_sha256: 66188ca392f87940b2ff4b679c78d7bea5a038b2bd9791b69423c842b754c7df
+      source_page: 4
+      compiled_pdf: build/IB-2005-P3/main.pdf
+      compiled_sha256: 14714b021e2acf0917b80f5a709c77681ed5fcf420e21c5595e6131c88a39a21
+      compiled_pages:
+      - 8
+      html: site/private/questions/IB/2005/P3/q8D/index.html
+      html_sha256: 0e9a975920eb1baef89ba1d5b09bdee1e603a5bc85331474ac4253507e5da4de
+      math_nodes: 26
+      diagrams: {}
+      question_sha256: b9eb3b0dd920bde49ace9a1592563be566f4338c2e558f5bb482b4006af6fafb
+      solution_sha256: c402ef88441e4b5fec638aa37eb510278e03c0b764b704774c71d31c43397bfc
+      check_sha256: 064dc77ce43d10ed57fc4dc7e97c187b4c711c915948d229a8e9d419d0b37212
+      check_exit: 0
+      check_stdout: Passed the P3/q8D mathematical checks.
+      check_stderr: ''
+    browser:
+      title: IB/2005/P3/q8D · Cambridge Maths
+      math: 26
+      rendered: 26
+      parse_errors: 0
+      diagrams: []
+      documentWidth: 1220
+      viewport: 1220
+      overflows: []
