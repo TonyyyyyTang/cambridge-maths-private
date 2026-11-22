@@ -10,10 +10,10 @@ section_units:
   I: 9
   II: 11
 alternatives: []
-instructions: Candidates may attempt at most four questions from Section I and at most six questions from Section
-  II.
-marks_note: Each question in Section II carries twice the number of marks of each question in Section I. No
-  absolute mark values are printed.
+instructions: Candidates may attempt at most four questions from Section I and at
+  most six questions from Section II.
+marks_note: Each question in Section II carries twice the number of marks of each
+  question in Section I. No absolute mark values are printed.
 date: '2007-06-08'
 printed_date: Friday 8 June 2007
 time: 1.30 to 4.30
@@ -26,15 +26,18 @@ cover:
 - Complete answers are preferred to fragments.
 - Write on one side of the paper only and begin each answer on a separate sheet.
 - Write legibly; otherwise, you place yourself at a grave disadvantage.
-- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner letter affixed to
-  each question, including in the same bundle questions from Sections I and II with the same examiner letter.
-- Attach a completed gold cover sheet to each bundle; write the examiner letter in the box marked ‘Examiner
-  Letter’ on the cover sheet.
-- You must also complete a green master cover sheet listing all the questions you have attempted.
+- Tie up your answers in separate bundles labelled A, B, ..., H according to the examiner
+  letter affixed to each question, including in the same bundle questions from Sections
+  I and II with the same examiner letter.
+- Attach a completed gold cover sheet to each bundle; write the examiner letter in
+  the box marked ‘Examiner Letter’ on the cover sheet.
+- You must also complete a green master cover sheet listing all the questions you
+  have attempted.
 - Every cover sheet must bear your examination number and desk number.
-- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements: None.'
-- You may not start to read the questions printed on the subsequent pages until instructed to do so by the
-  Invigilator.
+- 'Stationery requirements: Gold cover sheet, Green master cover sheet. Special requirements:
+  None.'
+- You may not start to read the questions printed on the subsequent pages until instructed
+  to do so by the Invigilator.
 questions:
 - id: IB/2007/P4/q1G
   original_question: 1G
@@ -46,8 +49,28 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: bebe3013779f69867d5574bc1b4d43d84f7137d03c97081cc2ea448add033913
-  checks: Checked direction of the original map, the star on its dual and the choice of bases.
+  checks: Checked direction of the original map, the star on its dual and the choice
+    of bases.
   source_page_render_sha256: 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+  faculty_collection:
+    collection_page: 3
+    printed_course: Linear Algebra
+    section: I
+    body_glyphs: 286
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 286
+    proof_body_glyph_count: 286
+    physical_pages:
+    - 2
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+    dpi: 145
+    question_sha256: bebe3013779f69867d5574bc1b4d43d84f7137d03c97081cc2ea448add033913
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q2G
   original_question: 2G
   page: 2
@@ -60,6 +83,25 @@ questions:
   question_sha256: 3f7c1b2889a6b6c2fa8ccea69f52ca1177396383721912064023d328c1463f76
   checks: Checked primality, group order and counting up to isomorphism.
   source_page_render_sha256: 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+  faculty_collection:
+    collection_page: 4
+    printed_course: Groups, Rings and Modules
+    section: I
+    body_glyphs: 66
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 66
+    proof_body_glyph_count: 66
+    physical_pages:
+    - 2
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+    dpi: 145
+    question_sha256: 3f7c1b2889a6b6c2fa8ccea69f52ca1177396383721912064023d328c1463f76
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q3H
   original_question: 3H
   page: 2
@@ -70,8 +112,28 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: 8913f0039ae974603a35657f84d7ab05f18a877a9cee74908fba41b8cf7faeae
-  checks: Verified open interval, both function arguments and distinct pointwise and uniform tasks.
+  checks: Verified open interval, both function arguments and distinct pointwise and
+    uniform tasks.
   source_page_render_sha256: 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+  faculty_collection:
+    collection_page: 9
+    printed_course: Analysis II
+    section: I
+    body_glyphs: 265
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 265
+    proof_body_glyph_count: 265
+    physical_pages:
+    - 2
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+    dpi: 145
+    question_sha256: 8913f0039ae974603a35657f84d7ab05f18a877a9cee74908fba41b8cf7faeae
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q4H
   original_question: 4H
   page: 2
@@ -84,6 +146,25 @@ questions:
   question_sha256: 9600e066d3fe65ca372969beb10a5c9ccbc3b5677d8e312ae7a80339f0df559e
   checks: Verified analytic and one-to-one assumptions, domain and derivative condition.
   source_page_render_sha256: 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+  faculty_collection:
+    collection_page: 13
+    printed_course: Complex Analysis
+    section: I
+    body_glyphs: 111
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 111
+    proof_body_glyph_count: 111
+    physical_pages:
+    - 2
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 843b4f8c8a8597e88f11a30cbeeb629b8bf4fdbf891838d538fac4d183c58b1a
+    dpi: 145
+    question_sha256: 9600e066d3fe65ca372969beb10a5c9ccbc3b5677d8e312ae7a80339f0df559e
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q5B
   original_question: 5B
   page: 3
@@ -94,10 +175,32 @@ questions:
   course: IB/methods
   also_courses: []
   question_sha256: 493f9fbf1cf4ecbba7cff853417139a19f0c6b41872aae2220ed359e52988a25
-  checks: Checked time and space derivatives, signs of both arguments and initial value and velocity.
-  printed_ambiguity: The displayed travelling-wave representation assumes c is nonzero. If c is zero the equation
-    instead permits a term linear in time.
+  checks: Checked time and space derivatives, signs of both arguments and initial
+    value and velocity.
+  printed_ambiguity: The displayed travelling-wave representation assumes c is nonzero.
+    If c is zero the equation instead permits a term linear in time.
   source_page_render_sha256: fd66f424ee8746b0c607c9f389207303677d5bc89c1264ce2c8f373d8fcd72b5
+  faculty_collection:
+    collection_page: 17
+    printed_course: Methods
+    section: I
+    body_glyphs: 261
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 261
+    proof_body_glyph_count: 261
+    physical_pages:
+    - 3
+    checked_residuals: []
+  printed_qualification: The displayed travelling-wave representation assumes c is
+    nonzero. If c is zero the equation instead permits a term linear in time.
+  reinspection:
+    source_raster_sha256:
+    - fd66f424ee8746b0c607c9f389207303677d5bc89c1264ce2c8f373d8fcd72b5
+    dpi: 145
+    question_sha256: 493f9fbf1cf4ecbba7cff853417139a19f0c6b41872aae2220ed359e52988a25
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q6B
   original_question: 6B
   page: 3
@@ -108,8 +211,28 @@ questions:
   course: IB/quantum-mechanics
   also_courses: []
   question_sha256: 9295f8138899acd5d45d1697b5e8623cacd7ba00795efc35157d3d8cb0141ea4
-  checks: Verified the continuity equation and signs and factors in the two travelling waves and time phase.
+  checks: Verified the continuity equation and signs and factors in the two travelling
+    waves and time phase.
   source_page_render_sha256: fd66f424ee8746b0c607c9f389207303677d5bc89c1264ce2c8f373d8fcd72b5
+  faculty_collection:
+    collection_page: 20
+    printed_course: Quantum Mechanics
+    section: I
+    body_glyphs: 324
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 324
+    proof_body_glyph_count: 324
+    physical_pages:
+    - 3
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - fd66f424ee8746b0c607c9f389207303677d5bc89c1264ce2c8f373d8fcd72b5
+    dpi: 145
+    question_sha256: 9295f8138899acd5d45d1697b5e8623cacd7ba00795efc35157d3d8cb0141ea4
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q7E
   original_question: 7E
   page: 3
@@ -120,8 +243,28 @@ questions:
   course: IB/electromagnetism
   also_courses: []
   question_sha256: 4aea1ab227d12f275d56faead3c038b2007c418ea958a9b26bf8945c9e2c50d0
-  checks: Checked circuit orientation, rotation axis, initial plane and all three magnetic field components.
+  checks: Checked circuit orientation, rotation axis, initial plane and all three
+    magnetic field components.
   source_page_render_sha256: fd66f424ee8746b0c607c9f389207303677d5bc89c1264ce2c8f373d8fcd72b5
+  faculty_collection:
+    collection_page: 22
+    printed_course: Electromagnetism
+    section: I
+    body_glyphs: 446
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 446
+    proof_body_glyph_count: 446
+    physical_pages:
+    - 3
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - fd66f424ee8746b0c607c9f389207303677d5bc89c1264ce2c8f373d8fcd72b5
+    dpi: 145
+    question_sha256: 4aea1ab227d12f275d56faead3c038b2007c418ea958a9b26bf8945c9e2c50d0
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q8F
   original_question: 8F
   page: 4
@@ -132,8 +275,28 @@ questions:
   course: IB/numerical-analysis
   also_courses: []
   question_sha256: cb75df14f3a458ee4f868e574ded9422b084f9afb1fb99110710a49a5c5add96
-  checks: Checked derivative evaluation point, all stencil coefficients, norm and sharpness request.
+  checks: Checked derivative evaluation point, all stencil coefficients, norm and
+    sharpness request.
   source_page_render_sha256: f72018ac415a9360068dbda9cb5cd9573bc0d111e5b36cea791aeb9f1394cdf3
+  faculty_collection:
+    collection_page: 27
+    printed_course: Numerical Analysis
+    section: I
+    body_glyphs: 229
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 229
+    proof_body_glyph_count: 229
+    physical_pages:
+    - 4
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - f72018ac415a9360068dbda9cb5cd9573bc0d111e5b36cea791aeb9f1394cdf3
+    dpi: 145
+    question_sha256: cb75df14f3a458ee4f868e574ded9422b084f9afb1fb99110710a49a5c5add96
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q9C
   original_question: 9C
   page: 4
@@ -143,9 +306,33 @@ questions:
   course_at_time: Markov Chains
   course: IB/markov-chains
   also_courses: []
-  question_sha256: 0554abbfef94d114329989a5ddb67698367410727628c3188dddbdfe2da47826
-  checks: Verified definitions, equivalence relation and direction of the recurrence implication.
+  question_sha256: 01a0eb3ddfca1ad07f8e0e35ed9f4e8acd45aa8d43a49ce6491fcf8964927cab
+  checks: Verified definitions, equivalence relation and direction of the recurrence
+    implication.
   source_page_render_sha256: f72018ac415a9360068dbda9cb5cd9573bc0d111e5b36cea791aeb9f1394cdf3
+  previous_question_sha256: 0554abbfef94d114329989a5ddb67698367410727628c3188dddbdfe2da47826
+  typography_qualifications:
+  - 'Printed type, delimiters or punctuation restored: ''with state space $S$,'' →
+    ''with state space S,''.'
+  faculty_collection:
+    collection_page: 32
+    printed_course: Markov Chains
+    section: I
+    body_glyphs: 224
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 224
+    proof_body_glyph_count: 224
+    physical_pages:
+    - 4
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - f72018ac415a9360068dbda9cb5cd9573bc0d111e5b36cea791aeb9f1394cdf3
+    dpi: 145
+    question_sha256: 01a0eb3ddfca1ad07f8e0e35ed9f4e8acd45aa8d43a49ce6491fcf8964927cab
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q10G
   original_question: 10G
   page: 5
@@ -156,8 +343,28 @@ questions:
   course: IB/linear-algebra
   also_courses: []
   question_sha256: ea483a02640ad30bd42ab469938c731ba4bc90be5a7a800764b7b7dd050ab1d2
-  checks: Checked the field, the order definition and trace and determinant of the matrix.
+  checks: Checked the field, the order definition and trace and determinant of the
+    matrix.
   source_page_render_sha256: 48b8affff18c2074d840fb0d292cc1ec5816dad1213a2cb6d8c7da64e1940625
+  faculty_collection:
+    collection_page: 3
+    printed_course: Linear Algebra
+    section: II
+    body_glyphs: 231
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 231
+    proof_body_glyph_count: 231
+    physical_pages:
+    - 5
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 48b8affff18c2074d840fb0d292cc1ec5816dad1213a2cb6d8c7da64e1940625
+    dpi: 145
+    question_sha256: ea483a02640ad30bd42ab469938c731ba4bc90be5a7a800764b7b7dd050ab1d2
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q11G
   original_question: 11G
   page: 5
@@ -168,8 +375,28 @@ questions:
   course: IB/groups-rings-and-modules
   also_courses: []
   question_sha256: 1aaf92ba610737d96e31d383e4d61bfa89b066fe0e2760b7b78733f8f2ee7d63
-  checks: Checked all three polyhedron counts, transitivity assumptions and normal-subgroup hint.
+  checks: Checked all three polyhedron counts, transitivity assumptions and normal-subgroup
+    hint.
   source_page_render_sha256: 48b8affff18c2074d840fb0d292cc1ec5816dad1213a2cb6d8c7da64e1940625
+  faculty_collection:
+    collection_page: 5
+    printed_course: Groups, Rings and Modules
+    section: II
+    body_glyphs: 288
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 288
+    proof_body_glyph_count: 288
+    physical_pages:
+    - 5
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 48b8affff18c2074d840fb0d292cc1ec5816dad1213a2cb6d8c7da64e1940625
+    dpi: 145
+    question_sha256: 1aaf92ba610737d96e31d383e4d61bfa89b066fe0e2760b7b78733f8f2ee7d63
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q12A
   original_question: 12A
   page: 5
@@ -180,8 +407,28 @@ questions:
   course: IB/geometry
   also_courses: []
   question_sha256: faddbff8a337c1d0194419bcc369076a6e9ffa837bf653f38eb550471594340d
-  checks: Checked both hyperbolic lines and maps, ultraparallel condition and full common-perpendicular hint.
+  checks: Checked both hyperbolic lines and maps, ultraparallel condition and full
+    common-perpendicular hint.
   source_page_render_sha256: 48b8affff18c2074d840fb0d292cc1ec5816dad1213a2cb6d8c7da64e1940625
+  faculty_collection:
+    collection_page: 7
+    printed_course: Geometry
+    section: II
+    body_glyphs: 600
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 600
+    proof_body_glyph_count: 600
+    physical_pages:
+    - 5
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 48b8affff18c2074d840fb0d292cc1ec5816dad1213a2cb6d8c7da64e1940625
+    dpi: 145
+    question_sha256: faddbff8a337c1d0194419bcc369076a6e9ffa837bf653f38eb550471594340d
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q13H
   original_question: 13H
   page: 6
@@ -192,8 +439,28 @@ questions:
   course: IB/analysis-ii
   also_courses: []
   question_sha256: 8b3a4cb2d6ae8816f22331089374db3d5ce3c84ae3baaacb327f9ad692d7975d
-  checks: Verified interval straddling zero, lower integration limit and coefficient in the initial-value equation.
+  checks: Verified interval straddling zero, lower integration limit and coefficient
+    in the initial-value equation.
   source_page_render_sha256: 028ae5bdc1364b0f1e34ca19cae1f25b59d9c31d3206d7f5dcaab057678e08a5
+  faculty_collection:
+    collection_page: 9
+    printed_course: Analysis II
+    section: II
+    body_glyphs: 267
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 267
+    proof_body_glyph_count: 267
+    physical_pages:
+    - 6
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 028ae5bdc1364b0f1e34ca19cae1f25b59d9c31d3206d7f5dcaab057678e08a5
+    dpi: 145
+    question_sha256: 8b3a4cb2d6ae8816f22331089374db3d5ce3c84ae3baaacb327f9ad692d7975d
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q14A
   original_question: 14A
   page: 6
@@ -204,8 +471,28 @@ questions:
   course: IB/topology
   also_courses: []
   question_sha256: 74dabb8101de2f6be4c42f3f99334255b8677fa9c4a787fac4beeef939288478
-  checks: Verified containment direction and quantifier in (a), and compactness and countability in (b).
+  checks: Verified containment direction and quantifier in (a), and compactness and
+    countability in (b).
   source_page_render_sha256: 028ae5bdc1364b0f1e34ca19cae1f25b59d9c31d3206d7f5dcaab057678e08a5
+  faculty_collection:
+    collection_page: 11
+    printed_course: Metric and Topological Spaces
+    section: II
+    body_glyphs: 305
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 305
+    proof_body_glyph_count: 305
+    physical_pages:
+    - 6
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 028ae5bdc1364b0f1e34ca19cae1f25b59d9c31d3206d7f5dcaab057678e08a5
+    dpi: 145
+    question_sha256: 74dabb8101de2f6be4c42f3f99334255b8677fa9c4a787fac4beeef939288478
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q15F
   original_question: 15F
   page: 7
@@ -216,8 +503,28 @@ questions:
   course: IB/complex-methods
   also_courses: []
   question_sha256: 49862c3c84bbac425f874194a08a4098cb3778d757e557aa2d3b997d57b14e1d
-  checks: Verified Laplace exponents, shifted argument, double poles and all four initial conditions.
+  checks: Verified Laplace exponents, shifted argument, double poles and all four
+    initial conditions.
   source_page_render_sha256: 8c5328f920201ba6de90ffe24e2bf66ef322daa58667de0c3ade8d08710cd28e
+  faculty_collection:
+    collection_page: 14
+    printed_course: Complex Methods
+    section: II
+    body_glyphs: 429
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 429
+    proof_body_glyph_count: 429
+    physical_pages:
+    - 7
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - 8c5328f920201ba6de90ffe24e2bf66ef322daa58667de0c3ade8d08710cd28e
+    dpi: 145
+    question_sha256: 49862c3c84bbac425f874194a08a4098cb3778d757e557aa2d3b997d57b14e1d
+    status: unchanged
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q16E
   original_question: 16E
   page: 8
@@ -228,10 +535,32 @@ questions:
   course: IB/variational-principles
   also_courses:
   - IB/methods
-  question_sha256: c7c558741a598fd47d25dedc92c1e17733612f4c26c0a96e32a0656520a1864e
-  checks: Verified autonomous functional and first integral, road endpoints, speed law and polar arc-length
-    expression.
+  question_sha256: 5ffbf28a4f98e3d74e19d5c5a3e1c675be58c4aec7d316da0340097790271a84
+  checks: Verified autonomous functional and first integral, road endpoints, speed
+    law and polar arc-length expression.
   source_page_render_sha256: a9247a2628de50dabfba077b6e4b0866c652948bc9a5d31aac4e9811350bef78
+  previous_question_sha256: c7c558741a598fd47d25dedc92c1e17733612f4c26c0a96e32a0656520a1864e
+  typography_qualifications:
+  - 'Printed type, delimiters or punctuation restored: ''$.}]'' → ''$}.]''.'
+  faculty_collection:
+    collection_page: 18
+    printed_course: Methods
+    section: II
+    body_glyphs: 559
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 559
+    proof_body_glyph_count: 559
+    physical_pages:
+    - 8
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - a9247a2628de50dabfba077b6e4b0866c652948bc9a5d31aac4e9811350bef78
+    dpi: 145
+    question_sha256: 5ffbf28a4f98e3d74e19d5c5a3e1c675be58c4aec7d316da0340097790271a84
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q17B
   original_question: 17B
   page: 8
@@ -241,9 +570,35 @@ questions:
   course_at_time: Special Relativity
   course: IA/dynamics-and-relativity
   also_courses: []
-  question_sha256: 56d6d9c325344a03df6ba96e550ed6756c546777ce861f8a617fba44f62443b6
-  checks: Compared both decay channels, particle charges, photon opening angle and powers of the mass ratio.
+  question_sha256: 837587023f398a54f3ea28d22d3ff0762298b9697d8709a3df7638245836879a
+  checks: Compared both decay channels, particle charges, photon opening angle and
+    powers of the mass ratio.
   source_page_render_sha256: a9247a2628de50dabfba077b6e4b0866c652948bc9a5d31aac4e9811350bef78
+  previous_question_sha256: 56d6d9c325344a03df6ba96e550ed6756c546777ce861f8a617fba44f62443b6
+  typography_qualifications:
+  - 'Printed type, delimiters or punctuation restored: ''c\\left['' → ''c\\Biggl[''.'
+  - 'Printed type, delimiters or punctuation restored: ''\\right].'' → ''\\Biggr].''.'
+  faculty_collection:
+    collection_page: 23
+    printed_course: Special Relativity
+    section: II
+    body_glyphs: 358
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 358
+    proof_body_glyph_count: 358
+    physical_pages:
+    - 8
+    checked_residuals: []
+  printed_qualification: The paper calls the particle accompanying the electron a
+    neutrino and prints nu without a bar. Retained literally.
+  reinspection:
+    source_raster_sha256:
+    - a9247a2628de50dabfba077b6e4b0866c652948bc9a5d31aac4e9811350bef78
+    dpi: 145
+    question_sha256: 837587023f398a54f3ea28d22d3ff0762298b9697d8709a3df7638245836879a
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q18D
   original_question: 18D
   page: 9
@@ -253,10 +608,40 @@ questions:
   course_at_time: Fluid Dynamics
   course: IB/fluid-dynamics
   also_courses: []
-  question_sha256: d3125d2d7c0e0bf182dadff52d48ed30de170e2e18af6b72ce93c8702e57e05e
-  checks: Verified the printed wedge and dot notation, vector identity signs, image position and speed, and
-    trajectory argument.
+  question_sha256: 80db6f124519315fc9bac2683fa9e9eddeb451bc5a4d7a5688fb281ccb8b1b84
+  checks: Verified the printed wedge and dot notation, vector identity signs, image
+    position and speed, and trajectory argument.
   source_page_render_sha256: 61000bc7f4e56e619326264024c645176118f3a5bd2273fd997137ae064413a5
+  previous_question_sha256: d3125d2d7c0e0bf182dadff52d48ed30de170e2e18af6b72ce93c8702e57e05e
+  typography_qualifications:
+  - 'Printed type, delimiters or punctuation restored: ''\\partial t'' → ''\\partial\\mathit
+    t''.'
+  - 'Printed type, delimiters or punctuation restored: ''\\land'' → ''_{\\land}''.'
+  - 'Printed type, delimiters or punctuation restored: ''\\mathbf b$.}]'' → ''\\mathbf
+    b.$}]''.'
+  - 'Printed type, delimiters or punctuation restored: ''$x=0$,'' → ''$x=0,$''.'
+  - 'Printed type, delimiters or punctuation restored: ''$y=0$,'' → ''$y=0,$''.'
+  faculty_collection:
+    collection_page: 26
+    printed_course: Fluid Dynamics
+    section: II
+    body_glyphs: 712
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 712
+    proof_body_glyph_count: 712
+    physical_pages:
+    - 9
+    checked_residuals: []
+  printed_qualification: The original prints three wedge symbols lowered on the right
+    of the preceding symbol; point-like punctuation represents scalar products.
+  reinspection:
+    source_raster_sha256:
+    - 61000bc7f4e56e619326264024c645176118f3a5bd2273fd997137ae064413a5
+    dpi: 145
+    question_sha256: 80db6f124519315fc9bac2683fa9e9eddeb451bc5a4d7a5688fb281ccb8b1b84
+    status: changed
+    printed_slanted_inequalities: []
 - id: IB/2007/P4/q19C
   original_question: 19C
   page: 9
@@ -266,12 +651,51 @@ questions:
   course_at_time: Statistics
   course: IB/statistics
   also_courses: []
-  question_sha256: 23607430bd47d8efaeabed3aee86115af013d1bae9f48f860a4346920780eea8
-  checks: Checked centered design, all regression assumptions, four estimation and testing requests, and the
-    two-sided alternative.
-  printed_ambiguity: The slope and usual residual estimator require positive sum of squared predictors and
-    residual degrees of freedom. Centering the predictors alone does not guarantee those conditions.
+  question_sha256: 24e1c8ac0360b599ec5308fdc0e997787440fcc96f60403e9793dde74c5742d8
+  checks: Checked centered design, all regression assumptions, four estimation and
+    testing requests, and the two-sided alternative.
+  printed_ambiguity: The slope and usual residual estimator require positive sum of
+    squared predictors and residual degrees of freedom. Centering the predictors alone
+    does not guarantee those conditions.
   source_page_render_sha256: 61000bc7f4e56e619326264024c645176118f3a5bd2273fd997137ae064413a5
+  previous_question_sha256: 23607430bd47d8efaeabed3aee86115af013d1bae9f48f860a4346920780eea8
+  typography_qualifications:
+  - 'Printed type, delimiters or punctuation restored: ''$\\alpha,\\beta$'' → ''$\\alpha$,
+    $\\beta$''.'
+  - 'Printed type, delimiters or punctuation restored: ''\\hat'' → ''\\widehat''.'
+  - Restored the slanted inequality symbols at the recorded MSAM glyph positions.
+  faculty_collection:
+    collection_page: 29
+    printed_course: Statistics
+    section: II
+    body_glyphs: 533
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 533
+    proof_body_glyph_count: 533
+    physical_pages:
+    - 9
+    checked_residuals: []
+  printed_qualification: The slope and usual residual estimator require positive sum
+    of squared predictors and residual degrees of freedom. Centering the predictors
+    alone does not guarantee those conditions.
+  reinspection:
+    source_raster_sha256:
+    - 61000bc7f4e56e619326264024c645176118f3a5bd2273fd997137ae064413a5
+    dpi: 145
+    question_sha256: 24e1c8ac0360b599ec5308fdc0e997787440fcc96f60403e9793dde74c5742d8
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 323.0
+      pdf_top: 417.13
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 341.3
+      pdf_top: 417.13
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
 - id: IB/2007/P4/q20C
   original_question: 20C
   page: 10
@@ -281,15 +705,58 @@ questions:
   course_at_time: Optimization
   course: IB/optimisation
   also_courses: []
-  question_sha256: a4cf97a2ab9cb36a9aa0aac68d963660179ebce704a922c0235c4bb32b46e78e
-  checks: Verified objective coefficients, all three constraint rows and amended objective. Inspected every
-    heading, entry, sign and fraction in the original tableau.
+  question_sha256: e2ea6693d0586dfd9682f00d1f95518423a03ac4eafa0a55ee74009b2b4c8405
+  checks: Verified objective coefficients, all three constraint rows and amended objective.
+    Inspected every heading, entry, sign and fraction in the original tableau.
   figures:
   - simplex-tableau
   source_page_render_sha256: fc712605beb89fc689b0493976c7df12a5b9c5e2a06a5a247f6b6d47610c8571
   figure_png_sha256:
     simplex-tableau: aef442e1122b56a4caca2377ca58a96e523981f4cc02ad019bc57553603cab5d
   plot_sha256: 8ed19c1c88fadf0a3ab055760152b5cdcdddb01e9bd06746e37d40f9b3796a54
+  previous_question_sha256: a4cf97a2ab9cb36a9aa0aac68d963660179ebce704a922c0235c4bb32b46e78e
+  typography_qualifications:
+  - Removed added captions; the printed page has uncaptioned tables.
+  - Restored the slanted inequality symbols at the recorded MSAM glyph positions.
+  faculty_collection:
+    collection_page: 31
+    printed_course: Optimization
+    section: II
+    body_glyphs: 525
+    differences: []
+  exact_glyph_check:
+    source_body_glyph_count: 457
+    proof_body_glyph_count: 457
+    physical_pages:
+    - 10
+    checked_residuals: []
+  reinspection:
+    source_raster_sha256:
+    - fc712605beb89fc689b0493976c7df12a5b9c5e2a06a5a247f6b6d47610c8571
+    dpi: 145
+    question_sha256: e2ea6693d0586dfd9682f00d1f95518423a03ac4eafa0a55ee74009b2b4c8405
+    status: changed
+    printed_slanted_inequalities:
+    - pdf_x: 296.78
+      pdf_top: 151.01
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 296.78
+      pdf_top: 167.38
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 296.78
+      pdf_top: 183.74
+      font: MSAM10
+      glyph_code: 54
+      relation: leqslant
+    - pdf_x: 356.95
+      pdf_top: 183.74
+      font: MSAM10
+      glyph_code: 62
+      relation: geqslant
 transcription_checks:
   source_render_dpi: 145
   all_questions_compared_with_original_page_images: true
@@ -297,8 +764,9 @@ transcription_checks:
   restricted_latex_validated: true
   compiled_qa_pdf_sha256: 858613cdf9a4146f7b41106fc1a50bf7f7014613f4365ce6d2ad8b7fa1d8f3d8
 separate_corrections: []
-correction_check: Manifest checked for 2007 IB. The four full papers and the separate subject compilation were
-  distinguished by archive path, URL and SHA256. No separate correction notice was listed.
+correction_check: Manifest checked for 2007 IB. The four full papers and the separate
+  subject compilation were distinguished by archive path, URL and SHA256. No separate
+  correction notice was listed.
 physical_pages:
 - page: 1
   contents: cover
@@ -360,3 +828,7 @@ physical_pages:
   questions:
   - 20C
   source_page_render_sha256: fc712605beb89fc689b0493976c7df12a5b9c5e2a06a5a247f6b6d47610c8571
+faculty_course_ordered_collection:
+  archive: private/raw/tripos/IB/2007/all-questions.pdf
+  sha256: 687b2dffb8c4f8d071082e409a1fbbb5c1255dd290c33b9fd6a242d67b2b5dba
+  pages: 32
