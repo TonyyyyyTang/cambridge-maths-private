@@ -1,0 +1,760 @@
+scope: 'Whole-course cross-model audit of IB Markov Chains (141 total units: 51 example-sheet units across
+  sheet-1 and sheet-2 unions, and 90 Tripos units)'
+date: '2026-11-22'
+auditor: Gemini 4 via Antigravity (high-effort reasoning), cross-model to the Codex (GPT) solver
+seed: 20261122
+selector: random.Random(20261122).sample per stratum (sheet, tripos), each ceil(20%), population sorted
+  by id
+population: 141
+sample_size: 29
+sample_fraction: 0.2057
+strata:
+  sheet:
+    population: 51
+    sample_size: 11
+    sample_fraction: 0.2157
+    verdict_counts:
+      agree: 8
+      minor: 3
+      substantive: 0
+      transcription: 0
+      unsure: 0
+    substantive_error_rate: 0/11
+    minor_rate: 3/11
+    transcription_error_rate: 0/11
+  tripos:
+    population: 90
+    sample_size: 18
+    sample_fraction: 0.2
+    verdict_counts:
+      agree: 17
+      minor: 1
+      substantive: 0
+      transcription: 0
+      unsure: 0
+    substantive_error_rate: 0/18
+    minor_rate: 1/18
+    transcription_error_rate: 0/18
+independence: Strictly blind Phase A across all 29 sampled units. Before freezing all 29 rework markdown
+  files and all 29 exact-rational Python verification scripts (rework/<slug>.md and rework/<slug>_check.py),
+  neither the lead auditor nor any of the 7 Phase A blind-auditor subagents (all running the same Gemini
+  4 model via Antigravity under identical blindness guardrails) opened any file inside courses/, tripos/,
+  or private/*audit*.yaml (no solution.tex, independent-solution.md, comparison.md, check.py, meta.yaml,
+  transcription-review.md, audit.md, history/, or figures/). Only AGENTS.md, TASK.md, sample.yaml, the
+  29 blind packets in packets/, the archived PDFs (and 200 DPI PNG renders of their pages generated into
+  scratch), and the official course syllabus private/raw/schedules/schedules-2025-26.pdf were consulted
+  during Phase A. After all 29 reworks and check scripts were verified present and passing (exit code
+  0), Phase B opened private/markov-sheet-2-union-audit.yaml, templates/STYLE.md, the 29 stored solution.tex/question.tex
+  files, and the two question diagram PNGs (random-walk-tree.png and unopoly-board.png).
+verdict_counts:
+  agree: 25
+  minor: 4
+  substantive: 0
+  transcription: 0
+  unsure: 0
+substantive_error_rate: 0/29 (0.0%)
+minor_error_rate: 4/29 (13.8%)
+transcription_error_rate: 0/29 (0.0%)
+unsure_rate: 0/29 (0.0%)
+full_course_review_triggered: false
+results:
+- id: IB/markov-chains/sheet-2/q11
+  stratum: sheet
+  verdict: minor
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_q11.md
+  check_script: rework/IB_markov-chains_sheet-2_q11_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: bf3eaf43a63fa0262a85f087e8b8f5baf03c2da08529c8dc012292c2b86c0c55
+    solution.tex: 3a38af00ac07ac00a0ae22e3d262390769d7b1ad5e5625903a4d7a12f2987286
+    rework.md: 1a18c9f9c03ecc58a1428de0defba8dbeebcf7a42b239c6d46e19ebe7989ca60
+    rework_check.py: 84c68b55c918d5bf7232519cf43a5fb86a021df4b2d041ae40d83e664a8fb203
+  details: 'Final answer (1/13) and verification of irreducibility, double stochasticity, and coprime
+    return lengths (3 and 4, via 1+6+6=13 and 3+3+3+4=13) are correct. However, the question explicitly
+    instructs ''quoting carefully any general theorems that you use''. Exact quoted step in solution.tex:
+    ''The convergence theorem for finite irreducible aperiodic chains therefore gives \Pr(X_n\equiv0\pmod{13})\to1/13,
+    starting at the initial sum zero.'' Problems a supervisor would mark down: (1) it never quotes the
+    Convergence to Equilibrium Theorem (statement of hypotheses and conclusion p_{ij}^{(n)} -> pi_j for
+    irreducible, aperiodic chains possessing an invariant distribution pi); (2) it asserts uniqueness
+    of the uniform invariant distribution from column sums alone without citing irreducibility; (3) it
+    checks gcd(3,4)=1 only at residue 0 without invoking the class property of periodicity (or translation
+    invariance) to conclude aperiodicity of the chain.'
+  suggested_fix: |-
+    Let $Y_n = X_n \bmod 13 \in \{0, 1, \ldots, 12\}$ with $Y_0 = 0$. Since the die throws $D_1, D_2, \ldots$ are independent and uniform on $\{1, \ldots, 6\}$, $(Y_n)_{n\ge0}$ is a Markov chain with transition matrix $p_{ij} = 1/6$ if $(j - i) \bmod 13 \in \{1, \ldots, 6\}$ and $0$ otherwise.
+
+    We apply the Convergence to Equilibrium Theorem: if a Markov chain with transition matrix $P$ is irreducible, aperiodic and possesses an invariant distribution $\pi$, then $\mathbb{P}(Y_n = j) \to \pi_j$ as $n \to \infty$ for every state $j$ and any initial distribution (in particular $p_{ij}^{(n)} \to \pi_j$).
+
+    We check the three hypotheses: (i) $p_{i,(i+1)\bmod 13} = 1/6 > 0$ for all $i$, so every residue reaches every other residue and the chain is irreducible; (ii) $p_{00}^{(3)} > 0$ (from throws $1,6,6$, sum $13$) and $p_{00}^{(4)} > 0$ (from throws $3,3,3,4$, sum $13$), so state $0$ has period dividing $\gcd(3,4) = 1$, and by irreducibility (periodicity is a class property) the chain is aperiodic; (iii) each column of $P$ has six entries equal to $1/6$, so $P$ is doubly stochastic and the uniform distribution $\pi_i = 1/13$ satisfies $\pi P = \pi$ (and is unique by irreducibility).
+
+    Hence $\lim_{n\to\infty}\mathbb{P}[X_n\text{ is a multiple of }13] = \lim_{n\to\infty} p_{00}^{(n)} = \pi_0 = 1/13$.
+- id: IB/markov-chains/sheet-2/q07
+  stratum: sheet
+  verdict: minor
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_q07.md
+  check_script: rework/IB_markov-chains_sheet-2_q07_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: ab95eb55301e5847bd0de56afbcfdc2550993eeb43c04fb317b52ed7d73be2f2
+    solution.tex: 82e2fdb20374acbeb057f6cd5617326b89395f5d7bba858ae0770b7532d53893
+    rework.md: 76fba662a08306e6cd4e47d25ebb957072354eea9ef29391872e472f52d98e64
+    rework_check.py: 314f639fe9696f24c53bda967366d1c8dce57bc259a5e7709a6910d2852fb8f0
+  details: 'Final result (transient, return probability to R equal to 1/2 < 1) and overall truncation
+    strategy are mathematically sound. However, this single-paragraph solution to a ''Show that...'' question
+    skips multiple proof steps a Cambridge supervisor would expect to see justified. Exact quoted step
+    in solution.tex: ''On \{0,\ldots,M\} the probability from one of hitting M before zero is (1-1/2)/(1-2^{-M}),
+    obtained by solving the two-boundary difference equation with basis 1,2^{-k}. Letting M\to\infty gives
+    probability 1/2 of never hitting zero. Indeed a path confined to a fixed finite interval exits it
+    almost surely.'' Problems: (1) does not explicitly state or justify why D_n = d(X_n, R) is a Markov
+    chain (lumpability: transition probabilities of D_{n+1} depend on X_n only through D_n) or that {X_n
+    = R} = {D_n = 0}; (2) quotes the gambler''s ruin formula without writing down or solving the recurrence
+    u_k = (2/3)u_{k+1} + (1/3)u_{k-1} with u_0 = 0, u_M = 1; (3) asserts without proof that a path confined
+    to {1,...,M-1} exits almost surely (and omits the continuity-of-probability step relating the decreasing
+    events {H_M < H_0} to {H_0 = \infty}).'
+  suggested_fix: |-
+    Let $D_n = d(X_n, R) \in \mathbb{Z}_{\ge0}$ be the graph distance from the root $R$. Because $T$ is a tree, every vertex $v \neq R$ has a unique parent at distance $d(v)-1$ and two children at distance $d(v)+1$, while $R$ has a single neighbour at distance $1$. Thus the distribution of $D_{n+1}$ given $(X_0,\ldots,X_n)$ depends only on $D_n$, so $(D_n)_{n\ge0}$ is a Markov chain on $\mathbb{Z}_{\ge0}$ with $q_{0,1} = 1$, $q_{k,k+1} = 2/3$ and $q_{k,k-1} = 1/3$ for $k \ge 1$. Moreover, $R$ is the unique vertex at distance $0$, so $\{X_n = R\} = \{D_n = 0\}$.
+
+    Let $H_m = \inf\{n \ge 0 : D_n = m\}$ and $h_k = \mathbb{P}_k(H_0 < \infty)$. By the hitting-probability theorem, $(h_k)_{k\ge0}$ is the minimal non-negative solution to $h_0 = 1$ and $h_k = \frac{2}{3}h_{k+1} + \frac{1}{3}h_{k-1}$ for $k \ge 1$. Rewriting as $2(h_{k+1}-h_k) = h_k - h_{k-1}$ gives $h_{k+1} - h_k = 2^{-k}(h_1 - 1)$, whence $h_k = (1 - B) + B\cdot 2^{-k}$ with $B = 2(1 - h_1)$. Non-negativity for all $k \ge 0$ forces $1 - B \ge 0$, i.e. $B \le 1$, so $h_k = 2^{-k} + (1-B)(1-2^{-k}) \ge 2^{-k}$, with equality at $B = 1$. Hence the minimal non-negative solution is $h_k = 2^{-k}$.
+
+    (Alternatively, via finite truncation: $u_k = \mathbb{P}_k(H_M < H_0)$ satisfies $u_0 = 0$, $u_M = 1$, and $u_k = \frac{2}{3}u_{k+1} + \frac{1}{3}u_{k-1}$ for $1 \le k < M$, whose unique solution is $u_k = (1 - 2^{-k})/(1 - 2^{-M})$. Since $\bigcap_{M\ge2}\{H_M < H_0\} \subseteq \{H_0 = \infty\}$ and $\{H_M < H_0\}$ decreases in $M$, continuity of probability gives $\mathbb{P}_1(H_0 = \infty) \ge \lim_{M\to\infty} u_1 = 1/2$, with equality since $\mathbb{P}_k(H_0 \wedge H_M > nM) \le (1 - (2/3)^M)^n \to 0$.)
+
+    Starting from $R$, $D_1 = 1$ surely, so $\mathbb{P}_R(T_R < \infty) = h_1 = 1/2 < 1$, proving $R$ is transient. Since $T$ is connected, the random walk is irreducible, and transience is a class property; hence every vertex is transient.
+- id: IB/markov-chains/sheet-1/qx03
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-1_qx03.md
+  check_script: rework/IB_markov-chains_sheet-1_qx03_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 0a2fe9e3be4fcb7b3f36a8f733b0964a0488adecd1eacbc77b48fa3c838282d3
+    solution.tex: 77f27b3e25cdad38cacd2c3c733586577bcea174b844dd66ed36000e43a4d029
+    rework.md: 3564cf4635ba07b8e7146af8acc38219cbf3f26e1aebd3dc20f5b9b231b2bd94
+    rework_check.py: debc4d1a2939b302927b379fa4f827d052ac2c393fcfda17224677accd0112ee
+  details: Both parts match our blind rework exactly. Countable additivity handles P(B_n) = 0 cleanly
+    without dividing by zero, and the equivalence (a) <=> (b) cleanly invokes Part 1 and handles zero-probability
+    values of Y and sums over arbitrary subsets.
+  suggested_fix: null
+- id: IB/markov-chains/sheet-2/q15
+  stratum: sheet
+  verdict: minor
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_q15.md
+  check_script: rework/IB_markov-chains_sheet-2_q15_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 3341b8a29d526228b9422726989af37942303d05b97891f31dc480635cf8f12b
+    solution.tex: a03f12ebbd647bad3a3d2706234c70a56a5c92c8b50284764a8e54d7d9c2ae68
+    rework.md: bbe023d94fc9d6f0020e565becf552d5c532b885aa32ab8346bde6f55fa4d2ed
+    rework_check.py: 727faba093e7ad0da1c2bcd70f908c6d440bb9177c29a1cc0bca146edd580df2
+  details: 'The constructed distribution pi_i = w_i / sum_j w_j with w_i = prod_{j=0}^{i-1} (lambda_j
+    / mu_{j+1}) and the detailed balance verification on nearest neighbours, self-loops, and boundary
+    states are completely correct. However, the solution never checks irreducibility to prove that pi
+    is the UNIQUE invariant distribution of the chain. Exact quoted step in solution.tex: ''Summing over
+    the other state proves stationarity, and detailed balance proves reversibility in this equilibrium.''
+    Problem: the question asks to show that the process is time-reversible ''in equilibrium'' (singular),
+    and specifically gives 0 < lambda_i, mu_i < 1. Exhibiting one reversible invariant distribution without
+    proving irreducibility (hence uniqueness of pi) leaves open whether another, non-reversible equilibrium
+    could exist — an unchecked hypothesis a Cambridge supervisor would mark down.'
+  suggested_fix: |-
+    Since $0 < \lambda_i < 1$ and $0 < \mu_{i+1} < 1$ for all $0 \le i < b$, every state can reach every other state in finitely many steps along nearest-neighbour transitions; hence the chain is irreducible on the finite state space $\{0, 1, \ldots, b\}$ and therefore possesses a unique invariant distribution.
+
+    Define $w_0 = 1$ and, for $1 \le i \le b$, $w_i = \prod_{j=0}^{i-1}(\lambda_j / \mu_{j+1}) > 0$. Set $\pi_i = w_i / \sum_{k=0}^b w_k$ for $0 \le i \le b$. Then $\pi$ is a probability distribution and, for each $0 \le i < b$,
+    \[
+    \pi_i p_{i,i+1} = \pi_i \lambda_i = \pi_{i+1} \mu_{i+1} = \pi_{i+1} p_{i+1,i}.
+    \]
+    For $i = j$ detailed balance holds trivially (including the boundary self-loops $p_{00} = 1 - \lambda_0$ and $p_{bb} = 1 - \mu_b$), and for $|i - j| \ge 2$ both sides are zero. Thus $\pi$ and $P$ satisfy detailed balance for all pairs. Summing $\pi_i p_{ij} = \pi_j p_{ji}$ over $i$ gives $(\pi P)_j = \pi_j$, so $\pi$ is the unique invariant distribution, and by the detailed-balance characterisation of reversibility the process is time-reversible in equilibrium.
+- id: IB/markov-chains/sheet-1/qx12
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-1_qx12.md
+  check_script: rework/IB_markov-chains_sheet-1_qx12_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: a7a7d5bfa4994af0f1605c47d505eff32c005faabbc5b9e4cc40ea7f8e4ca800
+    solution.tex: 3461feb4f3d0a90efcb2ca6f8aaaf44b3ef190ad562005e6406ba3562dcfa089
+    rework.md: ebf0b4f94469b26fd13f5dd7e984fb6a40faf7e99eea59470da40994240c770c
+    rework_check.py: a029f7eb025ebd63805d613c1b1a63980d32e950ef00a95ce8e231da4b50454c
+  details: 'Classification (1, 3, 5 recurrent; 2, 4 transient) and direct probability justification using
+    the 5x5 matrix from Example 8 on page 2 of 2010-11/sheet-1.pdf are completely correct. Note: question.tex
+    verbatim reproduces Question 13 on page 3 (''In Example 8, which states are recurrent and which are
+    transient?''), so transcription is ok, though the packet/locator cites only page [3] and neither question.tex
+    nor solution.tex displays the 5x5 matrix P from page 2.'
+  suggested_fix: null
+- id: IB/markov-chains/sheet-2/qx01
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_qx01.md
+  check_script: rework/IB_markov-chains_sheet-2_qx01_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 184e8d5e0fc2af3dce21d48f492343782c9242977c5994dddf19611a0dd60202
+    solution.tex: 7ae9c12496e228175873e85ffdc4a4b833ee07b009eb85c8637bf124e18cd2b4
+    rework.md: c225ed31fb7b944410196c4b397011af4d07afb708cd03030bc05ffebef1bd95
+    rework_check.py: d223fdd020dcb8c8dee665b497bce2e2e9491888157566c57fa03ce11e145ffd
+  details: All three answers ((i) 8, (ii) 1, (iii) 10) match our blind rework and exact rational checks.
+    Explicitly verifies irreducibility, notes period 2 does not affect m_i = 1/pi_i, derives the invariant
+    occupation measure vP = v cleanly for (ii), proves finiteness of expected hitting times via the 1/27
+    bound, and solves the distance-chain system for (iii).
+  suggested_fix: null
+- id: IB/markov-chains/sheet-2/q14
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_q14.md
+  check_script: rework/IB_markov-chains_sheet-2_q14_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 767ae06d818c0124d592f9d79fca7dd58ae222fa65de5854a44ffc1978be7ea7
+    solution.tex: bf247cd6f331522483d342ed7fdb5be9963d535fa8e9804a0b4758da81513cff
+    rework.md: 334f4399bde311365aa5b713f7e86693cbae9850c1e181f9caaa4eef674d6ae6
+    rework_check.py: cb119c4b4880228cf6696e7f36c6b519cb5ae341c89848630f6acb170d44a65f
+  details: 'All four parts match our blind rework across every boundary and degenerate case: (a) always
+    reversible, covering (p,q)=(1,0) and absorbing boundaries; (b) reversible iff p=1/2, including irreducibility/uniqueness
+    for deterministic 3-cycles at p=0,1; (c) reversible iff 0 <= p < 1/2, explicitly covering p=0 (pi=(1/2,1/2,0,...))
+    and p=1; (d) reversible in equilibrium iff P has at least one finite communicating class, proved cleanly
+    via the maximum principle on components of positive stationary mass.'
+  suggested_fix: null
+- id: IB/markov-chains/sheet-1/q03
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-1_q03.md
+  check_script: rework/IB_markov-chains_sheet-1_q03_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: e23bba72d02dfdcf4a275e996c7fed803fcdfa2fd8fede9a0f1cc3cb558cc3a5
+    solution.tex: 4a2755759201e43632cae4dfe3dfbfd4f6dd55ad7a1ce0784871e2735864b25c
+    rework.md: 6c3b60a9c3357b8161df1890c90a8bcc5cdeb9ba96b6376d6ae13cf334dad984
+    rework_check.py: 7073ece78e2160f01dd1105f0fae87b272c04b95af660e6c96a10359b8affdaa
+  details: Mathematically valid proof of the Markov property for Y_r = X_{n_r} (handling both homogeneous
+    and inhomogeneous X, non-decreasing times, and n_0 = 0), and exact transition probabilities for Y_r
+    = X_{2r} on both symmetric (1/4, 1/2, 1/4) and asymmetric (p^2, 2p(1-p), (1-p)^2, including p=0,1)
+    simple random walks. Flagged in style_observations for using Part II filtrations and the tower property
+    rather than elementary IB finite-dimensional summation.
+  suggested_fix: null
+- id: IB/markov-chains/sheet-1/q04
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-1_q04.md
+  check_script: rework/IB_markov-chains_sheet-1_q04_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: dd949ec94b8de5f12a20f6b3b9120794d10bd11ba78331b1cf2cb07a07ecab92
+    solution.tex: a2a6594ccdb3a7663431cc32b7f580d3fee683bb2aad0f7a15468b414c9e770a
+    rework.md: 0d6ecc08ae00c4f5ba3f8dfdabff24ec307c72ea4dac69013f057f67d380efff
+    rework_check.py: c3ca3f57048a98053e337097375cf0bc3f7c905a30e28a0d7916e3848d45bd85
+  details: Both parts match our blind rework completely. Uses the path-reflection bijection (explicitly
+    noting S_0 = 0) to get exact asymmetric transition probabilities P_X(x,x+1) = (p^{x+1}+q^{x+1})/(p^x+q^x),
+    P_X(x,x-1) = pq(p^{x-1}+q^{x-1})/(p^x+q^x), P_X(0,1) = 1, handles p=0,1 separately, and derives Y_{n+1}
+    = max(Y_n - xi_{n+1}, 0) with exact transition probabilities for Y_n = M_n - S_n.
+  suggested_fix: null
+- id: IB/markov-chains/sheet-2/qx06
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_qx06.md
+  check_script: rework/IB_markov-chains_sheet-2_qx06_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: a4b473e60b35d1d2de61b4c79f9bab0f0086c39e9f1554bb560e686eae9e0a07
+    solution.tex: a42ca7e065791c52e3a79927cd9f1707650ae8307c2224672d96a7edc4ff3184
+    rework.md: ce4fc8a884779c416d1e5663d6a8bf176769623ff80c1d4059e278edf29b6fc6
+    rework_check.py: 73ce738c4b06cba3c4ec424987f0ebe227532505908d7f43147b0dd148085a17
+  details: Matches our blind rework completely, including verifying alpha_i > 0, Z < infinity, stochasticity
+    of Q, detailed balance and invariance of pi_i = alpha_i/Z, the Metropolis-Hastings accept-reject simulation
+    using only ratios, and both crucial convergence caveats (explicitly giving the directed 3-cycle counterexample
+    where P is irreducible but Q = I_3, stating the bidirectional connectivity condition p_{ij}p_{ji}
+    > 0, and discussing aperiodicity and ergodic averages). Printed typo 'too difficult calculate' is
+    faithfully preserved in question.tex.
+  suggested_fix: null
+- id: IB/markov-chains/sheet-2/qx05
+  stratum: sheet
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_markov-chains_sheet-2_qx05.md
+  check_script: rework/IB_markov-chains_sheet-2_qx05_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 289341a31eeac6b3a542f4f84741baa98c3d7e98b1da74016fc04518485bcf58
+    solution.tex: e6c103d72c17f0be93a24d7558b404cc2debc13d8ecf85c7d9acfee531832639
+    rework.md: 59de4f8c3ee2d61718c3858b74332f2799c751702206d5434876b798d90a38f4
+    rework_check.py: 5b367f55c42f0dfd101ca6f73ad96619df21f1357b730ed3593d4e6c21c83095
+  details: 'Matches our blind rework completely: optimal flower spend x = 1/4 thousand pounds = £250/day
+    (maximum long-run net profit £250 per concert). Correctly handles the degenerate absorbing boundary
+    r = 0 separately, derives g(r) = ((3/2)r - r^2)/(1 + 2r), and proves global optimality on [0,1] via
+    the exact factorised derivative g''(r) = -2(r - 1/2)(r + 3/2)/(1 + 2r)^2.'
+  suggested_fix: null
+- id: IB/2004/P2/q11H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2004_P2_q11H.md
+  check_script: rework/IB_2004_P2_q11H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 6fcf41cb1971edf2486e068f4f20e79e849151aa86f663862729474810e53b60
+    solution.tex: 40f23020cc167e6b040a734d186978c21755ac7258835e1cbd329a40de248ae6
+    rework.md: 7be01f0a8cef047f71016e4a6dbe3e4e03206d417b2c76db5fe60939e8c171c2
+    rework_check.py: 1af683c91da030036a7bbc67e2bcb7cb381be86b5ca19c0a9ba99d61a1aec2c1
+  details: Correct time-reversal definition (equality of joint laws of (X_0,...,X_n) and (X_n,...,X_0))
+    and valid proof of both directions without dividing by pi_i (explicitly noting paths with a zero factor
+    are covered).
+  suggested_fix: null
+- id: IB/2009/P2/q20H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2009_P2_q20H.md
+  check_script: rework/IB_2009_P2_q20H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 9f011472713d169e4511c2f690d76105cc2bc9d0e4801524295f33b2cec990bd
+    solution.tex: 4277c417d74d1f2bbe3fc3110a7da9669ae5f0f40b2ad5fca3ffc8400d8f4fe9
+    rework.md: 5ec5e6d7b4fc5bb0a32d72c4a41157c9c7730ae45663c05936c57afc75a387e2
+    rework_check.py: 2dffb3e9b538902b1dcaac9b1e8b5531b940b98cb7b5878d41e3ab914fc4b787
+  details: 'All four parts match our blind rework cleanly: verifies (a) and (b) for h, proves g >= P~
+    g and iterates g >= P~^n g >= P~^n 1_B -> h without assuming boundedness, proves h_i^{(j)} = 1 for
+    irreducible recurrent P via repeated excursions along a fixed simple path, applies g >= g_j 1_{j}
+    to avoid any minimum-attained fallacy on infinite I, and proves the converse via positive-time return
+    probability sum_i p_{ji} h_i = 1.'
+  suggested_fix: null
+- id: IB/2017/P4/q9H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2017_P4_q9H.md
+  check_script: rework/IB_2017_P4_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 0024928c665674ef98b37007f864ee284b2bef78a9587803b0b06e51ee76b823
+    solution.tex: ec68a49de93fa3c39e94d48e7ff790ac1aca158765580a7e1987c1ee796217f5
+    rework.md: c070bc084e7e9fb0b90047cffbad133c2daa49b1793cc919e2caf3cd2183ecd8
+    rework_check.py: 1004cdefa3784174a45448383999289bced75649f98dd1cec8c7f421e0c471ca
+  details: 'Valid proof of transience of the 3D simple symmetric random walk: proves parity, derives the
+    exact multinomial decomposition, proves the balanced-triple maximiser via a/(b+1) > 1, correctly handles
+    all three residue classes n = 3k, 3k+1, 3k+2 with exact ratios (3k+1)/(3k+3) and (3k+2)/(3k+3), applies
+    Stirling''s formula to obtain p_{2n} = O(n^{-3/2}), deduces transience of the origin from sum p_k
+    < infinity, and extends to all vertices by translation invariance.'
+  suggested_fix: null
+- id: IB/2019/P4/q9H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2019_P4_q9H.md
+  check_script: rework/IB_2019_P4_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: ab2998f85edeb9db2e2fdd2d94ba648f01e4369e4361d03c80adb9425748298f
+    solution.tex: 26a8f8108f0be195968c3dc76e909be23507043326d43e45781e8532e991cdd2
+    rework.md: 8e12ae1e05f6080363147fe589212afe440b31022616b35aa863a99f7bb8e439
+    rework_check.py: 2fc8352022c897950955246e988a91c0a9694347ad988d470bb4a26538998a0a
+  details: 'Both parts match our blind rework: proves V = infinity a.s. and sum p_{vv}(n) = E_v V = infinity
+    in (a), derives P(X_n = Y_n) = p_{00}(2n) via independence, symmetry, and Chapman-Kolmogorov in (b),
+    justifies summing non-negative indicators (including n=0), and explicitly proves parity p_{00}(2n+1)=0
+    before invoking (a) and recurrence of 2D SSRW.'
+  suggested_fix: null
+- id: IB/2011/P2/q20H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2011_P2_q20H.md
+  check_script: rework/IB_2011_P2_q20H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: b69f459f553e39b0b5ff61cb8ec5a7ffa69d80be13ecfe956d70f07e7437038b
+    solution.tex: 4daadda05d404a4c8895cd9a1e3f4c6ce5a418f9cc7332c3b9cc6df632ffdfa8
+    rework.md: f0ef379890b556b6c2c1fde067df8bf6c3b2e812098ecef240ea8c51a5c9ca50
+    rework_check.py: faaee9c8540e36d7d131a7b527dc56b7dc1550475eb7548d339ab030b2005831
+  details: All four parts (i)-(iv) match our blind rework completely, including handling non-hitting paths
+    {H = infinity} in (i) via bounded monotone truncated products, explicit absorbing row P_{11} = 1 in
+    (ii), explicit base case i = 1 in (iii), and justifying V_N'(1) = E_N H via polynomial PGF (since
+    H <= N-1) including N = 1 in (iv).
+  suggested_fix: null
+- id: IB/2024/P3/q8H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2024_P3_q8H.md
+  check_script: rework/IB_2024_P3_q8H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 67af4ef3ff9173acaa8509708ad0ff80e332f4895b5c90f17d029a106610d7fd
+    solution.tex: 7b1e06a2f7b147297df898c9f2c13ef56ddccbfc4a89d3397ba3ce8ce743c5eb
+    rework.md: 43e77c0316f64733c00143bcbd252743da4b23f6abf8461ce03f531129852abf
+    rework_check.py: b8d80c5d44c25d33e17e5b5701cd16cb5ac4280e5421073d14a36c2f4578a68a
+  details: 'Exact classification and valid arguments: proves {X_n}, {S_n}, and {L_n} are time-homogeneous
+    Markov chains with exact transition probabilities, and disproves {K_n} using i.i.d. Bernoulli(1/2)
+    with positive-probability histories (K_1, K_2) = (0, 1) and (1, 1) yielding P(K_3=2 | ...) = 1/2 vs
+    0.'
+  suggested_fix: null
+- id: IB/2015/P3/q9H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2015_P3_q9H.md
+  check_script: rework/IB_2015_P3_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 7539050d7872f494222f95a43f27c9277bf35e02308493d979c58e83f66025a1
+    solution.tex: ff6a8e8fec6d63228daee53134ad958bdb62047911939b70adf49a134d1475b9
+    rework.md: 49942b71e56f43b511d80846be5d3ff79fddbff2a6b6978d90313b53e8b1c357
+    rework_check.py: d13b03e76529c10647977b85293443d80cde8cdf01f614913c22ac1430927023
+  details: 'Matches our blind rework completely: accurate definitions (explicitly allowing zero-step paths
+    for reflexivity), exact communicating classes ({1,3} closed; {2}, {4} open), exact P(N=n)=2^{-n} and
+    E(N)=2, and complete description of the evolution from X_0=2 (independent Geom(1/2) hold at 4 via
+    strong Markov, entry at 1, then fresh uniform choices from {1,3}).'
+  suggested_fix: null
+- id: IB/2013/P3/q9H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2013_P3_q9H.md
+  check_script: rework/IB_2013_P3_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 0f5ca5387f1cf02b5c4a607174322999950c04eff430522f0d5b63f0743671e2
+    solution.tex: 3e36cb6338108c6ab7f07e231e36b090dedadf6a2e9695ccb117bb7588a016df
+    rework.md: 97d25e17ccf7b7dae73df00d2f441ae13d46d39f3c12e172b14b2b458830bebc
+    rework_check.py: e9eea584fb15a6d640c2a27b3db680218329db326d46eaad1251336931531c2e
+  details: 'Matches our blind rework completely: proves detailed balance implies invariance, checks all
+    transition types (urn-1/2 addition-removal, inter-urn transfer, origin self-loop, zero pairs, and
+    boundary alpha=0), sums fixed total s=n via binomial theorem to get (1 - alpha/gamma)(alpha/gamma)^n,
+    verifies irreducibility for alpha > 0 (including beta=0) and positive recurrence before invoking the
+    time-average theorem, and handles alpha = 0 separately.'
+  suggested_fix: null
+- id: IB/2016/P4/q9H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2016_P4_q9H.md
+  check_script: rework/IB_2016_P4_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 6dc06b747874eed5bd55c654d5520ce2990e85b92b5ae42a33618b0355a0a18f
+    solution.tex: 4426917b839411b4c8a1de3d775c73d20222ff501281077a104fc7db2cbdb4b6
+    rework.md: 85a4430ad086e7a9668bf26fb288f4e49b813bfc18ffbc0ef8903fba245d86ac
+    rework_check.py: 4066276002c4d95e6c718dd45a64fae619b18ac39bcf2cef2cadcc9951e8416d
+  details: 'Both parts match our blind rework completely: notes k >= 1, gives exact transition probabilities
+    and irreducibility on {0,...,k}, proves detailed balance for pi_j = 2^{-k} binom(k,j) (hence stationarity
+    and reversibility), obtains E_0 T = 1/pi_0 = 2^k in (b), and correctly notes period 2 does not affect
+    the return-time formula (checking k=1).'
+  suggested_fix: null
+- id: IB/2021/P2/q18H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2021_P2_q18H.md
+  check_script: rework/IB_2021_P2_q18H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: a17e8c172b1cdb369fb2c3556847c408babcefaa8ef32f4ed2592b80563dfef7
+    solution.tex: 492d3b88057df83f3186b67e928c0c1420add63b8dde571f26ac8d63fbf79720
+    rework.md: dd89801b71260a2fcc2546245acb664f185d128e2a3f91adcda525a7d60adba1
+    rework_check.py: a3889ef9989a47f1ff3e15cb53a2256d52e31073edbc5c0edc5e3bfcd678cefe
+  details: 'Preamble, part (a), and all three parts of (b) match our blind rework completely: explicitly
+    states irreducibility is required in (a) (with a two-absorbing-state counterexample), verifies irreducibility
+    and detailed balance for w_i = p q^{2-i} (i >= 1) and Z = 1 + pq^2/(q-1), and obtains exact answers
+    (b)(i) q/(q^2-1), (b)(ii) 1/(pq) + q/(q-1), and (b)(iii) q^2/(q-1) via Z = 1 + p E_1 T_0.'
+  suggested_fix: null
+- id: IB/2012/P2/q20H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2012_P2_q20H.md
+  check_script: rework/IB_2012_P2_q20H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 1c4bd8e6f603f43fd604f2ec4858e53603d394908b720cdd501b8fcad2dd1b38
+    solution.tex: 92e03349bc42fe38f6977ded59e81b693fe486aca789ceabc2739a89f0ebef3f
+    rework.md: fb4c7d7b133b28f59524f304770a5b7988d3e3d1cb5b60d89ce4d5cd0ba4873f
+    rework_check.py: d578f47f3da46d63401d09dd308f89d558db9196d96ad4b6cb010e782826cec5
+  details: 'All five parts (i)-(v) match our blind rework completely (and stored diagram figures/random-walk-tree.png
+    was visually verified against the printed 10-vertex tree): (i) pi_i = d_i/(2e) unique by finite irreducibility;
+    (ii) path-reversal bijection on paths avoiding {i,j} internally; (iii) m_{33} = 6; (iv) valid tree-induction
+    proof of m_{ij} = 1 + 2 e_{ij}(i) (justifying finiteness); (v) commute time 18 d(i,j) in {18, 36,
+    54, 72}.'
+  suggested_fix: null
+- id: IB/2026/P3/q8H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2026_P3_q8H.md
+  check_script: rework/IB_2026_P3_q8H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 99c517b25b6b0cacd47ded5dd49a1fb5b59b082320738c6cbfe65f534a6f2c20
+    solution.tex: 11f89f96c178fa4a3d7bee26921ebbc6748be5ed90f02de3cfa6fda698b76712
+    rework.md: b2988906916c7a9b7e8316597b752097c18ef389f7de64eca9a3e2b128cf60ca
+    rework_check.py: 102d877daed0168ba0bf493b22afb1f73486ddf7f5c8703de01780dc02fb3051
+  details: 'All parts match our blind rework completely: accurate definitions (allowing zero-length paths),
+    communicating classes {1,2,3,6} (open, noting 3->2->1) and {4,5} (closed), and exact hitting probabilities
+    h_3 = 1/2, h_6 = 6/11, h_1 = 13/22.'
+  suggested_fix: null
+- id: IB/2021/P1/q19H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2021_P1_q19H.md
+  check_script: rework/IB_2021_P1_q19H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 7188bca7f517a62f6e93d1947fb22d218ebd47c7412b55bf5222d4c139ea16d1
+    solution.tex: ecc2c3ac48de3f085343b8c09baadabf0dabe2eab6a3a953c3f34b0afb021d30
+    rework.md: 6bcb7dfeff9315fa2d49f36965c9826f0582aed370d454e75f63b6ad59fcd98a
+    rework_check.py: cab11351ebcd21769a17c1188b87140eb1ccccf03e262d7a6d004726d4446fde
+  details: Mathematically valid proof and exact answers ((a) 2/3, (b) (5/6)(2/3)^{m-1}), with stored diagram
+    figures/unopoly-board.png visually verified against the printed Unopoly board. Every step of the embedded-increment
+    martingale + Optional Stopping + SLLN + Dominated Convergence argument is mathematically sound (including
+    uniform bound r^{-1} and m=1). Prominently flagged in style_observations because it relies heavily
+    on Part II Probability & Measure machinery outside the IB Markov Chains schedule instead of the standard
+    IB minimal-non-negative-solution method.
+  suggested_fix: null
+- id: IB/2019/P1/q20H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2019_P1_q20H.md
+  check_script: rework/IB_2019_P1_q20H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: ec5f4a1bc6583f2b150a3ee3adb62633fc4bbd1dd15da1d04d979c7922e09fe4
+    solution.tex: 819b2f4a2f8825e1d5cb77f0e5bed56f9e4ca5fade1edbcba0e6669c050977d5
+    rework.md: 6c6f04f3302cc70cc01ba62d3a5904ff6fedbaded465113af9696fa95ad0af32
+    rework_check.py: 4026aa4718935f2db621f01e667735cb6e85c895350edfeba920801e9c477248
+  details: 'All three parts match our blind rework completely: (a) P*(x,y) = pi(y)P(y,x)/pi(x) (noting
+    pi(x)>0 for finite irreducible chain); (b) E[T] = N; (c) exact distributional identification with
+    the stationary forward chain giving N - 1 expected cop moves (explicitly handling y = x as 0 cop moves
+    and distinguishing N - 1 cop moves from N total moves).'
+  suggested_fix: null
+- id: IB/2013/P1/q20H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2013_P1_q20H.md
+  check_script: rework/IB_2013_P1_q20H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: b0877f3ed981fb5abd4c90b813e62c993e46615edb05fa33bda43c6463c597bd
+    solution.tex: d19dff3beba5cc32136dddc6a987c1d159bfccee6622f8173064e0046aa7e29b
+    rework.md: 4d13ed3b85493504af213758f90d965765cf99a0df8558b62853e0505440b6cb
+    rework_check.py: 3d5d695deb0a5bcbe186e50bf25b973f32d856d081c10e862150418410a4d80c
+  details: 'All parts match our blind rework completely: 6-edge multigraph (3 ab, 2 ac, 1 bc; degrees
+    5,4,3), (i) k(a,a)=12/5 and k(a,b)=21/11, (ii) 128/11 with geometric-tail finiteness justification,
+    and (iii) path reversal giving E tau(a,b) = E tau(b,a), strong Markov giving E tau(a,b) = E H_a +
+    k(a,b), and careful handling of the diagonal cancellation pi_a k(a,a) = pi_b k(b,b) = 1.'
+  suggested_fix: null
+- id: IB/2014/P4/q9H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2014_P4_q9H.md
+  check_script: rework/IB_2014_P4_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: 5c2d32241c138e2809ec5e1713f92059552665b74ce0f4ee2a1e124394365a83
+    solution.tex: 2e66b88b79427ede600fa4cb5dd569d7e3c43568f770de62f64aff11dc12c4d8
+    rework.md: 43db4dd28604849365c41c882508051b702b1028910002e7c048b4bcb4393d4b
+    rework_check.py: 9e6711ef5d45e517deb5231e918b459c590ddf867458bbeb44d74f61c1da89cf
+  details: 'Both parts match our blind rework completely: (a) W_n = X_{2n} is homogeneous Markov with
+    matrix P^2 and P(W_1=0) = sum_i lambda_i sum_k p_{ik} p_{k0}; (b)(i) p_{-1,0}, (b)(ii) p_{1,0}, concluding
+    Y_n = |X_n| need not be Markov and even flagging the hidden positivity assumption with both a degenerate
+    counterexample and an explicit non-degenerate example at n=2.'
+  suggested_fix: null
+- id: IB/2008/P2/q20H
+  stratum: tripos
+  verdict: agree
+  transcription: ok
+  rework_file: rework/IB_2008_P2_q20H.md
+  check_script: rework/IB_2008_P2_q20H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: a8368826bcf2eed73e46753e14177b9e7f628cede7acf639d19d67832f24efbb
+    solution.tex: 129389200911754ce2fb0d103ebfee3a99758f59a5b3f636e6606ed7f75f2396
+    rework.md: 08ebc69b5cedf2d9329125d0996bcafccf8cd1927fe6560be62d30860f015796
+    rework_check.py: 07da69c166f11e77f21e61c7c105dfd5dd0f49b1349fdb01d9871e993284da0e
+  details: 'Both parts match our blind rework cleanly: verifies irreducibility, establishes almost-sure
+    finite interval exit, derives h_1 = (1 + sum_{n=1}^{N-1} prod_{r=1}^n q_r/p_r)^{-1}, justifies the
+    N -> infinity limit up to the null finite-interval event, connects h_1 to state 0 via q_0 and p_0>0,
+    and in Part 2 proves pi P = pi <=> pi_{i-1} p_{i-1} = pi_i q_i by induction and converse summation
+    to obtain the positive-recurrence criterion.'
+  suggested_fix: null
+- id: IB/2016/P3/q9H
+  stratum: tripos
+  verdict: minor
+  transcription: ok
+  rework_file: rework/IB_2016_P3_q9H.md
+  check_script: rework/IB_2016_P3_q9H_check.py
+  check_exitcode: 0
+  hashes:
+    question.tex: bf61a6f3ac187195038aab328a5877ad81a2e552588b1e4ecb246b321c56f416
+    solution.tex: 641e40f9a33577d74346397855dff3a8117ac07fe022a42d4df266709b7ada7e
+    rework.md: 0a141106404a1d5b59a213f92f9ca51421e48341c36bd5b22815fe49a8c7bd5d
+    rework_check.py: e436463bcb114a85053ad55cc6fa4f89d7933b92b469ff0085f56d36fa0c551d
+  details: 'Final result and proof outline (via N = sum_{n>=0} 1_{X_n=i}, P_i(N >= k) = r^{k-1}, monotone
+    convergence, and cases r < 1 including r = 0 vs r = 1) are correct. However, the question''s sole
+    substance is proving the geometric visit identity from the strong Markov property, and the stored
+    solution omits the stopping-time definition and verification. Exact quoted step in solution.tex: ''Given
+    the kth visit when it occurs, the strong Markov property shows that the probability of another visit
+    is r. Induction from the visit at zero therefore gives \mathbb P_i(N\ge k)=r^{k-1} for k\ge1.'' Problems
+    a Cambridge supervisor would mark down: (1) never defines the kth visit/return time T_i^{(k)} nor
+    checks that it is a stopping time (with X_{T_i^{(k)}} = i on {T_i^{(k)} < \infty}) before invoking
+    the strong Markov property; (2) omits the inductive calculation P_i(T_i^{(k)} < \infty) = P_i(T_i^{(k)}
+    < \infty | T_i^{(k-1)} < \infty) P_i(T_i^{(k-1)} < \infty) and leaves the zero-probability conditioning
+    case r = 0 (and 0^0 convention at k=1) unaddressed.'
+  suggested_fix: |-
+    Define the successive visit times to $i$ inductively by $T_i^{(0)} = 0$ and $T_i^{(r+1)} = \inf\{n > T_i^{(r)} : X_n = i\}$ for $r \ge 0$ (with $\inf\emptyset = \infty$). For each $r \ge 1$ and $n \ge 0$, the event $\{T_i^{(r)} = n\} = \{X_n = i,\, \sum_{m=1}^{n-1}\mathbf{1}_{\{X_m=i\}} = r-1\}$ depends only on $(X_0, \ldots, X_n)$, so every $T_i^{(r)}$ is a stopping time, and on $\{T_i^{(r)} < \infty\}$ we have $X_{T_i^{(r)}} = i$.
+
+    Let $f_i = \mathbb{P}_i(T_i^{(1)} < \infty)$. We prove by induction that $\mathbb{P}_i(T_i^{(r)} < \infty) = f_i^r$ for all $r \ge 1$ (and $\mathbb{P}_i(T_i^{(0)} < \infty) = 1$). The case $r = 1$ holds by definition. Assume the claim for $r \ge 1$. Since $\{T_i^{(r+1)} < \infty\} \subseteq \{T_i^{(r)} < \infty\}$, if $\mathbb{P}_i(T_i^{(r)} < \infty) = 0$ then $f_i = 0$ and $\mathbb{P}_i(T_i^{(r+1)} < \infty) = 0 = f_i^{r+1}$. Otherwise $\mathbb{P}_i(T_i^{(r)} < \infty) > 0$, and by the strong Markov property applied at $T_i^{(r)}$, conditional on $\{T_i^{(r)} < \infty\}$ the shifted chain $(X_{T_i^{(r)}+m})_{m\ge0}$ has the law of the chain started at $i$, so $\mathbb{P}_i(T_i^{(r+1)} < \infty \mid T_i^{(r)} < \infty) = f_i$ and hence $\mathbb{P}_i(T_i^{(r+1)} < \infty) = f_i \cdot f_i^r = f_i^{r+1}$.
+
+    For every $n \ge 0$, $\{X_n = i\}$ is the disjoint union $\bigsqcup_{r=0}^{\infty}\{T_i^{(r)} = n\}$. By countable additivity and interchanging the sum of non-negative terms,
+    \[
+    \sum_{n=0}^{\infty}\mathbb{P}_i(X_n = i) = \sum_{r=0}^{\infty}\sum_{n=0}^{\infty}\mathbb{P}_i(T_i^{(r)} = n) = \sum_{r=0}^{\infty}\mathbb{P}_i(T_i^{(r)} < \infty) = 1 + \sum_{r=1}^{\infty} f_i^r.
+    \]
+    Since $\mathbb{P}_i(X_n \ne i\text{ for all }n \ge 1) = 1 - f_i$, if $0 \le f_i < 1$ this equals $1/(1 - f_i)$, while if $f_i = 1$ it equals $+\infty = 1/0$.
+style_observations:
+  summary: 'Although mathematical accuracy is very high (0/29 substantive errors, 0/29 transcription errors),
+    three systematic style issues recur across the stored solutions and should be addressed in a later
+    style pass against private/raw/schedules/schedules-2025-26.pdf and templates/STYLE.md: (1) occasional
+    use of Part II Probability & Measure tools (most prominently martingales, Optional Stopping, SLLN,
+    Dominated Convergence, and sigma-algebra filtrations/tower property) where clean IB Markov Chains
+    proofs exist; (2) heavy prose compression on Section II (20-mark) Tripos questions, omitting intermediate
+    algebra and displayed equations that a Cambridge supervisor expects to see; (3) minor notation, labelling,
+    and spelling drift relative to templates/STYLE.md.'
+  methods_outside_ib_schedule:
+  - id: IB/2021/P1/q19H
+    severity: high_style
+    observation: 'Heaviest off-schedule drift in the sample: uses natural sigma-algebra filtration F_n
+      = sigma(X_0,...,X_n), an exponential martingale r^{S_j}, the Optional Stopping Theorem, the Strong
+      Law of Large Numbers, and the Dominated Convergence Theorem (all Part II Probability & Measure /
+      Stochastic Financial Models) to prove P_{(2,m)}(hit (2,m-1)) = 2/3. The native IB Markov Chains
+      proof uses the cubic alpha = 1/2 + (1/8)alpha^2 + (3/8)alpha^3 from the strong Markov property together
+      with the minimal non-negative solution of the hitting probability equations (exhibited explicitly
+      by g(2,k)=(2/3)^k, g(4,k)=(1/2)(2/3)^k, g(1,k)=(5/4)(2/3)^k for k>=1, ruling out alpha = 1 in 5
+      lines).'
+  - id: IB/markov-chains/sheet-1/q03
+    severity: medium_style
+    observation: Uses filtrations F_n, G_r and the tower property of conditional expectation E[P(X_{n_{r+1}}=j
+      | F_{n_r}) | G_r] (Part II Probability & Measure). The IB Markov Chains proof sums finite-dimensional
+      joint probabilities over intermediate states directly.
+  - id: IB/2014/P4/q9H
+    severity: low_style
+    observation: Part (a) implicitly invokes the tower property ('Conditioning again on just the even-time
+      history') instead of summing joint probabilities over odd-time states, and does not explicitly state
+      the quoted course results despite the question's rubric note.
+  - ids:
+    - IB/markov-chains/sheet-2/qx05
+    - IB/markov-chains/sheet-2/qx06
+    - IB/2013/P3/q9H
+    severity: note
+    observation: Invoke the ergodic theorem ('Long-run proportion of time spent in given state'), which
+      is starred (unexaminable) on the 2025-26 IB Markov Chains schedule, though standard in Norris §1.10
+      and directly prompted by these older (2012-13 / 2013) questions.
+  - ids:
+    - IB/2016/P3/q9H
+    - IB/2019/P4/q9H
+    - IB/2021/P2/q18H
+    severity: note
+    observation: Cite the Monotone Convergence Theorem by name when interchanging expectation and infinite
+      sums of non-negative indicators/terms. While standard shorthand in IB Markov Chains notes (Norris),
+      MCT is formally Part II Measure Theory; Tonelli for non-negative double series or elementary partial-sum
+      bounds avoid invoking measure theory.
+  skipped_supervisor_steps:
+  - ids:
+    - IB/2008/P2/q20H
+    - IB/2009/P2/q20H
+    - IB/2011/P2/q20H
+    - IB/2012/P2/q20H
+    - IB/2013/P1/q20H
+    - IB/2019/P1/q20H
+    - IB/2021/P1/q19H
+    observation: 'Systematic compression on Section II (20-mark) Tripos solutions: several solutions compress
+      a full 20-mark proof into 5-14 lines of dense prose with almost no displayed equations. Specific
+      examples a supervisor would want expanded: telescoping sums and stationarity equations in 2008/P2/q20H;
+      displayed induction for g >= P~^n g and excursion strong-Markov argument in 2009/P2/q20H; explicit
+      product-rule differentiation at s=1 in 2011/P2/q20H; explicit algebraic simplification of d_i +
+      sum_c (1 + 2 e_{ci}(c)) = 1 + 2 e_{ij}(i) in 2012/P2/q20H; intermediate linear-system solves in
+      2013/P1/q20H; explicit joint distribution equation P(R=y, C_0=x_0, ..., C_k=x_k) = P(X_0=y, X_1=x_0,
+      ..., X_{k+1}=x_k) in 2019/P1/q20H; explicit state space {1,2,4}x{0,1,...} and path-probability derivation
+      for Y in 2021/P1/q19H.'
+  - id: IB/markov-chains/sheet-1/qx12
+    observation: Does not reproduce the 5x5 matrix P from Example 8 (located on page 2 of 2010-11/sheet-1.pdf,
+      whereas the unit locator lists only page [3]). Reproducing P (or its rows/classes) would make the
+      standalone unit self-contained, and updating source.pages to [2, 3] would aid traceability.
+  - id: IB/markov-chains/sheet-2/qx05
+    observation: Invokes the ergodic theorem for r > 0 without explicitly writing 'the 2-state chain is
+      irreducible and finite (hence positive recurrent) for r > 0'.
+  - id: IB/markov-chains/sheet-2/qx06
+    observation: Asserts 'This realizes Q' without the 2-line verification that p_{ij} a_{ij} = q_{ij}
+      for j != i and p_{ii} + sum_{j!=i} p_{ij}(1 - a_{ij}) = q_{ii}.
+  - id: IB/2013/P3/q9H
+    observation: Skips displaying the factorial cancellation verifying detailed balance for inter-urn
+      transfers lambda_{i,j} (beta i / s) = lambda_{i-1,j+1} (beta (j+1) / s).
+  - id: IB/2016/P4/q9H
+    observation: Verifies irreducibility in (a) but does not explicitly add 'hence pi is unique' before
+      concluding reversibility in equilibrium.
+  - id: IB/2017/P4/q9H
+    observation: Quotes Stirling's formula asymptotics O(k^{-1}) and O(n^{-1/2}) without showing the 1-line
+      algebraic substitution or explicitly naming the comparison test with sum n^{-3/2} < infinity.
+  - id: IB/2019/P4/q9H
+    observation: Part (a) bypasses the question's provided hint (geometric distribution of returns) and
+      invokes the strong Markov property at successive visits without defining the return stopping times.
+  - id: IB/2021/P2/q18H
+    observation: Asserts non-negative holding probabilities for q >= 2 without the 1-line bound q^{-i}
+      + q^{-(i+2)} <= 1/2 + 1/8 = 5/8 < 1.
+  - id: IB/2026/P3/q8H
+    observation: States h_4 = h_5 = 0 immediately after showing {4,5} is closed without explicitly writing
+      'since {4,5} is closed and does not contain 2' (and omits the 2-line substitution for h_1 = 13/22).
+  - id: IB/2004/P2/q11H
+    observation: Writes 'for every n' instead of 'for every n >= 1' (or n >= 0) and describes moving pi
+      across the product verbally without displaying one intermediate telescoping equality.
+  notation_and_style_drift:
+  - category: Missing or non-matching part labels (STYLE.md §2)
+    ids:
+    - IB/markov-chains/sheet-2/qx01
+    - IB/2011/P2/q20H
+    - IB/2024/P3/q8H
+    observation: Answers multi-part questions ((i)/(ii)/(iii) or (i)-(iv)) in unlabelled paragraphs instead
+      of matching the question's explicit part labels.
+  - category: Bold headings/labels inside solutions (STYLE.md §2, §6)
+    ids:
+    - IB/markov-chains/sheet-1/q04
+    - IB/markov-chains/sheet-2/q14
+    - IB/2014/P4/q9H
+    observation: Uses \textbf{...} for subheadings or part labels instead of plain labels / enumerate.
+  - category: Hitting time vs hitting probability symbol clash (STYLE.md §7)
+    ids:
+    - IB/markov-chains/sheet-2/qx01
+    - IB/2013/P1/q20H
+    observation: Uses h_k / h_i for expected hitting times, whereas standard IB Markov Chains / Norris
+      notation reserves h_i for hitting probabilities and uses k_i for mean hitting times.
+  - category: Probability operator inconsistency (STYLE.md §5)
+    ids:
+    - IB/markov-chains/sheet-2/q11
+    - IB/2021/P1/q19H
+    observation: Uses \Pr(...) instead of \mathbb{P}(...) (whereas q11's question itself uses \mathbb{P}).
+      Similarly, 2021/P2/q18H defines T_k^+ in (a) then writes T_0 without the + superscript in (b)(iii).
+  - category: Non-standard IB terminology
+    ids:
+    - IB/markov-chains/sheet-2/q14
+    - IB/2009/P2/q20H
+    observation: Uses 'kernel', 'positive kernel', 'probability law', 'stationary mass', and 'cut fluxes'
+      where standard IB Markov Chains (Norris) uses 'transition/stochastic matrix', 'invariant distribution',
+      and 'communicating class'.
+  - category: American spelling (STYLE.md §1 specifies British spelling)
+    ids:
+    - IB/markov-chains/sheet-2/q14
+    - IB/markov-chains/sheet-2/qx06
+    - IB/2012/P2/q20H
+    - IB/2021/P2/q18H
+    observation: Uses 'normalization', 'normalized', 'normalizing', 'normalizable', 'realizes' instead
+      of British 'normalisation', 'normalised', 'normalising', 'normalisable', 'realises'.
+  - category: Meta-commentary on the question text (STYLE.md §1)
+    ids:
+    - IB/markov-chains/sheet-1/q03
+    observation: Final paragraph ('The source calls every n_r positive but then specifies n_r=2r...')
+      comments on the source wording rather than simply stating the proof for non-negative integers.
