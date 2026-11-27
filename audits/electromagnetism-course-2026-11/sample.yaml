@@ -1,0 +1,110 @@
+course: IB/electromagnetism
+population: 115
+strata:
+  sheet:
+    population: 1
+    sampled: 1
+  tripos:
+    population: 114
+    sampled: 23
+seed: 20261206
+method: random.Random(seed).sample per stratum (sheet, then tripos), each ceil(20%),
+  population sorted by id; population = ai-draft units with course or also_courses
+  equal to the course
+sample:
+- id: IB/methods/sheet-3/qx12
+  unit_dir: courses/IB/methods/sheets/sheet-3/qx12
+  packet: packets/IB_methods_sheet-3_qx12.md
+  rework: rework/IB_methods_sheet-3_qx12.md
+- id: IB/2023/P2/q4D
+  unit_dir: tripos/IB/2023/P2/q4D
+  packet: packets/IB_2023_P2_q4D.md
+  rework: rework/IB_2023_P2_q4D.md
+- id: IB/2010/P3/q17C
+  unit_dir: tripos/IB/2010/P3/q17C
+  packet: packets/IB_2010_P3_q17C.md
+  rework: rework/IB_2010_P3_q17C.md
+- id: IB/2020/P2/q5D
+  unit_dir: tripos/IB/2020/P2/q5D
+  packet: packets/IB_2020_P2_q5D.md
+  rework: rework/IB_2020_P2_q5D.md
+- id: IB/2026/P2/q16D
+  unit_dir: tripos/IB/2026/P2/q16D
+  packet: packets/IB_2026_P2_q16D.md
+  rework: rework/IB_2026_P2_q16D.md
+- id: IB/2011/P4/q7C
+  unit_dir: tripos/IB/2011/P4/q7C
+  packet: packets/IB_2011_P4_q7C.md
+  rework: rework/IB_2011_P4_q7C.md
+- id: IB/2017/P3/q17C
+  unit_dir: tripos/IB/2017/P3/q17C
+  packet: packets/IB_2017_P3_q17C.md
+  rework: rework/IB_2017_P3_q17C.md
+- id: IB/2024/P4/q5C
+  unit_dir: tripos/IB/2024/P4/q5C
+  packet: packets/IB_2024_P4_q5C.md
+  rework: rework/IB_2024_P4_q5C.md
+- id: IB/2012/P3/q17B
+  unit_dir: tripos/IB/2012/P3/q17B
+  packet: packets/IB_2012_P3_q17B.md
+  rework: rework/IB_2012_P3_q17B.md
+- id: IB/2013/P3/q17D
+  unit_dir: tripos/IB/2013/P3/q17D
+  packet: packets/IB_2013_P3_q17D.md
+  rework: rework/IB_2013_P3_q17D.md
+- id: IB/2023/P1/q15D
+  unit_dir: tripos/IB/2023/P1/q15D
+  packet: packets/IB_2023_P1_q15D.md
+  rework: rework/IB_2023_P1_q15D.md
+- id: IB/2010/P1/q16C
+  unit_dir: tripos/IB/2010/P1/q16C
+  packet: packets/IB_2010_P1_q16C.md
+  rework: rework/IB_2010_P1_q16C.md
+- id: IB/2004/P2/q18B
+  unit_dir: tripos/IB/2004/P2/q18B
+  packet: packets/IB_2004_P2_q18B.md
+  rework: rework/IB_2004_P2_q18B.md
+- id: IB/2015/P2/q6A
+  unit_dir: tripos/IB/2015/P2/q6A
+  packet: packets/IB_2015_P2_q6A.md
+  rework: rework/IB_2015_P2_q6A.md
+- id: IB/2020/P1/q16D
+  unit_dir: tripos/IB/2020/P1/q16D
+  packet: packets/IB_2020_P1_q16D.md
+  rework: rework/IB_2020_P1_q16D.md
+- id: IB/2011/P3/q17C
+  unit_dir: tripos/IB/2011/P3/q17C
+  packet: packets/IB_2011_P3_q17C.md
+  rework: rework/IB_2011_P3_q17C.md
+- id: IB/2005/P2/q17H
+  unit_dir: tripos/IB/2005/P2/q17H
+  packet: packets/IB_2005_P2_q17H.md
+  rework: rework/IB_2005_P2_q17H.md
+- id: IB/2015/P3/q17A
+  unit_dir: tripos/IB/2015/P3/q17A
+  packet: packets/IB_2015_P3_q17A.md
+  rework: rework/IB_2015_P3_q17A.md
+- id: IB/2016/P2/q6D
+  unit_dir: tripos/IB/2016/P2/q6D
+  packet: packets/IB_2016_P2_q6D.md
+  rework: rework/IB_2016_P2_q6D.md
+- id: IB/2020/P2/q15D
+  unit_dir: tripos/IB/2020/P2/q15D
+  packet: packets/IB_2020_P2_q15D.md
+  rework: rework/IB_2020_P2_q15D.md
+- id: IB/2012/P1/q16B
+  unit_dir: tripos/IB/2012/P1/q16B
+  packet: packets/IB_2012_P1_q16B.md
+  rework: rework/IB_2012_P1_q16B.md
+- id: IB/2019/P4/q7A
+  unit_dir: tripos/IB/2019/P4/q7A
+  packet: packets/IB_2019_P4_q7A.md
+  rework: rework/IB_2019_P4_q7A.md
+- id: IB/2024/P2/q16C
+  unit_dir: tripos/IB/2024/P2/q16C
+  packet: packets/IB_2024_P2_q16C.md
+  rework: rework/IB_2024_P2_q16C.md
+- id: IB/2007/P3/q17E
+  unit_dir: tripos/IB/2007/P3/q17E
+  packet: packets/IB_2007_P3_q17E.md
+  rework: rework/IB_2007_P3_q17E.md
